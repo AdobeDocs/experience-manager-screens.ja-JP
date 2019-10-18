@@ -4,7 +4,7 @@ seo-title: AEM Screensプロジェクトの役割と責任
 description: このページでは、AEM Screensのプロジェクトの役割と責任について説明します。
 seo-description: このページでは、AEM Screensのプロジェクトの役割と責任について説明します。
 translation-type: tm+mt
-source-git-commit: f01b69b860a3862e2b46f11b2d9b95dede742d9c
+source-git-commit: fe5a340e817488dc4c3a92d607c990756ac259b6
 
 ---
 
@@ -161,7 +161,7 @@ Digital Signageの導入を成功させるために、通常はプロジェク�
 | *2日目：起動後のサポート* |
 | 役割・責任に関する協定 | RA | RA | RA |
 | 階層1のサポート | I | I | RA |
-| 階層1のサポート | I | C | RA |
-| 階層1のサポート | I | RA | C |
+| 階層2のサポート | I | C | RA |
+| 階層3のサポート | I | RA | C |
 | コンテンツ更新 | RA | I | I |
 | UXの成功を評価し、改善の領域を特定する | RA | C | I |

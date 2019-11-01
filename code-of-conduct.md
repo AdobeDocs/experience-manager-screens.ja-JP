@@ -1,6 +1,6 @@
 ---
 source-git-commit: 26214b3a0c8510a66a340e8f9566aeb4692a23d7
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # アドビの行動規範
@@ -45,5 +45,4 @@ translation-type: tm+mt
 
 ## 帰属
 
-This Code of Conduct is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
-available at [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+この行動規範は、[/version/](https://contributor-covenant.org)/1/4/ にある [Contributor Covenant](https://contributor-covenant.org/version/1/4/)https://contributor-covenant.org バージョン 1.4 を基に作成されています。

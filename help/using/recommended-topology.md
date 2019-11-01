@@ -1,14 +1,14 @@
 ---
-title: 推奨トポロジ
-seo-title: AEM Screensプロジェクトでの推奨トポロジ
-description: このページでは、AEM Screensプロジェクトで推奨されるトポロジについて説明します。
-seo-description: このページでは、AEM Screensプロジェクトで推奨されるトポロジについて説明します。
-translation-type: tm+mt
+title: 推奨されるトポロジ
+seo-title: AEM Screens プロジェクトで推奨されるトポロジ
+description: ここでは、AEM Screens プロジェクトで推奨されるトポロジについて説明します
+seo-description: ここでは、AEM Screens プロジェクトで推奨されるトポロジについて説明します
+translation-type: ht
 source-git-commit: 92ac8da9222921074c63b7fec41d0a0c6317415a
 
 ---
 
 
-# 推奨トポロジ {#recommended-topology}
+# 推奨されるトポロジ {#recommended-topology}
 
-概要.
+概要。

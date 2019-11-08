@@ -3,7 +3,7 @@ title: ベンダーエンゲージメント
 seo-title: AEM Screens のベンダーエンゲージメント
 description: ここでは、AEM Screens ベストプラクティスガイドにおける「ベンダーエンゲージメント」について説明します
 seo-description: ここでは、AEM Screens ベストプラクティスガイドにおける「ベンダーエンゲージメント」について説明します
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fb13c72f0ab841e075ab3cf6918d872949739609
 
 ---

@@ -2,9 +2,9 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Adobe Experience Manager Screens 6.5 Help
+user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: bc3c14ded553d2675865a6dcf8a1f71de501cd33
+source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
 
 ---
 
@@ -22,13 +22,14 @@ source-git-commit: bc3c14ded553d2675865a6dcf8a1f71de501cd33
    + [パート4:プロジェクトの管理と導入](project-management-and-deployment.md)
    + [パート5:サポートに関する考慮事項](support-considerations.md)
 + 管理 {#administering}
-   + [AEM Screensサーバー設定の指定](configuring-screens-introduction.md)
-   + [AEM Screens playerの設定](working-with-screens-player.md)
+   + [画面サーバーの設定](configuring-screens-introduction.md)
    + [ディスパッチャー設定の設定](dispatcher-configurations-aem-screens.md)
-   + [ACL の設定](setting-up-acls.md)
+   + [Screens Player のインストール](installing-screens-player.md)
+   + [接続画面プレイヤーアプリ](working-with-screens-player.md)
    + [デバイスの登録](device-registration.md)
+   + [ACL の設定](setting-up-acls.md)
    + [ContentSyncからSmartSyncへの移行](smartsync.md)
-   + AEM Screens Player {#screens-player}
+   + クライアントのインストール {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [トラブルシューティング用の拡張機能としてのChrome playerの使用](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)

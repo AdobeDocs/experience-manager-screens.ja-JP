@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
 
 ---
 
@@ -19,33 +19,6 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 # Configuring and Deploying AEM Screens {#configuring-and-deploying-aem-screens}
 
 このページでは、デバイスに Screens Player をインストールして設定する方法について説明します。
-
-## AEM Screens playerのインストール {#installing-aem-screens-player}
-
-AEM Screensプレーヤーは、Android、Chrome OS、iOSおよびWindowsで使用できます。
-
-AEM Screens Playerをダウンロ **ードするには**、 [**AEM 6.5 Playerのダウンロードページにアクセスします**](https://download.macromedia.com/screens/) 。
-
->[!NOTE]
->
->最新のプレーヤー(*.exe*)をダウンロードしたら、プレーヤー上の手順に従ってアドホックインストールを完了します。
->
->1. 左上隅を長押しして、管理パネルを開きます。
->1. 左側のアクシ **ョンメニューから「** Configuration **」に移動し、「** Server **」にAEMインスタンスの場所のアドレスを入力し、「** Save」をクリックします。
->1. 左側のアクションメ **ニューの** 「Registration」リンクをクリックし、以下の手順でデバイスの登録プロセスを完了します。
->
-
-
-
-### その他のリソース {#additional-resources}
-
-詳細については、次のトピックを参照してください。
-
-* Android Playerをダウンロードするには、 **Google playにアクセスします**。 Android Watchdogの実装について詳しくは、Androidプレーヤーの実装を [参照してください](implementing-android-player.md)。
-
-* Chrome OS playerを実装するには、 [Chrome Management Consoleを参照してください](implementing-chrome-os-player.md) 。
-
-* AEM Screens Windows playerを設定するには、『Windows playerの実装』を [参照してください](implementing-windows-player.md)。
 
 ## サーバーの設定 {#server-configuration}
 

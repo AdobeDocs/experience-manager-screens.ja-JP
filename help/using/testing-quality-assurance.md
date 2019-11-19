@@ -4,7 +4,7 @@ seo-title: AEM Screens のテストと品質保証
 description: ここでは、AEM Screens ベストプラクティスガイドにおける「テストと品質保証」について説明します
 seo-description: ここでは、AEM Screens ベストプラクティスガイドにおける「テストと品質保証」について説明します
 translation-type: tm+mt
-source-git-commit: 2301922de9638ffb5586202d1631d0fa4754aecc
+source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
 
 ---
 
@@ -54,7 +54,7 @@ AEM Screensには、Screens playerアプリケーションのエンドポイン�
 これは、Screens playerアプリケーシ *ョンがインストールされ* 、AEMのインスタンスに登録されているプレーヤーハードウェアデバイスを指します。
 このモジュールでは、次の操作を行うことができます。
 
-1. アプリケーションエラーログの監視
+1. プレーヤーアプリケーションエラーログの監視
 1. リモートのスクリーンショットの管理
 1. コンテンツダウンロードの管理
 1. アプリケーションの再起動に関する問題の管理
@@ -66,8 +66,8 @@ Device Control Centerの詳細については、『 ****** AEM Screens User Guid
 >
 > 1. 新しいバージョンのPlayerアプリケーションのインストール
 > 1. システムレベルのリソースの監視
-> 1. システムレベル設定の設定
-> 1. リモートデスクトップの介入を許可します。
+> 1. システムレベルエラーのトラブルシューティング
+> 1. リモートデスクトップ操作を許可する
 
 
 
@@ -80,6 +80,6 @@ Device Control Centerの詳細については、『 ****** AEM Screens User Guid
 
 * Google Chromeデバイス管理
 * TeamViewer
-* AirWatch42
-* ギア
-* ソティ
+* AirWatch
+* 42Gears
+* 専用AVインテグレータ・ミドルウェア

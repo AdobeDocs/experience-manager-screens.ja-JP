@@ -4,7 +4,7 @@ seo-title: AEM Screens のテストと品質保証
 description: ここでは、AEM Screens ベストプラクティスガイドにおける「テストと品質保証」について説明します
 seo-description: ここでは、AEM Screens ベストプラクティスガイドにおける「テストと品質保証」について説明します
 translation-type: tm+mt
-source-git-commit: 86f01fbe2ae7750ad961df0693e72a84d785344e
+source-git-commit: 2301922de9638ffb5586202d1631d0fa4754aecc
 
 ---
 
@@ -57,7 +57,7 @@ AEM Screensには、Screens playerアプリケーションのエンドポイン�
 1. アプリケーションエラーログの監視
 1. リモートのスクリーンショットの管理
 1. コンテンツダウンロードの管理
-1. アプリケーションの再起動
+1. アプリケーションの再起動に関する問題の管理
 
 Device Control Centerの詳細については、『 ****** AEM Screens User Guide [』の「Troubleshooting Device Control](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) Center **」を参照**&#x200B;してください。
 

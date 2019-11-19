@@ -1,0 +1,133 @@
+---
+title: ライブコピーの作成と管理
+seo-title: ライブコピーの管理
+description: このページでは、チャネルのライブコピーの作成および管理を説明します。
+seo-description: このページに従って、チャネルのライブコピーの作成、プロパティの表示、ステータスの確認、チャネルからそのライブコピーへの変更の反映をおこないます。
+uuid: 78ec7219-95ab-44d1-9514-1b97aded5bf4
+contentOwner: jyotika syal
+content-type: reference
+products: SG_EXPERIENCEMANAGER/6.5/SCREENS
+topic-tags: authoring
+discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
+translation-type: tm+mt
+source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+
+---
+
+
+# ライブコピーの作成と管理 {#creating-and-managing-a-live-copy}
+
+このページでは、チャネルのライブコピーの作成および管理を説明します。
+
+A ***Live Copy*** is a copy of specific site content for which a live relationship with the original source is maintained. このライブ関係により、ライブコピーはソースからコンテンツおよびページプロパティを継承できます。
+
+このページでは、チャネルのライブコピーの作成、プロパティの表示、ステータスのチェック、チャネルからライブコピーへの変更の反映について説明します。
+
+
+## ライブコピーの作成 {#creating-a-live-copy}
+
+以下の手順に従って、プロジェクトフォルダーの中のチャネルのライブコピーを作成します。
+
+1. Adobe Experience Manager リンク（左上）を選択し、**Screens** を選択します。Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
+
+1. Navigate to Screens project and click **Channels**.
+1. Click **Create** and select **Live Copy** to create a live copy of the channel.
+
+1. 宛先を選択して、「**次へ**」をクリックします。
+1. ライブコピーを作る場所を選択します。
+1. **タイトル**&#x200B;および&#x200B;**名前を****ライブコピーの作成**&#x200B;ページに入力します。
+
+1. 「**開く**」をクリックして、新しいライブコピーのコンテンツを表示するか、「**完了**」をクリックしてメインページに戻ります。
+
+また、チャネルの新しいライブコピーを作成するためのビジュアル表現用の下の手順を参照してください。
+
+The following example shows the creation of a live copy (***IdleLiveCopy***) for ***Idle Channel*** with destination folder as ***Channels***.
+
+![chlimage_1-2](assets/chlimage_1-2.gif)
+
+## ライブコピーチャネルのコンテンツを表示 {#viewing-content-of-the-live-copy-channel}
+
+ライブコピーは、既に存在するチャネルのコピーです。
+
+ライブコピーのコンテンツを表示するには、次の手順を参照してください。
+
+1. スクリーンプロジェクトに移動して、上のセクションで示されているように、最初にライブコピーを作成した場所をクリックします(Here, the location was chosen as **Channels** folder)
+
+   ![チリメージ_1-18](assets/chlimage_1-18.png)
+
+1. アクションバーの「**編集**」をクリックして、チャネルのコンテンツを表示します。
+
+   ![チリメージ_1-19](assets/chlimage_1-19.png)
+
+   >[!NOTE]
+   >
+   >ライブコピーチャネルのコンテンツを表示するときは、**ライブコピーステータス**&#x200B;としてメニューの中に追加項目が表示されます。詳しくは、下のセクションを参照してください。
+
+### ライブコピーのプロパティの表示 {#viewing-properties-of-a-live-copy}
+
+さらに、ライブコピーチャネルのプロパティを表示できます。
+
+1. ライブコピーチャネルに移動して、アクションバーの「**プロパティ**」をクリックします。
+
+   ![chlimage_1-20](assets/chlimage_1-20.png)
+
+1. 「**ライブコピー**」タブを選択して、チャネルの詳細を表示します。
+
+   ![chlimage_1-21](assets/chlimage_1-21.png)
+
+### ライブコピーステータス {#live-copy-status}
+
+下の図に示すように、モード**ライブコピーステータス**を使用すると、チャネル内のすべてのアセットの関係ステータスを表示できます。
+
+1. Click **Edit** to choose the **Live Copy Status** and view the association of your channel content to the original channel (from which the live copy is generated).
+
+   ![クリマージ_1-22](assets/chlimage_1-22.png)
+
+1. 「**ライブコピーステータス**」を選択して、プレビューページを表示します。
+
+   緑色の境界線のあるすべてのリソースは、コンテンツが元のチャネルから継承されたことを示します。
+
+   ![chlimage_1-23](assets/chlimage_1-23.png)
+
+### 継承の切断 {#breaking-the-inheritance}
+
+ライブコピーからの継承を取り消すこともでき、これによりコンテンツは元のブランチから独立できます。
+
+以下の例で示されているように、編集モードで画像を選択し、右上の継承中止シンボルをクリックします。
+
+![chlimage_1-24](assets/chlimage_1-24.png)
+
+### ライブコピーチャネルへの変更の反映 {#propagating-changes-to-the-live-copy-channel}
+
+元のチャネルで変更または更新をおこなう場合は、それらの変更をライブコピーチャネルに反映する必要もあります。
+
+下の手順に従って、変更を元のチャネルからライブコピーチャネルに反映します。
+
+1. 元のチャネル（***Idle Channel***）を選択し、アクションバーの「**編集**」をクリックします。
+
+   ![chlimage_1-25](assets/chlimage_1-25.png)
+
+1. このチャネルコンテンツを編集します。例えば、画像をこのチャネルから削除します。
+
+   ![chlimage_1-26](assets/chlimage_1-26.png)
+
+1. チャネルのライブコピー（***IdleLiveCopy***）を選択し、アクションバーの「**編集**」をクリックします。削除した画像は、ライブコピーにまだ表示されています。
+
+   変更を反映するには、チャネルを同期する必要があります。
+
+   ![チリメージ_1-27](assets/chlimage_1-27.png)
+
+1. 変更をライブコピーチャネルに反映するために、AEM ダッシュボードに移動して、ライブコピーチャネルを選択し、アクションバーから「**プロパティ**」をクリックします。
+
+   ![チリメージ_1-28](assets/chlimage_1-28.png)
+
+1. 「**ライブコピー**」タブを選択し、アクションバーの「**同期**」をクリックします。
+
+   ![chlimage_1-29](assets/chlimage_1-29.png)
+
+1. 「**同期**」をクリックして、変更を確認します。Click **Save &amp; Close** to navigate back to the AEM dashboard..
+
+   ![chlimage_1-30](assets/chlimage_1-30.png)
+
+   これで、画像もライブコピーチャネルから削除されました。
+

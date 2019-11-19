@@ -4,7 +4,7 @@ seo-title: AEM Screens のテストと品質保証
 description: ここでは、AEM Screens ベストプラクティスガイドにおける「テストと品質保証」について説明します
 seo-description: ここでは、AEM Screens ベストプラクティスガイドにおける「テストと品質保証」について説明します
 translation-type: tm+mt
-source-git-commit: 12b1cc4f2b359742966c2073d233b0113459e2de
+source-git-commit: 86f01fbe2ae7750ad961df0693e72a84d785344e
 
 ---
 
@@ -19,6 +19,9 @@ source-git-commit: 12b1cc4f2b359742966c2073d233b0113459e2de
 この段階では、テストシステム全体を構築し、完全にテストする必要があります。
 
 事前に定義した KPI をすべて特定し、KPI に照らして成果物を測定するチェックリストを作成してください。
+
+>[!NOTE]
+> このフェーズは、インストールおよびユーザーガイドを作成するための手段としても使用する必要があります。このガイドは、後で機器に同梱し、後日参照するために現場に保管することができます。
 
 次の要素を考慮する必要があります。
 
@@ -42,8 +45,6 @@ source-git-commit: 12b1cc4f2b359742966c2073d233b0113459e2de
 * 再生
 * データベースの依存関係（定義済み）
 
->[!NOTE]
-> このフェーズは、インストールおよびユーザーガイドを作成するための手段としても使用する必要があります。このガイドは、後で機器に同梱し、後日参照するために現場に保管することができます。
 
 ## 3.デバイス管理に関する考慮事項 {#device-management-considerations}
 
@@ -58,8 +59,10 @@ AEM Screensには、Screens playerアプリケーションのエンドポイン�
 1. コンテンツダウンロードの管理
 1. アプリケーションの再起動
 
+Device Control Centerの詳細については、『 ****** AEM Screens User Guide [』の「Troubleshooting Device Control](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) Center **」を参照**&#x200B;してください。
+
 >[!CAUTION]
-> DEVICE CONTROL CENTERを使用して、次の操作を行う必要があります。
+> Device Control centerを使用して次の操作を行うことはできません。
 >
 > 1. 新しいバージョンのPlayerアプリケーションのインストール
 > 1. システムレベルのリソースの監視

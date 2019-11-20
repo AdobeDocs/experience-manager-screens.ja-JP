@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
+source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
 
 ---
 
@@ -29,6 +29,7 @@ source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
    + [デバイスの登録](device-registration.md)
    + [ACL の設定](setting-up-acls.md)
    + [ContentSyncからSmartSyncへの移行](smartsync.md)
+   + [ファイルからの新しいプロジェクトインポーター](project-importer.md)
    + お客様固有の考慮事項 {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [トラブルシューティング用の拡張機能としてのChrome playerの使用](using-chrome-player-as-an-extension.md)
@@ -49,7 +50,7 @@ source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
       + [スケジュールの作成と管理](managing-schedules.md)
       + [デバイスの管理](managing-devices.md)
       + [チャネル割り当て](channel-assignment.md)
-   + 製品機能の使用 {#product-features}
+   + コア製品機能の使用 {#product-features}
       + [テキストオーバーレイ](text-overlay.md)
       + [オフラインの一括更新](bulk-offline-update.md)
       + [AEM Screens Notifications Service](screens-notifications-service.md)
@@ -63,9 +64,11 @@ source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
       + [マルチゾーンレイアウト](multi-zone-layout-aem-screens.md)
       + [ビデオレンディション](generating-renditions.md)
       + [動的埋め込みシーケンスの使用](dynamic-embedded-sequences.md)
-      + [ローンチ](launches.md)
-      + [ファイルからの新しいプロジェクトインポーター](project-importer.md)
       + [チャネルレベルのバルク画像再生時間](channel-level-image-playback.md)
+   + コンテンツ更新の管理 {#content-updates}
+      + [オンデマンドコンテンツの更新](on-demand-content.md)
+      + [サービスとしてのコンテンツの更新](content-update-as-a-service.md)
+      + [起動を使用したコンテンツの更新](launches.md)
    + 使用例の例 {#use-case-examples}
       + [緊急チャネル](emergency-channel.md)
       + [旅行センターの温度有効化](local-temperature-activation.md)

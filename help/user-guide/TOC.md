@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
+source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
 
 ---
 
@@ -25,11 +25,11 @@ source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
    + [画面サーバーの設定](configuring-screens-introduction.md)
    + [ディスパッチャー設定の設定](dispatcher-configurations-aem-screens.md)
    + [Screens Player のインストール](installing-screens-player.md)
-   + [接続画面プレイヤーアプリ](working-with-screens-player.md)
+   + [接続画面プレイヤ](working-with-screens-player.md)
    + [デバイスの登録](device-registration.md)
    + [ACL の設定](setting-up-acls.md)
    + [ContentSyncからSmartSyncへの移行](smartsync.md)
-   + クライアントのインストール {#installing-client}
+   + お客様固有の考慮事項 {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [トラブルシューティング用の拡張機能としてのChrome playerの使用](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
@@ -37,7 +37,10 @@ source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
    + Author Publish {#author-publish}
       + [作成者 — パブリッシュアーキテクチャの概要](author-publish-architecture-overview.md)
       + [作成者と発行の設定](author-and-publish.md)
-+ オーサリング {#authoring}
+   + Analytics Integration with AEM Screens {#analytics-integration}
+      + [Adobe Analyticsの統合](adobe-analytics-integration-aem-screens.md)
+      + [AEM ScreensでのAdobe Analyticsの設定](configuring-adobe-analytics-aem-screens.md)
++ オーサリングと使用例の例 {#authoring}
    + 画面プロジェクトの設定 {#setting-up-projects}
       + [プロジェクトの作成と管理](creating-a-screens-project.md)
       + [チャネルの作成と管理](managing-channels.md)
@@ -63,9 +66,11 @@ source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
       + [ローンチ](launches.md)
       + [ファイルからの新しいプロジェクトインポーター](project-importer.md)
       + [チャネルレベルのバルク画像再生時間](channel-level-image-playback.md)
-   + Analytics Integration with AEM Screens {#analytics-integration}
-      + [Adobe Analyticsの統合](adobe-analytics-integration-aem-screens.md)
-      + [AEM ScreensでのAdobe Analyticsの設定](configuring-adobe-analytics-aem-screens.md)
+   + 使用例の例 {#use-case-examples}
+      + [緊急チャネル](emergency-channel.md)
+      + [旅行センターの温度有効化](local-temperature-activation.md)
+      + [接客予約有効化](hospitality-reservation-activation.md)
+      + [小売在庫ターゲットの有効化](retail-inventory-activation.md)
 + 開発 {#developing}
    + [REST API](rest-api.md)
    + [AEM Screens用カスタムコンポーネントの開発](developing-custom-component-tutorial-develop.md)
@@ -74,11 +79,6 @@ source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
    + [コンポーネントの作成](creating-components.md)
    + [AEM ScreensでのContextHubの設定](configuring-context-hub.md)
    + [カスタムテンプレートのマルチゾーンレイアウトの作成](creating-custom-templates-multizone-layouts.md)
-+ 使用例の例 {#use-case-examples}
-   + [緊急チャネル](emergency-channel.md)
-   + [旅行センターの温度有効化](local-temperature-activation.md)
-   + [接客予約有効化](hospitality-reservation-activation.md)
-   + [小売在庫ターゲットの有効化](retail-inventory-activation.md)
 + トラブルシューティング {#troubleshooting}
    + [AEM Screens FAQ](aem-screens-faqs.md)
    + [トラブルシューティングデバイスコントロールセンター](monitoring-screens.md)

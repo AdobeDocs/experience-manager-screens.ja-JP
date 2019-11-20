@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
+source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
 # AEM Screensユーザーガイド {#user-guide}
 
 + [画面の概要](aem-screens-introduction.md)
-+ 概要 {#overview}
++ 概要とキックスタートガイド {#overview}
    + [キックスタートガイド](kickstart-for-aem-screens.md)
    + [キーワード](screens-glossary.md)
 + デジタル署名ネットワークの基本 {#digital-signage-network}
@@ -21,7 +21,7 @@ source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
    + [パート3:テスト、POC、パイロット、ロールアウト](testing-pocs-pilots-rollouts.md)
    + [パート4:プロジェクトの管理と導入](project-management-and-deployment.md)
    + [パート5:サポートに関する考慮事項](support-considerations.md)
-+ 管理 {#administering}
++ 設定と管理 {#administering}
    + [画面サーバーの設定](configuring-screens-introduction.md)
    + [ディスパッチャー設定の設定](dispatcher-configurations-aem-screens.md)
    + [Screens Player のインストール](installing-screens-player.md)
@@ -71,7 +71,8 @@ source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
       + [旅行センターの温度有効化](local-temperature-activation.md)
       + [接客予約有効化](hospitality-reservation-activation.md)
       + [小売在庫ターゲットの有効化](retail-inventory-activation.md)
-+ 開発 {#developing}
+      + [トランジションの適用](applying-transitions.md)
++ 開発者とAPIのリソース {#developing}
    + [REST API](rest-api.md)
    + [AEM Screens用カスタムコンポーネントの開発](developing-custom-component-tutorial-develop.md)
    + [オフラインチャネル](offline-channels.md)
@@ -79,7 +80,7 @@ source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
    + [コンポーネントの作成](creating-components.md)
    + [AEM ScreensでのContextHubの設定](configuring-context-hub.md)
    + [カスタムテンプレートのマルチゾーンレイアウトの作成](creating-custom-templates-multizone-layouts.md)
-+ トラブルシューティング {#troubleshooting}
++ トラブルシューティングとFAQ {#troubleshooting}
    + [AEM Screens FAQ](aem-screens-faqs.md)
    + [トラブルシューティングデバイスコントロールセンター](monitoring-screens.md)
    + [ビデオ再生の設定](troubleshoot-videos.md)

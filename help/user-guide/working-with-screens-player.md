@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
 
 ---
 
@@ -64,6 +64,10 @@ Screens Player から Admin UI を表示するには、タッチ有効の AEM Sc
 >「ファ **ームウェアの更新** 」オプションは、AndroidプレーヤーなどのCordovaでのみ機能します。
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
+
+>[!NOTE]
+>
+>実稼働環境では管理UIを **無効にする** ことをお勧めします。
 
 AEM Screens Player の Admin UI から、チャネルおよびアプリケーションのキャッシュをクリアできます。
 

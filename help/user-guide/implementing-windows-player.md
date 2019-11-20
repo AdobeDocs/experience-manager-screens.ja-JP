@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
@@ -102,7 +102,7 @@ Windows playerを展開する場合は、Kioskモードを有効にして、他�
 
 1. シェルランチャーを有効にします。
 
-   詳細については、Microsoft Windowsサ ***ポートの「***** Shell Launcher [**」ページの「Configure Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)」を参照してください。
+   詳細は、Microsoft Windowsサポートによ ***る「シェルランチャー*** (Shell Launcher **[](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** )ページでのシェルランチャーの設定」の節を参照してください。
 
 1. Kioskで使用する管理者以外のユーザーを作成します（まだ存在しない場合）。 ローカルユーザーまたはドメインユーザーを指定できます。
 1. AEM Screens playerのダウンロードページから、そのKioskユーザー用のWindowsプ [レイヤーをインストールします](https://download.macromedia.com/screens/) 。

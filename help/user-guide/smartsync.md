@@ -10,12 +10,12 @@ content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
 
-# ContentSyncからSmartSyncへの移行{#transitioning-from-contentsync-to-smartsync}
+# ContentSyncからSmartSyncへの移行 {#transitioning-from-contentsync-to-smartsync}
 
 ここでは、SmartSync機能の概要と、サーバの負荷/ストレージとネットワークトラフィックを最小限に抑えてコストを削減する方法について説明します。
 
@@ -74,18 +74,17 @@ SmartSync機能は、AEM Screensプロジェクトに多くの利点を提供し
    >
    >SmartSyncを初めて使用する前に、すべてのコンテンツキャッシュをクリアする必要があります。
 
-1. **Adobe Experience Manager Web Console Configuration **via AEM instance —&gt;ハンマーアイコン —&gt; **Operations** —&gt; **Web Consoleに移動します**。
+1. AEMインスタンス **—&gt;ハンマーアイコン —&gt;操作** —&gt; **WebコンソールからAdobe Experience Manager Web Console Configurationに移動します******。
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
 1. **Adobe Experience Manager Web Console Configuration **が開きます。 offlinecontentservicesを検 *索します*。
 
-   **Screens Offline Content Service **プロパティを検索するには、 **Command** +F( **Mac** )を押し、Control+F( **Windows)を******&#x200B;押します。
+   Screens Offline Content Serviceプロパティを検索するには、 **Command** +F **(Mac** )と **F** (Windows)Control( ******** Windows)Control(Windows)Control(Windows))を押します。
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. 「保 **存** 」をクリックして「**Screens Offline Content Services* ***」プロパティを有効にし、AEM screensでSmartSyncを使用します。
+1. 「保存」 **をクリッ** クして「Screens Offline Content Services **** 」プロパティを有効にします。したがって、AEM ScreensでSmartSyncを使用します。
 1. SmartSyncを有効にしたら、次の図に示すように、プロジェクトに移動し、「 **Update Offline Content**** （オフラインコンテンツを更新）」（アクションバーから）をクリックする必要があります。
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)
-

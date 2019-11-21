@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 672c26d9cbbed8e4bd96c19b751395c564522845
+source-git-commit: 04ad945a7cca9e41a4673d5c45888025a685f57e
 
 ---
 

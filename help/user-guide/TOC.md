@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 56b3222d5cdb00291ca167bcfa9b5d9b2aa61ec3
+source-git-commit: 672c26d9cbbed8e4bd96c19b751395c564522845
 
 ---
 
@@ -14,6 +14,7 @@ source-git-commit: 56b3222d5cdb00291ca167bcfa9b5d9b2aa61ec3
 + [画面の概要](aem-screens-introduction.md)
 + 概要とキックスタートガイド {#overview}
    + [キックスタートガイド](kickstart-for-aem-screens.md)
+   + [画面ベストプラクティスガイド](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
    + [キーワード](screens-glossary.md)
 + デジタル署名ネットワークの基本 {#digital-signage-network}
    + [パート1:プロジェクトの役割と責任](project-roles-responsibilities.md)

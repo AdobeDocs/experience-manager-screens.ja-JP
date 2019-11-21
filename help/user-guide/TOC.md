@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 04ad945a7cca9e41a4673d5c45888025a685f57e
+source-git-commit: 56534686a10f5d0780dc7ffc7272c7c611c32845
 
 ---
 
@@ -82,6 +82,7 @@ source-git-commit: 04ad945a7cca9e41a4673d5c45888025a685f57e
    + [オフラインチャネル](offline-channels.md)
    + [AEM Screensコンポーネントの拡張](extending-component-tutorial-develop.md)
    + [コンポーネントの作成](creating-components.md)
+   + [AEM SPAエディターを使用したREACTアプリの埋め込みとAEM Screens Analyticsとの統合](embedding-react-app.md)
    + [AEM ScreensでのContextHubの設定](configuring-context-hub.md)
    + [カスタムテンプレートのマルチゾーンレイアウトの作成](creating-custom-templates-multizone-layouts.md)
 + トラブルシューティングとFAQ {#troubleshooting}

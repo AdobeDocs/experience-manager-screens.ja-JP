@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
+source-git-commit: 5712673a6846e4a8a4905d35503ed0c378dfe22b
 
 ---
 
@@ -75,8 +75,6 @@ source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
       + [旅行センターの温度有効化](local-temperature-activation.md)
       + [接客予約有効化](hospitality-reservation-activation.md)
       + [小売在庫ターゲットの有効化](retail-inventory-activation.md)
-      + [MultiZoneからSingleZoneへの移行](multizone-to-singlezone.md)
-      + [マーキューテイクオーバー](marquee-takeover.md)
       + [トランジションの適用](applying-transitions.md)
 + 開発者とAPIのリソース {#developing}
    + [REST API](rest-api.md)

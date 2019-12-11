@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
+source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 ---
 
@@ -34,7 +34,7 @@ AEM Screens で使用できるように AEM サーバーを設定する際に役
 
 #### 空のリファラー要求の許可 {#allow-empty-referrer-requests}
 
-1. **Adobe Experience Manager Web Console Configuration **via AEM instance —&gt;ハンマーアイコン —&gt; **Operations** —&gt; **Web Consoleに移動します**。
+1. AEMインスタンス **—&gt;ハンマーアイコン —&gt;操作** —&gt; **WebコンソールからAdobe Experience Manager Web Console Configurationに移動します******。
 
    ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
 
@@ -57,7 +57,7 @@ AEM Screensではタッチ操作対応UIが必要で、Adobe Experience Manager(
 1. &lt;yourAuthorInstance&gt;/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImplに移動します。 **
 1. 次の図に示すよ **うに、デフォルトのオーサリングUI** モードが **TOUCH**&#x200B;に設定されていることを確認します。
 
-また、*&lt;yourAuthorInstance&gt; *-&gt;* tools （ハンマーアイコン）* -&gt; **Operations** -&gt;* Web Console***を使用して同じ設定を実行し、 **WCM Authoring UI Mode Serviceを検索することもできます**。
+また、&lt;yourAuthorInstance&gt; *-&gt;ツール（ハンマーアイコン）*-&gt;*Operations* -&gt; Web Console **Operations -&gt; WEB Console WCM** Authoring SERVICE ******** Mode uiを使用して同じ設定を行うこともできます。
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -83,7 +83,7 @@ DeviceServiceImplに対する最新の変 ***更により***、パスワード�
 
 次の手順に従ってDeviceServiceImplを設定 ***します***。
 
-1. **Adobe Experience Manager Web Console Configuration **via AEM instance —&gt;ハンマーアイコン —&gt; **Operations** —&gt; **Web Consoleに移動します**。
+1. AEMインスタンス **—&gt;ハンマーアイコン —&gt;操作** —&gt; **WebコンソールからAdobe Experience Manager Web Console Configurationに移動します******。
 
 1. **Adobe Experience Manager Web Console Configuration **が開きます。 deviceserviceを検索します。 プロパティを検索するには、 **Command + fキーを押して** Mac **、** Control + fキーを ********&#x200B;押します。
 

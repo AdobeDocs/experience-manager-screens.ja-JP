@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
+source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 ---
 
@@ -48,7 +48,7 @@ source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
 
 * 作成者 —&gt; localhost:4502
 * 発行1(pub1) —&gt; localhost:4503
-* 公開(pub2) —&gt; localhost:4504
+* 発行2 (pub2) —&gt; localhost:4504
 
 ## 作成者への複製エージェントの設定 {#setting-replication-agents}
 
@@ -85,6 +85,10 @@ source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
    ![screen_shot_2019-02-25at30018pm](assets/screen_shot_2019-02-25at30018pm.png)
 
 1. 「 **Edit** 」をクリックして **Agent Settings** （エージェント設定）ダイアログ・ボックスを開き、詳細を入力します。
+
+   >[!NOTE]
+   >
+   >レプリケーションエージェントを有効にする **には** 、[有効]をオンにする必要があります。 「デフォルト」、「画面」、「逆複製エージェント」でこのオプションを選択する必要があります。
 
    ![screen_shot_2019-02-25at30134pm](assets/screen_shot_2019-02-25at30134pm.png)
 

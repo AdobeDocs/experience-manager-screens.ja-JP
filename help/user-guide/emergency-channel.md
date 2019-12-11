@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
 
 ---
 
@@ -50,7 +50,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. チャネルフォ **ルダを選択し** 、「作成」をク **リックして** 、チャネルを作成するウィザードを開きます。
 
-   1. ウィザードで「**シーケンスチャネル**」を選択し、「MainAdChannel」という名前のチャネルを作 **成します**。
+   1. ウィザード **で「Sequence Channel** 」を選択し、「MainAdChannel」という名前のチャネルを作 **成します**。
    ![screen_shot_2019-02-21at35932pm](assets/screen_shot_2019-02-21at35932pm.png)
 
 1. **シーケンスチャネルへのコンテンツの追加**
@@ -63,7 +63,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. Select the **Channels** folder.
    1. [作成]をク **リックし** 、ウィザードを開いてチャネルを作成します。
-   1. ウィザードで「**シーケンスチャネル**」を選択し、「EmergencyChannel」という名前のチャネルを作 **成します**。
+   1. ウィザード **で「Sequence Channel** 」を選択し、「 **EmergencyChannel」という名前のチャネルを作成します**。
    >[!NOTE]
    >
    >通常は、既存の実稼働プロジェクトに緊急チャネルが追加されます。
@@ -96,9 +96,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. 両方の表示をスケジュールに割り当て、優先度を設定します
 
-   1. スケジュール** (StoreSchedule)**を選択し、アクションバーの「ダ **ッシュボード** 」をクリックします。
+   1. スケジュール **(StoreSchedule)を選択し** 、アクションバ **ーの「ダッシュボード** 」をクリックします。
 
-   1. 「**割り当 **てられたチャネル** **」パネルで「+チャネルの割り当て」をクリックします。
+   1. [割り当て **済みチャネル]パネルで** [+チャネルの割り当て **** ]をクリックします。
 
    1. [チャネル割り **当て** ]ダイアログボックスで、次の操作を行います。
 
@@ -113,7 +113,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
-1. 「**割り当 **てられたチャネル** **」パネルで「+チャネルの割り当て」をクリックします。
+1. [割り当て **済みチャネル]パネルで** [+チャネルの割り当て **** ]をクリックします。
 
 1. [チャネル割り **当て** ]ダイアログボックスで、次の操作を行います。
 
@@ -131,7 +131,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. **各表示にスケジュールを割り当てる**
 
-   1. 各ディスプレイ( **EmergencyChannel** —&gt;場所 **—&gt; **ストア*—&gt;** StoreFrontなど&#x200B;**)に移動します**。
+   1. 各画面( **EmergencyChannel** —&gt;場所 **—&gt;ストア** —&gt; **StoreFrontFront** な&#x200B;****&#x200B;ど)に移動します。
 
    1. Click **Dashboard** from the action to open the display dashboard.
    1. **クリ**&#x200B;ック…[割り当てら **れたチャネルとスケジュール** ]パネルで、[ **+スケジュールの割り当て]をクリックします**。

@@ -6,7 +6,7 @@ seo-description: このページでは、画面プロジェクトにトランジ
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 02acf7ffc447c92efb75d756071d2cd5f4aaf104
+source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 02acf7ffc447c92efb75d756071d2cd5f4aaf104
 >
 >トランジションコンポーネントのプロパティの詳細については、「トランジション」を参照してくだ [さい](adding-components-to-a-channel.md#transition)
 
-## 摺り付けコンポーネントを追加する {#adding-transition}
+## チャネル内のアセットへのトランジションコンポーネントの追加 {#adding-transition}
 
 次の手順に従って、AEM Screensプロジェクトにトランジションコンポーネントを追加します。
 
@@ -31,21 +31,29 @@ source-git-commit: 02acf7ffc447c92efb75d756071d2cd5f4aaf104
 
 1. Channel testTransitionに移動し、アクシ **ョンバーで** 「 **Edit** 」をクリックします。
 
-
+   ![image1](assets/transitions1.png)
 
    >[!NOTE]
    >
-   >TestTransitionチャ **ンネルには** 、既にほとんどアセット（画像やビデオ）が含まれていません。 例えば、次に示すよう **に** 、TestTransitionチャネルには5つの画像と1つのビデオが含まれます。
+   >TestTransitionチャ **ンネルには** 、既にほとんどアセット（画像やビデオ）が含まれていません。 例えば、TestTransitionチャネルに **は** 、次に示す3つの画像と2つのビデオが含まれます。
 
+   ![image2](assets/transitions2.png)
 
 
 1. トランジションコンポーネント **をエディタ** にドラッグ&amp;ドロップします。
-
-   > [!NOTE]
-   >
-   >デフォルトでは、トランジションコンポーネントは **Normalに設定され** 、 **Durationは** 600 *msに設定されます*。
-
-
    >[!CAUTION]
    >
    >チャネル内のアセットにトランジションを追加する前に、次の点を確認します。順次チャネル内の最初のアセットの前にトランジションを追加することはありません。 チャネルの最初の項目は、トランジションではなくアセットである必要があります。
+
+   ![image3](assets/transitions3.png)
+
+   > [!NOTE]
+   >
+   >デフォルトでは、トランジションコンポーネントは **Normalに設定され** 、 **Durationは** 600 *msに設定されます*。  また、適用するアセットより長いトランジション期間を設定することはお勧めしません。
+
+
+## チャネル内のビデオへのトランジションコンポーネントの追加 {#adding-transition-videos}
+
+ビデオ間でトランジションコンポーネントを適用する場合は、 **Type** **to** Fade **and** Sequence Duration **** 1600 msを必ず設定します。
+
+![image3](assets/transitions4.png)

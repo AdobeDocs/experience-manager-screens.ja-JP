@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 5ce1e0b9-1926-49dc-b4dd-44b649a3e710
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -56,7 +56,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
    1. 「**作成**」をクリックして、新しい Screens プロジェクトを作成します（以下の図を参照）。
    1. **Screens プロジェクトの作成**&#x200B;ウィザードで「**スクリーン**」を選択し、「**次へ**」をクリックします。
 
-   1. Enter the title as *Test_Project *and click **Create**.
+   1. タイトルに *Test_Project* と入力し、「**作成**」をクリックします。
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
    プロジェクトが作成されると、Screens プロジェクトコンソールに戻ります。これでプロジェクトを選択できます。In a project, there are five kind of folders namely **Applications**, **Channels**, **Devices**, **Locations**, and **Schedules**, as shown in the figure below.
@@ -77,8 +77,8 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. 作成した *Test_Project* に移動し、**チャネル**&#x200B;フォルダーを選択します。
 
-   1. アクションバーから[**作成**]をクリックします（下図を参照）。 ウィザードが開きます。
-   1. Choose the **Sequence Channel **and click **Next**.
+   1. Click **Create** from the action bar (see the figure below). ウィザードが開きます。
+   1. Choose the **Sequence Channel** and click **Next**.
 
    1. Enter the **Name** and **Title** as *TestChannel* and click **Create**.
    ![chlimage_1-6](assets/chlimage_1-6.png)
@@ -95,9 +95,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    以下の手順に従って、プロジェクトのチャネル（TestChannel **）にコンテンツを追加します。
 
-   1. Navigate to the *Test_Project* you created and select the **Channels **folder.
+   1. 作成した *Test_Project* に移動し、**チャネル**&#x200B;フォルダーを選択します。
 
-   1. Click **Edit** from the action bar (see the figure below). * testChannel*用のエディターが開きます。
+   1. Click **Edit** from the action bar (see the figure below). TestChannel ** のエディターが開きます。
 
    1. アクションバーの左側にあるサイドパネルを切り替えるアイコンをクリックし、アセットとコンポーネントを開きます。
    1. チャネルに追加するコンポーネントをドラッグ＆ドロップします。
@@ -115,7 +115,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    以下の手順に従って、プロジェクトの新しいロケーションを作成します。
 
-   1. Navigate to the *Test_Project* you created and select the **Locations **folder.
+   1. Navigate to the *Test_Project* you created and select the **Locations** folder.
 
    1. Click **Create** next to the plus icon in the action bar (see the figure below). ウィザードが開きます。
    1. Select **Location** from the wizard and click **Next**.
@@ -135,8 +135,8 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. Navigate to the location where you want to create your display (*Test_Projec* t --&gt; **Locations** --&gt; *TestLocation)* as shown in the figure above and selct *TestLocation*.
 
-   1. 「**作成**」をクリックします。
-   1. Select **Display **from the **Create** wizard and click **Next**.
+   1. アクションバーから「**作成**」をクリックします。
+   1. Select **Display** from the **Create** wizard and click **Next**.
 
    1. ディスプレイロケーションの「**名前**」および「**タイトル**」を入力します（タイトルには *TestDisplay* と入力します）。
 
@@ -161,7 +161,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. Navigate to the **Schedules** folder from Test_Project --&gt; **Schedules**.
 
-   1. 「**作成**」をクリックします。 ウィザードが開きます。
+   1. アクションバーから「**作成**」をクリックします。ウィザードが開きます。
    1. **作成**&#x200B;ウィザードページから「**スケジュール**」を選択します。
 
    1. プロパティページで、「**名前**」および「**タイトル**」に MorningSchedule ** と入力します。
@@ -187,13 +187,13 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. 「**チャネルロール**」に *LiveStream* と入力します。
 
-   1. Select the** Channel Path** (*Test_Project* --&gt; *Channels* --&gt; *TestChannel* ) in the **Channel**.
+   1. Select the **Channel Path** (*Test_Project* --&gt; *Channels* --&gt; *TestChannel* ) in the **Channel**.
 
    1. このチャネルの「**優先度**」として 1 ** を選択します。
 
-   1. Choose the **Supported Events** as **Initial Load **and **Idle Screen**.
+   1. 「**サポートされているイベント**」として「**最初の読み込み**」および「**待機中画面**」を選択します。
 
-   1. Enter **Schedule **and select the dates in **active from** and **active until**.
+   1. 「**スケジュール**」を入力し、「**次の日から有効**」および「**次の日まで有効**」で日付を選択します。
 
    1. 「**保存**」をクリックします。
    チャネルが作成されてパネルに追加されます。
@@ -241,7 +241,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    ![チリメージ_1-19](assets/chlimage_1-19.png)
 
-   Enter **Title** and click **Register **and** **the device will be registered.
+   Enter **Title** and click **Register** and the device will be registered.
 
    Click **Finish** to complete the device registration step.
 

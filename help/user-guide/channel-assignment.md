@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 下の手順に従ってチャネルをディスプレイに割り当てます。
 
-1. 例えば、 **DemoProject*** *—&gt; **Locations** —&gt; **SanJose —&gt;** DisplayDisplayRequiredストアに移動し ****&#x200B;ます。
+1. 必要な画面(例： **DemoProject** —&gt;場所 **—&gt;** SanJose **—&gt;** StoreDisplayDisplayDisplayDisplay **)に移**&#x200B;動します。
 
    ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
 
@@ -48,11 +48,11 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    または、
 
-   Tap/click **Dashboard **and** **click** +Assign Channel **from the** ASSIGNED CHANNNELS **panel to open the **Channel Assignment** dialog box.
+   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS** panel to open the **Channel Assignment** dialog box.
 
    ![screen_shot_2018-08-23at25938pm](assets/screen_shot_2018-08-23at25938pm.png)
 
-   「**チャネルの割り当て**」ダイアログボックスでは、次のプロパティを設定できます。
+   以下のプロパティを&#x200B;**チャネル割り当て**&#x200B;ダイアログボックスから設定できます。
 
    **チャネルロール**：
 

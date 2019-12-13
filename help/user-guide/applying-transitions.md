@@ -6,19 +6,19 @@ seo-description: このページでは、画面プロジェクトにトランジ
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 4078050ada4c53c2a9de00928d2198279aaa1e34
+source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
 
 ---
 
 
 # トランジションの適用 {#applying-transitions}
 
-ここでは、チャネル内の様々なアセット **** （画像とビデオ）の間にトランジションコンポーネントを適用する方法について説明します。
+ここでは、様々なアセット（画像やビデオ）とチャンネルに埋め込ま **れたシーケンスの間に** 、トランジションコンポーネントを適用する方法について説明します。
 
 
 >[!CAUTION]
 >
->トランジションコンポーネントのプロパティの詳細については、「トランジション」を参照して [くださ](adding-components-to-a-channel.md#transition)い。
+>トランジションコンポーネントのプロパティの詳細につ **いては** 、「トランジション」を参照し [てください](adding-components-to-a-channel.md#transition)。
 
 ## チャネル内のアセットへのトランジションコンポーネントの追加 {#adding-transition}
 
@@ -51,8 +51,12 @@ source-git-commit: 4078050ada4c53c2a9de00928d2198279aaa1e34
    >
    >デフォルトでは、 **Type** （タイプ）などのトランジションコンポーネントのプロパティは **Normal** （標準）に、Duration（デュレーション）は **** 600 ms( *600 ms)に設定されま*&#x200B;す。  また、適用するアセットより長いトランジション期間を設定することはお勧めしません。
 
+1. さらに、このチャネルエディターに **Embedded Sequence** （シーケンスチャネルを含む）コンポーネントを追加する場合は、次の図に示すように、最後にトランジションコンポーネントを追加して、コンテンツが順番に再生されるようにすることができます。
+
+   ![image3](assets/transitions5.png)
+
 ## チャネル内のビデオへのトランジションコンポーネントの追加 {#adding-transition-videos}
 
-ビデオ間でトランジションコンポーネントを適用する場合は、 **Type** **to** Fade **and** Sequence Duration **** 1600 msを必ず設定します。
+ビデオ間でトランジションコンポーネントを適用する場合は、 **Type** to **Fade** 、 **Sequence Durationを****** 1600 msに設定することをお勧めします。
 
 ![image3](assets/transitions4.png)

@@ -11,7 +11,7 @@ topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 この使用例では、Googleシートに2つのレストラン **Restarant1** と **Restarant2の予約の割合が入力されます**。 Restarant1とRestarant2の値に基づいて数式が適用され、その数式に基づいて、AdTarget列に値1または2が割り当てら **れます** 。
 
-**Restarant1** &gt; **Restarn2**&#x200B;の値がAdTagetの場合、 **AdTagetは割り当てられた値* 1 ***他の場合、adTargetは割り当てられた値** 2を割り当てられた ********&#x200B;値ターゲットです。 値1はステーキフ *ード* ( *Stake food* )オプションを生成し、値2はタイフフード(Thai food)オプションを表示画面に表示します。
+**Restarant1** &gt; **Restaint2の値がAdRestarant1****1** Assigned Restaurant Value setの場合はRestainted Value **Target Assigned Value** 2 ******** AssignedValueTarget 値1はステーキフ *ード* ( *Stake food* )オプションを生成し、値2はタイフフード(Thai food)オプションを表示画面に表示します。
 
 ## 前提条件 {#preconditions}
 
@@ -44,18 +44,18 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. **要件に従って、オーディエンスでのセグメントの設定**
 
-   1. オーディエンス内のセグメントに移動します(手順2 ***を参照してください。「** AEM Screens*** **でのContextHubの設定」ペ [](configuring-context-hub.md)ージでオーディエンスのセグメント化を設定する」を参照してください。
+   1. オーディエンス内のセグメントに移動します(手順2 ***を参照してください。(AEM ScreensページでのContextHubの設*** 定でのオーディエンスセグメントの設定 **[](configuring-context-hub.md)** を参照)。
 
    1. [シートA1 1 **]を選択し、[編集** ]をクリッ **クします**。
 
    1. 比較プロパティを選択し、設定アイコンをクリックして、プロパティを編集します。
    1. [プ **ロパティ名]のドロップダウンから** [Googlesheets/value/1/2]を選 **択します。**
 
-   1. ドロップダウ **ンメニューから** 「演算子」を「**equal **」として選択します。
+   1. ドロップダウ **ンメニュー** から「 **Operator as** equal」を選択します。
 
    1. 値を **** 1と入 **力**
 
-   1. 同様に、[**シートA1 2 **]を選択し、[編集]をクリック **します**。
+   1. 同様に、[シートA1 2 **]を選択し、[編集** ]をクリッ **クします**。
 
    1. 比較プロパティを選択し、設定アイコンをクリックして、プロパティを編集します。
    1. [プ **ロパティ名]のドロップダウンから** [Googlesheets/value/1/2]を選 **択します。**

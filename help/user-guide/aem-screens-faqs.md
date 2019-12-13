@@ -6,7 +6,7 @@ seo-description: このページに従って、AEM Screensプロジェクトに�
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
 
 ---
 
@@ -25,7 +25,7 @@ An ***Online Channel***, will show the updated content in the real time environm
 
 チャネルを選択し、アクションバーからチャネルのプロパティに移動します。 チャネル **をオンラインにするには、「チャネル」タブで開発者モード** (チャネルを強制的にオンラ **インにする** )を確認します。
 
-### 3.チャネルの役割フィールドの使用法 {#what-is-the-use-of-the-channel-role-field}
+### 3.[チャネルの役割]フィールドの使用法 {#what-is-the-use-of-the-channel-role-field}
 
 チャネルの役割は、作成者が汎用のエクスペリエンスに直接焦点を当てられるように、実行される実際のチャネルの抽象化です。 このタグは、コンテキスト内でチャネルを一意に識別するタグの一種と考えることができます（表示またはスケジュール）。
 
@@ -75,7 +75,7 @@ An ***Online Channel***, will show the updated content in the real time environm
 Apache Slingリファラーフィルター「空白を許可」を有効にする必要があります。 これは、AEM Screens Player と AEM Screens サーバーの間の制御プロトコルの最適な動作のために必要です。
 
 1. Navigate to **Adobe Experience Manager Web Console Configuration**
-1. 「**allow.empty **」オプションを選択します。
+1. Check the **allow.empty** option.
 1. 「**保存**」をクリックします。
 
 ### 3.AEM Screensプレーヤーの登録中にデバイスにエラーが表示され、コンソールログにENAME_NOT_FOUNDエラーが表示される場合のトラブルシューティング方法を教えてください。 {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
@@ -126,7 +126,7 @@ AEM Screensプレーヤーが起動すると、プレーヤーが404エラーを
 
 ### 1.Livefyreを無効にしてA/P画面のエラーを回避する方法 {#how-to-disable-livefyre-to-avoid-a-p-screens-error}
 
-Livefyreを無効にしてログエラーを回避するには：
+ログエラーを回避するためにLivefyreを無効にするには：
 
 1. ***Livefyreバンドルを無効にする：***
 

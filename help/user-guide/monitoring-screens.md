@@ -11,7 +11,7 @@ topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -86,9 +86,9 @@ Additionally, click the (**...**) from the top right corner of the Device Inform
 
 ### プレーヤーのスクリーンショットの表示 {#view-player-screenshot}
 
-デバイス上のプレーヤーのスクリーンショットは、**PLAYERのスクリーンショット**パネルで確認できます。
+**プレイヤーのスクリーンショット**&#x200B;パネルを使用すると、デバイスからプレーヤーのスクリーンショットを表示できます。
 
-Click (**...**) on the top right corner of the Player Screenshot panel and select **Refresh Screenshot **to view the snapshot of the running player.
+Click (**...**) on the top right corner of the Player Screenshot panel and select **Refresh Screenshot** to view the snapshot of the running player.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -136,7 +136,7 @@ The **PREFERENCES** panel allows the user to change preferences for **Admin UI**
 Apache Sling リファラーフィルターの Allow Empty 設定を有効にするには、次の手順を実行します。
 
 1. Navigate to **Adobe Experience Manager Web Console Configuration**, that is, `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-1. 「**allow.empty **」オプションを選択します。
+1. Check the **allow.empty** option.
 1. 「**保存**」をクリックします。
 
 ![chlimage_1-3](assets/chlimage_1-3.png)

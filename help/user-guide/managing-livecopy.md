@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -77,7 +77,7 @@ The following example shows the creation of a live copy (***IdleLiveCopy***) for
 
 ### ライブコピーステータス {#live-copy-status}
 
-下の図に示すように、モード**ライブコピーステータス**を使用すると、チャネル内のすべてのアセットの関係ステータスを表示できます。
+モード&#x200B;**ライブコピーステータス**&#x200B;は、下の図で示されており、チャネルの中のすべてのアセットの関係ステータスを表示できます。
 
 1. Click **Edit** to choose the **Live Copy Status** and view the association of your channel content to the original channel (from which the live copy is generated).
 
@@ -125,7 +125,7 @@ The following example shows the creation of a live copy (***IdleLiveCopy***) for
 
    ![chlimage_1-29](assets/chlimage_1-29.png)
 
-1. 「**同期**」をクリックして、変更を確認します。Click **Save &amp; Close** to navigate back to the AEM dashboard..
+1. 「**同期**」をクリックして、変更を確認します。Click **Save &amp; Close** to navigate back to the AEM dashboard.
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 

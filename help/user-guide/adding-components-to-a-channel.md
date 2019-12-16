@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: cec2a2f8b056bf713e56a9fab08d88e29263820b
 
 ---
 
@@ -228,7 +228,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
 | **アクセシビリティ** |
 | ***代替テキスト*** | 画像の代替テキスト。 |
 | **シーケンス** |
-| ***期間*** | 画像のデュレーション全体を選択します。デュレーションを —1に設定した場合、埋め込まれた画像は特定のチャネルでその長さだけ実行されます。 |
+| ***期間*** | デフォルトでは、期間は *8000 msに設定されます*。 画像の再生時間を変更する場合は、「時間」フィールドを更新 **します** 。 |
 
 ### 切り替え {#transition}
 

@@ -5,16 +5,15 @@ description: 単一使用のテイクオーバーチャネルを作成する場�
 seo-description: 単一使用のテイクオーバーチャネルを作成する場合は、次の使用例に従います。
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 58229f2ecbc098522d5d62972ba7f9362a538997
+source-git-commit: 7678f8b4e940963daa346383d70379fab8cc1765
 
 ---
 
 
 # 単一使用のテイクオーバーチャネル {#single-use-takeover-channel}
 
-次のページでは、1回だけ再生するテイクオーバーチャネルの作成方法に関するプロジェクトの設定に重点を置いた使用事例について説明します。
+次のページでは、特定の時間に1回だけ再生される単一のテイクオーバーチャネルの作成方法に関するプロジェクトの設定を強調する使用例を示します。
 
-レビュー用に準備。
 
 ## 使用例の説明 {#use-case-description}
 
@@ -40,7 +39,7 @@ source-git-commit: 58229f2ecbc098522d5d62972ba7f9362a538997
 
 **チャネルと表示の設定**
 
-1. Create an AEM Screens Project titled as **TakeoverLoop**, as shown below.
+1. Create an AEM Screens Project titled as **SingleUseTakeOver**, as shown below.
 
    ![アセット](assets/single-takeover1.png)
 
@@ -52,8 +51,9 @@ source-git-commit: 58229f2ecbc098522d5d62972ba7f9362a538997
 
    ![アセット](assets/single-takeover2.png)
 
-   >[!N注]
-   > この例 **のMainAdChannelは** 、コンテンツを連続再生するシーケンスチャネルを示します。
+
+   >[!NOTE]
+   >この例 **のMainAdChannelは** 、コンテンツを連続再生するシーケンスチャネルを示します。
 
    ![アセット](assets/single-takeover3.png)
 

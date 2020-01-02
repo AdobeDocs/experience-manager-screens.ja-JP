@@ -4,94 +4,96 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 5712673a6846e4a8a4905d35503ed0c378dfe22b
+source-git-commit: d7097a5e0156951ac041fb54241faa8c2878f7ae
 
 ---
 
 
 # AEM Screensユーザーガイド {#user-guide}
 
-+ [画面の概要](aem-screens-introduction.md)
++ [Screens の概要](aem-screens-introduction.md)
 + 概要とキックスタートガイド {#overview}
    + [キックスタートガイド](kickstart-for-aem-screens.md)
-   + [画面ベストプラクティスガイド](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
+   + [Screens ベストプラクティスガイド](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
    + [キーワード](screens-glossary.md)
-+ デジタル署名ネットワークの基本 {#digital-signage-network}
-   + [パート1:プロジェクトの役割と責任](project-roles-responsibilities.md)
-   + [パート2:プロジェクトのスコープに関する考慮事項](project-considerations.md)
-   + [パート3:テスト、POC、パイロット、ロールアウト](testing-pocs-pilots-rollouts.md)
-   + [パート4:プロジェクトの管理と導入](project-management-and-deployment.md)
-   + [パート5:サポートに関する考慮事項](support-considerations.md)
++ デジタルサイネージネットワークの基礎知識 {#digital-signage-network}
+   + [第 1 部：プロジェクト上の役割と責務](project-roles-responsibilities.md)
+   + [第 2 部：プロジェクト範囲を定義する際の検討事項](project-considerations.md)
+   + [第 3 部：テスト、POC、パイロット、ロールアウト](testing-pocs-pilots-rollouts.md)
+   + [第 4 部：プロジェクトの管理とデプロイメント](project-management-and-deployment.md)
+   + [第 5 部：サポートに関する考慮事項](support-considerations.md)
 + 設定と管理 {#administering}
-   + [画面サーバーの設定](configuring-screens-introduction.md)
-   + [ディスパッチャー設定の設定](dispatcher-configurations-aem-screens.md)
+   + [Screens サーバーの設定](configuring-screens-introduction.md)
+   + [Dispatcher 設定の実行](dispatcher-configurations-aem-screens.md)
    + [Screens Player のインストール](installing-screens-player.md)
-   + [接続画面プレイヤ](working-with-screens-player.md)
+   + [Screens Player の接続](working-with-screens-player.md)
    + [デバイスの登録](device-registration.md)
    + [ACL の設定](setting-up-acls.md)
-   + [ContentSyncからSmartSyncへの移行](smartsync.md)
-   + [ファイルからの新しいプロジェクトインポーター](project-importer.md)
-   + お客様固有の考慮事項 {#installing-client}
-      + [Chrome OS Player](implementing-chrome-os-player.md)
-      + [トラブルシューティング用の拡張機能としてのChrome playerの使用](using-chrome-player-as-an-extension.md)
-      + [Android Player](implementing-android-player.md)
-      + [Windows Player](implementing-windows-player.md)
-   + Author Publish {#author-publish}
-      + [作成者 — パブリッシュアーキテクチャの概要](author-publish-architecture-overview.md)
-      + [作成者と発行の設定](author-and-publish.md)
-   + Analytics Integration with AEM Screens {#analytics-integration}
-      + [Adobe Analyticsの統合](adobe-analytics-integration-aem-screens.md)
-      + [AEM ScreensでのAdobe Analyticsの設定](configuring-adobe-analytics-aem-screens.md)
-+ オーサリングと使用例の例 {#authoring}
-   + 画面プロジェクトの設定 {#setting-up-projects}
+   + [コンテンツ同期からスマート同期への移行](smartsync.md)
+   + [ファイルをソースとする新しいプロジェクトインポーター](project-importer.md)
+   + 顧客固有の考慮事項 {#installing-client}
+      + [Chrome OS プレーヤー](implementing-chrome-os-player.md)
+      + [拡張機能としての Chrome プレーヤーの使用](using-chrome-player-as-an-extension.md)
+      + [Android プレーヤー](implementing-android-player.md)
+      + [Windows プレーヤー](implementing-windows-player.md)
+   + オーサーとパブリッシュ {#author-publish}
+      + [オーサーとパブリッシュのアーキテクチャの概要](author-publish-architecture-overview.md)
+      + [オーサーとパブリッシュの設定](author-and-publish.md)
+   + Analytics と AEM Screens の統合 {#analytics-integration}
+      + [Adobe Analytics との統合](adobe-analytics-integration-aem-screens.md)
+      + [AEM Screens と連携する Adobe Analytics の設定](configuring-adobe-analytics-aem-screens.md)
++ オーサリングと使用例 {#authoring}
+   + Screens プロジェクトの設定 {#setting-up-projects}
       + [プロジェクトの作成と管理](creating-a-screens-project.md)
       + [チャネルの作成と管理](managing-channels.md)
       + [ディスプレイの作成と管理](managing-displays.md)
-      + [場所の作成と管理](managing-locations.md)
+      + [ロケーションの作成と管理](managing-locations.md)
       + [スケジュールの作成と管理](managing-schedules.md)
       + [デバイスの管理](managing-devices.md)
       + [チャネル割り当て](channel-assignment.md)
    + コア製品機能の使用 {#product-features}
       + [テキストオーバーレイ](text-overlay.md)
-      + [オフラインの一括更新](bulk-offline-update.md)
-      + [AEM Screens Notifications Service](screens-notifications-service.md)
+      + [オフライン一括更新](bulk-offline-update.md)
+      + [AEM Screens 通知サービス](screens-notifications-service.md)
       + [エクスペリエンスフラグメントの使用](experience-fragments-in-screens.md)
-      + [資産レベルのスケジュール](asset-level-scheduling.md)
+      + [アセットレベルのスケジュール設定](asset-level-scheduling.md)
       + [ライブコピーの作成と管理](managing-livecopy.md)
       + [ビデオパディングワークフローの作成](creating-a-video-padding-workflow.md)
       + [チャネルへのコンポーネントの追加](adding-components-to-a-channel.md)
       + [埋め込みシーケンス](embedded-sequences.md)
-      + [チャネルレベルのアクティブ化 — 単一イベントの再生](channel-level-activation.md)
+      + [チャネルレベルのアクティブ化 - 単一イベント再生](channel-level-activation.md)
       + [マルチゾーンレイアウト](multi-zone-layout-aem-screens.md)
       + [ビデオレンディション](generating-renditions.md)
       + [動的埋め込みシーケンスの使用](dynamic-embedded-sequences.md)
-      + [チャネルレベルのバルク画像再生時間](channel-level-image-playback.md)
+      + [チャネルレベルの一括画像再生時間](channel-level-image-playback.md)
    + コンテンツ更新の管理 {#content-updates}
-      + [オンデマンドコンテンツの更新](on-demand-content.md)
+      + [オンデマンドのコンテンツ更新](on-demand-content.md)
       + [サービスとしてのコンテンツの更新](content-update-as-a-service.md)
-      + [起動を使用したコンテンツの更新](launches.md)
-   + 使用例の例 {#use-case-examples}
+      + [ローンチを使用したコンテンツ更新](launches.md)
+   + 使用例 {#use-case-examples}
       + [緊急チャネル](emergency-channel.md)
-      + [旅行センターの温度有効化](local-temperature-activation.md)
-      + [接客予約有効化](hospitality-reservation-activation.md)
-      + [小売在庫ターゲットの有効化](retail-inventory-activation.md)
+      + [旅行センター向けの気温に応じたアクティブ化](local-temperature-activation.md)
+      + [接客業向けの予約状況に応じたアクティブ化](hospitality-reservation-activation.md)
+      + [小売店向けの在庫に応じたアクティブ化](retail-inventory-activation.md)
       + [トランジションの適用](applying-transitions.md)
-+ 開発者とAPIのリソース {#developing}
+      + [マルチゾーンからシングルゾーンへの移行](multizone-to-singlezone.md)
+      + [単一使用のテイクオーバーチャネル](single-use-takeover-channel.md)
++ 開発者向けリソースと API リソース {#developing}
    + [REST API](rest-api.md)
-   + [AEM Screens用カスタムコンポーネントの開発](developing-custom-component-tutorial-develop.md)
+   + [AEM Screens 用カスタムコンポーネントの開発](developing-custom-component-tutorial-develop.md)
    + [オフラインチャネル](offline-channels.md)
-   + [AEM Screensコンポーネントの拡張](extending-component-tutorial-develop.md)
+   + [AEM Screens コンポーネントの拡張](extending-component-tutorial-develop.md)
    + [コンポーネントの作成](creating-components.md)
-   + [AEM SPAエディターを使用したREACTアプリの埋め込みとAEM Screens Analyticsとの統合](embedding-react-app.md)
-   + [AEM ScreensでのContextHubの設定](configuring-context-hub.md)
-   + [カスタムテンプレートのマルチゾーンレイアウトの作成](creating-custom-templates-multizone-layouts.md)
-+ トラブルシューティングとFAQ {#troubleshooting}
-   + [AEM Screens FAQ](aem-screens-faqs.md)
-   + [トラブルシューティングデバイスコントロールセンター](monitoring-screens.md)
+   + [AEM SPA Editor を使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合](embedding-react-app.md)
+   + [AEM Screens プロジェクトでの ContextHub の設定](configuring-context-hub.md)
+   + [マルチゾーンレイアウトのカスタムテンプレートの作成](creating-custom-templates-multizone-layouts.md)
++ トラブルシューティングと FAQ {#troubleshooting}
+   + [AEM Screens の FAQ](aem-screens-faqs.md)
+   + [デバイスコントロールセンターからのトラブルシューティング](monitoring-screens.md)
    + [ビデオ再生の設定](troubleshoot-videos.md)
 + リリースノート {#release-notes}
-   + [機能パック201809リリースノート](screens-release-notes.md)
-   + [機能パック201812リリースノート](release-notes-fp-201812.md)
-   + [機能パック201905リリースノート](screens-release-notes-fp-201905.md)
-   + [機能パック201907リリースノート](release-notes-fp-201907.md)
-   + [機能パック201909リリースノート](release-notes-fp-201909.md)
+   + [機能パック 201909 のリリースノート](release-notes-fp-201909.md)
+   + [機能パック 201907 のリリースノート](release-notes-fp-201907.md)
+   + [機能パック 201905 のリリースノート](screens-release-notes-fp-201905.md)
+   + [機能パック 201812 のリリースノート](release-notes-fp-201812.md)
+   + [機能パック 201809 のリリースノート](screens-release-notes.md)

@@ -1,8 +1,8 @@
 ---
-title: AEM Screensの設定とデプロイ
+title: AEM Screens の設定とデプロイ
 seo-title: Screens の設定とデプロイ
-description: AEM Screensプレーヤーは、Android、Chrome OS、iOSおよびWindowsで使用できます。 このページでは、AEM Screensの設定とデプロイについて説明し、プレーヤーデバイスのh/w選択のガイドラインの概要も説明します。
-seo-description: AEM Screensプレーヤーは、Android、Chrome OS、iOSおよびWindowsで使用できます。 このページでは、AEM Screensの設定とデプロイについて説明し、プレーヤーデバイスのh/w選択のガイドラインの概要も説明します。
+description: AEM Screens Player は Android、Chrome OS、iOS、Windows で使用できます。ここでは、AEM Screens の設定とデプロイメントについて説明し、プレーヤーデバイスのハードウェア選定ガイドラインの概要も説明します。
+seo-description: AEM Screens Player は Android、Chrome OS、iOS、Windows で使用できます。ここでは、AEM Screens の設定とデプロイメントについて説明し、プレーヤーデバイスのハードウェア選定ガイドラインの概要も説明します。
 uuid: bf730d0f-e590-4c0d-a554-e1ff914eb420
 contentOwner: Jyotika syal
 content-type: reference
@@ -11,12 +11,12 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
+source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
 
 ---
 
 
-# Configuring and Deploying AEM Screens {#configuring-and-deploying-aem-screens}
+# AEM Screens の設定とデプロイ {#configuring-and-deploying-aem-screens}
 
 このページでは、デバイスに Screens Player をインストールして設定する方法について説明します。
 
@@ -24,7 +24,7 @@ source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 >[!NOTE]
 >
->**重要**:
+>**重要**：
 >
 >AEM Screens Player は、クロスサイトリクエストフォージェリ（CSRF）トークンを利用していません。したがって、AEM Screens で使用できるように AEM サーバーを設定するには、空のリファラーを許可して、リファラーフィルターをスキップします。
 
@@ -34,40 +34,40 @@ AEM Screens で使用できるように AEM サーバーを設定する際に役
 
 #### 空のリファラー要求の許可 {#allow-empty-referrer-requests}
 
-1. AEMインスタンス **—&gt;ハンマーアイコン —&gt;操作** —&gt; **WebコンソールからAdobe Experience Manager Web Console Configurationに移動します******。
+1. AEM インスタンスでハンマーアイコン／**操作**／**Web コンソール**&#x200B;をクリックして、「**Adobe Experience Manager Web コンソール設定**」に移動します。
 
    ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
 
-1. **Adobe Experience Manager Web Console Configuration** が開きます。 Slingリファラーを検索します。
+1. **Adobe Experience Manager Web コンソール設定**&#x200B;が開きます。「sling referrer」を検索します。
 
-   リファラープロパティを検索するには、 **Command** +F( **Mac** )を、 **Windows Ling(Windows)の** Control+F(Mac)を ****&#x200B;押します。
+   「sling referrer」プロパティを検索するには、**Command + F** キー（**Mac**）または **Ctrl + F** キー（**Windows**）を押します。
 
    ![screen_shot_2019-07-31at91728am](assets/screen_shot_2019-07-31at91728am.png)
 
-1. 下の図に示すように、「**空白を許可する**」オプションを選択します。
+1. Check the **Allow Empty** option, as shown in the figure below.
 
    ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
 
-1. 「保存 **** 」をクリックして、「Apache Slingリファラーフィルターを空白にする」を有効にします。
+1. 「**保存**」をクリックして、Apache Sling Referrer Filter の「Allow Empty」を有効にします。
 
-#### AEM Screensのタッチ操作対応UIを有効にする {#enable-touch-ui-for-aem-screens}
+#### AEM Screens のタッチ操作対応 UI の有効化 {#enable-touch-ui-for-aem-screens}
 
-AEM Screensではタッチ操作対応UIが必要で、Adobe Experience Manager(AEM)のクラシックUIでは動作しません。
+AEM Screens にはタッチ操作対応 UI が必要で、Adobe Experience Manager（AEM）のクラシック UI では AEM Screens は動作しません。
 
-1. &lt;yourAuthorInstance&gt;/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImplに移動します。 **
-1. 次の図に示すよ **うに、デフォルトのオーサリングUI** モードが **TOUCH**&#x200B;に設定されていることを確認します。
+1. *&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl* に移動します。
+1. 「**Default authoring UI mode**」が「**TOUCH**」に設定されていることを確認します（下図を参照）。
 
-また、&lt;yourAuthorInstance&gt; *-&gt;ツール（ハンマーアイコン）*-&gt;*Operations* -&gt; Web Console **Operations -&gt; WEB Console WCM** Authoring SERVICE ******** Mode uiを使用して同じ設定を行うこともできます。
+Alternatively, you can also perform the same setting using *&lt;yourAuthorInstance>*->*tools (hammer icon)* -> **Operations** -> **Web Console** and search for **WCM Authoring UI Mode Service**.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
 >[!NOTE]
 >
->ユーザーの環境設定を使用して、特定のユーザーに対して常にクラシックUIを有効にできます。
+>ユーザーの環境設定を使用して、特定のユーザーに対して常にクラシック UI を有効にすることができます。
 
 #### NOSAMPLECONTENT 実行モードの AEM {#aem-in-nosamplecontent-runmode}
 
-Running AEM in production uses the **NOSAMPLECONTENT** runmode. *RemovetheX-Frame-Options=SAMEORIGIN* header （追加の応答ヘッダーセクション内）
+実稼動環境での AEM の実行には、**NOSAMPLECONTENT** 実行モードを使用します。次の場所に移動して、（追加の応答ヘッダーセクションにある）*X-Frame-Options=SAMEORIGIN* ヘッダーを削除します。
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
@@ -75,27 +75,27 @@ Running AEM in production uses the **NOSAMPLECONTENT** runmode. *RemovetheX-Fram
 
 #### パスワード制限 {#password-restrictions}
 
-DeviceServiceImplに対する最新の変 ***更により***、パスワード制限を削除する必要がなくなりました。
+***DeviceServiceImpl ***の最新の変更により、パスワード制限を削除する必要がなくなりました。
 
-次のリンクから ***DeviceServiceImplを設定して*** 、画面デバイスユーザーのパスワードを作成する際にパスワード制限を有効にすることができます。
+次のリンクから ***DeviceServiceImpl ***を設定して、Screens デバイスユーザーのパスワードを作成する際のパスワード制限を有効にすることができます。
 
 `https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService`
 
-次の手順に従ってDeviceServiceImplを設定 ***します***。
+以下の手順に従って ***DeviceServiceImpl ***を設定します。
 
-1. AEMインスタンス **—&gt;ハンマーアイコン —&gt;操作** —&gt; **WebコンソールからAdobe Experience Manager Web Console Configurationに移動します******。
+1. AEM インスタンスでハンマーアイコン／**操作**／**Web コンソール**&#x200B;をクリックして、「**Adobe Experience Manager Web コンソール設定**」に移動します。
 
-1. **Adobe Experience Manager Web Console Configuration **が開きます。 deviceserviceを検索します。 プロパティを検索するには、 **Command + fキーを押して** Mac **、** Control + fキーを ********&#x200B;押します。
+1. 「Adobe Experience Manager Web コンソール設定」が開きます。「deviceservice」を検索します。このプロパティを検索するには、**Command + F** キー（**Mac**）または **Ctrl + F** キー（**Windows**）を押します。
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
 #### Dispatcher 設定 {#dispatcher-configuration}
 
-AEM Screensプロジェクト用のディスパッチャーを設定する方法については、「AEM Screensプロジェクト用のディスパ [ッチャーの設定」を参照してください](dispatcher-configurations-aem-screens.md)。
+AEM Screens プロジェクトの Dispatcher を設定する方法については、[AEM Screens プロジェクトの Dispatcher の設定](dispatcher-configurations-aem-screens.md)を参照してください。
 
 #### Java エンコーディング {#java-encoding}
 
-Set the ***Java encoding*** to Unicode. 例えば、Dfile.encoding=Cp1252 は機能しません。**
+***Java エンコーディング&#x200B;***を Unicode に設定します。例えば、*Dfile.encoding=Cp1252 *は機能しません。
 
 >[!NOTE]
 >

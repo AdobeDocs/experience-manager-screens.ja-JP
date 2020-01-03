@@ -5,7 +5,7 @@ description: 単一使用のテイクオーバーチャネルを作成する場�
 seo-description: 単一使用のテイクオーバーチャネルを作成する場合は、次の使用例に従います。
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: c4a05f816ce259490600732356572e0774f2ea2f
+source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
 
 ---
 
@@ -86,18 +86,20 @@ source-git-commit: c4a05f816ce259490600732356572e0774f2ea2f
 
    * **チャネルパス**:TakeOverチャネルへのパスを選択
    * **優先度**:このチャネルの優先順位をMainAdChannelよりも大きく設定 **します**。 例えば、この例で設定される優先順位は8です。
+      >[!NOTE]
+      >優先度は、通常再生するチャネルの優先度よりも高い任意の値です。
    * **サポートされるイベント**:「アイドル画 **面** 」と「タイマー」 **を選択します**。
    * **スケジュール**:このチャネルで表示を実行するスケジュールのテキストを入力します。 例えば、ここのテキストでは、12月31日の午前12時の2分前から午前12時1分までコンテンツを再生できます。
 この例で示し **た** Scheduleのテキストは、12月31日の23:58の後、および1月1日の00.01の前の日付です **。
 
       ![アセット](assets/single-takeover8.png)
 
-      SingleUseTakeOver **—>場所** —>場所 **—>ロビー** —>ロビー主ロビークリックロビー表示アクションバーアクションバーを優先順位順位順に割り当てたディスプレイに移動します ************ 。
+      SingleUseTakeTake **—>場所** —>ロボビ **—>** MainLobbyLobby **—>********** MainLobbyDisplayClickClickDashboardClickClickDashboardAssignedChannelsから表示に移動し、優先度を次のようにチャネルを割り当て表示します。
 
       >[!NOTE]
       >テイクオーバーチャネルの優先順位を最も高く設定する必要があります。
 
       ![アセット](assets/single-takeover9.png)
 
-      >[!NOTE]
-      >様々な使用例のスケジュールを指定できます。 詳細は、「永続的な使用例」を参照してください。
+>[!NOTE]
+>再生後は、単一使用のテイクオーバーチャネルを削除することをお勧めします。

@@ -5,7 +5,7 @@ description: 永続テイクオーバーチャネルを作成する場合は、�
 seo-description: 特定の日時を通じて継続的に再生する永続的なテイクオーバーチャネルを作成するプロジェクトを設定する場合は、この使用例に従ってください。
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: ab7b6637619cc0074cc0198202d69b1245b1b1f5
+source-git-commit: 5c89be38d0a8dade2f829bcce6fb3154789d3579
 
 ---
 
@@ -85,17 +85,20 @@ source-git-commit: ab7b6637619cc0074cc0198202d69b1245b1b1f5
    * **チャネルパス**:TakeOverチャネルへのパスを選 **択**
    * **優先度**:このチャネルの優先順位をMainAdChannelよりも大きく設定 **します**。 例えば、この例で設定される優先順位は8です。
    * **サポートされるイベント**:「アイドル画 **面** 」と「タイマー」 **を選択します**。
-   * **スケジュール**:このチャネルで表示を実行するスケジュールのテキストを入力します。 例えば、このテキストでは、毎水曜日の午後2時から午後4時までコンテンツを再生できます。
-この例で説明し **ている** Scheduleのテキストは、14:00 *の後、16:00の前の水曜日です*。
+   * **スケジュール**:このチャネルで表示を実行するスケジュールのテキストを入力します。 この例で説明し **ている** Scheduleのテキストは、14:00 *の後、16:00の前の水曜日です*。
+   * **アクティブ**:開始日時。
+   * **アクティブ**:終了日時。
+   例えば、 **Schedule** and **active from** and **** active until日時のテキストでは、コンテンツを毎週水曜日の午後2時から午後4時まで再生できます。
 
-      ![アセット](assets/p_usecase7.png)
 
-      次に示すように、 **TakeOver** —> Locations **—>** MainLobby **—> MainMain** DisplayDisplayDashboard **Dashboard** Channelsを優先度を割り当てたチャネルを表示するTakeOver **** —> Locations —> main mainMainLobolobies> Main Main Main Main MainMainDin DisplayDisDisDisDisDisDisDisDisDisDisDisDisDisDisDisDisDisplayDisDisDisDisDisDisDisplayDisplayDisplayDisDisplayDisplayDisplayDisplayDisplayDisplayDisDisplayDisplay
+   ![アセット](assets/p_usecase7.png)
 
-      >[!NOTE]
-      >テイクオーバーチャネルの優先順位を最も高く設定する必要があります。
+   次に示すように、 **TakeOver** —> Locations **—>** MainLobby **—> MainMain** DisplayDisplayDashboard **Dashboard** Channelsを優先度を割り当てたチャネルを表示するTakeOver **** —> Locations —> main mainMainLobolobies> Main Main Main Main MainMainDin DisplayDisDisDisDisDisDisDisDisDisDisDisDisDisDisDisDisDisplayDisDisDisDisDisDisDisplayDisplayDisplayDisDisplayDisplayDisplayDisplayDisplayDisplayDisDisplayDisplay
 
-      ![アセット](assets/p_usecase8.png)Nowでは、 **TakeOver****** チャネルがMainAdChannelを2時に2時間、毎週水曜日の午後4時まで引き継ぎ、2020年1月9日から2020年1月31日までコンテンツを再生します。
+   >[!NOTE]
+   >テイクオーバーチャネルの優先順位を最も高く設定する必要があります。
+
+   ![アセット](assets/p_usecase8.png)Nowでは、 **TakeOver****** チャネルがMainAdChannelを2時に2時間、毎週水曜日の午後4時まで引き継ぎ、2020年1月9日から2020年1月31日までコンテンツを再生します。
 
 ### Example Expressions {#example-expressions}
 

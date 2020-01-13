@@ -1,8 +1,8 @@
 ---
-title: 機能パック201905リリースノート
-seo-title: 機能パック201905リリースノート
-description: 2019年5月17日にリリースされたAEM Screens Feature Pack 201905の情報を入手するには、このページに従ってください。
-seo-description: 2019年5月17日にリリースされたAEM Screens Feature Pack 201905の情報を入手するには、このページに従ってください。
+title: 機能パック 201905 のリリースノート
+seo-title: 機能パック 201905 のリリースノート
+description: 2019 年 5 月 16 日にリリースされた AEM Screens 機能パック 201905 について説明します。
+seo-description: 2019 年 5 月 16 日にリリースされた AEM Screens 機能パック 201905 について説明します。
 uuid: ebbaa7bb-4672-4a07-bcb7-67a778c72db8
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,58 +10,58 @@ content-type: reference
 topic-tags: release-notes
 discoiquuid: 1209bd96-9de5-428e-a1b5-950507e66c0b
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
 
 
-# 機能パック201905リリースノート {#release-notes-for-feature-pack}
+# 機能パック 201905 のリリースノート {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->最新バージョンのAdobe Experience Manager(AEM)にアップグレードすることをお勧めします。 画面は、AEM 6.3 Screensプラットフォームのメンテナンスサポートを提供します。
+>最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
 
-AEM Screensは、AEM 6.3.3.3機能パック6およびAEM 6.4.4.0機能パック4を次の内容でリリースしました。
+AEM 6.3.3.3 機能パック 6 および AEM 6.4.4.0 機能パック 4 向けの AEM Screens がリリースされました。詳細は以下のとおりです。
 
 ## リリース日 {#release-date}
 
-AEM Screens機能パック201905のリリース日は2019年5月17日です。
+AEM Screens 機能パック 201905 のリリース日は 2019 年 5 月 16 日です。
 
-### 最新情報 {#what-s-new}
+### 新機能 {#what-s-new}
 
 * **プロジェクトインポーター**
 
-プロジェクトインポーターは、AEM Screensで使用できる機能で、CSV/XLSスプレッドシートからAEM Screensプロジェクトに一連の場所を一括インポートできます。
+プロジェクトインポーターは、AEM Screens で利用できる機能で、ユーザーは CSV／XLS スプレッドシートから AEM Screens プロジェクトに一連のロケーションを一括で読み込むことができます。
 
-Refer to **[New Project Importer from File](project-importer.md)** for more details.
+詳しくは、**[ファイルをソースとする新しいプロジェクトインポーター](project-importer.md)**&#x200B;を参照してください。
 
-* **ContentSyncからSmartSyncへの移行**
+* **コンテンツ同期からスマート同期への移行**
 
-SmartSyncは、サーバの負荷/ストレージとネットワークトラフィックを最小限に抑え、コストを削減します。
+スマート同期で、サーバー負荷／ストレージとネットワークトラフィックを最小限に抑えてコストを削減できます。
 
-詳しくは、「ContentSync **[からSmartSyncへの移行](smartsync.md)** 」を参照してください。
+詳しくは、**[コンテンツ同期からスマート同期への移行](smartsync.md)**&#x200B;を参照してください。
 
 * **緊急チャネル**
 
-この使用例では、緊急チャネルの作成と管理に重点を置いており、コンテンツ作成者は、事前条件が発生した場合にシーケンスチャネルから切り替えることができます。
+この使用例では、緊急チャネルの作成と管理に重点を置いています。事前条件が成立した場合、コンテンツ作成者はシーケンスチャネルから緊急チャネルに切り替えることができます。
 
-詳細は、「 **[緊急チャネル](emergency-channel.md)** (Emergency Channel)の使用例」を参照してください。
+詳しくは、**[緊急チャネル](emergency-channel.md)**&#x200B;の使用例を参照してください。
 
-* **AEM SPAエディターを使用したREACTアプリケーションの埋め込みとAEM Screens Analyticsとの統合**
+* **AEM SPA Editor を使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合**
 
-ここでは、AEMのビジネスプロフェッショナルが設定できるAEM SPAエディターを使用してREACT（またはAngular）を使用し、インタラクティブな単一ページアプリを埋め込む方法と、インタラクティブなアプリをオフラインのAdobe Analyticsと統合する方法について説明します。
+ここでは、AEM でビジネスプロフェッショナルが設定できる AEM SPA Editor を使用して React（または Angular）ベースのインタラクティブなシングルページアプリケーションを埋め込む方法について説明します。また、インタラクティブアプリケーションをオフライン Adobe Analytics と統合する方法についても説明します。
 
-詳しくは、AEM SPA **[エディターを使用したREACTアプリケーションの埋め込みおよびAEM Screens Analyticsとの統合を参照してください](embedding-react-app.md)** 。
+詳しくは、**[AEM SPA Editor を使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合](embedding-react-app.md)**&#x200B;を参照してください。
 
-### リリースされたAEM Screensプレーヤー {#released-aem-screens-players}
+### リリースされている AEM Screens Player {#released-aem-screens-players}
 
-AEM 6.3.3機能パック6およびAEM 6.4.4.0機能パック4用に、次のAEM Screensプレーヤーがリリースされました。
+AEM 6.3.3.3 機能パック 6 および AEM 6.4.4.0 機能パック 4 向けに、次の AEM Screens Player がリリースされています。
 
-* ChromeOS
+* Chrome OS
 * Windows
 * Android
 
-#### AEM Screens playerのダウンロード {#aem-screens-player-downloads}
+#### AEM Screens Player のダウンロード {#aem-screens-player-downloads}
 
-最新のAEM Screensプレーヤーをダウンロードし、バグ修正の詳細については、 **[AEM Screensプレーヤーのダウンロードを参照してください](https://download.macromedia.com/screens/)**。
+最新の AEM Screens Player のダウンロードとバグ修正について詳しくは、**[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)**&#x200B;を参照してください。

@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 AEM Screens で&#x200B;**スケジュール**&#x200B;を使用すると、複数のチャネルを再使用可能なグループに編成できるので、コンテンツを表示する各ディスプレイに個別に割り当てをおこなう必要がなくなります。
 
-Schedules when combined with ***Dayparting***, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+スケジュールを&#x200B;***時間帯区分***&#x200B;と組み合わせると、ある日の特定の時間に実行される複数のチャネルでグローバルスケジュールを設定でき、また一度にすべてのディスプレイでその設定を再使用できます。
 
 >[!NOTE]
 >
@@ -31,9 +31,9 @@ Schedules when combined with ***Dayparting***, allows you to set a global schedu
 
 下の手順に従って、チャネルのスケジュールを作成します。
 
-1. Adobe Experience Manager リンク（左上）を選択し、「スクリーン」を選択します。Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
-1. Navigate to Screens project and click **Schedules**.
-1. アクションバーから「**作成**」をクリックします。
+1. Adobe Experience Manager リンク（左上）を選択し、「Screens」を選択します。または、`http://localhost:4502/screens.html/content/screens` に直接アクセスすることもできます。
+1. Screens プロジェクトに移動し、「**スケジュール**」をクリックします。
+1. アクションバーの「**作成**」をクリックします。
 1. 「**スケジュール**」を&#x200B;**作成**&#x200B;ウィザードから選択し、「**次へ**」をクリックします。
 
 1. **名前**&#x200B;と&#x200B;**タイトル**&#x200B;に情報を入力し、「**作成**」をクリックします。
@@ -48,7 +48,7 @@ Schedules when combined with ***Dayparting***, allows you to set a global schedu
 
 下の手順に従ってスケジュールダッシュボードを表示します。次の例では、We.Retail プロジェクトのダッシュボードが示されています。
 
-1. スクリーン（We.Retail など）プロジェクト&#x200B;**スケジュール**&#x200B;フォルダーに移動します。
+1. Screens（We.Retail など）プロジェクト&#x200B;**スケジュール**&#x200B;フォルダーに移動します。
 
    ![chlimage_1](assets/chlimage_1.png)
 
@@ -58,9 +58,9 @@ Schedules when combined with ***Dayparting***, allows you to set a global schedu
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **[集計情報]パネル** [集計情報]パネルの右上隅にある[プロパティ]をクリックして、集計表のプロパティを表示/変更します。
+   **スケジュール情報パネル**：右上隅にある「プロパティ」をクリックして、スケジュールのプロパティを表示または変更します。
 
-   **[割り当てられたチャネル** ]パネル[割り当てられたチャネル]パネルの右上隅にある[チャネルを割り当て]をクリックして、[チャネル割り当て]ダイアログボックスを開きます。 詳しくは、「チャネルの割り当て」を参照してください。
+   **割り当てられたチャネルパネル**：右上隅にある「+ チャネルを割り当て」をクリックして、チャネルの割り当てダイアログボックスを開きます。詳しくは、「チャネルの割り当て」を参照してください。
 
-   **[割り当て済み表示パネル** ] [割り当て済み表示パネル]から任意の表示を選択し、表示ダッシュボードを開きます。
+   **割り当てられたディスプレイパネル**：任意のディスプレイを選択して、ディスプレイダッシュボードを開きます。
 

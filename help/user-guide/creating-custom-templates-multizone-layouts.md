@@ -1,29 +1,29 @@
 ---
-title: マルチゾーンレイアウトでのカスタムテンプレートの作成
-seo-title: マルチゾーンレイアウトでのカスタムテンプレートの作成
-description: MultiZoneレイアウトでのカスタムテンプレートの作成については、このページに従ってください。
-seo-description: MultiZoneレイアウトでのカスタムテンプレートの作成については、このページに従ってください。
+title: マルチゾーンレイアウトのカスタムテンプレートの作成
+seo-title: マルチゾーンレイアウトのカスタムテンプレートの作成
+description: ここでは、マルチゾーンレイアウトのカスタムテンプレートの作成について説明します。
+seo-description: ここでは、マルチゾーンレイアウトのカスタムテンプレートの作成について説明します。
 contentOwner: Jyotika Syal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
 
 
-# マルチゾーンレイアウトでのカスタムテンプレートの作成 {#creating-custom-templates-multizone}
+# マルチゾーンレイアウトのカスタムテンプレートの作成 {#creating-custom-templates-multizone}
 
-次の例は、multiZoneレイアウトでカスタムテンプレートを作成する方法を示しています。
+次の例は、マルチゾーンレイアウトのカスタムテンプレートを作成する方法を示しています。
 
-例えば、次の節では、マルチゾーンレイアウトでのカスタムテンプレートの作成方法を示します。
+例えば、次の節では、以下の設定でマルチゾーンレイアウトのカスタムテンプレートを作成する方法を示します。
 
-![image](assets/custom-template1.png)
+![画像](assets/custom-template1.png)
 
 
 ## 特定の設定を使用したカスタムテンプレートの作成 {#basic-flow-setting}
 
-カスタムテンプレートを作成するには、次の手順に従います。
+カスタムテンプレートを作成するには、以下の手順に従います。
 
-1. テンプレートの作成先 `/apps/<project>/templates/my-custom-layout`
+1. `/apps/<project>/templates/my-custom-layout` にテンプレートを作成します。
 
 ```shell
 <?xml version="1.0" encoding="UTF-8"?>
@@ -61,15 +61,15 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 </jcr:root>
 ```
 
-1. でページデザインを作成しま `/apps/settings/wcm/designs/<project>`す。
+1. `/apps/settings/wcm/designs/<project>` にページデザインを作成します。
 
    >[!NOTE]
    >
-   >上記の項目がパスと一 `cq:designPath` 致することを確認します。
+   >上記の `cq:designPath` がこのパスと一致することを確認します。
 
-1. 新しいパ **スを指すようにデザインのoffline-config** ノードを更新します
+1. デザインの **offline-config** ノードも、新しいパスを指すように更新します。
 
-1. フォルダ **ーに** static.css `/apps/settings/wcm/designs/<project>` ファイルを追加し、そのコンテンツを
+1. `/apps/settings/wcm/designs/<project>` フォルダーに **static.css** ファイルを追加し、その内容を以下のように設定します。
 
 ```shell
 .cq-Screens-channel--multizone.my-CustomLayout {}
@@ -82,19 +82,19 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 画像を背景レイヤーとしてレイアウトに挿入できます。
 
-CSSルールを調整して、「data-uri」と呼ばれるものを使用し、CSSファイル内の画像（Base64エンコード済み）を直接インライン化できます。
+いわゆる「data-uri」を使用して画像（Base64 エンコード済み）を CSS ファイルに直接埋め込むように、CSS ルールを調整できます。
 
-これは次のように行います。
+それには次のようにします。
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
 
 または、次の手順に従うこともできます。
 
-1. 画像がチャネルのオフライン設定に含まれていることを確認します
-1. 「data-uri」バリアントの代わりに、上記のCSSの画像への直接リンクを使用します。
+1. 画像を何らかの形でチャネルのオフライン設定に含めます。
+1. 上記の CSS で、「data-uri」バリアントではなく、画像への直接リンクを使用します。
 
 
 ## 背景色の更新 {#updating-color}
 
-背景色を変更するには、xmlファイルに次のコードを追加します。
+背景色を変更するには、xml ファイルに次のコードを追加します。
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`

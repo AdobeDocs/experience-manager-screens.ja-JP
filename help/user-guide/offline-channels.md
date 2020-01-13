@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 # オフラインチャネル {#offline-channels}
 
-The Screens player provides offline support for the channels by leveraging the ***ContentSync*** technology.
+Screens Player では、***ContentSync*** テクノロジーを利用してチャネルのオフラインサポートを提供しています。
 
 プレーヤーは、解凍したコンテンツを提供するためにローカルの HTTP サーバーを使用します。
 
-チャネルがオンラインで実行されるように設定されている場合、プレーヤーは AEM サーバーにアクセスしてチャネルリソースを提供します。これに対し、チャネルがオフラインで実行されるように設定されている場合、プレーヤーはローカルの HTTP サーバーからチャネルリソースを提供します。****
+チャネルが&#x200B;*オンライン*&#x200B;で実行されるように設定されている場合、プレーヤーは AEM サーバーにアクセスしてチャネルリソースを提供します。これに対し、チャネルが&#x200B;*オフライン*&#x200B;で実行されるように設定されている場合、プレーヤーはローカルの HTTP サーバーからチャネルリソースを提供します。
 
 このプロセスのワークフローを次に示します。
 
@@ -32,41 +32,41 @@ The Screens player provides offline support for the channels by leveraging the *
 1. zip ファイルをダウンロードし、ローカルに抽出します。
 1. コンテンツのローカルコピーを表示します。
 
-## 更新ハンドラー {#update-handlers}
+## 更新ハンドラー{#update-handlers}
 
-***ContentSync**は、更新ハンドラーを使用して、特定のプロジェクトに必要なすべてのページとアセットを解析および収集します。* AEM Screens では、次の更新ハンドラーが使用されます。
+***ContentSync*** は、更新ハンドラーを使用して、特定のプロジェクトに必要なすべてのページとアセットを解析および収集します。AEM Screens では、次の更新ハンドラーが使用されます。
 
-### 共通オプション {#common-options}
+### 共通オプション{#common-options}
 
 * *type*：使用する更新ハンドラーのタイプ
 * *path*：リソースのパス
-* *[targetRootDirectory]*:zipファイル内のターゲットフォルダー
+* *[targetRootDirectory]*：zip ファイル内のターゲットフォルダー
 
 <table>
  <tbody>
   <tr>
-   <td><strong>種類</strong></td> 
+   <td><strong>タイプ</strong></td> 
    <td><strong>説明</strong></td> 
-   <td><strong>Options</strong></td> 
+   <td><strong>オプション</strong></td> 
   </tr>
   <tr>
-   <td>チャネル</td> 
-   <td>チャネルを収集する</td> 
-   <td>extension:収集するリソースの拡張<br /> [pathSuffix="]:チャネルパスに追加するサフィックス<br /> </td> 
+   <td>channels</td> 
+   <td>チャネルを収集します</td> 
+   <td>extension：収集するリソースの拡張子<br /> [pathSuffix="]：チャネルパスに追加するサフィックス<br /> </td> 
   </tr>
   <tr>
    <td>clientlib</td> 
-   <td>指定したクライアントライブラリを収集する</td> 
-   <td>[extension="]:は、cssまたはjsのいずれかで、前者のみを収集するか、後者のみを収集するかを指定できます。</td> 
+   <td>指定されたクライアントライブラリを収集します</td> 
+   <td>[extension="]：css か js のどちらか（前者のみか後者のみを収集するために指定）</td> 
   </tr>
   <tr>
    <td>assetrenditions：</td> 
-   <td>アセットのレンディションを収集する</td> 
-   <td>[renditions=[]]:収集するレンディションのリスト。 デフォルトで元のレンディションに設定</td> 
+   <td>アセットレンディションを収集します</td> 
+   <td>[renditions=[]]：収集するレンディションのリスト。デフォルトで元のレンディションに設定</td> 
   </tr>
   <tr>
    <td>copy</td> 
-   <td>指定した構造をパスからコピーする</td> 
+   <td>指定された構造をパスからコピーします</td> 
    <td> </td> 
   </tr>
  </tbody>
@@ -74,18 +74,18 @@ The Screens player provides offline support for the channels by leveraging the *
 
 ### ContentSync 設定のテスト {#testing-contentsync-configuration}
 
-ContentSync 設定をテストするには、次の手順を実行します。
+ContentSync 設定をテストするには、以下の手順に従います。
 
-1. Open `https://localhost:4502/libs/cq/contentsync/content/console.html`
+1. `https://localhost:4502/libs/cq/contentsync/content/console.html` を開きます。
 1. リストから設定を選択します。
-1. 「キャッシュをクリア」をクリックします
-1. 「キャッシュを更新」をクリックします
-1. 「フルダウンロード」をクリックします
+1. 「キャッシュをクリア」をクリックします。
+1. 「キャッシュを更新」をクリックします。
+1. 「すべてダウンロード」をクリックします。
 1. zip ファイルを解凍します。
-1. 抽出したフォルダーでのローカルサーバーの起動
+1. 解凍したフォルダーでローカルサーバーを起動します。
 1. スタートページを開き、アプリケーションの状態を確認します。
 
-## チャネルのオフライン設定の有効化 {#enabling-offline-config-for-a-channel}
+## チャネルのオフライン設定の有効化{#enabling-offline-config-for-a-channel}
 
 チャネルのオフライン設定を有効にするには、次の手順を実行します。
 
@@ -93,7 +93,7 @@ ContentSync 設定をテストするには、次の手順を実行します。
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. **チャネルダッシュボードに移動し、[...]**&#x200B;をクリックします。を使用し **て** 、プロパティを変更します。
+1. チャネルのダッシュボードに移動し、**チャネル情報**&#x200B;パネルの「**...**」をクリックして、プロパティを変更します。
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
@@ -105,7 +105,7 @@ ContentSync 設定をテストするには、次の手順を実行します。
 
    ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
 
-   これに合わせて&#x200B;**プロパティ**&#x200B;の&#x200B;**オフライン**&#x200B;ステータスも更新されます。
+   これに合わせて「**プロパティ**」の「**オフライン**」ステータスも更新されます。
 
    ![screen_shot_2017-12-19at124735pm](assets/screen_shot_2017-12-19at124735pm.png)
 

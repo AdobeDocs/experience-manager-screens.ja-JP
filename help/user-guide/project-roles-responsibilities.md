@@ -1,8 +1,8 @@
 ---
-title: 「パート1:プロジェクトの役割と責任」
-seo-title: 「パート1:プロジェクトの役割と責任」
-description: このチュートリアルに従って、デジタル看板プロジェクトの販売およびプロジェクトのライフサイクルに必要な役割、責任、およびタイムラインをより深く理解します。
-seo-description: このチュートリアルに従って、デジタル看板プロジェクトの販売およびプロジェクトのライフサイクルに必要な役割、責任、およびタイムラインをより深く理解します。
+title: 第 1 部：プロジェクト上の役割と責務
+seo-title: 第 1 部：プロジェクト上の役割と責務
+description: このチュートリアルでは、デジタルサイネージプロジェクトのセールスおよびプロジェクトのライフサイクルで必要な役割、責務、タイムラインについて説明します。
+seo-description: このチュートリアルでは、デジタルサイネージプロジェクトのセールスおよびプロジェクトのライフサイクルで必要な役割、責務、タイムラインについて説明します。
 uuid: 871e75c1-9922-4292-8156-aa3ee8a87617
 contentOwner: jsyal
 content-type: reference
@@ -10,33 +10,33 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 860beb87-3686-488e-9bca-a590e78a751c
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
 
 
-# Part 1: Project Roles and Responsibilities {#part-project-roles-and-responsibilities}
+# 第 1 部：プロジェクト上の役割と責務 {#part-project-roles-and-responsibilities}
 
-このページでは、5部構成のシリーズのパート1について説明します。このシリーズは、デジタル署名プロジェクトの販売およびプロジェクトのライフサイクルに必要な役割、責任、およびタイムラインをチームメンバーがより深く理解できるように設計されています。
+このページは 5 部構成のシリーズの第 1 部で、デジタルサイネージプロジェクトのセールスおよびプロジェクトのライフサイクルで必要な役割、責務、タイムラインをチームメンバーがより深く理解できる内容になっています。
 
 ## 概要 {#overview}
 
-次のチュートリアルでは、アドビ、AEM実装者およびAVインテグレーターのプロジェクトの役割と責任について概要を説明します。 後続のエピソードに移動して、AEM Screensのオポチュニティをうまく開発する方法と、長期的な成功に向けたデプロイメントを配置する方法に関する包括的な概要を確認できます。
+以下のチュートリアルでは、アドビ、AEM 実装担当者、AVインテグレーターのプロジェクト上の役割と責務を大まかに説明します。後に続くエピソードを参照すると、AEM Screens のビジネス機会をうまく開発し長期的な成功を収めることができるようにデプロイする方法の概要を包括的に把握できます。
 
-次の3つのプライマリグループが、配信プロセスを通じて関与しています。
+配信プロセスを通じて関与する主要なグループは次の 3 つです。
 
 * アドビ
 * AV インテグレーター
-* AEM導入チーム
+* AEM 実装チーム
 
 >[!NOTE]
 >
->関与するすべての関係者が、AEM screenのデプロイメントと問題解決ワークフローにおける各関係者の要因を正確に把握し、パフォーマンスの問題に対処するための明確に定義された役割を持つことが重要です。
+>パフォーマンスの問題への対処における役割を明確に定義したうえで、AEM Screens のデプロイメントと問題解決ワークフローに対するそれぞれの関係先の関わりをすべての関係者が正確に理解することが重要です。
 
-## デジタルサイネージプロジェクトに関わる役割の概要 {#summary-of-roles-involved-in-a-digital-signage-project}
+## デジタルサイネージプロジェクトに関与する役割の概要 {#summary-of-roles-involved-in-a-digital-signage-project}
 
-アドビ、AEM実装者、AVインテグレーターと連携してアプリケーションのユースケースパラメーターを定義することで、ソフトウェア開発の範囲が広がります。 これにより、プロジェクト全体で識別されるパフォーマンスベンチマークと成功指標を基にして確立される段階的アプローチが保証されます。
+アドビ、AEM 実装担当者、AV インテグレーターと協力してアプリケーションのユースケースパラメーターを定義することで、ソフトウェア開発の範囲が広がります。これにより、プロジェクト全体を通して特定されるパフォーマンスベンチマークと成功指標に基づく段階的アプローチが確立されます。
 
 ### アドビ {#adobe}
 
@@ -44,7 +44,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 #### AEM 実装担当者 {#aem-implementors}
 
-An **AEM Implementor** is responsible for performing development and integration tasks to develop the user experience, custom templates, and back-end integrations for AEM.
+**AEM 実装担当者**&#x200B;は、AEM のユーザーエクスペリエンス、カスタムテンプレートおよびバックエンド統合を開発するための開発タスクおよび統合タスクを実行します。
 
 エンドカスタマー UX（ユーザーエクスペリエンス）を左右する要因に対応するうえで必要なカスタム機能も、このプロセスを通じて特定および提供されます。
 
@@ -52,20 +52,20 @@ AEM 実装担当者は、通常、段階的にカスタム機能を適所に導�
 
 #### AV インテグレーター {#av-integrators}
 
-An **AV Integrator** is responsible for conducting discovery with end-customers to define requirements determining project scope to design, build and effectively manage deployments around digital signage hardware.
+**AV インテグレーター**&#x200B;は、デジタルサイネージハードウェアのデプロイメントを設計、構築および効果的に管理するために、エンドカスタマーと共に洗い出し作業をおこなって、プロジェクト範囲を決定する要件を定義します。
 
-## パート1:プロジェクトの役割と責任に関するビデオチュートリアル {#part-video-tutorial-on-project-roles-and-responsibilities}
+## 第 1 部：プロジェクト上の役割と責務に関するビデオチュートリアル {#part-video-tutorial-on-project-roles-and-responsibilities}
 
-次のチュートリアルに従って、AEM Screensデプロイメントの各関係者がどのように問題解決ワークフローを引き起こすか、パフォーマンスの問題に対処する際の明確に定義された役割を理解してください。
+パフォーマンスの問題への対処における役割を明確に定義したうえで、AEM Screens のデプロイメントと問題解決ワークフローに対するそれぞれの関係先の関わりを正確に理解するには、次のチュートリアルを参照してください。
 
-### パート1:プロジェクトの役割と責任
+### 第 1 部：プロジェクト上の役割と責務
 
 >[!VIDEO](https://video.tv.adobe.com/v/28375?captions=jpn)
 
-*アドビ、AVインテグレーター、AEM実装者の役割と責任について説明します。*
+*アドビ、AV インテグレーター、AEM 実装担当者の役割と責務について学びます。*
 
 ## 次のステップ {#the-next-step}
 
-デジタル看板プロジェクトの導入におけるプロジェクトの役割と責任を理解したら、次のチュートリアルに従って、AEM Screensのオポチュニティを開発する際のテストやプリセールスに関する考慮事項などのトピックを深く掘り下げます。
+デジタルサイネージプロジェクトの実装におけるプロジェクト上の役割と責務を理解したら、次のチュートリアルを参照します。このチュートリアルでは、AEM Screens のビジネス機会の開発においてプロジェクト範囲を定義する際のテストおよびプリセールスの検討事項などについて詳しく説明しています。
 
-パート2 **[に移動：プロジェクトのスコープに関する考慮事項](project-considerations.md)** 」を参照してください。
+詳しくは、**[第 2 部：プロジェクト範囲を定義する際の検討事項](project-considerations.md)**&#x200B;を参照してください。

@@ -1,8 +1,8 @@
 ---
 title: 埋め込みシーケンス
 seo-title: 埋め込みシーケンス
-description: このページに従って、チャネルの埋め込みシーケンスについて学びます。チャネルの埋め込みシーケンスを使用すると、ユーザーは、親チャネルにコンポーネントを追加したり、様々なチャネルからコンテンツを再利用したり、親チャネルに埋め込んだりできます。
-seo-description: このページに従って、チャネルの埋め込みシーケンスについて学びます。チャネルの埋め込みシーケンスを使用すると、ユーザーは、親チャネルにコンポーネントを追加したり、様々なチャネルからコンテンツを再利用したり、親チャネルに埋め込んだりできます。
+description: ここでは、チャネルの埋め込みシーケンスについて説明します。チャネルの埋め込みシーケンスを使用すると、ユーザーは、親チャネルにコンポーネントを追加したり、様々なチャネルからコンテンツを再利用したり、親チャネルに埋め込んだりできます。
+seo-description: ここでは、チャネルの埋め込みシーケンスについて説明します。チャネルの埋め込みシーケンスを使用すると、ユーザーは、親チャネルにコンポーネントを追加したり、様々なチャネルからコンテンツを再利用したり、親チャネルに埋め込んだりできます。
 uuid: 72a8d4e6-e5ce-4069-bf3b-864d03f61585
 contentOwner: jsyal
 content-type: reference
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 # 埋め込みシーケンス {#embedded-sequences}
 
-Using ***Embedded Sequences***, for channels, allows the user to add components in the parent channel and also to re-use the content from a different channel and embed it into the parent channel.
+チャネルの&#x200B;***埋め込みシーケンス***&#x200B;を使用すると、ユーザーは、親チャネルにコンポーネントを追加したり、様々なチャネルからコンテンツを再利用したり、親チャネルに埋め込んだりできます。
 
 ## 埋め込みシーケンスの追加 {#adding-embedded-sequences}
 
-シーケンスチャネルに次のコンポーネントを追加するオプションがあります。
+次のコンポーネントをシーケンスチャネルに追加することができます。
 
 * 埋め込みシーケンス
 * 動的埋め込みシーケンス
@@ -31,60 +31,60 @@ Using ***Embedded Sequences***, for channels, allows the user to add components 
 >
 >スクリーンプロジェクトでの他のコンポーネントの使用について詳しくは、[チャネルへのコンポーネントの追加](adding-components-to-a-channel.md)を参照してください。
 
-### 埋め込みシーケンスの追加 {#adding-an-embedded-sequence}
+### 埋め込みシーケンスの追加{#adding-an-embedded-sequence}
 
-埋め込みシーケンスをチャネルに追加できます。埋め込みシーケンスとは、画像やビデオなどのアセットを含む別のチャネルです。 Adding an embedded sequence allows the user to add the sequence to a channel by ***Channel Path***.
+埋め込みシーケンスをチャネルに追加できます。埋め込みシーケンスは、画像またはビデオなどのアセットを含んだ別のチャネルです。埋め込みシーケンスを追加すると、ユーザーは、***チャネルパス***&#x200B;でチャネルにシーケンスを追加できます。
 
 >[!NOTE]
 >
->***チャネルパス***チャネルへの明示的な参照を定義します。
+>チャネルパスは、チャネルへの明示的な参照を定義します。
 >
 >*チャネルパス*&#x200B;について詳しくは、画面の作成の[チャネル割り当て](channel-assignment.md)を参照してください。
 
 埋め込みシーケンスをチャネルに追加するには、次の手順に従います。
 
-1. ページを埋め込むチャネルを選択しますFor example, **We.Retail In-Store** --&gt; **Channels** --&gt;** Idle Channel**.
+1. ページを埋め込むチャネルを選択します（例：**We.Retail In-Store**／**Channels**／Idle Channel）。
 
-1. Click **Edit** from the action bar to open the channel in the editor mode.
-1. 左側のバーのコンポーネントアイコンをクリックして、埋め込まれたページを追加します。Drag and drop the **Embedded Sequence** to the editor.
-1. Double-click the **Embedded Sequence** component to add the channel to your original sequence channel.
-1. Select the **Channel Path** of the channel.
-1. Select the **Duration (ms)** for your embedded channel in the **Sequence** tab. By default, the duration is set to **-1**, that means embedded channel is fully run. ユーザーがデュレーションを指定すると、後続は指定した時間で中断されます（つまり、カットされます）。
+1. アクションバーの「**編集**」をクリックして、チャネルをエディターモードで開きます。
+1. 左側のバーのコンポーネントアイコンをクリックして、埋め込まれたページを追加します。**埋め込みシーケンス**&#x200B;をエディターにドラッグ＆ドロップします。
+1. **埋め込みシーケンス**&#x200B;コンポーネントをダブルクリックして、チャネルを元のシーケンスチャネルに追加します。
+1. チャネルの&#x200B;**チャネルパス**&#x200B;を選択します。
+1. 「**シーケンス**」タブで、埋め込まれたチャネルの「**デュレーション (ms)**」を選択します。デフォルトでは、デュレーションは **-1** に設定されています。これは、埋め込まれたチャネルが完全に実行されることを意味します。ユーザーがデュレーションを指定すると、後続は指定した時間で中断されます（つまり、カットされます）。
 
-1. 「有料再生 **方法」を** 「通常」に **設定します**。
+1. 「**メーター制再生戦略**」を「**通常**」に設定します。
 
-By default, it is set to **normal**. Setting the value to **normal*** (Play all items)* means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item*** (Play a single item)* and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
+これはデフォルトで「**通常**」に設定されています。値を「**通常**」（すべてのアイテムを再生）に設定すると、親シーケンスの各サイクルで後続が完全に実行されます。他の指定可能な値には「**1 つのアイテムを再生**」があります。この場合は、各実行で後続の 1 つのアイテムのみ表示されます（例えば、最初のループで最初のアイテム、2 回目のループで 2 番目のアイテムというように）。
 
 >[!NOTE]
 >
->**重要:**
+>**重要：**
 >
->（埋め込まれたシーケンスで使用される）チャネルを同じディスプレイに割り当てる必要があります。
+>（埋め込みシーケンスで使用した）チャネルを同じディスプレイに割り当てる必要があります。
 >
->上記の手順からチャネルに埋め込みシーケンスを追加した後、次の手順に従います。
+>上記の手順でチャネルに埋め込みシーケンスを追加した後、以下の手順に従います。
 >
->1. 表示に移動し、場所フォルダーから表示を選択 **します** 。
->1. アクションバ **ーの「ダッシュボード** 」をクリックして、表示ダッシュボードに移動します。
->1. 「割り当て **済みチャネルと予定パネル** 」から「+チャネルの割り当て **」を選択し、チャネルの割り当て** ダイアログボックスを開きます ****。
+>1. ディスプレイに移動し、**ロケーション**&#x200B;フォルダーからディスプレイを選択します。
+>1. アクションバーの「**ダッシュボード**」をクリックして、ディスプレイダッシュボードに移動します。
+>1. **割り当てられたチャネルとスケジュール**&#x200B;パネルで「**+ チャネルを割り当て**」をクリックして、**チャネル割り当て**&#x200B;ダイアログボックスを開きます。
    >
    >
-1. 「チャネルパス」で、（埋め込まれたシーケンスで使用される）チャネルのパスを **選択します**。
->1. 優先度( **Priority** )がメインチャネルよりも低いことを確認します。
+1. （埋め込みシーケンスで使用した）チャネルのパスを「**チャネルパス**」で選択します。
+>1. 「**優先度**」がメインチャネルよりも低いことを確認します。
    >
    >
-1. 「サポートされるイベント」は選択 **できません**。
->1. Click **Save** once done.
+1. 「**サポートされているイベント**」は選択しないでください。
+>1. 完了したら、「**保存**」をクリックします。
 >
 
 
 
-次に、埋め込みシーケンス（**Idle Channel - Night**）を既に存在するチャネル（**Idle Channel**）に追加する例を示します。
+既に存在するチャネル（**Idle Channel**）に埋め込みシーケンス（**Idle Channel - Night**）を追加する例を以下に示します。
 
 ![new2](assets/new2.gif)
 
 ### 動的埋め込みシーケンスの追加 {#adding-a-dynamic-embedded-sequence}
 
-動的埋め込みシーケンスをチャネルに追加できます。動的埋め込みシーケンスは、埋め込みシーケンスと似ていますが、階層に従います。その階層では、あるチャネルに対しておこなわれた変更／更新が、関連する他のチャネルにプロパゲートされます。親子の階層に従い、画像やビデオなどのアセットも含まれます。 動的シーケンスを追加すると、ユーザーは、チャネルロールでチャネルにシーケンスを追加できます。
+動的埋め込みシーケンスをチャネルに追加できます。動的埋め込みシーケンスは、埋め込みシーケンスと似ていますが、使用する際には階層に従うことができます。つまり、あるチャネルに対しておこなわれた変更／更新が、関連する他のチャネルにも反映されます。動的埋め込みシーケンスは、親子階層に従い、その中には画像やビデオなどのアセットも含まれます。動的シーケンスを追加すると、ユーザーは、チャネルロールでチャネルにシーケンスを追加できます。
 
 >[!NOTE]
 >
@@ -94,17 +94,17 @@ By default, it is set to **normal**. Setting the value to **normal*** (Play all 
 
 埋め込みシーケンスをチャネルに追加するには、次の手順に従います。
 
-1. 動的シーケンスを埋め込むチャネルを選択しますFor example, **We.Retail In-Store** --&gt; **Channels** --&gt; **Idle Channel**.
+1. 動的シーケンスを埋め込むチャネルを選択します（例：**We.Retail In-Store**／**Channels**／**Idle Channel**）。
 
-1. Click **Edit** from the action bar to open the channel in the editor mode.
-1. 左側のバーのコンポーネントアイコンをクリックして、動的埋め込みシーケンスを追加します。「ダイナミック&#x200B;**な**埋め込みシーケンス** **」をエディターにドラッグ&amp;ドロップします。
+1. アクションバーの「**編集**」をクリックして、チャネルをエディターモードで開きます。
+1. 左側のバーのコンポーネントアイコンをクリックして、動的埋め込みシーケンスを追加します。**動的**&#x200B;埋め込みシーケンスをエディターにドラッグ＆ドロップします。
 
-1. Double-click the **Dynamic** **Embedded Sequence **component to add the page to your sequence channel.
+1. **動的**&#x200B;埋め込みシーケンスコンポーネントをダブルクリックして、シーケンスチャネルにページを追加します。
 
-1. Enter the **Channel Assignment Role**.
-1. 「有料再生 **方法」を** 「通常」に **設定します**。 By default, it is set to **normal**. Setting the value to **normal*** (Play all items)* means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item*** (Play a single item)* and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
+1. 「**チャネル割り当ての役割**」を入力します。
+1. 「**メーター制再生戦略**」を「**通常**」に設定します。これはデフォルトで「**通常**」に設定されています。値を「**通常**」（すべてのアイテムを再生）に設定すると、親シーケンスの各サイクルで後続が完全に実行されます。他の指定可能な値には「**1 つのアイテムを再生**」があります。この場合は、各実行で後続の 1 つのアイテムのみ表示されます（例えば、最初のループで最初のアイテム、2 回目のループで 2 番目のアイテムというように）。
 
-1. Select the **Duration (ms)** in **Sequence** tab for your embedded channel in the sequence.
+1. 「**シーケンス**」タブで、シーケンスに埋め込まれたチャネルの「**デュレーション (ms)**」を選択します。
 
-![最新の](assets/latest.gif)
+![latest](assets/latest.gif)
 

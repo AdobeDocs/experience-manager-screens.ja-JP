@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
@@ -18,59 +18,59 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 # チャネルの作成と管理 {#creating-and-managing-channels}
 
-チャネルは、一連のコンテンツと表示画像とビデオを表示しますが、Webサイトや単一ページのアプリを表示することもできます。
+チャネルはコンテンツのシーケンスを表示し、また画像およびビデオを表示しますが、Web サイトまたは単一ページアプリケーションも表示できます。
 
-このページではスクリーン用のチャネルの作成および管理を示します。
+このページでは Screens 用のチャネルの作成および管理を示します。
 
-**前提条件**:
+**前提条件**：
 
-* [スクリーンの設定および展開](configuring-screens-introduction.md)
-* [画面プロジェクトの作成と管理](creating-a-screens-project.md)
+* [Screens の設定とデプロイ](configuring-screens-introduction.md)
+* [Screens プロジェクトの作成と管理](creating-a-screens-project.md)
 
 ## 新しいチャネルの作成 {#creating-a-new-channel}
 
-スクリーン用のプロジェクトを作成したら、下の手順に従ってスクリーンプロジェクト用の新しいチャネルを作成します。
+Screens 用のプロジェクトを作成したら、下の手順に従ってスクリーンプロジェクト用の新しいチャネルを作成します。
 
-1. Adobe Experience Manager リンク（左上）を選択し、「スクリーン」を選択します。Alternatively, you can ﻿go directly to: `https://localhost:4502/screens.html/content/screens`.
-1. Navigate to Screens project and click **Channels**.
-1. Click **Create** next to the plus icon in the action bar. ウィザードが開きます（*詳しくは、「チャネルタイプ」を参照してください*）。
+1. Adobe Experience Manager リンク（左上）を選択し、「Screens」を選択します。または、`https://localhost:4502/screens.html/content/screens` に直接アクセスすることもできます。
+1. Screens プロジェクトに移動して「**チャネル**」をクリックします。
+1. アクションバーのプラスアイコンの横にある「**作成**」をクリックします。ウィザードが開きます（*詳しくは、「チャネルタイプ」を参照してください*）。
 
-1. Select the template from the wizard and click **Next**.
-1. Enter the properties for **Title and Tags**, **More Titles and Description**, **On/Off Time**, and **Vanity URL**.
+1. ウィザードからテンプレートを選択し、「**次へ**」をクリックします。
+1. 「**タイトルとタグ**」、「**他のタイトルと説明**」、「**オン / オフタイム**」、「**バニティ URL」**&#x200B;の各プロパティを入力します。
 
 1. 「**作成**」をクリックすると、チャネルが作成されチャネルフォルダーに追加されます。
 
-### チャネルタイプ {#channel-types}
+### チャネルタイプ{#channel-types}
 
 ウィザードの作成中に以下のテンプレートオプションを使用できます。
 
 | **テンプレートオプション** | **説明** |
 |---|---|
 | チャネルフォルダー | チャネルのコレクションを格納するためのフォルダーを作成できます。 |
-| シーケンスチャネル | コンポーネントを連続的に（スライドショーで1つずつ）再生するチャネルを作成できます。 |
+| シーケンスチャネル | コンポーネントを連続して（スライドショーで 1 つずつ）再生するチャネルを作成できます。 |
 | アプリケーションチャネル | Screens Player でカスタム Web アプリケーションを紹介できます。 |
-| 1 x 1 分割画面チャネル | 1つのゾーンでコンポーネントを表示できます。 |
-| 1 x 2 分割画面チャネル | 2つのゾーンでアセットを表示できます（水平に分割）。 |
-| 2X1分割画面チャネル | 2つのゾーン（垂直に分割）でアセットを表示できます。 |
-| 2 x 2 分割画面チャネル | 4つのゾーンでアセットを表示できます（マトリックス内で水平方向と垂直方向に分割）。 |
-| 2～3 分割画面チャネル | 2つのゾーン（水平に分割）でアセットを表示できます。一方のゾーンが他方のゾーンよりも大きくなります。 |
-| 左右のLバー分割画面チャネル | コンテンツ作成者が適切なサイズのゾーンで異なるタイプのアセットを表示できるようにします。 |
+| 1 x 1 分割画面チャネル | 1 個のゾーンにコンポーネントを表示できます。 |
+| 1 x 2 分割画面チャネル | 2 個のゾーン（水平に分割）にアセットを表示できます。 |
+| 2 x 1 分割画面チャネル | 2 個のゾーン（垂直に分割）にアセットを表示できます。 |
+| 2 x 2 分割画面チャネル | 4 個のゾーン（マトリックス状に水平および垂直に分割）にアセットを表示できます。 |
+| 2～3 分割画面チャネル | 2 個のゾーン（水平に分割）にアセットを表示できます（一方のゾーンが他方のものよりも大きくなります）。 |
+| 左／右 L バー型分割画面チャネル | コンテンツ作成者が、様々な種類のアセットを適切なサイズのゾーンに表示できます。 |
 
 >[!NOTE]
 >
->画面を分割チャネルは、表示を複数のゾーンに分割し、複数のエクスペリエンスを並べて再生できるようにします。 エクスペリエンスは、静的アセット/テキストまたは埋め込みシーケンスのいずれかです。
+>分割画面チャネルでは、複数のエクスペリエンスを並べて同時に再生できるように、ディスプレイを複数のゾーンに分割します。エクスペリエンスは、静的アセット／テキストでも埋め込みシーケンスでも構いません。
 
-The following example shows the creation of a Sequence Channel (C *hannelOne*) for a Screens project (*DemoProject*).
+次の例は、Screens プロジェクト（*DemoProject*）のシーケンスチャネル（*ChannelOne*）の作成を示しています。
 
-![人口](assets/demochannel.gif)
+![demochannel](assets/demochannel.gif)
 
 >[!NOTE]
 >
 >前述の 1 x 2、2 x 2 または 2～3 分割画面チャネルなどのテンプレートオプションを使用して、様々なゾーンを作成できます。
 
-***重要***:
+***重要***：
 
-コンテンツを作成してチャネルに追加したら、次の手順では、場所を作成してからディスプレイを作成します。さらに、そのチャネルをディスプレイに割り当てる必要があります。詳しくは、この節の最後に記載されているリソースを参照してください。
+コンテンツを作成してチャネルに追加したら、次の手順では、ロケーションを作成してからディスプレイを作成します。さらに、そのチャネルをディスプレイに割り当てる必要があります。詳しくは、この節の最後に記載されているリソースを参照してください。
 
 ## チャネルでの作業 {#working-with-channels}
 
@@ -87,30 +87,30 @@ The following example shows the creation of a Sequence Channel (C *hannelOne*) f
 チャネルにコンテンツを追加するには、下の手順に従います。
 
 1. 編集するチャネルをクリックします（上の図を参照）。
-1. Click **Edit** from the top left corner of the action bar to edit the channel properties. エディターが開いて、アセットやコンポーネントを公開するチャネルに追加できるようになります。
+1. アクションバーの左上隅の「**編集**」をクリックして、チャネルプロパティを編集します。エディターが開いて、アセットやコンポーネントを公開するチャネルに追加できるようになります。
 
 >[!NOTE]
 >
->チャネルにコンポーネントを追加できます。 詳細は、 **[「チャネルへのコンポーネントの追加](adding-components-to-a-channel.md)** 」を参照してください。
+>チャネルにコンポーネントを追加できます。詳しくは、**[チャネルへのコンポーネントの追加](adding-components-to-a-channel.md)**&#x200B;を参照してください。
 
 ![demochannel1](assets/demochannel1.gif)
 
-**チャネルへのビデオのアップロード** 次の手順に従って、チャネルにビデオをアップロードします。
+**チャネルへのビデオのアップロード** チャネルにビデオをアップロードするには、以下の手順に従います。
 
 1. ビデオをアップロードするチャネルを選択します。
-1. アクションバーから「**編集**」をクリックして、エディターを開きます。
+1. アクションバーの「**編集**」をクリックして、エディターを開きます。
 1. アセットの下の「**ビデオ**」を選択し、必要なビデオをドラッグ&amp;ドロップします。
 
 >[!NOTE]
 >
->If you encounter issues uploading videos in your channel, see [Troubleshooting Videos](troubleshoot-videos.md).
+>チャネルへのビデオのアップロードで問題が発生した場合は、[ビデオのトラブルシューティング](troubleshoot-videos.md)を参照してください。
 
 ### プロパティの表示 {#viewing-properties}
 
 チャネルのプロパティを表示または編集するには、下の手順に従います。
 
 1. 編集するチャネルをクリックします。
-1. Click **Properties** from the action bar to view/edit the channel properties. 以下のタブでオプションを変更できます。
+1. アクションバーの「**プロパティ**」をクリックして、チャネルプロパティを表示または編集します。以下のタブでオプションを変更できます。
 
 ![properties](assets/properties.gif)
 
@@ -119,13 +119,13 @@ The following example shows the creation of a Sequence Channel (C *hannelOne*) f
 チャネルのダッシュボードを表示するには、次の手順に従います。
 
 1. 編集するチャネルをクリックします。
-1. Click **Dashboard** from the action bar to view the dashobard. The **CHANNEL INFORMATION**,**ASSIGNED DISPLAYS**, and **PENDING LAUNCHES** panel opens, as shown in the figure below:
+1. アクションバーの「**ダッシュボード**」をクリックして、ダッシュボードを表示します。**チャネル情報**、**割り当てられたディスプレイ**、**保留中のローンチ**&#x200B;の各パネルが開きます（下図を参照）。
 
-![ダッシュボード](assets/dashboard.gif)
+![dashboard](assets/dashboard.gif)
 
 ### チャネル情報 {#channel-information}
 
-チャンネル情報パネルでは、チャンネルのプロパティと、チャンネルのプレビューが表示されます。 また、チャネルがオフラインであるかオンラインであるかの情報も表示されます。
+チャネル情報パネルでは、チャネルのプロパティを説明し、チャネルのプレビューを表示します。また、チャネルがオフラインであるかオンラインであるかの情報も表示されます。
 
 **チャネル情報**&#x200B;アクションバーの（**...**）をクリックすると、プロパティを表示、コンテンツを編集、またチャネルのキャッシュ（オフラインコンテンツ）を更新できます。
 
@@ -135,11 +135,11 @@ The following example shows the creation of a Sequence Channel (C *hannelOne*) f
 
 >[!NOTE]
 >
->デフォルトでは、チャネルを作成すると、そのチャネルは「オフライン」になります。
+>デフォルトでは、チャネルを作成すると、そのチャネルはオフラインになります。
 
 チャネルを作成するときは、オンラインまたはオフラインチャネルのいずれかとして定義できます。
 
-An ***Online Channel***, will show the updated content in the real time environment whereas an ***Offline Channel***, shows the cached content.
+***オンラインチャネル***&#x200B;では、最新のコンテンツがリアルタイム環境で表示されるのに対して、***オフラインチャネル***&#x200B;では、キャッシュされたコンテンツが表示されます。
 
 チャネルをオンラインにするには、次の手順に従います。
 
@@ -149,7 +149,7 @@ An ***Online Channel***, will show the updated content in the real time environm
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Click **Dashboard** from the action bar to view the status of the player. **CHANNEL INFORMATION **パネルは、チャネルがオンラインかオフラインかに関する情報を提供します。
+   アクションバーの「**ダッシュボード**」をクリックして、プレーヤーのステータスを確認します。チャネル情報パネルに、チャネルがオンラインであるかオフラインであるかの情報が表示されます。
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
@@ -157,19 +157,19 @@ An ***Online Channel***, will show the updated content in the real time environm
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
-1. Developer **(Developer** )モード **をオンにして（チャネルを強制的にオンラインにする）** 、チャネルをオンラインにします。
+1. 「**開発者****モード (チャネルをオンラインに強制)**」をオンにして、チャネルをオンラインにします。
 
    「**保存して閉じる**」をクリックしてオプションを保存します。
 
    ![screen_shot_2019-08-01at31658pm](assets/screen_shot_2019-08-01at31658pm.png)
 
-   Navigate back to the channel dashboard and now the **CHANNEL INFORMATION** panel shows the online status of the player.
+   チャネルダッシュボードに戻ると、**チャネル情報**&#x200B;パネルにプレーヤーのオンラインステータスが表示されます。
 
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
 >
->チャネルをオフラインとして再設定する場合は、「 **Properties** 」タブ(手順(3)で示すように)の「Developer mode」オプションをオフにし、 **CHANNEL INFORMATION** （チャネル情報）パネルで、下の図に示すように「 **Update Offline Content**」をクリックします。
+>チャネルをオフラインとして再設定する場合は、「**プロパティ**」タブで開発者モードオプションをオフにしたあと（前述の手順 3 を参照）、**チャネル情報**&#x200B;パネルで「**オフラインコンテンツを更新**」をクリックします（下図を参照）。
 
 ![dashboard2](assets/dashboard2.gif)
 
@@ -182,66 +182,66 @@ An ***Online Channel***, will show the updated content in the real time environm
   <tr>
    <td><strong>イベント</strong></td>
    <td><strong>デバイスの自動更新</strong></td>
-   <td><strong>デバイス手動更新</strong></td>
+   <td><strong>デバイスの手動更新</strong></td>
   </tr>
   <tr>
-   <td>オンラインチャネルの変更</td>
-   <td>コンテンツが自動的に更新される</td>
-   <td><p>「デバイス：プッシュ設定"</p> <p>または、</p> <p>デバイスで更新され <strong><i>たコンテンツ：再開</i></strong></p> </td>
+   <td>オンラインチャネルでの変更</td>
+   <td>コンテンツを自動的に更新</td>
+   <td><p>コンテンツを「デバイス：プッシュ設定」で更新</p> <p>または、</p> <p>コンテンツを「<strong><i>デバイス：再起動</i></strong>」で更新</p> </td>
   </tr>
   <tr>
-   <td>オフラインチャネルの変更がトリガーされない（オフラインパッケージの再作成が行われない）</td>
+   <td>オフラインチャネルで変更があったが、チャネル「コンテンツのプッシュ」がトリガーされない（オフラインパッケージは再作成されない）</td>
    <td>コンテンツの更新なし</td>
    <td>コンテンツの更新なし</td>
   </tr>
   <tr>
-   <td>オフラインチャネルとチャネルの「プッシュコンテンツ」の変更がトリガーされる（新しいオフラインパッケージ）</td>
-   <td>コンテンツが自動的に更新される</td>
-   <td><p>デバイスで更新され <strong><i>たコンテンツ：プッシュ設定</i></strong></p> <p>または、</p> <p>デバイスで更新され <strong><i>たコンテンツ：再開</i></strong></p> </td>
+   <td>オフラインチャネルで変更があり、チャネル「コンテンツのプッシュ」がトリガーされる（新しいオフラインパッケージ）</td>
+   <td>コンテンツを自動的に更新</td>
+   <td><p>コンテンツを「<strong><i>デバイス：プッシュ設定</i></strong>」で更新</p> <p>または、</p> <p>コンテンツを「<strong><i>デバイス：再起動</i></strong>」で更新</p> </td>
   </tr>
   <tr>
-   <td><p>設定の変更</p>
+   <td><p>設定での変更</p>
     <ul>
-     <li>表示（強制チャネル）</li>
+     <li>ディスプレイ（強制チャネル）</li>
      <li>デバイス</li>
      <li>チャネルの割り当て（新しいチャネル、削除されたチャネル）</li>
-     <li>チャネル割り当て（役割、イベント、スケジュール）</li>
+     <li>チャネルの割り当て（ロール、イベント、スケジュール設定）</li>
     </ul> </td>
-   <td>設定が自動的に更新されました</td>
-   <td><p>デバイスで設定が更新 <strong><i>されました：プッシュ設定</i></strong></p> <p>または、</p> <p>デバイスで設定が更新 <strong><i>されました：再開</i></strong></p> </td>
+   <td>設定を自動的に更新</td>
+   <td><p>設定を「<strong><i>デバイス：プッシュ設定</i></strong>」で更新</p> <p>または、</p> <p>設定を「<strong><i>デバイス：再起動</i></strong>」で更新</p> </td>
   </tr>
  </tbody>
 </table>
 
 ### 割り当てられたディスプレイ {#assigned-displays}
 
-割り当てられたディスプレイパネルに、チャネルに関連する表示が示されます。割り当てられた表示のスナップショットを解像度とともに表示します。
+割り当てられたディスプレイパネルに、チャネルに関連するディスプレイが示されます。割り当てられたディスプレイのスナップショットを解像度と共に表示します。
 
-下の図で示されているように、関連する表示は、**割り当てられたディスプレイ**&#x200B;パネルにリストされます。
+下の図で示されているように、関連するディスプレイは、**割り当てられたディスプレイ**&#x200B;パネルにリストされます。
 
-![チリメージ_1-27](assets/chlimage_1-27.png)
+![chlimage_1-27](assets/chlimage_1-27.png)
 
 >[!NOTE]
 >
->場所でのディスプレイの作成については、次を参照してください。
+>ロケーションへのディスプレイの作成については、次を参照してください。
 >
->* [場所の作成と管理](managing-locations.md)
+>* [ロケーションの作成と管理](managing-locations.md)
 >* [ディスプレイの作成と管理](managing-displays.md)
 >
 
 
 
-さらに、下の図で示されているように、**割り当てられたディスプレイ**&#x200B;パネルで表示をクリックして、表示情報を表示します。
+さらに、**割り当てられたディスプレイ**&#x200B;パネルでディスプレイをクリックすると、ディスプレイの情報が表示されます（下図を参照）。
 
-![チリメージ_1-28](assets/chlimage_1-28.png)
+![chlimage_1-28](assets/chlimage_1-28.png)
 
 ### 次の手順 {#the-next-steps}
 
-チャネルを作成し、チャネルにコンテンツを追加または編集した後の次の手順は、場所およびディスプレイの作成方法を学ぶことです。さらに、そのディスプレイにチャネルを割り当てます。
+チャネルを作成し、チャネルにコンテンツを追加または編集した後の次の手順は、ロケーションおよびディスプレイの作成方法を学ぶことです。さらに、そのディスプレイにチャネルを割り当てます。
 
 次の手順については、次のリソースを参照してください。
 
 * [チャネルの作成と管理](managing-channels.md)
-* [場所の作成と管理](managing-locations.md)
+* [ロケーションの作成と管理](managing-locations.md)
 * [ディスプレイの作成と管理](managing-displays.md)
 

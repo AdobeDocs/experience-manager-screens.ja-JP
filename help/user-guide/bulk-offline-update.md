@@ -1,8 +1,8 @@
 ---
-title: オフラインの一括更新
-seo-title: オフラインの一括更新
-description: このページでは、すべてのチャネルを一括して更新する方法を説明します。
-seo-description: このページでは、すべてのチャネルを一括して更新する方法を説明します。
+title: オフライン一括更新
+seo-title: オフライン一括更新
+description: ここでは、すべてのチャネルを一括更新する方法について説明します。
+seo-description: ここでは、すべてのチャネルを一括更新する方法について説明します。
 uuid: 9b52c5e7-aa6d-4f55-b23c-8bd923723552
 contentOwner: jsyal
 content-type: reference
@@ -10,68 +10,68 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 5d4ca652-d918-4b2b-b239-a2be9255ef0d
 noindex: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
 
 
-# オフラインの一括更新 {#bulk-offline-update}
+# オフライン一括更新 {#bulk-offline-update}
 
-この節では、オフラインの一括更新に関する次のトピックについて説明します。
+ここでは、オフライン一括更新に関する以下のトピックについて説明します。
 
 * **概要**
 * **オフライン一括更新の使用**
 
 >[!CAUTION]
 >
->このAEM Screens機能は、AEM 6.3 Feature Pack 3またはAEM 6.4 Screens Feature Pack 1をインストールしている場合にのみ使用できます。
+>この AEM Screens 機能は、AEM 6.3 機能パック 3 または AEM 6.4 Screens 機能パック 1 がインストールされている場合にのみ使用できます。
 >
 >この機能パックにアクセスするには、アドビサポートに連絡してアクセス権をリクエストする必要があります。アクセス権が付与されると、パッケージ共有から機能パックをダウンロードできるようになります。
 
 ## 概要 {#overview}
 
-オフラインの一括更新を使用すると、すべてのチャネルを一括して更新できます。 特定のチャネルに移動してコンテンツを更新する手間を省きます。 その代わりに、1つの特定のプロジェクトのチャネル内のすべてのコンテンツを一度に更新できます。
+オフライン一括更新を使用すると、すべてのチャネルを一括更新できます。特定のチャネルに移動してコンテンツを更新する手間が省けます。代わりに、ある特定のプロジェクトのチャネルに含まれているすべてのコンテンツを一度に更新できます。
 
-また、ネットワークトラフィックが少ない時間にこのアクティビティをスケジュールすることもできます。
+また、ネットワークトラフィックが少ない時間帯に、このアクティビティをスケジュールすることもできます。
 
 >[!NOTE]
 >
->オフラインの一括更新機能は、変更されたチャネルのみを更新するように最適化されています。
+>オフライン一括更新機能は、変更されたチャネルのみを更新するように最適化されています。
 
 ## オフライン一括更新の使用 {#using-bulk-offline-update}
 
-ユーザーインターフェイス(UI)からオフライン一括更新を手動で使用したり、OSGiサービスから一括更新をスケジュールしたりできます。
+ユーザーインターフェイス（UI）からオフライン一括更新を手動で使用することも、OSGi サービスから一括更新をスケジュールすることもできます。
 
-### AEM Screensユーザーインターフェイスの使用 {#using-aem-screens-user-interface}
+### AEM Screens ユーザーインターフェイスを使用する場合 {#using-aem-screens-user-interface}
 
-次の手順に従って、AEM Screensプロジェクトでオフラインの一括更新を使用します。
+次の手順に従って、AEM Screens プロジェクトでオフライン一括更新を使用します。
 
-1. AEM Screensプロジェクトに移動します。
-1. プロジェクトを選択し、アクションバー **の「オフラインコンテンツを更新** 」をクリックして、チャネルコンテンツを手動で更新します。
+1. AEM Screens プロジェクトに移動します。
+1. プロジェクトを選択し、アクションバーの「**オフラインコンテンツを更新**」をクリックして、チャネルコンテンツを手動で更新します。
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
-### Adobe Experience Manager Web Console Configuration {#adobe-experience-manager-web-console-configuration}
+### Adobe Experience Manager Web Console Configuration を使用する場合 {#adobe-experience-manager-web-console-configuration}
 
-次の手順に従って、AEM Screensプロジェクトでオフラインの一括更新を使用します。
+次の手順に従って、AEM Screens プロジェクトでオフライン一括更新を使用します。
 
-1. Adobe Experience Manager Web Console Configuration.
-1. オフライン更新サービスの一括検索
+1. Adobe Experience Manager Web Console Configuration を開きます。
+1. オフライン一括更新サービスを検索します。
 
    ![screen_shot_2018-04-24at121428pm](assets/screen_shot_2018-04-24at121428pm.png)
 
-1. 次のプロパティを追加します。
+1. 以下のプロパティを追加します。
 
-   **プロジェクトパス** :AEM Screensプロジェクトのパスを指定します。 通常はパスです `/content/screens/<Name of your project>`。
+   **プロジェクトパス**：AEM Screens プロジェクトのパスを指定します。パスは通常、`/content/screens/<Name of your project>` です。
 
-   *例えば*、 `/content/screens/we-retail`。 このパスは、AEM Screensの下の任意のプロジェクトを選択することで、URL内で見つけることができます（アイコンをクリックしないでください）。
+   *例えば*、`/content/screens/we-retail` などとなります。AEM Screens で任意のプロジェクトを選択すれば（アイコンをクリックしないでください）、URL にこのパスが含まれていることがわかります。
 
    >[!NOTE]
    >
-   >チャネルを基準としたプロジェクトパスを指定します。
+   >チャネルからの相対的なプロジェクトパスを指定します。
 
-   **スケジュールの頻度** （例：午後5時、または17時）を指定します。この時刻にこのサービスでオフラインコンテンツを更新する必要があります。
+   **スケジュールの頻度**：このサービスでオフラインコンテンツを更新する時刻（例：午後 5 時または 17 時）を指定します。
 
-1. 「保 **存** 」をクリックして設定を保存すると、指定した時間にコンテンツが更新されます。
+1. 「**保存**」をクリックして設定を保存すると、指定した時刻にコンテンツが更新されるようになります。
 

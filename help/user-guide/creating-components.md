@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: cdc530d8-ef0e-4b61-b1f0-5f4d831f1392
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
@@ -21,17 +21,17 @@ AEM コンポーネントを使用して、Web ページ上で使用できるコ
 
 >[!NOTE]
 >
->AEMコンポーネントの作成の詳細については、「AEMコンポーネントの開発」を参照してください。
+>AEM コンポーネントの作成について詳しくは、AEM コンポーネントの開発を参照してください。
 
 ## チャネルのオーサリング {#authoring-channels}
 
-チャネルは、一連のディスプレイに配信されるコンテンツの中心となるオブジェクトです。このため、コンテンツ作成者は通常、エディターでチャネルを開いてコンテンツを追加または変更します。Since the Channel is a ***cq:Page*** it will follow the same traditional UX pattern to add and change components on the channel.
+チャネルは、一連のディスプレイに配信されるコンテンツの中心となるオブジェクトです。このため、コンテンツ作成者は通常、エディターでチャネルを開いてコンテンツを追加または変更します。チャネルは ***cq:Page*** なので、同じ従来の UX パターンに従って、チャネル上のコンポーネントを追加および変更します。
 
-ただし、チャネル内のコンポーネントは通常フルスクリーンでレンダリングされるので、単一コンポーネントの編集や新しい順序の編成をおこなう際にオーサリングエクスペリエンスに影響を及ぼします。そのため、チャネルはコンポーネントの様々なビューをレンダリングするためにセレクターを使用します。オーサリング環境では、編集セレクターを使用して、カスタムチャネルレンダリングをアクティブにします。
+ただし、チャネル内のコンポーネントは通常フルスクリーンでレンダリングされるので、単一コンポーネントの編集や新しい順序の編成をおこなう際にオーサリングエクスペリエンスに影響を及ぼします。そのため、チャネルはコンポーネントの様々なビューをレンダリングするためにセレクターを使用します。オーサリング環境では、編集セレクターを使用して、カスタムチャネルのレンダリングがアクティブ化されます。
 
-For example, `http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html](http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html`
+例：`http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html](http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html`
 
-ユーザーは、編集時に URL にセレクターを追加する必要はありません。A client side logic is listening to the layer switch event and adds the selector if a the channel has the dedicated resource type *screens/core/components/channel.*
+ユーザーは、編集時に URL にセレクターを追加する必要はありません。クライアント側のロジックがレイヤースイッチイベントをリッスンしており、チャネルに専用のリソースタイプ *screens/core/components/channel* がある場合にセレクターを追加します。
 
 ## コンポーネントのレンダリング {#rendering-components}
 
@@ -39,18 +39,18 @@ For example, `http://localhost:4502/editor.html/content/screens/we-retail/channe
 
 | **コンポーネント** | **レンディション** |
 |---|---|
-| *my-component/my-component.html* | 生産レンダリング |
-| *my-component/edit.html* | 編集，レンダリングを小さいビューで |
+| *my-component/my-component.html* | 実稼働レンダリング |
+| *my-component/edit.html* | 小さいビューでのレンダリングの編集 |
 
 組み込みのコンポーネントでは、次のクライアントライブラリカテゴリが使用されます。
 
 | **コンポーネント** | **クライアントライブラリ** |
 |---|---|
-| *cq.screens.components.edit* | オーサリング時に読み込む必要があるCSSとJS |
-| *cq.screens.components.production* | チャネルの実行時に読み込む必要があるCSSとJS |
-| *cq.screens.components* | 共有CSSとJS |
+| *cq.screens.components.edit* | オーサリング時に読み込む必要がある CSS および JS |
+| *cq.screens.components.production* | チャネルの実行時に読み込む必要がある CSS および JS |
+| *cq.screens.components* | 共有 CSS および JS |
 
 >[!NOTE]
 >
->To develop custom components, use the *** [AEM Screens sample component template](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)***.
+>カスタムコンポーネントを開発する場合は、[AEM Screens のサンプルコンポーネントテンプレート](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)を使用してください。
 

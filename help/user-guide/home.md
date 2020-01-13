@@ -1,15 +1,15 @@
 ---
-title: AEM 6.5 Screensユーザガイド
-seo-title: AEM 6.5 Screensユーザガイド
-description: このガイドでは、ダイナミックでインタラクティブなデジタルエクスペリエンスの公開方法など、AEM Screensのすべてのタスクについて説明します。
-seo-description: このガイドでは、ダイナミックでインタラクティブなデジタルエクスペリエンスの公開方法など、AEM Screensのすべてのタスクについて説明します。
-translation-type: tm+mt
+title: AEM 6.5 Screens ユーザーガイド
+seo-title: AEM 6.5 Screens ユーザーガイド
+description: このガイドでは、動的でインタラクティブなデジタルエクスペリエンスを公開する方法など、AEM Screens のすべてのタスクについて説明します。
+seo-description: このガイドでは、動的でインタラクティブなデジタルエクスペリエンスを公開する方法など、AEM Screens のすべてのタスクについて説明します。
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
 
 
-# AEM 6.5 Screensユーザガイド {#user}
+# AEM 6.5 Screens ユーザーガイド {#user}
 
-このガイドでは、ダイナミックでインタラクティブなデジタルエクスペリエンスの公開方法など、AEM Screensのすべてのタスクについて説明します。
+このガイドでは、動的でインタラクティブなデジタルエクスペリエンスを公開する方法など、AEM Screens のすべてのタスクについて説明します。
 

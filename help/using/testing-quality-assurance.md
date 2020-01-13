@@ -3,7 +3,7 @@ title: テストと品質保証
 seo-title: AEM Screens のテストと品質保証
 description: ここでは、AEM Screens ベストプラクティスガイドにおける「テストと品質保証」について説明します
 seo-description: ここでは、AEM Screens ベストプラクティスガイドにおける「テストと品質保証」について説明します
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
 
 ---
@@ -21,13 +21,13 @@ source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
 事前に定義した KPI をすべて特定し、KPI に照らして成果物を測定するチェックリストを作成してください。
 
 >[!NOTE]
-> このフェーズは、インストールおよびユーザーガイドを作成するための手段としても使用する必要があります。このガイドは、後で機器に同梱し、後日参照するために現場に保管することができます。
+> このフェーズは、インストールおよびユーザーガイドを作成するためのツールとしても使用する必要があります。このガイドは、後で機器に同梱し、後日参照するために現場に保管することができます。
 
 次の要素を考慮する必要があります。
 
-## 1.機械的な考慮事項 {#mechanical-considerations}
+## 1. 機械に関する考慮事項 {#mechanical-considerations}
 
-以下の機械的な考慮事項を推奨します。
+以下の機械に関する考慮事項を推奨します。
 
 * ディスプレイの取り付け
 * プレイヤーの取り付け
@@ -36,50 +36,50 @@ source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
 * ケーブル管理
 * デバイスネットワーク
 
-## 2.ソフトウェアに関する考慮事項 {#software-considerations}
+## 2. ソフトウェアに関する考慮事項 {#software-considerations}
 
-次のソフトウェアに関する考慮事項を推奨します。
+以下のソフトウェアに関する考慮事項を推奨します。
 
-* デバイス登録
+* デバイスの登録
 * メディアパブリッシング
 * 再生
 * データベースの依存関係（定義済み）
 
 
-## 3.デバイス管理に関する考慮事項 {#device-management-considerations}
+## 3. デバイス管理に関する考慮事項 {#device-management-considerations}
 
 
-AEM Screensには、Screens playerアプリケーションのエンドポイントを管理するためのDevice Control Centerモジュールが含まれています。
+AEM Screens には、Screens Player アプリケーションのエンドポイントを管理するための Device Control Center モジュールが含まれています。
 
-これは、Screens playerアプリケーシ *ョンがインストールされ* 、AEMのインスタンスに登録されているプレーヤーハードウェアデバイスを指します。
-このモジュールでは、次の操作を行うことができます。
+このエンドポイントは、Screens Player アプリケーションがインストールされており、AEM のインスタンスに登録されているあらゆる&#x200B;*プレイヤー*ハードウェアデバイスを指します。
+このモジュールでは次のことができます。
 
 1. プレーヤーアプリケーションエラーログの監視
 1. リモートのスクリーンショットの管理
 1. コンテンツダウンロードの管理
 1. アプリケーションの再起動に関する問題の管理
 
-Device Control Centerの詳細については、『 ****** AEM Screens User Guide [』の「Troubleshooting Device Control](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) Center **」を参照**&#x200B;してください。
+***デバイスコントロールセンター***&#x200B;について詳しくは、**AEM Screens ユーザーガイド**&#x200B;の[デバイスコントロールセンターからのトラブルシューティング](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/monitoring-screens.html)を参照してください。
 
 >[!CAUTION]
-> Device Control centerを使用して次の操作を行うことはできません。
+> デバイスコントロールセンターは次の用途には使用しないでください。
 >
-> 1. 新しいバージョンのPlayerアプリケーションのインストール
+> 1. 新しいバージョンのプレイヤーアプリケーションのインストール
 > 1. システムレベルのリソースの監視
 > 1. システムレベルエラーのトラブルシューティング
-> 1. リモートデスクトップ操作を許可する
+> 1. リモートデスクトップによる介入の許可
 
 
 
 >[!NOTE]
 > アドビでは、すべてのデプロイメントで、専用のサードパーティのデバイス管理プラットフォームを使用することをお勧めします。
 
-選択するプラットフォームは、対象のオペレーティングシステム、プロジ ***ェクト要件***、エンドポ ***イント数など、様々な要因*** によって異なります ******。
+選択するプラットフォームは、***対象オペレーティングシステム***、***プロジェクト要件***、***エンドポイント数***&#x200B;など、様々な要因によって異なります。
 
 以下に例を示します。
 
-* Google Chromeデバイス管理
+* Google Chrome デバイス管理
 * TeamViewer
 * AirWatch
 * 42Gears
-* 専用AVインテグレータ・ミドルウェア
+* AV インテグレーター独自のミドルウェア

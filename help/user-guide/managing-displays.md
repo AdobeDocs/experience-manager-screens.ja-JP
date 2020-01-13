@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
@@ -19,36 +19,36 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ディスプレイとはスクリーンの仮想グループで、通常は並んで配置されています。ディスプレイのインストールは通常、永続的です。オブジェクトコンテンツの作成者はこれを操作し、常に物理的なディスプレイの代わりに論理的なディスプレイとして参照します。
 
-場所を作成したら、場所のために新しいディスプレイを作成する必要があります。
+ロケーションを作成したら、ロケーションの新しいディスプレイを作成する必要があります。
 
-このページでは、スクリーン用のディスプレイの作成および管理を示します。
+ここでは、Screens プロジェクトのディスプレイの作成と管理について説明します。
 
-**前提条件**:
+**前提条件**：
 
-* [スクリーンの設定および展開](configuring-screens-introduction.md)
-* [画面プロジェクトの作成と管理](creating-a-screens-project.md)
+* [Screens の設定とデプロイ](configuring-screens-introduction.md)
+* [Screens プロジェクトの作成と管理](creating-a-screens-project.md)
 * [チャネルの作成と管理](managing-channels.md)
-* [場所の作成と管理](managing-locations.md)
+* [ロケーションの作成と管理](managing-locations.md)
 
 ## 新しいディスプレイの作成 {#creating-a-new-display}
 
 >[!NOTE]
 >
->ディスプレイを作成する前に場所を作成する必要があります。To see how to create a location, see [Create and Manage Locations](managing-locations.md) for more information.
+>ディスプレイを作成する前に、ロケーションを作成する必要があります。ロケーションの作成方法について詳しくは、[ロケーションの作成と管理](managing-locations.md)を参照してください。
 
-新しいディスプレイを場所に作成するには、次の手順に従います。
+ロケーションに新しいディスプレイを作成するには、次の手順に従います。
 
-1. Navigate to the appropriate location, for example `http://localhost:4502/screens.html/content/screens/TestProject`.
-1. 場所フォルダーを選択し、アクションバーのプラス記号アイコンの横にある「**作成**」をタップまたはクリックします。ウィザードが開きます。
-1. Select **Display** from the **Create** wizard and click **Next**.
+1. 該当するロケーション（例：`http://localhost:4502/screens.html/content/screens/TestProject`）に移動します。
+1. ロケーションフォルダーを選択し、アクションバーのプラス記号アイコンの横にある「**作成**」をタップまたはクリックします。ウィザードが開きます。
+1. **作成**&#x200B;ウィザードから「**ディスプレイ**」を選択し、「**次へ**」をクリックします。
 
-1. Enter **Name** and **Title** for your display location.
+1. ディスプレイのロケーションの「**名前**」および「**タイトル**」を入力します。
 
-1. Under the **Display** tab, choose the details of the Layout. Choose the desired **Resolution** (example as, as **Full HD**). また、デバイスの数を水平方向および垂直方向に選択できます。
+1. 「**ディスプレイ**」タブで、レイアウトの詳細を選択します。目的の「**解像度**」（「**フル HD**」など）を選択します。さらに、水平および垂直のデバイスの数を選択できます。
 
 1. 「**作成**」をクリックします。
 
-The display (*StoreDisplay*) is created and added to the location (*SanJose*).
+ディスプレイ（*StoreDisplay*）が作成され、ロケーション（*SanJose*）に追加されます。
 
 ![display](assets/display.gif)
 
@@ -58,9 +58,9 @@ The display (*StoreDisplay*) is created and added to the location (*SanJose*).
 >
 >**次の手順**：
 >
->場所にディスプレイを作成したら、コンテンツを利用するためにチャネルをディスプレイに割り当てる必要があります。
+>ロケーションにディスプレイを作成したら、コンテンツを利用するためにディスプレイにチャネルを割り当てる必要があります。
 >
->See [Assign Channels](channel-assignment.md) section to learn how to assign a channel to the display.
+>ディスプレイにチャネルを割り当てる方法について詳しくは、[チャネルの割り当て](channel-assignment.md)を参照してください。
 
 ## 新しいデバイス設定の作成 {#creating-a-new-device-config}
 
@@ -68,27 +68,27 @@ The display (*StoreDisplay*) is created and added to the location (*SanJose*).
 
 下の手順に従って、新しいデバイス設定を作成します。
 
-1. 例えば、適切な表示に移動します `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`。
-1. 表示フォルダーを選択し、アクションバーの「**ダッシュボードを表示**」をタップまたはクリックします。
-1. Tap/click the **+ Add Device Config** on the top right of the **Devices** panel.
+1. 該当するディスプレイ（例：`http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`）に移動します。
+1. ディスプレイフォルダーを選択し、アクションバーの「**ダッシュボードを表示**」をタップまたはクリックします。
+1. **デバイス**&#x200B;パネルの右上の「**+ デバイス設定を追加**」をタップまたはクリックします。
 
-1. Select the **Device Config** as the required template as and tap/click **Next**.
+1. 「**デバイス設定**」として必要なテンプレートを選択し、「**次へ**」をタップまたはクリックします。
 
 1. 必要に応じてプロパティを入力し、「**作成**」をタップまたはクリックします。
 
-The device config is created and added to the current display (in the following demonstration, the new device config is *DeviceConfig*).
+デバイス設定が作成され、現在のディスプレイに追加されます（以下のデモでは、この新しいデバイス設定は *DeviceConfig* です）。
 
 ![deviceconfig](assets/deviceconfig.gif)
 
-デバイス設定が場所のディスプレイに設定されたら、次の手順はチャネルをディスプレイに割り当てることです。
+デバイス設定がロケーションのディスプレイに設定されたら、次は、ディスプレイにチャネルを割り当てる必要があります。
 
 >[!NOTE]
 >
->デバイス設定が場所のディスプレイに設定されたら、次の手順はチャネルをディスプレイに割り当てることです。
+>デバイス設定がロケーションのディスプレイに設定されたら、次は、ディスプレイにチャネルを割り当てる必要があります。
 >
->As shown in the figure below, if the device config is displayed as unassigned in the **DEVICES** pannel, if no channel is assigned to that particular device config.
+>デバイス設定が&#x200B;**デバイス**&#x200B;パネルで未割り当てと表示される場合は、チャネルがその特定のデバイス設定に割り当てられていません（下図を参照）。
 >
->チャネルの作成や管理について事前に理解しておく必要があります。詳しくは [、「チャネルの作成と管理](managing-channels.md) 」を参照してください。
+>チャネルの作成や管理について事前に理解しておく必要があります。詳しくは、[チャネルの作成と管理](managing-channels.md)を参照してください。
 
 ![chlimage_1-9](assets/chlimage_1-9.png)
 
@@ -106,11 +106,11 @@ The device config is created and added to the current display (in the following 
 
 ![cqdoc9456](assets/cqdoc9456.gif)
 
-### ディスプレイ情報パネル {#display-information-panel}
+### ディスプレイの情報パネル {#display-information-panel}
 
 **ディスプレイ情報**&#x200B;パネルは、ディスプレイのプロパティを表示します。
 
-Click on the (**...**) in the top right corner in the **DISPLAY INFORMATION **panel to view the properties and preview the display.
+ディスプレイの情報パネルの右上隅の「**...**」をクリックすると、プロパティを表示したり、ディスプレイをプレビューしたりできます。
 
 ![chlimage_1-10](assets/chlimage_1-10.png)
 
@@ -118,9 +118,9 @@ Click on the (**...**) in the top right corner in the **DISPLAY INFORMATION **pa
 
 「**プロパティ**」をクリックして、ディスプレイのプロパティを表示または変更します。
 
-Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout **property under **Display** tab. デフォルト値は *300 秒*&#x200B;に設定されています。
+さらに「**ディスプレイ**」タブのアイドルタイムアウトプロパティで、インタラクティブチャネルのイベントタイマー値を調節できます。デフォルト値は *300 秒*&#x200B;に設定されています。
 
-Use **CRXDE Lite**, to access the **idleTimeout** property, that is, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
+**CRXDE Lite** を使用して、**idleTimeout** プロパティ（`http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`）にアクセスします。
 
 ![chlimage_1-1](assets/chlimage_1-1.gif)
 
@@ -128,22 +128,22 @@ Use **CRXDE Lite**, to access the **idleTimeout** property, that is, `http://loc
 
 **チャネルの割り当て**&#x200B;パネルには、このデバイスに割り当てられたチャネルが表示されます。
 
-![チリメージ_1-11](assets/chlimage_1-11.png)
+![chlimage_1-11](assets/chlimage_1-11.png)
 
 ### デバイスパネル {#devices-panel}
 
 **デバイス**&#x200B;パネルには、デバイス設定の情報が表示されます。
 
-Click on the (**...**) in the top right corner in the **DEVICES **panel to add device configs and update devices.
+デバイスパネルの右上の「**...**」をクリックすると、デバイス設定を追加したり、デバイスを更新したりできます。
 
-![チリメージ_1-12](assets/chlimage_1-12.png)
+![chlimage_1-12](assets/chlimage_1-12.png)
 
-さらに、デバイス設定をクリックして、プロパティを表示したり、デバイスを割り当てたり、完全に削除したりします。
+さらに、デバイス設定をクリックして、プロパティの表示、デバイスの割り当て、またはデバイスの完全削除をおこなうことができます。
 
-![チリメージ_1-13](assets/chlimage_1-13.png)
+![chlimage_1-13](assets/chlimage_1-13.png)
 
 #### 次の手順 {#the-next-steps}
 
-場所のためのディスプレイの作成が完了したら、チャネルをディスプレイに割り当てる必要があります。
+ロケーションへのディスプレイの作成が完了したら、ディスプレイにチャネルを割り当てる必要があります。
 
-See [Assign Channels](channel-assignment.md) for more details.
+詳しくは、[チャネルの割り当て](channel-assignment.md)を参照してください。

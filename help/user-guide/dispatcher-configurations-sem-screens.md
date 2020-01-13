@@ -1,6 +1,6 @@
 ---
-title: AEM画面のディスパッチャー設定
-seo-title: AEM画面のディスパッチャー設定
+title: AEM Screens プロジェクトの Dispatcher の設定
+seo-title: AEM Screens プロジェクトの Dispatcher の設定
 description: 'null'
 seo-description: 'null'
 page-status-flag: never-activated
@@ -8,31 +8,31 @@ uuid: ea68ca72-bbe7-42d5-9043-97aea7edcd6e
 contentOwner: jsyal
 discoiquuid: 046ec5ae-600d-422f-aa59-c39f16cf71de
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
 
 
-# AEM画面のディスパッチャー設定{#dispatcher-configurations-for-aem-screens}
+# AEM Screens プロジェクトの Dispatcher の設定{#dispatcher-configurations-for-aem-screens}
 
 Dispatcher は、Adobe Experience Manager のキャッシュやロードバランシングを管理するツールです。
 
-次のページでは、AEM Screensプロジェクトのディスパッチャーを設定する際のガイドラインを示します。
+ここでは、AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインを示します。
 
 ## 前提条件 {#pre-requisites}
 
-AEM Screensプロジェクト用にディスパッチャーを設定する前に、ディスパッチャーに関する事前の知識が必要です。
+AEM Screens プロジェクトの Dispatcher を設定する前に、Dispatcher に関する事前の知識が必要です。
 
-Refer to **[Configuring Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)** for more details.
+詳しくは、**[Dispatcher の設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)**&#x200B;を参照してください。
 
 ## Dispatcher の設定 {#configuring-dispatcher}
 
-次の手順に従って、AEM Screensプロジェクトのディスパッチャーを設定します。
+以下の手順に従って、AEM Screens プロジェクトの Dispatcher を設定します。
 
-### 手順1:クライアントヘッダーの設定 {#step-configuring-client-headers}
+### 手順 1：クライアントヘッダーの設定 {#step-configuring-client-headers}
 
-次をセクションに追加しま `/clientheaders` す。
+`/clientheaders` セクションに次の内容を追加します。
 
 **X-Requested-With**
 
@@ -40,9 +40,9 @@ Refer to **[Configuring Dispatcher](https://docs.adobe.com/content/help/en/exper
 
 **X-REQUEST-COMMAND**
 
-### 手順2:画面フィルタの設定 {#step-configuring-screens-filters}
+### 手順 2：Screens フィルターの設定 {#step-configuring-screens-filters}
 
-画面フィルターを設定するには、 ***/filterに次を追加します***。
+Screens フィルターを設定するには、以下の内容を ***/filter*** に追加します。
 
 ```
 ## AEM Screens Filters
@@ -62,6 +62,6 @@ Refer to **[Configuring Dispatcher](https://docs.adobe.com/content/help/en/exper
 /0210 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
 ```
 
-### 手順3:ディスパッチャーキャッシュの無効化 {#step-disabling-dispatcher-cache}
+### 手順 3：Dispatcher キャッシュの無効化 {#step-disabling-dispatcher-cache}
 
-/content/screensパスのディスパッチ ***ャーキャッシュを無効にします***。
+***/content/screens パス*** の Dispatcher キャッシュを無効にします。

@@ -1,90 +1,90 @@
 ---
-title: ContentSyncからSmartSyncへの移行
-seo-title: ContentSyncからSmartSyncへの移行
-description: このページでは、SmartSyncの機能およびContentSyncからSmartSyncへの移行方法について説明します。
-seo-description: このページでは、SmartSyncの機能およびContentSyncからSmartSyncへの移行方法について説明します。
+title: コンテンツ同期からスマート同期への移行
+seo-title: コンテンツ同期からスマート同期への移行
+description: ここでは、スマート同期機能およびコンテンツ同期からスマート同期への移行方法について説明します。
+seo-description: ここでは、スマート同期機能およびコンテンツ同期からスマート同期への移行方法について説明します。
 uuid: c0619b56-1f6f-465a-a428-6df28e40b555
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
 
-# ContentSyncからSmartSyncへの移行 {#transitioning-from-contentsync-to-smartsync}
+# コンテンツ同期からスマート同期への移行 {#transitioning-from-contentsync-to-smartsync}
 
-ここでは、SmartSync機能の概要と、サーバの負荷/ストレージとネットワークトラフィックを最小限に抑えてコストを削減する方法について説明します。
+この節では、スマート同期機能の概要と、スマート同期でサーバー負荷／ストレージとネットワークトラフィックを最小限に抑えてコストを削減する方法について説明します。
 
 ## 概要 {#overview}
 
-SmartSyncは、AEM Screensで使用される最新のメカニズムです。 これは、オフラインチャネルをキャッシュし、プレイヤーに配信するために使用される現在の方法の代わりになります。
+スマート同期は、AEM Screens で使用される最新のメカニズムです。これは、オフラインチャネルのキャッシングとプレイヤーへの配信に現在使用されている方法の代わりになります。
 
 サーバー側とクライアント側の両方で実行されます。
 
-**On Server-side**:
+**サーバー側**：
 
-* アセットを含むチャネルのコンテンツは、/var/contentsync *にキャッシュされます*。
-* キャッシュは、ディスプレイに使用可能なコンテンツを記述するマニフェストを介してプレーヤーに公開されます。
+* チャネルのコンテンツ（アセットなど）は、*/var/contentsync* にキャッシュされます。
+* キャッシュは、ディスプレイに使用可能なコンテンツを記述するマニフェストを通じてプレーヤーに公開されます。
 
-**クライアント側**:
+**クライアント側**：
 
-* プレイヤーは、上記で生成されたマニフェストに基づいてコンテンツを更新します。
+* プレーヤーは、上記で生成されたマニフェストに基づいてコンテンツを更新します。
 
-### SmartSyncを使用する利点 {#benefits-of-using-smartsync}
+### スマート同期を使用するメリット {#benefits-of-using-smartsync}
 
-SmartSync機能は、AEM Screensプロジェクトに多くの利点を提供します。 これは
+スマート同期機能は、AEM Screens プロジェクトに多くのメリットをもたらします。例えば、以下が可能になります。
 
-* ネットワークトラフィックとサーバ側のストレージ要件の大幅な削減
-* プレイヤーは、アセットが見つからないか変更された場合にのみ、アセットをインテリジェントにダウンロードします
-* サーバ側およびクライアント側のストレージ最適化
-
->[!NOTE]
->
->AEM ScreensプロジェクトにSmartSyncを使用することを強くお勧めします。
-
-## ContentSyncからSmartSyncへの移行 {#migrating-from-contentsync-to-smartsync}
+* ネットワークトラフィックとサーバー側に必要なストレージが大幅に削減されます。
+* アセットが見つからないか変更された場合にのみ、プレーヤーがアセットをダウンロードします。
+* サーバー側およびクライアント側のストレージが最適化されます。
 
 >[!NOTE]
 >
->AEM 6.3 Feature Pack 5およびAEM 6.4 Feature Pack 3を既にインストール済みの場合は、SmartSyncを有効にしてアセットを使用できるようにし、ディスク領域の使用量を増やすことができます。 SmartSyncを有効にするには、次の節に従ってContentSyncからSmartSyncに移行し、SmartSyncを有効にします。
->
->SmartSyncは、サポートされるサーバーAEM 6.4.3 FP3を備えたScreens playerで使用できます。
->
->最新のプレーヤーをダウンロ [ードするには、『](https://download.macromedia.com/screens/) AEM Screens Player Downloads』を参照してください。 次の表に、各プラットフォームに必要な最小限のプレーヤーバージョンを示します。
+>AEM Screens プロジェクトにはスマート同期を使用することを強くお勧めします。
 
-| **プラットフォーム** | **サポートされるプレイヤーの最小バージョン** |
+## コンテンツ同期からスマート同期への移行 {#migrating-from-contentsync-to-smartsync}
+
+>[!NOTE]
+>
+>AEM 6.3 機能パック 5 や AEM 6.4 機能パック 3 を既にインストールしてある場合は、アセットのスマート同期を有効にして、ディスク領域の使用量を削減することができます。スマート同期を有効にするには、以下の手順に従ってコンテンツ同期からスマート同期に移行し、スマート同期を有効にします。
+>
+>スマート同期は、AEM 6.4.3 機能パック 3 に対応するサーバーの場合に、Screens Player で使用できます。
+>
+>最新のプレーヤーをダウンロードするには、[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)を参照してください。各プラットフォームに最低限必要なプレーヤーバージョンを次の表に示します。
+
+| **プラットフォーム** | **サポートされているプレーヤーの最小バージョン** |
 |---|---|
 | Android | 3.3.72 |
 | Chrome OS | 1.0.136 |
 | Windows | 1.0.136 |
 
-次の手順に従って、ContentSyncからSmartSyncに移行します。
+コンテンツ同期からスマート同期に移行するには、以下の手順に従います。
 
-1. ContentSyncからSmartSyncに移行するには、SmartSyncをアクティブ化する前にContentSyncキャッシュをクリアする必要があります。
+1. コンテンツ同期からスマート同期に移行する場合は、スマート同期を有効にする前にコンテンツ同期キャッシュをクリアする必要があります。
 
-   次の図に示すように、リンクhttps://localhost:4502/libs/cq/contentsync/content/console.htmlを使用してインスタンスからContentSync ***コンソールに移動し*** 、「 **キャッシュをクリア**」をクリックします。
+   リンク ***https://localhost:4502/libs/cq/contentsync/content/console.html*** を使用してインスタンスからコンテンツ同期コンソールに移動し、「**キャッシュをクリア**」をクリックします（下図を参照）。
 
    ![clear_contesync_cache](assets/clear_contesync_cache.png)
 
    >[!CAUTION]
    >
-   >SmartSyncを初めて使用する前に、すべてのコンテンツキャッシュをクリアする必要があります。
+   >スマート同期の使用を開始する前に、コンテンツキャッシュをすべてクリアする必要があります。
 
-1. AEMインスタンス **—&gt;ハンマーアイコン —&gt;操作** —&gt; **WebコンソールからAdobe Experience Manager Web Console Configurationに移動します******。
+1. AEM インスタンスでハンマーアイコン／**操作**／**Web コンソール**&#x200B;をクリックして、「**Adobe Experience Manager Web コンソール設定**」に移動します。
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. **Adobe Experience Manager Web Console Configuration **が開きます。 offlinecontentservicesを検 *索します*。
+1. 「Adobe Experience Manager Web コンソール設定」が開きます。「*offlinecontentservices*」を検索します。
 
-   Screens Offline Content Serviceプロパティを検索するには、 **Command** +F **(Mac** )と **F** (Windows)Control( ******** Windows)Control(Windows)Control(Windows))を押します。
+   「**Screens Offline Content Service**」プロパティを検索するには、**Command + F** キー（**Mac**）または **Ctrl + F** キー（**Windows**）を押します。
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. 「保存」 **をクリッ** クして「Screens Offline Content Services **** 」プロパティを有効にします。したがって、AEM ScreensでSmartSyncを使用します。
-1. SmartSyncを有効にしたら、次の図に示すように、プロジェクトに移動し、「 **Update Offline Content**** （オフラインコンテンツを更新）」（アクションバーから）をクリックする必要があります。
+1. 「**保存**」をクリックして、「**Screens Offline コンテンツサービス**」プロパティを有効にします。こうして、AEM Screens でスマート同期を使用します。
+1. スマート同期を有効にしたら、プロジェクトに移動し、*（アクションバーの）*「**オフラインコンテンツを更新**」をクリックする必要があります（下図を参照）。
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)

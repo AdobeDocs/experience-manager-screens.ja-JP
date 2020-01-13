@@ -1,41 +1,41 @@
 ---
-title: AEM Screens playerの互換性マトリックス
-seo-title: AEM Screens playerの互換性マトリックス
-description: このページには、AEM ScreensプレーヤーとそれぞれのAEM Screensバージョンの一覧が表示されます。
-seo-description: このページには、AEM ScreensプレーヤーとそれぞれのAEM Screensバージョンの一覧が表示されます。
+title: AEM Screens Player の互換表
+seo-title: AEM Screens Player の互換表
+description: ここでは、AEM Screens Player と AEM Screens のバージョン間の対応関係を示します。
+seo-description: ここでは、AEM Screens Player と AEM Screens のバージョン間の対応関係を示します。
 page-status-flag: de-activated
 uuid: 54fcc40f-2e8f-40b5-a5c7-2a6264342dc3
 contentOwner: jsyal
 discoiquuid: a3f0cd27-dcc4-49c5-b80b-5025344278e2
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
 
 
-# AEM Screens playerの互換性マトリックス{#compatibility-matrix-for-aem-screens-player}
+# AEM Screens Player の互換表 {#compatibility-matrix-for-aem-screens-player}
 
 >[!NOTE]
 >
->以下の情報は2018年5月14日に更新されました。
+>以下の情報は 2018 年 5 月 14 日に更新されました。
 
-次の節では、Adobe Experience Manager(AEM)Screens PlayerとそれぞれのバージョンのAEM Screensを示します。
+次の節では、Adobe Experience Manager（AEM）Screens Player と AEM Screens のバージョン間の対応関係を示します。
 
-## iOS Player {#ios-player}
+## iOS プレーヤー {#ios-player}
 
 <table>
  <tbody>
   <tr>
-   <td><strong>AEMサーバーのバージョン</strong></td> 
-   <td><strong>iOS Player</strong></td> 
+   <td><strong>AEM サーバーのバージョン</strong></td> 
+   <td><strong>iOS プレーヤー</strong></td> 
   </tr>
   <tr>
-   <td><strong>AEM 6.3+SP1+Screens FP1(1.0.64_B002)</strong></td> 
-   <td><p><strong>3.2.72</strong> - Appleストアで入手可能</p> <p> </p> </td> 
+   <td><strong>AEM 6.3 + SP1 + Screens FP1（1.0.64_B002）</strong></td> 
+   <td><p><strong>3.2.72</strong> - Apple Store で入手可能</p> <p> </p> </td> 
   </tr>
   <tr>
-   <td><strong><strong>AEM 6.3+SP1+Screens FP2(1.0.298)</strong></strong></td> 
+   <td><strong><strong>AEM 6.3 + SP1 + Screens FP2（1.0.298）</strong></strong></td> 
    <td><p><strong>3.3.0</strong> </p> <p> </p> </td> 
   </tr>
   <tr>
@@ -47,26 +47,26 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ### ダウンロードリンク {#download-link}
 
-iOS playerのダウンロードリンクをクリックします。
+iOS プレーヤーの下記ダウンロードリンクをクリックします。
 
 aem-screens-player-ios-3.3.0.ipa.zip
 
-[ファイルの取得](assets/aem-screens-player-ios-330ipa.zip)
+[ファイルを入手](assets/aem-screens-player-ios-330ipa.zip)
 
-## Windows 10 Player {#windows-player}
+## Windows 10 プレーヤー {#windows-player}
 
 <table>
  <tbody>
   <tr>
-   <td><strong>AEMサーバーのバージョン</strong></td> 
-   <td><strong>Windows 10 Player</strong></td> 
+   <td><strong>AEM サーバーのバージョン</strong></td> 
+   <td><strong>Windows 10 プレーヤー</strong></td> 
   </tr>
   <tr>
-   <td><strong>AEM 6.3+SP1+Screens FP1(1.0.64_B002)</strong></td> 
+   <td><strong>AEM 6.3 + SP1 + Screens FP1（1.0.64_B002）</strong></td> 
    <td><strong>1.0.12</strong><br /> </td> 
   </tr>
   <tr>
-   <td><strong><strong>AEM 6.3+SP1+Screens FP2(1.0.298)</strong></strong></td> 
+   <td><strong><strong>AEM 6.3 + SP1 + Screens FP2（1.0.298）</strong></strong></td> 
    <td><strong>1.0.48 </strong></td> 
   </tr>
   <tr>
@@ -78,57 +78,57 @@ aem-screens-player-ios-3.3.0.ipa.zip
 
 ### ダウンロードリンク {#download-link-1}
 
-Windows 10 playerのダウンロードリンクをクリックします。
+Windows 10 プレーヤーの下記ダウンロードリンクをクリックします。
 
 aem-screens-player-windows-1.0.48-signed.exe.zip
 
-[ファイルの取得](assets/aem-screens-player-windows-1048-signedexe.zip)
+[ファイルを入手](assets/aem-screens-player-windows-1048-signedexe.zip)
 
-## Android Player {#android-player}
+## Android プレーヤー {#android-player}
 
-| **AEMサーバーのバージョン** | **Android Player** |
+| **AEM サーバーのバージョン** | **Android プレーヤー** |
 |---|---|
-| **AEM 6.3+SP1+Screens FP1(1.0.64_B002)** | **3.2.68 -** （Macromediaサイトで利用可能）およびGoogle Play Store |
-| **AEM 6.3+SP1+Screens FP2(1.0.298)** | **3.3.0** |
+| **AEM 6.3 + SP1 + Screens FP1（1.0.64_B002）** | **3.2.68** - Macromedia サイトおよび Google Play ストアで入手可能 |
+| **AEM 6.3 + SP1 + Screens FP2（1.0.298）** | **3.3.0** |
 | **AEM 6.4** | **3.3.0** |
 
 ### ダウンロードリンク {#download-link-2}
 
-Android playerのダウンロードリンクをクリックします。
+Android プレーヤーの下記ダウンロードリンクをクリックします。
 
 aem-screens-player-android-3.3.0.apk.zip
 
-[ファイルの取得](assets/aem-screens-player-android-330apk.zip)
+[ファイルを入手](assets/aem-screens-player-android-330apk.zip)
 
 <table>
  <tbody>
   <tr>
-   <td><strong>AEMサーバーのバージョン</strong></td> 
-   <td><strong>iOS Player</strong></td> 
-   <td><strong>Windows 10 Player</strong></td> 
-   <td><strong>Chrome OS Player</strong><br /> </td> 
-   <td><strong>Android Player</strong></td> 
+   <td><strong>AEM サーバーのバージョン</strong></td> 
+   <td><strong>iOS プレーヤー</strong></td> 
+   <td><strong>Windows 10 プレーヤー</strong></td> 
+   <td><strong>Chrome OS プレーヤー</strong><br /> </td> 
+   <td><strong>Android プレーヤー</strong></td> 
   </tr>
   <tr>
-   <td><strong>AEM 6.3+SP1+Screens FP1(1.0.64_B002)</strong></td> 
-   <td><p><strong>3.2.72 - Appleストア </strong>で入手可能</p> <p><strong>3.3.0</strong> — 機能しない</p> <p> </p> </td> 
-   <td><strong>1.0.12</strong> - （Macromediaで利用可能）</td> 
-   <td><p><strong>1.0.30 -</strong> Chrome storeで入手可能。</p> <p>機能パック1ではサポートされていません</p> </td> 
-   <td><strong>3.2.68 -</strong> （Macromediaサイトで利用可能）およびGoogle Play Store</td> 
+   <td><strong>AEM 6.3 + SP1 + Screens FP1（1.0.64_B002）</strong></td> 
+   <td><p><strong>3.2.72</strong> - Apple Store で入手可能</p> <p><strong>3.3.0</strong> - 動作しない</p> <p> </p> </td> 
+   <td><strong>1.0.12</strong> - Macromedia で入手可能</td> 
+   <td><p><strong>1.0.30</strong> - Chrome ウェブストアで入手可能。</p> <p>機能パック 1 では非対応</p> </td> 
+   <td><strong>3.2.68</strong> - Macromedia サイトおよび Google Play ストアで入手可能</td> 
   </tr>
   <tr>
-   <td><strong><strong>AEM 6.3+SP1+Screens FP2(1.0.298)</strong></strong></td> 
-   <td><p><strong>3.3.0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> <p>Apple storeに掲載予定</p> <p> </p> </td> 
-   <td><strong>1.0.48 -</strong> <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></td> 
-   <td><p><strong>1.0.42 - </strong></p> <p>Chromeストアで公開する</p> </td> 
-   <td><strong>3.3.0 - </strong><a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></td> 
+   <td><strong><strong>AEM 6.3 + SP1 + Screens FP2（1.0.298）</strong></strong></td> 
+   <td><p><strong>3.3.0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> <p>Apple Store で公開予定</p> <p> </p> </td> 
+   <td><strong>1.0.48</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></td> 
+   <td><p><strong>1.0.42</strong> - </p> <p>Chrome ウェブストアで公開予定</p> </td> 
+   <td><strong>3.3.0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></td> 
   </tr>
   <tr>
    <td><strong>AEM 6.4</strong></td> 
-   <td><p><strong>3.3.0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> <p>Apple storeに掲載予定</p> </td> 
-   <td><p><strong>1.0.48 -</strong><br /> </p> <p><a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> </td> 
-   <td><p><strong>1.0.42 - </strong></p> <p>Chromeストアで公開する</p> </td> 
-   <td><strong>3.3.0 - </strong><a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></td> 
+   <td><p><strong>3.3.0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> <p>Apple Store で公開予定</p> </td> 
+   <td><p><strong>1.0.48</strong> -<br /> </p> <p><a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> </td> 
+   <td><p><strong>1.0.42</strong> -</p> <p>Chrome ウェブストアで公開予定</p> </td> 
+   <td><strong>3.3.0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></td> 
   </tr>
  </tbody>
 </table>

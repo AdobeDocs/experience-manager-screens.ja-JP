@@ -1,57 +1,56 @@
 ---
-title: 機能パック201909リリースノート
-seo-title: 機能パック201909リリースノート
-description: 2019年7月31日にリリースされたAEM Screens Feature Pack 201909の情報を入手するには、このページに従ってください。
-seo-description: 2019年10月7日にリリースされたAEM Screens Feature Pack 201909の情報を入手するには、このページに従ってください。
-translation-type: tm+mt
+title: 機能パック 201909 のリリースノート
+seo-title: 機能パック 201909 のリリースノート
+description: 2019 年 7 月 31 日にリリースされた AEM Screens 機能パック 201909 について説明します。
+seo-description: 2019 年 10 月 7 日にリリースされた AEM Screens 機能パック 201909 について説明します。
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
 
 
-# 機能パック201909リリースノート{#release-notes-for-feature-pack}
+# 機能パック 201909 のリリースノート {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->最新バージョンのAdobe Experience Manager(AEM)にアップグレードすることをお勧めします。 画面は、AEM 6.3 Screensプラットフォームのメンテナンスサポートを提供します。
+>最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
 
-AEM Screensは、AEM 6.4.6機能パック6およびAEM 6.5.2機能パック2を以下の内容でリリースしました。
+AEM 6.4.6 機能パック 6 および AEM 6.5.2 機能パック 2 向けの AEM Screens がリリースされました。詳細は以下のとおりです。
 
 ## リリース日 {#release-date}
 
-AEM Screens機能パック201909のリリース日は2019年10月7日です。
+AEM Screens 機能パック 201909 のリリース日は 2019 年 10 月 7 日です。
 
-### 最新情報 {#what-s-new}
+### 新機能 {#what-s-new}
 
-* **画面作成プロジェクトのUIの更新の強化**
+* **Screens プロジェクト作成用 UI の機能強化**
 
-   新しい画面プロジェクトを作成するための更新されたユーザーインターフェイスが使用できるようになりました。 簡単なクリック数で新しい画面プロジェクトを作成できます。 さらに、各プロジェクトの「プロパティ」タブのユーザーインターフェイスがより直感的になりました。
+   新しい Screens プロジェクトを作成するための最新のユーザーインターフェイスが利用できるようになりました。数回クリックするだけで新しい Screens プロジェクトを作成できます。さらに、各プロジェクトの「プロパティ」タブは、より直感的なユーザーインターフェイスになりました。
 
-   詳しくは、 [新しい画面の作成](creating-a-screens-project.md) 「」を参照してください。
+   詳しくは、[新しい Screens プロジェクトの作成](creating-a-screens-project.md)を参照してください。
 
-* **強化されたデバイスダッシュボード：**
+* **デバイスダッシュボードの機能強化**
 
-   デバイスのダッシュボードには、デバイスの情報、ステータス、スクリーンショット、ログ、環境設定、デバイスの詳細が表示され、デバイスのアクティビティと機能を監視できます。 パネルが更新されました。
+   デバイスダッシュボードには、デバイスのアクティビティや機能を監視できるように、デバイス情報、ステータス、スクリーンショット、ログ、環境設定およびデバイス詳細が表示されます。パネルが更新されました。
 
-   詳細は、「Troubleshooting Device Control [](monitoring-screens.md) Center」を参照してください。
+   詳しくは、[デバイスコントロールセンターからのトラブルシューティング](monitoring-screens.md)を参照してください。
 
-* **キーボード操作を許可するタイムアウトを有効にしました**
+* **キーボード操作を可能にするタイムアウトの有効化**
 
-   タッチパネルの代わりにリモートコントロールデバイスを有効にします。 操作するタッチとアクティビティのタイムアウトで、キーボード入力が処理されます。
+   タッチパネルの代わりに、リモートコントロールデバイスを有効にできます。タッチして操作後、アクティビティのタイムアウトでキーボード入力が処理されます。
 
-* **エクスペリエンスフラグメント内のオフライン設定**
+* **エクスペリエンスフラグメントでのオフライン設定**
 
-   Screensエクスペリエンスフラグメントの設定中に、オフライン設定（クライアント側ライブラリおよび静的ファイル）を追加できるようになりました。
-詳しくは、「エク [スペリエンスフラグメントの使用](experience-fragments-in-screens.md) 」を参照してください。
+   Screens エクスペリエンスフラグメントの設定時に、オフライン設定（クライアント側ライブラリや静的ファイル）を追加できるようになりました。詳しくは、[エクスペリエンスフラグメントの使用](experience-fragments-in-screens.md)を参照してください。
 
-### リリースされたAEM Screensプレーヤー {#released-aem-screens-players}
+### リリースされている AEM Screens Player {#released-aem-screens-players}
 
-AEM 6.4.6機能パック6およびAEM 6.5.2機能パック2向けに、次のAEM Screensプレーヤーがリリースされました。
+AEM 6.4.6 機能パック 6 および AEM 6.5.2 機能パック 2 向けに、次の AEM Screens Player がリリースされています。
 
-* ChromeOS
+* Chrome OS
 * Windows
 * Android
 
-#### AEM Screens playerのダウンロード {#aem-screens-player-downloads}
+#### AEM Screens Player のダウンロード {#aem-screens-player-downloads}
 
-最新のAEM Screensプレーヤーをダウンロードし、バグ修正の詳細については、 [**AEM Screensプレーヤーのダウンロードを参照してください**](https://download.macromedia.com/screens/)。
+最新の AEM Screens Player のダウンロードとバグ修正について詳しくは、[**AEM Screens Player のダウンロード**](https://download.macromedia.com/screens/)を参照してください。

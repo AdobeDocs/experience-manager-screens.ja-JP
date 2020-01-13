@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ---
@@ -21,23 +21,23 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 AEM 管理者は、プロジェクトのチームメンバーが他のプロジェクトを妨げないようにし、プロジェクト要件に応じて各ユーザーが特定の役割を割り当てられるようにします。
 
-## 権限の設定 {#setting-up-permissions}
+## 権限の設定{#setting-up-permissions}
 
 次に、プロジェクト用の ACL の設定手順の概要を示します。
 
-1. Login to AEM and navigate to **Tools** &gt; **Security**.
+1. AEM にログインして、**ツール**／**セキュリティ**&#x200B;に移動します。
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
-1. Click **Groups** and enter an ID (for example, Acme).
+1. 「**グループ**」をクリックして、ID（例：Acme）を入力します。
 
-   または、このリンクを使用しま `http://localhost:4502/libs/granite/security/content/groupadmin.html`す。
+   または、このリンク（`http://localhost:4502/libs/granite/security/content/groupadmin.html`）を使用します。
 
    次に、「**保存**」をクリックします。
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. Select **Contributors** from the list and double click it.
+1. リストから「**寄稿者**」を選択して、ダブルクリックします。
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
@@ -53,7 +53,7 @@ AEM 管理者は、プロジェクトのチームメンバーが他のプロジ�
 
    ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
 
-1. Setup the permissions for the group **Acme** using this `(http://localhost:4502/useradmin)`.
+1. この `(http://localhost:4502/useradmin)` を使用して、**Acme** グループの権限を設定します。
 
    **Acme** グループを選択して、「**権限**」をクリックします。
 
@@ -76,13 +76,13 @@ AEM 管理者は、プロジェクトのチームメンバーが他のプロジ�
 >
 >場合によっては、作成者機能（アセットの管理やチャネルの作成など）を管理者機能（プレーヤーの登録など）から分離することができます。その場合、2 つのグループを作成して、作成者グループを寄稿者に追加し、管理者グループを寄稿者とユーザー管理者の両方に追加します。
 
-### グループの作成 {#creating-groups}
+### グループの作成{#creating-groups}
 
 新規プロジェクトを作成する場合、基本的な権限が割り当てられたデフォルトのユーザーグループも作成します。権限を拡張して、AEM Screens 用の標準の役割を含める必要があります。
 
 例えば、次のプロジェクト専用グループを作成できます。
 
-* 画面プロジェクト管理者
+* Screens プロジェクト管理者
 * Screens プロジェクトオペレーター（プレーヤーの登録、場所およびデバイスの管理）
 * Screens プロジェクトユーザー（チャネル、スケジュールおよびチャネル割り当ての作業）
 

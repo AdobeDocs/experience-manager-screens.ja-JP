@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: b8ab512b7e883fff1265b73403429351e5c6d3b5
+source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
 ---
 
@@ -126,7 +126,9 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 
 1. `https://<host>:<port>/system/console/configMgr` に移動します。
 1. 「**Apache Sling Oak-Based Discovery Service**」の設定を選択します。
-1. トポロジコネクタ URL の更新：参加するすべてのパブリッシュインスタンスの URL（`https://localhost:4502/libs/sling/topology/connector`）を追加します。
+1. トポロジコネクタURLの更新：次のパーティングを行うすべての発行インスタンスのURLを追加します。
+   * `https://localhost:4503/libs/sling/topology/connector`
+   * `https://localhost:4504/libs/sling/topology/connector`
 1. Topology Connector サービスのホワイトリスト：参加するパブリッシュインスタンスをカバーする IP またはサブネットに合わせます。
 1. 「**ローカルループの自動停止**」をオンにします。
 
@@ -237,7 +239,7 @@ For any of the publish instances navigate to `https://:/system/console/topology`
 
 **デバイスの確認**
 
-以下の手順を実行する前に、デバイス ID を確認してください。確認するには、CRXDE Liteで、パスを */home/users/screens/{project}/devices* としてデバイス ID を検索します。
+以下の手順を実行する前に、デバイス ID を確認してください。To verify, search for the device id in CRXDELite, with the path as */home/users/screens/we-retail/devices*.
 
 次の手順に従って、デバイスユーザーをレプリケートします。
 
@@ -275,11 +277,15 @@ For any of the publish instances navigate to `https://:/system/console/topology`
 * *スケジュール* - スケジュールを使用する場合は、スケジュールを必ず公開します。
 * *ロケーション、スケジュール、チャネルの各フォルダー* - 対応するリソースがフォルダー内にある場合。
 
-チェックリストを確認したら、チャネルで次の変更／動作を確認する必要があります。
+次の手順に従って、作成者/公開の動作を確認します。
 
-* デバイス設定の公開後、Screens Player 設定を開き、パブリッシュインスタンスを指すように設定します。また、デバイス管理コンソールからデバイスをアクティブ化することもできます。
-* オーサー環境のチャネルコンテンツを更新して公開し、更新されたチャネルが AEM Screens Player に表示されることを確認します。
-* Screens Player を別のパブリッシュインスタンスに接続し、上記の動作を確認します。
+1. 作成者インスタンスのチャネルコンテンツの一部を更新
+1. 「パブリケー **ションの管理** 」を実行して、すべての発行インスタンスに新しい変更を発行します。
+1. 「 **Activate** 」を押して、デバイスマネージャーからデバイスをア **クティブ化します**
+1. **作成者インスタンス** URLから発行インスタンスURLの1つにURLを編集
+1. AEM Screensプレーヤーに更新されたチャネルコンテンツが表示されることを確認します。
+1. 別の発行インスタンスを使用して、これらの手順を繰り返します
+
 
 #### 手順 5 ：パブリッシュインスタンスを指すように管理パネルでデバイスを設定 {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
@@ -296,5 +302,7 @@ AEM Screens Player で変更結果を表示します。
 1. Select the device and click **Edit server URL** from the action bar, as shown in the figure below and your changes will be propagated to the AEM Screens player.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
+
+The **Manage Publication** feature allows you to deliver content updates from author to publish to device. AEM Screens プロジェクト全体のコンテンツを公開／非公開することもできますし、チャネル、ロケーション、デバイス、アプリケーション、スケジュールのいずれか 1 つのコンテンツを公開／非公開することもできます。この機能の詳細については、「オンデマンドコンテンツ [の更新」を参照してください](on-demand-content.md)。
 
 

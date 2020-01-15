@@ -5,7 +5,7 @@ description: 永続テイクオーバーチャネルを作成する場合は、�
 seo-description: 特定の日時を通じて継続的に再生する永続的なテイクオーバーチャネルを作成するプロジェクトを設定する場合は、この使用例に従ってください。
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 5550cefe34770633bb2db86f5878d1ea7fd41d61
+source-git-commit: 75453128ce6c66e6fef9c5433a5e4389ef9f1c88
 
 ---
 
@@ -90,17 +90,18 @@ source-git-commit: 5550cefe34770633bb2db86f5878d1ea7fd41d61
       >スケジュールに追加できる式の詳細については ****、以下の「式の例 [」を参照](#example-expressions) してください。
    * **アクティブ**:開始日時。
    * **アクティブ**:終了日時。
-   例えば、 **Schedule** and **active from** and **** active until日時のテキストでは、コンテンツを毎週水曜日の午後2時から午後4時まで再生できます。
+
+      例えば、 **Schedule** and **active from** and **** active until日時のテキストでは、コンテンツを毎週水曜日の午後2時から午後4時まで再生できます。
 
 
-   ![アセット](assets/p_usecase7.png)
+      ![アセット](assets/p_usecase7.png)
 
-   次に示すように、 **TakeOver** —> Locations **—>** MainLobby **—> MainMain** DisplayDisplayDashboard **Dashboard** Channelsを優先度を割り当てたチャネルを表示するTakeOver **** —> Locations —> main mainMainLobolobies> Main Main Main Main MainMainDin DisplayDisDisDisDisDisDisDisDisDisDisDisDisDisDisDisDisDisplayDisDisDisDisDisDisDisplayDisplayDisplayDisDisplayDisplayDisplayDisplayDisplayDisplayDisDisplayDisplay
+      次に示すように、 **TakeOver** —> Locations **—>** MainLobby **—> MainMain** DisplayDisplayDashboard **Dashboard** Channelsを優先度を割り当てたチャネルを表示するTakeOver **** —> Locations —> main mainMainLobolobies> Main Main Main Main MainMainDin DisplayDisDisDisDisDisDisDisDisDisDisDisDisDisDisDisDisDisplayDisDisDisDisDisDisDisplayDisplayDisplayDisDisplayDisplayDisplayDisplayDisplayDisplayDisDisplayDisplay
 
-   >[!NOTE]
-   >テイクオーバーチャネルの優先順位を最も高く設定する必要があります。
+      >[!NOTE]
+      >テイクオーバーチャネルの優先順位を最も高く設定する必要があります。
 
-   ![アセット](assets/p_usecase8.png)Nowでは、 **TakeOver****** チャネルがMainAdChannelを2時に2時間、毎週水曜日の午後4時まで引き継ぎ、2020年1月9日から2020年1月31日までコンテンツを再生します。
+      ![アセット](assets/p_usecase8.png)Nowでは、 **TakeOver****** チャネルがMainAdChannelを2時に2時間、毎週水曜日の午後4時まで引き継ぎ、2020年1月9日から2020年1月31日までコンテンツを再生します。
 
 ## Example Expressions {#example-expressions}
 

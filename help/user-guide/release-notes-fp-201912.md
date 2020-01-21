@@ -4,7 +4,7 @@ seo-title: 機能パック 201912 のリリースノート
 description: 2020 年 1 月 20 日にリリースされた AEM Screens 機能パック 201912 について説明します。
 seo-description: 2020 年 1 月 20 日にリリースされた AEM Screens 機能パック 201912 について説明します。
 translation-type: tm+mt
-source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
+source-git-commit: 389a44e3f6175e0a43a6e99edd3048f2b8455d0b
 
 ---
 
@@ -19,19 +19,18 @@ AEM 6.4 機能パック 7 および AEM 6.5 機能パック 3 向けの AEM Scre
 
 ## リリース日 {#release-date}
 
-AEM Screens 機能パック 201912 のリリース日は 2020 年 1 月 20 日です。
+AEM Screens 機能パック 201912 のリリース日は 2020 年 1 月 21 日です。
 
 ### 新機能 {#what-s-new}
 
 * **アセット再生のコマンド同期**
 
 
-* **httpsのステータスを表示し、空のリファラーを許可するヘルスチェックフレームワーク**
+* **AEM Screensプロジェクトを実行する前に、HTTPSの状態と空のリファラーを許可するヘルスチェックフレームワークを使用して、必要な設定（空のリファラーリクエストを許可する）とApache Felix JettyベースのHTTPサービスが2つ設定されているかどうかを確認できます。**
 
+   Health Check Frameworkの詳細については、「Health Check Framework」を参 [照してください](/help/user-guide/configuring-screens-introduction.md#health-check-framework)。
 
-
-* **デフォルトのトランジションタイプの更新**
-
+* **デフォルトのトランジションタイプ**&#x200B;の更新 **Typeなどのトランジションコンポーネントのプロパティが** Fade **に設定され、********** Durationが10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 
 
 ### リリースされている AEM Screens Player {#released-aem-screens-players}

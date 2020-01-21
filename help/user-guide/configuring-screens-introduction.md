@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
+source-git-commit: d076b0f2362b5feccc78d3984306d3036a6d916b
 
 ---
 
@@ -28,9 +28,42 @@ source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
 >
 >AEM Screens Player は、クロスサイトリクエストフォージェリ（CSRF）トークンを利用していません。したがって、AEM Screens で使用できるように AEM サーバーを設定するには、空のリファラーを許可して、リファラーフィルターをスキップします。
 
+## ヘルスチェックフレームワーク {#health-check-framework}
+
+ヘルスチェックフレームワークを使用すると、AEM Screensプロジェクトを実行する前に、必要な設定が2つあるかどうかをユーザーが確認できます。
+
+次の2つの設定チェックを確認して、AEM Screensプロジェクトを実行できます。つまり、次の2つのフィルターの状態を確認できます。
+
+1. **空のリファラーを許可**
+2. **https**
+
+次の手順に従って、AEM Screensでこれら2つの重要な設定が有効になっているかどうかを確認します。
+
+1. 「 [Adobe Experience Manager Web ConsoleSling Health Check」に移動します](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&overrideGlobalTimeout=)。
+
+   ![アセット](assets/health-check1.png)
+
+
+2. 上記の2つのプ **ロパティの検証を実行するには** 、[選択したヘルスチェックの実行]をクリックします。
+
+   両方のフィルターが有効な場合、 **Screens Configuration Health Serviceは** 「 **Result** 」を「 **OK** 」と表示し、両方の設定が有効になります。
+
+   ![アセット](assets/health-check2.png)
+
+   一方または両方のフィルタが無効になっている場合は、下の図に示すように、ユーザーに対してアラートが表示されます。
+
+   両方のフィルターが無効な場合、次のアラートが表示されます。
+   ![アセット](assets/health-check3.png)
+
+>[!NOTE]
+>
+>* Apache Slingリファラーフィルタ **ーを有効にするには**、「空のリファラー要求 [を許可する」を参照してください](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests)。
+>* HTTPサービスを有効にす **るには** 、 [Apache Felix JettyベースのHTTPサービスを参照してください](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service)。
+
+
 ### 前提条件 {#prerequisites}
 
-AEM Screens で使用できるように AEM サーバーを設定する際に役立つ重要なポイントを次に示します。
+以下の主要なポイントは、AEM ScreensでAEMサーバーを使用する準備が整うように設定する場合に役立ちます。
 
 #### 空のリファラー要求の許可 {#allow-empty-referrer-requests}
 
@@ -44,11 +77,27 @@ AEM Screens で使用できるように AEM サーバーを設定する際に役
 
    ![screen_shot_2019-07-31at91728am](assets/screen_shot_2019-07-31at91728am.png)
 
-1. Check the **Allow Empty** option, as shown in the figure below.
+1. 「**Allow Empty**」オプションをオンにします（下図を参照）。
 
    ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
 
 1. 「**保存**」をクリックして、Apache Sling Referrer Filter の「Allow Empty」を有効にします。
+
+#### Apache Felix JettyベースのHTTPサービス {#allow-apache-felix-service}
+
+1. AEM インスタンスでハンマーアイコン／**操作**／**Web コンソール**&#x200B;をクリックして、「**Adobe Experience Manager Web コンソール設定**」に移動します。
+
+   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+
+1. **Adobe Experience Manager Web コンソール設定**&#x200B;が開きます。Apache Felix JettyベースのHTTPサービスを検索します。
+
+   For searching this property, press **Command+F** for **Mac** and **Control+F** for **Windows**.
+
+1. Check the **ENABLE HTTP** option, as shown in the figure below.
+
+   ![screen_shot_2019-07-31at91807am](assets/http-image.png)
+
+1. 「保存」 **をクリックし** 、 *httpサービスを有効にします* 。
 
 #### AEM Screens のタッチ操作対応 UI の有効化 {#enable-touch-ui-for-aem-screens}
 
@@ -57,7 +106,7 @@ AEM Screens にはタッチ操作対応 UI が必要で、Adobe Experience Manag
 1. *&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl* に移動します。
 1. 「**Default authoring UI mode**」が「**TOUCH**」に設定されていることを確認します（下図を参照）。
 
-Alternatively, you can also perform the same setting using *&lt;yourAuthorInstance>*->*tools (hammer icon)* -> **Operations** -> **Web Console** and search for **WCM Authoring UI Mode Service**.
+また、*&lt;yourAuthorInstance>*／*ツール（ハンマーアイコン）*／**操作**／**Web コンソール**&#x200B;をクリックし、**WCM Authoring UI Mode Service** を検索して、同じ設定を実行することもできます。
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -102,4 +151,11 @@ AEM Screens プロジェクトの Dispatcher を設定する方法について�
 >**推奨事項：**
 >
 >実稼動環境では AEM Screens サーバーに HTTPS を使用することをお勧めします。
+
+
+
+
+
+
+
 

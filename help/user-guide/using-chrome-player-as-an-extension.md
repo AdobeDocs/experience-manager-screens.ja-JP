@@ -3,8 +3,8 @@ title: 拡張機能としての Chrome プレーヤーの使用
 seo-title: 拡張機能としての Chrome プレーヤーの使用
 description: 'null'
 seo-description: 'null'
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 1753009451e4bed75eb8241bcca887f7abe2f77b
 
 ---
 
@@ -19,7 +19,7 @@ Chrome OSプレーヤーは、実際の Chrome プレーヤーデバイスがな
 
 ここでは、Chrome プレーヤーをブラウザー拡張機能としてインストールする方法を説明します。
 
-1. ここをクリックして、最新の Chrome OS プレーヤーをダウンロードします。
+1. [ここ](https://download.macromedia.com/screens/)をクリックして、最新の Chrome プレーヤーをダウンロードします。
 
 1. 解凍してディスクに保存します。
 

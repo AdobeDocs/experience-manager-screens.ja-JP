@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 このページでは、チャネルのライブコピーの作成および管理を説明します。
 
-A ***Live Copy*** is a copy of specific site content for which a live relationship with the original source is maintained. このライブ関係により、ライブコピーはソースからコンテンツおよびページプロパティを継承できます。
+***ライブコピー&#x200B;***は、特定のサイトコンテンツのコピーです。このコピーについては、元のソースとのライブ関係が維持されます。このライブ関係により、ライブコピーはソースからコンテンツおよびページプロパティを継承できます。
 
 このページでは、チャネルのライブコピーの作成、プロパティの表示、ステータスのチェック、チャネルからライブコピーへの変更の反映について説明します。
 
@@ -28,20 +28,20 @@ A ***Live Copy*** is a copy of specific site content for which a live relationsh
 
 以下の手順に従って、プロジェクトフォルダーの中のチャネルのライブコピーを作成します。
 
-1. Adobe Experience Manager リンク（左上）を選択し、**Screens** を選択します。Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
+1. Adobe Experience Manager リンク（左上）を選択し、「**Screens**」を選択します。または、`http://localhost:4502/screens.html/content/screens` に直接アクセスすることもできます。
 
-1. Navigate to Screens project and click **Channels**.
-1. Click **Create** and select **Live Copy** to create a live copy of the channel.
+1. Screens プロジェクトに移動して「**チャネル**」をクリックします。
+1. 「**作成**」をクリックし、「**ライブコピー**」を選択して、チャネルのライブコピーを作成します。
 
 1. 宛先を選択して、「**次へ**」をクリックします。
-1. ライブコピーを作る場所を選択します。
+1. ライブコピーの作成先を選択します。
 1. **タイトル**&#x200B;および&#x200B;**名前を****ライブコピーの作成**&#x200B;ページに入力します。
 
 1. 「**開く**」をクリックして、新しいライブコピーのコンテンツを表示するか、「**完了**」をクリックしてメインページに戻ります。
 
 また、チャネルの新しいライブコピーを作成するためのビジュアル表現用の下の手順を参照してください。
 
-The following example shows the creation of a live copy (***IdleLiveCopy***) for ***Idle Channel*** with destination folder as ***Channels***.
+次の例では、***チャネル&#x200B;***という宛先フォルダーのある***Idle Channel*** のライブコピー（***IdleLiveCopy ***）の作成を示しています。
 
 ![chlimage_1-2](assets/chlimage_1-2.gif)
 
@@ -51,19 +51,19 @@ The following example shows the creation of a live copy (***IdleLiveCopy***) for
 
 ライブコピーのコンテンツを表示するには、次の手順を参照してください。
 
-1. スクリーンプロジェクトに移動して、上のセクションで示されているように、最初にライブコピーを作成した場所をクリックします(Here, the location was chosen as **Channels** folder)
+1. スクリーンプロジェクトに移動して、上のセクションで示されているように、最初にライブコピーを作成した場所をクリックします（ここでは、その場所として&#x200B;**チャネル**&#x200B;フォルダーが選択されました）。
 
-   ![チリメージ_1-18](assets/chlimage_1-18.png)
+   ![chlimage_1-18](assets/chlimage_1-18.png)
 
 1. アクションバーの「**編集**」をクリックして、チャネルのコンテンツを表示します。
 
-   ![チリメージ_1-19](assets/chlimage_1-19.png)
+   ![chlimage_1-19](assets/chlimage_1-19.png)
 
    >[!NOTE]
    >
    >ライブコピーチャネルのコンテンツを表示するときは、**ライブコピーステータス**&#x200B;としてメニューの中に追加項目が表示されます。詳しくは、下のセクションを参照してください。
 
-### ライブコピーのプロパティの表示 {#viewing-properties-of-a-live-copy}
+### ライブコピーのプロパティの表示{#viewing-properties-of-a-live-copy}
 
 さらに、ライブコピーチャネルのプロパティを表示できます。
 
@@ -79,9 +79,9 @@ The following example shows the creation of a live copy (***IdleLiveCopy***) for
 
 モード&#x200B;**ライブコピーステータス**&#x200B;は、下の図で示されており、チャネルの中のすべてのアセットの関係ステータスを表示できます。
 
-1. Click **Edit** to choose the **Live Copy Status** and view the association of your channel content to the original channel (from which the live copy is generated).
+1. 「**編集**」をクリックして、「**ライブコピーステータス**」を選択し、チャネルコンテンツと元のチャネル（ライブコピーの生成元）の関係を表示します。
 
-   ![クリマージ_1-22](assets/chlimage_1-22.png)
+   ![chlimage_1-22](assets/chlimage_1-22.png)
 
 1. 「**ライブコピーステータス**」を選択して、プレビューページを表示します。
 
@@ -103,7 +103,7 @@ The following example shows the creation of a live copy (***IdleLiveCopy***) for
 
 下の手順に従って、変更を元のチャネルからライブコピーチャネルに反映します。
 
-1. 元のチャネル（***Idle Channel***）を選択し、アクションバーの「**編集**」をクリックします。
+1. 元のチャネル（***Idle Channel ***）を選択し、アクションバーの「**編集&#x200B;**」をクリックします。
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
@@ -111,21 +111,21 @@ The following example shows the creation of a live copy (***IdleLiveCopy***) for
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
-1. チャネルのライブコピー（***IdleLiveCopy***）を選択し、アクションバーの「**編集**」をクリックします。削除した画像は、ライブコピーにまだ表示されています。
+1. チャネルのライブコピー（***IdleLiveCopy ***）を選択し、アクションバーの「**編集&#x200B;**」をクリックします。削除した画像は、ライブコピーにまだ表示されています。
 
    変更を反映するには、チャネルを同期する必要があります。
 
-   ![チリメージ_1-27](assets/chlimage_1-27.png)
+   ![chlimage_1-27](assets/chlimage_1-27.png)
 
 1. 変更をライブコピーチャネルに反映するために、AEM ダッシュボードに移動して、ライブコピーチャネルを選択し、アクションバーから「**プロパティ**」をクリックします。
 
-   ![チリメージ_1-28](assets/chlimage_1-28.png)
+   ![chlimage_1-28](assets/chlimage_1-28.png)
 
 1. 「**ライブコピー**」タブを選択し、アクションバーの「**同期**」をクリックします。
 
    ![chlimage_1-29](assets/chlimage_1-29.png)
 
-1. 「**同期**」をクリックして、変更を確認します。Click **Save &amp; Close** to navigate back to the AEM dashboard.
+1. 「**同期**」をクリックして、変更を確認します。「**保存して閉じる**」をクリックして、AEM ダッシュボードに戻ります。
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 

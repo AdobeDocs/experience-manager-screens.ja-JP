@@ -1,8 +1,8 @@
 ---
 title: デバイスの登録
 seo-title: デバイスの登録
-description: このページでは、AEM Screensプロジェクトでのデバイスの登録プロセスについて説明します。
-seo-description: このページでは、AEM Screensプロジェクトでのデバイスの登録プロセスについて説明します。
+description: ここでは、AEM Screens プロジェクトでのデバイス登録プロセスについて説明します。
+seo-description: ここでは、AEM Screens プロジェクトでのデバイス登録プロセスについて説明します。
 uuid: 5365e506-1641-4a0c-b34d-c39da02f700b
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
@@ -18,22 +18,22 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 # デバイスの登録 {#device-registration}
 
-次のページでは、AEM Screensプロジェクトでのデバイス登録プロセスについて説明します。
+ここでは、AEM Screens プロジェクトでのデバイス登録プロセスについて説明します。
 
-## Registering a Device {#registering-a-device}
+## デバイスの登録 {#registering-a-device}
 
-デバイスの登録プロセスは、2台の別々のマシンで実行されます。
+デバイス登録プロセスには、次に示す 2 台のコンピューターを使用します。
 
 * 実際に登録するデバイス（サイネージディスプレイなど）
 * デバイスの登録に使用する AEM サーバー
 
 >[!NOTE]
 >
->最新のWindows Player (*.exe*)を [](https://download.macromedia.com/screens/) AEM 6.4 playerのダウンロードページからダウンロードしたら、プレイヤー上の手順に従ってアドホックインストールを完了します。
+>最新の Windows プレーヤー（*.exe*）を [AEM Screens Player Downloads](https://download.macromedia.com/screens/) ページからダウンロードしたら、以下の手順に従ってプレーヤーのアドホックインストールを完了します。
 >
 >1. 左上隅を長押しして、管理パネルを開きます。
->1. 左側のアクシ **ョンメニューから「** Configuration **」に移動し、「** Server **」にAEMインスタンスの場所のアドレスを入力し、「** Save」をクリックします。
->1. 左側のアクションメ **ニューの** 「Registration」リンクをクリックし、以下の手順でデバイス登録プロセスを完了します。
+>1. 左のアクションメニューから「**設定**」に移動し、AEM インスタンスの場所のアドレスを「**サーバー**」に入力して、「**保存**」をクリックします。
+>1. 左のアクションメニューの「**登録**」リンクをクリックし、以下の手順でデバイス登録プロセスを完了します。
 >
 
 
@@ -48,17 +48,17 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
    >[!NOTE]
    >
-   >To get more information on creating a new project for Screens in the AEM dashboard, see [Create and Manage Screens Project](creating-a-screens-project.md).
+   >AEM ダッシュボードで Screens の新しいプロジェクトを作成する方法について詳しくは、[Screens プロジェクトの作成と管理](creating-a-screens-project.md)を参照してください。
 
-1. アクションバーの「**デバイスマネージャー**」ボタンをタップ／クリックします。
+1. アクションバーの「**デバイスマネージャー**」ボタンをタップまたはクリックします。
 
    ![screen_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
 
-1. 右上にある「**デバイスの登録**」ボタンをタップ／クリックします。
+1. 右上にある「**デバイスの登録**」ボタンをタップまたはクリックします。
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
-1. 目的の（手順 1 と同じ）デバイスを選択し、「**デバイスを登録**」をタップ／クリックします。
+1. 目的の（手順 1 と同じ）デバイスを選択し、「**デバイスを登録**」をタップまたはクリックします。
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
@@ -70,50 +70,50 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. If the **Registration Code** is the same on both machines, tap/click **Validate** button in AEM, as shown in the step (6).
-1. Set the desired name for the device, and click **Register**.
+1. 両方のコンピューターの&#x200B;**登録コード**&#x200B;が同じである場合は、AEM の「**検証**」ボタンをタップまたはクリックします（手順 6 を参照）。
+1. デバイスの名前を設定し、「**登録**」をクリックします。
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. Tap/click **Finish** to complete the registration process.
+1. 「**完了**」をタップまたはクリックして、登録プロセスを完了します。
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
    >[!NOTE]
    >
-   >[新し **いデバイスを登録** ]を使用すると、新しいデバイスを登録できます。
+   >「**戻る**」をタップまたはクリックすると、新しいデバイスを登録できます。
    >
-   >The **Assign Display** lets you directly add the device to a display.
+   >「**ディスプレイを割り当て**」をタップまたはクリックすると、デバイスをディスプレイに直接追加できます。
 
-   [完了]をクリ **ックする**&#x200B;と、デバイスをディスプレイに割り当てる必要があります。
+   「**完了**」をタップまたはクリックする場合は、デバイスをディスプレイに割り当てる必要があります。
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
    >[!NOTE]
    >
-   >画面プロジェクトのディスプレイの作成と管理の詳細については、「ディスプレイの作成と管 [理」を参照してください](managing-displays.md)。
+   >Screens プロジェクトのディスプレイの作成と管理について詳しくは、[ディスプレイの作成と管理](managing-displays.md)を参照してください。
 
-### デバイスをディスプレイに割り当てる {#assigning-device-to-a-display}
+### ディスプレイへのデバイスの割り当て {#assigning-device-to-a-display}
 
-デバイスをディスプレイに割り当てていない場合は、次の手順に従って、AEM Screensプロジェクト内のディスプレイにデバイスを割り当てます。
+デバイスをディスプレイにまだ割り当てていない場合は、以下の手順に従って、デバイスを AEM Screens プロジェクト内のディスプレイに割り当てます。
 
-1. デバイスを選択し、アクションバ **ーで「Assign Device** 」をクリックします。
+1. デバイスを選択し、アクションバーの「**デバイスを割り当て**」をクリックします。
 
-   ![screen_shot_2018-11-26at11026am](assets/screen_shot_2018-11-26at111026am.png)
+   ![screen_shot_2018-11-26at111026am](assets/screen_shot_2018-11-26at111026am.png)
 
-1. 「ディスプレイ/デバイス設定パス」 **で表示のパスを選択します**。
+1. 「**ディスプレイ / デバイス設定パス**」でディスプレイのパスを選択します。
 
-   ![screen_shot_2018-11-26at11252am](assets/screen_shot_2018-11-26at111252am.png)
+   ![screen_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
 
-1. パスを **選択し** 、「割り当て」をクリックします。
+1. パスを選択したら、「**割り当て**」をクリックします。
 
-   ![screen_shot_2018-11-26at11722am](assets/screen_shot_2018-11-26at111722am.png)
+   ![screen_shot_2018-11-26at111722am](assets/screen_shot_2018-11-26at111722am.png)
 
-1. 次の図に **示すように** 、デバイスが正常に割り当てられたら、「完了」をクリックします。
+1. デバイスが正常に割り当てられたら、「**完了**」をクリックします（下図を参照）。
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   また、「完了」をクリックすると、ダッシュボードを表示で **きます**。
+   また、「**完了**」をクリックすると、ディスプレイダッシュボードが表示されます。
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -137,4 +137,4 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
 
 ### その他のリソース {#additional-resources}
 
-To learn about AEM Screens Player, see [AEM Screens Player](working-with-screens-player.md).
+AEM Screens Player について詳しくは、[AEM Screens Player](working-with-screens-player.md) を参照してください。

@@ -1,8 +1,8 @@
 ---
-title: 接客予約有効化
-seo-title: 接客予約有効化
-description: 以下の使用例は、Googleシートに入力された値に基づいて病院の予約を有効にする方法を示しています。
-seo-description: 以下の使用例は、Googleシートに入力された値に基づいて病院の予約を有効にする方法を示しています。
+title: 接客業向けの予約状況に応じたアクティブ化
+seo-title: 接客業向けの予約状況に応じたアクティブ化
+description: 以下の使用例では、Google シートに入力された値に基づく、接客業向けの予約状況に応じたアクティブ化を示しています。
+seo-description: 以下の使用例では、Google シートに入力された値に基づく、接客業向けの予約状況に応じたアクティブ化を示しています。
 uuid: 7692d616-2b00-4d9a-9d3f-211c089b29af
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,76 +10,76 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
 
-# 接客予約有効化 {#hospitality-reservation-activation}
+# 接客業向けの予約状況に応じたアクティブ化 {#hospitality-reservation-activation}
 
-以下の使用例は、Googleシートに入力された値に基づいて病院の予約を有効にする方法を示しています。
+以下の使用例では、Google シートに入力された値に基づく、接客業向けの予約状況に応じたアクティブ化を示しています。
 
 ## 説明 {#description}
 
-この使用例では、Googleシートに2つのレストラン **Restarant1** と **Restarant2の予約の割合が入力されます**。 Restarant1とRestarant2の値に基づいて数式が適用され、その数式に基づいて、AdTarget列に値1または2が割り当てら **れます** 。
+この使用例では、**Restarant1** および **Restarant2** という 2 つのレストランの予約率が Google シートに入力されています。Restarant1 と Restarant2 の値に基づいて数式が適用され、その数式に基づいて、値 1 または値 2 が **AdTarget** 列に割り当てられます。
 
-**Restarant1** &gt; **Restaint2の値がAdRestarant1****1** Assigned Restaurant Value setの場合はRestainted Value **Target Assigned Value** 2 ******** AssignedValueTarget 値1はステーキフ *ード* ( *Stake food* )オプションを生成し、値2はタイフフード(Thai food)オプションを表示画面に表示します。
+**Restaurant1** の値が **Restaurant2** の値より大きい場合は、**AdTaget** に値 **1** が割り当てられ、それ以外の場合は、**AdTarget** に値 **2** が割り当てられます。値 1 の場合はディスプレイの画面に&#x200B;*ステーキ料理*&#x200B;のオプションが表示され、値 2 の場合は&#x200B;*タイ料理*&#x200B;のオプションが表示されます。
 
 ## 前提条件 {#preconditions}
 
-予約の有効化を実装する前に、AEM Screensプロジェクトで ***Data Store***、 ***Audience Segmentation*** 、チャネルのターゲット設定を有効にする方法 ****** を学ぶ必要があります。
+予約状況に応じたアクティブ化の実装を開始する前に、AEM Screens プロジェクトで&#x200B;***データストア&#x200B;***、***オーディエンスのセグメント化***、***チャネルのターゲティングの有効化&#x200B;***をセットアップする方法を理解しておく必要があります。
 
-詳しくは、「AEM [画面でのContextHubの設定](configuring-context-hub.md) 」を参照してください。
+詳しくは、[AEM Screens プロジェクトでの ContextHub の設定](configuring-context-hub.md)を参照してください。
 
 ## 基本フロー {#basic-flow}
 
-次の手順に従って、AEM Screensプロジェクトにホスピタリティーの予約有効化の使用例を実装します。
+AEM Screens プロジェクトに「接客業向けの予約状況に応じたアクティブ化」の使用例を実装するには、以下の手順に従います。
 
-1. **Googleシートに入力し、数式を追加します。**
+1. **Google シートにデータを入力し数式を追加する**
 
-   例えば、次の図に示すように、3列目の **AdTarget**&#x200B;に数式を適用します。
+   例えば、3 列目の **AdTarget** に数式を適用します（下図を参照）。
 
    ![screen_shot_2019-04-29at94132am](assets/screen_shot_2019-04-29at94132am.png)
 
-1. **要件に従って、オーディエンスでのセグメントの設定**
+1. **要件に従ってオーディエンスのセグメントを設定する**
 
-   1. オーディエンス内のセグメントに移動します(手順2 ***を参照してください。(AEM ScreensページでのContextHubの設*** 定でのオーディエンスセグメントの設定 **[](configuring-context-hub.md)** を参照)。
+   1. オーディエンスのセグメントに移動します（詳しくは、***AEM Screens プロジェクトでの ContextHub の設定&#x200B;***の**[手順 2：オーディエンスのセグメント化のセットアップ](configuring-context-hub.md)**を参照してください）。
 
-   1. [シートA1 1 **]を選択し、[編集** ]をクリッ **クします**。
+   1. 「**Sheets A1 1**」を選択し、「**編集**」をクリックします。
 
-   1. 比較プロパティを選択し、設定アイコンをクリックして、プロパティを編集します。
-   1. [プ **ロパティ名]のドロップダウンから** [Googlesheets/value/1/2]を選 **択します。**
+   1. 比較プロパティを選択し、設定アイコンをクリックしてプロパティを編集します。
+   1. 「**プロパティ名**」のドロップダウンから「**googlesheets/value/1/2**」を選択します。
 
-   1. ドロップダウ **ンメニュー** から「 **Operator as** equal」を選択します。
+   1. 「**演算子**」のドロップダウンメニューから「**次と等しい**」を選択します。
 
-   1. 値を **** 1と入 **力**
+   1. 「**値**」に「**1**」を入力します。
 
-   1. 同様に、[シートA1 2 **]を選択し、[編集** ]をクリッ **クします**。
+   1. 同様に、「**Sheets A1 2**」を選択し、「**編集**」をクリックします。
 
-   1. 比較プロパティを選択し、設定アイコンをクリックして、プロパティを編集します。
-   1. [プ **ロパティ名]のドロップダウンから** [Googlesheets/value/1/2]を選 **択します。**
+   1. 比較プロパティを選択し、設定アイコンをクリックしてプロパティを編集します。
+   1. 「**プロパティ名**」のドロップダウンから「**googlesheets/value/1/2**」を選択します。
 
-   1. 演算子を **2とし** て選 **択**
+   1. 「**演算子**」として「**2**」を選択します。
 
-1. チャネルに移動して選択し()、アクションバ **ーの** 「編集」をクリックします。 次の例では、DataDrivenRestarantとい **う順次チャネルを使用して**、機能を紹介しています。
+1. チャネルに移動して選択し、アクションバーの「**編集**」をクリックします。次の例では、**DataDrivenRestarant** というシーケンスチャネルを使用して機能を紹介しています。
 
    >[!NOTE]
    >
-   >チャネルに既にデフォルトの画像が存在し、「AEM ScreensでのContextHubの設定」の説明に従ってオーディエンスが事 [前に設定されている必要があります](configuring-context-hub.md)。
+   >チャネルには既にデフォルトの画像が存在し、[AEM Screens プロジェクトでの ContextHub の設定](configuring-context-hub.md)で説明しているとおりにオーディエンスが事前設定されています。
 
    ![screen_shot_2019-05-08at14652pm](assets/screen_shot_2019-05-08at14652pm.png)
 
    >[!CAUTION]
    >
-   >ContextHub設定は、channel **Properties** — **Personalization** **Tabを使用して設定しま****** す。
+   >チャネルの&#x200B;**プロパティ**&#x200B;を開き、「**パーソナライズ機能**」タブを使用して「**ContextHub** **設定**」をセットアップしておいてください。
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. エディター **から「ターゲティング** 」を選択し、ドロップダウンメニューから「ブラ **ンド** 」と「アクティビティ」を選択して、「ターゲット設定を開始」をクリ ********&#x200B;ックします。
-1. **プレビューの確認**
+1. エディターから「**ターゲット設定**」を選択し、「**ブランド**」を選択してドロップダウンメニューから「**アクティビティ**」を選択します。次に、「**ターゲット設定を開始**」をクリックします。
+1. **プレビューを確認する**
 
-   1. Click **Preview.** また、Googleシートを開き、値を更新します。
-   1. Restarant1列と **Restarant2列の値を更** 新します **** 。 If **1** &gt; **2,** Thai *food* food *Thai restaurant 、それ以外の場合は画面にStake* food Thai Foodの画像が表示されるので、画面にはStake foodの画像が表示されます。
+   1. 「**プレビュー**」をクリックします。また、Google シートを開き、値を更新します。
+   1. **Restaurant1** 列と **Restaurant2** 列の値を更新します。**Restaurant1** の値が **Restaurant2** の値より大きい場合は、スクリーンに&#x200B;*ステーキ料理*&#x200B;の画像が表示され、それ以外の場合は、*タイ料理*&#x200B;の画像が表示されます。
    ![result5](assets/result5.gif)
 

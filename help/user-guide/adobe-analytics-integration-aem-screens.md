@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3621082c7880e61f659d3bca956159d22d7df6de
 
 ---
@@ -91,20 +91,20 @@ Adobe Analytics を AEM Screens 用に設定するためのプロパティとそ
   </tr>
   <tr>
    <td><strong>Analytics URL</strong></td>
-   <td>プレーヤーから得られる分析データを投稿するための URL. <br>
+   <td>プレーヤーから得られる分析データを投稿するための URL。<br>
    開発／ステージング環境の場合</em> - https://cc-api-data-stage.adobe.io/ingest/<br /><em>プロダクション環境の場合</em> - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
   </tr>
   <tr>
    <td><strong>Analytics API キー</strong></td>
-   <td>Adobe Analyticsサーバーに対する認証用のAPIキー（アカウントマネージャーが提供）。</td>
+   <td>Adobe Analytics サーバーに対して認証をおこなうための API キー（アカウントマネージャーから提供される）。</td>
   </tr>
   <tr>
    <td><strong>Analytics プロジェクト</strong></td>
-   <td>データを受け取るようにAnalytics上で設定されたAEM Screensプロジェクト（アカウントマネージャーが提供）。</td>
+   <td>データを受け取るように Analytics 上で設定された AEM Screens プロジェクト（アカウントマネージャーから提供される）。</td>
   </tr>
   <tr>
    <td><strong>環境</strong></td>
-   <td><p>ステージ環境または実稼働環境（「ステージ」または「実稼働」を選択）</p></td>
+   <td><p>ステージング環境または実稼動環境（「ステージング」か「実稼動」のいずれかを選択）。</p></td>
   </tr>
   <tr>
    <td><strong>分析送信頻度</strong></td>
@@ -115,7 +115,7 @@ Adobe Analytics を AEM Screens 用に設定するためのプロパティとそ
 
 >[!NOTE]
 >
->By default, the **Analytics Send Frequency** is 15 minutes.
+>デフォルトでは、**分析送信頻度**&#x200B;は 15 分です。
 
 #### AEM Screens での Adobe Analytics サービスの使用 {#using-adobe-analytics-service-in-aem-screens}
 

@@ -1,8 +1,8 @@
 ---
-title: トラブルシューティングデバイスコントロールセンター
+title: デバイスコントロールセンターからのトラブルシューティング
 seo-title: Screens の監視
-description: このページに従って、デバイスダッシュボードを使用して、画面プレイヤーのアクティビティとデバイスのパフォーマンスを監視し、トラブルシューティングします。
-seo-description: このページに従って、デバイスダッシュボードを使用して、画面プレイヤーのアクティビティとデバイスのパフォーマンスを監視し、トラブルシューティングします。
+description: デバイスダッシュボードを使用して Screens Player のアクティビティやデバイスのパフォーマンスを監視およびトラブルシューティングするには、このページに従ってください。
+seo-description: デバイスダッシュボードを使用して Screens Player のアクティビティやデバイスのパフォーマンスを監視およびトラブルシューティングするには、このページに従ってください。
 uuid: b6895d5d-c743-4e10-a166-de573e122335
 contentOwner: Jyotika Syal
 content-type: reference
@@ -10,35 +10,35 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
 
-# トラブルシューティングデバイスコントロールセンター {#troubleshooting-device-control-center}
+# デバイスコントロールセンターからのトラブルシューティング {#troubleshooting-device-control-center}
 
-デバイスダッシュボードを使用して、画面プレイヤーのアクティビティとデバイスのパフォーマンスを監視し、トラブルシューティングできます。 このページでは、Screens Player や割り当てられているデバイスを監視し、確認されたパフォーマンスの問題をトラブルシューティングする方法について説明します。
+デバイスダッシュボードを使用すると、Screens Player のアクティビティやデバイスのパフォーマンスを監視およびトラブルシューティングできます。このページでは、Screens Player や割り当てられているデバイスを監視し、確認されたパフォーマンスの問題をトラブルシューティングする方法について説明します。
 
-## デバイスコントロールセンターからの監視およびトラブルシューティング {#monitor-and-troubleshoot-from-device-control-center}
+## デバイスコントロールセンターからの監視およびトラブルシューティング{#monitor-and-troubleshoot-from-device-control-center}
 
-デバイスダッシュボードを使用して、アクティビティを監視し、画面プレイヤーのトラブルシューティングを行うことができます。
+デバイスダッシュボードを使用すると、アクティビティを監視し、Screens Player をトラブルシューティングできます。
 
 ### デバイスダッシュボード {#device-dashboard}
 
 デバイスダッシュボードに移動するには、次の手順を実行します。
 
-1. Navigate to the device dashboard from your project, for example, ***Test Project*** --&gt; ***Devices***.
+1. プロジェクトからデバイスダッシュボードに移動します（例：***Test Project ***／***デバイス***）。
 
-   Select **Devices** and **Device Manager** from the action bar.
+   アクションバーから「**デバイス**」および「**デバイスマネージャー**」を選択します。
 
    ![screen_shot_2019-09-03at13823pm](assets/screen_shot_2019-09-03at13823pm.png)
 
-1. 次の図に示すように、割り当て済みおよび割り当てられていないデバイスがリストに表示されます。
+1. 割り当て済みデバイスと未割り当てデバイスがリストに表示されます（下図を参照）。
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. デバイス(NewTestDevice **)を選択し、アクションバ**&#x200B;ーで **** 「ダッシュボード」をクリックします。
+1. デバイス（**NewTestDevice**）を選択し、アクションバーの「**ダッシュボード**」をクリックします。
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
@@ -52,7 +52,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ![chlimage_1](assets/chlimage_1.png)
 
-Additionally, click **Collect Logs** from the top right hand corner of the **Activity** panel to view the logs for your player.
+さらに、**アクティビティ**&#x200B;パネルの右上隅にある「**ログを収集**」をクリックすると、プレーヤーのログが表示されます。
 
 ### デバイス詳細の更新 {#update-device-details}
 
@@ -62,17 +62,17 @@ Additionally, click **Collect Logs** from the top right hand corner of the **Act
 
 さらに、このパネルでは、「**キャッシュをクリア**」および「**更新**」をクリックして、デバイスのキャッシュをクリアしたり、[ファームウェア](screens-glossary.md)バージョンを更新したりすることもできます。
 
-また、**デバイスの詳細**&#x200B;パネルの右上隅にある **...** をクリックして、プレーヤーを再起動したり、ステータスを更新したりすることもできます。
+また、**デバイスの詳細**&#x200B;パネルの右上隅にある「**...**」をクリックして、プレーヤーを再起動したり、ステータスを更新したりすることもできます。
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
 ### デバイス情報の更新 {#update-device-information}
 
-「 **DEVICE INFORMATION** 」パネルをチェックして、構成の更新、デバイスモデル、デバイスOS、シェル情報を表示します。
+**デバイス情報**&#x200B;パネルで、設定の更新、デバイスモデル、デバイス OS、シェル情報などを確認します。
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
-Additionally, click the (**...**) from the top right corner of the Device Information panel to view properties or update the device.
+さらに、デバイス情報パネルの右上隅にある「**...**」をクリックして、プロパティを表示したり、デバイスを更新したりすることもできます。
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
@@ -80,21 +80,21 @@ Additionally, click the (**...**) from the top right corner of the Device Inform
 
 >[!NOTE]
 >
->To learn more about the events associated with device's automatic or manual updates, see the section ***Automatic versus Manual Updates from the Device Dashboard*** in [Managing Channels](managing-channels.md).
+>デバイスの自動更新または手動更新に関連するイベントについて詳しくは、***チャネルの管理&#x200B;***の[自動アップデートとデバイスダッシュボードからの手動アップデート](managing-channels.md)の節を参照してください。
 
 ![screen_shot_2019-09-05at14112pm](assets/screen_shot_2019-09-05at14112pm.png)
 
 ### プレーヤーのスクリーンショットの表示 {#view-player-screenshot}
 
-**プレイヤーのスクリーンショット**&#x200B;パネルを使用すると、デバイスからプレーヤーのスクリーンショットを表示できます。
+**プレーヤーのスクリーンショット**&#x200B;パネルを使用すると、デバイスからプレーヤーのスクリーンショットを表示できます。
 
-Click (**...**) on the top right corner of the Player Screenshot panel and select **Refresh Screenshot** to view the snapshot of the running player.
+プレーヤーのスクリーンショットパネルの右上隅にある「**...**」をクリックし、「**スクリーンショットを更新**」を選択すると、実行中のプレーヤーのスナップショットが表示されます。
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
 ### 環境設定の管理 {#manage-preferences}
 
-The **PREFERENCES** panel allows the user to change preferences for **Admin UI**, **Channel Switcher**, and **Remote Debugging** for the device.
+**環境設定**&#x200B;パネルでは、デバイスの&#x200B;**管理 UI**、**チャネルスイッチャー**、**リモートデバッグ**&#x200B;の環境設定を変更できます。
 
 >[!NOTE]
 >
@@ -102,22 +102,22 @@ The **PREFERENCES** panel allows the user to change preferences for **Admin UI**
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
 
-また、右上隅の **「設定** 」をクリックして、デバイスの環境設定を更新します。 次の環境設定を更新できます。
+また、右上隅の「**設定**」をクリックして、デバイスの環境設定を更新できます。更新できる環境設定は次のとおりです。
 
 * **サーバー URL**
-* **解決方法**
+* **解像度**
 * **スケジュールを再起動**
-* **最大番号 ログファイルの**
+* **保持するログファイルの最大数**
 * **ログレベル**
 
 ![screen_shot_2019-09-05at14511pm](assets/screen_shot_2019-09-05at14511pm.png)
 
 >[!NOTE]
 >
->次のいずれかのログレベルを選択できます。
+>選択できるログレベルは次のいずれかです。
 >
->* **Disable（無効）**
->* **[Debug]**
+>* **無効**
+>* **デバッグ**
 >* **情報**
 >* **警告**
 >* **エラー**
@@ -129,14 +129,14 @@ The **PREFERENCES** panel allows the user to change preferences for **Admin UI**
 
 ## OSGI 設定のトラブルシューティング {#troubleshoot-osgi-settings}
 
-デバイスからサーバーへのデータの送信を許可するには、空のリファラーを有効にする必要があります。例えば、空のリファラーのプロパティが無効になっていると、デバイスからスクリーンショットを返送できません。
+デバイスからサーバーへのデータの投稿を許可するには、空のリファラーを有効にする必要があります。例えば、空のリファラーのプロパティが無効になっていると、デバイスからスクリーンショットを投稿できません。
 
-現在、これらの機能の一部は、OSGI 設定で *Apache Sling リファラーフィルターの Allow Empty 設定*&#x200B;が有効になっている場合にのみ使用できます。ダッシュボードには、セキュリティ設定がこれらの機能の一部の動作を妨げる可能性があることを示す警告が表示される場合があります。
+現在、これらの機能の一部は、OSGI 設定で *Apache Sling Referrer Filter の Allow Empty 設定*&#x200B;が有効になっている場合にのみ使用できます。ダッシュボードには、セキュリティ設定がこれらの機能の一部の動作を妨げる可能性があることを示す警告が表示される場合があります。
 
-Apache Sling リファラーフィルターの Allow Empty 設定を有効にするには、次の手順を実行します。
+Apache Sling Referrer Filter の Allow Empty 設定を有効にするには、次の手順を実行します。
 
-1. Navigate to **Adobe Experience Manager Web Console Configuration**, that is, `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-1. Check the **allow.empty** option.
+1. **Adobe Experience Manager Web Console Configuration**（`https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`）に移動します。
+1. 「**allow.empty**」オプションをオンにします。
 1. 「**保存**」をクリックします。
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
@@ -147,10 +147,10 @@ Apache Sling リファラーフィルターの Allow Empty 設定を有効にす
 
 AEM の組み込みの監視では、次の点がチェックされます。
 
-* 5 秒間隔のハートビート&#x200B;**。これは、AEM Screens Player が動作中であることを示します。
-* プレーヤーのスクリーンショット&#x200B;**。これは、プレーヤーに現在何が表示されているかを示します。
-* AEM Screens Player ファームウェア&#x200B;**&#x200B;バージョンがプレーヤーにインストールされていること。
-* プレーヤー上に空きストレージ領域&#x200B;**&#x200B;が存在すること。
+* 5 秒間隔の&#x200B;*ハートビート*。これは、AEM Screens Player が動作中であることを示します。
+* プレーヤーの&#x200B;*スクリーンショット*。これは、プレーヤーに現在何が表示されているかを示します。
+* AEM Screens Player *ファームウェア*&#x200B;バージョンがプレーヤーにインストールされていること。
+* プレーヤー上に&#x200B;*空きストレージ領域*&#x200B;が存在すること。
 
 サードパーティソフトウェアを使用してリモート監視をおこなう場合は、次の点をチェックすることが推奨されています。
 
@@ -163,4 +163,4 @@ AEM の組み込みの監視では、次の点がチェックされます。
 
 #### その他のリソース {#additional-resources}
 
-チャネルで再生 [するビデオのデバッグとトラブルシューティングを行うには](troubleshoot-videos.md) 、ビデオ再生の設定およびトラブルシューティングを参照してください。
+チャネルで再生するビデオのデバッグとトラブルシューティングについては、[ビデオ再生の設定およびトラブルシューティング](troubleshoot-videos.md)を参照してください。

@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cec2a2f8b056bf713e56a9fab08d88e29263820b
 
 ---
@@ -20,17 +20,17 @@ source-git-commit: cec2a2f8b056bf713e56a9fab08d88e29263820b
 
 コンポーネントは、AEM（Adobe Experience Manager）エクスペリエンスの基本的要素です。多数のコンポーネントを使用でき、AEM Screens プロジェクトのチャネルに追加できます。
 
-## AEM Screens のコンポーネント {#components-in-aem-screens}
+## AEM Screens のコンポーネント{#components-in-aem-screens}
 
 AEM Screens には、スクリーンプロジェクトで使用できる様々な AEM コンポーネントが用意されています。
 
-### AEM Screens コンポーネントの表示 {#viewing-aem-screens-components}
+### AEM Screens コンポーネントの表示{#viewing-aem-screens-components}
 
 AEM Screens プロジェクトを作成する場合はいつでも、プロジェクトに追加できるデフォルトコンポーネントのリストが表示されます。
 
-スクリーンプロジェクトのデフォルトコンポーネントを表示するには、次の手順に従います。
+Screens プロジェクトのデフォルトコンポーネントを表示するには、次の手順に従います。
 
-1. チャネルを選択します（例：**We.Retail In-Store**／**Channels**／**Idle Channel**）。
+1. チャネルを選択します。（例：**We.Retail In-Store**／**Channels**／**Idle Channel**）。
 
 1. アクションバーから「**編集**」をクリックして、AEM エディターを開きます。
 1. サイドバーから **+** アイコンをクリックして、コンポーネントを開きます。
@@ -40,16 +40,16 @@ AEM Screens プロジェクトを作成する場合はいつでも、プロジ�
 
 ### 新しいコンポーネントの追加 {#adding-a-new-component}
 
-AEM には、他のコンポーネントが多数用意されています。AEM Screens と互換性のある（デフォルトで含まれていない）他のコンポーネントをプロジェクトに常に追加できます。
+AEM には、他のコンポーネントが多数用意されています。AEM Screens と互換性のある（デフォルトで含まれていない）他のコンポーネントをプロジェクトにいつでも追加できます。
 
 次に、AEM Screens プロジェクトへの Livefyre コンポーネントの追加例を示します。
 
 1. 新しいコンポーネントを追加するチャネルを選択します（例：**We.Retail In-Store**／**Channels**／**Idle Channel**）。
 
-1. アクションバーから「**編集**」をクリックして、エディターを開きます。
-1. Select **Design** mode.
+1. アクションバーの「**編集**」をクリックして、エディターを開きます。
+1. **デザイン**&#x200B;モードを選択します。
 1. 右側のデザインエディター全体を選択して、設定シンボルをクリックし、**ParSys Design** ダイアログボックスを開きます。
-1. AEM Screens プロジェクトに読み込むコンポーネントを選択できます。次の例は、AEM Screensプロジェクトに **Livefyre** コンポーネントを追加した例です。
+1. AEM Screens プロジェクトに読み込むコンポーネントを選択できます。次に、AEM Screens プロジェクトへの **Livefyre** コンポーネントの追加例を示します。
 
 ![adding_components](assets/adding_components.gif)
 
@@ -57,9 +57,9 @@ AEM には、他のコンポーネントが多数用意されています。AEM 
 >
 >同様に、AEM Screens と互換性のある他の新しいコンポーネントをプロジェクトに好きなだけ追加できます。
 
-## AEM Screen コンポーネントについて {#understanding-aem-screen-components}
+## AEM Screen コンポーネントについて{#understanding-aem-screen-components}
 
-次の節では、プロジェクトで使用できるAEM Screensコンポーネントについて説明します。
+ここでは、プロジェクトで使用できる AEM Screens コンポーネントについて説明します。
 
 >[!NOTE]
 >
@@ -73,8 +73,8 @@ AEM には、他のコンポーネントが多数用意されています。AEM 
 
 | **プロパティ** | **説明** |
 |---|---|
-| ***アプリケーションパス*** | アプリケーションが存在する絶対パスを選択します。 |
-| ***デュレーション (ms)*** | アプリケーションのデュレーションを選択します。デフォルトでは、期間は —1に設定されています。つまり、要素は永久に実行されます（つまり、単一ページアプリ）。 デュレーションの値を 0 より大きい値に設定すると、指定されたデュレーションの間要素が表示されてから次のアプリケーションに移動します。 |
+| ***アプリケーションパス&#x200B;*** | アプリケーションが存在する絶対パスを選択します。 |
+| ***デュレーション (ms)*** | アプリケーションのデュレーションを選択します。デフォルトでは、デュレーションは -1 に設定されています。これは、要素が無期限に実行される（つまり、シングルページアプリケーションである）ことを意味します。デュレーションの値を 0 より大きい値に設定すると、指定されたデュレーションの間要素が表示されてから次のアプリケーションに移動します。 |
 
 次に、アプリケーションコンポーネントを埋め込んでプロパティをプレビューする方法の例を示します。
 
@@ -102,7 +102,7 @@ AEM には、他のコンポーネントが多数用意されています。AEM 
   </tr>
   <tr>
    <td><strong><em>デュレーション (ms)</em></strong></td>
-   <td>チャネルのデュレーション全体を選択します。時間を —1に設定した場合、埋め込まれたチャネルは特定のチャネルでその長さだけ実行されます。</td>
+   <td>チャネルのデュレーション全体を選択します。デュレーションを -1 に設定すると、埋め込まれたチャネルが特定のチャネルでノーカットで実行されます。</td>
   </tr>
  </tbody>
 </table>
@@ -125,7 +125,7 @@ AEM には、他のコンポーネントが多数用意されています。AEM 
   </tr>
   <tr>
    <td><strong><em>デュレーション (ms)</em></strong></td>
-   <td>チャネルのデュレーション全体を選択します。時間を —1に設定した場合、埋め込まれたチャネルは特定のチャネルでその長さだけ実行されます。</td>
+   <td>チャネルのデュレーション全体を選択します。デュレーションを -1 に設定すると、埋め込まれたチャネルが特定のチャネルでノーカットで実行されます。</td>
   </tr>
  </tbody>
 </table>
@@ -134,7 +134,7 @@ AEM には、他のコンポーネントが多数用意されています。AEM 
 
 >[!NOTE]
 >
->Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens section, to learn in detail about embedded sequences.
+>埋め込みシーケンスについて詳しくは、Screens のオーサリングの節の[埋め込みシーケンス](embedded-sequences.md)を参照してください。
 
 埋め込みシーケンスを使用すると、既存のチャネル（他のアセットを含む）内に埋め込みシーケンスチャネルを追加できます。
 
@@ -152,11 +152,11 @@ AEM には、他のコンポーネントが多数用意されています。AEM 
   </tr>
   <tr>
    <td><strong><em>デュレーション (ms)</em></strong></td>
-   <td>チャネルのデュレーション全体を選択します。時間を —1に設定した場合、埋め込まれたチャネルは特定のチャネルでその長さだけ実行されます。</td>
+   <td>チャネルのデュレーション全体を選択します。デュレーションを -1 に設定すると、埋め込まれたチャネルが特定のチャネルでノーカットで実行されます。</td>
   </tr>
   <tr>
    <td><strong><em>方法</em></strong></td>
-   <td>Set it to <strong>original</strong> or <strong>single</strong>. Setting the value to <strong>original</strong> means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is <strong>single</strong> and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)</td>
+   <td><strong>origina</strong> または <strong>single</strong> に設定します。値を <strong>original</strong> に設定すると、親シーケンスの各サイクルで後続が完全に実行されます。他の指定可能な値は <strong>single</strong> です。この場合は、各実行で後続の 1 つのアイテムのみ表示されます（例えば、最初のループで最初のアイテム、2 回目のループで 2 番目のアイテムというように）。</td>
   </tr>
  </tbody>
 </table>
@@ -165,7 +165,7 @@ AEM には、他のコンポーネントが多数用意されています。AEM 
 
 動的埋め込みシーケンスを使用すると、チャネルロールによることを除いて、前述の方法と同じようにシーケンスを追加できます。
 
-Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens section, to learn in detail about embedded sequences.
+埋め込みシーケンスについて詳しくは、Screens のオーサリングの節の[埋め込みシーケンス](embedded-sequences.md)を参照してください。
 
 動的埋め込みシーケンスには、次のプロパティがあります。
 
@@ -181,35 +181,35 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
   </tr>
   <tr>
    <td><strong><em>デュレーション (ms)</em></strong></td>
-   <td>チャネルのデュレーション全体を選択します。時間を —1に設定した場合、埋め込まれたチャネルは特定のチャネルでその長さだけ実行されます。</td>
+   <td>チャネルのデュレーション全体を選択します。デュレーションを -1 に設定すると、埋め込まれたチャネルが特定のチャネルでノーカットで実行されます。</td>
   </tr>
   <tr>
    <td><strong><em>方法</em></strong></td>
-   <td>Set it to <strong>original</strong> or <strong>single</strong>. Setting the value to <strong>original</strong> means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is <strong>single</strong> and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)</td>
+   <td><strong>origina</strong> または <strong>single</strong> に設定します。値を <strong>original</strong> に設定すると、親シーケンスの各サイクルで後続が完全に実行されます。他の指定可能な値は <strong>single</strong> です。この場合は、各実行で後続の 1 つのアイテムのみ表示されます（例えば、最初のループで最初のアイテム、2 回目のループで 2 番目のアイテムというように）。</td>
   </tr>
  </tbody>
 </table>
 
 ### エクスペリエンスフラグメント {#experience-fragment}
 
-エクスペリエンスフラグメントを使用すると、エクスペリエンスフラグメント（ページ内で参照できるコンテンツやレイアウトを含む1つ以上のコンポーネントのグループ）をAEM Screensチャネルに追加できます。 コンポーネントをAEMエディターにドラッグ&amp;ドロップし、エクスペリエンスフラグメントを選択します。
+エクスペリエンスフラグメントを使用すると、エクスペリエンスフラグメント（ページ内で参照できるコンテンツやレイアウトを含んだ 1 つ以上のコンポーネントのグループ）を AEM Screens チャネルに追加できます。エクスペリエンスフラグメントコンポーネントを AEM エディターにドラッグ＆ドロップし、エクスペリエンスフラグメントを選択します。
 
-エクスペリエンスフラグメントを作成し、それをAEM Screensプロジェクトに活用する方法について詳しくは、「エクスペリエンスフラグメントの使用」を [参照してくださ](experience-fragments-in-screens.md)い。
+エクスペリエンスフラグメントを作成して AEM Screens プロジェクトに活用する方法について詳しくは、[エクスペリエンスフラグメントの使用](experience-fragments-in-screens.md)を参照してください。
 
 ![exp](assets/exp.gif)
 
 | **プロパティ** | **説明** |
 |---|---|
 | **エクスペリエンスフラグメント** |
-| ***エクスペリエンスフラグメント*** | エクスペリエンスフラグメントを選択します。 |
-| ***期間*** | チャネルで再生するエクスペリエンスフラグメントの継続時間全体を選択します。 |
+| ***エクスペリエンスフラグメント&#x200B;*** | エクスペリエンスフラグメントを選択します。 |
+| ***デュレーション (ms)*** | チャネルで再生されるエクスペリエンスフラグメントのデュレーション全体を選択します。 |
 | **オフライン設定** |
-| ***クライアント側ライブラリ*** | JavaScriptファイルとCSSファイル。 |
-| ***静的ファイル*** | オフライン設定としてエクスペリエンスフラグメントに追加できる静的ファイル。 |
+| ***クライアント側ライブラリ&#x200B;*** | JavaScript ファイルと CSS ファイル。 |
+| ***静的ファイル&#x200B;*** | オフライン設定としてエクスペリエンスフラグメントに追加できる静的ファイル。 |
 
 >[!NOTE]
 >
->このコ **ンポーネントから追加する** Static FilesとStatic Filesは **、設定済みの** Client-side Libraries **とExperience Fragment****** Propertiesクライアントから追加したStatic Filesに追加されます。
+>このコンポーネントから追加する&#x200B;**クライアント側ライブラリ**&#x200B;と&#x200B;**静的ファイル**&#x200B;は、設定済みの&#x200B;**クライアント側ライブラリ**&#x200B;と、エクスペリエンスフラグメントの&#x200B;**プロパティ**&#x200B;から追加されている静的ファイルにそれぞれ追加されます。
 
 ### 画像 {#image}
 
@@ -220,37 +220,37 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
 | **プロパティ** | **説明** |
 |---|---|
 | **画像** |
-| ***イメージアセット*** | イメージアセットを選択します。 |
-| ***タイトル*** | 画像のタイトル。 |
-| ***リンク先*** | 画像にリンクを追加します。 |
-| ***説明*** | 画像の概要。 |
-| ***サイズ*** | 画像のサイズ。 |
+| ***イメージアセット&#x200B;*** | イメージアセットを選択します。 |
+| ***タイトル&#x200B;*** | 画像のタイトル。 |
+| ***リンク先&#x200B;*** | 画像にリンクを追加します。 |
+| ***説明&#x200B;*** | 画像の概要。 |
+| ***サイズ&#x200B;*** | 画像のサイズ。 |
 | **アクセシビリティ** |
-| ***代替テキスト*** | 画像の代替テキスト。 |
+| ***代替テキスト&#x200B;*** | 画像の代替テキスト。 |
 | **シーケンス** |
-| ***期間*** | デフォルトでは、期間は *8000 msに設定されます*。 画像の再生時間を変更する場合は、「時間」フィールドを更新 **します** 。 |
+| ***デュレーション (ms)*** | デフォルトでは、デュレーションは *8000 ms* に設定されています。画像の再生時間を変更する場合は、「**デュレーション (ms)**」フィールドを更新します。 |
 
-### 切り替え {#transition}
+### トランジション {#transition}
 
-切り替えコンポーネントを使用すると、スクリーンプロジェクトに切り替えを追加できます。
+トランジションコンポーネントを使用すると、Screens プロジェクトにトランジションを追加できます。
 
-次の画像は、エディターに（ドラッグ&amp;ドロップによって追加された）トランジションコンポーネントを示しています。
+次の画像は、（ドラッグ＆ドロップで）エディターに追加されたトランジションコンポーネントを示しています。
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-トランジションアイコンを選択し、設定 **（レンチアイコン）をクリックして、トランジションダイアログ** ボックスを開きます **** 。 このダイアログボックスには3つのタブが含まれます。
+トランジションアイコンを選択し、「**設定**」（レンチアイコン）をクリックして、**トランジション**&#x200B;ダイアログボックスを開きます。このダイアログボックスには次の 3 つのタブが含まれています。
 
-* **切り替え**
+* **トランジション**
 * **シーケンス**
-* **Activation**
+* **アクティベーション**
 
 >[!NOTE]
 >
->デフォルトでは、シーケンスは600 msに設定されています。 「シーケンス」タブを使用して、トランジションシーケンスを別の値に更新 **できます** 。
+>デフォルトでは、シーケンスは 600 ms に設定されています。「**シーケンス**」タブを使用して、トランジションシーケンスを別の値に更新できます。
 
-![遷移](assets/transition.gif)
+![トランジション](assets/transition.gif)
 
-切り替えコンポーネントには、次のプロパティがあります。
+トランジションコンポーネントには、次のプロパティがあります。
 
 <table>
  <tbody>
@@ -259,12 +259,12 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
    <td><strong>説明</strong></td>
   </tr>
   <tr>
-   <td><strong>切り替え</strong></td>
+   <td><strong>トランジション</strong></td>
    <td></td>
   </tr>
   <tr>
-   <td><strong><em>種類</em></strong></td>
-   <td><p>前の要素と後の要素の間の切り替えのタイプ。トランジション <strong>タイプ</strong> には、次のオプションが含まれます。</p>
+   <td><strong><em>タイプ</em></strong></td>
+   <td><p>前の要素と後の要素の間のトランジションのタイプ。トランジションの<strong>タイプ</strong>には、次の選択肢があります。</p>
     <ul>
      <li><strong>標準</strong></li>
      <li><strong>フェード</strong></li>
@@ -279,20 +279,20 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
    <td></td>
   </tr>
   <tr>
-   <td><strong><em>期間</em></strong></td>
-   <td>切り替えのデュレーション全体を選択します。デフォルトでは、600 msに設定されています。</td>
+   <td><strong><em>デュレーション (ms)</em></strong></td>
+   <td>トランジションのデュレーション全体を選択します。デフォルトでは 600 ms に設定されています。</td>
   </tr>
   <tr>
-   <td><strong>Activation</strong></td>
+   <td><strong>アクティベーション</strong></td>
    <td></td>
   </tr>
   <tr>
-   <td><strong><em>アクティブ：開始</em></strong></td>
-   <td>移行がアクティブになるタイミングを示すタイムスタンプ。<br /> </td>
+   <td><strong><em>次の日から有効</em></strong></td>
+   <td>トランジションがアクティブになる時点を示すタイムスタンプ。<br /> </td>
   </tr>
   <tr>
-   <td><strong><em>アクティブ期間</em></strong></td>
-   <td>移行がアクティブになるまでを示すタイムスタンプ。</td>
+   <td><strong><em>次の日まで有効</em></strong></td>
+   <td>トランジションのアクティブ状態が終了する時点を示すタイムスタンプ。</td>
   </tr>
   <tr>
    <td><strong><em>スケジュール</em></strong></td>
@@ -303,7 +303,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
 
 ### ビデオ {#video}
 
-ビデオコンポーネントを使用すると、スクリーンプロジェクトにビデオを追加できます。
+ビデオコンポーネントを使用すると、Screens プロジェクトにビデオを追加できます。
 
 ビデオコンポーネントには、次のプロパティがあります。
 
@@ -318,8 +318,8 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
    <td>ビデオへのリンクを選択します。</td>
   </tr>
   <tr>
-   <td><em><strong>期間</strong></em></td>
-   <td>ビデオのデュレーションを選択します。デフォルトでは、継続時間は —1に設定され、要素は永久に実行されます。 デュレーションの値を 0 より大きい値に設定すると、指定されたデュレーションの間要素が表示されてから次のアプリケーションに移動します。<br /> </td>
+   <td><em><strong>デュレーション (ms)</strong></em></td>
+   <td>ビデオのデュレーションを選択します。デフォルトでは、デュレーションは -1 に設定されています。これは、要素が無期限に実行されることを意味します。デュレーションの値を 0 より大きい値に設定すると、指定されたデュレーションの間要素が表示されてから次のアプリケーションに移動します。<br /> </td>
   </tr>
   <tr>
    <td><em><strong>レンダリング</strong></em></td>

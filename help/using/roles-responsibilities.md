@@ -3,7 +3,7 @@ title: AEM Screens プロジェクト上の役割と責務
 seo-title: AEM Screens プロジェクト上の役割と責務
 description: ここでは、AEM Screens プロジェクト上の役割と責務について説明します
 seo-description: ここでは、AEM Screens プロジェクト上の役割と責務について説明します
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 50d36d89b8dcc746a043e5e72ffc0148d99854ad
 
 ---
@@ -80,7 +80,7 @@ AV インテグレーターは、デジタルサイネージハードウェア�
 
 >[!NOTE]
 >
-> デジタルサイネージプロジェクト上の様々な役割と責務およびターゲットオーディエンスについて詳しくは、「**[プロジェクト上の役割と責務](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**」を参照してください。
+> デジタルサイネージプロジェクト上の様々な役割と責務およびターゲットオーディエンスについて詳しくは、**[プロジェクト上の役割と責務](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**&#x200B;を参照してください。
 
 
 ## プロジェクトの段階 {#project-stages}
@@ -95,7 +95,7 @@ AV インテグレーターは、デジタルサイネージハードウェア�
 
 >[!NOTE]
 >
-> このガイドでは主に&#x200B;*「Day 1」*&#x200B;と&#x200B;*「Day 2」*&#x200B;に重点を置いていますが、デジタルサイネージプロジェクトを成功に導くには、これら 3 つの段階すべてに注意を払う必要があります。プロジェクトのプリプロダクション、プロジェクトの開始、プロジェクトの進行については、**[プロジェクトの管理と導入](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)**に関する追加のビデオを参照してください。
+> このガイドでは主に&#x200B;*「Day 1」*&#x200B;と&#x200B;*「Day 2」*&#x200B;に重点を置いていますが、デジタルサイネージプロジェクトを成功に導くには、これら 3 つの段階すべてに注意を払う必要があります。プロジェクトのプリプロダクション、プロジェクトの開始、プロジェクトの進行については、**[プロジェクトの管理と導入](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/project-management-and-deployment.html)**&#x200B;に関する追加のビデオを参照してください。
 
 ## RACI チャート {#raci-chart}
 
@@ -146,7 +146,7 @@ AV インテグレーターは、デジタルサイネージハードウェア�
 | テストと導入 | RA | C | RA | I |
 | サーバー設定 | I | RA | I | I |
 | コンテンツ更新計画 | I | RA | C | C |
-| パイロットから実稼働への移行計画 | RA | RA | I | I |
+| パイロットから実稼動への移行計画 | RA | RA | I | I |
 | 知識移転 | RA | RA | I | I |
 
 **Day 1：プロジェクトの実装（小売準備）**&#x200B;の概要を次の表に示します。
@@ -165,7 +165,7 @@ AV インテグレーターは、デジタルサイネージハードウェア�
 |---|---|---|---|---|
 | 役割と責務に関する合意 | RA | RA | RA | RA |
 | 小売設計には配線作業が含まれる | - | - | - | - |
-| プレイヤーハードウェアの選択 | RAC | - | - | - |
+| プレーヤーハードウェアの選択 | RAC | - | - | - |
 | マスターデバイス管理 | RA | I | - | - |
 | デバイスの発注、保管、設定 | RA | CI | I | - |
 | サポートプロセスの定義 | RA | I | RA | C |

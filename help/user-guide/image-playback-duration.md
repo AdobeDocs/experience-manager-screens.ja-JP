@@ -1,10 +1,10 @@
 ---
 title: 画像再生時間
 seo-title: 画像再生時間
-description: このページに従って、画像の再生時間を確認します。
-seo-description: このページに従って、画像の再生時間を確認します。
+description: このページでは、画像再生時間について説明します。
+seo-description: このページでは、画像再生時間について説明します。
 contentOwner: jsyal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69a40e437fa9b19e283bcf1a1322d18e17990a49
 
 ---
@@ -58,13 +58,13 @@ source-git-commit: 69a40e437fa9b19e283bcf1a1322d18e17990a49
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   「**デュレーション (ms)**」を「8000 (ms)」から「3000 (ms)」（3 秒）へと編集します。**ページ**&#x200B;ダイアログボックスの右上にあるチェックマークをクリックして、変更を保存します。
+   「**デュレーション (ms)**」を「8000」から「3000」（3 秒）へと編集します。**ページ**&#x200B;ダイアログボックスの右上にあるチェックマークをクリックして、変更を保存します。
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
 ### 結果の表示 {#viewing-the-result}
 
-チャンネルの再生時間（この例では 3 つの画像すべての再生時間）を更新すると、画像が 8 秒間（デフォルト値）ではなく 3 秒間再生されるようになります。
+チャネルの再生時間（この例では 3 つの画像すべての再生時間）を更新すると、画像が 8 秒間（デフォルト値）ではなく 3 秒間再生されるようになります。
 
 ![channel_preview](assets/channel_preview.gif)
 

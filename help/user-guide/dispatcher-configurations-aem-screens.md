@@ -10,8 +10,8 @@ content-type: reference
 topic-tags: administering
 discoiquuid: 1b1a36a4-4f95-41e3-b0a8-74249efb0119
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 9bee12b69ae85e84572b6f9e8c70f792895d9a32
 
 ---
 
@@ -22,11 +22,15 @@ Dispatcher は、Adobe Experience Manager のキャッシュやロードバラ�
 
 ここでは、AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインを示します。
 
+>[!NOTE]
+>ディスパッチャーが使用可能な場合は、ディスパッチャールールでフィルタリングすることで、登録サーブレットへの接続を防ぐことができます。
+>ディスパッチャーがない場合は、OSGiコンポーネントリストで登録サーブレットを無効にします。
+
 ## 前提条件 {#pre-requisites}
 
 AEM Screens プロジェクトの Dispatcher を設定する前に、Dispatcher に関する事前の知識が必要です。
 
-詳しくは、[Dispatcher の設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)を参照してください。
+詳しくは、[Dispatcher の設定](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)を参照してください。
 
 ## Dispatcher の設定 {#configuring-dispatcher}
 
@@ -44,7 +48,7 @@ AEM Screens プロジェクトの Dispatcher を設定する前に、Dispatcher 
 
 ### 手順 2：Screens フィルターの設定 {#step-configuring-screens-filters}
 
-Screens フィルターを設定するには、以下の内容を ***/filter*** に追加します。
+Screens フィルターを設定するには、以下の内容を ***/filter ***に追加します。
 
 ```
 ## AEM Screens Filters
@@ -66,4 +70,4 @@ Screens フィルターを設定するには、以下の内容を ***/filter*** 
 
 ### 手順 3：Dispatcher キャッシュの無効化 {#step-disabling-dispatcher-cache}
 
-***/content/screens パス*** の Dispatcher キャッシュを無効にします。
+***/content/screens パス&#x200B;***の Dispatcher キャッシュを無効にします。

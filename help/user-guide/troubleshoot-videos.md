@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
-translation-type: ht
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+translation-type: tm+mt
+source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 以下の節では、チャネルで再生されるビデオをデバッグおよびトラブルシューティングする方法について説明します。
 
-## DAM レンディション{#dam-renditions}
+## DAM レンディション {#dam-renditions}
 
 ビデオをチャネルにアップロードすると、AEM によってそのビデオの一部のレンディションの作成が開始されます。ビデオは Assets で表示できます。
 
@@ -38,7 +38,7 @@ source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 >
 >レンディションがない場合は、AEM が動作している OS に ffmpeg がインストールされていることを確認してください。
 >
->ffmpeg をインストールするには、[ここ](https://evermeet.cx/ffmpeg/)をクリックしてください。
+>ffmpeg をインストールするには、[ここ](https://www.ffmpeg.org/download.html)をクリックしてください。
 
 ## ビデオアセット {#video-assets}
 
@@ -68,7 +68,7 @@ ffmpeg がインストールされていること、およびビデオプロフ�
    >
    >ビデオのトランスコードに十分な時間をかけてから（「処理しています」ではなく「新規」というタグが表示されます）、ビデオをチャネルに追加するようにしてください。
 
-### ビデオコンポーネントでのプロファイルの確認{#checking-profile-with-a-video-component}
+### ビデオコンポーネントでのプロファイルの確認 {#checking-profile-with-a-video-component}
 
 ビデオコンポーネントが正しく設定されない場合は、ページデザインからプロファイルのリストを確認します。
 
@@ -107,7 +107,7 @@ AEM Screens プレーヤーでビデオを取得してもビデオが表示さ�
 
 Google の自動再生ポリシーフラグに関する問題をトラブルシューティングするには、以下の手順に従います。
 
-1. ***chrome://flags/#autoplay-policy*** に移動します。
+1. ***chrome://flags/#autoplay-policy ***に移動します。
 1. 「**Autoplay policy**」を「**Default**」から「**No user gesture is required**」に変更します。
 
 1. Web ブラウザーを再起動し、プレーヤーを更新します。
@@ -149,7 +149,7 @@ Google の自動再生ポリシーフラグに関する問題をトラブルシ�
 **OS X でクロックを揃える**：OS X でクロックを揃えるには、以下の手順に従います。
 
 1. 各 OSX ボックスで、**日付と時刻**&#x200B;環境設定を開きます。
-1. 「日付と時刻を自動的に設定」をオンにします。
+1. Check **Set date and time automatically**
 1. ドロップダウンの値 0.pool.ntp.org、1.pool.ntp.org、2.pool.ntp.org、3.pool.ntp.org、time.apple.com を貼り付けるか、単に *sudo ntpdate -u -v 0.pool.ntp.org* を実行します。
 1. 2 台以上のプレーヤーを起動します。
 

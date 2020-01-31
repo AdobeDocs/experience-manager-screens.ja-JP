@@ -4,20 +4,22 @@ seo-title: コマンド同期の使用
 description: ここでは、コマンド同期の使用方法について説明します。
 seo-description: ここでは、コマンド同期の使用方法について説明します。
 translation-type: tm+mt
-source-git-commit: 1753009451e4bed75eb8241bcca887f7abe2f77b
+source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
 
 ---
 
 
 # コマンド同期 {#command-sync}
 
-以下では、コマンド同期の使用方法について説明します。コマンド同期を使用すると、異なるプレーヤー間で再生を同期させることができます。プレーヤーごとに異なるコンテンツを再生できますが、各アセットの再生時間は同じにする必要があります。
+以下では、コマンド同期の使用方法について説明します。コマンド同期を使用すると、異なるプレーヤー間で再生を同期できます。 プレーヤーは異なるコンテンツを再生できますが、各アセットの再生時間は同じにする必要があります。
 
 ## 概要 {#overview}
 
-デジタルサイネージソリューションでは、新年のカウントダウンや大きなビデオを分割して複数の画面で再生する場合などのシナリオをサポートするために、ビデオウォールと同期再生をサポートする必要があります。このような場合に、コンテンツ同期が役に立ちます。
+デジタル署名ソリューションは、新年のカウントダウンや大きなビデオのスライスによる複数の画面での再生などのシナリオをサポートするために、ビデオウォールと同期再生をサポートする必要があります。ここでコマンド同期が実行されます。
 
-To use Command Sync, one player acts as a *master* and send command and all the other players act as *clients* and play when they receive the command. *マスター*&#x200B;は、コンテンツ項目の再生を開始しようとするときに、登録済みのすべてのクライアントにコマンドを送信します。再生するコンテンツ項目のインデックスや再生する要素の外部 HTML が、このコマンドのペイロードになります。
+To use Command Sync, one player acts as a *master* and sends command and all the other players act as *clients* and play when they receive the command.
+
+*マスター*&#x200B;は、コンテンツ項目の再生を開始しようとするときに、登録済みのすべてのクライアントにコマンドを送信します。再生するコンテンツ項目のインデックスや再生する要素の外部 HTML が、このコマンドのペイロードになります。
 
 ## コマンド同期の実装 {#using-command-sync}
 
@@ -63,7 +65,7 @@ To use Command Sync, one player acts as a *master* and send command and all the 
 ### Setting up a Master {#setting-up-master}
 
 1. CommandSyncLoby **—>** Locations **—>** Loby **—>** Lobby **Lobby** DisplayDashboard Display Dashboard Demo **Demo** CommandSyncLocations —> Locations —> Lopations から表示ダッシュボードに移動します。
-次の図に示すように、 **DEVICES** （デバイス）パネルに2つのデバイス（ChromeとWeb Player）が表示されます。
+次の図に示すように、 **DEVICES** （デバイス）パネルに2つのデバイス（ChromeとWindows Player）が表示されます。
 
    ![image1](assets/command-sync7.png)
 

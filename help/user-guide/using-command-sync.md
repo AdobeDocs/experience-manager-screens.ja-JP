@@ -4,7 +4,7 @@ seo-title: コマンド同期の使用
 description: ここでは、コマンド同期の使用方法について説明します。
 seo-description: ここでは、コマンド同期の使用方法について説明します。
 translation-type: tm+mt
-source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
+source-git-commit: d1c2715f516f9089c346241280d8693118b49873
 
 ---
 
@@ -23,69 +23,84 @@ To use Command Sync, one player acts as a *master* and sends command and all the
 
 ## コマンド同期の実装 {#using-command-sync}
 
-次の節では、AEM Screensプロジェクトでコマンド同期を使用する方法について説明します。
+次の節では、AEM Screens プロジェクトでコマンド同期を使用する方法について説明します。
 
 ### プロジェクトのセットアップ {#setting-up}
 
-コマンド同期機能を使用する前に、プロジェクトと、コンテンツが設定されたチャネルがプロジェクトにあることを確認してください。
+コマンド同期機能を使用する前に、プロジェクトと、プロジェクト用にコンテンツが設定されたチャネルがあることを確認してください。
 
-1. 次の例は、 **CommandSyncDemoという名前のデモプロジェクトと** 、シーケンスchannelChannelLobbyを示して **います**。
+1. 次の例は、**CommandSyncDemo** という名前のデモプロジェクトと、シーケンスチャネル **ChannelLobby** を示しています。
 
-   ![image1](assets/command-sync1.png)
-
-   >[!NOTE]
-   >
-   >チャネルを作成する方法、またはチャネルにコンテンツを追加する方法については、「チャネルの作成と管理」 [を参照してください。](/help/user-guide/managing-channels.md)
-
-   チャネルには、次の図に示すように、次のコンテンツが含まれます。
-
-   ![image1](assets/command-sync2.png)
-
-1. 下の図に示すように、 **Locations** （場所）フォルダーに表示を作成します。
-   ![image1](assets/command-sync3.png)
-
-1. チャネルChannelLobbyを **LobbyDisplay** に割り当 **てます**。
-   ![image1](assets/command-sync4.png)
+   ![image1](assets/command-sync/command-sync1.png)
 
    >[!NOTE]
    >
-   >To learn how to assign a channel to a display, refer to [Creating and Managing Displays](/help/user-guide/managing-displays.md)
+   >チャネルを作成する方法、またはチャネルにコンテンツを追加する方法については、[チャネルの作成と管理](/help/user-guide/managing-channels.md)を参照してください。
 
-1. 「 **Devices** 」フォルダに移動し、アクシ **ョンバーの「Device Manager** 」をクリックしてデバイスを登録します。
+   下の図に示すように、チャネルには次のコンテンツが含まれます。
+
+   ![image1](assets/command-sync/command-sync2.png)
+
+1. 下の図に示すように、**ロケーション**フォルダーにディスプレイを作成します。
+   ![image1](assets/command-sync/command-sync3.png)
+
+1. チャネル **ChannelLobby** を **LobbyDisplay** に割り当てます。
+   ![image1](assets/command-sync/command-sync4.png)
+
+   >[!NOTE]
+   >
+   >ディスプレイにチャネルを割り当てる方法については、[ディスプレイの作成と管理](/help/user-guide/managing-displays.md)を参照してください。。
+
+1. **デバイス**&#x200B;フォルダーに移動し、アクションバーの「**デバイスマネージャー**」をクリックしてデバイスを登録します。
 
    ![image1](assets/command-sync5.png)
 
    >[!NOTE]
    >
-   >To learn how to assign a channel to a display, refer to [Creating and Managing Displays](/help/user-guide/managing-displays.md)
+   >ディスプレイにチャネルを割り当てる方法については、[ディスプレイの作成と管理](/help/user-guide/managing-displays.md)を参照してください。
 
-1. デモ用に、この例では、ChromeデバイスとWebプレーヤーを2つの異なるデバイスとして表示します。 両方のデバイスが同じディスプレイを指しています。
+1. この例では、ChromeデバイスとWindowsプレーヤーを2つの異なるデバイスとして表示します。 両方のデバイスが同じディスプレイを指しています。
    ![image1](assets/command-sync6.png)
 
-### Setting up a Master {#setting-up-master}
+### チャネル設定の更新
 
-1. CommandSyncLoby **—>** Locations **—>** Loby **—>** Lobby **Lobby** DisplayDashboard Display Dashboard Demo **Demo** CommandSyncLocations —> Locations —> Lopations から表示ダッシュボードに移動します。
-次の図に示すように、 **DEVICES** （デバイス）パネルに2つのデバイス（ChromeとWindows Player）が表示されます。
+1. ChannelLobbyに移動し、アク **ションバ** ーで **** 「編集」をクリックして、チャネル設定を更新します。
+
+1. 下の図に示すように、チャネル全体を選択します。
+   ![image1](assets/command-sync/command-sync7.png)
+
+1. レンチアイコンをクリックして、ページ **ダイアログ** ボックスを開きます。
+   ![image1](assets/command-sync/command-sync8.png)
+
+1. 「戦略」フィ *ールドに* 、同期したキーワード **を入力します** 。
+
+   ![image1](assets/command-sync/command-sync9.png)
+
+
+### マスターの設定{#setting-up-master}
+
+1. **CommandSyncDemo**／**Locations**／**Lobby**／**LobbyDisplay** でディスプレイダッシュボードに移動し、アクションバーの「**ダッシュボード**」をクリックします。
+You will see the two devices (chrome and windows player) in **DEVICES** panel, as shown in the figure below.
 
    ![image1](assets/command-sync7.png)
 
-1. 「 **DEVICES** 」パネルから、マスターとして設定するデバイスを選択します。 次の例は、Chromeデバイスをマスターとして設定する方法を示しています。 「 **Set as master device**」をクリックします。
+1. **デバイス**&#x200B;パネルから、マスターとして設定するデバイスを選択します。次の例は、Chrome デバイスをマスターとして設定する方法を示しています。「**マスターデバイスとして設定**」をクリックします。
 
    ![image1](assets/command-sync8.png)
 
-1. 「 **Set as master device** 」にIPアドレスを入力し、「 **Save」をクリックします**。
+1. 「**マスターデバイスとして設定**」に IP アドレスを入力し、「**保存**」をクリックします。
 
    ![image1](assets/command-sync9.png)
 
 ### マスターとの同期 {#sync-up-master}
 
-1. Chromeデバイスをマスターとして設定したら、他のデバイスを同期してマスターと同期できます。
-次の図に示すように、 **DEVICES** （デバイス）パネルから別のデバイスを選択し、「 **Sync to master device**（マスターデバイスと同期）」をクリックします。
+1. Chrome デバイスをマスターとして設定した後は、他のデバイスをマスターと同期できます。
+次の図に示すように、**デバイス**&#x200B;パネルから別のデバイスを選択し、「**マスターデバイスと同期**」をクリックします。
 
-1. リストからデバイスを選択し、「保存」をクリッ **クします**。
+1. リストからデバイスを選択し、「**保存**」をクリックします。
 
 
-1. Navigate to the [Web Player](http://localhost:4502/screens/player.html).
+1. [Web プレーヤー](http://localhost:4502/screens/player.html)に移動します。
 
 
 

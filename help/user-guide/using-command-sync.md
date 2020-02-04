@@ -4,7 +4,7 @@ seo-title: コマンド同期の使用
 description: ここでは、コマンド同期の使用方法について説明します。
 seo-description: ここでは、コマンド同期の使用方法について説明します。
 translation-type: tm+mt
-source-git-commit: d1c2715f516f9089c346241280d8693118b49873
+source-git-commit: f7827b604ca738c3927772fb26b4df68b7e793a0
 
 ---
 
@@ -81,28 +81,33 @@ To use Command Sync, one player acts as a *master* and sends command and all the
 
 1. **CommandSyncDemo**／**Locations**／**Lobby**／**LobbyDisplay** でディスプレイダッシュボードに移動し、アクションバーの「**ダッシュボード**」をクリックします。
 You will see the two devices (chrome and windows player) in **DEVICES** panel, as shown in the figure below.
-
-   ![image1](assets/command-sync7.png)
+   ![image1](assets/command-sync/command-sync10.png)
 
 1. **デバイス**&#x200B;パネルから、マスターとして設定するデバイスを選択します。次の例は、Chrome デバイスをマスターとして設定する方法を示しています。「**マスターデバイスとして設定**」をクリックします。
 
-   ![image1](assets/command-sync8.png)
+   ![image1](assets/command-sync/command-sync11.png)
 
 1. 「**マスターデバイスとして設定**」に IP アドレスを入力し、「**保存**」をクリックします。
 
-   ![image1](assets/command-sync9.png)
+   ![image1](assets/command-sync/command-sync12.png)
+
+>[!NOTE]
+> 複数のデバイスをマスターとして設定できます。
 
 ### マスターとの同期 {#sync-up-master}
 
-1. Chrome デバイスをマスターとして設定した後は、他のデバイスをマスターと同期できます。
-次の図に示すように、**デバイス**&#x200B;パネルから別のデバイスを選択し、「**マスターデバイスと同期**」をクリックします。
+1. Chromeデバイスをマスターとして設定したら、他のデバイス（この場合はWindows Player）を同期してマスターと同期できます。
+Select the other device (in this case, windows player) from the **DEVICES** panel and click on **Sync to master device**, as shown in the figure below.
+
+   ![image1](assets/command-sync/command-sync13.png)
 
 1. リストからデバイスを選択し、「**保存**」をクリックします。
 
+1. デバイス(Windows Player)がマスター(Chrome Player)と同期されると、同期されたデバイスが **DEVICES** パネルに表示されます。
 
-1. [Web プレーヤー](http://localhost:4502/screens/player.html)に移動します。
+   ![image1](assets/command-sync/command-sync14.png)
 
+### マスターとの削除または非同期 {#desync-up-master}
 
-
-
+デバイスをマスターに同期した後は、そのデバイスの割り当てを非同期または削除できます。 マスター・デバイスから同期を削除するには、デバイスを選択し、 **DEVICES** （デバイス）パネルで「 **** Desync（非同期）」をクリックします。
 

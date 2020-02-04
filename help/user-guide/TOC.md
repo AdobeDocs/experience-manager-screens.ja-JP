@@ -4,12 +4,12 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
+source-git-commit: eb3fb0111aa3e9bdb7a265028809949fffab2e40
 
 ---
 
 
-# AEM Screensユーザーガイド {#user-guide}
+# AEM Screens ユーザーガイド {#user-guide}
 
 + [Screens の概要](aem-screens-introduction.md)
 + 概要とキックスタートガイド {#overview}
@@ -66,6 +66,7 @@ source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
       + [ビデオレンディション](generating-renditions.md)
       + [動的埋め込みシーケンスの使用](dynamic-embedded-sequences.md)
       + [チャネルレベルの一括画像再生時間](channel-level-image-playback.md)
+      + [コマンド同期の使用](using-command-sync.md)
    + コンテンツ更新の管理 {#content-updates}
       + [オンデマンドのコンテンツ更新](on-demand-content.md)
       + [サービスとしてのコンテンツの更新](content-update-as-a-service.md)
@@ -75,10 +76,10 @@ source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
       + [旅行センター向けの気温に応じたアクティブ化](local-temperature-activation.md)
       + [接客業向けの予約状況に応じたアクティブ化](hospitality-reservation-activation.md)
       + [小売店向けの在庫に応じたアクティブ化](retail-inventory-activation.md)
-      + [トランジションの適用](applying-transitions.md)
-      + [マルチゾーンからシングルゾーンへの移行](multizone-to-singlezone.md)
-      + [単一使用のテイクオーバーチャネル](single-use-takeover-channel.md)
-      + [TakeOverチャネルの永続的な使用](perpetual-takeover-channel.md)
+      + [切り替えの適用](applying-transitions.md)
+      + [マルチゾーンからシングルゾーンへの切り替え](multizone-to-singlezone.md)
+      + [単一使用テイクオーバーチャネル](single-use-takeover-channel.md)
+      + [永続テイクオーバーチャネル](perpetual-takeover-channel.md)
 + 開発者向けリソースと API リソース {#developing}
    + [REST API](rest-api.md)
    + [AEM Screens 用カスタムコンポーネントの開発](developing-custom-component-tutorial-develop.md)

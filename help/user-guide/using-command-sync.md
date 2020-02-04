@@ -4,7 +4,7 @@ seo-title: コマンド同期の使用
 description: ここでは、コマンド同期の使用方法について説明します。
 seo-description: ここでは、コマンド同期の使用方法について説明します。
 translation-type: tm+mt
-source-git-commit: f7827b604ca738c3927772fb26b4df68b7e793a0
+source-git-commit: 69a3bc339cc5fa7e457800e010709ee01db33b03
 
 ---
 
@@ -23,7 +23,7 @@ To use Command Sync, one player acts as a *master* and sends command and all the
 
 ## コマンド同期の実装 {#using-command-sync}
 
-次の節では、AEM Screens プロジェクトでコマンド同期を使用する方法について説明します。
+次の節では、AEM Screensプロジェクトでコマンド同期を使用する方法について説明します。
 
 ### プロジェクトのセットアップ {#setting-up}
 

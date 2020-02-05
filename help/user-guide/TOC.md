@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: eb3fb0111aa3e9bdb7a265028809949fffab2e40
+source-git-commit: dcaac908b9f88798f73eb3048bc9a225b2e6e11f
 
 ---
 
@@ -66,7 +66,7 @@ source-git-commit: eb3fb0111aa3e9bdb7a265028809949fffab2e40
       + [ビデオレンディション](generating-renditions.md)
       + [動的埋め込みシーケンスの使用](dynamic-embedded-sequences.md)
       + [チャネルレベルの一括画像再生時間](channel-level-image-playback.md)
-      + [コマンド同期の使用](using-command-sync.md)
+      + [コマンド同期](using-command-sync.md)
    + コンテンツ更新の管理 {#content-updates}
       + [オンデマンドのコンテンツ更新](on-demand-content.md)
       + [サービスとしてのコンテンツの更新](content-update-as-a-service.md)

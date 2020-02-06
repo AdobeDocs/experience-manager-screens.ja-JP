@@ -10,8 +10,8 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: ed79a3c9e2b99ef1de6e293fe2e86adfa8dde85c
 
 ---
 
@@ -40,7 +40,7 @@ AEM Screens プロジェクトの在庫主導型チャネルを作成および�
 
 ## 前提条件 {#preconditions}
 
-AEM Screens プロジェクトに Context Hub を設定するためのデータストアのセットアップを開始する前に、（デモ用に）Google シートをセットアップする必要があります。
+AEM ScreensプロジェクトのContext Hub設定を開始する前に、（デモ用に）Googleシートを設定する必要があります。
 
 >[!CAUTION]
 >
@@ -50,7 +50,15 @@ AEM Screens プロジェクトに Context Hub を設定するためのデータ�
 
 ## 手順 1：データストアのセットアップ {#step-setting-up-a-data-store}
 
-以下の手順に従って、ContextHub 設定と AEM Screens チャネルへのセグメントパスを使用するためのデータストアをセットアップします。
+データストアは、ローカルI/Oイベントまたはローカルデータベースイベントとして設定できます。
+
+### ローカルI/Oイベント {#local-io-event}
+
+次の手順に従って、ContextHub設定を使用し、AEM Screensチャネルへのパスをセグメント化するASCIIイベントなどのデータストアを設定します。
+
+### ローカルデータベースイベント {#local-db-event}
+
+次の手順に従って、ContextHub設定を使用し、AEM Screensチャネルへのパスをセグメント化できるExcelシートなどのデータストアを設定します。
 
 1. **ContextHub に移動する**
 
@@ -93,7 +101,7 @@ AEM Screens プロジェクトに Context Hub を設定するためのデータ�
    >上記のサンプルコードで、**pollInterval** は、値が更新される頻度をミリ秒単位で定義します。
    >
    >
-   >上記の JSON コードの該当するプレースホルダーを、Google シートのセットアップ時に取得した実際の *&lt;シート ID&gt;* と *&lt;API キー&gt;* に置き換えます。
+   >上記の JSON コードの該当するプレースホルダーを、Google シートのセットアップ時に取得した実際の *&lt;シート ID>* と *&lt;API キー>* に置き換えます。
 
    >[!CAUTION]
    Google シートのストア設定を従来のフォルダー以外（例えば、独自のプロジェクトフォルダー内など）で作成した場合、ターゲティングは初期状態では機能しません。
@@ -170,7 +178,7 @@ AEM Screens プロジェクトに Context Hub を設定するためのデータ�
 
 以下の手順に従って、チャネルでターゲティングを有効にします。
 
-1. AEM Screens チャネルのいずれかに移動します。以下の手順は、AEM Screens チャネルに作成した **DataDrivenRetail** を使用してターゲティングを有効にする方法を示しています。
+1. AEM Screensチャネルの1つに移動します。 The following steps demonstrate how to enable targeting by using **DataDrivenRetail** created in an AEM Screens Channel.
 
 1. **DataDrivenRetail** チャネルを選択し、アクションバーの「**プロパティ**」をクリックします。
 

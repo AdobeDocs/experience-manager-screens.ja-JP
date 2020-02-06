@@ -4,15 +4,15 @@ seo-title: マルチゾーンレイアウトのカスタムテンプレートの
 description: ここでは、マルチゾーンレイアウトのカスタムテンプレートの作成について説明します。
 seo-description: ここでは、マルチゾーンレイアウトのカスタムテンプレートの作成について説明します。
 contentOwner: Jyotika Syal
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: a4d48ba04bb8ab863f4f07b932892676b70e1e23
 
 ---
 
 
 # マルチゾーンレイアウトのカスタムテンプレートの作成 {#creating-custom-templates-multizone}
 
-次の例は、マルチゾーンレイアウトのカスタムテンプレートを作成する方法を示しています。
+次の例は、multiZoneレイアウトでカスタムテンプレートを作成する方法を示しています。
 
 例えば、次の節では、以下の設定でマルチゾーンレイアウトのカスタムテンプレートを作成する方法を示します。
 
@@ -25,9 +25,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. `/apps/<project>/templates/my-custom-layout` にテンプレートを作成します。
 
-```shell
-<?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+   ```shell
+    <?xml version="1.0" encoding="UTF-8"?>
+    <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:description="My Custom 3-zones layout "
     jcr:primaryType="cq:Template"
     jcr:title="3-zones layout"
@@ -58,8 +58,8 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
         </cq:responsive>
         <offline-config/>
     </jcr:content>
-</jcr:root>
-```
+   </jcr:root>
+   ```
 
 1. `/apps/settings/wcm/designs/<project>` にページデザインを作成します。
 
@@ -71,12 +71,12 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. `/apps/settings/wcm/designs/<project>` フォルダーに **static.css** ファイルを追加し、その内容を以下のように設定します。
 
-```shell
-.cq-Screens-channel--multizone.my-CustomLayout {}
-.cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-top { height: 150px; }
-.cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-middle { height: 1470px; }
-.cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-bottom { height: 300px; }
-```
+   ```shell
+   .cq-Screens-channel--multizone.my-CustomLayout {}
+   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-top { height: 150px; }
+   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-middle { height: 1470px; }
+   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-bottom { height: 300px; }
+   ```
 
 ## 背景レイヤーとしての画像の挿入 {#inserting-image}
 
@@ -98,3 +98,6 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 背景色を変更するには、xml ファイルに次のコードを追加します。
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
+
+
+

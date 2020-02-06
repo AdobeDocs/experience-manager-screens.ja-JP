@@ -4,7 +4,7 @@ seo-title: コマンド同期の使用
 description: ここでは、コマンド同期の使用方法について説明します。
 seo-description: ここでは、コマンド同期の使用方法について説明します。
 translation-type: tm+mt
-source-git-commit: bd29a09608066bd5030254812e6ddd7d757879cf
+source-git-commit: 4735e1bcea3b635a55ef5d57e6e10a5948d8fc29
 
 ---
 
@@ -103,11 +103,24 @@ Select the other device (in this case, windows player) from the **DEVICES** pane
 
 1. リストからデバイスを選択し、「**保存**」をクリックします。
 
+   >[注意:]
+   > 「 **Sync to master device** 」ダイアログに、マスター・デバイスのリストが表示されます。 必要な設定を選択できます。
+
 1. デバイス(Windows Player)がマスター(Chrome Player)と同期されると、同期されたデバイスが **DEVICES** パネルに表示されます。
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
-### マスターとの削除または非同期 {#desync-up-master}
+### マスターとの同期解除 {#desync-up-master}
 
-デバイスをマスターに同期した後は、そのデバイスの割り当てを非同期または削除できます。 マスター・デバイスから同期を削除するには、デバイスを選択し、 **DEVICES** （デバイス）パネルで「 **** Desync（非同期）」をクリックします。
+デバイスをマスターに同期した後は、そのデバイスから割り当てを非同期にできます。 マスターデバイスから同期を削除するには、次の手順に従います。
 
+1. 「 **DEVICES** 」パネルに移動し、デバイスを選択します。
+
+1. 「 **Desync device(s)」をクリックして** 、マスター・デバイスからクライアントを同期します。
+
+   ![image1](assets/command-sync/command-sync15-1.png)
+
+1. 「 **Confirm** 」をクリックして、選択したデバイスをマスターから非同期にします。
+
+   >[注意:]
+   > マスター・デバイスを選択して「Desync」オプションを使用すると、マスターに接続されているすべてのデバイスは、1回の手順で同期が解除されます。

@@ -4,7 +4,7 @@ seo-title: コマンド同期の使用
 description: ここでは、コマンド同期の使用方法について説明します。
 seo-description: ここでは、コマンド同期の使用方法について説明します。
 translation-type: tm+mt
-source-git-commit: 4735e1bcea3b635a55ef5d57e6e10a5948d8fc29
+source-git-commit: c46f246f9c5b8ab09f1100c798d0a1a240388c18
 
 ---
 
@@ -116,11 +116,12 @@ Select the other device (in this case, windows player) from the **DEVICES** pane
 
 1. 「 **DEVICES** 」パネルに移動し、デバイスを選択します。
 
-1. 「 **Desync device(s)」をクリックして** 、マスター・デバイスからクライアントを同期します。
+1. 「 **Desync device(s)」をクリックして** 、マスター・デバイスからクライアントの同期を解除します。
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. 「 **Confirm** 」をクリックして、選択したデバイスをマスターから非同期にします。
+1. 「 **Confirm** 」をクリックして、選択したデバイスをマスターから同期解除します。
 
    >[注意:]
    > マスター・デバイスを選択して「Desync」オプションを使用すると、マスターに接続されているすべてのデバイスは、1回の手順で同期が解除されます。
+

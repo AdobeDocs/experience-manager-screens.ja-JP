@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9b68f76512fc090103f29c8c29c761b0f047416f
 
 ---
@@ -30,7 +30,7 @@ source-git-commit: 9b68f76512fc090103f29c8c29c761b0f047416f
 
 ## AEM Screens と連携する Adobe Analytics でのシーケンス化 {#sequencing-in-adobe-analytics-with-aem-screens}
 
-***シーケンス化&#x200B;***は、Adobe Analytics サービスをアクティブにするデータストレージサービスで開始されます。チャネルコンテンツは、データテストキャプチャを含んだ Adobe Analytics イベントを Windows I/O に送信し、滞在イベントがトリガーされます。これらのイベントはインデックス DB に保存され、さらにオブジェクトストアに格納されます。管理者が設定したスケジュールに基づいて、データがオブジェクトストアから切り出され、さらにチャンクストアに転送されます。接続時に、最大量のデータ送信が試みられます。
+***シーケンス化***&#x200B;は、Adobe Analytics サービスをアクティブにするデータストレージサービスで開始されます。チャネルコンテンツは、データテストキャプチャを含んだ Adobe Analytics イベントを Windows I/O に送信し、滞在イベントがトリガーされます。これらのイベントはインデックス DB に保存され、さらにオブジェクトストアに格納されます。管理者が設定したスケジュールに基づいて、データがオブジェクトストアから切り出され、さらにチャンクストアに転送されます。接続時に、最大量のデータ送信が試みられます。
 
 ### シーケンス図 {#sequencing-diagram}
 
@@ -234,7 +234,7 @@ source-git-commit: 9b68f76512fc090103f29c8c29c761b0f047416f
    <td>失敗の説明<br /> </td> 
   </tr>
   <tr>
-   <td><strong><em>ソース／発生元の製品</em></strong></td> 
+   <td><strong><em>ソース／元の製品</em></strong></td> 
    <td>名前</td> 
    <td>source.name</td> 
    <td>必須</td> 
@@ -297,7 +297,7 @@ source-git-commit: 9b68f76512fc090103f29c8c29c761b0f047416f
    <td>コンテンツの MIME タイプ</td> 
   </tr>
   <tr>
-   <td><strong><em>取引</em></strong></td> 
+   <td><strong><em>トランザクション</em></strong></td> 
    <td>トランザクション番号</td> 
    <td>trn.number</td> 
    <td>必須</td> 

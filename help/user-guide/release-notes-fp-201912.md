@@ -1,10 +1,10 @@
 ---
 title: 機能パック 201912 のリリースノート
 seo-title: 機能パック 201912 のリリースノート
-description: 2020 年 1 月 20 日にリリースされた AEM Screens 機能パック 201912 について説明します。
-seo-description: 2020 年 1 月 20 日にリリースされた AEM Screens 機能パック 201912 について説明します。
+description: 2020 年 1 月 31 日にリリースされた AEM Screens 機能パック 201912 について説明します。
+seo-description: 2020 年 1 月 31 日にリリースされた AEM Screens 機能パック 201912 について説明します。
 translation-type: tm+mt
-source-git-commit: eb3fb0111aa3e9bdb7a265028809949fffab2e40
+source-git-commit: b6a2485ff992eaafb9ef3e5063e8d8ab4e214532
 
 ---
 
@@ -19,7 +19,7 @@ AEM 6.4 機能パック 7 および AEM 6.5 機能パック 3 向けの AEM Scre
 
 ## リリース日 {#release-date}
 
-AEM Screens 機能パック 201912 のリリース日は 2020 年 1 月 21 日です。
+AEM Screens 機能パック 201912 のリリース日は 2020 年 1 月 31 日です。
 
 ### 最新情報 {#what-s-new}
 

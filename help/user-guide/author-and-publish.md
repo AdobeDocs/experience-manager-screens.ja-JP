@@ -1,8 +1,8 @@
 ---
 title: AEM Screens でのオーサーとパブリッシュの設定
 seo-title: AEM Screens でのオーサーとパブリッシュの設定
-description: AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成されたあと、複数のパブリッシュインスタンスにフォワードレプリケートされます。ここでは、オーサーとパブリッシュを AEM Screens 用に設定する方法について説明します。
-seo-description: AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成されたあと、複数のパブリッシュインスタンスにフォワードレプリケートされます。ここでは、オーサーとパブリッシュを AEM Screens 用に設定する方法について説明します。
+description: AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成された後、複数のパブリッシュインスタンスにフォワードレプリケートされます。ここでは、オーサーとパブリッシュを AEM Screens 用に設定する方法について説明します。
+seo-description: AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成された後、複数のパブリッシュインスタンスにフォワードレプリケートされます。ここでは、オーサーとパブリッシュを AEM Screens 用に設定する方法について説明します。
 uuid: 0a6e87e7-0018-42ef-b484-9a3da61c636a
 contentOwner: jsyal
 content-type: reference
@@ -10,7 +10,7 @@ topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
 ---
@@ -56,7 +56,7 @@ source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
 AEM Screens には次の 3 つのレプリケーションエージェントが必要です。
 
-1. **デフォルトレプリケーションエージェント&#x200B;***（***標準レプリケーションエージェント&#x200B;**として指定）
+1. **デフォルトレプリケーションエージェント&#x200B;***（***標準レプリケーションエージェント**&#x200B;として指定）
 1. **Screens レプリケーションエージェント**
 1. **リバースレプリケーションエージェント**
 
@@ -88,7 +88,7 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 
    >[!NOTE]
    >
-   >レプリケーションエージェントを有効にする **には** 、[有効]をオンにする必要があります。 「デフォルト」、「画面」、「逆複製エージェント」でこのオプションを選択する必要があります。
+   >レプリケーションエージェントを有効にするには、「**有効**」をオンにする必要があります。このオプションは、デフォルトレプリケーションエージェント、Screens レプリケーションエージェント、リバースレプリケーションエージェントでオンにする必要があります。
 
    ![screen_shot_2019-02-25at30134pm](assets/screen_shot_2019-02-25at30134pm.png)
 
@@ -126,7 +126,7 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 
 1. `https://<host>:<port>/system/console/configMgr` に移動します。
 1. 「**Apache Sling Oak-Based Discovery Service**」の設定を選択します。
-1. トポロジコネクタURLの更新：次のパーティングを行うすべての発行インスタンスのURLを追加します。
+1. トポロジコネクタ URL の更新：参加するすべてのパブリッシュインスタンスの URL を追加します。
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
 1. Topology Connector サービスのホワイトリスト：参加するパブリッシュインスタンスをカバーする IP またはサブネットに合わせます。
@@ -136,7 +136,7 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 
 #### 手順 2：パブリッシュトポロジの確認 {#step-verify-publish-topology}
 
-For any of the publish instances navigate to `https://:/system/console/topology`. 各パブリッシュインスタンスは、[送信トポロジコネクタ]の下に表 **示されているはずで**&#x200B;す。
+任意のパブリッシュインスタンスについて、`https://:/system/console/topology` に移動します。各パブリッシュインスタンスは、**送信トポロジコネクタ**&#x200B;の下に表示されているはずです。
 
 #### 手順 3：ActiveMQ Artemis クラスターのセットアップ {#step-setup-activemq-artemis-cluster}
 
@@ -153,8 +153,8 @@ For any of the publish instances navigate to `https://:/system/console/topology`
 デフォルトでは、パブリッシュインスタンスごとに一意の暗号キーが存在するので、この手順を各パブリッシュインスタンスで実行し、次回の設定用にこの一意のキーを保存する必要があります。
 
 >[!NOTE]
->パスワードは中括弧で囲む必要があります。
->例：{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a6610e}
+>パスワードは波括弧（{}）で囲んでください。
+>例：{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}
 
 #### 手順 4：ActiveMQ Artemis クラスターのアクティブ化 {#step-activate-activemq-artemis-cluster}
 
@@ -164,15 +164,15 @@ For any of the publish instances navigate to `https://:/system/console/topology`
 1. 「**Apache ActiveMQ Artemis JMS Provider**」の設定を選択します。
 1. 以下を更新します。
 
-* ***Cluster Password ***：（インスタンスごとに前の手順の暗号化された値を使用）
-* ***Topics ***：{name: &#39;commands&#39;, address: &#39;com.adobe.cq.screens.commands&#39;, maxConsumers: 50}
+* ***Cluster Password***：（インスタンスごとに前の手順の暗号化された値を使用）
+* ***Topics***：{name: &#39;commands&#39;, address: &#39;com.adobe.cq.screens.commands&#39;, maxConsumers: 50}
 
 #### ActiveMQ Artemis クラスターの確認 {#verify-activemq-artemis-cluster}
 
 各パブリッシュインスタンスで次の手順に従います。
 
 1. OSGi コンソールで、Main／ActiveMQ Artemis（`[https://localhost:4505/system/console/mq`）に移動します。
-1. Cluster Information／Topologyでノード数 2、メンバー数 2 を選択し、他のインスタンスのポートを確認します。
+1. Cluster Information／Topology でノード数 2、メンバー数 2 を選択し、他のインスタンスのポートを確認します。
 1. テストメッセージを送信します（画面上部の「Broker Information」の下）。
 1. 各フィールドを次のように変更します。
 
@@ -206,7 +206,7 @@ For any of the publish instances navigate to `https://:/system/console/topology`
 >
 >**前提条件**
 >
->この例に取りかかるには、新しい AEM Screens プロジェクトを作成したあと、プロジェクト内にロケーション、ディスプレイ、チャネルを作成します。チャネルにコンテンツを追加し、このチャネルをディスプレイに割り当てます。
+>この例に取りかかるには、新しい AEM Screens プロジェクトを作成した後、プロジェクト内にロケーション、ディスプレイ、チャネルを作成します。チャネルにコンテンツを追加し、このチャネルをディスプレイに割り当てます。
 
 #### 手順 1：AEM Screens Player（デバイス）の起動 {#step-starting-an-aem-screens-player-device}
 
@@ -233,13 +233,13 @@ For any of the publish instances navigate to `https://:/system/console/topology`
 1. 「**割り当て**」をクリックします。
 1. 「**完了**」をクリックしてプロセスを完了すると、デバイスが割り当てられます。
 
-プレイヤーを確認すると、チャネルに追加したコンテンツが表示されます。
+プレーヤーを確認すると、チャネルに追加したコンテンツが表示されます。
 
 #### 手順 4：パブリッシュインスタンスへのデバイス設定の公開 {#step-publishing-device-configuration-to-publish-instances}
 
 **デバイスの確認**
 
-以下の手順を実行する前に、デバイス ID を確認してください。To verify, search for the device id in CRXDELite, with the path as */home/users/screens/we-retail/devices*.
+以下の手順を実行する前に、デバイス ID を確認してください。確認するには、CRXDE Lite で、パスを */home/users/screens/we-retail/devices* としてデバイス ID を検索します。
 
 次の手順に従って、デバイスユーザーをレプリケートします。
 
@@ -261,7 +261,7 @@ For any of the publish instances navigate to `https://:/system/console/topology`
 
 >[!NOTE]
 >
->Alternatively, once you have activated the device you also can edit or update the server URL by clicking **Edit server URL** from the action bar, as shown in the figure below and your changes will be propagated to the AEM Screens player.
+>または、デバイスをアクティブ化したら、アクションバーの「**サーバー URL を編集**」をクリックして、サーバーの URL を編集または更新することもできます（下図を参照）。その場合は、変更が AEM Screens Player に反映されます。
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -277,14 +277,14 @@ For any of the publish instances navigate to `https://:/system/console/topology`
 * *スケジュール* - スケジュールを使用する場合は、スケジュールを必ず公開します。
 * *ロケーション、スケジュール、チャネルの各フォルダー* - 対応するリソースがフォルダー内にある場合。
 
-次の手順に従って、作成者/公開の動作を確認します。
+次の手順に従って、オーサーとパブリッシュの動作を確認します。
 
-1. 作成者インスタンスのチャネルコンテンツの一部を更新
-1. 「パブリケー **ションの管理** 」を実行して、すべての発行インスタンスに新しい変更を発行します。
-1. 「 **Activate** 」を押して、デバイスマネージャーからデバイスをア **クティブ化します**
-1. **作成者インスタンス** URLから発行インスタンスURLの1つにURLを編集
-1. AEM Screensプレーヤーに更新されたチャネルコンテンツが表示されることを確認します。
-1. 別の発行インスタンスを使用して、これらの手順を繰り返します
+1. オーサーインスタンスのチャネルコンテンツの一部を更新します。
+1. 「**公開を管理**」を実行して、すべてのパブリッシュインスタンスに新しい変更を公開します。
+1. 「**アクティブ化**」をクリックして、**デバイスマネージャー**&#x200B;からデバイスをアクティブ化します。
+1. オーサーインスタンス URL からパブリッシュインスタンス URL の 1 つに **URL を編集**&#x200B;します。
+1. AEM Screens Player に更新されたチャネルコンテンツが表示されることを確認します。
+1. 別のパブリッシュインスタンスを使用して、これらの手順を繰り返します。
 
 
 #### 手順 5 ：パブリッシュインスタンスを指すように管理パネルでデバイスを設定 {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
@@ -295,14 +295,14 @@ For any of the publish instances navigate to `https://:/system/console/topology`
 
 AEM Screens Player で変更結果を表示します。
 
-または、次の手順に従って、デバイス管理コンソールでサーバー URLを更新または編集することもできます。
+または、次の手順に従って、デバイス管理コンソールでサーバー URL を更新または編集することもできます。
 
 1. AEM Screens プロジェクトに移動し、**デバイス**&#x200B;フォルダーを選択します。
 1. アクションバーの「**デバイスマネージャー**」をクリックします。
-1. Select the device and click **Edit server URL** from the action bar, as shown in the figure below and your changes will be propagated to the AEM Screens player.
+1. デバイスを選択し、アクションバーの「**サーバー URL を編集**」をクリックします（下図を参照）。変更内容が AEM Screens Player に反映されます。
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-The **Manage Publication** feature allows you to deliver content updates from author to publish to device. AEM Screens プロジェクト全体のコンテンツを公開／非公開することもできますし、チャネル、ロケーション、デバイス、アプリケーション、スケジュールのいずれか 1 つのコンテンツを公開／非公開することもできます。この機能の詳細については、「オンデマンドコンテンツ [の更新」を参照してください](on-demand-content.md)。
+「**公開を管理**」機能を使用すると、コンテンツの更新をオーサーからパブリッシュ経由でデバイスに配信できます。AEM Screens プロジェクト全体のコンテンツを公開／非公開にすることも、チャネル、ロケーション、デバイス、アプリケーション、スケジュールのいずれか 1 つのコンテンツを公開／非公開にすることもできます。この機能の詳細については、[オンデマンドコンテンツの更新](on-demand-content.md)を参照してください。
 
 

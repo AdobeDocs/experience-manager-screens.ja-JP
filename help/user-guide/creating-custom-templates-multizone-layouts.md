@@ -5,16 +5,55 @@ description: ここでは、マルチゾーンレイアウトのカスタムテ�
 seo-description: ここでは、マルチゾーンレイアウトのカスタムテンプレートの作成について説明します。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: a4d48ba04bb8ab863f4f07b932892676b70e1e23
+source-git-commit: 87a86d60de9ea09dae93d08a1e0b42271c39249f
 
 ---
 
 
 # マルチゾーンレイアウトのカスタムテンプレートの作成 {#creating-custom-templates-multizone}
 
-次の例は、multiZoneレイアウトでカスタムテンプレートを作成する方法を示しています。
+このページでは、マルチゾーンレイアウトでのカスタムテンプレートの作成方法を紹介します。
 
-例えば、次の節では、以下の設定でマルチゾーンレイアウトのカスタムテンプレートを作成する方法を示します。
+## 命名規則 {#name-terms}
+
+AEM Screensプロジェクトで使用するカスタムマルチゾーンテンプレートの作成方法を理解する前に、作成するテンプレートのバージョンを理解しておく必要があります。
+
+| **レイアウト名** | **説明** |
+|---|---|
+| Left20-LandscapeHD3Zone | 3ゾーンの横置きレイアウトを参照し、ゾーン1が左から20 %、ゾーン2が水平スクリーンの80 %、垂直スクリーンの20 %を均等配置し、ゾーン3が水平に100 %、垂直スクリーンの80 %の縦横比が16:9の3ゾーンを作成できます |
+| Upper20-PortraitHD2Zone | 画面の上端から20%の領域を占め、縦横比が16:9の2ゾーンの縦長テンプレートを指します。 |
+| Right20-LandscapeSD3Zone | 画面の右から20 %を占め、縦横比が4:3の3ゾーンのテンプレートを指します。 |
+
+## 使用例 {#example-use-cases}
+
+## Left20-LandscapeHD3Zoneレイアウトの作成 {#landscape-layout-one}
+
+次の節に、次の設定を使用してカスタムテンプレートを作成する方法を示します。
+
+* **「Left20** 」は、画面の横置きサイズと縦置きサイズの20%を占める左側のトップゾーンを示します。
+* **横置き** ：画面の向きを示します。
+* **HDは** 、縦横比を16:9と表します。
+* **3Zoneは** 、ディスプレイの3つのゾーンを指します
+
+## マルチゾーンレイアウトの視覚的表現 {#multi-layout-visual-one}
+
+Left20-LandscapeHD3Zoneレイアウトを使用すると、プロジェクトに次のマルチゾーンレイアウトを作成できます。
+
+![画像](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
+
+
+
+
+
+
+## Upper20-PortraitHD2Zoneレイアウトの作成 {#landscape-layout-two}
+
+次の節に、次の設定を使用してカスタムテンプレートを作成する方法を示します。
+
+
+
+
+
 
 ![画像](assets/custom-template1.png)
 

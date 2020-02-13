@@ -4,7 +4,7 @@ seo-title: データ・トリガーをパブリッシュ・サーバに複製
 description: データトリガーをパブリッシュサーバに複製します。
 seo-description: データトリガーをパブリッシュサーバに複製します。
 translation-type: tm+mt
-source-git-commit: ae6ec7dd240b1d6f6adb46359e702eefc167b7b8
+source-git-commit: f369bf41b8f4c7a2bf574998834ef75eb2f21877
 
 ---
 
@@ -89,9 +89,9 @@ ContextHub設定の複製中にテスト接続が失敗した場合は、次の�
 1. ツール/デプロイメント/配 **布** /発行エ **ージェ** ントに移動します ****。
 
 1. アクシ **ョンバーで「編集** 」をクリックし、「インポーターエンドポイント **** 」フィールドのエンドポイントURLが、Distribution agentのパブリッシュサーバーURLも指していることを確認します。
-   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers3.png)
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
-1. デフォルトの管理者資格情報を使用しない場合は、別の管理者パスワードを使用して配布エージェントを設定する必要があります。
+1. デフォルトの管理者資格情報を使用しない場合は、別のユーザー名とパスワードを使用して配布エージェントを設定する必要があります。
 その場合は、次の手順に従います。
 
    1. ツール/操作 **/** Web Console **** に移動し `http://localhost:4502/system/console/configMgr`て、Adobe Experience Manager Web Console画面を開きます ****。

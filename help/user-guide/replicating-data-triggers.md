@@ -4,7 +4,7 @@ seo-title: データ・トリガーをパブリッシュ・サーバに複製
 description: データトリガーをパブリッシュサーバに複製します。
 seo-description: データトリガーをパブリッシュサーバに複製します。
 translation-type: tm+mt
-source-git-commit: f369bf41b8f4c7a2bf574998834ef75eb2f21877
+source-git-commit: 8e5ad12efe53a9a9f4dcdde62be07fb9341dbb84
 
 ---
 
@@ -41,7 +41,7 @@ ContextHubおよびAEM Targeting engineを使用して、作成者/発行設定�
    >[!N注]
    >テストが失敗した場合は、作成者インスタンスと発行インスタンス間の複製エージェントの設定を修正する必要があります。 詳細は、「Troubleshooting Test Connection [](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) （テスト接続のトラブルシューティング）」を参照してください。
 
-1. [ **Distribution** Agent **]画面ツリーで[Add]を選択し、プロジェクトの設定パスを選択します(例：**`/conf/screens/settings/cloudsettings/configuration)`)。
+1. [ **Distribution** Agent **]画面ツリーで[Add]を選択し、プロジェクトの設定パスを選択します(例：**`/conf/screens/settings/cloudsettings/configuration`)。
 
 1. Click **Submit**
 
@@ -51,7 +51,7 @@ ContextHubおよびAEM Targeting engineを使用して、作成者/発行設定�
 
 1. 例えば、プロジェクトフォルダーにドリルダウンしま `/conf/screens/`す。
 
-   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers5.png)
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers10.png)
 
 1. ユーザーインターフェイスからすべてのオーディエンスとセグメントを選択します。
 
@@ -114,3 +114,6 @@ ContextHub設定の複製中にテスト接続が失敗した場合は、次の�
 
    1. 「 **Save** 」をクリックし、AEMインスタンスから **** Distribution agent画面から再びテスト接続を実行します。
 
+   1. ユーザーは、AEMインスタンスから **Distribution Agent** （配布エージェント）ページに再度アクセスし、独自の発行URLからデフォルトのURLを更新または置き換え `localhost:4503` る必要があります。
+
+      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)

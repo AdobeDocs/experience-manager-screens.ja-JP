@@ -4,7 +4,7 @@ seo-title: データ・トリガーをパブリッシュ・サーバに複製
 description: データトリガーをパブリッシュサーバに複製します。
 seo-description: データトリガーをパブリッシュサーバに複製します。
 translation-type: tm+mt
-source-git-commit: 4e86ed7c3050209b3baa67087fc149afae8340b6
+source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
 
 ---
 
@@ -43,7 +43,7 @@ ContextHubおよびAEM Targeting engineを使用して、作成者/発行設定�
 
 1. [ **Distribution** Agent **]画面ツリーで[Add]を選択し、プロジェクトの設定パスを選択します(例：**`/conf/screens/settings/cloudsettings/configuration`)。
 
-1. Click **Submit**
+1. 「**送信**」をクリックします。
 
 ### オーディエンスの複製 {#replicating-audiences}
 
@@ -71,8 +71,9 @@ ContextHubおよびAEM Targeting engineを使用して、作成者/発行設定�
 
 1. 「次へ」 **と「公開** 」をクリ **ックします**。
 
-> [!N注]
-> **重要&#x200B;**：>ContextHubの設定とオーディエンスの複製は、プロジェクトのセットアップ中に行われ、アクティビティの複製が行われます。また、チャネル内でターゲット設定が変更されるたびに必要になります。
+>[!IMPORTANT]
+>
+>ContextHubの設定とオーディエンスの複製は、プロジェクトのセットアップ中に行われ、アクティビティの複製が行われます。また、チャネル内でターゲット設定が変更されるたびに必要になります。
 
 #### 結果 {#result}
 
@@ -92,10 +93,10 @@ ContextHub設定の複製中にテスト接続が失敗した場合は、次の�
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. デフォルトの管理者資格情報を使用しない場合は、別のユーザー名とパスワードを使用して配布エージェントを設定する必要があります。
-その場合は、次の手順に従います。
+
+   その場合は、次の手順に従います。
 
    1. ツール/操作 **/** Web Console **** に移動し `http://localhost:4502/system/console/configMgr`て、Adobe Experience Manager Web Console画面を開きます ****。
-
    1. Search for **Apache Sling Distribution Transport Credentials - User Credentials based DistributionTransportSecretProvider**
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
@@ -105,11 +106,9 @@ ContextHub設定の複製中にテスト接続が失敗した場合は、次の�
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
    1. 「**保存**」をクリックします。
-
    1. 設定を `Cmd +F` 開き、 **Transport Secret Providerを検索するには、Apache Sling Distribution Agent - Forward Agents Factory** を使用します ****。
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. をに更新し `(name=default)` ます `(name=slingTransportSecretProvider)`。
-
    1. 「 **Save** 」をクリックし、AEMインスタンスから **** Distribution agent画面から再びテスト接続を実行します。

@@ -4,7 +4,7 @@ seo-title: データ・トリガーをパブリッシュ・サーバに複製
 description: データトリガーをパブリッシュサーバに複製します。
 seo-description: データトリガーをパブリッシュサーバに複製します。
 translation-type: tm+mt
-source-git-commit: 8e5ad12efe53a9a9f4dcdde62be07fb9341dbb84
+source-git-commit: 4e86ed7c3050209b3baa67087fc149afae8340b6
 
 ---
 
@@ -71,8 +71,8 @@ ContextHubおよびAEM Targeting engineを使用して、作成者/発行設定�
 
 1. 「次へ」 **と「公開** 」をクリ **ックします**。
 
-   > [!N注]
-   >ContextHubの設定とオーディエンスの複製は、プロジェクトのセットアップ中に行われ、アクティビティの複製が行われます。また、チャネル内でターゲット設定が変更されるたびに必要になります。
+> [!N注]
+> **重要&#x200B;**：>ContextHubの設定とオーディエンスの複製は、プロジェクトのセットアップ中に行われ、アクティビティの複製が行われます。また、チャネル内でターゲット設定が変更されるたびに必要になります。
 
 #### 結果 {#result}
 
@@ -113,7 +113,3 @@ ContextHub設定の複製中にテスト接続が失敗した場合は、次の�
    1. をに更新し `(name=default)` ます `(name=slingTransportSecretProvider)`。
 
    1. 「 **Save** 」をクリックし、AEMインスタンスから **** Distribution agent画面から再びテスト接続を実行します。
-
-   1. ユーザーは、AEMインスタンスから **Distribution Agent** （配布エージェント）ページに再度アクセスし、独自の発行URLからデフォルトのURLを更新または置き換え `localhost:4503` る必要があります。
-
-      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)

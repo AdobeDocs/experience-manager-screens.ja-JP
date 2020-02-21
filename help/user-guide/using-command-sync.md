@@ -3,7 +3,7 @@ title: コマンド同期の使用
 seo-title: コマンド同期の使用
 description: ここでは、コマンド同期の使用方法について説明します。
 seo-description: ここでは、コマンド同期の使用方法について説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c46f246f9c5b8ab09f1100c798d0a1a240388c18
 
 ---
@@ -11,19 +11,19 @@ source-git-commit: c46f246f9c5b8ab09f1100c798d0a1a240388c18
 
 # コマンド同期 {#command-sync}
 
-以下では、コマンド同期の使用方法について説明します。コマンド同期を使用すると、異なるプレーヤー間で再生を同期できます。 プレーヤーは異なるコンテンツを再生できますが、各アセットの再生時間は同じにする必要があります。
+以下では、コマンド同期の使用方法について説明します。コマンド同期を使用すると、異なるプレーヤー間で再生を同期させることができます。プレーヤーごとに異なるコンテンツを再生できますが、各アセットの再生時間は同じにする必要があります。
 
 ## 概要 {#overview}
 
-デジタル署名ソリューションは、新年のカウントダウンや大きなビデオのスライスによる複数の画面での再生などのシナリオをサポートするために、ビデオウォールと同期再生をサポートする必要があります。ここでコマンド同期が実行されます。
+デジタルサイネージソリューションでは、新年のカウントダウンや大きなビデオを分割して複数の画面で再生する場合などのシナリオをサポートするために、ビデオウォールと同期再生をサポートする必要があります。このような場合に、コマンド同期が役に立ちます。
 
-To use Command Sync, one player acts as a *master* and sends command and all the other players act as *clients* and play when they receive the command.
+コマンド同期を使用するには、1 つのプレーヤーが&#x200B;*マスター*&#x200B;として機能し、コマンドを送信します。他のすべてのプレーヤーは&#x200B;*クライアント*&#x200B;として機能し、コマンドを受信したときにコンテンツを再生します。
 
 *マスター*&#x200B;は、コンテンツ項目の再生を開始しようとするときに、登録済みのすべてのクライアントにコマンドを送信します。再生するコンテンツ項目のインデックスや再生する要素の外部 HTML が、このコマンドのペイロードになります。
 
 ## コマンド同期の実装 {#using-command-sync}
 
-次の節では、AEM Screensプロジェクトでコマンド同期を使用する方法について説明します。
+次の節では、AEM Screens プロジェクトでコマンド同期を使用する方法について説明します。
 
 ### プロジェクトのセットアップ {#setting-up}
 
@@ -49,7 +49,7 @@ To use Command Sync, one player acts as a *master* and sends command and all the
 
    >[!NOTE]
    >
-   >ディスプレイにチャネルを割り当てる方法については、[ディスプレイの作成と管理](/help/user-guide/managing-displays.md)を参照してください。。
+   >ディスプレイにチャネルを割り当てる方法については、[ディスプレイの作成と管理](/help/user-guide/managing-displays.md)を参照してください。
 
 1. **デバイス**&#x200B;フォルダーに移動し、アクションバーの「**デバイスマネージャー**」をクリックしてデバイスを登録します。
 
@@ -59,20 +59,20 @@ To use Command Sync, one player acts as a *master* and sends command and all the
    >
    >ディスプレイにチャネルを割り当てる方法については、[ディスプレイの作成と管理](/help/user-guide/managing-displays.md)を参照してください。
 
-1. この例では、ChromeデバイスとWindowsプレーヤーを2つの異なるデバイスとして表示します。 両方のデバイスが同じディスプレイを指しています。
+1. デモ用に、この例では、Chrome デバイスと Windows プレーヤーを 2 つの異なるデバイスとして使用します。両方のデバイスが同じディスプレイを指しています。
    ![image1](assets/command-sync6.png)
 
 ### チャネル設定の更新
 
-1. ChannelLobbyに移動し、アク **ションバ** ーで **** 「編集」をクリックして、チャネル設定を更新します。
+1. **ChannelLobby** に移動し、アクションバーの「**編集**」をクリックして、チャネル設定を更新します。
 
 1. 下の図に示すように、チャネル全体を選択します。
    ![image1](assets/command-sync/command-sync7-1.png)
 
-1. レンチアイコンをクリックして、ページ **ダイアログ** ボックスを開きます。
+1. レンチアイコンをクリックして、**ページ**ダイアログボックスを開きます。
    ![image1](assets/command-sync/command-sync8-1.png)
 
-1. 「戦略」フィ *ールドに* 、同期したキーワード **を入力します** 。
+1. 「**方法**」フィールドにキーワード「*同期*」を入力します。
 
    ![image1](assets/command-sync/command-sync9-1.png)
 
@@ -80,7 +80,7 @@ To use Command Sync, one player acts as a *master* and sends command and all the
 ### マスターの設定{#setting-up-master}
 
 1. **CommandSyncDemo**／**Locations**／**Lobby**／**LobbyDisplay** でディスプレイダッシュボードに移動し、アクションバーの「**ダッシュボード**」をクリックします。
-You will see the two devices (chrome and windows player) in **DEVICES** panel, as shown in the figure below.
+次の図に示すように、**デバイス**パネルに 2 つのデバイス（Chrome と Windows プレーヤー）が表示されます。
    ![image1](assets/command-sync/command-sync10-1.png)
 
 1. **デバイス**&#x200B;パネルから、マスターとして設定するデバイスを選択します。次の例は、Chrome デバイスをマスターとして設定する方法を示しています。「**マスターデバイスとして設定**」をクリックします。
@@ -96,32 +96,32 @@ You will see the two devices (chrome and windows player) in **DEVICES** panel, a
 
 ### マスターとの同期 {#sync-up-master}
 
-1. Chromeデバイスをマスターとして設定したら、他のデバイス（この場合はWindows Player）を同期してマスターと同期できます。
-Select the other device (in this case, windows player) from the **DEVICES** panel and click on **Sync to master device**, as shown in the figure below.
+1. Chrome デバイスをマスターとして設定した後は、他のデバイス（この場合は Windows プレーヤー）をマスターと同期できます。
+次の図に示すように、**デバイス**&#x200B;パネルから別のデバイス（この場合は Windows プレーヤー）を選択し、「**マスターデバイスに同期**」をクリックします。
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
 1. リストからデバイスを選択し、「**保存**」をクリックします。
 
    >[注意:]
-   > 「 **Sync to master device** 」ダイアログに、マスター・デバイスのリストが表示されます。 必要な設定を選択できます。
+   > **マスターデバイスに同期**&#x200B;ダイアログに、マスターデバイスのリストが表示されます。任意のマスターデバイスを 1 つ選択できます。
 
-1. デバイス(Windows Player)がマスター(Chrome Player)と同期されると、同期されたデバイスが **DEVICES** パネルに表示されます。
+1. デバイス（Windows プレーヤー）がマスター（Chrome プレーヤー）に同期されると、同期されたデバイスが&#x200B;**デバイス**&#x200B;パネルに表示されます。
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
 ### マスターとの同期解除 {#desync-up-master}
 
-デバイスをマスターに同期した後は、そのデバイスから割り当てを非同期にできます。 マスターデバイスから同期を削除するには、次の手順に従います。
+1 つ以上のデバイスをマスターに同期した後は、そのデバイスから割り当ての同期を解除できます。マスターデバイスから同期を解除するには、次の手順に従います。
 
-1. 「 **DEVICES** 」パネルに移動し、デバイスを選択します。
+1. **デバイス**&#x200B;パネルに移動し、デバイスを選択します。
 
-1. 「 **Desync device(s)」をクリックして** 、マスター・デバイスからクライアントの同期を解除します。
+1. 「**デバイスの同期解除**」をクリックして、マスターデバイスからクライアントの同期を解除します。
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. 「 **Confirm** 」をクリックして、選択したデバイスをマスターから同期解除します。
+1. 「**確認**」をクリックして、選択したデバイスをマスターから同期解除します。
 
    >[注意:]
-   > マスター・デバイスを選択して「Desync」オプションを使用すると、マスターに接続されているすべてのデバイスは、1回の手順で同期が解除されます。
+   > マスターデバイスを選択して同期解除オプションを使用すると、マスターに接続されているすべてのデバイスの同期がワンステップで解除されます。
 

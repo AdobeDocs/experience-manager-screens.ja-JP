@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
 
 ---
@@ -107,7 +107,7 @@ AEM Screens プレーヤーでビデオを取得してもビデオが表示さ�
 
 Google の自動再生ポリシーフラグに関する問題をトラブルシューティングするには、以下の手順に従います。
 
-1. ***chrome://flags/#autoplay-policy ***に移動します。
+1. ***chrome://flags/#autoplay-policy*** に移動します。
 1. 「**Autoplay policy**」を「**Default**」から「**No user gesture is required**」に変更します。
 
 1. Web ブラウザーを再起動し、プレーヤーを更新します。
@@ -149,7 +149,7 @@ Google の自動再生ポリシーフラグに関する問題をトラブルシ�
 **OS X でクロックを揃える**：OS X でクロックを揃えるには、以下の手順に従います。
 
 1. 各 OSX ボックスで、**日付と時刻**&#x200B;環境設定を開きます。
-1. Check **Set date and time automatically**
+1. 「**日付と時刻を自動的に設定**」をオンにします。
 1. ドロップダウンの値 0.pool.ntp.org、1.pool.ntp.org、2.pool.ntp.org、3.pool.ntp.org、time.apple.com を貼り付けるか、単に *sudo ntpdate -u -v 0.pool.ntp.org* を実行します。
 1. 2 台以上のプレーヤーを起動します。
 

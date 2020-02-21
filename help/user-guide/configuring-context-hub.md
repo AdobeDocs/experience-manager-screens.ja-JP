@@ -10,7 +10,7 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ed79a3c9e2b99ef1de6e293fe2e86adfa8dde85c
 
 ---
@@ -40,7 +40,7 @@ AEM Screens プロジェクトの在庫主導型チャネルを作成および�
 
 ## 前提条件 {#preconditions}
 
-AEM ScreensプロジェクトのContext Hub設定を開始する前に、（デモ用に）Googleシートを設定する必要があります。
+AEM Screens プロジェクト用に Context Hub の設定を開始する前に、（デモ用に）Google シートをセットアップする必要があります。
 
 >[!CAUTION]
 >
@@ -50,15 +50,15 @@ AEM ScreensプロジェクトのContext Hub設定を開始する前に、（デ�
 
 ## 手順 1：データストアのセットアップ {#step-setting-up-a-data-store}
 
-データストアは、ローカルI/Oイベントまたはローカルデータベースイベントとして設定できます。
+データストアは、ローカル I/O イベントまたはローカルデータベースイベントとして設定できます。
 
-### ローカルI/Oイベント {#local-io-event}
+### ローカル I/O イベント {#local-io-event}
 
-次の手順に従って、ContextHub設定を使用し、AEM Screensチャネルへのパスをセグメント化するASCIIイベントなどのデータストアを設定します。
+以下の手順に従って、ContextHub 設定と AEM Screens チャネルへのセグメントパスを使用するための ASCII イベントのようなデータストアをセットアップします。
 
 ### ローカルデータベースイベント {#local-db-event}
 
-次の手順に従って、ContextHub設定を使用し、AEM Screensチャネルへのパスをセグメント化できるExcelシートなどのデータストアを設定します。
+以下の手順に従って、ContextHub 設定と AEM Screens チャネルへのセグメントパスを使用するための Excel シートのようなデータストアをセットアップします。
 
 1. **ContextHub に移動する**
 
@@ -178,7 +178,7 @@ AEM ScreensプロジェクトのContext Hub設定を開始する前に、（デ�
 
 以下の手順に従って、チャネルでターゲティングを有効にします。
 
-1. AEM Screensチャネルの1つに移動します。 The following steps demonstrate how to enable targeting by using **DataDrivenRetail** created in an AEM Screens Channel.
+1. AEM Screens チャネルのいずれかに移動します。以下の手順は、AEM Screens チャネルに作成した **DataDrivenRetail** を使用してターゲティングを有効にする方法を示しています。
 
 1. **DataDrivenRetail** チャネルを選択し、アクションバーの「**プロパティ**」をクリックします。
 
@@ -186,7 +186,7 @@ AEM ScreensプロジェクトのContext Hub設定を開始する前に、（デ�
 
 1. 「**パーソナライゼーション**」タブを選択して、ContextHub 設定をセットアップします。
 
-   1. 「**ContextHub のパス**」として **libs**/**settings**/**cloudsettings**/**legacy**/**contexthub** を選択し、「**選択**」をクリックします。
+   1. 「**ContextHub のパス**」として **libs**/**settings**/**cloudsettings**/**default**/**ContextHub Configurations** を選択し、「**選択**」をクリックします。
 
    1. 「**セグメントのパス**」として **conf**/**we-retail**/**settings**/**wcm**/**segments** を選択し、「**選択**」をクリックします。
 

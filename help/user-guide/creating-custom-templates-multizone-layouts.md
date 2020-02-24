@@ -5,7 +5,7 @@ description: ここでは、マルチゾーンレイアウトのカスタムテ�
 seo-description: ここでは、マルチゾーンレイアウトのカスタムテンプレートの作成について説明します。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 6a0967580d06e749db878d74aad2ffb1fec82f43
+source-git-commit: 23208ed9e4e293cfcec65305918f35573c20cc02
 
 ---
 
@@ -61,14 +61,25 @@ Left20-LandscapeHD3Zoneレイアウトを使用すると、プロジェクトに
 1. 左バーのテンプレートをからにコピ `/libs/screens/core/templates/splitscreenchannel/lbar-left` ーしま `/apps/customtemplate/template`す。
 
 1. コピーした **lbar-left** (`/apps/customtemplate/template`)の名前を **my-custom-layoutに変更します**。
+   ![画像](/help/user-guide/assets/custom-multizone/custom-template3.png)
 
 1. プロパティ `/apps/customtemplate/template/my-custom-layout` jcr:descriptionを探して、 **Left20-LandscapeHD3Template for Left20** and *jcr:title******* to Template for Left-LandscapeHD3Zoneに移動し、更新します。
 
+   ![画像](/help/user-guide/assets/custom-multizone/custom-template4.png)
+
 1. から **offline-config** ノードに移動し `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` 、 **jcr:titleを** Left20-LandscapeHD3Zoneに更新します **。
+
+   ![画像](/help/user-guide/assets/custom-multizone/custom-template5.png)
 
 1. *my custom-templateの* jcr:content **プロパティに移動し、** cq:cssプロパティを `/apps/customtemplate/template/my-custom-layout/jcr:content` aem-Em-Custom-layout ******** layoutに更新します。
 
-1. 手順(4)を参照してください。この手順では、左側のテンプレートをコピーし、の下に3つのレスポンシブグリッドを表示しま `my-custom-layout/jcr:content`す。 *cq:cssClass* プロパティに各レスポンシブCSSを追加します。例： *my-custom-custom-css—top-left*, *my-custom—top-right,* my custom-layout, ** my custom-layout)。
+   ![画像](/help/user-guide/assets/custom-multizone/custom-template6.png)
+
+1. 手順(4)を参照してください。この手順では、左側のテンプレートをコピーし、の下に3つのレスポンシブグリッドを表示しま `my-custom-layout/jcr:content`す。 *cq:cssClass* プロパティの各レスポンシブグリッドにカスタムcssクラスを追加します。例えば、 *my-custom-layout—* top-left *for* r1c1 nodeと指定します。
+
+   ![画像](/help/user-guide/assets/custom-multizone/custom-template7.png)
+
+   同様に、 *my-custom-layout—top-right* for *r1c2* 、my-custom-layout bottom for *r2c1*** nodeを追加します。
 
    >[!NOTE]
    >これらのカスタムクラスは、レスポンシブグリッドの幅/高さを設定するためにCSSで使用されます。
@@ -76,72 +87,51 @@ Left20-LandscapeHD3Zoneレイアウトを使用すると、プロジェクトに
    >[!NOTE]
    > レスポンシブグリッドは、必要な合計グリッド数に基づいて追加または削除できます。 この例では、最初の行に2つのグリッドを、2番目の行に1つのグリッドを表示しているので、合計3つのレスポンシブグリッド(r1c1、r1c2、r2c1)があります。
 
-1. カスタム `/libs/settings/wcm/designs/screens` テンプ `/apps/settings/wcm/designs/` レートデザインにコ **ピーし、名前を変更します。**
+1. コピーし `/libs/settings/wcm/designs/screens` たデザ `/apps/settings/wcm/designs/` インをにコピーし、カスタムテンプ **レートデザインとして名前を変更します**。
 
 1. プロパティ `/apps/settings/wcm/designs/custom-template-designs` jcr:title *of custom-template-designs* に移動し、customtemplate **-design** に更新します ****。
 
-1. コンテンツを `/apps/settings/wcm/designs/<project>-designs/static.css` 次の内容に合わせて更新する
+1. static.cssに移 `/apps/settings/wcm/designs/custom-template-designs` 動し、ファイルを作成します。
 
-## 特定の設定を使用したカスタムテンプレートの作成 {#basic-flow-setting}
-
-![画像](assets/custom-template1.png)
-
-カスタムテンプレートを作成するには、以下の手順に従います。
-
-1. `/apps/<project>/templates/my-custom-layout` にテンプレートを作成します。
+1. コンテンツをstatic.cssファイルにコピーします。
 
    ```shell
-    <?xml version="1.0" encoding="UTF-8"?>
-    <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:description="My Custom 3-zones layout "
-    jcr:primaryType="cq:Template"
-    jcr:title="3-zones layout"
-    allowedParents="[/libs/screens/core/templates/channelfolder]"
-    allowedPaths="[/content/screens(/.*)?]"
-    ranking="{Long}20000">
-    <jcr:content
-        cq:cssClass="aem-Layout aem-Layout--3x1 my-CustomLayout"
-        cq:designPath="/apps/settings/wcm/designs/<project>"
-        cq:deviceGroups="[mobile/groups/responsive]"
-        jcr:primaryType="cq:PageContent"
-        sling:resourceSuperType="screens/core/components/channel"
-        sling:resourceType="screens/core/components/multiscreenchannel">
-        <r1c1
-            cq:cssClass="aem-LayoutCell--1-1 my-CustomLayout-top"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
-        <r2c1
-            cq:cssClass="aem-LayoutCell--1-1 my-CustomLayout-middle"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
-        <r3c1
-            cq:cssClass="aem-LayoutCell--1-1 my-CustomLayout-bottom"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
-        <cq:responsive jcr:primaryType="nt:unstructured">
-            <breakpoints jcr:primaryType="nt:unstructured"/>
-        </cq:responsive>
-        <offline-config/>
-    </jcr:content>
-   </jcr:root>
+       /*my-custom-layout styles*/
+      .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--top-left {
+       width:20%;
+       height: 36%;
+      float: left !important;
+      }
+     .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--top-right {
+      width:80%;
+      height: 36%;
+     float: left !important;
+     }
+     .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--bottom {
+     width:100%;
+     height: 64%;
+     }
    ```
-
-1. `/apps/settings/wcm/designs/<project>` にページデザインを作成します。
 
    >[!NOTE]
-   >
-   >上記の `cq:designPath` がこのパスと一致することを確認します。
+   > 割合は、カスタムテンプレートの要件に合わせて更新できます。
 
-1. デザインの **offline-config** ノードも、新しいパスを指すように更新します。
+1. プロパティ `/apps/<project>/templates/my-custom-layout/jcr:content` cq:designPathに移動して更新し **`/apps/settings/wcm/designs/customtemplate-designs` 、static.cssで設定されたスタイルを読み込みます。
 
-1. `/apps/settings/wcm/designs/<project>` フォルダーに **static.css** ファイルを追加し、その内容を以下のように設定します。
+   >[!NOTE]
+   > コピーや貼り付けではなく、すべてのスタイルを入力することをお勧めします。これにより、空白が発生し、CSSのスタイル設定に問題が生じる可能性があります。
 
-   ```shell
-   .cq-Screens-channel--multizone.my-CustomLayout {}
-   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-top { height: 150px; }
-   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-middle { height: 1470px; }
-   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-bottom { height: 300px; }
-   ```
+## 結果の表示 {#viewing-result}
+
+AEM Screensプロジェクトで上記のカスタマイズ済みテンプレートを使用するには、次の手順に従います。
+
+1. 手順(1)で作成したScreensプロジェクトに移動し、 **Channelsフォルダーを選択し** ます。
+
+   ![画像](/help/user-guide/assets/custom-multizone/custom-template8.png)
+
+1. アクシ **ョンバーで「作成** 」をクリックし、作成ウィザードで **「Left20-LandscapeHD3Zone** 」テンプレートを **** 選択します。
+
+1. カスタマイズしたテンプレートを使用してチャネルを作成したら、エディターからチャネルにアセットを追加できます。
 
 ## 背景レイヤーとしての画像の挿入 {#inserting-image}
 

@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
+source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
    + [ACL の設定](setting-up-acls.md)
    + [コンテンツ同期からスマート同期への移行](smartsync.md)
    + [ファイルをソースとする新しいプロジェクトインポーター](project-importer.md)
-   + [データトリガーの公開サーバへの複製](replicating-data-triggers.md)
+   + [データトリガーのパブリッシュサーバーへのレプリケーション](replicating-data-triggers.md)
    + 顧客固有の考慮事項 {#installing-client}
       + [Chrome OS プレーヤー](implementing-chrome-os-player.md)
       + [拡張機能としての Chrome プレーヤーの使用](using-chrome-player-as-an-extension.md)
@@ -89,7 +89,7 @@ source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
    + [コンポーネントの作成](creating-components.md)
    + [AEM SPA Editor を使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合](embedding-react-app.md)
    + [AEM Screens プロジェクトでの ContextHub の設定](configuring-context-hub.md)
-   + [マルチゾーンレイアウトのカスタムテンプレートの作成](creating-custom-templates-multizone-layouts.md)
+   + [Creating Custom Templates for MultiZone Layouts](creating-custom-templates-multizone-layouts.md)
 + トラブルシューティングと FAQ {#troubleshooting}
    + [AEM Screens の FAQ](aem-screens-faqs.md)
    + [デバイスコントロールセンターからのトラブルシューティング](monitoring-screens.md)

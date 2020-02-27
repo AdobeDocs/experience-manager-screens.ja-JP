@@ -10,8 +10,8 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-translation-type: ht
-source-git-commit: ed79a3c9e2b99ef1de6e293fe2e86adfa8dde85c
+translation-type: tm+mt
+source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
 
 ---
 
@@ -70,7 +70,7 @@ AEM Screens プロジェクト用に Context Hub の設定を開始する前に�
 
    1. **グローバル**／**デフォルト**／**ContextHub 設定**&#x200B;に移動します。
 
-   1. **作成／設定コンテナ**&#x200B;をクリックし、タイトルに「ContextHubDemo」と入力します。
+   1. Click **Create** > **Configuration Container** and enter the title as **ContextHubDemo**.
 
    1. **ContextHubDemo**／**ContextHub ストア設定...** に&#x200B;**移動**&#x200B;して、**設定ウィザード**&#x200B;を開きます。
 

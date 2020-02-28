@@ -10,13 +10,13 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
 
 ---
 
 
-# チャネルレベルのアクティブ化 - 単一イベント再生 {#channel-level-activation-single-event-playback}
+# Channel Level Activation {#channel-level-activation-single-event-playback}
 
 ここでは、以下のトピックについて説明します。
 
@@ -83,7 +83,7 @@ AEM Screens プロジェクトにチャネルレベルのアクティブ化を�
 
    >[!NOTE]
    >
-   >ロケーションの作成方法については、**[ロケーションの作成と管理](managing-locations.md)**&#x200B;を参照してください。
+   >ロケーションの作成方法については、**[ロケーションの作成と管理](managing-locations.md)**を参照してください。
 
 1. **ロケーションにディスプレイを作成する**
 
@@ -99,7 +99,7 @@ AEM Screens プロジェクトにチャネルレベルのアクティブ化を�
    1. **チャネルレベルのアクティブ化**／**ロケーション**／**地域**／**RegionDisplay** に移動し、アクションバーの「**チャネルを割り当て**」をクリックします。
    1. **チャネル割り当て**&#x200B;ダイアログボックスが開きます。
    1. 「**チャネルを参照...**」で「パス別」を選択します。
-   1. 「**チャネルパス**」で&#x200B;**チャネルレベルのアクティブ化**／***チャネル***／***MainAdChannel***&#x200B;を選択します。
+   1. Select the **Channel Path** as **Channel Level Activation** --> ***Channels*** --> ***MainAdChannel***.
    1. 「**チャネルロール**」は **mainadchannel** に設定します。
    1. 「**優先度**」で「**1**」を選択します。
    1. 「**サポートされているイベント**」で「**最初の読み込み**」および「**待機中画面**」を選択します。
@@ -115,7 +115,7 @@ AEM Screens プロジェクトにチャネルレベルのアクティブ化を�
    1. **チャネルレベルのアクティブ化**／**ロケーション**／**地域**／**RegionDisplay** に移動し、アクションバーの「**チャネルを割り当て**」をクリックします。
    1. **チャネル割り当て**&#x200B;ダイアログボックスが開きます。
    1. 「**チャネルを参照...**」で「パス別」を選択します。
-   1. 「**チャネルパス**」で&#x200B;**チャネルレベルのアクティブ化**／***チャネル***／***TargetedSinglePlay*** を選択します。
+   1. Select the **Channel Path** as **Channel Level Activation*** --> ***Channels*** --> ***TargetedSinglePlay***.
    1. 「**チャネルロール**」は **targetedsingleplay** に設定します。
    1. 「**優先度**」を「**2**」に設定します。
    1. 「**サポートされているイベント**」として「**最初の読み込み**」、「**待機中画面**」、「**タイマー**」を選択します（以下の図を参照）。

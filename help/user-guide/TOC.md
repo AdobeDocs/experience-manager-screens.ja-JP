@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
+source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
 
 ---
 
@@ -57,12 +57,12 @@ source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
       + [オフライン一括更新](bulk-offline-update.md)
       + [AEM Screens 通知サービス](screens-notifications-service.md)
       + [エクスペリエンスフラグメントの使用](experience-fragments-in-screens.md)
-      + [アセットレベルのスケジュール設定](asset-level-scheduling.md)
+      + [アセットレベルの有効化](asset-level-scheduling.md)
+      + [チャネルレベルの有効化](channel-level-activation.md)
       + [ライブコピーの作成と管理](managing-livecopy.md)
       + [ビデオパディングワークフローの作成](creating-a-video-padding-workflow.md)
       + [チャネルへのコンポーネントの追加](adding-components-to-a-channel.md)
       + [埋め込みシーケンス](embedded-sequences.md)
-      + [チャネルレベルのアクティブ化 - 単一イベント再生](channel-level-activation.md)
       + [マルチゾーンレイアウト](multi-zone-layout-aem-screens.md)
       + [ビデオレンディション](generating-renditions.md)
       + [動的埋め込みシーケンスの使用](dynamic-embedded-sequences.md)
@@ -89,7 +89,7 @@ source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
    + [コンポーネントの作成](creating-components.md)
    + [AEM SPA Editor を使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合](embedding-react-app.md)
    + [AEM Screens プロジェクトでの ContextHub の設定](configuring-context-hub.md)
-   + [Creating Custom Templates for MultiZone Layouts](creating-custom-templates-multizone-layouts.md)
+   + [マルチゾーンレイアウト用のカスタムテンプレートの作成](creating-custom-templates-multizone-layouts.md)
 + トラブルシューティングと FAQ {#troubleshooting}
    + [AEM Screens の FAQ](aem-screens-faqs.md)
    + [デバイスコントロールセンターからのトラブルシューティング](monitoring-screens.md)

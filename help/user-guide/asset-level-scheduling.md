@@ -4,14 +4,14 @@ seo-title: アセットレベルの有効化
 description: ここでは、プレーヤーのローカルタイムゾーンで予定時間枠にチャネル内の特定のアセットをアクティブにする方法について説明します。
 seo-description: ここでは、プレーヤーのローカルタイムゾーンで予定時間枠にチャネル内の特定のアセットをアクティブにする方法について説明します。
 translation-type: tm+mt
-source-git-commit: e58d2ffa1886199f1602de933dc0d8e5fb293cdd
+source-git-commit: 47e48625dcd414d359d816e3082e62abe4018d17
 
 ---
 
 
 # アセットレベルの有効化 {#asset-level-scheduling}
 
-ここでは、チャネルで使用されるアセットのアセットレベルのアクティブ化について説明します。
+このページでは、チャネルで使用されるアセットのアセットレベルのアクティブ化について説明します。
 
 この節では、以下のトピックについて説明します。
 
@@ -58,9 +58,9 @@ Asset Level Activation is done by configuring the **Activation** tab while acces
 
 1. 「**編集**」をクリックしてチャネルエディターを開き、スケジュールを設定するアセットを選択します。
 
-   ![screen_shot_2018-04-24at90434pm](/help/user-guide/assets/asset-activation/asset-level1.png)
+   ![画像](/help/user-guide/assets/asset-activation/asset-level1.png)
 
-1. アセットを選択し、左上の&#x200B;**設定**&#x200B;アイコンをクリックして、画像のプロパティを開きます。
+1. Select the asset and click on top left **Configure** (wrench icon) to open the properties of the image.
 
    「**アクティブ化**」タブをクリックします。
 
@@ -80,7 +80,7 @@ Asset Level Activation is done by configuring the **Activation** tab while acces
 
 ### 日分割 {#day-parting}
 
-1. アセットを選択し、**設定**&#x200B;アイコンをクリックして、プロパティダイアログボックスを開きます。
+1. Select the asset and click on **Configure** (wrench icon) to open the properties dialog box.
 
 1. 開始日時と終了日時を入力した後、式または自然テキストバージョンを使用して、繰り返しスケジュールを指定できます。
 
@@ -108,7 +108,7 @@ Asset Level Activation is done by configuring the **Activation** tab while acces
 
 ### 週の分割 {#week-parting}
 
-1. アセットを選択し、**設定**&#x200B;アイコンをクリックして、プロパティダイアログボックスを開きます。
+1. Select the asset and click on **Configure** (wrench icon) to open the properties dialog box.
 
 1. 開始日時と終了日時を入力した後、式または自然テキストバージョンを使用して、繰り返しスケジュールを指定できます。
 
@@ -135,7 +135,8 @@ Asset Level Activation is done by configuring the **Activation** tab while acces
 
 ### 月分割 {#month-parting}
 
-1. アセットを選択し、**設定**&#x200B;アイコンをクリックして、プロパティダイアログボックスを開きます。
+1. Select the asset and click on **Configure** (wrench icon) to open the properties dialog box.
+
 1. 開始日時と終了日時を入力した後、式または自然テキストバージョンを使用して、繰り返しスケジュールを指定できます。
 
    > [!NOTE]

@@ -4,7 +4,7 @@ seo-title: アセットレベルの有効化
 description: ここでは、プレーヤーのローカルタイムゾーンで予定時間枠にチャネル内の特定のアセットをアクティブにする方法について説明します。
 seo-description: ここでは、プレーヤーのローカルタイムゾーンで予定時間枠にチャネル内の特定のアセットをアクティブにする方法について説明します。
 translation-type: tm+mt
-source-git-commit: 47e48625dcd414d359d816e3082e62abe4018d17
+source-git-commit: 6c6c15349f350ee50f36f1a0661e7f16c0b42665
 
 ---
 
@@ -46,7 +46,7 @@ Asset Level Activation is done by configuring the **Activation** tab while acces
 
 1. 任意のチャネルを選択し、アクションバーの「**編集**」をクリックして、チャネル内のコンテンツを追加または編集します。
 
-   ![screen_shot_2018-04-23at111422am](assets/screen_shot_2018-04-23at111422am.png)
+   ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
    >[!NOTE]
    >
@@ -58,13 +58,13 @@ Asset Level Activation is done by configuring the **Activation** tab while acces
 
 1. 「**編集**」をクリックしてチャネルエディターを開き、スケジュールを設定するアセットを選択します。
 
-   ![画像](/help/user-guide/assets/asset-activation/asset-level1.png)
+   ![画像](/help/user-guide/assets/asset-activation/asset-level2.png)
 
 1. Select the asset and click on top left **Configure** (wrench icon) to open the properties of the image.
 
    「**アクティブ化**」タブをクリックします。
 
-   ![画像](/help/user-guide/assets/asset-activation/asset-level2.png)
+   ![画像](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. 日付選択で「アクティブ：自」と「アクティブ：終了」フィールドを使 **用して** 、日付を **指定できます** 。
 

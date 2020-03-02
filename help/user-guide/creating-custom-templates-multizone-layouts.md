@@ -5,7 +5,7 @@ description: ここでは、マルチゾーンレイアウトのカスタムテ�
 seo-description: ここでは、マルチゾーンレイアウトのカスタムテンプレートの作成について説明します。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 9e3f26e10a5168511b2bf138f8ce36b94778b339
+source-git-commit: 90d3d91f127432d8783748f00440bc6949262826
 
 ---
 
@@ -51,7 +51,7 @@ source-git-commit: 9e3f26e10a5168511b2bf138f8ce36b94778b339
 
 Left20-LandscapeHD3Zone レイアウトを使用すると、プロジェクトに次のマルチゾーンレイアウトを作成できます。
 
-![画像](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
+![画像](/help/user-guide/assets/custom-multizone/landscape-3-zone-new.png)
 
 ## Left20-LandscapeHD3Zone レイアウトの作成 {#landscape-layout-one}
 

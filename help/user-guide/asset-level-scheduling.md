@@ -4,7 +4,7 @@ seo-title: アセットレベルの有効化
 description: ここでは、プレーヤーのローカルタイムゾーンで予定時間枠にチャネル内の特定のアセットをアクティブにする方法について説明します。
 seo-description: ここでは、プレーヤーのローカルタイムゾーンで予定時間枠にチャネル内の特定のアセットをアクティブにする方法について説明します。
 translation-type: tm+mt
-source-git-commit: 6c6c15349f350ee50f36f1a0661e7f16c0b42665
+source-git-commit: bd672ce177b8b2c19dbe37f23d9589c51ba1fba2
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 6c6c15349f350ee50f36f1a0661e7f16c0b42665
 
 この機能を使用すると、開始日時と終了日時だけでなく、繰り返しパターンも指定できます。
 
-## 単一イベントの再生 {#single-event-playback}
+## アクティブ化ウィンドウ {#single-event-playback}
 
 Asset Level Activation is done by configuring the **Activation** tab while accessing properties of an asset.
 

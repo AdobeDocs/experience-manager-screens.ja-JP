@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 23ecaf3533c2298d98c37f2bbcb6cbe50aed17fc
 
 ---
 
@@ -31,19 +31,19 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 >
 >スクリーンプロジェクトでの他のコンポーネントの使用について詳しくは、[チャネルへのコンポーネントの追加](adding-components-to-a-channel.md)を参照してください。
 
-### 埋め込みシーケンスの追加{#adding-an-embedded-sequence}
+### 埋め込みシーケンスの追加 {#adding-an-embedded-sequence}
 
 埋め込みシーケンスをチャネルに追加できます。埋め込みシーケンスは、画像またはビデオなどのアセットを含んだ別のチャネルです。埋め込みシーケンスを追加すると、ユーザーは、***チャネルパス***&#x200B;でチャネルにシーケンスを追加できます。
 
 >[!NOTE]
 >
->チャネルパスは、チャネルへの明示的な参照を定義します。
+>***チャネルパスは*** 、チャネルへの明示的な参照を定義します。
 >
 >*チャネルパス*&#x200B;について詳しくは、画面の作成の[チャネル割り当て](channel-assignment.md)を参照してください。
 
 埋め込みシーケンスをチャネルに追加するには、次の手順に従います。
 
-1. ページを埋め込むチャネルを選択します（例：**We.Retail In-Store**／**Channels**／Idle Channel）。
+1. ページを埋め込むチャネルを選択します（例：**We.Retail In-Store**／**Channels**／**Idle Channel**）。
 
 1. アクションバーの「**編集**」をクリックして、チャネルをエディターモードで開きます。
 1. 左側のバーのコンポーネントアイコンをクリックして、埋め込まれたページを追加します。**埋め込みシーケンス**&#x200B;をエディターにドラッグ＆ドロップします。
@@ -53,12 +53,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. 「**メーター制再生戦略**」を「**通常**」に設定します。
 
-これはデフォルトで「**通常**」に設定されています。値を「**通常**」（すべてのアイテムを再生）に設定すると、親シーケンスの各サイクルで後続が完全に実行されます。他の指定可能な値には「**1 つのアイテムを再生**」があります。この場合は、各実行で後続の 1 つのアイテムのみ表示されます（例えば、最初のループで最初のアイテム、2 回目のループで 2 番目のアイテムというように）。
+これはデフォルトで「**通常**」に設定されています。Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
 
->[!NOTE]
->
->**重要：**
->
+>[!I重要な]
 >（埋め込みシーケンスで使用した）チャネルを同じディスプレイに割り当てる必要があります。
 >
 >上記の手順でチャネルに埋め込みシーケンスを追加した後、以下の手順に従います。
@@ -99,10 +96,10 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 1. アクションバーの「**編集**」をクリックして、チャネルをエディターモードで開きます。
 1. 左側のバーのコンポーネントアイコンをクリックして、動的埋め込みシーケンスを追加します。**動的**&#x200B;埋め込みシーケンスをエディターにドラッグ＆ドロップします。
 
-1. **動的**&#x200B;埋め込みシーケンスコンポーネントをダブルクリックして、シーケンスチャネルにページを追加します。
+1. Double-click the **Dynamic** **Embedded Sequence** component to add the page to your sequence channel.
 
 1. 「**チャネル割り当ての役割**」を入力します。
-1. 「**メーター制再生戦略**」を「**通常**」に設定します。これはデフォルトで「**通常**」に設定されています。値を「**通常**」（すべてのアイテムを再生）に設定すると、親シーケンスの各サイクルで後続が完全に実行されます。他の指定可能な値には「**1 つのアイテムを再生**」があります。この場合は、各実行で後続の 1 つのアイテムのみ表示されます（例えば、最初のループで最初のアイテム、2 回目のループで 2 番目のアイテムというように）。
+1. 「**メーター制再生戦略**」を「**通常**」に設定します。これはデフォルトで「**通常**」に設定されています。Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
 
 1. 「**シーケンス**」タブで、シーケンスに埋め込まれたチャネルの「**デュレーション (ms)**」を選択します。
 

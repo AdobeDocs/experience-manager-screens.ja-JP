@@ -4,7 +4,7 @@ seo-title: アセットレベルの有効化
 description: ここでは、プレーヤーのローカルタイムゾーンで予定時間枠にチャネル内の特定のアセットをアクティブにする方法について説明します。
 seo-description: ここでは、プレーヤーのローカルタイムゾーンで予定時間枠にチャネル内の特定のアセットをアクティブにする方法について説明します。
 translation-type: tm+mt
-source-git-commit: bae1749c6b39d263e3cf2a187a3b928981e5eadc
+source-git-commit: 74b0a98e3123f703db7f353685aed69d6012709d
 
 ---
 
@@ -173,10 +173,7 @@ Asset Level Activation is done by configuring the **Activation** tab while acces
 | 1 月 1～2 日の午後 2:00 より後、1 月 2～3 日の午前 3:00 より前 | チャネル内のアセットは、1月1日午後2時以降にプレイヤーを開始し、1月2日午前3時まで再生を続け、1月2日午後2時まで再び開始し、1月3日午前3時まで再生を続けます。 |
 
 > [!NOTE]
-> 曜日と月を定義する場合、月/月、1月/1月など、短い手の形とフルネームの表記の両方を使用できます。
-
->[!NOTE]
->*午前／午後*&#x200B;表記（例：午後 2:00）ではなく、_24 時間_&#x200B;表記（例：14:00）を使用することもできます。
+> 曜日と月を定義する場合、月/月、1月/1月など、短い手の形とフルネームの表記の両方を使用できます。  Additionally, you can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
 
 
 ## マルチアセットの有効化 {#multi-asset-scheduling}

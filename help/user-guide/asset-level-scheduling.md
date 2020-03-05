@@ -4,7 +4,7 @@ seo-title: アセットレベルの有効化
 description: ここでは、プレーヤーのローカルタイムゾーンで予定時間枠にチャネル内の特定のアセットをアクティブにする方法について説明します。
 seo-description: ここでは、プレーヤーのローカルタイムゾーンで予定時間枠にチャネル内の特定のアセットをアクティブにする方法について説明します。
 translation-type: tm+mt
-source-git-commit: 74b0a98e3123f703db7f353685aed69d6012709d
+source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: 74b0a98e3123f703db7f353685aed69d6012709d
    * 日分割
    * 週の分割
    * 月分割
+   * パーティンの組み合わせ
 * マルチアセットの有効化
 
 >[!CAUTION]

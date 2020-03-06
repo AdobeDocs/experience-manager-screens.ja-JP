@@ -10,8 +10,8 @@ content-type: reference
 topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 121aee4c8bf08e30898cc25d274ef4fc6bded5aa
 
 ---
 
@@ -49,17 +49,17 @@ AEM Screens プロジェクトを組織で初めてセットアップする場�
 
 | **プロパティ** | **説明** |
 |---|---|
-| ***path {string*}** | ロケーションのリソースパス |
-| ***[./jcr:title]{string*}** | 使用するテンプレートの名前（*screens/core/templates/location* の場合は location） |
+| ***path {string *}** | ロケーションのリソースパス |
+| ***[です。/jcr:title]{string *}** | 使用するテンプレートの名前（*screens/core/templates/location* の場合は location） |
 | ***template {string}*** | ページに使用するタイトル（オプション） |
-| [.****/jcr:description]{string}** | ページに使用する説明（オプション） |
+| ***[です。/jcr:description]{string}*** | ページに使用する説明（オプション） |
 
 したがって、スプレッドシート（CSV／XLS）ファイルには次の列が必要です。
 
-* **path {string}**：読み込むロケーションのパス。プロジェクトのロケーションフォルダーをルートとします。例えば、*/foo* の場合は */content/screens/&lt;project&gt;/locations/foo* に読み込まれます。
+* **path {string}**：読み込むロケーションのパス。プロジェクトのロケーションフォルダーをルートとします。例えば、*/foo* の場合は */content/screens/&lt;project>/locations/foo* に読み込まれます。
 
 * **template {string}**：新しいロケーションに使用するテンプレート。今のところ、使用可能な値は「location」だけですが、今後、すべての Screens テンプレート（「display」、「sequenchannel」など）に拡張される予定です。
-* [./*] {string}：ロケーションに設定する任意のオプションプロパティ（例：./jcr:title、./jcr:description、./foo、./bar）。現在のリリースでは、今のところフィルタリングは使用できません。
+* **[です。/*]{string}**Any optional property to be set on the location (that is, ./jcr:title, ./jcr:description, ./foo, ./bar). 現在のリリースでは、今のところフィルタリングは使用できません。
 
 >[!NOTE]
 >
@@ -107,7 +107,7 @@ AEM Screens プロジェクトを組織で初めてセットアップする場�
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. **読み込み**&#x200B;ウィザードが開きます。プロジェクトのロケーションを含んだ既存のファイルを選択するか、**&#x200B;前提条件の節でダウンロードした ***minimal-file.xls*** ファイルを選択します。
+1. **読み込み**&#x200B;ウィザードが開きます。プロジェクトのロケーションを含んだ既存のファイルを選択するか、******&#x200B;前提条件の節でダウンロードした *minimal-file.xls* ファイルを選択します。
 
    ファイルを選択したら、「**次へ**」をクリックします。
 

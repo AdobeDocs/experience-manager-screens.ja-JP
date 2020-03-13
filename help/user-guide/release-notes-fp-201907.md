@@ -10,8 +10,8 @@ topic-tags: release-notes
 content-type: reference
 discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
-translation-type: ht
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+translation-type: tm+mt
+source-git-commit: 1f90169ea2dab8bd63874d50708c6eb6ba61b370
 
 ---
 
@@ -36,7 +36,7 @@ AEM Screens 機能パック 201907 のリリース日は 2019 年 7 月 31 日�
 
 実装については、[緊急チャネル](emergency-channel.md)の使用例を参照してください。
 
-* **非同期コンポーネント（*ビデオ、埋め込みシーケンスなど*）に対して有効化できるターゲット設定**
+* **非同期コンポーネントのターゲット設定が有効
 
 AEM Screens プロジェクトで使用されるアセットに対してターゲット設定を有効にできるようになりました。
 
@@ -44,11 +44,11 @@ AEM Screens プロジェクトでアセットのターゲット設定を有効�
 
 AEM Screens プロジェクトに ContextHub を設定したら、以下の様々な使用例を通じて、データでトリガーされるアセットが様々な業界でいかに重要な役割を果たしているかを理解できます。
 
-**[小売店向けの在庫に応じたアクティブ化](retail-inventory-activation.md)**
+**[小売店向けの在庫に応じたアクティベーション](retail-inventory-activation.md)**
 
-**[旅行センター向けの気温に応じたアクティブ化](local-temperature-activation.md)**
+**[旅行センター向けの気温に応じたアクティベーション](local-temperature-activation.md)**
 
-**[接客業向けの予約状況に応じたアクティブ化](hospitality-reservation-activation.md)**
+**[接客業向けの予約状況に応じたアクティベーション](hospitality-reservation-activation.md)**
 
 * **更新ハンドラーの機能改善**
 

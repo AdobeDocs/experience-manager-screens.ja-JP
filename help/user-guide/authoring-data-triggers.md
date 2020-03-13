@@ -12,22 +12,15 @@ source-git-commit: 24fda825220c6c2863fd76098a2f06209d9e0190
 
 ここでは、チャネルでターゲット設定を有効にする方法について説明します。
 
->>[!I重要]:AEM Screensチャネルでデータトリガーをサポートする最小バージョンは、AEM 6.4.3機能パック3です。
->
-
 ## 前提条件 {#prereqs}
 
-チャネルでのターゲット設定を有効にするには、次の手順に従う前に、「AEM Screensでの設定」の「主な用語」で、AEM Screensでの [ContextHubとターゲット設定を理解するために](configuring-context-hub.md) 「AEM Screensでの設定」を参照してください。
+チャネルでのターゲット設定を有効にするには、次の手順に従う前に、次のトピックについて学習する必要があります。
 
->[!I重要な]
-> AEM Screensチャネルでターゲット設定を有効にする前に、ContextHubの設定を理解し、設定することをお勧めします。
+1. AEM Screensでの設定のキーワード
+1. データストアの設定
+1. オーディエンスセグメントの設定
 
-詳しくは、次のリンクを参照してください。
-
-1. **[データストアの設定](configuring-context-hub.md)**
-1. **[オーディエンスセグメントの設定](configuring-context-hub.md)**
-
-上記の手順を完了したら、チャネルでターゲット設定を有効にする準備が整いました。
+上記の手順を完了したら、チャネルでターゲット設定を有効にする準備が整います。
 
 ## Data Triggersを使用したオーサリングの概要 {#author-targeting}
 
@@ -37,7 +30,7 @@ source-git-commit: 24fda825220c6c2863fd76098a2f06209d9e0190
 
 以下の手順に従って、チャネルでターゲティングを有効にします。
 
-1. AEM Screens チャネルのいずれかに移動します。The following steps demonstrate how to enable targeting by using **DataDrivenRetail** *(sequence channel)* created in an AEM Screens Channel.
+1. AEM Screens チャネルのいずれかに移動します。以下の手順は、AEM Screens チャネルに作成した **DataDrivenRetail** を使用してターゲティングを有効にする方法を示しています。
 
 1. **DataDrivenRetail** チャネルを選択し、アクションバーの「**プロパティ**」をクリックします。
 

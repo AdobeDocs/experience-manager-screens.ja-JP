@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
+source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
 
 ---
 
@@ -57,8 +57,8 @@ source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
       + [オフライン一括更新](bulk-offline-update.md)
       + [AEM Screens 通知サービス](screens-notifications-service.md)
       + [エクスペリエンスフラグメントの使用](experience-fragments-in-screens.md)
-      + [アセットレベルの有効化](asset-level-scheduling.md)
-      + [チャネルレベルの有効化](channel-level-activation.md)
+      + [アセットレベルのアクティベーション](asset-level-scheduling.md)
+      + [チャネルレベルのアクティベーション](channel-level-activation.md)
       + [ライブコピーの作成と管理](managing-livecopy.md)
       + [ビデオパディングワークフローの作成](creating-a-video-padding-workflow.md)
       + [チャネルへのコンポーネントの追加](adding-components-to-a-channel.md)
@@ -68,15 +68,16 @@ source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
       + [動的埋め込みシーケンスの使用](dynamic-embedded-sequences.md)
       + [チャネルレベルの一括画像再生時間](channel-level-image-playback.md)
       + [コマンド同期](using-command-sync.md)
+      + [データトリガーを使用したオーサリング](authoring-data-triggers.md)
    + コンテンツ更新の管理 {#content-updates}
       + [オンデマンドのコンテンツ更新](on-demand-content.md)
       + [サービスとしてのコンテンツの更新](content-update-as-a-service.md)
       + [ローンチを使用したコンテンツ更新](launches.md)
    + 使用例 {#use-case-examples}
       + [緊急チャネル](emergency-channel.md)
-      + [旅行センター向けの気温に応じたアクティブ化](local-temperature-activation.md)
-      + [接客業向けの予約状況に応じたアクティブ化](hospitality-reservation-activation.md)
-      + [小売店向けの在庫に応じたアクティブ化](retail-inventory-activation.md)
+      + [旅行センター向けの気温に応じたアクティベーション](local-temperature-activation.md)
+      + [接客業向けの予約状況に応じたアクティベーション](hospitality-reservation-activation.md)
+      + [小売店向けの在庫に応じたアクティベーション](retail-inventory-activation.md)
       + [切り替えの適用](applying-transitions.md)
       + [マルチゾーンからシングルゾーンへの切り替え](multizone-to-singlezone.md)
       + [単一使用テイクオーバーチャネル](single-use-takeover-channel.md)
@@ -89,7 +90,7 @@ source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
    + [コンポーネントの作成](creating-components.md)
    + [AEM SPA Editor を使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合](embedding-react-app.md)
    + [AEM Screens プロジェクトでの ContextHub の設定](configuring-context-hub.md)
-   + [マルチゾーンレイアウト用のカスタムテンプレートの作成](creating-custom-templates-multizone-layouts.md)
+   + [マルチゾーンレイアウトでのカスタムテンプレートの作成](creating-custom-templates-multizone-layouts.md)
 + トラブルシューティングと FAQ {#troubleshooting}
    + [AEM Screens の FAQ](aem-screens-faqs.md)
    + [デバイスコントロールセンターからのトラブルシューティング](monitoring-screens.md)

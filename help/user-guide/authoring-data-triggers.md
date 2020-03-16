@@ -3,7 +3,7 @@ title: データトリガーを使用したオーサリング
 seo-title: データトリガーを使用したオーサリング
 description: データトリガーを使用して作成する方法については、このページを参照してください。
 translation-type: tm+mt
-source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
+source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
 ここでは、チャネルでターゲット設定を有効にする方法について説明します。
 
 >[!IMPORTANT]
-> AEM Screensチャネルでデータトリガーをサポートする最小バージョンは、AEM 6.4.3機能パック3です。
+> AEM Screensチャネルでデータトリガーをサポートする最小バージョンは、AEM 6.5.3機能パック3です。
 
 ## 前提条件 {#prereqs}
 
@@ -56,7 +56,7 @@ source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. **DataDrivenAssets**／**チャネル**&#x200B;に移動して「**DataDrivenRetail**」を選択し、アクションバーの「**編集**」をクリックします。
+1. **DataDrivenAssets**／**チャネル**&#x200B;に移動して「**DataDrivenRetail**」を選択し、アクションバーの「**編集**」をクリックします。チャンネルエディターでアセットをドラッグ&amp;ドロップします。
 
    >[!NOTE]
    >
@@ -64,9 +64,9 @@ source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-   >[!NOTE]
-   >
-   >チャネルの ContextHub 設定を完了したら、以下のすべての使用例に従う場合は、他の 3 つのシーケンスチャネルについても必ず上記の手順 1～4 に従ってください。
+1. 「ターゲット **設定**」をクリック
+
+1. 「**ブランド**」と「**アクティビティ**」のドロップダウンメニューから選択し、「**ターゲット設定を開始**」をクリックします。
 
 ### 詳細情報：使用例 {#learn-more-example-use-cases}
 

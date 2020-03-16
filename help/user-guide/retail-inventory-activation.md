@@ -10,8 +10,8 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ## 前提条件 {#preconditions}
 
-小売店向けの在庫に応じたアクティブ化の実装を開始する前に、AEM Screens プロジェクトで&#x200B;***データストア***、***オーディエンスのセグメント化***、***チャネルのターゲティングの有効化***&#x200B;をセットアップする方法を理解しておく必要があります。
+Before you start implementing the retail inventory targeting activation, you must learn how to set up ***Data Store***, ***Audience Segmentation*** and ***Enable Targeting for Channels*** in an AEM Screens Project.
 
 詳しくは、[AEM Screens プロジェクトでの ContextHub の設定](configuring-context-hub.md)を参照してください。
 
@@ -44,7 +44,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. **要件に従ってオーディエンスを設定する**
 
-   1. オーディエンスのセグメントに移動します（詳しくは、**[AEM Screens プロジェクトでの Context Hub の設定](configuring-context-hub.md)**&#x200B;の&#x200B;***手順 2：オーディエンスのセグメント化のセットアップ***&#x200B;を参照してください）。
+   1. オーディエンスのセグメントに移動します（詳しくは、***AEM Screens プロジェクトでの ContextHub の設定***&#x200B;の&#x200B;**[手順 2：オーディエンスのセグメント化のセットアップ](configuring-context-hub.md)**を参照してください）。
 
    1. 3 つの新しいセグメント **For_Red**、**For_Green**、**For_Blue** を追加します。
 
@@ -53,16 +53,16 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
    1. **比較 : プロパティ - プロパティ**&#x200B;コンポーネントをエディターにドラッグ＆ドロップし、設定アイコンをクリックしてプロパティを編集します。
    1. 「**1 つめのプロパティの名前**」のドロップダウンから「**googlesheets/value/1/2**」を選択します。
 
-   1. 「**演算子**」のドロップダウンメニューから「次よりも大きい」を選択します。
+   1. Select the **Operator** as **greater-than** from the drop-down menu
 
    1. 「**データタイプ**」として「**数値**」を選択します。
 
-   1. 「**2 つめのプロパティの名前**」のドロップダウンから「**googlesheets/value/1/1**」を選択します。
+   1. 「**2 つめのプロパティの名前**」のドロップダウンから「**googlesheets/value/1/1**」を選択します。。
 
-   1. 別の「比較 : プロパティ - プロパティ」コンポーネントをエディターにドラッグ＆ドロップし、設定アイコンをクリックしてプロパティを編集します。
-   1. 「**1 つめのプロパティの名前**」のドロップダウンから「**googlesheets/value/1/2**」を選択します。
+   1. Drag and drop **another Comparison : Property - Property** to the editor and click the configure icon to edit the properties.
+   1. Select **googlesheets/value/1/2** from the drop-down in **First Property name**.
 
-   1. 「**演算子**」のドロップダウンメニューから「次よりも大きい」を選択します。
+   1. Select the **Operator** as **greater-than** from the drop-down menu
 
    1. 「**データタイプ**」として「**数値**」を選択します。
 

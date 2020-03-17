@@ -10,7 +10,7 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
 
 ---
@@ -70,7 +70,7 @@ AEM Screens プロジェクト用に Context Hub の設定を開始する前に�
 
    1. **グローバル**／**デフォルト**／**ContextHub 設定**&#x200B;に移動します。
 
-   1. Click **Create** > **Configuration Container** and enter the title as **ContextHubDemo**.
+   1. **作成**／**設定コンテナ**&#x200B;をクリックし、タイトルに「**ContextHubDemo**」と入力します。
 
    1. **ContextHubDemo**／**ContextHub ストア設定...** に&#x200B;**移動**&#x200B;して、**設定ウィザード**&#x200B;を開きます。
 
@@ -210,6 +210,6 @@ AEM Screens プロジェクト用に Context Hub の設定を開始する前に�
 
 AEM Screens プロジェクトに ContextHub を設定したら、以下の様々な使用例を通じて、データでトリガーされるアセットが様々な業界でいかに重要な役割を果たしているかを理解できます。
 
-1. **[小売店向けの在庫に応じたアクティブ化](retail-inventory-activation.md)**
-1. **[旅行センター向けの気温に応じたアクティブ化](local-temperature-activation.md)**
-1. **[接客業向けの予約状況に応じたアクティブ化](hospitality-reservation-activation.md)**
+1. **[小売店向けの在庫に応じたアクティベーション](retail-inventory-activation.md)**
+1. **[旅行センター向けの気温に応じたアクティベーション](local-temperature-activation.md)**
+1. **[接客業向けの予約状況に応じたアクティベーション](hospitality-reservation-activation.md)**

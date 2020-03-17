@@ -10,8 +10,8 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-translation-type: ht
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+translation-type: tm+mt
+source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
 
 ---
 
@@ -24,17 +24,17 @@ source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 AEM Screens 用の Windows プレーヤーを実装するには、同プレーヤーをインストールしてください。
 
-[**AEM Screens Player のダウンロード**](https://download.macromedia.com/screens/) ページにアクセスします。
+[**AEM 6.4 Player のダウンロード&#x200B;**](https://download.macromedia.com/screens/)ページにアクセスします。
 
 ### アドホック方式 {#ad-hoc-method}
 
-アドホック方式を使用すると、最新の Windows プレーヤー（**.exe）をインストールできます。[**AEM Screens Player のダウンロード**](https://download.macromedia.com/screens/) ページにアクセスします。
+アドホック方式を使用すると、最新の Windows プレーヤー（**.exe）をインストールできます。[**AEM 6.4 Player のダウンロード&#x200B;**](https://download.macromedia.com/screens/)ページにアクセスします。
 
-アプリケーションをダウンロードしたら、以下の手順に従ってプレイヤーのアドホックインストールを完了します。
+アプリケーションをダウンロードしたら、以下の手順に従ってプレーヤーのアドホックインストールを完了します。
 
 1. 左上隅を長押しして、管理パネルを開きます。
 1. 左のアクションメニューから「**設定**」に移動し、接続する AEM インスタンスの場所（アドレス）を入力して、「**保存**」をクリックします。
-1. 左側のアクションメニューから「**デバイスの****登録**」リンクに移動して、デバイス登録プロセスのステータスを確認します。
+1. Navigate to the **Device** **Registration** link from the left action menu to check the status of the device registration process.
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Windows 10 プレーヤーを設定するには、次の手順を実行します
 1. 設定ファイルは ***%appdata%\com.adobe.aem.screens.player\config.json*** の下にあります。
 1. 後述の情報を使用して設定 JSON を更新し、同じフォルダーをプレーヤーが存在するすべてのシステムにコピーします。
 
-### ポリシー属性   {#policy-attributes}
+### ポリシー属性    {#policy-attributes}
 
 次の表に、参照用のポリシー JSON の例と共にポリシー属性を示します。
 
@@ -73,7 +73,7 @@ Windows 10 プレーヤーを設定するには、次の手順を実行します
 | enableOSD | デバイスのチャネルを切り替えるための、ユーザー用のチャネルスイッチャー UI を有効にします。完全に設定されて実稼動になったら、false に設定することを検討します。 |
 | enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にし、完全に設定されて実稼動になったら無効にします。 |
 
-#### ポリシー JSON ファイルの例{#example-policy-json-file}
+#### ポリシー JSON ファイルの例 {#example-policy-json-file}
 
 ```
 {
@@ -102,11 +102,11 @@ Windows プレーヤーをデプロイする際は、他のアプリケーショ
 
 1. シェルランチャーを有効にします。
 
-   詳しくは、Microsoft Windows サポートによる&#x200B;**[シェルランチャー](https://docs.microsoft.com/ja-JP/windows-hardware/customize/enterprise/shell-launcher)**&#x200B;ページの&#x200B;***シェルランチャーの構成***&#x200B;の節を参照してください。
+   詳しくは、Microsoft Windows サポートによる&#x200B;***シェルランチャー***&#x200B;ページの&#x200B;**[シェルランチャーの構成](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)**の節を参照してください。
 
 1. キオスクモードに使用する管理者以外のユーザーを作成します（まだ存在しない場合）。ローカルユーザーでもドメインユーザーでも構いません。
 1. [AEM Screens Player のダウンロード](https://download.macromedia.com/screens/) ページから、そのキオスクユーザー用の Windows プレーヤーをインストールします。
-1. PowerShell スクリプトの編集について詳しくは、[シェルランチャーを使って Windows 10 キオスクを作成する](https://docs.microsoft.com/ja-JP/windows/configuration/kiosk-shelllauncher)を参照してください。
+1. PowerShell スクリプトの編集について詳しくは、[シェルランチャーを使って Windows 10 キオスクを作成する](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher)を参照してください。
 
    PowerShell スクリプトを編集して、ユーザー名を上記で作成したユーザー名に置き換えます。アプリケーションの実行可能ファイルへのパスが正しいことを確認します。これにより、カスタムシェルがキオスクユーザーの Windows プレーヤーアプリケーションとして設定され、他のユーザーには explorer.exe がデフォルトとして設定されます。
 
@@ -119,7 +119,7 @@ Windows プレーヤーをデプロイする際は、他のアプリケーショ
 
 Windows プレーヤーのデフォルトのインストールパスは次のとおりです。
 
-***C:\Users\&amp;lt;your user&gt;\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
+***C:\Users\&amp;lt;your user>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
 
 リンク内のサンプルスクリプトでは、カスタムシェルを有効および無効にします。したがって、場合によっては、スクリプトを 2 つに分割し、それぞれで、該当する以下の行を有効または無効にする必要があります。
 

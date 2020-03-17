@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f8d4b612d9c10d3f9f43ff4792ca48a1bf9407d0
+source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: f8d4b612d9c10d3f9f43ff4792ca48a1bf9407d0
 
    ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. アクションバーで「チャネルの割り当て」をタップまたはクリックします。
+1. Tap/click **Assign Channel** in the action bar
 
    または、
 

@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
-translation-type: ht
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+translation-type: tm+mt
+source-git-commit: f8d4b612d9c10d3f9f43ff4792ca48a1bf9407d0
 
 ---
 
@@ -90,13 +90,13 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ### 時間帯区分 {#dayparting}
 
-**時間帯区分**&#x200B;との組み合わせでスケジュールすると、1 日の特定の時間に実行される複数のチャネルでグローバルなスケジュールを設定でき、すべてのディスプレイで一度にその設定を再利用できます。
+スケジュールを&#x200B;**時間帯区分**&#x200B;と組み合わせると、ある日の特定の時間に実行される複数のチャネルでグローバルスケジュールを設定でき、また一度にすべてのディスプレイでその設定を再使用できます。
 
 時間帯区分は、1 日を複数の時間帯に分けて、必要な時間にどのコンテツを再生するかを指定することを意味します。AEM Screens では、必要に応じて日、週、月内の時間帯区分でチャネルのスケジュールを設定できます。
 
 次の例は、3 つのシナリオでのチャネルの時間帯区分の説明です。
 
-#### 1 日のコンテンツ再生を複数の時間帯に分割{#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+#### 1 日のコンテンツ再生を複数の時間帯に分割 {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
 この例では、レストランが時間帯区分を使用して、モーニング、ランチ、ディナーのメニューを表示しています。
 
@@ -148,9 +148,9 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 >[!NOTE]
 >
->さらに、チャネルごとに&#x200B;***優先度&#x200B;***を定義できます。例えば、2 つのチャネルを同じ日時または同じ月に設定する場合は、優先度の高いチャネルが最初に再生されます。優先度の最小値は 0 として設定できます。
+>さらに、チャネルごとに&#x200B;***優先度***&#x200B;を定義できます。例えば、2 つのチャネルを同じ日時または同じ月に設定する場合は、優先度の高いチャネルが最初に再生されます。優先度の最小値は 0 として設定できます。
 
-#### 同じ優先度のチャネル用コンテンツの再生{#playing-content-for-channels-with-same-priority}
+#### 同じ優先度のチャネル用コンテンツの再生 {#playing-content-for-channels-with-same-priority}
 
 この例では、商店の時間帯区分が示され、冬物コレクションを 12 月に同じスケジュールで表示します。しかし、その週はチャネル B は優先度 2 に設定されており、チャネル A ではなくチャネル B がそのコンテンツを再生します。
 

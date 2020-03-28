@@ -76,4 +76,4 @@ Adobe Experience Manager 6.5 については、以下のチュートリアルと
 
 * **AEM Screens プロジェクトのベストプラクティスガイド**
 
-   AEM Screensプロジ **[ェクトの実装時に一般的な問題を特定するために設計された、AEM Screens](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)**Projectsのベストプラクティスガイドに従います。 この資料では、主にプロジェクトの役割と責任、様々な役割のAEMプラットフォーム設定のRACI図、サポートと監視に焦点を当てています。
+   AEM Screensプロジ [ェクトの実装時に一般的な問題を特定するために設計された、AEM Screens](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html) Projectsのベストプラクティスガイドに従います。 この資料では、主にプロジェクトの役割と責任、様々な役割のAEMプラットフォーム設定のRACI図、サポートと監視に焦点を当てています。

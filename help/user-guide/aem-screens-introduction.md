@@ -10,8 +10,8 @@ topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f30bfdba-8db6-482b-8d0c-2818fc58e2b1
 docset: aem65
-translation-type: ht
-source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
+translation-type: tm+mt
+source-git-commit: 23a6019e27f10ff0e207ddc9c279dc7d42942098
 
 ---
 
@@ -68,8 +68,12 @@ Adobe Experience Manager 6.5 については、以下のチュートリアルと
 * **AEM 6.5 のチュートリアルとビデオ**：AEM 6.5 のリリースに伴う AEM Sites、AEM Assets、AEM Forms、AEM Screens、AEM Foundation の新機能と更新された機能について重点的に解説する一連のチュートリアルとビデオです。
 * **AEM の中心概念**：AEM の構造に関する中心概念と、それを基にした開発方法の概要（JCR、Sling、OSGi、ディスパッチャー、ワークフロー、MSM の解説を含む）です。
 
-### 実装の要点（ガイド付き） {#guided-implementation-essentials}
+## その他のリソース {#additional-resources}
 
-ガイド付きの学習リソースである **[AEM Screens 実装の要点](https://guided.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**&#x200B;では、AEM Screens でサポートしている基本的な機能と高度な機能について説明しています。
+* **実装の要点（ガイド付き）**
 
-新しいプロジェクトを作成する際、組織およびビジネスの要件によっては、異なる機能が重複することがあります。
+   ガイド付きの学習リソースである **[AEM Screens 実装の要点](https://guided.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**では、AEM Screens でサポートしている基本的な機能と高度な機能について説明しています。
+
+* **AEM Screens プロジェクトのベストプラクティスガイド**
+
+   AEM Screensプロジ **[ェクトの実装時に一般的な問題を特定するために設計された、AEM Screens](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)**Projectsのベストプラクティスガイドに従います。 この資料では、主にプロジェクトの役割と責任、様々な役割のAEMプラットフォーム設定のRACI図、サポートと監視に焦点を当てています。

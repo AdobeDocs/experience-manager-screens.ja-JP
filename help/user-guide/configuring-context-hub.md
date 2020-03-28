@@ -10,8 +10,8 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-translation-type: ht
-source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
+translation-type: tm+mt
+source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
 
 ---
 
@@ -48,17 +48,34 @@ AEM Screens プロジェクト用に Context Hub の設定を開始する前に�
 >
 >詳しくは、Google ドキュメントの [Get an API Key](https://developers.google.com/maps/documentation/javascript/get-api-key) を参照してください。
 
+
 ## 手順 1：データストアのセットアップ {#step-setting-up-a-data-store}
 
 データストアは、ローカル I/O イベントまたはローカルデータベースイベントとして設定できます。
 
-### ローカル I/O イベント {#local-io-event}
+次のアセットレベルのデータトリガーの例は、AEM ScreensチャネルへのContextHub設定とセグメントパスを使用できるExcelシートなどのデータストアを設定するローカルデータベースイベントを示しています。
 
-以下の手順に従って、ContextHub 設定と AEM Screens チャネルへのセグメントパスを使用するための ASCII イベントのようなデータストアをセットアップします。
+次に示すように、Googleシートを正しく設定します。
 
-### ローカルデータベースイベント {#local-db-event}
+![画像](/help/user-guide/assets/context-hub/context-hub1.png)
 
-以下の手順に従って、ContextHub 設定と AEM Screens チャネルへのセグメントパスを使用するための Excel シートのようなデータストアをセットアップします。
+次の検証は、GoogleシートIDとAPIキーを次の形式で入力して、接続を確認する際に表示するものです。
+
+`https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
+
+![画像](/help/user-guide/assets/context-hub/context-hub2.png)
+
+
+>[!NOTE]
+>**AEMでのGoogle Sheet値の使用&#x200B;**>GoogleシートはContextHub Storeに値を公開し、スプレッドシートの行と列のインデックス（0から始まる）`<store-name>/values/<i>/<j>`と`<i>`に`<j>`、およびが表示されます。
+>
+> * /values/0/0ポイントはA1
+> * /values/5/0がA5を指す
+> * /values/0/5ポイントがE1
+
+
+次の例は、値が100を超えるか50を超える場合にアセットの変更をトリガーするデータストアとしてのExcelシートを示しています。
+
 
 1. **ContextHub に移動する**
 
@@ -85,14 +102,14 @@ AEM Screens プロジェクト用に Context Hub の設定を開始する前に�
      "service": {
        "host": "sheets.googleapis.com",
        "port": 80,
-       "path": "/v4/spreadsheets/<your sheet it>/values/Sheet1",
+       "path": "/v4/spreadsheets/<your google sheet id>/values/Sheet1",
        "jsonp": false,
        "secure": true,
        "params": {
-         "key": "<your API key>"
+         "key": "<your Google API key>"
        }
      },
-     "pollInterval": 3000
+     "pollInterval": 10000
    }
    ```
 
@@ -104,8 +121,8 @@ AEM Screens プロジェクト用に Context Hub の設定を開始する前に�
    >上記の JSON コードの該当するプレースホルダーを、Google シートのセットアップ時に取得した実際の *&lt;シート ID>* と *&lt;API キー>* に置き換えます。
 
    >[!CAUTION]
-   Google シートのストア設定を従来のフォルダー以外（例えば、独自のプロジェクトフォルダー内など）で作成した場合、ターゲティングは初期状態では機能しません。
-   Google シートのストア設定を従来のグローバルフォルダー以外で指定する場合は、「**ストア名**」を「**segmentation**」に、「**ストアの種類**」を「**aem.segmentation**」に、それぞれ設定する必要があります。さらに、上記の JSON 設定を定義する手順をスキップする必要があります。
+   Googleシートを作成してグローバルフォルダの外部（独自のプロジェクトフォルダなど）に設定を保存する場合、ターゲット設定は初期状態では機能しません。
+   In case, you want to configure the Google Sheets store configurations outside the global folder, then you should must set the **Store Name** as **segmentation** and **Store Type** as **aem.segmentation**. さらに、上記の JSON 設定を定義する手順をスキップする必要があります。
 
 1. **アクティビティにブランドを作成する**
 
@@ -140,7 +157,7 @@ AEM Screens プロジェクト用に Context Hub の設定を開始する前に�
 
 1. **オーディエンスにセグメントを作成する**
 
-   1. AEM インスタンスで、**パーソナライゼーション**／**オーディエンス**／**We.Retail** に移動します。
+   1. Navigate from your AEM instance to **Personalization** > **Audiences** > **screens**.
 
    1. **作成**／**Context Hub セグメントを作成**&#x200B;をクリックします。**新しい ContextHub セグメント**&#x200B;ダイアログボックスが開きます。
 
@@ -148,7 +165,7 @@ AEM Screens プロジェクト用に Context Hub の設定を開始する前に�
 
 1. **セグメントを編集する**
 
-   1. （上記手順で作成した）セグメント「**SheetA1 1**」を選択し、アクションバーの「**編集**」をクリックします。
+   1. Select the segment **Sheets A1 1**, and click **Edit** from the action bar.
 
    1. **比較 : プロパティ - 値**&#x200B;コンポーネントをエディターにドラッグ＆ドロップします。
    1. レンチアイコンをクリックして、**プロパティと値の比較**&#x200B;ダイアログボックスを開きます。
@@ -171,8 +188,9 @@ AEM Screens プロジェクト用に Context Hub の設定を開始する前に�
    1. 「**演算子**」のドロップダウンメニューから「**次と等しい**」を選択します。
 
    1. 「**値**」に「**2**」を入力します。
-   >[!NOTE]
-   上記の手順で適用したルールは、以下の使用例を実装するためのセグメントのセットアップ方法に関する例にすぎません。
+
+
+
 
 ## 手順 3：チャネルでのターゲティングの有効化 {#step-enabling-targeting-in-channels}
 

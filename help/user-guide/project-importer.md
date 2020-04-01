@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 121aee4c8bf08e30898cc25d274ef4fc6bded5aa
 
 ---
@@ -59,7 +59,7 @@ AEM Screens プロジェクトを組織で初めてセットアップする場�
 * **path {string}**：読み込むロケーションのパス。プロジェクトのロケーションフォルダーをルートとします。例えば、*/foo* の場合は */content/screens/&lt;project>/locations/foo* に読み込まれます。
 
 * **template {string}**：新しいロケーションに使用するテンプレート。今のところ、使用可能な値は「location」だけですが、今後、すべての Screens テンプレート（「display」、「sequenchannel」など）に拡張される予定です。
-* **[です。/*]{string}**Any optional property to be set on the location (that is, ./jcr:title, ./jcr:description, ./foo, ./bar). 現在のリリースでは、今のところフィルタリングは使用できません。
+* **[です。/*]{string}**ロケーションに設定する任意のオプションプロパティ（例：./jcr:title、./jcr:description、./foo、./bar）。現在のリリースでは、今のところフィルタリングは使用できません。
 
 >[!NOTE]
 >

@@ -10,7 +10,7 @@ topic-tags: release-notes
 content-type: reference
 discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1f90169ea2dab8bd63874d50708c6eb6ba61b370
 
 ---
@@ -36,11 +36,11 @@ AEM Screens 機能パック 201907 のリリース日は 2019 年 7 月 31 日�
 
 実装については、[緊急チャネル](emergency-channel.md)の使用例を参照してください。
 
-* **非同期コンポーネントのターゲット設定が有効
+* **非同期コンポーネントのターゲティングが有効
 
-AEM Screens プロジェクトで使用されるアセットに対してターゲット設定を有効にできるようになりました。
+AEM Screens プロジェクトで使用されるアセットに対してターゲティングを有効にできるようになりました。
 
-AEM Screens プロジェクトでアセットのターゲット設定を有効にする方法について詳しくは、[AEM Screens プロジェクトでの ContextHub の設定](configuring-context-hub.md)を参照してください。
+AEM Screens プロジェクトでアセットのターゲティングを有効にする方法について詳しくは、[AEM Screens プロジェクトでの ContextHub の設定](configuring-context-hub.md)を参照してください。
 
 AEM Screens プロジェクトに ContextHub を設定したら、以下の様々な使用例を通じて、データでトリガーされるアセットが様々な業界でいかに重要な役割を果たしているかを理解できます。
 

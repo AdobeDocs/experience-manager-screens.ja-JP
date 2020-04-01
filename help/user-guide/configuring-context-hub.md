@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
+source-git-commit: 65a94a5301e4f15979d198f90a2ffc75c8e34a8a
 
 ---
 
@@ -59,70 +59,70 @@ AEM Screens プロジェクト用に Context Hub の設定を開始する前に�
 
 ![画像](/help/user-guide/assets/context-hub/context-hub1.png)
 
-次の検証は、GoogleシートIDとAPIキーを次の形式で入力して、接続を確認する際に表示するものです。
+次の検証は、接続を確認する際に、次の形式で *googleシートIDと* APIキーの2つの値を入力すると ** 表示されます。
 
 `https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
 
 ![画像](/help/user-guide/assets/context-hub/context-hub2.png)
 
-
 >[!NOTE]
->**AEMでのGoogle Sheet値の使用&#x200B;**>GoogleシートはContextHub Storeに値を公開し、スプレッドシートの行と列のインデックス（0から始まる）`<store-name>/values/<i>/<j>`と`<i>`に`<j>`、およびが表示されます。
->
-> * /values/0/0ポイントはA1
-> * /values/5/0がA5を指す
-> * /values/0/5ポイントがE1
+> 次の例は、値が100を超えるか50を超える場合にアセットの変更をトリガーするデータストアとしてGoogleシートを示しています。
 
-
-次の例は、値が100を超えるか50を超える場合にアセットの変更をトリガーするデータストアとしてのExcelシートを示しています。
-
+## 手順2:GoogleシートのAEMインスタンスへの接続 {#step-connecting-aem-instance}
 
 1. **ContextHub に移動する**
 
    AEM インスタンスに移動し、左側のサイドバーにあるツールアイコンをクリックします。**サイト**／**ContextHub** をクリックします（下図を参照）。
 
-   ![screen_shot_2019-04-22at53222pm](assets/screen_shot_2019-04-22at53222pm.png)
+   ![画像](/help/user-guide/assets/context-hub/context-hub3.png)
 
 1. **新しい ContextHub ストア設定の作成**
 
-   1. **グローバル**／**デフォルト**／**ContextHub 設定**&#x200B;に移動します。
+   1. 「画面」という設定コンテナに移動 **します**。
 
-   1. **作成**／**設定コンテナ**&#x200B;をクリックし、タイトルに「**ContextHubDemo**」と入力します。
+   1. Click **Create** > **Create Configuration Container** and enter the title as **ContextHubDemo**.
 
-   1. **ContextHubDemo**／**ContextHub ストア設定...** に&#x200B;**移動**&#x200B;して、**設定ウィザード**&#x200B;を開きます。
+      ![画像](/help/user-guide/assets/context-hub/context-hub4.png)
 
-   1. 「**タイトル**」に「**Google Sheets**」、「**ストア名**」に「**googlesheets**」、「**ストアの種類**」に「**contexthub.generic-jsonp**」と、それぞれ入力します。
+   1. **ContextHubDemo** /CreateContentContentConfiguration **** Save **** Hubをクリックし、 **Save****** Hubをクリックします。
 
-   1. 「**次へ**」をクリックします。
-   1. 固有の JSON 設定を入力します。例えば、デモ目的では次の設定を使用できます。
-   1. 「**保存**」をクリックします。
+      >[!NOTE]
+      > 「保存」をク **リック** すると、 **ContextHub設定画面が開きます** 。
 
-   ```
-   {
-     "service": {
-       "host": "sheets.googleapis.com",
-       "port": 80,
-       "path": "/v4/spreadsheets/<your google sheet id>/values/Sheet1",
-       "jsonp": false,
-       "secure": true,
-       "params": {
-         "key": "<your Google API key>"
+   1. ContextHub設定画面 **で** 、作成/ **** ContentHub Store設定 **をクリックします。**
+
+      ![画像](/help/user-guide/assets/context-hub/context-hub5.png)
+
+   1. **Title** as Google Sheets **,** Google Sheets **,** Store Store Type Store **Store Type Store Type Store Name** Generic-jup Sonp ************ClickClickNameと入力します。
+      ![画像](/help/user-guide/assets/context-hub/context-hub6.png)
+
+   1. 固有の JSON 設定を入力します。例えば、次のJSONをデモ用に使用し、「保存」をクリックすると **、ContextHub設定の「** Google Sheets **** 」という名前のストア設定が表示されます。
+
+      >[!IMPORTANT]
+      >Make sure to replace the code with your *&lt;Sheet ID>* and *&lt;API Key>*, that you fetched while setting up the Google Sheets.
+
+      ```
+       {
+        "service": {
+        "host": "sheets.googleapis.com",
+        "port": 80,
+        "path": "/v4/spreadsheets/<your google sheets id>/values/Sheet1",
+        "jsonp": false,
+        "secure": true,
+        "params": {
+        "key": "<your Google API key>"
        }
-     },
-     "pollInterval": 10000
-   }
-   ```
+      },
+      "pollInterval": 10000
+      }
+      ```
 
-   >[!NOTE]
-   >
-   >上記のサンプルコードで、**pollInterval** は、値が更新される頻度をミリ秒単位で定義します。
-   >
-   >
-   >上記の JSON コードの該当するプレースホルダーを、Google シートのセットアップ時に取得した実際の *&lt;シート ID>* と *&lt;API キー>* に置き換えます。
+      >[!NOTE]
+      上記のサンプルコードで、**pollInterval** は、値が更新される頻度をミリ秒単位で定義します。上記の JSON コードの該当するプレースホルダーを、Google シートのセットアップ時に取得した実際の *&lt;シート ID>* と *&lt;API キー>* に置き換えます。
 
-   >[!CAUTION]
-   Googleシートを作成してグローバルフォルダの外部（独自のプロジェクトフォルダなど）に設定を保存する場合、ターゲット設定は初期状態では機能しません。
-   In case, you want to configure the Google Sheets store configurations outside the global folder, then you should must set the **Store Name** as **segmentation** and **Store Type** as **aem.segmentation**. さらに、上記の JSON 設定を定義する手順をスキップする必要があります。
+      >[!CAUTION]
+      Googleシートを作成してグローバルフォルダの外部（独自のプロジェクトフォルダなど）に設定を保存する場合、ターゲット設定は初期状態では機能しません。
+   >In case, you want to configure the Google Sheets store configurations outside the global folder, then you should must set the **Store Name** as **segmentation** and **Store Type** as **aem.segmentation**. さらに、上記の JSON 設定を定義する手順をスキップする必要があります。
 
 1. **アクティビティにブランドを作成する**
 

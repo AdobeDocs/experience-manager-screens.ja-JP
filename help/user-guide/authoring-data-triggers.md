@@ -2,7 +2,7 @@
 title: データトリガーを使用したオーサリング
 seo-title: データトリガーを使用したオーサリング
 description: データトリガーを使用して作成する方法については、このページを参照してください。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
 ---
@@ -10,34 +10,34 @@ source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
 # データトリガーを使用したオーサリング {#authoring-with-data-triggers}
 
-ここでは、チャネルでターゲット設定を有効にする方法について説明します。
+ここでは、チャネルでターゲティングを有効にする方法について説明します。
 
 >[!IMPORTANT]
-> AEM Screensチャネルでデータトリガーをサポートする最小バージョンは、AEM 6.5.3機能パック3です。
+> AEM Screens チャネルでデータトリガーをサポートする最小バージョンは、AEM 6.5.3 機能パック 3 です。
 
 ## 前提条件 {#prereqs}
 
-チャネルでのターゲット設定を有効にするには、次の手順に従う前に、「AEM Screensでの設定」の「主な用語」で、AEM Screensでの [ContextHubとターゲット設定を理解するために](configuring-context-hub.md) 「AEM Screensでの設定」を参照してください。
+チャネルでのターゲティングを有効にするには、次の手順に従う前に、AEM Screens での ContextHub とターゲティングを理解するために「[AEM Screens の設定における主な用語](configuring-context-hub.md)」を参照してください。
 
 >[!IMPORTANT]
-> AEM Screensチャネルでターゲット設定を有効にする前に、ContextHubの設定を理解し、設定することをお勧めします。
+> AEM Screens チャネルでターゲティングを有効にする前に、ContextHub の設定を理解し、設定することをお勧めします。
 
 詳しくは、次のリンクを参照してください。
 
 1. **[データストアの設定](configuring-context-hub.md)**
-1. **[オーディエンスセグメントの設定](configuring-context-hub.md)**
+1. **[オーディエンスのセグメント化の設定](configuring-context-hub.md)**
 
-上記の手順を完了したら、チャネルでターゲット設定を有効にする準備が整いました。
+上記の手順を完了したら、チャネルでターゲティングを有効にする準備が整いました。
 
-## Data Triggersを使用したオーサリングの概要 {#author-targeting}
+## データトリガーを使用したオーサリングの概要 {#author-targeting}
 
->[!VIDEO](https://video.tv.adobe.com/v/31921)
+>[!VIDEO](https://video.tv.adobe.com/v/31921?captions=jpn)
 
-## AEM Screensチャネルでのターゲティングの有効化 {#enabling-targeting}
+## AEM Screens チャネルでのターゲティングの有効化 {#enabling-targeting}
 
 以下の手順に従って、チャネルでターゲティングを有効にします。
 
-1. AEM Screens チャネルのいずれかに移動します。The following steps demonstrate how to enable targeting by using **DataDrivenRetail** *(sequence channel)* created in an AEM Screens Channel.
+1. AEM Screens チャネルのいずれかに移動します。以下の手順は、AEM Screens チャネルで作成した **DataDrivenRetail***（シーケンスチャネル）*&#x200B;を使用してターゲティングを有効にする方法を示しています。
 
 1. **DataDrivenRetail** チャネルを選択し、アクションバーの「**プロパティ**」をクリックします。
 
@@ -64,9 +64,9 @@ source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. 「ターゲット **設定**」をクリック
+1. 「**ターゲティング**」をクリック
 
-1. 「**ブランド**」と「**アクティビティ**」のドロップダウンメニューから選択し、「**ターゲット設定を開始**」をクリックします。
+1. 「**ブランド**」と「**アクティビティ**」のドロップダウンメニューから選択し、「**ターゲティングを開始**」をクリックします。
 
 ### 詳細情報：使用例 {#learn-more-example-use-cases}
 

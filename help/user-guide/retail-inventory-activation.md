@@ -1,6 +1,6 @@
 ---
-title: 小売店向けの在庫に応じたアクティブ化
-seo-title: 小売店向けの在庫に応じたアクティブ化
+title: 小売店向けの在庫に応じたアクティベーション
+seo-title: 小売店向けの在庫に応じたアクティベーション
 description: この使用例は、3 種類のカラートレーナーの小売在庫を表示します。Google シートに記録されているトレーナーの在庫数に応じて、最も数が多いトレーナー（赤、緑、青のいずれか）の画像がスクリーンに表示されます。
 seo-description: この使用例は、3 種類のカラートレーナーの小売在庫を表示します。Google シートに記録されているトレーナーの在庫数に応じて、最も数が多いトレーナー（赤、緑、青のいずれか）の画像がスクリーンに表示されます。
 uuid: 8e7faa65-b004-42b3-8865-4f71eb5dc1b1
@@ -10,13 +10,13 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
 ---
 
 
-# 小売店向けの在庫に応じたアクティブ化 {#retail-inventory-targeted-activation}
+# 小売店向けの在庫に応じたアクティベーション {#retail-inventory-targeted-activation}
 
 次の使用例では、Google シートの値に応じた 3 種類の画像の表示方法を示しています。
 
@@ -28,13 +28,13 @@ source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
 ## 前提条件 {#preconditions}
 
-Before you start implementing the retail inventory targeting activation, you must learn how to set up ***Data Store***, ***Audience Segmentation*** and ***Enable Targeting for Channels*** in an AEM Screens Project.
+小売店向けの在庫に応じたアクティベーションの実装を開始する前に、AEM Screens プロジェクトで&#x200B;***データストア***、***オーディエンスのセグメント化***、***チャネルのターゲティングの有効化***&#x200B;をセットアップする方法を理解しておく必要があります。
 
 詳しくは、[AEM Screens プロジェクトでの ContextHub の設定](configuring-context-hub.md)を参照してください。
 
 ## 基本フロー {#basic-flow}
 
-「小売店向けの在庫に応じたアクティブ化」の使用例を実装するには、以下の手順に従います。
+「小売店向けの在庫に応じたアクティベーション」の使用例を実装するには、以下の手順に従います。
 
 1. **Google シートにデータを入力する**
 
@@ -53,16 +53,16 @@ Before you start implementing the retail inventory targeting activation, you mus
    1. **比較 : プロパティ - プロパティ**&#x200B;コンポーネントをエディターにドラッグ＆ドロップし、設定アイコンをクリックしてプロパティを編集します。
    1. 「**1 つめのプロパティの名前**」のドロップダウンから「**googlesheets/value/1/2**」を選択します。
 
-   1. Select the **Operator** as **greater-than** from the drop-down menu
+   1. 「**演算子**」のドロップダウンメニューから「**次よりも大きい**」を選択します。
 
    1. 「**データタイプ**」として「**数値**」を選択します。
 
-   1. 「**2 つめのプロパティの名前**」のドロップダウンから「**googlesheets/value/1/1**」を選択します。。
+   1. 「**2 つめのプロパティの名前**」のドロップダウンから「**googlesheets/value/1/1**」を選択します。
 
-   1. Drag and drop **another Comparison : Property - Property** to the editor and click the configure icon to edit the properties.
-   1. Select **googlesheets/value/1/2** from the drop-down in **First Property name**.
+   1. 別の「**比較 : プロパティ - プロパティ**」コンポーネントをエディターにドラッグ＆ドロップし、設定アイコンをクリックしてプロパティを編集します。
+   1. 「**1 つめのプロパティの名前**」のドロップダウンから「**googlesheets/value/1/2**」を選択します。
 
-   1. Select the **Operator** as **greater-than** from the drop-down menu
+   1. 「**演算子**」のドロップダウンメニューから「**次よりも大きい**」を選択します。
 
    1. 「**データタイプ**」として「**数値**」を選択します。
 
@@ -92,18 +92,18 @@ Before you start implementing the retail inventory targeting activation, you mus
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
-   ターゲット設定プロセスを開始したときにアクティビティが正しく一覧表示されるように、「**ブランド**」と「**領域**」の両方を選択する必要があります。
+   ターゲティングプロセスを開始したときにアクティビティが正しく一覧表示されるように、「**ブランド**」と「**領域**」の両方を選択する必要があります。
 
 1. **デフォルト画像を追加する**
 
-   1. チャネルにデフォルト画像を追加し、「**ターゲット設定**」をクリックします。
-   1. 「**ブランド**」と「**アクティビティ**」のドロップダウンメニューから選択し、「**ターゲット設定を開始**」をクリックします。
+   1. チャネルにデフォルト画像を追加し、「**ターゲティング**」をクリックします。
+   1. 「**ブランド**」と「**アクティビティ**」のドロップダウンメニューから選択し、「**ターゲティングを開始**」をクリックします。
 
-   1. 「**ターゲット設定を開始**」をクリックします。
+   1. 「**ターゲティングを開始**」をクリックします。
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
-   ターゲット設定を開始する前に、サイドレールの「**+ エクスペリエンスのターゲットを追加**」をクリックして、セグメント（**For_Green**、**For_Red**、**For_Blue**）を追加する必要があります（下図を参照）。
+   ターゲティングを開始する前に、サイドレールの「**+ エクスペリエンスのターゲットを追加**」をクリックして、セグメント（**For_Green**、**For_Red**、**For_Blue**）を追加する必要があります（下図を参照）。
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 

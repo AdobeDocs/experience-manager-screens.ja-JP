@@ -3,7 +3,7 @@ cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
 + [Screens の概要](aem-screens-introduction.md)
 + 概要とキックスタートガイド {#overview}
    + [キックスタートガイド](kickstart-for-aem-screens.md)
-   + [Screens ベストプラクティスガイド](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
+   + [Screens ベストプラクティスガイド](https://docs.adobe.com/content/help/ja-JP/experience-manager-screens/using/about-guide.html)
    + [キーワード](screens-glossary.md)
 + デジタルサイネージネットワークの基礎知識 {#digital-signage-network}
    + [第 1 部：プロジェクト上の役割と責務](project-roles-responsibilities.md)
@@ -70,7 +70,7 @@ source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
       + [コマンド同期](using-command-sync.md)
       + [データトリガーを使用したオーサリング](authoring-data-triggers.md)
    + コンテンツ更新の管理 {#content-updates}
-      + [オンデマンドのコンテンツ更新](on-demand-content.md)
+      + [On-Demand コンテンツ更新](on-demand-content.md)
       + [サービスとしてのコンテンツの更新](content-update-as-a-service.md)
       + [ローンチを使用したコンテンツ更新](launches.md)
    + 使用例 {#use-case-examples}

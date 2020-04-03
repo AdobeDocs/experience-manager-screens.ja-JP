@@ -5,14 +5,14 @@ description: このページでは、テキストオーバーレイのカスタ�
 seo-description: このページでは、テキストオーバーレイのカスタムブランドとスタイル設定を適用する方法について説明します。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: f91faa23c7c5c4f0f705c77251554b64efaf2611
+source-git-commit: 835e801909d8d126042acd713fc68075ff598712
 
 ---
 
 
 # テキストオーバーレイのカスタムブランドとスタイル設定 {#creating-custom-branding-styling}
 
-このページでは、テキストオーバーレイのカスタムブランドとスタイル設定を適用する方法について説明します。
+このページでは、画面オーバーレイでアセットに適用するテキストオーバーレイのカスタムブランドとスタイルを適用する方法について説明します。チャネル
 
 ## テキストオーバーレイのカスタムブランドとスタイルの作成 {#steps-custom-branding}
 
@@ -27,15 +27,15 @@ source-git-commit: f91faa23c7c5c4f0f705c77251554b64efaf2611
    ![画像](/help/user-guide/assets/custom-brand/custom-brand2.png)
 
    >[!NOTE]
-   >テキストオーバーレイをチャネルエディタでアセットに追加する方法については、「テキストオーバーレイ」を参照 [してください](/help/user-guide/text-overlay.md)。
+   >テキストオーバーレイをチャネルエディタでアセットに追加する方法については、「テキストオーバーレイ」を参照 [してくださ](/help/user-guide/text-overlay.md)い。
 
 1. AEM インスタンスの **CRXDE lite**／ツール／CRXDE Lite に移動します。
 
-1. 例えば、この場合は、でカスタムデザ `/apps/settings/wcm/designs/<your-project>/`インを作成する必要があります。
+1. 例えば、この場合は、 `/apps/settings/wcm/designs/<your-project>/``/apps/settings/wcm/designs/customstyle/`
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. static.cssファイルに移動し、次のCSSルールを設定します。 次の図にも示します。
+1. static.cssファ *イルに移動し* 、次のCSSルールを設定します。 また、CSSルールの下の図の例としても示されています。
 
    ```shell
     //global styles
@@ -53,7 +53,7 @@ source-git-commit: f91faa23c7c5c4f0f705c77251554b64efaf2611
 
 1. パスをプロジェクトにコピーします。この場合、パスはとなります `/apps/settings/wcm/designs/customstyle`。
 
-1. 「 **DemoBrand** （手順1で作成）」というタイトルのチャネルに移動し、チャネルを選択した後、アクションバーの「 **Properties** 」をクリックします。
+1. 手順(1)で作成した **DemoBrand** ( **DemoBrand** )というタイトルのチャネルに移動し、チャネルを選択した後、アクションバーの「Properties」をクリックします。
 
 1. 「詳細」タブに移 **動し** 、「デザイン」フィールドを **確認します** 。
    ![画像](/help/user-guide/assets/custom-brand/custom-brand5.png)
@@ -70,31 +70,31 @@ source-git-commit: f91faa23c7c5c4f0f705c77251554b64efaf2611
 
 ## 結果の表示 {#viewing-the-result}
 
-上記の手順を完了したら、 *CRXDE Liteから* statis.css **** ファイルを更新し、その結果、アセットに追加されたテキストレイアウトに更新を表示できます。
+上記の手順を完了したら、 *CRXDE Lite* (CRXDE Lite)から **** statis.cssファイルを更新し、その結果、既にアセットに追加されているテキストオーバーレイに更新を表示できます。
 
-次の手順に従って、更新されたデザインを表示し、テキストレイアウトにします。
+次の手順に従って、更新されたデザインを表示し、テキストオーバーレイを作成します。
 
-1. 「 **customstyle** 」というAEM Screensプロジェクト、「 **DemoBrand** 」というチャネルに移動し、アクションバーの「 **Edit** 」をクリックしてエディターを開きます。
+1. AEM Screensプロジェクト(「customstyle **」>「** チャネル **」** —>「 **DemoBrand**」)に移動します。  チャネルを選択し、アクションバーの「**編集**」をクリックして、エディターを開きます。
 
 1. これでデザインが「 **Designs** 」フィールドに追加されたので、前述のように「 **プレビュー** 」をクリックし、画像上の現在のスタイルをテキストオーバーレイで表示します。
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. CRXDE Liteでstatic.cssファイルに移動し、例えばフォントを追加します。
+1. CRXDE Liteで *static.css* ファイルに移動し、次に示すように、このファイルにフ `font-family: "Lucida Console", Courier, monospace;` ォント（など）を追加します。
    ![画像](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
-1. 変更を保存し、プレビューを再度読み込むと、次の図に示すように、テキストオーバーレイのフォントが更新されます。
+1. 変更を保存してプレビューを再読み込みすると、次の図に示すように、テキストオーバーレイのフォントが更新されます。
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. また、static.cssファイルから最後の2つのコードブロックを削除して、テキストオーバーレイの周囲のボックス化されたスタイルを削除できます。
+1. さらに、 *static.cssファイルからコードの最後の2つのブロックを削除して* 、テキストオーバーレイの周囲のボックス化されたスタイルを削除できます。
    ![画像](/help/user-guide/assets/custom-brand/custom-brand10.png)
 
-1. 次に示すように、表示内での更新後の変更をプレビューに反映し、テキストオーバーレイを画像に追加します。
+1. 画像内の更新後の変更を表示します。ここで、プレビュー内のテキストオーバーレイが画像に追加されます。
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-このため、前の節の手順に従って、アセットに追加したテキストオーバーレイのブランドとカスタムのスタイルを更新できます。
+このチュートリアルを参照して、アセットに追加されたテキストオーバーレイのブランドとカスタムのスタイル設定を更新できるようになりました。
 
 
 

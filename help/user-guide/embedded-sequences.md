@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
-translation-type: ht
-source-git-commit: 23ecaf3533c2298d98c37f2bbcb6cbe50aed17fc
+translation-type: tm+mt
+source-git-commit: 1222b1fcfedcc68c360c69867d3db4044ce8e7d8
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 23ecaf3533c2298d98c37f2bbcb6cbe50aed17fc
 >
 >スクリーンプロジェクトでの他のコンポーネントの使用について詳しくは、[チャネルへのコンポーネントの追加](adding-components-to-a-channel.md)を参照してください。
 
-### 埋め込みシーケンスの追加{#adding-an-embedded-sequence}
+### 埋め込みシーケンスの追加 {#adding-an-embedded-sequence}
 
 埋め込みシーケンスをチャネルに追加できます。埋め込みシーケンスは、画像またはビデオなどのアセットを含んだ別のチャネルです。埋め込みシーケンスを追加すると、ユーザーは、***チャネルパス***&#x200B;でチャネルにシーケンスを追加できます。
 
@@ -55,7 +55,7 @@ source-git-commit: 23ecaf3533c2298d98c37f2bbcb6cbe50aed17fc
 
 これはデフォルトで「**通常**」に設定されています。値を「**通常**」（すべてのアイテムを再生）に設定すると、親シーケンスの各サイクルで後続が完全に実行されます。他の指定可能な値には「**1 つのアイテムを再生**」があります。この場合は、各実行で後続の 1 つのアイテムのみ表示されます（例えば、最初のループで最初のアイテム、2 回目のループで 2 番目のアイテムというように）。
 
->[!I重要]
+>[!IMPORTANT]
 >（埋め込みシーケンスで使用した）チャネルを同じディスプレイに割り当てる必要があります。
 >
 >上記の手順でチャネルに埋め込みシーケンスを追加した後、以下の手順に従います。

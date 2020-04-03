@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 65a94a5301e4f15979d198f90a2ffc75c8e34a8a
+source-git-commit: 1c251320ec5c514c559f6e506028b0ad6f9bf68b
 
 ---
 
@@ -42,12 +42,11 @@ AEM Screens プロジェクトの在庫主導型チャネルを作成および�
 
 AEM Screens プロジェクト用に Context Hub の設定を開始する前に、（デモ用に）Google シートをセットアップする必要があります。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >次の例では、値の取得先となるサンプルデータベースシステムとして Google シートを使用していますが、この Google シートはあくまで教育用のものです。アドビでは、実稼働環境への Google シートの使用はお勧めしません。
 >
 >詳しくは、Google ドキュメントの [Get an API Key](https://developers.google.com/maps/documentation/javascript/get-api-key) を参照してください。
-
 
 ## 手順 1：データストアのセットアップ {#step-setting-up-a-data-store}
 
@@ -68,7 +67,7 @@ AEM Screens プロジェクト用に Context Hub の設定を開始する前に�
 >[!NOTE]
 > 次の例は、値が100を超えるか50を超える場合にアセットの変更をトリガーするデータストアとしてGoogleシートを示しています。
 
-## 手順2:GoogleシートのAEMインスタンスへの接続 {#step-connecting-aem-instance}
+## 手順2:ストア設定の設定 {#step-setting-store-configurations}
 
 1. **ContextHub に移動する**
 
@@ -122,7 +121,19 @@ AEM Screens プロジェクト用に Context Hub の設定を開始する前に�
 
       >[!CAUTION]
       Googleシートを作成してグローバルフォルダの外部（独自のプロジェクトフォルダなど）に設定を保存する場合、ターゲット設定は初期状態では機能しません。
-   >In case, you want to configure the Google Sheets store configurations outside the global folder, then you should must set the **Store Name** as **segmentation** and **Store Type** as **aem.segmentation**. さらに、上記の JSON 設定を定義する手順をスキップする必要があります。
+
+1. **ストアセグメントの設定**
+
+   1. 「 **ContentHub Store Configuration」に移動します。** 画面設定コンテナで別のストア設定を作成し、 **Segmentation** - **contexthub** Name **as** segmentationStore **Store** title as ******** SegmentationStore Store Title aem.
+
+      ![画像](/help/user-guide/assets/context-hub/context-hub7.png)
+
+   1. Click **Next** and then **Save**.
+
+      >[!NOTE]
+jsonを定義するプロセスをスキップし、空白のままにする必要があります。
+
+## 手順3:ブランドとエリアの設定 {#setting-brand-area}
 
 1. **アクティビティにブランドを作成する**
 
@@ -132,14 +143,14 @@ AEM Screens プロジェクト用に Context Hub の設定を開始する前に�
 
    1. **ページを作成**&#x200B;ウィザードから「**ブランド**」を選択し、「**次へ**」をクリックします。
 
-   1. 「**タイトル**」に「**ContextHubDemo**」と入力し、「**作成**」をクリックします。これで、以下のようにブランドが作成されました。
-   ![screen_shot_2019-05-05at44305pm](assets/screen_shot_2019-05-05at44305pm.png)
+   1. Enter the **Title** as **ScreensBrand** and click **Create**. これで、以下のようにブランドが作成されました。
+
+      ![画像](/help/user-guide/assets/context-hub/context-hub8.png)
 
 
-   >[!CAUTION]
-   既知の問題：
-   領域を追加するには、URL（例えば下記）から「master」を削除します。
-   `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
+      >[!CAUTION]
+      既知の問題：領域を追加するには、URLからマスターを削除します。例えば、
+      `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
 
 1. **ブランドに領域を作成する**
 
@@ -151,7 +162,7 @@ AEM Screens プロジェクト用に Context Hub の設定を開始する前に�
 
    1. 「**タイトル**」に「**GoogleSheets**」と入力し、「**作成**」をクリックします。これで、アクティビティに領域が作成されます。
 
-## 手順 2：オーディエンスのセグメント化のセットアップ {#step-setting-up-audience-segmentation}
+## 手順 4：オーディエンスのセグメント化のセットアップ {#step-setting-up-audience-segmentation}
 
 データストアをセットアップし、ブランドを定義したら、以下の手順に従ってオーディエンスセグメントをセットアップします。
 
@@ -192,7 +203,7 @@ AEM Screens プロジェクト用に Context Hub の設定を開始する前に�
 
 
 
-## 手順 3：チャネルでのターゲティングの有効化 {#step-enabling-targeting-in-channels}
+## Enabling Targeting in Channels {#step-enabling-targeting-in-channels}
 
 以下の手順に従って、チャネルでターゲティングを有効にします。
 

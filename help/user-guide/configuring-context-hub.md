@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
+source-git-commit: 7481e63a96d07b4e6ff33bf9d6f15e5e6c7bead6
 
 ---
 
@@ -134,9 +134,7 @@ AEM Screens プロジェクト用に Context Hub の設定を開始する前に�
 jsonを定義するプロセスをスキップし、空白のままにする必要があります。
 
 
-## Step 3: Setting Up Audience {#setting-up-audience}
-
-保留中：プロパティを追加するには
+## 手順3:セグメントの設定オーディエンス {#setting-up-audience}
 
 1. **オーディエンスにセグメントを作成する**
 
@@ -144,58 +142,20 @@ jsonを定義するプロセスをスキップし、空白のままにする必�
 
    1. **作成**／**Context Hub セグメントを作成**&#x200B;をクリックします。**新しい ContextHub セグメント**&#x200B;ダイアログボックスが開きます。
 
-   1. Enter the **Title** as **TargetValue1** and click **Create**. Similarly, create another segment titled as **TargetValue2**.
+   1. Enter the **Title** as **Higherthan50** and click **Create**. Similarly, create another segment titled as **Lowerthan50**.
 
-      ![画像](/help/user-guide/assets/context-hub/context-hub10.png)
+      ![画像](/help/user-guide/assets/context-hub/context-hub11.png)
 
+   1. Select the segment **Higherthan50** and click **Properties** from the action bar.
+      ![画像](/help/user-guide/assets/context-hub/context-hub12.png)
 
+   1. セグメントプロ **パティ** から「パーソナライゼ **ーション」タブを選択しま**&#x200B;す。 次の図に示すよ **うに、** ContextHub `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub` パスを **「パス」と「セグメントパス」に設定し、「保** 存 `/conf/screens/settings/wcm/segments`****」をクリックして、「保存」をクリックします。
 
-## 手順 4：オーディエンスのセグメント化のセットアップ {#step-setting-up-audience-segmentation}
+      ![画像](/help/user-guide/assets/context-hub/context-hub13.png)
 
-編集の追加を保留中
+   1. 同様に、 **ContextHub Pathと** Segments Path **for** Lowerthan **** 50セグメントも設定します。
 
-データストアを設定し、アクティビティ（ブランドとエリア）を定義したら、次の手順に従ってオーディエンスセグメントを設定します。
-
-1. **オーディエンスにセグメントを作成する**
-
-   1. Navigate from your AEM instance to **Personalization** > **Audiences** > **screens**.
-
-   1. **作成**／**Context Hub セグメントを作成**&#x200B;をクリックします。**新しい ContextHub セグメント**&#x200B;ダイアログボックスが開きます。
-
-   1. Enter the **Title** as **TargetValue1** and click **Create**. Similarly, create another segment titled as **TargetValue2**.
-
-      ![画像](/help/user-guide/assets/context-hub/context-hub10.png)
-
-
-1. **セグメントを編集する**
-
-   1. Select the segment **TargetValue1**, and click **Edit** from the action bar.
-
-   1. **比較 : プロパティ - 値**&#x200B;コンポーネントをエディターにドラッグ＆ドロップします。
-   1. レンチアイコンをクリックして、**プロパティと値の比較**&#x200B;ダイアログボックスを開きます。
-   1. 「**プロパティ名**」のドロップダウンから「**googlesheets/value/1/0**」を選択します。
-
-   1. Select the **Operator** as **equal** from the drop-down menu.
-
-   1. 「**値**」に「**1**」を入力します。
-   >[!NOTE]
-   AEM で Google シートのデータが検証されると、セグメントが緑色で表示されます。
-
-   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
-
-   同様に、プロパティ値を **TargetValue2に編集します**。
-
-   1. **比較 : プロパティ - 値**&#x200B;コンポーネントをエディターにドラッグ＆ドロップします。
-   1. レンチアイコンをクリックして、**プロパティと値の比較**&#x200B;ダイアログボックスを開きます。
-   1. 「**プロパティ名**」のドロップダウンから「**googlesheets/value/1/0**」を選択します。
-
-   1. 「**演算子**」のドロップダウンメニューから「**次と等しい**」を選択します。
-
-   1. 「**値**」に「**2**」を入力します。
-
-
-
-## 手順5:ブランドとエリアの設定 {#setting-brand-area}
+## 手順4:ブランドとエリアの設定 {#setting-brand-area}
 
 次の手順に従って、ブランドをブランドの下のアクティビティと領域に作成します。
 
@@ -229,21 +189,64 @@ jsonを定義するプロセスをスキップし、空白のままにする必�
    1. Enter the **Title** as **ScreensValue** and click **Create**.
 ブランドに領域が作成されます。
 
-## 手順6:アクティビティ {#step-setting-up-activity}
+## 手順5:セグメントのアクティビティ {#step-setting-up-audience-segmentation}
 
-以下の手順に従って、ブランドに領域を作成します。
+データストアを設定し、アクティビティ（ブランドとエリア）を定義したら、次の手順に従ってアクティビティでセグメントを作成します。
 
-1. 「 **ScreensValue** 」（前の手順で作成）に移動し、作成/作成 **アクティビティ** をクリックします ****。
+1. **セグメントの作成アクティビティ**
 
-1. [ **アクティビティの設定** ]ウィザード **Titleをtargetvaluecheck** 、 **Targetvaluecheck****名******&#x200B;前を入力します。 ドロップダ **ウンから** ContextHub(AEM) **としてターゲットエンジンを選択し、「次へ」をクリッ** クします ****。
+   1. Navigate from your AEM instance to **Personalization** > **Activities** > **ScreensBrand** >**ScreensValue**.
 
-1. 「エクスペリエ **追加ンスを設定」ウィザード** で「アクティビティ」をクリックしま ****&#x200B;す。
+   1. Click **Create** > **Create Activity.** [ **アクティビティの設定** ]ウィザード
 
-1. オーディエンスから ****、 **ExperienceValue1****** 、Experience Target、Target、Target、Target、Target、Target、Target、Target、Name、Target、Title、CheckTitle、TheckTitle、Titleを選択し、 **************** VeValueValueVerValue1ExperVerVerVit、VerVitlを選択します。
+   1. タイトルを **ValueCheck50** 、名前 **をvaluecheck50****と******&#x200B;して入力します。 ドロップダ **ウンから** ContextHub(AEM) **としてターゲットエンジンを選択し、「次へ」をクリッ** クします ****。
 
-1. 同様に、オーディエンスから **ExperienceValue** 2を選択し、「 **ExperienceValue** 2」をクリックして、「 **ExperienceTarget** Title **Target** Target **Target********** Name HeckName Heck2」を「Valuecheck2」と入力します。
+      ![画像](/help/user-guide/assets/context-hub/context-hub14.png)
 
-1. Click **Next** and then **Save**.
+   1. 「エクスペリエ **追加ンスを設定」ウィザード** で「アクティビティ」をクリックしま ****&#x200B;す。
+
+   1. オーディエンス **** 500より高い値を選択し、「 **Experience** 」をクリックし、「TitleTitle」を「 **TitleTitle」に入力します。** Name **************** 0より高い値をHigherExperienceS500」を選択します。 「**OK**」をクリックします。
+
+   1. オーディエンス **** 50より小さい名前を選択し、「 **50****」をクリックして、「エクスペリエンスのタイトル」を「5」と入力します。「5」を「5」を「5」を「5」「5」「5」を「5」「5」「5」を「****************** 5」 「**OK**」をクリックします。
+
+      ![画像](/help/user-guide/assets/context-hub/context-hub15.png)
+
+   1. Click **Next** and then **Save**. **ValueCheck50アクティビティが作成され** 、設定されました。
+
+      ![画像](/help/user-guide/assets/context-hub/context-hub16.png)
+
+## 手順5:セグメントの編集 {#editing-audience-segmentation}
+
+1. **セグメントを編集する**
+
+   1. 
+      1. AEMインスタンスから **Personalization** / **ScreensScreensScreens** / **ScreensValueValueValueCheck********** 5000Provice Prover Prover Personalization ValueScreensに移動します。
+   1. Select the segment **ValueCheck50**, and click **Edit** from the action bar.
+
+   1. **比較 : プロパティ - 値**&#x200B;コンポーネントをエディターにドラッグ＆ドロップします。
+   1. レンチアイコンをクリックして、**プロパティと値の比較**&#x200B;ダイアログボックスを開きます。
+   1. 「**プロパティ名**」のドロップダウンから「**googlesheets/value/1/0**」を選択します。
+
+   1. Select the **Operator** as **equal** from the drop-down menu.
+
+   1. 「**値**」に「**1**」を入力します。
+   >[!NOTE]
+   AEM で Google シートのデータが検証されると、セグメントが緑色で表示されます。
+
+   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
+
+   同様に、プロパティ値を **TargetValue2に編集します**。
+
+   1. **比較 : プロパティ - 値**&#x200B;コンポーネントをエディターにドラッグ＆ドロップします。
+   1. レンチアイコンをクリックして、**プロパティと値の比較**&#x200B;ダイアログボックスを開きます。
+   1. 「**プロパティ名**」のドロップダウンから「**googlesheets/value/1/0**」を選択します。
+
+   1. 「**演算子**」のドロップダウンメニューから「**次と等しい**」を選択します。
+
+   1. 「**値**」に「**2**」を入力します。
+
+
+
 
 ## Enabling Targeting in Channels {#step-enabling-targeting-in-channels}
 

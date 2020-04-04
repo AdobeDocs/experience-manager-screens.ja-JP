@@ -5,7 +5,7 @@ description: このページでは、テキストオーバーレイのカスタ�
 seo-description: このページでは、テキストオーバーレイのカスタムブランドとスタイル設定を適用する方法について説明します。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 835e801909d8d126042acd713fc68075ff598712
+source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 835e801909d8d126042acd713fc68075ff598712
 
 次の手順に従って、テキストオーバーレイのカスタムブランドとスタイルを作成します。
 
-1. 次の図に示すように、「 **customstyle** 」というAEM Screensプロジェクトと「 **DemoBrand**」というチャネルを作成します。
+1. AEM Screensプロジェクトを作成します。 次の例は、次の図に示すように、 **customstyle** ( **customstyle** )という名前のプロジェクトとDemoBrand(DemoBrand)という名前のチャネルを作成して、この機能を示しています。
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -38,16 +38,26 @@ source-git-commit: 835e801909d8d126042acd713fc68075ff598712
 1. static.cssファ *イルに移動し* 、次のCSSルールを設定します。 また、CSSルールの下の図の例としても示されています。
 
    ```shell
-    //global styles
-    .cq-Screens-textOverlay
-    { … }
-    //authoring overrides
-    .aem-AuthorLayer-Edit .cq-Screens-textOverlay { … }
-    // light text variant
-    .cq-Screens-textOverlay-color--light
-    { … }
-     // dark text variant
-    .cq-Screens-textOverlay-color--dark { … }
+     //global styles
+     cq-Screens-textOverlay {
+     padding: 1em;
+     font-size: 3rem;
+     line-height: 1em;
+      }
+     //authoring overrides
+    .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
+     display: none;
+     padding: 0;
+     font-size: 1rem;
+     }
+      // light text variant
+     .cq-Screens-textOverlay-color--light {
+      background-color: rgba(0, 0, 0, .6);
+      }
+      // dark text variant
+      .cq-Screens-textOverlay-color--dark {
+       background-color: rgba(255, 255, 255, .6);
+     }
    ```
    ![画像](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
@@ -67,6 +77,13 @@ source-git-commit: 835e801909d8d126042acd713fc68075ff598712
 
 1. 「保存し **て閉じる** 」をクリックして、デザインパスを更新します。
 
+### ACLの更新 {#updating-acls}
+
+これらのデザインのACLを更新して、プレイヤーがダウンロードできるようにする必要があります。
+
+1. useradminに移動し、を選択し、カス `screens-<project>-devices group` タムデザインパスの読み取り権限を付与します。
+
+1. このパス `screens-<project>-administrators` に対するグループの読み取りおよび変更の権限を指定します。
 
 ## 結果の表示 {#viewing-the-result}
 

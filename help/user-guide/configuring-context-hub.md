@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7481e63a96d07b4e6ff33bf9d6f15e5e6c7bead6
+source-git-commit: 593107de8775ffa1f87173c4e9e7be5c3ccb0b90
 
 ---
 
@@ -215,36 +215,39 @@ jsonを定義するプロセスをスキップし、空白のままにする必�
 
       ![画像](/help/user-guide/assets/context-hub/context-hub16.png)
 
-## 手順5:セグメントの編集 {#editing-audience-segmentation}
+## 手順5:セグメントの編集オーディエンス{#editing-audience-segmentation}
 
 1. **セグメントを編集する**
 
-   1. 
-      1. AEMインスタンスから **Personalization** / **ScreensScreensScreens** / **ScreensValueValueValueCheck********** 5000Provice Prover Prover Personalization ValueScreensに移動します。
-   1. Select the segment **ValueCheck50**, and click **Edit** from the action bar.
+   1. Navigate from your AEM instance to **Personalization** > **Audiences** > **screens**.
+
+   1. Select the segment **Higherthan50**, and click **Edit** from the action bar.
 
    1. **比較 : プロパティ - 値**&#x200B;コンポーネントをエディターにドラッグ＆ドロップします。
+
    1. レンチアイコンをクリックして、**プロパティと値の比較**&#x200B;ダイアログボックスを開きます。
+
    1. 「**プロパティ名**」のドロップダウンから「**googlesheets/value/1/0**」を選択します。
 
-   1. Select the **Operator** as **equal** from the drop-down menu.
+   1. Select the **Operator** as **greater-than** from the drop-down menu.
 
-   1. 「**値**」に「**1**」を入力します。
+   1. 「**値**」に「**50**」を入力します。
    >[!NOTE]
    AEM で Google シートのデータが検証されると、セグメントが緑色で表示されます。
 
    ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
 
-   同様に、プロパティ値を **TargetValue2に編集します**。
+   同様に、プロパティ値を50より小さい値に **編集します**。
 
    1. **比較 : プロパティ - 値**&#x200B;コンポーネントをエディターにドラッグ＆ドロップします。
+
    1. レンチアイコンをクリックして、**プロパティと値の比較**&#x200B;ダイアログボックスを開きます。
+
    1. 「**プロパティ名**」のドロップダウンから「**googlesheets/value/1/0**」を選択します。
 
-   1. 「**演算子**」のドロップダウンメニューから「**次と等しい**」を選択します。
+   1. Select the **Operator** as **less-than** from the drop-down menu.
 
-   1. 「**値**」に「**2**」を入力します。
-
+   1. 「**値**」に「**50**」を入力します。
 
 
 

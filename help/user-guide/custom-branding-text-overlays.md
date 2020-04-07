@@ -5,7 +5,7 @@ description: このページでは、テキストオーバーレイのカスタ�
 seo-description: このページでは、テキストオーバーレイのカスタムブランドとスタイル設定を適用する方法について説明します。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
+source-git-commit: a475e373b0717b69610cb78907542f1da9ad8992
 
 ---
 
@@ -104,7 +104,7 @@ source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 
 次の手順に従って、更新されたデザインを表示し、テキストオーバーレイを作成します。
 
-1. AEM Screensプロジェクト(「customstyle **」>「** チャネル **」** —>「 **DemoBrand**」)に移動します。  チャネルを選択し、アクションバーの「**編集**」をクリックして、エディターを開きます。
+1. AEM Screensプロジェクト(「customstyle **」>「** チャネル **」** —>「 **DemoBrand」**)に移動します。  チャネルを選択し、アクションバーの「**編集**」をクリックして、エディターを開きます。
 
 1. これでデザインが「 **Designs** 」フィールドに追加されたので、前述のように「 **プレビュー** 」をクリックし、画像上の現在のスタイルをテキストオーバーレイで表示します。
 

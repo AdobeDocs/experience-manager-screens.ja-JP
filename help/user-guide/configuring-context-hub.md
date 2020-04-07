@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
+source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 
 ---
 
@@ -149,7 +149,7 @@ jsonを定義するプロセスをスキップし、空白のままにする必�
    1. Select the segment **Higherthan50** and click **Properties** from the action bar.
       ![画像](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. セグメントプロ **パティ** から「パーソナライゼ **ーション」タブを選択しま**&#x200B;す。 次の図に示すよ **うに、** ContextHub `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub` パスを **「パス」と「セグメントパス」に設定し、「保** 存 `/conf/screens/settings/wcm/segments`****」をクリックして、「保存」をクリックします。
+   1. セグメントプロ **パティ** から「パーソナライゼ **ーション」タブを選択しま**&#x200B;す。 次の図に示すよ **うに、** ContextHub `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` パスを **「パス」と「セグメントパス」に設定し、「保** 存 `/conf/screens/settings/wcm/segments`****」をクリックして、「保存」をクリックします。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub13.png)
 
@@ -203,7 +203,7 @@ jsonを定義するプロセスをスキップし、空白のままにする必�
 
       ![画像](/help/user-guide/assets/context-hub/context-hub14.png)
 
-   1. 「エクスペリエ **追加ンスを設定」ウィザ** ードで「アクティビティ」をクリックしま ****&#x200B;す。
+   1. 「エクスペリエ **追加ンスを設定」ウィザード** で「アクティビティ」をクリックしま ****&#x200B;す。
 
    1. オーディエンス **** 500より高い値を選択し、「 **Experience** 」をクリックし、「TitleTitle」を「 **TitleTitle」に入力します。** Name **************** 0より高い値をHigherExperienceS500」を選択します。 「**OK**」をクリックします。
 
@@ -237,11 +237,11 @@ Googlesheets **/value/1/0は** 、下図のGoogleシートに入力された行2
    1. Select the **Operator** as **greater-than** from the drop-down menu.
 
    1. 「**値**」に「**70**」を入力します。
-   >[!NOTE]
-   AEM で Google シートのデータが検証されると、セグメントが緑色で表示されます。
 
-   ![画像](/help/user-guide/assets/context-hub/context-hub18.png)
+      >[!NOTE]
+      AEM で Google シートのデータが検証されると、セグメントが緑色で表示されます。
 
+      ![画像](/help/user-guide/assets/context-hub/context-hub18.png)
    同様に、プロパティ値を50より小さい値に **編集します**。
 
    1. **比較 : プロパティ - 値**&#x200B;コンポーネントをエディターにドラッグ＆ドロップします。
@@ -260,11 +260,11 @@ Googlesheets **/value/1/0は** 、下図のGoogleシートに入力された行2
 
 以下の手順に従って、チャネルでターゲティングを有効にします。
 
-1. AEM Screens チャネルのいずれかに移動します。以下の手順は、AEM Screens チャネルに作成した **DataDrivenRetail** を使用してターゲティングを有効にする方法を示しています。
+1. AEM Screens チャネルのいずれかに移動します。The following steps demonstrate how to enable targeting by using **DataDrivenChannel** created in an AEM Screens Channel.
 
-1. **DataDrivenRetail** チャネルを選択し、アクションバーの「**プロパティ**」をクリックします。
+1. Select the channel **TargetChannel** and click **Properties** from the action bar.
 
-   ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
+   ![画像](/help/user-guide/assets/context-hub/context-hub19.png)
 
 1. 「**パーソナライゼーション**」タブを選択して、ContextHub 設定をセットアップします。
 
@@ -273,20 +273,18 @@ Googlesheets **/value/1/0は** 、下図のGoogleシートに入力された行2
    1. 「**セグメントのパス**」として **conf**/**we-retail**/**settings**/**wcm**/**segments** を選択し、「**選択**」をクリックします。
 
    1. 「**保存して閉じる**」をクリックします。
-   >[!NOTE]
-   ContextHub 設定とセグメントをそれぞれ最初に保存した、Context Hub とセグメントのパスを使用します。
 
-   ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
+      >[!NOTE]
+      ContextHub 設定とセグメントをそれぞれ最初に保存した、Context Hub とセグメントのパスを使用します。
 
-1. **DataDrivenAssets**／**チャネル**&#x200B;に移動して「**DataDrivenRetail**」を選択し、アクションバーの「**編集**」をクリックします。
+      ![画像](/help/user-guide/assets/context-hub/context-hub20.png)
 
-   >[!NOTE]
-   すべてを正しくセットアップしたら、下図に示すように、エディターのドロップダウンに「**ターゲティング**」オプションが表示されます。
+   1. Navigate and select the **TargetChannel** channel and click **Edit** from the action bar.
 
-   ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
+      >[!NOTE]
+      すべてを正しくセットアップしたら、下図に示すように、エディターのドロップダウンに「**ターゲティング**」オプションが表示されます。
 
-   >[!NOTE]
-   チャネルの ContextHub 設定を完了したら、以下のすべての使用例に従う場合は、他の 3 つのシーケンスチャネルについても必ず上記の手順 1～4 に従ってください。
+      ![画像](/help/user-guide/assets/context-hub/context-hub21.png)
 
 ## 詳細情報：使用例 {#learn-more-example-use-cases}
 

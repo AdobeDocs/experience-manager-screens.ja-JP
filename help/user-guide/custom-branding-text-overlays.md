@@ -5,7 +5,7 @@ description: このページでは、テキストオーバーレイのカスタ�
 seo-description: このページでは、テキストオーバーレイのカスタムブランドとスタイル設定を適用する方法について説明します。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
+source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. static.cssファ *イルに移動し* 、次のCSSルールを設定します。 また、CSSルールの下の図の例としても示されています。
+1. static.css *ファイルを作成し* 、次のCSSルールを設定します。 また、CSSルールの下の図の例としても示されています。
 
    ```shell
      //global styles
@@ -76,6 +76,19 @@ source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
    ![画像](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
 1. 「保存し **て閉じる** 」をクリックして、デザインパスを更新します。
+
+>[!IMPORTANT]
+> 既存の画面テンプレートをオーバーレイして、デフォルトで独自のデザインを挿入したり、独自のテンプレートを作成したりするオプションがあります。 詳しくは、次の手順を参照してください。
+
+1. 既存の画面テンプレートをオーバーレイして独自のデザインを挿入するには、次の手順に従います。
+
+   1. オーバーレ `/libs/screens/core/templates/sequencechannel` イイン `/apps/screens/core/templates/sequencechannel`。
+   1. 新しいデザ *インを指すよ*`/apps/screens/core/templates/sequencechannel/jcr:content` うに、のcq:designPathプロパティを変更します。
+
+1. 独自のテンプレートを完全に作成するには：
+   1. にコピ `/libs/screens/core/templates/sequencechannel` ーしま `/apps/customstyle/templates/styled-sequencechannel`す。
+   1. 新しいデザ *インを指すよ*`/apps/customstyle/templates/styled-sequencechannel/jcr:content` うに、のcq:designPathプロパティを変更します。
+
 
 ### ACLの更新 {#updating-acls}
 

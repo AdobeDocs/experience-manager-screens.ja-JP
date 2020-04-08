@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
 
 ---
 
@@ -19,9 +19,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ここでは、各個人またはチームが独自のプロジェクトを処理できるように、ACL を使用してプロジェクトを区別する方法について説明します。
 
-AEM 管理者は、プロジェクトのチームメンバーが他のプロジェクトを妨げないようにし、プロジェクト要件に応じて各ユーザーが特定の役割を割り当てられるようにします。
+AEM管理者は、プロジェクトのチームメンバーが他のプロジェクトに干渉しないようにし、各ユーザーに、プロジェクトの要件に応じて特定のロールを割り当てる必要があります。
 
-## 権限の設定{#setting-up-permissions}
+## 権限の設定 {#setting-up-permissions}
 
 次に、プロジェクト用の ACL の設定手順の概要を示します。
 
@@ -76,7 +76,7 @@ AEM 管理者は、プロジェクトのチームメンバーが他のプロジ�
 >
 >場合によっては、作成者機能（アセットの管理やチャネルの作成など）を管理者機能（プレーヤーの登録など）から分離することができます。その場合、2 つのグループを作成して、作成者グループを寄稿者に追加し、管理者グループを寄稿者とユーザー管理者の両方に追加します。
 
-### グループの作成{#creating-groups}
+### グループの作成 {#creating-groups}
 
 新規プロジェクトを作成する場合、基本的な権限が割り当てられたデフォルトのユーザーグループも作成します。権限を拡張して、AEM Screens 用の標準の役割を含める必要があります。
 
@@ -131,7 +131,7 @@ AEM 管理者は、プロジェクトのチームメンバーが他のプロジ�
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens Player<br /> <em>screens-we-retail-devices</em></td>
+   <td>Screens Player<br /> <em>screens-&lt;プロジェクト&gt;-devices</em></td>
    <td>すべてのプレーヤーをグループ化し、すべてのプレーヤー／デバイスが自動的に寄稿者のメンバーになる</td>
    <td><p> 寄稿者のメンバー</p> </td>
   </tr>

@@ -1,11 +1,11 @@
 ---
 source-git-commit: 93dda5a30065f2989427b4fadbb2576dad1c13b8
-translation-type: tm+mt
+translation-type: ht
 
 ---
-# Adobe Experience Manager Screensドキュメント
+# Adobe Experience Manager Screens ドキュメント
 
-これは、Adobe Experience Manager Screensドキュメントのリポジトリです。
+Adobe Experience Manager Screens ドキュメントのリポジトリです。
 
 ドキュメントに対する貢献を歓迎します。次のリソースを参照してください。
 

@@ -3,7 +3,7 @@ title: このガイドについて
 seo-title: ガイドの説明
 description: ここでは、ベストプラクティスガイドの目的について説明します
 seo-description: ここでは、ベストプラクティスガイドの目的について説明します
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2c73039b61f713d9cc862a1bef9b3dcda5b0c351
 
 ---
@@ -21,7 +21,7 @@ AEM Screens ベストプラクティスガイドは、AEM Screens プロジェ�
 * *プロジェクトマネージャー*
 * *コンサルタント*
 
-ただし、このガイドに目を通すことは、他の多くの役割にとっても有益であることを強調しておきます。
+ただし、このガイドに目を通すことは、他の多くの役割の方にとっても有益です。
 
 AEM Screens は Adobe Experience Manager（AEM）の新しい拡張機能です。ツールは新しく、その潜在的なアプリケーションは様々なので、AEM Screens の開発と導入に関わる重要な検討事項と一般的なリスク要因を特定することが非常に重要です。
 

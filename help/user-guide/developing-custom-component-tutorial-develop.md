@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 81fbba033cbf1d87e1e99d91244f4bf0b712d339
 
 ---
@@ -29,17 +29,17 @@ source-git-commit: 81fbba033cbf1d87e1e99d91244f4bf0b712d339
 
 このチュートリアルを完了するには、以下が必要です。
 
-1. [AEM 6.5](https://helpx.adobe.com/experience-manager/6-4/release-notes.html) または [AEM 6.3](https://helpx.adobe.com/experience-manager/6-3/release-notes.html) + 最新の Screens 機能パック
+1. [AEM 6.5](https://helpx.adobe.com/jp/experience-manager/6-4/release-notes.html) または [AEM 6.3](https://helpx.adobe.com/jp/experience-manager/6-3/release-notes.html) + 最新の Screens 機能パック
 
-1. [AEM Screens Player](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html)
+1. [AEM Screens Player](https://helpx.adobe.com/jp/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html)
 1. ローカル開発環境
 
-チュートリアルの手順とスクリーンショットは、**CRXDE-Lite** を使用して実行します。IDE を使用してチュートリアルを完了することもできます。AEM での開発に IDE を使用する方法について詳しくは、[こちら](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#eclipse-ide)を参照してください。
+チュートリアルの手順とスクリーンショットは、**CRXDE-Lite** を使用して実行します。IDE を使用してチュートリアルを完了することもできます。AEM での開発に IDE を使用する方法について詳しくは、[こちら](https://helpx.adobe.com/jp/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#eclipse-ide)を参照してください。
 
 
 ## プロジェクトのセットアップ {#project-setup}
 
-Screens プロジェクトのソースコードは、通常、マルチモジュールの Maven プロジェクトとして管理されます。このチュートリアルを効率よく進めるために、[AEM プロジェクトアーキタイプ 13](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype) を使用してプロジェクトを事前に生成してあります。Maven AEM プロジェクトアーキタイプを使用したプロジェクトの作成について詳しくは、[こちら](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#maven-multimodule)を参照してください。
+Screens プロジェクトのソースコードは、通常、マルチモジュールの Maven プロジェクトとして管理されます。このチュートリアルを効率よく進めるために、[AEM プロジェクトアーキタイプ 13](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype) を使用してプロジェクトを事前に生成してあります。Maven AEM プロジェクトアーキタイプを使用したプロジェクトの作成について詳しくは、[こちら](https://helpx.adobe.com/jp/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#maven-multimodule)を参照してください。
 
 1. [CRX パッケージマネージャー](http://localhost:4502/crx/packmgr/index.jsp)を使用して、次のパッケージをダウンロードしてインストールします。
 
@@ -133,7 +133,7 @@ AEM Screens には、従来の WCM サイトコンポーネントには必ずし
    <sly data-sly-test="${!production}" data-sly-include="edit.html" />
    ```
 
-   Screens コンポーネントでは、使用する[オーサリングモード](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/author-environment-tools.html#PageModes)に応じて、2 種類のレンダリングが必要になります。
+   Screens コンポーネントでは、使用する[オーサリングモード](https://helpx.adobe.com/jp/experience-manager/6-4/sites/authoring/using/author-environment-tools.html#PageModes)に応じて、2 種類のレンダリングが必要になります。
 
    1. **実稼働**：プレビューまたはパブリッシュモード（wcmmode=disabled）
    1. **編集**：編集、デザイン、基礎、開発者など、他のすべてのオーサリングモードに使用されます。
@@ -377,7 +377,7 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
 ## デザインページの作成 {#design-page}
 
-AEM Screens では、[静的ページテンプレート](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-static.html)と[デザイン設定](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-designmode.html)を使用して、グローバルな変更に対応します。デザイン設定は、チャネル上で使用できる ParSys コンポーネントを設定する場合によく使用されます。これらの設定をアプリに固有の方法で保存することをお勧めします。
+AEM Screens では、[静的ページテンプレート](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/page-templates-static.html)と[デザイン設定](https://helpx.adobe.com/jp/experience-manager/6-4/sites/authoring/using/default-components-designmode.html)を使用して、グローバルな変更に対応します。デザイン設定は、チャネル上で使用できる ParSys コンポーネントを設定する場合によく使用されます。これらの設定をアプリに固有の方法で保存することをお勧めします。
 
 We.Retail Run プロジェクトに固有のすべての設定を保存する We.Retail Run Design ページを以下の手順で作成します。
 
@@ -408,7 +408,7 @@ Hello World コンポーネントは、シーケンスチャネルで使用す�
 
 1. 作成ウィザードで、以下の操作をおこないます。
 
-1. Template Step - choose **Sequence Channel**
+1. テンプレートの手順 - 「**シーケンスチャネル**」を選択します
 
    1. プロパティの手順
    * 「基本」タブ／「タイトル」に「**Idle Channel**」を入力
@@ -440,13 +440,13 @@ Hello World コンポーネントは、シーケンスチャネルで使用す�
 
    /apps/settings/wcm/designs/we-retail-run の下のデザイン設定
 
-## カスタムハンドラのテンプレート {#custom-handlers}
+## カスタムハンドラーのテンプレート {#custom-handlers}
 
-カスタムコンポーネントがアセット（画像、ビデオ、フォント、アイコンなど）、特定のアセットレンディションまたはクライアント側ライブラリ（css、jsなど）などの外部リソースを使用している場合、デフォルトではHTMLマークアップのみがバンドルされるので、オフライン設定には自動的に追加されません。
+カスタムコンポーネントがアセット（画像、ビデオ、フォント、アイコンなど）、特定のアセットレンディションまたはクライアント側ライブラリ（css、js など）などの外部リソースを使用している場合、デフォルトでは HTML マークアップのみがバンドルされるので、オフライン設定には自動的に追加されません。
 
-プレーヤーにダウンロードされる正確なアセットをカスタマイズして最適化するために、カスタムコンポーネントの依存関係を画面のオフラインキャッシュロジックに公開するための拡張メカニズムを提供します。
+プレーヤーにダウンロードされる正確なアセットをカスタマイズして最適化するには、カスタムコンポーネントの拡張メカニズムを使用して、Screens のオフラインキャッシュロジックに依存関係を公開します。
 
-次の節では、カスタムのオフラインリソースハンドラのテンプレートと、その特定のプロジェクトの `pom.xml` 最小要件を示します。
+次の節では、カスタムオフラインリソースハンドラーのテンプレートと、そのプロジェクトに対する `pom.xml` の最小要件について説明します。
 
 ```java
 package …;
@@ -511,7 +511,7 @@ public class MyCustomHandler extends AbstractResourceHandler {
 }
 ```
 
-次のコードは、特定のプロジェクトに関するの最小 `pom.xml` 要件を示しています。
+次のコードは、そのプロジェクトに対する `pom.xml` の最小要件を示しています。
 
 ```css
    <dependencies>
@@ -539,7 +539,7 @@ public class MyCustomHandler extends AbstractResourceHandler {
 
 以下のビデオでは、完成したコンポーネントと、それをシーケンスチャネルに追加する方法を示しています。この後、チャネルはロケーションのディスプレイに追加され、最終的に Screens プレーヤーに割り当てられます。
 
->[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
+>[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9&captions=jpn)
 
 ## 完成したコード {#finished-code}
 

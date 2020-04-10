@@ -10,7 +10,7 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
 
 # Windows 10 プレーヤーの実装 {#implementing-windows-player}
 
-ここでは、AEM Screens Windows 10 プレーヤーの設定について説明します。使用可能な設定ファイルやオプションと、開発およびテストに使用する設定に関する推奨事項について説明します。
+ここでは、AEM Screens Windows 10 プレーヤーの設定について説明します。使用可能な設定ファイルやオプションと、開発およびテストに使用する推奨設定について説明します。
 
 ## Windows プレーヤーのインストール {#installing-windows-player}
 
@@ -34,7 +34,7 @@ AEM Screens 用の Windows プレーヤーを実装するには、同プレー�
 
 1. 左上隅を長押しして、管理パネルを開きます。
 1. 左のアクションメニューから「**設定**」に移動し、接続する AEM インスタンスの場所（アドレス）を入力して、「**保存**」をクリックします。
-1. Navigate to the **Device** **Registration** link from the left action menu to check the status of the device registration process.
+1. 左側のアクションメニューから「**デバイス**&#x200B;の&#x200B;**登録**」リンクに移動して、デバイス登録プロセスのステータスを確認します。
 
 >[!NOTE]
 >
@@ -50,9 +50,9 @@ Windows プレーヤーをインストールしたら、1 つの設定で複数�
 >
 >**Windows プレーヤーの一括登録**
 >
->Windows プレーヤーを実装する場合、すべてのプレーヤーを個別に手動で設定する必要はありません。テスト済みで導入の準備ができた設定 JSON ファイルを更新することで、すべてのプレーヤーを設定できます。
+>Windows プレーヤーを実装する場合、すべてのプレーヤーを個別に手動で設定する必要はありません。テストが済み、デプロイの準備ができた設定 JSON ファイルを更新することで、すべてのプレーヤーを設定できます。
 >
->設定では、すべてのプレーヤーが設定ファイルで指定された同じサーバーに接続されていることが確認されます。プレーヤーの登録は個別に手動でおこなう必要があります。
+>設定では、すべてのプレーヤーが、設定ファイルで指定された同じサーバーに ping を送信することを確認されます。プレーヤーの登録は個別に手動でおこなう必要があります。
 
 Windows 10 プレーヤーを設定するには、次の手順を実行します。
 
@@ -60,7 +60,7 @@ Windows 10 プレーヤーを設定するには、次の手順を実行します
 1. 設定ファイルは ***%appdata%\com.adobe.aem.screens.player\config.json*** の下にあります。
 1. 後述の情報を使用して設定 JSON を更新し、同じフォルダーをプレーヤーが存在するすべてのシステムにコピーします。
 
-### ポリシー属性    {#policy-attributes}
+### ポリシー属性{#policy-attributes}
 
 次の表に、参照用のポリシー JSON の例と共にポリシー属性を示します。
 
@@ -70,10 +70,10 @@ Windows 10 プレーヤーを設定するには、次の手順を実行します
 | resolution | デバイスの解像度。 |
 | rebootSchedule | プレーヤーを再起動するスケジュール。 |
 | enableAdminUI | サイト上でデバイスを設定するための Admin UI を有効にします。完全に設定されて実稼動になったら、false に設定します。 |
-| enableOSD | デバイスのチャネルを切り替えるための、ユーザー用のチャネルスイッチャー UI を有効にします。完全に設定されて実稼動になったら、false に設定することを検討します。 |
+| enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。完全に設定されて実稼動になったら、false に設定することを検討します。 |
 | enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にし、完全に設定されて実稼動になったら無効にします。 |
 
-#### ポリシー JSON ファイルの例 {#example-policy-json-file}
+#### ポリシー JSON ファイルの例{#example-policy-json-file}
 
 ```
 {
@@ -102,11 +102,11 @@ Windows プレーヤーをデプロイする際は、他のアプリケーショ
 
 1. シェルランチャーを有効にします。
 
-   詳しくは、Microsoft Windows サポートによる&#x200B;***シェルランチャー***&#x200B;ページの&#x200B;**[シェルランチャーの構成](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)**の節を参照してください。
+   詳しくは、Microsoft Windows サポートによる&#x200B;**[シェルランチャー](https://docs.microsoft.com/ja-JP/windows-hardware/customize/enterprise/shell-launcher)ページの***&#x200B;シェルランチャーの構成&#x200B;*****の節を参照してください。
 
 1. キオスクモードに使用する管理者以外のユーザーを作成します（まだ存在しない場合）。ローカルユーザーでもドメインユーザーでも構いません。
-1. [AEM Screens Player のダウンロード](https://download.macromedia.com/screens/) ページから、そのキオスクユーザー用の Windows プレーヤーをインストールします。
-1. PowerShell スクリプトの編集について詳しくは、[シェルランチャーを使って Windows 10 キオスクを作成する](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher)を参照してください。
+1. [AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)ページから、そのキオスクユーザー用の Windows プレーヤーをインストールします。
+1. PowerShell スクリプトの編集について詳しくは、[シェルランチャーを使って Windows 10 キオスクを作成する](https://docs.microsoft.com/ja-JP/windows/configuration/kiosk-shelllauncher)を参照してください。
 
    PowerShell スクリプトを編集して、ユーザー名を上記で作成したユーザー名に置き換えます。アプリケーションの実行可能ファイルへのパスが正しいことを確認します。これにより、カスタムシェルがキオスクユーザーの Windows プレーヤーアプリケーションとして設定され、他のユーザーには explorer.exe がデフォルトとして設定されます。
 
@@ -115,7 +115,7 @@ Windows プレーヤーをデプロイする際は、他のアプリケーショ
 
 ### トラブルシューティング {#troubleshooting}
 
-キオスクユーザーとしてログインしたときに黒い画面が表示された場合は、Windows プレーヤーの実行可能ファイルへのパスが正しく指定されていない可能性があります。管理者としてログインし直し、スクリプトを確認してから再実行します。
+キオスクユーザーとしてログインしたときに黒い画面が表示された場合は、Windows プレーヤーの実行可能ファイルへのパスが正しく指定されていない可能性があります。管理者として再度ログインし、スクリプトを確認してから再実行します。
 
 Windows プレーヤーのデフォルトのインストールパスは次のとおりです。
 

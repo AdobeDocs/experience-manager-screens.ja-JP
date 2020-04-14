@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
 translation-type: tm+mt
-source-git-commit: f15009ab8432756c2be3c6c7fc6699eab9b3a6a8
+source-git-commit: 651627223e1b9bd0f650b010d2b92f004b9e2ea2
 
 ---
 
@@ -22,8 +22,8 @@ source-git-commit: f15009ab8432756c2be3c6c7fc6699eab9b3a6a8
 
 * **概要**
 * **テキストオーバーレイの使用**
-* **前提条件**
 * **「テキストオーバーレイ」タブのプロパティについて**
+* **テキストオーバーレイでのContextHub値の使用**
 
 >[!CAUTION]
 >
@@ -117,7 +117,7 @@ AEM ScreensプロジェクトのContextHub設定を設定する必要があり�
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
-1. こ追加のページの「テキストオーバーレイの使用」の節で説明している、画像とテキストオーバーレイ **** ・コンポーネント。
+1. こ追加のページの「テキストオーバーレイの使用」の節で説明している、画像とテキストオーバーレイ [](/help/user-guide/text-overlay.md#using-text-overlay) ・コンポーネント。
 
 1. 「 **Configure** （レンチアイコン）」をクリックして、「 **Image** 」ダイアログ・ボックスを開きます。
 

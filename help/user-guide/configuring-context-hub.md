@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
+source-git-commit: 358c22018bf933e5b5418f202eb70b1a39a49783
 
 ---
 
@@ -52,20 +52,20 @@ AEM Screens プロジェクト用に Context Hub の設定を開始する前に�
 
 データストアは、ローカル I/O イベントまたはローカルデータベースイベントとして設定できます。
 
-次のアセットレベルのデータトリガーの例は、AEM ScreensチャネルへのContextHub設定とセグメントパスを使用できるExcelシートなどのデータストアを設定するローカルデータベースイベントを示しています。
+次のアセットレベルのデータトリガーの例は、AEM Screens チャネルへの ContextHub 設定とセグメントパスを使用できる Excel シートなどのデータストアを設定するローカルデータベースイベントを示しています。
 
-次に示すように、Googleシートを正しく設定します。
+Google シートが正しく設定されると、次のように表示されます。
 
 ![画像](/help/user-guide/assets/context-hub/context-hub1.png)
 
-次の検証は、接続を確認する際に、次の形式で *googleシートIDと* APIキーの2つの値を入力すると ** 表示されます。
+次の検証は、接続を確認する際に、次の形式で *Google シート ID* と *API キー*&#x200B;の 2 つの値を入力すると表示されます。
 
 `https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
 
 ![画像](/help/user-guide/assets/context-hub/context-hub2.png)
 
 >[!NOTE]
-> 次の例は、値が100を超えるか50を超える場合にアセットの変更をトリガーするデータストアとしてGoogleシートを示しています。
+> 次の例は、値が 100 を超えるか 50 未満の場合にアセットの変更をトリガーするデータストアとしての Google シートを示しています。
 
 ## 手順2:ストア設定の設定 {#step-setting-store-configurations}
 
@@ -77,28 +77,28 @@ AEM Screens プロジェクト用に Context Hub の設定を開始する前に�
 
 1. **新しい ContextHub ストア設定の作成**
 
-   1. 「画面」という設定コンテナに移動 **します**。
+   1. 「**screens**」という設定コンテナに移動します。
 
-   1. Click **Create** > **Create Configuration Container** and enter the title as **ContextHubDemo**.
+   1. **作成**／**設定コンテナを作成**&#x200B;をクリックし、タイトルに「**ContextHubDemo**」と入力します。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub4.png)
 
-   1. **ContextHubDemo** /CreateContentContentConfiguration **** Save **** Hubをクリックし、 **Save****** Hubをクリックします。
+   1. **ContextHubDemo**／**作成**／**ContextHub 設定**&#x200B;に&#x200B;**移動**&#x200B;し、「**保存**」をクリックします。
 
       >[!NOTE]
-      > 「保存」をク **リック** すると、 **ContextHub設定画面が開きます** 。
+      > 「**保存**」をクリックすると、**ContextHub 設定**&#x200B;画面が開きます。
 
-   1. ContextHub設定画面 **で** 、作成/ **** ContentHub Store設定 **をクリックします。**
+   1. **ContextHub 設定**&#x200B;画面で、**作成**／**ContentHub ストア設定**&#x200B;をクリックします。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub5.png)
 
-   1. **Title** as Google Sheets **,** Google Sheets **,** Store Store Type Store **Store Type Store Type Store Name** Generic-jup Sonp ************ClickClickNameと入力します。
+   1. 「**タイトル**」に「**Google Sheets**」、「**ストア名**」に「**googlesheets**」、「**ストアの種類**」に「**contexthub.generic-jsonp**」と、それぞれ入力して、「**次へ**」をクリックします。
       ![画像](/help/user-guide/assets/context-hub/context-hub6.png)
 
-   1. 固有の JSON 設定を入力します。例えば、次のJSONをデモ用に使用し、「保存」をクリックすると **、ContextHub設定の「** Google Sheets **** 」という名前のストア設定が表示されます。
+   1. 固有の JSON 設定を入力します。例えば、次の JSON をデモ用に使用し、「**保存**」をクリックすると、ContextHub 設定に「**Google Sheets**」という名前のストア設定が表示されます。
 
       >[!IMPORTANT]
-      >Make sure to replace the code with your *&lt;Sheet ID>* and *&lt;API Key>*, that you fetched while setting up the Google Sheets.
+      >上記の JSON コードの該当するプレースホルダーを、Google シートのセットアップ時に取得した実際の *&lt;シート ID>* と *&lt;API キー>* に必ず置き換えてください。
 
       ```
        {
@@ -120,7 +120,7 @@ AEM Screens プロジェクト用に Context Hub の設定を開始する前に�
       上記のサンプルコードで、**pollInterval** は、値が更新される頻度をミリ秒単位で定義します。上記の JSON コードの該当するプレースホルダーを、Google シートのセットアップ時に取得した実際の *&lt;シート ID>* と *&lt;API キー>* に置き換えます。
 
       >[!CAUTION]
-      Googleシートを作成してグローバルフォルダの外部（独自のプロジェクトフォルダなど）に設定を保存する場合、ターゲット設定は初期状態では機能しません。
+      Google シートのストア設定をグローバルフォルダー以外（例えば、独自のプロジェクトフォルダー内など）で作成した場合、ターゲティングは初期状態では機能しません。
 
 1. **ストアセグメントの設定**
 
@@ -138,7 +138,7 @@ jsonを定義するプロセスをスキップし、空白のままにする必�
 
 1. **オーディエンスにセグメントを作成する**
 
-   1. Navigate from your AEM instance to **Personalization** > **Audiences** > **screens**.
+   1. AEM インスタンスで、**パーソナライゼーション**／**オーディエンス**／**スクリーン**&#x200B;に移動します。
 
    1. **作成**／**Context Hub セグメントを作成**&#x200B;をクリックします。**新しい ContextHub セグメント**&#x200B;ダイアログボックスが開きます。
 
@@ -203,7 +203,7 @@ jsonを定義するプロセスをスキップし、空白のままにする必�
 
       ![画像](/help/user-guide/assets/context-hub/context-hub14.png)
 
-   1. 「エクスペリエ **追加ンスを設定」ウィザード** で「アクティビティ」をクリックしま ****&#x200B;す。
+   1. 「エクスペリエ **追加ンスを設定」ウィザ** ードで「アクティビティ」をクリックしま ****&#x200B;す。
 
    1. オーディエンス **** 500より高い値を選択し、「 **Experience** 」をクリックし、「TitleTitle」を「 **TitleTitle」に入力します。** Name **************** 0より高い値をHigherExperienceS500」を選択します。 「**OK**」をクリックします。
 
@@ -219,7 +219,7 @@ jsonを定義するプロセスをスキップし、空白のままにする必�
 
 1. **セグメントを編集する**
 
-   1. Navigate from your AEM instance to **Personalization** > **Audiences** > **screens**.
+   1. AEM インスタンスで、**パーソナライゼーション**／**オーディエンス**／**スクリーン**&#x200B;に移動します。
 
    1. Select the segment **Higherthan50**, and click **Edit** from the action bar.
 
@@ -268,9 +268,7 @@ Googlesheets **/value/1/0は** 、下図のGoogleシートに入力された行2
 
 1. 「**パーソナライゼーション**」タブを選択して、ContextHub 設定をセットアップします。
 
-   1. 「**ContextHub のパス**」として **libs**/**settings**/**cloudsettings**/**default**/**ContextHub Configurations** を選択し、「**選択**」をクリックします。
-
-   1. 「**セグメントのパス**」として **conf**/**we-retail**/**settings**/**wcm**/**segments** を選択し、「**選択**」をクリックします。
+   1. ContextHubパスを **Pathに設定し、** Segments Pathを `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` Save **（保存）をク** リッ `/conf/screens/settings/wcm/segments`****&#x200B;クして選択します。
 
    1. 「**保存して閉じる**」をクリックします。
 

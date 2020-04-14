@@ -10,8 +10,8 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: f15009ab8432756c2be3c6c7fc6699eab9b3a6a8
 
 ---
 
@@ -41,19 +41,21 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 この節では、AEM Screens プロジェクトでのテキストオーバーレイの使用について説明します。
 
-### 前提条件 {#prerequisites}
+**前提条件**
 
 テキストオーバーレイ機能の実装を開始する前に、前提条件として、プロジェクトをセットアップしておく必要があります。例：
 
 * AEM Screens プロジェクト（この例では **TextOverlayDemo**）を作成する
 
-* **チャネル**&#x200B;フォルダーの下に **TextSample** というチャネルを作成する
+* Create a sequence channel titled as **TextSample** under **Channels** folder
 
 * **TextSample** チャネルにコンテンツを追加する
 
 次の画像は、**チャネル**&#x200B;フォルダーに **TextSample** チャネルがある **TextOverlayDemo** プロジェクトを示しています。
 
 ![screen_shot_2018-12-16at75908pm](assets/screen_shot_2018-12-16at75908pm.png)
+
+次の手順に従って、AEM Screensチャネルでテキストオーバーレイを使用します。
 
 1. **TextOverlayDemo**／**Channels**／**TextSample** に移動し、アクションバーの「**編集**」をクリックして、エディターを開きます。
 
@@ -82,4 +84,78 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 >[!NOTE]
 >
 >詳細設定ツールを適切に使用するには、「px」をサフィックスとして使用して、正しい位置をピクセル単位で指定する必要があります。たとえば、「200px」とすると、開始点から 200 ピクセル離れた位置が指定されます。
+
+## テキストオーバーレイでのContextHub値の使用 {#using-text-overlay-context-hub}
+
+次の節では、データストアの値の使用方法について説明します。例えば、テキストオーバーレイコンポーネントのgoogleシートなどです。
+
+**前提条件**
+
+AEM ScreensプロジェクトのContextHub設定を設定する必要があります。
+
+データストアを使用してデータ駆動型アセットの変更を設定および管理する方法については、「AEM ScreensでのContextHubの設 [定」を参照してください](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/developing/configuring-context-hub.html)。
+
+プロジェクトに必要な設定を行ったら、次の手順に従ってGoogleシートの値を使用します。
+
+1. TextOverlayDemo **—>チャネル** —> **TextSample** —> **TextSample** , **Properties from** the action barに移動し、「Properties」をクリックします。
+
+1. 「**パーソナライゼーション**」タブを選択して、ContextHub 設定をセットアップします。
+
+   1. 「**ContextHub のパス**」として **libs**/**settings**/**cloudsettings**/**default**/**ContextHub Configurations** を選択し、「**選択**」をクリックします。
+
+   1. **Segments Path** as **conf >** screens > settings > settings > **cm** segments > **thersetings** thered segments **therclickseled segments, click********** selected
+
+   1. 「**保存して閉じる**」をクリックします。
+
+      >[!NOTE]
+      >
+      >ContextHub 設定とセグメントをそれぞれ最初に保存した、Context Hub とセグメントのパスを使用します。
+
+      ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
+
+1. **TextOverlayDemo**／**Channels**／**TextSample** に移動し、アクションバーの「**編集**」をクリックして、エディターを開きます。
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
+
+1. こ追加のページの「テキストオーバーレイの使用」の節で説明している、画像とテキストオーバーレイ **** ・コンポーネント。
+
+1. 「 **Configure** （レンチアイコン）」をクリックして、「 **Image** 」ダイアログ・ボックスを開きます。
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
+
+1. 「画像」( **Image** )ダイアログボックスの「ContextHub **」タブに移** 動します。 「**追加**」をクリックします。
+
+   >[!NOTE]
+   >ContextHub設定を設定していない場合、このオプションはプロジェクトで無効になります。
+
+1. 「 **Placeholder** ( **Placeholder** )」フィールドにValueと入力し、 **GoogleHub Variable（この場合、値はGoogleシートの行2列1から取得されます）で、Googleから値を取得する行を選択し、図の下のシートのデフォルト値********** 0と入力します。 完了したら、チェックマークをクリックします。
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
+
+   >[!NOTE]
+   >参照用に、次の図はGoogleシートから取得される値を示しています。
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay6.png)
+
+1. 次の図に示すように、 **Imageダイアログ** ボックスから「 *Text Overlay*」タブに戻り、「Current Temperature」 {Value}というテキストを追加します。
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
+
+1. 「 **プレビュー** 」をクリックし、出力を表示します。
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

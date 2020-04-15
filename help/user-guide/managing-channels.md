@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 67368b950e508eaf88d78c60d9b0e3228b30c11c
+source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
 
 ---
 
@@ -131,6 +131,28 @@ The following example shows the creation of a Sequence Channel (*ChannelOne*) fo
 Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view properties, edit the content, or to update cache (offline content) for the channel.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
+
+#### マニフェストの表示 {#view-manifest}
+
+マニフェストを表示チャネルからダッシュボードできます。
+
+>[重要]
+> このオプションは、AEM 6.4 Feature Pack 8またはAEM 6.5 Feature Pack 4でのみ使用できます。
+
+このオプションを有効にするには、次の手順に従います。チャネルダッシュボード:
+1. **チャネルをオフライン**
+   1. Select the channel and select **Properties** from the action bar
+   1. 「 **チャネル** 」タブに移動し、「開発者モード」( **チャネルをオンラインにする)オプションのチェックを外します** 。
+   1. Click **Save &amp; Close**
+1. **オフラインコンテンツを更新**
+   1. Select the channel and select **Dashboard** from the action bar
+   1. [ **チャネル情報** ]パネルに移動し、[ *...]をクリックします。*
+   1. 「オフラインコ **ンテンツを更新」をクリック**
+
+これで、「 **表示マニフェスト** 」オプションがチャネルダッシュボードの **「チャネル情報** 」パネルから表示されます。
+
+![image1](assets/channel-one.png)
+
 
 ### オンラインチャネルとオフラインチャネル {#online-and-offline-channels}
 

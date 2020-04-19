@@ -2,9 +2,9 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Adobe Experience Manager Screens Help
+user-guide-title: Adobe Experience Manager Screens ヘルプ
 translation-type: tm+mt
-source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
 + [Screens の概要](aem-screens-introduction.md)
 + 概要とキックスタートガイド {#overview}
    + [キックスタートガイド](kickstart-for-aem-screens.md)
-   + [Screens ベストプラクティスガイド](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
+   + [Screens ベストプラクティスガイド](https://docs.adobe.com/content/help/ja-JP/experience-manager-screens/using/about-guide.html)
    + [キーワード](screens-glossary.md)
 + デジタルサイネージネットワークの基礎知識 {#digital-signage-network}
    + [第 1 部：プロジェクト上の役割と責務](project-roles-responsibilities.md)
@@ -72,7 +72,7 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
    + コンテンツ更新の管理 {#content-updates}
       + [On-Demand コンテンツ更新](on-demand-content.md)
       + [サービスとしてのコンテンツの更新](content-update-as-a-service.md)
-      + [ローンチを使用したコンテンツ更新](launches.md)
+      + [画面の起動を使用したコンテンツの更新](launches.md)
    + 使用例 {#use-case-examples}
       + [緊急チャネル](emergency-channel.md)
       + [旅行センター向けの気温に応じたアクティベーション](local-temperature-activation.md)
@@ -91,7 +91,7 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
    + [AEM SPA Editor を使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合](embedding-react-app.md)
    + [AEM Screens プロジェクトでの ContextHub の設定](configuring-context-hub.md)
    + [マルチゾーンレイアウトでのカスタムテンプレートの作成](creating-custom-templates-multizone-layouts.md)
-   + [テキストオーバーレイのカスタムブランドとスタイルの適用](custom-branding-text-overlays.md)
+   + [テキストオーバーレイのカスタムブランディングとスタイルの適用](custom-branding-text-overlays.md)
 + トラブルシューティングと FAQ {#troubleshooting}
    + [AEM Screens の FAQ](aem-screens-faqs.md)
    + [デバイスコントロールセンターからのトラブルシューティング](monitoring-screens.md)

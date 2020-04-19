@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 74f6b7c3ab5f725b5cc278f5ae3e80e1271b6860
+source-git-commit: 7e3610aef5950bf92423147a39053dea64ab71da
 
 ---
 
@@ -77,27 +77,30 @@ launches.eventhandler.threadpool.priority=&quot;MIN&quot;*
 1. **画面起動の作成**
 1. **画面の起動の編集によるライブの日付と範囲の設定**
 
-### 今後の公開の作成 {#creating-a-launch}
+### Creating a Screens Launch {#creating-a-launch}
 
 次の手順に従って、AEM Screensプロジェクトに起動機能を実装します。
 
-1. Navigate to a sequence channel in your AEM Screens project, for example **LaunchesDemo** --> **Channels** --> **FutureLaunch**, as shown below.
+1. Create a sequence channel in your AEM Screens project, for example **LaunchesDemo** --> **Channels** --> **FutureLaunch**, as shown below.
 
    >[!CAUTION]
    >
    >AEM Screens プロジェクト内の既存のチャネルからローンチを作成する必要があります。
 
-   ![screen_shot_2019-06-25at15052pm](assets/screen_shot_2019-06-25at15052pm.png)
+   ![画像](/help/user-guide/assets/launches-images/launches-11.png)
 
 1. Select the channel **FutureLaunch** and click **Create Launch** from the action bar.
 
-1. **ローンチを作成**&#x200B;ウィザードが開きます。ウィザードに既に表示されているチャネルを選択するか、「 **+追加 Pages** 」をクリックして起動を作成する画面チャネルを選択します。
+   ![画像](/help/user-guide/assets/launches-images/launches-12.png)
 
-   >[!NOTE]
-   >次の例は、ウィザード内の既存のチャネルの起動を作成する場合です。
+1. **ローンチを作成**&#x200B;ウィザードが開きます。ウィザードに既に表示されているチャネルを選択するか、[ **+ 追加チャネル** ]をクリックして起動を作成するチャネルを追加します。
 
 
-   ![screen_shot_2019-06-11at93710am](/help/user-guide/assets/launches-images/launches-a.png)
+#### 既存のチャネル {#existing-channel-launch}
+
+1. 起動の作成チャネルに既に存在するウィザードを **選択し** 、「次へ」をクリッ **クします**。
+
+   ![画像](/help/user-guide/assets/launches-images/launches-b.png)
 
 1. Select the channel and click **Next** from the action bar.
 
@@ -126,6 +129,49 @@ launches.eventhandler.threadpool.priority=&quot;MIN&quot;*
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
    Clicking **Done** allows you to navigate back to your **FutureLaunch** channel.
+
+   ![画像](/help/user-guide/assets/launches-images/launches-16.png)
+
+
+#### オプション追加の使用 {#add-channel-launch}
+
+1. 「 **+チャネル** 」をクリックして、起動を作成するチャネルを追加します。
+
+   ![画像](/help/user-guide/assets/launches-images/launches-13.png)
+
+   >[!NOTE]
+   >起動を **** 追加するために複数のチャネルまたはフォルダを選択しようとすると、「選択」オプションは無効になります。
+
+1. 起動を作成するチャネルに移動し、「選択」をクリックし **ます**。
+
+   ![画像](/help/user-guide/assets/launches-images/launches-14.png)
+
+1. これで、追加したチャネルを選択して起動を作成し、「次へ」をクリックで **きます**。
+
+   ![画像](/help/user-guide/assets/launches-images/launches-15.png)
+
+1. 「**ローンチタイトル**」に「**SummerPromotions**」と入力します。「**ローンチ日**」を設定する必要はありません（下図を参照）。「**作成**」をクリックします。
+
+   >[!NOTE]
+   >
+   >「**ソースページのライブデータを継承**」オプションを&#x200B;*オンにする*&#x200B;と、チャネルをライブコピーとしてローンチに作成できます。元のチャネルで変更がおこなわれた場合、その変更はローンチチャネルに自動的に適用されます。
+   >
+   >
+   >「**ソースページのライブデータを継承**」を&#x200B;*オフにする*&#x200B;と、チャネルをライブ関係なしにローンチにコピーできます。したがって、元のチャネルに変更が加えられた場合、その変更はローンチチャネルには適用されません。
+
+   ![画像](/help/user-guide/assets/launches-images/launches-c.png)
+
+   >[!NOTE]
+   >
+   >ライブローンチ日は、この手順で設定することもできますし、ローンチを作成してからプロパティの編集時にセットアップすることもできます。
+
+1. ローンチが作成されたことがわかります。「**開く**」をクリックすると、ページがエディターに表示され、「**完了**」をクリックすると、プロジェクトに戻ります。
+
+   ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
+
+   Clicking **Done** allows you to navigate back to your **FutureLaunch** channel.
+
+   ![画像](/help/user-guide/assets/launches-images/launches-16.png)
 
 ### ローンチプロパティの編集によるライブ日付と範囲の設定 {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 

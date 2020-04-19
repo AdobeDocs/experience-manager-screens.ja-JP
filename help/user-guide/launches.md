@@ -1,6 +1,6 @@
 ---
-title: ローンチ
-seo-title: ローンチ
+title: 画面の起動を使用したコンテンツの更新
+seo-title: 画面の起動を使用したコンテンツの更新
 description: コンテンツ作成者は、「ローンチ」と呼ばれるチャネルの将来バージョンを作成でき、さらに、このローンチのライブ日付を設定することで、デバイスやプレーヤーでコンテンツをライブにすることができます。
 seo-description: コンテンツ作成者は、「ローンチ」と呼ばれるチャネルの将来バージョンを作成でき、さらに、このローンチのライブ日付を設定することで、デバイスやプレーヤーでコンテンツをライブにすることができます。
 uuid: fb13117c-b99b-48bd-adb6-040dbd13af16
@@ -10,29 +10,29 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
-translation-type: ht
-source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
+translation-type: tm+mt
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
 
-# ローンチ {#launches}
+# 画面の起動を使用したコンテンツの更新 {#launches}
 
-コンテンツ作成者は、「**ローンチ**」と呼ばれるチャネルの将来バージョンを作成でき、さらに、このローンチのライブ日付を設定することで、デバイスやプレーヤーでコンテンツをライブにすることができます。
+Content authors can create future version of the channel(s), known as **Screens Launch** and further setting live date for this launch allows content to be live in devices or players.
 
-ローンチを利用して、作成者はローンチの各チャネルをプレビューでき、レビュー要求も開始できます。承認者グループは通知を受け取り、要求を承認または拒否できます。ライブ日付に達すると、コンテンツがデバイスで再生されます。
+今後の発行の助けを借りて、作成者は起動の各チャネルをプレビューでき、レビューのリクエストを開始できるようになります。 承認者グループは通知を受け取り、要求を承認または拒否できます。ライブ日付に達すると、コンテンツがデバイスで再生されます。
 
 例えば、作成者が c1 および c2（チャネル）という将来バージョンを作成する場合は、ローンチを作成し、ライブ日付を設定します（例：11 月 10 日午前 8 時 00 分）。コンテンツがさらに更新されると、更新されたコンテンツが、レビューを受けるために送信されます。要求が承認され、ライブ日付（例：11 月 10 日午前 8 時 00 分）になると、このローンチがデバイスまたはプレーヤーでコンテンツを再生します。
 
 ## 要件 {#requirements}
 
-AEM Screens プロジェクトへのローンチの実装を開始する前に、「猶予時間」の概念とその関連性を理解しておく必要があります。
+AEM Screensプロジェクトでの今後の公開の実装を開始する前に、猶予期間の概念とその関連性を理解しておく必要があります。
 
 次の節では、猶予時間とそれをデフォルトとして設定する方法について説明します。また、サンプルのテスト設定をダウンロードして、その使用方法を理解することもできます。
 
 ### 猶予時間について {#understanding-grace-period}
 
-以下のセットアップでは、ローンチで必要な&#x200B;***猶予時間&#x200B;***を管理者が設定できます。
+The following setup allows the admin to configure the ***Grace Period***, required in future publish.
 
 **猶予時間**&#x200B;には以下が含まれます。
 
@@ -60,7 +60,7 @@ AEM Screens プロジェクトへのローンチの実装を開始する前に�
 
 上記の設定を変更する場合は、以下の手順に従います。
 
-* /apps/system/config に、***com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config ***という名前の**sling:OsgiConfig/nt:file **を次の内容で作成します。
+* /apps/system/config に、***com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config*** という名前の **sling:OsgiConfig/nt:file** を次の内容で作成します。
 
    *launches.eventhandler.updatelastmodification=B&quot;false&quot;
 launches.eventhandler.launch.promotion.graceperiod=[&quot;/content/screens(/.*):600&quot;]launches.eventhandler.threadpool.maxsize=I&quot;5&quot;
@@ -70,14 +70,14 @@ launches.eventhandler.threadpool.priority=&quot;MIN&quot;*
 
 つまり、*/content/screens* の下のリソースにローンチのライブ日付を設定した場合、このオフセット分だけ早めに昇格が開始されます。例えば、ライブ日付を 11 月 24 日午前 9 時 00 分に設定し、猶予時間を 600 秒に設定した場合、昇格ジョブは 11 月 24 日午前 8 時 50 分に開始されます。
 
-## ローンチの使用 {#using-launches}
+## 画面起動の使用 {#using-launches}
 
-この節では、AEM Screens プロジェクトにローンチを実装する方法について説明します。ここでは、以下のトピックについて説明します。
+以下の節に従って、AEM Screensプロジェクトに起動を実装します。 ここでは、以下のトピックについて説明します。
 
-1. **ローンチの作成**
-1. **ローンチの編集によるライブ日付と範囲の設定**
+1. **画面起動の作成**
+1. **画面の起動の編集によるライブの日付と範囲の設定**
 
-### ローンチの作成 {#creating-a-launch}
+### 今後の公開の作成 {#creating-a-launch}
 
 AEM Screens プロジェクトに将来バージョン公開機能を実装するには、以下の手順に従います。
 

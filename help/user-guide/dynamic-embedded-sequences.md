@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
-translation-type: ht
-source-git-commit: 119d5bdf854674ae86682ed82fee390f63972c0a
+translation-type: tm+mt
+source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
 
 ---
 
@@ -215,7 +215,7 @@ AEM Screens プロジェクトに動的埋め込みシーケンスを実装す�
    1. 「**チャネル名**」に「**region**」と入力します *。
    1. 「**チャネルロール**」に「**RegionAdSegment**」と入力します。
    1. 「**保存**」をクリックします。
-   ** ストアのチャネルをロール別に割り当てます。
+   **ストアのチャネルをロール別に割り当てます。**
 
    1. **割り当てられたチャネル**&#x200B;パネルの「**+ チャネルを割り当て**」をクリックして、**チャネル割り当て**&#x200B;ダイアログボックスを開きます。
    1. 「**チャネルを参照...**」で「名前別」を選択します。
@@ -267,7 +267,7 @@ AEM Screens プロジェクトに動的埋め込みシーケンスを実装す�
 
 **シナリオ 1**：
 
-**Demo**／**Locations**／**Region A**／Store 1／**Store1Display** というディスプレイパスを割り当てた場合は、次のコンテンツが AEM Screens Player に表示されます。
+If you assign the display path as **Demo** --> **Locations** --> **Region A** --> **Store 1** --> **Store1Display**, the following content will display on your AEM Screens player.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
@@ -353,7 +353,7 @@ AEM Screens プロジェクトに動的埋め込みシーケンスを実装す�
    1. 「**権限**」タブに移動します。
    1. ***/content/screens/demo*** に移動し、すべての権限を有効にします。
    1. ***/content/screens/demo/locations*** に移動し、すべての権限を有効にします。
-   1. ***/content/screens/demo/locations***/***region-a*** に移動し、すべての権限を有効にします。同様に、**region-b** の権限を有効にします。
+   1. ***/content/screens/demo/locations/region-a*** に移動し、すべての権限を有効にします。同様に、**region-b** の権限を有効にします。
    この手順の参考として、次の図を参照してください。
    ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
 
@@ -366,7 +366,7 @@ AEM Screens プロジェクトに動的埋め込みシーケンスを実装す�
    1. 「**権限**」タブに移動します。
    1. ***/content/screens/demo*** に移動し、**読み取り**&#x200B;権限のみ有効にします。
    1. ***/content/screens/demo/locations*** に移動し、**読み取り**&#x200B;権限のみ有効にします。
-   1. ***/content/screens/demo/channels ***に移動し、****Global*** チャネルの権限を無効にします。
+   1. ***/content/screens/demo/channels*** に移動し、**Global** チャネルに対する権限を無効にします。
    1. ***/content/screens/demo/locations***/***region-a*** に移動し、すべての権限を有効にします。同様に、**region-b** の権限を有効にします。
    この手順の参考として、次の図を参照してください。
 

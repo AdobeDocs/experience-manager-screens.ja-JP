@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a36ecd81d250f449e3fa870309674bf2dc771d0
+source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
 ---
 
@@ -94,11 +94,12 @@ Google シートが正しく設定されると、次のように表示されま�
 
    1. 「**タイトル**」に「**Google Sheets**」、「**ストア名**」に「**googlesheets**」、「**ストアの種類**」に「**contexthub.generic-jsonp**」と、それぞれ入力して、「**次へ**」をクリックします。
 
+      >[!CAUTION]
+      >Adobe Experience Manager (AEM) 6.4を使用している場合は、「 **Configuration Title****」を「** googlesheets **」として入力し、「** Store Type **」を「** contexthub.jsonp」として入力します。
+
       ![画像](/help/user-guide/assets/context-hub/context-hub6.png)
 
-      >[!NOTE]
-      >
-      >AEM 6.4で、設定のタイトルを **googlesheetsとして** 、 **Typeを****** contexthub ****.jsonp generic storeとして入力します。
+
 
    1. 固有の JSON 設定を入力します。例えば、次の JSON をデモ用に使用し、「**保存**」をクリックすると、ContextHub 設定に「**Google Sheets**」という名前のストア設定が表示されます。
 

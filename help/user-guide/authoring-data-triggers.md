@@ -2,8 +2,8 @@
 title: データトリガーを使用したオーサリング
 seo-title: データトリガーを使用したオーサリング
 description: データトリガーを使用して作成する方法については、このページを参照してください。
-translation-type: ht
-source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
+translation-type: tm+mt
+source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
 ## データトリガーを使用したオーサリングの概要 {#author-targeting}
 
->[!VIDEO](https://video.tv.adobe.com/v/31921?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/31921)
 
 ## AEM Screens チャネルでのターゲティングの有効化 {#enabling-targeting}
 
@@ -43,11 +43,11 @@ source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. 「**パーソナライゼーション**」タブを選択して、ContextHub 設定をセットアップします。
+1. 「パーソナラ **イゼーション** 」タブを選択してContextHub設定を設定し、ContextHubとセグメントのパスを選択します。
 
    1. 「**ContextHub のパス**」として **libs**/**settings**/**cloudsettings**/**default**/**ContextHub Configurations** を選択し、「**選択**」をクリックします。
 
-   1. 「**セグメントのパス**」として **conf**/**we-retail**/**settings**/**wcm**/**segments** を選択し、「**選択**」をクリックします。
+   1. 「**セグメントのパス**」として **conf**/**We.Retail**/**settings**/**wcm**/**segments** を選択し、「**選択**」をクリックします。
 
    1. 「**保存して閉じる**」をクリックします。
    >[!NOTE]

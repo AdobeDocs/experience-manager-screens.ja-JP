@@ -1,41 +1,41 @@
 ---
-title: テキストオーバーレイのカスタムブランドとスタイルの適用
-seo-title: テキストオーバーレイのカスタムブランドとスタイルの適用
-description: このページでは、テキストオーバーレイのカスタムブランドとスタイル設定を適用する方法について説明します。
-seo-description: このページでは、テキストオーバーレイのカスタムブランドとスタイル設定を適用する方法について説明します。
+title: テキストオーバーレイのカスタムブランディングとスタイルの適用
+seo-title: テキストオーバーレイのカスタムブランディングとスタイルの適用
+description: このページでは、テキストオーバーレイのカスタムブランディングとスタイル設定を適用する方法について説明します。
+seo-description: このページでは、テキストオーバーレイのカスタムブランディングとスタイル設定を適用する方法について説明します。
 contentOwner: Jyotika Syal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a475e373b0717b69610cb78907542f1da9ad8992
 
 ---
 
 
-# テキストオーバーレイのカスタムブランドとスタイル設定 {#creating-custom-branding-styling}
+# テキストオーバーレイのカスタムブランディングとスタイル設定 {#creating-custom-branding-styling}
 
-このページでは、画面オーバーレイでアセットに適用するテキストオーバーレイのカスタムブランドとスタイルを適用する方法について説明します。チャネル
+このページでは、Screens チャネルのアセットに適用されたテキストオーバーレイのカスタムブランディングとスタイル設定を適用する方法について説明します。
 
-## テキストオーバーレイのカスタムブランドとスタイルの作成 {#steps-custom-branding}
+## テキストオーバーレイのカスタムブランディングとスタイル設定の作成 {#steps-custom-branding}
 
-次の手順に従って、テキストオーバーレイのカスタムブランドとスタイルを作成します。
+次の手順に従って、テキストオーバーレイのカスタムブランディングとスタイル設定を作成します。
 
-1. AEM Screensプロジェクトを作成します。 次の例は、次の図に示すように、 **customstyle** ( **customstyle** )という名前のプロジェクトとDemoBrand(DemoBrand)という名前のチャネルを作成して、この機能を示しています。
+1. AEM Screens プロジェクトを作成します。次の図のように、この例では、**customstyle** という名前のプロジェクトと、**DemoBrand** という名前のチャネルを作成して、この機能を示しています。
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
-1. エディターから画像をドラッグ&amp;ドロップし、テキストオーバーレイをアセットに追加します。
+1. エディターから画像をドラッグ＆ドロップし、テキストオーバーレイをアセットに追加します。
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand2.png)
 
    >[!NOTE]
-   >テキストオーバーレイをチャネルエディタでアセットに追加する方法については、「テキストオーバーレイ」を参照 [してくださ](/help/user-guide/text-overlay.md)い。
+   >チャネルエディターでテキストオーバーレイをアセットに追加する方法については、[テキストオーバーレイ](/help/user-guide/text-overlay.md)を参照してください。
 
 1. AEM インスタンスの **CRXDE lite**／ツール／CRXDE Lite に移動します。
 
-1. 例えば、この場合は、 `/apps/settings/wcm/designs/<your-project>/``/apps/settings/wcm/designs/customstyle/`
+1. カスタムデザインを `/apps/settings/wcm/designs/<your-project>/` に作成する必要があります。例えば、この場合は、`/apps/settings/wcm/designs/customstyle/` に移動します。
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. static.css *ファイルを作成し* 、次のCSSルールを設定します。 また、CSSルールの下の図の例としても示されています。
+1. *static.css* ファイルを作成し、次の css ルールを設定します。また、css ルールは下の図の例としても示されています。
 
    ```shell
      //global styles
@@ -61,70 +61,70 @@ source-git-commit: a475e373b0717b69610cb78907542f1da9ad8992
    ```
    ![画像](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
-1. パスをプロジェクトにコピーします。この場合、パスはとなります `/apps/settings/wcm/designs/customstyle`。
+1. パスをプロジェクトにコピーします。この場合、パスは `/apps/settings/wcm/designs/customstyle` です。
 
-1. 手順(1)で作成した **DemoBrand** ( **DemoBrand** )というタイトルのチャネルに移動し、チャネルを選択した後、アクションバーの「Properties」をクリックします。
+1. 手順（1）で作成した **DemoBrand** というタイトルのチャネルに移動し、チャネルを選択した後、アクションバーの&#x200B;**プロパティ**&#x200B;をクリックします。
 
-1. 「詳細」タブに移 **動し** 、「デザイン」フィールドを **確認します** 。
+1. 「**詳細**」タブに移動し、「**デザイン**」フィールドを確認します。
    ![画像](/help/user-guide/assets/custom-brand/custom-brand5.png)
 
    >[!NOTE]
-   >デフォルトでは、「 **Design** 」フィールドには、libsフォルダー内のデザインを指すパスが表示されます。
+   >デフォルトでは、「**デザイン**」フィールドには、libs フォルダー内のデザインを指すパスが表示されます。
 
-1. プロジェクト **フォルダへのパスで** 、[デザイン]フィールドを更新します。 この場合は、次のようになります `/apps/settings/wcm/designs/customstyle`。
+1. プロジェクトフォルダーのパスで、「**デザイン**」フィールドを更新します。この場合は、`/apps/settings/wcm/designs/customstyle` です。
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
-1. 「保存し **て閉じる** 」をクリックして、デザインパスを更新します。
+1. 「**保存して閉じる**」をクリックして、デザインパスを更新します。
 
 >[!IMPORTANT]
-> 既存の画面テンプレートをオーバーレイして、デフォルトで独自のデザインを挿入したり、独自のテンプレートを作成したりするオプションがあります。 詳しくは、次の手順を参照してください。
+> 既存の Screens テンプレートをオーバーレイして、デフォルトで独自のデザインを挿入したり、完全に独自のテンプレートを作成したりできるオプションがあります。詳しくは、以下の手順を参照してください。
 
-1. 既存の画面テンプレートをオーバーレイして独自のデザインを挿入するには、次の手順に従います。
+1. 既存の Screen テンプレートをオーバーレイして独自のデザインを挿入するには、次の手順に従います。
 
-   1. オーバーレ `/libs/screens/core/templates/sequencechannel` イイン `/apps/screens/core/templates/sequencechannel`。
-   1. 新しいデザ *インを指すよ*`/apps/screens/core/templates/sequencechannel/jcr:content` うに、のcq:designPathプロパティを変更します。
+   1. `/apps/screens/core/templates/sequencechannel` の `/libs/screens/core/templates/sequencechannel` をオーバーレイします。
+   1. 新しいデザインを指すように、`/apps/screens/core/templates/sequencechannel/jcr:content` の *cq:designPath* プロパティを変更します。
 
-1. 独自のテンプレートを完全に作成するには：
-   1. にコピ `/libs/screens/core/templates/sequencechannel` ーしま `/apps/customstyle/templates/styled-sequencechannel`す。
-   1. 新しいデザ *インを指すよ*`/apps/customstyle/templates/styled-sequencechannel/jcr:content` うに、のcq:designPathプロパティを変更します。
+1. 完全に独自のテンプレートを作成するには：
+   1. `/libs/screens/core/templates/sequencechannel` を `/apps/customstyle/templates/styled-sequencechannel` にコピーします。
+   1. 新しいデザインを指すように、`/apps/customstyle/templates/styled-sequencechannel/jcr:content` の *cq:designPath* プロパティを変更します。
 
 
-### ACLの更新 {#updating-acls}
+### ACL の更新 {#updating-acls}
 
-これらのデザインのACLを更新して、プレイヤーがダウンロードできるようにする必要があります。
+これらのデザインの ACL を更新して、プレーヤーがダウンロードできるようにする必要があります。
 
-1. useradminに移動し、を選択し、カス `screens-<project>-devices group` タムデザインパスの読み取り権限を付与します。
+1. useradmin に移動し、`screens-<project>-devices group` を選択し、カスタムデザインパスの読み取り権限を付与します。
 
-1. このパス `screens-<project>-administrators` に対するグループの読み取りおよび変更の権限を指定します。
+1. このパスに対する `screens-<project>-administrators` グループの読み取りおよび変更の権限を指定します。
 
 ## 結果の表示 {#viewing-the-result}
 
-上記の手順を完了したら、 *CRXDE Lite* (CRXDE Lite)から **** statis.cssファイルを更新し、その結果、既にアセットに追加されているテキストオーバーレイに更新を表示できます。
+上記の手順を完了したら、*CRXDE Lite* から **statis.css** ファイルを更新すると、既にアセットに追加されているテキストオーバーレイに更新が表示されます。
 
-次の手順に従って、更新されたデザインを表示し、テキストオーバーレイを作成します。
+次の手順に従って、更新したデザインをテキストオーバーレイに表示します。
 
-1. AEM Screensプロジェクト(「customstyle **」>「** チャネル **」** —>「 **DemoBrand」**)に移動します。  チャネルを選択し、アクションバーの「**編集**」をクリックして、エディターを開きます。
+1. **customstyle** という AEM Screens プロジェクトから、**チャネル**／**DemoBrand** に移動します。チャネルを選択し、アクションバーの「**編集**」をクリックして、エディターを開きます。
 
-1. これでデザインが「 **Designs** 」フィールドに追加されたので、前述のように「 **プレビュー** 」をクリックし、画像上の現在のスタイルをテキストオーバーレイで表示します。
+1. デザインは「**デザイン**」フィールドに追加されたので、前述のように「**プレビュー**」をクリックすると、現在のスタイルが画像上のテキストオーバーレイで表示されます。
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. CRXDE Liteで *static.css* ファイルに移動し、次に示すように、このファイルにフ `font-family: "Lucida Console", Courier, monospace;` ォント（など）を追加します。
+1. CRXDE Lite の *static.css* ファイルに移動し、次に示すように、このファイルにフォント（`font-family: "Lucida Console", Courier, monospace;` など）を追加します。
    ![画像](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
 1. 変更を保存してプレビューを再読み込みすると、次の図に示すように、テキストオーバーレイのフォントが更新されます。
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. さらに、 *static.cssファイルからコードの最後の2つのブロックを削除して* 、テキストオーバーレイの周囲のボックス化されたスタイルを削除できます。
+1. さらに、*static.css* ファイルからコードの最後の 2 ブロックを削除して、テキストオーバーレイの周囲のボックススタイルを削除できます。
    ![画像](/help/user-guide/assets/custom-brand/custom-brand10.png)
 
-1. 画像内の更新後の変更を表示します。ここで、プレビュー内のテキストオーバーレイが画像に追加されます。
+1. 画像の更新後の変更が表示されるので、プレビューで画像に追加したテキストオーバーレイが確認できます。
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-このチュートリアルを参照して、アセットに追加されたテキストオーバーレイのブランドとカスタムのスタイル設定を更新できるようになりました。
+このチュートリアルを参照して、アセットに追加されたテキストオーバーレイのブランドとカスタムスタイル設定を更新できるようになりました。
 
 
 

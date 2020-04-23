@@ -11,64 +11,66 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9cc4b31ecd66530a85a7a526e306faf1ec371b2e
+source-git-commit: 14a45b58862477ec6be082ab1c059f991b086755
 
 ---
 
 
 # 画面の起動を使用したコンテンツの更新 {#launches}
 
-Content authors can create future version of the channel(s), known as **Screens Launch** and further setting live date for this launch allows content to be live in devices or players.
+コンテンツ作成者は、将来のチャネル（「画面の起動」と呼ばれる）を作成し **て** 、この起動の有効日をさらに設定できます。 これにより、指定したライブ日にコンテンツをデバイスまたはプレーヤーでライブにすることができます。
 
-今後の発行の助けを借りて、作成者は起動の各チャネルをプレビューでき、レビューのリクエストを開始できるようになります。 承認者グループは通知を受け取り、要求を承認または拒否できます。ライブ日付に達すると、コンテンツがデバイスで再生されます。
+With the help of **Screens Launches**, authors can preview each channel in the launch and should be able to initiate a request for review. 承認者グループは通知を受け取り、要求を承認または拒否できます。ライブ日付に達すると、コンテンツがデバイスで再生されます。
 
 例えば、作成者が c1 および c2（チャネル）という将来バージョンを作成する場合は、ローンチを作成し、ライブ日付を設定します（例：11 月 10 日午前 8 時 00 分）。コンテンツがさらに更新されると、更新されたコンテンツが、レビューを受けるために送信されます。要求が承認され、ライブ日付（例：11 月 10 日午前 8 時 00 分）になると、このローンチがデバイスまたはプレーヤーでコンテンツを再生します。
 
 ## 要件 {#requirements}
 
-AEM Screensプロジェクトでの今後の公開の実装を開始する前に、猶予期間の概念とその関連性を理解しておく必要があります。
+AEM Screensプロジェクトで画面の起動を開始する前に、猶予期間の概念とその関連性を理解しておく必要があります。
 
-次の節では、猶予時間とそれをデフォルトとして設定する方法について説明します。また、サンプルのテスト設定をダウンロードして、その使用方法を理解することもできます。
+設定された実稼働日に対してプレイヤー上でエクスペリエンスを実行するには、次の操作を行います。
+
+* 開始の促進（通常、数秒かかります）
+
+* インスタンスを発行するためのリソースの発行(通常は数分かかり、発行する必要のあるチャネルまたはアセットのサイズによって異なります)
+
+* オフラインコンテンツの更新が完了するまでにかかる時間（通常は数分かかります）
+
+* プレーヤーがパブリッシュインスタンスからコンテンツをダウンロードするのにかかる時間（通常、ダウンロードする必要のあるアセットの帯域幅とサイズに応じて、数分かかります）
+
+* サーバーとプレーヤーの時間差
 
 ### 猶予時間について {#understanding-grace-period}
 
-The following setup allows the admin to configure the ***Grace Period***, required in future publish.
+設定したライブ日に対してプレイヤーがコンテンツを開始再生できるようにするには、前述のアクティビティをライブ日の前に開始する必要があります。
 
-**猶予時間**&#x200B;には以下が含まれます。
-
-* ローンチの昇格に要する時間
-* パブリッシュインスタンスへのリソースの公開に要する時間
-* デバイスでコンテンツをパブリッシュインスタンスからダウンロードするのかかる時間、およびサーバーとプレーヤーの時間差
+有効日が *11月24日、午前9:00、猶予期間が* 24時間の場合、上記の一連のアクションは(有効日 — 猶予期間 **)、つまり11月23日、午前9:00に開始されます。 これにより、上記のすべてのアクションを完了するまでに24時間かかり、コンテンツがプレイヤーに届きます。 これは起動コンテンツであることをプレイヤーは認識するので、コンテンツはすぐには再生されませんが、プレイヤーはこのコンテンツを将来のバージョンとして保存し、開始はプレイヤーのタイムゾーンの設定された実稼働日に再生されます。
 
 例えば、サーバーとデバイスのタイムゾーンがそれぞれ PST と EST であるとします（この場合、最大時差は 3 時間です）。また、プロモーションに 1 分、オーサーからパブリッシュへの公開に 10 分、プレーヤーがリソースをダウンロードするのには通常 10～15 分、それぞれかかるとしましょう。猶予時間は、時差（3 時間）+ ローンチの昇格に要する時間（1 分）+ ローンチの公開に要する時間（10 分）+ プレーヤーでのダウンロードに要する時間（10～15 分）+ バッファー（余裕を見て例えば 30 分）= 3 時間 56 分 = 14160 秒になります。したがって、ローンチのライブ日付をスケジュールした場合は、このオフセット分だけ早めに昇格が開始されます。上記の式では、ほとんどの項目に多くの時間はかかりません。サーバーとプレーヤーの間の最大時差がわかれば、このオフセットの妥当な推測をおこなえます。
 
-### デフォルトの猶予時間の設定 {#configuring-out-of-the-box-grace-period}
-
-デフォルトでは、ローンチの猶予時間は 24 時間に設定されています。つまり、*/content/screens* 下のリソースにローンチのライブ日付を設定した場合、このオフセット分だけ早めに昇格が開始されます。例えば、ライブ日付を 11 月 24 日午前 9 時 00 分に設定し、猶予時間を 24 時間に設定した場合、昇格ジョブは 11 月 23 日午前 9 時 00 分に開始されます。
-
-### 設定のダウンロード {#downloading-configurations}
-
-次のテスト設定をダウンロードできます。
-
-[ファイルを入手](assets/launches_event_handlerconfig-10.zip)
-
 >[!NOTE]
->
->このテスト設定では猶予時間は 600 秒に設定されています。
+>Out-of-the-box, the grace period for screens launches is set to 24 hours which means that when we set live date for any launch for the resources under */content/screens*, the promotion will start with this offset.
 
-#### 設定の更新 {#updating-the-configurations}
+### Updating out-of-the-box Grace Period {#updating-out-of-the-box-grace-period}
 
-上記の設定を変更する場合は、以下の手順に従います。
+この節では、そのまま使用できる猶予期間を10分に更新する方法について説明します。
 
-* /apps/system/config に、***com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config*** という名前の **sling:OsgiConfig/nt:file** を次の内容で作成します。
+1. CRXDE Liteに移動し、に移動します `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`。
+2. 右クリックし、ファイルをコピーします。
+3. に移動し、右 `/apps/system/config` クリックして貼り付けます。
+4. 重複がCRXDE Liteの `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` エディターでファイルをクリックして開きます。 パス/コンテンツ/画面/86400の猶予期 *間を86400として表示する* 必要があります。 この値を **600に変更します**。
 
-   *launches.eventhandler.updatelastmodification=B&quot;false&quot;
-launches.eventhandler.launch.promotion.graceperiod=[&quot;/content/screens(/.*):600&quot;]launches.eventhandler.threadpool.maxsize=I&quot;5&quot;
-launches.eventhandler.threadpool.priority=&quot;MIN&quot;*
+これで、テキストファイル内のコンテンツは次のようになります。
 
-* `launches.eventhandler.launch.promotion.graceperiod=["/content/screens(/.&#42;):600"` の指定により、パス */content/screens* に 600 秒の猶予時間を設定できます。
+```java
+launches.eventhandler.launch.promotion.graceperiod=[ \
+   "/content/screens(/.*):600", \
+   ]
+```
 
-つまり、*/content/screens* の下のリソースにローンチのライブ日付を設定した場合、このオフセット分だけ早めに昇格が開始されます。例えば、ライブ日付を 11 月 24 日午前 9 時 00 分に設定し、猶予時間を 600 秒に設定した場合、昇格ジョブは 11 月 24 日午前 8 時 50 分に開始されます。
+前の例で猶予期間を10分に設定したので、 */content/screens*（コンテンツ/画面）の下のリソースを起動する際にライブ日を設定すると、プロモーションはこのオフセットで開始します。
+
+例えば、有効日が11月24日午前9時に設定され、猶予期間が600秒の場合、プロモーションジョブは11月24日午前8時50分に開始されます。
 
 ## 画面起動の使用 {#using-launches}
 

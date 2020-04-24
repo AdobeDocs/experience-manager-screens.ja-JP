@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 0f30c01ee936d48a215e0a42eb983daea7fbe731
+source-git-commit: 076aeecd353ebf89893fd01ab28192b9145c844a
 
 ---
 
@@ -78,7 +78,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 ## 画面起動の使用 {#using-launches}
 
-次の節に従って、AEM Screensプロジェクトに画面の起動を実装します。
+この節では、AEM Screensプロジェクトに画面起動を実装する方法を説明します。
 
 ### Creating a Screens Launch {#creating-a-launch}
 
@@ -104,8 +104,6 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
    >[!NOTE]
    >「 **+チャネル** 」オプションを使用して、起動を作成する別のチャネルを追加できます。
-
-   ![画像](/help/user-guide/assets/launches-images/launches-13.png)
 
    「 **追加チャネル** 」オプションを使用するには、起動を作成するチャネルに移動し、「選択」をクリック **します**。
 
@@ -173,13 +171,13 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
    ![画像](/help/user-guide/assets/launches-images/launches-19.png)
 
-#### 画面の起動の編集/追加チャネル {#editing-the-screens-launch-to-add-or-remove-channels}
+### 画面の起動の編集/追加チャネル {#editing-the-screens-launch-to-add-or-remove-channels}
 
-起動を作成した後、「起動の編集」アクションを使用して、既存の起動にチャネルを追加または削 **除できます** 。
+起動を作成した後、「起動を編集」オプションを使用して、既存の起動にチャネルを追加または削除 **できます** 。
 
 完了したら、「保存」をクリッ **クし** 、FutureLaunchの **チャネルに戻ります** 。
 
-#### 画面の起動を手動で促す{#promote-the-screens-launch-manually}
+### 画面の起動を手動で促す{#promote-the-screens-launch-manually}
 
 起動を手動で昇格するには、 **PENDING LAUNCHES（保留中の起動）パネルの** 「起動を昇格」オプションを使用 **します** 。
 
@@ -196,11 +194,10 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 1. Promoteの起動 **ウィザード** で「 **Next** 」をクリックします。
 1. 「プロモ **ート** 」をクリックして起動をプロモーションします。
 
+### 画面起動の削除 {#deleting-the-screens-launch}
 
-#### 画面起動の削除 {#deleting-the-screens-launch}
-
-「起動を削除」アクションを使用して **起動を削除でき** ます。
+起動は、 **PENDING LAUNCHESパネルの「** Delete Launch **」オプションを使用して削** 除できます。
 
 >[注意]
->この操作により、ネストされた子孫の起動もすべて削除されます。
+>この操作により、すべての子孫（ネストされた起動）も削除されます。
 

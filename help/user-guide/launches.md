@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 14a45b58862477ec6be082ab1c059f991b086755
+source-git-commit: 654b4eb6ac5cab74df3044fd82d367bf26588364
 
 ---
 
@@ -74,10 +74,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 ## 画面起動の使用 {#using-launches}
 
-以下の節に従って、AEM Screensプロジェクトに起動を実装します。 ここでは、以下のトピックについて説明します。
-
-1. **画面起動の作成**
-1. **画面の起動の編集によるライブの日付と範囲の設定**
+以下の節に従って、AEM Screensプロジェクトに起動を実装します。
 
 ### Creating a Screens Launch {#creating-a-launch}
 
@@ -97,60 +94,19 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 1. **ローンチを作成**&#x200B;ウィザードが開きます。ウィザードに既に表示されているチャネルを選択するか、[ **+ 追加チャネル** ]をクリックして起動を作成するチャネルを追加します。
 
-
-#### 既存のチャネル {#existing-channel-launch}
-
-1. 起動の作成チャネルに既に存在するウィザードを **選択し** 、「次へ」をクリッ **クします**。
+1. 起動の作 **成ウィザー** ドで「次へ **** 」をクリックします。 「サブペ **ージを含める** 」オプションはデフォルトで選択されています。
 
    ![画像](/help/user-guide/assets/launches-images/launches-b.png)
 
-1. Select the channel and click **Next** from the action bar.
-
    >[!NOTE]
-   >**「サブページを含める** 」オプションはデフォルトで選択されています。
-
-   ![画像](/help/user-guide/assets/launches-images/launches-b.png)
-
-1. 「**ローンチタイトル**」に「**SummerPromotions**」と入力します。「**ローンチ日**」を設定する必要はありません（下図を参照）。「**作成**」をクリックします。
-
-   >[!NOTE]
-   >
-   >「**ソースページのライブデータを継承**」オプションを&#x200B;*オンにする*&#x200B;と、チャネルをライブコピーとしてローンチに作成できます。元のチャネルで変更がおこなわれた場合、その変更はローンチチャネルに自動的に適用されます。
-   >
-   >
-   >「**ソースページのライブデータを継承**」を&#x200B;*オフにする*&#x200B;と、チャネルをライブ関係なしにローンチにコピーできます。したがって、元のチャネルに変更が加えられた場合、その変更はローンチチャネルには適用されません。
-
-   ![画像](/help/user-guide/assets/launches-images/launches-c.png)
-
-   >[!NOTE]
-   >
-   >ライブローンチ日は、この手順で設定することもできますし、ローンチを作成してからプロパティの編集時にセットアップすることもできます。
-
-1. ローンチが作成されたことがわかります。「**開く**」をクリックすると、ページがエディターに表示され、「**完了**」をクリックすると、プロジェクトに戻ります。
-
-   ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
-
-   Clicking **Done** allows you to navigate back to your **FutureLaunch** channel.
-
-   ![画像](/help/user-guide/assets/launches-images/launches-16.png)
-
-
-#### オプション追加の使用 {#add-channel-launch}
-
-1. 「 **+チャネル** 」をクリックして、起動を作成するチャネルを追加します。
+   >「 **+チャネル** 」オプションを使用して、起動を作成するチャネルを追加できます。
 
    ![画像](/help/user-guide/assets/launches-images/launches-13.png)
 
-   >[!NOTE]
-   >起動を **** 追加するために複数のチャネルまたはフォルダを選択しようとすると、「選択」オプションは無効になります。
+   >1. 起動を作成するチャネルに移動し、「選択」をクリックし **ます**。 起動を **** 追加するために複数のチャネルまたはフォルダを選択しようとすると、「選択」オプションは無効になります。
+   >
+   >![画像](/help/user-guide/assets/launches-images/launches-14.png)
 
-1. 起動を作成するチャネルに移動し、「選択」をクリックし **ます**。
-
-   ![画像](/help/user-guide/assets/launches-images/launches-14.png)
-
-1. これで、追加したチャネルを選択して起動を作成し、「次へ」をクリックで **きます**。
-
-   ![画像](/help/user-guide/assets/launches-images/launches-15.png)
 
 1. 「**ローンチタイトル**」に「**SummerPromotions**」と入力します。「**ローンチ日**」を設定する必要はありません（下図を参照）。「**作成**」をクリックします。
 
@@ -175,7 +131,8 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
    ![画像](/help/user-guide/assets/launches-images/launches-16.png)
 
-### ローンチプロパティの編集によるライブ日付と範囲の設定 {#editing-the-launch-properties-to-set-the-live-date-and-scope}
+
+### Editing the Launch Properties to Set the Live Date and Scope {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
 ローンチを作成したら、ローンチプロパティを編集して、ローンチのライブ日付と範囲を設定する必要があります。
 
@@ -189,35 +146,23 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
    ![画像](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. 起動を選択し、「 **PENDING LAUNCHES」パネルから目的のアクションをク** リックします。
+1. 起動を選択し、 **PENDING LAUNCHESパネルで「** Launch Properties **」を** クリックします。
 
    ![画像](/help/user-guide/assets/launches-images/launches-19.png)
 
-1. 例えば、「起動プロパティ」をク **リックして** 、「夏のプロモーション」の開始のプロパティを編 **集します**。
+#### 画面の起動の編集/追加チャネル {#editing-the-screens-launch-to-add-or-remove-channels}
 
-   ![画像](/help/user-guide/assets/launches-images/launches-20.png)
+起動を作成した後、「起動の編集」アクションを使用して、既存の起動にチャネルを追加または削 **除できます** 。
 
-1. ランチタイトルを編集 **し、次のフィールド** に値を入力できます。
+完了したら、「保存して閉じる **」をクリックし** 、FutureLaunch **** チャネルに戻ります。
 
-   * 「**ローンチ日**」を選択します。
-   * 「**実稼動準備完了**」をオンにします。
-   * 「**範囲**」から「**承認したページを昇格**」を選択します。
-   **自動プロモーションの下の起動エントリについて：**
+#### 画面の起動を手動で促す{#promote-the-screens-launch-manually}
 
-   * 「**ローンチ日**」：ライブ日付を指します。つまり、Screens プレーヤーのタイムゾーンに従ってコンテンツがプレーヤーで再生される日時のことです。
-   * 「**実稼動準備完了**」：チャネルの昇格が可能になります。つまり、ローンチの使用準備ができています。
-   * 「**範囲**」：ローンチ時に昇格可能なチャネルを指します。
-   範囲をセットアップする場合は、次の 3 つのオプションがあります。
+「開始を昇格」アクションを使用して、起動を手動で **昇格できます** 。
 
-   * **すべてのローンチを昇格**：設定したライブ日付でローンチのすべてのチャネルが昇格されます。
-   * **変更したページを昇格**：編集されたローンチリソースのみ昇格されます。ローンチのレビューが不要な場合は、このオプションを使用することをお勧めします。ローンチチャネルの変更内容を昇格させることができます。
-   * **承認したページを昇格**：設定したライブ日付で承認済みページのみ昇格されます。
+プロモーションの起動ウィザードで、この手動のプロモーションの一部としてプロモーションするリ **ソースを選択できます**。
 
-      >[!CAUTION]
-      >
-      >ローンチの昇格では、サーバーのタイムゾーンではなくプレーヤーやデバイスのタイムゾーンに従います。
+#### 画面起動の削除 {#deleting-the-screens-launch}
 
-
-
-1. 「**保存して閉じる**」をクリックして、**FutureLaunch** チャネルに戻ります。
+「起動を削除」アクションを使用して **起動を削除でき** ます。
 

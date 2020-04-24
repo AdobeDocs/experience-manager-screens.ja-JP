@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 076aeecd353ebf89893fd01ab28192b9145c844a
+source-git-commit: b26af144f01b48ffaffb77d0218b5549a5b7d2f5
 
 ---
 
@@ -177,7 +177,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 完了したら、「保存」をクリッ **クし** 、FutureLaunchの **チャネルに戻ります** 。
 
-### 画面の起動を手動で促す{#promote-the-screens-launch-manually}
+### 画面の手動起動の促進{#promote-the-screens-launch-manually}
 
 起動を手動で昇格するには、 **PENDING LAUNCHES（保留中の起動）パネルの** 「起動を昇格」オプションを使用 **します** 。
 

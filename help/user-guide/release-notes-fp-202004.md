@@ -1,10 +1,10 @@
 ---
 title: 機能パック 202004 のリリースノート
 seo-title: 機能パック 202004 のリリースノート
-description: 2020年4月21日にリリースされたAEM Screens Feature Pack 20204の情報を入手するには、このページに従ってください。
-seo-description: 2020年4月21日にリリースされたAEM Screens Feature Pack 20204の情報を入手するには、このページに従ってください。
+description: 2020年4月29日にリリースされたAEM Screens Feature Pack 2004の情報を入手するには、このページに従ってください。
+seo-description: 2020年4月29日にリリースされたAEM Screens Feature Pack 2004の情報を入手するには、このページに従ってください。
 translation-type: tm+mt
-source-git-commit: 0fe7d661c41675fc722b35a278dcbd510dca9084
+source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
 
 ---
 
@@ -19,7 +19,7 @@ AEM 6.4 機能パック 8 および AEM 6.5 機能パック 4 向けの AEM Scre
 
 ## リリース日 {#release-date}
 
-AEM Screens機能パック2004のリリース日は2020年4月21日です。
+AEM Screens機能パック2004のリリース日は2020年4月29日です。
 
 ### 最新情報 {#what-s-new}
 

@@ -1,10 +1,10 @@
 ---
 title: 機能パック 202004 のリリースノート
 seo-title: 機能パック 202004 のリリースノート
-description: 2020年4月29日にリリースされたAEM Screens Feature Pack 2004の情報を入手するには、このページに従ってください。
-seo-description: 2020年4月29日にリリースされたAEM Screens Feature Pack 2004の情報を入手するには、このページに従ってください。
+description: 2020年4月21日にリリースされたAEM Screens Feature Pack 20204の情報を入手するには、このページに従ってください。
+seo-description: 2020年4月21日にリリースされたAEM Screens Feature Pack 20204の情報を入手するには、このページに従ってください。
 translation-type: tm+mt
-source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
+source-git-commit: 8784ba269e510c3933c2573df43950fde79bf899
 
 ---
 
@@ -15,11 +15,19 @@ source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
 >
 >最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
 
-AEM 6.4 機能パック 8 および AEM 6.5 機能パック 4 向けの AEM Screens がリリースされました。詳細は以下のとおりです。
+## 利用可能場所 {#availability}
+
+AEM Screensは、AEM 6.4機能パック8およびAEM 6.5機能パック4をリリースしました。
+
+AEM Screens 6.4.8またはAEM Screens 6.5.4リリースの最新の機能パックは、保留中のリンクからダウンロードで *きます*。
+
+>[!NOTE]
+>パッケージ [を使用してリポジトリのコンテンツの読み込みと書き出しを行う方法、およびPackage ManagerやPackage Shareからパッケージにアクセスしたり、保守したりする方法については、『](https://docs.adobe.com/help/ja-JP/experience-manager-65/administering/contentmanagement/package-manager.html) How to Work With Packages』を参照してください。
+
 
 ## リリース日 {#release-date}
 
-AEM Screens機能パック2004のリリース日は2020年4月29日です。
+AEM Screens機能パック2004のリリース日は2020年4月21日です。
 
 ### 最新情報 {#what-s-new}
 

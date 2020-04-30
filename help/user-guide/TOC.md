@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens ヘルプ
 translation-type: tm+mt
-source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
+source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
 
 ---
 
@@ -65,7 +65,7 @@ source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
       + [埋め込みシーケンス](embedded-sequences.md)
       + [マルチゾーンレイアウト](multi-zone-layout-aem-screens.md)
       + [ビデオレンディション](generating-renditions.md)
-      + [動的埋め込みシーケンスの使用](dynamic-embedded-sequences.md)
+      + [動的埋め込みシーケンス](dynamic-embedded-sequences.md)
       + [チャネルレベルの一括画像再生時間](channel-level-image-playback.md)
       + [コマンド同期](using-command-sync.md)
       + [データトリガーを使用したオーサリング](authoring-data-triggers.md)

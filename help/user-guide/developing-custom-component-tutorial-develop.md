@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
-translation-type: ht
-source-git-commit: 81fbba033cbf1d87e1e99d91244f4bf0b712d339
+translation-type: tm+mt
+source-git-commit: a60de02a19004dd4d971612496f65285ded55716
 
 ---
 
@@ -539,7 +539,7 @@ public class MyCustomHandler extends AbstractResourceHandler {
 
 以下のビデオでは、完成したコンポーネントと、それをシーケンスチャネルに追加する方法を示しています。この後、チャネルはロケーションのディスプレイに追加され、最終的に Screens プレーヤーに割り当てられます。
 
->[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
 
 ## 完成したコード {#finished-code}
 

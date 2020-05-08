@@ -10,7 +10,7 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
 ---
@@ -95,7 +95,7 @@ Google シートが正しく設定されると、次のように表示されま�
    1. 「**タイトル**」に「**Google Sheets**」、「**ストア名**」に「**googlesheets**」、「**ストアの種類**」に「**contexthub.generic-jsonp**」と、それぞれ入力して、「**次へ**」をクリックします。
 
       >[!CAUTION]
-      >Adobe Experience Manager (AEM) 6.4を使用している場合は、「 **Configuration Title****」を「** googlesheets **」として入力し、「** Store Type **」を「** contexthub.jsonp」として入力します。
+      >Adobe Experience Manager（AEM）6.4 を使用している場合は、「**構成タイトル**」を「**googlesheets**」、「**ストアタイプ**」を「**contexthub.generic-jsonp**」として入力します。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub6.png)
 
@@ -180,8 +180,8 @@ json を定義するプロセスをスキップし、空白のままにしてお
 
       >[!CAUTION]
       既知の問題：
-領域を追加するには、URL（例えば下記）から「master」を削除します。
-      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
+領域を追加するには、URL（例えば下記）から「master」を削除します
+      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`
 
 1. **ブランドに領域を作成する**
 
@@ -272,9 +272,9 @@ json を定義するプロセスをスキップし、空白のままにしてお
 
    ![画像](/help/user-guide/assets/context-hub/context-hub19.png)
 
-1. 「**パーソナライゼーション**」タブを選択して、ContextHub 設定をセットアップします。
+1. 「**パーソナライズ機能**」タブを選択して、ContextHub 設定をセットアップします。
 
-   1. ContextHubパスを **Pathに設定し、** Segments Pathを `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` Save **（保存）をク** リッ `/conf/screens/settings/wcm/segments`****&#x200B;クして選択します。
+   1. 「**ContextHub パス**」を `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` に設定、「**セグメントパス**」を `/conf/screens/settings/wcm/segments` に設定して、「**保存**」をクリックします。
 
    1. 「**保存して閉じる**」をクリックします。
 

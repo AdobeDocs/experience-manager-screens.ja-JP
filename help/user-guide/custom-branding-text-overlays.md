@@ -59,6 +59,7 @@ source-git-commit: a475e373b0717b69610cb78907542f1da9ad8992
        background-color: rgba(255, 255, 255, .6);
      }
    ```
+
    ![画像](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
 1. パスをプロジェクトにコピーします。この場合、パスは `/apps/settings/wcm/designs/customstyle` です。

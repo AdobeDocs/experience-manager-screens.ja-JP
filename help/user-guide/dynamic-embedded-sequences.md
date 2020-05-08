@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
 
 ---
@@ -267,7 +267,7 @@ AEM Screens プロジェクトに動的埋め込みシーケンスを実装す�
 
 **シナリオ 1**：
 
-If you assign the display path as **Demo** --> **Locations** --> **Region A** --> **Store 1** --> **Store1Display**, the following content will display on your AEM Screens player.
+**Demo**／**Locations**／**Region A**／**Store 1**／**Store1Display** というディスプレイパスを割り当てた場合は、次のコンテンツが AEM Screens Player に表示されます。
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 

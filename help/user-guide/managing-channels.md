@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
 
 ---
@@ -60,7 +60,7 @@ Screens 用のプロジェクトを作成したら、下の手順に従ってス
 >
 >分割画面チャネルでは、複数のエクスペリエンスを並べて同時に再生できるように、ディスプレイを複数のゾーンに分割します。エクスペリエンスは、静的アセット／テキストでも埋め込みシーケンスでも構いません。
 
-The following example shows the creation of a Sequence Channel (*ChannelOne*) for a Screens project (*DemoProject*).
+次の例は、Screens プロジェクト（*DemoProject*）のシーケンスチャネル（*ChannelOne*）の作成を示しています。
 
 ![demochannel](assets/demochannel.gif)
 
@@ -77,7 +77,7 @@ The following example shows the creation of a Sequence Channel (*ChannelOne*) fo
 
 >[!NOTE]
 >
->次の図に示すチャネルを選択します。
+>下の図に示すように、チャネルを選択します。
 
 ![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
 
@@ -120,7 +120,7 @@ The following example shows the creation of a Sequence Channel (*ChannelOne*) fo
 チャネルのダッシュボードを表示するには、次の手順に従います。
 
 1. 編集するチャネルを選択します。
-1. Click **Dashboard** from the action bar to view the dashboard. **チャネル情報**、**割り当てられたディスプレイ**、**保留中のローンチ**&#x200B;の各パネルが開きます（下図を参照）。
+1. アクションバーの「**ダッシュボード**」をクリックして、ダッシュボードを表示します。**チャネル情報**、**割り当てられたディスプレイ**、**保留中のローンチ**&#x200B;の各パネルが開きます（下図を参照）。
 
 ![dashboard](assets/dashboard.gif)
 
@@ -128,28 +128,28 @@ The following example shows the creation of a Sequence Channel (*ChannelOne*) fo
 
 チャネル情報パネルでは、チャネルのプロパティを説明し、チャネルのプレビューを表示します。また、チャネルがオフラインであるかオンラインであるかの情報も表示されます。
 
-Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view properties, edit the content, or to update cache (offline content) for the channel.
+**チャネル情報**&#x200B;アクションバーの（**...**）をクリックすると、プロパティを表示、コンテンツを編集、またチャネルのキャッシュ（オフラインコンテンツ）を更新できます。
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
 #### マニフェストの表示 {#view-manifest}
 
-マニフェストを表示チャネルからダッシュボードできます。
+マニフェストをチャネルダッシュボードから表示できます。
 
 >[重要]
-> このオプションは、AEM 6.4 Feature Pack 8またはAEM 6.5 Feature Pack 4でのみ使用できます。
+> このオプションは、AEM 6.4 機能パック 8 または AEM 6.5 機能パック 4 でのみ使用できます。
 
-このオプションを有効にするには、次の手順に従います。チャネルダッシュボード:
-1. **チャネルをオフライン**
-   1. Select the channel and select **Properties** from the action bar
-   1. 「 **チャネル** 」タブに移動し、「開発者モード」( **チャネルをオンラインにする)オプションのチェックを外します** 。
-   1. Click **Save &amp; Close**
+チャネルダッシュボードからこのオプションを有効にするには、次の手順に従います。
+1. **チャネルをオフラインに設定**
+   1. チャネルを選択し、アクションバーの「**プロパティ**」を選択します
+   1. 「**チャネル**」タブに移動し、「**開発者モード（チャネルをオンラインにする）**」オプションのチェックを外します
+   1. 「**保存して閉じる**」をクリックします
 1. **オフラインコンテンツを更新**
-   1. Select the channel and select **Dashboard** from the action bar
-   1. [ **チャネル情報** ]パネルに移動し、[ *...]をクリックします。*
-   1. 「オフラインコ **ンテンツを更新」をクリック**
+   1. チャネルを選択し、アクションバーの「**ダッシュボード**」をクリックします
+   1. **チャネル情報**&#x200B;パネルに移動し、「*...*」をクリックします。
+   1. 「**オフラインコンテンツを更新」をクリックします。**
 
-これで、「 **表示マニフェスト** 」オプションがチャネルダッシュボードの **「チャネル情報** 」パネルから表示されます。
+これで、「**マニフェストを表示**」オプションがチャネルダッシュボードの 「**チャネル情報**」パネルから表示されます。
 
 ![image1](assets/channel-one.png)
 
@@ -180,7 +180,7 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
-1. 「**開発者****モード (チャネルをオンラインに強制)**」をオンにして、チャネルをオンラインにします。
+1. 「****&#x200B;開発者&#x200B;**モード (チャネルをオンラインに強制)**」をオンにして、チャネルをオンラインにします。
 
    「**保存して閉じる**」をクリックしてオプションを保存します。
 
@@ -210,7 +210,7 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
   <tr>
    <td>オンラインチャネルでの変更</td>
    <td>コンテンツを自動的に更新</td>
-   <td><p>コンテンツを「デバイス：プッシュ設定」で更新</p> <p>または、</p> <p>コンテンツを「<strong><i>デバイス：再起動</i></strong>」で更新</p> </td>
+   <td><p>コンテンツを「デバイス : プッシュ設定」で更新</p> <p>または、</p> <p>コンテンツを「<strong><i>デバイス : 再起動</i></strong>」で更新</p> </td>
   </tr>
   <tr>
    <td>オフラインチャネルで変更があったが、チャネル「コンテンツのプッシュ」がトリガーされない（オフラインパッケージは再作成されない）</td>
@@ -220,7 +220,7 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
   <tr>
    <td>オフラインチャネルで変更があり、チャネル「コンテンツのプッシュ」がトリガーされる（新しいオフラインパッケージ）</td>
    <td>コンテンツを自動的に更新</td>
-   <td><p>コンテンツを「<strong><i>デバイス：プッシュ設定</i></strong>」で更新</p> <p>または、</p> <p>コンテンツを「<strong><i>デバイス：再起動</i></strong>」で更新</p> </td>
+   <td><p>コンテンツを「<strong><i>デバイス : プッシュ設定</i></strong>」で更新</p> <p>または、</p> <p>コンテンツを「<strong><i>デバイス : 再起動</i></strong>」で更新</p> </td>
   </tr>
   <tr>
    <td><p>設定での変更</p>
@@ -231,7 +231,7 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
      <li>チャネルの割り当て（ロール、イベント、スケジュール設定）</li>
     </ul> </td>
    <td>設定を自動的に更新</td>
-   <td><p>設定を「<strong><i>デバイス：プッシュ設定</i></strong>」で更新</p> <p>または、</p> <p>設定を「<strong><i>デバイス：再起動</i></strong>」で更新</p> </td>
+   <td><p>設定を「<strong><i>デバイス : プッシュ設定</i></strong>」で更新</p> <p>または、</p> <p>設定を「<strong><i>デバイス : 再起動</i></strong>」で更新</p> </td>
   </tr>
  </tbody>
 </table>

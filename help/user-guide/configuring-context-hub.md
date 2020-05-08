@@ -10,8 +10,11 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-translation-type: ht
-source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
+translation-type: tm+mt
+source-git-commit: 4a70228068a6effb68d46b7e31726e2be84c08cc
+workflow-type: tm+mt
+source-wordcount: '1531'
+ht-degree: 94%
 
 ---
 
@@ -91,6 +94,20 @@ Google シートが正しく設定されると、次のように表示されま�
    1. **ContextHub 設定**&#x200B;画面で、**作成**／**ContentHub ストア設定**&#x200B;をクリックします。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub5.png)
+
+      >[!CAUTION]
+      >AEM 6.5機能パック4またはAEM 6.4機能パック8の一部として、にアップデートする必要 `/conf/screens/settings/cloudsettings` があり `sling:Folder`ます。
+      >その場合は、次の手順に従います。
+      >
+      >1. CRXDE Lite に移動してから`/conf/screens/settings/cloudsettings`に移動します。
+      >1. がインしてい `cloudsettings jcr:primaryType` るかどうかを確認し `sling:Folder`ます。 がにない場合 `jcr:primaryType` は、次の手順に進み `sling:folder`ます。
+      > 1. を右クリックし `/conf/screens/settings` 、 *名前を「* cloudsettings1 **」に、Type** を「 ****** sling:Folder」に設定した新しいノードを作成します。
+      >1. すべてのノードをに移動 `/conf/screens/settings/cloudsettings` し `cloudsettings1`ます。
+      >1. 削除 `cloudsettings` して保存します。
+      >1. 名前 `cloudsettings1` をに変更 `cloudsettings` して保存します。
+      >1. 今度は、/conf/screens/settings/cloudsettingsにはが含まれていることを確認 `jcr:primaryType` してくだ `sling:Folder`さい。
+アップグレードの前後に、「作成および公開」の次の手順に従う必要があります。
+
 
    1. 「**タイトル**」に「**Google Sheets**」、「**ストア名**」に「**googlesheets**」、「**ストアの種類**」に「**contexthub.generic-jsonp**」と、それぞれ入力して、「**次へ**」をクリックします。
 
@@ -181,7 +198,7 @@ json を定義するプロセスをスキップし、空白のままにしてお
       >[!CAUTION]
       既知の問題：
 領域を追加するには、URL（例えば下記）から「master」を削除します
-      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`
+      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
 1. **ブランドに領域を作成する**
 

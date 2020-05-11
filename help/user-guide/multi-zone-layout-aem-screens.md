@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: e33175a8c4282d89ed77fc430b1a48eb8470585f
+source-git-commit: bf4b499bc42a2c5f7f05a257bf7c8ed6c7b58b89
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 93%
+source-wordcount: '797'
+ht-degree: 86%
 
 ---
 
@@ -126,7 +126,10 @@ ht-degree: 93%
 
 上記の手順を使用してマルチゾーンレイアウトを実装すると、次の出力が表示されます（下図を参照）。
 
-Screens Player での以下の出力では、3 つの異なるゾーンにコンテンツが表示されています。左右のゾーン（両方ともコンポーネントとして埋め込みシーケンスを使用）には、画像のシーケンスが表示され、下部のゾーンには静的画像が表示されます。
+チャネルエディターで **プレビューをクリックし** 、次の出力を表示して、2つの異なるゾーンにコンテンツを表示します。 左ゾーンと右ゾーン（どちらも埋め込みシーケンスをコンポーネントとして使用）。
+
+>[!NOTE]
+>画面プレイヤーでコンテンツを表示しようとする場合は、チャネルダッシュボードの「オフラインコンテンツを **更新** 」をクリックしていることを確認してください。
 
 ![new2-1](/help/user-guide/assets/multi-zone/screens-multi1.gif)
 

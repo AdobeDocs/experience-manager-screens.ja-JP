@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: bf4b499bc42a2c5f7f05a257bf7c8ed6c7b58b89
+source-git-commit: afe069d0cd297d0e2280ffb6093e0b0d129c675d
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 86%
+source-wordcount: '789'
+ht-degree: 83%
 
 ---
 
@@ -69,13 +69,10 @@ ht-degree: 86%
 
    1. **Zones**／**Channels**／**MultiZone** に移動します。
    1. **MultiZone** チャネルを選択し、アクションバーの「**編集**」をクリックして、エディターを開きます。
-   ![screen_shot_2018-12-07at14917pm](assets/screen_shot_2018-12-07at14917pm.png)
 
 1. **チャネルに画像を追加する**
 
-   3 つのゾーンのすべてで単一の画像またはビデオを再生するには、次に示すように、画像をチャネルエディターにドラッグ＆ドロップするだけです。
-
-   ![new1-1](assets/new1-1.gif)
+   1つの画像またはビデオを3つすべてのゾーンで再生するには、チャネルエディターでその画像をドラッグ&amp;ドロップします。
 
 ### 1 つ以上のゾーンでのコンテンツシーケンスの使用 {#using-sequenced-content-in-one-or-more-zones}
 

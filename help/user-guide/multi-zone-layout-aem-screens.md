@@ -10,8 +10,11 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: e33175a8c4282d89ed77fc430b1a48eb8470585f
+workflow-type: tm+mt
+source-wordcount: '779'
+ht-degree: 93%
 
 ---
 
@@ -88,19 +91,26 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 1. **チャネルフォルダーにさらに 2 つのチャネルを追加する**
 
    1. **Zones**／**Channels**／**EmbeddedChannels** に移動し、アクションバーの「**作成**」をクリックします。
-   1. **作成**&#x200B;ウィザードで「**シーケンスチャネル**」を選択して、「Zone1」というタイトルのチャネルを作成します。
+   1. Select **Sequence Channel** from the **Create** wizard to create a channel titled as **Zone1**.
    1. **Zone1** を選択し、アクションバーの「**編集**」をクリックして、エディターを開きます。
    1. このチャネルに画像をいくつかドラッグ＆ドロップします。
    同様に、**EmbeddedChannels** フォルダーに「**Zone2**」というタイトルの別のシーケンスチャネルを作成します。
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
 
+   エディタの **Zone1** sequenceチャネルに追加された画像を次に示します。
+
+   ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-1.png)
+
+   エディタの **Zone2** sequenceチャネルに追加される画像を次に示します。
+
+   ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-2.png)
+
 1. **メインチャネル（MultiZone）に埋め込みシーケンス／コンポーネントを追加する**
 
    1. **Zones**／**Channels**／**MultiZone** に移動します。
    1. アクションバーの「**編集**」をクリックして、エディターを開きます。
-   1. **埋め込みシーケンス**&#x200B;コンポーネントを 2 つのゾーンにドラッグ＆ドロップします（下図を参照）。
-   ![新規](assets/new.gif)
+   1. 「 **埋め込みシーケンス** 」コンポーネントを2つのゾーンにドラッグ&amp;ドロップします。
 
 1. **3 つのゾーンのすべてにコンテンツを追加する**
 
@@ -108,9 +118,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
    1. いずれかのゾーンの埋め込みシーケンスを選択します。
    1. エディターで、埋め込みシーケンスの&#x200B;**設定**（レンチ）アイコンをクリックします。
    1. 「チャネルパス」として **Zones**／**Channels**／**EmbeddedChannels**／**Zone1** を選択します（下図を参照）。
-   同様に、**Zone2** をエディター内の別の埋め込みシーケンスコンポーネントに追加します。また、下図のように、下部の 3 番目のゾーンに画像を追加します。
+   同様に、**Zone2** をエディター内の別の埋め込みシーケンスコンポーネントに追加します。
 
-   ![new2-1](assets/new2-1.gif)
+   ![画像](/help/user-guide/assets/multi-zone/multizone-3.png)
 
 #### 結果の表示 {#viewing-the-result}
 
@@ -118,5 +128,6 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 Screens Player での以下の出力では、3 つの異なるゾーンにコンテンツが表示されています。左右のゾーン（両方ともコンポーネントとして埋め込みシーケンスを使用）には、画像のシーケンスが表示され、下部のゾーンには静的画像が表示されます。
 
-![new2-2](assets/new2-2.gif)
+![new2-1](/help/user-guide/assets/multi-zone/screens-multi1.gif)
+
 

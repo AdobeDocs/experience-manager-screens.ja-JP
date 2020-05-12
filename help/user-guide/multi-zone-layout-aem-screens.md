@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 2e590d7a73dea9a0445962c2f65cdfa7fef3994d
+source-git-commit: 052cf1ccde6f18ec72307b14ffbac63be61127b0
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 46%
@@ -176,7 +176,7 @@ ht-degree: 46%
    >[!NOTE]
    >画面プレイヤーでコンテンツを表示しようとする場合は、チャネルダッシュボードの「オフラインコンテンツを **更新** 」をクリックしていることを確認してください。
 
-#### 結果の表示 {#viewing-the-result}
+### 結果の表示 {#viewing-the-result}
 
 前述の手順を使用してマルチゾーンレイアウトを実装すると、次の出力が表示されます。
 

@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 9e267326da9c8163d85402425e6b46886e4d19f9
+source-git-commit: 2e590d7a73dea9a0445962c2f65cdfa7fef3994d
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 47%
+source-wordcount: '1189'
+ht-degree: 46%
 
 ---
 
@@ -91,7 +91,9 @@ ht-degree: 47%
    1. Select **Sequence Channel** from the **Create** wizard to create a channel titled as **Zone1**.
    1. **Zone1** を選択し、アクションバーの「**編集**」をクリックして、エディターを開きます。
    1. このチャネルに画像をいくつかドラッグ＆ドロップします。
-   同様に、**EmbeddedChannels** フォルダーに「**Zone2**」というタイトルの別のシーケンスチャネルを作成します。
+   1. 同様に、**EmbeddedChannels** フォルダーに「**Zone2**」というタイトルの別のシーケンスチャネルを作成します。
+   1. ビデオをこのチャネルにドラッグ&amp;ドロップします。
+   次の図に、 **Zone1** と **Zone2のチャネルを示します**。
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
 
@@ -99,7 +101,7 @@ ht-degree: 47%
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
-   次の追加図に示すように、 **Zone2** Sequenceチャネルのビデオからエディタにアップロードします。
+   次に、 **Zone2** sequenceチャネルのエディターに追加されたビデオを示します。
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
@@ -107,7 +109,7 @@ ht-degree: 47%
 
    1. **Zones**／**Channels**／**MultiZone** に移動します。
    1. アクションバーの「**編集**」をクリックして、エディターを開きます。
-   1. 「 **埋め込みシーケンス** 」コンポーネントを2つのゾーンにドラッグ&amp;ドロップします。
+   1. 「 **埋め込みシーケンス** 」コンポーネントを両方のゾーンにドラッグ&amp;ドロップします。
    1. いずれかのゾーンの埋め込みシーケンスを選択します。
    1. エディターで、埋め込みシーケンスの&#x200B;**設定**（レンチ）アイコンをクリックします。
    1. 「チャネルパス」として **Zones**／**Channels**／**EmbeddedChannels**／**Zone1** を選択します（下図を参照）。

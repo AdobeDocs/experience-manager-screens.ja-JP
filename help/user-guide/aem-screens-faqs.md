@@ -5,8 +5,11 @@ description: ここでは、AEM Screens プロジェクトに関連する FAQ �
 seo-description: ここでは、AEM Screens プロジェクトに関連する FAQ への回答を掲載しています。
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-translation-type: ht
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+translation-type: tm+mt
+source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
+workflow-type: tm+mt
+source-wordcount: '1271'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ### 1. オンラインチャネルとオフラインチャネルの違いは何ですか？{#what-is-the-difference-between-an-online-and-an-offline-channel}
 
-***オンラインチャネル&#x200B;***では、最新のコンテンツがリアルタイム環境で表示されるのに対して、***オフラインチャネル***&#x200B;では、キャッシュされたコンテンツが表示されます。
+***オンラインチャネル***&#x200B;では、最新のコンテンツがリアルタイム環境で表示されるのに対して、***オフラインチャネル***&#x200B;では、キャッシュされたコンテンツが表示されます。
 
 ### 2. チャネルをオンラインにするには、どうすればよいですか？ {#how-do-i-make-a-channel-online}
 
@@ -102,16 +105,16 @@ Chrome OS プレーヤーは、実際の Chrome プレーヤーデバイスが�
 
 1. [ここ](https://download.macromedia.com/screens/)をクリックして、最新の Chrome プレーヤーをダウンロードします。
 1. 解凍してディスクに保存します。
-1. Chrome ブラウザーを開き、右上隅の 3 ドットメニューをクリックし、**その他のツール**／**拡張機能**&#x200B;を選択するか、***chrome://extensions ***に直接移動します。
+1. Chromeブラウザーを開き、メニューから「 **拡張機能** 」を選択するか、chrome://extensionsに直接移動し ***ます***。
 1. 右上隅の「**デベロッパーモード**」をオンにします。
 1. 左上隅の「**パッケージ化されていない拡張機能を読み込む**」をクリックし、解凍した Chrome プレーヤーを読み込みます。
 1. **AEM Screens Chrome Player** プラグインが拡張機能の一覧にあれば、それをオンにします。
-1. 新しいタブを開き、左上隅の「**アプリ**」アイコンをクリックするか、***chrome://apps ***に直接移動します。
+1. 新しいタブを開き、左上隅の「**アプリ**」アイコンをクリックするか、***chrome://apps*** に直接移動します。
 1. 「**AEM Screens** プラグイン」をクリックして、Chrome プレーヤーを起動します。デフォルトでは、プレーヤーはフルスクリーンモードで起動します。**Esc** キーを押すと、フルスクリーンモードが終了します。
 
 ### 2. AEM Screens Player がカスタムエラーハンドラーでパブリッシュインスタンスを通じて認証できない場合、トラブルシューティングするには、どうすればよいですか？ {#how-to-troubleshoot-if-screens-player-is-unable-to-authenticate-through-publish-instance-with-custom-error-handler}
 
-AEM Screens Player は、起動時に 404 エラーが発生すると、***/content/screens/svc.ping.json ***への要求をおこないます。プレーヤーが認証要求を開始して、パブリッシュインスタンスに対して認証をおこないます。パブリッシュインスタンスにカスタムエラーハンドラーがある場合、匿名ユーザーに対しては、***/content/screens/svc.ping.json*** の実行で必ず 404 のステータスコードを返すようにしてください。
+AEM Screens Player は、起動時に 404 エラーが発生すると、***/content/screens/svc.ping.json*** への要求をおこないます。プレーヤーが認証要求を開始して、パブリッシュインスタンスに対して認証をおこないます。パブリッシュインスタンスにカスタムエラーハンドラーがある場合、匿名ユーザーに対しては、***/content/screens/svc.ping.json*** の実行で必ず 404 のステータスコードを返すようにしてください。
 
 ### 3. Android プレーヤーでデバイスの画面が常に表示されるように設定するには、どうすればよいですか？ {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
@@ -134,7 +137,7 @@ Livefyre を無効にしてログエラーを回避するには、次の手順�
    * AEM Livefyre バンドル `com.adobe.cq.social.cq-social-livefyre` を検索します。
    * 「**停止**」をクリックします。
 
-1. ***Livefyre ポーラーを無効にする&#x200B;***
+1. ***Livefyre ポーラーを無効にする***
 
    * CRXDE Lite で、`/etc/importers/polling/livefyre-poller/jcr:content` に移動します。
    * 新しいプロパティ *enabled*（*Boolean* 型）を追加します。

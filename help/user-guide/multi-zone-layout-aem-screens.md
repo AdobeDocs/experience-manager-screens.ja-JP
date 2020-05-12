@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
+source-git-commit: ae05d169dce9d02562159524f9bf43e88a29e43f
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 53%
@@ -151,7 +151,7 @@ ht-degree: 53%
    1. **サポートされるイベント** を、 **Initial Load**、 **Idle Screen**、および **** Timerに設定します。
    1. 「**保存**」をクリックします。
 
-      ![画像](/help/user-guide/assets/multi-zone/multizone-img7.png)
+      ![画像](/help/user-guide/assets/multi-zone/multizone-img9.png)
    1. 同様に、手順(2)を使用して、他の2つの埋め込みチャネル(**Zone1** と **Zone2**)をこの表示に割り当てる必要があります。
    1. 3つのチャネルをすべて **ロビー** 表示に割り当てると、割り当てられたチャネルを表示ダッシュボードから表示できるようになります。
 

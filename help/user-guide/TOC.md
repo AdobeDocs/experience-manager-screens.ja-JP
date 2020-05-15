@@ -3,8 +3,11 @@ cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens ヘルプ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
+workflow-type: ht
+source-wordcount: '379'
+ht-degree: 100%
 
 ---
 
@@ -72,7 +75,7 @@ source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
    + コンテンツ更新の管理 {#content-updates}
       + [On-Demand コンテンツ更新](on-demand-content.md)
       + [サービスとしてのコンテンツの更新](content-update-as-a-service.md)
-      + [画面の起動を使用したコンテンツの更新](launches.md)
+      + [Screens ローンチを使用したコンテンツの更新](launches.md)
    + 使用例 {#use-case-examples}
       + [緊急チャネル](emergency-channel.md)
       + [旅行センター向けの気温に応じたアクティベーション](local-temperature-activation.md)

@@ -10,8 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 87961076fd756c8bd018ded08d493e4024992738
+workflow-type: tm+mt
+source-wordcount: '1105'
+ht-degree: 85%
 
 ---
 
@@ -39,22 +42,21 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ### 前提条件 {#pre-requisites}
 
-**チャネルを含んだデモプロジェクトの作成**
+**チャネルを使用したデモプロジェクトの作成**
 
 ***プロジェクトの作成***
 
-1. 「Screens」をクリックし、**作成**／プロジェクトを作成を選択して、新しいプロジェクトを作成します。
+1. Click **Create Screens Project** to create a new project.
+1. タイトルに &quot;**DemoProject**&quot; と入力します。
+1. 「**保存**」をクリックします。
 
-1. スクリーンプロジェクトを作成ウィザードで「スクリーン」を選択します。
+**DemoProject** が AEM Screens に追加されます。
 
-1. タイトルに "**DemoProject**" と入力します。
-1. 「**作成**」をクリックします。
-
-**DemoProject** が AEM Screens に追加されます。***チャネルの作成***
+***チャネルの作成***
 
 1. 作成した **DemoProject** プロジェクトに移動し、**チャネル**&#x200B;フォルダーを選択します。
 
-1. アクションバーの「**作成**」をクリックします（下図を参照）。ウィザードが開きます。
+1. Click **Create** from the action bar to open the wizard.
 1. ウィザードで「**シーケンスチャネル**」テンプレートを選択し、「**次へ**」をクリックします。
 
 1. 「**タイトル**」に「**TestChannel**」と入力し、「**作成**」をクリックします。
@@ -63,17 +65,17 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 ![screen_shot_2019-07-29at105101am](assets/screen_shot_2019-07-29at105101am.png)
 
 
-
 ### エクスペリエンスフラグメントの作成 {#creating-an-experience-fragment}
 
 **DemoProject** の **TestChannel** に **We.Retail** のコンテンツを利用するには、以下の手順に従います。
 
 1. **We.Retail の Sites ページへの移動**
 
-   1. 「Sites」に移動し、**We.Retail**／United States／English を選択します。次に、**Equipment** ページを選択して、これを Screens チャネルのエクスペリエンスフラグメントとして使用します。
+   1. Navigate to Sites and select **We.Retail In-Store** -> **United States** ->**English** and select **Equipment** page to use this as an experience fragment for your Screens channel.
 
    1. アクションバーの「**編集**」をクリックして、Screens チャネルのエクスペリエンスフラグメントとして使用するページを開きます。
-   ![screen_shot_2018-06-06at105309am](assets/screen_shot_2018-06-06at105309am.png)
+
+      ![screen_shot_2018-06-06at105309am](assets/screen_shot_2018-06-06at105309am.png)
 
 1. **コンテンツの再利用**
 
@@ -86,9 +88,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
    1. 「**アクション**」として「**新しいエクスペリエンスフラグメントを作成**」を選択します。
 
    1. 「**親パス**」を選択します。
-   1. 「**テンプレート**」を選択します。ここでは、「エクスペリエンスフラグメント - 画面のバリエーション」テンプレートを選択します。
+   1. 「**テンプレート**」を選択します。Choose the **Experience Fragment - Screens Variation** template here.
 
-   1. 「フラグメントのタイトル」に「**ScreensFragment**」と入力します。
+   1. Enter the **Fragment Title** as **ScreensFragment**.
 
    1. チェックマークをオンにして、新しいエクスペリエンスフラグメントの作成を完了します。
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
@@ -99,7 +101,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
    1. 「**エクスペリエンスフラグメント**」を選択し、「**ScreensFragment**」をハイライト表示して、「**バリエーションをライブコピーとして**」をクリックします（下図を参照）。
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. **ライブコピーを作成**&#x200B;ウィザードで「ScreensFragment」を選択し、「**次へ**」をクリックします。
+   c. Select the** ScreensFragment** from **Create Live Copy** wizard and click **Next**.
 
    d. 「**タイトル**」と「**名前**」に「**Screens**」と入力します。
 
@@ -133,15 +135,15 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    e. **エクスペリエンスフラグメント**&#x200B;コンポーネントを選択し、左上の（レンチ）アイコンをクリックして、**エクスペリエンスフラグメント**&#x200B;ダイアログボックスを開きます。
 
-   f. 前述の&#x200B;*手順 3* で作成したフラグメントの **Screens** ライブコピーを「エクスペリエンスフラグメント」フィールドで選択します。
+   f. Select the **Screens** live copy of the fragment you created in *Step 3* in **Path**.
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f. 前述の&#x200B;*手順 3* で作成したフラグメントの **Screens** ライブコピーを「エクスペリエンスフラグメント」フィールドで選択します。
+   f. Select the **Screens** live copy of the fragment you created in *Step 3* in the **Experience Fragment**.
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
-   h. 「デュレーション (ms)」フィールドに秒数を入力します。
+   h. ミリ秒を「 **期間**」で入力します。
 
    i. **エクスペリエンスフラグメント**&#x200B;ダイアログボックスで「**オフライン設定**」を選択し、クライアント側ライブラリと静的ファイルを定義します。
 
@@ -165,9 +167,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ## マスターページからの変更の反映 {#propagating-changes-from-the-master-page}
 
-****ライブコピー**&#x200B;とは、ロールアウト設定で定義された同期アクションによって維持管理される（ソースの）コピーのことです。
+***ライブコピー***&#x200B;とは、ロールアウト設定で定義された同期アクションによって維持管理される（ソースの）コピーのことです。
 
-上記で作成したエクスペリエンスフラグメントは **Sites** ページからのライブコピーなので、マスターページでその特定のフラグメントに変更を加えた場合は、チャネルつまりそのエクスペリエンスフラグメントの使用先に変更が表示されます。
+Since the Experience Fragment, we created is a live copy from the **Sites** pages, so if you make changes to that particular fragment from the master page, you will view the changes in your channel or the destination where you have used the Experience Fragment.
 
 >[!NOTE]
 >

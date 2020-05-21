@@ -3,11 +3,11 @@ title: 機能パック 202004 のリリースノート
 seo-title: 機能パック 202004 のリリースノート
 description: 2020 年 4 月 20 日にリリースされた AEM Screens 機能パック 202004 について説明します。
 seo-description: 2020 年 4 月 20 日にリリースされた AEM Screens 機能パック 202004 について説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7f9373c57e60081789d76069b0062ce1a0c30b9c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 74%
 
 ## 利用可能場所 {#availability}
 
-AEM Screensは、AEM 6.4機能パック8およびAEM 6.5機能パック4をリリースしました。
+AEM Screens は、AEM 6.4 機能パック 8 および AEM 6.5 機能パック 4 をリリースしました。
 
-Adobe IDを使用して、AEM Screens 6.4.8またはAEM Screens 6.5.4リリースの最新機能パックを [Adobe Experience Manager Cloud Management](https://www.adobeaemcloud.com/content/packageshare/tools/login.html?resource=%2Fcontent%2Fmarketplace%2FmarketplaceProxy.html%3FpackagePath%3D%2Fcontent%2Fcompanies%2Fprivate%2Fsanjeev-adobe%2Fpackages%2FAEM%2520Screens%25206.5%2520FP4%2Fcq-6.5.0-featurepack-screens&amp;$$login$$=%24%24login%24%24) からダウンロードできます。
+Adobe ID を使用して、AEM Screens 6.4.8 または AEM Screens 6.5.4 リリースの最新の機能パックを [Adobe Experience Manager Cloud Manager](https://www.adobeaemcloud.com/content/packageshare/tools/login.html?resource=%2Fcontent%2Fmarketplace%2FmarketplaceProxy.html%3FpackagePath%3D%2Fcontent%2Fcompanies%2Fprivate%2Fsanjeev-adobe%2Fpackages%2FAEM%2520Screens%25206.5%2520FP4%2Fcq-6.5.0-featurepack-screens&amp;$$login$$=%24%24login%24%24) からダウンロードできます。
 
 >[!NOTE]
->パッケージを使用してリポジトリのコンテンツをインポートおよびエクスポートする方法、およびPackage ManagerやPackage Shareからパッケージにアクセスしたり管理したりする方法については、 [How to Work With Packages](https://docs.adobe.com/help/ja-JP/experience-manager-65/administering/contentmanagement/package-manager.html) （パッケージの使い方）を参照してください。
+>パッケージを使用してリポジトリのコンテンツをインポートおよび書き出しをおこなう方法、またパッケージマネージャーやパッケージ共有からパッケージにアクセスしたり管理したりする方法については、[パッケージの使い方](https://docs.adobe.com/help/ja-JP/experience-manager-65/administering/contentmanagement/package-manager.html)を参照してください。
 
 
 ## リリース日 {#release-date}
@@ -48,7 +48,7 @@ AEM Screens 機能パック 202004 のリリース日は 2020 年 4 月 20 日�
 
 * **チャネルダッシュボード**
 
-   「 **チャネル情報** 」(INFORMATION)パネルのチャネルダッシュボードの手順に対する更新を反映します。
+   **チャネル情報**&#x200B;パネルのチャネルダッシュボードに手順の更新を反映します。
 
 
 * **マニフェストを表示**
@@ -67,7 +67,7 @@ AEM Screens 機能パック 202004 のリリース日は 2020 年 4 月 20 日�
 
    この機能パックのリリースでは、アセットの変更間のコマンド同期遅延の改善が反映されています。
 
-   詳細は、 **[コマンドの同期](using-command-sync.md)**を参照してください。
+   詳細は、**[コマンド同期](using-command-sync.md)**を参照してください。
 
 ### リリースされている AEM Screens Player {#released-aem-screens-players}
 

@@ -10,11 +10,11 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 052cf1ccde6f18ec72307b14ffbac63be61127b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1189'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
@@ -38,11 +38,11 @@ ht-degree: 46%
 
 ### 前提条件 {#prerequisites}
 
-この機能の実装を開始する前に、次の概念的な知識を確認してください。
+この機能の実装を開始する前に、次のドキュメントを参照して概念を確実に理解しておいてください。
 
-* [AEM Screensプロジェクトの作成](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
-* [表示の作成](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
-* [ディスプレイにチャネルを割り当てる](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/channel-assignment.html)
+* [AEM Screens プロジェクトの作成](https://docs.adobe.com/content/help/ja-JP/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
+* [ディスプレイの作成](https://docs.adobe.com/content/help/ja-JP/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
+* [ディスプレイへのチャネルの割り当て](https://docs.adobe.com/content/help/ja-JP/experience-manager-screens/user-guide/authoring/setting-up-projects/channel-assignment.html)
 
 ## マルチゾーンレイアウトの作成 {#creating-multi-zone-layout}
 
@@ -53,7 +53,7 @@ ht-degree: 46%
 1. Adobe Experience Manager リンク（左上）を選択し、「**Screens**」を選択します。または、`http://localhost:4502/screens.html/content/screens` に直接アクセスすることもできます。
 1. **チャネル**&#x200B;フォルダーに移動し、アクションバーの「**作成**」をクリックします。
 
-1. 「 **作成** 」ウィザードから「1x2画面を分割」チャネル **** を選択します。
+1. **作成**&#x200B;ウィザードで「**1 x 2 分割画面チャネル**」を選択します。
 
 1. 「**次へ**」をクリックし、「**タイトル**」に「**MultiZone**」と入力します。
 
@@ -70,13 +70,13 @@ ht-degree: 46%
 
 1. **チャネルに画像を追加する**
 
-   1つの画像またはビデオを2つのゾーンで再生するには、次の図に示すように、チャネルエディターの各ゾーンに画像をドラッグ&amp;ドロップします。
+   2 つのゾーンで 1 つの画像またはビデオを再生するには、画像をチャネルエディターの各ゾーンにドラッグ＆ドロップするだけです（下図を参照）。
 
    ![画像](/help/user-guide/assets/multi-zone/multizone-img3.png)
 
 ### 1 つ以上のゾーンでのコンテンツシーケンスの使用 {#using-sequenced-content-in-one-or-more-zones}
 
-2つの異なるゾーンにある画像とビデオのシーケンスをゾーンに表示する場合は、次の手順に従って詳細を確認してください。
+2 つの異なるゾーンに画像のシーケンスやビデオを表示する場合は、以下の手順に従ってください。
 
 1. **チャネルフォルダーの作成**
 
@@ -88,28 +88,28 @@ ht-degree: 46%
 1. **チャネルフォルダーにさらに 2 つのチャネルを追加する**
 
    1. **Zones**／**Channels**／**EmbeddedChannels** に移動し、アクションバーの「**作成**」をクリックします。
-   1. Select **Sequence Channel** from the **Create** wizard to create a channel titled as **Zone1**.
+   1. **作成**&#x200B;ウィザードで「**シーケンスチャネル**」を選択して、「**Zone1**」というタイトルのチャネルを作成します。
    1. **Zone1** を選択し、アクションバーの「**編集**」をクリックして、エディターを開きます。
    1. このチャネルに画像をいくつかドラッグ＆ドロップします。
    1. 同様に、**EmbeddedChannels** フォルダーに「**Zone2**」というタイトルの別のシーケンスチャネルを作成します。
-   1. ビデオをこのチャネルにドラッグ&amp;ドロップします。
-   次の図に、 **Zone1** と **Zone2のチャネルを示します**。
+   1. このチャネルにビデオをドラッグ＆ドロップします。
+   **Zone1** と **Zone2** の 2 つのチャネルを次の図に示します。
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
 
-   エディタの **Zone1** sequenceチャネルに追加された画像を次に示します。
+   **Zone1** シーケンスチャネルのエディターに追加された画像を以下に示します。
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
-   次に、 **Zone2** sequenceチャネルのエディターに追加されたビデオを示します。
+   **Zone2** シーケンスチャネルのエディターに追加されたビデオを以下に示します。
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
-1. **メインチャネル(MultiZone)への埋め込みシーケンス（コンポーネント）の追加**
+1. **メインチャネル（MultiZone）に埋め込みシーケンス（コンポーネント）を追加する**
 
    1. **Zones**／**Channels**／**MultiZone** に移動します。
    1. アクションバーの「**編集**」をクリックして、エディターを開きます。
-   1. 「 **埋め込みシーケンス** 」コンポーネントを両方のゾーンにドラッグ&amp;ドロップします。
+   1. **埋め込みシーケンス**&#x200B;コンポーネントを両方のゾーンにドラッグ＆ドロップします。
    1. いずれかのゾーンの埋め込みシーケンスを選択します。
    1. エディターで、埋め込みシーケンスの&#x200B;**設定**（レンチ）アイコンをクリックします。
    1. 「チャネルパス」として **Zones**／**Channels**／**EmbeddedChannels**／**Zone1** を選択します（下図を参照）。
@@ -117,72 +117,72 @@ ht-degree: 46%
 
       ![画像](/help/user-guide/assets/multi-zone/multizone-3.png)
 
-### 場所と表示の作成 {#creating-location}
+### ロケーションとディスプレイの作成 {#creating-location}
 
-画面プレーヤーでコンテンツを表示する場所と表示を作成する必要があります。 場所と表示を作成するには、次の手順に従います。
+Screens Player でコンテンツを表示するには、ロケーションとディスプレイを作成する必要があります。ロケーションとディスプレイを作成するには、次の手順に従います。
 
 1. **ロケーションの作成**
 
-   1. Navigate to **Zones** --> **Locations** folder.
-   1. Select the **Locations** folder and click **Create** from the action bar.
+   1. **ゾーン**／**ロケーション**&#x200B;フォルダーに移動します。
+   1. **ロケーション**&#x200B;フォルダーを選択し、アクションバーの「**作成**」をクリックします。
    1. **作成**&#x200B;ウィザードから「**ロケーション**」を選択し、「**次へ**」をクリックします。
-   1. Enter the **Title** as **SanJose** and click **Create**.
+   1. 「**タイトル**」に「**SanJose**」と入力し、「**作成**」をクリックします。
 
-1. **表示の作成**
+1. **ディスプレイの作成**
 
-   1. Navigate to **Zones** --> **Locations** folder.
-   1. サンノゼの **場所を選択し、アクションバーの[** 作成 **** ]をクリックします。
+   1. **ゾーン**／**ロケーション**&#x200B;フォルダーに移動します。
+   1. 「**SanJose**」ロケーションを選択し、アクションバーの「**作成**」をクリックします。
    1. **作成**&#x200B;ウィザードから「**ディスプレイ**」を選択し、「**次へ**」をクリックします。
-   1. Enter the **Title** as **Lobby** and click **Create**.
+   1. 「**タイトル**」に「**Lobby**」と入力し、「**作成**」をクリックします。
 
 ### ディスプレイへのチャネルの割り当て {#channel-channel}
 
-コンテンツを表示するには、チャネルを表示に割り当てる必要があります。 次の手順に従って、チャネルを表示に割り当てます。
+コンテンツを表示するには、ディスプレイにチャネルを割り当てる必要があります。ディスプレイにチャネルを割り当てるには、次の手順に従います。
 
 1. **ディスプレイへのチャネルの割り当て**
 
-   1. [ **Zones** ] —> [ **Locations** ] —> [ **SanJose**] —> [ **** Lobby]に移動します。
-   1. [ **Lobby** ]表示を選択し、アクションバーの[ **チャネル** を割り当て]をクリックします。
-   1. [ **チャネルパス** ]にMultiZone ****&#x200B;チャネルへのパスを入力します。
-   1. **サポートされるイベント** を、 **Initial Load**、 **Idle Screen**、および **** Timerに設定します。
+   1. **ゾーン**／**ロケーション**／**SanJose**／**Lobby** に移動します。
+   1. **Lobby** ディスプレイを選択し、アクションバーの「**チャネルを割り当て**」をクリックします。
+   1. **MultiZone** チャネルのパスを「**チャネルパス**」に入力します。
+   1. 「**サポートされているイベント**」として、「**最初の読み込み**」、「**待機中画面**」、「**タイマー**」を設定します。
    1. 「**保存**」をクリックします。
 
       ![画像](/help/user-guide/assets/multi-zone/multizone-img9.png)
-   1. 同様に、他の2つの埋め込みチャネル(**Zone1** と **Zone2**)をこの表示に割り当てる必要があります。
-   1. 3つのチャネルをすべて **ロビー** 表示に割り当てると、割り当てられたチャネルを表示ダッシュボードから表示できるようになります。
+   1. 同様に、その他の 2 つの埋め込みチャネル（**Zone1** と **Zone2**）をこのディスプレイに割り当てる必要があります。
+   1. 3 つのチャネルをすべて **Lobby** ディスプレイに割り当てたら、割り当てられたチャネルをディスプレイダッシュボードで表示できるようになります。
 
       ![画像](/help/user-guide/assets/multi-zone/multizone-img8.png)
 
 
       >[!I重要]
-      > メインチャネル(この場合は **MultiZone**)をディスプレイに割り当てると、他の2つの埋め込みチャネル **Zone1** と **Zone2** も同じディスプレイに割り当てる必要があります。
+      > メインチャネル（この場合は **MultiZone**）をディスプレイに割り当てたら、その他の 2 つの埋め込みチャネル **Zone1** および **Zone2** も同じディスプレイに割り当てる必要があります。
 
 ### デバイスの登録 {#registering-device}
 
-場所とディスプレイを設定したら、次の手順に従ってデバイスを登録し、ディスプレイをデバイスに割り当てます。
+ロケーションとディスプレイを設定したら、次の手順に従ってデバイスを登録し、そのデバイスにディスプレイを割り当てます。
 
 1. **デバイスの登録**
 
-   1. [ **Zones** ] —> [ **Devices** ]フォルダに移動します。
-   1. Select the **Devices** folder and click **Device Manager** from the action bar.
-   1. 「 **Device Registration** 」をクリックし、リストから保留中のデバイスを選択します。
+   1. **ゾーン**／**デバイス**&#x200B;フォルダーに移動します。
+   1. **デバイス**&#x200B;フォルダーを選択し、アクションバーの「**デバイスマネージャー**」クリックします。
+   1. 「**デバイスの登録**」をクリックし、リストから保留中のデバイスを選択します。
       >[!NOTE]
-      > デバイスのタイトルは、「**Device Registration** （デバイス登録） **」タブに表示されるデバイストークン(トークン** )と一致する必要があります。
-   1. タイトルがデバイストークンと一致する場合は、デバイスを選択し、アクションバーの「 **デバイスを登録** 」をクリックします。
-   1. 登録コードが「画面プレーヤーの **デバイス登録** 」タブのコードと一致する場合は、アクションバーの「 **検証** 」をクリックします。
+      > デバイスのタイトルは、「**デバイスの登録**」タブに表示されるデバイストークン（「**トークン**」フィールド）と一致する必要があります。
+   1. タイトルがデバイストークンと一致する場合は、デバイスを選択し、アクションバーの「**デバイスを登録**」をクリックします。
+   1. 登録コードが Screens Player の「**デバイスの登録**」タブのコードと一致する場合は、アクションバーの「**検証**」をクリックします。
       ![画像](/help/user-guide/assets/multi-zone/multizone-img6.png)
-   1. Enter the **Title** as **Chrome-Device1** and click **Register**.
-   1. 「 **表示の割り当て** 」を選択し、デバイス設定へのパスを選択します。
+   1. 「**タイトル**」に「**Chrome-Device1**」と入力し、「**登録**」をクリックします。
+   1. 「**ディスプレイを割り当て**」を選択し、デバイス設定のパスを選択します。
    >[!NOTE]
-   >画面プレイヤーでコンテンツを表示しようとする場合は、チャネルダッシュボードの「オフラインコンテンツを **更新** 」をクリックしていることを確認してください。
+   >Screens Player でコンテンツを表示しようとする場合は、チャネルダッシュボードの「**オフラインコンテンツを更新**」を必ずクリックしてください。
 
 ### 結果の表示 {#viewing-the-result}
 
-前述の手順を使用してマルチゾーンレイアウトを実装すると、次の出力が表示されます。
+上記の手順を使用してマルチゾーンレイアウトを実装したら、次の出力が表示されます。
 
-2つの異なるゾーンにコンテンツを表示する出力を表示するには、画面プレイヤーをチェックします。 左ゾーンと右ゾーン（どちらも埋め込みシーケンスをコンポーネントとして使用）。
+2 つの異なるゾーンにコンテンツを表示する出力を Screens Player で確認します。左ゾーンと右ゾーンです（どちらも埋め込みシーケンスをコンポーネントとして使用しています）。
 
-左ゾーンはシーケンスチャネルであり、右ゾーンはビデオを含む。
+左ゾーンはシーケンスチャネルで、右ゾーンにはビデオが含まれています。
 
 ![new2-1](/help/user-guide/assets/multi-zone/Multi-gif.gif)
 

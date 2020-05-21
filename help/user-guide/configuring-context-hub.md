@@ -10,11 +10,11 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15afec3ed9ffdcfc918c13376af2b20f9a61ab8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1531'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -96,18 +96,17 @@ Google シートが正しく設定されると、次のように表示されま�
       ![画像](/help/user-guide/assets/context-hub/context-hub5.png)
 
       >[!CAUTION]
-      >AEM 6.5機能パック4またはAEM 6.4機能パック8の一部として、にアップデートする必要 `/conf/screens/settings/cloudsettings` があり `sling:Folder`ます。
+      >AEM 6.5 機能パック 4 または AEM 6.4 機能パック 8 の一部として、`/conf/screens/settings/cloudsettings` を `sling:Folder` に更新する必要があります。
       > 
       >その場合は、次の手順に従います。
       >
       >1. CRXDE Lite に移動してから`/conf/screens/settings/cloudsettings`に移動します。
-      >1. がインしてい `cloudsettings jcr:primaryType` るかどうかを確認し `sling:Folder`ます。 がにない場合 `jcr:primaryType` は、次の手順に進み `sling:folder`ます。
-      > 1. を右クリックし `/conf/screens/settings` 、 *名前を「* cloudsettings1 **」に、Type** を「 ****** sling:Folder」に設定した新しいノードを作成します。
-      >1. すべてのノードをに移動 `/conf/screens/settings/cloudsettings` し `cloudsettings1`ます。
-      >1. 削除 `cloudsettings` して保存します。
-      >1. 名前 `cloudsettings1` をに変更 `cloudsettings` して保存します。
-      >1. 今度は、/conf/screens/settings/cloudsettingsにはが含まれていることを確認 `jcr:primaryType` してくだ `sling:Folder`さい。
-アップグレードの前後に、「作成および公開」の次の手順に従う必要があります。
+      >1. `cloudsettings jcr:primaryType` が `sling:Folder` にあるかどうかを確認します。`jcr:primaryType` が `sling:folder` にない場合は、次の手順に進みます。
+      > 1. `/conf/screens/settings` を右クリックし、「*名前*」が「**cloudsettings1**」、「*タイプ*」が「**sling:Folder**」の新しいノードを作成して、変更内容を保存します。
+      >1. `/conf/screens/settings/cloudsettings` の下のすべてのノードを `cloudsettings1` に移動します。
+      >1. `cloudsettings` を削除して保存します。
+      >1. `cloudsettings1` を `cloudsettings` に名前変更して保存します。
+      >1. これで、/conf/screens/settings/cloudsettings に `jcr:primaryType` が `sling:Folder` として含まれるようになります。アップグレードの前後に、オーサーとパブリッシュで以上の手順を実行する必要があります。
 
 
    1. 「**タイトル**」に「**Google Sheets**」、「**ストア名**」に「**googlesheets**」、「**ストアの種類**」に「**contexthub.generic-jsonp**」と、それぞれ入力して、「**次へ**」をクリックします。
@@ -199,7 +198,7 @@ json を定義するプロセスをスキップし、空白のままにしてお
       >[!CAUTION]
       既知の問題：
 領域を追加するには、URL（例えば下記）から「master」を削除します
-      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
+      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`
 
 1. **ブランドに領域を作成する**
 

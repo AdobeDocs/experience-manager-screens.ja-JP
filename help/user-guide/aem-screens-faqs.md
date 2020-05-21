@@ -5,11 +5,11 @@ description: ここでは、AEM Screens プロジェクトに関連する FAQ �
 seo-description: ここでは、AEM Screens プロジェクトに関連する FAQ への回答を掲載しています。
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1271'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ Chrome OS プレーヤーは、実際の Chrome プレーヤーデバイスが�
 
 1. [ここ](https://download.macromedia.com/screens/)をクリックして、最新の Chrome プレーヤーをダウンロードします。
 1. 解凍してディスクに保存します。
-1. Chromeブラウザーを開き、メニューから「 **拡張機能** 」を選択するか、chrome://extensionsに直接移動し ***ます***。
+1. Chrome ブラウザーを開き、メニューから「**拡張機能**」を選択するか、***chrome://extensions*** に直接移動します。
 1. 右上隅の「**デベロッパーモード**」をオンにします。
 1. 左上隅の「**パッケージ化されていない拡張機能を読み込む**」をクリックし、解凍した Chrome プレーヤーを読み込みます。
 1. **AEM Screens Chrome Player** プラグインが拡張機能の一覧にあれば、それをオンにします。

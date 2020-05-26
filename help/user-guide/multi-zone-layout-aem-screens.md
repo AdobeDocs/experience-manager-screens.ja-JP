@@ -10,11 +10,11 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
-translation-type: ht
-source-git-commit: 052cf1ccde6f18ec72307b14ffbac63be61127b0
-workflow-type: ht
-source-wordcount: '1189'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a246671ddf7fee333d01c09ca61daee91df737e4
+workflow-type: tm+mt
+source-wordcount: '1198'
+ht-degree: 92%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 ### 前提条件 {#prerequisites}
 
-この機能の実装を開始する前に、次のドキュメントを参照して概念を確実に理解しておいてください。
+この機能の実装を開始する前に、次の概念的な知識があることを確認してください。
 
 * [AEM Screens プロジェクトの作成](https://docs.adobe.com/content/help/ja-JP/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
 * [ディスプレイの作成](https://docs.adobe.com/content/help/ja-JP/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
@@ -61,7 +61,7 @@ ht-degree: 100%
 
 ### 1 つ以上のゾーンでの単一アセットの使用 {#using-single-assets-in-one-or-more-zones}
 
-画像やビデオなどの単一アセットを 3 つの異なるゾーンのすべてで使用できます。実装するには、以下の手順に従います。
+画像やビデオなどの単一のアセットを個々のすべてのゾーンで使用できます。 実装するには、以下の手順に従います。
 
 1. **チャネルにコンテンツを追加する**
 
@@ -76,7 +76,7 @@ ht-degree: 100%
 
 ### 1 つ以上のゾーンでのコンテンツシーケンスの使用 {#using-sequenced-content-in-one-or-more-zones}
 
-2 つの異なるゾーンに画像のシーケンスやビデオを表示する場合は、以下の手順に従ってください。
+ゾーンごとに異なるゾーンにある画像とビデオのシーケンスを表示する場合は、次の手順に従って詳細を確認してください。
 
 1. **チャネルフォルダーの作成**
 
@@ -135,7 +135,7 @@ Screens Player でコンテンツを表示するには、ロケーションと�
    1. **作成**&#x200B;ウィザードから「**ディスプレイ**」を選択し、「**次へ**」をクリックします。
    1. 「**タイトル**」に「**Lobby**」と入力し、「**作成**」をクリックします。
 
-### ディスプレイへのチャネルの割り当て {#channel-channel}
+### Assigning Channels to the Display {#channel-channel}
 
 コンテンツを表示するには、ディスプレイにチャネルを割り当てる必要があります。ディスプレイにチャネルを割り当てるには、次の手順に従います。
 
@@ -174,7 +174,7 @@ Screens Player でコンテンツを表示するには、ロケーションと�
    1. 「**タイトル**」に「**Chrome-Device1**」と入力し、「**登録**」をクリックします。
    1. 「**ディスプレイを割り当て**」を選択し、デバイス設定のパスを選択します。
    >[!NOTE]
-   >Screens Player でコンテンツを表示しようとする場合は、チャネルダッシュボードの「**オフラインコンテンツを更新**」を必ずクリックしてください。
+   >画面プレイヤーでコンテンツを表示する場合は、ディスプレイに割り当てられている各チャネルに対して、チャネルダッシュボードの「オフラインコンテンツを **更新** 」をクリックする必要があります。
 
 ### 結果の表示 {#viewing-the-result}
 

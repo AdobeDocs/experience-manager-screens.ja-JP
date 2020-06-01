@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87961076fd756c8bd018ded08d493e4024992738
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1105'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -42,11 +42,11 @@ ht-degree: 85%
 
 ### 前提条件 {#pre-requisites}
 
-**チャネルを使用したデモプロジェクトの作成**
+**チャネルを含んだデモプロジェクトの作成**
 
 ***プロジェクトの作成***
 
-1. Click **Create Screens Project** to create a new project.
+1. 「**Screen プロジェクトを作成**」をクリックして、新しいプロジェクトを作成します。
 1. タイトルに &quot;**DemoProject**&quot; と入力します。
 1. 「**保存**」をクリックします。
 
@@ -56,7 +56,7 @@ ht-degree: 85%
 
 1. 作成した **DemoProject** プロジェクトに移動し、**チャネル**&#x200B;フォルダーを選択します。
 
-1. Click **Create** from the action bar to open the wizard.
+1. アクションバーの「**編集**」をクリックして、ウィザードを開きます。
 1. ウィザードで「**シーケンスチャネル**」テンプレートを選択し、「**次へ**」をクリックします。
 
 1. 「**タイトル**」に「**TestChannel**」と入力し、「**作成**」をクリックします。
@@ -71,7 +71,7 @@ ht-degree: 85%
 
 1. **We.Retail の Sites ページへの移動**
 
-   1. Navigate to Sites and select **We.Retail In-Store** -> **United States** ->**English** and select **Equipment** page to use this as an experience fragment for your Screens channel.
+   1. **「Sites」に移動し、** We.Retail In-Store ****／United States／English を選択します。次に、**Equipment** ページを選択して、これを Screens チャネルのエクスペリエンスフラグメントとして使用します。****
 
    1. アクションバーの「**編集**」をクリックして、Screens チャネルのエクスペリエンスフラグメントとして使用するページを開きます。
 
@@ -88,9 +88,9 @@ ht-degree: 85%
    1. 「**アクション**」として「**新しいエクスペリエンスフラグメントを作成**」を選択します。
 
    1. 「**親パス**」を選択します。
-   1. 「**テンプレート**」を選択します。Choose the **Experience Fragment - Screens Variation** template here.
+   1. 「**テンプレート**」を選択します。ここでは、「**エクスペリエンスフラグメント - 画面のバリエーション**」テンプレートを選択します。
 
-   1. Enter the **Fragment Title** as **ScreensFragment**.
+   1. 「**フラグメントのタイトル**」に「**ScreensFragment**」と入力します。
 
    1. チェックマークをオンにして、新しいエクスペリエンスフラグメントの作成を完了します。
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
@@ -101,7 +101,7 @@ ht-degree: 85%
    1. 「**エクスペリエンスフラグメント**」を選択し、「**ScreensFragment**」をハイライト表示して、「**バリエーションをライブコピーとして**」をクリックします（下図を参照）。
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Select the** ScreensFragment** from **Create Live Copy** wizard and click **Next**.
+   c. **ライブコピーを作成**&#x200B;ウィザードで「ScreensFragment」を選択し、「**次へ**」をクリックします。
 
    d. 「**タイトル**」と「**名前**」に「**Screens**」と入力します。
 
@@ -135,15 +135,15 @@ ht-degree: 85%
 
    e. **エクスペリエンスフラグメント**&#x200B;コンポーネントを選択し、左上の（レンチ）アイコンをクリックして、**エクスペリエンスフラグメント**&#x200B;ダイアログボックスを開きます。
 
-   f. Select the **Screens** live copy of the fragment you created in *Step 3* in **Path**.
+   f. 前述の&#x200B;**手順 3***で作成したフラグメントの* Screens ライブコピーを&#x200B;**パス**&#x200B;で選択します。
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f. Select the **Screens** live copy of the fragment you created in *Step 3* in the **Experience Fragment**.
+   f. 前述の&#x200B;**手順 3** で作成したフラグメントの *Screens* ライブコピーを「**エクスペリエンスフラグメント**」フィールドで選択します。
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
-   h. ミリ秒を「 **期間**」で入力します。
+   h. ミリ秒を「**期間**」に入力します。
 
    i. **エクスペリエンスフラグメント**&#x200B;ダイアログボックスで「**オフライン設定**」を選択し、クライアント側ライブラリと静的ファイルを定義します。
 
@@ -169,7 +169,7 @@ ht-degree: 85%
 
 ***ライブコピー***&#x200B;とは、ロールアウト設定で定義された同期アクションによって維持管理される（ソースの）コピーのことです。
 
-Since the Experience Fragment, we created is a live copy from the **Sites** pages, so if you make changes to that particular fragment from the master page, you will view the changes in your channel or the destination where you have used the Experience Fragment.
+上記で作成したエクスペリエンスフラグメントは **Sites** ページからのライブコピーなので、マスターページでその特定のフラグメントに変更を加えた場合は、チャネルつまりそのエクスペリエンスフラグメントの使用先に変更が表示されます。
 
 >[!NOTE]
 >

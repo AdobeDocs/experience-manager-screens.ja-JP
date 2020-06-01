@@ -3,11 +3,11 @@ cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens ヘルプ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 28966ccd0febf28494cb218407fec942a79c1cf4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '383'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 98%
    + [Screens Player の接続](working-with-screens-player.md)
    + [デバイスの登録](device-registration.md)
    + [ACL の設定](setting-up-acls.md)
-   + [AEM Screensセキュリティチェックリスト](security-checklist.md)
+   + [AEM Screens セキュリティチェックリスト](security-checklist.md)
    + [コンテンツ同期からスマート同期への移行](smartsync.md)
    + [ファイルをソースとする新しいプロジェクトインポーター](project-importer.md)
    + [データトリガーのパブリッシュサーバーへのレプリケーション](replicating-data-triggers.md)

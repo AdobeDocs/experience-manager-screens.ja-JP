@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
-translation-type: ht
-source-git-commit: 87961076fd756c8bd018ded08d493e4024992738
-workflow-type: ht
-source-wordcount: '1105'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
+workflow-type: tm+mt
+source-wordcount: '1102'
+ht-degree: 97%
 
 ---
 
@@ -71,11 +71,9 @@ ht-degree: 100%
 
 1. **We.Retail の Sites ページへの移動**
 
-   1. **「Sites」に移動し、** We.Retail In-Store ****／United States／English を選択します。次に、**Equipment** ページを選択して、これを Screens チャネルのエクスペリエンスフラグメントとして使用します。****
+   1. Navigate to Sites and select **We.Retail In-Store** -> **Channels** ->**Idle Channel - Night** and select this page to use this as an experience fragment for your Screens channel.
 
    1. アクションバーの「**編集**」をクリックして、Screens チャネルのエクスペリエンスフラグメントとして使用するページを開きます。
-
-      ![screen_shot_2018-06-06at105309am](assets/screen_shot_2018-06-06at105309am.png)
 
 1. **コンテンツの再利用**
 

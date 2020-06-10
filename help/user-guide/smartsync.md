@@ -9,18 +9,18 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7832176cfb1e4647a49852ce382862978dddbfe2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
 # コンテンツ同期からスマート同期への移行 {#transitioning-from-contentsync-to-smartsync}
 
-この節では、SmartSync機能の概要と、サーバの負荷/ストレージおよびネットワークトラフィックを最小限に抑えてコストを削減する方法を説明します。
+この節では、スマート同期機能の概要と、スマート同期でサーバー負荷／ストレージとネットワークトラフィックを最小限に抑えてコストを削減する方法について説明します。
 
 ## 概要 {#overview}
 
@@ -81,7 +81,7 @@ ht-degree: 94%
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. **Adobe Experience Manager Web コンソール設定**&#x200B;が開きます。offlinecontentserviceを検索 *します*。
+1. **Adobe Experience Manager Web コンソール設定**&#x200B;が開きます。「*offlinecontentservice*」を検索します。
 
    「**Screens Offline Content Service**」プロパティを検索するには、**Command + F** キー（**Mac**）または **Ctrl + F** キー（**Windows**）を押します。
 

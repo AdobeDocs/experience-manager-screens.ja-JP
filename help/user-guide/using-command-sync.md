@@ -3,8 +3,11 @@ title: コマンド同期の使用
 seo-title: コマンド同期の使用
 description: ここでは、コマンド同期の使用方法について説明します。
 seo-description: ここでは、コマンド同期の使用方法について説明します。
-translation-type: ht
-source-git-commit: 7b842534e00e50aa1f066e73539edfa3915aa5e6
+translation-type: tm+mt
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+workflow-type: tm+mt
+source-wordcount: '777'
+ht-degree: 99%
 
 ---
 
@@ -83,7 +86,7 @@ source-git-commit: 7b842534e00e50aa1f066e73539edfa3915aa5e6
    ![image1](assets/command-sync/command-sync9-1.png)
 
 
-### マスターの設定{#setting-up-master}
+### Setting up a master {#setting-up-master}
 
 1. **CommandSyncDemo**／**Locations**／**Lobby**／**LobbyDisplay** でディスプレイダッシュボードに移動し、アクションバーの「**ダッシュボード**」をクリックします。
 次の図に示すように、**デバイス**パネルに 2 つのデバイス（Chrome と Windows プレーヤー）が表示されます。

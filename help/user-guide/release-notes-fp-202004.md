@@ -3,11 +3,11 @@ title: 機能パック 202004 のリリースノート
 seo-title: 機能パック 202004 のリリースノート
 description: 2020 年 4 月 20 日にリリースされた AEM Screens 機能パック 202004 について説明します。
 seo-description: 2020 年 4 月 20 日にリリースされた AEM Screens 機能パック 202004 について説明します。
-translation-type: ht
-source-git-commit: 7f9373c57e60081789d76069b0062ce1a0c30b9c
-workflow-type: ht
-source-wordcount: '437'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b74b776cd82be4d4461d2664ddc090ee2e65ec8f
+workflow-type: tm+mt
+source-wordcount: '392'
+ht-degree: 88%
 
 ---
 
@@ -22,11 +22,7 @@ ht-degree: 100%
 
 AEM Screens は、AEM 6.4 機能パック 8 および AEM 6.5 機能パック 4 をリリースしました。
 
-Adobe ID を使用して、AEM Screens 6.4.8 または AEM Screens 6.5.4 リリースの最新の機能パックを [Adobe Experience Manager Cloud Manager](https://www.adobeaemcloud.com/content/packageshare/tools/login.html?resource=%2Fcontent%2Fmarketplace%2FmarketplaceProxy.html%3FpackagePath%3D%2Fcontent%2Fcompanies%2Fprivate%2Fsanjeev-adobe%2Fpackages%2FAEM%2520Screens%25206.5%2520FP4%2Fcq-6.5.0-featurepack-screens&amp;$$login$$=%24%24login%24%24) からダウンロードできます。
-
->[!NOTE]
->パッケージを使用してリポジトリのコンテンツをインポートおよび書き出しをおこなう方法、またパッケージマネージャーやパッケージ共有からパッケージにアクセスしたり管理したりする方法については、[パッケージの使い方](https://docs.adobe.com/help/ja-JP/experience-manager-65/administering/contentmanagement/package-manager.html)を参照してください。
-
+You can download the latest feature pack for AEM Screens 6.4.8 or AEM Screens 6.5.4 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html) using your Adobe ID. 「 **Adobe Experience Manager** 」タブに移動し、「 **画面** 」を検索して最新の機能パックを入手します。
 
 ## リリース日 {#release-date}
 

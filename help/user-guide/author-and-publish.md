@@ -10,8 +10,11 @@ topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
-translation-type: ht
-source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
+translation-type: tm+mt
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+workflow-type: tm+mt
+source-wordcount: '1907'
+ht-degree: 99%
 
 ---
 
@@ -129,7 +132,7 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 1. トポロジコネクタ URL の更新：参加するすべてのパブリッシュインスタンスの URL を追加します。
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
-1. Topology Connector サービスのホワイトリスト：参加するパブリッシュインスタンスをカバーする IP またはサブネットに合わせます。
+1. トポロジコネクタ許可リスト: パブリッシュインスタンスを覆うIPまたはサブネットに適合
 1. 「**ローカルループの自動停止**」をオンにします。
 
 各パブリッシュインスタンスの設定は同じにする必要があり、ローカルループの自動停止は無限ループを防ぎます。

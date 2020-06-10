@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
-translation-type: ht
-source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
-workflow-type: ht
-source-wordcount: '1102'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+workflow-type: tm+mt
+source-wordcount: '1100'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 * **概要**
 * **AEM Screens でのエクスペリエンスフラグメントの使用**
-* **マスターページからの変更の反映**
+* **ページへの変更の反映**
 
 ## 概要 {#overview}
 
@@ -168,7 +168,7 @@ ht-degree: 100%
 チャネル内の **Sites** ページ（エクスペリエンスフラグメントのライブコピー）のコンテンツが表示されます（下図を参照）。\
 ![screen_shot_2018-06-08at120739pm](assets/screen_shot_2018-06-08at120739pm.png)
 
-## マスターページからの変更の反映 {#propagating-changes-from-the-master-page}
+## ページへの変更の反映 {#propagating-changes-from-the-master-page}
 
 ***ライブコピー***&#x200B;とは、ロールアウト設定で定義された同期アクションによって維持管理される（ソースの）コピーのことです。
 
@@ -178,9 +178,9 @@ ht-degree: 100%
 >
 >ライブコピーについて詳しくは、「コンテンツの再利用：マルチサイトマネージャーとライブコピー」を参照してください。
 
-マスターチャネルから目的のチャネルに変更を反映するには、以下の手順に従います。
+次の手順に従って、マスターチャネルから宛先チャネルに変更を反映します。
 
-1. **Sites**（マスター）ページで「エクスペリエンスフラグメント」を選択し、鉛筆アイコンをクリックして、エクスペリエンスフラグメント内の項目を編集します。
+1. Select the Experience Fragment from the **Sites** (master) page and click the pencil icon to edit the items in the Experience Fragment.
 
    ![screen_shot_2018-06-08at122655pm](assets/screen_shot_2018-06-08at122655pm.png)
 

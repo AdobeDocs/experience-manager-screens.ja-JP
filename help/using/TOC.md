@@ -1,14 +1,14 @@
 ---
 user-guide-title: AEM Screens プロジェクトのベストプラクティスガイド
 solution-title: AEM Screens
-getting-started-title: Experience League
+getting-started-title: AEM Screensベストプラクティスガイド
 product: experience manager
 audience: end-user
 translation-type: tm+mt
-source-git-commit: 07eda12ba6b92572fc3a1fbc41ff3d54f45d4fde
+source-git-commit: bf40f06a782ba0ac665697900570d5c905dd4ddc
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 100%
+source-wordcount: '104'
+ht-degree: 95%
 
 ---
 

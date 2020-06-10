@@ -3,13 +3,19 @@ title: AEM Screens のセキュリティチェックリスト
 seo-title: AEM Screens のセキュリティチェックリスト
 description: ここでは、AEM Screens のセキュリティチェックリストについて説明します
 seo-description: ここでは、AEM Screens のセキュリティチェックリストについて説明します
-translation-type: ht
-source-git-commit: 72551a4b56d1db851cad71abd2ce8c0b02bbbc30
+translation-type: tm+mt
+source-git-commit: dd1198dbfb502287ae72c3ccef297606aef069a2
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 98%
 
 ---
 
 
 # AEM Screens のシステムセキュリティに関する考慮事項 {#security-checklist}
+
+>[!IMPORTANT]
+>内部Gitリソースです。
 
 このページでは、AEM Screens のシステムセキュリティに関する考慮事項について説明します。
 

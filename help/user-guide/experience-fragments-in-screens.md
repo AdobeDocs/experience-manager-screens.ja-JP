@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1102'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 97%
 
 1. **We.Retail の Sites ページへの移動**
 
-   1. Navigate to Sites and select **We.Retail In-Store** -> **Channels** ->**Idle Channel - Night** and select this page to use this as an experience fragment for your Screens channel.
+   1. Sites に移動し、**We.Retail In-Store**／**Channels**／**Idle Channel - Night** を選択します。次に、このページを選択して、これを Screens チャネルのエクスペリエンスフラグメントにします。
 
    1. アクションバーの「**編集**」をクリックして、Screens チャネルのエクスペリエンスフラグメントとして使用するページを開きます。
 
@@ -79,6 +79,7 @@ ht-degree: 97%
 
    1. チャネルに含めるフラグメントを選択します。
    1. 右側の最後のアイコンをクリックして、**エクスペリエンスフラグメントバリエーションに変換**&#x200B;ダイアログボックスを開きます。
+
    ![screen_shot_2019-07-29at105314am](assets/screen_shot_2019-07-29at105314am.png)
 
 1. **エクスペリエンスフラグメントの作成**
@@ -91,12 +92,14 @@ ht-degree: 97%
    1. 「**フラグメントのタイトル**」に「**ScreensFragment**」と入力します。
 
    1. チェックマークをオンにして、新しいエクスペリエンスフラグメントの作成を完了します。
+
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
 1. **エクスペリエンスフラグメントのライブコピーの作成**
 
    1. AEM ホームページに移動します。
    1. 「**エクスペリエンスフラグメント**」を選択し、「**ScreensFragment**」をハイライト表示して、「**バリエーションをライブコピーとして**」をクリックします（下図を参照）。
+
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
    c. **ライブコピーを作成**&#x200B;ウィザードで「ScreensFragment」を選択し、「**次へ**」をクリックします。
@@ -118,6 +121,7 @@ ht-degree: 97%
    1. （前の手順で作成した）**ScreensFragment** に移動し、アクションバーの「**プロパティ**」をクリックします。
 
    1. 「**オフライン設定**」タブを選択します（下図を参照）。
+
    エクスペリエンスフラグメントに&#x200B;**クライアント側ライブラリ**（java および css）と&#x200B;**静的ファイル**&#x200B;を追加できます。
 
    次の例は、クライアント側ライブラリのほか、フォントを静的ファイルの一部としてエクスペリエンスフラグメントに追加する場合を示しています。![fragment](assets/fragment.gif)
@@ -129,6 +133,7 @@ ht-degree: 97%
 
    1. サイドタブのコンポーネントアイコンをクリックします。
    1. チャネルに「**エクスペリエンスフラグメント**」をドラッグ＆ドロップします。
+
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
 
    e. **エクスペリエンスフラグメント**&#x200B;コンポーネントを選択し、左上の（レンチ）アイコンをクリックして、**エクスペリエンスフラグメント**&#x200B;ダイアログボックスを開きます。

@@ -2,7 +2,7 @@
 title: Direct Internet Access
 description: Direct Internet Access
 translation-type: tm+mt
-source-git-commit: 3527dd38898399e692e114edb492825b18b28f86
+source-git-commit: 31a6b202cae200e43e87db1df4e60f6f9d75c1bf
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -54,7 +54,7 @@ AEM Screensは、デジタル署名ユーザーにとって大きな利点です
 
 次の表に、ネットワーク接続キーデータの概要を示します。
 
-![](/help/assets/direct-access-1.png)
+![](/help/assets/download-times-direct.png)
 
 >[!NOTE]
 >この情報により、インターネットソースを要求し、ダウンロードするネットワーク内の各デバイスの消費量を表示できます。 そのため、これらのリクエストのそれぞれがダウンロード時間を延長します。

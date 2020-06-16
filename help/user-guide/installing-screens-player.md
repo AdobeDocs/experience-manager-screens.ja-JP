@@ -4,11 +4,11 @@ seo-title: Screens Player のインストール
 description: Screens Player のインストール
 seo-description: Screens Player のインストール
 contentOwner: jsyal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: be491e88b7938f24ae1f375b2fded4052404aaa1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
 
 ## 使用可能な Screens Player {#available-players}
 
-AEM Screensプレーヤーは、Android、Chrome OSおよびWindowsで使用できます。
+AEM Screens Player は Android、Chrome OS、Windows で使用できます。
 
 **AEM Screens Player** をダウンロードするには、[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)ページにアクセスします。
 

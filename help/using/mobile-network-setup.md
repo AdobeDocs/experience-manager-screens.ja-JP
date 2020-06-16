@@ -1,17 +1,17 @@
 ---
 title: モバイルネットワークの設定
 seo-title: モバイルネットワークの設定
-description: このページは、モバイルネットワークの設定について説明しています。
-seo-description: このページは、モバイルネットワークの設定について説明しています。
-translation-type: tm+mt
+description: ここではモバイルネットワークの設定について説明します
+seo-description: ここではモバイルネットワークの設定について説明します
+translation-type: ht
 source-git-commit: dd1198dbfb502287ae72c3ccef297606aef069a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '22'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 
 # モバイルネットワークの設定 {#mobile-network-setup}
 
-概要
+はじめに

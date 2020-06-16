@@ -1,18 +1,18 @@
 ---
-title: プレーヤーデバイスのハードウェア選択のガイドライン
-description: プレーヤーデバイスのハードウェア選択のガイドライン
-translation-type: tm+mt
+title: プレーヤーデバイスのハードウェア選定ガイドライン
+description: プレーヤーデバイスのハードウェア選定ガイドライン
+translation-type: ht
 source-git-commit: 7fdd812c71c995424a27db18264ef2db420d5717
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '220'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
 # プレーヤーデバイスのハードウェア選定ガイドライン {#hardware-selection}
 
-次の節では、AEM Screensプレーヤーのハードウェア選択のガイドラインを示します。
+この節では、AEM Screens Player のハードウェア選定ガイドラインを示します。
 
 ## 重要な検討事項 {#important-considerations}
 

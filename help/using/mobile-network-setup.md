@@ -2,9 +2,9 @@
 title: モバイルネットワークの設定
 description: ここではモバイルネットワークの設定について説明します
 translation-type: tm+mt
-source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
+source-git-commit: 88ba9ab26c4ecc3f829f53244117041a9a1fd2b3
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '915'
 ht-degree: 47%
 
 ---
@@ -18,7 +18,18 @@ Mobile ServiceデータプロバイダーへのAEM Screensプレーヤーの接�
 このSetUpを使用すると、AEM Screen UsersはAEM Screens接続に必要な固定回線がないので、非常に柔軟に対応できます。
 
 
-## 直接アクセスネットワークの設定の要件 {#requirements-direct}
+![](/help/using/assets/mobile-network-1.png)
+
+>[!NOTE]
+>**トラブルシューティングのヒント&#x200B;**>AEM Screensが正しく接続されず、期待した内容が表示されない場合：
+>
+>1. インターネットルーターファイアウォールに `TCP/IP Port 80/443` に関する制限があるかどうかを確認します。
+>1. 必要なすべてのポートが許可されていることを確認し、再試行します。
+
+
+
+
+## Mobile Network SetUpの設定に関する要件 {#requirements-direct}
 
 5.5で説明するネットワークセットアップは、3つのブロックで論理的に区切ることができます。 WAN/外部の世界/インターネット接続ブロック（ここではモバイルデータ接続）、内部のLAN/ローカルエリアネットワーク、およびLANのオプションのサブセクション（アクティブなネットワークコンポーネントで区切られます）。
 可能な限り高いパフォーマンスを提供するためには、両セクションが推奨最小基準に一致するようにする必要がある。

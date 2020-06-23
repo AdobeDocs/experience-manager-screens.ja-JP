@@ -2,10 +2,10 @@
 title: 閉じた企業ネットワーク
 description: 閉じた企業ネットワーク
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 61%
+source-wordcount: '569'
+ht-degree: 59%
 
 ---
 
@@ -52,6 +52,7 @@ AEM Screens は、デジタルサイネージの利用者に大きなメリッ�
 
 次の表に、予想されるパフォーマンスと待ち時間の可能性に対するネットワーク接続キーデータの意味に関する概要を示します。
 
-すべての情報は、インターネットソースをリクエストおよびダウンロードするネットワーク内の各デバイスによる消費量と見なす必要があります。これらのリクエストがすべて合計されて、ダウンロード時間が長くなります。
+>[!NOTE]
+>すべての情報は、インターネットソースをリクエストおよびダウンロードするネットワーク内の各デバイスによる消費量と見なす必要があります。これらの各リクエストの合計が増え、ダウンロード時間が長くなります。
 
 ![](/help/using/assets/enclosed-network-download.png)

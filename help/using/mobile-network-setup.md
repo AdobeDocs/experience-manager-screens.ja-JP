@@ -2,9 +2,9 @@
 title: Direct Mobile Network
 description: このページは、Direct Mobile Network Setupの説明です。
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '868'
 ht-degree: 16%
 
 ---
@@ -37,7 +37,8 @@ Mobile ServiceデータプロバイダーへのAEM Screensプレーヤーの接�
 
 
 1. [ネットワークアダプタの設定]が[ルータの設定]と一致していることを確認します。
-1. ルータがISP Wide Area Network（インターネットリンク）に正しく接続されているかどうかを確認します。通常は、標準ルータの信号LEDを使用して識別することもできます。
+
+1. ルータがISP Wide Area Network（インターネットリンク）に正しく接続されているかどうかを確認します。これは、標準ルータの信号LEDを使用して識別することもできます。
 
 1. URL呼び出しが成功した場合は、AEM Screensのインストールを続行し、それに応じて登録できます。 開始AEM Screens。
 

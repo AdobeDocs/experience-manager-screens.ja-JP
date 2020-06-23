@@ -4,15 +4,15 @@ seo-title: 標準ネットワーク設定の概要
 description: このページでは、標準ネットワーク設定について説明します。
 seo-description: このページでは、標準ネットワーク設定について説明します。
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: ae7da9c48188c3f7567d05d0e9a5a6b72383d539
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 39%
+source-wordcount: '458'
+ht-degree: 37%
 
 ---
 
 
-# 標準ネットワーク設定の概要 {#intro-standard-networks}
+# ネットワークトラフィックの管理 {#managing-network-traffic}
 
 ネットワーク設定は、様々な構造にすることができます。この節では、環境にデプロイされるネットワーク構造の概要を説明します。一から実装する設定も異なります。
 
@@ -27,7 +27,7 @@ ht-degree: 39%
 
 プロキシサーバーの利点の 1 つは、サーバーのキャッシュがすべてのユーザーの役に立つことです。1 つまたは複数のインターネットサイトが頻繁に要求される場合、それらのサイトはプロキシのキャッシュに格納されている可能性が高いので、ユーザーへの応答時間が向上します。プロキシでは、やり取りをログに記録することもできます。これは、トラブルシューティングに役に立ちます。
 
-## ネットワーク設定について {#network-setups}
+## Understanding the Standard Network Setups {#network-setups}
 
 ネットワークセットアップを実装するには、次のシナリオを強みと導入の詳細と共に参照する必要があります。
 

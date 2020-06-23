@@ -4,11 +4,11 @@ solution-title: AEM Screens
 getting-started-title: AEM Screens ベストプラクティスガイド
 product: experience manager
 audience: end-user
-translation-type: ht
-source-git-commit: bf40f06a782ba0ac665697900570d5c905dd4ddc
-workflow-type: ht
-source-wordcount: '104'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6690af1a6d453fc9ca8a76bc0d5220450f222fc6
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 80%
 
 ---
 
@@ -36,6 +36,11 @@ ht-degree: 100%
 + デプロイメントの概要 {#deployment-brief}
    + [AEM プラットフォーム設定](aem-platform-configurations.md)
    + [プロジェクトの分類と実装](project-taxonomy-implementation.md)
+   + ネットワークトラフィックの管理 {#manage-network-traffic}
+      + [ダイレクトインターネットネットワーク（有線/ワイヤレス）](/help/using/direct-internet-network.md)
+      + [Direct Mobile Network](/help/using/mobile-network.md)
+      + [モバイルデータルータとアクティブなネットワークコンポーネントを備えたモバイルネットワーク](/help/using/mobile-network-router.md)
+      + [同封の企業ネットワーク（有線/無線）](/help/using/enclosed-corporate-network.md)
    + [デバイス設定](device-configurations.md)
    + [テストと品質保証](testing-quality-assurance.md)
    + [ベンダーエンゲージメント戦略](vendor-engagement.md)

@@ -4,10 +4,10 @@ seo-title: 標準ネットワーク設定の概要
 description: このページでは、標準ネットワーク設定について説明します。
 seo-description: このページでは、標準ネットワーク設定について説明します。
 translation-type: tm+mt
-source-git-commit: ae7da9c48188c3f7567d05d0e9a5a6b72383d539
+source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 37%
+source-wordcount: '462'
+ht-degree: 36%
 
 ---
 
@@ -33,10 +33,10 @@ ht-degree: 37%
 
 ネットワーク設定には、主に次の 3 つのタイプがあります。
 
-1. [直接インターネットアクセス](/help/using/direct-internet-access.md)
-1. [Direct Mobile Network](/help/using/mobile-network-setup.md)
-1. [モバイルデータルータとアクティブなネットワークコンポーネントを備えたモバイルネットワーク](/help/using/mobile-network-setup-router.md)
-1. [閉じた企業ネットワーク](/help/using/enclosed-corporate-network.md)
+1. [ダイレクトインターネットネットワーク（有線/ワイヤレス）](/help/using/direct-internet-network.md)
+1. [Direct Mobile Network](/help/using/mobile-network.md)
+1. [モバイルデータルータとアクティブなネットワークコンポーネントを備えたモバイルネットワーク](/help/using/mobile-network-router.md)
+1. [同封の企業ネットワーク（有線/無線）](/help/using/enclosed-corporate-network.md)
 
 次の表に、さまざまなタイプのネットワーク設定と、長所と短所を示します。
 

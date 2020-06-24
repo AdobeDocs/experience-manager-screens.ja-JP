@@ -5,10 +5,10 @@ getting-started-title: AEM Screens ベストプラクティスガイド
 product: experience manager
 audience: end-user
 translation-type: tm+mt
-source-git-commit: 14334261ae572f31754b5dba230b53717cd46626
+source-git-commit: 0a7aa7ea477cd1acbe8adfe31760be1bc4236c17
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 80%
+source-wordcount: '133'
+ht-degree: 78%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 80%
    + [AEM プラットフォーム設定](aem-platform-configurations.md)
    + [プロジェクトの分類と実装](project-taxonomy-implementation.md)
    + ネットワークトラフィック管理 {#manage-network-traffic}
+      + [ネットワークトラフィックの管理](/help/using/managing-network-traffic.md)
       + [ダイレクトインターネットネットワーク（有線/ワイヤレス）](/help/using/direct-internet-network.md)
       + [Direct Mobile Network](/help/using/mobile-network.md)
       + [モバイルデータルータとアクティブなネットワークコンポーネントを備えたモバイルネットワーク](/help/using/mobile-network-router.md)

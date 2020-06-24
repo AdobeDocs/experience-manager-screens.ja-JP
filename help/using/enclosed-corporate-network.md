@@ -2,10 +2,10 @@
 title: 閉じた企業ネットワーク
 description: 閉じた企業ネットワーク
 translation-type: tm+mt
-source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
+source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 58%
+source-wordcount: '566'
+ht-degree: 44%
 
 ---
 
@@ -41,9 +41,10 @@ ht-degree: 58%
 
 ### その他の企業ネットワークの詳細 {#other-networks}
 
-通常、企業ネットワークには多数のデバイスが接続されています。また、数千の同時アクセスに十分なパフォーマンスを提供するために、様々なサブネットワークに分割され、インターネット接続が冗長化または多重化されている場合があります。
-上記のスキーマは簡素化されており、ほとんどの場合、クライアントで使用できる環境に適しています。
-Wi-Fi ソリューションで画面をインターネットリンクに接続することを想定している場合、最低でも IEEE 802.11g などの最新の Wi-Fi 標準を使用することをお勧めします。この標準は、54 Mbpsまでの接続をサポートします。 802.11h-n のような「より新しい」標準は、すべてより高品質です。Wi-Fi リピーターが必要な場合は、Google Nest Mesh WiFi などのメッシュ Wi-Fi アクセスポイントテクノロジーを強くお勧めします。その他の Wi-Fi リピーターテクノロジーでは、最終的にネットワーク全体の帯域幅が大幅に失われます。
+通常、企業ネットワークはデバイスの負荷を負担し、さまざまなサブネットワークに分離し、冗長または多重化されたインターネット接続を持つことで、多数の同時アクセスに十分なパフォーマンスを提供します。
+このスキーマはシンプル化され、ほとんどの場合、クライアントで使用できる環境に適しています。
+
+In case that an WIFI solution is envisaged to connect screen to the internet Link it is recommended to use modern WIFI standards like `IEEE 802.11g` as a minimum. この標準は、54 Mbpsまでの接続をサポートします。  のような&#x200B;*より新しい*&#x200B;標準は、すべてより高品質です。`802.11h-n`Wi-Fi リピーターが必要な場合は、Google Nest Mesh WiFi などのメッシュ Wi-Fi アクセスポイントテクノロジーを強くお勧めします。その他の Wi-Fi リピーターテクノロジーでは、最終的にネットワーク全体の帯域幅が大幅に失われます。
 
 ## メディアとアセットのダウンロード {#download}
 

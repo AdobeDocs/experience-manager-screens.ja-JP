@@ -2,9 +2,9 @@
 title: モバイルデータルータとアクティブなネットワークコンポーネントを備えたモバイルネットワーク
 description: このページは、モバイルデータルータとアクティブなネットワークコンポーネントを備えたモバイルネットワークについて説明しています
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1023'
 ht-degree: 14%
 
 ---
@@ -50,7 +50,7 @@ AEM Screens内では、必要なコンテンツがプレーヤーコントロー
 
 
 
-## モバイルデータルーターとアクティブなネットワークコンポーネントを使用したモバイルネットワークの設定に関する要件 {#requirements-direct}
+## モバイルデータルータとアクティブなネットワークコンポーネントを使用したモバイルネットワークの設定 {#requirements-direct}
 
 ネットワークセットアップは、次の2つのブロックに論理的に分割できます。
 

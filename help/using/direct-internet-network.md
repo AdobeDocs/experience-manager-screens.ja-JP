@@ -2,7 +2,7 @@
 title: 直接インターネットアクセス
 description: 直接インターネットアクセス
 translation-type: tm+mt
-source-git-commit: 6afb71bd969ccfde91c2172ceb2d2f76645c7df1
+source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 6%
@@ -16,6 +16,7 @@ ht-degree: 6%
 
 AEM Screens 通信用の標準ポートは次のとおりです。
 * `http (TCP Port 80)`
+
    <br>または、</br>
 
 * `ssl-secured https (TCP Port 443)`
@@ -24,7 +25,7 @@ AEM Screens 通信用の標準ポートは次のとおりです。
 
 ![](/help/assets/direct-access-2.png)
 
-この設定には、インターネットサービスプロバイダー(ISP)によるインターネットアクセスも含まれ、インターネット回線も含まれます。 ほとんどのISPは、インターネットモデム、ネットワークスイッチ、WIFIアクセスポイント、ファイアウォール、および（製造元とモデルに応じて）その他のネットワーク機能を扱うインターネットルータを提供しています。
+この設定には、インターネットサービスプロバイダー(ISP)によるインターネットアクセスも含まれ、インターネット回線も含まれます。 ほとんどのISPは、インターネットモデム、ネットワークスイッチ、Wi-Fiアクセスポイント、ファイアウォール、およびその他のネットワーク機能（製造元やモデルに応じて異なります）をカバーするインターネットルーターを提供しています。
 
 ## AEM Screensプレイヤーを直接インターネットアクセスに接続する {#connecting-aem-screens-players}
 
@@ -64,7 +65,7 @@ AEM Screens 通信用の標準ポートは次のとおりです。
 
 ネットワークの到達可能性に加えて、インターネット接続のパフォーマンスは、AEM Screensを操作するのに十分な帯域幅を提供することです。
 
-*十分な数は* 、接続されているAEM画面の数、およびネットワーク内の他のコンシューマー（スマートフォン、タブレット、レジ、コンピューター、ゲストWIFIネットワークなど）の使用状況によって異なります。
+*十分な数は* 、接続されているAEM画面の数、およびネットワーク内の他の消費者の使用状況（スマートフォン、タブレット、レジ、コンピューター、ゲストWi-Fiネットワークなど）によって異なります。
 
 >[!NOTE]
 >上記のすべてのデバイスは、インターネット接続への同時アクセスが可能で、ネットワークに消費者またはコンピュータを追加すると帯域幅が線形的に減少します。
@@ -74,10 +75,10 @@ AEM Screens 通信用の標準ポートは次のとおりです。
 ローカルエリアネットワーク(LAN)のパフォーマンスは、ネットワークの到達可能性に加えて、AEM Screensを操作するのに十分な帯域幅を提供します。
 
 LANネットワークは、通常は100 Mbpsのネットワークと少なくとも一致するため、多くのデバイスを接続するのに十分な帯域幅が確保され、システムに対して優れたパフォーマンスを発揮します。
-In case that a WIFI solution is envisaged to connect AEM Screens to the Internet Link it is recommended to use modern WIFI standards like `IEEE 802.11g` as a minimum. この標準は、54 Mbpsまでの接続をサポートします。  のような&#x200B;*より新しい*&#x200B;標準は、すべてより高品質です。`802.11h-n`
+In case that a Wi-Fi solution is envisaged to connect AEM Screens to the Internet Link it is recommended to use modern Wi-Fi standards like `IEEE 802.11g` as a minimum. この標準は、54 Mbpsまでの接続をサポートします。  のような&#x200B;*より新しい*&#x200B;標準は、すべてより高品質です。`802.11h-n`
 
 >[!NOTE]
->WIFIリピーターが必要な場合は、Google Nest Mesh WIFIなどのMesh WIFIアクセスポイントを使用することを強くお勧めします。 他のWiFiの繰り返しテクノロジーは、最終的にネットワーク全体で帯域幅が大幅に失われます。
+>Wi-Fiリピーターが必要な場合は、Google Nest Mesh Wi-FiなどのメッシュWi-Fiアクセスポイントを使用することを強くお勧めします。 その他のWi-Fi繰り返しテクノロジーは、最終的にネットワーク全体で帯域幅が大幅に失われます。
 
 ## メディアとアセットのダウンロード {#download}
 

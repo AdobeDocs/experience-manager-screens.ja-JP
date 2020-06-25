@@ -2,9 +2,9 @@
 title: Direct Mobile Network
 description: このページは、Direct Mobile Network Setupの説明です。
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '826'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ AEM ScreensプレーヤーをMobile Service Data ProviderにCellular 3/4/5Gで�
 
 1. URL呼び出しが成功した場合は、AEM Screensのインストールを続行し、登録を行うことができます。 開始AEM Screens。
 
-## Mobile Network SetUpの設定に関する要件 {#requirements-direct}
+## Direct Mobile Networkの設定 {#requirements-direct}
 
 ネットワークセットアップは、次の2つのブロックに論理的に分割できます。
 

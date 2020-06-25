@@ -2,10 +2,10 @@
 title: 閉じた企業ネットワーク
 description: 閉じた企業ネットワーク
 translation-type: tm+mt
-source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
+source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 44%
+source-wordcount: '751'
+ht-degree: 29%
 
 ---
 
@@ -15,6 +15,33 @@ ht-degree: 44%
 閉じた企業ネットワークの設定は、中小企業、大企業および大規模法人企業に適用できます。理論的にはより複雑になる場合もありますが、論理的な設定は次の図のようになります。
 
 ![](/help/using/assets/enclosed-network-1.png)
+
+
+## AEM Screensプレイヤーを直接インターネットアクセスに接続する {#connecting-aem-screens-players}
+
+次の手順に従って、この設定でAEM Screenプレーヤーが正しく接続されていることを確認します。
+
+1. 各AEM Screenプレーヤーがルーターネットワークに接続されていることを確認します。
+1. システムブラウザーでURLを呼び出して、インターネット接続をテストします。
+
+   >[!NOTE]
+   >エラーが発生した場合は、ネットワーク設定を確認してください。適切なネットワーク接続を行うには、基本的に次の2つのオプションがあります。
+   >* DHCP
+   >* 手動によるIP設定
+
+
+1. [ネットワークアダプタの設定]が[ルータの設定]と一致していることを確認し、ネットワーク内の使用可能なIPアドレスの最大数に達していないかどうかを確認します。
+
+1. ルータがISP Wide Area Network（インターネットリンク）に正しく接続されているかどうかを確認します。 これは、標準ルータの信号LEDを使用して識別することもできます。
+1. URL呼び出しが成功した場合は、AEM Screensのインストールを続行し、登録を行うことができます。 開始AEM Screens。
+
+   >[!NOTE]
+   >**トラブルシューティングのヒント**
+   >AEM Screensが正しく接続されず、期待した内容が表示されない場合：
+   >
+   >1. Check in your Internet Router firewall if there are any restrictions regarding `TCP/IP Port 80/443`.
+   >1. 必要なポートがすべて許可されていることを確認します。
+
 
 ## 閉じた企業ネットワークの設定要件 {#requirements-enclosed-networks}
 
@@ -26,7 +53,7 @@ ht-degree: 44%
 ### ワイドエリアネットワーク {#wan-connection}
 
 ネットワーク到達性の他に、インターネット接続のパフォーマンスは、AEM Screensを適切かつスムーズに動作させるのに十分な帯域幅を提供することです。
-*十分な帯域幅は* 、接続されているAEM画面の数や、スマートフォン、タブレット、レジャー、コンピューター、ゲストWIFIネットワークなど、ネットワーク内の他のコンシューマーの使用状況によって異なります。
+*十分な帯域幅は* 、接続されているAEM画面の数や、スマートフォン、タブレット、レジャー、コンピューター、ゲストWi-Fiネットワークなど、ネットワーク内の他のユーザーの使用状況によって異なります。
 
 >[!NOTE]
 >すべてのデバイスはインターネット接続に同時にアクセスできます。ネットワークに消費者やコンピュータを追加すると、通常帯域幅は線形的に減少します。
@@ -44,7 +71,8 @@ ht-degree: 44%
 通常、企業ネットワークはデバイスの負荷を負担し、さまざまなサブネットワークに分離し、冗長または多重化されたインターネット接続を持つことで、多数の同時アクセスに十分なパフォーマンスを提供します。
 このスキーマはシンプル化され、ほとんどの場合、クライアントで使用できる環境に適しています。
 
-In case that an WIFI solution is envisaged to connect screen to the internet Link it is recommended to use modern WIFI standards like `IEEE 802.11g` as a minimum. この標準は、54 Mbpsまでの接続をサポートします。  のような&#x200B;*より新しい*&#x200B;標準は、すべてより高品質です。`802.11h-n`Wi-Fi リピーターが必要な場合は、Google Nest Mesh WiFi などのメッシュ Wi-Fi アクセスポイントテクノロジーを強くお勧めします。その他の Wi-Fi リピーターテクノロジーでは、最終的にネットワーク全体の帯域幅が大幅に失われます。
+In case that an Wi-Fi solution is envisaged to connect screen to the internet Link it is recommended to use modern Wi-Fi standards like `IEEE 802.11g` as a minimum. この標準は、54 Mbpsまでの接続をサポートします。  のような&#x200B;*より新しい*&#x200B;標準は、すべてより高品質です。`802.11h-n`Wi-Fiリピーターが必要な場合は、Google Nest Mesh Wi-FiなどのMesh Wi-Fiアクセスポイントテクノロジーを使用することを強くお勧めします。
+その他のWi-Fi繰り返しテクノロジーは、最終的にネットワーク全体で帯域幅が大幅に失われます。
 
 ## メディアとアセットのダウンロード {#download}
 

@@ -2,10 +2,10 @@
 title: 直接インターネットアクセス
 description: 直接インターネットアクセス
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 6%
+source-wordcount: '686'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,6 @@ ht-degree: 6%
 
 AEM Screens 通信用の標準ポートは次のとおりです。
 * `http (TCP Port 80)`
-
    <br>または、</br>
 
 * `ssl-secured https (TCP Port 443)`
@@ -53,7 +52,7 @@ AEM Screens 通信用の標準ポートは次のとおりです。
    >1. 必要なポートがすべて許可されていることを確認します。
 
 
-## 直接アクセスネットワークの設定の要件 {#requirements-direct}
+## DirectAccessネットワークの設定 {#requirements-direct}
 
 ダイレクトインターネットワークは、次の2つのブロックに論理的に分割されます。
 

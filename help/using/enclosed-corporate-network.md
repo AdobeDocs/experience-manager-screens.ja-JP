@@ -2,15 +2,15 @@
 title: 閉じた企業ネットワーク
 description: 閉じた企業ネットワーク
 translation-type: tm+mt
-source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
+source-git-commit: 768c40545907ab473d61a56367940cfbbf8f2dc9
 workflow-type: tm+mt
 source-wordcount: '708'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 
-# 同封の企業ネットワーク（有線/ワイヤレス） {#enclosed-corporate-networks}
+# 閉じた企業ネットワーク （有線/ワイヤレス） {#enclosed-corporate-networks}
 
 同封の企業ネットワークの設定は、小規模、大規模、企業のビジネスに適用できます。 理論的にはより複雑になる場合があり、論理的な設定は次の図のようになります。
 

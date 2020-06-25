@@ -2,10 +2,10 @@
 title: 閉じた企業ネットワーク
 description: 閉じた企業ネットワーク
 translation-type: tm+mt
-source-git-commit: eaeea4933be708beca0628438e6cef6142a0490f
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 5%
+source-wordcount: '708'
+ht-degree: 4%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 5%
    >1. 必要なポートがすべて許可されていることを確認します。
 
 
-## 閉じた企業ネットワークの設定要件 {#requirements-enclosed-networks}
+## 囲まれた企業ネットワークの設定 {#requirements-enclosed-networks}
 
 囲まれた企業ネットワークの設定は、次の2つのブロックに論理的に分けられます。
 

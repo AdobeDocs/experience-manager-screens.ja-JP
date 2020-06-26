@@ -3,11 +3,11 @@ title: 機能パック 202004 のリリースノート
 seo-title: 機能パック 202004 のリリースノート
 description: 2020 年 4 月 20 日にリリースされた AEM Screens 機能パック 202004 について説明します。
 seo-description: 2020 年 4 月 20 日にリリースされた AEM Screens 機能パック 202004 について説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d22a8ad78a8276b736a4d7455792996234d23ca3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '392'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 88%
 
 AEM Screens は、AEM 6.4 機能パック 8 および AEM 6.5 機能パック 4 をリリースしました。
 
-You can download the latest feature pack for AEM Screens 6.4.8 or AEM Screens 6.5.4 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. 「 **Adobe Experience Manager** 」タブに移動し、「 **画面** 」を検索して最新の機能パックを入手します。
+Adobe ID を使用して、AEM Screens 6.4.8 または AEM Screens 6.5.4 リリースの最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からダウンロードできます。「**Adobe Experience Manager**」タブに移動し、「**Screens**」を検索して最新の機能パックを入手します。
 
 ## リリース日 {#release-date}
 

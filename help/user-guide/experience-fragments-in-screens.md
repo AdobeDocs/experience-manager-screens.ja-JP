@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1100'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -178,9 +178,9 @@ ht-degree: 95%
 >
 >ライブコピーについて詳しくは、「コンテンツの再利用：マルチサイトマネージャーとライブコピー」を参照してください。
 
-次の手順に従って、マスターチャネルから宛先チャネルに変更を反映します。
+マスターチャネルから目的のチャネルに変更を反映するには、以下の手順に従います。
 
-1. Select the Experience Fragment from the **Sites** (master) page and click the pencil icon to edit the items in the Experience Fragment.
+1. **Sites**（マスター）ページで「エクスペリエンスフラグメント」を選択し、鉛筆アイコンをクリックして、エクスペリエンスフラグメント内の項目を編集します。
 
    ![screen_shot_2018-06-08at122655pm](assets/screen_shot_2018-06-08at122655pm.png)
 

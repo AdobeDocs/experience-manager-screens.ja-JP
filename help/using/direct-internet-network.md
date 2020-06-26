@@ -2,9 +2,9 @@
 title: 直接インターネットアクセス
 description: 直接インターネットアクセス
 translation-type: tm+mt
-source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
+source-git-commit: da1fb07fef33bca771693f8bd4cc7bce256d808e
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '697'
 ht-degree: 5%
 
 ---
@@ -15,10 +15,10 @@ ht-degree: 5%
 ダイレクトインターネットワークには、AEM Screensが接続する必要のあるAEM cloud servicesにアクセスするための、インターネットアクセスのエントリアクセスポイントが含まれています。
 
 AEM Screens 通信用の標準ポートは次のとおりです。
-* `http (TCP Port 80)`
+* `ssl-secured https (TCP Port 443)`
    <br>または、</br>
 
-* `ssl-secured https (TCP Port 443)`
+* `http (TCP Port 80)`を使用する場合は、そのレベルのセキュリティが必要ありません。
 
 ポートは、専用のAEM設定が設定されているため、異なる場合があります。 このSetUp内では、次の図に示すように、すべてのデバイスがインターネットルータに直接接続されます。
 
@@ -30,7 +30,7 @@ AEM Screens 通信用の標準ポートは次のとおりです。
 
 次の手順に従って、この設定でAEM Screenプレーヤーが正しく接続されていることを確認します。
 
-1. 各AEM Screenプレーヤーがルーターネットワークに接続されていることを確認します。
+1. 各AEM Screenプレーヤーがルーターのネットワークに接続されていることを確認します。
 1. システムブラウザーでURLを呼び出して、インターネット接続をテストします。
 
    >[!NOTE]

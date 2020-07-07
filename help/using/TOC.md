@@ -4,11 +4,11 @@ solution-title: AEM Screens
 getting-started-title: AEM Screens ベストプラクティスガイド
 product: experience manager
 audience: end-user
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0a7aa7ea477cd1acbe8adfe31760be1bc4236c17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '133'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -38,10 +38,10 @@ ht-degree: 78%
    + [プロジェクトの分類と実装](project-taxonomy-implementation.md)
    + ネットワークトラフィック管理 {#manage-network-traffic}
       + [ネットワークトラフィックの管理](/help/using/managing-network-traffic.md)
-      + [ダイレクトインターネットネットワーク（有線/ワイヤレス）](/help/using/direct-internet-network.md)
-      + [Direct Mobile Network](/help/using/mobile-network.md)
-      + [モバイルデータルータとアクティブなネットワークコンポーネントを備えたモバイルネットワーク](/help/using/mobile-network-router.md)
-      + [同封の企業ネットワーク（有線/無線）](/help/using/enclosed-corporate-network.md)
+      + [直接インターネットネットワーク（有線／ワイヤレス）](/help/using/direct-internet-network.md)
+      + [直接モバイルネットワーク](/help/using/mobile-network.md)
+      + [モバイルデータルーターとアクティブなネットワークコンポーネントを使用したモバイルネットワーク](/help/using/mobile-network-router.md)
+      + [閉じた企業ネットワーク（有線／ワイヤレス）](/help/using/enclosed-corporate-network.md)
    + [デバイス設定](device-configurations.md)
    + [テストと品質保証](testing-quality-assurance.md)
    + [ベンダーエンゲージメント戦略](vendor-engagement.md)

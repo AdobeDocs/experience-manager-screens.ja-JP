@@ -2,8 +2,11 @@
 title: データトリガーを使用したオーサリング
 seo-title: データトリガーを使用したオーサリング
 description: データトリガーを使用して作成する方法については、このページを参照してください。
-translation-type: ht
-source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 100%
 
 ---
 
@@ -13,14 +16,16 @@ source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 ここでは、チャネルでターゲティングを有効にする方法について説明します。
 
 >[!IMPORTANT]
-> AEM Screens チャネルでデータトリガーをサポートする最小バージョンは、AEM 6.5.3 機能パック 3 です。
+>
+>AEM Screens チャネルでデータトリガーをサポートする最小バージョンは、AEM 6.5.3 機能パック 3 です。
 
 ## 前提条件 {#prereqs}
 
 チャネルでのターゲティングを有効にするには、次の手順に従う前に、AEM Screens での ContextHub とターゲティングを理解するために「[AEM Screens の設定における主な用語](configuring-context-hub.md)」を参照してください。
 
 >[!IMPORTANT]
-> AEM Screens チャネルでターゲティングを有効にする前に、ContextHub の設定を理解し、設定することをお勧めします。
+>
+>AEM Screens チャネルでターゲティングを有効にする前に、ContextHub の設定を理解し、設定することをお勧めします。
 
 詳しくは、次のリンクを参照してください。
 
@@ -31,7 +36,7 @@ source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
 ## データトリガーを使用したオーサリングの概要 {#author-targeting}
 
->[!VIDEO](https://video.tv.adobe.com/v/31921?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/31921)
 
 ## AEM Screens チャネルでのターゲティングの有効化 {#enabling-targeting}
 

@@ -2,7 +2,7 @@
 title: 閉じた企業ネットワーク
 description: 閉じた企業ネットワーク
 translation-type: tm+mt
-source-git-commit: 143036005bcaecf17e6b57f4e71a5e8a1b0cfe52
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 89%
@@ -56,6 +56,7 @@ ht-degree: 89%
 *十分帯域幅な*&#x200B;であるかどうかは、接続されている AEM Screens の数量と、スマートフォン、タブレット、レジ、コンピューター、ゲスト Wi-Fi ネットワークなど、ネットワーク内の他のユーザーデバイスの使用状況によって異なります。
 
 >[!NOTE]
+>
 >すべてのデバイスはインターネット接続に同時にアクセスでき、ネットワークに接続する消費者またはコンピュータを増やすと帯域幅が直線的に減少します。
 
 ### ローカルエリアネットワーク {#lan-connection}
@@ -83,6 +84,7 @@ AEM Screens は、デジタルサイネージの利用者に大きなメリッ�
 ネットワーク接続の主要データの概要を次の表に示します。
 
 >[!NOTE]
+>
 >インターネットソースをリクエストしてダウンロードするネットワーク内の各デバイスの消費量が、この情報からわかります。これらのリクエストがすべて合計されて、ダウンロード時間が延長されます。
 
 ![](/help/using/assets/enclosed-network-download.png)

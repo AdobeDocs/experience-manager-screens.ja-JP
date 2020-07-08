@@ -3,9 +3,9 @@ title: AEM Screens のセキュリティチェックリスト
 seo-title: AEM Screens のセキュリティチェックリスト
 description: ここでは、AEM Screens のセキュリティチェックリストについて説明します
 seo-description: ここでは、AEM Screens のセキュリティチェックリストについて説明します
-translation-type: ht
-source-git-commit: dd1198dbfb502287ae72c3ccef297606aef069a2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 100%
 
@@ -15,6 +15,7 @@ ht-degree: 100%
 # AEM Screens のシステムセキュリティに関する考慮事項 {#security-checklist}
 
 >[!IMPORTANT]
+>
 >これは内部 Git リソースです。
 
 このページでは、AEM Screens のシステムセキュリティに関する考慮事項について説明します。
@@ -77,7 +78,9 @@ AEM サーバーは安全ですか？
 したがって、デバイスを手の届かないところに、望ましくは保護されたコンテナに配置し、ケーブルも保護することをお勧めします。また、IR リモートポートも無効にします。
 
 デバイスの OS が定期的に更新されない場合、OS はセキュリティホールにさらされ、ネットワークを介したリモート攻撃を可能にする場合があります。
+
 >[!NOTE]
+>
 >適切なリモート更新機能と制御機能（リモートデスクトップ、MDM ソリューションなど）を備えたデバイスの実装をお勧めします。また、パブリック WiFi に公開されないプライベートネットワークを使用することもお勧めします。
 
 

@@ -10,8 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
-translation-type: ht
-source-git-commit: 9b68f76512fc090103f29c8c29c761b0f047416f
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '694'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,8 @@ source-git-commit: 9b68f76512fc090103f29c8c29c761b0f047416f
 
 >[!CAUTION]
 >
->この AEM Screens 機能は、AEM 6.4.2 機能パック 2 と AEM 6.3.3 機能パック 4 がインストールされている場合にのみ使用できます。\
+>この AEM Screens 機能は、AEM 6.4.2 機能パック 2 と AEM 6.3.3 機能パック 4 がインストールされている場合にのみ使用できます。
+>
 >このいずれかの機能パックにアクセスするには、アドビサポートに連絡してアクセス権をリクエストする必要があります。アクセス権が付与されると、パッケージ共有から機能パックをダウンロードできるようになります。
 
 ここでは、以下のトピックについて説明します。

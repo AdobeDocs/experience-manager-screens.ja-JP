@@ -10,8 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
-translation-type: ht
-source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1400'
+ht-degree: 100%
 
 ---
 
@@ -69,6 +72,7 @@ Screens 用のプロジェクトを作成したら、下の手順に従ってス
 >前述の 1 x 2、2 x 2 または 2～3 分割画面チャネルなどのテンプレートオプションを使用して、様々なゾーンを作成できます。
 
 >[!IMPORTANT]
+>
 > コンテンツを作成してチャネルに追加したら、次の手順では、ロケーションを作成してからディスプレイを作成します。さらに、そのチャネルをディスプレイに割り当てる必要があります。詳しくは、この節の最後に記載されているリソースを参照してください。
 
 ## チャネルでの作業 {#working-with-channels}
@@ -250,6 +254,7 @@ Screens 用のプロジェクトを作成したら、下の手順に従ってス
 >
 >* [ロケーションの作成と管理](managing-locations.md)
 >* [ディスプレイの作成と管理](managing-displays.md)
+
 >
 
 

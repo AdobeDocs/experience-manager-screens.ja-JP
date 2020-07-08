@@ -4,8 +4,11 @@ seo-title: プロジェクトレベルの画像再生時間
 description: 'この機能を使用すると、プロジェクトレベルで画像の再生時間を定義できます。 '
 seo-description: 'この機能を使用すると、プロジェクトレベルで画像の再生時間を定義できます。 '
 contentOwner: jsyal
-translation-type: ht
-source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 100%
 
 ---
 
@@ -40,6 +43,7 @@ source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
 
 
 >[!NOTE]
+>
 >画像レベルまたはチャネルレベルの再生時間を更新する場合は、[チャネルレベルの画像再生時間](channel-level-image-playback.md)を参照してください。
 
 プロジェクトレベルの画像再生時間の割り当てを更新するには、以下の手順に従います。

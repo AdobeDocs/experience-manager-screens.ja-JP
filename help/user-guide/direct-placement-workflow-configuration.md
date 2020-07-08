@@ -3,8 +3,11 @@ title: 'ダイレクト配置ワークフロー設定 '
 seo-title: ダイレクト配置ワークフロー設定
 description: このページでは、ダイレクト配置ワークフロー設定について説明します。
 seo-description: このページでは、ダイレクト配置ワークフロー設定について説明します。
-translation-type: ht
-source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 100%
 
 ---
 
@@ -25,12 +28,14 @@ source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
 また、コンテンツ作成者として、「**オフラインコンテンツを更新**」をクリックすることもできます。
 
 >[!NOTE]
-> オフラインで一括更新を使用する方法については、[Content Update As a Service](/help/user-guide/content-update-as-a-service.md) を参照してください。
+>
+>オフラインで一括更新を使用する方法については、[Content Update As a Service](/help/user-guide/content-update-as-a-service.md) を参照してください。
 
 ## ダイレクト配置ワークフローの設定 {#configuring-workflow}
 
 >[!IMPORTANT]
-> 設定を開始する前に、[デモパッケージ](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)をインストールする必要があります。パッケージをインストールすると、AEM インスタンスのツール（アイコン）／**ワークフロー**／**ワークフローモデル**&#x200B;からアクセスできます。
+>
+>設定を開始する前に、[デモパッケージ](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)をインストールする必要があります。パッケージをインストールすると、AEM インスタンスのツール（アイコン）／**ワークフロー**／**ワークフローモデル**&#x200B;からアクセスできます。
 
 ダイレクト配置ワークフローを設定するには、次の手順を実行します。
 

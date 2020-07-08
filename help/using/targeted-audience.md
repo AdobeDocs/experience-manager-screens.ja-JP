@@ -3,8 +3,11 @@ title: ターゲットオーディエンス
 seo-title: AEM Screens のターゲットオーディエンス
 description: ここでは、AEM Screens ベストプラクティスガイドにおける「ターゲットオーディエンス」について説明します
 seo-description: ここでは、AEM Screens ベストプラクティスガイドにおける「ターゲットオーディエンス」について説明します
-translation-type: ht
-source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '520'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,8 @@ AEM の実装経験が豊富であれば、*作成者*、*開発者*、*IT／技
 ![](/help/assets/roles-used.png)
 
 >[!NOTE]
-> これらの役割の多くは、各プロジェクトの設定方法に応じて、社内で割り当てるかアウトソーシングされるかのどちらかになります。
+>
+>これらの役割の多くは、各プロジェクトの設定方法に応じて、社内で割り当てるかアウトソーシングされるかのどちらかになります。
 
 ## 役割の定義 {#roles}
 
@@ -66,4 +70,4 @@ AV インテグレーターは、デジタルサイネージハードウェア�
 
 >[!NOTE]
 >
-> デジタルサイネージプロジェクト上の様々な役割と責務およびターゲットオーディエンスについて詳しくは、「**[プロジェクト上の役割と責務](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**」を参照してください。
+>デジタルサイネージプロジェクト上の様々な役割と責務およびターゲットオーディエンスについて詳しくは、**[プロジェクト上の役割と責務](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**を参照してください。

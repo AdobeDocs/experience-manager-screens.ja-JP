@@ -3,8 +3,11 @@ title: '[!UICONTROL AEM Screens] の概要'
 seo-title: '[!UICONTROL AEM Screens] プロジェクトのベストプラクティスガイド'
 description: ここでは AEM Screens について紹介します
 seo-description: ここでは AEM Screens について紹介します
-translation-type: ht
-source-git-commit: 8a80ea5c79bfd9890211bd7e0d958ab0d4c2d4b6
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 100%
 
 ---
 
@@ -36,9 +39,9 @@ AEM Screens を使用したデジタルサイネージネットワークの作�
 
 ## AEM Sites と AEM Screens の比較 {#aem-sites-screens}
 
-> [!NOTE]
+>[!NOTE]
 >
-> AEM Sites アプリケーションを扱った経験が実装チームにある場合は、AEM Sites と AEM Screens の違いを理解しておくことが重要です。
+>AEM Sites アプリケーションを扱った経験が実装チームにある場合は、AEM Sites と AEM Screens の違いを理解しておくことが重要です。
 
 AEM Screens は、公共の場所にあるデジタルサイネージデバイスにコンテンツをデプロイするための統合オーサリング／再生プラットフォームを提供します。エクスペリエンス作成者は、Web チャネルと会場内チャネル間の一貫性を保つように努力する必要がありますが、両者にはいくつか違いがあるので、注意してください。
 
@@ -56,6 +59,6 @@ AEM Screens は、物理デバイスにコンテンツをデプロイするた�
 
 Screens 内のチャネルにドロップする前に、対象となるディスプレイデバイスのサイズで使用できるように AEM Sites をフォーマットする必要があります。
 
-> [!NOTE]
+>[!NOTE]
 >
-> 多くの AEM Sites コンポーネントは、AEM Screens と互換性がありません。AEM Screens には、すぐに使用できる独自のコンポーネントが多数付属しており、それらをそのまま使用してデジタルエクスペリエンスを構築できます。プロジェクト要件が許す限り、できるだけ組み込みの AEM Screens 機能を使用してください。
+>多くの AEM Sites コンポーネントは、AEM Screens と互換性がありません。AEM Screens には、すぐに使用できる独自のコンポーネントが多数付属しており、それらをそのまま使用してデジタルエクスペリエンスを構築できます。プロジェクト要件が許す限り、できるだけ組み込みの AEM Screens 機能を使用してください。

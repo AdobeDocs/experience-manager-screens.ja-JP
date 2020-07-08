@@ -10,8 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
-translation-type: ht
-source-git-commit: 3621082c7880e61f659d3bca956159d22d7df6de
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '684'
+ht-degree: 100%
 
 ---
 
@@ -23,6 +26,7 @@ source-git-commit: 3621082c7880e61f659d3bca956159d22d7df6de
 >この AEM Screens 機能は、AEM 6.4.2 機能パック 2 と AEM 6.3.3 機能パック 4 がインストールされている場合にのみ使用できます。
 
 >[!NOTE]
+>
 >このいずれかの機能パックにアクセスするには、アドビサポートに連絡してアクセス権をリクエストする必要があります。アクセス権が付与されると、パッケージ共有から機能パックをダウンロードできるようになります。
 
 ここでは、以下のトピックについて説明します。
@@ -33,7 +37,7 @@ source-git-commit: 3621082c7880e61f659d3bca956159d22d7df6de
 
 ## 概要 {#overview}
 
-***AEM Screens ***で Adobe Analytics を活用することにより、特定の場所に表示されるコンテンツと他のデータソースとの関連性を探るのに役立つユニークなクロスチャネル分析を実現できます。
+***AEM Screens*** で Adobe Analytics を活用することにより、特定の場所に表示されるコンテンツと他のデータソースとの関連性を探るのに役立つユニークなクロスチャネル分析を実現できます。
 
 AEM Screens は、標準で Adobe Analytics と統合されており、再生検証機能を提供します。
 
@@ -125,5 +129,5 @@ Analytics イベントは、IndexedDB にオフラインで保存され、後で
 
 >[!NOTE]
 >
->***シーケンス&#x200B;***と***イベントの標準データモデル***&#x200B;について詳しくは、**[AEM Screens 用の Adobe Analytics の設定](configuring-adobe-analytics-aem-screens.md)**を参照してください。
+>***シーケンス***&#x200B;と&#x200B;***イベントの標準データモデル***&#x200B;について詳しくは、**[AEM Screens 用の Adobe Analytics の設定](configuring-adobe-analytics-aem-screens.md)**を参照してください。
 

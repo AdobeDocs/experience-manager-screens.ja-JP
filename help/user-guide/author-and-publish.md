@@ -10,10 +10,10 @@ topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
-translation-type: ht
-source-git-commit: 0e426a61ef3230bbf75b88ae7235d4495a49759f
-workflow-type: ht
-source-wordcount: '1907'
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1893'
 ht-degree: 100%
 
 ---
@@ -156,8 +156,9 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 デフォルトでは、パブリッシュインスタンスごとに一意の暗号キーが存在するので、この手順を各パブリッシュインスタンスで実行し、次回の設定用にこの一意のキーを保存する必要があります。
 
 >[!NOTE]
->パスワードは波括弧（{}）で囲んでください。
->例：{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}
+>
+>パスワードは波括弧（{}）で囲んでください。次に例を示します。
+>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### 手順 4：ActiveMQ Artemis クラスターのアクティブ化 {#step-activate-activemq-artemis-cluster}
 

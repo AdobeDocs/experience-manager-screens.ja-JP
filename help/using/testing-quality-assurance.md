@@ -3,8 +3,11 @@ title: テストと品質保証
 seo-title: AEM Screens のテストと品質保証
 description: ここでは、AEM Screens ベストプラクティスガイドにおける「テストと品質保証」について説明します
 seo-description: ここでは、AEM Screens ベストプラクティスガイドにおける「テストと品質保証」について説明します
-translation-type: ht
-source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +24,8 @@ source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
 事前に定義した KPI をすべて特定し、KPI に照らして成果物を測定するチェックリストを作成してください。
 
 >[!NOTE]
-> このフェーズは、インストールおよびユーザーガイドを作成するためのツールとしても使用する必要があります。このガイドは、後で機器に同梱し、後日参照するために現場に保管することができます。
+>
+>このフェーズは、インストールおよびユーザーガイドを作成するためのツールとしても使用する必要があります。このガイドは、後で機器に同梱し、後日参照するために現場に保管することができます。
 
 次の要素を考慮する必要があります。
 
@@ -59,9 +63,10 @@ AEM Screens には、Screens Player アプリケーションのエンドポイ�
 1. コンテンツダウンロードの管理
 1. アプリケーションの再起動に関する問題の管理
 
-***デバイスコントロールセンター***&#x200B;について詳しくは、**AEM Screens ユーザーガイド**&#x200B;の[デバイスコントロールセンターからのトラブルシューティング](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/monitoring-screens.html)を参照してください。
+***デバイスコントロールセンター***&#x200B;について詳しくは、[AEM Screens ユーザーガイド](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/monitoring-screens.html)の&#x200B;**デバイスコントロールセンターからのトラブルシューティング**&#x200B;を参照してください。
 
 >[!CAUTION]
+>
 > デバイスコントロールセンターは次の用途には使用しないでください。
 >
 > 1. 新しいバージョンのプレイヤーアプリケーションのインストール
@@ -72,9 +77,10 @@ AEM Screens には、Screens Player アプリケーションのエンドポイ�
 
 
 >[!NOTE]
+>
 > アドビでは、すべてのデプロイメントで、専用のサードパーティのデバイス管理プラットフォームを使用することをお勧めします。
 
-選択するプラットフォームは、***対象オペレーティングシステム***、***プロジェクト要件***、***エンドポイント数***&#x200B;など、様々な要因によって異なります。
+The specific platform chosen depends on a number of factors including the ***target operating system***, ***project requirements*** and ***number of end points***.
 
 以下に例を示します。
 

@@ -3,8 +3,11 @@ title: AEM プラットフォーム設定
 seo-title: AEM プラットフォーム設定
 description: ここでは、AEM プラットフォームの設定について説明します
 seo-description: ここでは、AEM プラットフォームの設定について説明します
-translation-type: ht
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 100%
 
 ---
 
@@ -26,13 +29,13 @@ AEM Screens の使用を開始するには、まず、以下の節に従って A
 
 >[!NOTE]
 >
-> オーサーとパブリッシュが 1 つだけの場合は、[AEM Screens でのオーサーとパブリッシュの設定](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/author-and-publish.html)の&#x200B;**オーサー環境でのレプリケーションエージェントの設定**&#x200B;で示されている手順に従うだけです。
+>オーサーとパブリッシュが 1 つだけの場合は、[AEM Screens でのオーサーとパブリッシュの設定](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/author-and-publish.html)の&#x200B;**オーサー環境でのレプリケーションエージェントの設定**&#x200B;で示されている手順に従うだけです。
 
 ## Dispatcher の設定 {#dispatcher-configurations}
 
 Dispatcher は、Adobe Experience Manager のキャッシュやロードバランシングを管理するツールです。AEM の Dispatcher は、AEM サーバーを攻撃から保護する目的にも役立ちます。したがって、Dispatcher をエンタープライズクラスの Web サーバーと組み合わせて使用すれば、AEM インスタンスのセキュリティを強化できます。
 
-AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインを説明している **[AEM Screens の Dispatcher 設定](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/dispatcher-configurations-aem-screens.html)**&#x200B;を参照してください。
+AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインを説明している **[AEM Screens の Dispatcher 設定](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/dispatcher-configurations-aem-screens.html)**を参照してください。
 
 ## FFmpeg とビデオレンディションのインストール {#installing-ffmpeg}
 
@@ -60,7 +63,8 @@ AMS インスタンスで AEM のパスワードポリシーを無効にする�
 上記に加えて、必要な開発用パッケージ（WCM コアコンポーネントなど）やサードパーティ製ツールキット（SAP Hybris など）を特定します。同じソフトウェアパッケージをローカルの開発環境にインストールします。QA サーバー、ステージサーバー、実稼働サーバーのすべてで同じ設定を使用するように、クライアントに指示します。サーバー設定が一致しないと、デプロイ時およびテスト時に問題が発生します。
 
 >[!NOTE]
-> AEM Screens の最新の機能パックをインストールするには、[リリースノート](https://helpx.adobe.com/jp/experience-manager/6-5/screens/user-guide.html?topic=/experience-manager/6-5/screens/morehelp/release-notes.ug.js)を参照してください。
+>
+>AEM Screens の最新の機能パックをインストールするには、[リリースノート](https://helpx.adobe.com/jp/experience-manager/6-5/screens/user-guide.html?topic=/experience-manager/6-5/screens/morehelp/release-notes.ug.js)を参照してください。
 
 ## ACL の設定 {#setting-up-acls}
 

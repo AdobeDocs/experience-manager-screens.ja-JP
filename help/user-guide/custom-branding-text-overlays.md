@@ -4,9 +4,9 @@ seo-title: テキストオーバーレイのカスタムブランディングと
 description: このページでは、テキストオーバーレイのカスタムブランディングとスタイル設定を適用する方法について説明します。
 seo-description: このページでは、テキストオーバーレイのカスタムブランディングとスタイル設定を適用する方法について説明します。
 contentOwner: Jyotika Syal
-translation-type: ht
-source-git-commit: 04639198c5220e01af5945b8032c5fd86dc27499
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 100%
 
@@ -82,6 +82,7 @@ ht-degree: 100%
 1. 「**保存して閉じる**」をクリックして、デザインパスを更新します。
 
 >[!IMPORTANT]
+>
 > 既存の Screens テンプレートをオーバーレイして、デフォルトで独自のデザインを挿入したり、完全に独自のテンプレートを作成したりできるオプションがあります。詳しくは、以下の手順を参照してください。
 
 1. 既存の Screen テンプレートをオーバーレイして独自のデザインを挿入するには、次の手順に従います。

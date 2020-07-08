@@ -4,8 +4,11 @@ seo-title: 単一使用テイクオーバーチャネル
 description: 単一使用テイクオーバーチャネルを作成する場合は、この使用例に従います。
 seo-description: 単一使用テイクオーバーチャネルを作成する場合は、この使用例に従います。
 contentOwner: jsyal
-translation-type: ht
-source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 100%
 
 ---
 
@@ -85,6 +88,7 @@ source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
 
    * **チャネルパス**：TakeOver チャネルへのパスを選択します。
    * **優先度**：このチャネルの優先度を **MainAdChannel** よりも大きく設定します。例えば、この例で設定される優先度は 8 です。
+
       >[!NOTE]
       >通常再生チャネルの優先度よりも高い値であれば、何でも優先度に設定できます。
    * **サポートされているイベント**：「**待機中画面**」と「**タイマー**」を選択します。
@@ -101,4 +105,5 @@ source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
       ![アセット](assets/single-takeover9.png)
 
 >[!NOTE]
+>
 >単一使用テイクオーバーチャネルは、再生後に削除することをお勧めします。

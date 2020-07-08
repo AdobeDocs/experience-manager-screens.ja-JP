@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
-translation-type: ht
-source-git-commit: b26af144f01b48ffaffb77d0218b5549a5b7d2f5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
 source-wordcount: '1617'
 ht-degree: 100%
 
@@ -56,6 +56,7 @@ AEM Screens プロジェクトで *Screens ローンチ*&#x200B;を活用しは�
 したがって、ローンチのライブ日付をスケジュールした場合は、このオフセット分だけ早めに昇格が開始されます。上記の式では、ほとんどの項目に多くの時間はかかりません。サーバーとプレーヤーの間の最大時差がわかれば、このオフセットの妥当な推測をおこなえます。
 
 >[!NOTE]
+>
 >デフォルトでは、Screens ローンチの猶予時間は 24 時間に設定されています。つまり、*/content/screens* 配下のリソースにローンチのライブ日付を設定した場合、このオフセット分だけ早めに昇格が開始されます。
 
 ### デフォルトの猶予時間の更新 {#updating-out-of-the-box-grace-period}

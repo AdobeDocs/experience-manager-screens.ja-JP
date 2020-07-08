@@ -3,8 +3,11 @@ title: アセットレベルのアクティベーション
 seo-title: アセットレベルのアクティベーション
 description: ここでは、プレーヤーのローカルタイムゾーンで予定時間枠にチャネル内の特定のアセットをアクティブにする方法について説明します。
 seo-description: ここでは、プレーヤーのローカルタイムゾーンで予定時間枠にチャネル内の特定のアセットをアクティブにする方法について説明します。
-translation-type: ht
-source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1452'
+ht-degree: 100%
 
 ---
 
@@ -103,6 +106,7 @@ source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
 
 
 >[!NOTE]
+>
 >*午前／午後*&#x200B;表記（例：午後 2:00）ではなく、_24 時間_&#x200B;表記（例：14:00）を使用することもできます。
 
 ### 週分割 {#week-parting}
@@ -126,6 +130,7 @@ source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
 | 月 ～ 木 | アセットは、月曜日から木曜日までのチャネルで再生される |
 
 >[!NOTE]
+>
 >また、_省略形_（月、水、金など）の代わりに、_通常の_&#x200B;表記（月曜日、水曜日、金曜日など）を使用することもできます。
 
 

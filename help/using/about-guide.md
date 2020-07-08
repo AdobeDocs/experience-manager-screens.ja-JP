@@ -3,8 +3,11 @@ title: このガイドについて
 seo-title: ガイドの説明
 description: ここでは、ベストプラクティスガイドの目的について説明します
 seo-description: ここでは、ベストプラクティスガイドの目的について説明します
-translation-type: ht
-source-git-commit: 2c73039b61f713d9cc862a1bef9b3dcda5b0c351
+translation-type: tm+mt
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,9 @@ AEM Screens ベストプラクティスガイドは、AEM Screens プロジェ�
 AEM Screens は Adobe Experience Manager（AEM）の新しい拡張機能です。ツールは新しく、その潜在的なアプリケーションは様々なので、AEM Screens の開発と導入に関わる重要な検討事項と一般的なリスク要因を特定することが非常に重要です。
 
 本ガイドでは、意図したとおりにカスタマーエクスペリエンスを想像し、デザインし、デジタルサイネージの実装に導くための包括的なインサイトと実践的なアドバイスを提供します。また、それだけでなく、AEM Screens でのデジタルサイネージプロジェクトの導入時に従ったベストプラクティスの一部を使用して、ビジネスに良い影響を与える方法についても説明します。
+
 >[!IMPORTANT]
+>
 > このガイドは、AEM Screens プロジェクトの実装時によくある落とし穴を特定できるような内容になっており、主に次のトピックに重点を置いています。
 >
 > * **[プロジェクト上の役割と責務](roles-responsibilities.md)**
@@ -36,6 +41,7 @@ AEM Screens は Adobe Experience Manager（AEM）の新しい拡張機能です�
 
 
 >[!NOTE]
+>
 > 本ガイド（AEM Screens のコンテキスト内）で使用される次の用語について補足します。
 >
 > * **UX** は、エンドユーザーに提供されるデジタルサイネージエクスペリエンスを意味します。

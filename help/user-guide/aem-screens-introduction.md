@@ -10,8 +10,11 @@ topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f30bfdba-8db6-482b-8d0c-2818fc58e2b1
 docset: aem65
-translation-type: ht
-source-git-commit: 23a6019e27f10ff0e207ddc9c279dc7d42942098
+translation-type: tm+mt
+source-git-commit: 11d9100b2aeb361a8b1aaaf2806272809f35a938
+workflow-type: tm+mt
+source-wordcount: '768'
+ht-degree: 96%
 
 ---
 
@@ -77,3 +80,7 @@ Adobe Experience Manager 6.5 については、以下のチュートリアルと
 * **AEM Screens プロジェクトのベストプラクティスガイド**
 
    AEM Screens プロジェクトの実装時に一般的な問題を特定するために設計された、**[AEM Screens プロジェクトのベストプラクティスガイド](https://docs.adobe.com/content/help/ja-JP/experience-manager-screens/using/about-guide.html)**に従います。この資料では主に、プロジェクト上の役割と責任、様々な役割についての RACI チャート、AEM プラットフォーム設定、サポートと監視に焦点を当てています。
+
+* **新しいアドビカスタマーサポートエクスペリエンス**
+
+   Admin Consoleサポートチケットの詳細については、 **[Customer One for Enterprise Help](https://docs.adobe.com/content/help/en/customer-one/using/home.htmlhome.html#)**（Customer One for Enterpriseヘルプ）を参照してください。

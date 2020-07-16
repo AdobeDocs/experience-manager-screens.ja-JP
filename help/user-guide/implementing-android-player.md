@@ -10,8 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-translation-type: ht
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+translation-type: tm+mt
+source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+workflow-type: tm+mt
+source-wordcount: '678'
+ht-degree: 100%
 
 ---
 
@@ -26,11 +29,11 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 AEM Screens 用の Android プレーヤーを実装するには、同プレーヤーをインストールしてください。
 
-[**AEM 6.4 Player のダウンロード&#x200B;**](https://download.macromedia.com/screens/)ページにアクセスします。
+[**AEM 6.5 Player のダウンロード&#x200B;**](https://download.macromedia.com/screens/)ページにアクセスします。
 
 ### アドホック方式 {#ad-hoc-method}
 
-アドホック方式を使用すると、最新の Android プレーヤー（**.exe）をインストールできます。[**AEM 6.4 Player のダウンロード&#x200B;**](https://download.macromedia.com/screens/)ページにアクセスします。
+アドホック方式を使用すると、最新の Android プレーヤー（**.exe）をインストールできます。[**AEM 6.5 Player のダウンロード&#x200B;**](https://download.macromedia.com/screens/)ページにアクセスします。
 
 アプリケーションをダウンロードしたら、以下の手順に従ってプレーヤーのアドホックインストールを完了します。
 
@@ -49,7 +52,7 @@ AEM Screens 用の Android プレーヤーを実装するには、同プレー�
 
 Android のアーキテクチャ上、デバイスをリブートするには、アプリケーションがシステム権限を持っている必要があります。そのためには、製造元の署名キーを使用して apk に署名する必要があります。この署名をおこなわないと、ウォッチドッグはデバイスをリブートするのではなく、プレーヤーアプリケーションを再起動します。
 
-### 製造元のキーを使用した Android apk への署名{#signage-of-android-apks-using-manufacturer-keys}
+### 製造元のキーを使用した Android apk への署名 {#signage-of-android-apks-using-manufacturer-keys}
 
 *PowerManager* や *HDMIControlServices* など、Android の特権付き API にアクセスするには、製造元のキーを使用して Android apk に署名する必要があります。
 
@@ -68,7 +71,7 @@ Android のアーキテクチャ上、デバイスをリブートするには、
 1. &lt;pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk
 1. Android SDK の zip align ツールへのパスを見つけます。
 1. &lt;pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk
-1. adb install を使用して、デバイスに ***aemscreensaligned.apk ***をインストールします。
+1. adb install を使用して、デバイスに ***aemscreensaligned.apk*** をインストールします。
 
 ## Android ウォッチドッグの実装 {#android-watchdog-implementation}
 

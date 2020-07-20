@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
 ht-degree: 100%
 
@@ -35,11 +35,11 @@ Screens Player では、***ContentSync*** テクノロジーを利用してチ�
 1. zip ファイルをダウンロードし、ローカルに抽出します。
 1. コンテンツのローカルコピーを表示します。
 
-## 更新ハンドラー {#update-handlers}
+## 更新ハンドラー{#update-handlers}
 
 ***ContentSync*** は、更新ハンドラーを使用して、特定のプロジェクトに必要なすべてのページとアセットを解析および収集します。AEM Screens では、次の更新ハンドラーが使用されます。
 
-### 共通オプション {#common-options}
+### 共通オプション{#common-options}
 
 * *type*：使用する更新ハンドラーのタイプ
 * *path*：リソースのパス
@@ -88,7 +88,7 @@ ContentSync 設定をテストするには、以下の手順に従います。
 1. 解凍したフォルダーでローカルサーバーを起動します。
 1. スタートページを開き、アプリケーションの状態を確認します。
 
-## チャネルのオフライン設定の有効化 {#enabling-offline-config-for-a-channel}
+## チャネルのオフライン設定の有効化{#enabling-offline-config-for-a-channel}
 
 チャネルのオフライン設定を有効にするには、次の手順を実行します。
 

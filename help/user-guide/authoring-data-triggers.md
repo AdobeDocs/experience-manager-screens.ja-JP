@@ -2,9 +2,9 @@
 title: データトリガーを使用したオーサリング
 seo-title: データトリガーを使用したオーサリング
 description: データトリガーを使用して作成する方法については、このページを参照してください。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 ## データトリガーを使用したオーサリングの概要 {#author-targeting}
 
->[!VIDEO](https://video.tv.adobe.com/v/31921)
+>[!VIDEO](https://video.tv.adobe.com/v/31921?captions=jpn)
 
 ## AEM Screens チャネルでのターゲティングの有効化 {#enabling-targeting}
 

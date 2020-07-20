@@ -3,9 +3,9 @@ title: '[!UICONTROL AEM Screens] の概要'
 seo-title: '[!UICONTROL AEM Screens] プロジェクトのベストプラクティスガイド'
 description: ここでは AEM Screens について紹介します
 seo-description: ここでは AEM Screens について紹介します
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
 ht-degree: 100%
 

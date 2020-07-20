@@ -4,9 +4,9 @@ seo-title: プロジェクトレベルの画像再生時間
 description: 'この機能を使用すると、プロジェクトレベルで画像の再生時間を定義できます。 '
 seo-description: 'この機能を使用すると、プロジェクトレベルで画像の再生時間を定義できます。 '
 contentOwner: jsyal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
 ht-degree: 100%
 

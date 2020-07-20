@@ -3,11 +3,11 @@ title: テストと品質保証
 seo-title: AEM Screens のテストと品質保証
 description: ここでは、AEM Screens ベストプラクティスガイドにおける「テストと品質保証」について説明します
 seo-description: ここでは、AEM Screens ベストプラクティスガイドにおける「テストと品質保証」について説明します
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 93%
 以下のソフトウェアに関する考慮事項を推奨します。
 
 * デバイスの登録
-* メディアパブリッシング
+* メディアの公開
 * 再生
 * データベースの依存関係（定義済み）
 
@@ -80,7 +80,7 @@ AEM Screens には、Screens Player アプリケーションのエンドポイ�
 >
 > アドビでは、すべてのデプロイメントで、専用のサードパーティのデバイス管理プラットフォームを使用することをお勧めします。
 
-The specific platform chosen depends on a number of factors including the ***target operating system***, ***project requirements*** and ***number of end points***.
+選択するプラットフォームは、***対象オペレーティングシステム***、***プロジェクト要件***、***エンドポイント数***&#x200B;など、様々な要因によって異なります。
 
 以下に例を示します。
 

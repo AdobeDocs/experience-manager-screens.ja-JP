@@ -4,9 +4,9 @@ seo-title: テキストオーバーレイのカスタムブランディングと
 description: このページでは、テキストオーバーレイのカスタムブランディングとスタイル設定を適用する方法について説明します。
 seo-description: このページでは、テキストオーバーレイのカスタムブランディングとスタイル設定を適用する方法について説明します。
 contentOwner: Jyotika Syal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '626'
 ht-degree: 100%
 

@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1227'
 ht-degree: 100%
 
@@ -120,7 +120,7 @@ ht-degree: 100%
 
 次の例は、3 つのシナリオでのチャネルの時間帯区分の説明です。
 
-#### 1 日のコンテンツ再生を複数の時間帯に分割 {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+#### 1 日のコンテンツ再生を複数の時間帯に分割{#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
 この例では、レストランが時間帯区分を使用して、モーニング、ランチ、ディナーのメニューを表示しています。
 
@@ -174,7 +174,7 @@ ht-degree: 100%
 >
 >さらに、チャネルごとに&#x200B;***優先度***&#x200B;を定義できます。例えば、2 つのチャネルを同じ日時または同じ月に設定する場合は、優先度の高いチャネルが最初に再生されます。優先度の最小値は 0 として設定できます。
 
-#### 同じ優先度のチャネル用コンテンツの再生 {#playing-content-for-channels-with-same-priority}
+#### 同じ優先度のチャネル用コンテンツの再生{#playing-content-for-channels-with-same-priority}
 
 この例では、商店の時間帯区分が示され、冬物コレクションを 12 月に同じスケジュールで表示します。しかし、その週はチャネル B が優先度 2 に設定されており、チャネル A ではなくチャネル B がそのコンテンツを再生します。
 

@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '833'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 >
 >スクリーンプロジェクトでの他のコンポーネントの使用について詳しくは、[チャネルへのコンポーネントの追加](adding-components-to-a-channel.md)を参照してください。
 
-### 埋め込みシーケンスの追加 {#adding-an-embedded-sequence}
+### 埋め込みシーケンスの追加{#adding-an-embedded-sequence}
 
 埋め込みシーケンスをチャネルに追加できます。埋め込みシーケンスは、画像またはビデオなどのアセットを含んだ別のチャネルです。埋め込みシーケンスを追加すると、ユーザーは、***チャネルパス***&#x200B;でチャネルにシーケンスを追加できます。
 

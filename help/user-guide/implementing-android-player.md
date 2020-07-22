@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: db3429d93833ec22ba60732c45da274830692b39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '678'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 # Android プレーヤーの実装 {#implementing-android-player}
 
-ここでは、Android プレーヤーの設定について説明します。使用可能な設定ファイルやオプションと、開発およびテストに使用する設定に関する推奨事項について説明します。
+ここでは、Android プレーヤーの設定について説明します。使用可能な設定ファイルやオプションと、開発およびテストに使用する推奨設定について説明します。
 
 さらに、プレーヤーをクラッシュから回復させるソリューションとして、**ウォッチドッグ**&#x200B;があります。アプリケーションは、ウォッチドッグサービスに登録し、アプリケーション自体がアライブであることを知らせるメッセージを定期的に送信する必要があります。ウォッチドッグサービスに、所定の時間内にキープアライブメッセージが届かないと、ウォッチドッグサービスは、デバイスをリブートしてクリーンリカバリを試みるか（ウォッチドッグサービスが十分な権限が持つ場合）、アプリケーションの再起動を試みます。
 

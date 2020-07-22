@@ -10,11 +10,11 @@ topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f30bfdba-8db6-482b-8d0c-2818fc58e2b1
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11d9100b2aeb361a8b1aaaf2806272809f35a938
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -83,4 +83,4 @@ Adobe Experience Manager 6.5 については、以下のチュートリアルと
 
 * **新しいアドビカスタマーサポートエクスペリエンス**
 
-   Admin Consoleサポートチケットの詳細については、 **[Customer One for Enterprise Help](https://docs.adobe.com/content/help/en/customer-one/using/home.htmlhome.html#)**（Customer One for Enterpriseヘルプ）を参照してください。
+   Admin Console サポートチケットの詳細については、**[Customer One for Enterprise ヘルプ](https://docs.adobe.com/content/help/ja-JP/customer-one/using/home.htmlhome.html#)**を参照してください。

@@ -2,11 +2,12 @@
 user-guide-title: AEM Screens プロジェクトのベストプラクティスガイド
 solution-title: AEM Screens
 getting-started-title: AEM Screens ベストプラクティスガイド
+getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
 product: experience manager
 audience: end-user
-translation-type: ht
-source-git-commit: 0a7aa7ea477cd1acbe8adfe31760be1bc4236c17
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 5f3fc27ae60de86ae40ba71a67cdc6ff43dea4fb
+workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 100%
 

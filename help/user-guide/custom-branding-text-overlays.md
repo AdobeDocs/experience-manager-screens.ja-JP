@@ -4,9 +4,9 @@ seo-title: テキストオーバーレイのカスタムブランディングと
 description: このページでは、テキストオーバーレイのカスタムブランディングとスタイル設定を適用する方法について説明します。
 seo-description: このページでは、テキストオーバーレイのカスタムブランディングとスタイル設定を適用する方法について説明します。
 contentOwner: Jyotika Syal
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 100%
 
@@ -41,26 +41,26 @@ ht-degree: 100%
 1. *static.css* ファイルを作成し、次の css ルールを設定します。また、css ルールは下の図の例としても示されています。
 
    ```shell
-     //global styles
-     cq-Screens-textOverlay {
-     padding: 1em;
-     font-size: 3rem;
-     line-height: 1em;
-      }
-     //authoring overrides
-    .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
-     display: none;
-     padding: 0;
-     font-size: 1rem;
+    //global styles
+    cq-Screens-textOverlay {
+    padding: 1em;
+    font-size: 3rem;
+    line-height: 1em;
      }
-      // light text variant
-     .cq-Screens-textOverlay-color--light {
-      background-color: rgba(0, 0, 0, .6);
-      }
-      // dark text variant
-      .cq-Screens-textOverlay-color--dark {
-       background-color: rgba(255, 255, 255, .6);
+    //authoring overrides
+   .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
+    display: none;
+    padding: 0;
+    font-size: 1rem;
+    }
+     // light text variant
+    .cq-Screens-textOverlay-color--light {
+     background-color: rgba(0, 0, 0, .6);
      }
+     // dark text variant
+     .cq-Screens-textOverlay-color--dark {
+      background-color: rgba(255, 255, 255, .6);
+    }
    ```
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand4.png)
@@ -83,7 +83,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> 既存の Screens テンプレートをオーバーレイして、デフォルトで独自のデザインを挿入したり、完全に独自のテンプレートを作成したりできるオプションがあります。詳しくは、以下の手順を参照してください。
+>既存の Screens テンプレートをオーバーレイして、デフォルトで独自のデザインを挿入したり、完全に独自のテンプレートを作成したりできるオプションがあります。詳しくは、以下の手順を参照してください。
 
 1. 既存の Screen テンプレートをオーバーレイして独自のデザインを挿入するには、次の手順に従います。
 

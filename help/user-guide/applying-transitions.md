@@ -5,9 +5,9 @@ description: ここでは、Screens プロジェクトに切り替えを適用�
 seo-description: ここでは、Screens プロジェクトに切り替えを適用する方法について説明します。
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ AEM Screens プロジェクトに切り替えコンポーネントを追加す�
 
    ![image3](assets/transitions3.png)
 
-   > [!NOTE]
+   >[!NOTE]
    >
    >デフォルトでは、切り替えコンポーネントのプロパティは、例えば、「**タイプ**」は「**フェード**」に、「**デュレーション (ms)**」は「*1600*」に設定されています。また、適用先のアセットより長い切り替えのデュレーションを設定することはお勧めしません。
 

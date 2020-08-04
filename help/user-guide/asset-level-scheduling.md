@@ -3,9 +3,9 @@ title: アセットレベルのアクティベーション
 seo-title: アセットレベルのアクティベーション
 description: ここでは、プレーヤーのローカルタイムゾーンで予定時間枠にチャネル内の特定のアセットをアクティブにする方法について説明します。
 seo-description: ここでは、プレーヤーのローカルタイムゾーンで予定時間枠にチャネル内の特定のアセットをアクティブにする方法について説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1452'
 ht-degree: 100%
 

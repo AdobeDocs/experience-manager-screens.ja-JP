@@ -10,9 +10,9 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1809'
 ht-degree: 100%
 

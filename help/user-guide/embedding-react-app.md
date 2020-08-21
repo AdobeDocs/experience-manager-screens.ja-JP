@@ -9,8 +9,11 @@ topic-tags: developing
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: e4ecc179-e421-4687-854c-14d31bed031d
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
+workflow-type: tm+mt
+source-wordcount: '720'
+ht-degree: 96%
 
 ---
 
@@ -97,7 +100,7 @@ AEM Screens を通じて SPA をオフライン機能付きの Adobe Analytics �
 
 1. AEM Screens で Adobe Analytics を設定します。
 
-   AEM Screens と連携する Adobe Analytics でのシーケンス化の実行方法と、オフライン Adobe Analytics を使用したカスタムイベントの送信方法については、「AEM Screens と連携する Adobe Analytics の設定」（configuring-adobe-analytics-aem-screens.md）を参照してください。
+   Refer to [Configuring Adobe Analytics with AEM Screens](configuring-adobe-analytics-aem-screens.md) to learn how to perform sequencing in Adobe Analytics with AEM Screens and send custom events using offline Adobe Analytics.
 
 1. 任意の IDE またはエディターを使用して、React アプリ（特に、イベントの発行を開始するテキストコンポーネントなどのコンポーネント）を編集します。
 1. コンポーネントに対してキャプチャするクリックイベントなどのイベントで、標準データモデルを使用して分析情報を追加します。

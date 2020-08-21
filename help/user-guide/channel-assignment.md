@@ -1,47 +1,31 @@
 ---
 title: チャネル割り当て
 seo-title: チャネル割り当て
-description: このページに従って、チャネル割り当てと時間帯区分について学びます。
-seo-description: このページに従って、チャネル割り当てと時間帯区分について学びます。
-uuid: fe429485-dcc9-4507-864c-b04393cedeee
-contentOwner: Jyotika syal
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-topic-tags: authoring
-discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
-docset: aem65
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
-source-wordcount: '1227'
-ht-degree: 100%
+description: チャネルの割り当てと日分割については、このページを参照してください。
+translation-type: tm+mt
+source-git-commit: c46cd26f5067468aadf80a822fffce1d5f0b5d9a
+workflow-type: tm+mt
+source-wordcount: '1335'
+ht-degree: 74%
 
 ---
 
 
 # チャネル割り当て {#channel-assignment}
 
-ここでは、以下のトピックについて説明します。
+表示を定義したら、チャネルを表示に割り当てる必要があります。
 
-* **チャネルの割り当て**
-* **チャネル割り当てダイアログボックスのプロパティについて**
-* **時間帯区分**
+このページは、ディスプレイへのチャネルの割り当てを示しています。
 
-ディスプレイを定義したら、チャネルをディスプレイに割り当てる必要があります。
-
-このページでは、ディスプレイへのチャネル割り当てを示します。
-
-**前提条件**：
-
-* [Screens の設定とデプロイ](configuring-screens-introduction.md)
-* [Screens プロジェクトの作成と管理](creating-a-screens-project.md)
-* [チャネルの作成と管理](managing-channels.md)
-* [ロケーションの作成と管理](managing-locations.md)
-* [ディスプレイの作成と管理](managing-displays.md)
+>[!NOTE]
+>1つのディスプレイに複数のチャネルを割り当てることができます。
 
 ## チャネルの割り当て {#assign-a-channel}
 
 下の手順に従ってチャネルをディスプレイに割り当てます。
+
+>[!I重要]
+>チャネルの割り当てに関する次のダイアログボックスは、Adobe Experience 6.5.5 Screens Feature Pack Release以降では異なります。 詳細は、 [チャネルの割り当て](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) 「」を参照してください。
 
 1. 必要なディスプレイに移動します（例：**DemoProject**／**Locations**／**SanJose**／**StoreDisplay**）。
 
@@ -55,7 +39,29 @@ ht-degree: 100%
 
    ![画像](/help/user-guide/assets/channel-assign1.png)
 
-   以下のセクションで、**チャネルの割り当て**&#x200B;ダイアログボックスのプロパティを理解し、設定できます。
+   You can configure the properties from the **Channel Assignment** dialog box from the section below. チャネルプロパティの詳細については、「 [チャネルプロパティ](#channel-properties) 」の節を参照してください。
+
+## AEM 6.5.5 Screens機能パックリリース用のチャネルの割り当て {#assign-a-channel-new-release}
+
+下の手順に従ってチャネルをディスプレイに割り当てます。
+
+1. 必要なディスプレイに移動します（例：**DemoProject**／**Locations**／**SanJose**／**StoreDisplay**）。
+
+
+1. Tap/click **Assign Channel** from the action bar
+
+   または、
+
+   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS &amp; SCHEDULES** panel to open the **Channel Assignment** dialog box.
+
+1. 「設定」オプションから、パスまたは名前でチャネルを選択し、チャネルの役割、優先度、サポートされるイベントを入力できます。
+
+   >[!NOTE]
+   >チャネルプロパティの詳細については、「 [チャネルプロパティ](#channel-properties) 」の節を参照してください。
+
+1. 「 **スケジュール** 」オプションから、「 **参照タイムゾーン**」、「 **アクティベーションウィンドウ******」、「繰り返しスケジュール」の順に選択します。
+
+1. 環境設定を行ったら、 **「保存** 」をクリックします。
 
 ### チャネル割り当てのチャネルプロパティからのチャネルプロパティ {#channel-properties}
 
@@ -111,18 +117,17 @@ ht-degree: 100%
 
 チャネルの実行中にアトラクションツールチップ（「*どこをタッチしても開始できる*」）を表示するかどうかを定義します。
 
+### 日分割 {#dayparting}
 
-### 時間帯区分 {#dayparting}
+Schedules when combined with **Day-parting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
-スケジュールを&#x200B;**時間帯区分**&#x200B;と組み合わせると、ある日の特定の時間に実行される複数のチャネルでグローバルスケジュールを設定でき、また一度にすべてのディスプレイでその設定を再使用できます。
+時間帯区分は、1 日を複数の時間帯に分けて、必要な時間にどのコンテツを再生するかを指定することを意味します。AEM Screensでは、必要に応じて1日、1週間、または1か月内の日分割に関するチャネルをスケジュールできます。
 
-時間帯区分は、1 日を複数の時間帯に分けて、必要な時間にどのコンテツを再生するかを指定することを意味します。AEM Screens では、必要に応じて日、週、月内の時間帯区分でチャネルのスケジュールを設定できます。
+次の例では、3つの異なるシナリオでのチャネルでの日分割について説明します。
 
-次の例は、3 つのシナリオでのチャネルの時間帯区分の説明です。
+#### 1 日のコンテンツ再生を複数の時間帯に分割 {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-#### 1 日のコンテンツ再生を複数の時間帯に分割{#playing-content-on-a-single-day-divided-into-multiple-time-slots}
-
-この例では、レストランが時間帯区分を使用して、モーニング、ランチ、ディナーのメニューを表示しています。
+この例は、Restaurantで日分割を使用して朝食、昼食、ディナーのメニューをどのように表示するかを示しています。
 
 ここでは、1 日を 3 つの時間帯に分け、チャネルコンテンツが 1 日の指定された時間ごとに再生されるようにします。
 
@@ -161,9 +166,9 @@ ht-degree: 100%
 
 #### 特定の月にコンテンツを再生 {#playing-content-for-a-particular-month-months}
 
-この例では、商店で時間帯区分を使用し、6 月から 8 月に夏物コレクションを表示し、9 月から 10 月末まで秋物コレクションを表示しています。
+次の例は、6月の月から8月の間に夏のコレクションを表示し、9月から10月の終わりまで収集を中止する店舗の日分割を示しています。
 
-ここで、次の時間帯区分を作成し、チャネルのコンテンツが 1 年の指定された月に再生されるようにします。
+ここでは、月ごとの日分割を作成し、チャネルコンテンツを年内の指定された月ごとに再生するようにします。
 
 | **チャネル** | **ロール** | **優先度** | **スケジュール** |
 |---|---|---|---|
@@ -174,18 +179,19 @@ ht-degree: 100%
 >
 >さらに、チャネルごとに&#x200B;***優先度***&#x200B;を定義できます。例えば、2 つのチャネルを同じ日時または同じ月に設定する場合は、優先度の高いチャネルが最初に再生されます。優先度の最小値は 0 として設定できます。
 
-#### 同じ優先度のチャネル用コンテンツの再生{#playing-content-for-channels-with-same-priority}
+#### 同じ優先度のチャネル用コンテンツの再生 {#playing-content-for-channels-with-same-priority}
 
-この例では、商店の時間帯区分が示され、冬物コレクションを 12 月に同じスケジュールで表示します。しかし、その週はチャネル B が優先度 2 に設定されており、チャネル A ではなくチャネル B がそのコンテンツを再生します。
+次の例は、12月の月に同じスケジュールで冬物コレクションを表示する店舗の日分割を示しています。 しかし、その週はチャネル B が優先度 2 に設定されており、チャネル A ではなくチャネル B がそのコンテンツを再生します。
 
 | **チャネル** | **ロール** | **優先度** | **スケジュール** |
 |---|---|---|---|
 | A | 冬 | 1 | 2017 年 12 月 1 日～2017 年 12 月 31 日 |
 | B | クリスマス | 2 | 2017 年 12 月 24 日～2017 年 12 月 31 日 |
 
+
 >[!IMPORTANT]
 >
-> 時間帯区分の詳細については、以下の節を参照してください。
+> 日分割の詳細については、次の節を参照してください。
 >
 >* [アセット内の繰り返しの処理](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [チャネル内アセットの繰り返し処理](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)

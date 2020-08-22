@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
-source-wordcount: '1400'
+translation-type: tm+mt
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+workflow-type: tm+mt
+source-wordcount: '1399'
 ht-degree: 100%
 
 ---
@@ -94,7 +94,7 @@ Screens 用のプロジェクトを作成したら、下の手順に従ってス
 
 >[!NOTE]
 >
->チャネルにコンポーネントを追加できます。詳しくは、**[チャネルへのコンポーネントの追加](adding-components-to-a-channel.md)**を参照してください。
+>チャネルにコンポーネントを追加できます。詳しくは、**[チャネルへのコンポーネントの追加](adding-components-to-a-channel.md)**&#x200B;を参照してください。
 
 ![demochannel1](assets/demochannel1.gif)
 
@@ -140,8 +140,9 @@ Screens 用のプロジェクトを作成したら、下の手順に従ってス
 
 マニフェストをチャネルダッシュボードから表示できます。
 
->[重要]
-> このオプションは、AEM 6.4 機能パック 8 または AEM 6.5 機能パック 4 でのみ使用できます。
+>[!IMPORTANT]
+>
+>このオプションは、AEM 6.4 機能パック 8 または AEM 6.5 機能パック 4 でのみ使用できます。
 
 チャネルダッシュボードからこのオプションを有効にするには、次の手順に従います。
 1. **チャネルをオフラインに設定**

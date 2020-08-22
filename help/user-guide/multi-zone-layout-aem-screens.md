@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
-translation-type: ht
-source-git-commit: a246671ddf7fee333d01c09ca61daee91df737e4
-workflow-type: ht
-source-wordcount: '1198'
+translation-type: tm+mt
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+workflow-type: tm+mt
+source-wordcount: '1197'
 ht-degree: 100%
 
 ---
@@ -83,6 +83,7 @@ ht-degree: 100%
    1. **Zones**／**Channels**／**MultiZone** に移動し、アクションバーの「**作成**」をクリックします。
    1. **作成**&#x200B;ウィザードから「**チャネルフォルダー**」を選択し、「**次へ**」をクリックします。
    1. 「タイトル」に「**EmbeddedChannels**」と入力し、「**作成**」をクリックします。
+
    ![screen_shot_2018-12-19at125428pm](assets/screen_shot_2018-12-19at125428pm.png)
 
 1. **チャネルフォルダーにさらに 2 つのチャネルを追加する**
@@ -93,6 +94,7 @@ ht-degree: 100%
    1. このチャネルに画像をいくつかドラッグ＆ドロップします。
    1. 同様に、**EmbeddedChannels** フォルダーに「**Zone2**」というタイトルの別のシーケンスチャネルを作成します。
    1. このチャネルにビデオをドラッグ＆ドロップします。
+
    **Zone1** と **Zone2** の 2 つのチャネルを次の図に示します。
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
@@ -154,7 +156,8 @@ Screens Player でコンテンツを表示するには、ロケーションと�
       ![画像](/help/user-guide/assets/multi-zone/multizone-img8.png)
 
 
-      >[!I重要]
+      >[!IMPORTANT]
+      >
       > メインチャネル（この場合は **MultiZone**）をディスプレイに割り当てたら、その他の 2 つの埋め込みチャネル **Zone1** および **Zone2** も同じディスプレイに割り当てる必要があります。
 
 ### デバイスの登録 {#registering-device}
@@ -166,6 +169,7 @@ Screens Player でコンテンツを表示するには、ロケーションと�
    1. **ゾーン**／**デバイス**&#x200B;フォルダーに移動します。
    1. **デバイス**&#x200B;フォルダーを選択し、アクションバーの「**デバイスマネージャー**」クリックします。
    1. 「**デバイスの登録**」をクリックし、リストから保留中のデバイスを選択します。
+
       >[!NOTE]
       > デバイスのタイトルは、「**デバイスの登録**」タブに表示されるデバイストークン（「**トークン**」フィールド）と一致する必要があります。
    1. タイトルがデバイストークンと一致する場合は、デバイスを選択し、アクションバーの「**デバイスを登録**」をクリックします。
@@ -173,6 +177,7 @@ Screens Player でコンテンツを表示するには、ロケーションと�
       ![画像](/help/user-guide/assets/multi-zone/multizone-img6.png)
    1. 「**タイトル**」に「**Chrome-Device1**」と入力し、「**登録**」をクリックします。
    1. 「**ディスプレイを割り当て**」を選択し、デバイス設定のパスを選択します。
+
    >[!NOTE]
    >Screens Player でコンテンツを表示しようとする場合は、ディスプレイに割り当てられているチャネルごとに、チャネルダッシュボードの「**オフラインコンテンツを更新**」を必ずクリックしてください。
 

@@ -3,9 +3,9 @@ title: チャネル割り当て
 seo-title: チャネル割り当て
 description: チャネルの割り当てと日分割については、このページを参照してください。
 translation-type: tm+mt
-source-git-commit: c46cd26f5067468aadf80a822fffce1d5f0b5d9a
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1333'
 ht-degree: 74%
 
 ---
@@ -24,7 +24,8 @@ ht-degree: 74%
 
 下の手順に従ってチャネルをディスプレイに割り当てます。
 
->[!I重要]
+>[!IMPORTANT]
+>
 >チャネルの割り当てに関する次のダイアログボックスは、Adobe Experience 6.5.5 Screens Feature Pack Release以降では異なります。 詳細は、 [チャネルの割り当て](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) 「」を参照してください。
 
 1. 必要なディスプレイに移動します（例：**DemoProject**／**Locations**／**SanJose**／**StoreDisplay**）。
@@ -93,7 +94,8 @@ ht-degree: 74%
 
 #### 中断方法 {#interruption-method-channel}
 
->[重要]
+>[!IMPORTANT]
+>
 > このオプションは、AEM 6.4 機能パック 8 または AEM 6.5 機能パック 4 でのみ使用できます。
 
 コンテンツ作成者は、重要でないコンテンツを切り取るために、チャネルを中断するタイミングを指定できますが、スケジュールによって再生を中断する前に、重要なコンテンツを完全に再生するオプションを選択することもできます。

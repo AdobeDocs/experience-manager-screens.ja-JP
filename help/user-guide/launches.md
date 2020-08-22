@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
-source-wordcount: '1617'
+translation-type: tm+mt
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+workflow-type: tm+mt
+source-wordcount: '1616'
 ht-degree: 100%
 
 ---
@@ -202,6 +202,7 @@ AEM Screens プロジェクトに Screens ローンチ機能を実装するに�
 
 ローンチは、**保留中のローンチ**&#x200B;パネルの「**ローンチを削除**」オプションを使用して削除できます。
 
->[注意：]
+>[!CAUTION]
+>
 >この操作により、派生したすべてのローンチ（ネストされたローンチ）も削除されます。
 

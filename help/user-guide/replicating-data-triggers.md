@@ -3,10 +3,10 @@ title: データトリガーのパブリッシュサーバーへのレプリケ�
 seo-title: データトリガーのパブリッシュサーバーへのレプリケーション
 description: データトリガーのパブリッシュサーバーへのレプリケーション。
 seo-description: データトリガーのパブリッシュサーバーへのレプリケーション。
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
-source-wordcount: '526'
+translation-type: tm+mt
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+workflow-type: tm+mt
+source-wordcount: '524'
 ht-degree: 100%
 
 ---
@@ -34,14 +34,16 @@ ContextHub と AEM ターゲティングエンジンを使用して、オーサ�
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
-   >[!N注]
+   >[!NOTE]
+   >
    >または、次の URL を使用して画面に直接移動し、接続の設定とテストをおこなうこともできます。`http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish`
 
 1. 次の図に示すように、アクションバーの&#x200B;**接続のテスト**&#x200B;をクリックして、オーサーとパブリッシュインスタンスの通信を検証します。
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
-   >[!N注]
+   >[!NOTE]
+   >
    >テストが失敗した場合は、オーサーインスタンスとパブリッシュインスタンス間のレプリケーションエージェントの設定を修正する必要があります。詳細は、[テスト接続のトラブルシューティング](/help/user-guide/replicating-data-triggers.md#troubleshoot-test)を参照してください。
 
 1. **配布エージェント**&#x200B;画面のツリーから「**追加**」を選択し、プロジェクトの設定パスを選択します（例：`/conf/screens/settings/cloudsettings/configuration`）。

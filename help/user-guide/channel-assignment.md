@@ -3,17 +3,20 @@ title: チャネル割り当て
 seo-title: チャネル割り当て
 description: チャネルの割り当てと日分割については、このページを参照してください。
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 74%
+source-wordcount: '1218'
+ht-degree: 79%
 
 ---
 
 
 # チャネル割り当て {#channel-assignment}
 
-表示を定義したら、チャネルを表示に割り当てる必要があります。
+>[!IMPORTANT]
+>このセクションでは、AEM 6.5.5 Screensバージョンより前のFeature Packのチャネルのチャネル割り当てとスケジュールについて説明します。
+
+ディスプレイを設定したら、コンテンツを表示するために、ディスプレイにチャネルを割り当てる必要があります。
 
 このページは、ディスプレイへのチャネルの割り当てを示しています。
 
@@ -23,10 +26,6 @@ ht-degree: 74%
 ## チャネルの割り当て {#assign-a-channel}
 
 下の手順に従ってチャネルをディスプレイに割り当てます。
-
->[!IMPORTANT]
->
->チャネルの割り当てに関する次のダイアログボックスは、Adobe Experience 6.5.5 Screens Feature Pack Release以降では異なります。 詳細は、 [チャネルの割り当て](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) 「」を参照してください。
 
 1. 必要なディスプレイに移動します（例：**DemoProject**／**Locations**／**SanJose**／**StoreDisplay**）。
 
@@ -42,31 +41,10 @@ ht-degree: 74%
 
    You can configure the properties from the **Channel Assignment** dialog box from the section below. チャネルプロパティの詳細については、「 [チャネルプロパティ](#channel-properties) 」の節を参照してください。
 
-## AEM 6.5.5 Screens機能パックリリース用のチャネルの割り当て {#assign-a-channel-new-release}
 
-下の手順に従ってチャネルをディスプレイに割り当てます。
+## チャネル割り当てのチャネルプロパティからのチャネルプロパティ {#channel-properties}
 
-1. 必要なディスプレイに移動します（例：**DemoProject**／**Locations**／**SanJose**／**StoreDisplay**）。
-
-
-1. Tap/click **Assign Channel** from the action bar
-
-   または、
-
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS &amp; SCHEDULES** panel to open the **Channel Assignment** dialog box.
-
-1. 「設定」オプションから、パスまたは名前でチャネルを選択し、チャネルの役割、優先度、サポートされるイベントを入力できます。
-
-   >[!NOTE]
-   >チャネルプロパティの詳細については、「 [チャネルプロパティ](#channel-properties) 」の節を参照してください。
-
-1. 「 **スケジュール** 」オプションから、「 **参照タイムゾーン**」、「 **アクティベーションウィンドウ******」、「繰り返しスケジュール」の順に選択します。
-
-1. 環境設定を行ったら、 **「保存** 」をクリックします。
-
-### チャネル割り当てのチャネルプロパティからのチャネルプロパティ {#channel-properties}
-
-#### チャネルを参照{#ref-channel}
+### チャネルを参照{#ref-channel}
 
 「チャネルを参照」では、目的のチャネルへの参照をチャネル名かチャネルパスのどちらかで指定できます。
 
@@ -74,25 +52,25 @@ ht-degree: 74%
 
 * **名前別**：コンテキストにより実際のチャネルを解決するチャネルの名前を入力します。この機能により、場所固有のコンテンツを動的に解決するために、チャネルのローカルバージョンを作成できます。例えば、「*本日のお買い得商品*」という名前のチャネルで、実際のコンテンツは 2 つの都市で異なるものの、すべてのディスプレイでチャネルロールを同じにするといったことができます。
 
-#### チャネルロール {#role-channel}
+### チャネルロール {#role-channel}
 
 チャネルロールはディスプレイのコンテキストを定義します。ロールは多様なアクションによってターゲットになり、ロールを担う実際のチャネルから独立しています。
 
-#### 優先度 {#priority-channel}
+### 優先度 {#priority-channel}
 
 優先度は、複数の割り当てが再生条件に一致する場合に、割り当ての順序付けをおこなうために使用します。最高値のものが低い値よりも常に優先されます。例えば、2 つのチャネル A と B がある場合、A の優先度が 1 で B の優先度が 2 であるなら、A より優先度が高いために、チャネル B が表示されます。
 
 >[!NOTE]
 >チャネルの優先度は、前述のように、**チャネル割り当て**&#x200B;ダイアログボックスで、数字で設定できます（1 が最小）。また、割り当てられたチャネルは、降順の優先度に基づいて並べ替えられます。
 
-#### サポートされているイベント {#supported-events-channel}
+### サポートされているイベント {#supported-events-channel}
 
 * **初期ロード**：プレーヤーが開始するときにチャネルに読み込みます。スケジュールと組み合わせて複数のチャネルに割り当てることができます。
 * **待機中画面**：スクリーンがアイドルのときに読み込みます。スケジュールと組み合わせて複数のチャネルに割り当てることができます。
 * **タイマー**：スケジュールを指定するときに設定する必要があります。
 * **ユーザーインタラクション**：アイドルチャネルのスクリーンのユーザーインタラクション（タッチ）がある場合に、プレーヤーが指定されたチャネルに切り替えて、スクリーンがタッチされたときに読み込みます。
 
-#### 中断方法 {#interruption-method-channel}
+### 中断方法 {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -111,7 +89,7 @@ ht-degree: 74%
    >[!NOTE]
    >2 番目または 3 番目のオプションを使用すると、割り当てで定義されたスケジュール時間が少し遅れる場合があります。これは、プレイヤーが更新する前に、アイテムまたはシーケンスの終了を（指定された時間後に）待機するためです。遅延は、アイテムの再生時間に依存します。
 
-#### スケジュール {#schedule-channel}
+### スケジュール {#schedule-channel}
 
 スケジュールでは、チャネルの表示日時をテキストで記述できます。また、チャネルの表示の開始日（**次の日から有効**）と終了日（**次の日まで有効**）を定義できます。
 
@@ -191,7 +169,7 @@ Schedules when combined with **Day-parting**, allows you to set a global schedul
 | B | クリスマス | 2 | 2017 年 12 月 24 日～2017 年 12 月 31 日 |
 
 
->[!IMPORTANT]
+>[!NOTE]
 >
 > 日分割の詳細については、次の節を参照してください。
 >

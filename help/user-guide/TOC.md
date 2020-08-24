@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Adobe Experience Manager Screens ヘルプ
 user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: 3fa254a48e780a5c20ba925644420cc36f409122
+source-git-commit: 0f8712e8afb806fbf4136880f44b629a5a52b5ec
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 97%
@@ -57,7 +57,7 @@ ht-degree: 97%
       + [スケジュールの作成と管理](managing-schedules.md)
       + [デバイスの管理](managing-devices.md)
       + チャネルの割り当て {#assigning-channels}
-         + [チャネルの割り当て：AEM 6.5.5 Screens FP以降](channel-assignment.md)
+         + [チャネルの割り当て：AEM 6.5.5 Screens FP以降](channel-assignment-latest-fp.md)
          + [チャネルの割り当て：古いFP](channel-assignment.md)
    + コア製品機能の使用 {#product-features}
       + [テキストオーバーレイ](text-overlay.md)

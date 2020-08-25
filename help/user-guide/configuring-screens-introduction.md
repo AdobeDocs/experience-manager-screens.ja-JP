@@ -42,8 +42,7 @@ ht-degree: 100%
 
 次の手順に従って、AEM Screens でこれら 2 つの重要な設定が有効になっているかどうかを確認します。
 
-1. [Adobe Experience Manager Web コンソール 
-Sling Health Check ](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=)に移動します。
+1. [Adobe Experience Manager Web コンソール Sling Health Check](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&overrideGlobalTimeout=)に移動します。
 
    ![アセット](assets/health-check1.png)
 

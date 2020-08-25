@@ -3,10 +3,10 @@ title: チャネル割り当て — 最新FP
 seo-title: チャネル割り当て — 最新FP
 description: チャネルの割り当てと日分割については、このページを参照してください。
 translation-type: tm+mt
-source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
+source-git-commit: 1c6a7342288a5d78dbea91d29ff8e5d6c8fec486
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 79%
+source-wordcount: '895'
+ht-degree: 64%
 
 ---
 
@@ -23,20 +23,59 @@ ht-degree: 79%
 >[!NOTE]
 >1つのディスプレイに複数のチャネルを割り当てることができます。
 
+
 ## チャネルの割り当て {#assign-a-channel-new-release}
 
-下の手順に従ってチャネルをディスプレイに割り当てます。
+以下のセクションに従って、AEM Screensプロジェクトを作成し、チャネルをディスプレイに割り当てます。
 
-1. 必要なディスプレイに移動します（例：**DemoProject**／**Locations**／**SanJose**／**StoreDisplay**）。
+### AEM Screensプロジェクトとチャネルの作成 {#creating-project}
 
+次の手順に従って、プロジェクトとチャネルを設定します。
 
-1. Tap/click **Assign Channel** from the action bar
+1. Create an AEM Screens Project titled as **DemoScreens**.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
+
+   >[!NOTE]
+   >AEM Screensプロジェクトの作成方法については、 [「プロジェクトの作成と管理](creating-a-screens-project.md) 」を参照してください。
+
+1. 「 **Cafeteria** 」という名前のシーケンスチャネルーを **** チャネルフォルダーに作成します。
+
+1. Select the channel and click **Edit** from the action bar to add content to your channel.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
+
+   例えば、 **Cafeteria** チャネルには次の画像が表示されるようになりました。
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
+
+1. 「 **SanJose** 」という名前の場所を作成し、「 **Lobby**」と表示します。
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
+
+### Assigning Channel to a Display {#assigning-channel-to-display}
+
+プロジェクトの設定が完了したら、チャネルを表示に割り当てて、コンテンツを表示する必要があります。
+
+1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **SanJose** --> **Lobby**.
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    または、
 
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS &amp; SCHEDULES** panel to open the **Channel Assignment** dialog box.
+   「 **ダッシュボード** 」をタップまたはクリックし、「割り当てられたチャネルとスケジュール **」パネルで「チャネルの割り当て****** 」をクリックします。
 
-1. 「設定」オプションから、パスまたは名前でチャネルを選択し、チャネルの役割、優先度、サポートされるイベントを入力できます。
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
+
+1. The **Channel Assignment** dialog box opens.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+
+1. 「 **設定** 」オプションから、パスまたは名前でチャネルを選択し、チャネルロール、優先度、サポートされているイベント、割り込みの方法を入力できます。 また、このダイアログボックスで引き付けツールチップオプションを有効にすることもできます。
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
    >チャネルプロパティの詳細については、「 [チャネルプロパティ](#channel-properties) 」の節を参照してください。
@@ -45,7 +84,9 @@ ht-degree: 79%
 
 1. 環境設定を行ったら、 **「保存** 」をクリックします。
 
-## チャネル割り当てのチャネルプロパティからのチャネルプロパティ {#channel-properties}
+### Viewing the Content in Chrome Player {#viewing-content-output}
+
+### チャネル割り当てのチャネルプロパティからのチャネルプロパティ {#channel-properties}
 
 ### チャネルを参照{#ref-channel}
 

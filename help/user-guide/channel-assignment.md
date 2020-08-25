@@ -3,10 +3,10 @@ title: チャネル割り当て
 seo-title: チャネル割り当て
 description: チャネルの割り当てと日分割については、このページを参照してください。
 translation-type: tm+mt
-source-git-commit: ae823357be22c45150b0687252cbd58b8022508b
+source-git-commit: 39da8293fb64321fdb28acaa67be579483ba4f0d
 workflow-type: tm+mt
 source-wordcount: '1215'
-ht-degree: 79%
+ht-degree: 76%
 
 ---
 
@@ -97,9 +97,9 @@ ht-degree: 79%
 
 チャネルの実行中にアトラクションツールチップ（「*どこをタッチしても開始できる*」）を表示するかどうかを定義します。
 
-### 日分割 {#dayparting}
+### DayParting {#dayparting}
 
-Schedules when combined with **Day-parting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Schedules when combined with **DayParting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 時間帯区分は、1 日を複数の時間帯に分けて、必要な時間にどのコンテツを再生するかを指定することを意味します。AEM Screensでは、必要に応じて1日、1週間、または1か月内の日分割に関するチャネルをスケジュールできます。
 
@@ -119,7 +119,7 @@ Schedules when combined with **Day-parting**, allows you to set a global schedul
 
 #### コンテンツを特定の曜日に再生 {#playing-content-on-a-particular-day-of-the-week}
 
-この例では、カジノで時間帯区分を使用し、毎週末の午後 8:00 から午後 10:00 にライブイベントを開催し、午後 10:00 から午前 1:00 までディナーメニューでスペシャルを利用できます。
+次の例は、カジノで実施されたdayPartingです。カジノでは、ライブイベントが毎週週末に8:00から午後10:00まで発生し、午後10:00から午前1:00までの間、特別料をディナーメニューに使用できます。
 
 <table>
  <tbody>
@@ -146,7 +146,7 @@ Schedules when combined with **Day-parting**, allows you to set a global schedul
 
 #### 特定の月にコンテンツを再生 {#playing-content-for-a-particular-month-months}
 
-次の例は、6月の月から8月の間に夏のコレクションを表示し、9月から10月の終わりまで収集を中止する店舗の日分割を示しています。
+次の例は、6月の月から8月までの夏のコレクションを表示し、9月から10月の終わりまでの夏のコレクションを表示する店舗のDayPartingを示しています。
 
 ここでは、月ごとの日分割を作成し、チャネルコンテンツを年内の指定された月ごとに再生するようにします。
 
@@ -161,7 +161,7 @@ Schedules when combined with **Day-parting**, allows you to set a global schedul
 
 #### 同じ優先度のチャネル用コンテンツの再生 {#playing-content-for-channels-with-same-priority}
 
-次の例は、12月の月に同じスケジュールで冬物コレクションを表示する店舗の日分割を示しています。 しかし、その週はチャネル B が優先度 2 に設定されており、チャネル A ではなくチャネル B がそのコンテンツを再生します。
+次の例は、12月の月に同じスケジュールで冬のコレクションを表示するストアのDayPartingを示しています。 しかし、その週はチャネル B が優先度 2 に設定されており、チャネル A ではなくチャネル B がそのコンテンツを再生します。
 
 | **チャネル** | **ロール** | **優先度** | **スケジュール** |
 |---|---|---|---|

@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '766'
 ht-degree: 100%
 
@@ -42,7 +42,8 @@ ht-degree: 100%
 
 次の手順に従って、AEM Screens でこれら 2 つの重要な設定が有効になっているかどうかを確認します。
 
-1. [Adobe Experience Manager Web コンソール Sling Health Check](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&overrideGlobalTimeout=)に移動します。
+1. [Adobe Experience Manager Web コンソール 
+Sling Health Check ](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=)に移動します。
 
    ![アセット](assets/health-check1.png)
 
@@ -60,7 +61,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->* **Apache Sling リファラーフィルター**&#x200B;を有効にするには、[空のリファラー要求の許可](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests)を参照してください。
+>* **Apache Sling Referrer Filter** を有効にするには、[空のリファラー要求の許可](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests)を参照してください。
 >* **HTTP** サービスを有効にするには、[Apache Felix Jetty Based HTTP Service ](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service)を参照してください。
 
 
@@ -121,7 +122,7 @@ AEM Screens にはタッチ操作対応 UI が必要で、Adobe Experience Manag
 
 実稼動環境での AEM の実行には、**NOSAMPLECONTENT** 実行モードを使用します。次の場所に移動して、（追加の応答ヘッダーセクションにある）*X-Frame-Options=SAMEORIGIN* ヘッダーを削除します。
 
-`https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
+`https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`
 
 これは、AEM Screens Player でオンラインチャネルを再生するために必要です。
 

@@ -2,9 +2,9 @@
 title: AEM Screensでの音声認識
 description: このページは、AEM Screensの音声認識機能を説明したものです。
 translation-type: tm+mt
-source-git-commit: b7d7d4ec200d3eb7cd7bac4253c8664e5bd4de81
+source-git-commit: a1322709f4c9b682233364f72553b40585b46031
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '846'
 ht-degree: 13%
 
 ---
@@ -12,8 +12,10 @@ ht-degree: 13%
 
 # AEM Screensでの音声認識 {#voice-recognition}
 
->[重要]
+>[!IMPORTANT]
+>
 >**プライバシーに関する重要な情報**
+>
 >音声認識機能を使用する場合は、地域に適用される法的および倫理的なガイドラインに従ってください（プレイヤーが音声認識を使用していることをエンドユーザーに対して表示する通知を含みますが、これに限定されません）。 Adobe Incは、音声関連情報を受け取らず、保存も処理もしません。 AEM Screensプレーヤーは、閲覧エンジンに組み込まれている標準的なWeb音声APIを使用します。 内部では、音声からテキストへの変換のためにGoogleサーバーに音声の波形が送信され、このテキストがプレイヤーによって設定されたキーワードと照合されます。
 >
 >詳しくは、 [Googleプライバシーに関するホワイトペーパー(Web Speech API](https://www.google.com/chrome/privacy/whitepaper.html#speech) )を参照してください。

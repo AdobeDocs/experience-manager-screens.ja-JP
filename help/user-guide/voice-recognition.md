@@ -2,10 +2,10 @@
 title: AEM Screensでの音声認識
 description: このページは、AEM Screensの音声認識機能を説明したものです。
 translation-type: tm+mt
-source-git-commit: a1322709f4c9b682233364f72553b40585b46031
+source-git-commit: 3422a62af9b9c0930ce433c0a9cd29f4089592d3
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 13%
+source-wordcount: '931'
+ht-degree: 12%
 
 ---
 
@@ -27,15 +27,13 @@ ht-degree: 13%
 
 コンテンツ作成者は、ディスプレイを音声対応に設定できます。 この機能の目的は、お客様がディスプレイと対話する方法として音声を利用できるようにすることです。 同様の使用例としては、店舗で商品のレコメンデーションを探す、ディナーやレストランでメニューアイテムを注文するなどがあります。 この機能により、ユーザーのアクセシビリティが向上し、顧客体験を大幅に向上させることができます。
 
-
 >[!NOTE]
 >プレイヤーハードウェアは、マイクなどの音声入力をサポートする必要があります。
 
->[!IMPORTANT]
-> 音声認識機能は、Chromeおよび電子プレーヤーでのみ使用できます。
-
 ## 音声認識の実装 {#implementing}
 
+>[!IMPORTANT]
+> 音声認識機能は、Chromeおよび電子プレーヤーでのみ使用できます。
 
 AEM Screensプロジェクトで音声認識を実装するには、ディスプレイの音声認識を有効にし、各チャネルを固有のタグに関連付けて、チャネルトランジションをトリガする必要があります。
 
@@ -105,11 +103,15 @@ AEM Screensプロジェクトで音声認識を実装するには、ディスプ
 1. ツール/ **タグ付けをクリックします**。
    ![image](assets/voice-recognition/vr-7.png)
 1. Click **Create** --> **Create Namespace**.
-   ![image](assets/voice-recognition/vr-7.png)
-1. プロジェクトの名前を入力します。例： **VoiceDemo** 、「作成」をクリックします。
+   ![image](assets/voice-recognition/vr-tag3.png)
+1. プロジェクトの名前を入力します。例： **VoiceDemo** 」をクリックし、「 **作成**」をクリックします。
+   ![image](assets/voice-recognition/vr-tag2.png)
 1. Select the **VoiceDemo** project and click **Create Tag** from the action bar.
-1. 「**送信**」をクリックします。
+   ![image](assets/voice-recognition/vr-tag4.png)
+1. タグの名前を入力し、「 **送信**」をクリックします。
+   ![image](assets/voice-recognition/vr-tag5.png)
 
+これらのタグをAEM Screensプロジェクトで使用できます。
 
 ### ディスプレイにチャネルを割り当て、音声認識を有効にする {#channel-assignment}
 
@@ -151,6 +153,10 @@ AEM Screensプロジェクトで音声認識を実装するには、ディスプ
 >デバイスを [AEM Screensプレイヤに登録する方法については、Device Registration](device-registration.md) （デバイス登録）を参照してください。
 
 この例は、Chrome Playerの出力を示します。
+
+Main **チャネルはコンテンツを再生していますが、キーワードに「** hot」と付けた単語を使用し **て、例えば「hot drink** 」と入力したい場合は、チャネル開始が「hotDrinks」チャネルを再生している ****** を再生しています。
+
+同様に、キーワード **cold** （冷たいものを持たせたいと思う）のように単語をキーワードと共に使うと *、チャネル開始が* ColdDrinks **** チャネルの内容を再生します。
 
 ![newimage](assets/voice-recognition/voice-video.gif)
 

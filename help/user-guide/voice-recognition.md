@@ -2,10 +2,10 @@
 title: AEM Screensでの音声認識
 description: このページは、AEM Screensの音声認識機能を説明したものです。
 translation-type: tm+mt
-source-git-commit: cbf50b5c530b51d2926d9fdacef25dabcd28d605
+source-git-commit: b7d7d4ec200d3eb7cd7bac4253c8664e5bd4de81
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 12%
+source-wordcount: '847'
+ht-degree: 13%
 
 ---
 
@@ -81,7 +81,7 @@ AEM Screensプロジェクトで音声認識を実装するには、ディスプ
 
 1. 「 **Basics** 」タブに移動し、「 **Tags** （タグ）」フィールドから既存のタグを選択するか、新しいタグを作成します。
 
-   次の図に示すように、新しいタグ名を入力して新しいタグを作成できます。
+   次の図に示すように、新しいタグ名とヒット `return` キーを入力して、新しいタグを作成できます。
 
    ![image](assets/voice-recognition/vr-6.png)
 
@@ -122,9 +122,11 @@ AEM Screensプロジェクトで音声認識を実装するには、ディスプ
 
 1. チャネルを割り当てる際に、各チャネルに次のプロパティを設定します。
 
-   * メイン
-   * ホットドリンク
-   * ColdDrinks
+   | **チャネル名** | **優先度** | **サポートされているイベント** |
+   |---|---|---|
+   | メイン | 2 | 初期読み込み、アイドル画面、タイマー |
+   | ホットドリンク | 1 | ユーザーインタラクション |
+   | ColdDrinks | 1 | ユーザーインタラクション |
 
    >[!NOTE]
    >

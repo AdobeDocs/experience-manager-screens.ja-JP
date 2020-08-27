@@ -2,10 +2,10 @@
 title: 機能パック 202008 のリリースノート
 description: このページでは、機能パック202008のリリースノートについて説明します。
 translation-type: tm+mt
-source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
+source-git-commit: 8c8b6ec0171d021370e7476b3aff5cdd212ebb32
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 32%
+source-wordcount: '292'
+ht-degree: 33%
 
 ---
 
@@ -26,7 +26,7 @@ You can download the latest feature pack for AEM Screens 6.5.5 Release from the 
 
 AEM Screens機能パック202008のリリース日は2020年8月31日です。
 
-### 新機能 {#what-s-new}
+### 新機能 {#what-is-new}
 
 * **スケジュールダッシュボードでのタイムライン表示**
 
@@ -48,18 +48,16 @@ AEM Screens機能パック202008のリリース日は2020年8月31日です。
 
    詳しくは、「 [音声認識](voice-recognition.md) 」を参照してください。
 
-* **作成者/公開モードでのデバイス環境設定の更新**
-
 ### リリースされている AEM Screens Player {#released-aem-screens-players}
 
-次のAEM Screensプレイヤーは、AEM ScreensリリースAEM 6.5機能パック5向けにリリースされています。
+次のAEM Screensプレイヤーは、AEM ScreensリリースのAEM 6.5機能パック5向けにリリースされています。
+
+>[!IMPORTANT]
+>AEM Service Pack 6.5.5をインストール済みの場合は、Screensプレーヤーでレプリケーションの問題が発生する可能性があります。 この問題を修正するには、 [cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) をインストールします。
 
 * Chrome OS
 * Windows
 * Android
-
->[!IMPORTANT]
->AEM Service Pack 6.5.5をインストール済みの場合は、Screensプレーヤーでレプリケーションの問題が発生する可能性があります。 この問題を修正するには、 [cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) をインストールします。
 
 #### AEM Screens Player のダウンロード {#aem-screens-player-downloads}
 

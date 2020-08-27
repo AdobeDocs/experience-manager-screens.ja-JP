@@ -2,9 +2,9 @@
 title: AEM Screensでの音声認識
 description: このページは、AEM Screensの音声認識機能を説明したものです。
 translation-type: tm+mt
-source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
+source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1555'
 ht-degree: 13%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 13%
 ## 音声認識の実装 {#implementing}
 
 >[!IMPORTANT]
-> 音声認識機能は、Chromeおよび電子プレーヤーでのみ使用できます。
+> 音声認識機能は、Chrome OSおよび電子プレーヤーでのみ使用できます。
 
 AEM Screensプロジェクトで音声認識を実装するには、ディスプレイの音声認識を有効にし、各チャネルを固有のタグに関連付けて、チャネルトランジションをトリガする必要があります。
 
@@ -106,14 +106,19 @@ AEM Screensプロジェクトで音声認識を実装するには、ディスプ
 次の手順に従ってタグを作成します。
 
 1. AEMインスタンスに移動します。
+
 1. ツール/ **タグ付けをクリックします**。
    ![image](assets/voice-recognition/vr-7.png)
+
 1. Click **Create** --> **Create Namespace**.
    ![image](assets/voice-recognition/vr-tag3.png)
-1. プロジェクトの名前を入力します。例： **VoiceDemo** 」をクリックし、「 **作成**」をクリックします。
+
+1. プロジェクトの名前(例： **VoiceDemo** )を入力し、「 **作成**」をクリックします。
    ![image](assets/voice-recognition/vr-tag2.png)
+
 1. Select the **VoiceDemo** project and click **Create Tag** from the action bar.
    ![image](assets/voice-recognition/vr-tag4.png)
+
 1. タグの名前を入力し、「 **送信**」をクリックします。
    ![image](assets/voice-recognition/vr-tag5.png)
 

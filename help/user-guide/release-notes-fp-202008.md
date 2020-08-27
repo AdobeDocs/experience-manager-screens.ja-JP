@@ -2,10 +2,10 @@
 title: 機能パック 202008 のリリースノート
 description: このページでは、機能パック202008のリリースノートについて説明します。
 translation-type: tm+mt
-source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
+source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 56%
+source-wordcount: '277'
+ht-degree: 35%
 
 ---
 
@@ -30,9 +30,23 @@ AEM Screens機能パック202008のリリース日は2020年8月31日です。
 
 * **スケジュールダッシュボードでのタイムライン表示**
 
+   タイムライン表示を使用すると、割り当てられたスケジュールを表示ダッシュボードからチャネルに表示できます。
+
+   詳しくは、 [タイムライン表示](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) (Timeline Timeline Manager)を参照してください。
+
 * **繰り返しスケジュール**
 
+   [繰り返しのスケジュール]では、チャネルの定期的なスケジュールを設定できます。 1つのチャネルに対して、複数の繰り返しスケジュールを設定します。
+
+   詳しくは、「 [繰り返しスケジュール](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) 」を参照してください。
+
 * **AEM Screensの音声認識機能**
+
+   音声認識機能を使用すると、音声操作によって駆動されるAEM Screensチャネルのコンテンツを変更できます。
+
+   コンテンツ作成者は、ディスプレイを音声対応に設定できます。 この機能の目的は、お客様がディスプレイと対話する方法として音声を利用できるようにすることです。
+
+   詳しくは、「 [音声認識](voice-recognition.md) 」を参照してください。
 
 * **作成者/公開モードでのデバイス環境設定の更新**
 

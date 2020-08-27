@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-translation-type: ht
-source-git-commit: db3429d93833ec22ba60732c45da274830692b39
-workflow-type: ht
-source-wordcount: '678'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 319a80a7fe3d68cbc16108eb302def390b445838
+workflow-type: tm+mt
+source-wordcount: '740'
+ht-degree: 92%
 
 ---
 
@@ -29,11 +29,28 @@ ht-degree: 100%
 
 AEM Screens 用の Android プレーヤーを実装するには、同プレーヤーをインストールしてください。
 
-[**AEM 6.5 Player のダウンロード&#x200B;**](https://download.macromedia.com/screens/)ページにアクセスします。
+[**AEM 6.5 Player のダウンロード**](https://download.macromedia.com/screens/)ページにアクセスします。
+
+### AEM Screens6.5.5機能パック以降用の環境の設定 {#fp-environment-setup}
+
+AEM Screens6.5.5機能パックを使用している場合は、Androidプレイヤー用の環境を設定する必要があります。
+
+それには、次の手順に従います。
+
+1. Navigate to **Adobe Experience Manager Web Console
+Configuration** using `http://localhost:4502/system/console/configMgr`.
+
+1. 「 *AdobeGraniteトークン認証ハンドラー*」を検索します。
+
+1. login-token cookieの **SameSite属性を** Lax **から** Noneに設定します ****。
+   ![image](/help/user-guide/assets/granite-updates.png)
+
+1. 「**保存**」をクリックします。
+
 
 ### アドホック方式 {#ad-hoc-method}
 
-アドホック方式を使用すると、最新の Android プレーヤー（**.exe）をインストールできます。[**AEM 6.5 Player のダウンロード&#x200B;**](https://download.macromedia.com/screens/)ページにアクセスします。
+アドホック方式を使用すると、最新の Android プレーヤー（**.exe）をインストールできます。[**AEM 6.5 Player のダウンロード**](https://download.macromedia.com/screens/)ページにアクセスします。
 
 アプリケーションをダウンロードしたら、以下の手順に従ってプレーヤーのアドホックインストールを完了します。
 
@@ -52,7 +69,7 @@ AEM Screens 用の Android プレーヤーを実装するには、同プレー�
 
 Android のアーキテクチャ上、デバイスをリブートするには、アプリケーションがシステム権限を持っている必要があります。そのためには、製造元の署名キーを使用して apk に署名する必要があります。この署名をおこなわないと、ウォッチドッグはデバイスをリブートするのではなく、プレーヤーアプリケーションを再起動します。
 
-### 製造元のキーを使用した Android apk への署名 {#signage-of-android-apks-using-manufacturer-keys}
+### 製造元のキーを使用した Android apk への署名  {#signage-of-android-apks-using-manufacturer-keys}
 
 *PowerManager* や *HDMIControlServices* など、Android の特権付き API にアクセスするには、製造元のキーを使用して Android apk に署名する必要があります。
 

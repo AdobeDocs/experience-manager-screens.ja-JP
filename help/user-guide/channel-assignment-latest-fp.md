@@ -3,9 +3,9 @@ title: チャネル割り当て — 最新FP
 seo-title: チャネル割り当て — 最新FP
 description: チャネルの割り当てと日分割については、このページを参照してください。
 translation-type: tm+mt
-source-git-commit: f5d80f3765993277c552b64685d12244658915bb
+source-git-commit: c326c9e83b8c7edcda535b0c775c62c50dd3a29f
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1491'
 ht-degree: 45%
 
 ---
@@ -170,6 +170,8 @@ ht-degree: 45%
 
 次のプロパティは、[ **チャネルの割り当て** ]ダイアログボックスの[ **スケジュール** ]オプションで設定します。
 
+![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+
 ### リファレンスタイムゾーン {#reference-timezone}
 
 参照タイムゾーンを使用すると、コンテンツ表示のタイムゾーンを選択できます。
@@ -182,9 +184,6 @@ ht-degree: 45%
 
 繰り返しスケジュールを使用すると、コンテンツの定期的なスケジュールを設定できます。 [ **+スケジュール** ]をクリックして、チャネルに繰り返しスケジュールを追加します。
 
-![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
-
-
 >[!NOTE]
 >チャネルには、複数の定期スケジュールを追加できます。
 >Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
@@ -194,9 +193,9 @@ ht-degree: 45%
 * **名前**:繰り返しスケジュールのタイトル。
 * **繰り返し**:スケジュールを **日別**、 **週別**、月別 ********、年別のいずれで実行するかを選択します。
 * **開始**:スケジュールの開始時間。
-* **終了**:スケジュールの終了時間。 次の方法で設定できます。
-* **時間**:スケジュールは指定した時刻に終了します。
-* **期間**:スケジュールは、特定の期間（時間または分単位）実行されます。
+* **終了**:スケジュールの終了時間。 時間または期間別に設定できます。
+   * **時間**:スケジュールは指定した時刻に終了します。
+   * **期間**:スケジュールは、特定の期間（時間または分単位）実行されます。
 
 ### DayParting {#dayparting}
 

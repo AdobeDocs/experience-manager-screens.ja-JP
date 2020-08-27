@@ -2,9 +2,9 @@
 title: AEM Screensでの音声認識
 description: このページは、AEM Screensの音声認識機能を説明したものです。
 translation-type: tm+mt
-source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
+source-git-commit: b0f35750fffa6a61d2bc9950457974cca52651da
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1554'
 ht-degree: 13%
 
 ---
@@ -114,7 +114,6 @@ AEM Screensプロジェクトで音声認識を実装するには、ディスプ
    ![image](assets/voice-recognition/vr-tag3.png)
 
 1. プロジェクトの名前(例： **VoiceDemo** )を入力し、「 **作成**」をクリックします。
-   ![image](assets/voice-recognition/vr-tag2.png)
 
 1. Select the **VoiceDemo** project and click **Create Tag** from the action bar.
    ![image](assets/voice-recognition/vr-tag4.png)

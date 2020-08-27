@@ -2,52 +2,56 @@
 title: キックスタートガイド
 seo-title: キックスタートガイド
 description: このページの説明に従って、AEM Screens のデモプロジェクトを作成します。インストールして新しいプロジェクトをセットアップしてから、AEM Screens Player でコンテンツを表示するまでの、デジタルサイネージエクスペリエンスを作成できます。
-seo-description: このページの説明に従って、AEM Screens のデモプロジェクトを作成します。インストールして新しいプロジェクトをセットアップしてから、AEM Screens Player でコンテンツを表示するまでの、デジタルサイネージエクスペリエンスを作成できます。
-uuid: 587b6611-07a3-44b4-b888-9edf2ef4e12c
-contentOwner: Jyotika syal
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: 5ce1e0b9-1926-49dc-b4dd-44b649a3e710
-docset: aem65
-translation-type: ht
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+translation-type: tm+mt
+source-git-commit: 8ffa53c6ffb24ff80adfdce33a69a9d80e03bb75
+workflow-type: tm+mt
+source-wordcount: '1630'
+ht-degree: 98%
 
 ---
 
 
 # キックスタートガイド {#kickstart-guide}
 
-この節では、AEM Screens を使用しながら、基本的なアクションの実行方法を説明します。コンテンツやアセットを使用した基本的なデジタルサイネージエクスペリエンスをセットアップし、Screens Player に公開する方法を順を追って説明します。Screens 開発用のすべてのコンポーネントについて詳しくは、このページの最後にあるリソースを参照してください。
+この節では、AEM Screens を使用しながら、基本的なアクションの実行方法を説明します。コンテンツやアセットを使用した基本的なデジタルサイネージエクスペリエンスをセットアップし、Screens Player に公開する方法を順を追って説明します。
 
 ## デジタルサイネージエクスペリエンスを 5 分で作成する {#creating-a-digital-signage-experience-in-minutes}
 
 次の手順では、Screens のサンプルプロジェクトを作成して、Screens Player にコンテンツを公開できます。
 
-1. **AEM Screens Player** をダウンロードするには、[ここ](https://download.macromedia.com/screens/)をクリックしてください。
+**AEM Screens Player** をダウンロードするには、[ここ](https://download.macromedia.com/screens/)をクリックしてください。
 
-   AEM Screens は、**Google Play** でも入手できます。
 
-   Chrome OS Player の実装について詳しくは、[Chrome 管理コンソール](implementing-chrome-os-player.md)を参照してください。
+Chrome OS Player の実装について詳しくは、[Chrome 管理コンソール](implementing-chrome-os-player.md)を参照してください。
 
-   詳しくは、[Screens のインストールおよび設定](configuring-screens-introduction.md)を参照してください。
+お使いのデバイスに画面プレーヤーをインストールおよび設定する方法について詳しくは、「画面の [インストールと設定](configuring-screens-introduction.md) 」を参照してください。
 
-   >[!NOTE]
-   >
-   >**OSGi 設定**
-   >
-   >
-   >デバイスからサーバーへのデータの投稿を許可するには、空のリファラーを有効にする必要があります。例えば、空のリファラーのプロパティが無効になっていると、デバイスからスクリーンショットを投稿できません。現在、これらの機能の一部は、OSGI 設定で Apache Sling Referrer Filter の Allow Empty 設定が有効になっている場合にのみ使用できます。ダッシュボードには、セキュリティ設定がこれらの機能の一部の動作を妨げる可能性があることを示す警告が表示される場合があります。
-   >
-   >
-   >***Apache Sling Referrer Filter の「Allow Empty」設定&#x200B;***を有効にするには、次の手順に従います。
-   >
-   >
-   >
-   >    1. **Adobe Experience Manager Web Console Configuration**（`https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`）に移動します。
-   >    1. 「**allow.empty**」オプションをオンにします。
-   >    1. 「**保存**」をクリックします。
+>[!NOTE]
+>**OSGi 設定**
+>デバイスからサーバーへのデータの投稿を許可するには、空のリファラーを有効にする必要があります。例えば、空のリファラーのプロパティが無効になっていると、デバイスからスクリーンショットを投稿できません。現在、これらの機能の一部は、OSGI 設定で Apache Sling Referrer Filter の Allow Empty 設定が有効になっている場合にのみ使用できます。ダッシュボードには、セキュリティ設定がこれらの機能の一部の動作を妨げる可能性があることを示す警告が表示される場合があります。
+>
+>
+>***Apache Sling Referrer Filter の「Allow Empty」設定***&#x200B;を有効にするには、次の手順に従います。
 
+
+## 空のリファラー要求の許可 {#allow-empty-referrer-requests}
+
+1. AEM インスタンスでハンマーアイコン／**操作**／**Web コンソール**&#x200B;をクリックして、「**Adobe Experience Manager Web コンソール設定**」に移動します。
+
+   ![image](assets/config/empty-ref1.png)
+
+1. **Adobe Experience Manager Web コンソール設定**&#x200B;が開きます。「sling referrer」を検索します。
+
+   「sling referrer」プロパティを検索するには、**Command + F** キー（**Mac**）または **Ctrl + F** キー（**Windows**）を押します。
+
+1. 「**Allow Empty**」オプションをオンにします（下図を参照）。
+
+   ![image](assets/config/empty-ref2.png)
+
+1. 「**保存**」をクリックして、Apache Sling Referrer Filter の「Allow Empty」を有効にします。
+
+
+## チュートリアル {#tutorial}
 
 1. **新しいプロジェクトの作成**
 
@@ -57,6 +61,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
    1. **Screens プロジェクトの作成**&#x200B;ウィザードで「**Screens**」を選択し、「**次へ**」をクリックします。
 
    1. タイトルに *Test_Project* と入力し、「**作成**」をクリックします。
+
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
    プロジェクトが作成されると、Screens プロジェクトコンソールに戻ります。これでプロジェクトを選択できます。プロジェクトには、**アプリケーション**（Applications）、**チャネル**（Channels）、**デバイス**（Devices）、**ロケーション**（Locations）、**スケジュール**（Schedules）という 5 種類のフォルダーがあります（下図を参照）。
@@ -81,6 +86,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
    1. 「**シーケンスチャネル**」を選択し、「**次へ**」をクリックします。
 
    1. 「**名前**」および「**タイトル**」に「*TestChannel*」と入力し、「**作成**」をクリックします。
+
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
    *TestChannel*&#x200B;が作成され、チャネルフォルダーに追加されます（下図を参照）。
@@ -101,6 +107,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
    1. アクションバーの左側にあるサイドパネルを切り替えるアイコンをクリックし、アセットとコンポーネントを開きます。
    1. チャネルに追加するコンポーネントをドラッグ＆ドロップします。
+
    ![chlimage_1-8](assets/chlimage_1-8.png)
 
    この例では、チャネルに追加された画像がエディターに表示されます。
@@ -111,7 +118,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
    チャネルを作成したら、ロケーションを作成する必要があります。
 
-   ***ロケーション&#x200B;***は、様々なデジタルサイネージエクスペリエンスを区分するもので、各種スクリーンの場所に応じたディスプレイ設定が含まれています。
+   ***ロケーション***&#x200B;は、様々なデジタルサイネージエクスペリエンスを区分するもので、各種スクリーンの場所に応じたディスプレイ設定が含まれています。
 
    以下の手順に従って、プロジェクトの新しいロケーションを作成します。
 
@@ -121,6 +128,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
    1. ウィザードから「**ロケーション**」を選択し、「**次へ**」をクリックします。
 
    1. ロケーションの「**名前**」と「**タイトル**」を入力し（タイトルには「*TestLocation*」と入力します）、「**作成**」をクリックします。
+
    ![chlimage_1-10](assets/chlimage_1-10.png)
 
    *TestLocation* が作成され、**ロケーション**&#x200B;フォルダーに追加されます。
@@ -131,7 +139,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
    ロケーションを作成したら、ロケーションのための新しいディスプレイを作成する必要があります。
 
-   ***ディスプレイ&#x200B;***は、1 つまたは複数のスクリーンで実行されるデジタルエクスペリエンスを表します。
+   ***ディスプレイ***&#x200B;は、1 つまたは複数のスクリーンで実行されるデジタルエクスペリエンスを表します。
 
    1. 上記の図に示すように、ディスプレイを作成するロケーションに移動し（** Test_Project／**Locations**／*TestLocation*）、「*TestLocation*」を選択します。
 
@@ -147,6 +155,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
       1. 「**デバイスの数 - 水平**」で「1」を選択します。
       1. 「**デバイスの数 - 垂直**」で「1」を選択します。
    1. 「**作成**」をクリックします。
+
    以下の図に示すように、新しいディスプレイ（*TestDisplay*）がロケーション（*TestLocation*）に追加されます。
 
    ![chlimage_1-12](assets/chlimage_1-12.png)
@@ -167,6 +176,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
    1. プロパティページで、「**名前**」および「**タイトル**」に MorningSchedule ** と入力します。
 
    1. 「**作成**」をクリックすると、以下の図に示すように、**スケジュール**&#x200B;フォルダーにスケジュールが追加されます。
+
    ![chlimage_1-13](assets/chlimage_1-13.png)
 
    さらに、スケジュール（*MorningSchedule*）を選択し、アクションバーから「**ダッシュボード**」をクリックすると、スケジュールダッシュボードが表示されます。このダッシュボードを使用して、スケジュールのプロパティを表示／変更したり、チャネルを割り当てたり、割り当てられたディスプレイを表示したりできます。
@@ -196,6 +206,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
    1. 「**スケジュール**」を入力し、「**次の日から有効**」および「**次の日まで有効**」で日付を選択します。
 
    1. 「**保存**」をクリックします。
+
    チャネルが作成されてパネルに追加されます。
 
    ![chlimage_1-15](assets/chlimage_1-15.png)
@@ -211,6 +222,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
    1. スケジュールを作成した場所のパスを選択します（この場合は、** Test_Project／**Schedules**／** MorningSchedule）。
 
    1. 「**保存**」をクリックしてチャネルにスケジュールを追加します。
+
    ![chlimage_1-16](assets/chlimage_1-16.png)
 
 1. **デバイスの登録**
@@ -229,6 +241,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
    1. アクションバーの「**デバイスマネージャー**」をクリックします。
    1. 「**デバイスの登録**」をクリックすると、以下の図のように保留中のデバイスが表示されます。
+
    ![chlimage_1-17](assets/chlimage_1-17.png)
 
    登録するデバイスを選択して、「**デバイスを登録**」をクリックします。
@@ -267,6 +280,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
    1. 「**割り当て**」をクリックします。
    1. 「**完了**」をクリックしてプロセスを完了すると、デバイスが割り当てられます。
+
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
    ディスプレイダッシュボードが開き、割り当てられたチャネルとスケジュールに関するすべての情報や、デバイス設定の詳細が表示されます。

@@ -3,9 +3,9 @@ title: チャネル割り当て — 最新FP
 seo-title: チャネル割り当て — 最新FP
 description: チャネルの割り当てと日分割については、このページを参照してください。
 translation-type: tm+mt
-source-git-commit: 2c469a8c74f496fbd9da796a5f471636e71ffc8c
+source-git-commit: f5d80f3765993277c552b64685d12244658915bb
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1488'
 ht-degree: 45%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 45%
 
 ディスプレイを設定したら、コンテンツを表示するために、ディスプレイにチャネルを割り当てる必要があります。
 
-このページは、ディスプレイへのチャネルの割り当てを示しています。
+このページでは、表示にチャネルを割り当てる方法、チャネルのプロパティを理解する方法、および日分割を示します。
 
 >[!NOTE]
 >1つのディスプレイに複数のチャネルを割り当てることができます。
@@ -65,7 +65,7 @@ ht-degree: 45%
 
    または、
 
-   「 **ダッシュボード** 」をタップまたはクリックし、「割り当てられたチャネルとスケジュール **」パネルで「チャネルの割り当て****** 」をクリックします。
+   アクションバーの **ダッシュボードをタップまたはクリックし** 、「割り当てられたチャネルとスケジュール **」パネルの「チャネルの割り当て****** 」をクリックします。
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -73,7 +73,7 @@ ht-degree: 45%
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. 「 **設定** 」オプションから、パスまたは名前でチャネルを選択し、 **チャネルロール**、優先度、優先度 **、サポート対象イベント、割り込み**********&#x200B;を入力します。 また、このダイアログボックスで **引き付けツールチップ** を有効にすることもできます。
+1. 「 **設定****」オプションから、** 「名前別パス別チャネル」または「名前別チャネル別」を選択して、「ロール **イベント」を入力し、「優先度******************」を入力し、「サポートされている」を入力します。 また、このダイアログボックスで引き付けツールチップを有効にすることもできます。
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
@@ -98,13 +98,31 @@ ht-degree: 45%
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
-### Understanding Channel Properties from Channel Assignment Dialog Box {#channel-properties}
+## Timeline View {#timeline-view}
+
+ディスプレイにチャネルを割り当て、繰り返しスケジュールを設定したら、[ **割り当て済みチャネルとスケジュール** ]パネルからタイムラインを表示できます。
+
+次の手順に従って、タイムライン表示に移動します。
+
+1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **SanJose** --> **Lobby**.
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+
+   または、
+
+   「 **ダッシュボード** 」をタップまたはクリックし、「 **割り当てられたチャネルとスケジュール** 」パネルで「タイムライン **** 」をクリックします。
+
+1. 保留中の画像（修正予定）
+
+## Understanding Channel Properties from Channel Assignment Dialog Box {#channel-properties}
 
 次のプロパティは、[ **チャネルの割り当て** ]ダイアログボックスの[ **設定** ]オプションで設定します。
 
 ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-#### チャネルを選択 {#select-channel}
+### チャネルを選択 {#select-channel}
 
 チャネルを選択すると、チャネル名またはチャネルパスで、目的のチャネルへの参照を指定できます。
 
@@ -112,25 +130,25 @@ ht-degree: 45%
 
 * **名前別**：コンテキストにより実際のチャネルを解決するチャネルの名前を入力します。この機能により、場所固有のコンテンツを動的に解決するために、チャネルのローカルバージョンを作成できます。例えば、「*本日のお買い得商品*」という名前のチャネルで、実際のコンテンツは 2 つの都市で異なるものの、すべてのディスプレイでチャネルロールを同じにするといったことができます。
 
-#### チャネルロール {#role-channel}
+### チャネルロール {#role-channel}
 
 チャネルロールはディスプレイのコンテキストを定義します。ロールは多様なアクションによってターゲットになり、ロールを担う実際のチャネルから独立しています。
 
-#### 優先度 {#priority-channel}
+### 優先度 {#priority-channel}
 
 優先度は、複数の割り当てが再生条件に一致する場合に、割り当ての順序付けをおこなうために使用します。最高値のものが低い値よりも常に優先されます。例えば、2 つのチャネル A と B がある場合、A の優先度が 1 で B の優先度が 2 であるなら、A より優先度が高いために、チャネル B が表示されます。
 
 >[!NOTE]
 >チャネルの優先度は、前述のように、**チャネル割り当て**&#x200B;ダイアログボックスで、数字で設定できます（1 が最小）。また、割り当てられたチャネルは、降順の優先度に基づいて並べ替えられます。
 
-#### サポートされているイベント {#supported-events-channel}
+### サポートされているイベント {#supported-events-channel}
 
 * **初期ロード**：プレーヤーが開始するときにチャネルに読み込みます。スケジュールと組み合わせて複数のチャネルに割り当てることができます。
 * **待機中画面**：スクリーンがアイドルのときに読み込みます。スケジュールと組み合わせて複数のチャネルに割り当てることができます。
 * **タイマー**：スケジュールを指定するときに設定する必要があります。
 * **ユーザーインタラクション**：アイドルチャネルのスクリーンのユーザーインタラクション（タッチ）がある場合に、プレーヤーが指定されたチャネルに切り替えて、スクリーンがタッチされたときに読み込みます。
 
-#### 中断方法 {#interruption-method-channel}
+### 中断方法 {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -152,16 +170,15 @@ ht-degree: 45%
 
 次のプロパティは、[ **チャネルの割り当て** ]ダイアログボックスの[ **スケジュール** ]オプションで設定します。
 
-
-#### リファレンスタイムゾーン {#reference-timezone}
+### リファレンスタイムゾーン {#reference-timezone}
 
 参照タイムゾーンを使用すると、コンテンツ表示のタイムゾーンを選択できます。
 
-#### アクティベーションウィンドウ {#activation-window}
+### アクティベーションウィンドウ {#activation-window}
 
 アクティベーションウィンドウでは、 **開始日** と **** 終了日を選択して、コンテンツを表示できます。
 
-#### 繰り返しスケジュール {#recurrence-schedule}
+### 繰り返しスケジュール {#recurrence-schedule}
 
 繰り返しスケジュールを使用すると、コンテンツの定期的なスケジュールを設定できます。 [ **+スケジュール** ]をクリックして、チャネルに繰り返しスケジュールを追加します。
 
@@ -211,23 +228,4 @@ ht-degree: 45%
 >[!NOTE]
 >
 >さらに、チャネルごとに&#x200B;***優先度***&#x200B;を定義できます。例えば、2 つのチャネルを同じ日時または同じ月に設定する場合は、優先度の高いチャネルが最初に再生されます。優先度の最小値は 0 として設定できます。
-
-## Timeline View {#timeline-view}
-
-ディスプレイにチャネルを割り当て、繰り返しスケジュールを設定したら、[ **割り当て済みチャネルとスケジュール** ]パネルからタイムラインを表示できます。
-
-次の手順に従って、タイムライン表示に移動します。
-
-1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **SanJose** --> **Lobby**.
-
-1. Tap/click **Assign Channel** from the action bar.
-
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
-
-   または、
-
-   「 **ダッシュボード** 」をタップまたはクリックし、「 **割り当てられたチャネルとスケジュール** 」パネルで「タイムライン **** 」をクリックします。
-
-1. 保留中の画像（修正予定）
-
 

@@ -2,9 +2,9 @@
 title: AEM Screensでの音声認識
 description: このページは、AEM Screensの音声認識機能を説明したものです。
 translation-type: tm+mt
-source-git-commit: f5d80f3765993277c552b64685d12244658915bb
+source-git-commit: 8a44e92408ff02b3d0b9e0a0e55de73c54a1afcd
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1570'
 ht-degree: 13%
 
 ---
@@ -279,7 +279,12 @@ Main **チャネルはコンテンツを再生していますが、キーワー�
 
 この例は、Chrome Playerの出力を示します。
 
-チャネル **Main** チャネルはコンテンツを再生していますが、キーワードhotとhot **を含む単語を使う場合は、例えば** hotとhotと ********** hotを組み合わせて使う場合は、cold werdsのメニューを見たいと思います。cold werdの開始はScreenチャネルのスプリットの内容です。
+チャネル **Main** チャネルはコンテンツを再生していますが、キーワードhotとhot **を含む単語を使う場合は、例えば** hotとhotと ********** hotを組み合わせて使う場合は、cold werdsのメニューを見たいと思います。cold werdの開始はScreenチャネルのスプリットの内容です。 メインメニュー *に戻ると*、メインチャネルに戻ります。
+
+![newimage](assets/voice-recognition/vr-video-2.gif)
+
+
+
 
 
 

@@ -2,9 +2,9 @@
 title: AEM Screensでの音声認識
 description: このページは、AEM Screensの音声認識機能を説明したものです。
 translation-type: tm+mt
-source-git-commit: 99e775cf2aca779c3223e96d05f1e0c9784a9821
+source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
 workflow-type: tm+mt
-source-wordcount: '1581'
+source-wordcount: '1554'
 ht-degree: 13%
 
 ---
@@ -96,11 +96,10 @@ AEM Screensプロジェクトで音声認識を実装するには、ディスプ
 
    ![image](assets/voice-recognition/vr-tag1.png)
 
+1. 同様に、「 **hot** 」というタグをHotDrinks **** チャネルに追加します。
+
 1. 完了したら、「 **保存して閉じる** 」をクリックします。
 
-同様に、「 **hot** 」というタグをHotDrinks **** チャネルに追加します。
-
-画面を分割チャネルをテンプレートとして使用する場合は、タグ(**ホット** とコールド ****)をチャネルのプロパティに必ず追加してください。
 
 ### タグの作成 {#creating-tags}
 
@@ -276,7 +275,7 @@ Main **チャネルはコンテンツを再生していますが、キーワー�
 
 この例は、Chrome Playerの出力を示します。
 
-チャネル **Main** チャネルはコンテンツを再生していますが、キーワードhotとhot **を含む単語を使う場合は、例えば、開始hot** と ********** hotを含む単語を使う場合は、cold werdsのメニューを見たいと思います。
+チャネル **Main** チャネルはコンテンツを再生していますが、キーワードhotとhot **を含む単語を使う場合は、例えば** hotとhotと ********** hotを組み合わせて使う場合は、cold werdsのメニューを見たいと思います。cold werdの開始はScreenチャネルのスプリットの内容です。
 
 
 

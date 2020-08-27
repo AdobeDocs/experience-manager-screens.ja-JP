@@ -2,9 +2,9 @@
 title: AEM Screensでの音声認識
 description: このページは、AEM Screensの音声認識機能を説明したものです。
 translation-type: tm+mt
-source-git-commit: b0f35750fffa6a61d2bc9950457974cca52651da
+source-git-commit: f5d80f3765993277c552b64685d12244658915bb
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1555'
 ht-degree: 13%
 
 ---
@@ -43,7 +43,7 @@ AEM Screensプロジェクトで音声認識を実装するには、ディスプ
 * [シーケンスチャネル](#sequence-channel)
 * [画面を分割チャネル](#split-channel)
 
-## シーケンスチャネルをテンプレートとして使用 {#sequence-channel}
+## シーケンスチャネルのテンプレートとしての使用 {#sequence-channel}
 
 音声認識機能を使用する前に、プロジェクトと、コンテンツが設定されたチャネルがプロジェクトにあることを確認してください。
 

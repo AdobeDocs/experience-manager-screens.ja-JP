@@ -2,10 +2,10 @@
 title: AEM Screensでの音声認識
 description: このページは、AEM Screensの音声認識機能を説明したものです。
 translation-type: tm+mt
-source-git-commit: 3422a62af9b9c0930ce433c0a9cd29f4089592d3
+source-git-commit: 1063f1ab19344ceacfba6b53ad5cf32901c3843d
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 12%
+source-wordcount: '1215'
+ht-degree: 11%
 
 ---
 
@@ -41,6 +41,13 @@ AEM Screensプロジェクトで音声認識を実装するには、ディスプ
 
 ### プロジェクトのセットアップ {#setting-up}
 
+プロジェクトは、次の2つのテンプレートのいずれかを使用して設定できます。
+
+* [シーケンスチャネル](#sequence-channel)
+* [画面を分割チャネル](#split-channel)
+
+#### シーケンスチャネルをテンプレートとして使用 {#sequence-channel}
+
 音声認識機能を使用する前に、プロジェクトと、コンテンツが設定されたチャネルがプロジェクトにあることを確認してください。
 
 1. 次の例では、VoiceDemo **という名前のデモプロジェクトと、** Main **、** ColdDrinks **、HotDrinksの3つのシーケンスチャネルーを示しています。次の図はHotDrinksで******&#x200B;す。
@@ -66,6 +73,34 @@ AEM Screensプロジェクトで音声認識を実装するには、ディスプ
    **HotDrinks**:
 
    ![image](assets/voice-recognition/vr-2.png)
+
+#### 画面を分割チャネルをテンプレートとして使用する {#split-channel}
+
+音声認識機能を使用する前に、プロジェクトと、コンテンツが設定されたチャネルがプロジェクトにあることを確認してください。
+
+1. 次の例は、VoiceDrinksという名前のdemoプロジェクトと、 **Main** 、 **ColdDrinks**、 ************ Dorks、HotDyrksの3つのシーケンスチャネルを示しています。Dyrksは、次の図に示すようなVoiceDomの図です。
+
+
+
+   >[!NOTE]
+   >
+   >チャネルを作成する方法、またはチャネルにコンテンツを追加する方法については、[チャネルの作成と管理](/help/user-guide/managing-channels.md)を参照してください。
+
+1. 各チャネルに移動し、コンテンツを追加します。 例えば、 **VoiceDemo** —> **チャネル** —> **Main** に移動し、チャネルを選択します。 アクションバーの「 **編集** 」をクリックしてエディターを開き、必要に応じてコンテンツ（画像/ビデオ）を追加します。 同様に、ColdDrinks **チャネルーとHotDrinks****** ーの両方にコンテンツを追加します。
+
+   次の図に示すように、チャネルにはアセット（画像）が含まれるようになりました。
+
+   **メイン**:
+
+
+
+   **ColdDrinks**:
+
+
+   **HotDrinks**:
+
+1. SplitChannelに移動し **て** 、コンテンツを追加します。 次の図に示すように、2つの埋め込みシーケンスをドラッグ&amp;ドロップし、ColdDrinks **** チャネルとHotDrinks **** フォルダーの両方にパスを追加します。
+
 
 ### Setting up Tags for Channels {#setting-tags}
 
@@ -94,6 +129,8 @@ AEM Screensプロジェクトで音声認識を実装するには、ディスプ
 1. 完了したら、「 **保存して閉じる** 」をクリックします。
 
 同様に、「 **hot** 」というタグをHotDrinks **** チャネルに追加します。
+
+画面を分割チャネルをテンプレートとして使用する場合は、タグ(**ホット** とコールド ****)をチャネルのプロパティに必ず追加してください。
 
 #### タグの作成 {#creating-tags}
 
@@ -145,14 +182,16 @@ AEM Screensプロジェクトで音声認識を実装するには、ディスプ
    >[!IMPORTANT]
    >ディスプレイから音声認識機能を有効にする必要があります。
 
-#### Chrome Playerでのコンテンツの表示 {#viewing-content}
+### Chrome Playerでのコンテンツの表示 {#viewing-content}
 
-上記の手順が完了したら、Chromeデバイスを登録し、出力表示を登録できます。
+上記の手順が完了したら、Chromeデバイスを登録して出力を表示できます。
 
 >[!NOTE]
 >デバイスを [AEM Screensプレイヤに登録する方法については、Device Registration](device-registration.md) （デバイス登録）を参照してください。
 
 この例は、Chrome Playerの出力を示します。
+
+#### 順次チャネルの場合 {#sequential-output}
 
 Main **チャネルはコンテンツを再生していますが、キーワードに「** hot」と付けた単語を使用し **て、例えば「hot drink** 」と入力したい場合は、チャネル開始が「hotDrinks」チャネルを再生している ****** を再生しています。
 
@@ -161,10 +200,12 @@ Main **チャネルはコンテンツを再生していますが、キーワー�
 ![newimage](assets/voice-recognition/voice-video.gif)
 
 
+#### 画面を分割チャネル {#split-screen-output}
 
 
+Main **チャネルはコンテンツを再生していますが、キーワードに「** hot」と付けた単語を使用し **て、例えば「hot drink** 」と入力したい場合は、チャネル開始が「hotDrinks」チャネルを再生している ****** を再生しています。
 
-
+同様に、キーワード **cold** （冷たいものを持たせたいと思う）のように単語をキーワードと共に使うと *、チャネル開始が* ColdDrinks **** チャネルの内容を再生します。
 
 
 

@@ -2,10 +2,10 @@
 title: 機能パック 202008 のリリースノート
 description: このページでは、機能パック202008のリリースノートについて説明します。
 translation-type: tm+mt
-source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
+source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 35%
+source-wordcount: '299'
+ht-degree: 32%
 
 ---
 
@@ -57,6 +57,9 @@ AEM Screens機能パック202008のリリース日は2020年8月31日です。
 * Chrome OS
 * Windows
 * Android
+
+>[!IMPORTANT]
+>AEM Service Pack 6.5.5をインストール済みの場合は、Screensプレーヤーでレプリケーションの問題が発生する可能性があります。 この問題を修正するには、 [cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) をインストールします。
 
 #### AEM Screens Player のダウンロード {#aem-screens-player-downloads}
 

@@ -3,9 +3,9 @@ title: チャネル割り当て — 最新FP
 seo-title: チャネル割り当て — 最新FP
 description: チャネルの割り当てと日分割については、このページを参照してください。
 translation-type: tm+mt
-source-git-commit: b29b67374f29148ef661de356f479e9aa5e40cfd
+source-git-commit: 2c469a8c74f496fbd9da796a5f471636e71ffc8c
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1480'
 ht-degree: 45%
 
 ---
@@ -80,8 +80,8 @@ ht-degree: 45%
    >[!NOTE]
    >チャネル割り当てプロパティの詳細については、「 [チャネルのプロパティ](#channel-properties) 」の節を参照してください。
 
-1. 「 **スケジュール** 」オプションから、「 **参照タイムゾーン**」、「 **アクティベーションウィンドウ******」、「繰り返しスケジュール」の順に選択します。
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+1. 「 **スケジュール** 」オプションから、「 **参照タイムゾーン**」、「 **アクティベーションウィンドウ** 」、「 ****繰り返しスケジュール」の順に選択します。
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >チャネル割り当てプロパティの詳細については、「 [チャネルのプロパティ](#channel-properties) 」の節を参照してください。
@@ -152,6 +152,7 @@ ht-degree: 45%
 
 次のプロパティは、[ **チャネルの割り当て** ]ダイアログボックスの[ **スケジュール** ]オプションで設定します。
 
+
 #### リファレンスタイムゾーン {#reference-timezone}
 
 参照タイムゾーンを使用すると、コンテンツ表示のタイムゾーンを選択できます。
@@ -163,6 +164,9 @@ ht-degree: 45%
 #### 繰り返しスケジュール {#recurrence-schedule}
 
 繰り返しスケジュールを使用すると、コンテンツの定期的なスケジュールを設定できます。 [ **+スケジュール** ]をクリックして、チャネルに繰り返しスケジュールを追加します。
+
+![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+
 
 >[!NOTE]
 >チャネルには、複数の定期スケジュールを追加できます。
@@ -204,25 +208,9 @@ ht-degree: 45%
 | 週末 | 毎週 | 8:00 PM | 10:00 PM |
 | 特別 | 毎日 | 10:00 PM | 1:00 AM |
 
-**週末**
-
-
-**特別**
-
-#### 特定の月にコンテンツを再生 {#playing-content-for-a-particular-month-months}
-
-次の例は、6月の月から8月までの夏のコレクションを表示し、9月から10月の終わりまでの夏のコレクションを表示する店舗のDayPartingを示しています。
-
-ここでは、月ごとのDayPartingを作成し、チャネルコンテンツを年の中の指定した月ごとに再生するようにします。
-
-
 >[!NOTE]
 >
 >さらに、チャネルごとに&#x200B;***優先度***&#x200B;を定義できます。例えば、2 つのチャネルを同じ日時または同じ月に設定する場合は、優先度の高いチャネルが最初に再生されます。優先度の最小値は 0 として設定できます。
-
-#### 同じ優先度のチャネル用コンテンツの再生 {#playing-content-for-channels-with-same-priority}
-
-次の例は、12月の月に同じスケジュールで冬のコレクションを表示するストアのDayPartingを示しています。 しかし、その週はチャネル B が優先度 2 に設定されており、チャネル A ではなくチャネル B がそのコンテンツを再生します。
 
 ## Timeline View {#timeline-view}
 
@@ -230,5 +218,16 @@ ht-degree: 45%
 
 次の手順に従って、タイムライン表示に移動します。
 
+1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **SanJose** --> **Lobby**.
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+
+   または、
+
+   「 **ダッシュボード** 」をタップまたはクリックし、「 **割り当てられたチャネルとスケジュール** 」パネルで「タイムライン **** 」をクリックします。
+
+1. 保留中の画像（修正予定）
 
 

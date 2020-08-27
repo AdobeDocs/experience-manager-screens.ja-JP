@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
+source-git-commit: 319a80a7fe3d68cbc16108eb302def390b445838
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '940'
 ht-degree: 94%
 
 ---
@@ -28,6 +28,22 @@ ht-degree: 94%
 AEM Screens 用の Windows プレーヤーを実装するには、同プレーヤーをインストールしてください。
 
 [**AEM 6.5 Player のダウンロード**](https://download.macromedia.com/screens/)ページにアクセスします。
+
+### AEM Screens6.5.5機能パック以降用の環境の設定 {#fp-environment-setup}
+
+AEM Screens6.5.5機能パックを使用している場合は、Windows Player用の環境を設定する必要があります。
+
+それには、次の手順に従います。
+
+1. Navigate to **Adobe Experience Manager Web Console
+Configuration** using `http://localhost:4502/system/console/configMgr`.
+
+1. 「 *AdobeGraniteトークン認証ハンドラー*」を検索します。
+
+1. login-token cookieの **SameSite属性を** Lax **から** Noneに設定します ****。
+   ![image](/help/user-guide/assets/granite-updates.png)
+
+1. 「**保存**」をクリックします。
 
 ### アドホック方式 {#ad-hoc-method}
 
@@ -115,22 +131,6 @@ Windows プレーヤーをデプロイする際は、他のアプリケーショ
 
 1. PowerShell スクリプトを管理者として実行します。
 1. 再起動してキオスクユーザーとしてログインすると、プレーヤーアプリケーションが起動します。
-
-### AEM Screens6.5.5機能パック以降用の環境の設定 {#fp-environment-setup}
-
-AEM Screens6.5.5機能パックを使用している場合は、Windows Player用の環境を設定する必要があります。
-
-それには、次の手順に従います。
-
-1. Navigate to to **Adobe Experience Manager Web Console
-Configuration** using `http://localhost:4502/system/console/configMgr`.
-
-1. 「 *AdobeGraniteトークン認証ハンドラー*」を検索します。
-
-1. login-token cookieの **SameSite属性を** Lax **から** Noneに設定します ****。
-   ![image](/help/user-guide/assets/granite-updates.png)
-
-1. 「**保存**」をクリックします。
 
 ### トラブルシューティング {#troubleshooting}
 

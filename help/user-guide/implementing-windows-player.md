@@ -10,11 +10,11 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-translation-type: ht
-source-git-commit: db3429d93833ec22ba60732c45da274830692b39
-workflow-type: ht
-source-wordcount: '878'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
+workflow-type: tm+mt
+source-wordcount: '941'
+ht-degree: 94%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 100%
 
 AEM Screens 用の Windows プレーヤーを実装するには、同プレーヤーをインストールしてください。
 
-[**AEM 6.5 Player のダウンロード&#x200B;**](https://download.macromedia.com/screens/)ページにアクセスします。
+[**AEM 6.5 Player のダウンロード**](https://download.macromedia.com/screens/)ページにアクセスします。
 
 ### アドホック方式 {#ad-hoc-method}
 
-アドホック方式を使用すると、最新の Windows プレーヤー（**.exe）をインストールできます。[**AEM 6.5 Player のダウンロード&#x200B;**](https://download.macromedia.com/screens/)ページにアクセスします。
+アドホック方式を使用すると、最新の Windows プレーヤー（**.exe）をインストールできます。[**AEM 6.5 Player のダウンロード**](https://download.macromedia.com/screens/)ページにアクセスします。
 
 アプリケーションをダウンロードしたら、以下の手順に従ってプレーヤーのアドホックインストールを完了します。
 
@@ -63,7 +63,7 @@ Windows 10 プレーヤーを設定するには、次の手順を実行します
 1. 設定ファイルは ***%appdata%\com.adobe.aem.screens.player\config.json*** の下にあります。
 1. 後述の情報を使用して設定 JSON を更新し、同じフォルダーをプレーヤーが存在するすべてのシステムにコピーします。
 
-### ポリシー属性{#policy-attributes}
+### ポリシー属性 {#policy-attributes}
 
 次の表に、参照用のポリシー JSON の例と共にポリシー属性を示します。
 
@@ -76,7 +76,7 @@ Windows 10 プレーヤーを設定するには、次の手順を実行します
 | enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。完全に設定されて実稼動になったら、false に設定することを検討します。 |
 | enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にし、完全に設定されて実稼動になったら無効にします。 |
 
-#### ポリシー JSON ファイルの例{#example-policy-json-file}
+#### ポリシー JSON ファイルの例 {#example-policy-json-file}
 
 ```
 {
@@ -105,7 +105,7 @@ Windows プレーヤーをデプロイする際は、他のアプリケーショ
 
 1. シェルランチャーを有効にします。
 
-   詳しくは、Microsoft Windows サポートによる&#x200B;**[シェルランチャー](https://docs.microsoft.com/ja-JP/windows-hardware/customize/enterprise/shell-launcher)ページの***&#x200B;シェルランチャーの構成&#x200B;*****の節を参照してください。
+   詳しくは、Microsoft Windows サポートによる&#x200B;**[シェルランチャー](https://docs.microsoft.com/ja-JP/windows-hardware/customize/enterprise/shell-launcher)ページの&#x200B;***シェルランチャーの構成*****&#x200B;の節を参照してください。
 
 1. キオスクモードに使用する管理者以外のユーザーを作成します（まだ存在しない場合）。ローカルユーザーでもドメインユーザーでも構いません。
 1. [AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)ページから、そのキオスクユーザー用の Windows プレーヤーをインストールします。
@@ -115,6 +115,22 @@ Windows プレーヤーをデプロイする際は、他のアプリケーショ
 
 1. PowerShell スクリプトを管理者として実行します。
 1. 再起動してキオスクユーザーとしてログインすると、プレーヤーアプリケーションが起動します。
+
+### AEM Screens6.5.5機能パック以降用の環境の設定 {#fp-environment-setup}
+
+AEM Screens6.5.5機能パックを使用している場合は、Windows Player用の環境を設定する必要があります。
+
+それには、次の手順に従います。
+
+1. Navigate to to **Adobe Experience Manager Web Console
+Configuration** using `http://localhost:4502/system/console/configMgr`.
+
+1. 「 *AdobeGraniteトークン認証ハンドラー*」を検索します。
+
+1. login-token cookieの **SameSite属性を** Lax **から** Noneに設定します ****。
+   ![image](/help/user-guide/assets/granite-updates.png)
+
+1. 「**保存**」をクリックします。
 
 ### トラブルシューティング {#troubleshooting}
 

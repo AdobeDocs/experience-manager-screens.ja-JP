@@ -3,16 +3,9 @@ title: AEM Screens でのオーサーとパブリッシュの設定
 seo-title: AEM Screens でのオーサーとパブリッシュの設定
 description: AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成された後、複数のパブリッシュインスタンスにフォワードレプリケートされます。ここでは、オーサーとパブリッシュを AEM Screens 用に設定する方法について説明します。
 seo-description: AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成された後、複数のパブリッシュインスタンスにフォワードレプリケートされます。ここでは、オーサーとパブリッシュを AEM Screens 用に設定する方法について説明します。
-uuid: 0a6e87e7-0018-42ef-b484-9a3da61c636a
-contentOwner: jsyal
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
-docset: aem65
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8e8413221d0f79f8e46e15d0f00a710296883739
+workflow-type: tm+mt
 source-wordcount: '1893'
 ht-degree: 100%
 

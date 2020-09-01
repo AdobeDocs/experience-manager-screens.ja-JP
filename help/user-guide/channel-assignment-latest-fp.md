@@ -1,12 +1,12 @@
 ---
-title: チャネル割り当て — 最新FP
-seo-title: チャネル割り当て — 最新FP
-description: チャネルの割り当てと日分割については、このページを参照してください。
+title: チャネル割り当て — 最新の FP
+seo-title: チャネル割り当て — 最新の FP
+description: このページでは、チャネル割り当てと時間帯区分について学びます。
 translation-type: tm+mt
-source-git-commit: c326c9e83b8c7edcda535b0c775c62c50dd3a29f
+source-git-commit: 4ce9bd954a30282d94e30a6868d269b4df0a0f5e
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 45%
+source-wordcount: '1477'
+ht-degree: 75%
 
 ---
 
@@ -16,85 +16,85 @@ ht-degree: 45%
 >[!IMPORTANT]
 >この節では、AEM 6.5.5 Screens機能パック以降用のチャネルのチャネル割り当てとスケジュールについて説明します。
 
-ディスプレイを設定したら、コンテンツを表示するために、ディスプレイにチャネルを割り当てる必要があります。
+ディスプレイの設定が完了したら、チャネルをディスプレイに割り当てて、コンテンツを表示する必要があります。
 
-このページでは、表示にチャネルを割り当てる方法、チャネルのプロパティを理解する方法、および日分割を示します。
+このページでは、表示にチャネルを割り当てる方法、チャネルのプロパティを理解する方法、および日分割について説明します。
 
 >[!NOTE]
->1つのディスプレイに複数のチャネルを割り当てることができます。
+>1 つのディスプレイに複数のチャネルを割り当てることができます。
 
 
 ## チャネルの割り当て {#assign-a-channel-new-release}
 
-以下のセクションに従って、AEM Screensプロジェクトを作成し、チャネルをディスプレイに割り当てます。
+以下のセクションに従って、AEM Screens プロジェクトを作成し、チャネルをディスプレイに割り当てます。
 
-### AEM Screensプロジェクトとチャネルの作成 {#creating-project}
+### AEM Screens プロジェクトとチャネルの作成 {#creating-project}
 
 次の手順に従って、プロジェクトとチャネルを設定します。
 
-1. Create an AEM Screens Project titled as **DemoScreens**.
+1. 「**DemoScreens**」というタイトルの AEM Screens プロジェクトを作成します。
 
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
+   ![画像](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
-   >AEM Screensプロジェクトの作成方法については、 [「プロジェクトの作成と管理](creating-a-screens-project.md) 」を参照してください。
+   >AEM Screens プロジェクトの作成方法については、「[プロジェクトの作成と管理](creating-a-screens-project.md)」を参照してください。
 
-1. 「 **Cafeteria** 」という名前のシーケンスチャネルーを **** チャネルフォルダーに作成します。
+1. 「**Cafeteria**」という名前のシーケンスチャネルを&#x200B;**チャネル**&#x200B;フォルダーに作成します。
 
-1. Select the channel and click **Edit** from the action bar to add content to your channel.
+1. チャネルを選択し、アクションバーの「**編集**」をクリックして、チャネル内のコンテンツを追加します。
 
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
+   ![画像](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
-   例えば、 **Cafeteria** チャネルには次の画像が表示されるようになりました。
+   例えば、**Cafeteria** チャネルには次の画像が表示されるようになりました。
 
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
+   ![画像](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
 
-1. 「 **SanJose** 」という名前の場所を作成し、「 **Lobby**」と表示します。
+1. 「**SanJose**」という名前の場所と「**Lobby**」というディスプレイを作成します。
 
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
+   ![画像](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
 
-### Assigning Channel to a Display {#assigning-channel-to-display}
+### ディスプレイへのチャネルの割り当て {#assigning-channel-to-display}
 
 プロジェクトの設定が完了したら、チャネルを表示に割り当てて、コンテンツを表示する必要があります。
 
-1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **SanJose** --> **Lobby**.
+1. 必要なディスプレイに移動します（例：**DemoProject**／**Locations**／**SanJose**／**StoreDisplay**）。
 
-1. Tap/click **Assign Channel** from the action bar.
+1. アクションバーで「**チャネルの割り当て**」をタップまたはクリックします。
 
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+   ![画像](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    または、
 
-   アクションバーの **ダッシュボードをタップまたはクリックし** 、「割り当てられたチャネルとスケジュール **」パネルの「チャネルの割り当て****** 」をクリックします。
+   Tap/click **Dashboard** from the action bar and click **+Assign Channel** from the **ASSIGNED CHANNELS &amp; SCHEDULES** panel.
 
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
+   ![画像](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
-1. The **Channel Assignment** dialog box opens.
+1. 「**チャネル割り当て**」ダイアログボックスが開きます。
 
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+   ![画像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. 「 **設定****」オプションから、** 「名前別パス別チャネル」または「名前別チャネル別」を選択して、「ロール **イベント」を入力し、「優先度******************」を入力し、「サポートされている」を入力します。 また、このダイアログボックスで引き付けツールチップを有効にすることもできます。
+1. From the **Settings** option, you can choose the channel **by path** or **by name**, enter the **Channel Role**, **Priority**, **Supported Events**, and **Interruption Methods**. また、このダイアログボックスで引き付けツールチップを有効にすることもできます。
 
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
-
-   >[!NOTE]
-   >チャネル割り当てプロパティの詳細については、「 [チャネルのプロパティ](#channel-properties) 」の節を参照してください。
-
-1. 「 **スケジュール** 」オプションから、「 **参照タイムゾーン**」、「 **アクティベーションウィンドウ** 」、「 ****繰り返しスケジュール」の順に選択します。
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+   ![画像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >チャネル割り当てプロパティの詳細については、「 [チャネルのプロパティ](#channel-properties) 」の節を参照してください。
+   >Refer to [Channel Properties](#channel-properties) section to learn more about channel assignment properties.
 
-1. 環境設定を行ったら、 **「保存** 」をクリックします。
+1. From the **Schedule** option select the **Activation Window** and **Recurrence Schedule**.
+   ![画像](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
-### Viewing the Content in Chrome Player {#viewing-content-output}
+   >[!NOTE]
+   >Refer to [Channel Properties](#channel-properties) section to learn more about channel assignment properties.
 
-この例は、Chrome Playerの出力を示します。 ディスプレイにチャネルを割り当てたら、そのデバイスをプレイヤーに登録する必要があります。
+1. 環境設定を行ったら、**「保存**」をクリックします。
 
-デバイスを [AEM Screensプレイヤに登録する方法については、Device Registration](device-registration.md) （デバイス登録）を参照してください。
+### Chrome Player でのコンテンツの表示 {#viewing-content-output}
 
-選択したプレーヤーに次の出力を表示します。
+この例は、Chrome Player の出力を示します。ディスプレイにチャネルを割り当てたら、そのデバイスをプレーヤーに登録する必要があります。
+
+デバイスを AEM Screens プレーヤーに登録する方法については、[デバイス登録](device-registration.md)を参照してください。
+
+選択したプレーヤーで次の出力を表示します。
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
@@ -104,27 +104,27 @@ ht-degree: 45%
 
 次の手順に従って、タイムライン表示に移動します。
 
-1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **SanJose** --> **Lobby**.
+1. 必要なディスプレイに移動します（例：**DemoProject**／**Locations**／**SanJose**／**StoreDisplay**）。
 
-1. Tap/click **Assign Channel** from the action bar.
+1. アクションバーで「**チャネルの割り当て**」をタップまたはクリックします。
 
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+   ![画像](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    または、
 
-   「 **ダッシュボード** 」をタップまたはクリックし、「 **割り当てられたチャネルとスケジュール** 」パネルで「タイムライン **** 」をクリックします。
+   Tap/click **Dashboard** and click **Timeline** from the **ASSIGNED CHANNELS &amp; SCHEDULES** panel.
 
 1. 保留中の画像（修正予定）
 
 ## Understanding Channel Properties from Channel Assignment Dialog Box {#channel-properties}
 
-次のプロパティは、[ **チャネルの割り当て** ]ダイアログボックスの[ **設定** ]オプションで設定します。
+次のプロパティは、「**チャネルの割り当て**」ダイアログボックスの「**設定**」オプションで設定します。
 
-![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+![画像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
 ### チャネルを選択 {#select-channel}
 
-チャネルを選択すると、チャネル名またはチャネルパスで、目的のチャネルへの参照を指定できます。
+「チャネルを選択」では、目的のチャネルへの参照をチャネル名かチャネルパスのどちらかで指定できます。
 
 * **パス別**：チャネルの絶対パスを使用して明示的な参照を提供します。
 
@@ -158,71 +158,67 @@ ht-degree: 45%
 
 **チャネル割り当て**&#x200B;ダイアログボックスで、次の中断方法を設定できるオプションを選択します。
 
-* **今すぐ**：スケジュールがアクティブになったり、アップデートを受け取った場合は、再生を停止し、すぐに新しいコンテンツを再生更新またはできます
-* **現在のアイテムの最後**：新しいスケジュールがアクティブになったり、アップデートを受け取った場合は、シーケンス内の現在のアイテムの再生が終了するのを待ち、その後新しいコンテンツを更新または再生するオプションがあります
+* **今すぐ**：スケジュールがアクティブになった場合や、アップデートを受け取ったりした場合は、再生を停止し、すぐに新しいコンテンツを再生更新またはできます
+* **現在のアイテムの最後**：新しいスケジュールがアクティブになった場合や、アップデートを受け取った場合は、シーケンス内の現在のアイテムの再生が終了するのを待ち、その後新しいコンテンツを更新または再生するオプションがあります
    >[!NOTE]
    >このオプションはデフォルトで選択されています。
-* **シーケンスの最後**：新しいスケジュールがアクティブになったり、アップデートを受け取った場合は、シーケンス全体が終了するのを待ち、目的のシーケンスの直前に、最初の要素に戻り、新しいコンテンツを更新または再生するオプションがあります
+* **シーケンスの最後**：新しいスケジュールがアクティブになった場合や、アップデートを受け取った場合は、シーケンス全体が終了するのを待ち、目的のシーケンスの直前に、最初の要素に戻り、新しいコンテンツを更新または再生するオプションがあります
 
    >[!NOTE]
-   >2 番目または 3 番目のオプションを使用すると、割り当てで定義されたスケジュール時間が少し遅れる場合があります。これは、プレイヤーが更新する前に、アイテムまたはシーケンスの終了を（指定された時間後に）待機するためです。遅延は、アイテムの再生時間に依存します。
+   >2 番目または 3 番目のオプションを使用すると、割り当てで定義されたスケジュール時間が少し遅れる場合があります。これは、プレーヤーが更新する前に、アイテムまたはシーケンスの終了を（指定された時間後に）待機するためです。遅延は、アイテムの再生時間に依存します。
 
 
-次のプロパティは、[ **チャネルの割り当て** ]ダイアログボックスの[ **スケジュール** ]オプションで設定します。
+次のプロパティは、「**チャネルの割り当て**」ダイアログボックスの「**スケジュール**」オプションで設定します。
 
-![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
-
-### リファレンスタイムゾーン {#reference-timezone}
-
-参照タイムゾーンを使用すると、コンテンツ表示のタイムゾーンを選択できます。
+![画像](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
 ### アクティベーションウィンドウ {#activation-window}
 
-アクティベーションウィンドウでは、 **開始日** と **** 終了日を選択して、コンテンツを表示できます。
+アクティベーションウィンドウでは、**開始日**&#x200B;と&#x200B;**終了日**&#x200B;を選択して、コンテンツを表示できます。
 
 ### 繰り返しスケジュール {#recurrence-schedule}
 
-繰り返しスケジュールを使用すると、コンテンツの定期的なスケジュールを設定できます。 [ **+スケジュール** ]をクリックして、チャネルに繰り返しスケジュールを追加します。
+繰り返しスケジュールを使用すると、コンテンツの定期的なスケジュールを設定できます。「**スケジュールを追加**」をクリックして、チャネルに繰り返しスケジュールを追加します。
 
 >[!NOTE]
->チャネルには、複数の定期スケジュールを追加できます。
->Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+>チャネルには、複数の繰り返しスケジュールを追加できます。
+>Recurrence Schedules introduces *day-parting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
-次のオプションを設定できます。
+以下のオプションを設定できます。
 
-* **名前**:繰り返しスケジュールのタイトル。
-* **繰り返し**:スケジュールを **日別**、 **週別**、月別 ********、年別のいずれで実行するかを選択します。
-* **開始**:スケジュールの開始時間。
-* **終了**:スケジュールの終了時間。 時間または期間別に設定できます。
-   * **時間**:スケジュールは指定した時刻に終了します。
-   * **期間**:スケジュールは、特定の期間（時間または分単位）実行されます。
+* **名前**：繰り返しスケジュールのタイトル。
+* **繰り返し**：スケジュールを **日別**、**週別**、**月別**、**年別**&#x200B;のどれで実行するかを選択します。
+* **開始**：スケジュールの開始時間。
+* **終了**：スケジュールの終了時間。時間または期間別に設定できます。
+   * **時間**：スケジュールは指定した時刻に終了します。
+   * **期間**：スケジュールは、特定の期間（時間または分単位）に実行されます。
 
-### DayParting {#dayparting}
+### 日分割 {#dayparting}
 
-時間帯区分は、1 日を複数の時間帯に分けて、必要な時間にどのコンテツを再生するかを指定することを意味します。AEM Screensでは、必要に応じて1日、1週間、または1か月内の日分割に関するチャネルをスケジュールできます。
+日分割とは、1日を時間スロットに分割し、目的の時間にどのコンテンツを再生するかを指定することです。 AEM Screens では、必要に応じて日、週、月内の時間帯区分でチャネルのスケジュールを設定できます。
 
-次の例では、3つの異なるシナリオのチャネルでの日分割について説明します。
+次の例は、3 つのシナリオにおけるチャネルの時間帯区分に関する説明です。
 
 #### 1 日のコンテンツ再生を複数の時間帯に分割 {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-この例は、RestaurantがDayPartingを使用して、毎日朝食、昼食、夕食のメニューを見せる方法を示します。
+この例は、レストランが日分割を使用して、毎日朝食、昼食、および夕食のメニューを見せる方法を示しています。
 
 ここでは、毎日の時間を異なる時間帯に分割し、チャネルのコンテンツが指定した時間に合わせて再生されるようにします。 チャネルがこの使用例に従ってコンテンツを再生できるように、[繰り返しスケジュール]の次のプロパティを設定します。
 
-| **名前** | **繰り返し** | **Start** | **End** |
+| **名前** | **繰り返し** | **開始** | **終了** |
 |---|---|---|---|
-| モーニング | 毎日 | 6:00 AM | 11:00 AM |
-| ランチ | 毎日 | 11:02 AM | 3:00 PM |
-| ディナー | 毎日 | 3:01 PM | 8:00 PM |
+| 朝食 | 毎日 | 午前 6:00 | 午前 11:00 |
+| ランチ | 毎日 | 午前 11:00 | 午後 3:00 |
+| ディナー | 毎日 | 午後 3:00 | 午後 8:00 |
 
 #### コンテンツを特定の曜日に再生 {#playing-content-on-a-particular-day-of-the-week}
 
-次の例は、ライブイベントが毎週週末8時から午後10時まで発生するカジノでDayPartingを実装し、午後10時から午前1時の間に特別なメニューを使用してディナーメニューを作成する場合の例です。
+次の例は、カジノで実装された日分割の例です。カジノでは、毎週週末に8時から午後10時までの間にライブイベントが発生し、午後10時から午前1時の間には特別な料理をディナーメニューに使用できます。
 
-| **名前** | **繰り返し** | **Start** | **End** |
+| **名前** | **繰り返し** | **開始** | **終了** |
 |---|---|---|---|
-| 週末 | 毎週 | 8:00 PM | 10:00 PM |
-| 特別 | 毎日 | 10:00 PM | 1:00 AM |
+| 週末 | 週単位：土曜日、日曜日 | 午後 8:00 | 午後 10:00 |
+| スペシャル | 毎日：月～金 | 午後 10:00 | 午前 1:00 |
 
 >[!NOTE]
 >

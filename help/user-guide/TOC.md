@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Adobe Experience Manager Screens ヘルプ
 user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
+source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 97%
       + [デバイスの管理](managing-devices.md)
       + チャネルの割り当て {#assigning-channels}
          + [チャネル割り当て](channel-assignment-latest-fp.md)
-         + [チャネルの割り当て：古いAEM Screensの機能パック](channel-assignment.md)
+         + [チャネルの割り当て：古い AEM Screens の機能パック](channel-assignment.md)
    + コア製品機能の使用 {#product-features}
       + [テキストオーバーレイ](text-overlay.md)
       + [オフライン一括更新](bulk-offline-update.md)
@@ -76,6 +76,7 @@ ht-degree: 97%
       + [チャネルレベルの一括画像再生時間](channel-level-image-playback.md)
       + [コマンド同期](using-command-sync.md)
       + [データトリガーを使用したオーサリング](authoring-data-triggers.md)
+      + [音声認識](voice-recognition.md)
    + コンテンツ更新の管理 {#content-updates}
       + [On-Demand コンテンツ更新](on-demand-content.md)
       + [サービスとしてのコンテンツの更新](content-update-as-a-service.md)
@@ -89,7 +90,6 @@ ht-degree: 97%
       + [マルチゾーンからシングルゾーンへの切り替え](multizone-to-singlezone.md)
       + [単一使用テイクオーバーチャネル](single-use-takeover-channel.md)
       + [永続テイクオーバーチャネル](perpetual-takeover-channel.md)
-      + [音声認識](voice-recognition.md)
 + 開発者向けリソースと API リソース {#developing}
    + [REST API](rest-api.md)
    + [AEM Screens 用カスタムコンポーネントの開発](developing-custom-component-tutorial-develop.md)

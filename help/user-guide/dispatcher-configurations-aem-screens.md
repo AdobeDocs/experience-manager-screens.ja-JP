@@ -3,18 +3,11 @@ title: AEM Screens プロジェクトの Dispatcher の設定
 seo-title: AEM Screens プロジェクトの Dispatcher の設定
 description: ここでは、AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインについて説明します。
 seo-description: ここでは、AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインについて説明します。
-uuid: ec5219b7-73f9-4026-99e5-e4a02201b128
-contentOwner: jsyal
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-content-type: reference
-topic-tags: administering
-discoiquuid: 1b1a36a4-4f95-41e3-b0a8-74249efb0119
-docset: aem65
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
-source-wordcount: '180'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8e8413221d0f79f8e46e15d0f00a710296883739
+workflow-type: tm+mt
+source-wordcount: '227'
+ht-degree: 79%
 
 ---
 
@@ -59,20 +52,56 @@ Screens フィルターを設定するには、以下の内容を ***/filter*** 
 ## AEM Screens Filters
 ## # Login, Ping and Device Configurations
 /0200 { /type "allow" /method "POST" /url "/libs/granite/core/content/login.validate/j_security_check" }
-/0201 { /type "allow" /method "GET" /url "/content/screens/svc.json" }
-/0202 { /type "allow" /method "GET" /url "/content/screens/svc.ping.json" }
-/0203 { /type "allow" /method "GET" /url "/content/screens/svc.config.json" }
+/0201 { /type "allow" /method "GET" /url "/libs/granite/csrf/token.json" }
+/0202 { /type "allow" /method "GET" /url "/content/screens/svc.json" }
+/0203 { /type "allow" /method "GET" /url "/content/screens/svc.ping.json" }
+/0204 { /type "allow" /method "GET" /url "/content/screens/svc.config.json" }
 ## # Device Dashboard Configurations
-/0204 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.preferences.json" }
-/0205 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.logs.json" }
-/0206 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.statusinfo.json" }
-/0207 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.screenshot.json" }
+/0210 { /type "allow" /method '(GET|POST)' /url "/home/users/screens/*/devices/*/profile_screens.preferences.json" }
+/0211 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.logs.json" }
+/0212 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.statusinfo.json" }
+/0213 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.screenshot.json" }
 ## # Content Configurations
-/0208 { /type "allow" /method '(GET|HEAD)' /url "/content/screens/*" }
-/0209 { /type "allow" /method '(GET|HEAD)' /url "/content/screens/*/jcr:content/*/offline-config_*.zip" }
-/0210 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
+/0220 { /type "allow" /method '(GET|HEAD)' /url "/content/screens/*" }
+/0221 { /type "allow" /method '(GET|HEAD)' /url "/content/screens/*/jcr:content/*/offline-config_*.zip" }
+/0222 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
 ```
 
 ### 手順 3：Dispatcher キャッシュの無効化 {#step-disabling-dispatcher-cache}
 
 ***/content/screens パス***&#x200B;の Dispatcher キャッシュを無効にします。
+
+画面プレーヤーは認証済みセッションを使用するので、ディスパッチャーは、プレーヤーが要求する画面をキャッシュしません `channels/assets`。
+
+アセットをディスパッチャーのキャッシュから供給するために、アセットのキャッシュを有効にするには、次の操作を行う必要があります。
+
+* `/allowAuthorization 1` 断追加面 `/cache` に
+* ～の追加節に対する以下の規則 `/rule``/cache`
+
+```xml
+/0000
+    {
+        /glob "*"
+        /type "allow"
+    }   
+
+/0001
+    {
+        # Disable Dispatcher Cache for Screens channels
+        /glob "/content/screens/*.html"
+        /type "deny" 
+    }
+
+/0002
+    {
+    # Disable Dispatcher Cache for Screens offline manifests
+    /glob "/content/screens/*.json"
+    /type "deny"
+    }
+
+/0003
+    { # Disable Dispatcher Cache for Screens devices json 
+    /glob "/home/users/screens/*.json"
+    /type "deny"
+    }
+```

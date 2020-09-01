@@ -2,10 +2,10 @@
 title: AEM Screens の音声認識
 description: このページでは、AEM Screens の音声認識機能について説明します。
 translation-type: tm+mt
-source-git-commit: 4e64227cf63fc801c2f6fdfbc44b23df0a4d0bb0
+source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
 workflow-type: tm+mt
-source-wordcount: '1559'
-ht-degree: 48%
+source-wordcount: '1103'
+ht-degree: 40%
 
 ---
 
@@ -37,7 +37,7 @@ AEM Screensプロジェクトで音声認識を実装するには、ディスプ
 
 次の節では、AEM Screens プロジェクトで音声認識機能を有効にして使用する方法について説明します。
 
-## 使用例1:フルスクリーンチャネルスイッチでのコンテンツの表示 {#sequence-channel}
+## フルスクリーンまたはスプリットスクリーンチャネルスイッチでのコンテンツの表示 {#sequence-channel}
 
 音声認識機能を使用する前に、プロジェクトと、プロジェクト用にコンテンツが設定されたチャネルがあることを確認してください。
 
@@ -48,6 +48,12 @@ AEM Screensプロジェクトで音声認識を実装するには、ディスプ
    >[!NOTE]
    >
    >チャネルを作成する方法、またはチャネルにコンテンツを追加する方法については、[チャネルの作成と管理](/help/user-guide/managing-channels.md)を参照してください。
+
+   または、
+
+   3つのシーケンスチャネル **Main**、Dorkns **、HotDrinks**、HotScreenの3つを作成し、さらに1x2 SplitScreenチャネルSplitScreenドリンクを1つ追加して作成できます ******** （下の図を参照）。
+
+   ![画像](assets/voice-recognition/vr-emb-1.png)
 
 1. 各チャネルに移動し、コンテンツを追加します。例えば、**VoiceDemo**／**チャネル**／**Main** に移動し、チャネルを選択します。アクションバーの「**編集**」をクリックしてエディターを開き、必要に応じてコンテンツ（画像／ビデオ）を追加します。同様に、**ColdDrinks** と **HotDrinks** の両方のチャネルにコンテンツを追加します。
 
@@ -64,6 +70,9 @@ AEM Screensプロジェクトで音声認識を実装するには、ディスプ
    **HotDrinks**:
 
    ![画像](assets/voice-recognition/vr-2.png)
+
+   プロジェクトに「画面を分割」チャネルを追加した場合は、SplitScreenに移動し **て** 2つの埋め込みシーケンスをドラッグ&amp;ドロップし、 **ColdDrinks** とHotDrinks **** チャネルの両方にパスを追加します（下図を参照）。
+   ![画像](assets/voice-recognition/vr-emb-6.png)
 
 
 ### チャネル用のタグのセットアップ {#setting-tags}
@@ -91,6 +100,10 @@ AEM Screensプロジェクトで音声認識を実装するには、ディスプ
    ![画像](assets/voice-recognition/vr-tag1.png)
 
 1. 同様に、「 **hot** 」というタグをHotDrinks **** チャネルに追加します。
+
+1. 「画面を分割」チャネルを使用する場合は、SplitScreen **チャネルプロパティに両方のタグ(** ホット **と**&#x200B;コールド **** )を追加します。
+
+   ![画像](assets/voice-recognition/vr-emb-7.png)
 
 1. 完了したら、「**保存して閉じる**」をクリックします。
 
@@ -128,6 +141,9 @@ AEM Screensプロジェクトで音声認識を実装するには、ディスプ
 
 1. チャネル（**Main**、**ColdDrinks**、および **HotDrinks** ）を **LobbyDisplay** に割り当てます。
 
+   >[!NOTE]
+   >分割画面チャネルを作成した場合は、SplitScreen **** チャネルを画面に割り当てます。
+
 1. チャネルを割り当てる際に、各チャネルに次のプロパティを設定します。
 
    | **チャネル名** | **優先度** | **サポートされているイベント** |
@@ -163,113 +179,6 @@ Main **チャネルはコンテンツを再生していますが、キーワー�
 同様に、キーワード **cold** （冷たいものを持たせたいと思う）のように単語をキーワードと共に使うと *、チャネル開始が* ColdDrinks **** チャネルの内容を再生します。
 
 ![newimage](assets/voice-recognition/voice-video.gif)
-
-
-## 使用例2:分割画面チャネルスイッチでのコンテンツの表示 {#split-channel}
-
-音声認識機能を使用する前に、プロジェクトと、プロジェクト用にコンテンツが設定されたチャネルがあることを確認してください。
-
-1. The following example showcases a demo project named **VoiceDemo** and three sequence channels **Main**, **ColdDrinks**, and **HotDrinks**, and one 1x2 Split Screen channel **SplitScreen** as shown in the figure below.
-
-   ![画像](assets/voice-recognition/vr-emb-1.png)
-
-   >[!NOTE]
-   >
-   >チャネルを作成する方法、またはチャネルにコンテンツを追加する方法については、[チャネルの作成と管理](/help/user-guide/managing-channels.md)を参照してください。
-
-1. 各チャネルに移動し、コンテンツを追加します。例えば、**VoiceDemo**／**チャネル**／**Main** に移動し、チャネルを選択します。アクションバーの「**編集**」をクリックしてエディターを開き、必要に応じてコンテンツ（画像／ビデオ）を追加します。同様に、**ColdDrinks** と **HotDrinks** の両方のチャネルにコンテンツを追加します。
-
-   次の図に示すように、チャネルにはアセット（画像）が含まれるようになりました。
-
-   **メイン**:
-
-   ![画像](assets/voice-recognition/vr-emb-3.png)
-
-
-   **ColdDrinks**:
-   ![画像](assets/voice-recognition/vr-3.png)
-
-   **HotDrinks**:
-
-   ![画像](assets/voice-recognition/vr-2.png)
-
-1. SplitScreenに移動し **て** 、2つの埋め込みシーケンスをドラッグ&amp;ドロップし、次の図に示すように、 **ColdDrinks** チャネルとHotDrinks **** の両方にパスを追加します。
-   ![画像](assets/voice-recognition/vr-emb-6.png)
-
-
-### チャネル用のタグのセットアップ {#setting-tags-split}
-
-チャネルにコンテンツを追加したら、各チャネルに移動し、音声認識をトリガーする適切なタグを追加する必要があります。
-
-下の手順に従って、チャネルにタグを追加します。
-
-1. 各チャネルに移動し、コンテンツを追加します。例えば、**VoiceDemo**／**チャネル**／**Main** に移動し、チャネルを選択します。
-
-1. アクションバーの「**プロパティ**」をクリックします。
-
-   ![画像](assets/voice-recognition/vr-5.png)
-
-1. 「**基本**」タブに移動し、「**タグ**」フィールドから既存のタグを選択するか、新しいタグを作成します。
-
-   次の図に示すように、新しいタグ名とヒット `return` キーを入力して、新しいタグを作成できます。
-
-   ![画像](assets/voice-recognition/vr-6.png)
-
-   または、
-
-   事前にAEMインスタンスからプロジェクト用のタグを作成し、それらも選択できます。 「タグの [作成](#creating-tags)」で説明されている手順に従うと、次の図に示すように、場所からタグを選択し、チャネルに追加できます。
-
-   ![画像](assets/voice-recognition/vr-tag1.png)
-
-1. 同様に、「 **hot** 」というタグをHotDrinks **** チャネルに追加します。
-
-1. SplitScreen **** チャネルプロパティのタグ( **hot**&#x200B;と **cold** )は両方とも、
-
-   ![画像](assets/voice-recognition/vr-emb-7.png)
-
-
-1. 完了したら、「**保存して閉じる**」をクリックします。
-
-### ディスプレイにチャネルを割り当て、音声認識を有効にする {#channel-assignment-split}
-
-1. 下の図に示すように、**ロケーション**&#x200B;フォルダーにディスプレイを作成します。
-
-   ![画像](assets/voice-recognition/vr-loc.png)
-
-   >[!NOTE]
-   >ディスプレイにチャネルを割り当てる方法については、[ディスプレイの作成と管理](/help/user-guide/managing-displays.md)を参照してください。
-
-1. チャネル **Main**、ColdDrinks **、HotDrinks****、HotDrinks**、SplitScreenScreenSplitScreen ******** をLobby Displayに割り当てます。
-
-1. チャネルを割り当てる際に、各チャネルに次のプロパティを設定します。
-
-   | **チャネル名** | **優先度** | **サポートされているイベント** |
-   |---|---|---|
-   | メイン | 2 | 初期読み込み、アイドル画面、タイマー |
-   | HotDrinks | 1 | ユーザーインタラクション |
-   | ColdDrinks | 1 | ユーザーインタラクション |
-   | SplitScreen | 1 | ユーザーインタラクション |
-
-   >[!NOTE]
-   >
-   >ディスプレイにチャネルを割り当てる方法については、[ディスプレイの作成と管理](/help/user-guide/managing-displays.md)を参照してください。
-
-1. Once you have assigned channels to a display, navigate to the **Lobby** display and select the display. アクションバーから「**プロパティ**」を選択します。
-
-1. 「**表示**」タブに移動し、「**コンテンツ**」の「**音声対応**」オプションを有効にします。
-
-   ![画像](assets/voice-recognition/vr-disp.png)
-
-   >[!IMPORTANT]
-   >ディスプレイから音声認識機能を有効にする必要があります。
-
-
-### Chrome Player でのコンテンツの表示 {#viewing-content-split}
-
-上記の手順が完了したら、Chromeデバイスを登録して出力を表示できます。
-
->[!NOTE]
->デバイスを AEM Screens プレーヤーに登録する方法については、[デバイス登録](device-registration.md)を参照してください。
 
 この例は、Chrome Player の出力を示します。
 

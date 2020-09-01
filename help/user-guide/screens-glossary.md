@@ -3,22 +3,20 @@ title: 用語集
 seo-title: 用語集
 description: AEM Screens に関連する重要な用語について理解するには、このページを使用してください。
 seo-description: AEM Screens に関連する重要な用語について理解するには、このページを使用してください。
-uuid: 0db1c907-dc82-4f06-84eb-084e7bcfbe4c
-contentOwner: User
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: 09d6104e-903b-4cff-a4e2-1469653352c3
-docset: aem65
-translation-type: ht
-source-git-commit: a61375feb5ba0da16f6f81d4b577fce578ac120e
+translation-type: tm+mt
+source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+workflow-type: tm+mt
+source-wordcount: '428'
+ht-degree: 87%
 
 ---
 
 
-# 用語集{#glossary}
+# 用語集 {#glossary}
 
 **アプリケーションチャネル**：アプリケーションチャネルには、インタラクティブなコンテンツを表示する、開発者が作成したアプリケーションが表示されます。
+
+**ループを引き付け** ：引き付けループは、ディスプレイに存在する可能性がある状態が2つ以上ある場合の *ホーム* または ** アイドル状態として定義されます。 その役割は *、お客をディスプレイに* 誘い込み、通常は画面に触れるだけでなく、商品との交流も通じて、顧客の関心を呼び込むことです。
 
 **デバイス**：デバイスには、プレーヤーソフトウェアを実行して視覚的に出力する機能が備わっています。一般的なコンテンツやエクスペリエンスの切り抜き、拡大、変換の表示を制御します。スクリーン設定は表示に結び付けられていますが、技術的な不具合が発生した場合には交換できます。
 

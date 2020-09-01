@@ -2,19 +2,11 @@
 title: AEM Screens とは
 seo-title: AEM Screens とは
 description: このページでは AEM Screens の概要を示します。AEM Screens は、包括的なデジタルマーケティングプラットフォームと連携する様々なタイプの画面など、動的でインタラクティブなデジタルエクスペリエンスおよびインタラクションを公開できるデジタルサイネージソリューションです。ここでは、Screens のアーキテクチャの概要と共に、プロジェクトの開発に関与する様々な役割について説明します。
-seo-description: このページでは AEM Screens の概要を示します。AEM Screens は、包括的なデジタルマーケティングプラットフォームと連携する様々なタイプの画面など、動的でインタラクティブなデジタルエクスペリエンスおよびインタラクションを公開できるデジタルサイネージソリューションです。ここでは、Screens のアーキテクチャの概要と共に、プロジェクトの開発に関与する様々な役割について説明します。
-uuid: 25e20ed0-6089-44fb-ac65-2ad48111d18b
-contentOwner: User
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: f30bfdba-8db6-482b-8d0c-2818fc58e2b1
-docset: aem65
-translation-type: ht
-source-git-commit: 11d9100b2aeb361a8b1aaaf2806272809f35a938
-workflow-type: ht
-source-wordcount: '768'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+workflow-type: tm+mt
+source-wordcount: '577'
+ht-degree: 92%
 
 ---
 
@@ -29,7 +21,7 @@ ht-degree: 100%
 
 **AEM Screens** は、***AEM Sites*** の強固な基盤の上に構築されています。マーケティング担当者や IT 担当者は、AEM Screens を使用し、ブランドを確立して需要を促進するという店舗や会場設備での目標に影響する、複数のデジタルスクリーンでのエクスペリエンスを作成して管理できます。AEM Screens と Sites を統合すると、既存のコンテンツを再利用し、明瞭で一貫性のある顧客ソリューションを効果的に提供することが可能です。これにより、費用対効果と有用性の非常に高い、特化したデジタルエクスペリエンスを作成するための合理的なワークフローが実現します。さらに、ブランドの認知度に影響を与え、購入や関与の増加につながる意思決定にも影響を及ぼすことができます。
 
-AEM Screens は Web ベースの強力なソリューションであり、専用のデジタルメニューボード、商品の推奨機能、背景のライフスタイル画像を作成して、顧客のインタラクションを強化し、同じ AEM プラットフォームから店舗、ホテル、銀行、医療機関、教育機関などの様々な場所に、統一された有用なブランドエクスペリエンスを届けることが可能です。Screens では、インタラクティブなディスプレイ、ウェイファインディング、ブランディング、環境音の追加など、多数のユニークなアプリケーションがデプロイされる領域に基づいて顧客や従業員に提供されます。
+AEM Screens は Web ベースの強力なソリューションであり、専用のデジタルメニューボード、商品の推奨機能、背景のライフスタイル画像を作成して、顧客のインタラクションを強化し、同じ AEM プラットフォームから店舗、ホテル、銀行、医療機関、教育機関などの様々な場所に、統一された有用なブランドエクスペリエンスを届けることが可能です。画面には、インタラクティブなディスプレイ、方法の検索、ブランディング、顧客や従業員の環境への環境感の追加など、多くの独自のアプリが用意されています。
 
 AEM Screens を使用したアプリケーションの作成と管理はシンプルかつ直感的です。アプリケーションは、顧客や実装パートナーが AEM Screens 向けに作成した Web ページをホストします。***ロケーション*&#x200B;は、事前に定義された階層を管理し、*ディスプレイ*&#x200B;を含んでいます。各ディスプレイには、関連付けられている様々なデバイスやスクリーンを表示するダッシュボードがあります。AEM Screens のコンテンツは&#x200B;*チャネル*&#x200B;で管理されます。チャネル内に存在するコンテンツが AEM Screens Player によってディスプレイにレンダリングされます。
 
@@ -57,30 +49,17 @@ AEM Screens に関連する重要な用語を理解するには、[用語集](sc
 
 ![chlimage_1-30](assets/chlimage_1-30.png)
 
->[!NOTE]
->
->*さらに、役割ごとの各責任範囲を参照するには、前述のユーザーをクリックしてください。*
-
-## 前提となる知識 {#pre-requisite-knowledge}
-
-AEM Screens を使用してデジタルサイネージプロジェクトの作業を開始するには、Adobe Experience Manager（AEM）の知識が必要で、AEM Screens プロジェクトに取り組む前に知識を習得しておく必要があります。
-
-Adobe Experience Manager 6.5 については、以下のチュートリアルとリソースを参照してください。
-
-* **Adobe Experience Manager の概要**：Adobe Experience Manager の入門記事やビデオチュートリアルが含まれています。
-* **AEM 6.5 のチュートリアルとビデオ**：AEM 6.5 のリリースに伴う AEM Sites、AEM Assets、AEM Forms、AEM Screens、AEM Foundation の新機能と更新された機能について重点的に解説する一連のチュートリアルとビデオです。
-* **AEM の中心概念**：AEM の構造に関する中心概念と、それを基にした開発方法の概要（JCR、Sling、OSGi、ディスパッチャー、ワークフロー、MSM の解説を含む）です。
 
 ## その他のリソース {#additional-resources}
 
 * **実装の要点（ガイド付き）**
 
-   ガイド付きの学習リソースである **[AEM Screens 実装の要点](https://guided.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**では、AEM Screens でサポートしている基本的な機能と高度な機能について説明しています。
+   ガイド付きの学習リソースである **[AEM Screens 実装の要点](https://guided.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**&#x200B;では、AEM Screens でサポートしている基本的な機能と高度な機能について説明しています。
 
 * **AEM Screens プロジェクトのベストプラクティスガイド**
 
-   AEM Screens プロジェクトの実装時に一般的な問題を特定するために設計された、**[AEM Screens プロジェクトのベストプラクティスガイド](https://docs.adobe.com/content/help/ja-JP/experience-manager-screens/using/about-guide.html)**に従います。この資料では主に、プロジェクト上の役割と責任、様々な役割についての RACI チャート、AEM プラットフォーム設定、サポートと監視に焦点を当てています。
+   AEM Screens プロジェクトの実装時に一般的な問題を特定するために設計された、**[AEM Screens プロジェクトのベストプラクティスガイド](https://docs.adobe.com/content/help/ja-JP/experience-manager-screens/using/about-guide.html)**&#x200B;に従います。この資料では主に、プロジェクト上の役割と責任、様々な役割についての RACI チャート、AEM プラットフォーム設定、サポートと監視に焦点を当てています。
 
 * **新しいアドビカスタマーサポートエクスペリエンス**
 
-   Admin Console サポートチケットの詳細については、**[Customer One for Enterprise ヘルプ](https://docs.adobe.com/content/help/ja-JP/customer-one/using/home.htmlhome.html#)**を参照してください。
+   Follow **[Customer One for Enterprise Help](https://docs.adobe.com/content/help/ja-JP/customer-one/using/home.htmlhome.html#)** to learn more about Admin Console Support tickets.

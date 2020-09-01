@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1399'
 ht-degree: 100%
 
@@ -185,7 +185,7 @@ Screens 用のプロジェクトを作成したら、下の手順に従ってス
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
-1. 「****&#x200B;開発者&#x200B;**モード (チャネルをオンラインに強制)**」をオンにして、チャネルをオンラインにします。
+1. 「****&#x200B;開発者&#x200B;**モード（チャネルをオンラインに強制）**」をオンにして、チャネルをオンラインにします。
 
    「**保存して閉じる**」をクリックしてオプションを保存します。
 

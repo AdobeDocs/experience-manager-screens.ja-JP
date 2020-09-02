@@ -2,10 +2,10 @@
 title: 機能パック 202008 のリリースノート
 description: このページでは、機能パック202008のリリースノートについて説明します。
 translation-type: tm+mt
-source-git-commit: 8c8b6ec0171d021370e7476b3aff5cdd212ebb32
+source-git-commit: 7e3830eed45fd74a334c97dfd49b1913c455c5b8
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 33%
+source-wordcount: '328'
+ht-degree: 38%
 
 ---
 
@@ -24,7 +24,7 @@ You can download the latest feature pack for AEM Screens 6.5.5 Release from the 
 
 ## リリース日 {#release-date}
 
-AEM Screens機能パック202008のリリース日は2020年8月31日です。
+AEM Screens機能パック202008のリリース日は2020年9月3日です。
 
 ### 新機能 {#what-is-new}
 
@@ -42,11 +42,19 @@ AEM Screens機能パック202008のリリース日は2020年8月31日です。
 
 * **AEM Screensの音声認識機能**
 
-   音声認識機能を使用すると、音声操作によって駆動されるAEM Screensチャネルのコンテンツを変更できます。
+   音声認識機能を使用すると、音声操作によって駆動される AEM Screens チャネルのコンテンツを変更できます。
 
-   コンテンツ作成者は、ディスプレイを音声対応に設定できます。 この機能の目的は、お客様がディスプレイと対話する方法として音声を利用できるようにすることです。
+   コンテンツ作成者は、ディスプレイを音声対応となるよう設定できます。この機能の目的は、お客様がディスプレイと対話する方法として音声を利用できるようにすることです。
 
    詳しくは、「 [音声認識](voice-recognition.md) 」を参照してください。
+
+### 既知の問題と修正点 {#known-issues}
+
+AEM Screens6.5.5機能パックを使用している場合は、WindowsまたはAndroid Player用の環境を設定する必要があります。
+
+* 詳しくは、「Windows 10 Player [の](implementing-windows-player.md#fp-environment-setup) 実装」を参照してください。
+
+* 詳しくは、 [Android Playerの](implementing-android-player.md#fp-environment-setup) 実装（英語）を参照してください。
 
 ### リリースされている AEM Screens Player {#released-aem-screens-players}
 

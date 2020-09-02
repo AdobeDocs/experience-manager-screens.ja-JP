@@ -4,10 +4,10 @@ seo-title: AEM Screens プロジェクトの Dispatcher の設定
 description: ここでは、AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインについて説明します。
 seo-description: ここでは、AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインについて説明します。
 translation-type: tm+mt
-source-git-commit: 8e8413221d0f79f8e46e15d0f00a710296883739
+source-git-commit: 37025002d02603ab8a5c571086524be858389557
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 79%
+source-wordcount: '251'
+ht-degree: 71%
 
 ---
 
@@ -33,6 +33,21 @@ AEM Screens プロジェクトの Dispatcher を設定する前に、Dispatcher 
 ## Dispatcher の設定 {#configuring-dispatcher}
 
 以下の手順に従って、AEM Screens プロジェクトの Dispatcher を設定します。
+
+### スティッキーセッションの有効化 {#enable-sticky-session}
+
+ディスパッチャーと共に複数の発行インスタンスを使用する場合は、ディスパッチャー内のdispatcher.anyファイルを更新する必要があります。
+
+```xml
+/stickyConnections {
+  /paths
+  {
+    "/content/screens"
+    "/home/users/screens"
+    "/libs/granite/csrf/token.json"
+  }
+}
+```
 
 ### 手順 1：クライアントヘッダーの設定 {#step-configuring-client-headers}
 
@@ -76,7 +91,7 @@ Screens フィルターを設定するには、以下の内容を ***/filter*** 
 アセットをディスパッチャーのキャッシュから供給するために、アセットのキャッシュを有効にするには、次の操作を行う必要があります。
 
 * `/allowAuthorization 1` 断追加面 `/cache` に
-* ～の追加節に対する以下の規則 `/rule``/cache`
+* ～の `/rules` 節追加に対する以下の規則 `/cache`
 
 ```xml
 /0000

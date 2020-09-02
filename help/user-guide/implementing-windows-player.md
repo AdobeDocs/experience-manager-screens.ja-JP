@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 319a80a7fe3d68cbc16108eb302def390b445838
+source-git-commit: 24157fdc507beaacd46f3d42e8a0a975c729df38
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 94%
@@ -33,7 +33,7 @@ AEM Screens 用の Windows プレーヤーを実装するには、同プレー�
 
 AEM Screens6.5.5機能パックを使用している場合は、Windows Player用の環境を設定する必要があります。
 
-それには、次の手順に従います。
+その場合は、次の手順に従います。
 
 1. Navigate to **Adobe Experience Manager Web Console
 Configuration** using `http://localhost:4502/system/console/configMgr`.
@@ -41,7 +41,7 @@ Configuration** using `http://localhost:4502/system/console/configMgr`.
 1. 「 *AdobeGraniteトークン認証ハンドラー*」を検索します。
 
 1. login-token cookieの **SameSite属性を** Lax **から** Noneに設定します ****。
-   ![image](/help/user-guide/assets/granite-updates.png)
+   ![画像](/help/user-guide/assets/granite-updates.png)
 
 1. 「**保存**」をクリックします。
 

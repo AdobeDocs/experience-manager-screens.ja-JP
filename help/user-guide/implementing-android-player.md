@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 319a80a7fe3d68cbc16108eb302def390b445838
+source-git-commit: 24157fdc507beaacd46f3d42e8a0a975c729df38
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 92%
@@ -35,7 +35,7 @@ AEM Screens 用の Android プレーヤーを実装するには、同プレー�
 
 AEM Screens6.5.5機能パックを使用している場合は、Androidプレイヤー用の環境を設定する必要があります。
 
-それには、次の手順に従います。
+その場合は、次の手順に従います。
 
 1. Navigate to **Adobe Experience Manager Web Console
 Configuration** using `http://localhost:4502/system/console/configMgr`.
@@ -43,7 +43,7 @@ Configuration** using `http://localhost:4502/system/console/configMgr`.
 1. 「 *AdobeGraniteトークン認証ハンドラー*」を検索します。
 
 1. login-token cookieの **SameSite属性を** Lax **から** Noneに設定します ****。
-   ![image](/help/user-guide/assets/granite-updates.png)
+   ![画像](/help/user-guide/assets/granite-updates.png)
 
 1. 「**保存**」をクリックします。
 

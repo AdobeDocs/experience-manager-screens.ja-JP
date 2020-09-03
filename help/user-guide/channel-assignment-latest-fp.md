@@ -3,10 +3,10 @@ title: チャネル割り当て — 最新の FP
 seo-title: チャネル割り当て — 最新の FP
 description: チャネルの割り当てと日分割については、このページを参照してください。
 translation-type: tm+mt
-source-git-commit: 87dac70f6cf349d8c67f153b813d605f4da378d1
+source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 78%
+source-wordcount: '1471'
+ht-degree: 77%
 
 ---
 
@@ -193,7 +193,7 @@ ht-degree: 78%
 
 ### 時間帯区分 {#dayparting}
 
-時間帯区分は、1 日を複数の時間帯に分けて、必要な時間にどのコンテツを再生するかを指定することを意味します。AEM Screens では、必要に応じて日、週、月内の時間帯区分でチャネルのスケジュールを設定できます。
+日分割とは、1日を時間スロットに分割し、目的の時間にどのコンテンツを再生するかを指定することです。 AEM Screens では、必要に応じて日、週、月内の時間帯区分でチャネルのスケジュールを設定できます。
 
 次の例は、3 つのシナリオにおけるチャネルの時間帯区分に関する説明です。
 

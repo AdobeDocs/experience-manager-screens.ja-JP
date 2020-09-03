@@ -2,7 +2,7 @@
 title: 機能パック 202008 のリリースノート
 description: このページでは、機能パック202008のリリースノートについて説明します。
 translation-type: tm+mt
-source-git-commit: a179b6be273b0b0ca166bae755399f8254091ee6
+source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 37%
@@ -20,7 +20,7 @@ ht-degree: 37%
 
 AEM Screensは、AEM 6.5機能パック5をリリースしました。
 
-You can download the latest feature pack for AEM Screens 6.5.5 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. 「**Adobe Experience Manager**」タブに移動し、「**Screens**」を検索して最新の機能パックを入手します。
+You can download the latest feature pack for AEM Screens 6.5.5 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/jp/aemcloud.html) using your Adobe ID. 「**Adobe Experience Manager**」タブに移動し、「**Screens**」を検索して最新の機能パックを入手します。
 
 ## リリース日 {#release-date}
 

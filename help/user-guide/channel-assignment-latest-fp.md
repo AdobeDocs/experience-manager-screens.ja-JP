@@ -1,12 +1,12 @@
 ---
 title: チャネル割り当て — 最新の FP
 seo-title: チャネル割り当て — 最新の FP
-description: このページでは、チャネル割り当てと時間帯区分について学びます。
+description: チャネルの割り当てと日分割については、このページを参照してください。
 translation-type: tm+mt
-source-git-commit: 4ce9bd954a30282d94e30a6868d269b4df0a0f5e
+source-git-commit: 87dac70f6cf349d8c67f153b813d605f4da378d1
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 75%
+source-wordcount: '1472'
+ht-degree: 78%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 75%
 
 ディスプレイの設定が完了したら、チャネルをディスプレイに割り当てて、コンテンツを表示する必要があります。
 
-このページでは、表示にチャネルを割り当てる方法、チャネルのプロパティを理解する方法、および日分割について説明します。
+このページでは、表示にチャネルを割り当てる方法、チャネルのプロパティを理解する方法、および日分割を示します。
 
 >[!NOTE]
 >1 つのディスプレイに複数のチャネルを割り当てることができます。
@@ -108,13 +108,11 @@ ht-degree: 75%
 
 1. アクションバーで「**チャネルの割り当て**」をタップまたはクリックします。
 
-   ![画像](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
-
    または、
 
    Tap/click **Dashboard** and click **Timeline** from the **ASSIGNED CHANNELS &amp; SCHEDULES** panel.
 
-1. 保留中の画像（修正予定）
+   ![画像](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
 ## Understanding Channel Properties from Channel Assignment Dialog Box {#channel-properties}
 
@@ -182,7 +180,7 @@ ht-degree: 75%
 
 >[!NOTE]
 >チャネルには、複数の繰り返しスケジュールを追加できます。
->Recurrence Schedules introduces *day-parting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+>繰り返しスケジュールでは、ある日の特定の時間に実行される複数のチャネルでグローバルスケジュールを設定でき、また一度にすべてのディスプレイでその設定を再使用できる&#x200B;*時間帯区分*&#x200B;を導入します。
 
 以下のオプションを設定できます。
 
@@ -193,15 +191,15 @@ ht-degree: 75%
    * **時間**：スケジュールは指定した時刻に終了します。
    * **期間**：スケジュールは、特定の期間（時間または分単位）に実行されます。
 
-### 日分割 {#dayparting}
+### 時間帯区分 {#dayparting}
 
-日分割とは、1日を時間スロットに分割し、目的の時間にどのコンテンツを再生するかを指定することです。 AEM Screens では、必要に応じて日、週、月内の時間帯区分でチャネルのスケジュールを設定できます。
+時間帯区分は、1 日を複数の時間帯に分けて、必要な時間にどのコンテツを再生するかを指定することを意味します。AEM Screens では、必要に応じて日、週、月内の時間帯区分でチャネルのスケジュールを設定できます。
 
 次の例は、3 つのシナリオにおけるチャネルの時間帯区分に関する説明です。
 
 #### 1 日のコンテンツ再生を複数の時間帯に分割 {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-この例は、レストランが日分割を使用して、毎日朝食、昼食、および夕食のメニューを見せる方法を示しています。
+この例は、DayPartingを使用して毎日朝食、昼食、夕食のメニューを紹介するレストランの例を示します。
 
 ここでは、毎日の時間を異なる時間帯に分割し、チャネルのコンテンツが指定した時間に合わせて再生されるようにします。 チャネルがこの使用例に従ってコンテンツを再生できるように、[繰り返しスケジュール]の次のプロパティを設定します。
 
@@ -213,7 +211,7 @@ ht-degree: 75%
 
 #### コンテンツを特定の曜日に再生 {#playing-content-on-a-particular-day-of-the-week}
 
-次の例は、カジノで実装された日分割の例です。カジノでは、毎週週末に8時から午後10時までの間にライブイベントが発生し、午後10時から午前1時の間には特別な料理をディナーメニューに使用できます。
+次の例は、ライブイベントが毎週週末8時から午後10時まで発生するカジノでDayPartingを実装し、午後10時から午前1時の間に特別なメニューを使用してディナーメニューを作成する場合の例です。
 
 | **名前** | **繰り返し** | **開始** | **終了** |
 |---|---|---|---|

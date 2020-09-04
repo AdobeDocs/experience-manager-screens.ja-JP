@@ -4,10 +4,10 @@ seo-title: AEM Screens プロジェクトの Dispatcher の設定
 description: ここでは、AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインについて説明します。
 seo-description: ここでは、AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインについて説明します。
 translation-type: tm+mt
-source-git-commit: 37025002d02603ab8a5c571086524be858389557
+source-git-commit: 4a1fb81fa343983093590c36ccb6a4fd110cdad2
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 71%
+source-wordcount: '248'
+ht-degree: 72%
 
 ---
 
@@ -36,7 +36,7 @@ AEM Screens プロジェクトの Dispatcher を設定する前に、Dispatcher 
 
 ### スティッキーセッションの有効化 {#enable-sticky-session}
 
-ディスパッチャーと共に複数の発行インスタンスを使用する場合は、ディスパッチャー内のdispatcher.anyファイルを更新する必要があります。
+ディスパッチャーと共に複数の発行インスタンスを使用する場合は、 `dispatcher.any` ファイルを更新する必要があります。
 
 ```xml
 /stickyConnections {

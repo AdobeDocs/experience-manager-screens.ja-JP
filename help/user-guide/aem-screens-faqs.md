@@ -5,11 +5,11 @@ description: ここでは、AEM Screens プロジェクトに関連する FAQ �
 seo-description: ここでは、AEM Screens プロジェクトに関連する FAQ への回答を掲載しています。
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-translation-type: ht
-source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
-workflow-type: ht
-source-wordcount: '1271'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
+workflow-type: tm+mt
+source-wordcount: '1294'
+ht-degree: 98%
 
 ---
 
@@ -89,13 +89,13 @@ Apache Sling Referrer Filter の「Allow Empty」をオンにする必要があ�
 
 純粋な Android API を使用するクロスプラットフォームの Android ウォッチドッグは、既に APK に含まれています。追加のソフトウェアは必要ありませんが、使用するデバイスによっては、APK に再署名して、完全な電源サイクルを実行するためのシステム権限（PowerManager API）を取得しなければならない場合があります。製造元のキーを使用して再署名しない場合は、アプリケーションが終了して再起動しますが、電源のオン／オフはおこなわれません。
 
-Android プレーヤーの実装方法について詳しくは、[**Android プレーヤーの実装&#x200B;**](implementing-android-player.md)を参照してください。
+Android プレーヤーの実装方法について詳しくは、[**Android プレーヤーの実装**](implementing-android-player.md)&#x200B;を参照してください。
 
 ### 5. Adobe／AMS では、各デバイスの監視にどのようなサードパーティ製リモート監視および警告ツール（ソフトウェア）を推奨していますか？ {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
 必要な監視および警告機能にもよりますが、新機能である AEM Screens 通知サービスでは、デバイスがしばらくの間 ping に応答しなかった場合にユーザーに通知します。サードパーティツールは、お使いのオペレーティングシステム（OS）とその機能、およびユーザー固有のニーズによって異なります。
 
-デバイスアクティビティの監視について詳しくは、[**AEM Screens 通知サービス&#x200B;**](screens-notifications-service.md)を参照してください。
+デバイスアクティビティの監視について詳しくは、[**AEM Screens 通知サービス**](screens-notifications-service.md)&#x200B;を参照してください。
 
 ## AEM Screens Player {#aem-screens-player}
 
@@ -124,6 +124,10 @@ AEM Screens Player は、起動時に 404 エラーが発生すると、***/cont
 1. ビルド番号を 7 回タップして、**設定**&#x200B;の「**開発者向けオプション**」を有効にします。
 1. **開発者向けオプション**&#x200B;に移動します。
 1. 「**スリープモードにしない**」をオンにします。
+
+### 4. Windowsプレーヤーのウィンドウモードを有効にする方法
+
+Windows Playerにはウィンドウモードはありません。 常にフルスクリーンモードになります。
 
 ## トラブルシューティングに関する一般的なヒント {#general-troubleshooting-tips}
 

@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
+source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 90%
@@ -34,7 +34,8 @@ AEM Screens 用の Windows プレーヤーを実装するには、同プレー�
 
 ### AEM Screens6.5.5 Service Packの環境の設定 {#fp-environment-setup}
 
-AEM Screens6.5.5 Service Packを使用している場合は、Windows Player用の環境を設定する必要があります。
+>[!NOTE]
+>AEM Screens6.5.5 Service Packを使用している場合は、Windows Player用の環境を設定する必要があります。
 
 login-token cookieのSameSite属性をLax **から** None **に設定します。この値は、** Adobe Experience ManagerWeb ConsoleConfiguration ******** on all AEM authorおよびpublish instancesに設定します。
 

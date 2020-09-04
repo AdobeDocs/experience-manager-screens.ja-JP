@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: a179b6be273b0b0ca166bae755399f8254091ee6
+source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 89%
@@ -33,7 +33,8 @@ AEM Screens 用の Android プレーヤーを実装するには、同プレー�
 
 ### AEM Screens6.5.5 Service Packの環境の設定 {#fp-environment-setup}
 
-AEM Screens6.5.5 Service Packを使用している場合は、Androidプレイヤー用の環境を設定する必要があります。
+>[!NOTE]
+>AEM Screens6.5.5 Service Packを使用している場合は、Androidプレイヤー用の環境を設定する必要があります。
 
 login-token cookieのSameSite属性をLax **から** None **に設定します。この値は、** Adobe Experience ManagerWeb ConsoleConfiguration ******** on all AEM authorおよびpublish instancesに設定します。
 

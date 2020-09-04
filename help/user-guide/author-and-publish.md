@@ -4,9 +4,9 @@ seo-title: AEM Screens でのオーサーとパブリッシュの設定
 description: AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成された後、複数のパブリッシュインスタンスにフォワードレプリケートされます。ここでは、オーサーとパブリッシュを AEM Screens 用に設定する方法について説明します。
 seo-description: AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成された後、複数のパブリッシュインスタンスにフォワードレプリケートされます。ここでは、オーサーとパブリッシュを AEM Screens 用に設定する方法について説明します。
 translation-type: tm+mt
-source-git-commit: 37025002d02603ab8a5c571086524be858389557
+source-git-commit: 80697595b7fc3d12c9f148a3998335d1d7cefb14
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1921'
 ht-degree: 98%
 
 ---
@@ -32,7 +32,8 @@ ht-degree: 98%
 >
 >この AEM Screens 機能は、AEM 6.4 Screens 機能パック 2 がインストールされている場合にのみ使用できます。この機能パックにアクセスするには、アドビサポートに連絡してアクセス権をリクエストする必要があります。アクセス権が付与されると、パッケージ共有から機能パックをダウンロードできるようになります。
 
->[!I重要]
+>[!IMPORTANT]
+>
 >複数の発行インスタンスをディスパッチャーと共に使用する場合は、ディスパッチャー内のdispatcher.anyファイルを更新する必要があります。 詳しくは、「スティッキーセッションの [有効化](dispatcher-configurations-aem-screens.md#enable-sticky-session) 」を参照してください。
 
 ## オーサーインスタンスとパブリッシュインスタンスの設定{#configuring-author-and-publish-instances}

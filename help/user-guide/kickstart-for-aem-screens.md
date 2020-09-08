@@ -3,10 +3,10 @@ title: キックスタートガイド
 seo-title: キックスタートガイド
 description: このページの説明に従って、AEM Screens のデモプロジェクトを作成します。インストールして新しいプロジェクトをセットアップしてから、AEM Screens Player でコンテンツを表示するまでの、デジタルサイネージエクスペリエンスを作成できます。
 translation-type: tm+mt
-source-git-commit: c1a8317b835e000478591e4caa94b92f32a123d2
+source-git-commit: 6f95322e35861ef4b552c89320847d97f9644a4b
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 59%
+source-wordcount: '1316'
+ht-degree: 54%
 
 ---
 
@@ -205,22 +205,51 @@ ChromeOSプレーヤーがオンになったら、次の手順に従ってChrome
 
 1. Tap/click the **Device Manager** from the action bar.
 
+   ![画像](assets/kickstart/demo-register1.png)
+
 1. Tap/click the **Device Registration** from the top right.
 
 1. Select the required device and tap/click **Register Device**.
 
+   ![画像](assets/kickstart/demo-register2.png)
+
 1. デバイスが登録コードを送信してから同時に登録コードが送信されるのを待ち、Chromeデバイスで **登録コード** (Registration Code)を確認します。
+   ![画像](assets/kickstart/demo-register3.png)
 
 1. If the **Registration Code** is the same on both machines, tap/click **Validate** in AEM.
 
-1. デバイスの名前を設定し、「**登録**」をクリックします。
+1. Set the desired name as **ChromeDeviceforDemo** for the device, and click **Register**.
+
+   ![画像](assets/kickstart/demo-register4.png)
+
+1. [ **Device Registration Successful** ]ダイアログ・ボックスで[Assign Display **** ]をクリックします。
+
+   ![画像](assets/kickstart/demo-register5.png)
+
+1. 表示するパスを、DemoScreens **—> TestLocation** —> DisplayDisplayDisplayLoby **クリックAssignDemoScreens** —> TestLocation **—> DisplayDisplayLobyクリック** AssignDemoScreensとして選択しま ********&#x200B;す。
+
+   ![画像](assets/kickstart/demo-device6.png)
+
+1. デバイスが正常に割り当てられると、次の確認が表示されます。
+
+   ![画像](assets/kickstart/demo-register8.png)
 
 1. 「**完了**」をタップまたはクリックして、登録プロセスを完了します。
 
+1. 登録済みのデバイスをディスプレイダッシュボードから表示できるはずです。
+
+   ![画像](assets/kickstart/demo-register9.png)
 
 ### Chrome Player でのコンテンツの表示 {#viewing-content-output}
 
-この例は、Chrome Player の出力を示します。ディスプレイにチャネルを割り当てたら、そのデバイスをプレーヤーに登録する必要があります。
+チャネルー内のすべてのアセットがChromeデバイスで再生されるようになりました。
+
+AEM Screensチャネルのコンテンツをプレイしています。
+
+![画像](assets/kickstart/demo-video-screens.gif)
+
+
+
 
 
 

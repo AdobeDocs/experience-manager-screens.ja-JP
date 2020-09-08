@@ -42,7 +42,7 @@ ht-degree: 100%
 
 次の手順に従って、AEM Screens でこれら 2 つの重要な設定が有効になっているかどうかを確認します。
 
-1. [Adobe Experience Manager Web コンソール Sling Health Check](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=)に移動します。
+1. [Adobe Experience Manager Web コンソール Sling Health Check ](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=)に移動します。
 
    ![アセット](assets/health-check1.png)
 
@@ -72,7 +72,7 @@ AEM Screens で使用できるように AEM サーバーを設定する際に役
 
 1. AEM インスタンスでハンマーアイコン／**操作**／**Web コンソール**&#x200B;をクリックして、「**Adobe Experience Manager Web コンソール設定**」に移動します。
 
-   ![image](assets/config/empty-ref1.png)
+   ![画像](assets/config/empty-ref1.png)
 
 1. **Adobe Experience Manager Web コンソール設定**&#x200B;が開きます。「sling referrer」を検索します。
 
@@ -80,7 +80,7 @@ AEM Screens で使用できるように AEM サーバーを設定する際に役
 
 1. 「**Allow Empty**」オプションをオンにします（下図を参照）。
 
-   ![image](assets/config/empty-ref2.png)
+   ![画像](assets/config/empty-ref2.png)
 
 1. 「**保存**」をクリックして、Apache Sling Referrer Filter の「Allow Empty」を有効にします。
 
@@ -89,7 +89,7 @@ AEM Screens で使用できるように AEM サーバーを設定する際に役
 
 1. AEM インスタンスでハンマーアイコン／**操作**／**Web コンソール**&#x200B;をクリックして、「**Adobe Experience Manager Web コンソール設定**」に移動します。
 
-   ![image](assets/config/empty-ref1.png)
+   ![画像](assets/config/empty-ref1.png)
 
 1. **Adobe Experience Manager Web コンソール設定**&#x200B;が開きます。「Apache Felix Jetty Based HTTP Service」を検索します。
 
@@ -97,7 +97,7 @@ AEM Screens で使用できるように AEM サーバーを設定する際に役
 
 1. 「**ENABLE HTTP**」オプションをオンにします（下図を参照）。
 
-   ![image](assets/config/config-1.png)
+   ![画像](assets/config/config-1.png)
 
 1. 「**Save**」をクリックし、*HTTP* サービスを有効にします。
 

@@ -3,10 +3,10 @@ title: キックスタートガイド
 seo-title: キックスタートガイド
 description: このページの説明に従って、AEM Screens のデモプロジェクトを作成します。インストールして新しいプロジェクトをセットアップしてから、AEM Screens Player でコンテンツを表示するまでの、デジタルサイネージエクスペリエンスを作成できます。
 translation-type: tm+mt
-source-git-commit: f2fef18cc73825b3f062a79c560097e8fd00ac9f
+source-git-commit: 78aab8e8ad8ad9e3a3caf20fef044f507b5298a0
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 73%
+source-wordcount: '985'
+ht-degree: 63%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 73%
 
 ## チュートリアル {#tutorial}
 
-### Creating a new AEM Screens Project {#creating-project}
+### AEM Screens プロジェクトの作成 {#creating-project}
 
 最初のステップは、新しいAEM Screensプロジェクトを作ることです。
 
@@ -64,7 +64,7 @@ ht-degree: 73%
    >プロジェクトを作成すると、画面のプロジェクトホームページに戻ります。 これでプロジェクトを選択できます。プロジェクトには、 **Applications**、 **チャネル**、 **Devices**、Devices **、Locations、Locations、Schedulesという5つの異なるフォルダがあ******&#x200B;ります。
 
 
-### 新しいチャネルの作成 {#creating-channel}
+### チャネルの作成 {#creating-channel}
 
 プロジェクトを作成したら、コンテンツを管理するための新しいチャネルを作成する必要があります。
 
@@ -91,73 +91,62 @@ ht-degree: 73%
 
 以下の手順に従って、プロジェクトのチャネル（*TestChannel*）にコンテンツを追加します。
 
-1. 作成した *Test_Project* に移動し、**チャネル**&#x200B;フォルダーを選択します。
+1. 作成した *DemoProject* プロジェクトに移動し、**チャネル**&#x200B;フォルダーを選択します。
 
 1. アクションバーの「**編集**」をクリックします（下図を参照）。TestChannel ** のエディターが開きます。
+
+   ![画像](assets/kickstart/demo-6.png)
 
 1. アクションバーの左側にあるサイドパネルを切り替えるアイコンをクリックし、アセットとコンポーネントを開きます。
 
 1. チャネルに追加するコンポーネントをドラッグ＆ドロップします。
 
-   ![chlimage_1-8](assets/chlimage_1-8.png)
+   ![画像](assets/kickstart/demo-7.png)
 
-この例では、チャネルに追加された画像がエディターに表示されます。
+### ロケーションの作成 {#creating-location}
 
-![chlimage_1-9](assets/chlimage_1-9.png)
+チャネルを設定したら、場所を作成する必要があります。
 
-### 新しい場所の作成 {#creating-location}
-
-チャネルを作成したら、ロケーションを作成する必要があります。
-
-***場所*** ：様々なデジタル署名のエクスペリエンスを区分けし、様々な画面の位置に応じたディスプレイの設定を含みます。
+>[!NOTE]
+>***Locations*** compartmentalize your various digital signage experiences and contains the configurations of the displays according to where the various screens are.
 
 以下の手順に従って、プロジェクトの新しいロケーションを作成します。
 
-1. 作成した *Test_Project* に移動し、**ロケーション**&#x200B;フォルダーを選択します。
+1. Navigate to the *DemoProject* you created and select the **Locations** folder.
 
-1. アクションバーで、プラスアイコンの隣にある「**作成**」をクリックします（下図を参照）。ウィザードが開きます。
+1. Click **+ Create** from the action bar.
+
 1. ウィザードから「**ロケーション**」を選択し、「**次へ**」をクリックします。
 
-1. ロケーションの「**名前**」と「**タイトル**」を入力し（タイトルには「*TestLocation*」と入力します）、「**作成**」をクリックします。
-
-   ![chlimage_1-10](assets/chlimage_1-10.png)
+1. Enter the **Name** for your location (enter the title as *TestLocation*) and click **Create**.
 
 *TestLocation* が作成され、**ロケーション**&#x200B;フォルダーに追加されます。
 
-![chlimage_1-11](assets/chlimage_1-11.png)
 
-### TestLocation{#creating-display} の新しいディスプレイの作成 
+### 場所の表示の作成 {#creating-display}
 
 ロケーションを作成したら、ロケーションのための新しいディスプレイを作成する必要があります。
 
-***ディスプレイ***&#x200B;は、1 つまたは複数のスクリーンで実行されるデジタルエクスペリエンスを表します。
+>[!NOTE]
+>***ディスプレイ***&#x200B;は、1 つまたは複数のスクリーンで実行されるデジタルエクスペリエンスを表します。
 
-1. 上記の図に示すように、ディスプレイを作成するロケーションに移動し（** Test_Project／**Locations**／*TestLocation*）、「*TestLocation*」を選択します。
+1. Navigate to the **TestLocation** and select it.
 
 1. アクションバーの「**作成**」をクリックします。
+
 1. **作成**&#x200B;ウィザードから「**ディスプレイ**」を選択し、「**次へ**」をクリックします。
 
-1. ディスプレイロケーションの「**名前**」および「**タイトル**」を入力します（タイトルには *TestDisplay* と入力します）。
+1. **タイトル** (*LobbyDisplay*)を入力します。
 
-1. 「**ディスプレイ**」タブで、レイアウトの詳細を選択します。
-
-   1. 「**解像度**」で「**フル HD**」を選択します。
-
-   1. 「**デバイスの数 - 水平**」で「1」を選択します。
-
-   1. 「**デバイスの数 - 垂直**」で「1」を選択します。
-
-   1. 「**作成**」をクリックします。
+1. 「**作成**」をクリックします。
 
 以下の図に示すように、新しいディスプレイ（*TestDisplay*）がロケーション（*TestLocation*）に追加されます。
-
-![chlimage_1-12](assets/chlimage_1-12.png)
 
 ### チャネルの割り当て {#assigning-channel}
 
 1. *Test_Project*／**Locations**／*TestLocation*／*TestDisplay* からディスプレイに移動します。
 
-1. 「*TestDisplay*」を選択して、アクションバーの「チャネルを割り当て」をタップ／クリックします。*または、*
+1. Select *TestDisplay* and tap/click **Assign Channel** from the action bar, *Or*,
 
 1. 「**ダッシュボード**」をクリックし、**割り当てられたチャネルとスケジュール**&#x200B;パネルの右上にある「**+ チャネルを割り当て**」を選択します（下図を参照）。**チャネル割り当て**&#x200B;ダイアログボックスが開きます。
 
@@ -177,7 +166,7 @@ ht-degree: 73%
 
 チャネルが作成されてパネルに追加されます。
 
-![chlimage_1-15](assets/chlimage_1-15.png)
+
 
 ### デバイスの登録 {#registering-device}
 
@@ -192,6 +181,6 @@ AEM ダッシュボードを使用して、デバイスを登録する必要が�
 
 上記の設定を追加すると、プレイヤーはデバイス上のディスプレイのデフォルトチャネルを自動的に表示する必要があります。
 
-![chlimage_1-23](assets/chlimage_1-23.png)
+
 
 AEM Screens Player について詳しくは、[AEM Screens Player](working-with-screens-player.md) を参照してください。

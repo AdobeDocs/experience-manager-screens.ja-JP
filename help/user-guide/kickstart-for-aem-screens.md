@@ -3,9 +3,9 @@ title: キックスタートガイド
 seo-title: キックスタートガイド
 description: このページの説明に従って、AEM Screens のデモプロジェクトを作成します。インストールして新しいプロジェクトをセットアップしてから、AEM Screens Player でコンテンツを表示するまでの、デジタルサイネージエクスペリエンスを作成できます。
 translation-type: tm+mt
-source-git-commit: 78ddd2b45f39d69b66f740910327eef475bcdcac
+source-git-commit: 988872003c1d01c90ccdb38fa77c99019b9a6966
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '985'
 ht-degree: 64%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 64%
 >[!NOTE]
 >プロジェクトの詳細を操作する際に開始が発生する前に、最新の機能パックがインストールされていることを確認してください。 Adobe ID を使用して、AEM Screens 6.5.5 リリースの最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からダウンロードできます。
 
-## デジタルサイネージエクスペリエンスを 5 分で作成する {#creating-a-digital-signage-experience-in-minutes}
+## 前提条件 {#prerequisites}
 
 次の手順に従って、AEM Screens向けのサンプルプロジェクトを作成し、コンテンツを画面プレイヤーにさらに公開します。
 
@@ -48,7 +48,7 @@ ht-degree: 64%
 1. 「**保存**」をクリックして、Apache Sling Referrer Filter の「Allow Empty」を有効にします。
 
 
-## チュートリアル {#tutorial}
+## デジタルサイネージエクスペリエンスを 5 分で作成する {#creating-a-digital-signage-experience-in-minutes}
 
 ### AEM Screens プロジェクトの作成 {#creating-project}
 
@@ -134,11 +134,19 @@ ht-degree: 64%
 
 1. アクションバーの「**作成**」をクリックします。
 
+   ![画像](assets/kickstart/demo-disp1.png)
+
 1. **作成**&#x200B;ウィザードから「**ディスプレイ**」を選択し、「**次へ**」をクリックします。
+
+   ![画像](assets/kickstart/demo-disp2.png)
 
 1. Enter the **Title** as **LobbyDisplay** and click **Create**.
 
+   ![画像](assets/kickstart/demo-disp3.png)
+
 A new display titled as **TestDisplay** is now added to your location **TestLocation**, as shown in the figure below.
+
+![画像](assets/kickstart/demo-disp4.png)
 
 ### チャネルの割り当て {#assigning-channel}
 

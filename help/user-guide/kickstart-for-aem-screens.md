@@ -3,10 +3,10 @@ title: キックスタートガイド
 seo-title: キックスタートガイド
 description: このページの説明に従って、AEM Screens のデモプロジェクトを作成します。インストールして新しいプロジェクトをセットアップしてから、AEM Screens Player でコンテンツを表示するまでの、デジタルサイネージエクスペリエンスを作成できます。
 translation-type: tm+mt
-source-git-commit: 988872003c1d01c90ccdb38fa77c99019b9a6966
+source-git-commit: 63e828543a8543cc8ced678221369fe1e0431f60
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 64%
+source-wordcount: '1260'
+ht-degree: 59%
 
 ---
 
@@ -152,29 +152,70 @@ A new display titled as **TestDisplay** is now added to your location **TestLoca
 
 プロジェクトの設定が完了したら、チャネルをディスプレイに割り当てて、コンテンツを表示する必要があります。
 
-1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **TestLocation** --> **LobbyDisplay**.
+1. DemoScreens **—>** Locations **—> TestLocation** —> LobbyDisplayDisplayから必要な表示に移動しま ********&#x200B;す。
 
 1. アクションバーで「**チャネルの割り当て**」をタップまたはクリックします。
+
+   ![画像](assets/kickstart/demo-assign1.png)
 
    または、
 
    アクションバーの「**ダッシュボード**」をタップまたはクリックし、「**割り当てられたチャネルとスケジュール**」パネルで「**チャネルの割り当て**」をクリックします。
 
+   ![画像](assets/kickstart/demo-assign2.png)
+
 1. 「**チャネル割り当て**」ダイアログボックスが開きます。
 
-1. 「**設定**」オプションから、**パス**&#x200B;または&#x200B;**名前**&#x200B;でチャネルを選択し、**チャネルロール**、**優先度**、**サポートされているイベント**、**中断方法**&#x200B;を入力できます。また、このダイアログボックスでアトラクションツールチップを有効にすることもできます。
+1. 「 **設定** 」オプションから、 **チャネルをパス** とサポートされているイベント **(「初期ロード」、「**********&#x200B;アイドルスクリーン」)から選択します。
 
+   >[注意]
+   >「 **チャネルの役割****」、「**&#x200B;優先度 **」、「割り込みの方法** 」は、すべてデフォルトで設定されます。 See [Channel Properties](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) section to learn more about channel assignment properties.
+
+   ![画像](assets/kickstart/demo-assign3.png)
+
+   また、[ **アクティベーション] [ウィンドウ** ]と[ **繰り返しスケジュール**]も選択できます。
 
    >[!NOTE]
-   >チャネルの割り当てプロパティの詳細については、[チャネルプロパティ](/help/user-guide/channel-assignment-latest-fp.md#channel-properties)の節を参照してください。
-
-1. 「**スケジュール**」オプションから、「**アクティベーションウィンドウ**」、「**繰り返しスケジュール**」の順に選択します。
+   >The *Recurrence Schedule* allows you to set a recurring schedule for your channel. 1 つのチャネルに対して、複数の繰り返しスケジュールを設定します。
+   >詳しくは、「[繰り返しスケジュール](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule)」を参照してください。
 
 1. 環境を設定したら、「**保存**」をクリックします。
 
-### デバイスの登録 {#registering-device}
+### デバイスの登録とディスプレイへのデバイス割り当て{#registering-device}
 
 AEM ダッシュボードを使用して、デバイスを登録する必要があります。
+
+>[!IMPORTANT]
+>Chrome OS プレーヤーは、実際の Chrome プレーヤーデバイスがなくても、開発者モードで Chrome ブラウザープラグインとしてインストールできます。インストールについては、次の手順に従います。
+>
+>1. [ここ](https://download.macromedia.com/screens/)をクリックして、最新の Chrome プレーヤーをダウンロードします。
+>1. 解凍してディスクに保存します。
+>1. Chrome ブラウザーを開き、メニューから「**拡張機能**」を選択するか、***chrome://extensions*** に直接移動します。
+>1. 右上隅の「**デベロッパーモード**」をオンにします。
+>1. 左上隅の「**パッケージ化されていない拡張機能を読み込む**」をクリックし、解凍した Chrome プレーヤーを読み込みます。
+>1. **AEM Screens Chrome Player** プラグインが拡張機能の一覧にあれば、それをオンにします。
+>1. 新しいタブを開き、左上隅の「**アプリ**」アイコンをクリックするか、***chrome://apps*** に直接移動します。
+>1. 「**AEM Screens** プラグイン」をクリックして、Chrome プレーヤーを起動します。デフォルトでは、プレーヤーはフルスクリーンモードで起動します。**Esc** キーを押すと、フルスクリーンモードが終了します。
+
+
+ChromeOSプレーヤーがオンになったら、次の手順に従ってChromeデバイスを登録します。
+
+1. AEMインスタンスから、プロジェクトの **Devices** （デバイス）フォルダーに移動します。
+
+1. Tap/click the **Device Manager** from the action bar.
+
+1. Tap/click the **Device Registration** from the top right.
+
+1. Select the required device and tap/click **Register Device**.
+
+1. デバイスが登録コードを送信してから同時に登録コードが送信されるのを待ち、Chromeデバイスで **登録コード** (Registration Code)を確認します。
+
+1. If the **Registration Code** is the same on both machines, tap/click **Validate** in AEM.
+
+1. デバイスの名前を設定し、「**登録**」をクリックします。
+
+1. 「**完了**」をタップまたはクリックして、登録プロセスを完了します。
+
 
 ### Chrome Player でのコンテンツの表示 {#viewing-content-output}
 

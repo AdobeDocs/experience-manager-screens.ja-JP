@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: b06ebef5d22daed81e8705c0928501505fd3d297
+workflow-type: tm+mt
+source-wordcount: '773'
+ht-degree: 95%
 
 ---
 
@@ -56,7 +59,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 >[!NOTE]
 >
->**次の手順**：
+>**次のステップ**:
 >
 >ロケーションにディスプレイを作成したら、コンテンツを利用するためにディスプレイにチャネルを割り当てる必要があります。
 >
@@ -110,33 +113,28 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 **ディスプレイ情報**&#x200B;パネルは、ディスプレイのプロパティを表示します。
 
-ディスプレイの情報パネルの右上隅の「**...**」をクリックすると、プロパティを表示したり、ディスプレイをプレビューしたりできます。
+**ディスプレイ情報**&#x200B;パネルの右上角の（**...**）をクリックして、プロパティを表示し、ディスプレイをプレビューします。
 
-![chlimage_1-10](assets/chlimage_1-10.png)
 
 #### プロパティの表示 {#viewing-properties}
 
 「**プロパティ**」をクリックして、ディスプレイのプロパティを表示または変更します。
 
-さらに「**ディスプレイ**」タブのアイドルタイムアウトプロパティで、インタラクティブチャネルのイベントタイマー値を調節できます。デフォルト値は *300 秒*&#x200B;に設定されています。
+Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout** property under **Display** tab. デフォルト値は *300 秒*&#x200B;に設定されています。
 
 **CRXDE Lite** を使用して、**idleTimeout** プロパティ（`http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`）にアクセスします。
 
-![chlimage_1-1](assets/chlimage_1-1.gif)
 
 ### 割り当て済みチャネルパネル {#assigned-channels-panel}
 
 **チャネルの割り当て**&#x200B;パネルには、このデバイスに割り当てられたチャネルが表示されます。
 
-![chlimage_1-11](assets/chlimage_1-11.png)
 
 ### デバイスパネル {#devices-panel}
 
 **デバイス**&#x200B;パネルには、デバイス設定の情報が表示されます。
 
-デバイスパネルの右上の「**...**」をクリックすると、デバイス設定を追加したり、デバイスを更新したりできます。
-
-![chlimage_1-12](assets/chlimage_1-12.png)
+Click on the (**...**) in the top right corner in the **DEVICES** panel to add device configs and update devices.
 
 さらに、デバイス設定をクリックして、プロパティの表示、デバイスの割り当て、またはデバイスの完全削除をおこなうことができます。
 

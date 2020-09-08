@@ -3,9 +3,9 @@ title: キックスタートガイド
 seo-title: キックスタートガイド
 description: このページの説明に従って、AEM Screens のデモプロジェクトを作成します。インストールして新しいプロジェクトをセットアップしてから、AEM Screens Player でコンテンツを表示するまでの、デジタルサイネージエクスペリエンスを作成できます。
 translation-type: tm+mt
-source-git-commit: 6f95322e35861ef4b552c89320847d97f9644a4b
+source-git-commit: 12d84eba2b9001600f783cd4f994af43d2c16739
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1317'
 ht-degree: 54%
 
 ---
@@ -81,9 +81,9 @@ ht-degree: 54%
 
    ![画像](assets/kickstart/demo-4.png)
 
-*TestChannel*&#x200B;が作成され、チャネルフォルダーに追加されます（下図を参照）。
+   *TestChannel*&#x200B;が作成され、チャネルフォルダーに追加されます（下図を参照）。
 
-![画像](assets/kickstart/demo-5.png)
+   ![画像](assets/kickstart/demo-5.png)
 
 ### チャネルへのコンテンツの追加 {#adding-content}
 
@@ -144,9 +144,9 @@ ht-degree: 54%
 
    ![画像](assets/kickstart/demo-disp3.png)
 
-A new display titled as **TestDisplay** is now added to your location **TestLocation**, as shown in the figure below.
+   A new display titled as **TestDisplay** is now added to your location **TestLocation**, as shown in the figure below.
 
-![画像](assets/kickstart/demo-disp4.png)
+   ![画像](assets/kickstart/demo-disp4.png)
 
 ### チャネルの割り当て {#assigning-channel}
 
@@ -182,7 +182,7 @@ A new display titled as **TestDisplay** is now added to your location **TestLoca
 
 1. 環境を設定したら、「**保存**」をクリックします。
 
-### デバイスの登録とディスプレイへのデバイス割り当て{#registering-device}
+### デバイスの登録とディスプレイへのデバイス割り当て {#registering-device}
 
 AEM ダッシュボードを使用して、デバイスを登録する必要があります。
 
@@ -244,7 +244,7 @@ ChromeOSプレーヤーがオンになったら、次の手順に従ってChrome
 
 チャネルー内のすべてのアセットがChromeデバイスで再生されるようになりました。
 
-AEM Screensチャネルのコンテンツをプレイしています。
+AEM Screensチャネルでコンテンツをプレイしています。
 
 ![画像](assets/kickstart/demo-video-screens.gif)
 

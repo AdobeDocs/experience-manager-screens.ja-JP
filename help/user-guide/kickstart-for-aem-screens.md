@@ -3,9 +3,9 @@ title: キックスタートガイド
 seo-title: キックスタートガイド
 description: このページの説明に従って、AEM Screens のデモプロジェクトを作成します。インストールして新しいプロジェクトをセットアップしてから、AEM Screens Player でコンテンツを表示するまでの、デジタルサイネージエクスペリエンスを作成できます。
 translation-type: tm+mt
-source-git-commit: 63e828543a8543cc8ced678221369fe1e0431f60
+source-git-commit: c1a8317b835e000478591e4caa94b92f32a123d2
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1259'
 ht-degree: 59%
 
 ---
@@ -168,7 +168,8 @@ A new display titled as **TestDisplay** is now added to your location **TestLoca
 
 1. 「 **設定** 」オプションから、 **チャネルをパス** とサポートされているイベント **(「初期ロード」、「**********&#x200B;アイドルスクリーン」)から選択します。
 
-   >[注意]
+   >[!NOTE]
+   >
    >「 **チャネルの役割****」、「**&#x200B;優先度 **」、「割り込みの方法** 」は、すべてデフォルトで設定されます。 See [Channel Properties](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) section to learn more about channel assignment properties.
 
    ![画像](assets/kickstart/demo-assign3.png)

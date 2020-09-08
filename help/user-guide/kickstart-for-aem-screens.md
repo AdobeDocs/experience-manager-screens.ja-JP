@@ -3,10 +3,10 @@ title: キックスタートガイド
 seo-title: キックスタートガイド
 description: このページの説明に従って、AEM Screens のデモプロジェクトを作成します。インストールして新しいプロジェクトをセットアップしてから、AEM Screens Player でコンテンツを表示するまでの、デジタルサイネージエクスペリエンスを作成できます。
 translation-type: tm+mt
-source-git-commit: 78aab8e8ad8ad9e3a3caf20fef044f507b5298a0
+source-git-commit: 78ddd2b45f39d69b66f740910327eef475bcdcac
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 63%
+source-wordcount: '981'
+ht-degree: 64%
 
 ---
 
@@ -91,9 +91,9 @@ ht-degree: 63%
 
 以下の手順に従って、プロジェクトのチャネル（*TestChannel*）にコンテンツを追加します。
 
-1. 作成した *DemoProject* プロジェクトに移動し、**チャネル**&#x200B;フォルダーを選択します。
+1. 作成した **DemoProject** プロジェクトに移動し、**チャネル**&#x200B;フォルダーを選択します。
 
-1. アクションバーの「**編集**」をクリックします（下図を参照）。TestChannel ** のエディターが開きます。
+1. アクションバーの「**編集**」をクリックします（下図を参照）。TestChannel **** のエディターが開きます。
 
    ![画像](assets/kickstart/demo-6.png)
 
@@ -112,7 +112,7 @@ ht-degree: 63%
 
 以下の手順に従って、プロジェクトの新しいロケーションを作成します。
 
-1. Navigate to the *DemoProject* you created and select the **Locations** folder.
+1. Navigate to the **DemoProject** you created and select the **Locations** folder.
 
 1. Click **+ Create** from the action bar.
 
@@ -120,7 +120,7 @@ ht-degree: 63%
 
 1. Enter the **Name** for your location (enter the title as *TestLocation*) and click **Create**.
 
-*TestLocation* が作成され、**ロケーション**&#x200B;フォルダーに追加されます。
+**TestLocation** が作成され、**ロケーション**&#x200B;フォルダーに追加されます。
 
 
 ### 場所の表示の作成 {#creating-display}
@@ -136,51 +136,41 @@ ht-degree: 63%
 
 1. **作成**&#x200B;ウィザードから「**ディスプレイ**」を選択し、「**次へ**」をクリックします。
 
-1. **タイトル** (*LobbyDisplay*)を入力します。
+1. Enter the **Title** as **LobbyDisplay** and click **Create**.
 
-1. 「**作成**」をクリックします。
-
-以下の図に示すように、新しいディスプレイ（*TestDisplay*）がロケーション（*TestLocation*）に追加されます。
+A new display titled as **TestDisplay** is now added to your location **TestLocation**, as shown in the figure below.
 
 ### チャネルの割り当て {#assigning-channel}
 
-1. *Test_Project*／**Locations**／*TestLocation*／*TestDisplay* からディスプレイに移動します。
+プロジェクトの設定が完了したら、チャネルをディスプレイに割り当てて、コンテンツを表示する必要があります。
 
-1. Select *TestDisplay* and tap/click **Assign Channel** from the action bar, *Or*,
+1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **TestLocation** --> **LobbyDisplay**.
 
-1. 「**ダッシュボード**」をクリックし、**割り当てられたチャネルとスケジュール**&#x200B;パネルの右上にある「**+ チャネルを割り当て**」を選択します（下図を参照）。**チャネル割り当て**&#x200B;ダイアログボックスが開きます。
+1. アクションバーで「**チャネルの割り当て**」をタップまたはクリックします。
 
-1. 「**チャネルを参照...**」で「**パス別**」を選択します。
+   または、
 
-1. 「**チャネルロール**」に「*LiveStream*」と入力します。
+   アクションバーの「**ダッシュボード**」をタップまたはクリックし、「**割り当てられたチャネルとスケジュール**」パネルで「**チャネルの割り当て**」をクリックします。
 
-1. 「**チャネル**」で、**チャネルパス**（*Test_Project*／*チャネル*／*TestChannel*）を選択します。
+1. 「**チャネル割り当て**」ダイアログボックスが開きます。
 
-1. このチャネルの「**優先度**」として「*1*」を選択します。
-
-1. 「**サポートされているイベント**」として「**最初の読み込み**」および「**待機中画面**」を選択します。
-
-1. 「**スケジュール**」を入力し、「**次の日から有効**」および「**次の日まで有効**」で日付を選択します。
-
-1. 「**保存**」をクリックします。
-
-チャネルが作成されてパネルに追加されます。
+1. 「**設定**」オプションから、**パス**&#x200B;または&#x200B;**名前**&#x200B;でチャネルを選択し、**チャネルロール**、**優先度**、**サポートされているイベント**、**中断方法**&#x200B;を入力できます。また、このダイアログボックスでアトラクションツールチップを有効にすることもできます。
 
 
+   >[!NOTE]
+   >チャネルの割り当てプロパティの詳細については、[チャネルプロパティ](/help/user-guide/channel-assignment-latest-fp.md#channel-properties)の節を参照してください。
+
+1. 「**スケジュール**」オプションから、「**アクティベーションウィンドウ**」、「**繰り返しスケジュール**」の順に選択します。
+
+1. 環境を設定したら、「**保存**」をクリックします。
 
 ### デバイスの登録 {#registering-device}
 
 AEM ダッシュボードを使用して、デバイスを登録する必要があります。
 
->[!NOTE]
->Screens Player を開くには、ダウンロードした AEM Screens アプリケーションまたは Web ブラウザーを使用します。
+### Chrome Player でのコンテンツの表示 {#viewing-content-output}
+
+この例は、Chrome Player の出力を示します。ディスプレイにチャネルを割り当てたら、そのデバイスをプレーヤーに登録する必要があります。
 
 
 
-### Viewing the content in AEM Screens Player {#viewing-the-content-in-screens-player}
-
-上記の設定を追加すると、プレイヤーはデバイス上のディスプレイのデフォルトチャネルを自動的に表示する必要があります。
-
-
-
-AEM Screens Player について詳しくは、[AEM Screens Player](working-with-screens-player.md) を参照してください。

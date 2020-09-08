@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +28,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 >
 >デバイスを割り当てる前に、デバイスを登録する必要があります。詳しくは、[デバイスの登録](device-registration.md)を参照してください。
 
-## デバイスの割り当て{#device-assignment}
+## デバイスの割り当て {#device-assignment}
 
 以下の手順に従って、デバイスをディスプレイに割り当てます。
 
@@ -49,7 +52,6 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. 「**完了**」をタップまたはクリックして、割り当てプロセスを完了します。
 
-   ![chlimage_1-36](assets/chlimage_1-36.png)
 
    ディスプレイダッシュボードの「**デバイス**」パネルに割り当て済みのデバイスが表示されます。
 

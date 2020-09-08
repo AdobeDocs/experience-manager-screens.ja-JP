@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 translation-type: tm+mt
-source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+source-git-commit: 8a2ed4e0a27175d43abfadda63232c3577d5387b
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '829'
 ht-degree: 95%
 
 ---
@@ -81,9 +81,8 @@ ffmpeg がインストールされていること、およびビデオプロフ�
 
 1. ビデオを選択し、**編集**&#x200B;ダイアログを開きます。「**プロファイル**」タブを開きます。
 
-   >[!注意
+   >[!NOTE]
    >様々なプロファイルを選択します（少なくとも「高画質 H.264」プロファイルは必ずあります）。
-
 
 ### Web プレーヤーでのビデオの確認 {#checking-the-video-in-the-web-player}
 

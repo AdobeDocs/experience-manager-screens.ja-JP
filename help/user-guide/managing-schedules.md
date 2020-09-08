@@ -1,23 +1,26 @@
 ---
 title: スケジュールの作成と管理
 seo-title: スケジュールの管理
-description: このページに従って、スケジュールについて学んでください。これによりチャネルを再使用可能なグループに編成でき、コンテンツを表示するそれぞれのディスプレイに、個別に繰り返してチャネルを割り当てる必要がなくなります。
-seo-description: このページに従って、スケジュールについて学んでください。これによりチャネルを再使用可能なグループに編成でき、コンテンツを表示するそれぞれのディスプレイに、個別に繰り返してチャネルを割り当てる必要がなくなります。
+description: Follow this page to learn about Schedules, that lets you organize channels into re-usable groups so that you do not have to repeat their assignment individually for each display on which you want to show your content.
+seo-description: このページでは、チャネルを再利用可能なグループに編成し、コンテンツを表示する画面ごとに個別に割り当てを繰り返す必要がないように、スケジュールについて説明します。
 uuid: c05328a0-620a-4597-b7b3-f4433e78d4e9
-contentOwner: Jyotika syal
+contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 74%
 
 ---
 
 
 # スケジュールの作成と管理 {#creating-and-managing-schedules}
 
-AEM Screens で&#x200B;**スケジュール**&#x200B;を使用すると、複数のチャネルを再使用可能なグループに編成できるので、コンテンツを表示する各ディスプレイに個別に割り当てをおこなう必要がなくなります。
+**スケジュール**(AEM Screens)を使用すると、チャネルを再利用可能なグループに編成できるので、コンテンツを表示する画面ごとに個別に割り当てを繰り返す必要がなくなります。
 
 スケジュールを&#x200B;***時間帯区分***&#x200B;と組み合わせると、ある日の特定の時間に実行される複数のチャネルでグローバルスケジュールを設定でき、また一度にすべてのディスプレイでその設定を再使用できます。
 
@@ -40,7 +43,6 @@ AEM Screens で&#x200B;**スケジュール**&#x200B;を使用すると、複数
 
 プロジェクトに指定された名前とタイトルでスケジュールフォルダーが表示されます。
 
-![chlimage_1](assets/chlimage_1.gif)
 
 ## ダッシュボードの表示 {#viewing-dashboard}
 
@@ -60,7 +62,7 @@ AEM Screens で&#x200B;**スケジュール**&#x200B;を使用すると、複数
 
    **スケジュール情報パネル**：右上隅にある「プロパティ」をクリックして、スケジュールのプロパティを表示または変更します。
 
-   **割り当てられたチャネルパネル**：右上隅にある「+ チャネルを割り当て」をクリックして、チャネルの割り当てダイアログボックスを開きます。詳しくは、「チャネルの割り当て」を参照してください。
+   **割り当てられたチャネルパネル**：右上隅にある「+ チャネルを割り当て」をクリックして、チャネルの割り当てダイアログボックスを開きます。
 
    **割り当てられたディスプレイパネル**：任意のディスプレイを選択して、ディスプレイダッシュボードを開きます。
 

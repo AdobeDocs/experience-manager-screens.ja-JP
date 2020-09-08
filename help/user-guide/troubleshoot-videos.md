@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
-translation-type: ht
-source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
+translation-type: tm+mt
+source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
 
 以下の節では、チャネルで再生されるビデオをデバッグおよびトラブルシューティングする方法について説明します。
 
-## DAM レンディション {#dam-renditions}
+## DAM レンディション  {#dam-renditions}
 
 ビデオをチャネルにアップロードすると、AEM によってそのビデオの一部のレンディションの作成が開始されます。ビデオは Assets で表示できます。
 
@@ -42,7 +45,7 @@ source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
 
 ## ビデオアセット {#video-assets}
 
-ビデオの下にソース属性が表示されない場合は、ビデオがトランスコードされなかった可能性があります。ビデオが正しくトランスコードされている場合は、次の図に示すようにダッシュボードに表示されます。
+ビデオの下にソース属性が表示されない場合は、ビデオがトランスコードされなかった可能性があります。 ビデオが適切にトランスコードされると、次の図のように、ダッシュボードに表示されます。
 
 ffmpeg がインストールされていること、およびビデオプロファイルを確認してください。
 
@@ -68,7 +71,7 @@ ffmpeg がインストールされていること、およびビデオプロフ�
    >
    >ビデオのトランスコードに十分な時間をかけてから（「処理しています」ではなく「新規」というタグが表示されます）、ビデオをチャネルに追加するようにしてください。
 
-### ビデオコンポーネントでのプロファイルの確認 {#checking-profile-with-a-video-component}
+### ビデオコンポーネントでのプロファイルの確認  {#checking-profile-with-a-video-component}
 
 ビデオコンポーネントが正しく設定されない場合は、ページデザインからプロファイルのリストを確認します。
 
@@ -78,9 +81,9 @@ ffmpeg がインストールされていること、およびビデオプロフ�
 
 1. ビデオを選択し、**編集**&#x200B;ダイアログを開きます。「**プロファイル**」タブを開きます。
 
-   様々なプロファイルを選択します（少なくとも「高画質 H.264」プロファイルは必ずあります）。
+   >[!注意
+   >様々なプロファイルを選択します（少なくとも「高画質 H.264」プロファイルは必ずあります）。
 
-   ![chlimage_1-7](assets/chlimage_1-7.png)
 
 ### Web プレーヤーでのビデオの確認 {#checking-the-video-in-the-web-player}
 
@@ -140,11 +143,10 @@ Google の自動再生ポリシーフラグに関する問題をトラブルシ�
 1. その設定ダイアログを開きます。
 1. 「**方法**」を編集し、「絶対」を追加します。
 
-![chlimage_1-8](assets/chlimage_1-8.png)
+   ![chlimage_1-8](assets/chlimage_1-8.png)
 
->[!NOTE]
->
->プレーヤーの OS のクロックが同一である必要があります。
+   >[!NOTE]
+   >プレーヤーの OS のクロックが同一である必要があります。
 
 **OS X でクロックを揃える**：OS X でクロックを揃えるには、以下の手順に従います。
 

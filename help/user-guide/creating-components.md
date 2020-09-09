@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: cdc530d8-ef0e-4b61-b1f0-5f4d831f1392
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '331'
+ht-degree: 92%
 
 ---
 
@@ -27,7 +30,7 @@ AEM コンポーネントを使用して、Web ページ上で使用できるコ
 
 チャネルは、一連のディスプレイに配信されるコンテンツの中心となるオブジェクトです。このため、コンテンツ作成者は通常、エディターでチャネルを開いてコンテンツを追加または変更します。チャネルは ***cq:Page*** なので、同じ従来の UX パターンに従って、チャネル上のコンポーネントを追加および変更します。
 
-ただし、チャネル内のコンポーネントは通常フルスクリーンでレンダリングされるので、単一コンポーネントの編集や新しい順序の編成をおこなう際にオーサリングエクスペリエンスに影響を及ぼします。そのため、チャネルはコンポーネントの様々なビューをレンダリングするためにセレクターを使用します。オーサリング環境では、編集セレクターを使用して、カスタムチャネルのレンダリングがアクティブ化されます。
+ただし、チャネル内のコンポーネントは通常フルスクリーンでレンダリングされるので、1つのコンポーネントを編集しようとする場合や、新しい注文を作成しようとする場合に、オーサリングの経験が損なわれます。 そのため、チャネルはコンポーネントの様々なビューをレンダリングするためにセレクターを使用します。オーサリング環境では、編集セレクターを使用して、カスタムチャネルのレンダリングがアクティブ化されます。
 
 例：`http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html](http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html`
 

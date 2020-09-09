@@ -9,11 +9,11 @@ topic-tags: developing
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: e4ecc179-e421-4687-854c-14d31bed031d
 docset: aem65
-translation-type: ht
-source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
 source-wordcount: '720'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -61,7 +61,7 @@ React アプリのコンテンツを編集するには、以下の手順に従�
 
 ### AEM Screens へのインタラクティブ React アプリの追加 {#adding-the-interactive-react-app-to-aem-screens}
 
-AEM Screens にインタラクティブ React アプリを追加するには、以下の手順に従います。
+次の手順に従って、インタラクティブなREACTアプリをAEM Screensに追加します。
 
 1. 新しい AEM Screens プロジェクトを作成します。詳しくは、[プロジェクトの作成と管理](creating-a-screens-project.md)を参照してください。
 

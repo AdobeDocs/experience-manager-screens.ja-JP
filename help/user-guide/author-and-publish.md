@@ -4,10 +4,10 @@ seo-title: AEM Screens でのオーサーとパブリッシュの設定
 description: AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成された後、複数のパブリッシュインスタンスにフォワードレプリケートされます。ここでは、オーサーとパブリッシュを AEM Screens 用に設定する方法について説明します。
 seo-description: AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成された後、複数のパブリッシュインスタンスにフォワードレプリケートされます。ここでは、オーサーとパブリッシュを AEM Screens 用に設定する方法について説明します。
 translation-type: tm+mt
-source-git-commit: 80697595b7fc3d12c9f148a3998335d1d7cefb14
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1921'
-ht-degree: 98%
+source-wordcount: '1910'
+ht-degree: 91%
 
 ---
 
@@ -145,7 +145,7 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 
 各パブリッシュインスタンスで以下をおこないます。
 
-1. OSGi コンソールで、**Main**／**Crypto Support**（*https://&lt;host>:&lt;port>/system/console/crypto*）に移動します。
+1. In the OSGi Console navigate to **MAIN** --> **Crypto Support** (`https://&lt;host&gt;:&lt;port&gt;/system/console/crypto`).
 1. 目的のプレーンテキストパスワード（すべてのインスタンスに共通）を「**Plain Text**」に入力します。
 1. 「**Protect**」をクリックします。
 1. 「**Protected Text**」の値をメモ帳またはテキストエディターにコピーします。この値は、ActiveMQ の OSGi 設定で使用されることになります。
@@ -161,7 +161,7 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 
 各パブリッシュインスタンスで以下をおこないます。
 
-1. OSGi 設定マネージャー（*https://&lt;host>:&lt;port>/system/console/configMgr*）に移動します。
+1. Navigate to the OSGi Config manager `https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr`
 1. 「**Apache ActiveMQ Artemis JMS Provider**」の設定を選択します。
 1. 以下を更新します。
 
@@ -172,18 +172,18 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 
 各パブリッシュインスタンスで次の手順に従います。
 
-1. OSGi コンソールで、Main／ActiveMQ Artemis（`[https://localhost:4505/system/console/mq`）に移動します。
+1. OSGi コンソールで、Main／ActiveMQ Artemis（`https://localhost:4505/system/console/mq`）に移動します。
 1. Cluster Information／Topology でノード数 2、メンバー数 2 を選択し、他のインスタンスのポートを確認します。
 1. テストメッセージを送信します（画面上部の「Broker Information」の下）。
 1. 各フィールドを次のように変更します。
 
    1. **Destination**：/com.adobe.cq.screens/devTestTopic
    1. **Text**：Hello World
-   1. 各インスタンスの error.log を表示して、メッセージがクラスター全体で送受信されたことを確認します。
+   1. 各インスタンスのerror.logに表示して、メッセージがクラスター全体で送受信されたことを確認します
 
 >[!NOTE]
 >
->OSGi コンソールに移動すると、前の手順で設定を保存した後、数秒かかる場合があります。詳しくは、error.log を確認することもできます。
+>OSGiコンソールに移動する際に、前の手順で設定を保存した後、数秒かかる場合があります。 詳しくは、error.log を確認することもできます。
 
 例えば、次の画像は、ActiveMQ Artemis サーバーの設定が正常におこなわれた場合に表示されます。
 
@@ -201,7 +201,7 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 
 ### オーサーインスタンスとパブリッシュインスタンスの設定 {#configuring-author-and-publish-instance}
 
-パブリッシュ環境のトポロジをセットアップしたら、実装の実際の結果を表示するようにオーサーインスタンスとパブリッシュインスタンスを設定する必要があります。
+パブリッシュトポロジを設定したら、実装の実用的な結果を表示するために、オーサーインスタンスとパブリッシュインスタンスを設定する必要があります。
 
 >[!NOTE]
 >
@@ -224,12 +224,12 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 1. 「**デバイスを登録**」をクリックします。
 1. 「**デバイスの登録**」をクリックして、デバイスを表示します。
 1. 登録するデバイスを選択して、「**デバイスを登録**」をクリックします。
-1. 登録コードを確認し、「**検証**」をクリックします。
+1. Verify the registration code and click **Validate**.
 1. デバイスのタイトルを入力し、「**登録**」をクリックします。
 
 #### 手順 3：ディスプレイへのデバイスの割り当て {#step-assigning-the-device-to-display}
 
-1. 前の手順のダイアログボックスで、「**ディスプレイを割り当て**」をクリックします。
+1. Click **Assign Display** from the dialog box from the preceding step.
 1. **ロケーション**&#x200B;フォルダーから、チャネルのディスプレイのパスを選択します。
 1. 「**割り当て**」をクリックします。
 1. 「**完了**」をクリックしてプロセスを完了すると、デバイスが割り当てられます。
@@ -240,7 +240,7 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 
 **デバイスの確認**
 
-以下の手順を実行する前に、デバイス ID を確認してください。確認するには、CRXDE Lite で、パスを */home/users/screens/we-retail/devices* としてデバイス ID を検索します。
+以下の手順を実行する前に、デバイス ID を確認してください。To verify, search for the device id in CRXDE Lite, with the path as */home/users/screens/we-retail/devices*.
 
 次の手順に従って、デバイスユーザーをレプリケートします。
 
@@ -304,6 +304,6 @@ AEM Screens Player で変更結果を表示します。
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-「**公開を管理**」機能を使用すると、コンテンツの更新をオーサーからパブリッシュ経由でデバイスに配信できます。AEM Screens プロジェクト全体のコンテンツを公開／非公開にすることも、チャネル、ロケーション、デバイス、アプリケーション、スケジュールのいずれか 1 つのコンテンツを公開／非公開にすることもできます。この機能の詳細については、[オンデマンドコンテンツの更新](on-demand-content.md)を参照してください。
+「**公開を管理**」機能を使用すると、コンテンツの更新をオーサーからパブリッシュ経由でデバイスに配信できます。AEM Screensプロジェクト全体、またはチャネル、場所、デバイス、アプリ、スケジュールの1つに対してのみ、コンテンツの公開/非公開を行うことができます。 この機能の詳細については、[オンデマンドコンテンツの更新](on-demand-content.md)を参照してください。
 
 

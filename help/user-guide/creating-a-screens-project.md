@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '396'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +24,7 @@ Adobe Experience Manager のリンク（左上）を選択し、「Screens」を
 
 または、`http://localhost:4502/screens.html/content/screens` から ![chlimage_1-14](assets/chlimage_1-14.png) に直接アクセスすることもできます。
 
-プロジェクトが異なれば、ブランド、デプロイメント、顧客なども異なる可能性があります。
+異なるプロジェクトは、異なるブランド、デプロイメント、顧客などになります。
 
 ![screen_shot_2018-08-23at105748am](assets/screen_shot_2018-08-23at105748am.png)
 
@@ -29,14 +32,14 @@ Adobe Experience Manager のリンク（左上）を選択し、「Screens」を
 >
 >**ナビゲーションのヒント：**
 >
->カーソルキーを使用しても、AEM 内の様々なフォルダーを移動できます。さらに、特定のエンティティを選択し、スペースバーを押すと、その特定のフォルダーのプロパティを編集または表示できます。
+>カーソルキーを使用しても、AEM 内の様々なフォルダーを移動できます。また、特定のエンティティを選択したら、スペースバーを押して、その特定のフォルダのプロパティを編集したり、表示したりします。
 
-## 新しい Screens プロジェクトの作成{#creating-a-new-screens-project}
+## 新しい Screens プロジェクトの作成 {#creating-a-new-screens-project}
 
 以下の手順に従って、新しい Screens プロジェクトを作成します。
 
 1. AEM ダッシュボードから「**Screens**」を選択します。
-1. 作成／**プロジェクトを作成**&#x200B;をクリックすると、**Screens プロジェクトの作成**&#x200B;ウィザードが開きます。
+1. Click **Create** --> **Create Project** and **Create Screens Project** wizard will open.
 
 1. **Screens** テンプレートを選択して、「**次へ**」をクリックします。
 

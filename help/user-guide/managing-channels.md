@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
-translation-type: ht
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 100%
 
@@ -107,7 +107,6 @@ Screens 用のプロジェクトを作成したら、下の手順に従ってス
 1. アセットの下の「**ビデオ**」を選択し、必要なビデオをドラッグ&amp;ドロップします。
 
 >[!NOTE]
->
 >チャネルへのビデオのアップロードで問題が発生した場合は、[ビデオのトラブルシューティング](troubleshoot-videos.md)を参照してください。
 
 ### プロパティの表示 {#viewing-properties}
@@ -145,6 +144,7 @@ Screens 用のプロジェクトを作成したら、下の手順に従ってス
 >このオプションは、AEM 6.4 機能パック 8 または AEM 6.5 機能パック 4 でのみ使用できます。
 
 チャネルダッシュボードからこのオプションを有効にするには、次の手順に従います。
+
 1. **チャネルをオフラインに設定**
    1. チャネルを選択し、アクションバーの「**プロパティ**」を選択します
    1. 「**チャネル**」タブに移動し、「**開発者モード（チャネルをオンラインにする）**」オプションのチェックを外します

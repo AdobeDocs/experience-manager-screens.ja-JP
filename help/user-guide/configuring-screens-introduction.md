@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: acc0278631a4be2c90de7cc43d3b40a358ffa93e
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 100%
+source-wordcount: '751'
+ht-degree: 92%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 100%
    ![アセット](assets/health-check1.png)
 
 
-2. 上記の 2 つのプロパティの検証を実行するには、「**Execute selected health checks**」をクリックします。
+2. Click on **Execute selected health checks** to run the validation for two properties listed above.
 
    両方のフィルターが有効な場合、**Screens Configuration Health Service** では&#x200B;**結果**&#x200B;が&#x200B;**OK**&#x200B;と表示され、両方の設定が有効となっています。
 
@@ -108,7 +108,7 @@ AEM Screens にはタッチ操作対応 UI が必要で、Adobe Experience Manag
 1. *&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl* に移動します。
 1. 「**Default authoring UI mode**」が「**TOUCH**」に設定されていることを確認します（下図を参照）。
 
-また、*&lt;yourAuthorInstance>*／*ツール（ハンマーアイコン）*／**操作**／**Web コンソール**&#x200B;をクリックし、**WCM Authoring UI Mode Service** を検索して、同じ設定を実行することもできます。
+Alternatively, you can also perform the same setting using yourAuthorInstance *->* tools (hammer icon) -> **Operations** -> **Web Console** and search for **WCM Authoring UI Mode Service**.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -118,7 +118,7 @@ AEM Screens にはタッチ操作対応 UI が必要で、Adobe Experience Manag
 
 #### NOSAMPLECONTENT 実行モードの AEM {#aem-in-nosamplecontent-runmode}
 
-実稼動環境での AEM の実行には、**NOSAMPLECONTENT** 実行モードを使用します。次の場所に移動して、（追加の応答ヘッダーセクションにある）*X-Frame-Options=SAMEORIGIN* ヘッダーを削除します。
+実稼動環境での AEM の実行には、**NOSAMPLECONTENT** 実行モードを使用します。Remove the *X-Frame-Options=SAMEORIGIN* header (in the additional response header section) from
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
@@ -136,7 +136,7 @@ AEM Screens にはタッチ操作対応 UI が必要で、Adobe Experience Manag
 
 1. AEM インスタンスでハンマーアイコン／**操作**／**Web コンソール**&#x200B;をクリックして、「**Adobe Experience Manager Web コンソール設定**」に移動します。
 
-1. 「Adobe Experience Manager Web コンソール設定」が開きます。「deviceservice」を検索します。このプロパティを検索するには、**Command + F** キー（**Mac**）または **Ctrl + F** キー（**Windows**）を押します。
+1. 「Adobe Experience Manager Web コンソール設定」が開きます。Search for *deviceservice*. このプロパティを検索するには、**Command + F** キー（**Mac**）または **Ctrl + F** キー（**Windows**）を押します。
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 

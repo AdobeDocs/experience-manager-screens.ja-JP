@@ -3,10 +3,10 @@ title: キックスタートガイド
 seo-title: キックスタートガイド
 description: このページの説明に従って、AEM Screens のデモプロジェクトを作成します。インストールして新しいプロジェクトをセットアップしてから、AEM Screens Player でコンテンツを表示するまでの、デジタルサイネージエクスペリエンスを作成できます。
 translation-type: tm+mt
-source-git-commit: 12d84eba2b9001600f783cd4f994af43d2c16739
+source-git-commit: d49ceecab42762425d779d50a31291091088ee19
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 54%
+source-wordcount: '1320'
+ht-degree: 53%
 
 ---
 
@@ -187,7 +187,7 @@ ht-degree: 54%
 AEM ダッシュボードを使用して、デバイスを登録する必要があります。
 
 >[!IMPORTANT]
->Chrome OS プレーヤーは、実際の Chrome プレーヤーデバイスがなくても、開発者モードで Chrome ブラウザープラグインとしてインストールできます。インストールについては、次の手順に従います。
+>Chrome OS Playerは、実際のChromeプレーヤーデバイスを必要とせずに、開発者モードでChromeブラウザープラグインとしてインストールできます。 インストールについては、次の手順に従います。
 >
 >1. [ここ](https://download.macromedia.com/screens/)をクリックして、最新の Chrome プレーヤーをダウンロードします。
 >1. 解凍してディスクに保存します。
@@ -199,7 +199,7 @@ AEM ダッシュボードを使用して、デバイスを登録する必要が�
 >1. 「**AEM Screens** プラグイン」をクリックして、Chrome プレーヤーを起動します。デフォルトでは、プレーヤーはフルスクリーンモードで起動します。**Esc** キーを押すと、フルスクリーンモードが終了します。
 
 
-ChromeOSプレーヤーがオンになったら、次の手順に従ってChromeデバイスを登録します。
+Chrome OSプレーヤーがオンになったら、次の手順に従ってChromeデバイスを登録します。
 
 1. AEMインスタンスから、プロジェクトの **Devices** （デバイス）フォルダーに移動します。
 
@@ -242,7 +242,7 @@ ChromeOSプレーヤーがオンになったら、次の手順に従ってChrome
 
 ### Chrome Player でのコンテンツの表示 {#viewing-content-output}
 
-チャネルー内のすべてのアセットがChromeデバイスで再生されるようになりました。
+チャネルー内のすべてのアセットがChrome OSプレイヤーで再生されるようになりました。
 
 AEM Screensチャネルでコンテンツをプレイしています。
 

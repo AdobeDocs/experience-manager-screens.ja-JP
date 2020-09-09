@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: d49ceecab42762425d779d50a31291091088ee19
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 89%
+source-wordcount: '341'
+ht-degree: 72%
 
 ---
 
@@ -22,34 +22,22 @@ ht-degree: 89%
 
 Adobe Experience Manager のリンク（左上）を選択し、「Screens」を選択すると、AEM Screens にアクセスできます。
 
-または、`http://localhost:4502/screens.html/content/screens` から ![chlimage_1-14](assets/chlimage_1-14.png) に直接アクセスすることもできます。
+Alternatively, you can navigate directly to: `http://localhost:4502/screens.html/content/screens`
 
-異なるプロジェクトは、異なるブランド、デプロイメント、顧客などになります。
-
-![screen_shot_2018-08-23at105748am](assets/screen_shot_2018-08-23at105748am.png)
 
 >[!NOTE]
->
 >**ナビゲーションのヒント：**
->
 >カーソルキーを使用しても、AEM 内の様々なフォルダーを移動できます。また、特定のエンティティを選択したら、スペースバーを押して、その特定のフォルダのプロパティを編集したり、表示したりします。
 
 ## 新しい Screens プロジェクトの作成 {#creating-a-new-screens-project}
 
 以下の手順に従って、新しい Screens プロジェクトを作成します。
 
-1. AEM ダッシュボードから「**Screens**」を選択します。
-1. Click **Create** --> **Create Project** and **Create Screens Project** wizard will open.
+1. AEMインスタンスから「 **画面** 」を選択します。
 
-1. **Screens** テンプレートを選択して、「**次へ**」をクリックします。
+1. Click **Create Screens Project**.
 
-1. プロパティ（**タイトル**&#x200B;および&#x200B;**名前**）を必要に応じて入力し、「**作成**」をクリックします。
-
-![player1](assets/player1.gif)
-
->[!NOTE]
->
->初期構造には、デフォルトで、**スケジュール**、**ロケーション**、**アプリケーション**、**チャネル**、**デバイス**&#x200B;の各マスターページが含まれていますが、必要に応じて手動で調整できます。使用可能なオプションがプロジェクトに関係ない場合は、そのオプションを削除できます。
+1. Enter the title as **TestProject** and click **Create**.
 
 プロジェクトが作成され、Screens プロジェクトコンソールに戻ります。これでプロジェクトを選択できます。
 
@@ -58,22 +46,26 @@ Adobe Experience Manager のリンク（左上）を選択し、「Screens」を
 * **スケジュール**
 * **ロケーション**
 * **アプリ管理**
-* **チャネル**
 * **デバイス**
+* **チャネル**
 
-![screen_shot_2018-08-23at110114am](assets/screen_shot_2018-08-23at110114am.png)
+![player1](assets/create-project.gif)
 
-### プロパティの表示 {#viewing-properties}
+>[!NOTE]
+>
+>初期構造には、デフォルトで、**スケジュール**、**ロケーション**、**アプリケーション**、**チャネル**、**デバイス**&#x200B;の各マスターページが含まれていますが、必要に応じて手動で調整できます。使用可能なオプションがプロジェクトに関係ない場合は、そのオプションを削除できます。
 
-Screens プロジェクトを作成したら、アクションバーの「**プロパティ**」をクリックして、既存の AEM Screens プロジェクトのプロパティを編集します。
 
-![screen_shot_2018-08-23at110211am](assets/screen_shot_2018-08-23at110211am.png)
+## プロパティの表示 {#viewing-properties}
 
-次のオプションで、*DemoProject* のプロパティを編集または変更できます。
+画面プロジェクトを作成したら、プロジェクトを選択し、アクションバーの「 **プロパティ** 」をクリックして、プロジェクトのプロパティを編集します。
 
-![screen_shot_2018-08-23at110409am](assets/screen_shot_2018-08-23at110409am.png)
+The following options allow you to edit/change properties of your **TestScreens**.
 
-### カスタムフォルダーの作成 {#creating-a-custom-folder}
+![画像](assets/create-project2.png)
+
+
+## カスタムフォルダーの作成 {#creating-a-custom-folder}
 
 プロジェクトで使用可能な&#x200B;**スケジュール**、**ロケーション**、**アプリケーション**、**チャネル**、**デバイス**&#x200B;の各マスターページの下に独自のカスタムフォルダーを作成することもできます。
 
@@ -84,12 +76,11 @@ Screens プロジェクトを作成したら、アクションバーの「**プ�
 1. 「**次へ**」をクリックします。
 1. プロパティを入力して、「**作成**」をクリックします。
 
-以下の手順では、*DemoProject* で&#x200B;**アプリケーション**&#x200B;マスターページにアプリケーションフォルダーを作成します。
+The following steps show the creation of an applications folder to your **Applications** master page in **TestScreens**.
 
-![player2-1](assets/player2-1.gif)
+![player2-1](assets/create-project3.gif)
 
 ### 次の手順 {#the-next-steps}
 
 独自のプロジェクトを作成したら、[チャネル管理](managing-channels.md)を参照して、チャネルのコンテンツを作成および管理します。
 
-さらに、独自のスケジュール、アプリケーション、ロケーション、デバイスを作成できます。

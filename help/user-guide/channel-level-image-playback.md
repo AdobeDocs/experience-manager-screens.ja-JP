@@ -10,8 +10,11 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '360'
+ht-degree: 96%
 
 ---
 
@@ -26,11 +29,11 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 この機能の実装を開始する前に、前提条件として、プロジェクトをセットアップしておく必要があります。例：
 
-1. AEM Screens プロジェクト（この例では **ChannelLevelPlayback**）を作成する
+1. Create an AEM Screens project example, **ChannelLevelPlayback**.
 
-1. **チャネル**&#x200B;フォルダーの下に **PlaybackChannel** というシーケンスチャネルを作成する
+1. **チャネル**&#x200B;フォルダーの下に **PlaybackChannel** というシーケンスチャネルを作成する.
 
-1. **PlaybackChannel** にコンテンツを追加する
+1. Add content to **PlaybackChannel**.
 
 ## チャネルレベル画像再生時間の割り当ての編集 {#editing-channel-level-image-playback-duration-assignment}
 
@@ -59,18 +62,17 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 1. **ページ**&#x200B;ダイアログボックスが開きます。
 
    >[!NOTE]
-   >
    >デフォルトでは、チャネル内の画像は再生時間が 8 秒に設定されています。
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   「**デュレーション (ms)**」を「8000 (ms)」から「3000 (ms)」（3 秒）へと編集します。**ページ**&#x200B;ダイアログボックスの右上にあるチェックマークをクリックして、変更を保存します。
+   「**デュレーション (ms)**」を「8000」から「3000」（3 秒）へと編集します。**ページ**&#x200B;ダイアログボックスの右上にあるチェックマークをクリックして、変更を保存します。
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
 ### 結果の表示 {#viewing-the-result}
 
-チャンネルの再生時間（この例では 3 つの画像すべての再生時間）を更新すると、画像が 8 秒間（デフォルト値）ではなく 3 秒間再生されるようになります。
+チャネルの再生時間（この例では 3 つの画像すべての再生時間）を更新すると、画像が 8 秒間（デフォルト値）ではなく 3 秒間再生されるようになります。
 
 ![channel_preview](assets/channel_preview.gif)
 

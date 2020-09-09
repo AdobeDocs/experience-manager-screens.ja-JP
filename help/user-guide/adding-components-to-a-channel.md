@@ -10,8 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
-translation-type: ht
-source-git-commit: cec2a2f8b056bf713e56a9fab08d88e29263820b
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '1464'
+ht-degree: 95%
 
 ---
 
@@ -20,11 +23,11 @@ source-git-commit: cec2a2f8b056bf713e56a9fab08d88e29263820b
 
 コンポーネントは、AEM（Adobe Experience Manager）エクスペリエンスの基本的要素です。多数のコンポーネントを使用でき、AEM Screens プロジェクトのチャネルに追加できます。
 
-## AEM Screens のコンポーネント{#components-in-aem-screens}
+## AEM Screens のコンポーネント {#components-in-aem-screens}
 
 AEM Screens には、スクリーンプロジェクトで使用できる様々な AEM コンポーネントが用意されています。
 
-### AEM Screens コンポーネントの表示{#viewing-aem-screens-components}
+### AEM Screens コンポーネントの表示 {#viewing-aem-screens-components}
 
 AEM Screens プロジェクトを作成する場合はいつでも、プロジェクトに追加できるデフォルトコンポーネントのリストが表示されます。
 
@@ -49,7 +52,7 @@ AEM には、他のコンポーネントが多数用意されています。AEM 
 1. アクションバーの「**編集**」をクリックして、エディターを開きます。
 1. **デザイン**&#x200B;モードを選択します。
 1. 右側のデザインエディター全体を選択して、設定シンボルをクリックし、**ParSys Design** ダイアログボックスを開きます。
-1. AEM Screens プロジェクトに読み込むコンポーネントを選択できます。次に、AEM Screens プロジェクトへの **Livefyre** コンポーネントの追加例を示します。
+1. AEM Screens プロジェクトに読み込むコンポーネントを選択できます。The following example shows the addition of **Livefyre** component to an AEM Screens project.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -57,7 +60,7 @@ AEM には、他のコンポーネントが多数用意されています。AEM 
 >
 >同様に、AEM Screens と互換性のある他の新しいコンポーネントをプロジェクトに好きなだけ追加できます。
 
-## AEM Screen コンポーネントについて{#understanding-aem-screen-components}
+## AEM Screen コンポーネントについて {#understanding-aem-screen-components}
 
 ここでは、プロジェクトで使用できる AEM Screens コンポーネントについて説明します。
 
@@ -73,10 +76,10 @@ AEM には、他のコンポーネントが多数用意されています。AEM 
 
 | **プロパティ** | **説明** |
 |---|---|
-| ***アプリケーションパス&#x200B;*** | アプリケーションが存在する絶対パスを選択します。 |
+| ***アプリケーションパス*** | アプリケーションが存在する絶対パスを選択します。 |
 | ***デュレーション (ms)*** | アプリケーションのデュレーションを選択します。デフォルトでは、デュレーションは -1 に設定されています。これは、要素が無期限に実行される（つまり、シングルページアプリケーションである）ことを意味します。デュレーションの値を 0 より大きい値に設定すると、指定されたデュレーションの間要素が表示されてから次のアプリケーションに移動します。 |
 
-次に、アプリケーションコンポーネントを埋め込んでプロパティをプレビューする方法の例を示します。
+次の例は、アプリケーションコンポーネントとそのプロパティのプレビューを埋め込む方法を示しています。
 
 ![adding_componentsapplication](assets/adding_componentsapplication.gif)
 
@@ -201,15 +204,15 @@ AEM には、他のコンポーネントが多数用意されています。AEM 
 | **プロパティ** | **説明** |
 |---|---|
 | **エクスペリエンスフラグメント** |
-| ***エクスペリエンスフラグメント&#x200B;*** | エクスペリエンスフラグメントを選択します。 |
+| ***エクスペリエンスフラグメント*** | エクスペリエンスフラグメントを選択します。 |
 | ***デュレーション (ms)*** | チャネルで再生されるエクスペリエンスフラグメントのデュレーション全体を選択します。 |
 | **オフライン設定** |
-| ***クライアント側ライブラリ&#x200B;*** | JavaScript ファイルと CSS ファイル。 |
-| ***静的ファイル&#x200B;*** | オフライン設定としてエクスペリエンスフラグメントに追加できる静的ファイル。 |
+| ***クライアント側ライブラリ*** | JavaScript ファイルと CSS ファイル。 |
+| ***静的ファイル*** | オフライン設定としてエクスペリエンスフラグメントに追加できる静的ファイル。 |
 
 >[!NOTE]
 >
->このコンポーネントから追加する&#x200B;**クライアント側ライブラリ**&#x200B;と&#x200B;**静的ファイル**&#x200B;は、設定済みの&#x200B;**クライアント側ライブラリ**&#x200B;と、エクスペリエンスフラグメントの&#x200B;**プロパティ**&#x200B;から追加されている静的ファイルにそれぞれ追加されます。
+>The **Client-side Libraries** and the **Static Files** that you add from this component will be in addition to already configured **Client-side Libraries** and the Static Files that are added from the experience fragment&#39;s **Properties**.
 
 ### 画像 {#image}
 
@@ -220,13 +223,13 @@ AEM には、他のコンポーネントが多数用意されています。AEM 
 | **プロパティ** | **説明** |
 |---|---|
 | **画像** |
-| ***イメージアセット&#x200B;*** | イメージアセットを選択します。 |
-| ***タイトル&#x200B;*** | 画像のタイトル。 |
-| ***リンク先&#x200B;*** | 画像にリンクを追加します。 |
-| ***説明&#x200B;*** | 画像の概要。 |
-| ***サイズ&#x200B;*** | 画像のサイズ。 |
+| ***イメージアセット*** | イメージアセットを選択します。 |
+| ***タイトル*** | 画像のタイトル。 |
+| ***リンク先*** | 画像にリンクを追加します。 |
+| ***説明*** | 画像の概要。 |
+| ***サイズ*** | 画像のサイズ。 |
 | **アクセシビリティ** |
-| ***代替テキスト&#x200B;*** | 画像の代替テキスト。 |
+| ***代替テキスト*** | 画像の代替テキスト。 |
 | **シーケンス** |
 | ***デュレーション (ms)*** | デフォルトでは、デュレーションは *8000 ms* に設定されています。画像の再生時間を変更する場合は、「**デュレーション (ms)**」フィールドを更新します。 |
 

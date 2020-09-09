@@ -1,12 +1,12 @@
 ---
-title: チャネル割り当て — 最新の FP
-seo-title: チャネル割り当て — 最新の FP
+title: チャネル割り当て - 最新の FP
+seo-title: チャネル割り当て - 最新の FP
 description: チャネルの割り当てと日分割については、このページを参照してください。
 translation-type: tm+mt
-source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1471'
-ht-degree: 77%
+ht-degree: 93%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 77%
 # チャネル割り当て {#channel-assignment}
 
 >[!IMPORTANT]
->この節では、AEM 6.5.5 Screens機能パック以降用のチャネルのチャネル割り当てとスケジュールについて説明します。
+>この節では、AEM 6.5.5 Screens 機能パック以降用のチャネルのチャネル割り当てとスケジュールについて説明します。
 
 ディスプレイの設定が完了したら、チャネルをディスプレイに割り当てて、コンテンツを表示する必要があります。
 
@@ -55,7 +55,7 @@ ht-degree: 77%
 
 ### ディスプレイへのチャネルの割り当て {#assigning-channel-to-display}
 
-プロジェクトの設定が完了したら、チャネルを表示に割り当てて、コンテンツを表示する必要があります。
+プロジェクトの設定が完了したら、チャネルをディスプレイに割り当てて、コンテンツを表示する必要があります。
 
 1. 必要なディスプレイに移動します（例：**DemoProject**／**Locations**／**SanJose**／**StoreDisplay**）。
 
@@ -65,7 +65,7 @@ ht-degree: 77%
 
    または、
 
-   Tap/click **Dashboard** from the action bar and click **+Assign Channel** from the **ASSIGNED CHANNELS &amp; SCHEDULES** panel.
+   アクションバーの「**ダッシュボード**」をタップまたはクリックし、「**割り当てられたチャネルとスケジュール**」パネルで「**チャネルの割り当て**」をクリックします。
 
    ![画像](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -73,20 +73,20 @@ ht-degree: 77%
 
    ![画像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. From the **Settings** option, you can choose the channel **by path** or **by name**, enter the **Channel Role**, **Priority**, **Supported Events**, and **Interruption Methods**. また、このダイアログボックスで引き付けツールチップを有効にすることもできます。
+1. 「**設定**」オプションから、**パス**&#x200B;または&#x200B;**名前**&#x200B;でチャネルを選択し、**チャネルロール**、**優先度**、**サポートされているイベント**、**中断方法**&#x200B;を入力できます。また、このダイアログボックスでアトラクションツールチップを有効にすることもできます。
 
    ![画像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >Refer to [Channel Properties](#channel-properties) section to learn more about channel assignment properties.
+   >チャネルの割り当てプロパティの詳細については、[チャネルプロパティ](#channel-properties)の節を参照してください。
 
-1. From the **Schedule** option select the **Activation Window** and **Recurrence Schedule**.
+1. 「**スケジュール**」オプションから、「**アクティベーションウィンドウ**」、「**繰り返しスケジュール**」の順に選択します。
    ![画像](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
-   >Refer to [Channel Properties](#channel-properties) section to learn more about channel assignment properties.
+   >チャネルの割り当てプロパティの詳細については、[チャネルプロパティ](#channel-properties)の節を参照してください。
 
-1. 環境設定を行ったら、**「保存**」をクリックします。
+1. 環境を設定したら、「**保存**」をクリックします。
 
 ### Chrome Player でのコンテンツの表示 {#viewing-content-output}
 
@@ -98,11 +98,11 @@ ht-degree: 77%
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
-## Timeline View {#timeline-view}
+## タイムライン表示 {#timeline-view}
 
-ディスプレイにチャネルを割り当て、繰り返しスケジュールを設定したら、[ **割り当て済みチャネルとスケジュール** ]パネルからタイムラインを表示できます。
+ディスプレイにチャネルを割り当て、繰り返しスケジュールを設定したら、「**割り当てられたチャネルとスケジュール**」パネルからタイムラインを表示できます。
 
-次の手順に従って、タイムライン表示に移動します。
+タイムライン表示に移動するには、次の手順を実行します。
 
 1. 必要なディスプレイに移動します（例：**DemoProject**／**Locations**／**SanJose**／**StoreDisplay**）。
 
@@ -110,11 +110,11 @@ ht-degree: 77%
 
    または、
 
-   Tap/click **Dashboard** and click **Timeline** from the **ASSIGNED CHANNELS &amp; SCHEDULES** panel.
+   「**ダッシュボード**」をタップまたはクリックし、「**割り当てられたチャネルとスケジュール**」パネルで「**タイムライン**」をクリックします。
 
    ![画像](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
-## Understanding Channel Properties from Channel Assignment Dialog Box {#channel-properties}
+## チャネル割り当てのチャネルプロパティからのチャネルプロパティダイアログボックス {#channel-properties}
 
 次のプロパティは、「**チャネルの割り当て**」ダイアログボックスの「**設定**」オプションで設定します。
 
@@ -149,7 +149,6 @@ ht-degree: 77%
 ### 中断方法 {#interruption-method-channel}
 
 >[!IMPORTANT]
->
 > このオプションは、AEM 6.4 機能パック 8 または AEM 6.5 機能パック 4 でのみ使用できます。
 
 コンテンツ作成者は、重要でないコンテンツを切り取るために、チャネルを中断するタイミングを指定できますが、スケジュールによって再生を中断する前に、重要なコンテンツを完全に再生するオプションを選択することもできます。
@@ -185,7 +184,7 @@ ht-degree: 77%
 以下のオプションを設定できます。
 
 * **名前**：繰り返しスケジュールのタイトル。
-* **繰り返し**：スケジュールを **日別**、**週別**、**月別**、**年別**&#x200B;のどれで実行するかを選択します。
+* **繰り返し**：スケジュールを&#x200B;**日別**、**週別**、**月別**、**年別**&#x200B;のどれで実行するかを選択します。
 * **開始**：スケジュールの開始時間。
 * **終了**：スケジュールの終了時間。時間または期間別に設定できます。
    * **時間**：スケジュールは指定した時刻に終了します。
@@ -201,7 +200,7 @@ ht-degree: 77%
 
 この例は、DayPartingを使用して毎日朝食、昼食、夕食のメニューを紹介するレストランの例を示します。
 
-ここでは、毎日の時間を異なる時間帯に分割し、チャネルのコンテンツが指定した時間に合わせて再生されるようにします。 チャネルがこの使用例に従ってコンテンツを再生できるように、[繰り返しスケジュール]の次のプロパティを設定します。
+ここでは、1 日を複数の時間帯に分け、チャネルコンテンツが 1 日の指定された時間ごとに再生されるようにします。次の繰り返しスケジュールのプロパティを設定して、この使用例に従ってコンテンツを再生します。
 
 | **名前** | **繰り返し** | **開始** | **終了** |
 |---|---|---|---|
@@ -215,8 +214,8 @@ ht-degree: 77%
 
 | **名前** | **繰り返し** | **開始** | **終了** |
 |---|---|---|---|
-| 週末 | 週単位：土曜日、日曜日 | 午後 8:00 | 午後 10:00 |
-| スペシャル | 毎日：月～金 | 午後 10:00 | 午前 1:00 |
+| 週末 | 週別：土曜日、日曜日 | 午後 8:00 | 午後 10:00 |
+| スペシャル | 日別：月～金 | 午後 10:00 | 午前 1:00 |
 
 >[!NOTE]
 >

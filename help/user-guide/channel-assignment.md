@@ -2,11 +2,11 @@
 title: チャネル割り当て
 seo-title: チャネル割り当て
 description: このページでは、チャネル割り当てと時間帯区分について学びます。
-translation-type: ht
-source-git-commit: 39da8293fb64321fdb28acaa67be579483ba4f0d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
 source-wordcount: '1215'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
    または、
 
-   「**ダッシュボード**」をタップまたはクリックし、**割り当てられたチャネル**&#x200B;パネルの「**+ チャネルを割り当て**」をクリックして、**チャネル割り当て**&#x200B;ダイアログボックスを開きます。
+   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNELS** panel to open the **Channel Assignment** dialog box.
 
    ![画像](/help/user-guide/assets/channel-assign1.png)
 
@@ -159,7 +159,7 @@ ht-degree: 100%
 >
 >さらに、チャネルごとに&#x200B;***優先度***&#x200B;を定義できます。例えば、2 つのチャネルを同じ日時または同じ月に設定する場合は、優先度の高いチャネルが最初に再生されます。優先度の最小値は 0 として設定できます。
 
-#### 同じ優先度のチャネル用コンテンツの再生{#playing-content-for-channels-with-same-priority}
+#### 同じ優先度のチャネル用コンテンツの再生 {#playing-content-for-channels-with-same-priority}
 
 この例では、商店の時間帯区分が示され、冬物コレクションを 12 月に同じスケジュールで表示します。しかし、その週はチャネル B が優先度 2 に設定されており、チャネル A ではなくチャネル B がそのコンテンツを再生します。
 

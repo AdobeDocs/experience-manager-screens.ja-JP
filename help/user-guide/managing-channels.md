@@ -11,17 +11,17 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 100%
+source-wordcount: '1343'
+ht-degree: 93%
 
 ---
 
 
 # チャネルの作成と管理 {#creating-and-managing-channels}
 
-チャネルはコンテンツのシーケンスを表示し、また画像およびビデオを表示しますが、Web サイトまたは単一ページアプリケーションも表示できます。
+チャネルは、一連のコンテンツや表示画像、ビデオを表示しますが、Webサイトや単一ページのアプリも表示できます。
 
 このページでは Screens 用のチャネルの作成および管理を示します。
 
@@ -32,16 +32,25 @@ ht-degree: 100%
 
 ## 新しいチャネルの作成 {#creating-a-new-channel}
 
-Screens 用のプロジェクトを作成したら、下の手順に従ってスクリーンプロジェクト用の新しいチャネルを作成します。
+AEM Screens向けのプロジェクトを作成したら、次の手順に従って、プロジェクト用の新しいチャネルを作成します。
 
-1. Adobe Experience Manager リンク（左上）を選択し、「Screens」を選択します。または、`https://localhost:4502/screens.html/content/screens` に直接アクセスすることもできます。
-1. Screens プロジェクトに移動して「**チャネル**」をクリックします。
-1. アクションバーのプラスアイコンの横にある「**作成**」をクリックします。ウィザードが開きます（*詳しくは、「チャネルタイプ」を参照してください*）。
+1. Adobe Experience Manager リンク（左上）を選択し、「Screens」を選択します。または、`https://localhost:4502/screens.html/content/screens` から直接アクセスすることもできます。
 
-1. ウィザードからテンプレートを選択し、「**次へ**」をクリックします。
-1. 「**タイトルとタグ**」、「**他のタイトルと説明**」、「**オン / オフタイム**」、「**バニティ URL」**&#x200B;の各プロパティを入力します。
+1. Navigate to your Screens project and select **Channels** folder.
 
-1. 「**作成**」をクリックすると、チャネルが作成されチャネルフォルダーに追加されます。
+1. アクションバーの「**作成**」をクリックします。
+
+   ![demochannel](assets/create-channel1.png)
+
+1. Select the **Sequence Channel** template from the **Create** wizard and click **Next**.
+
+   ![demochannel](assets/create-channel2.png)
+
+1. Enter the Title as **ScreensChannel** and click **Create**.
+
+   ![demochannel](assets/create-project4.png)
+
+1. これで、シーケンスチャネルが **チャネル** フォルダーに追加されます。
 
 ### チャネルタイプ {#channel-types}
 
@@ -62,14 +71,6 @@ Screens 用のプロジェクトを作成したら、下の手順に従ってス
 >[!NOTE]
 >
 >分割画面チャネルでは、複数のエクスペリエンスを並べて同時に再生できるように、ディスプレイを複数のゾーンに分割します。エクスペリエンスは、静的アセット／テキストでも埋め込みシーケンスでも構いません。
-
-次の例は、Screens プロジェクト（*DemoProject*）のシーケンスチャネル（*ChannelOne*）の作成を示しています。
-
-![demochannel](assets/demochannel.gif)
-
->[!NOTE]
->
->前述の 1 x 2、2 x 2 または 2～3 分割画面チャネルなどのテンプレートオプションを使用して、様々なゾーンを作成できます。
 
 >[!IMPORTANT]
 >

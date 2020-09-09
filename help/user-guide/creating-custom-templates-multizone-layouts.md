@@ -4,11 +4,11 @@ seo-title: マルチゾーンレイアウトのカスタムテンプレートの
 description: ここでは、マルチゾーンレイアウトのカスタムテンプレートの作成について説明します。
 seo-description: ここでは、マルチゾーンレイアウトのカスタムテンプレートの作成について説明します。
 contentOwner: Jyotika Syal
-translation-type: ht
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
-workflow-type: ht
-source-wordcount: '948'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '947'
+ht-degree: 99%
 
 ---
 
@@ -108,7 +108,7 @@ Left20-LandscapeHD3Zone レイアウトを使用すると、プロジェクト�
 
 1. `/apps/settings/wcm/designs/custom-template-designs` に移動して、static.css ファイルを作成します。
 
-1. コンテンツを static.css ファイルにコピーします。
+1. Copy the content to `static.css` file:
 
    ```shell
        /*my-custom-layout styles*/

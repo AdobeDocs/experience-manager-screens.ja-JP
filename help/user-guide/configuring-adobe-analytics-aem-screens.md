@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
 source-wordcount: '694'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -208,7 +208,7 @@ ht-degree: 100%
    <td>オプション</td> 
    <td>文字列</td> 
    <td> </td> 
-   <td>Web プロパティまたはモバイルスキーマの URL - 完全修飾 URL が含まれている必要があります</td> 
+   <td>WebプロパティまたはモバイルスキーマのURL — 完全修飾URLを含める必要があります</td> 
   </tr>
   <tr>
    <td> </td> 

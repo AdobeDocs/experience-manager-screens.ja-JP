@@ -10,8 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
-translation-type: ht
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '801'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 デバイスダッシュボードを使用すると、Screens Player のアクティビティやデバイスのパフォーマンスを監視およびトラブルシューティングできます。このページでは、Screens Player や割り当てられているデバイスを監視し、確認されたパフォーマンスの問題をトラブルシューティングする方法について説明します。
 
-## デバイスコントロールセンターからの監視およびトラブルシューティング{#monitor-and-troubleshoot-from-device-control-center}
+## デバイスコントロールセンターからの監視およびトラブルシューティング {#monitor-and-troubleshoot-from-device-control-center}
 
 デバイスダッシュボードを使用すると、アクティビティを監視し、Screens Player をトラブルシューティングできます。
 
@@ -28,7 +31,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 デバイスダッシュボードに移動するには、次の手順を実行します。
 
-1. プロジェクトからデバイスダッシュボードに移動します（例：***Test Project ***／***デバイス***）。
+1. プロジェクトからデバイスダッシュボードに移動します（例：***Test Project***／***デバイス***）。
 
    アクションバーから「**デバイス**」および「**デバイスマネージャー**」を選択します。
 
@@ -80,7 +83,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 >[!NOTE]
 >
->デバイスの自動更新または手動更新に関連するイベントについて詳しくは、***チャネルの管理&#x200B;***の[自動アップデートとデバイスダッシュボードからの手動アップデート](managing-channels.md)の節を参照してください。
+>デバイスの自動更新または手動更新に関連するイベントについて詳しくは、***チャネルの管理***&#x200B;の[自動アップデートとデバイスダッシュボードからの手動アップデート](managing-channels.md)の節を参照してください。
 
 ![screen_shot_2019-09-05at14112pm](assets/screen_shot_2019-09-05at14112pm.png)
 
@@ -97,7 +100,6 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 **環境設定**&#x200B;パネルでは、デバイスの&#x200B;**管理 UI**、**チャネルスイッチャー**、**リモートデバッグ**&#x200B;の環境設定を変更できます。
 
 >[!NOTE]
->
 >これらのオプションについて詳しくは、[AEM Screens Player](working-with-screens-player.md) を参照してください。
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
@@ -113,25 +115,21 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 ![screen_shot_2019-09-05at14511pm](assets/screen_shot_2019-09-05at14511pm.png)
 
 >[!NOTE]
->
 >選択できるログレベルは次のいずれかです。
->
 >* **無効**
 >* **デバッグ**
 >* **情報**
 >* **警告**
 >* **エラー**
->
-
 
 
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 
-## OSGI 設定のトラブルシューティング {#troubleshoot-osgi-settings}
+## Troubleshoot OSGi Settings {#troubleshoot-osgi-settings}
 
 デバイスからサーバーへのデータの投稿を許可するには、空のリファラーを有効にする必要があります。例えば、空のリファラーのプロパティが無効になっていると、デバイスからスクリーンショットを投稿できません。
 
-現在、これらの機能の一部は、OSGI 設定で *Apache Sling Referrer Filter の Allow Empty 設定*&#x200B;が有効になっている場合にのみ使用できます。ダッシュボードには、セキュリティ設定がこれらの機能の一部の動作を妨げる可能性があることを示す警告が表示される場合があります。
+Currently some of these features are only available if the *Apache Sling Referrer Filter Allow Empty* is enabled in the OSGi configuration. ダッシュボードには、セキュリティ設定がこれらの機能の一部の動作を妨げる可能性があることを示す警告が表示される場合があります。
 
 Apache Sling Referrer Filter の Allow Empty 設定を有効にするには、次の手順を実行します。
 

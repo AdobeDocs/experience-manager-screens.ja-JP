@@ -10,9 +10,9 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-translation-type: ht
-source-git-commit: 15afec3ed9ffdcfc918c13376af2b20f9a61ab8e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 100%
 
@@ -68,7 +68,7 @@ Google シートが正しく設定されると、次のように表示されま�
 ![画像](/help/user-guide/assets/context-hub/context-hub2.png)
 
 >[!NOTE]
-> 次の例は、値が 100 を超えるか 50 未満の場合にアセットの変更をトリガーするデータストアとしての Google シートを示しています。
+>次の例は、値が 100 を超えるか 50 未満の場合にアセットの変更をトリガーするデータストアとしての Google シートを示しています。
 
 ## 手順 2：ストア設定のセットアップ {#step-setting-store-configurations}
 
@@ -198,7 +198,7 @@ json を定義するプロセスをスキップし、空白のままにしてお
       >[!CAUTION]
       既知の問題：
 領域を追加するには、URL（例えば下記）から「master」を削除します
-      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`
+      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
 1. **ブランドに領域を作成する**
 

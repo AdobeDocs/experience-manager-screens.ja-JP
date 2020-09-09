@@ -9,8 +9,11 @@ topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
-translation-type: ht
-source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '812'
+ht-degree: 100%
 
 ---
 
@@ -41,7 +44,6 @@ source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
 1. **EmergencyChannel** という名前の AEM Screens プロジェクトを作成します（下図を参照）。
 
    >[!NOTE]
-   >
    >AEM Screens でのプロジェクトの作成と管理について詳しくは、プロジェクトの作成と管理を参照してください。
 
    ![screen_shot_2019-02-21at35809pm](assets/screen_shot_2019-02-21at35809pm.png)
@@ -51,12 +53,14 @@ source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
    1. **チャネル**&#x200B;フォルダーを選択し、「**作成**」をクリックしてチャネル作成用ウィザードを開きます。
 
    1. ウィザードで「**シーケンスチャネル**」を選択し、**MainAdChannel** というタイトルのチャネルを作成します。
+
    ![screen_shot_2019-02-21at35932pm](assets/screen_shot_2019-02-21at35932pm.png)
 
 1. **シーケンスチャネルにコンテンツを追加する**
 
    1. チャネル（**MainAdChannel**）を選択します。
    1. アクションバーの「**編集**」をクリックして、エディターを開きます。アセットをいくつかチャネルにドラッグ＆ドロップします。
+
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
 1. **緊急チャネルを作成する**
@@ -64,6 +68,7 @@ source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
    1. **チャネル**&#x200B;フォルダーを選択します。
    1. 「**作成**」クリックして、チャネル作成用ウィザードを開きます。
    1. ウィザードで「**シーケンスチャネル**」を選択し、**EmergencyChannel** というタイトルのチャネルを作成します。
+
    >[!NOTE]
    >
    >通常、緊急チャネルは既存の実稼動プロジェクトに追加されます。
@@ -74,12 +79,14 @@ source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
 
    1. チャネル（**EmergencyChannel**）を選択します。
    1. アクションバーの「**編集**」をクリックして、エディターを開きます。緊急時に実行するアセットをチャネルにドラッグ＆ドロップします。
+
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
 
 1. **ロケーションの作成**
 
    1. **ロケーション**&#x200B;フォルダーに移動します。
    1. アクションバーの「**作成**」をクリックし、ウィザードから **Store** というタイトルのロケーションを作成します。
+
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
 
 1. **ロケーションにディスプレイを作成する**
@@ -92,6 +99,7 @@ source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
 
    1. **スケジュール**&#x200B;フォルダーに移動します。
    1. アクションバーの「**作成**」をクリックします。ウィザードに従って、**StoreSchedule** というタイトルのスケジュールを作成します。
+
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
 1. スケジュールに両方のディスプレイを割り当て優先度を設定する
@@ -106,6 +114,7 @@ source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
       1. 「**優先度**」を「2」に設定します。
       1. 「サポートされているイベント」として「**最初の読み込み**」および「**待機中画面**」を設定します。
       1. 「**保存**」をクリックします。
+
       同様に、同じ手順を繰り返して **EmergencyChannel** を割り当て、その「**優先度**」を設定する必要があります。
    >[!NOTE]
    >
@@ -123,6 +132,7 @@ source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
    1. 「サポートされているイベント」として、「**最初の読み込み**」、「**待機中画面**」、「**ユーザーインタラクション**」を設定します。
 
    1. 「**保存**」をクリックします。
+
    ![screen_shot_2019-03-04at104741am](assets/screen_shot_2019-03-04at104741am.png)
 
    割り当てられたチャネルを **StoreSchedule** のダッシュボードで確認できます。
@@ -139,6 +149,7 @@ source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
    1. スケジュールのパスを選択します（例：**EmergencyChannel**／**Schedules**／**StoreSchedule**）。
 
    1. 「**保存**」をクリックします。
+
    ディスプレイに割り当てられたスケジュールを **StoreSchedule** のダッシュボードで確認できます。
    ![screen_shot_2019-03-04at122003pm](assets/screen_shot_2019-03-04at122003pm.png)
 

@@ -10,8 +10,11 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
-translation-type: ht
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '476'
+ht-degree: 89%
 
 ---
 
@@ -26,7 +29,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ## 前提条件 {#preconditions}
 
-旅行センター向けの現地気温に応じたアクティブ化の実装を開始する前に、AEM Screens プロジェクトで&#x200B;***データストア***、***オーディエンスのセグメント化***、***チャネルのターゲティングの有効化***&#x200B;をセットアップする方法を理解しておく必要があります。
+Before you start implementing the travel center local temperature activation, you must learn how to set up ***Data Store***, ***Audience Segmentation*** and ***Enable Targeting for Channels*** in an AEM Screens Project.
 
 詳しくは、[AEM Screens プロジェクトでの ContextHub の設定](configuring-context-hub.md)を参照してください。
 
@@ -38,27 +41,28 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. ContextHubDemo Google シートに移動します。
    1. 気温に対応する値を格納する **Heading1** という列を追加します。
+
    ![screen_shot_2019-05-08at112911am](assets/screen_shot_2019-05-08at112911am.png)
 
 1. **要件に従ってオーディエンスのセグメントを設定する**
 
-   1. オーディエンスのセグメント化に移動します（詳しくは、**[AEM Screens プロジェクトでの Context Hub の設定](configuring-context-hub.md)**&#x200B;の&#x200B;***手順 2：オーディエンスのセグメント化のセットアップ***&#x200B;を参照してください）。
+   1. オーディエンスのセグメントに移動します（詳しくは、***AEM Screens プロジェクトでの ContextHub の設定***&#x200B;の&#x200B;**[手順 2：オーディエンスのセグメント化のセットアップ](configuring-context-hub.md)**&#x200B;を参照してください）。
 
    1. 「**Sheets A1 1**」を選択し、「**編集**」をクリックします。
 
    1. 比較プロパティを選択し、設定アイコンをクリックしてプロパティを編集します。
    1. 「**プロパティ名**」のドロップダウンから「**googlesheets/value/1/0**」を選択します。
 
-   1. 「**演算子**」のドロップダウンメニューから「次よりも大きいか等しい」を選択します。
+   1. Select the **Operator** as **greater-than-or-equal** from the drop-down menu
 
    1. 「**値**」に「**50**」を入力します。
 
-   1. 同様に、「Sheets A1 2」を選択し、「**編集**」をクリックします。
+   1. 同様に、「**Sheets A1 2**」を選択し、「**編集**」をクリックします。
 
    1. 「**比較 : プロパティ - 値**」を選択し、設定アイコンをクリックしてプロパティを編集します。
    1. 「**プロパティ名**」のドロップダウンから「**googlesheets/value/1/0**」を選択します。
 
-   1. 「**演算子**」のドロップダウンメニューから「次よりも小さい」を選択します。
+   1. Select the **Operator** as **less-than** from the drop-down menu
 
    1. 「**値**」に「**50**」を入力します。
 
@@ -84,5 +88,6 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. 「**プレビュー**」をクリックします。また、Google シートを開き、値を更新します。
    1. 値を 50 未満に変更すると、暖かい飲み物の画像が表示されます。Google シートの値が 50 以上の場合は、冷たい飲み物の画像が表示されます。
+
    ![result3](assets/result3.gif)
 

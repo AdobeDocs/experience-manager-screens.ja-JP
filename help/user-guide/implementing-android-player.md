@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 89%
+source-wordcount: '768'
+ht-degree: 90%
 
 ---
 
@@ -40,12 +40,11 @@ login-token cookieのSameSite属性をLax **から** None **に設定します�
 
 その場合は、次の手順に従います。
 
-1. Navigate to **Adobe Experience Manager Web Console
-Configuration** using `http://localhost:4502/system/console/configMgr`.
+1. `http://localhost:4502/system/console/configMgr` を使用して、**Adobe Experience Manager Web コンソールの設定**&#x200B;に移動します。
 
-1. 「 *AdobeGraniteトークン認証ハンドラー*」を検索します。
+1. *Adobe Granite トークン認証ハンドラー*&#x200B;を検索します。
 
-1. login-token cookieの **SameSite属性を** Lax **から** Noneに設定します ****。
+1. **login-token cookie の SameSite 属性**&#x200B;を **Lax** から **None** に設定します。
    ![画像](/help/user-guide/assets/granite-updates.png)
 
 1. 「**保存**」をクリックします。
@@ -60,7 +59,7 @@ Configuration** using `http://localhost:4502/system/console/configMgr`.
 1. 左上隅を長押しして、管理パネルを開きます。
 1. 左のアクションメニューから「**設定**」に移動し、接続する AEM インスタンスの場所（アドレス）を入力して、「**保存**」をクリックします。
 
-1. 左側のアクションメニューから「**デバイスの****登録**」リンクに移動して、デバイス登録プロセスのステータスを確認します。
+1. 左側のアクションメニューから「**デバイス**&#x200B;の&#x200B;**登録**」リンクに移動して、デバイス登録プロセスのステータスを確認します。
 
 >[!NOTE]
 >
@@ -72,9 +71,9 @@ Configuration** using `http://localhost:4502/system/console/configMgr`.
 
 Android のアーキテクチャ上、デバイスをリブートするには、アプリケーションがシステム権限を持っている必要があります。そのためには、製造元の署名キーを使用して apk に署名する必要があります。この署名をおこなわないと、ウォッチドッグはデバイスをリブートするのではなく、プレーヤーアプリケーションを再起動します。
 
-### 製造元のキーを使用した Android apk への署名  {#signage-of-android-apks-using-manufacturer-keys}
+### 製造元のキーを使用した Android apk への署名    {#signage-of-android-apks-using-manufacturer-keys}
 
-*PowerManager* や *HDMIControlServices* など、Android の特権付き API にアクセスするには、製造元のキーを使用して Android apk に署名する必要があります。
+To access some of the privileged APIs of Android such as *PowerManager* or *HDMIControlServices*, you need to sign the android apk using the manufacturer&#39;s keys.
 
 >[!CAUTION]
 >
@@ -107,6 +106,6 @@ Android ウォッチドッグサービスは、*AlarmManager* を使用した co
 
 >[!NOTE]
 >
->Android では、*AlarmManager* は、アプリケーションがクラッシュして、そのアラーム配信が API 19（Kitkat）から正確におこなわれなくても実行可能な *pendingIntents* を登録するために使用されます。タイマーの間隔と AlarmManager の ** pendingIntents ** のアラームとの間にいくらかの時間を設けるようにしてください。
+>Android では、*AlarmManager* は、アプリケーションがクラッシュして、そのアラーム配信が API 19（Kitkat）から正確におこなわれなくても実行可能な *pendingIntents* を登録するために使用されます。タイマーの間隔と *AlarmManager* の *pendingIntents* のアラームとの間にいくらかの時間を設けるようにしてください。
 
 **3.アプリケーションのクラッシュ**：クラッシュした場合、AlarmManager に登録されているリブートのペンディングインテントはリセットされず、（cordova プラグインの初期化時に使用可能な権限に応じて）アプリケーションのリブートまたは再起動を実行します。

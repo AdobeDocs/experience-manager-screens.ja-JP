@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
-source-wordcount: '833'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '834'
+ht-degree: 98%
 
 ---
 
@@ -34,14 +34,12 @@ ht-degree: 100%
 >
 >スクリーンプロジェクトでの他のコンポーネントの使用について詳しくは、[チャネルへのコンポーネントの追加](adding-components-to-a-channel.md)を参照してください。
 
-### 埋め込みシーケンスの追加{#adding-an-embedded-sequence}
+### 埋め込みシーケンスの追加 {#adding-an-embedded-sequence}
 
 埋め込みシーケンスをチャネルに追加できます。埋め込みシーケンスは、画像またはビデオなどのアセットを含んだ別のチャネルです。埋め込みシーケンスを追加すると、ユーザーは、***チャネルパス***&#x200B;でチャネルにシーケンスを追加できます。
 
 >[!NOTE]
->
->***チャネルパス***&#x200B;は、チャネルへの明示的な参照を定義します。
->
+>***チャネルパス***は、チャネルへの明示的な参照を定義します。
 >*チャネルパス*&#x200B;について詳しくは、画面の作成の[チャネル割り当て](channel-assignment.md)を参照してください。
 
 埋め込みシーケンスをチャネルに追加するには、次の手順に従います。
@@ -101,7 +99,7 @@ ht-degree: 100%
 1. 動的シーケンスを埋め込むチャネルを選択します（例：**We.Retail In-Store**／**Channels**／**Idle Channel**）。
 
 1. アクションバーの「**編集**」をクリックして、チャネルをエディターモードで開きます。
-1. 左側のバーのコンポーネントアイコンをクリックして、動的埋め込みシーケンスを追加します。**動的**&#x200B;埋め込みシーケンスをエディターにドラッグ＆ドロップします。
+1. 左側のバーのコンポーネントアイコンをクリックして、動的埋め込みシーケンスを追加します。Drag and drop the **Dynamic** **Embedded Sequence**  to the editor.
 
 1. **動的****埋め込み**&#x200B;シーケンスコンポーネントをダブルクリックして、シーケンスチャネルにページを追加します。
 

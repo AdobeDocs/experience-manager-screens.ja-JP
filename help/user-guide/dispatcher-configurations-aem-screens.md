@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 4a1fb81fa343983093590c36ccb6a4fd110cdad2
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 72%
+ht-degree: 88%
 
 ---
 
@@ -86,12 +86,12 @@ Screens フィルターを設定するには、以下の内容を ***/filter*** 
 
 ***/content/screens パス***&#x200B;の Dispatcher キャッシュを無効にします。
 
-画面プレーヤーは認証済みセッションを使用するので、ディスパッチャーは、プレーヤーが要求する画面をキャッシュしません `channels/assets`。
+Screens プレーヤーは認証済みセッションを使用するので、Dispatcher は、`channels/assets` に対する Screens プレーヤーのリクエストをキャッシュしません。
 
-アセットをディスパッチャーのキャッシュから供給するために、アセットのキャッシュを有効にするには、次の操作を行う必要があります。
+アセットを Dispatcher のキャッシュから提供するために、アセットのキャッシュを有効にするには、次の操作をおこなう必要があります。
 
-* `/allowAuthorization 1` 断追加面 `/cache` に
-* ～の `/rules` 節追加に対する以下の規則 `/cache`
+* `/allowAuthorization 1` を `/cache` セクションに追加
+* Add the below rules to `/rules` section of `/cache`
 
 ```xml
 /0000

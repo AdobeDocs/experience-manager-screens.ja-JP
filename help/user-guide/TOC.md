@@ -4,11 +4,11 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens ヘルプ
 user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '399'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

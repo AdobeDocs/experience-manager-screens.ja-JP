@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 translation-type: tm+mt
-source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
+source-git-commit: 3d3bd3575152ce14032e00127490054d68f45655
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 72%
+ht-degree: 68%
 
 ---
 
@@ -41,7 +41,7 @@ Alternatively, you can navigate directly to: `http://localhost:4502/screens.html
 
 プロジェクトが作成され、Screens プロジェクトコンソールに戻ります。これでプロジェクトを選択できます。
 
-下の図に示すように、プロジェクトには 4 種類のフォルダーがあります。
+プロジェクトには、次の図に示す5種類のフォルダがあります。
 
 * **スケジュール**
 * **ロケーション**

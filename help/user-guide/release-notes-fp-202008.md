@@ -1,11 +1,11 @@
 ---
 title: 機能パック 202008 のリリースノート
-description: このページでは、機能パック202008のリリースノートについて説明します。
+description: このページでは、機能パック 202008 のリリースノートについて説明します。
 translation-type: tm+mt
 source-git-commit: f13adf375631e3b7d7d03324458d91d9d55b0f80
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 36%
+ht-degree: 78%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 36%
 
 ## 利用可能場所 {#availability}
 
-AEM Screensは、AEM 6.5機能パック5をリリースしました。
+AEM Screens は、AEM 6.5 機能パック 5 をリリースしました。
 
-You can download the latest feature pack for AEM Screens 6.5.5 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. 「**Adobe Experience Manager**」タブに移動し、「**Screens**」を検索して最新の機能パックを入手します。
+Adobe ID を使用して、AEM Screens 6.5.5 リリースの最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からダウンロードできます。「**Adobe Experience Manager**」タブに移動し、「**Screens**」を検索して最新の機能パックを入手します。
 
 ## リリース日 {#release-date}
 
@@ -30,23 +30,23 @@ AEM Screens機能パック202008のリリース日は2020年9月3日です。
 
 * **スケジュールダッシュボードでのタイムライン表示**
 
-   タイムライン表示を使用すると、割り当てられたスケジュールを表示ダッシュボードからチャネルに表示できます。
+   タイムライン表示を使用すると、チャネルに割り当てられたスケジュールを表示ダッシュボードから参照できます。
 
-   詳しくは、 [タイムライン表示](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) (Timeline Timeline Manager)を参照してください。
+   詳しくは、[タイムライン表示](/help/user-guide/channel-assignment-latest-fp.md#timeline-view)を参照してください。
 
 * **繰り返しスケジュール**
 
-   [繰り返しのスケジュール]では、チャネルの定期的なスケジュールを設定できます。 1つのチャネルに対して、複数の繰り返しスケジュールを設定します。
+   繰り返しスケジュールを使用すると、チャネルの定期的なスケジュールを設定できます。1 つのチャネルに対して、複数の繰り返しスケジュールを設定します。
 
-   詳しくは、「 [繰り返しスケジュール](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) 」を参照してください。
+   詳しくは、「[繰り返しスケジュール](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule)」を参照してください。
 
-* **AEM Screensの音声認識機能**
+* **AEM Screens の音声認識機能**
 
    音声認識機能を使用すると、音声操作によって駆動される AEM Screens チャネルのコンテンツを変更できます。
 
-   コンテンツ作成者は、ディスプレイを音声対応となるよう設定できます。この機能の目的は、お客様がディスプレイと対話する方法として音声を利用できるようにすることです。
+   コンテンツ作成者は、ディスプレイを音声対応となるよう設定できます。この機能の目的は、顧客がディスプレイとやり取りする方法として音声利用を可能にすることです。
 
-   詳しくは、「 [音声認識](voice-recognition.md) 」を参照してください。
+   詳しくは、[音声認識](voice-recognition.md)を参照してください。
 
 ### 既知の問題と修正点 {#known-issues}
 
@@ -60,7 +60,7 @@ login-token cookieのSameSite属性をLax **から** None **に設定します�
 
 ### リリースされている AEM Screens Player {#released-aem-screens-players}
 
-次のAEM Screensプレイヤーは、AEM ScreensリリースのAEM 6.5機能パック5向けにリリースされています。
+AEM Screens でリリースされた AEM 6.5 機能パック 5 向けに、次の AEM Screens Player がリリースされています。
 
 * Chrome OS
 * Windows

@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
 workflow-type: tm+mt
 source-wordcount: '978'
-ht-degree: 90%
+ht-degree: 93%
 
 ---
 
@@ -41,12 +41,11 @@ login-token cookieのSameSite属性をLax **から** None **に設定します�
 
 その場合は、次の手順に従います。
 
-1. Navigate to **Adobe Experience Manager Web Console
-Configuration** using `http://localhost:4502/system/console/configMgr`.
+1. `http://localhost:4502/system/console/configMgr` を使用して、**Adobe Experience Manager Web コンソールの設定**&#x200B;に移動します。
 
-1. 「 *AdobeGraniteトークン認証ハンドラー*」を検索します。
+1. *Adobe Granite トークン認証ハンドラー*&#x200B;を検索します。
 
-1. login-token cookieの **SameSite属性を** Lax **から** Noneに設定します ****。
+1. **login-token cookie の SameSite 属性**&#x200B;を **Lax** から **None** に設定します。
    ![画像](/help/user-guide/assets/granite-updates.png)
 
 1. 「**保存**」をクリックします。

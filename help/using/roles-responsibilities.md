@@ -3,11 +3,11 @@ title: AEM Screens プロジェクト上の役割と責務
 seo-title: AEM Screens プロジェクト上の役割と責務
 description: ここでは、AEM Screens プロジェクト上の役割と責務について説明します
 seo-description: ここでは、AEM Screens プロジェクト上の役割と責務について説明します
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
 source-wordcount: '1263'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -84,7 +84,7 @@ AV インテグレーターは、デジタルサイネージハードウェア�
 
 >[!NOTE]
 >
->デジタルサイネージプロジェクト上の様々な役割と責務およびターゲットオーディエンスについて詳しくは、**[プロジェクト上の役割と責務](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**を参照してください。
+>デジタルサイネージプロジェクト上の様々な役割と責務およびターゲットオーディエンスについて詳しくは、**[プロジェクト上の役割と責務](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**&#x200B;を参照してください。
 
 
 ## プロジェクトの段階 {#project-stages}
@@ -99,7 +99,7 @@ AV インテグレーターは、デジタルサイネージハードウェア�
 
 >[!NOTE]
 >
->このガイドでは主に&#x200B;*「Day 1」*&#x200B;と&#x200B;*「Day 2」*&#x200B;に重点を置いていますが、デジタルサイネージプロジェクトを成功に導くには、これら 3 つの段階すべてに注意を払う必要があります。プロジェクトのプリプロダクション、プロジェクトの開始、プロジェクトの進行については、**[プロジェクトの管理と導入](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/project-management-and-deployment.html)**に関する追加のビデオを参照してください。
+>このガイドでは主に&#x200B;*「Day 1」*&#x200B;と&#x200B;*「Day 2」*&#x200B;に重点を置いていますが、デジタルサイネージプロジェクトを成功に導くには、これら 3 つの段階すべてに注意を払う必要があります。プロジェクトのプリプロダクション、プロジェクトの開始、プロジェクトの進行については、**[プロジェクトの管理と導入](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/project-management-and-deployment.html)**&#x200B;に関する追加のビデオを参照してください。
 
 ## RACI チャート {#raci-chart}
 
@@ -148,9 +148,9 @@ AV インテグレーターは、デジタルサイネージハードウェア�
 | AEM Screens プロジェクトの設定 | I | RA | C | I |
 | Analytics の実装 | I | RA | C | - |
 | テストと導入 | RA | C | RA | I |
-| サーバー設定 | I | RA | I | I |
+| サーバーの設定 | I | RA | I | I |
 | コンテンツ更新計画 | I | RA | C | C |
-| パイロットから実稼動への移行計画 | RA | RA | I | I |
+| パイロット・ツー・プロダクショントランジションの計画 | RA | RA | I | I |
 | 知識移転 | RA | RA | I | I |
 
 **Day 1：プロジェクトの実装（小売準備）**&#x200B;の概要を次の表に示します。

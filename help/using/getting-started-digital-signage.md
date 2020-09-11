@@ -3,8 +3,11 @@ title: '[!UICONTROL AEM Screens] のデジタルサイネージの基本'
 seo-title: '[!UICONTROL AEM Screens] のデジタルサイネージの基本'
 description: このガイドでは、デジタルサイネージプロジェクトの基本について説明します
 seo-description: このガイドでは、デジタルサイネージプロジェクトの基本について説明します
-translation-type: ht
-source-git-commit: 30c724ea897fd2da5300bb5cad285d460af5de40
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '428'
+ht-degree: 96%
 
 ---
 
@@ -75,7 +78,7 @@ AEM Screens 実装のベストプラクティスに取りかかる前に、プ�
       * シリアルコマンドの送信／受信（接点の開閉、PLC など）
       * 受信データが画面（RSS）に表示されるかコンテンツをトリガーする
       * RFID／NFC／Bluetooth／iBeacon
-      * 外部サービス（天気、交通など）
+      * 外部サービス（天気予報、トラフィック）
 
 1. **環境**
 
@@ -94,5 +97,5 @@ AEM Screens 実装のベストプラクティスに取りかかる前に、プ�
    * 詳細な設置ガイド／ユーザーガイドは必要か
    * 出荷前にデバイスを設定（プログラミング）しているか
    * 追跡のために各シリアル番号をキャプチャする必要があるか
-   * バックアップ電源の要件（無停止電源）はあるか
+   * バックアップ電源の要件（電源の中断がない状態）はありますか。
    * システムアップデートのデプロイ方法デバイスをリモートで監視する方法MDM ソリューションは必要か

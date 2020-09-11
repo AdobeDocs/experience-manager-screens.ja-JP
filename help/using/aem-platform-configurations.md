@@ -3,9 +3,9 @@ title: AEM プラットフォーム設定
 seo-title: AEM プラットフォーム設定
 description: ここでは、AEM プラットフォームの設定について説明します
 seo-description: ここでは、AEM プラットフォームの設定について説明します
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ AEM Screens の使用を開始するには、まず、以下の節に従って A
 
 Dispatcher は、Adobe Experience Manager のキャッシュやロードバランシングを管理するツールです。AEM の Dispatcher は、AEM サーバーを攻撃から保護する目的にも役立ちます。したがって、Dispatcher をエンタープライズクラスの Web サーバーと組み合わせて使用すれば、AEM インスタンスのセキュリティを強化できます。
 
-AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインを説明している **[AEM Screens の Dispatcher 設定](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/dispatcher-configurations-aem-screens.html)**を参照してください。
+AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインを説明している **[AEM Screens の Dispatcher 設定](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/dispatcher-configurations-aem-screens.html)**&#x200B;を参照してください。
 
 ## FFmpeg とビデオレンディションのインストール {#installing-ffmpeg}
 

@@ -3,8 +3,11 @@ title: プロジェクト分類
 seo-title: 'プロジェクト分類 '
 description: ここでは、プロジェクトの分類について説明します
 seo-description: ここでは、プロジェクトの分類について説明します
-translation-type: ht
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '331'
+ht-degree: 100%
 
 ---
 
@@ -55,5 +58,4 @@ AEM Screens プロジェクトを開始する際に作成者は、通常、以�
 * [AEM Screens Player でのコンテンツの表示](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/working-with-screens-player.html)
 
 >[!NOTE]
->
 >さらに、CSV／XLS スプレッドシートから AEM Screens プロジェクトに一連の場所を一括インポートすることもできます。詳しくは、[ファイルをソースとする新しいプロジェクトインポーター](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/project-importer.html)を参照してください。

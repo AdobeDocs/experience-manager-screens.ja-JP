@@ -3,9 +3,9 @@ title: ターゲットオーディエンス
 seo-title: AEM Screens のターゲットオーディエンス
 description: ここでは、AEM Screens ベストプラクティスガイドにおける「ターゲットオーディエンス」について説明します
 seo-description: ここでは、AEM Screens ベストプラクティスガイドにおける「ターゲットオーディエンス」について説明します
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 100%
 
@@ -23,7 +23,6 @@ AEM の実装経験が豊富であれば、*作成者*、*開発者*、*IT／技
 ![](/help/assets/roles-used.png)
 
 >[!NOTE]
->
 >これらの役割の多くは、各プロジェクトの設定方法に応じて、社内で割り当てるかアウトソーシングされるかのどちらかになります。
 
 ## 役割の定義 {#roles}
@@ -69,5 +68,4 @@ AV インテグレーターは、デジタルサイネージハードウェア�
 通常、プロジェクトマネージャーは、AEM Screens の導入全体を管理します。プロジェクトマネージャーは、指定されたプロジェクトの実装全体の窓口となり、タイムラインの設定、チームのニーズとコミュニケーションの処理、課題への対処、目標の確実な達成といった重要な責務を果たします。
 
 >[!NOTE]
->
->デジタルサイネージプロジェクト上の様々な役割と責務およびターゲットオーディエンスについて詳しくは、**[プロジェクト上の役割と責務](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**を参照してください。
+>デジタルサイネージプロジェクト上の様々な役割と責務およびターゲットオーディエンスについて詳しくは、**[プロジェクト上の役割と責務](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**&#x200B;を参照してください。

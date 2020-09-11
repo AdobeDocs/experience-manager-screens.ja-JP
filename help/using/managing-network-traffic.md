@@ -1,9 +1,9 @@
 ---
 title: ネットワークトラフィックの管理
 description: このページでは、標準ネットワークのセットアップとネットワークトラフィックの管理方法について説明します。
-translation-type: ht
-source-git-commit: 173ce977549ed64e3750bb751a8fe1b27e277aa2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 100%
 
@@ -17,9 +17,7 @@ ht-degree: 100%
 このガイドでは、プロキシサーバーについて紹介し、様々な組織内で設定される多様なネットワーク構造の概要について説明します。
 
 >[!NOTE]
->
 >**AEM Screens ネットワーク要件**
->
 >AEM Screens は、AEM as a Cloud Service と直接通信するので、2 つのノード間に安定した接続を確立する必要があります。ファイアウォールは、商用のインターネットアクセスには絶対に必須です。利用者である顧客は、これらのファイアウォールやその他の IT セキュリティ関連のネットワークコンポーネントで開く必要のある通信ポートを理解しなければなりません。
 
 ## プロキシサーバーの概要 {#proxy-servers}

@@ -3,8 +3,11 @@ title: プラットフォームへの移行
 seo-title: AEM Screens のプラットフォームへの移行
 description: ここでは、プラットフォームへの移行について説明します。
 seo-description: ここでは、プラットフォームへの移行について説明します。
-translation-type: ht
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 * **エクスペリエンスフラグメント**（コンテンツのグループ化を作成するため）
 * **コンテンツフラグメント**（テキストのバリエーションを作成するため）
 * **Context Hub**（インタラクティブなエクスペリエンスの外部データストアや SPA を作成するため）
-* **OSGI サービス**（ネットワークアラート用）
+* **OSGiサービス** （ネットワーク警告用）
 * **アセットリンク**（Creative Cloud ソーシング用）
 * **ネットワークフォルダー**（アセット割り当て用）
 * **テキストオーバーレイ**（リアルタイムデータ用）

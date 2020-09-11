@@ -3,8 +3,11 @@ title: プロジェクト範囲を定義する際の検討事項
 seo-title: プロジェクト範囲を定義する際の検討事項
 description: ここでは、プロジェクト範囲を定義する際の検討事項について説明します
 seo-description: ここでは、プロジェクト範囲を定義する際の検討事項について説明します
-translation-type: ht
-source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '301'
+ht-degree: 95%
 
 ---
 
@@ -12,7 +15,6 @@ source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
 # プロジェクト範囲を定義する際の検討事項 {#pre-sales-considerations}
 
 >[!NOTE]
->
 >このアクティビティの典型的な関係者は、マーケティング／ビジネスストラテジストです。
 
 この段階では、プロジェクト範囲を完全に定義するうえで必要なあらゆるプリセールスおよび洗い出し作業をおこないます。Day 0 におこなわれる作業で、プロジェクトの残りの部分のトーンが設定されるので、この作業は作成中のアプリケーションの全体的な成功に影響を与えます。この段階で、主要ベンダーが特定され、共同でプロジェクト計画の策定を支援します。この段階で重要なのは、販売幹部、マーケティングマネージャー、IT チームなど、クライアント企業内部の主要なプロジェクト関係者の賛同も得られていることです。これらの人々は皆、アプリケーションの開発と継続的なメンテナンスに重要な役割を果たすことになるからです。
@@ -31,4 +33,4 @@ source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
 >
 >アプリケーションに必要なデータとそのデータソースをできるだけ早く特定します。実装時に、より詳細な調査がおこなわれる一方、*Day 0* に時間をかけて、クライアントが使用する予定のデータ、そのデータの現在の保存場所、構築中のアプリケーションによるデータへのアクセス方法を明らかにします。今後の課題を事前に開発チームに知らせておくと、実装をよりスムーズに進めることができます。
 
-詳しくは、[プロジェクト範囲を定義する際の検討事項](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/project-considerations.html)に関するビデオチュートリアルを参照してください。
+Refer to video tutorial on [Considerations as Projects are Scoped](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/project-considerations.html) for more information.

@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 83ce95e5dc530c5792ec9a00dcb758a424202a7a
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 92%
+source-wordcount: '752'
+ht-degree: 90%
 
 ---
 
@@ -136,7 +136,7 @@ Alternatively, you can also perform the same setting using yourAuthorInstance *-
 
 1. AEM インスタンスでハンマーアイコン／**操作**／**Web コンソール**&#x200B;をクリックして、「**Adobe Experience Manager Web コンソール設定**」に移動します。
 
-1. 「Adobe Experience Manager Web コンソール設定」が開きます。Search for *deviceservice*. このプロパティを検索するには、**Command + F** キー（**Mac**）または **Ctrl + F** キー（**Windows**）を押します。
+1. **Adobe Experience Manager Web コンソール設定**&#x200B;が開きます。Search for *deviceservice*. For searching the property, press **Command+F** for macOS and **Control+F** for Microsoft Windows.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
@@ -149,9 +149,7 @@ AEM Screens プロジェクトの Dispatcher を設定する方法について�
 ***Java エンコーディング***&#x200B;を Unicode に設定します。例えば、*Dfile.encoding=Cp1252* は機能しません。
 
 >[!NOTE]
->
 >**推奨事項：**
->
 >実稼動環境では AEM Screens サーバーに HTTPS を使用することをお勧めします。
 
 

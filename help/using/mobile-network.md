@@ -1,9 +1,9 @@
 ---
 title: 直接モバイルネットワーク
 description: ここでは直接モバイルネットワークのセットアップについて説明します
-translation-type: ht
-source-git-commit: 23bb59c719c675baa84c579f624adccc80377661
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
 
@@ -69,11 +69,9 @@ AEM Screens Player をモバイルサービスデータプロバイダーに携�
 
 
 >[!IMPORTANT]
->
 >例えば、メディアファイルの初回アップロードの場合、新しいプレーヤーを統合する際に、データ量とダウンロード時間の増加が予想され、前述の前提が反映されます。有効範囲が&#x200B;*良好*&#x200B;で、データ量が&#x200B;*無制限*&#x200B;の 4G ネットワークは、このネットワークセットアップで最も一般的なインストールと一致する必要があります。
 
 >[!NOTE]
->
 >ネットワークカバレッジが良好な最小限の 3G プランは、AEM Screens Player にとって許容可能なダウンロードパフォーマンスを提供します。適正な利用範囲が特定の場所に限られている場合は、ネットワークのセットアップ全体を[モバイルデータルータとアクティブネットワークコンポーネントを使用したモバイルネットワーク](/help/using/mobile-network-router.md)に切り替えることを考慮します。
 
 

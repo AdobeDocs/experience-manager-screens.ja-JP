@@ -3,8 +3,11 @@ title: Day 2 のサポートおよびメンテナンス
 seo-title: AEM Screens の Day 2 のサポートおよびメンテナンス
 description: ここでは、Day 2 のサポートおよびメンテナンスについて説明します
 seo-description: ここでは、Day 2 のサポートおよびメンテナンスについて説明します
-translation-type: ht
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 87%
 
 ---
 
@@ -21,7 +24,7 @@ AEM Screens では、プロジェクトが機能するために複数のパッ�
    * **Screens 機能パック**
    * **AEM 累積修正パック**
 
-1. 必要な開発用パッケージ（WCM コアコンポーネントなど）やサードパーティ製ツールキット（SAP Hybris など）を特定します。
+1. 必要な開発パッケージ（WCM Coreコンポーネントなど）やサードパーティのツールキット（SAP Hybrisなど）を特定します。
 
 1. 同じソフトウェアパッケージをローカルの開発環境にインストールします。
 

@@ -3,9 +3,9 @@ title: テストと品質保証
 seo-title: AEM Screens のテストと品質保証
 description: ここでは、AEM Screens ベストプラクティスガイドにおける「テストと品質保証」について説明します
 seo-description: ここでは、AEM Screens ベストプラクティスガイドにおける「テストと品質保証」について説明します
-translation-type: ht
-source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 100%
 
@@ -15,7 +15,6 @@ ht-degree: 100%
 # テストと品質保証 {#testing-quality}
 
 >[!NOTE]
->
 >このアクティビティの典型的な関係者は、AV インテグレーターです。
 
 デジタルサイネージネットワークの実際のデプロイメントが近づくと、すべてのハードウェアコンポーネント、すべてのソフトウェアコンポーネント、すべてのネットワークコンポーネントといったネットワークのすべての要素に対応するテストおよび QA 計画を作成する必要があります。
@@ -52,7 +51,6 @@ ht-degree: 100%
 
 ## 3. デバイス管理に関する考慮事項 {#device-management-considerations}
 
-
 AEM Screens には、Screens Player アプリケーションのエンドポイントを管理するための Device Control Center モジュールが含まれています。
 
 このエンドポイントは、Screens Player アプリケーションがインストールされており、AEM のインスタンスに登録されているあらゆる&#x200B;*プレイヤー*ハードウェアデバイスを指します。
@@ -68,7 +66,6 @@ AEM Screens には、Screens Player アプリケーションのエンドポイ�
 >[!CAUTION]
 >
 > デバイスコントロールセンターは次の用途には使用しないでください。
->
 > 1. 新しいバージョンのプレイヤーアプリケーションのインストール
 > 1. システムレベルのリソースの監視
 > 1. システムレベルエラーのトラブルシューティング

@@ -10,11 +10,11 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1802'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 98%
 * アクティベーションウィンドウ
 * チャネルレベルのアクティベーションを単一イベント再生として使用する方法
 * チャネル内アセットの繰り返し処理
-   * 時間帯区分
+   * 日分割
    * 週分割
    * 月分割
    * 分割の組み合わせ
@@ -154,7 +154,8 @@ AEM Screens プロジェクトにチャネルレベルのアクティベーシ�
 プレイヤーに **MainAdChannel** チャネルのコンテンツが表示され、（スケジュールで設定したとおりに）午後 11 時 59 分になると **TargetedSinglePlay** チャネルのコンテンツが 午前 12 時 5 分まで表示されます。その後は、**MainAdChannel** のコンテンツの再生が再開されます。
 
 >[!NOTE]
-AEM Screen Playerについて詳しくは、次のリソースを参照してください。[AEM Screensプレイヤーが](https://download.macromedia.com/screens/)[AEM Screensプレイヤーとの連携をダウンロード](working-with-screens-player.md)
+AEM Screen Player について詳しくは、次のリソースを参照してください。[AEM Screens Player のダウウンロード](https://download.macromedia.com/screens/)
+[AEM Screens Player での作業](working-with-screens-player.md)
 
 
 ## チャネル内アセットの繰り返し処理 {#handling-recurrence-in-assets}
@@ -202,7 +203,7 @@ AEM Screen Playerについて詳しくは、次のリソースを参照してく
 
 1. 「**スケジュール**」に式を入力すると、特定の日時間隔でアセットが表示されます。
 
-#### 週分割の式例 {#example-two}
+#### 週分割の式の例 {#example-two}
 
 ディスプレイにチャネルを割り当てる際にスケジュールに追加できる式の例を次の表にまとめます。
 
@@ -229,7 +230,7 @@ AEM Screen Playerについて詳しくは、次のリソースを参照してく
 
 1. 「**スケジュール**」に式を入力すると、特定の日時間隔でアセットが表示されます。
 
-#### 月分割の式例 {#example-three}
+#### 月分割の式の例 {#example-three}
 
 ディスプレイにチャネルを割り当てる際にスケジュールに追加できる式の例を次の表にまとめます。
 

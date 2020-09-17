@@ -1,11 +1,11 @@
 ---
 title: AEM Screens の音声認識
 description: このページでは、AEM Screens の音声認識機能について説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e355d648846034c4762ef8fdcb3e218d868044b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1124'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 84%
 
 AEM Screens プロジェクトで音声認識を実装するには、ディスプレイの音声認識を有効にし、各チャネルを固有のタグに関連付けて、チャネルトランジションをトリガーする必要があります。
 
-次の節では、AEM Screensプロジェクトで音声認識機能を有効にして使用する方法について説明します。
+次の節では、AEM Screens プロジェクトで音声認識機能を有効にして使用する方法について説明します。
 
 ## 全画面または分割画面チャネルスイッチでのコンテンツ表示 {#sequence-channel}
 
-音声認識機能を使用する前に、プロジェクトと、プロジェクト用に設定されたコンテンツを持つチャネルがあることを確認してください。
+音声認識機能を使用する前に、プロジェクトと、プロジェクト用にコンテンツが設定されたチャネルがあることを確認してください。
 
 1. 次の例では、**VoiceDemo** という名前のデモプロジェクトと、**Main**、**ColdDrinks**、**HotDrinks**（以下の図）の 3 つのシーケンスチャネルを示しています。
 
@@ -51,7 +51,7 @@ AEM Screens プロジェクトで音声認識を実装するには、ディス�
 
    または、
 
-   You can create three sequence channels **Main**, **ColdDrinks**, and **HotDrinks**, and one additional 1x2 Split Screens channel **SplitScreen** as shown in the figure below.
+   3 つのシーケンスチャネル、**Main**、**ColdDrinks**、**HotDrinks** を作成し、さらに 1x2 の分割画面チャネル **SplitScreen** を 1 つ追加します（下の図を参照）。
 
    ![画像](assets/voice-recognition/vr-emb-1.png)
 
@@ -95,13 +95,13 @@ AEM Screens プロジェクトで音声認識を実装するには、ディス�
 
    または、
 
-   また、事前にAEMインスタンスからプロジェクト用のタグを作成して、それらを選択することもできます。 [タグの作成](#creating-tags)で説明されている手順に従うと、次の図に示すように、その場所からタグを選択し、チャネルに追加できます。
+   事前に AEM インスタンスからプロジェクト用のタグを作成して、選択することもできます。[タグの作成](#creating-tags)で説明されている手順に従うと、次の図に示すように、その場所からタグを選択し、チャネルに追加できます。
 
    ![画像](assets/voice-recognition/vr-tag1.png)
 
 1. 同様に、「**温かい**」とタイトルを付けたタグを **HotDrinks** チャネルに追加します。
 
-1. 画面を分割チャネルを使用する場合は、次の図に示すように、**SplitScreen** チャネルプロパティに両方のタグ( **ホット**&#x200B;と **コールド** )を追加します。
+1. 分割画面チャネルを使用する場合は、次の図に示すように、**SplitScreen** チャネルプロパティに両方のタグ（**暖かい**&#x200B;と&#x200B;**冷たい**）を追加します。
 
    ![画像](assets/voice-recognition/vr-emb-7.png)
 
@@ -114,7 +114,7 @@ AEM Screens プロジェクトで音声認識を実装するには、ディス�
 
 1. AEM インスタンスに移動します。
 
-1. Click on tools icon --> **Tagging**.
+1. ツールアイコン／**タグ付け**をクリックします。
    ![画像](assets/voice-recognition/vr-7.png)
 
 1. **作成**／**名前空間を作成**をクリックします。
@@ -139,7 +139,7 @@ AEM Screens プロジェクトで音声認識を実装するには、ディス�
    >[!NOTE]
    >ディスプレイにチャネルを割り当てる方法については、[ディスプレイの作成と管理](/help/user-guide/managing-displays.md)を参照してください。
 
-1. チャネル（**Main**、**ColdDrinks**、**HotDrinks**）を **LobbyDisplay** に割り当てます。また、プロジェクトにSplitScreen **** チャネルを使用している場合は、それをディスプレイに割り当てていることを確認します。
+1. チャネル（**Main**、**ColdDrinks**、**HotDrinks**）を **LobbyDisplay** に割り当てます。また、プロジェクトに **SplitScreen** チャネルを使用している場合は、それをディスプレイに割り当てていることを確認します。
 
    >[!NOTE]
    >分割画面チャネルを作成した場合は、**SplitScreen** チャネルもディスプレイに割り当てます。
@@ -173,15 +173,15 @@ AEM Screens プロジェクトで音声認識を実装するには、ディス�
 >[!NOTE]
 >デバイスを AEM Screens プレーヤーに登録する方法については、[デバイス登録](device-registration.md)を参照してください。
 
-**シーケンスチャネルの目的の出力**
+**シーケンスチャネルの求められる出力**
 
 **Main** チャネルはコンテンツを再生していますが、キーワードの「**温かい**」が使用された場合（例：*温かいものが飲みたい*）、チャネルは **HotDrinks** チャネルのコンテンツの再生を開始します。
 
-Similarly, if you use word with a keyword **cold** such as *I would like to haves something cold*, the channel starts playing the contents of the **ColdDrinks** channel.
+同様に、キーワードの「**冷たい**」が使用された場合（例：*冷たいものが飲みたい*）、チャネルは **ColdDrinks** チャネルのコンテンツの再生を開始します。
 
-**「Split Screens」チャネルの出力**
+**分割画面チャネルに対する目的の出力**
 
-**Main** チャネルはコンテンツを再生していますが、キーワードの「**温かい**」と「**冷たい**」が一緒に使用された場合（例：*温かい飲み物と冷たい飲み物のメニューが見たい*）、チャネルは **SplitScreen** チャネルのコンテンツの再生を開始します。*メインメニューに戻る*&#x200B;と言うと、メインチャネルに戻ります。
+**Main** チャネルはコンテンツを再生していますが、キーワードの「**温かい**」と「**冷たい**」が一緒に使用された場合（例：*温かい飲み物と冷たい飲み物のメニューが見たい*）、チャネルは **SplitScreen** チャネルのコンテンツの再生を開始します。「*メインメニューに戻る*」と言うと、メインチャネルに戻ります。
 
 
 

@@ -4,11 +4,11 @@ seo-title: テキストオーバーレイのカスタムブランディングと
 description: このページでは、テキストオーバーレイのカスタムブランディングとスタイル設定を適用する方法について説明します。
 seo-description: このページでは、テキストオーバーレイのカスタムブランディングとスタイル設定を適用する方法について説明します。
 contentOwner: Jyotika Syal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '627'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 95%
    >[!NOTE]
    >チャネルエディターでテキストオーバーレイをアセットに追加する方法については、[テキストオーバーレイ](/help/user-guide/text-overlay.md)を参照してください。
 
-1. Navigate to CRXDE Lite from your AEM instance --> tools --> **CRXDE Lite**.
+1. AEM インスタンス／ツール／**CRXDE Lite** から CRXDE Lite に移動します。
 
 1. カスタムデザインを `/apps/settings/wcm/designs/<your-project>/` に作成する必要があります。例えば、この場合は、`/apps/settings/wcm/designs/customstyle/` に移動します。
 
@@ -99,7 +99,7 @@ ht-degree: 95%
 
 これらのデザインの ACL を更新して、プレーヤーがダウンロードできるようにする必要があります。
 
-1. Navigate to user admin and choose the `screens-<project>-devices group` and give it read permission to the custom design path.
+1. ユーザー管理に移動し、`screens-<project>-devices group` を選択してカスタムデザインパスの読み取り権限を付与します。
 
 1. このパスに対する `screens-<project>-administrators` グループの読み取りおよび変更の権限を指定します。
 

@@ -10,11 +10,11 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '978'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,14 +30,14 @@ AEM Screens 用の Windows プレーヤーを実装するには、同プレー�
 [**AEM 6.5 Player のダウンロード**](https://download.macromedia.com/screens/)ページにアクセスします。
 
 >[!NOTE]
->Windows Playerにはウィンドウモードはありません。 常にフルスクリーンモードになります。
+>Windows Player にはウィンドウモードはありません。常にフルスクリーンモードになります。
 
-### AEM Screens6.5.5 Service Packの環境の設定 {#fp-environment-setup}
+### AEM Screens6.5.5 Service Pack の環境の設定 {#fp-environment-setup}
 
 >[!NOTE]
->AEM Screens6.5.5 Service Packを使用している場合は、Windows Player用の環境を設定する必要があります。
+>AEM Screens 6.5.5 Service Pack を使用している場合は、Windows プレーヤー用の環境を設定する必要があります。
 
-login-token cookieのSameSite属性をLax **から** None **に設定します。この値は、** Adobe Experience ManagerWeb ConsoleConfiguration ******** on all AEM authorおよびpublish instancesに設定します。
+AEM オーサーおよびパブリッシュインスタンスの **Adobe Experience Manager Web コンソール設定**&#x200B;で、**login-token cookies の SameSite 属性**&#x200B;を **Lax** から **None** に設定します。
 
 その場合は、次の手順に従います。
 
@@ -84,7 +84,7 @@ Windows 10 プレーヤーを設定するには、次の手順を実行します
 1. 設定ファイルは ***%appdata%\com.adobe.aem.screens.player\config.json*** の下にあります。
 1. 後述の情報を使用して設定 JSON を更新し、同じフォルダーをプレーヤーが存在するすべてのシステムにコピーします。
 
-### ポリシー属性 {#policy-attributes}
+### ポリシー属性{#policy-attributes}
 
 次の表に、参照用のポリシー JSON の例と共にポリシー属性を示します。
 
@@ -97,7 +97,7 @@ Windows 10 プレーヤーを設定するには、次の手順を実行します
 | enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。完全に設定されて実稼動になったら、false に設定することを検討します。 |
 | enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にし、完全に設定されて実稼動になったら無効にします。 |
 
-#### ポリシー JSON ファイルの例 {#example-policy-json-file}
+#### ポリシー JSON ファイルの例{#example-policy-json-file}
 
 ```
 {

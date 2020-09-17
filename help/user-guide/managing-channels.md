@@ -10,18 +10,18 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1343'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # チャネルの作成と管理 {#creating-and-managing-channels}
 
-チャネルは、一連のコンテンツや表示画像、ビデオを表示しますが、Webサイトや単一ページのアプリも表示できます。
+チャネルはコンテンツのシーケンスを表示し、また画像およびビデオを表示しますが、Web サイトまたは単一ページアプリケーションも表示できます。
 
 このページでは Screens 用のチャネルの作成および管理を示します。
 
@@ -32,25 +32,25 @@ ht-degree: 93%
 
 ## 新しいチャネルの作成 {#creating-a-new-channel}
 
-AEM Screens向けのプロジェクトを作成したら、次の手順に従って、プロジェクト用の新しいチャネルを作成します。
+AEM Screens 用のプロジェクトを作成したら、以下の手順に従ってプロジェクト用の新しいチャネルを作成します。
 
 1. Adobe Experience Manager リンク（左上）を選択し、「Screens」を選択します。または、`https://localhost:4502/screens.html/content/screens` から直接アクセスすることもできます。
 
-1. Navigate to your Screens project and select **Channels** folder.
+1. Screens プロジェクトに移動し、**チャネル**&#x200B;フォルダーを選択します。
 
 1. アクションバーの「**作成**」をクリックします。
 
    ![demochannel](assets/create-channel1.png)
 
-1. Select the **Sequence Channel** template from the **Create** wizard and click **Next**.
+1. **作成**&#x200B;ウィザードで「**シーケンスチャネル**」テンプレートを選択し、「**次へ**」をクリックします。
 
    ![demochannel](assets/create-channel2.png)
 
-1. Enter the Title as **ScreensChannel** and click **Create**.
+1. 「タイトル」に「**ScreenChannel**」と入力し、「**作成**」をクリックします。
 
    ![demochannel](assets/create-project4.png)
 
-1. これで、シーケンスチャネルが **チャネル** フォルダーに追加されます。
+1. これで、シーケンスチャネルが&#x200B;**チャネル**&#x200B;フォルダーに追加されます。
 
 ### チャネルタイプ {#channel-types}
 

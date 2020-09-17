@@ -5,11 +5,11 @@ description: ここでは、AEM Screens プロジェクトに関連する FAQ �
 seo-description: ここでは、AEM Screens プロジェクトに関連する FAQ への回答を掲載しています。
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1294'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -125,9 +125,9 @@ AEM Screens Player は、起動時に 404 エラーが発生すると、***/cont
 1. **開発者向けオプション**&#x200B;に移動します。
 1. 「**スリープモードにしない**」をオンにします。
 
-### 4. Windowsプレーヤーのウィンドウモードを有効にする方法
+### 4. Windows プレーヤーのウィンドウモードを有効にする方法
 
-Windows Playerにはウィンドウモードはありません。 常にフルスクリーンモードになります。
+Windows Player にはウィンドウモードはありません。常にフルスクリーンモードになります。
 
 ## トラブルシューティングに関する一般的なヒント {#general-troubleshooting-tips}
 

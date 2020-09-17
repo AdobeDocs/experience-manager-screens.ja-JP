@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -31,12 +31,12 @@ AEM Screens 用の Android プレーヤーを実装するには、同プレー�
 
 [**AEM 6.5 Player のダウンロード**](https://download.macromedia.com/screens/)ページにアクセスします。
 
-### AEM Screens6.5.5 Service Packの環境の設定 {#fp-environment-setup}
+### AEM Screens6.5.5 Service Pack の環境の設定 {#fp-environment-setup}
 
 >[!NOTE]
->AEM Screens6.5.5 Service Packを使用している場合は、Androidプレイヤー用の環境を設定する必要があります。
+>AEM Screens 6.5.5 Service Pack を使用している場合は、Android プレーヤー用の環境を設定する必要があります。
 
-login-token cookieのSameSite属性をLax **から** None **に設定します。この値は、** Adobe Experience ManagerWeb ConsoleConfiguration ******** on all AEM authorおよびpublish instancesに設定します。
+AEM オーサーおよびパブリッシュインスタンスの **Adobe Experience Manager Web コンソール設定**&#x200B;で、**login-token cookies の SameSite 属性**&#x200B;を **Lax** から **None** に設定します。
 
 その場合は、次の手順に従います。
 
@@ -71,9 +71,9 @@ login-token cookieのSameSite属性をLax **から** None **に設定します�
 
 Android のアーキテクチャ上、デバイスをリブートするには、アプリケーションがシステム権限を持っている必要があります。そのためには、製造元の署名キーを使用して apk に署名する必要があります。この署名をおこなわないと、ウォッチドッグはデバイスをリブートするのではなく、プレーヤーアプリケーションを再起動します。
 
-### 製造元のキーを使用した Android apk への署名    {#signage-of-android-apks-using-manufacturer-keys}
+### 製造元のキーを使用した Android apk への署名{#signage-of-android-apks-using-manufacturer-keys}
 
-To access some of the privileged APIs of Android such as *PowerManager* or *HDMIControlServices*, you need to sign the android apk using the manufacturer&#39;s keys.
+*PowerManager* や *HDMIControlServices* など、Android の特権付き API にアクセスするには、製造元のキーを使用して Android apk に署名する必要があります。
 
 >[!CAUTION]
 >

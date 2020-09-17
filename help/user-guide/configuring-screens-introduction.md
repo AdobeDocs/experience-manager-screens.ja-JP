@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 83ce95e5dc530c5792ec9a00dcb758a424202a7a
 workflow-type: tm+mt
 source-wordcount: '752'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 90%
    ![アセット](assets/health-check1.png)
 
 
-2. Click on **Execute selected health checks** to run the validation for two properties listed above.
+2. 上記の 2 つのプロパティの検証を実行するには、「**Execute selected health checks**」をクリックします。
 
    両方のフィルターが有効な場合、**Screens Configuration Health Service** では&#x200B;**結果**&#x200B;が&#x200B;**OK**&#x200B;と表示され、両方の設定が有効となっています。
 
@@ -108,7 +108,7 @@ AEM Screens にはタッチ操作対応 UI が必要で、Adobe Experience Manag
 1. *&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl* に移動します。
 1. 「**Default authoring UI mode**」が「**TOUCH**」に設定されていることを確認します（下図を参照）。
 
-Alternatively, you can also perform the same setting using yourAuthorInstance *->* tools (hammer icon) -> **Operations** -> **Web Console** and search for **WCM Authoring UI Mode Service**.
+また、yourAuthorInstance／*ツール（ハンマーアイコン）*／**操作**／**Web コンソール**&#x200B;をクリックし、**WCM Authoring UI Mode Service** を検索して、同じ設定を実行することもできます。
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -118,7 +118,7 @@ Alternatively, you can also perform the same setting using yourAuthorInstance *-
 
 #### NOSAMPLECONTENT 実行モードの AEM {#aem-in-nosamplecontent-runmode}
 
-実稼動環境での AEM の実行には、**NOSAMPLECONTENT** 実行モードを使用します。Remove the *X-Frame-Options=SAMEORIGIN* header (in the additional response header section) from
+実稼動環境での AEM の実行には、**NOSAMPLECONTENT** 実行モードを使用します。次の場所に移動して、（追加の応答ヘッダーセクションにある）*X-Frame-Options=SAMEORIGIN* ヘッダーを削除します。
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
@@ -136,7 +136,7 @@ Alternatively, you can also perform the same setting using yourAuthorInstance *-
 
 1. AEM インスタンスでハンマーアイコン／**操作**／**Web コンソール**&#x200B;をクリックして、「**Adobe Experience Manager Web コンソール設定**」に移動します。
 
-1. **Adobe Experience Manager Web コンソール設定**&#x200B;が開きます。Search for *deviceservice*. For searching the property, press **Command+F** for macOS and **Control+F** for Microsoft Windows.
+1. **Adobe Experience Manager Web コンソール設定**&#x200B;が開きます。「*deviceservice*」を検索します。For searching the property, press **Command+F** for macOS and **Control+F** for Microsoft Windows.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 

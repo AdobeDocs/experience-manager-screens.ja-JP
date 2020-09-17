@@ -10,11 +10,11 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '684'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Adobe Analytics の設定は、OSGi コンソールから指定できます。
 
 >[!CAUTION]
 >
->Before you configure the properties, please contact your Adobe Relationship Manager to create a ticket to obtain an **Analytics API Key** and **Analytics Project** for use with AEM Screens.
+>プロパティを設定する前に、アドビのリレーションシップマネージャーに連絡して、AEM Screens で使用する **Analytics API キー**&#x200B;と **Analytics プロジェクト**&#x200B;を取得するためのチケットを作成してください。
 
 ![]()
 
@@ -83,7 +83,7 @@ Adobe Analytics の設定は、OSGi コンソールから指定できます。
 
 >[!CAUTION]
 >
->Before you configure the properties, please contact your Adobe Relationship Manager to create a ticket to obtain an **Analytics API Key** and **Analytics Project** for use with AEM Screens.
+>プロパティを設定する前に、アドビのリレーションシップマネージャーに連絡して、AEM Screens で使用する **Analytics API キー**&#x200B;と **Analytics プロジェクト**&#x200B;を取得するためのチケットを作成してください。
 
 Adobe Analytics を AEM Screens 用に設定するためのプロパティとその説明を次の表に示します。
 
@@ -123,7 +123,7 @@ Adobe Analytics を AEM Screens 用に設定するためのプロパティとそ
 
 #### AEM Screens での Adobe Analytics サービスの使用 {#using-adobe-analytics-service-in-aem-screens}
 
-このシナリオは、ファームウェアの分析サービスからREST呼び出しを介してAnalytics APIを呼び出し、画面のコアコンポーネントを実装して、特定の使用例に固有のイベントを明示的に作成および送信し、カスタム開発チャネルからAnalyticsに任意のカスタムメッセージを送信できます。
+このシナリオでは、ファームウェアや機器の Screens コアコンポーネントに実装されている Analytics サービスから REST 呼び出しを通じて Analytics API を呼び出して、特定の使用例に固有のイベントを明示的に作成および送信しつつ、カスタム開発したチャネルから任意のカスタムメッセージを Analytics に送信できる拡張性も備えています。
 
 Analytics イベントは、IndexedDB にオフラインで保存され、後でまとめてクラウドに送信されます。
 

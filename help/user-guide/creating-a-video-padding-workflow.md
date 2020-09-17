@@ -10,11 +10,11 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '603'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 91%
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
-1. Drag and drop the **Command Line** component to your workflow.
+1. **コマンドライン**&#x200B;コンポーネントをワークフローにドラッグ＆ドロップします。
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
@@ -87,11 +87,11 @@ ht-degree: 91%
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
-1. Select the workflow (**VideoRenditions**) and click **Start Workflow** from the action bar to open the **Run Workflow** dialog box.
+1. ワークフロー（**VideoRenditions**）を選択し、アクションバーの「**ワークフローを開始**」をクリックして、**ワークフローを実行**&#x200B;ダイアログボックスを開きます。
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. Select the path of your asset in the **Payload** (as ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) and enter the **Title** as ***RunVideo*** and click **Run**.
+1. 「**ペイロード**」でアセットのパス（***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***）を選択し、「**タイトル**」に「***RunVideo***」と入力して、「**実行**」をクリックします。
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 

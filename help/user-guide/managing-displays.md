@@ -9,11 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b06ebef5d22daed81e8705c0928501505fd3d297
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '773'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -113,14 +113,14 @@ ht-degree: 95%
 
 **ディスプレイ情報**&#x200B;パネルは、ディスプレイのプロパティを表示します。
 
-**ディスプレイ情報**&#x200B;パネルの右上角の（**...**）をクリックして、プロパティを表示し、ディスプレイをプレビューします。
+**ディスプレイ情報**&#x200B;パネルの右上隅の（**...**）をクリックして、プロパティを表示し、ディスプレイをプレビューします。
 
 
 #### プロパティの表示 {#viewing-properties}
 
 「**プロパティ**」をクリックして、ディスプレイのプロパティを表示または変更します。
 
-Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout** property under **Display** tab. デフォルト値は *300 秒*&#x200B;に設定されています。
+さらに「**ディスプレイ**」タブの&#x200B;**アイドルタイムアウト**&#x200B;プロパティで、インタラクティブチャネルのイベントタイマー値を調節できます。デフォルト値は *300 秒*&#x200B;に設定されています。
 
 **CRXDE Lite** を使用して、**idleTimeout** プロパティ（`http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`）にアクセスします。
 
@@ -134,7 +134,7 @@ Additionally, you can adjust the event timer value for your interactive channel 
 
 **デバイス**&#x200B;パネルには、デバイス設定の情報が表示されます。
 
-Click on the (**...**) in the top right corner in the **DEVICES** panel to add device configs and update devices.
+**デバイス**&#x200B;パネルの右上の「**...**」をクリックすると、デバイス設定を追加したり、デバイスを更新したりできます。
 
 さらに、デバイス設定をクリックして、プロパティの表示、デバイスの割り当て、またはデバイスの完全削除をおこなうことができます。
 

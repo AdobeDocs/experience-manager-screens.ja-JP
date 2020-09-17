@@ -9,11 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8a2ed4e0a27175d43abfadda63232c3577d5387b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 以下の節では、チャネルで再生されるビデオをデバッグおよびトラブルシューティングする方法について説明します。
 
-## DAM レンディション  {#dam-renditions}
+## DAM レンディション   {#dam-renditions}
 
 ビデオをチャネルにアップロードすると、AEM によってそのビデオの一部のレンディションの作成が開始されます。ビデオは Assets で表示できます。
 
@@ -45,7 +45,7 @@ ht-degree: 95%
 
 ## ビデオアセット {#video-assets}
 
-ビデオの下にソース属性が表示されない場合は、ビデオがトランスコードされなかった可能性があります。 ビデオが適切にトランスコードされると、次の図のように、ダッシュボードに表示されます。
+ビデオの下にソース属性が表示されない場合は、ビデオがトランスコードされなかった可能性があります。ビデオが正しくトランスコードされている場合は、次の図に示すようにダッシュボードに表示されます。
 
 ffmpeg がインストールされていること、およびビデオプロファイルを確認してください。
 
@@ -71,7 +71,7 @@ ffmpeg がインストールされていること、およびビデオプロフ�
    >
    >ビデオのトランスコードに十分な時間をかけてから（「処理しています」ではなく「新規」というタグが表示されます）、ビデオをチャネルに追加するようにしてください。
 
-### ビデオコンポーネントでのプロファイルの確認  {#checking-profile-with-a-video-component}
+### ビデオコンポーネントでのプロファイルの確認   {#checking-profile-with-a-video-component}
 
 ビデオコンポーネントが正しく設定されない場合は、ページデザインからプロファイルのリストを確認します。
 

@@ -10,11 +10,11 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '360'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 96%
 
 この機能の実装を開始する前に、前提条件として、プロジェクトをセットアップしておく必要があります。例：
 
-1. Create an AEM Screens project example, **ChannelLevelPlayback**.
+1. AEM Screens プロジェクト（例：**ChannelLevelPlayback**）を作成する。
 
-1. **チャネル**&#x200B;フォルダーの下に **PlaybackChannel** というシーケンスチャネルを作成する.
+1. **チャネル**&#x200B;フォルダーの下に **PlaybackChannel** というシーケンスチャネルを作成する。
 
-1. Add content to **PlaybackChannel**.
+1. **PlaybackChannel** にコンテンツを追加する。
 
 ## チャネルレベル画像再生時間の割り当ての編集 {#editing-channel-level-image-playback-duration-assignment}
 

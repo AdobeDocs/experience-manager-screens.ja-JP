@@ -1,8 +1,8 @@
 ---
-title: 旅行センター向けの気温に応じたアクティブ化
-seo-title: 旅行センター向けの気温に応じたアクティブ化
-description: 以下の使用例では、Google シートに入力された値に基づく、旅行センター向けの現地気温に応じたアクティブ化を示しています。
-seo-description: 以下の使用例では、Google シートに入力された値に基づく、旅行センター向けの現地気温に応じたアクティブ化を示しています。
+title: 旅行センター向けの気温に応じたアクティベーション
+seo-title: 旅行センター向けの気温に応じたアクティベーション
+description: 以下の使用例では、Google シートに入力された値に基づく、旅行センター向けの現地気温に応じたアクティベーションを示しています。
+seo-description: 以下の使用例では、Google シートに入力された値に基づく、旅行センター向けの現地気温に応じたアクティベーションを示しています。
 uuid: b35286d2-79be-4c36-b72e-c40ffc1a0ca0
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,18 +10,18 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '476'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
-# 旅行センター向けの気温に応じたアクティブ化 {#travel-center-temperature-activation}
+# 旅行センター向けの気温に応じたアクティベーション {#travel-center-temperature-activation}
 
-以下の使用例では、Google シートに入力された値に基づく、旅行センター向けの現地気温に応じたアクティブ化を示しています。
+以下の使用例では、Google シートに入力された値に基づく、旅行センター向けの現地気温に応じたアクティベーションを示しています。
 
 ## 説明 {#description}
 
@@ -29,13 +29,13 @@ ht-degree: 89%
 
 ## 前提条件 {#preconditions}
 
-Before you start implementing the travel center local temperature activation, you must learn how to set up ***Data Store***, ***Audience Segmentation*** and ***Enable Targeting for Channels*** in an AEM Screens Project.
+旅行センター向けの現地気温に応じたアクティベーションの実装を開始する前に、AEM Screens プロジェクトで&#x200B;***データストア***、***オーディエンスのセグメント化***、***チャネルのターゲティングの有効化***&#x200B;をセットアップする方法を理解しておく必要があります。
 
 詳しくは、[AEM Screens プロジェクトでの ContextHub の設定](configuring-context-hub.md)を参照してください。
 
 ## 基本フロー {#basic-flow}
 
-「旅行センター向けの現地気温に応じたアクティブ化」の使用例を実装するには、以下の手順に従います。
+「旅行センター向けの現地気温に応じたアクティベーション」の使用例を実装するには、以下の手順に従います。
 
 1. **Google シートにデータを入力する**
 
@@ -53,7 +53,7 @@ Before you start implementing the travel center local temperature activation, yo
    1. 比較プロパティを選択し、設定アイコンをクリックしてプロパティを編集します。
    1. 「**プロパティ名**」のドロップダウンから「**googlesheets/value/1/0**」を選択します。
 
-   1. Select the **Operator** as **greater-than-or-equal** from the drop-down menu
+   1. 「**演算子**」のドロップダウンメニューから「**次よりも大きいか等しい**」を選択します。
 
    1. 「**値**」に「**50**」を入力します。
 
@@ -62,7 +62,7 @@ Before you start implementing the travel center local temperature activation, yo
    1. 「**比較 : プロパティ - 値**」を選択し、設定アイコンをクリックしてプロパティを編集します。
    1. 「**プロパティ名**」のドロップダウンから「**googlesheets/value/1/0**」を選択します。
 
-   1. Select the **Operator** as **less-than** from the drop-down menu
+   1. 「**演算子**」のドロップダウンメニューから「**次よりも小さい**」を選択します
 
    1. 「**値**」に「**50**」を入力します。
 

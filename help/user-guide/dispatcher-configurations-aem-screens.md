@@ -3,11 +3,11 @@ title: AEM Screens プロジェクトの Dispatcher の設定
 seo-title: AEM Screens プロジェクトの Dispatcher の設定
 description: ここでは、AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインについて説明します。
 seo-description: ここでは、AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインについて説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4a1fb81fa343983093590c36ccb6a4fd110cdad2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ AEM Screens プロジェクトの Dispatcher を設定する前に、Dispatcher 
 
 ### スティッキーセッションの有効化 {#enable-sticky-session}
 
-ディスパッチャーと共に複数の発行インスタンスを使用する場合は、 `dispatcher.any` ファイルを更新する必要があります。
+Dispatcher と共に複数の公開インスタンスを使用する場合は、`dispatcher.any` ファイルを更新する必要があります。
 
 ```xml
 /stickyConnections {
@@ -91,7 +91,7 @@ Screens プレーヤーは認証済みセッションを使用するので、Dis
 アセットを Dispatcher のキャッシュから提供するために、アセットのキャッシュを有効にするには、次の操作をおこなう必要があります。
 
 * `/allowAuthorization 1` を `/cache` セクションに追加
-* Add the below rules to `/rules` section of `/cache`
+* `/cache` の `/rules` セクションに以下の規則を追加
 
 ```xml
 /0000

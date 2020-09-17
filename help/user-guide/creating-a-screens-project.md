@@ -9,11 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3d3bd3575152ce14032e00127490054d68f45655
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -22,26 +22,26 @@ ht-degree: 68%
 
 Adobe Experience Manager のリンク（左上）を選択し、「Screens」を選択すると、AEM Screens にアクセスできます。
 
-Alternatively, you can navigate directly to: `http://localhost:4502/screens.html/content/screens`
+または、`http://localhost:4502/screens.html/content/screens` から直接アクセスすることもできます
 
 
 >[!NOTE]
 >**ナビゲーションのヒント：**
->カーソルキーを使用しても、AEM 内の様々なフォルダーを移動できます。また、特定のエンティティを選択したら、スペースバーを押して、その特定のフォルダのプロパティを編集したり、表示したりします。
+>カーソルキーを使用しても、AEM 内の様々なフォルダーを移動できます。さらに、特定のエンティティを選択し、スペースバーを押すと、その特定のフォルダーのプロパティを編集または表示できます。
 
-## 新しい Screens プロジェクトの作成 {#creating-a-new-screens-project}
+## 新しい Screens プロジェクトの作成{#creating-a-new-screens-project}
 
 以下の手順に従って、新しい Screens プロジェクトを作成します。
 
-1. AEMインスタンスから「 **画面** 」を選択します。
+1. AEM インスタンスから「**Screens**」を選択します。
 
-1. Click **Create Screens Project**.
+1. 「**Screens プロジェクトを作成**」をクリックします。
 
-1. Enter the title as **TestScreens** and click **Save**.
+1. タイトルに「**TestScreens**」と入力し、「**保存**」をクリックします。
 
 プロジェクトが作成され、Screens プロジェクトコンソールに戻ります。これでプロジェクトを選択できます。
 
-プロジェクトには、次の図に示す5種類のフォルダがあります。
+下の図に示すように、プロジェクトには 5 種類のフォルダーがあります。
 
 * **スケジュール**
 * **ロケーション**
@@ -58,9 +58,9 @@ Alternatively, you can navigate directly to: `http://localhost:4502/screens.html
 
 ## プロパティの表示 {#viewing-properties}
 
-画面プロジェクトを作成したら、プロジェクトを選択し、アクションバーの「 **プロパティ** 」をクリックして、プロジェクトのプロパティを編集します。
+Screens プロジェクトを作成したら、プロジェクトを選択し、アクションバーの「**プロパティ**」をクリックして、プロジェクトのプロパティを編集します。
 
-The following options allow you to edit/change properties of your **TestScreens**.
+次のオプションで、**TestScreens** のプロパティを編集または変更できます。
 
 ![画像](assets/create-project2.png)
 
@@ -76,7 +76,7 @@ The following options allow you to edit/change properties of your **TestScreens*
 1. 「**次へ**」をクリックします。
 1. プロパティを入力して、「**作成**」をクリックします。
 
-The following steps show the creation of an applications folder to your **Applications** master page in **TestScreens**.
+以下の手順では、**TestScreens** で&#x200B;**アプリケーション**&#x200B;マスターページにアプリケーションフォルダーを作成します。
 
 ![player2-1](assets/create-project3.gif)
 

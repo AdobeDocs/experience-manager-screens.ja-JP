@@ -1,11 +1,11 @@
 ---
 title: 機能パック 202008 のリリースノート
 description: このページでは、機能パック 202008 のリリースノートについて説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f13adf375631e3b7d7d03324458d91d9d55b0f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe ID を使用して、AEM Screens 6.5.5 リリースの最新の機能パ�
 
 ## リリース日 {#release-date}
 
-AEM Screens機能パック202008のリリース日は2020年9月3日です。
+AEM Screens 機能パック 202008 のリリース日は 2020 年 9 月 3 日です。
 
 ### 新機能 {#what-is-new}
 
@@ -50,13 +50,13 @@ AEM Screens機能パック202008のリリース日は2020年9月3日です。
 
 ### 既知の問題と修正点 {#known-issues}
 
-AEM Screens6.5.5 Service Packを使用している場合は、WindowsまたはAndroid Player用の環境を設定する必要があります。
+AEM Screens 6.5.5 Service Pack を使用している場合は、Windows または Android プレーヤー用の環境を設定する必要があります。
 
-login-token cookieのSameSite属性をLax **から** None **に設定します。この値は、** Adobe Experience ManagerWeb ConsoleConfiguration ******** on all AEM authorおよびpublish instancesに設定します。
+AEM オーサーおよびパブリッシュインスタンスの **Adobe Experience Manager Web コンソール設定**&#x200B;で、**login-token cookies の SameSite 属性**&#x200B;を **Lax** から **None** に設定します。
 
-* 詳しくは、「Windows 10 Player [の](implementing-windows-player.md#fp-environment-setup) 実装」を参照してください。
+* 詳しくは、[Windows 10 プレーヤーの実装](implementing-windows-player.md#fp-environment-setup)を参照してください。
 
-* 詳しくは、 [Android Playerの](implementing-android-player.md#fp-environment-setup) 実装（英語）を参照してください。
+* 詳しくは、[Android プレーヤーの 実装](implementing-android-player.md#fp-environment-setup)を参照してください。
 
 ### リリースされている AEM Screens Player {#released-aem-screens-players}
 

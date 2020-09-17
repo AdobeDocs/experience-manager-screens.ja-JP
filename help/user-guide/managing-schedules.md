@@ -1,28 +1,28 @@
 ---
 title: スケジュールの作成と管理
 seo-title: スケジュールの管理
-description: Follow this page to learn about Schedules, that lets you organize channels into re-usable groups so that you do not have to repeat their assignment individually for each display on which you want to show your content.
-seo-description: このページでは、チャネルを再利用可能なグループに編成し、コンテンツを表示する画面ごとに個別に割り当てを繰り返す必要がないように、スケジュールについて説明します。
+description: このページでは、スケジュールについて説明します。スケジュールを使用すると、複数のチャネルを再使用可能なグループに編成できるので、コンテンツを表示するディスプレイごとに個別に割り当てを繰り返す必要がなくなります。
+seo-description: このページでは、スケジュールについて説明します。スケジュールを使用すると、複数のチャネルを再使用可能なグループに編成できるので、コンテンツを表示するディスプレイごとに個別に割り当てを繰り返す必要がなくなります。
 uuid: c05328a0-620a-4597-b7b3-f4433e78d4e9
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 
 # スケジュールの作成と管理 {#creating-and-managing-schedules}
 
-**スケジュール**(AEM Screens)を使用すると、チャネルを再利用可能なグループに編成できるので、コンテンツを表示する画面ごとに個別に割り当てを繰り返す必要がなくなります。
+AEM Screens で&#x200B;**スケジュール**&#x200B;を使用すると、複数のチャネルを再使用可能なグループに編成できるので、コンテンツを表示するディスプレイごとに個別に割り当てを繰り返す必要がなくなります。
 
-スケジュールを&#x200B;***時間帯区分***&#x200B;と組み合わせると、ある日の特定の時間に実行される複数のチャネルでグローバルスケジュールを設定でき、また一度にすべてのディスプレイでその設定を再使用できます。
+スケジュールを&#x200B;***日分割***&#x200B;と組み合わせると、ある日の特定の時間に実行される複数のチャネルでグローバルスケジュールを設定でき、また一度にすべてのディスプレイでその設定を再使用できます。
 
 >[!NOTE]
 >

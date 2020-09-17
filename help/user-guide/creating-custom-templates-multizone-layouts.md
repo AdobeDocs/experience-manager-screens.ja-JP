@@ -4,11 +4,11 @@ seo-title: マルチゾーンレイアウトのカスタムテンプレートの
 description: ここでは、マルチゾーンレイアウトのカスタムテンプレートの作成について説明します。
 seo-description: ここでは、マルチゾーンレイアウトのカスタムテンプレートの作成について説明します。
 contentOwner: Jyotika Syal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '947'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Left20-LandscapeHD3Zone レイアウトを使用すると、プロジェクト�
 
    ![画像](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
-1. AEM インスタンスの **CRXDE lite**／ツール／**CRXDE Lite** に移動します。
+1. AEM インスタンス／ツール／**CRXDE Lite** から **CRXDE Lite** に移動します。
 
 1. **apps** の下に、**customtemplate** という名前のフォルダーを作成します。同様に、次の図に示すように、**customtemplate** の下で **template** という名前の別のフォルダーを作成します。
 
@@ -94,7 +94,7 @@ Left20-LandscapeHD3Zone レイアウトを使用すると、プロジェクト�
 
    ![画像](/help/user-guide/assets/custom-multizone/custom-template7.png)
 
-   同様に、*r1c2* ノードに対しては *my-custom-layout—top-right* を追加し、*r2c1* ノードに対しては *my-custom-layout--bottom* を追加します。
+   同様に、*r1c2* ノードに対しては *my-custom-layout--top-right* を追加し、*r2c1* ノードに対しては *my-custom-layout--bottom* を追加します。
 
    >[!NOTE]
    >これらのカスタムクラスは、レスポンシブグリッドの幅と高さを設定するために CSS で使用されます。
@@ -108,7 +108,7 @@ Left20-LandscapeHD3Zone レイアウトを使用すると、プロジェクト�
 
 1. `/apps/settings/wcm/designs/custom-template-designs` に移動して、static.css ファイルを作成します。
 
-1. Copy the content to `static.css` file:
+1. コンテンツを `static.css` ファイルにコピーします。
 
    ```shell
        /*my-custom-layout styles*/

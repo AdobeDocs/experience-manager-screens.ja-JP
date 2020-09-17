@@ -10,9 +10,9 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1531'
 ht-degree: 100%
 
@@ -197,8 +197,8 @@ json を定義するプロセスをスキップし、空白のままにしてお
 
       >[!CAUTION]
       既知の問題：
-領域を追加するには、URL（例えば下記）から「master」を削除します
-      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
+領域を追加するには、URL（例えば下記）から「master」を削除します。
+      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`
 
 1. **ブランドに領域を作成する**
 

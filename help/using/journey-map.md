@@ -3,11 +3,11 @@ title: ジャーニーマップ
 seo-title: AEM Screens のジャーニーマップ
 description: ここでは、AEM Screens のジャーニーマップについて説明します
 seo-description: ここでは、AEM Screens のジャーニーマップについて説明します
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 91%
 >
 >このアクティビティの典型的な関係者は、マーケティング／ビジネスストラテジストです。
 
-User Experience Jeurney Mapは、ネットワークから配信されるデジタルコンテンツをユーザが体験する方法と理由を明確に示すように設計されています。
+ユーザーエクスペリエンスジャーニーマップは、ネットワークで配信されるデジタルコンテンツをユーザーが体験する方法と理由をわかりやすく視覚化することを目的としています。
 
 ## UX ジャーニーマップの作成 {#building-map}
 

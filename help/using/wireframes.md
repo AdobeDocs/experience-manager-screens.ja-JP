@@ -3,11 +3,11 @@ title: ワイヤーフレーム
 seo-title: AEM Screens のワイヤーフレーム
 description: ここでは、AEM Screens プロジェクトのワイヤーフレームについて説明します
 seo-description: ここでは、AEM Screens プロジェクトのワイヤーフレームについて説明します
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 86%
 
 **アセットレベル表示**&#x200B;では、様々なコンテンツレイアウトオプションとコンテンツグループを定義するワイヤーフレームを作成する必要があります。これは、類似した外観の複数のコンテンツをグループとしてまとめる場合に、それらのコンテンツを定義するのに役立ちます。通常、このアクティビティでは、実稼動に対応した実際のグラフィック、画像、ビデオを使用します。
 
-From a **Channel Level view**, we should create wireframes that show how channels of content are linked together in the overall experience including playback strategies for embedded channels. また、データトリガーが関与する際に発生する可能性のあるチャネル遷移を確認することもできます。
+**チャネルレベル表示**&#x200B;では、埋め込みチャネルの再生戦略を含めて、エクスペリエンス全体でコンテンツチャネルがどのようにリンクされているかを示すワイヤーフレームを作成する必要があります。また、データトリガーが関与する際に発生する可能性のあるチャネル遷移を確認することもできます。
 
 **プロジェクトレベル表示**&#x200B;では、複数の画面やエクスペリエンスが物理空間で連携してマルチタッチポイントの完全なユーザージャーニーを実現する方法のモデリングを開始できます。
 

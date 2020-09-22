@@ -3,11 +3,11 @@ title: プロジェクト範囲を定義する際の検討事項
 seo-title: プロジェクト範囲を定義する際の検討事項
 description: ここでは、プロジェクト範囲を定義する際の検討事項について説明します
 seo-description: ここでは、プロジェクト範囲を定義する際の検討事項について説明します
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '301'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,4 +33,4 @@ ht-degree: 95%
 >
 >アプリケーションに必要なデータとそのデータソースをできるだけ早く特定します。実装時に、より詳細な調査がおこなわれる一方、*Day 0* に時間をかけて、クライアントが使用する予定のデータ、そのデータの現在の保存場所、構築中のアプリケーションによるデータへのアクセス方法を明らかにします。今後の課題を事前に開発チームに知らせておくと、実装をよりスムーズに進めることができます。
 
-Refer to video tutorial on [Considerations as Projects are Scoped](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/project-considerations.html) for more information.
+詳しくは、[プロジェクト範囲を定義する際の検討事項](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/project-considerations.html)に関するビデオチュートリアルを参照してください。

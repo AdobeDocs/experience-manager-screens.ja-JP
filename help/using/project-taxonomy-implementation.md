@@ -3,9 +3,9 @@ title: プロジェクト分類
 seo-title: 'プロジェクト分類 '
 description: ここでは、プロジェクトの分類について説明します
 seo-description: ここでは、プロジェクトの分類について説明します
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '331'
 ht-degree: 100%
 

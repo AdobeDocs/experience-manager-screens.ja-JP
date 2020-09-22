@@ -3,11 +3,11 @@ title: AEM Screens プロジェクト上の役割と責務
 seo-title: AEM Screens プロジェクト上の役割と責務
 description: ここでは、AEM Screens プロジェクト上の役割と責務について説明します
 seo-description: ここでは、AEM Screens プロジェクト上の役割と責務について説明します
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1263'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -150,7 +150,7 @@ AV インテグレーターは、デジタルサイネージハードウェア�
 | テストと導入 | RA | C | RA | I |
 | サーバーの設定 | I | RA | I | I |
 | コンテンツ更新計画 | I | RA | C | C |
-| パイロット・ツー・プロダクショントランジションの計画 | RA | RA | I | I |
+| パイロットから実稼動への移行計画 | RA | RA | I | I |
 | 知識移転 | RA | RA | I | I |
 
 **Day 1：プロジェクトの実装（小売準備）**&#x200B;の概要を次の表に示します。

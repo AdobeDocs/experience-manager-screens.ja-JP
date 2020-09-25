@@ -10,11 +10,11 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dec7f93381bf37564353b76dd3c5f84ba169dd42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1802'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -155,7 +155,7 @@ AEM Screens プロジェクトにチャネルレベルのアクティベーシ�
 
 >[!NOTE]
 AEM Screens Player については、次のリソースを参照してください。
-[AEM Screensプレイヤーが](https://download.macromedia.com/screens/)[AEM Screensプレイヤーとの連携をダウンロード](working-with-screens-player.md)
+[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)[AEM Screens Player の操作](working-with-screens-player.md)
 
 
 ## チャネル内アセットの繰り返し処理 {#handling-recurrence-in-assets}
@@ -239,7 +239,7 @@ AEM Screens Player については、次のリソースを参照してくださ�
 | 2 月、5 月、8 月、11 月 | チャネル内のアセットは、2 月、5 月、8 月、11 月に再生されます。 |
 
 >[!NOTE]
-曜日や月を定義する場合は、省略形または通常の名称を使用できます（月／月曜日、1／1 月など）。
+曜日や月を定義する場合は、省略形または通常の表記を使用できます（月／月曜日、1／1 月など）。
 
 >[!NOTE]
 *午前／午後*&#x200B;表記（例：午後 2:00）ではなく、_24 時間_&#x200B;表記（例：14:00）を使用することもできます。

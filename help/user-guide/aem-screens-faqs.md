@@ -5,11 +5,11 @@ description: ここでは、AEM Screens プロジェクトに関連する FAQ �
 seo-description: ここでは、AEM Screens プロジェクトに関連する FAQ への回答を掲載しています。
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-translation-type: ht
-source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
-workflow-type: ht
-source-wordcount: '1294'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fc923553c3813e6fd659df641f2e4363f0907827
+workflow-type: tm+mt
+source-wordcount: '1483'
+ht-degree: 87%
 
 ---
 
@@ -125,9 +125,23 @@ AEM Screens Player は、起動時に 404 エラーが発生すると、***/cont
 1. **開発者向けオプション**&#x200B;に移動します。
 1. 「**スリープモードにしない**」をオンにします。
 
-### 4. Windows プレーヤーのウィンドウモードを有効にする方法
+### 4. Windows プレーヤーのウィンドウモードを有効にする方法{#enable-player}
 
 Windows Player にはウィンドウモードはありません。常にフルスクリーンモードになります。
+
+### 5. Screensプレーヤーがログイン要求を継続的に送信する場合のトラブルシューティング方法{#requests-login}
+
+次の手順に従って、およびに連続してリクエストを送信するAEM Screensプレイヤーのトラブルシューティング `/content/screens/svc.json` を行いま `/libs/granite/core/content/login.validate/j_security_check`す。
+
+1. AEM Screensプレイヤーの開始が要求を行うと、そのプレイヤーは、応答で404ステータスコードを受け取ったときに、発行インスタンスに対してを使用して認証を行うための認証要求 `/content/screens/svc.json``/libs/granite/core/content/login.validate/j_security_check` を開始します。 If there is a custom error handler in publish instance, make sure that you return the 404 status code for anonymous user on `/content/screens/svc.json` or `/content/screens/svc.ping.json`.
+
+1. ディスパッチャー設定で、これらのリクエストが `/filters` セクションで許可されているかどうかを確認します。 詳しくは、「画面 [フィルターの設定](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) 」を参照してください。
+
+1. ディスパッチャーの書き換えルールが画面のパスを別のパスに書き換えているかどうかを確認します。
+
+1. 作成者 `/etc/map` または *発行インスタンスにルールがあるかどうかを確認し、* 画面のパスが一致し **`sling:match` 、内部的に別のパスにリダイレクトされる。 /の正確なURLを解決すると`system/console/jcrresolver` 、 ** 発行インスタンスがこれらのURLを他のパスに書き換えているかどうかを識別できます。
+
+1. 内部書き換えを引き起こすApache Sling Resource Resolver Factory設定があるかどうかを確認します。
 
 ## トラブルシューティングに関する一般的なヒント {#general-troubleshooting-tips}
 

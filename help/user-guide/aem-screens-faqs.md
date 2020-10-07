@@ -6,7 +6,7 @@ seo-description: ここでは、AEM Screens プロジェクトに関連する FA
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: fc923553c3813e6fd659df641f2e4363f0907827
+source-git-commit: b4f9acb68aca05ed3f6b040910742c245923dace
 workflow-type: tm+mt
 source-wordcount: '1483'
 ht-degree: 87%
@@ -129,7 +129,7 @@ AEM Screens Player は、起動時に 404 エラーが発生すると、***/cont
 
 Windows Player にはウィンドウモードはありません。常にフルスクリーンモードになります。
 
-### 5. Screensプレーヤーがログイン要求を継続的に送信する場合のトラブルシューティング方法{#requests-login}
+### 5.AEM Screensのプレイヤーがログイン要求を継続的に送信する場合のトラブルシューティング方法{#requests-login}
 
 次の手順に従って、およびに連続してリクエストを送信するAEM Screensプレイヤーのトラブルシューティング `/content/screens/svc.json` を行いま `/libs/granite/core/content/login.validate/j_security_check`す。
 

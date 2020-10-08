@@ -6,10 +6,10 @@ seo-description: ここでは、AEM Screens プロジェクトに関連する FA
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 273b537728077a309ca3bfa928ae5fc729957305
+source-git-commit: 124b766f2bbf5988a104250acb6dde7f4d7189bf
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
@@ -129,18 +129,19 @@ AEM Screens Player は、起動時に 404 エラーが発生すると、***/cont
 
 Windows Player にはウィンドウモードはありません。常にフルスクリーンモードになります。
 
-### 5.AEM Screensのプレイヤーがログイン要求を継続的に送信する場合のトラブルシューティング方法{#requests-login}
+### 5. How to troubleshoot if an AEM Screens player continuously sends login requests?{#requests-login}
 
-次の手順に従って、およびに連続してリクエストを送信するAEM Screensプレイヤーのトラブルシューティング `/content/screens/svc.json` を行いま `/libs/granite/core/content/login.validate/j_security_check`す。
+次の手順に従って、AEM Screens プレーヤーが `/content/screens/svc.json` および `/libs/granite/core/content/login.validate/j_security_check` へ継続的にリクエストを送信する場合のトラブルシューティングをおこないます。
 
 1. AEM Screens選手の開始は、に要求し `/content/screens/svc.json`ます。 プレイヤーは、応答内に404ステータスコードを取得すると、 `/libs/granite/core/content/login.validate/j_security_check` 発行インスタンスに対してを使用して認証要求 ** を開始します。 *発行インスタンスにカスタムエラーハンドラーがある場合は、* またはで匿名ユーザーの404ステータスコードを必ず返し `/content/screens/svc.json` てください `/content/screens/svc.ping.json`。
 
-1. ディスパッチャー設定で、これらのリクエストがで許可されているかどうかを確認し `/filters`ます。
-詳しくは、「画面 [フィルターの設定](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) 」を参照してください。
+1. Check if your dispatcher configuration allows these requests in the `/filters`.
 
-1. ディスパッチャーの書き換えルールが画面のパスを別のパスに書き換えているかどうかを確認します。
+   詳しくは、[Screens フィルターの設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters)を参照してください。
 
-1. 作成者 `/etc/map` または *発行インスタンスにルールがあるかどうかを確認し、* 画面のパスが一致し **`sling:match` 、内部的に別のパスにリダイレクトされる。 の正確なURLを解決 `/system/console/jcrresolver` すると、 ** 発行インスタンスがこれらのURLを他のパスに書き換えているかどうかを識別するのに役立ちます。
+1. ディスパッチャーの書き換えルールによって、Screens のパスが別のパスに書き換えられているかどうかを確認します。
+
+1. *オーサー*&#x200B;または&#x200B;*パブリッシュ*&#x200B;インスタンスに `/etc/map` パスがあるかどうか、および Screens のパスが `sling:match` と一致し、内部的に別のパスにリダイレクトされているかどうかを確認します。Resolving the exact url in `/system/console/jcrresolver` helps in identifying if the *publish* instance is rewriting these URLs to any other path.
 
 1. Apache Sling Resource Resolver Factoryの設定が内部再書き込みの原因になっているかどうかを確認します。
 

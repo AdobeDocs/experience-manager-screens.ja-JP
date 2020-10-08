@@ -5,9 +5,9 @@ description: ここでは、Screens プロジェクトに切り替えを適用�
 seo-description: ここでは、Screens プロジェクトに切り替えを適用する方法について説明します。
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
-translation-type: ht
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ AEM Screens プロジェクトに切り替えコンポーネントを追加す�
 >
 >**前提条件**
 >
-> ：**TestTransition** チャネルを持つ AEM Screens プロジェクト **TestProject** を作成します。さらに、出力を表示するロケーションとディスプレイをセットアップします。
+>：**TestTransition** チャネルを持つ AEM Screens プロジェクト **TestProject** を作成します。さらに、出力を表示するロケーションとディスプレイをセットアップします。
 
 1. **TestTransition** チャネルに移動し、アクションバーの「**編集**」をクリックします。
 

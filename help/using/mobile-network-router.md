@@ -1,9 +1,9 @@
 ---
 title: モバイルデータルーターとアクティブなネットワークコンポーネントを使用したモバイルネットワーク
 description: このページは、モバイルデータルーターとアクティブなネットワークコンポーネントを使用したモバイルネットワークについて説明しています
-translation-type: ht
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 100%
 
@@ -77,7 +77,9 @@ AEM Screens 内では、必要なコンテンツがプレーヤーコントロ�
 >[!NOTE]
 >
 >最低限必要なデータパッケージは、次の通りです。
-`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
+
+>
+>`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 >[!IMPORTANT]
 >
@@ -102,6 +104,3 @@ AEM Screens は、デジタルサイネージの利用者に大きなメリッ�
 >インターネットソースをリクエストしてダウンロードするネットワーク内の各デバイスの消費量が、これらの情報からわかります。これらのリクエストがすべて合計されて、ダウンロード時間が延長されます。
 
 ![](/help/using/assets/mobile-router-download.png)
-
-
-

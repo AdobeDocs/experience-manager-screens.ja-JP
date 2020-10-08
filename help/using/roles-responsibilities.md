@@ -3,9 +3,9 @@ title: AEM Screens プロジェクト上の役割と責務
 seo-title: AEM Screens プロジェクト上の役割と責務
 description: ここでは、AEM Screens プロジェクト上の役割と責務について説明します
 seo-description: ここでは、AEM Screens プロジェクト上の役割と責務について説明します
-translation-type: ht
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 100%
 
@@ -92,14 +92,14 @@ AV インテグレーターは、デジタルサイネージハードウェア�
 デジタルサイネージの導入を成功させるために、通常はプロジェクトを 3 段階に分けます。  これらの段階は一般に **Days** と呼ばれます。これらは文字どおりの日数ではなく、プロジェクトの各主要段階の名称です。
 
 1. 第 1 段階は&#x200B;*「Day 0」*&#x200B;と呼ばれます。この段階では、プロジェクトの範囲を完全に定義するために必要な、すべてのプリセールス/検出作業を行います。
-
 1. 第 2 段階である&#x200B;*「Day 1」*&#x200B;は、導入作業に含まれるすべてのアクティビティを指します。
-
 1. 最後の第 3 段階である&#x200B;*「Day 2」*&#x200B;では、すべての継続運用とサポート要素をソリューション全体の一部として扱います。
 
 >[!NOTE]
 >
->このガイドでは主に&#x200B;*「Day 1」*&#x200B;と&#x200B;*「Day 2」*&#x200B;に重点を置いていますが、デジタルサイネージプロジェクトを成功に導くには、これら 3 つの段階すべてに注意を払う必要があります。プロジェクトのプリプロダクション、プロジェクトの開始、プロジェクトの進行については、**[プロジェクトの管理と導入](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/project-management-and-deployment.html)**&#x200B;に関する追加のビデオを参照してください。
+>このガイドでは主に&#x200B;*「Day 1」*&#x200B;と&#x200B;*「Day 2」*&#x200B;に重点を置いていますが、デジタルサイネージプロジェクトを成功に導くには、これら 3 つの段階すべてに注意を払う必要があります。
+>
+>プロジェクトのプリプロダクション、プロジェクトの開始、プロジェクトの進行については、**[プロジェクトの管理と導入](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/project-management-and-deployment.html)**&#x200B;に関する追加のビデオを参照してください。
 
 ## RACI チャート {#raci-chart}
 

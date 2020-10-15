@@ -1,9 +1,9 @@
 ---
 title: モバイルデータルーターとアクティブなネットワークコンポーネントを使用したモバイルネットワーク
 description: このページは、モバイルデータルーターとアクティブなネットワークコンポーネントを使用したモバイルネットワークについて説明しています
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1035'
 ht-degree: 100%
 

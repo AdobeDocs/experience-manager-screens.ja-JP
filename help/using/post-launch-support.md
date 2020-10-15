@@ -3,9 +3,9 @@ title: 運用開始後のサポート
 seo-title: AEM Screens の運用開始後のサポート
 description: ここでは、AEM Screens ベストプラクティスガイドにおける「運用開始後のサポート」について説明します
 seo-description: ここでは、AEM Screens ベストプラクティスガイドにおける「運用開始後のサポート」について説明します
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '413'
 ht-degree: 100%
 

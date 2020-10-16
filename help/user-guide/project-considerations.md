@@ -10,8 +10,11 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 10b81628-46db-4122-bf9e-96f41f080055
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '666'
+ht-degree: 100%
 
 ---
 
@@ -80,7 +83,7 @@ I/O は、オーディエンスの近接性の検知に基づいて、コンテ�
 
 ### プロジェクト範囲を定義する際の検討事項
 
->[!VIDEO](https://video.tv.adobe.com/v/28380?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/28380)
 
 *コンテンツ戦略、I/O レイヤー、アセットタイプ、オーディエンスのセグメント化、日分割、事業運営要件、サイト対応準備に関する考慮事項について説明します。*
 

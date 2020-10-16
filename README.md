@@ -1,6 +1,9 @@
 ---
 source-git-commit: 93dda5a30065f2989427b4fadbb2576dad1c13b8
-translation-type: ht
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '73'
+ht-degree: 100%
 
 ---
 # Adobe Experience Manager Screens ドキュメント

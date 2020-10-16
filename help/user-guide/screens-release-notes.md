@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: release-notes
 discoiquuid: 2a049c2c-26ee-498d-a505-a2967be7cbcd
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7748c921aab25f779a9850455188c7fc6cef9f25
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 100%
 
 ---
 

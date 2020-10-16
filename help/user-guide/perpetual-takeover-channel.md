@@ -4,9 +4,9 @@ seo-title: 永続テイクオーバーチャネル
 description: 永続テイクオーバーチャネルを作成する場合は、この使用例に従います。
 seo-description: 特定の日時に継続的に再生される永続テイクオーバーチャネルを作成するプロジェクトのセットアップについては、この使用例に従います。
 contentOwner: jsyal
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 100%
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 1. **ロケーション**&#x200B;フォルダーからディスプレイ **MainLobbyDisplay** を選択します。アクションバーの「**チャネルを割り当て**」をクリックして、**チャネル割り当て**&#x200B;ダイアログボックスを開きます。
 
    >[!NOTE]
-   >ディスプレイにチャネルを割り当てる方法については、**[チャネル割り当て](channel-assignment.md)**を参照してください。
+   >ディスプレイにチャネルを割り当てる方法については、**[チャネル割り当て](channel-assignment.md)**&#x200B;を参照してください。
 
 1. **チャネル割り当て**&#x200B;ダイアログボックスでフィールド（「**チャネルパス**」、「**優先度**」、「**サポートされているイベント**」）に入力し、「**保存**」をクリックして、**MainAdChannel** をディスプレイに割り当てます。
 

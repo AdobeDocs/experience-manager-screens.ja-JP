@@ -3,8 +3,11 @@ title: デバイスの仕様
 seo-title: デバイスの仕様
 description: ここでは、デバイスの仕様について説明します
 seo-description: ここでは、デバイスの仕様について説明します
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 100%
 
 ---
 

@@ -9,9 +9,9 @@ topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 100%
 

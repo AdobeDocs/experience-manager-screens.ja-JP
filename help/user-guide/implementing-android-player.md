@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 100%
 
@@ -71,7 +71,7 @@ AEM オーサーおよびパブリッシュインスタンスの **Adobe Experie
 
 Android のアーキテクチャ上、デバイスをリブートするには、アプリケーションがシステム権限を持っている必要があります。そのためには、製造元の署名キーを使用して apk に署名する必要があります。この署名をおこなわないと、ウォッチドッグはデバイスをリブートするのではなく、プレーヤーアプリケーションを再起動します。
 
-### 製造元のキーを使用した Android apk への署名{#signage-of-android-apks-using-manufacturer-keys}
+### 製造元のキーを使用した Android apk への署名 {#signage-of-android-apks-using-manufacturer-keys}
 
 *PowerManager* や *HDMIControlServices* など、Android の特権付き API にアクセスするには、製造元のキーを使用して Android apk に署名する必要があります。
 

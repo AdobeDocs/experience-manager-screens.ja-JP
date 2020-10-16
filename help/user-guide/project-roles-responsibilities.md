@@ -2,9 +2,9 @@
 title: 第 1 部：プロジェクト上の役割と責務
 seo-title: 第 1 部：プロジェクト上の役割と責務
 description: このチュートリアルでは、デジタルサイネージプロジェクトのセールスおよびプロジェクトのライフサイクルで必要な役割、責務、タイムラインについて説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ AEM 実装担当者は、通常、段階的にカスタム機能を適所に導�
 
 ### 第 1 部：プロジェクト上の役割と責務
 
->[!VIDEO](https://video.tv.adobe.com/v/28375?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/28375)
 
 *アドビ、AV インテグレーター、AEM 実装担当者の役割と責務について学びます。*
 

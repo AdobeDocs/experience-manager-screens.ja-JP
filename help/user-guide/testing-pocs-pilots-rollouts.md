@@ -10,8 +10,11 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 157185f9-c5e3-4a5b-badc-9becb26f1b27
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '565'
+ht-degree: 100%
 
 ---
 
@@ -65,7 +68,7 @@ QC（品質管理）テストが完了したら、Day 2 でのサポート期間
 
 ### テスト、POC、パイロット、ロールアウト
 
->[!VIDEO](https://video.tv.adobe.com/v/28405?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/28405)
 
 *プロジェクトサイクル、ハードウェアテストに関係するアクション、概念実証、パイロット、ロールアウトなど、プロジェクト計画全体にかかわる重要な用語について説明します。*
 

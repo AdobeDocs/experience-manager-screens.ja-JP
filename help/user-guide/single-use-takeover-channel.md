@@ -4,9 +4,9 @@ seo-title: 単一使用テイクオーバーチャネル
 description: 単一使用テイクオーバーチャネルを作成する場合は、この使用例に従います。
 seo-description: 単一使用テイクオーバーチャネルを作成する場合は、この使用例に従います。
 contentOwner: jsyal
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 100%
 
@@ -76,7 +76,7 @@ ht-degree: 100%
    ![アセット](assets/single-takeover6.png)
 
    >[!NOTE]
-   >ディスプレイにチャネルを割り当てる方法については、**[チャネル割り当て](channel-assignment.md)**を参照してください。
+   >ディスプレイにチャネルを割り当てる方法については、**[チャネル割り当て](channel-assignment.md)**&#x200B;を参照してください。
 
 1. **チャネル割り当て**&#x200B;ダイアログボックスでフィールド（「**チャネルパス**」、「**優先度**」、「**サポートされているイベント**」）に入力し、「**保存**」をクリックします。これで、**MainAdChannel** がディスプレイに割り当てられました。
 

@@ -11,8 +11,11 @@ content-type: reference
 discoiquuid: e7218bb3-be19-46e3-8be7-ee3912bb1f2b
 docset: aem65
 targetaudience: target-audience new
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ## Screens の用語と概念 {#terminology-and-concepts}
 
->[!VIDEO](https://video.tv.adobe.com/v/21353?quality=9&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/21353?quality=9)
 
 
 ## チャネルとスケジュールのオーサリング - 第 1 部 {#channels-and-schedules-part-2}
@@ -36,11 +39,11 @@ AEM Screens Player をダウンロードするには、[ここ](https://download
 
 以下のビデオでは、新しいチャネルの作成、新しいコンテンツのオーサリング、再利用可能なスケジュールへのチャネルの追加について詳しく説明します。[Screens キックスタートガイド](kickstart-for-aem-screens.md)の前半部に大体従っています。
 
->[!VIDEO](https://video.tv.adobe.com/v/21387?quality=9&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/21387?quality=9)
 
 ## ディスプレイの割り当てとデバイスの登録 - 第 2 部 {#display-and-device-pt2}
 
 以下のビデオでは、ロケーション、ディスプレイ、デバイス設定の作成方法を示します。また、デバイスの登録とディスプレイへの割り当ての手順も示します。[Screens キックスタートガイド](kickstart-for-aem-screens.md)の後半部に大体従っています。
 
->[!VIDEO](https://video.tv.adobe.com/v/21411?quality=9&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/21411?quality=9)
 

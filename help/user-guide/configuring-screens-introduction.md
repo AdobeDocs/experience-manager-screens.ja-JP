@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 83ce95e5dc530c5792ec9a00dcb758a424202a7a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 100%
 
@@ -120,7 +120,7 @@ AEM Screens にはタッチ操作対応 UI が必要で、Adobe Experience Manag
 
 実稼動環境での AEM の実行には、**NOSAMPLECONTENT** 実行モードを使用します。次の場所に移動して、（追加の応答ヘッダーセクションにある）*X-Frame-Options=SAMEORIGIN* ヘッダーを削除します。
 
-`https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`
+`https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
 これは、AEM Screens Player でオンラインチャネルを再生するために必要です。
 

@@ -3,9 +3,9 @@ title: このガイドについて
 seo-title: ガイドの説明
 description: ここでは、ベストプラクティスガイドの目的について説明します
 seo-description: ここでは、ベストプラクティスガイドの目的について説明します
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f25176be89424059b8c51296969f069687328536
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%
 

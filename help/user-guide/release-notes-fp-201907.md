@@ -10,8 +10,11 @@ topic-tags: release-notes
 content-type: reference
 discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1f90169ea2dab8bd63874d50708c6eb6ba61b370
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 100%
 
 ---
 

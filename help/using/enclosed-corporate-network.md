@@ -1,9 +1,9 @@
 ---
 title: 閉じた企業ネットワーク
 description: 閉じた企業ネットワーク
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 100%
 

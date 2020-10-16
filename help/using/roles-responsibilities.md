@@ -3,9 +3,9 @@ title: AEM Screens プロジェクト上の役割と責務
 seo-title: AEM Screens プロジェクト上の役割と責務
 description: ここでは、AEM Screens プロジェクト上の役割と責務について説明します
 seo-description: ここでは、AEM Screens プロジェクト上の役割と責務について説明します
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 100%
 

@@ -9,9 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8a2ed4e0a27175d43abfadda63232c3577d5387b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 以下の節では、チャネルで再生されるビデオをデバッグおよびトラブルシューティングする方法について説明します。
 
-## DAM レンディション   {#dam-renditions}
+## DAM レンディション    {#dam-renditions}
 
 ビデオをチャネルにアップロードすると、AEM によってそのビデオの一部のレンディションの作成が開始されます。ビデオは Assets で表示できます。
 
@@ -71,7 +71,7 @@ ffmpeg がインストールされていること、およびビデオプロフ�
    >
    >ビデオのトランスコードに十分な時間をかけてから（「処理しています」ではなく「新規」というタグが表示されます）、ビデオをチャネルに追加するようにしてください。
 
-### ビデオコンポーネントでのプロファイルの確認   {#checking-profile-with-a-video-component}
+### ビデオコンポーネントでのプロファイルの確認    {#checking-profile-with-a-video-component}
 
 ビデオコンポーネントが正しく設定されない場合は、ページデザインからプロファイルのリストを確認します。
 

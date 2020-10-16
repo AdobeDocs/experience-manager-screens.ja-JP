@@ -3,8 +3,11 @@ title: 推奨されるアプローチ
 seo-title: AEM Screens プロジェクトで推奨されるアプローチ
 description: ここでは、AEM Screens プロジェクトで推奨されるアプローチについて説明します
 seo-description: ここでは、AEM Screens プロジェクトで推奨されるアプローチについて説明します
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c8be1ed0c3949091b3a10825167da4df16d68fc0
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 100%
 
 ---
 

@@ -3,9 +3,9 @@ title: '[!UICONTROL AEM Screens] の環境'
 seo-title: '[!UICONTROL AEM Screens] の環境'
 description: ここでは、AEM Screens プロジェクトの環境について説明します。
 seo-description: ここでは、AEM Screens プロジェクトの環境について重点的に説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 100%
 

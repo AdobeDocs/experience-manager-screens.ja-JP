@@ -3,8 +3,11 @@ title: 機能パック 201909 のリリースノート
 seo-title: 機能パック 201909 のリリースノート
 description: 2019 年 7 月 31 日にリリースされた AEM Screens 機能パック 201909 について説明します。
 seo-description: 2019 年 10 月 7 日にリリースされた AEM Screens 機能パック 201909 について説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '295'
+ht-degree: 100%
 
 ---
 

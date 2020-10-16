@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 100%
 

@@ -3,9 +3,9 @@ title: AEM プラットフォーム設定
 seo-title: AEM プラットフォーム設定
 description: ここでは、AEM プラットフォームの設定について説明します
 seo-description: ここでは、AEM プラットフォームの設定について説明します
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 100%
 

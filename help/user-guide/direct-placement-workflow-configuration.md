@@ -3,9 +3,9 @@ title: 'ダイレクト配置ワークフロー設定 '
 seo-title: ダイレクト配置ワークフロー設定
 description: このページでは、ダイレクト配置ワークフロー設定について説明します。
 seo-description: このページでは、ダイレクト配置ワークフロー設定について説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
 

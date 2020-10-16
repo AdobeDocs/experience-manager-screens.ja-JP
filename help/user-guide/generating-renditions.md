@@ -9,8 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+workflow-type: tm+mt
+source-wordcount: '425'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 手動および自動でフル HD レンディションを生成できます。ここでは、アセットにレンディションを追加するワークフローを説明します。
 
-## フル HD レンディションの自動生成  {#automatically-generating-full-hd-renditions}
+## フル HD レンディションの自動生成    {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
@@ -43,7 +46,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. 「**プロセス**」タブを選択し、プロセスの引数を編集します。「**引数**」のリストにフル HD プロファイルとして「***,profile:fullhd-bp,profile:fullhd-hp ***」を入力し、「**OK **」をクリックします。
+1. 「**プロセス**」タブを選択し、プロセスの引数を編集します。「**引数**」のリストにフル HD プロファイルとして「***,profile:fullhd-bp,profile:fullhd-hp***」を入力し、「**OK**」をクリックします。
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 

@@ -10,8 +10,11 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ## 前提条件 {#preconditions}
 
-予約状況に応じたアクティブ化の実装を開始する前に、AEM Screens プロジェクトで&#x200B;***データストア&#x200B;***、***オーディエンスのセグメント化***、***チャネルのターゲティングの有効化&#x200B;***をセットアップする方法を理解しておく必要があります。
+予約状況に応じたアクティブ化の実装を開始する前に、AEM Screens プロジェクトで&#x200B;***データストア***、***オーディエンスのセグメント化***、***チャネルのターゲティングの有効化***&#x200B;をセットアップする方法を理解しておく必要があります。
 
 詳しくは、[AEM Screens プロジェクトでの ContextHub の設定](configuring-context-hub.md)を参照してください。
 
@@ -44,7 +47,7 @@ AEM Screens プロジェクトに「接客業向けの予約状況に応じた�
 
 1. **要件に従ってオーディエンスのセグメントを設定する**
 
-   1. オーディエンスのセグメントに移動します（詳しくは、***AEM Screens プロジェクトでの ContextHub の設定&#x200B;***の**[手順 2：オーディエンスのセグメント化のセットアップ](configuring-context-hub.md)**を参照してください）。
+   1. オーディエンスのセグメントに移動します（詳しくは、***AEM Screens プロジェクトでの ContextHub の設定***&#x200B;の&#x200B;**[手順 2：オーディエンスのセグメント化のセットアップ](configuring-context-hub.md)**&#x200B;を参照してください）。
 
    1. 「**Sheets A1 1**」を選択し、「**編集**」をクリックします。
 
@@ -81,5 +84,6 @@ AEM Screens プロジェクトに「接客業向けの予約状況に応じた�
 
    1. 「**プレビュー**」をクリックします。また、Google シートを開き、値を更新します。
    1. **Restaurant1** 列と **Restaurant2** 列の値を更新します。**Restaurant1** の値が **Restaurant2** の値より大きい場合は、スクリーンに&#x200B;*ステーキ料理*&#x200B;の画像が表示され、それ以外の場合は、*タイ料理*&#x200B;の画像が表示されます。
+
    ![result5](assets/result5.gif)
 

@@ -1,6 +1,9 @@
 ---
 source-git-commit: e98a317a58f0061968544535d8baae24308a88bb
-translation-type: ht
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '533'
+ht-degree: 100%
 
 ---
 # Adobe Experience Manager Screens ドキュメントへの投稿
@@ -46,7 +49,7 @@ AEM ドキュメントを改善するためのあらゆる投稿を歓迎しま�
 
 以下のビデオで、イシューとプル要求の作成方法についての概要を簡単に確認できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/27069?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27069)
 
 ### アドビ従業員による投稿
 

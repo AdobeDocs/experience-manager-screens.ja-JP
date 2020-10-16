@@ -10,8 +10,11 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
+workflow-type: tm+mt
+source-wordcount: '691'
+ht-degree: 100%
 
 ---
 
@@ -40,11 +43,12 @@ source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
    1. ContextHubDemo Google シートに移動します。
    1. 3 種類のトレーナーに対応する値を格納する 3 つの列（Red、Green、Blue）を追加します。
+
    ![screen_shot_2019-05-06at101755am](assets/screen_shot_2019-05-06at101755am.png)
 
 1. **要件に従ってオーディエンスを設定する**
 
-   1. オーディエンスのセグメントに移動します（詳しくは、***AEM Screens プロジェクトでの ContextHub の設定***&#x200B;の&#x200B;**[手順 2：オーディエンスのセグメント化のセットアップ](configuring-context-hub.md)**を参照してください）。
+   1. オーディエンスのセグメントに移動します（詳しくは、***AEM Screens プロジェクトでの ContextHub の設定***&#x200B;の&#x200B;**[手順 2：オーディエンスのセグメント化のセットアップ](configuring-context-hub.md)**&#x200B;を参照してください）。
 
    1. 3 つの新しいセグメント **For_Red**、**For_Green**、**For_Blue** を追加します。
 
@@ -67,6 +71,7 @@ source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
    1. 「**データタイプ**」として「**数値**」を選択します。
 
    1. 「**2 つめのプロパティの名前**」のドロップダウンから「**googlesheets/value/1/0**」を選択します。
+
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
    同様に、**For_Blue** セグメントにプロパティ比較ルールを追加し編集します（下図を参照）。
@@ -92,8 +97,7 @@ source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
-   >
-   >ターゲティングプロセスを開始したときにアクティビティが正しく一覧表示されるように、「**ブランド**」と「**領域**」の両方を選択する必要があります。
+   ターゲティングプロセスを開始したときにアクティビティが正しく一覧表示されるように、「**ブランド**」と「**領域**」の両方を選択する必要があります。
 
 1. **デフォルト画像を追加する**
 
@@ -101,11 +105,11 @@ source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
    1. 「**ブランド**」と「**アクティビティ**」のドロップダウンメニューから選択し、「**ターゲティングを開始**」をクリックします。
 
    1. 「**ターゲティングを開始**」をクリックします。
+
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
-   >
-   >ターゲティングを開始する前に、サイドレールの「**+ エクスペリエンスのターゲットを追加**」をクリックして、セグメント（**For_Green**、**For_Red**、**For_Blue**）を追加する必要があります（下図を参照）。
+   ターゲティングを開始する前に、サイドレールの「**+ エクスペリエンスのターゲットを追加**」をクリックして、セグメント（**For_Green**、**For_Red**、**For_Blue**）を追加する必要があります（下図を参照）。
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
@@ -117,5 +121,6 @@ source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
    1. 「**プレビュー**」をクリックします。また、Google シートを開き、値を更新します。
    1. 3 つの異なる列の値をすべて変更すると、在庫の最大数に応じてディスプレイ画像が更新されます。
+
    ![retail_result](assets/retail_result.gif)
 

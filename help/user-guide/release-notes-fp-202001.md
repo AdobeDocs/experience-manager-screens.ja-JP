@@ -3,8 +3,11 @@ title: 機能パック 202001 のリリースノート
 seo-title: 機能パック 202001 のリリースノート
 description: 2020 年 1 月 31 日にリリースされた AEM Screens 機能パック 202001 について説明します。
 seo-description: 2020 年 1 月 31 日にリリースされた AEM Screens 機能パック 202001 について説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0136d1615f59d99c6bb5dfed09df363bf8ec475e
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 90%
 
 ---
 
@@ -33,8 +36,8 @@ AEM Screens プロジェクトを実行する前に、ヘルスチェックフ�
 
    ヘルスチェックフレームワークの詳細については、[ヘルスチェックフレームワーク](/help/user-guide/configuring-screens-introduction.md#health-check-framework)を参照してください。
 
-* **デフォルトのトランジションタイプの更新**：
-デフォルトでは、トランジションコンポーネントのプロパティは、例えば、「**タイプ**」は「**フェード**」に、「**デュレーション（ms）**」は「**1600**」に設定されています。
+* **デフォルトのトランジションタイプ**&#x200B;に対する更新 
+**タイプ** は、デフォルトで **フェード** (Fade)に設定され、 **期間** ( **Duration**)は1600 msに設定されました。
 
    詳細については、[トランジションの適用](/help/user-guide/applying-transitions.md)使用例を参照してください。
 
@@ -49,4 +52,4 @@ AEM 6.4 機能パック 7 および AEM 6.5 機能パック 3 向けに、次の
 
 #### AEM Screens Player のダウンロード {#aem-screens-player-downloads}
 
-最新の AEM Screens Player のダウンロードとバグ修正について詳しくは、[**AEM Screens Player のダウンロード&#x200B;**](https://download.macromedia.com/screens/)を参照してください。
+最新の AEM Screens Player のダウンロードとバグ修正について詳しくは、[**AEM Screens Player のダウンロード**](https://download.macromedia.com/screens/)を参照してください。

@@ -3,9 +3,9 @@ title: 機能パック 202004 のリリースノート
 seo-title: 機能パック 202004 のリリースノート
 description: 2020 年 4 月 20 日にリリースされた AEM Screens 機能パック 202004 について説明します。
 seo-description: 2020 年 4 月 20 日にリリースされた AEM Screens 機能パック 202004 について説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d22a8ad78a8276b736a4d7455792996234d23ca3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ AEM Screens 機能パック 202004 のリリース日は 2020 年 4 月 20 日�
 
    コンテンツ作成者は、重要でないコンテンツを切り取るために、チャネルを中断するタイミングを指定できますが、スケジュールによって再生を中断する前に、重要なコンテンツを完全に再生するオプションを選択することもできます。
 
-   AEM Screens プロジェクトにこの機能を実装するための&#x200B;**チャンネル割り当て**&#x200B;ダイアログボックスから利用可能なオプションの詳細については、**[中断方法](/help/user-guide/channel-assignment.md#interruption-method-channel)**セクションを参照してください。
+   AEM Screens プロジェクトにこの機能を実装するための&#x200B;**チャンネル割り当て**&#x200B;ダイアログボックスから利用可能なオプションの詳細については、**[中断方法](/help/user-guide/channel-assignment.md#interruption-method-channel)**&#x200B;セクションを参照してください。
 
 * **Screens ローンチ**
 
@@ -63,7 +63,7 @@ AEM Screens 機能パック 202004 のリリース日は 2020 年 4 月 20 日�
 
    この機能パックのリリースでは、アセットの変更間のコマンド同期遅延の改善が反映されています。
 
-   詳細は、**[コマンド同期](using-command-sync.md)**を参照してください。
+   詳細は、**[コマンド同期](using-command-sync.md)**&#x200B;を参照してください。
 
 ### リリースされている AEM Screens Player {#released-aem-screens-players}
 
@@ -75,4 +75,4 @@ AEM Screen でリリースされた AEM 6.4 機能パック 8 および AEM 6.5 
 
 #### AEM Screens Player のダウンロード {#aem-screens-player-downloads}
 
-最新の AEM Screens Player のダウンロードとバグ修正について詳しくは、**[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)**を参照してください。
+最新の AEM Screens Player のダウンロードとバグ修正について詳しくは、**[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)**&#x200B;を参照してください。

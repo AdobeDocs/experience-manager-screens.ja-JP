@@ -3,9 +3,9 @@ title: プロジェクト範囲を定義する際の検討事項
 seo-title: プロジェクト範囲を定義する際の検討事項
 description: ここでは、プロジェクト範囲を定義する際の検討事項について説明します
 seo-description: ここでは、プロジェクト範囲を定義する際の検討事項について説明します
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 100%
 

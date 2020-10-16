@@ -3,9 +3,9 @@ title: 用語集
 seo-title: 用語集
 description: AEM Screens に関連する重要な用語について理解するには、このページを使用してください。
 seo-description: AEM Screens に関連する重要な用語について理解するには、このページを使用してください。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 100%
 

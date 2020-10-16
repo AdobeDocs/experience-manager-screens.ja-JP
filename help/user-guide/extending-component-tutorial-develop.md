@@ -9,8 +9,11 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ec8324ead3789a6cd5dde35a932c89e916709f70
+workflow-type: tm+mt
+source-wordcount: '1852'
+ht-degree: 100%
 
 ---
 
@@ -62,6 +65,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
+
    ![CRX パッケージマネージャーを使用してインストールされた Screens We.Retail Run Ui.Content および Ui.Apps パッケージ](assets/crx-packages.png)
 
    CRX パッケージマネージャーを使用してインストールされた Screens We.Retail Run Ui.Content および Ui.Apps パッケージ
@@ -126,6 +130,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
    1. ダイアログのコピー元：`/libs/wcm/foundation/components/image/cq:dialog`
    1. ダイアログの貼り付け先のパス：`/apps/weretail-run/components/content/poster`
+
    ![/libs/wcm/foundation/components/image/cq:dialog を /apps/weretail-run/components/content/poster にコピーした後](assets/2018-05-03_at_4_13pm.png)
 
    /libs/wcm/foundation/components/image/cq:dialog を /apps/weretail-run/components/content/poster にコピーした後
@@ -329,6 +334,7 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
    * `allowProxy` | Boolean | `true`
    * `categories` | String[] | `cq.screens.components`
+
    ![/apps/weretail-run/components/content/poster/clientlibs/shared のプロパティ](assets/2018-05-03_at_1026pm-1.png)
 
    /apps/weretail-run/components/content/poster/clientlibs/shared のプロパティ
@@ -506,7 +512,7 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
 以下のビデオでは、完成したコンポーネントと、それをシーケンスチャネルに追加する方法を示しています。この後、チャネルはロケーションのディスプレイに追加され、最終的に Screens プレーヤーに割り当てられます。
 
->[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9)
 
 ## 完成したコード {#finished-code}
 

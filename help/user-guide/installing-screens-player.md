@@ -4,9 +4,9 @@ seo-title: Screens Player のインストール
 description: Screens Player のインストール
 seo-description: Screens Player のインストール
 contentOwner: jsyal
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: be491e88b7938f24ae1f375b2fded4052404aaa1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 100%
 

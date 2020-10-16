@@ -2,9 +2,9 @@
 title: チャネル割り当て - 最新の FP
 seo-title: チャネル割り当て - 最新の FP
 description: このページに従って、チャネル割り当てと日分割について学びます。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 100%
 

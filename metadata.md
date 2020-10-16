@@ -9,9 +9,9 @@ getting-started-url: https://docs.adobe.com/content/help/ja-JP/experience-manage
 tutorials-title: チュートリアル
 tutorials-url: https://docs.adobe.com/content/help/ja/experience-manager-screens/using/about-guide.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-screens.ja-JP
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d425a71ff5516161a8a2e571a206aaedfd1ab3a5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 100%
 

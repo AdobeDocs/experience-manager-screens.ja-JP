@@ -3,9 +3,9 @@ title: '[!UICONTROL AEM Screens] のデジタルサイネージの基本'
 seo-title: '[!UICONTROL AEM Screens] のデジタルサイネージの基本'
 description: このガイドでは、デジタルサイネージプロジェクトの基本について説明します
 seo-description: このガイドでは、デジタルサイネージプロジェクトの基本について説明します
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 

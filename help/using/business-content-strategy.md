@@ -3,8 +3,11 @@ title: '[!UICONTROL AEM Screens] のビジネスコンテンツ戦略'
 seo-title: '[!UICONTROL AEM Screens] のビジネスコンテンツ戦略'
 description: このガイドでは、ビジネスコンテンツ戦略について説明します
 seo-description: このガイドでは、ビジネスコンテンツ戦略について説明します
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
+workflow-type: tm+mt
+source-wordcount: '443'
+ht-degree: 100%
 
 ---
 

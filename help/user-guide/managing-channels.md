@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 100%
 

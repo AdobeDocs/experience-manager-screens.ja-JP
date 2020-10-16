@@ -3,9 +3,9 @@ title: データトリガーのパブリッシュサーバーへのレプリケ�
 seo-title: データトリガーのパブリッシュサーバーへのレプリケーション
 description: データトリガーのパブリッシュサーバーへのレプリケーション。
 seo-description: データトリガーのパブリッシュサーバーへのレプリケーション。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
 

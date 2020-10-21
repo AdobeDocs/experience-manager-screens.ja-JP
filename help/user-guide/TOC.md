@@ -3,12 +3,13 @@ cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens ヘルプ
-user-guide-description: AEM Screensを使用して、様々な種類の画面に関するインタラクティブなデジタルエクスペリエンスを公開する方法について説明します。
+breadcrumb-title: AEM Screens ガイド
+user-guide-description: 動的でインタラクティブなデジタルエクスペリエンスとインタラクションを公開するDigital Signage Solutionの使用方法を説明します。
 translation-type: tm+mt
-source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 95%
 
 ---
 

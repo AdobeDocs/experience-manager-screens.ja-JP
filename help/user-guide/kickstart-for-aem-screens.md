@@ -3,20 +3,20 @@ title: キックスタートガイド
 seo-title: キックスタートガイド
 description: このページの説明に従って、AEM Screens のデモプロジェクトを作成します。インストールして新しいプロジェクトをセットアップしてから、AEM Screens Player でコンテンツを表示するまでの、デジタルサイネージエクスペリエンスを作成できます。
 translation-type: tm+mt
-source-git-commit: d49ceecab42762425d779d50a31291091088ee19
+source-git-commit: 77c81b84631b090333db0095986f634fa99c8223
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 100%
+source-wordcount: '1317'
+ht-degree: 84%
 
 ---
 
 
 # キックスタートガイド {#kickstart-guide}
 
-この節は AEM Screens のキックスタートで、AEM Screens プロジェクトの設定および実行方法について説明します。基本的なデジタルサイネージエクスペリエンスの設定、各チャネルへのアセットやビデオなどのコンテンツの追加、さらにそのコンテンツの AEM Screens Player への公開に関する手順を説明します。
+キックスタートからAEM Screensまででは、AEM Screensプロジェクトのセットアップおよび実行方法を実演します。 基本的なデジタルサイネージエクスペリエンスの設定、各チャネルへのアセットやビデオなどのコンテンツの追加、さらにそのコンテンツの AEM Screens Player への公開に関する手順を説明します。
 
 >[!NOTE]
->プロジェクトの詳細に関する作業を開始する前に、最新の機能パックがインストールされていることを確認してください。Adobe ID を使用して、AEM Screens 6.5.5 リリースの最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からダウンロードできます。
+>プロジェクトの詳細に開始する前に、最新の機能パック(AEM Screens版)がインストールされていることを確認してください。 You can download the latest feature pack from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID.
 
 ## 前提条件 {#prerequisites}
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >**OSGi 設定**
->デバイスからサーバーへのデータの投稿を許可するには、空のリファラーを有効にする必要があります。例えば、空のリファラーのプロパティが無効になっていると、デバイスからスクリーンショットを投稿できません。現在、これらの機能の一部は、OSGi 設定で Apache Sling Referrer Filter の Allow Empty 設定が有効になっている場合にのみ使用できます。ダッシュボードには、セキュリティ設定がこれらの機能の一部の動作を妨げる可能性があることを示す警告が表示される場合があります。
+>デバイスがサーバーにデータをポストできるようにするには、空の転送者を有効にする必要があります。 例えば、空のリファラーのプロパティが無効になっていると、デバイスからスクリーンショットを投稿できません。現在、これらの機能の一部は、OSGi 設定で Apache Sling Referrer Filter の Allow Empty 設定が有効になっている場合にのみ使用できます。ダッシュボードには、セキュリティ設定がこれらの機能の一部の動作を妨げる可能性があることを示す警告が表示される場合があります。
 >***Apache Sling Referrer Filter の「Allow Empty」設定***&#x200B;を有効にするには、次の手順に従います。
 
 
@@ -47,12 +47,11 @@ ht-degree: 100%
 
 1. 「**保存**」をクリックして、Apache Sling Referrer Filter の「Allow Empty」を有効にします。
 
-
 ## デジタルサイネージエクスペリエンスを 5 分で作成する {#creating-a-digital-signage-experience-in-minutes}
 
 ### AEM Screens プロジェクトの作成 {#creating-project}
 
-最初のステップは、新しい AEM Screens プロジェクトを作成することです。
+最初のステップはAEM Screensプロジェクトを作ることです。
 
 1. Adobe Experience Manager（AEM）インスタンスに移動し、「**Screens**」をクリックします。または、`https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens` から直接アクセスすることもできます。
 
@@ -63,35 +62,34 @@ ht-degree: 100%
    >[!NOTE]
    >プロジェクトを作成すると、Screens プロジェクトホームページに戻ります。これでプロジェクトを選択できます。プロジェクトには、**アプリケーション**、**チャネル**、**デバイス**、**ロケーション**&#x200B;および&#x200B;**スケジュール**&#x200B;という 5 つの異なるフォルダーがあります。
 
-
 ### チャネルの作成 {#creating-channel}
 
-プロジェクトを作成したら、コンテンツを管理するための新しいチャネルを作成する必要があります。
+AEM Screensプロジェクトを作成したら、コンテンツを管理する新しいチャネルを作成する必要があります。
 
 以下の手順に従って、プロジェクトの新しいチャネルを作成します。
 
-1. プロジェクトを作成したら、**DemoScreens** プロジェクトを選択し、以下の図のように、**チャネルフォルダー**&#x200B;を選択します。アクションバーの「**+ 作成**」をクリックします。
+1. Once you create a project, select the **DemoScreens** project and select the **Channels** folder, as shown in the figure below. アクションバーの「**+ 作成**」をクリックします。
 
    ![画像](assets/kickstart/demo-2.png)
 
 1. ウィザードで「**シーケンスチャネル**」を選択し、「**次へ**」をクリックします。
    ![画像](assets/kickstart/demo-3.png)
 
-1. 「**タイトル**」に「*TestChannel*」と入力し、「**作成**」をクリックします。
+1. 「**タイトル**」に「**TestChannel**」と入力し、「**作成**」をクリックします。
 
    ![画像](assets/kickstart/demo-4.png)
 
-   *TestChannel*&#x200B;が作成され、チャネルフォルダーに追加されます（下図を参照）。
+   The **TestChannel** is now added to your channels folder, as shown in the figure below.
 
    ![画像](assets/kickstart/demo-5.png)
 
 ### チャネルへのコンテンツの追加 {#adding-content}
 
-チャネルを作成したら、Screens Player に表示するコンテンツをチャネルに追加する必要があります。
+チャネルを設定したら、AEM Screensプレイヤーが表示するコンテンツをチャネルに追加する必要があります。
 
-以下の手順に従って、プロジェクトのチャネル（*TestChannel*）にコンテンツを追加します。
+以下の手順に従って、プロジェクトのチャネル（**TestChannel**）にコンテンツを追加します。
 
-1. 作成した **DemoProject** プロジェクトに移動し、**チャネル**&#x200B;フォルダーを選択します。
+1. Navigate to the **DemoProject** you created and select the **TestChannel** from the **Channels** folder.
 
 1. アクションバーの「**編集**」をクリックします（下図を参照）。TestChannel **** のエディターが開きます。
 
@@ -118,7 +116,7 @@ ht-degree: 100%
 
 1. ウィザードから「**ロケーション**」を選択し、「**次へ**」をクリックします。
 
-1. ロケーションの「**名前**」を入力し（タイトルには「*TestLocation*」と入力します）、「**作成**」をクリックします。
+1. ロケーションの「**名前**」を入力し（タイトルには「**TestLocation**」と入力します）、「**作成**」をクリックします。
 
 **TestLocation** が作成され、**ロケーション**&#x200B;フォルダーに追加されます。
 
@@ -128,7 +126,7 @@ ht-degree: 100%
 ロケーションを作成したら、ロケーションのための新しいディスプレイを作成する必要があります。
 
 >[!NOTE]
->***ディスプレイ***&#x200B;は、1 つまたは複数のスクリーンで実行されるデジタルエクスペリエンスを表します。
+>***Display*** represents the digital experience that run on one or multiple screens.
 
 1. **TestLocation** に移動して選択します。
 
@@ -213,7 +211,7 @@ Chrome OS プレーヤーがオンになったら、次の手順に従って Chr
 
    ![画像](assets/kickstart/demo-register2.png)
 
-1. デバイスが登録コードを送信するのを待機し、同時に、Chrome デバイスで&#x200B;**登録コード**を確認します。
+1. Wait for the device to send its registration code and simultaneously check the **Registration Code** from your Chrome device.
    ![画像](assets/kickstart/demo-register3.png)
 
 1. 両方のコンピューターの&#x200B;**登録コード**&#x200B;が同じである場合は、AEM の「**検証**」をタップおよびクリックします。
@@ -234,9 +232,7 @@ Chrome OS プレーヤーがオンになったら、次の手順に従って Chr
 
    ![画像](assets/kickstart/demo-register8.png)
 
-1. 「**完了**」をタップまたはクリックして、登録プロセスを完了します。
-
-1. 登録済みのデバイスがディスプレイダッシュボードに表示されます。
+1. 「**完了**」をタップまたはクリックして、登録プロセスを完了します。登録済みのデバイスがディスプレイダッシュボードに表示されます。
 
    ![画像](assets/kickstart/demo-register9.png)
 
@@ -247,9 +243,3 @@ Chrome OS プレーヤーがオンになったら、次の手順に従って Chr
 下図では、AEM Screens チャネルのコンテンツを再生しています。
 
 ![画像](assets/kickstart/demo-video-screens.gif)
-
-
-
-
-
-

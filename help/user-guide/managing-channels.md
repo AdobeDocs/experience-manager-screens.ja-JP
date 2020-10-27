@@ -3,20 +3,20 @@ title: チャネルの作成と管理
 seo-title: チャネルの管理
 description: このページに従って、チャネルの作成および管理について学びます。また、チャネルダッシュボードおよびチャネルのコンテンツの編集も説明します。
 seo-description: このページに従って、チャネルの作成および管理について学びます。また、チャネルダッシュボードおよびチャネルのコンテンツの編集も説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6c2c7e4f757666160b79018d1195a79b99a4202d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1326'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # チャネルの作成と管理 {#creating-and-managing-channels}
 
-チャネルは、一連のコンテンツ（画像およびビデオ）を表示し、Webサイトや単一ページのアプリも表示します。
+チャネルには、コンテンツのシーケンス（画像とビデオ）および Web サイトまたは単一ページアプリケーションが表示されます。
 
-このページは、AEM Screensのチャネルの作成と管理を示します。
+このページでは AEM Screens 用のチャネルの作成および管理について説明します。
 
 **前提条件**：
 
@@ -39,7 +39,7 @@ AEM Screens 用のプロジェクトを作成したら、以下の手順に従�
 
    ![demochannel](assets/create-channel2.png)
 
-1. 「タイトル」に「**ScreenChannel**」と入力し、「**作成**」をクリックします。
+1. 「タイトル」に「**ScreensChannel**」と入力し、「**作成**」をクリックします。
 
    ![demochannel](assets/create-project4.png)
 
@@ -94,7 +94,7 @@ AEM Screens 用のプロジェクトを作成したら、以下の手順に従�
 
 1. ビデオをアップロードするチャネルを選択します。
 1. アクションバーの「**編集**」をクリックして、エディターを開きます。
-1. アセットの下の「**ビデオ**」を選択し、必要なビデオをドラッグ&amp;ドロップします。
+1. アセットの下の「**ビデオ**」を選択し、必要なビデオをドラッグドロップします。
 
 >[!NOTE]
 >チャネルへのビデオのアップロードで問題が発生した場合は、[ビデオのトラブルシューティング](troubleshoot-videos.md)を参照してください。
@@ -135,15 +135,15 @@ AEM Screens 用のプロジェクトを作成したら、以下の手順に従�
 チャネルダッシュボードからこのオプションを有効にするには、次の手順に従います。
 
 1. **チャネルをオフラインに設定**
-   1. チャネルを選択し、アクションバーの「**プロパティ**」を選択します
-   1. 「**チャネル**」タブに移動し、「**開発者モード（チャネルをオンラインにする）**」オプションのチェックを外します
-   1. 「**保存して閉じる**」をクリックします
+   1. チャネルを選択し、アクションバーの「**プロパティ**」を選択します。
+   1. 「**チャネル**」タブに移動し、「**開発者モード（チャネルをオンラインにする）**」オプションのチェックを外します。
+   1. 「**保存して閉じる**」をクリックします。
 1. **オフラインコンテンツを更新**
-   1. チャネルを選択し、アクションバーの「**ダッシュボード**」をクリックします
+   1. チャネルを選択し、アクションバーの「**ダッシュボード**」をクリックします。
    1. **チャネル情報**&#x200B;パネルに移動し、「*...*」をクリックします。
    1. 「**オフラインコンテンツを更新」をクリックします。**
 
-You should see the **View Manifest** option from the **CHANNEL INFORMATION** panel in the Channel dashboard.
+これで、チャネルダッシュボードの「**チャネル情報**」パネルから「**マニフェストを表示**」オプションが表示されます。
 
 ![image1](assets/channel-one.png)
 
@@ -151,7 +151,7 @@ You should see the **View Manifest** option from the **CHANNEL INFORMATION** pan
 ### オンラインチャネルとオフラインチャネル {#online-and-offline-channels}
 
 >[!NOTE]
->デフォルトでは、チャネルを作成すると、そのユーザーは「オフライン」になります。
+>デフォルトでは、チャネルを作成すると、そのチャネルはオフラインになります。
 
 チャネルを作成するときは、オンラインまたはオフラインチャネルのいずれかとして定義できます。
 
@@ -173,7 +173,7 @@ You should see the **View Manifest** option from the **CHANNEL INFORMATION** pan
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
-1. 「****&#x200B;開発者&#x200B;**モード（チャネルをオンラインに強制）**」をオンにして、チャネルをオンラインにします。
+1. 「**開発者**&#x200B;モード（**チャネルをオンラインに強制**）」をオンにして、チャネルをオンラインにします。
 
    「**保存して閉じる**」をクリックしてオプションを保存します。
 
@@ -202,7 +202,7 @@ You should see the **View Manifest** option from the **CHANNEL INFORMATION** pan
   <tr>
    <td>オンラインチャネルでの変更</td>
    <td>コンテンツを自動的に更新</td>
-   <td><p>コンテンツを「デバイス : プッシュ設定」で更新</p> <p>または、</p> <p>コンテンツを「<strong><i>デバイス : 再起動</i></strong>」で更新</p> </td>
+   <td><p>コンテンツを「デバイス：プッシュ設定」で更新</p> <p>または、</p> <p>コンテンツを「<strong><i>デバイス：再起動</i></strong>」で更新</p> </td>
   </tr>
   <tr>
    <td>オフラインチャネルで変更があったが、チャネル「コンテンツのプッシュ」がトリガーされない（オフラインパッケージは再作成されない）</td>
@@ -212,7 +212,7 @@ You should see the **View Manifest** option from the **CHANNEL INFORMATION** pan
   <tr>
    <td>オフラインチャネルで変更があり、チャネル「コンテンツのプッシュ」がトリガーされる（新しいオフラインパッケージ）</td>
    <td>コンテンツを自動的に更新</td>
-   <td><p>コンテンツを「<strong><i>デバイス : プッシュ設定</i></strong>」で更新</p> <p>または、</p> <p>コンテンツを「<strong><i>デバイス : 再起動</i></strong>」で更新</p> </td>
+   <td><p>コンテンツを「<strong><i>デバイス：プッシュ設定</i></strong>」で更新</p> <p>または、</p> <p>コンテンツを「<strong><i>デバイス：再起動</i></strong>」で更新</p> </td>
   </tr>
   <tr>
    <td><p>設定での変更</p>
@@ -223,7 +223,7 @@ You should see the **View Manifest** option from the **CHANNEL INFORMATION** pan
      <li>チャネルの割り当て（ロール、イベント、スケジュール設定）</li>
     </ul> </td>
    <td>設定を自動的に更新</td>
-   <td><p>設定を「<strong><i>デバイス : プッシュ設定</i></strong>」で更新</p> <p>または、</p> <p>設定を「<strong><i>デバイス : 再起動</i></strong>」で更新</p> </td>
+   <td><p>設定を「<strong><i>デバイス：プッシュ設定</i></strong>」で更新</p> <p>または、</p> <p>設定を「<strong><i>デバイス：再起動</i></strong>」で更新</p> </td>
   </tr>
  </tbody>
 </table>
@@ -237,7 +237,7 @@ You should see the **View Manifest** option from the **CHANNEL INFORMATION** pan
 ![chlimage_1-27](assets/chlimage_1-27.png)
 
 >[!NOTE]
->場所での表示の作成については、次を参照してください。
+>ロケーションでのディスプレイの作成については、次を参照してください。
 >
 >* [ロケーションの作成と管理](managing-locations.md)
 >* [ディスプレイの作成と管理](managing-displays.md)

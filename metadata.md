@@ -1,7 +1,7 @@
 ---
 cloud: experience-cloud
 solution-title: AEM Screens
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Screens
 type: Documentation
 index: y
 solution-hub-url: https://docs.adobe.com/content/help/ja-JP/experience-manager-screens/user-guide/aem-screens-introduction.html
@@ -12,7 +12,7 @@ tutorials-title: チュートリアル
 tutorials-url: https://docs.adobe.com/content/help/ja/experience-manager-screens/using/about-guide.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-screens.ja-JP
 translation-type: tm+mt
-source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
+source-git-commit: 6a65a187622ff95dce0a81b0a17d97893daf6625
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 100%

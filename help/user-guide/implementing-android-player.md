@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: b439cfab068dcbbfab602ad8d31aaa2781bde805
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 100%
@@ -40,7 +40,7 @@ AEM オーサーおよびパブリッシュインスタンスの **Adobe Experie
 
 その場合は、次の手順に従います。
 
-1. `http://localhost:4502/system/console/configMgr` を使用して、**Adobe Experience Manager Web コンソールの設定**&#x200B;に移動します。
+1. **を使用して、** Adobe Experience Manager Web コンソールの設定`http://localhost:4502/system/console/configMgr`に移動します。
 
 1. *Adobe Granite トークン認証ハンドラー*&#x200B;を検索します。
 

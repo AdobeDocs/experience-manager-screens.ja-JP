@@ -2,9 +2,9 @@
 title: ティゼン・プレイヤー
 description: このページでは、Tizen Playerのインストールと動作について説明します。
 translation-type: tm+mt
-source-git-commit: b439cfab068dcbbfab602ad8d31aaa2781bde805
+source-git-commit: baefade9fa013bc77ed1f112d0ad2098c992dde5
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '191'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,9 @@ ht-degree: 1%
 1. ローカルマシンのIPアドレスを取得します。
 
    >[!NOTE]
-   >**Mac** および **Windowsの場合は、ターミナルでコマンド**`ifconfig` を入力します。
+   >マシンのターミナルで、次のコマンドを入力します。
+   >**Mac** useコマンド `ifconfig`
+   >**Windows**、コマンドを使用 `ipconfig`
 
 1. ターミナルから、解凍されたインストーラーフォルダーと同じディレクトリに移動し、localhostが動作しているかどうかを確認します。
 

@@ -2,9 +2,9 @@
 title: ティゼン・プレイヤー
 description: このページでは、Tizen Playerのインストールと動作について説明します。
 translation-type: tm+mt
-source-git-commit: baefade9fa013bc77ed1f112d0ad2098c992dde5
+source-git-commit: 8f8973c4fda8d40f919e199be3df15ba42f0a6c6
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '224'
 ht-degree: 1%
 
 ---
@@ -20,12 +20,17 @@ ht-degree: 1%
 
 1. ローカルマシンからTizen Player(.zip)ファイルをインストールします。
 
+## ローカルサーバーの設定とZipファイルの抽出 {#setting-local-server}
+
+次の手順に従ってローカルサーバーを設定し、抽出したファイルをコピーします。
+
 1. ローカルマシンのIPアドレスを取得します。
 
    >[!NOTE]
-   >マシンのターミナルで、次のコマンドを入力します。
-   >**Mac** useコマンド `ifconfig`
-   >**Windows**、コマンドを使用 `ipconfig`
+   >次のコマンドを入力して、マシンのターミナルからIPアドレスを取得できます。
+   >* **Mac**: `ifconfig`
+   >* **Windows**: `ipconfig`
+
 
 1. ターミナルから、解凍されたインストーラーフォルダーと同じディレクトリに移動し、localhostが動作しているかどうかを確認します。
 
@@ -36,14 +41,14 @@ ht-degree: 1%
 
 1. 抽出した2つのファイルをにコピー `AEMScreensPlayer.wgt` し `sssp_config.xml` ま `/Library/WebServer/Documents`す。
 
-### SamSungデバイスの構成の更新 {#config-updates}
+### Samsungデバイスでの更新の設定 {#config-updates}
 
 Samsungデバイスの次の手順に従って、デバイスにAEM Screensプレイヤーをインストールします。
 
-1. Samsung Remoteの **Home** （ホーム）ボタンをクリックします。
-1. 「 **設定」から** 「 **URLランチャー**」を選択します。
-1. 開発者モードから **「リモート** 」を選択します。
-1. Web Appをインストールし、コンピューターのIPアドレスを入力します。
-AEM Screens・プレイヤーは、Samsungデバイスに自動的にインストールする必要があります。
+1. Samsungデバイスに移動し、localhostサーバーを指定します。
+1. 「 **設定」から「** URLランチャーの設定 **** 」を選択し、localhostサーバーのIPアドレスを入力します。
+1. Web Appをインストールします。
+1. **開発者モードから** 「Remote ****」を選択します。
+1. これで、AEM ScreensプレイヤーがSamsungデバイスに自動的にインストールされます。
 
 

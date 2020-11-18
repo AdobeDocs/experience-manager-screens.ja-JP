@@ -2,9 +2,9 @@
 title: ティゼン・プレイヤー
 description: このページでは、Tizen Playerのインストールと動作について説明します。
 translation-type: tm+mt
-source-git-commit: 835da341fcee8e4abb3375c43a0a130d3f79d859
+source-git-commit: 5275a4ff79404e946d5aa0806fc705ab3bce2fcd
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '222'
 ht-degree: 1%
 
 ---
@@ -46,9 +46,9 @@ ht-degree: 1%
 Samsungデバイスの次の手順に従って、デバイスにAEM Screensプレイヤーをインストールします。
 
 1. Samsungデバイスに移動し、localhostサーバーを指定します。
-1. 「 **設定」から「** URLランチャーの設定 **** 」を選択し、localhostサーバーのIPアドレスを入力します。
+1. 「 **URLランチャーの設定** 」を選択し、localhostサーバーのIPアドレスを入力します。
 1. Web Appをインストールします。
 1. **開発者モードから** 「Remote ****」を選択します。
-1. これで、AEM ScreensプレイヤーがSamsungデバイスに自動的にインストールされます。
+1. これで、AEM ScreensプレイヤーはSamsungデバイスへのインストールの開始を自動的に行う必要があります。
 
 

@@ -120,7 +120,7 @@ AEM Screens にはタッチ操作対応 UI が必要で、Adobe Experience Manag
 
 実稼動環境での AEM の実行には、**NOSAMPLECONTENT** 実行モードを使用します。次の場所に移動して、（追加の応答ヘッダーセクションにある）*X-Frame-Options=SAMEORIGIN* ヘッダーを削除します。
 
-`https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
+`https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`
 
 これは、AEM Screens Player でオンラインチャネルを再生するために必要です。
 

@@ -85,7 +85,7 @@ AEM Screens Player は、キオスク対応アプリケーションです。Chro
 >
 >ポリシーの変更を同期するには、デバイスを再起動します。
 
-#### ポリシー JSON ファイルの例 {#example-policy-json-file}
+#### ポリシー JSON ファイルの例  {#example-policy-json-file}
 
 ```java
 {

@@ -35,11 +35,11 @@ Screens Player では、***ContentSync*** テクノロジーを利用してチ�
 1. zip ファイルをダウンロードし、ローカルに抽出します。
 1. コンテンツのローカルコピーを表示します。
 
-## 更新ハンドラー {#update-handlers}
+## 更新ハンドラー  {#update-handlers}
 
 ***ContentSync*** は、更新ハンドラーを使用して、特定のプロジェクトに必要なすべてのページとアセットを解析および収集します。AEM Screens では、次の更新ハンドラーが使用されます。
 
-### 共通オプション {#common-options}
+### 共通オプション  {#common-options}
 
 * *type*：使用する更新ハンドラーのタイプ
 * *path*：リソースのパス
@@ -48,7 +48,7 @@ Screens Player では、***ContentSync*** テクノロジーを利用してチ�
 <table>
  <tbody>
   <tr>
-   <td><strong>型</strong></td> 
+   <td><strong>種類</strong></td> 
    <td><strong>説明</strong></td> 
    <td><strong>オプション</strong></td> 
   </tr>
@@ -88,7 +88,7 @@ ContentSync 設定をテストするには、以下の手順に従います。
 1. 解凍したフォルダーでローカルサーバーを起動します。
 1. スタートページを開き、アプリケーションの状態を確認します。
 
-## チャネルのオフライン設定の有効化 {#enabling-offline-config-for-a-channel}
+## チャネルのオフライン設定の有効化  {#enabling-offline-config-for-a-channel}
 
 チャネルのオフライン設定を有効にするには、次の手順を実行します。
 

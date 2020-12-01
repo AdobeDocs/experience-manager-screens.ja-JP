@@ -29,7 +29,7 @@ AEM Screens の使用を開始するには、まず、以下の節に従って A
 
 >[!NOTE]
 >
->オーサーとパブリッシュが 1 つだけの場合は、[AEM Screens でのオーサーとパブリッシュの設定](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/author-and-publish.html)の&#x200B;**オーサー環境でのレプリケーションエージェントの設定**&#x200B;で示されている手順に従うだけです。
+>オーサーとパブリッシュが 1 つだけの場合は、[AEM Screens でのオーサーとパブリッシュの設定](https://helpx.adobe.com/experience-manager/6-5/screens/using/author-and-publish.html)の&#x200B;**オーサー環境でのレプリケーションエージェントの設定**&#x200B;で示されている手順に従うだけです。
 
 ## Dispatcher の設定 {#dispatcher-configurations}
 
@@ -50,7 +50,7 @@ AEM Screens プロジェクトの Dispatcher を設定する際のガイドラ�
 
 ## パスワード制限 {#password-restrictions}
 
-AMS インスタンスで AEM のパスワードポリシーを無効にする必要があります。または、Screens デバイスサービス *com.adobe.cq.screens.device.impl.DeviceService* を使用して、Web コンソールでこれを設定することもできます。詳しくは、[AEM Screens でのオーサーとパブリッシュの設定](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/author-and-publish.html)の&#x200B;**パスワード制限**&#x200B;の節を参照してください。
+AMS インスタンスで AEM のパスワードポリシーを無効にする必要があります。または、Screens デバイスサービス *com.adobe.cq.screens.device.impl.DeviceService* を使用して、Web コンソールでこれを設定することもできます。詳しくは、[AEM Screens でのオーサーとパブリッシュの設定](https://helpx.adobe.com/experience-manager/6-5/screens/using/author-and-publish.html)の&#x200B;**パスワード制限**&#x200B;の節を参照してください。
 
 ## 環境の設定 {#setting-up-environments}
 

@@ -71,7 +71,7 @@ AEM オーサーおよびパブリッシュインスタンスの **Adobe Experie
 
 Android のアーキテクチャ上、デバイスをリブートするには、アプリケーションがシステム権限を持っている必要があります。そのためには、製造元の署名キーを使用して apk に署名する必要があります。この署名をおこなわないと、ウォッチドッグはデバイスをリブートするのではなく、プレーヤーアプリケーションを再起動します。
 
-### 製造元のキーを使用した Android apk への署名 {#signage-of-android-apks-using-manufacturer-keys}
+### 製造元のキーを使用した Android apk への署名  {#signage-of-android-apks-using-manufacturer-keys}
 
 *PowerManager* や *HDMIControlServices* など、Android の特権付き API にアクセスするには、製造元のキーを使用して Android apk に署名する必要があります。
 

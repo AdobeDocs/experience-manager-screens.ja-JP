@@ -23,7 +23,7 @@ ht-degree: 100%
 
 デバイスダッシュボードを使用すると、Screens Player のアクティビティやデバイスのパフォーマンスを監視およびトラブルシューティングできます。このページでは、Screens Player や割り当てられているデバイスを監視し、確認されたパフォーマンスの問題をトラブルシューティングする方法について説明します。
 
-## デバイスコントロールセンターからの監視およびトラブルシューティング {#monitor-and-troubleshoot-from-device-control-center}
+## デバイスコントロールセンターからの監視およびトラブルシューティング  {#monitor-and-troubleshoot-from-device-control-center}
 
 デバイスダッシュボードを使用すると、アクティビティを監視し、Screens Player をトラブルシューティングできます。
 

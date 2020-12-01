@@ -6,10 +6,10 @@ user-guide-title: Adobe Experience Manager Screens ヘルプ
 breadcrumb-title: AEM Screens ガイド
 user-guide-description: 動的でインタラクティブなデジタルエクスペリエンスおよびインタラクションの公開を可能にするデジタル署名ソリューションの使用方法について説明します。
 translation-type: tm+mt
-source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
+source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 100%
+source-wordcount: '431'
+ht-degree: 99%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 100%
       + [拡張機能としての Chrome プレーヤーの使用](using-chrome-player-as-an-extension.md)
       + [Android プレーヤー](implementing-android-player.md)
       + [Windows プレーヤー](implementing-windows-player.md)
+      + [ティゼン・プレイヤー](tizen-player.md)
    + オーサーとパブリッシュ {#author-publish}
       + [オーサーとパブリッシュのアーキテクチャの概要](author-publish-architecture-overview.md)
       + [オーサーとパブリッシュの設定](author-and-publish.md)
@@ -78,6 +79,7 @@ ht-degree: 100%
       + [コマンド同期](using-command-sync.md)
       + [データトリガーを使用したオーサリング](authoring-data-triggers.md)
       + [音声認識](voice-recognition.md)
+      + [コンテンツ割り当てレポート](content-assignment-report.md)
    + コンテンツ更新の管理 {#content-updates}
       + [On-Demand コンテンツ更新](on-demand-content.md)
       + [サービスとしてのコンテンツの更新](content-update-as-a-service.md)
@@ -106,6 +108,7 @@ ht-degree: 100%
    + [デバイスコントロールセンターからのトラブルシューティング](monitoring-screens.md)
    + [ビデオ再生の設定](troubleshoot-videos.md)
 + リリースノート {#release-notes}
+   + [機能パック 202011 のリリースノート](release-notes-fp-202011.md)
    + [機能パック 202008 のリリースノート](release-notes-fp-202008.md)
    + [機能パック 202004 のリリースノート](release-notes-fp-202004.md)
    + [機能パック 202001 のリリースノート](release-notes-fp-202001.md)

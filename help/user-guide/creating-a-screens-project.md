@@ -29,7 +29,7 @@ Adobe Experience Manager のリンク（左上）を選択し、「Screens」を
 >**ナビゲーションのヒント：**
 >カーソルキーを使用しても、AEM 内の様々なフォルダーを移動できます。さらに、特定のエンティティを選択し、スペースバーを押すと、その特定のフォルダーのプロパティを編集または表示できます。
 
-## 新しい Screens プロジェクトの作成 {#creating-a-new-screens-project}
+## 新しい Screens プロジェクトの作成  {#creating-a-new-screens-project}
 
 以下の手順に従って、新しい Screens プロジェクトを作成します。
 

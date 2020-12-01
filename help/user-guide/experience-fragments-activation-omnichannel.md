@@ -12,7 +12,7 @@ ht-degree: 2%
 ---
 
 
-# エクスペリエンスフラグメントアクティベーション:OmniChannelエクスペリエンス {#experience-fragments-activation}
+# エクスペリエンスフラグメントアクティベーション:OmniChannelエクスペリエンス{#experience-fragments-activation}
 
 ## 使用例の説明 {#use-case-description}
 
@@ -27,17 +27,17 @@ ht-degree: 2%
 
 >[!NOTE]
 >**前提条件
->エクスペリエンスフラグメントの基礎知識と、AEM Screensプロジェクトでのエクスペリエンスフラグメントの使用方法について、事前に知識を持っている必要があります。 See [Using Experience Fragments](/help/user-guide/experience-fragments-in-screens.md)
+>エクスペリエンスフラグメントの基礎知識と、AEM Screensプロジェクトでのエクスペリエンスフラグメントの使用方法について、事前に知識を持っている必要があります。 [エクスペリエンスフラグメントの使用](/help/user-guide/experience-fragments-in-screens.md)を参照
 
-### Setting up the Demo Project {#demo-project-setup}
+### デモプロジェクトの設定{#demo-project-setup}
 
-次の図に示すように、DemoProject **という名前のプロジェクトと、** AEM ScreensでTestChannel **** という名前のシーケンスチャネルを作成します。
+次の図に示すように、AEM Screensで、**DemoProject**&#x200B;という名前のプロジェクトと、**TestChannel**&#x200B;という名前のシーケンスチャネルーを作成します。
 
-### AEM Screensプロジェクトでのエクスペリエンスフラグメントの実装 {#experience-fragments-implementation}
+### AEM Screensプロジェクトへのエクスペリエンスフラグメントの実装{#experience-fragments-implementation}
 
-エクスペリエンスフラグメントを作成して、AEM Screensプロジェクトで活用したら、 **DemoProject** 、必要に応じてエクスペリエンスフラグメントを拡張できます。
+エクスペリエンスフラグメントを作成して、AEM Screensプロジェクト&#x200B;**DemoProject**&#x200B;で活用すると、必要に応じてエクスペリエンスフラグメントを拡張できます。
 
-### テキストサイズの拡大 {#increasing-text-size}
+### テキストサイズの拡大{#increasing-text-size}
 
 
 

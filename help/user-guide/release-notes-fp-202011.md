@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 3f1bb40a6916820b256630c7efef36798ac5fa5a
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 51%
+ht-degree: 52%
 
 ---
 
@@ -27,16 +27,16 @@ AEM Screens機能パック2021のリリース日は2020年11月30日です。
 
 ### 新機能 {#what-is-new}
 
-* **コンテンツの割り当てレポート**
+* **コンテンツ割り当てレポート**
 
-   コンテンツ割り当てレポート機能を使用すると、AEM Screens管理者や作成者は、スプレッドシート形式の *コンテンツ割り当てレポート* を書き出すことができます。
-Refer to **Content Assignment Report** for more details.
+   コンテンツ割り当てレポート機能を使用すると、AEM Screens管理者または作成者は、スプレッドシート形式の&#x200B;*コンテンツ割り当てレポート*を書き出すことができます。
+詳しくは、**コンテンツの割り当てレポート**&#x200B;を参照してください。
 
 
 * **ティゼン・プレイヤー**
 
    Tizenプレイヤと呼ばれる新しいプレイヤが、AEM Screens6.5.6リリースの最新の機能パックで導入されました。
-Refer to **Implementing Tizen Player** for more details.
+詳しくは、**Tizen Player**&#x200B;の実装を参照してください。
 
 * **デバイスマネージャーからの検索機能**
 

@@ -36,8 +36,9 @@ AEM Screens プロジェクトを実行する前に、ヘルスチェックフ�
 
    ヘルスチェックフレームワークの詳細については、[ヘルスチェックフレームワーク](/help/user-guide/configuring-screens-introduction.md#health-check-framework)を参照してください。
 
-* **デフォルトのトランジションタイプ**&#x200B;に対する更新 
-**タイプ** は、デフォルトで **フェード** (Fade)に設定され、 **期間** ( **Duration**)は1600 msに設定されました。
+* **デフォルトのトランジション**
+タイプの更新 
+**** Typeがデフォルトで「Fade」と「 **** Durationas 1600 ms **** 」に設定され ****&#x200B;ました。
 
    詳細については、[トランジションの適用](/help/user-guide/applying-transitions.md)使用例を参照してください。
 

@@ -16,7 +16,7 @@ ht-degree: 84%
 キックスタートからAEM Screensまででは、AEM Screensプロジェクトのセットアップおよび実行方法を実演します。 基本的なデジタルサイネージエクスペリエンスの設定、各チャネルへのアセットやビデオなどのコンテンツの追加、さらにそのコンテンツの AEM Screens Player への公開に関する手順を説明します。
 
 >[!NOTE]
->プロジェクトの詳細に開始する前に、最新の機能パック(AEM Screens版)がインストールされていることを確認してください。 You can download the latest feature pack from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID.
+>プロジェクトの詳細に開始する前に、最新の機能パック(AEM Screens版)がインストールされていることを確認してください。 最新の機能パックは、[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)から、ご使用のAdobe IDからダウンロードできます。
 
 ## 前提条件 {#prerequisites}
 
@@ -68,7 +68,7 @@ AEM Screensプロジェクトを作成したら、コンテンツを管理する
 
 以下の手順に従って、プロジェクトの新しいチャネルを作成します。
 
-1. Once you create a project, select the **DemoScreens** project and select the **Channels** folder, as shown in the figure below. アクションバーの「**+ 作成**」をクリックします。
+1. プロジェクトを作成したら、次の図に示すように、**DemoScreens**&#x200B;プロジェクトを選択し、**チャネル**&#x200B;フォルダーを選択します。 アクションバーの「**+ 作成**」をクリックします。
 
    ![画像](assets/kickstart/demo-2.png)
 
@@ -79,7 +79,7 @@ AEM Screensプロジェクトを作成したら、コンテンツを管理する
 
    ![画像](assets/kickstart/demo-4.png)
 
-   The **TestChannel** is now added to your channels folder, as shown in the figure below.
+   次の図に示すように、**TestChannel**&#x200B;がチャネルフォルダーに追加されます。
 
    ![画像](assets/kickstart/demo-5.png)
 
@@ -89,7 +89,7 @@ AEM Screensプロジェクトを作成したら、コンテンツを管理する
 
 以下の手順に従って、プロジェクトのチャネル（**TestChannel**）にコンテンツを追加します。
 
-1. Navigate to the **DemoProject** you created and select the **TestChannel** from the **Channels** folder.
+1. 作成した&#x200B;**DemoProject**&#x200B;に移動し、**チャネル**&#x200B;フォルダーから&#x200B;**TestChannel**&#x200B;を選択します。
 
 1. アクションバーの「**編集**」をクリックします（下図を参照）。TestChannel **** のエディターが開きます。
 
@@ -126,7 +126,7 @@ AEM Screensプロジェクトを作成したら、コンテンツを管理する
 ロケーションを作成したら、ロケーションのための新しいディスプレイを作成する必要があります。
 
 >[!NOTE]
->***Display*** represents the digital experience that run on one or multiple screens.
+>***Display***&#x200B;は、1つまたは複数の画面で実行するデジタルエクスペリエンスを表します。
 
 1. **TestLocation** に移動して選択します。
 
@@ -211,7 +211,7 @@ Chrome OS プレーヤーがオンになったら、次の手順に従って Chr
 
    ![画像](assets/kickstart/demo-register2.png)
 
-1. Wait for the device to send its registration code and simultaneously check the **Registration Code** from your Chrome device.
+1. デバイスが登録コードを送信するのを待ち、Chromeデバイスから&#x200B;**登録コード**を同時に確認します。
    ![画像](assets/kickstart/demo-register3.png)
 
 1. 両方のコンピューターの&#x200B;**登録コード**&#x200B;が同じである場合は、AEM の「**検証**」をタップおよびクリックします。

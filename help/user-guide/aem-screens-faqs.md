@@ -6,10 +6,10 @@ seo-description: ここでは、AEM Screens プロジェクトに関連する FA
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 124b766f2bbf5988a104250acb6dde7f4d7189bf
+source-git-commit: 63e3b9d7ad1519b575726dca492e5b5bd64c222d
 workflow-type: tm+mt
-source-wordcount: '1473'
-ht-degree: 100%
+source-wordcount: '1542'
+ht-degree: 95%
 
 ---
 
@@ -162,4 +162,12 @@ Livefyre を無効にしてログエラーを回避するには、次の手順�
    * CRXDE Lite で、`/etc/importers/polling/livefyre-poller/jcr:content` に移動します。
    * 新しいプロパティ *enabled*（*Boolean* 型）を追加します。
    * **enabled プロパティ**&#x200B;を **false** に設定します。
+
+### 2. 追加 Oakインデックス情報の使い方{#add-oak-index-info}
+
+AEM Screensは、商品で使用されるクエリのインデックス定義を作成します。
+`error.log`に&#x200B;*クエリトラバーサルWARNs*&#x200B;がある場合は、クエリのカスタムインデックスを作成します。 詳細は、[インデックスの設定](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes)を参照してください。
+
+[Oakドキュメント](https://jackrabbit.apache.org/oak/docs/query/lucene.html)の追加リソースも参照できます。
+
 

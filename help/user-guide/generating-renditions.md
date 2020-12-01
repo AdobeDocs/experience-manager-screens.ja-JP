@@ -22,7 +22,7 @@ ht-degree: 100%
 
 手動および自動でフル HD レンディションを生成できます。ここでは、アセットにレンディションを追加するワークフローを説明します。
 
-## フル HD レンディションの自動生成    {#automatically-generating-full-hd-renditions}
+## フル HD レンディションの自動生成     {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >

@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
+source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 73%
+source-wordcount: '785'
+ht-degree: 72%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 73%
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
-### デバイスマネージャ{#search-device}からのデバイスの検索
+### デバイスマネージャからのデバイスの検索{#search-device}
 
 デバイスをプレイヤーに登録すると、デバイスマネージャーのUIからすべてのデバイスを表示できます。
 
@@ -129,20 +129,33 @@ ht-degree: 73%
 
 1. **デバイス**&#x200B;フォルダーを選択し、アクションバーの&#x200B;**デバイスマネージャー**&#x200B;をクリックします。
 
+   ![画像](/help/user-guide/assets/device-manager/device-manager-1.png)
+
 1. 登録済みデバイスのリストが表示されます。
 
-1. 長いリストの登録済みデバイスがある場合、アクションバーの検索アイコンを使用して検索するか、単純に`/`（スラッシュ）をクリックして検索機能を呼び出すことができます。
+1. 長いリストの登録済みデバイスがある場合、アクションバーの検索アイコンを使用して検索できるようになりました
+
+   ![画像](/help/user-guide/assets/device-manager/device-manager-2.png)
+
+   または、
+
+   `/`（スラッシュ）をクリックして検索機能を起動します。
+
+   ![画像](/help/user-guide/assets/device-manager/device-manager-3.png)
+
 
 #### 検索機能の制限{#limitations}
 
-* ユーザーは、デバイスIDまたはデバイス名の任意の単語を検索できます。 デバイス名は、「BostonStoreLobby」ではなく「Boston Store Lobby」のように複数の単語で保存してください。
+* ユーザーは、*デバイスID*&#x200B;または&#x200B;*デバイス名*&#x200B;に存在する任意の単語を検索できます。
 
-* 前者の場合は、「boston」、「store」、「lobby」という語を検索できますが、後者の場合は「boston」を検索しても結果が表示されません。
+   >[!NOTE]
+   >デバイス名は、1つの&#x200B;*BostonStoreLobby*&#x200B;ではなく、*Boston Store Lobby*&#x200B;のように複数の単語で作成することをお勧めします。
 
-* ワイルドカード、`*`は検索に対してサポートされています。 **boston**&#x200B;で始まる名前を持つすべてのデバイスを探す場合は、**boston***を使用できます。
+* *Boston Store Lobby*&#x200B;などのデバイス名を作成すると、*boston*、*store*、*lobby*&#x200B;という語を検索できますが、デバイス名が&#x200B;*BostonStoreLobby*&#x200B;でa10/>boston *は結果を表示しません。*
 
-1. デバイス名が&#x200B;**BostonStoreLobby**&#x200B;で、**boston**&#x200B;を検索しても結果は返されませんが、**boston***は結果を返します。
+* ワイルドカード、`*`は検索に対してサポートされています。 名前が&#x200B;*boston*&#x200B;で始まるすべてのデバイスを探す場合は、*boston**を使用できます。
 
+1. デバイス名が&#x200B;*BostonStoreLobby*&#x200B;で、*boston*&#x200B;を検索しても結果が返されず、検索条件に&#x200B;*boston**が使用されても結果が返されます。
 
 ## デバイスの登録の制限 {#limitations-on-device-registration}
 

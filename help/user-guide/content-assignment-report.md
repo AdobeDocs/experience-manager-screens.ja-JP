@@ -2,9 +2,9 @@
 title: コンテンツ割り当てレポート
 description: このページでは、コンテンツ割り当てレポートのダウンロードと使用方法について説明します。
 translation-type: tm+mt
-source-git-commit: 13c25bda83004380dad8d8970d6be25ee83e51ac
+source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '332'
 ht-degree: 8%
 
 ---
@@ -45,10 +45,14 @@ ht-degree: 8%
 
 1. AEM Screensプロジェクトに移動し、プロジェクト&#x200B;**DemoScreens**&#x200B;を選択します。
 
-1. アクションバーの&#x200B;**コンテンツ割り当てレポート**&#x200B;をクリックします。 Excelシートがローカルマシンにダウンロードされます。
+1. アクションバーの&#x200B;**コンテンツ割り当てレポート**&#x200B;をクリックします。
 
    ![画像](/help/user-guide/assets/content-assignment-report/can-download.png)
 
    >[!NOTE]
    >ダウンロードしたスプレッドシートは、**チャネル**、**アセット**、**表示**、**デバイス**&#x200B;の4つの列で構成され、AEM Screensプロジェクトに関するこれら4つのエンティティをさらに調査できます。
+
+1. Excelシートが、AEM Screensプロジェクト名と同じ名前のプレフィックスが付いたローカルマシンにダウンロードされます。 例えば、プロジェクト名が&#x200B;**DemoScreens**&#x200B;の場合、ダウンロードされるファイル名は&#x200B;**demoscreens-content-assignment-report.xlxs**&#x200B;になります。
+
+   ![画像](/help/user-guide/assets/content-assignment-report/car-download1.png)
 

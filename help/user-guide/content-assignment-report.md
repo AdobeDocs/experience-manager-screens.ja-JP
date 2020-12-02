@@ -2,10 +2,10 @@
 title: コンテンツ割り当てレポート
 description: このページでは、コンテンツ割り当てレポートのダウンロードと使用方法について説明します。
 translation-type: tm+mt
-source-git-commit: b93baeeb26e48b906ee1ddfc034112f8b73615af
+source-git-commit: 13c25bda83004380dad8d8970d6be25ee83e51ac
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 3%
+source-wordcount: '307'
+ht-degree: 8%
 
 ---
 
@@ -20,34 +20,21 @@ ht-degree: 3%
 
 コンテンツの割り当てレポートは、選択したAEM Screensプロジェクト内のすべてのチャネル、アセット、表示、デバイスをプレビューできるだけでなく、プロジェクトの高レベルな構造を提供します。
 
-### コンテンツ割り当てレポートの使用{#downloading-content-assignment-report-fp}
 
-#### プロジェクトのセットアップ {#setting-up-project}
+### 前提条件 {#pre-reqs}
 
-次の手順に従って、AEM Screensプロジェクトからコンテンツ割り当てレポートをダウンロードします。
+コンテンツの割り当てレポートをダウンロードする前に、チャネル、場所、デバイスを含むAEM Screensプロジェクトが設定されていることを確認してください。
+詳しくは、次のリソースを参照してください。
 
-1. 「**DemoScreens**」というタイトルのAEM Screensを作成します。
+1. [プロジェクトの作成と管理](/help/user-guide/creating-a-screens-project.md)
+1. [チャネルの作成と管理](/help/user-guide/managing-channels.md)
+1. [ロケーションの作成と管理](/help/user-guide/managing-locations.md)
+1. [ディスプレイの作成と管理](/help/user-guide/managing-displays.md)
+1. [デバイスの作成](/help/user-guide/managing-devices.md)
+1. [チャネルの割り当て](/help/user-guide/channel-assignment-latest-fp.md)
 
-   ![画像](/help/user-guide/assets/content-assignment-report/car-1.png)
 
-1. **DemoScreens**&#x200B;に、**ChannelOne**&#x200B;と&#x200B;**ChannelTwo**&#x200B;のように、2つのシーケンスチャネルーを作成します。
-
-   ![画像](/help/user-guide/assets/content-assignment-report/car-2.png)
-
-1. 「**ChannelOne**」を選択し、アクションバーの「**編集**」をクリックします。 このチャネルに追加対するアセット（画像/ビデオ）は少数です。 同様に、**ChannelTwo**&#x200B;にアセットを追加します。
-
-1. **DemoScreens** —> **場所**&#x200B;から場所フォルダーに移動し、**サンノゼ**、**ダブリン**、**SanFrancisco**&#x200B;の3つの場所を作成します。
-
-   ![画像](/help/user-guide/assets/content-assignment-report/car-3.png)
-
-1. 各場所に移動し、**サンノゼ**&#x200B;の下&#x200B;**サンノゼ**、**ダブリン**&#x200B;の下&#x200B;**ダブリンメイン**、**SanFranciscoMainなどの各場所のディスプレイを作成します。**&#x200B;サンフランシスコ&#x200B;**の**&#x200B;の場所。
-
-1. 各ディスプレイにデバイスを割り当てます。
-
-   >[!NOTE]
-   >ディスプレイへのチャネルの割り当てについては、[チャネルの割り当て](/help/user-guide/channel-assignment.md)を参照してください。
-
-#### コンテンツ割り当てレポートのダウンロード{#downloading-content-assignment-report}
+## コンテンツ割り当てレポートのダウンロード{#downloading-content-assignment-report-fp}
 
 前の手順に示すように、AEM Screensプロジェクトをセットアップし、各場所に表示を割り当てたら、コンテンツ割り当てレポートをダウンロードする準備が整います。
 
@@ -64,8 +51,4 @@ ht-degree: 3%
 
    >[!NOTE]
    >ダウンロードしたスプレッドシートは、**チャネル**、**アセット**、**表示**、**デバイス**&#x200B;の4つの列で構成され、AEM Screensプロジェクトに関するこれら4つのエンティティをさらに調査できます。
-
-
-
-
 

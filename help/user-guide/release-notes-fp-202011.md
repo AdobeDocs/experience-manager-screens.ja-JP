@@ -2,10 +2,10 @@
 title: 機能パック 202011 のリリースノート
 description: このページでは、機能パック 202011 のリリースノートについて説明します。
 translation-type: tm+mt
-source-git-commit: 53aa385b7f767a88ad19b834ecf971f6c9aa0f84
+source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 51%
+source-wordcount: '277'
+ht-degree: 42%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 51%
 
 AEM Screens は、AEM 6.5 機能パック 6 をリリースしました。
 
-Adobe ID を使用して、AEM Screens 6.5.6 リリースの最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からダウンロードできます。「**Adobe Experience Manager**」タブに移動し、「**Screens**」を検索して最新の機能パックを入手します。
+Adobe ID を使用して、AEM Screens 6.5.6 リリースの最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からダウンロードできます。**Adobe Experience Manager**&#x200B;タブに移動し、**スクリーン**&#x200B;を探して、**AEM 6.5 Screens FP6**&#x200B;という最新の機能パックを入手します。
 
 ## リリース日 {#release-date}
 
@@ -41,6 +41,7 @@ AEM Screens機能パック2021のリリース日は2020年11月30日です。
 * **デバイスマネージャーからの検索機能**
 
    AEM Screens6.5.6リリースの最新機能パックが含まれるDevice Manager UIから、新しい検索機能が利用できるようになりました。
+詳細は、[デバイスマネージャ](/help/user-guide/device-registration.md#search-device)からのデバイスの検索を参照してください。
 
 * **デフォルトのPing間隔**
 

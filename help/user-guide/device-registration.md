@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
+source-git-commit: 6731c984122083ff340eda690452729c0b846fb5
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 72%
@@ -155,7 +155,7 @@ ht-degree: 72%
 
 * ワイルドカード、`*`は検索に対してサポートされています。 名前が&#x200B;*boston*&#x200B;で始まるすべてのデバイスを探す場合は、*boston**を使用できます。
 
-1. デバイス名が&#x200B;*BostonStoreLobby*&#x200B;で、*boston*&#x200B;を検索しても結果が返されず、検索条件に&#x200B;*boston**が使用されても結果が返されます。
+* デバイス名が&#x200B;*BostonStoreLobby*&#x200B;で、*boston*&#x200B;を検索しても結果が返されず、検索条件に&#x200B;*boston**が使用されても結果が返されます。
 
 ## デバイスの登録の制限 {#limitations-on-device-registration}
 

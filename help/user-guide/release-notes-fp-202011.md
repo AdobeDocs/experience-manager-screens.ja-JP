@@ -2,10 +2,10 @@
 title: 機能パック 202011 のリリースノート
 description: このページでは、機能パック 202011 のリリースノートについて説明します。
 translation-type: tm+mt
-source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
+source-git-commit: 7380862d0d5d77a155f9c135028c7548127a645a
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 42%
+source-wordcount: '275'
+ht-degree: 43%
 
 ---
 
@@ -29,7 +29,7 @@ AEM Screens機能パック2021のリリース日は2020年11月30日です。
 
 * **コンテンツ割り当てレポート**
 
-   コンテンツ割り当てレポート機能を使用すると、AEM Screens管理者または作成者は、スプレッドシート形式の&#x200B;*コンテンツ割り当てレポート*を書き出すことができます。
+   コンテンツ割り当てレポート機能を使用すると、AEM Screens管理者または作成者は、*コンテンツ割り当てレポート*をスプレッドシート形式で書き出すことができます。
 詳しくは、[コンテンツの割り当てレポート](/help/user-guide/content-assignment-report.md)を参照してください。
 
 

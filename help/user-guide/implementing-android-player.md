@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: b439cfab068dcbbfab602ad8d31aaa2781bde805
+source-git-commit: e2096260d06cc2db17d690ecbc39e8dc4f1b5aa7
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 100%
+source-wordcount: '1132'
+ht-degree: 74%
 
 ---
 
@@ -109,3 +109,65 @@ Android ウォッチドッグサービスは、*AlarmManager* を使用した co
 >Android では、*AlarmManager* は、アプリケーションがクラッシュして、そのアラーム配信が API 19（Kitkat）から正確におこなわれなくても実行可能な *pendingIntents* を登録するために使用されます。タイマーの間隔と *AlarmManager* の *pendingIntents* のアラームとの間にいくらかの時間を設けるようにしてください。
 
 **3.アプリケーションのクラッシュ**：クラッシュした場合、AlarmManager に登録されているリブートのペンディングインテントはリセットされず、（cordova プラグインの初期化時に使用可能な権限に応じて）アプリケーションのリブートまたは再起動を実行します。
+
+## Android Playerの一括プロビジョニング{#bulk-provision-android-player}
+
+Androidプレーヤーを一括で展開する場合、管理者UIで手動で入力しなくても、AEMインスタンスを指すようにプレーヤーをプロビジョニングし、他のプロパティを設定する必要があります。
+
+>[!NOTE]
+>この機能はAndroid Player 42.0.372から利用できます。
+
+次の手順に従って、Android Playerで一括プロビジョニングを許可します。
+
+1. `player-config.default.json`という名前で設定JSONファイルを作成します。
+[JSONポリシーの例](#example-json)と、様々な[ポリシー属性](#policy-attributes)の使い方を説明した表を参照してください。
+
+1. MDM、ADB、またはAndroid Studioのファイルエクスプローラーを使用して、このポリシーJSONファイルをAndroidデバイスの&#x200B;*sdcard*&#x200B;フォルダーにドロップします。
+
+1. ファイルをデプロイしたら、MDMを使用してプレイヤーアプリケーションをインストールします。
+
+1. プレイヤーアプリケーションが起動すると、この設定ファイルが読み取られ、そのファイルを登録し、その後制御できる適切なAEMサーバーが参照されます。
+
+   >[!NOTE]
+   >このファイルは、アプリケーションの初回起動時は&#x200B;*読み取り専用*&#x200B;で、以降の設定には使用できません。 設定ファイルが削除される前にプレーヤーが起動した場合は、アプリケーションをアンインストールして、デバイスに再インストールします。
+
+### ポリシー属性  {#policy-attributes}
+
+次の表に、参照用のポリシー JSON の例と共にポリシー属性を示します。
+
+| **ポリシー名** | **目的** |
+|---|---|
+| *server* | Adobe Experience ManagerサーバーへのURLです。 |
+| *resolution* | デバイスの解像度。 |
+| *rebootSchedule* | 再起動するスケジュールは、すべてのプラットフォームに適用されます。 |
+| *enableAdminUI* | サイト上でデバイスを設定するための Admin UI を有効にします。完全に設定され、実稼働環境で使用される場合は、*false*&#x200B;に設定します。 |
+| *enableOSD* | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。完全に構成され実稼動環境に入ったら、*false*&#x200B;に設定することを検討します。 |
+| *enableActivityUI* | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にし、完全に設定されて実稼動になったら無効にします。 |
+| *enableNativeVideo* | ビデオ再生にネイティブのハードウェアアクセラレーションを使用できるようにします（Androidのみ）。 |
+
+### JSONポリシーの例{#example-json}
+
+```java
+{
+  "server": "https://author-screensdemo.adobecqms.net",
+"device": "",
+"user": "",
+"password": "",
+"resolution": "auto",
+"rebootSchedule": "at 4:00 am",
+"maxNumberOfLogFilesToKeep": 10,
+"logLevel": 3,
+"enableAdminUI": true,
+"enableOSD": true,
+"enableActivityUI": false,
+"enableNativeVideo": false,
+"enableAutoScreenshot": false,
+"cloudMode": false,
+"cloudUrl": "https://screens.adobeioruntime.net",
+"cloudToken": "",
+"enableDeveloperMode": true
+}
+```
+
+>[!NOTE]
+>すべてのAndroidデバイスには、実際の&#x200B;*sdcard*&#x200B;が挿入されているかどうかにかかわらず、*sdcard*&#x200B;フォルダーがあります。 デプロイ時のこのファイルは、Downloadsフォルダーと同じレベルになります。 Samsung Knoxなどの一部のMDMは、*sdcard*&#x200B;フォルダーの場所を&#x200B;*内部ストレージ*&#x200B;と呼ぶ場合があります。

@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: e2096260d06cc2db17d690ecbc39e8dc4f1b5aa7
+source-git-commit: 2b72d9a83735beb327f519a66e8b3c0e8bf04409
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1134'
 ht-degree: 74%
 
 ---
@@ -31,16 +31,16 @@ AEM Screens 用の Android プレーヤーを実装するには、同プレー�
 
 [**AEM 6.5 Player のダウンロード**](https://download.macromedia.com/screens/)ページにアクセスします。
 
-### AEM Screens6.5.5 Service Pack の環境の設定 {#fp-environment-setup}
+### AEM Screens 6.5.5 Service Pack の環境の設定 {#fp-environment-setup}
 
 >[!NOTE]
 >AEM Screens 6.5.5 Service Pack を使用している場合は、Android プレーヤー用の環境を設定する必要があります。
 
-AEM オーサーおよびパブリッシュインスタンスの **Adobe Experience Manager Web コンソール設定**&#x200B;で、**login-token cookies の SameSite 属性**&#x200B;を **Lax** から **None** に設定します。
+AEM オーサーインスタンスおよびパブリッシュインスタンスで、**Adobe Experience Manager Web コンソール設定**&#x200B;で、**login-token cookies の SameSite 属性**&#x200B;を **Lax** から **None** に設定します。
 
 その場合は、次の手順に従います。
 
-1. **を使用して、** Adobe Experience Manager Web コンソールの設定`http://localhost:4502/system/console/configMgr`に移動します。
+1. `http://localhost:4502/system/console/configMgr` を使用して、**Adobe Experience Manager Web コンソールの設定**&#x200B;に移動します。
 
 1. *Adobe Granite トークン認証ハンドラー*&#x200B;を検索します。
 
@@ -52,7 +52,7 @@ AEM オーサーおよびパブリッシュインスタンスの **Adobe Experie
 
 ### アドホック方式 {#ad-hoc-method}
 
-アドホック方式を使用すると、最新の Android プレーヤー（**.exe）をインストールできます。[**AEM 6.5 Player のダウンロード**](https://download.macromedia.com/screens/)ページにアクセスします。
+アドホック方式を使用すると、最新の Android プレーヤー（*.exe*）をインストールできます。[**AEM 6.5 Player のダウンロード**](https://download.macromedia.com/screens/)ページにアクセスします。
 
 アプリケーションをダウンロードしたら、以下の手順に従ってプレーヤーのアドホックインストールを完了します。
 
@@ -92,7 +92,7 @@ Android のアーキテクチャ上、デバイスをリブートするには、
 1. &lt;pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk
 1. adb install を使用して、デバイスに ***aemscreensaligned.apk*** をインストールします。
 
-## Android ウォッチドッグの実装 {#android-watchdog-implementation}
+## Androidウォッチドッグサービスについて{#android-watchdog-services}
 
 Android ウォッチドッグサービスは、*AlarmManager* を使用した cordova プラグインとして実装されます。
 
@@ -129,7 +129,7 @@ Androidプレーヤーを一括で展開する場合、管理者UIで手動で�
 1. プレイヤーアプリケーションが起動すると、この設定ファイルが読み取られ、そのファイルを登録し、その後制御できる適切なAEMサーバーが参照されます。
 
    >[!NOTE]
-   >このファイルは、アプリケーションの初回起動時は&#x200B;*読み取り専用*&#x200B;で、以降の設定には使用できません。 設定ファイルが削除される前にプレーヤーが起動した場合は、アプリケーションをアンインストールして、デバイスに再インストールします。
+   >このファイルは、アプリケーションが初めて起動されたときは&#x200B;*読み取り専用*&#x200B;で、以降の設定には使用できません。 設定ファイルが削除される前にプレーヤーが起動した場合は、アプリケーションをアンインストールして、デバイスに再インストールします。
 
 ### ポリシー属性  {#policy-attributes}
 

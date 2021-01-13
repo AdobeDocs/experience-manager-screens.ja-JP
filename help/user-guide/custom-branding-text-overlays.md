@@ -4,18 +4,18 @@ seo-title: テキストオーバーレイのカスタムブランディングと
 description: このページでは、テキストオーバーレイのカスタムブランディングとスタイル設定を適用する方法について説明します。
 seo-description: このページでは、テキストオーバーレイのカスタムブランディングとスタイル設定を適用する方法について説明します。
 contentOwner: Jyotika Syal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 099000dea848810c7ab12a32f0235ca478c0d5dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '626'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # テキストオーバーレイのカスタムブランディングとスタイル設定 {#creating-custom-branding-styling}
 
-このページでは、AEM Screensチャネルのアセットに適用したテキストオーバーレイのカスタムブランドおよびスタイル設定を適用する方法について説明します。
+このページでは、AEM Screens チャネルのアセットに適用されたテキストオーバーレイのカスタムブランディングとスタイル設定を適用する方法について説明します。
 
 ## テキストオーバーレイのカスタムブランディングとスタイル設定の作成 {#steps-custom-branding}
 

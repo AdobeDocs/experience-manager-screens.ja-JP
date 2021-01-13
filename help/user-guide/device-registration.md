@@ -1,8 +1,8 @@
 ---
 title: デバイスの登録
 seo-title: デバイスの登録
-description: ここでは、AEM Screens プロジェクトでのデバイス登録プロセスについて説明します。
-seo-description: ここでは、AEM Screens プロジェクトでのデバイス登録プロセスについて説明します。
+description: このページでは、AEM Screens プロジェクトでのデバイス登録プロセスについて説明します。
+seo-description: このページでは、AEM Screens プロジェクトでのデバイス登録プロセスについて説明します。
 uuid: 5365e506-1641-4a0c-b34d-c39da02f700b
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,11 +10,11 @@ content-type: reference
 topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6731c984122083ff340eda690452729c0b846fb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '785'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 72%
 
 >[!NOTE]
 >
->最新の Windows プレーヤー（*.exe*）を [AEM Screens Player Downloads](https://download.macromedia.com/screens/) ページからダウンロードしたら、以下の手順に従ってプレーヤーのアドホックインストールを完了します。
+>最新の Windows プレーヤー（*.exe*）を [AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)ページからダウンロードしたら、以下の手順に従ってプレーヤーのアドホックインストールを完了します。
 >
 >1. 左上隅を長押しして、管理パネルを開きます。
 >1. 左のアクションメニューから「**設定**」に移動し、AEM インスタンスの場所のアドレスを「**サーバー**」に入力して、「**保存**」をクリックします。
@@ -121,19 +121,19 @@ ht-degree: 72%
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
-### デバイスマネージャからのデバイスの検索{#search-device}
+### デバイスマネージャからのデバイスの検索 {#search-device}
 
-デバイスをプレイヤーに登録すると、デバイスマネージャーのUIからすべてのデバイスを表示できます。
+デバイスをプレーヤーに登録すると、デバイスマネージャーの UI からすべてのデバイスを表示できます。
 
-1. **DemoScreens** —> **Devices**&#x200B;など、AEM ScreensプロジェクトからデバイスマネージャのUIに移動します。
+1. **DemoScreens**／**デバイス**&#x200B;など、AEM Screens プロジェクトからデバイスマネージャの UI に移動します。
 
-1. **デバイス**&#x200B;フォルダーを選択し、アクションバーの&#x200B;**デバイスマネージャー**&#x200B;をクリックします。
+1. **デバイス**&#x200B;フォルダーを選択し、アクションバーの「**デバイスマネージャー**」クリックします。
 
    ![画像](/help/user-guide/assets/device-manager/device-manager-1.png)
 
 1. 登録済みデバイスのリストが表示されます。
 
-1. 長いリストの登録済みデバイスがある場合、アクションバーの検索アイコンを使用して検索できるようになりました
+1. 長いリストの登録済みデバイスがある場合、アクションバーの検索アイコンを使用して検索できるようになりました。
 
    ![画像](/help/user-guide/assets/device-manager/device-manager-2.png)
 
@@ -144,18 +144,18 @@ ht-degree: 72%
    ![画像](/help/user-guide/assets/device-manager/device-manager-3.png)
 
 
-#### 検索機能の制限{#limitations}
+#### 検索機能の制限 {#limitations}
 
-* ユーザーは、*デバイスID*&#x200B;または&#x200B;*デバイス名*&#x200B;に存在する任意の単語を検索できます。
+* ユーザーは、*デバイス ID*&#x200B;または&#x200B;*デバイス名*&#x200B;に存在する任意の単語を検索できます。
 
    >[!NOTE]
-   >デバイス名は、1つの&#x200B;*BostonStoreLobby*&#x200B;ではなく、*Boston Store Lobby*&#x200B;のように複数の単語で作成することをお勧めします。
+   >デバイス名は、「*BostonStoreLobby*」のように 1 単語ではなく、「*Boston Store Lobby*」のように複数の単語で作成することをお勧めします。
 
-* *Boston Store Lobby*&#x200B;などのデバイス名を作成すると、*boston*、*store*、*lobby*&#x200B;という語を検索できますが、デバイス名が&#x200B;*BostonStoreLobby*&#x200B;でa10/>boston *は結果を表示しません。*
+* *Boston Store Lobby* などのデバイス名を作成すると、「*boston*」、「*store*」、「*lobby*」などの単語を検索できますが、デバイス名が「*BostonStoreLobby*」の場合、「*boston*」を検索しても結果は表示されません。
 
-* ワイルドカード、`*`は検索に対してサポートされています。 名前が&#x200B;*boston*&#x200B;で始まるすべてのデバイスを探す場合は、*boston**を使用できます。
+* ワイルドカード（`*`）は、検索でサポートされています。「*boston*」で始まるすべてのデバイスを検索する場合は、「*boston**」を使用できます。
 
-* デバイス名が&#x200B;*BostonStoreLobby*&#x200B;で、*boston*&#x200B;を検索しても結果が返されず、検索条件に&#x200B;*boston**が使用されても結果が返されます。
+* デバイス名が「*BostonStoreLobby*」の場合、「*boston*」を検索しても結果が返されませんが、代わりに検索条件で「*boston**」を使用すると、結果が返されます。
 
 ## デバイスの登録の制限 {#limitations-on-device-registration}
 

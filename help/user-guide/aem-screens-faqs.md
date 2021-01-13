@@ -5,37 +5,37 @@ description: ここでは、AEM Screens プロジェクトに関連する FAQ �
 seo-description: ここでは、AEM Screens プロジェクトに関連する FAQ への回答を掲載しています。
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 359c15d16c83e5d3cecee0bbe2ef7e68a815e660
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1706'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
-# AEM Screens の FAQ{#aem-screens-faqs}
+# AEM Screens の FAQ {#aem-screens-faqs}
 
 次の節では、AEM Screens プロジェクトに関してよく寄せられる質問に対する回答を示します。
 
-## 空白の画面の問題{#blank-screen}
+## 空白の画面の問題 {#blank-screen}
 
 >[!NOTE]
 >リストに示した必須チェックは、問題を発生させる前に、プライマリサポートまたは顧客側サポートが試す必要があります。
 
-### 1.顧客が黒い画面や再生中でないコンテンツに直面した場合、First aidのトラブルシューティング手順は何ですか？{#troubleshooting-blank-screen}
+### 1. 顧客が黒い画面やコンテンツが再生できない問題に直面した場合、応急処置のトラブルシューティング手順は何ですか？ {#troubleshooting-blank-screen}
 
 * チャネルプレビューが動作しているかどうかを確認します。
-* 表示プレビューが動作しているかどうかを確認します
-* 同じディスプレイに、お使いのシステムのブラウザー拡張機能としてプレイヤーを登録してみて、これが動作しているかどうかを確認してください。
-* システム上で実行しているプレイヤーを使用して、`http://localhost:24502`に移動します。 すべてのコンテンツが正しくダウンロードされているかどうかを確認します。
-* アセットに適切なレンディションが作成され、正しいレンディションが再生されていることを確認します。
-* スケジュールされたコンテンツがあるかどうか、および時間が正しいかどうかを確認します。 プレイヤーで設定された時間が正しいかどうかを確認します。
-* Inspectプレイヤコンソールはログを記録し、エラーがないか確認します。 右クリックし、コンソールログを確認します。 Windows Playerを使用している場合は、`CTRL + ALT +I`を押して開発コンソールを起動し、ログを表示します。
+* ディスプレイプレビューが動作しているかどうかを確認します。
+* 同じディスプレイに、使用中のシステムのブラウザー拡張機能としてプレーヤーを登録してみて、これが動作しているかどうかを確認します。
+* システム上でプレーヤーを実行しながら、`http://localhost:24502` に移動します。すべてのコンテンツが正しくダウンロードされているかどうかを確認します。
+* アセットに適切なレンディションが作成され、正しいレンディションが再生されていることを確認します。 
+* スケジュールされたコンテンツがあるかどうか、および時間が正しいかどうかを確認します。プレーヤーで設定された時間が正しいかどうかを確認します。
+* Inspect プレーヤーコンソールはログを記録し、エラーがないか確認します。右クリックし、コンソールログを確認します。Windows Player を使用している場合は、`CTRL + ALT +I` を押して開発コンソールを起動し、ログを表示します。
 
 ## チャネルの管理 {#channel-management}
 
-### 1. オンラインチャネルとオフラインチャネルの違いは何ですか？{#what-is-the-difference-between-an-online-and-an-offline-channel}
+### 1. オンラインチャネルとオフラインチャネルの違いは何ですか？ {#what-is-the-difference-between-an-online-and-an-offline-channel}
 
 ***オンラインチャネル***&#x200B;では、最新のコンテンツがリアルタイム環境で表示されるのに対して、***オフラインチャネル***&#x200B;では、キャッシュされたコンテンツが表示されます。
 
@@ -140,11 +140,11 @@ AEM Screens Player は、起動時に 404 エラーが発生すると、***/cont
 1. **開発者向けオプション**&#x200B;に移動します。
 1. 「**スリープモードにしない**」をオンにします。
 
-### 4. Windows プレーヤーのウィンドウモードを有効にする方法{#enable-player}
+### 4. Windows プレーヤーのウィンドウモードを有効にする方法 {#enable-player}
 
 Windows Player にはウィンドウモードはありません。常にフルスクリーンモードになります。
 
-### 5. AEM Screens プレーヤーがログインリクエストを継続的に送信する場合のトラブルシューティング方法{#requests-login}
+### 5. AEM Screens プレーヤーがログインリクエストを継続的に送信する場合のトラブルシューティング方法 {#requests-login}
 
 次の手順に従って、AEM Screens プレーヤーが `/content/screens/svc.json` および `/libs/granite/core/content/login.validate/j_security_check` へ継続的にリクエストを送信する場合のトラブルシューティングをおこないます。
 
@@ -178,11 +178,11 @@ Livefyre を無効にしてログエラーを回避するには、次の手順�
    * 新しいプロパティ *enabled*（*Boolean* 型）を追加します。
    * **enabled プロパティ**&#x200B;を **false** に設定します。
 
-### 2. 追加 Oakインデックス情報の使い方{#add-oak-index-info}
+### 2. Oak インデックス情報の追加方法 {#add-oak-index-info}
 
-AEM Screensは、商品で使用されるクエリのインデックス定義を作成します。
-`error.log`に&#x200B;*クエリトラバーサルWARNs*&#x200B;がある場合は、クエリのカスタムインデックスを作成します。 詳細は、[インデックスの設定](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes)を参照してください。
+AEM Screens は、製品で使用されるクエリのインデックス定義を作成します。
+`error.log` に *クエリトラバーサル WARN* がある場合は、クエリのカスタムインデックスを作成します。詳しくは、「[インデックスの設定](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=ja#configuring-the-indexes)」を参照してください。
 
-[Oakドキュメント](https://jackrabbit.apache.org/oak/docs/query/lucene.html)の追加リソースも参照できます。
+[Oak ドキュメント](https://jackrabbit.apache.org/oak/docs/query/lucene.html)の追加リソースも参照できます。
 
 

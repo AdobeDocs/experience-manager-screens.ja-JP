@@ -5,11 +5,11 @@ audience: end-user
 user-guide-title: Adobe Experience Manager Screens ヘルプ
 breadcrumb-title: AEM Screens ガイド
 user-guide-description: 動的でインタラクティブなデジタルエクスペリエンスおよびインタラクションの公開を可能にするデジタル署名ソリューションの使用方法について説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 99%
    + [キーワード](screens-glossary.md)
 + デジタルサイネージネットワークの基礎知識 {#digital-signage-network}
    + [第 1 部：プロジェクト上の役割と責務](project-roles-responsibilities.md)
-   + [第 2 部：プロジェクト範囲を定義する際の検討事項](project-considerations.md)
+   + [第 2 部：プロジェクト範囲を定義する際の考慮事項](project-considerations.md)
    + [第 3 部：テスト、POC、パイロット、ロールアウト](testing-pocs-pilots-rollouts.md)
    + [第 4 部：プロジェクトの管理とデプロイメント](project-management-and-deployment.md)
    + [第 5 部：サポートに関する考慮事項](support-considerations.md)
@@ -43,7 +43,7 @@ ht-degree: 99%
       + [拡張機能としての Chrome プレーヤーの使用](using-chrome-player-as-an-extension.md)
       + [Android プレーヤー](implementing-android-player.md)
       + [Windows プレーヤー](implementing-windows-player.md)
-      + [ティゼン・プレイヤー](tizen-player.md)
+      + [Tizen プレーヤー](tizen-player.md)
    + オーサーとパブリッシュ {#author-publish}
       + [オーサーとパブリッシュのアーキテクチャの概要](author-publish-architecture-overview.md)
       + [オーサーとパブリッシュの設定](author-and-publish.md)
@@ -81,7 +81,7 @@ ht-degree: 99%
       + [音声認識](voice-recognition.md)
       + [コンテンツ割り当てレポート](content-assignment-report.md)
    + コンテンツ更新の管理 {#content-updates}
-      + [On-Demand コンテンツ更新](on-demand-content.md)
+      + [オンデマンドのコンテンツ更新](on-demand-content.md)
       + [サービスとしてのコンテンツの更新](content-update-as-a-service.md)
       + [Screens ローンチを使用したコンテンツの更新](launches.md)
    + 使用例 {#use-case-examples}

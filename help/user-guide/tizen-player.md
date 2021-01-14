@@ -2,9 +2,9 @@
 title: Tizen プレーヤー
 description: このページでは、Tizen プレーヤーのインストールと動作について説明します。
 translation-type: tm+mt
-source-git-commit: 4c005ace7b1da94ed527164d6cfa09666d746273
+source-git-commit: 092be09ec9477c9ff7561347d8f05641a90a9b40
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '899'
 ht-degree: 21%
 
 ---
@@ -23,22 +23,24 @@ ht-degree: 21%
 ## 同じサイトのCookieに関する問題を除外するユーザーエージェント{#exempting-user-agents}
 
 >[!IMPORTANT]
->**この節はAEM 6.5.5からAEM 6.5.7**に適用
->AEM 6.5からAEM 6.7に発行されたログイントークンで使用される&#x200B;*SameSite=None*&#x200B;属性と互換性のないブラウザーエンジンがあります。ほとんどの場合、ブラウザーを最新バージョンにアップグレードすると問題が解決します。 スマートディスプレイの場合、トップボックスの設定、ブラウズエンジンが組み込まれた他のデバイスなど、そのようなアップグレードが不可能な場合があります。 SameSite=Noneを使用する場合に、これらの互換性のないクライアントを除外するには、次の手順を使用してください。
+>**この節は、Adobe Experience Manager(AEM) 6.5.5からAEM 6.5.7**に適用
+>AEM 6.5からAEM 6.7に発行されたログイントークンで使用される&#x200B;*SameSite=None*&#x200B;属性と互換性のないブラウザーエンジンがあります。ほとんどの場合、ブラウザーを最新バージョンにアップグレードすると問題が解決します。 スマートディスプレイの場合、トップボックスの設定、ブラウズエンジンが組み込まれた他のデバイスなど、そのようなアップグレードが不可能な場合があります。
 
-1. パッチ&#x200B;*jarファイル*&#x200B;を`https://artifactory.corp.adobe.com/artifactory/maven-aem-release-local/com/adobe/granite/crx-auth-token/2.6.10/`からダウンロードします。
+次の手順に従って、*SameSite=None*&#x200B;を使用する場合に、これらの互換性のないクライアントを除外します。
+
+1. Adobe Experience Manager(AEM) Service Pack 6.5.8にアップグレードします。
 
 1. AEMの`/system/console/bundles`に移動し、「`install/update`」ボタンをクリックします。
 
 1. `crx-auth-token` jarファイルをインストールします。 このjarは認証に関連しているので、このjarをインストールした後、AEMをシャットダウンして再起動する必要がある場合があります。
 
-1. AEMを再起動した後、`/system/console/configMgr`に移動し、**AdobeGranite Token Authentication Handler**&#x200B;を探します。 「SameSite」設定の値を「None」に設定します。
+1. AEMを再起動した後、`/system/console/configMgr`に移動し、**AdobeGranite Token Authentication Handler**&#x200B;を探します。 **SameSite**&#x200B;値の値を&#x200B;**None**&#x200B;に設定します。
 
 1. 新しいオプション&#x200B;*同じ属性*&#x200B;から除外するユーザーエージェントが表示されます。 *SameSite=None*&#x200B;属性と互換性のないユーザーエージェントに対応するregexを設定します。
    >[!NOTE]
-   >[SameSite=Noneを参照：互換性のない既知のクライアント](https://www.chromium.org/updates/same-site/incompatible-clients)を参照してください。
+   >[SameSite=Noneを参照：互換性のない既知のクライアント](https://www.chromium.org/updates/same-site/incompatible-clients)を参照してください。 ティーゼンの選手にはregexを使用します。`(.*)Tizen (4|5)(.*)`.
 
-1. ティーゼンの選手にはregexを使用します。`(.*)Tizen (4|5)(.*)` AEM 6.5.5以上のインスタンスに対してTizenプレーヤーを登録します。通常は登録してコンテンツを表示します。
+1. AEM 6.5.5以降のインスタンスに対してTizenプレーヤーを登録します。通常は、コンテンツが登録され、表示されます。
 
 
 ## ローカルサーバーの設定と Zip ファイルの抽出 {#setting-local-server}
@@ -113,21 +115,21 @@ Samsung デバイスの次の手順に従って、デバイスに AEM Screens �
 
 1. 必要に応じて、TLSをセットアップします。 ポートに移動し、サーバーからポート番号を選択します。 「**保存**」をクリックします。
 
-1. 「デバイス」タブに移動し、設定したデバイスを探します。
-
-1. デバイスが見つかったら、チェックボックスをクリックし、**承認**&#x200B;を選択します。
+1. 「**デバイス**」タブに移動し、設定したデバイスを確認します。 デバイスが見つかったら、チェックボックスをクリックし、**承認**&#x200B;を選択します。
 
 1. 必要な情報を入力し、デバイスグループを選択します。 「**OK**」をクリックして承認プロセスを完了します。
 
    >![画像](/help/user-guide/assets/tizen/rms-7.png)
 
-1. 承認されたデバイスは、デバイスリストに表示されます。 デバイスのボックス&#x200B;**i**&#x200B;にある[*情報*]ボタンをクリックします。
+1. 承認されたデバイスは、デバイスリストに表示されます。 次の図に示すように、デバイスのボックスにある&#x200B;*「情報*」ボタン(**i**)をクリックします。
 
    >![画像](/help/user-guide/assets/tizen/rms-6.png)
 
 1. デバイス情報ダイアログボックスが表示されます。 「**デバイス情報**」タブを選択し、「**編集**」をクリックします。
 
-1. 「Edit Device」オプションを選択し、「**Setup**」タブを選択します。 **「URLランチャー**」セクションに移動し、wgtをホストするURLと`SSSP config file`を入力して`SSSP`アプリケーションをインストールします。次の図を参照してください。
+   >![画像](/help/user-guide/assets/tizen/rms-5.png)
+
+1. デバイスのオプションを編集し、「**Setup**」タブを選択します。 **「URLランチャー**」セクションに移動し、wgtをホストするURLと`SSSP config file`を入力して`SSSP`アプリケーションをインストールします。次の図を参照してください。
 
    ![画像](/help/user-guide/assets/tizen/rms-9.png)
 

@@ -2,10 +2,10 @@
 title: Tizen プレーヤー
 description: このページでは、Tizen プレーヤーのインストールと動作について説明します。
 translation-type: tm+mt
-source-git-commit: 092be09ec9477c9ff7561347d8f05641a90a9b40
+source-git-commit: 6f93922bf94b9f0f752c0953c7bed35b5d056e4b
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 21%
+source-wordcount: '926'
+ht-degree: 18%
 
 ---
 
@@ -68,23 +68,22 @@ Samsung デバイスの次の手順に従って、デバイスに AEM Screens �
 
 1. デバイスのリモートから&#x200B;**MENU**&#x200B;ボタンをクリックし、左のナビゲーションバーから&#x200B;**System**&#x200B;まで下にスクロールします。
 
-1. 下にスクロールし、「**URLランチャーで再生**」オプションを選択します。
+1. 下にスクロールし、「****&#x200B;で再生」オプションを選択して、**URLランチャー**に変更します。
    ![画像](/help/user-guide/assets/tizen/rms-2.png)
 
-1. リモートから&#x200B;**ホーム**&#x200B;ボタンを押します。
+1. URLランチャーを設定したら、リモートから&#x200B;**ホーム**&#x200B;ボタンを押します。
 
-1. Localhost サーバーの IP アドレスを入力します。
-
-1. **デベロッパーモード**&#x200B;から「**リモート**」を選択します。
-
-1. デバイスのリモートから「**ホーム**」ボタンをクリックし、「**URL ランチャー**」を選択します。
+1. **URLランチャーの設定**&#x200B;に移動し、localhostサーバーのIPアドレスを入力します。
 
 1. これで、AEM Screens プレーヤーは Samsung デバイスに自動的にインストールして起動します。
+
+   >[!NOTE]
+   >Tizenデバイスと`http`サーバーは両方とも接続可能である必要があります。つまり、サーバーはTizenプレーヤーに到達可能である必要があります。
 
 ## Tizen Playerの一括プロビジョニング{#bulk-provisioning-tizen-player}
 
 >[!NOTE]
->多数のデバイスに対して各デバイスの管理UIにAEMサーバのアドレスを手動で入力するのは、面倒な作業になる場合があります。 ソリューションの展開と管理には、Samsung Remote Management (RMS)ソリューションを使用することをお勧めします。 詳細については、[Samsung Remote Management Service (RMS)](#enroll-tizen-device-rm)へのTizenデバイスの登録を参照してください。
+>多数のデバイスに対して各デバイスの管理UIにAEMサーバのアドレスを手動で入力するのは、面倒な作業になる場合があります。 大規模なソリューションの展開と管理には、Samsung Remote Management (RMS)ソリューションを使用することをお勧めします。 詳細については、[Samsung Remote Management Service (RMS)](#enroll-tizen-device-rm)へのTizenデバイスの登録を参照してください。
 
 次の手順に従って、起動時にAEM作成者インスタンスを指すようにアプリケーションを一括プロビジョニングします。
 
@@ -111,9 +110,9 @@ Samsung デバイスの次の手順に従って、デバイスに AEM Screens �
    >画面が「URLランチャーを使用して再生」に設定されていることを確認します。
    >![画像](/help/user-guide/assets/tizen/rms-2.png)
 
-1. 「Server Address」に移動し、MagicInfo URLアクセスを入力して「Done」を押します。
+1. サーバーアドレスに移動し、MagicInfo URLアクセスを入力して、**完了**&#x200B;キーを押します。
 
-1. 必要に応じて、TLSをセットアップします。 ポートに移動し、サーバーからポート番号を選択します。 「**保存**」をクリックします。
+1. 必要に応じて、TLSをセットアップします。 ポートに移動し、サーバーからポート番号を選択して、「**保存**」をクリックします。
 
 1. 「**デバイス**」タブに移動し、設定したデバイスを確認します。 デバイスが見つかったら、チェックボックスをクリックし、**承認**&#x200B;を選択します。
 

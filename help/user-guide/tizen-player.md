@@ -2,9 +2,9 @@
 title: Tizen プレーヤー
 description: このページでは、Tizen プレーヤーのインストールと動作について説明します。
 translation-type: tm+mt
-source-git-commit: dc2fedaa5726e1013e1b51f429ba19e4a709de28
+source-git-commit: c1e7187ad3841cde08377d6daf700885d17706ba
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '691'
 ht-degree: 27%
 
 ---
@@ -107,9 +107,13 @@ Samsung デバイスの次の手順に従って、デバイスに AEM Screens �
 
 1. デバイス情報ポップアップが次のように表示され、「編集」ボタンをクリックします。
 
-1. [デバイスの編集]オプションが次のように表示され、[セットアップ]タブを選択します。
+1. 「Edit Device」オプションを選択し、「**Setup**」タブを選択します。
 
-1. 「URL Launcher Section」を見つけ、wgtと`SSSP config file`をホストするURLを入力してSSPアプリケーションをインストールします。
+1. **「URLランチャー**」セクションに移動し、wgtをホストするURLと`SSSP config file`を入力して`SSSP`アプリケーションをインストールします。次の図を参照してください。
+
+   ![画像](/help/user-guide/assets/tizen/rms-9.png)
+
+1. 「**保存**」をクリックすると、変更が表示画面に反映されます。
 
 
 

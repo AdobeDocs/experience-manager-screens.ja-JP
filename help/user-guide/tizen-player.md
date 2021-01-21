@@ -2,9 +2,9 @@
 title: Tizen プレーヤー
 description: このページでは、Tizen プレーヤーのインストールと動作について説明します。
 translation-type: tm+mt
-source-git-commit: 46b7cf83d827d4b7ac1d4b37269085f312882de1
+source-git-commit: aaaba2ed94fc950fec9264fef441bebf761576be
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '905'
 ht-degree: 11%
 
 ---
@@ -63,7 +63,7 @@ Samsung デバイスの次の手順に従って、デバイスに AEM Screens �
 
 >[!IMPORTANT]
 >**この節は、Adobe Experience Manager(AEM) 6.5.5からAEM 6.5.7**に適用
->AEM 6.5からAEM 6.7に発行されたログイントークンで使用される&#x200B;*SameSite=None*&#x200B;属性と互換性のないブラウザーエンジンがあります。ほとんどの場合、ブラウザーを最新バージョンにアップグレードすると問題が解決します。 スマートディスプレイの場合、トップボックスの設定、ブラウズエンジンが組み込まれた他のデバイスなど、そのようなアップグレードが不可能な場合があります。
+>AEM 6.5からAEM 6.7に発行されたログイントークンに使用される&#x200B;*SameSite=None*&#x200B;属性と互換性のないブラウザーエンジンがいくつかあります。ほとんどの場合、ブラウザーを最新バージョンにアップグレードすると問題が解決します。 スマートディスプレイの場合、トップボックスの設定、ブラウズエンジンが組み込まれた他のデバイスなど、そのようなアップグレードが不可能な場合があります。
 
 次の手順に従って、*SameSite=None*&#x200B;を使用する場合に、これらの互換性のないクライアントを除外します。
 
@@ -94,7 +94,7 @@ Samsung デバイスの次の手順に従って、デバイスに AEM Screens �
 
 1. この新しい`wgt`ファイルをRMSまたはURLランチャーを使用して展開し、プレーヤーの起動時に自動的にサーバーを指すようにします。これにより、すべてのデバイスに手動で入力する必要がなくなります。
 
-### TizenデバイスをSamsung Remote Management Service(RMS)に登録する{#enroll-tizen-device-rms}
+### TizenデバイスをSamsung Remote Management Service (RMS)に登録する{#enroll-tizen-device-rms}
 
 次の手順に従って、TizenデバイスをSamsung Remote Management Service (RMS)に登録し、URLランチャーをリモート構成します。
 
@@ -102,10 +102,6 @@ Samsung デバイスの次の手順に従って、デバイスに AEM Screens �
 >ネットワーク設定とモニタを確認します。
 
 1. **メニュー** -> **ネットワーク** -> **サーバーネットワーク設定**&#x200B;に移動し、**Enter**&#x200B;キーを押します。
-
-   >[!NOTE]
-   >画面が「URLランチャーを使用して再生」に設定されていることを確認します。
-   >![画像](/help/user-guide/assets/tizen/rms-2.png)
 
 1. サーバーアドレスに移動し、MagicInfo URLアクセスを入力して、**完了**&#x200B;キーを押します。
 

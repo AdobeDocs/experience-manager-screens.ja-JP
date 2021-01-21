@@ -2,7 +2,7 @@
 title: Tizen プレーヤー
 description: このページでは、Tizen プレーヤーのインストールと動作について説明します。
 translation-type: tm+mt
-source-git-commit: aaaba2ed94fc950fec9264fef441bebf761576be
+source-git-commit: 2ace2f926900304377afcd6187462545a60784d3
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 11%
@@ -67,7 +67,7 @@ Samsung デバイスの次の手順に従って、デバイスに AEM Screens �
 
 次の手順に従って、*SameSite=None*&#x200B;を使用する場合に、これらの互換性のないクライアントを除外します。
 
-1. Adobe Experience Manager(AEM) Service Pack 6.5.8にアップグレードします。
+1. Adobe Experience Manager(AEM) Service Pack 6.5.7にアップグレードします。
 
 1. AEMを再起動した後、`/system/console/configMgr`に移動し、**AdobeGranite Token Authentication Handler**&#x200B;を探します。 **SameSite**&#x200B;値の値を&#x200B;**None**&#x200B;に設定します。
 

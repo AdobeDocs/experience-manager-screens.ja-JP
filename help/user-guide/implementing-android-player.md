@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 2b72d9a83735beb327f519a66e8b3c0e8bf04409
 workflow-type: tm+mt
 source-wordcount: '1134'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ AEM Screens 用の Android プレーヤーを実装するには、同プレー�
 >[!NOTE]
 >AEM Screens 6.5.5 Service Pack を使用している場合は、Android プレーヤー用の環境を設定する必要があります。
 
-AEM オーサーインスタンスおよびパブリッシュインスタンスで、**Adobe Experience Manager Web コンソール設定**&#x200B;で、**login-token cookies の SameSite 属性**&#x200B;を **Lax** から **None** に設定します。
+AEM オーサーインスタンスおよびパブリッシュインスタンスの **Adobe Experience Manager Web コンソール設定**&#x200B;で、**login-token cookies の SameSite 属性**&#x200B;を **Lax** から **None** に設定します。
 
 その場合は、次の手順に従います。
 
@@ -92,7 +92,7 @@ Android のアーキテクチャ上、デバイスをリブートするには、
 1. &lt;pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk
 1. adb install を使用して、デバイスに ***aemscreensaligned.apk*** をインストールします。
 
-## Androidウォッチドッグサービスについて{#android-watchdog-services}
+## Android ウォッチドッグサービスについて {#android-watchdog-services}
 
 Android ウォッチドッグサービスは、*AlarmManager* を使用した cordova プラグインとして実装されます。
 
@@ -110,26 +110,26 @@ Android ウォッチドッグサービスは、*AlarmManager* を使用した co
 
 **3.アプリケーションのクラッシュ**：クラッシュした場合、AlarmManager に登録されているリブートのペンディングインテントはリセットされず、（cordova プラグインの初期化時に使用可能な権限に応じて）アプリケーションのリブートまたは再起動を実行します。
 
-## Android Playerの一括プロビジョニング{#bulk-provision-android-player}
+## Android プレーヤーの一括プロビジョニング {#bulk-provision-android-player}
 
-Androidプレーヤーを一括で展開する場合、管理者UIで手動で入力しなくても、AEMインスタンスを指すようにプレーヤーをプロビジョニングし、他のプロパティを設定する必要があります。
+Android プレーヤーを一括で展開する場合、管理者 UI で手動で入力しなくても、AEM インスタンスを指すようにプレーヤーをプロビジョニングし、他のプロパティを設定する必要があります。
 
 >[!NOTE]
->この機能はAndroid Player 42.0.372から利用できます。
+>この機能は Android プレーヤー 42.0.372 から利用できます。
 
-次の手順に従って、Android Playerで一括プロビジョニングを許可します。
+次の手順に従って、Android プレーヤーで一括プロビジョニングを許可します。
 
-1. `player-config.default.json`という名前で設定JSONファイルを作成します。
-[JSONポリシーの例](#example-json)と、様々な[ポリシー属性](#policy-attributes)の使い方を説明した表を参照してください。
+1. `player-config.default.json` という名前で設定 JSON ファイルを作成します。
+[JSON ポリシーの例](#example-json)と、様々な[ポリシー属性](#policy-attributes)の使い方を説明した表を参照してください。
 
-1. MDM、ADB、またはAndroid Studioのファイルエクスプローラーを使用して、このポリシーJSONファイルをAndroidデバイスの&#x200B;*sdcard*&#x200B;フォルダーにドロップします。
+1. MDM、ADB、または Android Studio のファイルエクスプローラーを使用して、このポリシー JSON ファイルを Android デバイスの *sdcard* フォルダーにドロップします。
 
-1. ファイルをデプロイしたら、MDMを使用してプレイヤーアプリケーションをインストールします。
+1. ファイルをデプロイしたら、MDM を使用してプレーヤーアプリケーションをインストールします。
 
-1. プレイヤーアプリケーションが起動すると、この設定ファイルが読み取られ、そのファイルを登録し、その後制御できる適切なAEMサーバーが参照されます。
+1. プレーヤーアプリケーションが起動すると、この設定ファイルが読み取られ、そのファイルを登録し、その後制御できる適切な AEM サーバーが参照されます。
 
    >[!NOTE]
-   >このファイルは、アプリケーションが初めて起動されたときは&#x200B;*読み取り専用*&#x200B;で、以降の設定には使用できません。 設定ファイルが削除される前にプレーヤーが起動した場合は、アプリケーションをアンインストールして、デバイスに再インストールします。
+   >このファイルは、アプリケーションが初めて起動されたときは&#x200B;*読み取り専用*&#x200B;で、以降の設定には使用できません。設定ファイルがドロップされる前にプレーヤーが起動した場合は、デバイスでアプリケーションをアンインストールして、再インストールします。
 
 ### ポリシー属性  {#policy-attributes}
 
@@ -137,15 +137,15 @@ Androidプレーヤーを一括で展開する場合、管理者UIで手動で�
 
 | **ポリシー名** | **目的** |
 |---|---|
-| *server* | Adobe Experience ManagerサーバーへのURLです。 |
+| *server* | Adobe Experience Manager サーバーの URL。 |
 | *resolution* | デバイスの解像度。 |
 | *rebootSchedule* | 再起動するスケジュールは、すべてのプラットフォームに適用されます。 |
-| *enableAdminUI* | サイト上でデバイスを設定するための Admin UI を有効にします。完全に設定され、実稼働環境で使用される場合は、*false*&#x200B;に設定します。 |
-| *enableOSD* | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。完全に構成され実稼動環境に入ったら、*false*&#x200B;に設定することを検討します。 |
-| *enableActivityUI* | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にし、完全に設定されて実稼動になったら無効にします。 |
-| *enableNativeVideo* | ビデオ再生にネイティブのハードウェアアクセラレーションを使用できるようにします（Androidのみ）。 |
+| *enableAdminUI* | サイト上でデバイスを設定するための Admin UI を有効にします。完全に設定されて運用が開始したら、*false* に設定します。 |
+| *enableOSD* | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。完全に設定されて運用が開始したら、*false* に設定することを検討します。 |
+| *enableActivityUI* | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にしておき、完全に設定されて運用が開始したら無効にします。 |
+| *enableNativeVideo* | ビデオ再生でネイティブのハードウェアアクセラレーションを使用できるようにします（Android のみ）。 |
 
-### JSONポリシーの例{#example-json}
+### JSON ポリシーの例 {#example-json}
 
 ```java
 {
@@ -170,4 +170,4 @@ Androidプレーヤーを一括で展開する場合、管理者UIで手動で�
 ```
 
 >[!NOTE]
->すべてのAndroidデバイスには、実際の&#x200B;*sdcard*&#x200B;が挿入されているかどうかにかかわらず、*sdcard*&#x200B;フォルダーがあります。 デプロイ時のこのファイルは、Downloadsフォルダーと同じレベルになります。 Samsung Knoxなどの一部のMDMは、*sdcard*&#x200B;フォルダーの場所を&#x200B;*内部ストレージ*&#x200B;と呼ぶ場合があります。
+>すべての Android デバイスには、実際の *SD カード*&#x200B;が挿入されているかどうかにかかわらず、*sdcard* フォルダーがあります。デプロイ時、このファイルは Downloads フォルダーと同じレベルにあります。Samsung Knox などの一部の MDM では、*sdcard* フォルダーの場所を&#x200B;*内部ストレージ*&#x200B;と呼ぶ場合があります。

@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
-translation-type: ht
-source-git-commit: 6731c984122083ff340eda690452729c0b846fb5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 85d50951caa27b62b1e05fc808de96ffb4e526b5
+workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 100%
 
@@ -37,6 +37,7 @@ ht-degree: 100%
 >1. 左上隅を長押しして、管理パネルを開きます。
 >1. 左のアクションメニューから「**設定**」に移動し、AEM インスタンスの場所のアドレスを「**サーバー**」に入力して、「**保存**」をクリックします。
 >1. 左のアクションメニューの「**登録**」リンクをクリックし、以下の手順でデバイス登録プロセスを完了します。
+
 >
 
 
@@ -120,7 +121,7 @@ ht-degree: 100%
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
-### デバイスマネージャからのデバイスの検索 {#search-device}
+## デバイスマネージャからのデバイスの検索 {#search-device}
 
 デバイスをプレーヤーに登録すると、デバイスマネージャーの UI からすべてのデバイスを表示できます。
 
@@ -143,12 +144,11 @@ ht-degree: 100%
    ![画像](/help/user-guide/assets/device-manager/device-manager-3.png)
 
 
-#### 検索機能の制限 {#limitations}
+### 検索機能の制限 {#limitations}
 
 * ユーザーは、*デバイス ID*&#x200B;または&#x200B;*デバイス名*&#x200B;に存在する任意の単語を検索できます。
 
    >[!NOTE]
-   >
    >デバイス名は、「*BostonStoreLobby*」のように 1 単語ではなく、「*Boston Store Lobby*」のように複数の単語で作成することをお勧めします。
 
 * *Boston Store Lobby* などのデバイス名を作成すると、「*boston*」、「*store*」、「*lobby*」などの単語を検索できますが、デバイス名が「*BostonStoreLobby*」の場合、「*boston*」を検索しても結果は表示されません。

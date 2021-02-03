@@ -1,11 +1,11 @@
 ---
 title: Tizen プレーヤー
 description: このページでは、Tizen プレーヤーのインストールと動作について説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2ace2f926900304377afcd6187462545a60784d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '905'
-ht-degree: 11%
+ht-degree: 100%
 
 ---
 
@@ -16,23 +16,23 @@ ht-degree: 11%
 
 次の手順に従って、AEM Screens 用の Tizen プレーヤーを実装します。
 
-1. [AEM Screensプレイヤーのダウンロード数](https://download.macromedia.com/screens/)ページに移動して、Tizen Playerをダウンロードします。
+1. [AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)ページに移動して、Tizen プレーヤーをダウンロードします。
 
-1. ローカルマシンからTizenプレーヤー&#x200B;*(.zip)*&#x200B;ファイルをインストールします。
+1. ローカルマシンから Tizen プレーヤー&#x200B;*（.zip）*&#x200B;ファイルをインストールします。
 
-## ローカルサーバーの設定と Zip ファイルの抽出 {#setting-local-server}
+## ローカルサーバーの設定と Zip ファイルの展開 {#setting-local-server}
 
 >[!NOTE]
-> zipファイルを展開し、Tizenプレイヤーを`http server`から入手できるようにします。 （`http server`は、ローカルまたはApacheサーバーである必要はありません）。
+> zip ファイルを展開し、`http server` を通じて Tizen プレーヤーを入手できるようにします（`http server` はローカルサーバーまたは Apache サーバーである必要はありません）。
 
-その場合は、次の手順に従います。
+次の手順に従います。
 
-1. `AEMScreensPlayer.wgt`や`sssp_config.xml`などの抽出した2つのファイルを、ローカルのApache Webサーバーのルートディレクトリにコピーします。
+1. 展開した 2 つのファイル（`AEMScreensPlayer.wgt`、`sssp_config.xml` など）をローカル Apache Web サーバーのルートディレクトリにコピーします。
 
    >[!NOTE]
-   >`AEMScreensPlayer.wgt`は実際のTizenプレーヤーアプリケーションで、`sssp_config.xml`はこのマップに関する情報を含んでおり、Tizenデバイスにインストールするのに役立ちます。
+   >`AEMScreensPlayer.wgt` は実際の Tizen プレーヤーアプリケーションです。`sssp_config.xml` には、Tizen プレーヤーを　Tizen デバイスにインストールに役立つ、このマップに関する情報が記載されています。
 
-1. ローカルHTTPサーバーのIPまたはURLを取得します（ルートフォルダーではなくサブフォルダーに抽出した場合は、手順2で抽出したファイルを含むフォルダーのパス）。
+1. ローカル HTTP サーバーの IP または URL を取得します（手順 2 で、ルートフォルダーではなくサブフォルダーに展開した場合は、展開したファイルを含むフォルダーのパスも取得します）。
 
 1. Tizen プレーヤーは、ローカルサーバーからインストーラーをダウンロードします。
 
@@ -40,92 +40,92 @@ ht-degree: 11%
 
 Samsung デバイスの次の手順に従って、デバイスに AEM Screens プレーヤーをインストールします。
 
-1. Samsungデバイスに移動し、電源を入れます。
+1. Samsung デバイスに移動し、電源を入れます。
 
-1. デバイスのリモートから&#x200B;**MENU**&#x200B;ボタンをクリックし、左のナビゲーションバーから&#x200B;**System**&#x200B;まで下にスクロールします。
+1. デバイスのリモートコントローラーで「**MENU**」ボタンをクリックし、左のナビゲーションバーで「**System**」まで下にスクロールします。
 
-1. 下にスクロールし、「****&#x200B;で再生」オプションを選択して、**URLランチャー**に変更します。
+1. 下にスクロールし、「**Play via**」オプションを選択して「**URL Launcher**」に変更します。
    ![画像](/help/user-guide/assets/tizen/rms-2.png)
 
-1. URLランチャーを設定したら、リモートから&#x200B;**ホーム**&#x200B;ボタンを押します。
+1. URL ランチャーを設定したら、リモートコントローラーの「**Home**」ボタンを押します。
 
-1. **URLランチャーの設定**&#x200B;に移動し、localhostサーバーのIPアドレスを入力して、「**完了**」をクリックします。
+1. 「**URL Launcher Settings**」に移動し、localhost サーバーの IP アドレスを入力して、「**Done**」をクリックします。
    >[!NOTE]
-   >Tizenプレイヤーがhttpサーバーに接続できる必要があります。
+   >Tizen プレーヤーが http サーバーに接続できるようになります。
 
-1. これで、AEM Screens プレーヤーは Samsung デバイスに自動的にインストールして起動します。
+1. これで、AEM Screens プレーヤーが Samsung デバイスに自動的にインストールされて起動します。
 
    >[!NOTE]
-   >Tizenデバイスと`http`サーバーは両方とも接続可能である必要があります。つまり、サーバーはTizenプレーヤーに到達可能である必要があります。
+   >Tizen デバイスと `http` サーバーが相互に接続できるようになり、サーバーは Tizen プレーヤーに到達できます。
 
 
-## SameSite Cookieに関する問題を除外するユーザーエージェント{#exempting-user-agents}
+## cookie の SameSite 属性に対応していないユーザーエージェントの適用除外 {#exempting-user-agents}
 
 >[!IMPORTANT]
->**この節は、Adobe Experience Manager(AEM) 6.5.5からAEM 6.5.7**に適用
->AEM 6.5からAEM 6.7に発行されたログイントークンに使用される&#x200B;*SameSite=None*&#x200B;属性と互換性のないブラウザーエンジンがいくつかあります。ほとんどの場合、ブラウザーを最新バージョンにアップグレードすると問題が解決します。 スマートディスプレイの場合、トップボックスの設定、ブラウズエンジンが組み込まれた他のデバイスなど、そのようなアップグレードが不可能な場合があります。
+>**この節の内容は、Adobe Experience Manager（AEM）6.5.5 から AEM 6.5.7** までのバージョンに適用されます。
+>ブラウザーエンジンの中には、AEM 6.5 から AEM 6.7 までのバージョンが発行するログイントークンで使用される *SameSite=None* 属性に対応していないものが一部あります。この問題は、ほとんどの場合、ブラウザーを入手可能な最新のバージョンにアップグレードすることで解決できます。ただし、スマートディスプレイやセットトップボックスのように、ブラウジングエンジンが組み込まれているデバイスの場合など、そのようなアップグレードが不可能な場合があります。
 
-次の手順に従って、*SameSite=None*&#x200B;を使用する場合に、これらの互換性のないクライアントを除外します。
+*SameSite=None* を使用する場合に、その属性に対応していないこれらのクライアントを適用対象外にするには、次の手順に従います。
 
-1. Adobe Experience Manager(AEM) Service Pack 6.5.7にアップグレードします。
+1. Adobe Experience Manager（AEM）Service Pack 6.5.7 にアップグレードします。
 
-1. AEMを再起動した後、`/system/console/configMgr`に移動し、**AdobeGranite Token Authentication Handler**&#x200B;を探します。 **SameSite**&#x200B;値の値を&#x200B;**None**&#x200B;に設定します。
+1. AEM を再起動した後、`/system/console/configMgr` に移動し、**Adobe Granite Token Authentication Handler** を探します。**SameSite** の値を「**None**」に設定します。
 
-1. 新しいオプション&#x200B;*同じ属性*&#x200B;から除外するユーザーエージェントが表示されます。 *SameSite=None*&#x200B;属性と互換性のないユーザーエージェントに対応するregexを設定します。
+1. 新しいオプション「*User agents to be exempted from samesite attribute*」が表示されます。*SameSite=None* 属性に対応していないユーザーエージェントを表す正規表現を、このオプションに設定します。
    >[!NOTE]
-   >[SameSite=Noneを参照：互換性のない既知のクライアント](https://www.chromium.org/updates/same-site/incompatible-clients)を参照してください。 ティーゼンの選手にはregexを使用します。`(.*)Tizen(.*)`.
+   >詳しくは、[SameSite=None: Known Incompatible Clients](https://www.chromium.org/updates/same-site/incompatible-clients)（「SameSite=None」に対応していない既知のクライアント）を参照してください。Tizen プレーヤーの場合は `(.*)Tizen(.*)` という正規表現を使用します。
 
-1. AEM 6.5.5以降のインスタンスに対してTizenプレーヤーを登録します。通常は、コンテンツが登録され、表示されます。
+1. AEM 6.5.5 以降のインスタンスに Tizen プレーヤーを登録します。これによりプレーヤーが登録され、コンテンツが正常に表示されます。
 
-## Tizen Playerの一括プロビジョニング{#bulk-provisioning-tizen-player}
+## Tizen プレーヤーの一括プロビジョニング {#bulk-provisioning-tizen-player}
 
 >[!NOTE]
->多数のデバイスに対して各デバイスの管理UIにAEMサーバのアドレスを手動で入力するのは、面倒な作業になる場合があります。 大規模なソリューションの展開と管理には、Samsung Remote Management (RMS)ソリューションを使用することをお勧めします。 詳細については、[Samsung Remote Management Service (RMS)](#enroll-tizen-device-rm)へのTizenデバイスの登録を参照してください。
+>デバイス数が多い場合は、デバイスごとに管理 UI で AEM サーバーのアドレスを手動入力するのは面倒です。このような大規模なソリューションのデプロイと管理には、Samsung Remote Management（RMS）ソリューションを使用することをお勧めします。詳しくは、[Samsung Remote Management Service（RMS）への Tizen デバイスの登録](#enroll-tizen-device-rm)を参照してください。
 
-次の手順に従って、起動時にAEM作成者インスタンスを指すようにアプリケーションを一括プロビジョニングします。
+起動時に AEM オーサーインスタンスを指すようにアプリケーションを一括でプロビジョニングするには、次の手順に従います。
 
-1. [Tizen Studio](https://developer.tizen.org/development/tizen-studio/download)をダウンロードしてインストールします。
-1. Tizen studioを使用して`wgt`ファイルを開きます。
-1. ファイル`firmware-platform.js`を開き、`DEFAULT_PREFERENCES`を探し、サーバーURLをAEM作成者URLに変更して保存します。
-1. 新しい`wgt`ファイルを構築します。
+1. [Tizen Studio](https://developer.tizen.org/development/tizen-studio/download) をダウンロードしインストールします。
+1. Tizen Studio を使用して `wgt` ファイルを開きます。
+1. `firmware-platform.js` ファイルを開き、`DEFAULT_PREFERENCES` を探して、サーバー URL を AEM オーサー URL に変更した後、ファイルを保存します。
+1. 新しい `wgt` ファイルを作成します。
 
    >[!NOTE]
-   >署名の証明書を作成または設定する必要がある場合があります。
+   >署名証明書の作成や設定が必要になることもあります。
 
-1. この新しい`wgt`ファイルをRMSまたはURLランチャーを使用して展開し、プレーヤーの起動時に自動的にサーバーを指すようにします。これにより、すべてのデバイスに手動で入力する必要がなくなります。
+1. RMS または URL ランチャーを使用して、この新しい `wgt` ファイルをデプロイします。プレーヤーは起動時に指定のサーバーを自動的に指すようになるので、デバイスごとにサーバーのアドレスを手動で入力する必要がなくなります。
 
-### TizenデバイスをSamsung Remote Management Service (RMS)に登録する{#enroll-tizen-device-rms}
+### Samsung Remote Management Service（RMS）への Tizen デバイスの登録 {#enroll-tizen-device-rms}
 
-次の手順に従って、TizenデバイスをSamsung Remote Management Service (RMS)に登録し、URLランチャーをリモート構成します。
+Tizen デバイスを Samsung Remote Management Service（RMS）に登録し URL ランチャーをリモートで設定するには、次の手順に従います。
 
 >[!NOTE]
->ネットワーク設定とモニタを確認します。
+>ネットワーク設定とモニターを確認します。
 
-1. **メニュー** -> **ネットワーク** -> **サーバーネットワーク設定**&#x200B;に移動し、**Enter**&#x200B;キーを押します。
+1. **Menu**／**Network**／**Server Network Settings** に移動し、**Enter** キーを押します。
 
-1. サーバーアドレスに移動し、MagicInfo URLアクセスを入力して、**完了**&#x200B;キーを押します。
+1. サーバーのアドレスに移動し、MagicInfo URL アクセスを入力して、「**Done**」をクリックします。
 
-1. 必要に応じて、TLSをセットアップします。 ポートに移動し、サーバーからポート番号を選択して、「**保存**」をクリックします。
+1. 必要に応じて、TLS をセットアップします。ポートに移動し、サーバーのポート番号を選択して、「**Save**」をクリックします。
 
-1. 「**デバイス**」タブに移動し、設定したデバイスを確認します。 デバイスが見つかったら、チェックボックスをクリックし、**承認**&#x200B;を選択します。
+1. 「**Device**」タブに移動し、設定したデバイスを確認します。デバイスが見つかったら、チェックボックスをオンにし、「**Approve**」をクリックします。
 
    >![画像](/help/user-guide/assets/tizen/rms-3.png)
 
-1. 必要な情報を入力し、デバイスグループを選択します。 「**OK**」をクリックして承認プロセスを完了します。
+1. 必要な情報を入力し、デバイスグループを選択します。「**OK**」をクリックして、承認プロセスを完了します。
 
    >![画像](/help/user-guide/assets/tizen/rms-7.png)
 
-1. 承認されたデバイスは、デバイスリストに表示されます。 次の図に示すように、デバイスのボックスにある&#x200B;*「情報*」ボタン(**i**)をクリックします。
+1. 承認されたデバイスがデバイスリストに表示されます。デバイスボックスにある&#x200B;*情報*&#x200B;ボタン（「**i**」、次の図を参照）をクリックします。
 
    >![画像](/help/user-guide/assets/tizen/rms-6.png)
 
-1. デバイス情報ダイアログボックスが表示されます。 「**デバイス情報**」タブを選択し、「**編集**」をクリックします。
+1. デバイス情報ダイアログボックスが表示されます。「**Device Info**」タブを選択し、「**Edit**」をクリックします。
 
    >![画像](/help/user-guide/assets/tizen/rms-5.png)
 
-1. デバイスのオプションを編集し、「**Setup**」タブを選択します。 **「URLランチャー**」セクションに移動し、wgtをホストするURLと`SSSP config file`を入力して`SSSP`アプリケーションをインストールします。次の図を参照してください。
+1. デバイスのオプションを編集し、「**Setup**」タブを選択します。「**URL Launcher**」セクションに移動し、`SSSP` アプリケーションをインストールするための wgt および `SSSP config file` をホストしている URL を入力します（次の図を参照）。
 
    ![画像](/help/user-guide/assets/tizen/rms-9.png)
 
-1. 「**保存**」をクリックすると、変更内容が表示画面に表示されます。
+1. 「**Save**」をクリックすると、変更内容が画面に表示されます。
 

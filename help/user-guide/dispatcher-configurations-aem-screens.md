@@ -4,10 +4,10 @@ seo-title: AEM Screens プロジェクトの Dispatcher の設定
 description: ここでは、AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインについて説明します。
 seo-description: ここでは、AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインについて説明します。
 translation-type: tm+mt
-source-git-commit: 4a1fb81fa343983093590c36ccb6a4fd110cdad2
+source-git-commit: 43aca405707625fe5a132beaed82dbb9a4513129
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: '391'
+ht-degree: 58%
 
 ---
 
@@ -32,22 +32,28 @@ AEM Screens プロジェクトの Dispatcher を設定する前に、Dispatcher 
 
 ## Dispatcher の設定 {#configuring-dispatcher}
 
+AEM Screensプレーヤー/デバイスは、認証済みセッションを使用して、発行インスタンスのリソースにもアクセスします。 したがって、複数の発行インスタンスがある場合、認証済みセッションがAEM Screensのプレーヤー/デバイスからのすべての要求で有効になるように、要求は常に同じ発行インスタンスに送られる必要があります。
+
 以下の手順に従って、AEM Screens プロジェクトの Dispatcher を設定します。
 
 ### スティッキーセッションの有効化 {#enable-sticky-session}
 
-Dispatcher と共に複数の公開インスタンスを使用する場合は、`dispatcher.any` ファイルを更新する必要があります。
+単一のディスパッチャーが最初に使用する複数の発行インスタンスを使用する場合は、定着性を有効にするために`dispatcher.any`ファイルを更新する必要があります
 
 ```xml
 /stickyConnections {
   /paths
   {
-    "/content/screens"
-    "/home/users/screens"
-    "/libs/granite/csrf/token.json"
+    "/"
   }
-}
+ }
 ```
+
+1つのディスパッチャーが1つのパブリッシュインスタンスを最前面に置いている場合、ディスパッチャーでの定着性を有効にしても、ロードバランサーが各リクエストをディスパッチャーに送信するので役に立ちません。 この場合、次の図に示すように、**定着度**&#x200B;フィールドの&#x200B;**有効**&#x200B;をクリックして、ロードバランサーレベルで有効にします。
+
+![画像](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
+
+例えば、AWS ALBを使用している場合、ALBレベルでの定着性を有効にするには、[アプリケーションロードバランサー](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html)のターゲットグループを参照してください。 1日の定着を有効にします。
 
 ### 手順 1：クライアントヘッダーの設定 {#step-configuring-client-headers}
 

@@ -4,10 +4,10 @@ seo-title: AEM Screens でのオーサーとパブリッシュの設定
 description: AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成された後、複数のパブリッシュインスタンスにフォワードレプリケートされます。ここでは、オーサーとパブリッシュを AEM Screens 用に設定する方法について説明します。
 seo-description: AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成された後、複数のパブリッシュインスタンスにフォワードレプリケートされます。ここでは、オーサーとパブリッシュを AEM Screens 用に設定する方法について説明します。
 translation-type: tm+mt
-source-git-commit: 235aa979543455882c72fa262cf7320c4298de5e
+source-git-commit: c72c6df436d744cb31c39a43a7b954e7fe317496
 workflow-type: tm+mt
-source-wordcount: '1910'
-ht-degree: 100%
+source-wordcount: '1905'
+ht-degree: 99%
 
 ---
 
@@ -165,8 +165,8 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 1. 「**Apache ActiveMQ Artemis JMS Provider**」の設定を選択します。
 1. 以下を更新します。
 
-   * ***Cluster Password***：（インスタンスごとに前の手順の暗号化された値を使用）
-   * ***Topics***：{name: &#39;commands&#39;, address: &#39;com.adobe.cq.screens.commands&#39;, maxConsumers: 50}
+   * ***Cluster Password***:各インスタンスごとに前のステップの暗号化値を使用
+   * ***トピック***:  `{name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}`
 
 #### ActiveMQ Artemis クラスターの確認 {#verify-activemq-artemis-cluster}
 

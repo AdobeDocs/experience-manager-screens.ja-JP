@@ -4,10 +4,10 @@ seo-title: コマンド同期の使用
 description: ここでは、コマンド同期の使用方法について説明します。
 seo-description: ここでは、コマンド同期の使用方法について説明します。
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 100%
+source-wordcount: '794'
+ht-degree: 94%
 
 ---
 
@@ -52,10 +52,10 @@ ht-degree: 100%
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. 下の図に示すように、**ロケーション**フォルダーにディスプレイを作成します。
+1. 下の図に示すように、**ロビー**&#x200B;を作成し、**ロケーション**&#x200B;フォルダーに&#x200B;**LobbyDisplay**という名前のディスプレイを作成します。
    ![image1](assets/command-sync/command-sync3-1.png)
 
-1. チャネル **ChannelLobby** を **LobbyDisplay** に割り当てます。
+1. チャネル **ChannelLobby** を **LobbyDisplay** に割り当てます。これで、割り当てられたチャネルを表示ダッシュボードから表示に表示できます。
    ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
@@ -68,7 +68,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >ディスプレイにチャネルを割り当てる方法については、[ディスプレイの作成と管理](/help/user-guide/managing-displays.md)を参照してください
+   >デバイスの登録方法については、[デバイス登録](/help/user-guide/device-registration.md)を参照してください。
 
 1. デモ用に、この例では、Chrome デバイスと Windows プレーヤーを 2 つの異なるデバイスとして使用します。両方のデバイスが同じディスプレイを指しています。
    ![image1](assets/command-sync6.png)

@@ -10,11 +10,11 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '995'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ AEM Screens 用の Windows プレーヤーを実装するには、同プレー�
 >[!NOTE]
 >Windows Player にはウィンドウモードはありません。常にフルスクリーンモードになります。
 
-### AEM Screens6.5.5 Service Pack の環境の設定 {#fp-environment-setup}
+### AEM Screens 6.5.5 Service Pack の環境の設定 {#fp-environment-setup}
 
 >[!NOTE]
 >AEM Screens 6.5.5 Service Pack を使用している場合は、Windows プレーヤー用の環境を設定する必要があります。
@@ -52,7 +52,7 @@ AEM オーサーおよびパブリッシュインスタンスの **Adobe Experie
 
 ### アドホック方式 {#ad-hoc-method}
 
-アドホック方式を使用すると、最新の Windows プレーヤー（**.exe）をインストールできます。[**AEM 6.5 Player のダウンロード**](https://download.macromedia.com/screens/)ページにアクセスします。
+アドホック方式を使用すると、最新の Windows プレーヤー（*.exe*）をインストールできます。[**AEM 6.5 Player のダウンロード**](https://download.macromedia.com/screens/)ページにアクセスします。
 
 アプリケーションをダウンロードしたら、以下の手順に従ってプレーヤーのアドホックインストールを完了します。
 
@@ -70,10 +70,10 @@ AEM オーサーおよびパブリッシュインスタンスの **Adobe Experie
 
 Windows プレーヤーをインストールしたら、1 つの設定で複数のプレーヤーを登録できます。
 
-## CLI (PowerShell) {#install-powershell}を使用したインストール
+## CLI（PowerShell）を使用したインストール {#install-powershell}
 
-1. 画面プレイヤー用のカスタムの場所&#x200B;**専用**を作成します。例：
-   `C:\Users\User\screens-player`)
+1. Screens プレーヤー&#x200B;**専用**に、カスタムの場所を作成します。例：
+   `C:\Users\User\screens-player`）
 1. インストール
    `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
 1.  を開きます。
@@ -116,7 +116,7 @@ Windows 10 プレーヤーを設定するには、次の手順を実行します
 | enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。完全に設定されて運用が開始したら、false に設定することを検討します。 |
 | enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にし、完全に設定されて実稼動になったら無効にします。 |
 
-#### ポリシー JSON ファイルの例  {#example-policy-json-file}
+#### ポリシー JSON ファイルの例 {#example-policy-json-file}
 
 ```
 {
@@ -145,11 +145,11 @@ Windows プレーヤーをデプロイする際は、他のアプリケーショ
 
 1. シェルランチャーを有効にします。
 
-   詳しくは、Microsoft Windows サポートによる&#x200B;**[シェルランチャー](https://docs.microsoft.com/ja-JP/windows-hardware/customize/enterprise/shell-launcher)ページの&#x200B;***シェルランチャーの構成*****&#x200B;の節を参照してください。
+   詳しくは、Microsoft Windows サポートによる&#x200B;**[シェルランチャー](https://docs.microsoft.com/ja-jp/windows-hardware/customize/enterprise/shell-launcher)ページの&#x200B;***シェルランチャーの構成*****&#x200B;の節を参照してください。
 
 1. キオスクモードに使用する管理者以外のユーザーを作成します（まだ存在しない場合）。ローカルユーザーでもドメインユーザーでも構いません。
 1. [AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)ページから、そのキオスクユーザー用の Windows プレーヤーをインストールします。
-1. PowerShell スクリプトの編集について詳しくは、[シェルランチャーを使って Windows 10 キオスクを作成する](https://docs.microsoft.com/ja-JP/windows/configuration/kiosk-shelllauncher)を参照してください。
+1. PowerShell スクリプトの編集について詳しくは、[シェルランチャーを使って Windows 10 キオスクを作成する](https://docs.microsoft.com/ja-jp/windows/configuration/kiosk-shelllauncher)を参照してください。
 
    PowerShell スクリプトを編集して、ユーザー名を上記で作成したユーザー名に置き換えます。アプリケーションの実行可能ファイルへのパスが正しいことを確認します。これにより、カスタムシェルがキオスクユーザーの Windows プレーヤーアプリケーションとして設定され、他のユーザーには explorer.exe がデフォルトとして設定されます。
 

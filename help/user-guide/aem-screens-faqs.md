@@ -6,9 +6,9 @@ seo-description: ここでは、AEM Screens プロジェクトに関連する FA
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 70e94631a808c81fae79de396d3ead8094c903e1
+source-git-commit: 7f9eacb456b26d9b7efb595397fff2f64335be8c
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1900'
 ht-degree: 89%
 
 ---
@@ -166,9 +166,9 @@ Windows Player にはウィンドウモードはありません。常にフル�
 
 1. Apache Sling Resource Resolver Factory の設定によって、内部で書き換えがおこなわれているかどうかを確認します。
 
-### プレーヤーAPIからディスプレイとデバイスの詳細を取得する方法
+### 6.プレーヤーAPIからディスプレイとデバイスの詳細を取得する方法
 
-を使用して詳細を取得する方法は2つあります。
+ディスプレイとデバイスの詳細は、次の場所で取得できます。
 
 * **内部JS API**
 * **ContextHubストア**:には、チャネル、デバイス、および表示情報 `/libs/screens/clientlibs/contexthub` を公開するための3つのContextHubストアが定義されています。

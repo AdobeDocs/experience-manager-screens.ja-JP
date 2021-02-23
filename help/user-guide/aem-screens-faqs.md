@@ -6,10 +6,10 @@ seo-description: ここでは、AEM Screens プロジェクトに関連する FA
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 3c78dd2f2f5cff421917eb5d657d8fd6fb2e3229
+source-git-commit: 70e94631a808c81fae79de396d3ead8094c903e1
 workflow-type: tm+mt
-source-wordcount: '1819'
-ht-degree: 93%
+source-wordcount: '1898'
+ht-degree: 89%
 
 ---
 
@@ -165,6 +165,24 @@ Windows Player にはウィンドウモードはありません。常にフル�
 1. *オーサー*&#x200B;または&#x200B;*パブリッシュ*&#x200B;インスタンスに `/etc/map` パスがあるかどうか、および Screens のパスが `sling:match` と一致し、内部的に別のパスにリダイレクトされているかどうかを確認します。`/system/console/jcrresolver` で正しい URL を解決すると、これらの URL が&#x200B;*パブリッシュ*&#x200B;インスタンスによって他のパスに書き換えられているかどうかを識別できます。
 
 1. Apache Sling Resource Resolver Factory の設定によって、内部で書き換えがおこなわれているかどうかを確認します。
+
+### プレーヤーAPIからディスプレイとデバイスの詳細を取得する方法
+
+を使用して詳細を取得する方法は2つあります。
+
+* **内部JS API**
+* **ContextHubストア**:には、チャネル、デバイス、および表示情報 `/libs/screens/clientlibs/contexthub` を公開するための3つのContextHubストアが定義されています。
+
+   次の手順に従って、ContentHubストアの値を使用します。
+
+   * チャネルのプロパティを編集し、パーソナライゼーションタブのContextHubパスを値に設定します（上述）
+   * チャネルJSでは、次を使用できます。
+
+      ```shell
+         ContextHub.getStore('screens-device');
+         ContextHub.getStore('screens-display');
+         ContextHub.getStore('screens-channels');
+      ```
 
 ## トラブルシューティングに関する一般的なヒント {#general-troubleshooting-tips}
 

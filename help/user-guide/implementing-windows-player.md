@@ -10,10 +10,10 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-translation-type: ht
-source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
-workflow-type: ht
-source-wordcount: '995'
+translation-type: tm+mt
+source-git-commit: 8f64009e121a0ff9936006abc8fc63479b502a48
+workflow-type: tm+mt
+source-wordcount: '970'
 ht-degree: 100%
 
 ---
@@ -66,10 +66,6 @@ AEM オーサーおよびパブリッシュインスタンスの **Adobe Experie
 >
 >「**状態**」が「**未登録**」の場合は、**トークン**&#x200B;を使用してデバイスを登録できます。
 
-### サーバーの一括設定：1 つの設定を使用した複数の Windows 10 プレーヤーの登録 {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
-
-Windows プレーヤーをインストールしたら、1 つの設定で複数のプレーヤーを登録できます。
-
 ## CLI（PowerShell）を使用したインストール {#install-powershell}
 
 1. Screens プレーヤー&#x200B;**専用**に、カスタムの場所を作成します。例：
@@ -103,7 +99,7 @@ Windows 10 プレーヤーを設定するには、次の手順を実行します
 1. 設定ファイルは ***%appdata%\com.adobe.aem.screens.player\config.json*** の下にあります。
 1. 後述の情報を使用して設定 JSON を更新し、同じフォルダーをプレーヤーが存在するすべてのシステムにコピーします。
 
-### ポリシー属性 {#policy-attributes}
+### ポリシー属性  {#policy-attributes}
 
 次の表に、参照用のポリシー JSON の例と共にポリシー属性を示します。
 
@@ -116,7 +112,7 @@ Windows 10 プレーヤーを設定するには、次の手順を実行します
 | enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。完全に設定されて運用が開始したら、false に設定することを検討します。 |
 | enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にし、完全に設定されて実稼動になったら無効にします。 |
 
-#### ポリシー JSON ファイルの例 {#example-policy-json-file}
+#### ポリシー JSON ファイルの例  {#example-policy-json-file}
 
 ```
 {

@@ -11,10 +11,10 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 8f64009e121a0ff9936006abc8fc63479b502a48
+source-git-commit: 529bcaf7ded850b8f7fec95d2f85e84c5d79a66a
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 100%
+source-wordcount: '997'
+ht-degree: 97%
 
 ---
 
@@ -65,6 +65,10 @@ AEM オーサーおよびパブリッシュインスタンスの **Adobe Experie
 >「**状態**」が「**登録済み**」の場合は、「**デバイス ID**」フィールドに値が入力されます。
 >
 >「**状態**」が「**未登録**」の場合は、**トークン**&#x200B;を使用してデバイスを登録できます。
+
+## Windowsインストーラの既定のオプションの変更{#changing-default-options}
+
+Windowsインストーラの既定のオプションを変更する方法と、使用可能なカスタマイズのリストを変更する方法については、この節に従ってください。
 
 ## CLI（PowerShell）を使用したインストール {#install-powershell}
 

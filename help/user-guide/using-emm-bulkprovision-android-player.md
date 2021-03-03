@@ -3,9 +3,9 @@ title: MDMまたはEMMを使用したAndroid Playerの一括プロビジョニ�
 seo-title: EMMまたはMDMを使用したAndroid Playerの一括プロビジョニング
 description: EMMまたはMDMを使用したAndroid Playerの一括プロビジョニングについて学習するには、このページに従ってください
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Enterprise Mobility Managementを使用したAndroid Playerの一括プロビジョニング{#bulk-provisioning}
 
-Androidプレーヤーを一括してデプロイする場合、すべてのプレーヤーをAEMに手動で登録するのは面倒です。 VMWare Airwatch、MobileIron、Samsung KnoxなどのEMM(Enterprise Mobility Management)ソリューションを使用して、展開のプロビジョニングと管理をリモートで行うことを強くお勧めします。 AEM ScreensAndroidプレイヤーは、業界標準のEMM Appconfigをサポートし、リモートプロビジョニングを可能にします。 プレイヤーの一括プロビジョニングを行うには、次の手順に従ってください。
+Androidプレーヤーを一括してデプロイする場合、すべてのプレーヤーをAEMに手動で登録するのは面倒です。 VMWare Airwatch、MobileIron、Samsung KnoxなどのEMM(Enterprise Mobility Management)ソリューションを使用して、展開のプロビジョニングと管理をリモートで行うことを強くお勧めします。 AEM ScreensAndroidプレイヤーは、業界標準のEMM Appconfigをサポートし、リモートプロビジョニングを可能にします。
 
 ## Enterprise Mobility Managementを使用したAndroid Playerの一括プロビジョニングの実装{#implementation}
 

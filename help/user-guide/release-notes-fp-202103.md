@@ -2,9 +2,9 @@
 title: 機能パック 202103 のリリースノート
 description: このページでは、機能パック202103のリリースノートが強調表示されます。
 translation-type: tm+mt
-source-git-commit: 56432654d0895b892223677c8a03f10181864271
+source-git-commit: 34f93df3fa212eaae713b0c8686d95beeb0c7b67
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '355'
 ht-degree: 40%
 
 ---
@@ -33,11 +33,8 @@ AEM Screens機能パック202103のリリース日は2021年3月8日です。
 
 * **Enterprise Mobility Managementを使用したAndroid Playerの一括プロビジョニング**
 
-   Androidプレーヤーを一括してデプロイする場合、すべてのプレーヤーをAEMに手動で登録するのは面倒です。 VMWare Airwatch、MobileIron、Samsung KnoxなどのEMM(Enterprise Mobility Management)ソリューションを使用して、展開のプロビジョニングと管理をリモートで行うことを強くお勧めします。 AEM ScreensAndroidプレイヤーは、業界標準のEMM Appconfigをサポートし、リモートプロビジョニングを可能にします。
+   Androidプレーヤーを一括してデプロイする場合、すべてのプレーヤーをAEMに手動で登録するのは面倒です。 VMWare Airwatch、MobileIron、Samsung KnoxなどのEMM(Enterprise Mobility Management)ソリューションを使用して、展開のプロビジョニングと管理をリモートで行うことを強くお勧めします。 AEM ScreensAndroidプレイヤーは、業界標準のEMM AppConfigをサポートしており、リモートプロビジョニングが可能です。
 
-* **AEM Screensチャネルでのページのロック**
-
-   AEM Screensは、AEM Sitesで既に実装されているように、*ページ*&#x200B;のロックをサポートするようになりました。 Adobe Experience Manager(AEM)では、ページをロックできるので、他の誰もコンテンツを変更できません。 ページのロックは、1 つの特定のページで大量の編集作業をおこなう場合や、短期間ページを凍結する必要がある場合に便利です。
 
 ### バグ修正 {#bug-fixes}
 

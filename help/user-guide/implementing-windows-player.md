@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 529bcaf7ded850b8f7fec95d2f85e84c5d79a66a
+source-git-commit: ab67806751e8c57249c9ad656e931ca1339ab6d4
 workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 97%
@@ -89,13 +89,11 @@ C:\Users\User\Downloads> .\aem-screens-player-electron-xxx-signed.exe /S /D=C:\U
 C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AEMScreensPlayer.exe
 ```
 
->[!NOTE]
->
->**Windows プレーヤーの一括登録**
->
->Windows プレーヤーを実装する場合、すべてのプレーヤーを個別に手動で設定する必要はありません。テストが済み、デプロイの準備ができた設定 JSON ファイルを更新することで、すべてのプレーヤーを設定できます。
->
->設定では、すべてのプレーヤーが、設定ファイルで指定された同じサーバーに ping を送信することを確認されます。プレーヤーの登録は個別に手動でおこなう必要があります。
+## Windows プレーヤーの一括登録 {#bulk-registration}
+
+Windows プレーヤーを実装する場合、すべてのプレーヤーを個別に手動で設定する必要はありません。テストが済み、デプロイの準備ができた設定 JSON ファイルを更新することで、すべてのプレーヤーを設定できます。
+
+設定では、すべてのプレーヤーが、設定ファイルで指定された同じサーバーに ping を送信することを確認されます。プレーヤーの登録は個別に手動でおこなう必要があります。
 
 Windows 10 プレーヤーを設定するには、次の手順を実行します。
 

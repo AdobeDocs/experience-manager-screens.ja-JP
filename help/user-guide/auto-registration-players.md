@@ -3,9 +3,9 @@ title: プレイヤの自動登録
 seo-title: プレイヤの自動登録
 description: AMS/On-Prem Screenを使用したプレーヤーの自動登録については、このページに従ってください。
 translation-type: tm+mt
-source-git-commit: 56432654d0895b892223677c8a03f10181864271
+source-git-commit: 793507b266b99051544b377e4a7effb92dc6feb6
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 次の手順に従って、プレーヤーの自動登録を実装します。
 
 1. AEMインスタンスにログインし、AEM画面プロジェクトを選択して、アクションバーの「**プロパティ**」をクリックします。
-1. 「**詳細**」タブを選択して、次に示すように「**デバイス登録**」セクションを表示します。
-
-   ![画像](/help/user-guide/assets/auto-registration/auto-register1.png)
+1. 「**詳細**」タブを選択して、**デバイス登録**&#x200B;セクションを表示します。
 
 1. **一括登録コード**&#x200B;フィールドに自動登録コードを指定し、**デフォルトの表示割り当て**&#x200B;にオプションのデフォルト表示を指定して、自動登録されたプレイヤーに割り当てます。
    >[!NOTE]
    >選択したコードを入力し、必要に応じてデフォルトの表示を選択します。
+
+   ![画像](/help/user-guide/assets/auto-registration/auto-register1.png)
 1. MDMまたは設定JSONファイルを使用して、適切なサーバーURLと登録コードをプレーヤーにプロビジョニングします。
 
    >[!NOTE]
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 * 登録コードに問題が発生しないようにするには、一括登録を開始する直前にAEMでコードを設定し、完了したら、そのフィールドをクリアしてAEMに保存してください。
 
-* パス`/bin/screens/`登録は、可能であれば、既知のIP範囲からのみアクセスできるように設定できます。
+* パス`/bin/screens/registration`は、可能であれば、既知のIP範囲からのみアクセス可能に設定できます。
 
 * MDMを使用して、プレイヤーに設定をプロビジョニングすることを検討します。
 

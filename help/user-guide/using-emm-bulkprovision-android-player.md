@@ -3,9 +3,9 @@ title: MDMまたはEMMを使用したAndroid Playerの一括プロビジョニ�
 seo-title: EMMまたはMDMを使用したAndroid Playerの一括プロビジョニング
 description: EMMまたはMDMを使用したAndroid Playerの一括プロビジョニングについて学習するには、このページに従ってください
 translation-type: tm+mt
-source-git-commit: 56432654d0895b892223677c8a03f10181864271
+source-git-commit: 793507b266b99051544b377e4a7effb92dc6feb6
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,6 @@ Androidプレーヤーを一括してデプロイする場合、すべてのプ�
    >[!NOTE]
    >デバイスは、設定と共にアプリケーションを受け取り、選択した設定を持つ正しいAEMサーバーを指し示す必要があります。 一括登録コードの設定を選択し、AEMでの設定と同じにすると、プレイヤーは自動的に登録できるはずです。 デフォルトディスプレイを設定した場合は、一部のデフォルトコンテンツをダウンロードして表示することもできます（後で利便性に応じて変更できます）。
 
-また、AppConfigのサポートについては、EMMベンダーにお問い合わせください。 [VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm)、[Mobile Iron](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm)、[SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm)、[Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm)、[IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm)、aなど、最も人気のあるもの10/>Samsung Knox](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm)は、この業界標準をサポートしています。[
+また、AppConfigのサポートについては、EMMベンダーにお問い合わせください。 [VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm)、[Mobile Iron](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm)、[SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm)、[Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm)、[IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm)、aなど、最も人気のあるもの10/>Samsung Knox](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm)は、この業界標準をサポートしている。[
 
 

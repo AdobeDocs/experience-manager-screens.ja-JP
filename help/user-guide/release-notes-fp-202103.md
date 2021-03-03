@@ -2,10 +2,10 @@
 title: 機能パック 202103 のリリースノート
 description: このページでは、機能パック202103のリリースノートが強調表示されます。
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 54%
+source-wordcount: '379'
+ht-degree: 44%
 
 ---
 
@@ -30,6 +30,10 @@ AEM Screens機能パック202103のリリース日は2021年3月8日です。
 * **AEM Screens一括登録と割り当て**
 
    何千ものプレーヤーを手動で登録すると非常に面倒で、時間とコストがかかります。 このプロセスを簡単にするために、一括登録機能を使用して、設定ファイルまたはMobile Device Management(MDM)ソリューションを介してプレイヤーにプロビジョニングできるAEMの事前共有キーを指定できます。
+
+* **Enterprise Mobility Managementを使用したAndroid Playerの一括プロビジョニング**
+
+   Androidプレーヤーを一括してデプロイする場合、すべてのプレーヤーをAEMに手動で登録するのは面倒です。 VMWare Airwatch、MobileIron、Samsung KnoxなどのEMM(Enterprise Mobility Management)ソリューションを使用して、展開のプロビジョニングと管理をリモートで行うことを強くお勧めします。 AEM ScreensAndroidプレイヤーは、業界標準のEMM Appconfigをサポートし、リモートプロビジョニングを可能にします。
 
 * **AEM Screensチャネルでのページのロック**
 

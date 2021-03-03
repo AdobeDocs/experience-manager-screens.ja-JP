@@ -2,10 +2,10 @@
 title: 機能パック 202103 のリリースノート
 description: このページでは、機能パック202103のリリースノートが強調表示されます。
 translation-type: tm+mt
-source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
+source-git-commit: 56432654d0895b892223677c8a03f10181864271
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 44%
+source-wordcount: '421'
+ht-degree: 40%
 
 ---
 
@@ -46,6 +46,15 @@ AEM Screens機能パック202103のリリース日は2021年3月8日です。
 * キャッシュが無効化されない場合、SmartSyncの移行によってプレイヤーが中断されます。
 
 * 割り当てに&#x200B;*OfflineConfig*&#x200B;が含まれる場合、オフラインキャッシュは作成されませんでした。
+
+* 転送者ポリシーの接触チャネル時に厳密に接触チャネルすることがサポートされていないため、Tizen Playerの問題に対する更新が行われました。
+
+* 割り当てられたチャネルのスケジュール「繰り返し」フィールドを変更すると、UIが無効になっていた問題を修正しました。
+
+* クエリの例外が発生してオフラインコンテンツの更新に失敗していた問題を修正しました。
+
+* キャッシュが無効化されなかった場合、SmartSyncの移行がプレイヤーを中断していました
+
 
 ### リリースされている AEM Screens Player {#released-aem-screens-players}
 

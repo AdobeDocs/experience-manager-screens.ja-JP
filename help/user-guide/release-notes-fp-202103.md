@@ -2,10 +2,10 @@
 title: 機能パック 202103 のリリースノート
 description: このページでは、機能パック202103のリリースノートが強調表示されます。
 translation-type: tm+mt
-source-git-commit: 8b4e82d4467c2e16d81a7d2e94a219b601ef726c
+source-git-commit: 76d03e1b0232c5d6eca0a3088453982c5c142f1f
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 38%
+source-wordcount: '388'
+ht-degree: 36%
 
 ---
 
@@ -23,17 +23,22 @@ Adobe ID を使用して、AEM Screens 6.5.7 リリースの最新の機能パ�
 
 ## リリース日 {#release-date}
 
-AEM Screens機能パック202103のリリース日は2021年3月8日です。
+AEM Screens機能パック202103のリリース日は2021年3月6日です。
 
 ### 新機能 {#what-is-new}
 
-* **AEM Screens一括登録と割り当て**
+* **AEM Screens選手の自動登録**
 
    何千ものプレーヤーを手動で登録すると非常に面倒で、時間とコストがかかります。 このプロセスを簡単にするために、一括登録機能を使用して、設定ファイルまたはMobile Device Management(MDM)ソリューションを介してプレイヤーにプロビジョニングできるAEMの事前共有キーを指定できます。
+
+   詳しくは、[プレイヤーの自動登録](/help/user-guide/auto-registration-players.md)を参照してください。
+
 
 * **Enterprise Mobility Managementを使用したAndroid Playerの一括プロビジョニング**
 
    Androidプレーヤーを一括してデプロイする場合、すべてのプレーヤーをAEMに手動で登録するのは面倒です。 VMWare Airwatch、MobileIron、Samsung KnoxなどのEMM(Enterprise Mobility Management)ソリューションを使用して、展開のプロビジョニングと管理をリモートで行うことを強くお勧めします。 AEM ScreensAndroidプレイヤーは、業界標準のEMM AppConfigをサポートしており、リモートプロビジョニングが可能です。
+
+   詳しくは、Enterprise Mobility Managementを使用したAndroid Playerの一括プロビジョニング](/help/user-guide/using-emm-bulkprovision-android-player.md)を参照してください。[
 
 
 ### バグ修正 {#bug-fixes}
@@ -45,8 +50,6 @@ AEM Screens機能パック202103のリリース日は2021年3月8日です。
 * 割り当てに&#x200B;*OfflineConfig*&#x200B;が含まれる場合、オフラインキャッシュは作成されませんでした。
 
 * 転送者ポリシーが接触チャネル時に厳密に接触チャネルされないために壊れたTizen Playerの更新がサポートされていません。
-
-* SmartSyncのダウンロードに失敗した場合に、基になるエラーをログに記録します。
 
 * 割り当てられたチャネルのスケジュール&#x200B;*Repeats*&#x200B;フィールドが変更されると、UIが無効になっていました。
 
@@ -62,7 +65,6 @@ AEM Screens 6.5 機能パック 7 向けに、次の AEM Screens Player がリ�
 
 * Chrome OS
 * Windows
-* Android
 * Tizen
 * Linux
 

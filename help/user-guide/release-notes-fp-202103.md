@@ -2,9 +2,9 @@
 title: 機能パック 202103 のリリースノート
 description: このページでは、機能パック202103のリリースノートが強調表示されます。
 translation-type: tm+mt
-source-git-commit: 3701c6f72ceadb5b61cd608503a95af11d631c49
+source-git-commit: dfbf904c1f23f7e41a9d65a270c5ca667ddcdb31
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '389'
 ht-degree: 36%
 
 ---
@@ -65,7 +65,6 @@ AEM Screens 6.5 機能パック 7 向けに、次の AEM Screens Player がリ�
 
 * Chrome OS
 * Windows
-* Tizen
 * Linux
 
 #### AEM Screens Player のダウンロード {#aem-screens-player-downloads}

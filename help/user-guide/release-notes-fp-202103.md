@@ -2,9 +2,9 @@
 title: 機能パック 202103 のリリースノート
 description: このページでは、機能パック202103のリリースノートが強調表示されます。
 translation-type: tm+mt
-source-git-commit: 76d03e1b0232c5d6eca0a3088453982c5c142f1f
+source-git-commit: 3701c6f72ceadb5b61cd608503a95af11d631c49
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '390'
 ht-degree: 36%
 
 ---
@@ -29,7 +29,7 @@ AEM Screens機能パック202103のリリース日は2021年3月6日です。
 
 * **AEM Screens選手の自動登録**
 
-   何千ものプレーヤーを手動で登録すると非常に面倒で、時間とコストがかかります。 このプロセスを簡単にするために、一括登録機能を使用して、設定ファイルまたはMobile Device Management(MDM)ソリューションを介してプレイヤーにプロビジョニングできるAEMの事前共有キーを指定できます。
+   何千ものプレーヤーを手動で登録すると非常に面倒で、時間とコストがかかります。 このプロセスを簡単にするために、プレイヤーの自動登録機能を使用すると、設定ファイルまたはMobile Device Management(MDM)ソリューションを介してプレイヤーにプロビジョニングできるAEMの事前共有キーを指定できます。
 
    詳しくは、[プレイヤーの自動登録](/help/user-guide/auto-registration-players.md)を参照してください。
 

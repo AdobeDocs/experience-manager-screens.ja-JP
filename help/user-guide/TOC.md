@@ -6,7 +6,7 @@ user-guide-title: Adobe Experience Manager Screens ヘルプ
 breadcrumb-title: AEM Screens ガイド
 user-guide-description: 動的でインタラクティブなデジタルエクスペリエンスおよびインタラクションの公開を可能にするデジタル署名ソリューションの使用方法について説明します。
 translation-type: tm+mt
-source-git-commit: b84946900a22cd063990836f1c65709f8d1368bd
+source-git-commit: dae7744bd8efb99a16807f0651cbcaff5514b73b
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 97%
@@ -42,10 +42,10 @@ ht-degree: 97%
       + [Chrome OS プレーヤー](implementing-chrome-os-player.md)
       + [拡張機能としての Chrome プレーヤーの使用](using-chrome-player-as-an-extension.md)
       + [Android プレーヤー](implementing-android-player.md)
+      + [Enterprise Mobility Managementを使用したAndroid Playerの一括プロビジョニング](using-emm-bulkprovision-android-player.md)
       + [Windows プレーヤー](implementing-windows-player.md)
       + [Tizen プレーヤー](tizen-player.md)
       + [プレイヤの自動登録](auto-registration-players.md)
-      + [Enterprise Mobility Managementを使用したAndroid Playerの一括プロビジョニング](using-emm-bulkprovision-android-player.md)
    + オーサーとパブリッシュ {#author-publish}
       + [オーサーとパブリッシュのアーキテクチャの概要](author-publish-architecture-overview.md)
       + [オーサーとパブリッシュの設定](author-and-publish.md)

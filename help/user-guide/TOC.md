@@ -6,10 +6,10 @@ user-guide-title: Adobe Experience Manager Screens ヘルプ
 breadcrumb-title: AEM Screens ガイド
 user-guide-description: 動的でインタラクティブなデジタルエクスペリエンスおよびインタラクションの公開を可能にするデジタル署名ソリューションの使用方法について説明します。
 translation-type: tm+mt
-source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
+source-git-commit: b84946900a22cd063990836f1c65709f8d1368bd
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 100%
+source-wordcount: '449'
+ht-degree: 97%
 
 ---
 
@@ -44,6 +44,8 @@ ht-degree: 100%
       + [Android プレーヤー](implementing-android-player.md)
       + [Windows プレーヤー](implementing-windows-player.md)
       + [Tizen プレーヤー](tizen-player.md)
+      + [プレイヤの自動登録](auto-registration-players.md)
+      + [Enterprise Mobility Managementを使用したAndroid Playerの一括プロビジョニング](using-emm-bulkprovision-android-player.md)
    + オーサーとパブリッシュ {#author-publish}
       + [オーサーとパブリッシュのアーキテクチャの概要](author-publish-architecture-overview.md)
       + [オーサーとパブリッシュの設定](author-and-publish.md)
@@ -108,6 +110,7 @@ ht-degree: 100%
    + [デバイスコントロールセンターからのトラブルシューティング](monitoring-screens.md)
    + [ビデオ再生の設定](troubleshoot-videos.md)
 + リリースノート {#release-notes}
+   + [機能パック 202103 のリリースノート](release-notes-fp-202103.md)
    + [機能パック 202011 のリリースノート](release-notes-fp-202011.md)
    + [機能パック 202008 のリリースノート](release-notes-fp-202008.md)
    + [機能パック 202004 のリリースノート](release-notes-fp-202004.md)

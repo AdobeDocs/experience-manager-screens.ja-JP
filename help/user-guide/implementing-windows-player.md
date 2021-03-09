@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: ab67806751e8c57249c9ad656e931ca1339ab6d4
 workflow-type: tm+mt
 source-wordcount: '997'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -66,17 +66,17 @@ AEM オーサーおよびパブリッシュインスタンスの **Adobe Experie
 >
 >「**状態**」が「**未登録**」の場合は、**トークン**&#x200B;を使用してデバイスを登録できます。
 
-## Windowsインストーラの既定のオプションの変更{#changing-default-options}
+## Windows インストーラーのデフォルトのオプションの変更 {#changing-default-options}
 
-Windowsインストーラの既定のオプションを変更する方法と、使用可能なカスタマイズのリストを変更する方法については、この節に従ってください。
+Windows インストーラーのデフォルトのオプションを変更する方法と、使用可能なカスタマイズのリストについては、この節に従ってください。
 
 ## CLI（PowerShell）を使用したインストール {#install-powershell}
 
 1. Screens プレーヤー&#x200B;**専用**に、カスタムの場所を作成します。例：
    `C:\Users\User\screens-player`）
-1. インストール
+1. 次をインストールします：
    `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
-1.  を開きます。
+1.  次を開きます：
    `Start-Process C:\Users\User\screens-player\AEMScreensPlayer.exe`
 
 **例**

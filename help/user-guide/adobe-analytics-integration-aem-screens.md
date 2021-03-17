@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 052ceaf3f3fa321ea0df3e40ecf6296222db71e7
+source-git-commit: 8191f227a3f0fd861e1bcbcf919b93f1f40b7c7b
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 96%
+source-wordcount: '702'
+ht-degree: 94%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->このいずれかの機能パックにアクセスするには、アドビサポートに連絡してアクセス権をリクエストする必要があります。アクセス権が付与されると、パッケージ共有から機能パックをダウンロードできるようになります。
+>このいずれかの機能パックにアクセスするには、アドビサポートに連絡してアクセス権をリクエストする必要があります。Adobe IDを使用して、[Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からAEM Screens向けの最新機能パックをダウンロードできます。
 
 ここでは、以下のトピックについて説明します。
 

@@ -1,34 +1,34 @@
 ---
-title: MDMまたはEMMを使用したAndroid Playerの一括プロビジョニング
-seo-title: EMMまたはMDMを使用したAndroid Playerの一括プロビジョニング
-description: EMMまたはMDMを使用したAndroid Playerの一括プロビジョニングについて学習するには、このページに従ってください
-translation-type: tm+mt
+title: MDM または EMM を使用した Android プレーヤーの一括プロビジョニング
+seo-title: EMM または MDM を使用した Android プレーヤーの一括プロビジョニング
+description: このページでは、EMM または MDM を使用した Android プレーヤーの一括プロビジョニングについて説明します。
+translation-type: ht
 source-git-commit: 793507b266b99051544b377e4a7effb92dc6feb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Enterprise Mobility Managementを使用したAndroid Playerの一括プロビジョニング{#bulk-provisioning}
+# エンタープライズモビリティ管理を使用した Android プレーヤーの一括プロビジョニング {#bulk-provisioning}
 
-Androidプレーヤーを一括してデプロイする場合、すべてのプレーヤーをAEMに手動で登録するのは面倒です。 VMWare Airwatch、MobileIron、Samsung KnoxなどのEMM(Enterprise Mobility Management)ソリューションを使用して、展開のプロビジョニングと管理をリモートで行うことを強くお勧めします。 AEM ScreensAndroidプレイヤーは、業界標準のEMM AppConfigをサポートしており、リモートプロビジョニングが可能です。
+Android プレーヤーを一括デプロイする場合、プレーヤーを 1 つずつ手動で AEM に登録するのは非常に面倒です。VMWare Airwatch、MobileIron、Samsung Knox などの EMM（エンタープライズモビリティ管理）ソリューションを使用して、デプロイメントのプロビジョニングと管理をリモートでおこなうことを強くお勧めします。AEM Screens Android プレーヤーでは、業界標準の EMM AppConfig をサポートしているので、リモートプロビジョニングが可能です。
 
-## Enterprise Mobility Managementを使用したAndroid Playerの一括プロビジョニングの実装{#implementation}
+## エンタープライズモビリティ管理を使用した Android プレーヤーの一括プロビジョニングの実装 {#implementation}
 
-次の手順に従って、Android Playerで一括プロビジョニングを許可します。
+Android プレーヤーの一括プロビジョニングを可能にするには、次の手順に従います。
 
-1. お使いのAndroidデバイスがGoogle Playサービスをサポートしていることを確認します。
-1. AppConfigをサポートするお気に入りのEMMソリューションにAndroidプレイヤーデバイスを登録します。
-1. EMMコンソールにログインし、Google PlayからAEM Screensプレイヤーアプリケーションを取り込みます。
-1. 管理された設定（または関連するオプション）を選択します。
-1. これで、設定可能なプレイヤーオプションのリスト（サーバーや一括登録コードなど）が表示されます。
-1. これらのパラメーターを設定し、ポリシーを保存してデバイスに展開します。
+1. お使いの Android デバイスが Google Play サービスをサポートしていることを確認します。
+1. AppConfig をサポートしているお気に入りの EMM ソリューションに、お使いの Android プレーヤーデバイスを登録します。
+1. EMM コンソールにログインし、Google Play から AEM Screens Player アプリケーションを入手します。
+1. 管理された設定（または関連オプション）を選択します。
+1. これで、設定可能なプレーヤーオプション（サーバーや一括登録コードなど）のリストが表示されます。
+1. これらのパラメーターを設定して保存し、ポリシーをデバイスにデプロイします。
 
    >[!NOTE]
-   >デバイスは、設定と共にアプリケーションを受け取り、選択した設定を持つ正しいAEMサーバーを指し示す必要があります。 一括登録コードの設定を選択し、AEMでの設定と同じにすると、プレイヤーは自動的に登録できるはずです。 デフォルトディスプレイを設定した場合は、一部のデフォルトコンテンツをダウンロードして表示することもできます（後で利便性に応じて変更できます）。
+   >デバイスは、アプリケーションと設定を同時に受信し、選択した設定を持つ正しい AEM サーバーを参照します。一括登録コードを設定することを選択し、AEM に設定した値と同じにしておくと、プレーヤーは自動的に登録されるはずです。デフォルトディスプレイを設定した場合は、一部のデフォルトコンテンツをダウンロードして表示することもできます（このコンテンツは後で都合に合わせて変更できます）。
 
-また、AppConfigのサポートについては、EMMベンダーにお問い合わせください。 [VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm)、[Mobile Iron](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm)、[SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm)、[Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm)、[IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm)、aなど、最も人気のあるもの10/>Samsung Knox](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm)は、この業界標準をサポートしている。[
+また、AppConfig のサポートについては、EMM ベンダーに確認してください。中でも、[VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm)、[Mobile Iron](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm)、[SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm)、[Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm)、[IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm)、[Samsung Knox](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) などの最も一般的なものは、この業界標準をサポートしています。
 
 

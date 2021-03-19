@@ -1,11 +1,11 @@
 ---
 title: 機能パック 202103 のリリースノート
-description: このページでは、機能パック202103のリリースノートが強調表示されます。
-translation-type: tm+mt
+description: このページでは、機能パック 202103 のリリースノートを示します。
+translation-type: ht
 source-git-commit: dfbf904c1f23f7e41a9d65a270c5ca667ddcdb31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 36%
 >[!CAUTION]
 >最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
 
-## 利用可能場所 {#availability}
+## 入手方法 {#availability}
 
 AEM Screens は、AEM 6.5 機能パック 7 をリリースしました。
 
@@ -23,41 +23,41 @@ Adobe ID を使用して、AEM Screens 6.5.7 リリースの最新の機能パ�
 
 ## リリース日 {#release-date}
 
-AEM Screens機能パック202103のリリース日は2021年3月6日です。
+AEM Screens 機能パック 202103 のリリース日は 2021 年 3 月 5 日です。
 
 ### 新機能 {#what-is-new}
 
-* **AEM Screens選手の自動登録**
+* **AEM Screens のプレーヤーの自動登録**
 
-   何千ものプレーヤーを手動で登録すると非常に面倒で、時間とコストがかかります。 このプロセスを簡単にするために、プレイヤーの自動登録機能を使用すると、設定ファイルまたはMobile Device Management(MDM)ソリューションを介してプレイヤーにプロビジョニングできるAEMの事前共有キーを指定できます。
+   何千ものプレーヤーを手動で一括登録するのは非常に面倒で、時間とコストが余計にかかります。このプロセスを簡単にするために、プレーヤーの自動登録機能では、設定ファイルまたはモバイルデバイス管理（MDM）ソリューションを通じてプレーヤーにプロビジョニングできる事前共有キーを AEM に指定できます。
 
-   詳しくは、[プレイヤーの自動登録](/help/user-guide/auto-registration-players.md)を参照してください。
+   詳しくは、[プレーヤーの自動登録](/help/user-guide/auto-registration-players.md)を参照してください。
 
 
-* **Enterprise Mobility Managementを使用したAndroid Playerの一括プロビジョニング**
+* **エンタープライズモビリティ管理を使用した Android プレーヤーの一括プロビジョニング**
 
-   Androidプレーヤーを一括してデプロイする場合、すべてのプレーヤーをAEMに手動で登録するのは面倒です。 VMWare Airwatch、MobileIron、Samsung KnoxなどのEMM(Enterprise Mobility Management)ソリューションを使用して、展開のプロビジョニングと管理をリモートで行うことを強くお勧めします。 AEM ScreensAndroidプレイヤーは、業界標準のEMM AppConfigをサポートしており、リモートプロビジョニングが可能です。
+   Android プレーヤーを一括デプロイする場合、プレーヤーを 1 つずつ手動で AEM に登録するのは非常に面倒です。VMWare Airwatch、MobileIron、Samsung Knox などの EMM（エンタープライズモビリティ管理）ソリューションを使用して、デプロイメントのプロビジョニングと管理をリモートでおこなうことを強くお勧めします。AEM Screens Android プレーヤーでは、業界標準の EMM AppConfig をサポートしているので、リモートプロビジョニングが可能です。
 
-   詳しくは、Enterprise Mobility Managementを使用したAndroid Playerの一括プロビジョニング](/help/user-guide/using-emm-bulkprovision-android-player.md)を参照してください。[
+   詳しくは、[エンタープライズモビリティ管理を使用した Android プレーヤーの一括プロビジョニング](/help/user-guide/using-emm-bulkprovision-android-player.md)を参照してください。
 
 
 ### バグ修正 {#bug-fixes}
 
-* `clientlib`と`asset hashes`の計算のパフォーマンスが向上しました。
+* `clientlib` と `asset hashes` の計算のパフォーマンスが向上しました。
 
-* キャッシュが無効化されない場合、SmartSyncの移行によってプレイヤーが中断されます。
+* キャッシュを無効にしなかった場合、スマート同期への移行でプレーヤーが正常に動作しなくなる問題を修正しました。
 
-* 割り当てに&#x200B;*OfflineConfig*&#x200B;が含まれる場合、オフラインキャッシュは作成されませんでした。
+* 割り当てに *OfflineConfig* が含まれる場合にオフラインキャッシュが作成されない問題を修正しました。
 
-* 転送者ポリシーが接触チャネル時に厳密に接触チャネルされないために壊れたTizen Playerの更新がサポートされていません。
+* リファラーポリシー strict-origin-when-cross-origin をサポートしていないので正常に動作しなかった Tizen プレーヤーを更新しました。
 
-* 割り当てられたチャネルのスケジュール&#x200B;*Repeats*&#x200B;フィールドが変更されると、UIが無効になっていました。
+* 割り当てたチャネルのスケジュールの「*繰り返し*」フィールドを変更すると UI が正常に動作しなくなる問題を修正しました。
 
-* クエリの例外が発生してオフラインコンテンツの更新に失敗していた問題を修正しました。
+* クエリの例外が発生して「オフラインコンテンツを更新」が正常に機能しない問題を修正しました。
 
-* インタラクティブエクスペリエンスでのインタラクション中のトランジション間の時間のずれが修正されました。
+* インタラクティブなエクスペリエンスにおけるインタラクションで発生する、トランジション間のタイムラグを修正しました。
 
-* 構成更新要求の失敗により、空白の画面が発生していました。
+* 設定更新リクエストの失敗により画面が空白になる問題を修正しました。
 
 ### リリースされている AEM Screens Player {#released-aem-screens-players}
 

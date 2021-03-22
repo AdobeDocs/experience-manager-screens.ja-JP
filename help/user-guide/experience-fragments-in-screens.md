@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: ca5c43534bca0e7832a5c9f73388b8e535ce057e
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 100%
+source-wordcount: '1127'
+ht-degree: 94%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 
 1. **We.Retail の Sites ページへの移動**
 
-   1. Sites に移動し、**We.Retail In-Store**／**Channels**／**Idle Channel - Night** を選択します。次に、このページを選択して、これを Screens チャネルのエクスペリエンスフラグメントにします。
+   1. 「サイト」に移動し、**We.Retail** -> **米国** -> **英語** -> **機器**&#x200B;を選択し、これを画面チャネルのエクスペリエンスフラグメントとして使用するには、このページを選択します。
 
    1. アクションバーの「**編集**」をクリックして、Screens チャネルのエクスペリエンスフラグメントとして使用するページを開きます。
 
@@ -86,13 +86,15 @@ ht-degree: 100%
    1. 「**アクション**」として「**新しいエクスペリエンスフラグメントを作成**」を選択します。
 
    1. 「**親パス**」を選択します。
-   1. 「**テンプレート**」を選択します。ここでは、「**エクスペリエンスフラグメント - 画面のバリエーション**」テンプレートを選択します。
+   1. 「**テンプレート**」を選択します。ここで&#x200B;**エクスペリエンスフラグメント — 画面のバリエーション**&#x200B;テンプレートを選択します（`/libs/settings/screens/experience-fragments/templates/experience-fragment-template-screens`フィールドの値）。
 
    1. 「**フラグメントのタイトル**」に「**ScreensFragment**」と入力します。
 
    1. チェックマークをオンにして、新しいエクスペリエンスフラグメントの作成を完了します。
 
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
+
+   注意：より簡単なオプションを選択するには、フィールドの右側のチェックマークをクリックして、選択ダイアログを開きます。
 
 1. **エクスペリエンスフラグメントのライブコピーの作成**
 

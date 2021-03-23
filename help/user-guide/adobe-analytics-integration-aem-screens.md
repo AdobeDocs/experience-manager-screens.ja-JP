@@ -10,10 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
+feature: Screens の管理
+role: 管理者、デベロッパー
+level: 中間
 translation-type: tm+mt
-source-git-commit: 8191f227a3f0fd861e1bcbcf919b93f1f40b7c7b
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '707'
 ht-degree: 94%
 
 ---

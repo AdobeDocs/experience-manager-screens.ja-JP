@@ -1,11 +1,14 @@
 ---
 title: AEM Screens の音声認識
 description: このページでは、AEM Screens の音声認識機能について説明します。
+feature: 画面の作成
+role: 管理者、デベロッパー
+level: 中間
 translation-type: tm+mt
-source-git-commit: e355d648846034c4762ef8fdcb3e218d868044b6
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 100%
+source-wordcount: '1129'
+ht-degree: 99%
 
 ---
 
@@ -151,7 +154,7 @@ AEM Screens プロジェクトで音声認識を実装するには、ディス�
    | メイン | 2 | 初期ロード、待機中画面、タイマー |
    | HotDrinks | 1 | ユーザーインタラクション |
    | ColdDrinks | 3 | ユーザーインタラクション |
-   | SplitScreen | 1 | ユーザーインタラクション |
+   | SplitScreen | 3 | ユーザーインタラクション |
 
    >[!NOTE]
    >

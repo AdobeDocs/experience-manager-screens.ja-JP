@@ -5,7 +5,7 @@ feature: 機能パック
 role: デベロッパー
 level: 中間
 translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: aa1338fad19893e56ead4bb466e4f32a90116b65
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 96%
@@ -41,7 +41,7 @@ AEM Screens 機能パック 202103 のリリース日は 2021 年 3 月 5 日で
 
    Android プレーヤーを一括デプロイする場合、プレーヤーを 1 つずつ手動で AEM に登録するのは非常に面倒です。VMWare Airwatch、MobileIron、Samsung Knox などの EMM（エンタープライズモビリティ管理）ソリューションを使用して、デプロイメントのプロビジョニングと管理をリモートでおこなうことを強くお勧めします。AEM Screens Android プレーヤーでは、業界標準の EMM AppConfig をサポートしているので、リモートプロビジョニングが可能です。
 
-   詳しくは、[エンタープライズモビリティ管理を使用した Android プレーヤーの一括プロビジョニング](/help/user-guide/using-emm-bulkprovision-android-player.md)を参照してください。
+   詳しくは、[エンタープライズモビリティ管理を使用した Android プレーヤーの一括プロビジョニング](/help/user-guide/implementing-android-player.md#implementation)を参照してください。
 
 
 ### バグ修正 {#bug-fixes}

@@ -3,11 +3,14 @@ title: 機能パック 202004 のリリースノート
 seo-title: 機能パック 202004 のリリースノート
 description: 2020 年 4 月 20 日にリリースされた AEM Screens 機能パック 202004 について説明します。
 seo-description: 2020 年 4 月 20 日にリリースされた AEM Screens 機能パック 202004 について説明します。
+feature: 機能パック
+role: デベロッパー
+level: 中間
 translation-type: tm+mt
-source-git-commit: d22a8ad78a8276b736a4d7455792996234d23ca3
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 100%
+source-wordcount: '396'
+ht-degree: 99%
 
 ---
 

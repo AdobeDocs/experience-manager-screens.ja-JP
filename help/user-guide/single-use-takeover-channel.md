@@ -4,11 +4,14 @@ seo-title: 単一使用テイクオーバーチャネル
 description: 単一使用テイクオーバーチャネルを作成する場合は、この使用例に従います。
 seo-description: 単一使用テイクオーバーチャネルを作成する場合は、この使用例に従います。
 contentOwner: jsyal
+feature: 画面の作成
+role: 管理者、デベロッパー
+level: 中間
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 100%
+source-wordcount: '634'
+ht-degree: 99%
 
 ---
 

@@ -10,11 +10,14 @@ content-type: reference
 topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
+feature: Screens の管理
+role: Administrator
+level: 中間
 translation-type: tm+mt
-source-git-commit: 121aee4c8bf08e30898cc25d274ef4fc6bded5aa
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 100%
+source-wordcount: '702'
+ht-degree: 99%
 
 ---
 
@@ -78,6 +81,7 @@ AEM Screens プロジェクトを組織で初めてセットアップする場�
 >
 >* CSV／XLS／XLSX 拡張子以外のファイルは、現在のリリースではサポートされていません。
 >* 読み込まれるファイルに対してプロパティのフィルタリングはおこなわれず、「./」で始まるものはすべて読み込まれます。
+
 >
 
 

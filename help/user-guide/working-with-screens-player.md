@@ -9,11 +9,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
+feature: Screens の管理
+role: Administrator
+level: 中間
 translation-type: tm+mt
-source-git-commit: 5aea3e032cc5279de7f3abab679825aa2794a89e
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 100%
+source-wordcount: '1070'
+ht-degree: 99%
 
 ---
 

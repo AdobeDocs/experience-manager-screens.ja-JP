@@ -3,11 +3,14 @@ title: 用語集
 seo-title: 用語集
 description: AEM Screens に関連する重要な用語について理解するには、このページを使用してください。
 seo-description: AEM Screens に関連する重要な用語について理解するには、このページを使用してください。
+feature: 概要
+role: 業務担当者
+level: 初心者
 translation-type: tm+mt
-source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 100%
+source-wordcount: '473'
+ht-degree: 99%
 
 ---
 

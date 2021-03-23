@@ -1,11 +1,14 @@
 ---
 title: 機能パック 202011 のリリースノート
-description: このページでは、機能パック 202011 のリリースノートについて説明します。
-translation-type: ht
-source-git-commit: 7380862d0d5d77a155f9c135028c7548127a645a
-workflow-type: ht
-source-wordcount: '275'
-ht-degree: 100%
+description: 「2020年11月30日にリリースされたAEM Screens機能パック202011に関する情報は、このページを参照してください。」
+feature: 機能パック
+role: デベロッパー
+level: 中間
+translation-type: tm+mt
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +18,7 @@ ht-degree: 100%
 >[!CAUTION]
 >最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
 
-## 利用可能場所 {#availability}
+## 入手方法 {#availability}
 
 AEM Screens は、AEM 6.5 機能パック 6 をリリースしました。
 

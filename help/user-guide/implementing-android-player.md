@@ -14,10 +14,10 @@ feature: 画面の管理、Android Player
 role: Administrator
 level: 中間
 translation-type: tm+mt
-source-git-commit: 4dd6d40603f4a54ede67c35b07373ac6c6649d3f
+source-git-commit: 6978d9d13f2b7f723812561554fdb0a606ddb4fc
 workflow-type: tm+mt
 source-wordcount: '1441'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -186,8 +186,8 @@ Android プレーヤーの一括プロビジョニングを可能にするには
 1. お使いの Android デバイスが Google Play サービスをサポートしていることを確認します。
 1. AppConfig をサポートしているお気に入りの EMM ソリューションに、お使いの Android プレーヤーデバイスを登録します。
 1. EMM コンソールにログインし、Google Play から AEM Screens Player アプリケーションを入手します。
-1. 管理された設定（または関連オプション）を選択します。
-1. これで、設定可能なプレーヤーオプション（サーバーや一括登録コードなど）のリストが表示されます。
+1. 管理された構成または関連するオプションを選択します。
+1. これで、サーバーや一括登録コードなど、設定可能なプレイヤーリストが表示されます。
 1. これらのパラメーターを設定して保存し、ポリシーをデバイスにデプロイします。
 
    >[!NOTE]

@@ -10,11 +10,14 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
+feature: 画面の作成
+role: 管理者、デベロッパー
+level: 中間
 translation-type: tm+mt
-source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 100%
+source-wordcount: '696'
+ht-degree: 99%
 
 ---
 
@@ -97,8 +100,7 @@ ht-degree: 100%
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
-   >
-   >ターゲティングプロセスを開始したときにアクティビティが正しく一覧表示されるように、「**ブランド**」と「**領域**」の両方を選択する必要があります。
+   ターゲティングプロセスを開始したときにアクティビティが正しく一覧表示されるように、「**ブランド**」と「**領域**」の両方を選択する必要があります。
 
 1. **デフォルト画像を追加する**
 
@@ -110,8 +112,7 @@ ht-degree: 100%
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
-   >
-   >ターゲティングを開始する前に、サイドレールの「**+ エクスペリエンスのターゲットを追加**」をクリックして、セグメント（**For_Green**、**For_Red**、**For_Blue**）を追加する必要があります（下図を参照）。
+   ターゲティングを開始する前に、サイドレールの「**+ エクスペリエンスのターゲットを追加**」をクリックして、セグメント（**For_Green**、**For_Red**、**For_Blue**）を追加する必要があります（下図を参照）。
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 

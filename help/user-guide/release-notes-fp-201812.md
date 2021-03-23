@@ -10,11 +10,14 @@ content-type: reference
 topic-tags: release-notes
 discoiquuid: 08ace4d8-bccf-4783-a664-a28bbae7ecc3
 noindex: true
+feature: 機能パック
+role: デベロッパー
+level: 中間
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '279'
+ht-degree: 99%
 
 ---
 

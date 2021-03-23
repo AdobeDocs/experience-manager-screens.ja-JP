@@ -5,11 +5,14 @@ description: ここでは、Screens プロジェクトに切り替えを適用�
 seo-description: ここでは、Screens プロジェクトに切り替えを適用する方法について説明します。
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
+feature: 画面の作成
+role: 管理者、デベロッパー
+level: 中間
 translation-type: tm+mt
-source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 100%
+source-wordcount: '292'
+ht-degree: 99%
 
 ---
 

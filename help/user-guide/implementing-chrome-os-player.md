@@ -9,11 +9,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
+feature: Screens の管理
+role: Administrator
+level: 中間
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 100%
+source-wordcount: '661'
+ht-degree: 99%
 
 ---
 
@@ -119,9 +122,9 @@ AEM Screens Player は、キオスク対応アプリケーションです。Chro
 | *server* | Adobe Experience Manager サーバーの URL  |
 | *resolution* | Chrome OS デバイスの解像度 |
 | *rebootSchedule* | Chrome プレーヤーを再起動するスケジュール |
-| *enableAdminUI* | サイト上でデバイスを設定するための、技術者用の Admin UI を有効にします。完全に設定されて実稼動になったら、false に設定します。 |
-| *enableOSD* | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。完全に設定されて実稼動になったら、false に設定することを検討します。 |
-| *enableActivityUI* | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にし、完全に設定されて実稼動になったら無効にします。 |
+| *enableAdminUI* | サイト上でデバイスを設定するための、技術者用の Admin UI を有効にします。完全に設定されて運用が開始したら、false に設定します。 |
+| *enableOSD* | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。完全に設定されて運用が開始したら、false に設定することを検討します。 |
+| *enableActivityUI* | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にしておき、完全に設定されて運用が開始したら無効にします。 |
 
 >[!NOTE]
 >

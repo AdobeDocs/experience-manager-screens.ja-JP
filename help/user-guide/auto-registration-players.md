@@ -2,11 +2,14 @@
 title: プレーヤーの自動登録
 seo-title: プレーヤーの自動登録
 description: このページでは、AMS／オンプレミス Screens でのプレーヤーの自動登録について説明します。
-translation-type: ht
-source-git-commit: 793507b266b99051544b377e4a7effb92dc6feb6
-workflow-type: ht
-source-wordcount: '339'
-ht-degree: 100%
+feature: 画面の管理、プレイヤ
+role: Administrator
+level: 中間
+translation-type: tm+mt
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 98%
 
 ---
 

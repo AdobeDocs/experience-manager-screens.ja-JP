@@ -5,11 +5,14 @@ description: ここでは、サービスとしてのコンテンツ更新につ�
 seo-description: ここでは、サービスとしてのコンテンツ更新について説明します。
 uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
 contentOwner: Jyotika syal
+feature: 画面の作成
+role: 管理者、デベロッパー
+level: 中間
 translation-type: tm+mt
-source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '361'
+ht-degree: 99%
 
 ---
 

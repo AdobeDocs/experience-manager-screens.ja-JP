@@ -9,11 +9,14 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
+feature: Screens の開発
+role: デベロッパー
+level: 中間
 translation-type: tm+mt
-source-git-commit: ec8324ead3789a6cd5dde35a932c89e916709f70
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '1852'
-ht-degree: 100%
+source-wordcount: '1856'
+ht-degree: 99%
 
 ---
 

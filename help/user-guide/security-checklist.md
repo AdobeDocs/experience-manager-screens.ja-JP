@@ -1,13 +1,16 @@
 ---
 title: セキュリティチェックリスト
 seo-title: セキュリティチェックリスト
-description: セキュリティチェックリストの説明
+description: このページでは、主なセキュリティ領域に関する質問と考慮事項のチェックリストを示します。
 seo-description: セキュリティチェックリストの説明
+feature: Screens の管理
+role: Administrator
+level: 中間
 translation-type: tm+mt
-source-git-commit: ccc1baa0b57cb1311855065433aabf627814d16a
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 100%
+source-wordcount: '490'
+ht-degree: 96%
 
 ---
 

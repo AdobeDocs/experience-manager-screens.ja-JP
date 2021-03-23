@@ -1,14 +1,17 @@
 ---
 title: Screens Player のインストール
 seo-title: Screens Player のインストール
-description: Screens Player のインストール
+description: このページに従って、利用可能なAEM Screensプレイヤのインストールについて学習してください。
 seo-description: Screens Player のインストール
 contentOwner: jsyal
+feature: Screens の管理
+role: Administrator
+level: 中間
 translation-type: tm+mt
-source-git-commit: be491e88b7938f24ae1f375b2fded4052404aaa1
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 100%
+source-wordcount: '192'
+ht-degree: 92%
 
 ---
 

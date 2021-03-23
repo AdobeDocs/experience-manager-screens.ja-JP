@@ -3,11 +3,14 @@ title: マルチゾーンからシングルゾーンへのトランジション�
 description: ここでは、マルチゾーンからシングルゾーンへのトランジションの使用例を示します。
 seo-description: マルチゾーンからシングルゾーンへのトランジションの使用例。
 contentOwner: Jyotika Syal
+feature: 画面の作成
+role: 開発者、開業医
+level: 中間
 translation-type: tm+mt
-source-git-commit: 6f770734941635a0cd404986c259022137355af3
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 100%
+source-wordcount: '407'
+ht-degree: 99%
 
 ---
 

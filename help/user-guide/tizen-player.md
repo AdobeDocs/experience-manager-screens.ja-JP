@@ -1,11 +1,14 @@
 ---
 title: Tizen プレーヤー
 description: このページでは、Tizen プレーヤーのインストールと動作について説明します。
-translation-type: ht
-source-git-commit: 2ace2f926900304377afcd6187462545a60784d3
-workflow-type: ht
-source-wordcount: '905'
-ht-degree: 100%
+feature: 画面の管理、プレイヤ
+role: Administrator
+level: 中間
+translation-type: tm+mt
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+workflow-type: tm+mt
+source-wordcount: '910'
+ht-degree: 99%
 
 ---
 

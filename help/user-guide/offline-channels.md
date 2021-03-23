@@ -10,11 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
+feature: Screens の開発
+role: デベロッパー
+level: 中間
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 100%
+source-wordcount: '485'
+ht-degree: 99%
 
 ---
 
@@ -35,7 +38,7 @@ Screens Player では、***ContentSync*** テクノロジーを利用してチ�
 1. zip ファイルをダウンロードし、ローカルに抽出します。
 1. コンテンツのローカルコピーを表示します。
 
-## 更新ハンドラー  {#update-handlers}
+## 更新ハンドラー {#update-handlers}
 
 ***ContentSync*** は、更新ハンドラーを使用して、特定のプロジェクトに必要なすべてのページとアセットを解析および収集します。AEM Screens では、次の更新ハンドラーが使用されます。
 

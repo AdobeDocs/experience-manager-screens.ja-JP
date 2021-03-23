@@ -1,11 +1,14 @@
 ---
 title: コンテンツ割り当てレポート
 description: このページでは、コンテンツ割り当てレポートのダウンロードと使用方法について説明します。
-translation-type: ht
-source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
-workflow-type: ht
-source-wordcount: '332'
-ht-degree: 100%
+feature: 画面の作成
+role: デベロッパー
+level: 中間
+translation-type: tm+mt
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+workflow-type: tm+mt
+source-wordcount: '336'
+ht-degree: 99%
 
 ---
 

@@ -3,11 +3,14 @@ title: コマンド同期の使用
 seo-title: コマンド同期の使用
 description: ここでは、コマンド同期の使用方法について説明します。
 seo-description: ここでは、コマンド同期の使用方法について説明します。
-translation-type: ht
-source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
-workflow-type: ht
-source-wordcount: '794'
-ht-degree: 100%
+feature: 画面の作成
+role: 管理者、デベロッパー
+level: 中間
+translation-type: tm+mt
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+workflow-type: tm+mt
+source-wordcount: '799'
+ht-degree: 99%
 
 ---
 

@@ -17,7 +17,7 @@ translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 94%
 
 >[!CAUTION]
 >
->このAEM Screens機能は、AEM 6.4.2機能パック2またはAEM 6.3.3機能パック4の最低バージョンをインストールしている場合にのみ使用できます。
+>この AEM Screens 機能は、AEM 6.4.2 機能パック 2 の最小バージョンまたは AEM 6.3.3 機能パック 4 がインストールされている場合にのみ使用できます。
 
 >[!NOTE]
 >
->このいずれかの機能パックにアクセスするには、アドビサポートに連絡してアクセス権をリクエストする必要があります。Adobe IDを使用して、[Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からAEM Screens向けの最新機能パックをダウンロードできます。
+>このいずれかの機能パックにアクセスするには、アドビサポートに連絡してアクセス権をリクエストする必要があります。Adobe ID を使用して、AEM Screens の最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からダウンロードできます。
 
 ここでは、以下のトピックについて説明します。
 
@@ -99,7 +99,7 @@ Adobe Analytics を AEM Screens 用に設定するためのプロパティとそ
   <tr>
    <td><strong>Analytics URL</strong></td>
    <td>プレーヤーから得られる分析データを投稿するための URL。<br>
-   開発／ステージング環境の場合</em> - https://cc-api-data-stage.adobe.io/ingest/<br /><em>プロダクション環境の場合</em> - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
+   開発／ステージング環境の場合</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>プロダクション環境の場合</em> - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
   </tr>
   <tr>
    <td><strong>Analytics API キー</strong></td>

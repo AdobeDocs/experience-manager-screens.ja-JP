@@ -1,12 +1,12 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 solution-title: AEM Screens
 solution: Experience Manager, Experience Manager Screens
 type: ドキュメント
 index: y
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-screens.ja-JP
 translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: a231de201a67a585907687cfd3ed10395a640096
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 100%

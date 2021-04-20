@@ -10,13 +10,13 @@ topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
 feature: Screens の開発
-role: デベロッパー
-level: 中間
-translation-type: tm+mt
+role: 開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2190'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
 Hello World コンポーネントは、スクリーンに表示されるメッセージをユーザーが入力できるシンプルなコンポーネントです。このコンポーネントは、[AEM Screens コンポーネントテンプレート：https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template) をベースにしています。
 
-AEM Screens には、従来の WCM サイトコンポーネントには必ずしも当てはまらない興味深い制約がいくつかあります。
+AEM Screens には、従来の WCM Sites コンポーネントには必ずしも当てはまらない興味深い制約がいくつかあります。
 
 * ほとんどの Screens コンポーネントは、ターゲットのデジタルサイネージデバイス上でフルスクリーンで動作する必要があります
 * スライドショーを生成するには、ほとんどの Screens コンポーネントをシーケンスチャネルに埋め込める必要があります
@@ -143,10 +143,10 @@ AEM Screens には、従来の WCM サイトコンポーネントには必ずし
 
    Screens コンポーネントでは、使用する[オーサリングモード](https://helpx.adobe.com/jp/experience-manager/6-4/sites/authoring/using/author-environment-tools.html#PageModes)に応じて、2 種類のレンダリングが必要になります。
 
-   1. **実稼働**：プレビューまたはパブリッシュモード（wcmmode=disabled）
+   1. **実稼動**：プレビューまたはパブリッシュモード（wcmmode=disabled）
    1. **編集**：編集、デザイン、基礎、開発者など、他のすべてのオーサリングモードに使用されます。
 
-   `helloworld.html` はスイッチとして機能し、現在アクティブなオーサリングモードを確認し、別の HTL スクリプトにリダイレクトします。編集モード用に `edit.html` スクリプトを用意し、実稼働モード用に `production.html` スクリプトを用意するというのが、Screens コンポーネントで一般に使用される規則です。
+   `helloworld.html` はスイッチとして機能し、現在アクティブなオーサリングモードを確認し、別の HTL スクリプトにリダイレクトします。編集モード用に `edit.html` スクリプトを用意し、実稼動モード用に `production.html` スクリプトを用意するというのが、Screens コンポーネントで一般に使用される規則です。
 
 1. `/apps/weretail-run/components/content/helloworld` の下に `production.html.` という名前のファイルを作成します。
 
@@ -163,7 +163,7 @@ AEM Screens には、従来の WCM サイトコンポーネントには必ずし
    </div>
    ```
 
-   上記は、Hello World コンポーネントの実稼働用マークアップです。このコンポーネントはシーケンスチャネルで使用されるので、`data-duration` 属性が含まれています。`data-duration` 属性は、シーケンスチャネルでシーケンス項目の表示時間を把握するために使用されます。
+   上記は、Hello World コンポーネントの実稼動用マークアップです。このコンポーネントはシーケンスチャネルで使用されるので、`data-duration` 属性が含まれています。`data-duration` 属性は、シーケンスチャネルでシーケンス項目の表示時間を把握するために使用されます。
 
    このコンポーネントでは、`div` タグと `h1` タグ（テキストを含む）をレンダリングします。`${properties.message}` は HTL スクリプトの一部で、`message` という名前の JCR プロパティのコンテンツを出力します。`message` プロパティテキストの値をユーザーが入力できるダイアログを後で作成します。
 
@@ -277,7 +277,7 @@ AEM Screens には、従来の WCM サイトコンポーネントには必ずし
 
 クライアント側ライブラリは、AEM の実装で必要な CSS および JavaScript ファイルの編成および管理のための仕組みを提供します。
 
-AEM Screens コンポーネントは、編集モードとプレビュー／実稼働モードではレンダリングが異なります。2 つのクライアントライブラリが作成されます。1 つは編集モード用、もう 1 つはプレビュー／実稼働用です。
+AEM Screens コンポーネントは、編集モードとプレビュー／実稼動モードではレンダリングが異なります。2 つのクライアントライブラリが作成されます。1 つは編集モード用、もう 1 つはプレビュー／実稼動用です。
 
 1. Hello World コンポーネントのクライアント側ライブラリ用のフォルダーを作成します。
 
@@ -299,9 +299,9 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
    /apps/weretail-run/components/content/helloworld/clientlibs/shared のプロパティ
 
-   categories プロパティは、クライアントライブラリを識別する文字列です。cq.screens.componentscategory は、編集モードとプレビュー／実稼働モードの両方で使用されます。したがって、sharedclientlib に定義された CSS／JS は、すべてのモードに読み込まれます。
+   categories プロパティは、クライアントライブラリを識別する文字列です。cq.screens.componentscategory は、編集モードとプレビュー／実稼動モードの両方で使用されます。したがって、sharedclientlib に定義された CSS／JS は、すべてのモードに読み込まれます。
 
-   実稼働環境では、直接 /apps にパスを公開しないことをお勧めします。allowProxy プロパティにより、クライアントライブラリの CSS と JS が /etc.clientlibs というプレフィックスを付けて参照されるようになります。
+   実稼動環境では、直接 /apps にパスを公開しないことをお勧めします。allowProxy プロパティにより、クライアントライブラリの CSS と JS が /etc.clientlibs というプレフィックスを付けて参照されるようになります。
 
 1. 共有フォルダーの下に `css.txt` という名前のファイルを作成します。
 
@@ -341,13 +341,13 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
 1. クライアントライブラリフォルダー `shared` をコピーして貼り付けて、`production` という名前の新しいクライアントライブラリを作成します。
 
-   ![共有クライアントライブラリをコピーして実稼働用の新しいクライアントライブラリを作成する](assets/copy-clientlib.gif)
+   ![共有クライアントライブラリをコピーして実稼動用の新しいクライアントライブラリを作成する](assets/copy-clientlib.gif)
 
-   共有クライアントライブラリをコピーして実稼働用の新しいクライアントライブラリを作成する
+   共有クライアントライブラリをコピーして実稼動用の新しいクライアントライブラリを作成する
 
-1. 実稼働用クライアントライブラリの `categories` プロパティを `cq.screens.components.production.` に更新します。
+1. 実稼動用クライアントライブラリの `categories` プロパティを `cq.screens.components.production.` に更新します。
 
-   これにより、プレビュー／実稼働モードの場合のみ、スタイルが読み込まれるようになります。
+   これにより、プレビュー／実稼動モードの場合のみ、スタイルが読み込まれるようになります。
 
    ![/apps/weretail-run/components/content/helloworld/clientlibs/production のプロパティ](assets/2018-04-30_at_5_04pm.png)
 
@@ -376,15 +376,15 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
    }
    ```
 
-   上記のスタイルでは、実稼働モードの場合のみ、スクリーンの中央にメッセージが表示されます。
+   上記のスタイルでは、実稼動モードの場合のみ、スクリーンの中央にメッセージが表示されます。
 
 3 番目のクライアントライブラリカテゴリ `cq.screens.components.edit` は、コンポーネントに編集専用のスタイルを追加する場合に使用できます。
 
 | クライアントライブラリカテゴリ | 使用方法 |
 |---|---|
-| `cq.screens.components` | スタイルとスクリプトが編集モードと実稼働モードの両方で共有される |
+| `cq.screens.components` | スタイルとスクリプトが編集モードと実稼動モードの両方で共有される |
 | `cq.screens.components.edit` | スタイルとスクリプトが編集モードでのみ使用される |
-| `cq.screens.components.production` | スタイルとスクリプトが実稼働モードでのみ使用される |
+| `cq.screens.components.production` | スタイルとスクリプトが実稼動モードでのみ使用される |
 
 ## デザインページの作成 {#design-page}
 

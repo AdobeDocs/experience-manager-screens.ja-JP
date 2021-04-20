@@ -11,13 +11,13 @@ topic-tags: release-notes
 discoiquuid: 08ace4d8-bccf-4783-a664-a28bbae7ecc3
 noindex: true
 feature: 機能パック
-role: デベロッパー
-level: 中間
-translation-type: tm+mt
+role: 開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ AEM Screens 機能パック 201812 のリリース日は 2019 年 1 月 16 日�
 
 * **複数アセットスケジュール設定**
 
-   複数アセットスケジュール設定を使用すると、複数のアセットを選択し、選択したすべてのアセットに再生スケジュールを適用できます。詳しくは、****&#x200B;アセットスケジュール設定&#x200B;**の[複数アセットスケジュール設定](asset-level-scheduling.md)**&#x200B;の節を参照してください。
+   複数アセットスケジュール設定を使用すると、複数のアセットを選択し、選択したすべてのアセットに再生スケジュールを適用できます。詳しくは、**[アセットスケジュール設定](asset-level-scheduling.md)**&#x200B;の&#x200B;**複数アセットスケジュール設定**&#x200B;の節を参照してください。
 
 * **マルチゾーンレイアウト**
 

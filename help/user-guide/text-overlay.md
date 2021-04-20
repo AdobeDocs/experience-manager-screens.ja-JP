@@ -10,14 +10,14 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
-feature: 画面の作成
-role: 管理者、デベロッパー
-level: 中間
-translation-type: tm+mt
+feature: Screens のオーサリング
+role: 管理者、開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '853'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->詳細設定ツールを適切に使用するには、「px」をサフィックスとして使用して、正しい位置をピクセル単位で指定する必要があります。たとえば、「200px」とすると、開始点から 200 ピクセル離れた位置が指定されます。
+>詳細設定ツールを適切に使用するには、「px」をサフィックスとして使用して、正しい位置をピクセル単位で指定する必要があります。例えば、「200px」とすると、開始点から 200 ピクセル離れた位置が指定されます。
 
 ## テキストオーバーレイでの ContextHub 値の使用 {#using-text-overlay-context-hub}
 
@@ -99,7 +99,7 @@ ht-degree: 99%
 
 AEM Screens プロジェクトの ContextHub 構成を設定する必要があります。
 
-データストアを使用してデータ駆動型アセットの変更を設定および管理する方法については、「[AEM Screens での ContextHub の設定](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/developing/configuring-context-hub.html)」を参照してください。
+データストアを使用してデータ駆動型アセットの変更を設定および管理する方法については、「[AEM Screens での ContextHub の設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-screens/user-guide/developing/configuring-context-hub.html)」を参照してください。
 
 プロジェクトに必要な設定をおこなったら、次の手順に従って Google シートの値を使用します。
 

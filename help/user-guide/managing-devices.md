@@ -9,14 +9,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
-feature: 画面の作成
-role: 管理者、デベロッパー
-level: 中間
-translation-type: tm+mt
+feature: Screens のオーサリング
+role: 管理者、開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->初めてのデバイスが新しいスクリーンプロジェクトに追加されるたびに、ユーザーグループが作成されます。
+>初めてのデバイスが新しい Screens プロジェクトに追加されるたびに、ユーザーグループが作成されます。
 >例えば、プロジェクトノード名が *we-retail* である場合、ユーザーグループ名は *screens-we-retail-devices* になります。
 >このグループは、下の図で示されているように、**寄稿者**&#x200B;グループのメンバーとして追加されます。
 

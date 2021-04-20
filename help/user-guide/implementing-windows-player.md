@@ -10,9 +10,9 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-feature: Screens の管理、Windows プレーヤー
-role: 管理者
-level: 中級者
+feature: Administering Screens, Windows Player
+role: Administrator
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

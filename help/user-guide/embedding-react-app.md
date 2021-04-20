@@ -9,9 +9,9 @@ topic-tags: developing
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: e4ecc179-e421-4687-854c-14d31bed031d
 docset: aem65
-feature: Screens の開発
-role: 開発者
-level: 中級者
+feature: Developing Screens
+role: Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

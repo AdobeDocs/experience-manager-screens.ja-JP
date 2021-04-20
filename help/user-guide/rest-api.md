@@ -9,9 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: c07b6e4f-c0a4-4151-a543-76dabd6d5146
-feature: Screens の開発
-role: 開発者
-level: 中級者
+feature: Developing Screens
+role: Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: ht

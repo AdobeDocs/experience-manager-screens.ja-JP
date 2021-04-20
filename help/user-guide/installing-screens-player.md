@@ -4,9 +4,9 @@ seo-title: Screens Player のインストール
 description: このページでは、使用可能な AEM Screens Player のインストールについて説明します。
 seo-description: Screens Player のインストール
 contentOwner: jsyal
-feature: Screens の管理
-role: 管理者
-level: 中級者
+feature: Administering Screens
+role: Administrator
+level: Intermediate
 translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: ht

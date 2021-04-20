@@ -10,9 +10,9 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-feature: Screens のオーサリング、チャネルレベルのアクティベーション
-role: 管理者、開発者
-level: 中級者
+feature: Authoring Screens, Channel Level Activation
+role: Administrator, Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

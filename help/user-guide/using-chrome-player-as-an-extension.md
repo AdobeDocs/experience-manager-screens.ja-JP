@@ -3,9 +3,9 @@ title: 拡張機能としての Chrome プレーヤーの使用
 seo-title: 拡張機能としての Chrome プレーヤーの使用
 description: ここでは、Chrome プレーヤーをブラウザー拡張機能としてインストールする方法を説明します。
 seo-description: 'null'
-feature: Screens の管理
-role: 管理者
-level: 中級者
+feature: Administering Screens
+role: Administrator
+level: Intermediate
 translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: ht

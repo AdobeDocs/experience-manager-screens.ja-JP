@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
-feature: Screens の開発
-role: 開発者
-level: 中級者
+feature: Developing Screens
+role: Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: ht

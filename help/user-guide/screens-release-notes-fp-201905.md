@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: release-notes
 discoiquuid: 1209bd96-9de5-428e-a1b5-950507e66c0b
 docset: aem65
-feature: 機能パック
-role: 開発者
-level: 中級者
+feature: Feature Pack
+role: Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

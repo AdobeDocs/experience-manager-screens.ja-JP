@@ -9,9 +9,9 @@ topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
-feature: Screens のオーサリング
-role: 管理者、開発者
-level: 中級者
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

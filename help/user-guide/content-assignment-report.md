@@ -1,9 +1,9 @@
 ---
 title: コンテンツ割り当てレポート
 description: このページでは、コンテンツ割り当てレポートのダウンロードと使用方法について説明します。
-feature: Screens のオーサリング
-role: 開発者
-level: 中級者
+feature: Authoring Screens
+role: Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: ht

@@ -9,9 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
-feature: Screens の管理
-role: 管理者
-level: 中級者
+feature: Administering Screens
+role: Administrator
+level: Intermediate
 translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: ht

@@ -2,9 +2,9 @@
 title: チャネル割り当て - 最新の FP
 seo-title: チャネル割り当て - 最新の FP
 description: このページに従って、チャネル割り当てと日分割について学びます。
-feature: Screens のオーサリング、チャネル割り当て
-role: 管理者、開発者
-level: 中級者
+feature: Authoring Screens, Channel Assignment
+role: Administrator, Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

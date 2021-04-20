@@ -5,9 +5,9 @@ description: ここでは、AEM Screens プロジェクトに関連する FAQ �
 seo-description: ここでは、AEM Screens プロジェクトに関連する FAQ への回答を掲載しています。
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-feature: デジタルサイネージ、コンテンツ
-role: 開発者
-level: 中級者
+feature: Digital Signage, Content
+role: Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

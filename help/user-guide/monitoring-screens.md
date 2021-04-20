@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
-feature: デジタルサイネージ、コンテンツ、プレーヤー
-role: 開発者
-level: 中級者
+feature: Digital Signage, Content, Players
+role: Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

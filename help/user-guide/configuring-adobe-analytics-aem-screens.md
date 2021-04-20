@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
-feature: Screens の管理
-role: 管理者、開発者
-level: 中級者
+feature: Administering Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

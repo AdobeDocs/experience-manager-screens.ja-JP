@@ -10,9 +10,9 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-feature: Screens の開発
-role: 開発者
-level: 中級者
+feature: Developing Screens
+role: Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

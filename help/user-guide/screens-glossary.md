@@ -3,9 +3,9 @@ title: 用語集
 seo-title: 用語集
 description: AEM Screens に関連する重要な用語について理解するには、このページを使用してください。
 seo-description: AEM Screens に関連する重要な用語について理解するには、このページを使用してください。
-feature: 概要
-role: 実務担当者
-level: 初心者
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: ht

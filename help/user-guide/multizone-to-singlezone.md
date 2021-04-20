@@ -3,9 +3,9 @@ title: マルチゾーンからシングルゾーンへのトランジション�
 description: ここでは、マルチゾーンからシングルゾーンへのトランジションの使用例を示します。
 seo-description: マルチゾーンからシングルゾーンへのトランジションの使用例。
 contentOwner: Jyotika Syal
-feature: Screens のオーサリング
-role: 開発者、実務担当者
-level: 中級者
+feature: Authoring Screens
+role: Developer, Business Practitioner
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

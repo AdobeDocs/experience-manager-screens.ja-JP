@@ -1,9 +1,9 @@
 ---
 title: Tizen プレーヤー
 description: このページでは、Tizen プレーヤーのインストールと動作について説明します。
-feature: Screens の管理、プレーヤー
-role: 管理者
-level: 中級者
+feature: Administering Screens, Players
+role: Administrator
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

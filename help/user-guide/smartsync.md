@@ -9,9 +9,9 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
-feature: Screens の管理
-role: 管理者
-level: 中級者
+feature: Administering Screens
+role: Administrator
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

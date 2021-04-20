@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-feature: Screens の管理、Android プレーヤー
-role: 管理者
-level: 中級者
+feature: Administering Screens, Android Player
+role: Administrator
+level: Intermediate
 translation-type: ht
 source-git-commit: 6978d9d13f2b7f723812561554fdb0a606ddb4fc
 workflow-type: ht

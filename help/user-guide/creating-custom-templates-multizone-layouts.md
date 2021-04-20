@@ -4,9 +4,9 @@ seo-title: マルチゾーンレイアウトのカスタムテンプレートの
 description: ここでは、マルチゾーンレイアウトのカスタムテンプレートの作成について説明します。
 seo-description: ここでは、マルチゾーンレイアウトのカスタムテンプレートの作成について説明します。
 contentOwner: Jyotika Syal
-feature: Screens の開発
-role: 開発者
-level: 中級者
+feature: Developing Screens
+role: Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: ht

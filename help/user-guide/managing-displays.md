@@ -9,9 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
-feature: Screens のオーサリング
-role: 管理者、開発者
-level: 中級者
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

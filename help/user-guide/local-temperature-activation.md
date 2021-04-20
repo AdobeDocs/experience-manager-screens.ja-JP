@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
-feature: Screens のオーサリング
-role: 管理者、開発者
-level: 中級者
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: ht

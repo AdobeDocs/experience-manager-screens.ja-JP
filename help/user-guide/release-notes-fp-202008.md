@@ -1,14 +1,14 @@
 ---
 title: 機能パック 202008 のリリースノート
-description: 「2020年9月3日にリリースされたAEM Screens機能パック202008に関する情報は、このページを参照してください。」
+description: 「2020 年 9 月 3 日にリリースされた AEM Screens 機能パック 202008 について説明します。」
 feature: 機能パック
-role: デベロッパー
-level: 中間
-translation-type: tm+mt
+role: 開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ AEM Screens 機能パック 202008 のリリース日は 2020 年 9 月 3 日で
 
 AEM Screens 6.5.5 Service Pack を使用している場合は、Windows または Android プレーヤー用の環境を設定する必要があります。
 
-AEM オーサーおよびパブリッシュインスタンスの **Adobe Experience Manager Web コンソール設定**&#x200B;で、**login-token cookies の SameSite 属性**&#x200B;を **Lax** から **None** に設定します。
+AEM オーサーインスタンスおよびパブリッシュインスタンスの **Adobe Experience Manager Web コンソール設定**&#x200B;で、**login-token cookies の SameSite 属性**&#x200B;を **Lax** から **None** に設定します。
 
 * 詳しくは、[Windows 10 プレーヤーの実装](implementing-windows-player.md#fp-environment-setup)を参照してください。
 

@@ -1,16 +1,16 @@
 ---
 title: データトリガーのパブリッシュサーバーへのレプリケーション
 seo-title: データトリガーのパブリッシュサーバーへのレプリケーション
-description: このページでは、データトリガーをパブリッシュサーバーに複製する方法を説明します。
+description: このページでは、データトリガーをパブリッシュサーバにレプリケーションする方法を説明します。
 seo-description: データトリガーのパブリッシュサーバーへのレプリケーション。
-feature: 画面の管理、データトリガー
-role: デベロッパー
-level: 中間
-translation-type: tm+mt
+feature: Screens の管理、データトリガー
+role: 開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ ContextHub 設定をレプリケーション中にテスト接続が失敗した
 
 1. デフォルトの管理者認証情報を使用しない場合は、別のユーザー名とパスワードを使用して配布エージェントを設定する必要があります。
 
-   その場合は、次の手順に従います。
+   次の手順に従います。
 
    1. ツール／**操作**／**Web コンソール** `http://localhost:4502/system/console/configMgr` に移動して、**Adobe Experience Manager Web コンソール画面**&#x200B;を開きます。
    1. **Apache Sling Distribution トランスポート認証情報 - ユーザ認証情報に基づく DistributionTransportSecretProvider** を探します。

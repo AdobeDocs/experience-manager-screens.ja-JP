@@ -10,14 +10,14 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-feature: 画面の管理、Windows Player
-role: Administrator
-level: 中間
-translation-type: tm+mt
+feature: Screens の管理、Windows プレーヤー
+role: 管理者
+level: 中級者
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1003'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,9 +40,9 @@ AEM Screens 用の Windows プレーヤーを実装するには、同プレー�
 >[!NOTE]
 >AEM Screens 6.5.5 Service Pack を使用している場合は、Windows プレーヤー用の環境を設定する必要があります。
 
-AEM オーサーおよびパブリッシュインスタンスの **Adobe Experience Manager Web コンソール設定**&#x200B;で、**login-token cookies の SameSite 属性**&#x200B;を **Lax** から **None** に設定します。
+AEM オーサーインスタンスおよびパブリッシュインスタンスの **Adobe Experience Manager Web コンソール設定**&#x200B;で、**login-token cookies の SameSite 属性**&#x200B;を **Lax** から **None** に設定します。
 
-その場合は、次の手順に従います。
+次の手順に従います。
 
 1. `http://localhost:4502/system/console/configMgr` を使用して、**Adobe Experience Manager Web コンソールの設定**&#x200B;に移動します。
 
@@ -75,7 +75,7 @@ Windows インストーラーのデフォルトのオプションを変更する
 
 ## CLI（PowerShell）を使用したインストール {#install-powershell}
 
-1. Screens プレーヤー&#x200B;**専用**に、カスタムの場所を作成します。例：
+1. Screens プレーヤー&#x200B;**専用**に、カスタムの場所を作成します。（例：
    `C:\Users\User\screens-player`）
 1. 次をインストールします：
    `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
@@ -104,7 +104,7 @@ Windows 10 プレーヤーを設定するには、次の手順を実行します
 1. 設定ファイルは ***%appdata%\com.adobe.aem.screens.player\config.json*** の下にあります。
 1. 後述の情報を使用して設定 JSON を更新し、同じフォルダーをプレーヤーが存在するすべてのシステムにコピーします。
 
-### ポリシー属性  {#policy-attributes}
+### ポリシー属性 {#policy-attributes}
 
 次の表に、参照用のポリシー JSON の例と共にポリシー属性を示します。
 
@@ -115,9 +115,9 @@ Windows 10 プレーヤーを設定するには、次の手順を実行します
 | rebootSchedule | プレーヤーを再起動するスケジュール。 |
 | enableAdminUI | サイト上でデバイスを設定するための Admin UI を有効にします。完全に設定されて運用が開始したら、false に設定します。 |
 | enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。完全に設定されて運用が開始したら、false に設定することを検討します。 |
-| enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にし、完全に設定されて実稼動になったら無効にします。 |
+| enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にしておき、完全に設定されて運用が開始したら無効にします。 |
 
-#### ポリシー JSON ファイルの例  {#example-policy-json-file}
+#### ポリシー JSON ファイルの例 {#example-policy-json-file}
 
 ```
 {

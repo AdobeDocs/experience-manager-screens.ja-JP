@@ -11,13 +11,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: cd1483af-8118-46ac-a2ad-42d89c05bdca
 docset: aem65
 feature: 概要
-role: ビジネス実践者、データアーキテクト
+role: 実務担当者、データアーキテクト
 level: 初心者
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '728'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Day 0 は、プロジェクト管理強化のあらゆる側面をカバーす�
 
 ### Day 1 のアクティビティ {#day-one-activities}
 
-第 2 段階である&#x200B;***「Day 1」***&#x200B;は、導入作業に含まれるすべてのアクティビティを指します。プロジェクトを成功させるためのもう 1 つの重要な技術文書として、デプロイメントガントチャートが挙げられます。
+第 2 段階である「***Day 1***」は、デプロイメント作業に含まれるすべてのアクティビティを指します。プロジェクトを成功させるためのもう 1 つの重要な技術文書として、デプロイメントガントチャートが挙げられます。
 
 営業機会がプロジェクトに移行する際には、以下を確認するためにキックオフミーティングが予定されます。
 

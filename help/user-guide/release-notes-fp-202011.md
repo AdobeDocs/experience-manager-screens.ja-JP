@@ -1,14 +1,14 @@
 ---
 title: 機能パック 202011 のリリースノート
-description: 「2020年11月30日にリリースされたAEM Screens機能パック202011に関する情報は、このページを参照してください。」
+description: 「2020 年 11 月 30 日にリリースされた AEM Screens 機能パック 202011 について説明します。」
 feature: 機能パック
-role: デベロッパー
-level: 中間
-translation-type: tm+mt
+role: 開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 

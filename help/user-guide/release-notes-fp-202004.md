@@ -4,13 +4,13 @@ seo-title: 機能パック 202004 のリリースノート
 description: 2020 年 4 月 20 日にリリースされた AEM Screens 機能パック 202004 について説明します。
 seo-description: 2020 年 4 月 20 日にリリースされた AEM Screens 機能パック 202004 について説明します。
 feature: 機能パック
-role: デベロッパー
-level: 中間
-translation-type: tm+mt
+role: 開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '396'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 >
 >最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
 
-## 利用可能場所 {#availability}
+## 入手方法 {#availability}
 
 AEM Screens は、AEM 6.4 機能パック 8 および AEM 6.5 機能パック 4 をリリースしました。
 
@@ -31,7 +31,7 @@ Adobe ID を使用して、AEM Screens 6.4.8 または AEM Screens 6.5.4 リリ�
 
 AEM Screens 機能パック 202004 のリリース日は 2020 年 4 月 20 日です。
 
-### 最新情報 {#what-s-new}
+### 新機能 {#what-s-new}
 
 * **再生中断方法のオプション**
 

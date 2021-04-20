@@ -10,13 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Screens の管理
-role: Administrator
-level: 中間
-translation-type: tm+mt
+role: 管理者
+level: 中級者
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '661'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ AEM Screens Player は、キオスク対応アプリケーションです。Chro
 >
 >ポリシーの変更を同期するには、デバイスを再起動します。
 
-#### ポリシー JSON ファイルの例  {#example-policy-json-file}
+#### ポリシー JSON ファイルの例 {#example-policy-json-file}
 
 ```java
 {

@@ -10,14 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
-feature: デジタルサイネージ，コンテンツ，プレーヤー
-role: デベロッパー
-level: 中間
-translation-type: tm+mt
+feature: デジタルサイネージ、コンテンツ、プレーヤー
+role: 開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '807'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 デバイスダッシュボードを使用すると、Screens Player のアクティビティやデバイスのパフォーマンスを監視およびトラブルシューティングできます。このページでは、Screens Player や割り当てられているデバイスを監視し、確認されたパフォーマンスの問題をトラブルシューティングする方法について説明します。
 
-## デバイスコントロールセンターからの監視およびトラブルシューティング  {#monitor-and-troubleshoot-from-device-control-center}
+## デバイスコントロールセンターからの監視およびトラブルシューティング {#monitor-and-troubleshoot-from-device-control-center}
 
 デバイスダッシュボードを使用すると、アクティビティを監視し、Screens Player をトラブルシューティングできます。
 

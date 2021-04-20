@@ -1,14 +1,14 @@
 ---
 title: 機能パック 202103 のリリースノート
-description: 「2021年3月5日にリリースされたAEM Screens機能パック202103に関する情報は、このページを参照してください。」
+description: 「2021 年 3 月 5 日にリリースされた AEM Screens 機能パック 202103 について説明します。」
 feature: 機能パック
-role: デベロッパー
-level: 中間
-translation-type: tm+mt
+role: 開発者
+level: 中級者
+translation-type: ht
 source-git-commit: aa1338fad19893e56ead4bb466e4f32a90116b65
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

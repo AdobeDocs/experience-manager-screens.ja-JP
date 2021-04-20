@@ -9,14 +9,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
-feature: 画面の作成
-role: 管理者、デベロッパー
-level: 中間
-translation-type: tm+mt
+feature: Screens のオーサリング
+role: 管理者、開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ AEM Screens で&#x200B;**スケジュール**&#x200B;を使用すると、複数
 
 ## スケジュールの作成 {#creating-a-schedule}
 
-ユーズケースのすべてのアクティビティを管理するスクリーンプロジェクトのスケジュールを作成できます。
+ユーズケースのすべてのアクティビティを管理する Screens プロジェクトのスケジュールを作成できます。
 
 下の手順に従って、チャネルのスケジュールを作成します。
 

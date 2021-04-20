@@ -10,13 +10,13 @@ content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 feature: Screens の管理
-role: Administrator
-level: 中間
-translation-type: tm+mt
+role: 管理者
+level: 中級者
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

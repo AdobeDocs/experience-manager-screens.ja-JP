@@ -2,14 +2,14 @@
 title: チャネル割り当て
 seo-title: チャネル割り当て
 description: このページでは、チャネル割り当てと日分割について学びます。
-feature: オーサリング画面、チャネル割り当て
-role: 管理者、デベロッパー
-level: 中間
-translation-type: tm+mt
+feature: Screens のオーサリング、チャネル割り当て
+role: 管理者、開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1222'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 99%
 
 ## チャネル割り当てのチャネルプロパティからのチャネルプロパティ {#channel-properties}
 
-### チャネルを参照{#ref-channel}
+### チャネルを参照 {#ref-channel}
 
 「チャネルを参照」では、目的のチャネルへの参照をチャネル名かチャネルパスのどちらかで指定できます。
 
@@ -162,7 +162,7 @@ ht-degree: 99%
 >
 >さらに、チャネルごとに&#x200B;***優先度***&#x200B;を定義できます。例えば、2 つのチャネルを同じ日時または同じ月に設定する場合は、優先度の高いチャネルが最初に再生されます。優先度の最小値は 0 として設定できます。
 
-#### 同じ優先度のチャネル用コンテンツの再生  {#playing-content-for-channels-with-same-priority}
+#### 同じ優先度のチャネル用コンテンツの再生 {#playing-content-for-channels-with-same-priority}
 
 この例では、商店の日分割が示され、冬物コレクションを 12 月に同じスケジュールで表示します。しかし、その週はチャネル B が優先度 2 に設定されており、チャネル A ではなくチャネル B がそのコンテンツを再生します。
 
@@ -176,7 +176,7 @@ ht-degree: 99%
 >
 > 日分割の詳細については、以下の節を参照してください。
 >
->* [アセット内の繰り返しの処理](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
->* [チャネル内アセットの繰り返し処理](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
+>* [アセット内の繰り返しの処理](https://docs.adobe.com/content/help/ja-JP/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
+>* [チャネル内アセットの繰り返し処理](https://docs.adobe.com/content/help/ja-JP/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
 
 

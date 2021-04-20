@@ -11,13 +11,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 10b81628-46db-4122-bf9e-96f41f080055
 docset: aem65
 feature: 概要
-role: ビジネス実践者、データアーキテクト
+role: 実務担当者、データアーキテクト
 level: 初心者
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '672'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

@@ -10,14 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
-feature: オーサリング画面、エクスペリエンスフラグメント
-role: 管理者、デベロッパー
-level: 中間
-translation-type: tm+mt
+feature: Screens のオーサリング、エクスペリエンスフラグメント
+role: 管理者、開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1134'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 94%
 
 1. **We.Retail の Sites ページへの移動**
 
-   1. 「サイト」に移動し、**We.Retail** -> **米国** -> **英語** -> **機器**&#x200B;を選択し、これを画面チャネルのエクスペリエンスフラグメントとして使用するには、このページを選択します。
+   1. 「Sites」に移動し、**We.Retail**／**United States**／**English**／**Equipment** ページを選択して、これを Screens チャネルのエクスペリエンスフラグメントとして使用します。
 
    1. アクションバーの「**編集**」をクリックして、Screens チャネルのエクスペリエンスフラグメントとして使用するページを開きます。
 
@@ -89,7 +89,7 @@ ht-degree: 94%
    1. 「**アクション**」として「**新しいエクスペリエンスフラグメントを作成**」を選択します。
 
    1. 「**親パス**」を選択します。
-   1. 「**テンプレート**」を選択します。ここで&#x200B;**エクスペリエンスフラグメント — 画面のバリエーション**&#x200B;テンプレートを選択します（`/libs/settings/screens/experience-fragments/templates/experience-fragment-template-screens`フィールドの値）。
+   1. 「**テンプレート**」を選択します。ここでは、「**エクスペリエンスフラグメント - 画面のバリエーション**」テンプレート（このフィールドの `/libs/settings/screens/experience-fragments/templates/experience-fragment-template-screens` 値）を選択します。
 
    1. 「**フラグメントのタイトル**」に「**ScreensFragment**」と入力します。
 
@@ -97,7 +97,7 @@ ht-degree: 94%
 
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
-   注意：より簡単なオプションを選択するには、フィールドの右側のチェックマークをクリックして、選択ダイアログを開きます。
+   注意：オプションを選択しやすくするには、フィールドの右側にあるチェックマークをクリックして、選択ダイアログを開きます。
 
 1. **エクスペリエンスフラグメントのライブコピーの作成**
 
@@ -142,7 +142,7 @@ ht-degree: 94%
 
    e. **エクスペリエンスフラグメント**&#x200B;コンポーネントを選択し、左上の（レンチ）アイコンをクリックして、**エクスペリエンスフラグメント**&#x200B;ダイアログボックスを開きます。
 
-   f. 前述の&#x200B;**手順 3***で作成したフラグメントの* Screens ライブコピーを&#x200B;**パス**&#x200B;で選択します。
+   f. 前述の&#x200B;*手順 3* で作成したフラグメントの **Screens** ライブコピーを&#x200B;**パス**&#x200B;で選択します。
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 

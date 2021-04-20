@@ -10,14 +10,14 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
-feature: 画面の作成
-role: 管理者、デベロッパー
-level: 中間
-translation-type: tm+mt
+feature: Screens のオーサリング
+role: 管理者、開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 99%
 
    1. 同様に、「**Sheets A1 2**」を選択し、「**編集**」をクリックします。
 
-   1. 「**比較 : プロパティ - 値**」を選択し、設定アイコンをクリックしてプロパティを編集します。
+   1. 「**比較：プロパティ - 値**」を選択し、設定アイコンをクリックしてプロパティを編集します。
    1. 「**プロパティ名**」のドロップダウンから「**googlesheets/value/1/0**」を選択します。
 
    1. 「**演算子**」のドロップダウンメニューから「**次よりも小さい**」を選択します

@@ -4,13 +4,13 @@ seo-title: 拡張機能としての Chrome プレーヤーの使用
 description: ここでは、Chrome プレーヤーをブラウザー拡張機能としてインストールする方法を説明します。
 seo-description: 'null'
 feature: Screens の管理
-role: Administrator
-level: 中間
-translation-type: tm+mt
+role: 管理者
+level: 中級者
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,13 +33,13 @@ Chrome OS プレーヤーは、実際の Chrome プレーヤーデバイスが�
 
 1. 右上隅の「**デベロッパーモード**」をオンにします。
 
-1. 左上隅の「**パッケージ化されていない拡張機能を読み込む**」をクリックし、解凍した Chrome OS プレーヤーを読み込みます。
+1. 左上隅の「**パッケージ化されていない拡張機能を読み込む**」をクリックし、解凍した Chrome プレーヤーを読み込みます。
 
 1. AEM Screens Chrome Player プラグインが拡張機能の一覧にあれば、それをオンにします。
 
 1. 新しいタブを開き、左上隅の「アプリ」アイコンをクリックするか、`chrome://apps` に直接移動します。
 
-1. 「**AEM Screens プラグイン**」をクリックして、Chrome OS プレーヤーを起動します。
+1. 「**AEM Screens プラグイン**」をクリックして、Chrome プレーヤーを起動します。
    >[!NOTE]
    >
    > デフォルトでは、プレーヤーはフルスクリーンモードで起動します。**Esc** キーを押すと、フルスクリーンモードが終了します。

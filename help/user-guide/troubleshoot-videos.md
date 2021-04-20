@@ -1,7 +1,7 @@
 ---
 title: ビデオ再生の設定とトラブルシューティング
 seo-title: ビデオのトラブルシューティング
-description: チャネルでのビデオ再生のデバッグおよびトラブルシューティングの方法については、このページに従ってください。
+description: このページでは、チャネルでのビデオ再生のデバッグおよびトラブルシューティングの方法について説明します。
 seo-description: このページでは、ビデオをトラブルシューティングする方法について説明します。ビデオを DAM にアップロードしてチャネルに追加するときに、ビデオが Screens Player で再生されないという問題が発生する場合があります。ここでは、チャネルで再生されるビデオをデバッグおよびトラブルシューティングする方法について説明します。
 uuid: 825b2440-5626-40d5-8c93-7689c24474d4
 contentOwner: Jyotika Syal
@@ -10,13 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 feature: チャネル、インタラクティブ
-role: デベロッパー
-level: 中間
-translation-type: tm+mt
+role: 開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '848'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 97%
 
 以下の節では、チャネルで再生されるビデオをデバッグおよびトラブルシューティングする方法について説明します。
 
-## DAM レンディション     {#dam-renditions}
+## DAM レンディション    {#dam-renditions}
 
 ビデオをチャネルにアップロードすると、AEM によってそのビデオの一部のレンディションの作成が開始されます。ビデオは Assets で表示できます。
 
@@ -74,7 +74,7 @@ ffmpeg がインストールされていること、およびビデオプロフ�
    >
    >ビデオのトランスコードに十分な時間をかけてから（「処理しています」ではなく「新規」というタグが表示されます）、ビデオをチャネルに追加するようにしてください。
 
-### ビデオコンポーネントでのプロファイルの確認     {#checking-profile-with-a-video-component}
+### ビデオコンポーネントでのプロファイルの確認    {#checking-profile-with-a-video-component}
 
 ビデオコンポーネントが正しく設定されない場合は、ページデザインからプロファイルのリストを確認します。
 

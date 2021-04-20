@@ -10,13 +10,13 @@ topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
 feature: Screens の開発
-role: デベロッパー
-level: 中間
-translation-type: tm+mt
+role: 開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1856'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,15 +41,15 @@ ht-degree: 99%
 
 このチュートリアルを完了するには、以下が必要です。
 
-1. [AEM 6.4](https://helpx.adobe.com/jp/experience-manager/6-4/release-notes.html) または [AEM 6.3](https://helpx.adobe.com/jp/experience-manager/6-3/release-notes.html) + 最新の Screens 機能パック
+1. [AEM 6.4](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/release-notes/release-notes.html) または [AEM 6.3](https://helpx.adobe.com/jp/experience-manager/6-3/release-notes.html) + 最新の Screens 機能パック
 1. [AEM Screens Player](/help/user-guide/aem-screens-introduction.md)
 1. ローカル開発環境
 
-チュートリアルの手順とスクリーンショットは、CRXDE-Lite を使用して実行します。[Eclipse](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/aem-eclipse.html) IDE または [IntelliJ](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/ht-intellij.html) IDE を使用しても、このチュートリアルを完了できます。AEM での開発に IDE を使用する方法について詳しくは、[こちら](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#eclipse-ide)を参照してください。
+チュートリアルの手順とスクリーンショットは、CRXDE-Lite を使用して実行します。[Eclipse](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/developing/devtools/aem-eclipse.html) IDE または [IntelliJ](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/developing/devtools/ht-intellij.html) IDE を使用しても、このチュートリアルを完了できます。AEM での開発に IDE を使用する方法について詳しくは、[こちら](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#eclipse-ide)を参照してください。
 
 ## プロジェクトのセットアップ {#project-setup}
 
-Screens プロジェクトのソースコードは、通常、マルチモジュールの Maven プロジェクトとして管理されます。このチュートリアルを効率よく進めるために、[AEM プロジェクトアーキタイプ 13](https://github.com/adobe/aem-project-archetype) を使用してプロジェクトを事前に生成してあります。Maven AEM プロジェクトアーキタイプを使用したプロジェクトの作成について詳しくは、[こちら](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#maven-multimodule)を参照してください。
+Screens プロジェクトのソースコードは、通常、マルチモジュールの Maven プロジェクトとして管理されます。このチュートリアルを効率よく進めるために、[AEM プロジェクトアーキタイプ 13](https://github.com/adobe/aem-project-archetype) を使用してプロジェクトを事前に生成してあります。Maven AEM プロジェクトアーキタイプを使用したプロジェクトの作成について詳しくは、[こちら](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#maven-multimodule)を参照してください。
 
 1. **CRX パッケージマネージャー**（`http://localhost:4502/crx/packmgr/index.jsp)r:`）を使用して、次のパッケージをダウンロードしてインストールします。
 
@@ -77,7 +77,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
 ポスターコンポーネントは、Screens に標準搭載の画像コンポーネントを拡張したものです。Sling の `sling:resourceSuperType` メカニズムを使用すると、画像コンポーネントのコア機能をコピーして貼り付けなくても継承できるようになります。Sling のリクエスト処理の基本について詳しくは、[こちら](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/the-basics.html#SlingRequestProcessing)を参照してください。
 
-ポスターコンポーネントは、プレビュー／実稼働モードではフルスクリーンでレンダリングされます。編集モードでは、シーケンスチャネルのオーサリングを容易におこなえるように、コンポーネントをフルスクリーン以外でレンダリングすることが重要です。
+ポスターコンポーネントは、プレビュー／実稼動モードではフルスクリーンでレンダリングされます。編集モードでは、シーケンスチャネルのオーサリングを容易におこなえるように、コンポーネントをフルスクリーン以外でレンダリングすることが重要です。
 
 1. **CRXDE Lite**（`http://localhost:4502/crx/de/index.jsp`）または任意の IDE で、`/apps/weretail-run/components/content` の下に `poster` という名前の新しい `cq:Component` を作成します。
 
@@ -281,7 +281,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
    </div>
    ```
 
-   上記は、ポスターコンポーネントの実稼働用マークアップです。HTL スクリプトで `screens/core/components/content/image/production.html` が上書きされます。`image.js` は、POJO に似た画像オブジェクトを作成するサーバー側スクリプトです。この画像オブジェクトを呼び出して、`src` をインラインスタイルの背景画像としてレンダリングできます。
+   上記は、ポスターコンポーネントの実稼動用マークアップです。HTL スクリプトで `screens/core/components/content/image/production.html` が上書きされます。`image.js` は、POJO に似た画像オブジェクトを作成するサーバー側スクリプトです。この画像オブジェクトを呼び出して、`src` をインラインスタイルの背景画像としてレンダリングできます。
 
    `The h1` タグと h2 タグを追加して、コンポーネントプロパティ `${properties.jcr:title}` および `${properties.jcr:description}` に基づいて「タイトル」と「説明」を表示します。
 
@@ -321,7 +321,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
 クライアント側ライブラリは、AEM の実装で必要な CSS および JavaScript ファイルの編成および管理のための仕組みを提供します。クライアント側ライブラリの使用の詳細については、[こちら](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/clientlibs.html)を参照してください。
 
-AEM Screens コンポーネントは、編集モードとプレビュー／実稼働モードではレンダリングが異なります。2 組のクライアントライブラリが作成されます。1 つは編集モード用、もう 1 つはプレビュー／実稼働用です。
+AEM Screens コンポーネントは、編集モードとプレビュー／実稼動モードではレンダリングが異なります。2 組のクライアントライブラリが作成されます。1 つは編集モード用、もう 1 つはプレビュー／実稼動用です。
 
 1. ポスターコンポーネントのクライアント側ライブラリ用のフォルダーを作成します。
 
@@ -342,9 +342,9 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
    /apps/weretail-run/components/content/poster/clientlibs/shared のプロパティ
 
-   `categories` プロパティは、クライアントライブラリを識別する文字列です。`cq.screens.components` カテゴリは、編集モードとプレビュー／実稼働モードの両方で使用されます。したがって、`shared` クライアントライブラリに定義された CSS／JS は、すべてのモードに読み込まれます。
+   `categories` プロパティは、クライアントライブラリを識別する文字列です。`cq.screens.components` カテゴリは、編集モードとプレビュー／実稼動モードの両方で使用されます。したがって、`shared` クライアントライブラリに定義された CSS／JS は、すべてのモードに読み込まれます。
 
-   実稼働環境では、直接 /apps にパスを公開しないことをお勧めします。`allowProxy` プロパティにより、クライアントライブラリの CSS と JS が `/etc.clientlibs` というプレフィックスを付けて参照されるようになります。allowProxy について詳しくは、[こちら](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/clientlibs.html#main-pars_title_8ced)を参照してください。
+   実稼動環境では、直接 /apps にパスを公開しないことをお勧めします。`allowProxy` プロパティにより、クライアントライブラリの CSS と JS が `/etc.clientlibs` というプレフィックスを付けて参照されるようになります。allowProxy について詳しくは、[こちら](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/clientlibs.html#main-pars_title_8ced)を参照してください。
 
 1. 共有フォルダーの下に `css.txt` という名前のファイルを作成します。
 
@@ -423,9 +423,9 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
    ![2018-05-03_at_1114pm](assets/2018-05-03_at_1114pm.png)
 
-1. 実稼働用クライアントライブラリの `categories` プロパティを `cq.screens.components.production.` に更新します。
+1. 実稼動用クライアントライブラリの `categories` プロパティを `cq.screens.components.production.` に更新します。
 
-   `cq.screens.components.production` カテゴリにより、プレビュー／実稼働モードの場合のみ、スタイルが読み込まれるようになります。
+   `cq.screens.components.production` カテゴリにより、プレビュー／実稼動モードの場合のみ、スタイルが読み込まれるようになります。
 
    ![/apps/weretail-run/components/content/poster/clientlibs/production のプロパティ](assets/2018-04-30_at_5_04pm.png)
 
@@ -490,9 +490,9 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
 | クライアントライブラリカテゴリ | 使用方法 |
 |---|---|
-| `cq.screens.components` | スタイルとスクリプトが編集モードと実稼働モードの両方で共有される |
+| `cq.screens.components` | スタイルとスクリプトが編集モードと実稼動モードの両方で共有される |
 | `cq.screens.components.edit` | スタイルとスクリプトが編集モードでのみ使用される |
-| `cq.screens.components.production` | スタイルとスクリプトが実稼働モードでのみ使用される |
+| `cq.screens.components.production` | スタイルとスクリプトが実稼動モードでのみ使用される |
 
 ## シーケンスチャネルへのポスターコンポーネントの追加 {#add-sequence-channel}
 

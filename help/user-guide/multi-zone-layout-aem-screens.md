@@ -10,14 +10,14 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
-feature: 画面の作成
-role: 管理者、デベロッパー
-level: 中間
-translation-type: tm+mt
+feature: Screens のオーサリング
+role: 管理者、開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1202'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

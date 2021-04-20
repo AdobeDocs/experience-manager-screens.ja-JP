@@ -4,18 +4,18 @@ seo-title: 機能パック 202001 のリリースノート
 description: 2020 年 1 月 31 日にリリースされた AEM Screens 機能パック 202001 について説明します。
 seo-description: 2020 年 1 月 31 日にリリースされた AEM Screens 機能パック 202001 について説明します。
 feature: 機能パック
-role: デベロッパー
-level: 中間
-translation-type: tm+mt
+role: 開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
-# 機能パック 202001 のリリースノート{#release-notes-for-feature-pack}
+# 機能パック 202001 のリリースノート {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
@@ -27,9 +27,12 @@ AEM 6.4 機能パック 7 および AEM 6.5 機能パック 3 向けの AEM Scre
 
 AEM Screens 機能パック 202001 のリリース日は 2020 年 1 月 31 日です。
 
-### 最新情報 {#what-s-new}
+### 新機能 {#what-s-new}
 
 * **アセット再生のコマンド同期**
+
+
+
 
 コマンド同期を使用すると、異なるプレーヤー間で再生を同期させることができます。プレーヤーごとに異なるコンテンツを再生できますが、各アセットの再生時間は同じにする必要があります。
 コマンド同期およびマスターとクライアントを設定する方法について詳しくは、[コマンド同期の使用](using-command-sync.md)を参照してください。
@@ -39,9 +42,9 @@ AEM Screens プロジェクトを実行する前に、ヘルスチェックフ�
 
    ヘルスチェックフレームワークの詳細については、[ヘルスチェックフレームワーク](/help/user-guide/configuring-screens-introduction.md#health-check-framework)を参照してください。
 
-* **デフォルトのトランジション**
-タイプの更新 
-**** Typeがデフォルトで「Fade」と「 **** Durationas 1600 ms **** 」に設定され ****&#x200B;ました。
+* **デフォルトのトランジションタイプの更新**
+トランジションコンポーネントのプロパティは、例えば、 
+**タイプ**&#x200B;は&#x200B;**フェード**&#x200B;に、**デュレーション (ms)** は **1600** にデフォルトで設定されるようになりました。
 
    詳細については、[トランジションの適用](/help/user-guide/applying-transitions.md)使用例を参照してください。
 

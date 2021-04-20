@@ -2,14 +2,14 @@
 title: キックスタートガイド
 seo-title: キックスタートガイド
 description: このページの説明に従って、AEM Screens のデモプロジェクトを作成します。インストールして新しいプロジェクトをセットアップしてから、AEM Screens Player でコンテンツを表示するまでの、デジタルサイネージエクスペリエンスを作成できます。
-feature: 概要、デジタル署名
-role: 業務担当者
+feature: 概要、デジタルサイネージ
+role: 実務担当者
 level: 初心者
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1323'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

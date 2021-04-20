@@ -3,14 +3,14 @@ title: チャネルの作成と管理
 seo-title: チャネルの管理
 description: このページに従って、チャネルの作成および管理について学びます。また、チャネルダッシュボードおよびチャネルのコンテンツの編集も説明します。
 seo-description: このページに従って、チャネルの作成および管理について学びます。また、チャネルダッシュボードおよびチャネルのコンテンツの編集も説明します。
-feature: 画面の作成
-role: 管理者、デベロッパー
-level: 中間
-translation-type: tm+mt
+feature: Screens のオーサリング
+role: 管理者、開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1331'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,11 +40,11 @@ AEM Screens 用のプロジェクトを作成したら、以下の手順に従�
 
 1. **作成**&#x200B;ウィザードで「**シーケンスチャネル**」テンプレートを選択し、「**次へ**」をクリックします。
 
-   ![人口減少](assets/create-channel2.png)
+   ![demochannel](assets/create-channel2.png)
 
 1. 「タイトル」に「**ScreensChannel**」と入力し、「**作成**」をクリックします。
 
-   ![人口減少](assets/create-project4.png)
+   ![demochannel](assets/create-project4.png)
 
 1. これで、シーケンスチャネルが&#x200B;**チャネル**&#x200B;フォルダーに追加されます。
 

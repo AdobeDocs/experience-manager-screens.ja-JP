@@ -4,13 +4,13 @@ seo-title: AEM Screens プロジェクトの Dispatcher の設定
 description: ここでは、AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインについて説明します。
 seo-description: ここでは、AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインについて説明します。
 feature: Screens の管理
-role: 開発者、開業医
-level: 中間
-translation-type: tm+mt
+role: 開発者、実務担当者
+level: 中級者
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ AEM Screens プレーヤー／デバイスは、パブリッシュインスタ�
  }
 ```
 
-1　つのディスパッチャーを経由して 1　つのパブリッシュインスタンスを使用する場合、ディスパッチャーでスティッキーセッションを有効にしても、ロードバランサーが各リクエストをディスパッチャーに送信してしまうため、役に立ちません。この場合、次の図に示すように、「**Stckiness**」フィールドの「**Enable**」をクリックして、ロードバランサーレベルで有効にします。
+1 つのディスパッチャーを経由して 1 つのパブリッシュインスタンスを使用する場合、ディスパッチャーでスティッキーセッションを有効にしても、ロードバランサーが各リクエストをディスパッチャーに送信してしまうため、役に立ちません。この場合、次の図に示すように、「**Stckiness**」フィールドの「**Enable**」をクリックして、ロードバランサーレベルで有効にします。
 
 ![画像](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 

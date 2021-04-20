@@ -1,8 +1,8 @@
 ---
-title: 接客業向けの予約状況に応じたアクティブ化
-seo-title: 接客業向けの予約状況に応じたアクティブ化
-description: 以下の使用例では、Google シートに入力された値に基づく、接客業向けの予約状況に応じたアクティブ化を示しています。
-seo-description: 以下の使用例では、Google シートに入力された値に基づく、接客業向けの予約状況に応じたアクティブ化を示しています。
+title: 接客業向けの予約状況に応じたアクティベーション
+seo-title: 接客業向けの予約状況に応じたアクティベーション
+description: 以下の使用例では、Google シートに入力された値に基づく、接客業向けの予約状況に応じたアクティベーションを示しています。
+seo-description: 以下の使用例では、Google シートに入力された値に基づく、接客業向けの予約状況に応じたアクティベーションを示しています。
 uuid: 7692d616-2b00-4d9a-9d3f-211c089b29af
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,21 +10,21 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
-feature: 画面の作成
-role: 管理者、デベロッパー
-level: 中間
-translation-type: tm+mt
+feature: Screens のオーサリング
+role: 管理者、開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# 接客業向けの予約状況に応じたアクティブ化 {#hospitality-reservation-activation}
+# 接客業向けの予約状況に応じたアクティベーション {#hospitality-reservation-activation}
 
-以下の使用例では、Google シートに入力された値に基づく、接客業向けの予約状況に応じたアクティブ化を示しています。
+以下の使用例では、Google シートに入力された値に基づく、接客業向けの予約状況に応じたアクティベーションを示しています。
 
 ## 説明 {#description}
 
@@ -34,13 +34,13 @@ ht-degree: 99%
 
 ## 前提条件 {#preconditions}
 
-予約状況に応じたアクティブ化の実装を開始する前に、AEM Screens プロジェクトで&#x200B;***データストア***、***オーディエンスのセグメント化***、***チャネルのターゲティングの有効化***&#x200B;をセットアップする方法を理解しておく必要があります。
+予約状況に応じたアクティベーションの実装を開始する前に、AEM Screens プロジェクトで&#x200B;***データストア***、***オーディエンスのセグメント化***、***チャネルのターゲティングの有効化***&#x200B;をセットアップする方法を理解しておく必要があります。
 
 詳しくは、[AEM Screens プロジェクトでの ContextHub の設定](configuring-context-hub.md)を参照してください。
 
 ## 基本フロー {#basic-flow}
 
-AEM Screens プロジェクトに「接客業向けの予約状況に応じたアクティブ化」の使用例を実装するには、以下の手順に従います。
+AEM Screens プロジェクトに「接客業向けの予約状況に応じたアクティベーション」の使用例を実装するには、以下の手順に従います。
 
 1. **Google シートにデータを入力し数式を追加する**
 

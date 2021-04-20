@@ -9,14 +9,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
-feature: 画面の作成
-role: 管理者、デベロッパー
-level: 中間
-translation-type: tm+mt
+feature: Screens のオーサリング
+role: 管理者、開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '346'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Experience Manager のリンク（左上）を選択し、「Screens」を
 >**ナビゲーションのヒント：**
 >カーソルキーを使用しても、AEM 内の様々なフォルダーを移動できます。さらに、特定のエンティティを選択し、スペースバーを押すと、その特定のフォルダーのプロパティを編集または表示できます。
 
-## 新しい Screens プロジェクトの作成  {#creating-a-new-screens-project}
+## 新しい Screens プロジェクトの作成 {#creating-a-new-screens-project}
 
 以下の手順に従って、新しい Screens プロジェクトを作成します。
 

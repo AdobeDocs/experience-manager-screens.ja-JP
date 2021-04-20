@@ -9,14 +9,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
-feature: 画面の作成
-role: 管理者、デベロッパー
-level: 中間
-translation-type: tm+mt
+feature: Screens のオーサリング
+role: 管理者、開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '727'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 99%
 
 1. 宛先を選択して、「**次へ**」をクリックします。
 1. ライブコピーの作成先を選択します。
-1. **タイトル**&#x200B;および&#x200B;**名前を****ライブコピーの作成**&#x200B;ページに入力します。
+1. **タイトル**&#x200B;および&#x200B;**名前を** **ライブコピーの作成**&#x200B;ページに入力します。
 
 1. 「**開く**」をクリックして、新しいライブコピーのコンテンツを表示するか、「**完了**」をクリックしてメインページに戻ります。
 
@@ -57,7 +57,7 @@ ht-degree: 99%
 
 ライブコピーのコンテンツを表示するには、次の手順を参照してください。
 
-1. スクリーンプロジェクトに移動して、上のセクションで示されているように、最初にライブコピーを作成した場所をクリックします（ここでは、その場所として&#x200B;**チャネル**&#x200B;フォルダーが選択されました）。
+1. Screens プロジェクトに移動して、上のセクションで示されているように、最初にライブコピーを作成した場所をクリックします（ここでは、その場所として&#x200B;**チャネル**&#x200B;フォルダーが選択されました）。
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
@@ -69,7 +69,7 @@ ht-degree: 99%
    >
    >ライブコピーチャネルのコンテンツを表示するときは、**ライブコピーステータス**&#x200B;としてメニューの中に追加項目が表示されます。詳しくは、下のセクションを参照してください。
 
-### ライブコピーのプロパティの表示  {#viewing-properties-of-a-live-copy}
+### ライブコピーのプロパティの表示 {#viewing-properties-of-a-live-copy}
 
 さらに、ライブコピーチャネルのプロパティを表示できます。
 

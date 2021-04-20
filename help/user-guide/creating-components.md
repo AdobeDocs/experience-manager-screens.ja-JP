@@ -10,13 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: cdc530d8-ef0e-4b61-b1f0-5f4d831f1392
 feature: Screens の開発
-role: デベロッパー
-level: 中間
-translation-type: tm+mt
+role: 開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '335'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ AEM コンポーネントを使用して、Web ページ上で使用できるコ
 
 | **コンポーネント** | **レンディション** |
 |---|---|
-| *my-component/my-component.html* | 実稼働レンダリング |
+| *my-component/my-component.html* | 実稼動レンダリング |
 | *my-component/edit.html* | 小さいビューでのレンダリングの編集 |
 
 組み込みのコンポーネントでは、次のクライアントライブラリカテゴリが使用されます。

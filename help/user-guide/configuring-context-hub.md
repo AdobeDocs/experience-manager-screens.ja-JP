@@ -11,13 +11,13 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 feature: Screens の開発
-role: デベロッパー
-level: 中間
-translation-type: tm+mt
+role: 開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1535'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ AEM Screens プロジェクト用に Context Hub の設定を開始する前に�
 
 >[!IMPORTANT]
 >
->次の例では、値の取得先となるサンプルデータベースシステムとして Google シートを使用していますが、この Google シートはあくまで教育用のものです。アドビでは、実稼働環境への Google シートの使用はお勧めしません。
+>次の例では、値の取得先となるサンプルデータベースシステムとして Google シートを使用していますが、この Google シートはあくまで教育用のものです。アドビでは、実稼動環境への Google シートの使用はお勧めしません。
 >
 >詳しくは、Google ドキュメントの [Get an API Key](https://developers.google.com/maps/documentation/javascript/get-api-key) を参照してください。
 
@@ -78,7 +78,7 @@ Google シートが正しく設定されると、次のように表示されま�
 
 1. **ContextHub に移動する**
 
-   AEM インスタンスに移動し、左側のサイドバーにあるツールアイコンをクリックします。**サイト**／**ContextHub** をクリックします（下図を参照）。
+   AEM インスタンスに移動し、左側のサイドバーにあるツールアイコンをクリックします。**Sites**／**ContextHub** をクリックします（下図を参照）。
 
    ![画像](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -103,7 +103,7 @@ Google シートが正しく設定されると、次のように表示されま�
       >
       >AEM 6.5 機能パック 4 または AEM 6.4 機能パック 8 の一部として、`/conf/screens/settings/cloudsettings` を `sling:Folder` に更新する必要があります。
       >
-      >その場合は、次の手順に従います。
+      >次の手順に従います。
       >
       >1. CRXDE Lite に移動してから`/conf/screens/settings/cloudsettings`に移動します。
       >1. `cloudsettings jcr:primaryType` が `sling:Folder` にあるかどうかを確認します。`jcr:primaryType` が `sling:folder` にない場合は、次の手順に進みます。
@@ -245,7 +245,7 @@ json を定義するプロセスをスキップし、空白のままにしてお
 
       ![画像](/help/user-guide/assets/context-hub/context-hub16.png)
 
-## 手順 5：オーディエンスのセグメントの編集{#editing-audience-segmentation}
+## 手順 5：オーディエンスのセグメントの編集 {#editing-audience-segmentation}
 
 1. **セグメントを編集する**
 
@@ -253,7 +253,7 @@ json を定義するプロセスをスキップし、空白のままにしてお
 
    1. **Higherthan50** セグメントを選択し、アクションバーの「**編集**」をクリックします。
 
-   1. **比較 : プロパティ - 値**&#x200B;コンポーネントをエディターにドラッグ＆ドロップします。
+   1. **比較：プロパティ - 値**&#x200B;コンポーネントをエディターにドラッグ＆ドロップします。
 
    1. レンチアイコンをクリックして、**プロパティと値の比較**&#x200B;ダイアログボックスを開きます。
 
@@ -274,7 +274,7 @@ json を定義するプロセスをスキップし、空白のままにしてお
       ![画像](/help/user-guide/assets/context-hub/context-hub18.png)
    同様に、プロパティ値を **Lowerthan50** へと編集します。
 
-   1. **比較 : プロパティ - 値**&#x200B;コンポーネントをエディターにドラッグ＆ドロップします。
+   1. **比較：プロパティ - 値**&#x200B;コンポーネントをエディターにドラッグ＆ドロップします。
 
    1. レンチアイコンをクリックして、**プロパティと値の比較**&#x200B;ダイアログボックスを開きます。
 

@@ -5,13 +5,13 @@ description: このページでは、テキストオーバーレイのカスタ�
 seo-description: このページでは、テキストオーバーレイのカスタムブランディングとスタイル設定を適用する方法について説明します。
 contentOwner: Jyotika Syal
 feature: Screens の開発
-role: デベロッパー
-level: 中間
-translation-type: tm+mt
+role: 開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '630'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

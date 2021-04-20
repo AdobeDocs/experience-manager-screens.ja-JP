@@ -1,14 +1,14 @@
 ---
 title: Tizen プレーヤー
 description: このページでは、Tizen プレーヤーのインストールと動作について説明します。
-feature: 画面の管理、プレイヤ
-role: Administrator
-level: 中間
-translation-type: tm+mt
+feature: Screens の管理、プレーヤー
+role: 管理者
+level: 中級者
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '910'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 99%
 1. 展開した 2 つのファイル（`AEMScreensPlayer.wgt`、`sssp_config.xml` など）をローカル Apache Web サーバーのルートディレクトリにコピーします。
 
    >[!NOTE]
-   >`AEMScreensPlayer.wgt` は実際の Tizen プレーヤーアプリケーションです。`sssp_config.xml` には、Tizen プレーヤーを　Tizen デバイスにインストールに役立つ、このマップに関する情報が記載されています。
+   >`AEMScreensPlayer.wgt` は実際の Tizen プレーヤーアプリケーションです。`sssp_config.xml` には、Tizen プレーヤーを Tizen デバイスにインストールする際に役立つ、このマップに関する情報が記載されています。
 
 1. ローカル HTTP サーバーの IP または URL を取得します（手順 2 で、ルートフォルダーではなくサブフォルダーに展開した場合は、展開したファイルを含むフォルダーのパスも取得します）。
 

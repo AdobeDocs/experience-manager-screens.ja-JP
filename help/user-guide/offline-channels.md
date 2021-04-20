@@ -11,13 +11,13 @@ topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
 feature: Screens の開発
-role: デベロッパー
-level: 中間
-translation-type: tm+mt
+role: 開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Screens Player では、***ContentSync*** テクノロジーを利用してチ�
 
 ***ContentSync*** は、更新ハンドラーを使用して、特定のプロジェクトに必要なすべてのページとアセットを解析および収集します。AEM Screens では、次の更新ハンドラーが使用されます。
 
-### 共通オプション  {#common-options}
+### 共通オプション {#common-options}
 
 * *type*：使用する更新ハンドラーのタイプ
 * *path*：リソースのパス
@@ -51,7 +51,7 @@ Screens Player では、***ContentSync*** テクノロジーを利用してチ�
 <table>
  <tbody>
   <tr>
-   <td><strong>種類</strong></td> 
+   <td><strong>タイプ</strong></td> 
    <td><strong>説明</strong></td> 
    <td><strong>オプション</strong></td> 
   </tr>
@@ -63,7 +63,7 @@ Screens Player では、***ContentSync*** テクノロジーを利用してチ�
   <tr>
    <td>clientlib</td> 
    <td>指定されたクライアントライブラリを収集します</td> 
-   <td>[extension="]：css か js のどちらか（前者のみか後者のみを収集するために指定）</td> 
+   <td>[extension='']：css か js のどちらか（前者のみか後者のみを収集するために指定）</td> 
   </tr>
   <tr>
    <td>assetrenditions：</td> 
@@ -91,7 +91,7 @@ ContentSync 設定をテストするには、以下の手順に従います。
 1. 解凍したフォルダーでローカルサーバーを起動します。
 1. スタートページを開き、アプリケーションの状態を確認します。
 
-## チャネルのオフライン設定の有効化  {#enabling-offline-config-for-a-channel}
+## チャネルのオフライン設定の有効化 {#enabling-offline-config-for-a-channel}
 
 チャネルのオフライン設定を有効にするには、次の手順を実行します。
 

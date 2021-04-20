@@ -1,22 +1,22 @@
 ---
 title: ビデオレンディション
 seo-title: ビデオレンディション
-description: このページに従って、スクリーンプロジェクトでのフル HD レンディションの生成について学びます。
-seo-description: このページに従って、スクリーンプロジェクトでのフル HD レンディションの生成について学びます。
+description: このページに従って、Screens プロジェクトでのフル HD レンディションの生成について学びます。
+seo-description: このページに従って、Screens プロジェクトでのフル HD レンディションの生成について学びます。
 uuid: 0a3b009e-8a97-4396-ad47-97077fe26cde
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
-feature: 画面の作成
-role: 管理者、デベロッパー
-level: 中間
-translation-type: tm+mt
+feature: Screens のオーサリング
+role: 管理者、開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

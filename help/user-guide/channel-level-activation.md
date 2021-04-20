@@ -10,19 +10,19 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-feature: オーサリング画面、チャネルレベルのアクティベーション
-role: 管理者、デベロッパー
-level: 中間
-translation-type: tm+mt
+feature: Screens のオーサリング、チャネルレベルのアクティベーション
+role: 管理者、開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1810'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# チャネルレベルのアクティベーション{#channel-level-activation-single-event-playback}
+# チャネルレベルのアクティベーション {#channel-level-activation-single-event-playback}
 
 このページでは、チャネルで使用されるアセットのチャネルレベルのアクティベーションについて説明します。
 
@@ -158,7 +158,8 @@ AEM Screens プロジェクトにチャネルレベルのアクティベーシ�
 
 >[!NOTE]
 AEM Screens Player については、次のリソースを参照してください。
-[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)[AEM Screens Player の操作](working-with-screens-player.md)
+[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)
+[AEM Screens Player の操作](working-with-screens-player.md)
 
 
 ## チャネル内アセットの繰り返し処理 {#handling-recurrence-in-assets}

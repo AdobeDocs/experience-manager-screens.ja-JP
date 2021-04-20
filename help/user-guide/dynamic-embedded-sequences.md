@@ -9,14 +9,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
-feature: 画面の作成
-role: 管理者、デベロッパー
-level: 中間
-translation-type: tm+mt
+feature: Screens のオーサリング
+role: 管理者、開発者
+level: 中級者
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2540'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 99%
 
 * **Channels** フォルダーの下に **Global** というチャネルを作成する
 
-* **Global** チャネルにコンテンツを追加する（**&#x200B;関連するアセットについては **resources.zip** を確認してください）
+* **Global** チャネルにコンテンツを追加する（*関連するアセットについては&#x200B;**resources.zip**を確認してください*）
 
 次の画像は、**Channels** フォルダーに **Global** チャネルがある **Demo** プロジェクトを示しています。![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
 
@@ -128,7 +128,7 @@ AEM Screens プロジェクトに動的埋め込みシーケンスを実装す�
 
    1. **Demo**／**Locations**／**Region A** に移動します。
    1. 「**Region A**」を選択し、アクションバーの「**+ 作成**」をクリックします。
-   1. ウィザードから「**ロケーション**」を選択し、「**タイトル**」を「**Store 1**」に設定します。同様に、ウィザードを使用して、「**タイトル**」が「**Store 2**」の別のロケーションを作成します。****「**Store 1**」と「**Store 2**」の作成時には、「**名前**」フィールドを空のままにしておくことができます。
+   1. ウィザードから「**ロケーション**」を選択し、「**タイトル**」を「**Store 1**」に設定します。同様に、ウィザードを使用して、「**タイトル**」が「**Store 2**」の別のロケーションを作成します&#x200B;**。**「**Store 1**」と「**Store 2**」の作成時には、「**名前**」フィールドを空のままにしておくことができます。
    1. 上記の 2 番目の手順を繰り返し、今度はウィザードから「**シーケンスチャネル**」を選択します。このチャネルの「**タイトル**」に「**Region A**」、「**名前**」に「**region**」と入力します。
 
    >[!CAUTION]
@@ -395,7 +395,7 @@ AEM Screens プロジェクトに動的埋め込みシーケンスを実装す�
    1. ***/content/screens/demo/locations*** に移動し、**読み取り**&#x200B;権限のみ有効にします。
    1. ***/content/screens/demo/channels*** に移動し、**Global** チャネルに対する権限を無効にします。
    1. ***/content/screens/demo/locations/region-a*** に移動し、**読み取り**&#x200B;権限のみ有効にします。同様に、**region-b** の&#x200B;**読み取り**&#x200B;権限のみ有効にします。
-   1. ***/content/screens/demo/locations***/***region-a /store-1*** に移動し、すべての権限を有効にします。同様に、**store-2、store-3、****store-4** に対する権限を有効にします。
+   1. ***/content/screens/demo/locations***/***region-a /store-1*** に移動し、すべての権限を有効にします。同様に、**store-2、store-3**、**store-4** に対する権限を有効にします。
 
    この手順の参考として、次の図を参照してください。
 

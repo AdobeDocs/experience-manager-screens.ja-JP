@@ -7,9 +7,9 @@ getting-started-description: AEM Screens Best Practices Guide provides guidance 
 feature-set: Experience Manager Screens
 product: experience manager
 audience: end-user
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
    + [デジタルサイネージプロジェクトの主要要素](getting-started-digital-signage.md)
    + [推奨されるアプローチ](recommended-approach.md)
 + 戦略概要の説明 {#strategic-brief}
-   + [プロジェクト範囲を定義する際の考慮事項](pre-sales-considerations.md)
+   + [プロジェクト範囲を定義する際の検討事項](pre-sales-considerations.md)
    + [UX 戦略におけるビジネスコンテンツ](business-content-strategy.md)
    + [UX の依存関係](ux-dependencies.md)
    + [Analytics との統合](analytics.md)

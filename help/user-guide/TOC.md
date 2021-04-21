@@ -24,7 +24,7 @@ ht-degree: 100%
    + [キーワード](screens-glossary.md)
 + デジタルサイネージネットワークの基礎知識 {#digital-signage-network}
    + [第 1 部：プロジェクト上の役割と責務](project-roles-responsibilities.md)
-   + [第 2 部：プロジェクト範囲を定義する際の考慮事項](project-considerations.md)
+   + [第 2 部：プロジェクト範囲を定義する際の検討事項](project-considerations.md)
    + [第 3 部：テスト、POC、パイロット、ロールアウト](testing-pocs-pilots-rollouts.md)
    + [第 4 部：プロジェクトの管理とデプロイメント](project-management-and-deployment.md)
    + [第 5 部：サポートに関する考慮事項](support-considerations.md)

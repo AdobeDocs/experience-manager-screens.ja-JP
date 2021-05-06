@@ -5,11 +5,11 @@ audience: end-user
 user-guide-title: Adobe Experience Manager Screens ヘルプ
 breadcrumb-title: AEM Screens ガイド
 user-guide-description: 動的でインタラクティブなデジタルエクスペリエンスおよびインタラクションの公開を可能にするデジタル署名ソリューションの使用方法について説明します。
-translation-type: ht
-source-git-commit: fe83efff8f4078c45ee03ec24c83544ae30816ab
-workflow-type: ht
-source-wordcount: '440'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e0e6a865bcdec88d8c9096d66b5ac3ce5227dbc3
+workflow-type: tm+mt
+source-wordcount: '445'
+ht-degree: 98%
 
 ---
 
@@ -104,6 +104,7 @@ ht-degree: 100%
    + [AEM Screens プロジェクトでの ContextHub の設定](configuring-context-hub.md)
    + [マルチゾーンレイアウトでのカスタムテンプレートの作成](creating-custom-templates-multizone-layouts.md)
    + [テキストオーバーレイのカスタムブランディングとスタイルの適用](custom-branding-text-overlays.md)
+   + [ワークフローによるチャネルの更新の自動化](automate-channel-updates-workflow.md)
 + トラブルシューティングと FAQ {#troubleshooting}
    + [AEM Screens の FAQ](aem-screens-faqs.md)
    + [デバイスコントロールセンターからのトラブルシューティング](monitoring-screens.md)

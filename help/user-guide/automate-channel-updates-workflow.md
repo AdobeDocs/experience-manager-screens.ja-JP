@@ -9,10 +9,9 @@ topic-tags: developing
 feature: Screens の開発
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 1667fd10f415214a5301e9740d205eb33cc34f89
+source-git-commit: 8d1633dab9e70ea988516cf9ee4d1b0a780bc7e9
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '536'
 ht-degree: 4%
 
 ---
@@ -20,7 +19,7 @@ ht-degree: 4%
 
 # ワークフローを使用したAEM Screensチャネルのアセットの更新の自動化{#automate-channel-updates-workflow}
 
-Adobe Experience Managerにアップロードされたアセットを自動的に処理し、アセットを画面チャネルに動的に割り当てるワークフローを作成する方法について説明します。 この例では、画像が特定のフォルダーに追加されると、動的な透かしを適用し、画像を画面チャネルーに割り当てるワークフローがトリガーされます。 この例で学んだ教訓は、様々な自動化シナリオに適用できます。
+Adobe Experience Managerにアップロードされたアセットを自動的に処理し、アセットを画面チャネルに動的に割り当てるワークフローを作成する方法について説明します。 この例では、画像が特定のフォルダーに追加されると、動的テキストオーバーレイ（透かしプロセス）を適用し、画像をScreensチャネルーに割り当てるワークフローがトリガーされます。 この例で学んだ教訓は、様々な自動化シナリオに適用できます。
 
 ## 前提条件 {#prerequisites}
 

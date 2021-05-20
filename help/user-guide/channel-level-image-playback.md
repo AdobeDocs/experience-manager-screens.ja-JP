@@ -10,17 +10,16 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
-feature: Authoring Screens
+feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '365'
+exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '362'
 ht-degree: 100%
 
 ---
-
 
 # チャネルレベルの一括画像再生時間 {#channel-level-bulk-image-playback-duration}
 
@@ -78,4 +77,3 @@ ht-degree: 100%
 チャネルの再生時間（この例では 3 つの画像すべての再生時間）を更新すると、画像が 8 秒間（デフォルト値）ではなく 3 秒間再生されるようになります。
 
 ![channel_preview](assets/channel_preview.gif)
-

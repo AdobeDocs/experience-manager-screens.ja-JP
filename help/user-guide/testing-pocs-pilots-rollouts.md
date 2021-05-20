@@ -10,17 +10,16 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 157185f9-c5e3-4a5b-badc-9becb26f1b27
 docset: aem65
-feature: Overview
+feature: 概要
 role: Business Practitioner, Data Architect
 level: Beginner
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '571'
+exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '566'
 ht-degree: 100%
 
 ---
-
 
 # 第 3 部：テスト、POC、パイロット、ロールアウト {#part-testing-pocs-pilots-rollouts}
 

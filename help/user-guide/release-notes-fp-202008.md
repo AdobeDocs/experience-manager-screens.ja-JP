@@ -1,17 +1,16 @@
 ---
 title: 機能パック 202008 のリリースノート
 description: 「2020 年 9 月 3 日にリリースされた AEM Screens 機能パック 202008 について説明します。」
-feature: Feature Pack
+feature: 機能パック
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '343'
+exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '341'
 ht-degree: 100%
 
 ---
-
 
 # 機能パック 202008 のリリースノート {#release-notes-for-feature-pack}
 

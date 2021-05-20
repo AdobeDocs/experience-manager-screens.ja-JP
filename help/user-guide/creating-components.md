@@ -9,17 +9,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: cdc530d8-ef0e-4b61-b1f0-5f4d831f1392
-feature: Developing Screens
+feature: Screens の開発
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '335'
+exl-id: 4d673039-4963-458a-89e9-023a993dd354
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '333'
 ht-degree: 100%
 
 ---
-
 
 # コンポーネントの作成 {#creating-components}
 
@@ -59,4 +58,3 @@ AEM コンポーネントを使用して、Web ページ上で使用できるコ
 >[!NOTE]
 >
 >カスタムコンポーネントを開発する場合は、[AEM Screens のサンプルコンポーネントテンプレート](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)を使用してください。
-

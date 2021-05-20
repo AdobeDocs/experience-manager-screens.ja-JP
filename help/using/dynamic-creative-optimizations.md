@@ -3,14 +3,13 @@ title: データトリガー
 seo-title: データトリガー
 description: ここでは、データトリガーについて説明します
 seo-description: ここでは、データトリガーについて説明します
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+exl-id: 23c4268e-48be-4c84-b5eb-c96152b166f7
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
 
 ---
-
 
 # Dynamic Creative Optimization {#dynamic-creative}
 
@@ -41,4 +40,3 @@ DCO を含む視覚的マーチャンダイジング戦略を採用すると、�
 
 * **ローカルデータトリガー**：デバイス上でローカルに発生するデータトリガーです。例えば、画面をタッチすると、センサーが作動し、ローカルデータアセットまたはチャネルの切り替えがトリガーされます。
 * **リモートデータトリガー**：Web サービス API から返された値に基づいて、チャネルまたはアセットの切り替えがトリガーされます。
-

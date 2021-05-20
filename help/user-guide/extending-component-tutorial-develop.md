@@ -9,17 +9,16 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
-feature: Developing Screens
+feature: Screens の開発
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '1856'
+exl-id: e316614f-2d40-4b62-a1e5-f30817def742
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1854'
 ht-degree: 100%
 
 ---
-
 
 # AEM Screens コンポーネントの拡張 {#extending-an-aem-screens-component}
 
@@ -53,7 +52,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
 1. **CRX パッケージマネージャー**（`http://localhost:4502/crx/packmgr/index.jsp)r:`）を使用して、次のパッケージをダウンロードしてインストールします。
 
-   [ファイルを入手](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
+[ファイルを入手](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
    [ファイルを入手](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
    **（オプション）** Eclipse などの IDE を使用して作業する場合は、以下のソースパッケージをダウンロードします。次の Maven コマンドを使用して、プロジェクトをローカルの AEM インスタンスにデプロイします。
@@ -62,7 +61,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
    SRC Start Screens We.Retail Run Project
 
-   [ファイルを入手](assets/start-poster-screens-weretail-run.zip)
+[ファイルを入手](assets/start-poster-screens-weretail-run.zip)
 
 1. **CRX パッケージマネージャー**（`http://localhost:4502/crx/packmgr/index.jsp`）で、次の 2 つのパッケージがインストールされていることを確認します。
 

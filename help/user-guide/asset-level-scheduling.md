@@ -3,17 +3,16 @@ title: アセットレベルのアクティベーション
 seo-title: アセットレベルのアクティベーション
 description: ここでは、プレーヤーのローカルタイムゾーンで予定時間枠にチャネル内の特定のアセットをアクティブにする方法について説明します。
 seo-description: ここでは、プレーヤーのローカルタイムゾーンで予定時間枠にチャネル内の特定のアセットをアクティブにする方法について説明します。
-feature: Authoring Screens, Asset Level Activation
+feature: Screens のオーサリング、アセットレベルのアクティベーション
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '1453'
+exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1450'
 ht-degree: 100%
 
 ---
-
 
 # アセットレベルのアクティベーション {#asset-level-scheduling}
 
@@ -223,4 +222,3 @@ ht-degree: 100%
    >複数アセットのアクティベーションが設定されているアセットの右上隅にスケジュールアイコンが表示されます。
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
-

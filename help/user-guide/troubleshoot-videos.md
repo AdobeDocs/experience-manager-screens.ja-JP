@@ -9,17 +9,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
-feature: Channels, Interactive
+feature: チャネル、インタラクティブ
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '848'
+exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '846'
 ht-degree: 100%
 
 ---
-
 
 # ビデオ再生の設定とトラブルシューティング {#video-playback-configuration-and-troubleshooting}
 
@@ -27,7 +26,7 @@ ht-degree: 100%
 
 以下の節では、チャネルで再生されるビデオをデバッグおよびトラブルシューティングする方法について説明します。
 
-## DAM レンディション    {#dam-renditions}
+## DAM レンディション     {#dam-renditions}
 
 ビデオをチャネルにアップロードすると、AEM によってそのビデオの一部のレンディションの作成が開始されます。ビデオは Assets で表示できます。
 
@@ -74,7 +73,7 @@ ffmpeg がインストールされていること、およびビデオプロフ�
    >
    >ビデオのトランスコードに十分な時間をかけてから（「処理しています」ではなく「新規」というタグが表示されます）、ビデオをチャネルに追加するようにしてください。
 
-### ビデオコンポーネントでのプロファイルの確認    {#checking-profile-with-a-video-component}
+### ビデオコンポーネントでのプロファイルの確認     {#checking-profile-with-a-video-component}
 
 ビデオコンポーネントが正しく設定されない場合は、ページデザインからプロファイルのリストを確認します。
 
@@ -158,4 +157,3 @@ Google の自動再生ポリシーフラグに関する問題をトラブルシ�
 1. 2 台以上のプレーヤーを起動します。
 
 プレーヤーが新しく割り当てられたシーケンスを開始するまでに時間がかかることがあります。
-

@@ -1,7 +1,6 @@
 ---
 title: プレーヤーデバイスのハードウェア選定ガイドライン
 description: プレーヤーデバイスのハードウェア選定ガイドライン
-translation-type: tm+mt
 source-git-commit: 7fdd812c71c995424a27db18264ef2db420d5717
 workflow-type: tm+mt
 source-wordcount: '220'

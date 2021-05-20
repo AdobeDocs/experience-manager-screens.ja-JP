@@ -10,17 +10,16 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-feature: Administering Screens, Windows Player
+feature: Screens の管理、Windows プレーヤー
 role: Administrator
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '1003'
+exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1001'
 ht-degree: 100%
 
 ---
-
 
 # Windows 10 プレーヤーの実装 {#implementing-windows-player}
 
@@ -104,7 +103,7 @@ Windows 10 プレーヤーを設定するには、次の手順を実行します
 1. 設定ファイルは ***%appdata%\com.adobe.aem.screens.player\config.json*** の下にあります。
 1. 後述の情報を使用して設定 JSON を更新し、同じフォルダーをプレーヤーが存在するすべてのシステムにコピーします。
 
-### ポリシー属性 {#policy-attributes}
+### ポリシー属性  {#policy-attributes}
 
 次の表に、参照用のポリシー JSON の例と共にポリシー属性を示します。
 
@@ -115,9 +114,9 @@ Windows 10 プレーヤーを設定するには、次の手順を実行します
 | rebootSchedule | プレーヤーを再起動するスケジュール。 |
 | enableAdminUI | サイト上でデバイスを設定するための Admin UI を有効にします。完全に設定されて運用が開始したら、false に設定します。 |
 | enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。完全に設定されて運用が開始したら、false に設定することを検討します。 |
-| enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にしておき、完全に設定されて運用が開始したら無効にします。 |
+| enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にし、完全に設定されて実稼動になったら無効にします。 |
 
-#### ポリシー JSON ファイルの例 {#example-policy-json-file}
+#### ポリシー JSON ファイルの例  {#example-policy-json-file}
 
 ```
 {
@@ -182,4 +181,3 @@ $ShellLauncherClass.RemoveCustomShell($Admins_SID)
 
 $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 ```
-

@@ -9,17 +9,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
-feature: Administering Screens
+feature: Screens の管理
 role: Administrator
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '563'
+exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '561'
 ht-degree: 100%
 
 ---
-
 
 # ACL の設定 {#setting-up-acls}
 
@@ -73,16 +72,16 @@ AEM 管理者は、プロジェクトのチームメンバーが他のプロジ�
 |---|---|---|
 | `/apps/<project>` | READ | プロジェクトファイルへのアクセス権を付与します（該当する場合） |
 | `/content/dam/<project>` | ALL | DAM の画像やビデオなど、プロジェクトアセットへのアクセス権を付与します |
-| `/content/screens/<project>` | ALL | /content/screens 以下にある他のすべてのプロジェクトへのアクセス権を削除します |
-| `/content/screens/svc` | READ | 登録サービスへのアクセス権を付与します |
-| `/libs/screens` | READ | DCC へのアクセス権を付与します |
-| `/var/contentsync/content/screens/` | ALL | プロジェクトのオフラインコンテンツの更新を許可します |
+| `/content/screens/<project>` | すべて | /content/screens 以下にある他のすべてのプロジェクトへのアクセス権を削除します |
+| `/content/screens/svc` | 読み取り | 登録サービスへのアクセス権を付与します |
+| `/libs/screens` | 読み取り | DCC へのアクセス権を付与します |
+| `/var/contentsync/content/screens/` | すべて | プロジェクトのオフラインコンテンツの更新を許可します |
 
 >[!NOTE]
 >
 >場合によっては、作成者機能（アセットの管理やチャネルの作成など）を管理者機能（プレーヤーの登録など）から分離することができます。その場合、2 つのグループを作成して、作成者グループを寄稿者に追加し、管理者グループを寄稿者とユーザー管理者の両方に追加します。
 
-### グループの作成 {#creating-groups}
+### グループの作成  {#creating-groups}
 
 新規プロジェクトを作成する場合、基本的な権限が割り当てられたデフォルトのユーザーグループも作成します。権限を拡張して、AEM Screens 用の標準の役割を含める必要があります。
 
@@ -143,4 +142,3 @@ AEM 管理者は、プロジェクトのチームメンバーが他のプロジ�
   </tr>
  </tbody>
 </table>
-

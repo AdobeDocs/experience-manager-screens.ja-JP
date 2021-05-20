@@ -10,17 +10,16 @@ content-type: reference
 topic-tags: release-notes
 discoiquuid: 1209bd96-9de5-428e-a1b5-950507e66c0b
 docset: aem65
-feature: Feature Pack
+feature: 機能パック
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '329'
+exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '327'
 ht-degree: 100%
 
 ---
-
 
 # 機能パック 201905 のリリースノート {#release-notes-for-feature-pack}
 

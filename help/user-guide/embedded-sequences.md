@@ -10,17 +10,16 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
-feature: Authoring Screens
+feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '839'
+exl-id: cdfaee19-15d9-4bcb-bc85-0b43c59d88d2
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '836'
 ht-degree: 100%
 
 ---
-
 
 # 埋め込みシーケンス {#embedded-sequences}
 
@@ -35,14 +34,13 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Screens プロジェクトでの他のコンポーネントの使用について詳しくは、[チャネルへのコンポーネントの追加](adding-components-to-a-channel.md)を参照してください。
+>スクリーンプロジェクトでの他のコンポーネントの使用について詳しくは、[チャネルへのコンポーネントの追加](adding-components-to-a-channel.md)を参照してください。
 
-### 埋め込みシーケンスの追加 {#adding-an-embedded-sequence}
+### 埋め込みシーケンスの追加  {#adding-an-embedded-sequence}
 
 埋め込みシーケンスをチャネルに追加できます。埋め込みシーケンスは、画像またはビデオなどのアセットを含んだ別のチャネルです。埋め込みシーケンスを追加すると、ユーザーは、***チャネルパス***&#x200B;でチャネルにシーケンスを追加できます。
 
 >[!NOTE]
->
 >***チャネルパス***は、チャネルへの明示的な参照を定義します。
 >*チャネルパス*&#x200B;について詳しくは、Screens のオーサリングに関する節で[チャネル割り当て](channel-assignment.md)を参照してください。
 
@@ -69,12 +67,17 @@ ht-degree: 100%
 >1. ディスプレイに移動し、**ロケーション**&#x200B;フォルダーからディスプレイを選択します。
 >1. アクションバーの「**ダッシュボード**」をクリックして、ディスプレイダッシュボードに移動します。
 >1. **割り当てられたチャネルとスケジュール**&#x200B;パネルで「**+ チャネルを割り当て**」をクリックして、**チャネル割り当て**&#x200B;ダイアログボックスを開きます。
->
->1. （埋め込みシーケンスで使用した）チャネルのパスを「**チャネルパス**」で選択します。
+
+   >
+   >
+1. （埋め込みシーケンスで使用した）チャネルのパスを「**チャネルパス**」で選択します。
 >1. 「**優先度**」がメインチャネルよりも低いことを確認します。
->
->1. 「**サポートされているイベント**」は選択しないでください。
+
+   >
+   >
+1. 「**サポートされているイベント**」は選択しないでください。
 >1. 完了したら、「**保存**」をクリックします。
+
 >
 
 
@@ -108,4 +111,3 @@ ht-degree: 100%
 1. 「**シーケンス**」タブで、シーケンスに埋め込まれたチャネルの「**デュレーション (ms)**」を選択します。
 
 ![latest](assets/latest.gif)
-

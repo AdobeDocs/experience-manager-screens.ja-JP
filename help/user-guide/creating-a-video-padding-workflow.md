@@ -10,17 +10,16 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
-feature: Authoring Screens
+feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '608'
+exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '605'
 ht-degree: 100%
 
 ---
-
 
 # ビデオパディングワークフローの作成 {#creating-a-video-padding-workflow}
 
@@ -122,4 +121,3 @@ ht-degree: 100%
 * CRXDE Lite で ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** に移動する（下図を参照）
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)
-

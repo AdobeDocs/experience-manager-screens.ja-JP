@@ -4,17 +4,16 @@ seo-title: 永続テイクオーバーチャネル
 description: 永続テイクオーバーチャネルを作成する場合は、この使用例に従います。
 seo-description: 特定の日時に継続的に再生される永続テイクオーバーチャネルを作成するプロジェクトのセットアップについては、この使用例に従います。
 contentOwner: jsyal
-feature: Authoring Screens
+feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '863'
+exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '860'
 ht-degree: 100%
 
 ---
-
 
 # 永続テイクオーバーチャネル {#perpetual-takeover-channel}
 

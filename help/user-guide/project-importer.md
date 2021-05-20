@@ -10,23 +10,22 @@ content-type: reference
 topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
-feature: Administering Screens
+feature: Screens の管理
 role: Administrator
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '702'
+exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '700'
 ht-degree: 100%
 
 ---
-
 
 # ファイルをソースとする新しいプロジェクトインポーター {#new-project-importer-from-file}
 
 ここでは、CSV／XLS スプレッドシートから AEM Screens プロジェクトに一連のロケーションを一括で読み込む機能について説明します。
 
-## 概要 {#introduction}
+## はじめに {#introduction}
 
 AEM Screens プロジェクトを組織で初めてセットアップする場合は、すべてのロケーションも作成する必要があります。プロジェクトに多数のロケーションが含まれる場合は、UI で何回もクリックしたり待たされたりする退屈な作業になります。
 
@@ -81,6 +80,7 @@ AEM Screens プロジェクトを組織で初めてセットアップする場�
 >
 >* CSV／XLS／XLSX 拡張子以外のファイルは、現在のリリースではサポートされていません。
 >* 読み込まれるファイルに対してプロパティのフィルタリングはおこなわれず、「./」で始まるものはすべて読み込まれます。
+
 >
 
 
@@ -126,4 +126,3 @@ AEM Screens プロジェクトを組織で初めてセットアップする場�
 1. その結果、プロジェクトに読み込まれたすべてのロケーションが表示されるようになります。
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)
-

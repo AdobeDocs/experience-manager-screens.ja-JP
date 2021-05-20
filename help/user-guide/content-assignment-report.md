@@ -1,17 +1,16 @@
 ---
 title: コンテンツ割り当てレポート
 description: このページでは、コンテンツ割り当てレポートのダウンロードと使用方法について説明します。
-feature: Authoring Screens
+feature: Screens のオーサリング
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '336'
+exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '334'
 ht-degree: 100%
 
 ---
-
 
 # コンテンツ割り当てレポート {#content-assignment-report}
 
@@ -58,4 +57,3 @@ ht-degree: 100%
 1. Excel シートが、AEM Screens プロジェクト名と同じ名前のプレフィックスが付いたローカルマシンにダウンロードされます。例えば、プロジェクト名が **DemoScreens** の場合、ダウンロードされるファイル名は **demoscreens-content-assignment-report.xlxs** になります。
 
    ![画像](/help/user-guide/assets/content-assignment-report/car-download1.png)
-

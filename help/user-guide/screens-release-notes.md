@@ -9,17 +9,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: release-notes
 discoiquuid: 2a049c2c-26ee-498d-a505-a2967be7cbcd
-feature: Feature Pack
+feature: 機能パック
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '269'
+exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '267'
 ht-degree: 100%
 
 ---
-
 
 # 機能パック 201809 のリリースノート {#release-notes-for-feature-pack}
 

@@ -11,7 +11,6 @@ content-type: reference
 discoiquuid: e7218bb3-be19-46e3-8be7-ee3912bb1f2b
 docset: aem65
 targetaudience: target-audience new
-translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 workflow-type: tm+mt
 source-wordcount: '273'

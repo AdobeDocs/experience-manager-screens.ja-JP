@@ -9,17 +9,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
-feature: Authoring Screens
+feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '273'
+exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '270'
 ht-degree: 100%
 
 ---
-
 
 # デバイスの管理 {#managing-devices}
 
@@ -77,4 +76,3 @@ ht-degree: 100%
 チャネルのディスプレイへの割り当てに習熟したら、次のリソースを参照してください。
 
 * [モニターおよびトラブルシューティング](monitoring-screens.md)
-

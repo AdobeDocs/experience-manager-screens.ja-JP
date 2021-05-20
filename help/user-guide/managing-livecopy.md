@@ -9,17 +9,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
-feature: Authoring Screens
+feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '727'
+exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '724'
 ht-degree: 100%
 
 ---
-
 
 # ライブコピーの作成と管理 {#creating-and-managing-a-live-copy}
 
@@ -69,7 +68,7 @@ ht-degree: 100%
    >
    >ライブコピーチャネルのコンテンツを表示するときは、**ライブコピーステータス**&#x200B;としてメニューの中に追加項目が表示されます。詳しくは、下のセクションを参照してください。
 
-### ライブコピーのプロパティの表示 {#viewing-properties-of-a-live-copy}
+### ライブコピーのプロパティの表示  {#viewing-properties-of-a-live-copy}
 
 さらに、ライブコピーチャネルのプロパティを表示できます。
 
@@ -136,4 +135,3 @@ ht-degree: 100%
    ![chlimage_1-30](assets/chlimage_1-30.png)
 
    これで、画像もライブコピーチャネルから削除されました。
-

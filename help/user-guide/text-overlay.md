@@ -10,17 +10,16 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
-feature: Authoring Screens
+feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '853'
+exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '850'
 ht-degree: 100%
 
 ---
-
 
 # テキストオーバーレイ {#text-overlay}
 
@@ -150,18 +149,3 @@ AEM Screens プロジェクトの ContextHub 構成を設定する必要があ�
 1. 「**プレビュー**」をクリックし、出力を表示します。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -3,17 +3,16 @@ title: マルチゾーンからシングルゾーンへのトランジション�
 description: ここでは、マルチゾーンからシングルゾーンへのトランジションの使用例を示します。
 seo-description: マルチゾーンからシングルゾーンへのトランジションの使用例。
 contentOwner: Jyotika Syal
-feature: Authoring Screens
+feature: Screens のオーサリング
 role: Developer, Business Practitioner
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '407'
+exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '403'
 ht-degree: 100%
 
 ---
-
 
 # マルチゾーンからシングルゾーンへのトランジション {#multizone-to-singlezone-use-case}
 

@@ -1,14 +1,13 @@
 ---
 title: ネットワークトラフィックの管理
 description: このページでは、標準ネットワークのセットアップとネットワークトラフィックの管理方法について説明します。
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 100%
 
 ---
-
 
 # ネットワークトラフィックの管理 {#managing-network-traffic}
 

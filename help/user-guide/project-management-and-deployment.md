@@ -10,17 +10,16 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: cd1483af-8118-46ac-a2ad-42d89c05bdca
 docset: aem65
-feature: Overview
+feature: 概要
 role: Business Practitioner, Data Architect
 level: Beginner
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '728'
+exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '723'
 ht-degree: 100%
 
 ---
-
 
 # 第 4 部：プロジェクトの管理とデプロイメント {#part-project-management-and-deployment}
 
@@ -94,4 +93,3 @@ Day 1 の終わりには、NOC への引き渡しを完了することになり�
 AEM Screens プロジェクトデプロイメントのためのプロジェクト管理に関する重要な考慮事項を十分に理解したら、
 
 **[第 5 部：サポートに関する考慮事項](support-considerations.md)**&#x200B;を参照して、Day 2 でのサポートと関連プロセスを理解します。
-

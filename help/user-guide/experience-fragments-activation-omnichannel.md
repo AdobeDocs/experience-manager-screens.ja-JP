@@ -3,9 +3,8 @@ title: エクスペリエンスフラグメントアクティベーション
 seo-title: エクスペリエンスフラグメントアクティベーション
 description: エクスペリエンスフラグメントのアクティベーションについて学ぶには、使用事例の例に従ってください。
 seo-description: エクスペリエンスフラグメントのアクティベーションについて学ぶには、使用事例の例に従ってください。
-translation-type: ht
 source-git-commit: 7876c5eed8d23bbe566645feefd8eefb9aeac3f3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 100%
 

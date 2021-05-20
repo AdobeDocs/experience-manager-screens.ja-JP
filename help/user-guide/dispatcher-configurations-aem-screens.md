@@ -3,17 +3,16 @@ title: AEM Screens プロジェクトの Dispatcher の設定
 seo-title: AEM Screens プロジェクトの Dispatcher の設定
 description: ここでは、AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインについて説明します。
 seo-description: ここでは、AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインについて説明します。
-feature: Administering Screens
+feature: Screens の管理
 role: Developer, Business Practitioner
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '397'
+exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '393'
 ht-degree: 100%
 
 ---
-
 
 # AEM Screens プロジェクトの Dispatcher の設定 {#dispatcher-configurations-for-aem-screens}
 

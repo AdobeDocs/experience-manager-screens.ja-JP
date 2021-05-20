@@ -9,17 +9,16 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
-feature: Administering Screens
+feature: Screens の管理
 role: Administrator
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '469'
+exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '467'
 ht-degree: 100%
 
 ---
-
 
 # コンテンツ同期からスマート同期への移行 {#transitioning-from-contentsync-to-smartsync}
 

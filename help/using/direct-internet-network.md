@@ -1,14 +1,13 @@
 ---
 title: 直接インターネットアクセス
 description: 直接インターネットアクセス
-translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+exl-id: a393ce2f-b774-4cd5-9001-c5cc24d445ae
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 100%
 
 ---
-
 
 # 直接インターネットネットワーク（有線／ワイヤレス）{#direct-internet-access}
 
@@ -97,4 +96,3 @@ AEM Screens は、デジタルサイネージの利用者に大きなメリッ�
 >インターネットソースをリクエストしてダウンロードするネットワーク内の各デバイスの消費量が、この情報からわかります。これらのリクエストがすべて合計されて、ダウンロード時間が延長されます。
 
 ![](/help/assets/download-times-direct.png)
-

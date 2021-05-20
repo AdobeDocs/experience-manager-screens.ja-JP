@@ -3,14 +3,13 @@ title: サポートと監視
 seo-title: AEM Screens のサポートと監視
 description: ここでは、AEM Screens ベストプラクティスガイドにおける「サポートと監視」について説明します
 seo-description: ここでは、AEM Screens ベストプラクティスガイドにおける「サポートと監視」について説明します
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+exl-id: b9d6f713-e26d-4f56-bedb-2d419a19a05c
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 100%
 
 ---
-
 
 # サポートと監視 {#support-monitoring}
 
@@ -47,4 +46,3 @@ ht-degree: 100%
    * *ディスプレイ*&#x200B;の電源が入っているかどうかを確認します。
    * *コンピューター*&#x200B;の電源が入っていて信号が送信されているかどうかを確認します。
    * 右クリックし、*該当するログ*&#x200B;を調べます。
-

@@ -3,14 +3,13 @@ title: 推奨されるアプローチ
 seo-title: AEM Screens プロジェクトで推奨されるアプローチ
 description: ここでは、AEM Screens プロジェクトで推奨されるアプローチについて説明します
 seo-description: ここでは、AEM Screens プロジェクトで推奨されるアプローチについて説明します
-translation-type: tm+mt
-source-git-commit: c8be1ed0c3949091b3a10825167da4df16d68fc0
+exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%
 
 ---
-
 
 # 推奨されるアプローチ {#recommended-approach}
 
@@ -47,4 +46,3 @@ ht-degree: 100%
 * **ロードマップの作成**：クライアントが機能豊富な製品を望む場合は、予定している機能の一部をプロジェクトの初期段階で提供し、残りの機能を後のフェーズで提供するようにスケジュールを設定します。最初の成果物に機能を詰め込みすぎると、リスクが大きくなり、クライアントと共に検証することが難しくなります。
 
 * **カスタム統合の範囲の理解**：タッチスクリーンインタラクション機能、モーションセンサー、RFID などを備えたインタラクティブコンポーネントを使用するには、実装方法での相当なカスタム開発が必要になります。スライドショー、ビデオ広告、静的メニューなどは、グラフィックコンテンツまたは HTML として Screens チャネルで提供できます。
-

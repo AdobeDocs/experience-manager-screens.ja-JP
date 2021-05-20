@@ -1,18 +1,17 @@
 ---
-title: AEM Screens とは
-seo-title: AEM Screens とは
+title: 'AEM Screens とは '
+seo-title: 'AEM Screens とは '
 description: 「AEM Screens は、包括的なデジタルマーケティングプラットフォームと連携する様々なタイプの画面など、動的でインタラクティブなデジタルエクスペリエンスおよびインタラクションを公開できるデジタルサイネージソリューションです。」
-feature: Overview, Digital Signage
+feature: 概要、デジタルサイネージ
 role: Business Practitioner
 level: Beginner
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '560'
+exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '557'
 ht-degree: 100%
 
 ---
-
 
 # AEM Screens とは {#what-is-aem-screens}
 

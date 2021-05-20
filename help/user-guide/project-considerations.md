@@ -10,17 +10,16 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 10b81628-46db-4122-bf9e-96f41f080055
 docset: aem65
-feature: Overview
+feature: 概要
 role: Business Practitioner, Data Architect
 level: Beginner
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '672'
+exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '667'
 ht-degree: 100%
 
 ---
-
 
 # 第 2 部：プロジェクト範囲を定義する際の検討事項 {#part-considerations-as-projects-are-scoped}
 

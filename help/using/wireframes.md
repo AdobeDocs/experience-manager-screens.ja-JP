@@ -3,14 +3,13 @@ title: ワイヤーフレーム
 seo-title: AEM Screens のワイヤーフレーム
 description: ここでは、AEM Screens プロジェクトのワイヤーフレームについて説明します
 seo-description: ここでは、AEM Screens プロジェクトのワイヤーフレームについて説明します
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+exl-id: 7aa16e3b-9ab6-4687-b897-8b1be4c2825d
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
 
 ---
-
 
 # ワイヤーフレーム {#wireframes}
 
@@ -34,4 +33,3 @@ ht-degree: 100%
 **プロジェクトレベル表示**&#x200B;では、複数の画面やエクスペリエンスが物理空間で連携してマルチタッチポイントの完全なユーザージャーニーを実現する方法のモデリングを開始できます。
 
 これは、既に作成した UX ジャーニーマップと整合する必要があります。
-

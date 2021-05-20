@@ -10,17 +10,16 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-feature: Administering Screens, Android Player
+feature: Screens の管理、Android プレーヤー
 role: Administrator
 level: Intermediate
-translation-type: ht
-source-git-commit: 6978d9d13f2b7f723812561554fdb0a606ddb4fc
-workflow-type: ht
-source-wordcount: '1441'
+exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1439'
 ht-degree: 100%
 
 ---
-
 
 # Android プレーヤーの実装 {#implementing-android-player}
 
@@ -74,7 +73,7 @@ AEM オーサーインスタンスおよびパブリッシュインスタンス�
 
 Android のアーキテクチャ上、デバイスをリブートするには、アプリケーションがシステム権限を持っている必要があります。そのためには、製造元の署名キーを使用して apk に署名する必要があります。この署名をおこなわないと、ウォッチドッグはデバイスをリブートするのではなく、プレーヤーアプリケーションを再起動します。
 
-### 製造元のキーを使用した Android apk への署名 {#signage-of-android-apks-using-manufacturer-keys}
+### 製造元のキーを使用した Android apk への署名  {#signage-of-android-apks-using-manufacturer-keys}
 
 *PowerManager* や *HDMIControlServices* など、Android の特権付き API にアクセスするには、製造元のキーを使用して Android apk に署名する必要があります。
 
@@ -134,7 +133,7 @@ Android プレーヤーを一括で展開する場合、管理者 UI で手動�
    >[!NOTE]
    >このファイルは、アプリケーションが初めて起動されたときは&#x200B;*読み取り専用*&#x200B;で、以降の設定には使用できません。設定ファイルがドロップされる前にプレーヤーが起動した場合は、デバイスでアプリケーションをアンインストールして、再インストールします。
 
-### ポリシー属性 {#policy-attributes}
+### ポリシー属性  {#policy-attributes}
 
 次の表に、参照用のポリシー JSON の例と共にポリシー属性を示します。
 

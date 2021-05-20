@@ -9,17 +9,16 @@ topic-tags: administering
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 112404de-5a5a-4b37-b87c-d02029933c8a
 docset: aem65
-feature: Administering Screens
+feature: Screens の管理
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '1031'
+exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1028'
 ht-degree: 100%
 
 ---
-
 
 # オーサーとパブリッシュのアーキテクチャの概要 {#author-and-publish-architectural-overview}
 
@@ -41,7 +40,7 @@ ht-degree: 100%
 >
 >この AEM Screens 機能は、AEM 6.4 Screens 機能パック 2 がインストールされている場合にのみ使用できます。この機能パックにアクセスするには、アドビサポートに連絡してアクセス権をリクエストする必要があります。アクセス権が付与されると、パッケージ共有から機能パックをダウンロードできるようになります。
 
-## 概要 {#introduction}
+## はじめに {#introduction}
 
 AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成された後、複数のパブリッシュインスタンスにフォワードレプリケートされます。AEM Screens デバイスは、ロードバランサーで AEM パブリッシュファームに接続できるようになりました。複数の AEM パブリッシュンスタンスを追加して、パブリッシュファームの拡大／縮小を続行できます。
 

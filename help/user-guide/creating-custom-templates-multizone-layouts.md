@@ -4,17 +4,16 @@ seo-title: マルチゾーンレイアウトのカスタムテンプレートの
 description: ここでは、マルチゾーンレイアウトのカスタムテンプレートの作成について説明します。
 seo-description: ここでは、マルチゾーンレイアウトのカスタムテンプレートの作成について説明します。
 contentOwner: Jyotika Syal
-feature: Developing Screens
+feature: Screens の開発
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '951'
+exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '949'
 ht-degree: 100%
 
 ---
-
 
 # マルチゾーンレイアウトでのカスタムテンプレートの作成 {#creating-custom-templates-multizone}
 
@@ -175,6 +174,3 @@ Left20-LandscapeHD3Zone レイアウトを使用すると、プロジェクト�
 背景色を変更するには、CSS ファイル（手順 13 で作成した *static.css*）に次のコードを追加します。
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
-
-
-

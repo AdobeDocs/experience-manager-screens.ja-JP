@@ -4,7 +4,6 @@ seo-title: 画像再生時間
 description: このページでは、画像再生時間について説明します。
 seo-description: このページでは、画像再生時間について説明します。
 contentOwner: jsyal
-translation-type: tm+mt
 source-git-commit: 69a40e437fa9b19e283bcf1a1322d18e17990a49
 workflow-type: tm+mt
 source-wordcount: '341'

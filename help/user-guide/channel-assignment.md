@@ -2,17 +2,16 @@
 title: チャネル割り当て
 seo-title: チャネル割り当て
 description: このページでは、チャネル割り当てと日分割について学びます。
-feature: Authoring Screens, Channel Assignment
+feature: Screens のオーサリング、チャネル割り当て
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '1222'
+exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1219'
 ht-degree: 100%
 
 ---
-
 
 # チャネル割り当て {#channel-assignment}
 
@@ -162,7 +161,7 @@ ht-degree: 100%
 >
 >さらに、チャネルごとに&#x200B;***優先度***&#x200B;を定義できます。例えば、2 つのチャネルを同じ日時または同じ月に設定する場合は、優先度の高いチャネルが最初に再生されます。優先度の最小値は 0 として設定できます。
 
-#### 同じ優先度のチャネル用コンテンツの再生 {#playing-content-for-channels-with-same-priority}
+#### 同じ優先度のチャネル用コンテンツの再生  {#playing-content-for-channels-with-same-priority}
 
 この例では、商店の日分割が示され、冬物コレクションを 12 月に同じスケジュールで表示します。しかし、その週はチャネル B が優先度 2 に設定されており、チャネル A ではなくチャネル B がそのコンテンツを再生します。
 
@@ -178,5 +177,4 @@ ht-degree: 100%
 >
 >* [アセット内の繰り返しの処理](https://docs.adobe.com/content/help/ja-JP/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [チャネル内アセットの繰り返し処理](https://docs.adobe.com/content/help/ja-JP/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
-
 

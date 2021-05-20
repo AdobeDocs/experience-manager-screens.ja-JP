@@ -5,17 +5,16 @@ description: ここでは、AEM Screens プロジェクトに関連する FAQ �
 seo-description: ここでは、AEM Screens プロジェクトに関連する FAQ への回答を掲載しています。
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-feature: Digital Signage, Content
+feature: デジタルサイネージ、コンテンツ
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '1905'
+exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1903'
 ht-degree: 100%
 
 ---
-
 
 # AEM Screens の FAQ {#aem-screens-faqs}
 
@@ -149,7 +148,7 @@ AEM Screens Player は、起動時に 404 エラーが発生すると、***/cont
 1. **開発者向けオプション**&#x200B;に移動します。
 1. 「**スリープモードにしない**」をオンにします。
 
-### 4. Windows プレーヤーのウィンドウモードを有効にする方法 {#enable-player}
+### 4. Windows プレーヤーのウィンドウモードを有効にする方法{#enable-player}
 
 Windows Player にはウィンドウモードはありません。常にフルスクリーンモードになります。
 
@@ -211,5 +210,3 @@ AEM Screens は、製品で使用されるクエリのインデックス定義�
 `error.log` に *クエリトラバーサル WARN* がある場合は、クエリのカスタムインデックスを作成します。詳しくは、「[インデックスの設定](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=ja#configuring-the-indexes)」を参照してください。
 
 [Oak ドキュメント](https://jackrabbit.apache.org/oak/docs/query/lucene.html)の追加リソースも参照できます。
-
-

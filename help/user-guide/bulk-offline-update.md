@@ -10,17 +10,16 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 5d4ca652-d918-4b2b-b239-a2be9255ef0d
 noindex: true
-feature: Authoring Screens
+feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '362'
+exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '359'
 ht-degree: 100%
 
 ---
-
 
 # オフライン一括更新 {#bulk-offline-update}
 
@@ -80,4 +79,3 @@ ht-degree: 100%
    **スケジュールの頻度**：このサービスでオフラインコンテンツを更新する時刻（例：午後 5 時または 17 時）を指定します。
 
 1. 「**保存**」をクリックして設定を保存すると、指定した時刻にコンテンツが更新されるようになります。
-

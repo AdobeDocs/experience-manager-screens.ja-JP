@@ -5,17 +5,16 @@ description: ここでは、サービスとしてのコンテンツ更新につ�
 seo-description: ここでは、サービスとしてのコンテンツ更新について説明します。
 uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
 contentOwner: Jyotika syal
-feature: Authoring Screens
+feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '361'
+exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '358'
 ht-degree: 100%
 
 ---
-
 
 # サービスとしてのコンテンツ更新 {#content-update-as-a-service}
 
@@ -75,4 +74,3 @@ ht-degree: 100%
    **スケジュールの頻度**：このサービスでオフラインコンテンツを更新する時刻（例：午後 5 時または 17 時）を指定します。
 
 1. 「**保存**」をクリックして設定を保存すると、指定した時刻にコンテンツが更新されるようになります。
-

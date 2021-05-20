@@ -9,17 +9,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
-feature: Administering Screens
+feature: Screens の管理
 role: Administrator
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '1070'
+exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1068'
 ht-degree: 100%
 
 ---
-
 
 # AEM Screens Player での作業 {#working-with-aem-screens-player}
 
@@ -31,7 +30,7 @@ AEM Screens Player でチャネルコンテンツなどの設定を管理でき�
 
 チャネルをディスプレイに割り当てると AEM Screens Player にコンテンツが表示されます。Admin UI の環境設定（ダッシュボード上）を使用して、またはプレーヤー自体からプレーヤーの設定を構成できます。
 
-## デバイスダッシュボードの使用 {#using-the-device-dashboard}
+## デバイスダッシュボードの使用  {#using-the-device-dashboard}
 
 AEM オーサリングインスタンスを介してアクセスできる、デバイスダッシュボードからデバイスの環境設定を構成できます。
 
@@ -113,7 +112,7 @@ Screens Player からチャネルの設定を切り替えて管理できます�
 >
 >（下のセクションで言及されている「*Screens Player からの設定変更*」を参照してください）
 
-### AEM Screens Player からの設定管理 {#managing-preferences-from-the-aem-screens-player}
+### AEM Screens Player からの設定管理  {#managing-preferences-from-the-aem-screens-player}
 
 プレーヤー自体からも Admin UI およびチャネルスイッチャーの設定を変更できます。
 

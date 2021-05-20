@@ -10,17 +10,16 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
-feature: Authoring Screens, Experience Fragments
+feature: Screens のオーサリング、エクスペリエンスフラグメント
 role: Administrator, Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '1134'
+exl-id: 13c0d75e-435f-433e-8886-f451df863517
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '1131'
 ht-degree: 100%
 
 ---
-
 
 # エクスペリエンスフラグメントの使用 {#using-experience-fragments}
 
@@ -220,4 +219,3 @@ ht-degree: 100%
 
 次の画像は、**TestChannel** に反映された変更を示しています。\
 ![screen_shot_2018-06-08at33351pm](assets/screen_shot_2018-06-08at33351pm.png)
-

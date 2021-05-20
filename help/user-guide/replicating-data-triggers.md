@@ -3,17 +3,16 @@ title: データトリガーのパブリッシュサーバーへのレプリケ�
 seo-title: データトリガーのパブリッシュサーバーへのレプリケーション
 description: このページでは、データトリガーをパブリッシュサーバにレプリケーションする方法を説明します。
 seo-description: データトリガーのパブリッシュサーバーへのレプリケーション。
-feature: Administering Screens, Data Trigger
+feature: Screens の管理、データトリガー
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '538'
+exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '536'
 ht-degree: 100%
 
 ---
-
 
 # データトリガーのパブリッシュサーバーへのレプリケーション {#replicating-data-triggers}
 

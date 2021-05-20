@@ -3,17 +3,16 @@ title: 機能パック 202001 のリリースノート
 seo-title: 機能パック 202001 のリリースノート
 description: 2020 年 1 月 31 日にリリースされた AEM Screens 機能パック 202001 について説明します。
 seo-description: 2020 年 1 月 31 日にリリースされた AEM Screens 機能パック 202001 について説明します。
-feature: Feature Pack
+feature: 機能パック
 role: Developer
 level: Intermediate
-translation-type: ht
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
-workflow-type: ht
-source-wordcount: '286'
+exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '284'
 ht-degree: 100%
 
 ---
-
 
 # 機能パック 202001 のリリースノート {#release-notes-for-feature-pack}
 

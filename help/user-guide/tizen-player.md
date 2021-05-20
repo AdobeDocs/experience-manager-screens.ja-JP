@@ -1,17 +1,16 @@
 ---
 title: Tizen プレーヤー
 description: このページでは、Tizen プレーヤーのインストールと動作について説明します。
-feature: Administering Screens, Players
+feature: Screens の管理、プレーヤー
 role: Administrator
 level: Intermediate
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '910'
+exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '908'
 ht-degree: 100%
 
 ---
-
 
 # Tizen プレーヤーの実装 {#tizen-player}
 
@@ -131,4 +130,3 @@ Tizen デバイスを Samsung Remote Management Service（RMS）に登録し URL
    ![画像](/help/user-guide/assets/tizen/rms-9.png)
 
 1. 「**Save**」をクリックすると、変更内容が画面に表示されます。
-

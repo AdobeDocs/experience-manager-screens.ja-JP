@@ -2,17 +2,16 @@
 title: 第 1 部：プロジェクト上の役割と責務
 seo-title: 第 1 部：プロジェクト上の役割と責務
 description: このチュートリアルでは、デジタルサイネージプロジェクトのセールスおよびプロジェクトのライフサイクルで必要な役割、責務、タイムラインについて説明します。
-feature: Overview
+feature: 概要
 role: Business Practitioner, Data Architect
 level: Beginner
-translation-type: ht
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
-workflow-type: ht
-source-wordcount: '477'
+exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+workflow-type: tm+mt
+source-wordcount: '472'
 ht-degree: 100%
 
 ---
-
 
 # 第 1 部：プロジェクト上の役割と責務 {#part-project-roles-and-responsibilities}
 

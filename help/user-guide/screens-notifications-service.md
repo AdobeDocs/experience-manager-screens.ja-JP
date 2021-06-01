@@ -12,13 +12,13 @@ discoiquuid: 8879e510-4f0e-46da-87d2-77c5aaacb26e
 feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
-exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 100%
 
 ---
+
 
 # AEM Screens 通知サービス {#aem-screens-notifications-service}
 

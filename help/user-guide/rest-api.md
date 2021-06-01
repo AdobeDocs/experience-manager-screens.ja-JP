@@ -12,13 +12,13 @@ discoiquuid: c07b6e4f-c0a4-4151-a543-76dabd6d5146
 feature: Screens の開発
 role: Developer
 level: Intermediate
-exl-id: ac01935a-c3ff-485a-b60e-227fb94c75b0
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 100%
 
 ---
+
 
 # REST API {#rest-apis}
 
@@ -167,3 +167,4 @@ Host: http://localhost:4502
 ```xml
 curl -u admin:admin -X POST -d ':operation=broadcast-command&msg=reboot' http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json
 ```
+

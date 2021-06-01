@@ -1,13 +1,14 @@
 ---
-cloud: Experience Cloud
+cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens ヘルプ
 breadcrumb-title: AEM Screens ガイド
 user-guide-description: 動的でインタラクティブなデジタルエクスペリエンスおよびインタラクションの公開を可能にするデジタル署名ソリューションの使用方法について説明します。
-source-git-commit: e0e6a865bcdec88d8c9096d66b5ac3ce5227dbc3
+feature-set: Experience Manager Screens
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '440'
 ht-degree: 100%
 
 ---
@@ -103,7 +104,6 @@ ht-degree: 100%
    + [AEM Screens プロジェクトでの ContextHub の設定](configuring-context-hub.md)
    + [マルチゾーンレイアウトでのカスタムテンプレートの作成](creating-custom-templates-multizone-layouts.md)
    + [テキストオーバーレイのカスタムブランディングとスタイルの適用](custom-branding-text-overlays.md)
-   + [ワークフローを使用したチャネル更新の自動化](automate-channel-updates-workflow.md)
 + トラブルシューティングと FAQ {#troubleshooting}
    + [AEM Screens の FAQ](aem-screens-faqs.md)
    + [デバイスコントロールセンターからのトラブルシューティング](monitoring-screens.md)

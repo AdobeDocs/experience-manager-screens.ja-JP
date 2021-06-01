@@ -12,13 +12,13 @@ discoiquuid: 2a049c2c-26ee-498d-a505-a2967be7cbcd
 feature: 機能パック
 role: Developer
 level: Intermediate
-exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 100%
 
 ---
+
 
 # 機能パック 201809 のリリースノート {#release-notes-for-feature-pack}
 

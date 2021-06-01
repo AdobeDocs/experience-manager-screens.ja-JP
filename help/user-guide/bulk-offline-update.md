@@ -13,13 +13,13 @@ noindex: true
 feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
-exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 100%
 
 ---
+
 
 # オフライン一括更新 {#bulk-offline-update}
 
@@ -79,3 +79,4 @@ ht-degree: 100%
    **スケジュールの頻度**：このサービスでオフラインコンテンツを更新する時刻（例：午後 5 時または 17 時）を指定します。
 
 1. 「**保存**」をクリックして設定を保存すると、指定した時刻にコンテンツが更新されるようになります。
+

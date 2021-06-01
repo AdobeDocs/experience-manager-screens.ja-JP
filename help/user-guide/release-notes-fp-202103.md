@@ -4,13 +4,13 @@ description: 「2021 年 3 月 5 日にリリースされた AEM Screens 機能�
 feature: 機能パック
 role: Developer
 level: Intermediate
-exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 100%
 
 ---
+
 
 # 機能パック 202103 のリリースノート {#release-notes-for-feature-pack}
 

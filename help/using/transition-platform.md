@@ -3,13 +3,13 @@ title: プラットフォームへの移行
 seo-title: AEM Screens のプラットフォームへの移行
 description: ここでは、プラットフォームへの移行について説明します。
 seo-description: ここでは、プラットフォームへの移行について説明します。
-exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 100%
 
 ---
+
 
 # プラットフォームへの移行 {#transition-platform}
 

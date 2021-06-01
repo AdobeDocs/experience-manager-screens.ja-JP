@@ -6,13 +6,13 @@ seo-description: このページに従って、チャネルの作成および管
 feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
-exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1328'
 ht-degree: 100%
 
 ---
+
 
 # チャネルの作成と管理 {#creating-and-managing-channels}
 
@@ -259,3 +259,4 @@ AEM Screens 用のプロジェクトを作成したら、以下の手順に従�
 * [チャネルの作成と管理](managing-channels.md)
 * [ロケーションの作成と管理](managing-locations.md)
 * [ディスプレイの作成と管理](managing-displays.md)
+

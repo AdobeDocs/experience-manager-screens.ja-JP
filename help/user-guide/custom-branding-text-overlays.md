@@ -7,13 +7,13 @@ contentOwner: Jyotika Syal
 feature: Screens の開発
 role: Developer
 level: Intermediate
-exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 100%
 
 ---
+
 
 # テキストオーバーレイのカスタムブランディングとスタイル設定 {#creating-custom-branding-styling}
 
@@ -131,3 +131,12 @@ ht-degree: 100%
    ![画像](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
    これで、アセットに追加されたテキストオーバーレイのブランドやカスタムスタイルを更新する準備が整いました。
+
+
+
+
+
+
+
+
+

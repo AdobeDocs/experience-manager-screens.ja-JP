@@ -4,13 +4,13 @@ description: このページでは、コンテンツ割り当てレポートの�
 feature: Screens のオーサリング
 role: Developer
 level: Intermediate
-exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
 
 ---
+
 
 # コンテンツ割り当てレポート {#content-assignment-report}
 
@@ -57,3 +57,4 @@ ht-degree: 100%
 1. Excel シートが、AEM Screens プロジェクト名と同じ名前のプレフィックスが付いたローカルマシンにダウンロードされます。例えば、プロジェクト名が **DemoScreens** の場合、ダウンロードされるファイル名は **demoscreens-content-assignment-report.xlxs** になります。
 
    ![画像](/help/user-guide/assets/content-assignment-report/car-download1.png)
+

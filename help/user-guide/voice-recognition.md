@@ -4,13 +4,13 @@ description: このページでは、AEM Screens の音声認識機能につい�
 feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
-exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 100%
 
 ---
+
 
 # AEM Screens の音声認識 {#voice-recognition}
 
@@ -184,3 +184,8 @@ AEM Screens プロジェクトで音声認識を実装するには、ディス�
 **分割画面チャネルに対する目的の出力**
 
 **Main** チャネルはコンテンツを再生していますが、キーワードの「**温かい**」と「**冷たい**」が一緒に使用された場合（例：*温かい飲み物と冷たい飲み物のメニューが見たい*）、チャネルは **SplitScreen** チャネルのコンテンツの再生を開始します。「*メインメニューに戻る*」と言うと、メインチャネルに戻ります。
+
+
+
+
+

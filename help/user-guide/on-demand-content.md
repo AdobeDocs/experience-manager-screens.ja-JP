@@ -8,13 +8,13 @@ contentOwner: Jyotika Syal
 feature: Screens のオーサリング
 role: Developer
 level: Intermediate
-exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 100%
 
 ---
+
 
 # オンデマンドのコンテンツ更新 {#on-demand}
 

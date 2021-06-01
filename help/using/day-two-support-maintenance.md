@@ -3,13 +3,13 @@ title: Day 2 のサポートおよびメンテナンス
 seo-title: AEM Screens の Day 2 のサポートおよびメンテナンス
 description: ここでは、Day 2 のサポートおよびメンテナンスについて説明します
 seo-description: ここでは、Day 2 のサポートおよびメンテナンスについて説明します
-exl-id: 2b5511ff-c8f4-4ea3-8a65-f17f3a1ec39b
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 100%
 
 ---
+
 
 # Day 2 のプラットフォームサポートおよびメンテナンス {#day-two-support-maintenance}
 

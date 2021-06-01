@@ -6,13 +6,13 @@ seo-description: ここでは、AEM Screens プロジェクトの Dispatcher を
 feature: Screens の管理
 role: Developer, Business Practitioner
 level: Intermediate
-exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 100%
 
 ---
+
 
 # AEM Screens プロジェクトの Dispatcher の設定 {#dispatcher-configurations-for-aem-screens}
 

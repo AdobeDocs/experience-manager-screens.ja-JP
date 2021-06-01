@@ -12,13 +12,13 @@ discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
 feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
-exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 100%
 
 ---
+
 
 # スケジュールの作成と管理 {#creating-and-managing-schedules}
 
@@ -67,3 +67,4 @@ AEM Screens で&#x200B;**スケジュール**&#x200B;を使用すると、複数
    **割り当てられたチャネルパネル**：右上隅にある「+ チャネルを割り当て」をクリックして、チャネルの割り当てダイアログボックスを開きます。
 
    **割り当てられたディスプレイパネル**：任意のディスプレイを選択して、ディスプレイダッシュボードを開きます。
+

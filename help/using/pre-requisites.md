@@ -3,13 +3,13 @@ title: '[!UICONTROL AEM Screens] の前提条件'
 seo-title: '[!UICONTROL AEM Screens] プロジェクトの前提条件'
 description: このガイドでは、AEM Screens プロジェクトを開始する前の前提条件について説明します。
 seo-description: このガイドでは、AEM Screens プロジェクトを開始する前の前提条件について説明します。
-exl-id: ff305a6c-02cb-4c06-a457-9a22f525fab5
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 100%
 
 ---
+
 
 # 前提条件 {#prerequisites}
 

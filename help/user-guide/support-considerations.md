@@ -13,13 +13,13 @@ docset: aem65
 feature: 概要
 role: Business Practitioner, Data Architect
 level: Beginner
-exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 100%
 
 ---
+
 
 # 第 5 部：サポートに関する考慮事項 {#part-support-considerations}
 
@@ -33,8 +33,10 @@ ht-degree: 100%
 >
 >* 現場へのプロジェクトのデプロイメント
 >* インストール技術者と NOC（Network Operations Center）によるデバイスの接続と動作の検証
+
 >
->Day 2 の開始前に、継続的なライフサイクル予算の計画立案を実行する必要があります。
+>
+Day 2 の開始前に、継続的なライフサイクル予算の計画立案を実行する必要があります。
 
 計画立案作業には、次の項目が含まれます。
 
@@ -70,3 +72,4 @@ Day 2 でのサポートに関する主要な考慮事項は次のとおりで�
 ## まとめ {#conclusion}
 
 この 5 部構成のシリーズでは、プロジェクトを確実に成功させるうえで欠かせない重要な考慮事項を重点的に取り上げています。実装の詳細については、AEM Screens ユーザーガイドの他の節を参照してください。
+

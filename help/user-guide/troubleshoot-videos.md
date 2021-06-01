@@ -12,13 +12,13 @@ discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 feature: チャネル、インタラクティブ
 role: Developer
 level: Intermediate
-exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 100%
 
 ---
+
 
 # ビデオ再生の設定とトラブルシューティング {#video-playback-configuration-and-troubleshooting}
 
@@ -157,3 +157,4 @@ Google の自動再生ポリシーフラグに関する問題をトラブルシ�
 1. 2 台以上のプレーヤーを起動します。
 
 プレーヤーが新しく割り当てられたシーケンスを開始するまでに時間がかかることがあります。
+

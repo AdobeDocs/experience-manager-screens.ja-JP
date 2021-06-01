@@ -12,13 +12,13 @@ discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
 feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
-exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 100%
 
 ---
+
 
 # ディスプレイの作成と管理 {#creating-and-managing-displays}
 

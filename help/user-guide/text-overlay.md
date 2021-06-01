@@ -13,13 +13,13 @@ noindex: true
 feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
-exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 100%
 
 ---
+
 
 # テキストオーバーレイ {#text-overlay}
 
@@ -149,3 +149,18 @@ AEM Screens プロジェクトの ContextHub 構成を設定する必要があ�
 1. 「**プレビュー**」をクリックし、出力を表示します。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

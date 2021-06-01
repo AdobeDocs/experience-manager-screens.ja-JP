@@ -13,13 +13,13 @@ docset: aem65
 feature: 機能パック
 role: Developer
 level: Intermediate
-exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 100%
 
 ---
+
 
 # 機能パック 201905 のリリースノート {#release-notes-for-feature-pack}
 

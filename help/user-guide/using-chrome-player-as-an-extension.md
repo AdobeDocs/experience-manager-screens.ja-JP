@@ -6,13 +6,13 @@ seo-description: 'null'
 feature: Screens の管理
 role: Administrator
 level: Intermediate
-exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 
 ---
+
 
 # 拡張機能としての Chrome プレーヤーの使用 {#using-chrome-player}
 

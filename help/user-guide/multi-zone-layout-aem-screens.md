@@ -13,13 +13,13 @@ noindex: true
 feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
-exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1199'
 ht-degree: 100%
 
 ---
+
 
 # マルチゾーンレイアウト {#multi-zone-layout}
 
@@ -192,3 +192,5 @@ Screens Player でコンテンツを表示するには、ロケーションと�
 左ゾーンはシーケンスチャネルで、右ゾーンにはビデオが含まれています。
 
 ![new2-1](/help/user-guide/assets/multi-zone/Multi-gif.gif)
+
+

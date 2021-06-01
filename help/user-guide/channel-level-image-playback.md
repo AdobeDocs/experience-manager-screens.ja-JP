@@ -13,13 +13,13 @@ docset: aem65
 feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
-exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 100%
 
 ---
+
 
 # チャネルレベルの一括画像再生時間 {#channel-level-bulk-image-playback-duration}
 
@@ -77,3 +77,4 @@ ht-degree: 100%
 チャネルの再生時間（この例では 3 つの画像すべての再生時間）を更新すると、画像が 8 秒間（デフォルト値）ではなく 3 秒間再生されるようになります。
 
 ![channel_preview](assets/channel_preview.gif)
+

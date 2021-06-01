@@ -13,13 +13,13 @@ docset: aem65
 feature: 概要
 role: Business Practitioner, Data Architect
 level: Beginner
-exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
 
 ---
+
 
 # 第 4 部：プロジェクトの管理とデプロイメント {#part-project-management-and-deployment}
 
@@ -93,3 +93,4 @@ Day 1 の終わりには、NOC への引き渡しを完了することになり�
 AEM Screens プロジェクトデプロイメントのためのプロジェクト管理に関する重要な考慮事項を十分に理解したら、
 
 **[第 5 部：サポートに関する考慮事項](support-considerations.md)**&#x200B;を参照して、Day 2 でのサポートと関連プロセスを理解します。
+

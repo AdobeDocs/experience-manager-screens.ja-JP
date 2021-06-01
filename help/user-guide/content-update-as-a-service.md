@@ -8,13 +8,13 @@ contentOwner: Jyotika syal
 feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
-exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 100%
 
 ---
+
 
 # サービスとしてのコンテンツ更新 {#content-update-as-a-service}
 
@@ -74,3 +74,4 @@ ht-degree: 100%
    **スケジュールの頻度**：このサービスでオフラインコンテンツを更新する時刻（例：午後 5 時または 17 時）を指定します。
 
 1. 「**保存**」をクリックして設定を保存すると、指定した時刻にコンテンツが更新されるようになります。
+

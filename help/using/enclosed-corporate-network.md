@@ -1,13 +1,13 @@
 ---
 title: 閉じた企業ネットワーク
 description: 閉じた企業ネットワーク
-exl-id: b8c52e72-86da-4089-ba02-0c643862419f
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 100%
 
 ---
+
 
 # 閉じた企業ネットワーク（有線／ワイヤレス）{#enclosed-corporate-networks}
 

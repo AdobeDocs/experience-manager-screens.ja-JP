@@ -13,13 +13,13 @@ docset: aem65
 feature: Screens の管理、Windows プレーヤー
 role: Administrator
 level: Intermediate
-exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 100%
 
 ---
+
 
 # Windows 10 プレーヤーの実装 {#implementing-windows-player}
 
@@ -181,3 +181,4 @@ $ShellLauncherClass.RemoveCustomShell($Admins_SID)
 
 $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 ```
+

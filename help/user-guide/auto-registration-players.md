@@ -5,13 +5,13 @@ description: このページでは、AMS／オンプレミス Screens でのプ�
 feature: Screens の管理、プレーヤー
 role: Administrator
 level: Intermediate
-exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 100%
 
 ---
+
 
 # プレーヤーの自動登録 {#auto-registration}
 

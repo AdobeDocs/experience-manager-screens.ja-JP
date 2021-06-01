@@ -5,13 +5,13 @@ description: このページでは、チャネル割り当てと日分割につ�
 feature: Screens のオーサリング、チャネル割り当て
 role: Administrator, Developer
 level: Intermediate
-exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 100%
 
 ---
+
 
 # チャネル割り当て {#channel-assignment}
 
@@ -177,4 +177,5 @@ ht-degree: 100%
 >
 >* [アセット内の繰り返しの処理](https://docs.adobe.com/content/help/ja-JP/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [チャネル内アセットの繰り返し処理](https://docs.adobe.com/content/help/ja-JP/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
+
 

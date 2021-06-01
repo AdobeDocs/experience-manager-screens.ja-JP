@@ -13,13 +13,13 @@ docset: aem65
 feature: Screens の管理
 role: Administrator
 level: Intermediate
-exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 100%
 
 ---
+
 
 # ファイルをソースとする新しいプロジェクトインポーター {#new-project-importer-from-file}
 
@@ -80,6 +80,7 @@ AEM Screens プロジェクトを組織で初めてセットアップする場�
 >
 >* CSV／XLS／XLSX 拡張子以外のファイルは、現在のリリースではサポートされていません。
 >* 読み込まれるファイルに対してプロパティのフィルタリングはおこなわれず、「./」で始まるものはすべて読み込まれます。
+
 >
 
 
@@ -125,3 +126,4 @@ AEM Screens プロジェクトを組織で初めてセットアップする場�
 1. その結果、プロジェクトに読み込まれたすべてのロケーションが表示されるようになります。
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)
+

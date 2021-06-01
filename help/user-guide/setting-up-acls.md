@@ -12,13 +12,13 @@ discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 feature: Screens の管理
 role: Administrator
 level: Intermediate
-exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 100%
 
 ---
+
 
 # ACL の設定 {#setting-up-acls}
 
@@ -142,3 +142,4 @@ AEM 管理者は、プロジェクトのチームメンバーが他のプロジ�
   </tr>
  </tbody>
 </table>
+

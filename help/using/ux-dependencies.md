@@ -3,13 +3,13 @@ title: '[!UICONTROL AEM Screens] の UX の依存関係'
 seo-title: '[!UICONTROL AEM Screens] の UX の依存関係'
 description: このガイドでは、[!UICONTROL AEM Screens] の UX の依存関係について説明します。
 seo-description: このガイドでは、[!UICONTROL AEM Screens] の UX の依存関係について説明します。
-exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 100%
 
 ---
+
 
 # UX の依存関係 {#ux-dependencies}
 
@@ -40,3 +40,5 @@ ht-degree: 100%
 1. 1 つのディスプレイに複数のデバイスが必要か（マルチゾーン、特大ボードの場合など）？
 
 1. 明るさ、温度、季節など、環境上の考慮事項は何か？
+
+

@@ -7,13 +7,13 @@ contentOwner: jsyal
 feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
-exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 100%
 
 ---
+
 
 # 永続テイクオーバーチャネル {#perpetual-takeover-channel}
 

@@ -6,13 +6,13 @@ contentOwner: Jyotika Syal
 feature: Screens のオーサリング
 role: Developer, Business Practitioner
 level: Intermediate
-exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 100%
 
 ---
+
 
 # マルチゾーンからシングルゾーンへのトランジション {#multizone-to-singlezone-use-case}
 

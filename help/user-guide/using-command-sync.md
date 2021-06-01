@@ -6,13 +6,13 @@ seo-description: ここでは、コマンド同期の使用方法について説
 feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
-exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 100%
 
 ---
+
 
 # コマンド同期 {#command-sync}
 

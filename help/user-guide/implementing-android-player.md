@@ -13,13 +13,13 @@ docset: aem65
 feature: Screens の管理、Android プレーヤー
 role: Administrator
 level: Intermediate
-exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1439'
 ht-degree: 100%
 
 ---
+
 
 # Android プレーヤーの実装 {#implementing-android-player}
 

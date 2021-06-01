@@ -4,13 +4,13 @@ description: 「2020 年 11 月 30 日にリリースされた AEM Screens 機�
 feature: 機能パック
 role: Developer
 level: Intermediate
-exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
 
 ---
+
 
 # 機能パック 202011 のリリースノート {#release-notes-for-feature-pack}
 

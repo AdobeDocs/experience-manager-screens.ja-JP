@@ -13,13 +13,13 @@ docset: aem65
 feature: Screens の開発
 role: Developer
 level: Intermediate
-exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 100%
 
 ---
+
 
 # オフラインチャネル {#offline-channels}
 

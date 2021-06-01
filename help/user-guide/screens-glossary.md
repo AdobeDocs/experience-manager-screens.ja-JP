@@ -6,13 +6,13 @@ seo-description: AEM Screens に関連する重要な用語について理解す
 feature: 概要
 role: Business Practitioner
 level: Beginner
-exl-id: 5b5d5251-90bf-4ef0-8300-76093f725291
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 100%
 
 ---
+
 
 # 用語集 {#glossary}
 

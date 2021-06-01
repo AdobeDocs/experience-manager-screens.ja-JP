@@ -12,13 +12,13 @@ discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 feature: Screens の管理
 role: Administrator
 level: Intermediate
-exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 100%
 
 ---
+
 
 # AEM Screens Player での作業 {#working-with-aem-screens-player}
 

@@ -3,13 +3,13 @@ title: プロジェクト分類
 seo-title: 'プロジェクト分類 '
 description: ここでは、プロジェクトの分類について説明します
 seo-description: ここでは、プロジェクトの分類について説明します
-exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 100%
 
 ---
+
 
 # プロジェクト分類 {#project-taxonomy}
 

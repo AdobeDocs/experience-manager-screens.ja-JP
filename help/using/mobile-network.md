@@ -1,13 +1,13 @@
 ---
 title: 直接モバイルネットワーク
 description: ここでは直接モバイルネットワークのセットアップについて説明します
-exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
 
 ---
+
 
 # 直接モバイルネットワーク {#mobile-network-setup}
 
@@ -95,3 +95,6 @@ AEM Screens は、デジタルサイネージの利用者に大きなメリッ�
 >インターネットソースをリクエストしてダウンロードするネットワーク内の各デバイスの消費量が、これらの情報からわかります。これらのリクエストがすべて合計されて、ダウンロード時間が延長されます。
 
 ![](/help/using/assets/download-times-mobile.png)
+
+
+

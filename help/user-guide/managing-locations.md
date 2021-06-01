@@ -12,13 +12,13 @@ discoiquuid: 70bdf384-6c27-403b-a6ab-fdec68016428
 feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
-exl-id: 7935c206-7189-4243-9a2d-ccc322caf441
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 100%
 
 ---
+
 
 # ロケーションの作成と管理 {#creating-and-managing-locations}
 

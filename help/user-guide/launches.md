@@ -13,13 +13,13 @@ docset: aem65
 feature: Screens のオーサリング、ローンチ
 role: Administrator, Developer
 level: Intermediate
-exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 100%
 
 ---
+
 
 # Screens ローンチを使用したコンテンツの更新 {#launches}
 
@@ -207,3 +207,4 @@ AEM Screens プロジェクトに Screens ローンチ機能を実装するに�
 >[!CAUTION]
 >
 >この操作により、派生したすべてのローンチ（ネストされたローンチ）も削除されます。
+

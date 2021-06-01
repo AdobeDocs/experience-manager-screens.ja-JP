@@ -5,13 +5,13 @@ description: このチュートリアルでは、デジタルサイネージプ�
 feature: 概要
 role: Business Practitioner, Data Architect
 level: Beginner
-exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 100%
 
 ---
+
 
 # 第 1 部：プロジェクト上の役割と責務 {#part-project-roles-and-responsibilities}
 

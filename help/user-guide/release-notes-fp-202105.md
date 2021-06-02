@@ -4,10 +4,10 @@ description: 「2021年6月1日にリリースされたAEM Screens機能パッ�
 feature: 機能パック
 role: Developer
 level: Intermediate
-source-git-commit: e9539d91b1215240c371bdea62a304b2e62df8ec
+source-git-commit: 0c3e8835174e34c5e8455f1849351717884b6d0e
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 58%
+source-wordcount: '286'
+ht-degree: 59%
 
 ---
 
@@ -36,10 +36,8 @@ AEM Screens機能パック202105のリリース日は2021年6月3日です。
 
    サーバー上で割り当てるリソースの削減など、パフォーマンスの向上により、チャネルマニフェストの生成が高速化されます。
 
-
 ### バグ修正 {#bug-fixes}
 
-* チャネルマニフェストの生成パフォーマンスが向上しました。
 * 動的埋め込みシーケンスを含むチャネルに切り替えると、プレーヤーに黒い画面が表示される問題を修正しました。
 * Screensプレーヤーは、404エラーやエラーメッセージが表示されるページを回避する、壊れたチャネルへの切り替えをブロックするようになりました。
 

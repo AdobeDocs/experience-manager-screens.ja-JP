@@ -4,10 +4,10 @@ description: 「2021年6月1日にリリースされたAEM Screens機能パッ�
 feature: 機能パック
 role: Developer
 level: Intermediate
-source-git-commit: c237486b9fe574727f14b3425f634c8d13d33596
+source-git-commit: 02177449f203c3cc98a9b1b3db9cca4467130b62
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 69%
+source-wordcount: '274'
+ht-degree: 62%
 
 ---
 
@@ -28,7 +28,10 @@ AEM Screens機能パック202105のリリース日は2021年6月3日です。
 
 ### 新機能 {#what-is-new}
 
-* ページをロック
+* **AEM Screensチャネルでのページのロック**
+
+   AEM Screensは、AEM Sitesで既に実装されているように、*ページ*&#x200B;のロックをサポートするようになりました。 Adobe Experience Manager(AEM)では、他のユーザーがコンテンツを変更できないように、ページをロックできます。 ページのロックは、1 つの特定のページで大量の編集作業をおこなう場合や、短期間ページを凍結する必要がある場合に便利です。
+
 
 ### バグ修正 {#bug-fixes}
 

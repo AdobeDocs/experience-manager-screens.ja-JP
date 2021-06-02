@@ -4,10 +4,10 @@ description: 「2021年6月1日にリリースされたAEM Screens機能パッ�
 feature: 機能パック
 role: Developer
 level: Intermediate
-source-git-commit: ffd8a340af2e826d5c3a4fec4fd0ec471da671e8
+source-git-commit: 0568e55557dcae8e2afa6bebfc5898480892dda0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '211'
+ht-degree: 69%
 
 ---
 
@@ -28,15 +28,13 @@ AEM Screens機能パック202105のリリース日は2021年6月1日です。
 
 ### 新機能 {#what-is-new}
 
-* **AEM Screens のプレーヤーの自動登録**
-
-   動的埋め込みシーケンスを含むチャネルに切り替えると、プレーヤーが黒い画面と表示される
+* ページをロック
 
 ### バグ修正 {#bug-fixes}
 
-* 動的埋め込みシーケンスを含むチャネルに切り替えると、プレーヤーが黒い画面と表示される。
-
-
+* 動的埋め込みシーケンスを含むチャネルに切り替えると、プレーヤーに黒い画面が表示される問題を修正しました。
+* チャネルマニフェストの生成パフォーマンスが向上しました。
+* Screensプレーヤーは、404エラーやエラーメッセージが表示されるページを回避する、壊れたチャネルへの切り替えをブロックするようになりました。
 
 ### リリースされている AEM Screens Player {#released-aem-screens-players}
 

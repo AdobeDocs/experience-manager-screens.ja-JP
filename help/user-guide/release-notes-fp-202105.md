@@ -4,9 +4,9 @@ description: 「2021年6月1日にリリースされたAEM Screens機能パッ�
 feature: 機能パック
 role: Developer
 level: Intermediate
-source-git-commit: 0568e55557dcae8e2afa6bebfc5898480892dda0
+source-git-commit: c237486b9fe574727f14b3425f634c8d13d33596
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '210'
 ht-degree: 69%
 
 ---
@@ -24,7 +24,7 @@ Adobe ID を使用して、AEM Screens 6.5.8 リリースの最新の機能パ�
 
 ## リリース日 {#release-date}
 
-AEM Screens機能パック202105のリリース日は2021年6月1日です。
+AEM Screens機能パック202105のリリース日は2021年6月3日です。
 
 ### 新機能 {#what-is-new}
 
@@ -32,8 +32,8 @@ AEM Screens機能パック202105のリリース日は2021年6月1日です。
 
 ### バグ修正 {#bug-fixes}
 
-* 動的埋め込みシーケンスを含むチャネルに切り替えると、プレーヤーに黒い画面が表示される問題を修正しました。
 * チャネルマニフェストの生成パフォーマンスが向上しました。
+* 動的埋め込みシーケンスを含むチャネルに切り替えると、プレーヤーに黒い画面が表示される問題を修正しました。
 * Screensプレーヤーは、404エラーやエラーメッセージが表示されるページを回避する、壊れたチャネルへの切り替えをブロックするようになりました。
 
 ### リリースされている AEM Screens Player {#released-aem-screens-players}
@@ -45,7 +45,6 @@ AEM Screens 6.5 機能パック 8 向けに、次の AEM Screens Player がリ�
 * Tizen
 * Android
 * Linux
-* iOS
 
 #### AEM Screens Player のダウンロード {#aem-screens-player-downloads}
 

@@ -1,13 +1,13 @@
 ---
 title: '機能パック 202105 のリリースノート '
-description: 「2021年6月1日にリリースされたAEM Screens機能パック202105について説明します。」
+description: 「2021年6月4日にリリースされたAEM Screens機能パック202105について説明します。」
 feature: 機能パック
 role: Developer
 level: Intermediate
-source-git-commit: 0c3e8835174e34c5e8455f1849351717884b6d0e
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 59%
+source-wordcount: '394'
+ht-degree: 43%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe ID を使用して、AEM Screens 6.5.8 リリースの最新の機能パ�
 
 ## リリース日 {#release-date}
 
-AEM Screens機能パック202105のリリース日は2021年6月3日です。
+AEM Screens機能パック202105のリリース日は2021年6月4日です。
 
 ### 新機能 {#what-is-new}
 
@@ -32,6 +32,18 @@ AEM Screens機能パック202105のリリース日は2021年6月3日です。
 
    AEM Screensは、AEM Sitesで既に実装されているように、*ページ*&#x200B;のロックをサポートするようになりました。 Adobe Experience Manager(AEM)では、他のユーザーがコンテンツを変更できないように、ページをロックできます。 ページのロックは、1 つの特定のページで大量の編集作業をおこなう場合や、短期間ページを凍結する必要がある場合に便利です。
 
+* **AEM Screens Playerデバイスの命名**
+
+   AEM Screensプレーヤーに、Adobe Experience Manager(AEM)にデバイス名を送信する機能が追加されました。
+デフォルトでは、一括登録を使用してデバイスを登録すると、システムで生成されたユーザー名が「タイトル」フィールドに入力されます。 別の方法として、顧客は、アセットタグやその他のわかりやすい名前を使用して、AEMで見やすく、適切なコンテンツを割り当てるのが容易になります。
+
+   サポートされる各オペレーティングシステムでの名前の設定方法については、次のドキュメントを参照してください。
+
+       * [Android](/help/user-guide/implementing-android-player.md#name-android)
+       * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+       * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
+       * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+   
 * **マニフェストの生成**
 
    サーバー上で割り当てるリソースの削減など、パフォーマンスの向上により、チャネルマニフェストの生成が高速化されます。

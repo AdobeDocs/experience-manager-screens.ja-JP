@@ -12,10 +12,10 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Screens の管理
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 100%
+source-wordcount: '829'
+ht-degree: 79%
 
 ---
 
@@ -35,6 +35,27 @@ Chrome 管理コンソールを設定するには、次の手順を実行しま�
 >[!NOTE]
 >
 >Chrome OS デバイスのデプロイメントおよび管理には、Chrome 管理コンソールなどのデバイス管理ソリューションをお勧めします。このドキュメントでは Chrome 管理コンソールの実装を扱いますが、他のベンダーにも同様の機能を提供するものがあります。デバイス管理ソフトウェアのベンダーにお問い合わせください。
+
+## Chrome OSプレーヤーの命名{#name-chrome}
+
+ユーザーにわかりやすいデバイス名をChromeプレーヤーに割り当てることで、割り当てられたデバイス名をAdobe Experience Manager(AEM)に送信できます。 この機能を使用すると、Chromeプレーヤーに名前を付けるだけでなく、適切なコンテンツを簡単に割り当てることができます。
+
+次の手順に従って、Chromeプレーヤーで名前を設定します。
+
+1. オプションで、AVインテグレーターまたはIT管理者に対し、エンタープライズ登録の一環としてアセットIDと場所を設定することを許可できます。
+
+   ![画像](/help/user-guide/assets/chrome-device/chrome1.png)
+
+1. デバイスを登録できる場合は、オプションが表示されます。
+
+   ![画像](/help/user-guide/assets/chrome-device/chrome2.jpg)
+
+1. アセットIDは、Chrome管理コンソールだけでなく、エンタープライズ登録の一部として設定できます。
+
+   ![画像](/help/user-guide/assets/chrome-device/chrome3.png)
+
+   >[!NOTE]
+   >Chromeプレーヤーはエンタープライズ登録に登録し、ChromeプレーヤーはChrome管理コンソールを通じてデプロイする必要があります。そうしないと、アセットIDが空白を返します（例えば、拡張機能としてのChrome）。 デバイス名は登録時にのみ記録されます。 今後の変更は、Adobe Experience Manager(AEM)では反映されません。
 
 ### キオスクモードの有効化 {#enabling-kiosk-mode}
 

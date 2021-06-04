@@ -13,10 +13,10 @@ docset: aem65
 feature: Screens の管理、Windows プレーヤー
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 100%
+source-wordcount: '1074'
+ht-degree: 93%
 
 ---
 
@@ -67,6 +67,16 @@ AEM オーサーインスタンスおよびパブリッシュインスタンス�
 >「**状態**」が「**登録済み**」の場合は、「**デバイス ID**」フィールドに値が入力されます。
 >
 >「**状態**」が「**未登録**」の場合は、**トークン**&#x200B;を使用してデバイスを登録できます。
+
+## Windowsプレーヤーの名前{#name-windows}
+
+ユーザーにわかりやすいデバイス名をWindowsプレーヤーに割り当てることで、割り当てられたデバイス名をAdobe Experience Manager(AEM)に送信できます。 この機能を使用すると、Windowsプレーヤーに名前を付けるだけでなく、適切なコンテンツを簡単に割り当てることができます。
+
+次の手順に従って、Windowsプレーヤーで名前を設定します。
+
+1. **start** —> **run**&#x200B;をクリックします。
+1. Enter `system.cpl`
+1. 「コンピュータ名」タブを使用して、コンピュータのホスト名を設定します
 
 ## Windows インストーラーのデフォルトのオプションの変更 {#changing-default-options}
 

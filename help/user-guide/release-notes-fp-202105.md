@@ -4,10 +4,10 @@ description: 「2021年6月4日にリリースされたAEM Screens機能パッ�
 feature: 機能パック
 role: Developer
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+source-git-commit: 444535b38fdf112939fdbf4c0f3f48e1cc28c902
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 43%
+source-wordcount: '378'
+ht-degree: 46%
 
 ---
 
@@ -39,11 +39,11 @@ AEM Screens機能パック202105のリリース日は2021年6月4日です。
 
    サポートされる各オペレーティングシステムでの名前の設定方法については、次のドキュメントを参照してください。
 
-       * [Android](/help/user-guide/implementing-android-player.md#name-android)
-       * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-       * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-       * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
-   
+   * [Android](/help/user-guide/implementing-android-player.md#name-android)
+   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+   * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
+   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+
 * **マニフェストの生成**
 
    サーバー上で割り当てるリソースの削減など、パフォーマンスの向上により、チャネルマニフェストの生成が高速化されます。

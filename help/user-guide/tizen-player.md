@@ -4,10 +4,10 @@ description: このページでは、Tizen プレーヤーのインストール�
 feature: Screens の管理、プレーヤー
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 100%
+source-wordcount: '985'
+ht-degree: 92%
 
 ---
 
@@ -37,6 +37,15 @@ ht-degree: 100%
 1. ローカル HTTP サーバーの IP または URL を取得します（手順 2 で、ルートフォルダーではなくサブフォルダーに展開した場合は、展開したファイルを含むフォルダーのパスも取得します）。
 
 1. Tizen プレーヤーは、ローカルサーバーからインストーラーをダウンロードします。
+
+### Tizenプレーヤーの名前{#name-tizen}
+
+Tizenプレーヤーにわかりやすいデバイス名を割り当てると、割り当てられたデバイス名がAdobe Experience Manager(AEM)に送信されます。 この機能を使用すると、Tizenプレーヤーに名前を付けるだけでなく、適切なコンテンツを簡単に割り当てることができます。
+
+Tizenプレーヤーで名前を設定するには、以下の手順に従います。
+
+1. リモートのメニューボタンをクリックします。
+1. **network** —> **Device Name**&#x200B;に移動して、プレーヤーに名前を割り当てます。
 
 ### Samsung デバイスでの更新の構成 {#config-updates}
 

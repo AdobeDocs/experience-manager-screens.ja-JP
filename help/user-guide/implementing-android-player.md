@@ -13,10 +13,10 @@ docset: aem65
 feature: Screens の管理、Android プレーヤー
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '1439'
-ht-degree: 100%
+source-wordcount: '1513'
+ht-degree: 95%
 
 ---
 
@@ -177,6 +177,15 @@ Android プレーヤーを一括で展開する場合、管理者 UI で手動�
 ## エンタープライズモビリティ管理を使用した Android プレーヤーの一括プロビジョニング {#bulk-provisioning}
 
 Android プレーヤーを一括デプロイする場合、プレーヤーを 1 つずつ手動で AEM に登録するのは非常に面倒です。VMWare Airwatch、MobileIron、Samsung Knox などの EMM（エンタープライズモビリティ管理）ソリューションを使用して、デプロイメントのプロビジョニングと管理をリモートでおこなうことを強くお勧めします。AEM Screens Android プレーヤーでは、業界標準の EMM AppConfig をサポートしているので、リモートプロビジョニングが可能です。
+
+## Androidプレーヤーの名前{#name-android}
+
+ユーザーにわかりやすいデバイス名をAndroidプレーヤーに割り当てることで、割り当てられたデバイス名をAdobe Experience Manager(AEM)に送信できます。 この機能を使用すると、Androidプレーヤーに名前を付けるだけでなく、適切なコンテンツを簡単に割り当てることができます。
+
+次の手順に従って、Androidプレーヤーで名前を設定します。
+
+1. **settings** —> **About device**&#x200B;に移動します。
+1. デバイス名を編集し、Androidプレーヤーに名前を付けるように設定します
 
 ### エンタープライズモビリティ管理を使用した Android プレーヤーの一括プロビジョニングの実装 {#implementation}
 

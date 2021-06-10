@@ -4,10 +4,10 @@ description: このページでは、Tizen プレーヤーのインストール�
 feature: Screens の管理、プレーヤー
 role: Administrator
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+source-git-commit: e955838d33cbe74719b237e568fb0bfd1a6844a2
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 92%
+source-wordcount: '1209'
+ht-degree: 73%
 
 ---
 
@@ -88,24 +88,49 @@ Samsung デバイスの次の手順に従って、デバイスに AEM Screens �
 
 1. AEM 6.5.5 以降のインスタンスに Tizen プレーヤーを登録します。これによりプレーヤーが登録され、コンテンツが正常に表示されます。
 
-## Tizen プレーヤーの一括プロビジョニング {#bulk-provisioning-tizen-player}
+## Tizenプレーヤーのリモートプロビジョニング{#remote-provisioning}
+
+Tizenプレーヤーをリモートでプロビジョニングすると、数百、数千のSamsung Tizenディスプレイを大きな労力をかけずにデプロイできます。 サーバーURLや一括登録コード、またはその他のパラメーターを使用して各プレーヤーを設定する、またはクラウドモードとクラウドトークンを設定するCloud ServiceとしてScreensの場合は各プレーヤーで設定する、煩雑な手間を省きます。
+
+この機能を使用すると、Tizenプレーヤーをリモートで設定し、必要に応じてそれらの設定を一元的に更新できます。 必要なのは、Tizenアプリケーション`(wgt and xml file)`のホストに使用する`HTTP`サーバーと、`config.json`を適切なパラメーターと共に保存するためのテキストエディターだけです。
+
+Tizenデバイス（ホームボタン/URLランチャー設定）でURLランチャーアドレスが設定されていることを確認します。
+Tizenアプリケーションをホストする`HTTP`サーバー上で、`config.json`ファイルを`wgt`ファイルと同じ場所に配置します。 ファイル名は`config.json`にする必要があります。
+Tizenプレーヤーがインストールされ、起動時（および再起動時）に`config.json`ファイルの設定がチェックされ、適用されます。
+
+### JSON ポリシーの例 {#example-json}
+
+```java
+{
+  "server":  "http://your-aem-instance.com:4502",
+  "registrationKey": "AdobeRocks!!",
+  "enableAdminUI": true,
+  "enableOSD": true,
+  "enableActivityUI": true
+}
+```
+
+### ポリシーの属性と目的{#policy-attributes}
+
+次の表に、ポリシーとその機能の概要を示します。
 
 >[!NOTE]
->デバイス数が多い場合は、デバイスごとに管理 UI で AEM サーバーのアドレスを手動入力するのは面倒です。このような大規模なソリューションのデプロイと管理には、Samsung Remote Management（RMS）ソリューションを使用することをお勧めします。詳しくは、[Samsung Remote Management Service（RMS）への Tizen デバイスの登録](#enroll-tizen-device-rm)を参照してください。
+>ポリシー設定は厳密に適用され、プレーヤーのAdmin UIで手動で上書きされるわけではありません。 特定のポリシーに対して手動のプレーヤー設定を許可する場合は、ポリシー設定にポリシーを指定しないでください。例えば、再起動スケジュールの手動設定を許可する場合は、ポリシー設定にキー `rebootSchedule` を指定しないでください。ポリシー設定は、プレーヤーがリロードされるたびに読み取られます。
 
-起動時に AEM オーサーインスタンスを指すようにアプリケーションを一括でプロビジョニングするには、次の手順に従います。
+| **ポリシー名** | **目的** |
+|---|---|
+| server | Adobe Experience Manager（AEM） サーバーの URL。 |
+| registrationKey | 事前共有キーを使用してデバイスを一括登録するために使用されます。 |
+| resolution | デバイスの解像度。 |
+| rebootSchedule | プレーヤーを再起動するスケジュール。 |
+| enableAdminUI | サイト上でデバイスを設定するための Admin UI を有効にします。完全に設定されて運用が開始したら、false に設定します。 |
+| enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。完全に設定されて運用が開始したら、false に設定することを検討します。 |
+| enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にしておき、完全に設定されて運用が開始したら無効にします。 |
+| cloudMode | TizenプレーヤーでScreens as a Cloud Serviceに接続する場合は、trueに設定します。 falseを指定して、AMSまたはonPrem AEMに接続します。 |
+| cloudToken | Screensに登録するための登録トークンをCloud Serviceとして。 |
 
-1. [Tizen Studio](https://developer.tizen.org/development/tizen-studio/download) をダウンロードしインストールします。
-1. Tizen Studio を使用して `wgt` ファイルを開きます。
-1. `firmware-platform.js` ファイルを開き、`DEFAULT_PREFERENCES` を探して、サーバー URL を AEM オーサー URL に変更した後、ファイルを保存します。
-1. 新しい `wgt` ファイルを作成します。
 
-   >[!NOTE]
-   >署名証明書の作成や設定が必要になることもあります。
-
-1. RMS または URL ランチャーを使用して、この新しい `wgt` ファイルをデプロイします。プレーヤーは起動時に指定のサーバーを自動的に指すようになるので、デバイスごとにサーバーのアドレスを手動で入力する必要がなくなります。
-
-### Samsung Remote Management Service（RMS）への Tizen デバイスの登録 {#enroll-tizen-device-rms}
+## Samsung Remote Management Service（RMS）への Tizen デバイスの登録 {#enroll-tizen-device-rms}
 
 Tizen デバイスを Samsung Remote Management Service（RMS）に登録し URL ランチャーをリモートで設定するには、次の手順に従います。
 

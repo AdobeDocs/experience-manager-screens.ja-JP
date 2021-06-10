@@ -4,10 +4,10 @@ description: このページでは、Tizen プレーヤーのインストール�
 feature: Screens の管理、プレーヤー
 role: Administrator
 level: Intermediate
-source-git-commit: e955838d33cbe74719b237e568fb0bfd1a6844a2
+source-git-commit: ee731bc5169d2c76665bbfa18e3b8529619d83ce
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 73%
+source-wordcount: '1213'
+ht-degree: 72%
 
 ---
 
@@ -124,9 +124,9 @@ Tizenプレーヤーがインストールされ、起動時（および再起動
 | resolution | デバイスの解像度。 |
 | rebootSchedule | プレーヤーを再起動するスケジュール。 |
 | enableAdminUI | サイト上でデバイスを設定するための Admin UI を有効にします。完全に設定されて運用が開始したら、false に設定します。 |
-| enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。完全に設定されて運用が開始したら、false に設定することを検討します。 |
+| enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。完全に設定されて運用が開始したら、falseに設定することを検討します。 |
 | enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にしておき、完全に設定されて運用が開始したら無効にします。 |
-| cloudMode | TizenプレーヤーでScreens as a Cloud Serviceに接続する場合は、trueに設定します。 falseを指定して、AMSまたはonPrem AEMに接続します。 |
+| cloudMode | TizenプレーヤーでScreensにCloud Serviceとして接続する場合は、trueに設定します。 AMSまたはオンプレミスAEMに接続するには、 falseに設定します。 |
 | cloudToken | Screensに登録するための登録トークンをCloud Serviceとして。 |
 
 

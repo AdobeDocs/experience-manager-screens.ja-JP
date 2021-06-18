@@ -14,7 +14,7 @@ feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1466'
 ht-degree: 100%
 
@@ -25,11 +25,11 @@ ht-degree: 100%
 
 コンポーネントは、AEM（Adobe Experience Manager）エクスペリエンスの基本的要素です。多数のコンポーネントを使用でき、AEM Screens プロジェクトのチャネルに追加できます。
 
-## AEM Screens のコンポーネント  {#components-in-aem-screens}
+## AEM Screens のコンポーネント {#components-in-aem-screens}
 
 AEM Screens には、スクリーンプロジェクトで使用できる様々な AEM コンポーネントが用意されています。
 
-### AEM Screens コンポーネントの表示  {#viewing-aem-screens-components}
+### AEM Screens コンポーネントの表示 {#viewing-aem-screens-components}
 
 AEM Screens プロジェクトを作成する場合はいつでも、プロジェクトに追加できるデフォルトコンポーネントのリストが表示されます。
 
@@ -62,7 +62,7 @@ AEM には、他のコンポーネントが多数用意されています。AEM 
 >
 >同様に、AEM Screens と互換性のある他の新しいコンポーネントをプロジェクトに好きなだけ追加できます。
 
-## AEM Screen コンポーネントについて  {#understanding-aem-screen-components}
+## AEM Screen コンポーネントについて {#understanding-aem-screen-components}
 
 ここでは、プロジェクトで使用できる AEM Screens コンポーネントについて説明します。
 

@@ -14,7 +14,7 @@ feature: デジタルサイネージ、コンテンツ、プレーヤー
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '805'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 デバイスダッシュボードを使用すると、Screens Player のアクティビティやデバイスのパフォーマンスを監視およびトラブルシューティングできます。このページでは、Screens Player や割り当てられているデバイスを監視し、確認されたパフォーマンスの問題をトラブルシューティングする方法について説明します。
 
-## デバイスコントロールセンターからの監視およびトラブルシューティング  {#monitor-and-troubleshoot-from-device-control-center}
+## デバイスコントロールセンターからの監視およびトラブルシューティング {#monitor-and-troubleshoot-from-device-control-center}
 
 デバイスダッシュボードを使用すると、アクティビティを監視し、Screens Player をトラブルシューティングできます。
 

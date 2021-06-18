@@ -4,7 +4,7 @@ seo-title: AEM Screens のサポートと監視
 description: ここでは、AEM Screens ベストプラクティスガイドにおける「サポートと監視」について説明します
 seo-description: ここでは、AEM Screens ベストプラクティスガイドにおける「サポートと監視」について説明します
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '225'
 ht-degree: 100%
 

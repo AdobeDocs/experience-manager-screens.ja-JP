@@ -13,7 +13,7 @@ feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2537'
 ht-degree: 100%
 
@@ -81,7 +81,7 @@ ht-degree: 100%
 
 ### リソース {#resources}
 
-次のリソース（画像）をダウンロードしてアセットに追加し、さらにデモ用のチャネルコンテンツとして使用できます。
+次のリソース（画像）をダウンロードしてアセットに追加し、デモ用のチャネルコンテンツとして使用できます。
 
 [ファイルを入手](assets/resources.zip)
 
@@ -91,6 +91,7 @@ ht-degree: 100%
 >
 >* **[プロジェクトの作成と管理](creating-a-screens-project.md)**
 >* **[チャネルの管理](managing-channels.md)**
+
 >
 
 
@@ -120,7 +121,6 @@ AEM Screens プロジェクトに動的埋め込みシーケンスを実装す�
    ![screen_shot_2018-09-13at23212pm](assets/screen_shot_2018-09-13at23212pm.png)
 
    >[!NOTE]
-   >
    >ロケーションの作成方法については、**[ロケーションの作成と管理](managing-locations.md)**&#x200B;を参照してください。
 
 1. **各ロケーションフォルダーに 2 つのロケーションと 1 つのチャネルを作成します。**
@@ -161,7 +161,6 @@ AEM Screens プロジェクトに動的埋め込みシーケンスを実装す�
    同様に、**Store2Display** というディスプレイと、**Store2Channel** というチャネル（名前は **store**）を **Store 2** の中に作成します。
 
    >[!NOTE]
-   >
    >**Store 1** と **Store 2** に作成したチャネルには、**store** という同じ名前を使用できることを確認してください。
 
    ![screen_shot_2018-09-19at120329pm](assets/screen_shot_2018-09-19at120329pm.png)
@@ -181,7 +180,6 @@ AEM Screens プロジェクトに動的埋め込みシーケンスを実装す�
    **Demo**／**Locations**／**Region A**／**Region A** に移動し、アクションバーの「**編集**」をクリックします。チャネルに追加するアセットをドラッグ＆ドロップします。
 
    >[!NOTE]
-   >
    >上記の&#x200B;***リソース***&#x200B;で言及した **resources.zip** ファイルを使用して、その中の画像をチャネルコンテンツのアセットとして使用できます。
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
@@ -309,8 +307,7 @@ AEM Screens プロジェクトに動的埋め込みシーケンスを実装す�
 #### ユーザーグループとユーザーの作成および ACL の設定の手順 {#steps-for-creating-user-groups-users-and-setting-up-acls}
 
 >[!NOTE]
->
->各個人または各チームが独自のプロジェクトを扱えるように、ACL を使用してプロジェクトを区別する方法について詳しくは、**ACL の設定**&#x200B;を参照してください。
+各個人または各チームが独自のプロジェクトを扱えるように、ACL を使用してプロジェクトを区別する方法について詳しくは、**ACL の設定**&#x200B;を参照してください。
 
 グループとユーザーを作成し、ACL を権限に応じて変更するには、以下の手順に従います。
 
@@ -336,9 +333,7 @@ AEM Screens プロジェクトに動的埋め込みシーケンスを実装す�
 
    同様に、**Region-User** や **Store-User** など、他の 2 人のユーザーを作成し、それらを **Region-Author** と **Store-Author** にそれぞれ追加します。
 
-   >[!NOTE]
-   >
-   >グループにユーザーを追加してから、個々のユーザーグループに権限を割り当てることをお勧めします。
+   >[!NOTE]グループにユーザーを追加してから、個々のユーザーグループに権限を割り当てることをお勧めします。
 
    ![screen_shot_2018-09-17at34412pm](assets/screen_shot_2018-09-17at34412pm.png)
 
@@ -408,6 +403,5 @@ AEM Screens プロジェクトに動的埋め込みシーケンスを実装す�
    ![store](assets/store.gif)
 
 >[!NOTE]
->
->権限の設定について詳しくは、[ACL の設定](setting-up-acls.md)を参照してください。
+権限の設定について詳しくは、[ACL の設定](setting-up-acls.md)を参照してください。
 

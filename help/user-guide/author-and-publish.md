@@ -7,7 +7,7 @@ feature: Screens の管理
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1907'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 
 以下の手順に従って、デフォルトレプリケーションエージェントを作成します。
 
-1. AEM インスタンス／ハンマーアイコン／**操作**／**設定**&#x200B;に移動します。
+1. AEM インスタンス／ハンマーアイコン／**運営**／**設定**&#x200B;に移動します。
 
    ![screen_shot_2019-02-25at24621pm](assets/screen_shot_2019-02-25at24621pm.png)
 
@@ -254,7 +254,7 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 >
 >author-publish-screens-service はオーサージョブで使用されるシステムユーザーなので、アクティブ化しないでください。
 
-また、デバイス管理コンソールからデバイスをアクティブ化することもできます。その場合は、次の手順に従います。
+また、デバイス管理コンソールからデバイスをアクティブ化することもできます。次の手順に従います。
 
 1. Screens プロジェクト／**デバイス**&#x200B;に移動します。
 1. アクションバーの「**デバイスマネージャー**」をクリックします。

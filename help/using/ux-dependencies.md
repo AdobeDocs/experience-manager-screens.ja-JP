@@ -4,7 +4,7 @@ seo-title: '[!UICONTROL AEM Screens] の UX の依存関係'
 description: このガイドでは、[!UICONTROL AEM Screens] の UX の依存関係について説明します。
 seo-description: このガイドでは、[!UICONTROL AEM Screens] の UX の依存関係について説明します。
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '151'
 ht-degree: 100%
 

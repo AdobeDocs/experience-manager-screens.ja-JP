@@ -4,7 +4,7 @@ seo-title: '[!UICONTROL AEM Screens] プロジェクトのベストプラクテ�
 description: ここでは AEM Screens について紹介します
 seo-description: ここでは AEM Screens について紹介します
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ AEM Screens を使用したデジタルサイネージネットワークの作�
 
 >[!NOTE]
 >
->AEM Screens プロジェクトの開発と管理に関する様々な機能について詳しくは、『**[AEM Screens ユーザーガイド](https://helpx.adobe.com/jp/experience-manager/6-5/screens/user-guide.html)**』を参照してください。
+>AEM Screens プロジェクトの開発と管理に関する様々な機能について詳しくは、『**[AEM Screens ユーザーガイド](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/aem-screens-introduction.html?lang=ja)**』を参照してください。
 
 ## AEM Sites と AEM Screens の比較 {#aem-sites-screens}
 

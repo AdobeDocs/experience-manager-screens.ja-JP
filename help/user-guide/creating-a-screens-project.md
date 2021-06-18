@@ -13,7 +13,7 @@ feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Adobe Experience Manager のリンク（左上）を選択し、「Screens」を
 >**ナビゲーションのヒント：**
 >カーソルキーを使用しても、AEM 内の様々なフォルダーを移動できます。さらに、特定のエンティティを選択し、スペースバーを押すと、その特定のフォルダーのプロパティを編集または表示できます。
 
-## 新しい Screens プロジェクトの作成  {#creating-a-new-screens-project}
+## 新しい Screens プロジェクトの作成 {#creating-a-new-screens-project}
 
 以下の手順に従って、新しい Screens プロジェクトを作成します。
 

@@ -8,7 +8,7 @@ feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '631'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 ### 前提条件 {#preconditions}
 
-この使用例を開始する前に、以下をおこなう方法を理解しておく必要があります。
+この使用例を開始する前に、以下の方法を理解しておく必要があります。
 
 * **[チャネルの作成と管理](managing-channels.md)**
 * **[ロケーションの作成と管理](managing-locations.md)**

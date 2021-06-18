@@ -14,7 +14,7 @@ feature: Screens の管理、デバイスの登録
 role: Administrator
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '789'
 ht-degree: 100%
 
@@ -39,6 +39,7 @@ ht-degree: 100%
 >1. 左上隅を長押しして、管理パネルを開きます。
 >1. 左のアクションメニューから「**設定**」に移動し、AEM インスタンスの場所のアドレスを「**サーバー**」に入力して、「**保存**」をクリックします。
 >1. 左のアクションメニューの「**登録**」リンクをクリックし、以下の手順でデバイス登録プロセスを完了します。
+
 >
 
 
@@ -150,7 +151,6 @@ ht-degree: 100%
 * ユーザーは、*デバイス ID*&#x200B;または&#x200B;*デバイス名*&#x200B;に存在する任意の単語を検索できます。
 
    >[!NOTE]
-   >
    >デバイス名は、「*BostonStoreLobby*」のように 1 単語ではなく、「*Boston Store Lobby*」のように複数の単語で作成することをお勧めします。
 
 * *Boston Store Lobby* などのデバイス名を作成すると、「*boston*」、「*store*」、「*lobby*」などの単語を検索できますが、デバイス名が「*BostonStoreLobby*」の場合、「*boston*」を検索しても結果は表示されません。

@@ -13,7 +13,7 @@ feature: チャネル、インタラクティブ
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '846'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 以下の節では、チャネルで再生されるビデオをデバッグおよびトラブルシューティングする方法について説明します。
 
-## DAM レンディション     {#dam-renditions}
+## DAM レンディション {#dam-renditions}
 
 ビデオをチャネルにアップロードすると、AEM によってそのビデオの一部のレンディションの作成が開始されます。ビデオは Assets で表示できます。
 
@@ -73,7 +73,7 @@ ffmpeg がインストールされていること、およびビデオプロフ�
    >
    >ビデオのトランスコードに十分な時間をかけてから（「処理しています」ではなく「新規」というタグが表示されます）、ビデオをチャネルに追加するようにしてください。
 
-### ビデオコンポーネントでのプロファイルの確認     {#checking-profile-with-a-video-component}
+### ビデオコンポーネントでのプロファイルの確認 {#checking-profile-with-a-video-component}
 
 ビデオコンポーネントが正しく設定されない場合は、ページデザインからプロファイルのリストを確認します。
 

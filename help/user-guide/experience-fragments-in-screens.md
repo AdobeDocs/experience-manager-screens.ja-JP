@@ -14,7 +14,7 @@ feature: Screens のオーサリング、エクスペリエンスフラグメン
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1131'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 ***プロジェクトの作成***
 
 1. 「**Screen プロジェクトを作成**」をクリックして、新しいプロジェクトを作成します。
-1. タイトルに &quot;**DemoProject**&quot; と入力します。
+1. タイトルに「**DemoProject**」と入力します。
 1. 「**保存**」をクリックします。
 
 **DemoProject** が AEM Screens に追加されます。

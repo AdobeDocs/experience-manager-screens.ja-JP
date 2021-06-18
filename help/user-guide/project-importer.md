@@ -14,7 +14,7 @@ feature: Screens の管理
 role: Administrator
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ AEM Screens プロジェクトを組織で初めてセットアップする場�
 * **path {string}**：読み込むロケーションのパス。プロジェクトのロケーションフォルダーをルートとします。例えば、*/foo* の場合は */content/screens/&lt;project>/locations/foo* に読み込まれます。
 
 * **template {string}**：新しいロケーションに使用するテンプレート。今のところ、使用可能な値は「location」だけですが、今後、すべての Screens テンプレート（「display」、「sequenchannel」など）に拡張される予定です。
-* **[です。/*] {string}**&#x200B;ロケーションに設定する任意のオプションプロパティ（例：./jcr:title、./jcr:description、./foo、./bar）。現在のリリースでは、今のところフィルタリングは使用できません。
+* **[です。/*] {string}**：ロケーションに設定する任意のオプションプロパティ（例：./jcr:title、./jcr:description、./foo、./bar）。現在のリリースでは、今のところフィルタリングは使用できません。
 
 >[!NOTE]
 >
@@ -80,6 +80,7 @@ AEM Screens プロジェクトを組織で初めてセットアップする場�
 >
 >* CSV／XLS／XLSX 拡張子以外のファイルは、現在のリリースではサポートされていません。
 >* 読み込まれるファイルに対してプロパティのフィルタリングはおこなわれず、「./」で始まるものはすべて読み込まれます。
+
 >
 
 
@@ -108,7 +109,7 @@ AEM Screens プロジェクトを組織で初めてセットアップする場�
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. プロジェクト DemoProjectImporter を選択し、サイドバーから&#x200B;**作成**／**ロケーションを読み込み**&#x200B;を選択します。
+1. プロジェクト **DemoProjectImporter を選択し、サイドバーから&#x200B;**／**&#x200B;作成&#x200B;**／**&#x200B;ロケーションを読み込み** を選択します。
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 

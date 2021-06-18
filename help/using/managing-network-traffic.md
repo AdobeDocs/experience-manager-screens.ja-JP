@@ -2,7 +2,7 @@
 title: ネットワークトラフィックの管理
 description: このページでは、標準ネットワークのセットアップとネットワークトラフィックの管理方法について説明します。
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '559'
 ht-degree: 100%
 

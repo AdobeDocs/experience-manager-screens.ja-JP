@@ -139,7 +139,7 @@ AEM Screens Player は、キオスク対応アプリケーションです。Chro
 
 | **ポリシー名** | **目的** |
 |---|---|
-| *server* | Adobe Experience Manager サーバーの URL  |
+| *server* | Adobe Experience Manager サーバーの URL |
 | *resolution* | Chrome OS デバイスの解像度 |
 | *rebootSchedule* | Chrome プレーヤーを再起動するスケジュール |
 | *enableAdminUI* | サイト上でデバイスを設定するための、技術者用の Admin UI を有効にします。完全に設定されて運用が開始したら、false に設定します。 |

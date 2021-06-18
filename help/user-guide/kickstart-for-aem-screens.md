@@ -6,7 +6,7 @@ feature: 概要、デジタルサイネージ
 role: Business Practitioner
 level: Beginner
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1320'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ AEM Screens のキックスタートで、AEM Screens プロジェクトの設�
 
 ## 空のリファラー要求の許可 {#allow-empty-referrer-requests}
 
-1. AEM インスタンスでハンマーアイコン／**操作**／**Web コンソール**&#x200B;をクリックして、「**Adobe Experience Manager Web コンソール設定**」に移動します。
+1. AEM インスタンスでハンマーアイコン／**運営**／**Web コンソール**&#x200B;をクリックして、「**Adobe Experience Manager Web コンソール設定**」に移動します。
 
    ![画像](assets/config/empty-ref1.png)
 

@@ -1,5 +1,5 @@
 ---
-title: 'Adobe Analytics と AEM Screens の統合 '
+title: Adobe Analytics と AEM Screens の統合
 seo-title: Adobe Analytics と AEM Screens の統合
 description: ここでは、標準で利用できる、AEM Screens と Adobe Analytics の統合について説明し、提供される再生検証機能についても紹介します。
 seo-description: ここでは、標準で利用できる、AEM Screens と Adobe Analytics の統合について説明し、提供される再生検証機能についても紹介します。
@@ -14,7 +14,7 @@ feature: Screens の管理
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '704'
 ht-degree: 100%
 

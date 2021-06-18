@@ -13,7 +13,7 @@ feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 手動および自動でフル HD レンディションを生成できます。ここでは、アセットにレンディションを追加するワークフローを説明します。
 
-## フル HD レンディションの自動生成       {#automatically-generating-full-hd-renditions}
+## フル HD レンディションの自動生成 {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >

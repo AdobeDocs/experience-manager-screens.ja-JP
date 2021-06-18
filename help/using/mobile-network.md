@@ -2,7 +2,7 @@
 title: 直接モバイルネットワーク
 description: ここでは直接モバイルネットワークのセットアップについて説明します
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '861'
 ht-degree: 100%
 

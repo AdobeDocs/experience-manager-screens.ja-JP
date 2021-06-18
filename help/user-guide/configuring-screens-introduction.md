@@ -13,7 +13,7 @@ docset: aem65
 role: Administrator
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '752'
 ht-degree: 100%
 
@@ -71,7 +71,7 @@ AEM Screens で使用できるように AEM サーバーを設定する際に役
 
 #### 空のリファラー要求の許可 {#allow-empty-referrer-requests}
 
-1. AEM インスタンスでハンマーアイコン／**操作**／**Web コンソール**&#x200B;をクリックして、「**Adobe Experience Manager Web コンソール設定**」に移動します。
+1. AEM インスタンスでハンマーアイコン／**運営**／**Web コンソール**&#x200B;をクリックして、「**Adobe Experience Manager Web コンソール設定**」に移動します。
 
    ![画像](assets/config/empty-ref1.png)
 
@@ -88,7 +88,7 @@ AEM Screens で使用できるように AEM サーバーを設定する際に役
 
 #### Apache Felix Jetty Based HTTP Service {#allow-apache-felix-service}
 
-1. AEM インスタンスでハンマーアイコン／**操作**／**Web コンソール**&#x200B;をクリックして、「**Adobe Experience Manager Web コンソール設定**」に移動します。
+1. AEM インスタンスでハンマーアイコン／**運営**／**Web コンソール**&#x200B;をクリックして、「**Adobe Experience Manager Web コンソール設定**」に移動します。
 
    ![画像](assets/config/empty-ref1.png)
 
@@ -109,7 +109,7 @@ AEM Screens にはタッチ操作対応 UI が必要で、Adobe Experience Manag
 1. *&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl* に移動します。
 1. 「**Default authoring UI mode**」が「**TOUCH**」に設定されていることを確認します（下図を参照）。
 
-また、yourAuthorInstance／*ツール（ハンマーアイコン）*／**操作**／**Web コンソール**&#x200B;をクリックし、**WCM Authoring UI Mode Service** を検索して、同じ設定を実行することもできます。
+また、yourAuthorInstance／*ツール（ハンマーアイコン）*／**運営**／**Web コンソール**&#x200B;をクリックし、**WCM Authoring UI Mode Service** を検索して、同じ設定を実行することもできます。
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -135,7 +135,7 @@ AEM Screens にはタッチ操作対応 UI が必要で、Adobe Experience Manag
 
 以下の手順に従って ***DeviceServiceImpl*** を設定します。
 
-1. AEM インスタンスでハンマーアイコン／**操作**／**Web コンソール**&#x200B;をクリックして、「**Adobe Experience Manager Web コンソール設定**」に移動します。
+1. AEM インスタンスでハンマーアイコン／**運営**／**Web コンソール**&#x200B;をクリックして、「**Adobe Experience Manager Web コンソール設定**」に移動します。
 
 1. **Adobe Experience Manager Web コンソール設定**&#x200B;が開きます。「*deviceservice*」を検索します。このプロパティを検索するには、**Command + F** キー（macOS）または **Ctrl + F** キー（Microsoft Windows）を押します。
 

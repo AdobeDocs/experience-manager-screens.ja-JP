@@ -14,7 +14,7 @@ feature: 機能パック
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '386'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ AEM Screens 機能パック 201907 のリリース日は 2019 年 7 月 31 日�
 
 実装については、[緊急チャネル](emergency-channel.md)の使用例を参照してください。
 
-* **非同期コンポーネントのターゲティングが有効
+* 非同期コンポーネントのターゲティングが有効
 
 AEM Screens プロジェクトで使用されるアセットに対してターゲティングを有効にできるようになりました。
 

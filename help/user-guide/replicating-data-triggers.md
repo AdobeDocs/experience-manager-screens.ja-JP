@@ -7,7 +7,7 @@ feature: Screens の管理、データトリガー
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ ContextHub と AEM ターゲティングエンジンを使用して、オーサ�
 
 ### 手順 1：ContextHub 設定のレプリケーション {#replicating-contexthub-configurations}
 
-1. **ツール**／**デプロイメント**／**配布**／**発行エージェント**&#x200B;に移動し、設定する発行エージェントをクリックします。
+1. **ツール**／**デプロイメント**／**配布版**／**発行エージェント**&#x200B;に移動し、設定する発行エージェントをクリックします。
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
@@ -94,7 +94,7 @@ ContextHub と AEM ターゲティングエンジンを使用して、オーサ�
 
 ContextHub 設定をレプリケーション中にテスト接続が失敗した場合は、次の手順に従って問題のトラブルシューティングをおこなってください。
 
-1. ツール／**デプロイメント**／**配布**／**発行エージェント**&#x200B;に移動します。
+1. ツール／**デプロイメント**／**配布版**／**発行エージェント**&#x200B;に移動します。
 
 1. アクションバーで&#x200B;**編集**&#x200B;をクリックし、「**インポーターエンドポイント**」フィールドのエンドポイント URL も配布エージェントのパブリッシュサーバー URL を指していることを確認します。
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
@@ -103,7 +103,7 @@ ContextHub 設定をレプリケーション中にテスト接続が失敗した
 
    次の手順に従います。
 
-   1. ツール／**操作**／**Web コンソール** `http://localhost:4502/system/console/configMgr` に移動して、**Adobe Experience Manager Web コンソール画面**&#x200B;を開きます。
+   1. ツール／**運営**／**Web コンソール** `http://localhost:4502/system/console/configMgr` に移動して、**Adobe Experience Manager Web コンソール画面**&#x200B;を開きます。
    1. **Apache Sling Distribution トランスポート認証情報 - ユーザ認証情報に基づく DistributionTransportSecretProvider** を探します。
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)

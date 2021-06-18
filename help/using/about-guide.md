@@ -4,7 +4,7 @@ seo-title: ガイドの説明
 description: ここでは、ベストプラクティスガイドの目的について説明します
 seo-description: ここでは、ベストプラクティスガイドの目的について説明します
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ AEM Screens は Adobe Experience Manager（AEM）の新しい拡張機能です�
 >
 > * **[プロジェクト上の役割と責務](roles-responsibilities.md)**
 > * **[様々な役割についての RACI チャート](roles-responsibilities.md#raci-chart)**
-> * **[AEM プラットフォーム設定](aem-platform-configurations.md)**
+> * **[AEM Platform 設定](aem-platform-configurations.md)**
 > * **[サポートと監視](support-monitoring.md)**
 
 

@@ -13,7 +13,7 @@ feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
 ht-degree: 100%
 
@@ -68,7 +68,7 @@ ht-degree: 100%
    >
    >ライブコピーチャネルのコンテンツを表示するときは、**ライブコピーステータス**&#x200B;としてメニューの中に追加項目が表示されます。詳しくは、下のセクションを参照してください。
 
-### ライブコピーのプロパティの表示  {#viewing-properties-of-a-live-copy}
+### ライブコピーのプロパティの表示 {#viewing-properties-of-a-live-copy}
 
 さらに、ライブコピーチャネルのプロパティを表示できます。
 

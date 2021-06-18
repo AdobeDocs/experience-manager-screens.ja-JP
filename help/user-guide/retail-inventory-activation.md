@@ -14,7 +14,7 @@ feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '693'
 ht-degree: 100%
 
@@ -99,8 +99,7 @@ ht-degree: 100%
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
-   >
-   >ターゲティングプロセスを開始したときにアクティビティが正しく一覧表示されるように、「**ブランド**」と「**領域**」の両方を選択する必要があります。
+   ターゲティングプロセスを開始したときにアクティビティが正しく一覧表示されるように、「**ブランド**」と「**領域**」の両方を選択する必要があります。
 
 1. **デフォルト画像を追加する**
 
@@ -112,8 +111,7 @@ ht-degree: 100%
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
-   >
-   >ターゲティングを開始する前に、サイドレールの「**+ エクスペリエンスのターゲットを追加**」をクリックして、セグメント（**For_Green**、**For_Red**、**For_Blue**）を追加する必要があります（下図を参照）。
+   ターゲティングを開始する前に、サイドレールの「**+ エクスペリエンスのターゲットを追加**」をクリックして、セグメント（**For_Green**、**For_Red**、**For_Blue**）を追加する必要があります（下図を参照）。
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 

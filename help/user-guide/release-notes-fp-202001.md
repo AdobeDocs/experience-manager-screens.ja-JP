@@ -7,7 +7,7 @@ feature: 機能パック
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
 ht-degree: 100%
 
@@ -29,10 +29,6 @@ AEM Screens 機能パック 202001 のリリース日は 2020 年 1 月 31 日�
 ### 新機能 {#what-s-new}
 
 * **アセット再生のコマンド同期**
-
-
-
-
 コマンド同期を使用すると、異なるプレーヤー間で再生を同期させることができます。プレーヤーごとに異なるコンテンツを再生できますが、各アセットの再生時間は同じにする必要があります。
 コマンド同期およびマスターとクライアントを設定する方法について詳しくは、[コマンド同期の使用](using-command-sync.md)を参照してください。
 

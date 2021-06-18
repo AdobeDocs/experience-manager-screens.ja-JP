@@ -8,7 +8,7 @@ feature-set: Experience Manager Screens
 product: experience manager
 audience: end-user
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ ht-degree: 100%
    + [プラットフォームへの移行](transition-platform.md)
    + [Dynamic Creative Optimization](dynamic-creative-optimizations.md)
 + デプロイメントの概要 {#deployment-brief}
-   + [AEM プラットフォーム設定](aem-platform-configurations.md)
+   + [AEM Platform 設定](aem-platform-configurations.md)
    + [プロジェクトの分類と実装](project-taxonomy-implementation.md)
    + ネットワークトラフィック管理 {#manage-network-traffic}
       + [ネットワークトラフィックの管理](/help/using/managing-network-traffic.md)

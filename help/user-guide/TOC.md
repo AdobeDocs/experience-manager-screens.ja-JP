@@ -61,7 +61,7 @@ ht-degree: 100%
       + [デバイスの管理](managing-devices.md)
       + チャネルの割り当て {#assigning-channels}
          + [チャネル割り当て](channel-assignment-latest-fp.md)
-         + [チャネルの割り当て：古い AEM Screens の機能パック](channel-assignment.md)
+         + [チャネルの割り当て：旧 AEM Screens 機能パック](channel-assignment.md)
    + コア製品機能の使用 {#product-features}
       + [テキストオーバーレイ](text-overlay.md)
       + [オフライン一括更新](bulk-offline-update.md)
@@ -109,7 +109,7 @@ ht-degree: 100%
    + [デバイスコントロールセンターからのトラブルシューティング](monitoring-screens.md)
    + [ビデオ再生の設定](troubleshoot-videos.md)
 + リリースノート {#release-notes}
-   + [機能パック 202105 のリリースノート ](release-notes-fp-202105.md)
+   + [機能パック 202105 のリリースノート](release-notes-fp-202105.md)
    + [機能パック 202103 のリリースノート](release-notes-fp-202103.md)
    + [機能パック 202011 のリリースノート](release-notes-fp-202011.md)
    + [機能パック 202008 のリリースノート](release-notes-fp-202008.md)

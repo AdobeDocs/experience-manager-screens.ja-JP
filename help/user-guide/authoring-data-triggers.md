@@ -6,7 +6,7 @@ feature: Screens のオーサリング
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 1. 「**パーソナライズ機能**」タブを選択して ContextHub 設定を設定し、ContextHub とセグメントのパスを選択します。
 
-   1. 「**ContextHub のパス**」として **libs**/**settings**/**cloudsettings**/**default**/**ContextHub Configurations** を選択し、「**選択**」をクリックします。
+   1. 「**ContextHub のパス**」として **libs**/**settings**/**cloudsettings**/**default**/**ContextHub 設定** を選択し、「**選択**」をクリックします。
 
    1. 「**セグメントのパス**」として **conf**/**We.Retail**/**settings**/**wcm**/**segments** を選択し、「**選択**」をクリックします。
 

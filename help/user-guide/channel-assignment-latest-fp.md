@@ -6,7 +6,7 @@ feature: Screens のオーサリング、チャネル割り当て
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1475'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
 プロジェクトの設定が完了したら、チャネルをディスプレイに割り当てて、コンテンツを表示する必要があります。
 
-1. 必要なディスプレイに移動します（例：**DemoProject**／**Locations**／**SanJose**／**StoreDisplay**）。
+1. 必要なディスプレイに移動します（例：**DemoScreens**／**Locations**／**SanJose**／**StoreDisplay**）。
 
 1. アクションバーで「**チャネルの割り当て**」をタップまたはクリックします。
 
@@ -110,7 +110,7 @@ ht-degree: 100%
 
 タイムライン表示に移動するには、次の手順を実行します。
 
-1. 必要なディスプレイに移動します（例：**DemoProject**／**Locations**／**SanJose**／**StoreDisplay**）。
+1. 必要なディスプレイに移動します（例：**DemoScreens**／**Locations**／**SanJose**／**StoreDisplay**）。
 
 1. アクションバーで「**チャネルの割り当て**」をタップまたはクリックします。
 

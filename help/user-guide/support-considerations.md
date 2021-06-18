@@ -14,7 +14,7 @@ feature: 概要
 role: Business Practitioner, Data Architect
 level: Beginner
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '635'
 ht-degree: 100%
 
@@ -33,8 +33,10 @@ ht-degree: 100%
 >
 >* 現場へのプロジェクトのデプロイメント
 >* インストール技術者と NOC（Network Operations Center）によるデバイスの接続と動作の検証
+
 >
->Day 2 の開始前に、継続的なライフサイクル予算の計画立案を実行する必要があります。
+>
+Day 2 の開始前に、継続的なライフサイクル予算の計画立案を実行する必要があります。
 
 計画立案作業には、次の項目が含まれます。
 

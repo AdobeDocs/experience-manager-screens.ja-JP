@@ -14,7 +14,7 @@ feature: Screens の開発
 role: Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Screens Player では、***ContentSync*** テクノロジーを利用してチ�
 
 ***ContentSync*** は、更新ハンドラーを使用して、特定のプロジェクトに必要なすべてのページとアセットを解析および収集します。AEM Screens では、次の更新ハンドラーが使用されます。
 
-### 共通オプション  {#common-options}
+### 共通オプション {#common-options}
 
 * *type*：使用する更新ハンドラーのタイプ
 * *path*：リソースのパス
@@ -57,7 +57,7 @@ Screens Player では、***ContentSync*** テクノロジーを利用してチ�
   <tr>
    <td>channels</td> 
    <td>チャネルを収集します</td> 
-   <td>extension：収集するリソースの拡張子<br />[pathSuffix="]：チャネルパスに追加するサフィックス<br /> </td> 
+   <td>extension：収集するリソースの拡張子<br />[pathSuffix='']：チャネルパスに追加するサフィックス<br /> </td> 
   </tr>
   <tr>
    <td>clientlib</td> 
@@ -90,7 +90,7 @@ ContentSync 設定をテストするには、以下の手順に従います。
 1. 解凍したフォルダーでローカルサーバーを起動します。
 1. スタートページを開き、アプリケーションの状態を確認します。
 
-## チャネルのオフライン設定の有効化  {#enabling-offline-config-for-a-channel}
+## チャネルのオフライン設定の有効化 {#enabling-offline-config-for-a-channel}
 
 チャネルのオフライン設定を有効にするには、次の手順を実行します。
 

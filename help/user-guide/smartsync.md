@@ -13,7 +13,7 @@ feature: Screens の管理
 role: Administrator
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
 ht-degree: 100%
 
@@ -79,7 +79,7 @@ ht-degree: 100%
    >
    >スマート同期の使用を開始する前に、コンテンツキャッシュをすべてクリアする必要があります。
 
-1. AEM インスタンスでハンマーアイコン／**操作**／**Web コンソール**&#x200B;をクリックして、「**Adobe Experience Manager Web コンソール設定**」に移動します。
+1. AEM インスタンスでハンマーアイコン／**運営**／**Web コンソール**&#x200B;をクリックして、「**Adobe Experience Manager Web コンソール設定**」に移動します。
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 

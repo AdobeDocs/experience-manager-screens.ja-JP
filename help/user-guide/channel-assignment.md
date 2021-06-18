@@ -6,7 +6,7 @@ feature: Screens のオーサリング、チャネル割り当て
 role: Administrator, Developer
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1219'
 ht-degree: 100%
 
@@ -161,7 +161,7 @@ ht-degree: 100%
 >
 >さらに、チャネルごとに&#x200B;***優先度***&#x200B;を定義できます。例えば、2 つのチャネルを同じ日時または同じ月に設定する場合は、優先度の高いチャネルが最初に再生されます。優先度の最小値は 0 として設定できます。
 
-#### 同じ優先度のチャネル用コンテンツの再生  {#playing-content-for-channels-with-same-priority}
+#### 同じ優先度のチャネル用コンテンツの再生 {#playing-content-for-channels-with-same-priority}
 
 この例では、商店の日分割が示され、冬物コレクションを 12 月に同じスケジュールで表示します。しかし、その週はチャネル B が優先度 2 に設定されており、チャネル A ではなくチャネル B がそのコンテンツを再生します。
 

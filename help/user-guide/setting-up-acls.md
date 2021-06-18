@@ -13,7 +13,7 @@ feature: Screens の管理
 role: Administrator
 level: Intermediate
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '561'
 ht-degree: 100%
 
@@ -72,16 +72,16 @@ AEM 管理者は、プロジェクトのチームメンバーが他のプロジ�
 |---|---|---|
 | `/apps/<project>` | READ | プロジェクトファイルへのアクセス権を付与します（該当する場合） |
 | `/content/dam/<project>` | ALL | DAM の画像やビデオなど、プロジェクトアセットへのアクセス権を付与します |
-| `/content/screens/<project>` | すべて | /content/screens 以下にある他のすべてのプロジェクトへのアクセス権を削除します |
-| `/content/screens/svc` | 読み取り | 登録サービスへのアクセス権を付与します |
-| `/libs/screens` | 読み取り | DCC へのアクセス権を付与します |
-| `/var/contentsync/content/screens/` | すべて | プロジェクトのオフラインコンテンツの更新を許可します |
+| `/content/screens/<project>` | ALL | /content/screens 以下にある他のすべてのプロジェクトへのアクセス権を削除します |
+| `/content/screens/svc` | READ | 登録サービスへのアクセス権を付与します |
+| `/libs/screens` | READ | DCC へのアクセス権を付与します |
+| `/var/contentsync/content/screens/` | ALL | プロジェクトのオフラインコンテンツの更新を許可します |
 
 >[!NOTE]
 >
 >場合によっては、作成者機能（アセットの管理やチャネルの作成など）を管理者機能（プレーヤーの登録など）から分離することができます。その場合、2 つのグループを作成して、作成者グループを寄稿者に追加し、管理者グループを寄稿者とユーザー管理者の両方に追加します。
 
-### グループの作成  {#creating-groups}
+### グループの作成 {#creating-groups}
 
 新規プロジェクトを作成する場合、基本的な権限が割り当てられたデフォルトのユーザーグループも作成します。権限を拡張して、AEM Screens 用の標準の役割を含める必要があります。
 

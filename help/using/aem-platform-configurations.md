@@ -1,22 +1,22 @@
 ---
-title: AEM プラットフォーム設定
+title: AEM Platform 設定
 seo-title: AEM プラットフォーム設定
-description: ここでは、AEM プラットフォームの設定について説明します
-seo-description: ここでは、AEM プラットフォームの設定について説明します
+description: ここでは、AEM Platform の設定について説明します
+seo-description: ここでは、AEM Platform の設定について説明します
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
 ht-degree: 100%
 
 ---
 
-# AEM プラットフォーム設定 {#platform-configurations}
+# AEM Platform 設定 {#platform-configurations}
 
 >[!NOTE]
 >
 >このアクティビティの典型的な関係者は、AEM 実装担当者です。
 
-AEM Screens の使用を開始するには、まず、以下の節に従って AEM プラットフォームの設定をおこないます。
+AEM Screens の使用を開始するには、まず、以下の節に従って AEM Platform の設定をおこないます。
 
 ## サーバーの設定 {#server-configurations}
 
@@ -28,7 +28,7 @@ AEM Screens の使用を開始するには、まず、以下の節に従って A
 
 >[!NOTE]
 >
->オーサーとパブリッシュが 1 つだけの場合は、[AEM Screens でのオーサーとパブリッシュの設定](https://helpx.adobe.com/experience-manager/6-5/screens/using/author-and-publish.html)の&#x200B;**オーサー環境でのレプリケーションエージェントの設定**&#x200B;で示されている手順に従うだけです。
+>オーサーとパブリッシュが 1 つだけの場合は、[AEM Screens でのオーサーとパブリッシュの設定](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/author-and-publish.html)の&#x200B;**オーサー環境でのレプリケーションエージェントの設定**&#x200B;で示されている手順に従うだけです。
 
 ## Dispatcher の設定 {#dispatcher-configurations}
 
@@ -40,7 +40,7 @@ AEM Screens プロジェクトの Dispatcher を設定する際のガイドラ�
 
 適切な OS（通常は RHEL）の手順に従って、FFmpeg をインストールします。
 
-1. EPEL と RMFusion を有効にしてインストールする場合は、すべての gstreamer コーデックをインストールして、FFmpeg 変換のサポートを拡張できます。
+1. EPEL と RPMFusion を有効にしてインストールする場合は、すべての gstreamer コーデックをインストールして、FFmpeg 変換のサポートを拡張できます。
 1. AAC コーデックが試行用とマークされている場合、FFmpeg 変換は失敗します。この問題を回避するには、ビデオプロファイル（AEM 6.3 では /etc/dam/video、AEM 6.4 では /libs/settings/dam/video）に -strict -2 を追加します。
    >[!NOTE]
    >
@@ -49,7 +49,7 @@ AEM Screens プロジェクトの Dispatcher を設定する際のガイドラ�
 
 ## パスワード制限 {#password-restrictions}
 
-AMS インスタンスで AEM のパスワードポリシーを無効にする必要があります。または、Screens デバイスサービス *com.adobe.cq.screens.device.impl.DeviceService* を使用して、Web コンソールでこれを設定することもできます。詳しくは、[AEM Screens でのオーサーとパブリッシュの設定](https://helpx.adobe.com/experience-manager/6-5/screens/using/author-and-publish.html)の&#x200B;**パスワード制限**&#x200B;の節を参照してください。
+AMS インスタンスで AEM のパスワードポリシーを無効にする必要があります。または、Screens デバイスサービス *com.adobe.cq.screens.device.impl.DeviceService* を使用して、Web コンソールでこれを設定することもできます。詳しくは、[AEM Screens でのオーサーとパブリッシュの設定](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/author-and-publish.html)の&#x200B;**パスワード制限**&#x200B;の節を参照してください。
 
 ## 環境の設定 {#setting-up-environments}
 
@@ -63,7 +63,7 @@ AMS インスタンスで AEM のパスワードポリシーを無効にする�
 
 >[!NOTE]
 >
->AEM Screens の最新の機能パックをインストールするには、[リリースノート](https://helpx.adobe.com/jp/experience-manager/6-5/screens/user-guide.html?topic=/experience-manager/6-5/screens/morehelp/release-notes.ug.js)を参照してください。
+>AEM Screens の最新の機能パックをインストールするには、[リリースノート](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/aem-screens-introduction.html?lang=ja&amp;topic=/experience-manager/6-5/screens/morehelp/release-notes.ug.jsa)を参照してください。
 
 ## ACL の設定 {#setting-up-acls}
 

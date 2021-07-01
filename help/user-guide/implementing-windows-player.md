@@ -14,9 +14,9 @@ feature: Screens の管理、Windows プレーヤー
 role: Administrator
 level: Intermediate
 source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1074'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -68,15 +68,15 @@ AEM オーサーインスタンスおよびパブリッシュインスタンス�
 >
 >「**状態**」が「**未登録**」の場合は、**トークン**&#x200B;を使用してデバイスを登録できます。
 
-## Windowsプレーヤーの名前{#name-windows}
+## Windows プレーヤーの命名 {#name-windows}
 
-ユーザーにわかりやすいデバイス名をWindowsプレーヤーに割り当てることで、割り当てられたデバイス名をAdobe Experience Manager(AEM)に送信できます。 この機能を使用すると、Windowsプレーヤーに名前を付けるだけでなく、適切なコンテンツを簡単に割り当てることができます。
+ユーザーにわかりやすいデバイス名を Windows プレーヤーに割り当てて、そのデバイス名を Adobe Experience Manager（AEM）に送信することができます。この機能により、Windows プレーヤーに名前を付けるだけでなく、適切なコンテンツを簡単に割り当てることもできます。
 
-次の手順に従って、Windowsプレーヤーで名前を設定します。
+Windows プレーヤーに名前を設定するには、次の手順に従います。
 
-1. **start** —> **run**&#x200B;をクリックします。
-1. Enter `system.cpl`
-1. 「コンピュータ名」タブを使用して、コンピュータのホスト名を設定します
+1. **スタート**／**ファイル名を指定して実行**&#x200B;をクリックします。
+1. `system.cpl` と入力します。
+1. 「コンピューター名」タブを使用して、コンピューターのホスト名を設定します
 
 ## Windows インストーラーのデフォルトのオプションの変更 {#changing-default-options}
 
@@ -105,7 +105,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 Windows プレーヤーを実装する場合、すべてのプレーヤーを個別に手動で設定する必要はありません。テストが済み、デプロイの準備ができた設定 JSON ファイルを更新することで、すべてのプレーヤーを設定できます。
 
-設定では、すべてのプレーヤーが、設定ファイルで指定された同じサーバーに ping を送信することを確認されます。プレーヤーの登録は個別に手動でおこなう必要があります。
+設定では、すべてのプレーヤーが、設定ファイルで指定された同じサーバーに ping を送信することを確認されます。プレーヤーの登録は個別に手動で行う必要があります。
 
 Windows 10 プレーヤーを設定するには、次の手順を実行します。
 
@@ -113,7 +113,7 @@ Windows 10 プレーヤーを設定するには、次の手順を実行します
 1. 設定ファイルは ***%appdata%\com.adobe.aem.screens.player\config.json*** の下にあります。
 1. 後述の情報を使用して設定 JSON を更新し、同じフォルダーをプレーヤーが存在するすべてのシステムにコピーします。
 
-### ポリシー属性  {#policy-attributes}
+### ポリシー属性 {#policy-attributes}
 
 次の表に、参照用のポリシー JSON の例と共にポリシー属性を示します。
 
@@ -122,11 +122,11 @@ Windows 10 プレーヤーを設定するには、次の手順を実行します
 | server | Adobe Experience Manager（AEM） サーバーの URL。 |
 | resolution | デバイスの解像度。 |
 | rebootSchedule | プレーヤーを再起動するスケジュール。 |
-| enableAdminUI | サイト上でデバイスを設定するための Admin UI を有効にします。完全に設定されて運用が開始したら、false に設定します。 |
-| enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。完全に設定されて運用が開始したら、false に設定することを検討します。 |
-| enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にし、完全に設定されて実稼動になったら無効にします。 |
+| enableAdminUI | サイト上でデバイスを設定するための Admin UI を有効にします。設定が完了して実稼働になったら、false に設定します。 |
+| enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。設定が完了して実稼働になったら、false に設定することを検討します。 |
+| enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にしておき、設定が完了して実稼働になったら無効にします。 |
 
-#### ポリシー JSON ファイルの例  {#example-policy-json-file}
+#### ポリシー JSON ファイルの例 {#example-policy-json-file}
 
 ```
 {

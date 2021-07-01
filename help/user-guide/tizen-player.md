@@ -5,9 +5,9 @@ feature: Screens の管理、プレーヤー
 role: Administrator
 level: Intermediate
 source-git-commit: 948515fb2f1fd3d1f94476cf5fe3983098d3b950
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1208'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -36,16 +36,16 @@ ht-degree: 66%
 
 1. ローカル HTTP サーバーの IP または URL を取得します（手順 2 で、ルートフォルダーではなくサブフォルダーに展開した場合は、展開したファイルを含むフォルダーのパスも取得します）。
 
-1. Tizenプレーヤーは、ローカルサーバーからインストーラーをダウンロードします。
+1. Tizen プレーヤーは、ローカルサーバーからインストーラーをダウンロードします。
 
-### Tizenプレーヤーの名前{#name-tizen}
+### Tizen プレーヤーの命名 {#name-tizen}
 
-Tizenプレーヤーにわかりやすいデバイス名を割り当てると、割り当てられたデバイス名がAdobe Experience Manager(AEM)に送信されます。 この機能を使用すると、Tizenプレーヤーに名前を付けるだけでなく、適切なコンテンツを簡単に割り当てることができます。
+ユーザーにわかり-やすいデバイス名を Tizen プレーヤーに割り当てて、そのデバイス名を Adobe Experience Manager（AEM）に送信することができます。この機能により、Tizen プレーヤーに名前を付けるだけでなく、適切なコンテンツを簡単に割り当てることもできます。
 
-Tizenプレーヤーで名前を設定するには、以下の手順に従います。
+Tizen プレーヤーに名前を設定するには、次の手順に従います。
 
-1. リモートのメニューボタンをクリックします。
-1. **network** —> **Device Name**&#x200B;に移動して、プレーヤーに名前を割り当てます。
+1. リモコンのメニューボタンを押します。
+1. **Network**／**Device Name** に移動して、プレーヤーに名前を割り当てます。
 
 ### Samsung デバイスでの更新の構成 {#config-updates}
 
@@ -74,7 +74,7 @@ Samsung デバイスの次の手順に従って、デバイスに AEM Screens �
 
 >[!IMPORTANT]
 >**この節の内容は、Adobe Experience Manager（AEM）6.5.5 から AEM 6.5.7** までのバージョンに適用されます。
->AEM 6.5からAEM 6.7に発行されたログイントークンで使用される&#x200B;*SameSite=None*&#x200B;属性と互換性のないブラウザーエンジンがいくつかあります。通常、この問題は、ブラウザーを最新の利用可能なバージョンにアップグレードすると解決できます。 ただし、スマートディスプレイやセットトップボックスのように、ブラウジングエンジンが組み込まれているデバイスの場合など、そのようなアップグレードが不可能な場合があります。
+>ブラウザーエンジンの中には、AEM 6.5 から AEM 6.7 までのバージョンが発行するログイントークンで使用される *SameSite=None* 属性に対応していないものが一部あります。この問題は、通常、ブラウザーを入手可能な最新のバージョンにアップグレードすることで解決できます。ただし、スマートディスプレイやセットトップボックスのように、ブラウジングエンジンが組み込まれているデバイスの場合など、そのようなアップグレードが不可能な場合があります。
 
 *SameSite=None* を使用する場合に、その属性に対応していないこれらのクライアントを適用対象外にするには、次の手順に従います。
 
@@ -82,21 +82,21 @@ Samsung デバイスの次の手順に従って、デバイスに AEM Screens �
 
 1. AEM を再起動した後、`/system/console/configMgr` に移動し、**Adobe Granite Token Authentication Handler** を探します。**SameSite** の値を「**None**」に設定します。
 
-1. 新しいオプション「*User agents to be exempted from samesite attribute*」が表示されます。*SameSite=None*&#x200B;属性と互換性のないユーザーエージェントに対応する正規表現を使用して設定します。
+1. 新しいオプション「*User agents to be exempted from samesite attribute*」が表示されます。*SameSite=None* 属性に対応していないユーザーエージェントを表す正規表現を、このオプションに設定します。
    >[!NOTE]
    >詳しくは、[SameSite=None: Known Incompatible Clients](https://www.chromium.org/updates/same-site/incompatible-clients)（「SameSite=None」に対応していない既知のクライアント）を参照してください。Tizen プレーヤーの場合は `(.*)Tizen(.*)` という正規表現を使用します。
 
 1. AEM 6.5.5 以降のインスタンスに Tizen プレーヤーを登録します。これによりプレーヤーが登録され、コンテンツが正常に表示されます。
 
-## Tizenプレーヤーのリモートプロビジョニング{#remote-provisioning}
+## Tizen プレーヤーのリモートプロビジョニング {#remote-provisioning}
 
-Tizenプレーヤーをリモートでプロビジョニングすると、数百、数千のSamsung Tizenディスプレイを大きな労力をかけずにデプロイできます。 サーバーURLや一括登録コード、またはその他のパラメーターを使用して各プレーヤーを設定する、またはクラウドモードとクラウドトークンを設定するCloud ServiceとしてScreensの場合は各プレーヤーで設定する、煩雑な手間を省きます。
+Tizen プレーヤーをリモートでプロビジョニングすると、数百台から数千台の Samsung Tizen ディスプレイを、大きな手間をかけずにデプロイできます。これにより、サーバー URL や一括登録コードなどのパラメーター（Screens as a Cloud Service の場合はクラウドモードとクラウドトークン）を各プレーヤーに手動で設定する手間を省けます。
 
-この機能を使用すると、Tizenプレーヤーをリモートで設定し、必要に応じてそれらの設定を一元的に更新できます。 必要なのは、Tizenアプリケーション`(wgt and xml file)`のホストに使用する`HTTP`サーバーと、`config.json`を適切なパラメーターと共に保存するためのテキストエディターだけです。
+この機能を利用すると、Tizen プレーヤーをリモートで設定し、必要に応じてそれらの設定を一元的に更新できます。必要なのは、Tizen アプリケーション `(wgt and xml file)` をホストするための `HTTP` サーバーと、適切なパラメーターを記述した `config.json` を保存するためのテキストエディターだけです。
 
-Tizenデバイス（ホームボタン/URLランチャー設定）でURLランチャーアドレスが設定されていることを確認します。
-Tizenアプリケーションをホストする`HTTP`サーバー上で、`config.json`ファイルを`wgt`ファイルと同じ場所に配置します。 ファイル名は`config.json`にする必要があります。
-Tizenプレーヤーがインストールされ、起動時（および再起動時）に`config.json`ファイルの設定がチェックされ、適用されます。
+Tizen デバイスに URL ランチャーアドレスを設定してあることを確認します（リモコンの「Home」ボタンを押して「URL Launcher Settings」に移動）。
+Tizen アプリケーションをホストする `HTTP` サーバー上で、`config.json` ファイルを `wgt` ファイルと同じ場所に置きます。ファイル名は `config.json` にする必要があります。
+Tizen プレーヤーがインストールされ、プレーヤーの起動時（および再起動時）に `config.json` ファイル内の設定がチェックされ適用されます。
 
 ### JSON ポリシーの例 {#example-json}
 
@@ -110,24 +110,24 @@ Tizenプレーヤーがインストールされ、起動時（および再起動
 }
 ```
 
-### ポリシーの属性と目的{#policy-attributes}
+### ポリシーの属性と目的 {#policy-attributes}
 
 次の表に、ポリシーとその機能の概要を示します。
 
 >[!NOTE]
->ポリシー設定は厳密に適用され、プレーヤーのAdmin UIで手動で上書きされるわけではありません。 特定のポリシーに対して手動のプレーヤー設定を許可する場合は、ポリシー設定にポリシーを指定しないでください。例えば、再起動スケジュールの手動設定を許可する場合は、ポリシー設定にキー `rebootSchedule` を指定しないでください。ポリシー設定は、プレーヤーがリロードされるたびに読み取られます。
+>ポリシー設定は厳格に適用されます。プレーヤーの Admin UI で、手動で上書きされることはありません。特定のポリシーに対して手動のプレーヤー設定を許可する場合は、ポリシー設定にポリシーを指定しないでください。例えば、再起動スケジュールの手動設定を許可する場合は、ポリシー設定にキー `rebootSchedule` を指定しないでください。ポリシー設定は、プレーヤーが再読み込みされるたびに読み取られます。
 
 | **ポリシー名** | **目的** |
 |---|---|
 | server | Adobe Experience Manager（AEM） サーバーの URL。 |
-| registrationKey | 事前共有キーを使用してデバイスを一括登録するために使用されます。 |
+| registrationKey | 事前共有キーを使用したデバイスの一括登録に使用されます。 |
 | resolution | デバイスの解像度。 |
 | rebootSchedule | プレーヤーを再起動するスケジュール。 |
-| enableAdminUI | サイト上でデバイスを設定するための Admin UI を有効にします。完全に設定されて運用が開始したら、false に設定します。 |
-| enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。完全に設定されて運用が開始したら、falseに設定することを検討します。 |
-| enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にしておき、完全に設定されて運用が開始したら無効にします。 |
-| cloudMode | TizenプレーヤーでScreensにCloud Serviceとして接続する場合は、trueに設定します。 AMSまたはオンプレミスAEMに接続するには、 falseに設定します。 |
-| cloudToken | Screensに登録するための登録トークンをCloud Serviceとして。 |
+| enableAdminUI | サイト上でデバイスを設定するための Admin UI を有効にします。設定が完了して実稼働になったら、false に設定します。 |
+| enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。設定が完了して実稼働になったら、false に設定することを検討します。 |
+| enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にしておき、設定が完了して実稼働になったら無効にします。 |
+| cloudMode | Tizen プレーヤーから Screens as a Cloud Service に接続する場合は、true に設定します。AMS またはオンプレミス AEM に接続する場合は、false に設定します。 |
+| cloudToken | Screens as a Cloud Service に登録するための登録トークン。 |
 
 
 ## Samsung Remote Management Service（RMS）への Tizen デバイスの登録 {#enroll-tizen-device-rms}

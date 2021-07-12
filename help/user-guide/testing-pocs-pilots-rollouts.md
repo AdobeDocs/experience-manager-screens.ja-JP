@@ -11,15 +11,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 157185f9-c5e3-4a5b-badc-9becb26f1b27
 docset: aem65
 feature: 概要
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 100%
 
 ---
-
 
 # 第 3 部：テスト、POC、パイロット、ロールアウト {#part-testing-pocs-pilots-rollouts}
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 この節では、プロジェクトサイクル、ハードウェアテストに関係するアクション、概念実証、パイロット、ロールアウトなど、プロジェクト計画全体にかかわる重要な用語の概要を説明します。
 
-### 概念実証（POC） {#proof-of-concept-poc}
+### 概念実証（POC）  {#proof-of-concept-poc}
 
 POC の目的は、ソリューションの主要機能に関する初期のフィードバックを得て、エンドクライアントと AV インテグレーターの双方が改善可能な分野を特定し、労務要件やリソース需要に関する前提条件を準備できるようにすることです。また、両者にとって、POC はソリューションのパフォーマンスを評価する機会となります。パフォーマンスは通常、以下を通じて測定されます。
 

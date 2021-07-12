@@ -11,15 +11,15 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 feature: Screens の管理、Android プレーヤー
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
-workflow-type: ht
+exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 100%
 
 ---
-
 
 # Android プレーヤーの実装 {#implementing-android-player}
 

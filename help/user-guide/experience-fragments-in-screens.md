@@ -1,8 +1,8 @@
 ---
 title: エクスペリエンスフラグメントの使用
 seo-title: エクスペリエンスフラグメントの使用
-description: 'ここでは、AEM Screens でのエクスペリエンスフラグメントの使用について説明します。 '
-seo-description: 'ここでは、AEM Screens でのエクスペリエンスフラグメントの使用について説明します。 '
+description: ここでは、AEM Screens でのエクスペリエンスフラグメントの使用について説明します。
+seo-description: ここでは、AEM Screens でのエクスペリエンスフラグメントの使用について説明します。
 uuid: 6ee16a94-3c53-43e0-99d5-c35cb9e01120
 contentOwner: jsyal
 content-type: reference
@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 feature: Screens のオーサリング、エクスペリエンスフラグメント
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 13c0d75e-435f-433e-8886-f451df863517
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 100%
 
 ---
-
 
 # エクスペリエンスフラグメントの使用 {#using-experience-fragments}
 
@@ -219,4 +219,3 @@ ht-degree: 100%
 
 次の画像は、**TestChannel** に反映された変更を示しています。\
 ![screen_shot_2018-06-08at33351pm](assets/screen_shot_2018-06-08at33351pm.png)
-

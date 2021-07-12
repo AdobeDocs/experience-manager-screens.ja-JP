@@ -4,15 +4,15 @@ seo-title: AEM Screens でのオーサーとパブリッシュの設定
 description: AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成された後、複数のパブリッシュインスタンスにフォワードレプリケートされます。ここでは、オーサーとパブリッシュを AEM Screens 用に設定する方法について説明します。
 seo-description: AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成された後、複数のパブリッシュインスタンスにフォワードレプリケートされます。ここでは、オーサーとパブリッシュを AEM Screens 用に設定する方法について説明します。
 feature: Screens の管理
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 100%
 
 ---
-
 
 # AEM Screens でのオーサーとパブリッシュの設定 {#configuring-author-and-publish-in-aem-screens}
 
@@ -103,7 +103,7 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
    >また、既存のデフォルトレプリケーションエージェントをコピーして名前を変更することもできます。
 
 
-#### 標準レプリケーションエージェントの作成 {#creating-standard-replication-agents}
+#### 標準レプリケーションエージェントの作成   {#creating-standard-replication-agents}
 
 1. pub1 の標準レプリケーションエージェントを作成します（すぐに使用できるデフォルトエージェントは既に設定されている必要があります）（例：*https://&lt;hostname>:4503/bin/receive?sling:authRequestLogin=1*）。
 1. pub2 の標準レプリケーションエージェントを作成します。pub1 のレプリケーションエージェントをコピーし、トランスポート設定のポートを変更することで、トランスポートを pub2 用に更新することができます（例：*https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*）。
@@ -211,7 +211,7 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 >
 >この例に取りかかるには、新しい AEM Screens プロジェクトを作成した後、プロジェクト内にロケーション、ディスプレイ、チャネルを作成します。チャネルにコンテンツを追加し、このチャネルをディスプレイに割り当てます。
 
-#### 手順 1：AEM Screens Player（デバイス）の起動 {#step-starting-an-aem-screens-player-device}
+#### 手順 1：AEM Screens Player（デバイス）の起動  {#step-starting-an-aem-screens-player-device}
 
 1. 別のブラウザーウィンドウを起動します。
 1. *Web* ブラウザーを使用して Screens Player（`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html`）に移動するか、AEM Screens アプリを起動します。デバイスを開くと、デバイスの状態が未登録であることがわかります。
@@ -307,5 +307,3 @@ AEM Screens Player で変更結果を表示します。
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
 「**公開を管理**」機能を使用すると、コンテンツの更新をオーサーからパブリッシュ経由でデバイスに配信できます。AEM Screens プロジェクト全体のコンテンツを公開／非公開にすることも、チャネル、ロケーション、デバイス、アプリケーション、スケジュールのいずれか 1 つのコンテンツを公開／非公開にすることもできます。この機能の詳細については、[オンデマンドコンテンツの更新](on-demand-content.md)を参照してください。
-
-

@@ -11,23 +11,23 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 feature: Screens のオーサリング
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 100%
 
 ---
 
-
-# チャネルへのコンポーネントの追加 {#adding-components-to-a-channel}
+# チャネルへのコンポーネントの追加{#adding-components-to-a-channel}
 
 コンポーネントは、AEM（Adobe Experience Manager）エクスペリエンスの基本的要素です。多数のコンポーネントを使用でき、AEM Screens プロジェクトのチャネルに追加できます。
 
 ## AEM Screens のコンポーネント {#components-in-aem-screens}
 
-AEM Screens には、スクリーンプロジェクトで使用できる様々な AEM コンポーネントが用意されています。
+AEM Screens には、Screens プロジェクトで使用できる様々な AEM コンポーネントが用意されています。
 
 ### AEM Screens コンポーネントの表示 {#viewing-aem-screens-components}
 
@@ -336,4 +336,3 @@ AEM には、他のコンポーネントが多数用意されています。AEM 
   </tr>
  </tbody>
 </table>
-

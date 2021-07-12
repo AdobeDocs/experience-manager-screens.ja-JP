@@ -10,15 +10,15 @@ content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 feature: Screens の管理
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 
 ---
-
 
 # コンテンツ同期からスマート同期への移行 {#transitioning-from-contentsync-to-smartsync}
 

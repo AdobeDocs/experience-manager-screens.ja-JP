@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 112404de-5a5a-4b37-b87c-d02029933c8a
 docset: aem65
 feature: Screens の管理
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 100%
 
 ---
-
 
 # オーサーとパブリッシュのアーキテクチャの概要 {#author-and-publish-architectural-overview}
 
@@ -61,7 +61,7 @@ AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテク
 * デバイス情報の更新とコマンドを同期させるためのパブリッシュインスタンス間の&#x200B;***メッセージング***
 * 特定の REST API を介してデバイス情報を取得するためにパブリッシュインスタンスの作成者によっておこなわれる&#x200B;***ポーリング***
 
-### コンテンツと設定のレプリケーション（フォワード） {#replication-forward-of-content-and-configurations}
+### コンテンツと設定のレプリケーション（フォワード）   {#replication-forward-of-content-and-configurations}
 
 標準レプリケーションエージェントは、Screens チャネルコンテンツ、場所設定、デバイス設定のレプリケーションに使用します。これにより、作成者は、チャネルのコンテンツを更新し、必要に応じて何らかの承認ワークフローを経てから、チャネルの更新内容を公開できます。レプリケーションエージェントは、パブリッシュファームのパブリッシュインスタンスごとに作成する必要があります。
 
@@ -73,13 +73,13 @@ AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテク
 >
 >レプリケーションエージェントは、パブリッシュファームのパブリッシュインスタンスごとに作成する必要があります。
 
-### Screens レプリケーションエージェントとコマンド {#screens-replication-agents-and-commands}
+### Screens レプリケーションエージェントとコマンド   {#screens-replication-agents-and-commands}
 
 オーサーインスタンスから AEM Screens デバイスにコマンドを送信するには、Screens 固有のカスタムレプリケーションエージェントを作成します。AEM パブリッシュインスタンスは、これらのコマンドをデバイスに転送する仲介役となります。
 
 これにより、作成者はオーサー環境からデバイスの管理（デバイス更新の送信やスクリーンショットの取得など）を続けることができます。AEM Screens レプリケーションエージェントには、標準レプリケーションエージェントなどのカスタムトランスポート設定があります。
 
-### パブリッシュインスタンス間のメッセージング {#messaging-between-publish-instances}
+### パブリッシュインスタンス間のメッセージング   {#messaging-between-publish-instances}
 
 多くの場合、コマンドは 1 回だけデバイスに送信するために使用されます。ただし、負荷分散型のパブリッシュアーキテクチャでは、デバイスの接続先がどのパブリッシュインスタンスであるかは不明です。
 
@@ -94,7 +94,7 @@ AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテク
 * このコンテキストでは、リバースレプリケーションは、デバイスから提供されるバイナリデータ（ログファイルやスクリーンショットなど）に対してのみ使用されます。バイナリデータ以外は、ポーリングで取得されます。
 * AEM オーサーインスタンスからポーリングされたリバースレプリケーションが応答を取得して、オーサーインスタンスに保存します。
 
-### パブリッシュインスタンスのポーリング {#polling-of-publish-instances}
+### パブリッシュインスタンスのポーリング   {#polling-of-publish-instances}
 
 オーサーインスタンスは、デバイスをポーリングしてハートビートを取得し、接続されたデバイスのヘルスステータスを把握する必要があります。
 

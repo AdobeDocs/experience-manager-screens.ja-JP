@@ -5,15 +5,15 @@ description: 単一使用テイクオーバーチャネルを作成する場合�
 seo-description: 単一使用テイクオーバーチャネルを作成する場合は、この使用例に従います。
 contentOwner: jsyal
 feature: Screens のオーサリング
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 100%
 
 ---
-
 
 # 単一使用テイクオーバーチャネル {#single-use-takeover-channel}
 

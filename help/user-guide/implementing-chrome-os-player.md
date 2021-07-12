@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Screens の管理
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
-workflow-type: ht
+exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 100%
 
 ---
 
-
-# Chrome OS プレーヤーの実装 {#implementing-chrome-os-player}
+# Chrome OS プレーヤーの実装  {#implementing-chrome-os-player}
 
 ここでは、Chrome 管理コンソールを使用した Chrome OS プレーヤーの実装方法を説明します。
 
@@ -57,7 +57,7 @@ Chrome プレーヤーに名前を設定するには、次の手順に従いま�
    >[!NOTE]
    >Chrome プレーヤーをエンタープライズ登録で登録し、Chrome 管理コンソールでデプロイする必要があります。そうしないと、返されるアセット ID が空白になります（例えば、chrome を拡張子として）。デバイス名は登録時にのみ記録されます。それ以降の変更は、Adobe Experience Manager（AEM）には反映されません。
 
-### キオスクモードの有効化 {#enabling-kiosk-mode}
+### キオスクモードの有効化    {#enabling-kiosk-mode}
 
 キオスクモードを有効にするには、次の手順に従います。
 

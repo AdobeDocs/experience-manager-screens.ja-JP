@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 feature: Screens の管理
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 100%
 
 ---
-
 
 # ACL の設定 {#setting-up-acls}
 
@@ -72,10 +72,10 @@ AEM 管理者は、プロジェクトのチームメンバーが他のプロジ�
 |---|---|---|
 | `/apps/<project>` | READ | プロジェクトファイルへのアクセス権を付与します（該当する場合） |
 | `/content/dam/<project>` | ALL | DAM の画像やビデオなど、プロジェクトアセットへのアクセス権を付与します |
-| `/content/screens/<project>` | ALL | /content/screens 以下にある他のすべてのプロジェクトへのアクセス権を削除します |
-| `/content/screens/svc` | READ | 登録サービスへのアクセス権を付与します |
-| `/libs/screens` | READ | DCC へのアクセス権を付与します |
-| `/var/contentsync/content/screens/` | ALL | プロジェクトのオフラインコンテンツの更新を許可します |
+| `/content/screens/<project>` | すべて | /content/screens 以下にある他のすべてのプロジェクトへのアクセス権を削除します |
+| `/content/screens/svc` | 読み取り | 登録サービスへのアクセス権を付与します |
+| `/libs/screens` | 読み取り | DCC へのアクセス権を付与します |
+| `/var/contentsync/content/screens/` | すべて | プロジェクトのオフラインコンテンツの更新を許可します |
 
 >[!NOTE]
 >
@@ -142,4 +142,3 @@ AEM 管理者は、プロジェクトのチームメンバーが他のプロジ�
   </tr>
  </tbody>
 </table>
-

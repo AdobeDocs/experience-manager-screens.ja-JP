@@ -6,15 +6,15 @@ seo-description: ここでは、Screens プロジェクトに切り替えを適�
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 feature: Screens のオーサリング
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 757e6751-8008-487f-be89-9f53ac898928
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
 
 ---
-
 
 # 切り替えの適用 {#applying-transitions}
 
@@ -60,4 +60,3 @@ AEM Screens プロジェクトに切り替えコンポーネントを追加す�
 1. さらに、（シーケンスチャネルを含む）**埋め込みシーケンス**&#x200B;コンポーネントをこのチャネルエディターに追加する場合は、最後に切り替えコンポーネントを追加して、コンテンツが順に再生されるようにすることができます（下図を参照）。
 
    ![image3](assets/transitions5.png)
-

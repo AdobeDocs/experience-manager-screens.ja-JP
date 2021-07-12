@@ -11,15 +11,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 10b81628-46db-4122-bf9e-96f41f080055
 docset: aem65
 feature: 概要
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 100%
 
 ---
-
 
 # 第 2 部：プロジェクト範囲を定義する際の検討事項 {#part-considerations-as-projects-are-scoped}
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 >
 >意図した価値を提供できるよう、アプリケーションでソフトウェア、ハードウェア、接続機能のリソースを活用する方法を考慮してコンテンツ戦略を定義することが重要です。
 
-## デジタルサイネージプロジェクトの検討事項の概要 {#summary-of-project-considerations-in-a-digital-signage}
+## デジタルサイネージプロジェクトの検討事項の概要   {#summary-of-project-considerations-in-a-digital-signage}
 
 コンテンツ戦略を策定する際には、I/O レイヤー、アセットタイプ、オーディエンスのセグメント化、日分割スケジュール要件など、いくつかの検討事項があります。
 

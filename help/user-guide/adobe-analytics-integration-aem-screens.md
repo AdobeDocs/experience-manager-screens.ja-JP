@@ -11,15 +11,15 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 feature: Screens の管理
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics と AEM Screens の統合 {#adobe-analytics-integration-with-aem-screens}
 
@@ -132,4 +132,3 @@ Analytics イベントは、IndexedDB にオフラインで保存され、後で
 >[!NOTE]
 >
 >***シーケンス***&#x200B;と&#x200B;***イベントの標準データモデル***&#x200B;について詳しくは、**[AEM Screens 用の Adobe Analytics の設定](configuring-adobe-analytics-aem-screens.md)**&#x200B;を参照してください。
-

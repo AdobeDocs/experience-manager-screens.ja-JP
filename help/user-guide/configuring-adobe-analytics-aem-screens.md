@@ -1,8 +1,8 @@
 ---
 title: AEM Screens と連携する Adobe Analytics の設定
 seo-title: AEM Screens と連携する Adobe Analytics の設定
-description: 'ここでは、オフライン Adobe Analytics を使用したカスタムイベントのシーケンス化と送信について詳しく説明します '
-seo-description: 'ここでは、オフライン Adobe Analytics を使用したカスタムイベントのシーケンス化と送信について詳しく説明します '
+description: ここでは、オフライン Adobe Analytics を使用したカスタムイベントのシーケンス化と送信について詳しく説明します
+seo-description: ここでは、オフライン Adobe Analytics を使用したカスタムイベントのシーケンス化と送信について詳しく説明します
 uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
 contentOwner: jsyal
 content-type: reference
@@ -11,15 +11,15 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 feature: Screens の管理
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 100%
 
 ---
-
 
 # AEM Screens と連携する Adobe Analytics の設定 {#configuring-adobe-analytics-with-aem-screens}
 
@@ -331,4 +331,3 @@ ht-degree: 100%
   </tr>
  </tbody>
 </table>
-

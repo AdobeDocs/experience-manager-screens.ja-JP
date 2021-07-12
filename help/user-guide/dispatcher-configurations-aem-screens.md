@@ -4,17 +4,17 @@ seo-title: AEM Screens プロジェクトの Dispatcher の設定
 description: ここでは、AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインについて説明します。
 seo-description: ここでは、AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインについて説明します。
 feature: Screens の管理
-role: Developer, Business Practitioner
+role: Developer, User
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 100%
 
 ---
 
-
-# AEM Screens プロジェクトの Dispatcher の設定 {#dispatcher-configurations-for-aem-screens}
+# AEM Screens プロジェクトの Dispatcher の設定{#dispatcher-configurations-for-aem-screens}
 
 Dispatcher は、Adobe Experience Manager のキャッシュやロードバランシングを管理するツールです。
 

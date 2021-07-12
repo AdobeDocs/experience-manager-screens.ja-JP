@@ -4,17 +4,17 @@ seo-title: セキュリティチェックリスト
 description: このページでは、主要なセキュリティ領域に関する質問と検討事項のチェックリストが説明されています。
 seo-description: セキュリティチェックリストの説明
 feature: Screens の管理
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 3d2835c8-d844-46fd-b35a-30feaced9dd8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 100%
 
 ---
 
-
-# AEM Screens セキュリティチェックリスト {#security-checklist}
+# AEM Screens セキュリティチェックリスト  {#security-checklist}
 
 AEM Screens セキュリティチェックリストページでは、主要なセキュリティ領域に関する質問と検討事項のチェックリストが説明されています。
 

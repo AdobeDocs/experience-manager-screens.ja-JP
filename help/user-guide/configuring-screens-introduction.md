@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 100%
 
 ---
-
 
 # AEM Screens の設定とデプロイ {#configuring-and-deploying-aem-screens}
 
@@ -152,11 +152,3 @@ AEM Screens プロジェクトの Dispatcher を設定する方法について�
 >[!NOTE]
 >**推奨事項：**
 >実稼動環境では AEM Screens サーバーに HTTPS を使用することをお勧めします。
-
-
-
-
-
-
-
-

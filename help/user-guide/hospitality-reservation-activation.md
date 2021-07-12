@@ -11,15 +11,15 @@ topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
 feature: Screens のオーサリング
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 100%
 
 ---
-
 
 # 接客業向けの予約状況に応じたアクティベーション {#hospitality-reservation-activation}
 
@@ -86,6 +86,4 @@ AEM Screens プロジェクトに「接客業向けの予約状況に応じた�
 
    1. 「**プレビュー**」をクリックします。また、Google シートを開き、値を更新します。
    1. **Restaurant1** 列と **Restaurant2** 列の値を更新します。**Restaurant1** の値が **Restaurant2** の値より大きい場合は、スクリーンに&#x200B;*ステーキ料理*&#x200B;の画像が表示され、それ以外の場合は、*タイ料理*&#x200B;の画像が表示されます。
-
    ![result5](assets/result5.gif)
-

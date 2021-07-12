@@ -4,15 +4,15 @@ seo-title: チャネルの管理
 description: このページに従って、チャネルの作成および管理について学びます。また、チャネルダッシュボードおよびチャネルのコンテンツの編集も説明します。
 seo-description: このページに従って、チャネルの作成および管理について学びます。また、チャネルダッシュボードおよびチャネルのコンテンツの編集も説明します。
 feature: Screens のオーサリング
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1328'
 ht-degree: 100%
 
 ---
-
 
 # チャネルの作成と管理 {#creating-and-managing-channels}
 
@@ -259,4 +259,3 @@ AEM Screens 用のプロジェクトを作成したら、以下の手順に従�
 * [チャネルの作成と管理](managing-channels.md)
 * [ロケーションの作成と管理](managing-locations.md)
 * [ディスプレイの作成と管理](managing-displays.md)
-

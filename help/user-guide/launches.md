@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 feature: Screens のオーサリング、ローンチ
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 100%
 
 ---
-
 
 # Screens ローンチを使用したコンテンツの更新 {#launches}
 
@@ -177,7 +177,7 @@ AEM Screens プロジェクトに Screens ローンチ機能を実装するに�
 
    ![画像](/help/user-guide/assets/launches-images/launches-19.png)
 
-### Screens ローンチの編集によるチャネルの追加または削除 {#editing-the-screens-launch-to-add-or-remove-channels}
+### Screens ローンチの編集によるチャネルの追加または削除   {#editing-the-screens-launch-to-add-or-remove-channels}
 
 ローンチを作成した後、「**ローンチを編集**」オプションを使用して、既存のローンチにチャネルを追加または削除できます。
 
@@ -207,4 +207,3 @@ AEM Screens プロジェクトに Screens ローンチ機能を実装するに�
 >[!CAUTION]
 >
 >この操作により、派生したすべてのローンチ（ネストされたローンチ）も削除されます。
-

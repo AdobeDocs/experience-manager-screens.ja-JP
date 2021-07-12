@@ -11,15 +11,15 @@ topic-tags: use-case-examples
 discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
 feature: Screens のオーサリング
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
+exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 100%
 
 ---
-
 
 # 旅行センター向けの気温に応じたアクティベーション {#travel-center-temperature-activation}
 
@@ -90,6 +90,4 @@ ht-degree: 100%
 
    1. 「**プレビュー**」をクリックします。また、Google シートを開き、値を更新します。
    1. 値を 50 未満に変更すると、暖かい飲み物の画像が表示されます。Google シートの値が 50 以上の場合は、冷たい飲み物の画像が表示されます。
-
    ![result3](assets/result3.gif)
-

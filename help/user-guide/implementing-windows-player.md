@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 feature: Screens の管理、Windows プレーヤー
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
-workflow-type: ht
+exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 100%
 
 ---
-
 
 # Windows 10 プレーヤーの実装 {#implementing-windows-player}
 
@@ -82,7 +82,7 @@ Windows プレーヤーに名前を設定するには、次の手順に従いま
 
 Windows インストーラーのデフォルトのオプションを変更する方法と、使用可能なカスタマイズのリストについては、この節に従ってください。
 
-## CLI（PowerShell）を使用したインストール {#install-powershell}
+## CLI（PowerShell）を使用したインストール  {#install-powershell}
 
 1. Screens プレーヤー&#x200B;**専用**に、カスタムの場所を作成します。（例：
    `C:\Users\User\screens-player`）
@@ -139,7 +139,7 @@ Windows 10 プレーヤーを設定するには、次の手順を実行します
 }
 ```
 
-## キオスクモードの有効化 {#enabling-kiosk-mode}
+## キオスクモードの有効化    {#enabling-kiosk-mode}
 
 Windows プレーヤーをデプロイする際は、他のアプリケーションやタスクバーが Windows デスクトップに表示されないように、キオスクモードを有効にすることが重要です。
 
@@ -191,4 +191,3 @@ $ShellLauncherClass.RemoveCustomShell($Admins_SID)
 
 $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 ```
-

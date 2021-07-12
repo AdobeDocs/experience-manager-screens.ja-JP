@@ -2,15 +2,15 @@
 title: Tizen プレーヤー
 description: このページでは、Tizen プレーヤーのインストールと動作について説明します。
 feature: Screens の管理、プレーヤー
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 948515fb2f1fd3d1f94476cf5fe3983098d3b950
-workflow-type: ht
+exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 100%
 
 ---
-
 
 # Tizen プレーヤーの実装 {#tizen-player}
 
@@ -130,7 +130,7 @@ Tizen プレーヤーがインストールされ、プレーヤーの起動時�
 | cloudToken | Screens as a Cloud Service に登録するための登録トークン。 |
 
 
-## Samsung Remote Management Service（RMS）への Tizen デバイスの登録 {#enroll-tizen-device-rms}
+## Samsung Remote Management Service（RMS）への Tizen デバイスの登録  {#enroll-tizen-device-rms}
 
 Tizen デバイスを Samsung Remote Management Service（RMS）に登録し URL ランチャーをリモートで設定するには、次の手順に従います。
 
@@ -164,4 +164,3 @@ Tizen デバイスを Samsung Remote Management Service（RMS）に登録し URL
    ![画像](/help/user-guide/assets/tizen/rms-9.png)
 
 1. 「**Save**」をクリックすると、変更内容が画面に表示されます。
-

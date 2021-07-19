@@ -6,10 +6,10 @@ feature: 概要、デジタルサイネージ
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: da5abdb3b12f8e1e71af2f9dbc80ec2434ae08ed
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 100%
+source-wordcount: '584'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 **AEM（Adobe Experience Manager）Screens** は、包括的なデジタルマーケティングプラットフォームと連携する様々なタイプの画面など、動的でインタラクティブなデジタルエクスペリエンスおよびインタラクションを公開できるデジタルサイネージソリューションです。
 
 [AEM Screens のキックスタート](kickstart-for-aem-screens.md)に従って、シンプルなデジタルサイネージエクスペリエンスをインストールおよび導入できます。
+
+AEM as aCloud ServiceでAEM Screensプロジェクトを設定および作成する方法については、[こちら](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/screens-as-cloud-service/home.html?lang=en)を参照してください。
 
 ## 概要 {#overview}
 

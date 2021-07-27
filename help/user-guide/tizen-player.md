@@ -6,7 +6,7 @@ role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1208'
 ht-degree: 100%
 
@@ -130,7 +130,7 @@ Tizen プレーヤーがインストールされ、プレーヤーの起動時�
 | cloudToken | Screens as a Cloud Service に登録するための登録トークン。 |
 
 
-## Samsung Remote Management Service（RMS）への Tizen デバイスの登録  {#enroll-tizen-device-rms}
+## Samsung Remote Management Service（RMS）への Tizen デバイスの登録 {#enroll-tizen-device-rms}
 
 Tizen デバイスを Samsung Remote Management Service（RMS）に登録し URL ランチャーをリモートで設定するには、次の手順に従います。
 

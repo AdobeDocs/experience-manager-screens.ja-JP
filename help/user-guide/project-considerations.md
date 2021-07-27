@@ -15,7 +15,7 @@ role: User, Data Architect
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '667'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 >
 >意図した価値を提供できるよう、アプリケーションでソフトウェア、ハードウェア、接続機能のリソースを活用する方法を考慮してコンテンツ戦略を定義することが重要です。
 
-## デジタルサイネージプロジェクトの検討事項の概要   {#summary-of-project-considerations-in-a-digital-signage}
+## デジタルサイネージプロジェクトの検討事項の概要  {#summary-of-project-considerations-in-a-digital-signage}
 
 コンテンツ戦略を策定する際には、I/O レイヤー、アセットタイプ、オーディエンスのセグメント化、日分割スケジュール要件など、いくつかの検討事項があります。
 

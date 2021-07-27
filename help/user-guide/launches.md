@@ -15,7 +15,7 @@ role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1619'
 ht-degree: 100%
 
@@ -177,13 +177,13 @@ AEM Screens プロジェクトに Screens ローンチ機能を実装するに�
 
    ![画像](/help/user-guide/assets/launches-images/launches-19.png)
 
-### Screens ローンチの編集によるチャネルの追加または削除   {#editing-the-screens-launch-to-add-or-remove-channels}
+### Screens ローンチの編集によるチャネルの追加または削除  {#editing-the-screens-launch-to-add-or-remove-channels}
 
 ローンチを作成した後、「**ローンチを編集**」オプションを使用して、既存のローンチにチャネルを追加または削除できます。
 
 完了したら、「**保存**」をクリックして **FutureLaunch** チャネルに戻ります。
 
-### 手動による Screens ローンチの昇格 {#promote-the-screens-launch-manually}
+### 手動による Screens ローンチの昇格{#promote-the-screens-launch-manually}
 
 **保留中のローンチ**&#x200B;パネルの「**ローンチを昇格**」オプションを使用して、ローンチを手動で昇格できます。
 

@@ -1,6 +1,6 @@
 ---
 title: AEM Screens Player での作業
-seo-title: ' Screens Player での作業'
+seo-title: AEM Screens Player での作業
 description: このページに従って Screens Player について学習してください。また Admin UI とチャネルスイッチャーについても説明します。
 seo-description: このページに従って Screens Player について学習してください。また Admin UI とチャネルスイッチャーについても説明します。
 uuid: 93e113ea-fbef-4757-982b-b7dc52fc76a7
@@ -14,7 +14,7 @@ role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1068'
 ht-degree: 100%
 
@@ -189,7 +189,7 @@ AEM Screens プロジェクトの典型的な使用例に対応するハード�
    <td>標準</td>
    <td>クアッドコア、Intel® Core i5 プロセッサー</td>
    <td><p>8 GB のメモリ</p> <p>4 MB のキャッシュ</p> </td>
-   <td>128 GBB</td>
+   <td>128 GB</td>
    <td>オンボード</td>
    <td>3840 x 2160（4K）</td>
    <td>DVI、HDMI<br /> イーサネット／ワイヤレス、<br />USB x 2</td>

@@ -8,7 +8,7 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1907'
 ht-degree: 100%
 
@@ -103,7 +103,7 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
    >また、既存のデフォルトレプリケーションエージェントをコピーして名前を変更することもできます。
 
 
-#### 標準レプリケーションエージェントの作成   {#creating-standard-replication-agents}
+#### 標準レプリケーションエージェントの作成  {#creating-standard-replication-agents}
 
 1. pub1 の標準レプリケーションエージェントを作成します（すぐに使用できるデフォルトエージェントは既に設定されている必要があります）（例：*https://&lt;hostname>:4503/bin/receive?sling:authRequestLogin=1*）。
 1. pub2 の標準レプリケーションエージェントを作成します。pub1 のレプリケーションエージェントをコピーし、トランスポート設定のポートを変更することで、トランスポートを pub2 用に更新することができます（例：*https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*）。
@@ -211,7 +211,7 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 >
 >この例に取りかかるには、新しい AEM Screens プロジェクトを作成した後、プロジェクト内にロケーション、ディスプレイ、チャネルを作成します。チャネルにコンテンツを追加し、このチャネルをディスプレイに割り当てます。
 
-#### 手順 1：AEM Screens Player（デバイス）の起動  {#step-starting-an-aem-screens-player-device}
+#### 手順 1：AEM Screens Player（デバイス）の起動 {#step-starting-an-aem-screens-player-device}
 
 1. 別のブラウザーウィンドウを起動します。
 1. *Web* ブラウザーを使用して Screens Player（`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html`）に移動するか、AEM Screens アプリを起動します。デバイスを開くと、デバイスの状態が未登録であることがわかります。

@@ -15,7 +15,7 @@ role: User, Data Architect
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '635'
 ht-degree: 100%
 
@@ -33,8 +33,10 @@ ht-degree: 100%
 >
 >* 現場へのプロジェクトのデプロイメント
 >* インストール技術者と NOC（Network Operations Center）によるデバイスの接続と動作の検証
+
 >
->Day 2 の開始前に、継続的なライフサイクル予算の計画立案を実行する必要があります。
+>
+Day 2 の開始前に、継続的なライフサイクル予算の計画立案を実行する必要があります。
 
 計画立案作業には、次の項目が含まれます。
 

@@ -15,7 +15,7 @@ role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1074'
 ht-degree: 100%
 
@@ -82,13 +82,13 @@ Windows プレーヤーに名前を設定するには、次の手順に従いま
 
 Windows インストーラーのデフォルトのオプションを変更する方法と、使用可能なカスタマイズのリストについては、この節に従ってください。
 
-## CLI（PowerShell）を使用したインストール  {#install-powershell}
+## CLI（PowerShell）を使用したインストール {#install-powershell}
 
 1. Screens プレーヤー&#x200B;**専用**に、カスタムの場所を作成します。（例：
    `C:\Users\User\screens-player`）
 1. 次をインストールします：
    `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
-1.  次を開きます：
+1. 次を開きます：
    `Start-Process C:\Users\User\screens-player\AEMScreensPlayer.exe`
 
 **例**
@@ -139,7 +139,7 @@ Windows 10 プレーヤーを設定するには、次の手順を実行します
 }
 ```
 
-## キオスクモードの有効化    {#enabling-kiosk-mode}
+## キオスクモードの有効化 {#enabling-kiosk-mode}
 
 Windows プレーヤーをデプロイする際は、他のアプリケーションやタスクバーが Windows デスクトップに表示されないように、キオスクモードを有効にすることが重要です。
 

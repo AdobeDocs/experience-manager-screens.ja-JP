@@ -15,7 +15,7 @@ role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ## 説明 {#description}
 
-この使用例では、**Restarant1** および **Restarant2** という 2 つのレストランの予約率が Google シートに入力されています。Restarant1 と Restarant2 の値に基づいて数式が適用され、その数式に基づいて、値 1 または値 2 が **AdTarget** 列に割り当てられます。
+この使用例では、**Restaurant1** および **Restaurant2** という 2 つのレストランの予約率が Google シートに入力されています。Restaurant1 と Restaurant2 の値に基づいて数式が適用され、その数式に基づいて、値 1 または値 2 が **AdTarget** 列に割り当てられます。
 
 **Restaurant1** の値が **Restaurant2** の値より大きい場合は、**AdTaget** に値 **1** が割り当てられ、それ以外の場合は、**AdTarget** に値 **2** が割り当てられます。値 1 の場合はディスプレイの画面に&#x200B;*ステーキ料理*&#x200B;のオプションが表示され、値 2 の場合は&#x200B;*タイ料理*&#x200B;のオプションが表示されます。
 

@@ -14,7 +14,7 @@ role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Chrome プレーヤーに名前を設定するには、次の手順に従いま�
    >[!NOTE]
    >Chrome プレーヤーをエンタープライズ登録で登録し、Chrome 管理コンソールでデプロイする必要があります。そうしないと、返されるアセット ID が空白になります（例えば、chrome を拡張子として）。デバイス名は登録時にのみ記録されます。それ以降の変更は、Adobe Experience Manager（AEM）には反映されません。
 
-### キオスクモードの有効化    {#enabling-kiosk-mode}
+### キオスクモードの有効化 {#enabling-kiosk-mode}
 
 キオスクモードを有効にするには、次の手順に従います。
 

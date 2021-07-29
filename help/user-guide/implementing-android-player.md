@@ -14,10 +14,10 @@ feature: Screens の管理、Android プレーヤー
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1513'
-ht-degree: 100%
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
+workflow-type: tm+mt
+source-wordcount: '1534'
+ht-degree: 98%
 
 ---
 
@@ -181,6 +181,9 @@ Android プレーヤーを一括デプロイする場合、プレーヤーを 1 
 ## Android プレーヤーの命名 {#name-android}
 
 ユーザーにわかりやすいデバイス名を Android プレーヤーに割り当てて、そのデバイス名を Adobe Experience Manager（AEM）に送信することができます。この機能により、Android プレーヤーに名前を付けるだけでなく、適切なコンテンツを簡単に割り当てることもできます。
+
+>[!NOTE]
+>プレーヤー名は、登録前にのみ選択できます。 プレーヤーが登録されると、プレーヤー名は変更できなくなります。
 
 Android プレーヤーに名前を設定するには、次の手順に従います。
 

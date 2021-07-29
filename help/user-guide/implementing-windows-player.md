@@ -14,10 +14,10 @@ feature: Screens の管理、Windows プレーヤー
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1074'
-ht-degree: 100%
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
+workflow-type: tm+mt
+source-wordcount: '1095'
+ht-degree: 98%
 
 ---
 
@@ -71,6 +71,9 @@ AEM オーサーインスタンスおよびパブリッシュインスタンス�
 ## Windows プレーヤーの命名 {#name-windows}
 
 ユーザーにわかりやすいデバイス名を Windows プレーヤーに割り当てて、そのデバイス名を Adobe Experience Manager（AEM）に送信することができます。この機能により、Windows プレーヤーに名前を付けるだけでなく、適切なコンテンツを簡単に割り当てることもできます。
+
+>[!NOTE]
+>プレーヤー名は、登録前にのみ選択できます。 プレーヤーが登録されると、プレーヤー名は変更できなくなります。
 
 Windows プレーヤーに名前を設定するには、次の手順に従います。
 

@@ -5,10 +5,10 @@ feature: Screens の管理、プレーヤー
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1208'
-ht-degree: 100%
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
+workflow-type: tm+mt
+source-wordcount: '1229'
+ht-degree: 98%
 
 ---
 
@@ -41,6 +41,9 @@ ht-degree: 100%
 ### Tizen プレーヤーの命名 {#name-tizen}
 
 ユーザーにわかり-やすいデバイス名を Tizen プレーヤーに割り当てて、そのデバイス名を Adobe Experience Manager（AEM）に送信することができます。この機能により、Tizen プレーヤーに名前を付けるだけでなく、適切なコンテンツを簡単に割り当てることもできます。
+
+>[!NOTE]
+>プレーヤー名は、登録前にのみ選択できます。 プレーヤーが登録されると、プレーヤー名は変更できなくなります。
 
 Tizen プレーヤーに名前を設定するには、次の手順に従います。
 

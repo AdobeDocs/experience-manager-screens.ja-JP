@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
 source-git-commit: da5abdb3b12f8e1e71af2f9dbc80ec2434ae08ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '584'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 [AEM Screens のキックスタート](kickstart-for-aem-screens.md)に従って、シンプルなデジタルサイネージエクスペリエンスをインストールおよび導入できます。
 
-AEM as aCloud ServiceでAEM Screensプロジェクトを設定および作成する方法については、[こちら](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/screens-as-cloud-service/home.html?lang=en)を参照してください。
+AEM as a Cloud Service で AEM Screens プロジェクトを設定および作成する方法については、[こちら](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/screens-as-cloud-service/home.html?lang=ja)を参照してください。
 
 ## 概要 {#overview}
 

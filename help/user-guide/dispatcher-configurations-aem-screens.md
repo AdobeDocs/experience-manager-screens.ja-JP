@@ -7,7 +7,7 @@ feature: Screens の管理
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 0d341b5d370654e9b1f56ca3afbc2a075cc85188
+source-git-commit: 449f59f25f1164f1e638921192c538ac46d781d3
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 64%
@@ -179,51 +179,51 @@ AEM Screens用にDispatcher（マニフェストバージョンv3）を設定す
 
 * 以下を`/invalidate section in publish_farm.any`に追加します。
 
-```
-/0003 {
-    /glob "*.json"
-    /type "allow"
-}
-```
+   ```
+   /0003 {
+       /glob "*.json"
+       /type "allow"
+   }
+   ```
 
-`publish_farm.any`の`/rules`セクションまたは`publish_farm.any`からインクルードされるファイルに、次のルールを`/cache`セクションに追加します。
+* `publish_farm.any`の`/rules`セクションまたは`publish_farm.any`からインクルードされるファイルに、次のルールを`/cache`セクションに追加します。
 
-```
-## Don't cache CSRF login tokens
-/0001
-    {
-    /glob "/libs/granite/csrf/token.json"
-    /type "deny"
-    }
-## Allow Dispatcher Cache for Screens channels
-/0002
-    {
-        /glob "/content/screens/*.html"
-        /type "allow"
-    }
-## Allow Dispatcher Cache for Screens offline manifests
-/0003
-    {
-    /glob "/content/screens/*.manifest.json"
-    /type "allow"
-    }
-## Allow Dispatcher Cache for Assets
-/0004
-    {
-  
-    /glob "/content/dam/*"
-    /type "allow"
-    }
-## Disable Dispatcher Cache for Screens devices json
-/0005
-    {
-    /glob "/home/users/screens/*.json"
-    /type "deny"
-    }
-## Disable Dispatcher Cache for Screens svc json
-/0006
-    {
-    /glob "/content/screens/svc.json"
-    /type "deny"
-    }
-```
+   ```
+   ## Don't cache CSRF login tokens
+   /0001
+       {
+       /glob "/libs/granite/csrf/token.json"
+       /type "deny"
+       }
+   ## Allow Dispatcher Cache for Screens channels
+   /0002
+       {
+           /glob "/content/screens/*.html"
+           /type "allow"
+       }
+   ## Allow Dispatcher Cache for Screens offline manifests
+   /0003
+       {
+       /glob "/content/screens/*.manifest.json"
+       /type "allow"
+       }
+   ## Allow Dispatcher Cache for Assets
+   /0004
+       {
+   
+       /glob "/content/dam/*"
+       /type "allow"
+       }
+   ## Disable Dispatcher Cache for Screens devices json
+   /0005
+       {
+       /glob "/home/users/screens/*.json"
+       /type "deny"
+       }
+   ## Disable Dispatcher Cache for Screens svc json
+   /0006
+       {
+       /glob "/content/screens/svc.json"
+       /type "deny"
+       }
+   ```

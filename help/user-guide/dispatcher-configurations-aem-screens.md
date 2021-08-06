@@ -7,9 +7,9 @@ feature: Screens の管理
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 449f59f25f1164f1e638921192c538ac46d781d3
+source-git-commit: 0f32fc015729685c724176c25920da6f07707c00
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '586'
 ht-degree: 64%
 
 ---
@@ -141,6 +141,8 @@ AEM Screens用にDispatcher（マニフェストバージョンv3）を設定す
 * パブリッシュインスタンスの`/etc/replication/agents.publish/dispatcher1useast1Agent`にDispatcherフラッシュエージェントが設定されていることを確認します。
 
    ![画像](/help/user-guide/assets/dispatcher/dispatcher-1.png)
+
+   ![画像](/help/user-guide/assets/dispatcher/dispatcher-3.png)
 
 ### フィルター  {#filter-v3}
 

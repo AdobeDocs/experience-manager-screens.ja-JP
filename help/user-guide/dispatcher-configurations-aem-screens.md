@@ -7,7 +7,7 @@ feature: Screens の管理
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: ee7e37c5a3b4fa20f1a5cb27ceaf8db4b56a03da
+source-git-commit: 89b4bc6b7eca18d37246be188eddad87443a96d6
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 64%
@@ -134,7 +134,7 @@ Screens プレーヤーは認証済みセッションを使用するので、Dis
 
 Screensを機能させるには、パブリッシュインスタンスの前にあるDispatcherで、これらのフィルターとキャッシュルールを必ず許可してください。
 
-## マニフェストバージョンv3の前提条件{#prerequisites3}
+### マニフェストバージョンv3の前提条件{#prerequisites3}
 
 AEM Screens用にDispatcher（マニフェストバージョンv3）を設定する前に、次の2つの前提条件に従っていることを確認してください。
 

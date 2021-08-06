@@ -7,10 +7,10 @@ feature: Screens の管理
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 7e4d3c5ed7299d6439bf9be6d49ec9224dcf71ed
+source-git-commit: 60922dfe062e3b0c8b4385833d8f19a5e1d38a6e
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 68%
+source-wordcount: '582'
+ht-degree: 64%
 
 ---
 
@@ -28,16 +28,14 @@ Dispatcher は、Adobe Experience Manager のキャッシュやロードバラ�
 
 ## 前提条件 {#prerequisites}
 
->[!IMPORTANT]
->AEM Screens プロジェクトの Dispatcher を設定する前に、Dispatcher に関する事前の知識が必要です。
->詳しくは、[Dispatcher の設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)を参照してください。
+AEM Screens プロジェクトの Dispatcher を設定する前に、Dispatcher に関する事前の知識が必要です。詳しくは、[Dispatcher の設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)を参照してください。
 
 ## Dispatcher の設定 {#configuring-dispatcher}
 
 >[!IMPORTANT]
->次のDispatcher設定は、マニフェストバージョンv2にのみ適用されます。 マニフェストバージョンV3については、 [マニフェストバージョンv3]{#configuring-dispatcherv3}のDispatcher設定を参照してください。
+>次のDispatcher設定は、マニフェストバージョンv2にのみ適用されます。 マニフェストバージョンv3については、 [マニフェストバージョンv3](#configuring-dispatcherv3)のDispatcher設定を参照してください。
 
-AEM Screens プレーヤー／デバイスは、パブリッシュインスタンスのリソースにもアクセスする際にも、認証済みセッションを使用します。したがって、複数のパブリッシュインスタンスがある場合、AEM Screens のプレーヤー／デバイスから送られるすべてのリクエストで認証済みセッションが有効になるよう、常に同じパブリッシュインスタンスにリクエストを送信する必要があります。
+AEM Screensプレーヤーまたはデバイスは、認証済みセッションを使用してパブリッシュインスタンスのリソースにアクセスします。 したがって、複数のパブリッシュインスタンスがある場合、AEM Screens のプレーヤー／デバイスから送られるすべてのリクエストで認証済みセッションが有効になるよう、常に同じパブリッシュインスタンスにリクエストを送信する必要があります。
 
 以下の手順に従って、AEM Screens プロジェクトの Dispatcher を設定します。
 
@@ -138,7 +136,7 @@ Screensを機能させるには、パブリッシュインスタンスの前に�
 
 ## マニフェストバージョンv3の前提条件{#prerequisites3}
 
-AEM Screens用のDispatcherを設定する前に、次の2つの前提条件に従ってください。
+AEM Screens用にDispatcher（マニフェストバージョンv3）を設定する前に、次の2つの前提条件に従っていることを確認してください。
 
 * `v3 manifests`を使用していることを確認します。 `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`に移動し、`Enable ContentSync Cache`がオフになっていることを確認します。
 

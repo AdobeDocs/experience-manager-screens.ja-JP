@@ -7,10 +7,10 @@ feature: Screens の管理
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '393'
-ht-degree: 100%
+source-git-commit: d3903605e50668a568e5c336b47ad4c6d8cd1dc0
+workflow-type: tm+mt
+source-wordcount: '432'
+ht-degree: 91%
 
 ---
 
@@ -26,11 +26,19 @@ Dispatcher は、Adobe Experience Manager のキャッシュやロードバラ�
 >
 >Dispatcher がない場合は、OSGi コンポーネントリストで登録サーブレットを無効にします。
 
-## 前提条件 {#pre-requisites}
+## 前提条件 {#prerequisites}
 
-AEM Screens プロジェクトの Dispatcher を設定する前に、Dispatcher に関する事前の知識が必要です。
+>[!IMPORTANT]
+>AEM Screens プロジェクトの Dispatcher を設定する前に、Dispatcher に関する事前の知識が必要です。
+>詳しくは、[Dispatcher の設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)を参照してください。
 
-詳しくは、[Dispatcher の設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)を参照してください。
+AEM Screens用のDispatcherを設定する前に、次の2つの前提条件に従ってください。
+
+* `v3 manifests`を使用していることを確認します。 `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`に移動し、`Enable ContentSync Cache`がオフになっていることを確認します。
+
+* パブリッシュインスタンスの`/etc/replication/agents.publish/dispatcher1useast1Agent`にDispatcherフラッシュエージェントが設定されていることを確認します。
+
+   ![画像](/help/user-guide/assets/dispatcher/dispatcher-1.png)
 
 ## Dispatcher の設定 {#configuring-dispatcher}
 

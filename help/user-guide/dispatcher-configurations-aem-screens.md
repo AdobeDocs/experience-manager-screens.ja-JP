@@ -7,9 +7,9 @@ feature: Screens の管理
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 60922dfe062e3b0c8b4385833d8f19a5e1d38a6e
+source-git-commit: ee7e37c5a3b4fa20f1a5cb27ceaf8db4b56a03da
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '586'
 ht-degree: 64%
 
 ---
@@ -30,7 +30,7 @@ Dispatcher は、Adobe Experience Manager のキャッシュやロードバラ�
 
 AEM Screens プロジェクトの Dispatcher を設定する前に、Dispatcher に関する事前の知識が必要です。詳しくは、[Dispatcher の設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)を参照してください。
 
-## Dispatcher の設定 {#configuring-dispatcher}
+## マニフェストバージョンv2用のDispatcherの設定 {#configuring-dispatcher}
 
 >[!IMPORTANT]
 >次のDispatcher設定は、マニフェストバージョンv2にのみ適用されます。 マニフェストバージョンv3については、 [マニフェストバージョンv3](#configuring-dispatcherv3)のDispatcher設定を参照してください。

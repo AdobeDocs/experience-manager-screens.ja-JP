@@ -8,13 +8,13 @@ role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
 source-git-commit: 0f32fc015729685c724176c25920da6f07707c00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '586'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
-# AEM Screens プロジェクトの Dispatcher の設定{#dispatcher-configurations-for-aem-screens}
+# AEM Screens プロジェクトの Dispatcher の設定 {#dispatcher-configurations-for-aem-screens}
 
 Dispatcher は、Adobe Experience Manager のキャッシュやロードバランシングを管理するツールです。
 
@@ -28,12 +28,12 @@ Dispatcher は、Adobe Experience Manager のキャッシュやロードバラ�
 
 AEM Screens プロジェクトの Dispatcher を設定する前に、Dispatcher に関する事前の知識が必要です。詳しくは、[Dispatcher の設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)を参照してください。
 
-## マニフェストバージョンv2用のDispatcherの設定 {#configuring-dispatcher}
+## Manifest バージョン v2 用 Dispatcher の設定 {#configuring-dispatcher}
 
 >[!IMPORTANT]
->次のDispatcher設定は、マニフェストバージョンv2にのみ適用されます。 マニフェストバージョンv3については、 [マニフェストバージョンv3](#configuring-dispatcherv3)のDispatcher設定を参照してください。
+>次の Dispatcher 設定は、Manifest バージョン v2 にのみ適用されます。Manifest バージョン v3 については、[Manifest バージョン v3](#configuring-dispatcherv3) の Dispatcher 設定を参照してください。
 
-AEM Screensプレーヤーまたはデバイスは、認証済みセッションを使用してパブリッシュインスタンスのリソースにアクセスします。 したがって、複数のパブリッシュインスタンスがある場合、AEM Screens のプレーヤー／デバイスから送られるすべてのリクエストで認証済みセッションが有効になるよう、常に同じパブリッシュインスタンスにリクエストを送信する必要があります。
+AEM Screens プレーヤー／デバイスは、パブリッシュインスタンスのリソースにもアクセスする際にも、認証済みセッションを使用します。したがって、複数のパブリッシュインスタンスがある場合、AEM Screens のプレーヤー／デバイスから送られるすべてのリクエストで認証済みセッションが有効になるよう、常に同じパブリッシュインスタンスにリクエストを送信する必要があります。
 
 以下の手順に従って、AEM Screens プロジェクトの Dispatcher を設定します。
 
@@ -128,17 +128,17 @@ Screens プレーヤーは認証済みセッションを使用するので、Dis
     }
 ```
 
-## マニフェストバージョンv3用のDispatcherの設定{#configuring-dispatcherv3}
+## Manifest バージョン v3 用の Dispatcher の設定 {#configuring-dispatcherv3}
 
-Screensを機能させるには、パブリッシュインスタンスの前にあるDispatcherで、これらのフィルターとキャッシュルールを必ず許可してください。
+Screens を機能させるには、パブリッシュインスタンスの前にある Dispatcher で、これらのフィルターとキャッシュルールを必ず許可してください。
 
-### マニフェストバージョンv3の前提条件{#prerequisites3}
+### Manifest バージョン v3 の前提条件 {#prerequisites3}
 
-AEM Screens用にDispatcher（マニフェストバージョンv3）を設定する前に、次の2つの前提条件に従っていることを確認してください。
+AEM Screens 用 に Dispatcher（Manifest バージョン v3）を設定する前に、次の 2 つの前提条件に従っていることを確認してください。
 
-* `v3 manifests`を使用していることを確認します。 `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`に移動し、`Enable ContentSync Cache`がオフになっていることを確認します。
+* `v3 manifests` を使用していることを確認します。`https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` に移動し、`Enable ContentSync Cache` がオフになっていることを確認します。
 
-* パブリッシュインスタンスの`/etc/replication/agents.publish/dispatcher1useast1Agent`にDispatcherフラッシュエージェントが設定されていることを確認します。
+* パブリッシュインスタンスの `/etc/replication/agents.publish/dispatcher1useast1Agent` に Dispatcher フラッシュエージェントが設定されていることを確認します。
 
    ![画像](/help/user-guide/assets/dispatcher/dispatcher-1.png)
 
@@ -172,14 +172,14 @@ AEM Screens用にDispatcher（マニフェストバージョンv3）を設定す
 
 ### キャッシュルール {#cache-rules-v3}
 
-* `/allowAuthorized "1"`を`publish_farm.any`の`/cache`セクションに追加します。
+* `/allowAuthorized "1"` を `publish_farm.any` の `/cache` のセクションに追加します。
 
-* すべてのScreensプレーヤーは、認証済みセッションを使用してAEM（オーサー/パブリッシュ）に接続します。 標準のDispatcherは、これらのURLをキャッシュしないので、これらを有効にする必要があります。
+* すべての Screens プレーヤーは、認証済みセッションを使用して AEM（オーサー／パブリッシュ）に接続します。標準の Dispatcher は、これらの URL をキャッシュしないよう設定されているので、これらを有効にする必要があります。
 
-* `publish_farm.any`の`statfileslevel "10"`を`/cache`セクションに追加します。
-これにより、すべてを無効化するのではなく、キャッシュドキュメントルートから最大10レベルのキャッシュをサポートし、コンテンツが公開されたときにそれに応じて無効化します。 コンテンツ構造の深さに基づいて、このレベルを自由に変更できます。
+* `publish_farm.any` の `statfileslevel "10"` を `/cache` セクションに追加します。
+これにより、すべてを無効化するのではなく、キャッシュドキュメントルートから最大 10 レベルのキャッシュをサポートし、コンテンツが公開されたときにそれに応じて無効化します。コンテンツ構造の深さに基づいて、このレベルを自由に変更できます。
 
-* 以下を`/invalidate section in publish_farm.any`に追加します。
+* `/invalidate section in publish_farm.any` に次の内容を追加します
 
    ```
    /0003 {
@@ -188,7 +188,7 @@ AEM Screens用にDispatcher（マニフェストバージョンv3）を設定す
    }
    ```
 
-* `publish_farm.any`の`/rules`セクションまたは`publish_farm.any`からインクルードされるファイルに、次のルールを`/cache`セクションに追加します。
+* `publish_farm.any` にある `/cache` の `/rules` セクション、または `publish_farm.any` からインクルードされるファイルに、次のルールをセクションに追加します。
 
    ```
    ## Don't cache CSRF login tokens

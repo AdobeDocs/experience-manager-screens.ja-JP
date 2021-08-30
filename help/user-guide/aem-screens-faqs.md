@@ -1,20 +1,18 @@
 ---
 title: AEM Screens の FAQ
-seo-title: AEM Screens の FAQ
+seo-title: AEM Screens FAQs
 description: ここでは、AEM Screens プロジェクトに関連する FAQ への回答を掲載しています。
-seo-description: ここでは、AEM Screens プロジェクトに関連する FAQ への回答を掲載しています。
-uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
-contentOwner: jsyal
-feature: デジタルサイネージ、コンテンツ
+seo-description: Follow this page to get answers to FAQs related to an AEM Screens project.
+feature: Digital Signage, Content
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '1903'
-ht-degree: 100%
+exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
+source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
+workflow-type: tm+mt
+source-wordcount: '1872'
+ht-degree: 99%
 
 ---
-
 
 # AEM Screens の FAQ {#aem-screens-faqs}
 
@@ -25,7 +23,7 @@ ht-degree: 100%
 >[!NOTE]
 >リストに示した必須チェックは、問題を発生させる前に、プライマリサポートまたは顧客側サポートが試す必要があります。
 
-### 1. 顧客が黒い画面やコンテンツが再生できない問題に直面した場合、応急処置のトラブルシューティング手順は何ですか？ {#troubleshooting-blank-screen}
+### 1. 顧客が黒い画面やコンテンツが再生できない問題に直面した場合、応急処置のトラブルシューティング手順は何ですか？  {#troubleshooting-blank-screen}
 
 * チャネルプレビューが動作しているかどうかを確認します。
 * ディスプレイプレビューが動作しているかどうかを確認します。
@@ -43,19 +41,19 @@ ht-degree: 100%
 
 ## チャネルの管理 {#channel-management}
 
-### 1. オンラインチャネルとオフラインチャネルの違いは何ですか？ {#what-is-the-difference-between-an-online-and-an-offline-channel}
+### 1. オンラインチャネルとオフラインチャネルの違いは何ですか？  {#what-is-the-difference-between-an-online-and-an-offline-channel}
 
 ***オンラインチャネル***&#x200B;では、最新のコンテンツがリアルタイム環境で表示されるのに対して、***オフラインチャネル***&#x200B;では、キャッシュされたコンテンツが表示されます。
 
-### 2. チャネルをオンラインにするには、どうすればよいですか？ {#how-do-i-make-a-channel-online}
+### 2. チャネルをオンラインにするには、どうすればよいですか？  {#how-do-i-make-a-channel-online}
 
 チャネルを選択し、アクションバーからチャネルのプロパティに移動します。「**チャネル**」タブで「**開発者モード (チャネルをオンラインに強制)**」をオンにして、チャネルをオンラインにします。
 
-### 3. 「チャネルロール」フィールドは何に使用しますか？ {#what-is-the-use-of-the-channel-role-field}
+### 3. 「チャネルロール」フィールドは何に使用しますか？  {#what-is-the-use-of-the-channel-role-field}
 
 「チャネルロール」は、作成者が汎用のエクスペリエンスに直接専念できるように、実行される実際のチャネルを抽象化したものです。チャネルをそのコンテキスト（ディスプレイまたはスケジュール）で一意に識別する一種のタグと考えることができます。
 
-### 4. 実際のチャネル解決はどのようにおこなわれますか？ {#how-does-actual-channel-resolution-happen}
+### 4. 実際のチャネル解決はどのようにおこなわれますか？  {#how-does-actual-channel-resolution-happen}
 
 *静的参照*&#x200B;の場合、解決は指定されたパスに従うだけです。
 
@@ -70,25 +68,25 @@ ht-degree: 100%
 
 ## デバイスの登録 {#device-registration}
 
-### 1. デバイスのオンボーディングや登録の要求などのエンドポイントを検出した場合、多数のデバイスをスクリプト化して、これらのデバイスを登録できます。これをブランチ Wi-Fi にロックする以外に、これらの要求のセキュリティを確保することは可能ですか？ {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
+### 1. デバイスのオンボーディングや登録の要求などのエンドポイントを検出した場合、多数のデバイスをスクリプト化して、これらのデバイスを登録できます。これをブランチ Wi-Fi にロックする以外に、これらの要求のセキュリティを確保することは可能ですか？  {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
 
 現在、登録はオーサーインスタンス上でのみ可能です。登録サービスは認証されていませんが、保留中のデバイスを AEM に作成するだけで、実際にデバイスを登録したりディスプレイを割り当てたりすることはありません。
 
 デバイスを登録する（つまり、デバイスのユーザーを AEM に作成する）には、やはり AEM に対する認証が必要です。現時点では、登録ウィザードに従って手動で登録を完了する必要があります。理論的には、悪意のあるユーザーが保留中のデバイスを複数作成する可能性がありますが、AEM にログインしない限り、デバイスを登録することはできません。
 
-### 2. 何らかの認証形式で HTTP GET 要求を HTTP POST 要求に変換する方法はありますか？ {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
+### 2. 何らかの認証形式で HTTP GET 要求を HTTP POST 要求に変換する方法はありますか？  {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
 登録要求は POST 要求です。
 
 デバイス ID は、パラメーターとして渡すのではなく、セッションから取得することをお勧めします。これにより、サーバーログ、ブラウザーキャッシュなどがクリーンアップされます。現時点では、これでセキュリティ上の問題にはなっていません。なお、意味的には、GET は、サーバー上で状態変化がない場合に使用され、状態変化がある場合は POST が使用されます。
 
-### 3. デバイス登録要求を拒否する方法はありますか？ {#is-there-a-way-to-decline-a-device-registration-request}
+### 3. デバイス登録要求を拒否する方法はありますか？  {#is-there-a-way-to-decline-a-device-registration-request}
 
-登録要求を拒否することはできません。その代わり、[Adobe Experience Manager Web コンソール](https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl)で設定したタイムアウト時間の経過後に登録要求の有効期限が切れます。デフォルトでは、この値は 1 日に設定され、メモリキャッシュに保存されます。
+登録要求を拒否することはできません。代わりに、`Adobe Experience Manager Web Console`で設定したタイムアウトの後に登録要求の有効期限が切れます。 デフォルトでは、この値は 1 日に設定され、メモリキャッシュに保存されます。
 
 ## デバイスの監視とヘルスレポート {#device-monitoring-and-health-reports}
 
-### 1. AEM Screens Player に空白の画面が表示される場合、トラブルシューティングをおこなうには、どうすればよいですか？ {#how-do-i-troubleshoot-if-my-aem-screens-player-shows-blank-screen}
+### 1. AEM Screens Player に空白の画面が表示される場合、トラブルシューティングをおこなうには、どうすればよいですか？  {#how-do-i-troubleshoot-if-my-aem-screens-player-shows-blank-screen}
 
 画面が空白になる問題のトラブルシューティングをおこなうには、以下の可能性がないか確認してください。
 
@@ -96,7 +94,7 @@ ht-degree: 100%
 * チャネルにコンテンツがない
 * 現時点で表示予定のアセットがない
 
-### 2. AEM Screens Player を登録できず、状態が失敗と表示される場合は、どうすればよいですか？ {#what-do-i-do-if-aem-screens-player-cannot-register-and-its-state-is-displayed-as-failure}
+### 2. AEM Screens Player を登録できず、状態が失敗と表示される場合は、どうすればよいですか？  {#what-do-i-do-if-aem-screens-player-cannot-register-and-its-state-is-displayed-as-failure}
 
 Apache Sling Referrer Filter の「Allow Empty」をオンにする必要があります。これは、AEM Screens Player と AEM Screens サーバーの間の制御プロトコルの最適な動作のために必要です。
 
@@ -104,17 +102,17 @@ Apache Sling Referrer Filter の「Allow Empty」をオンにする必要があ�
 1. 「**allow.empty**」オプションをオンにします。
 1. 「**保存**」をクリックします。
 
-### 3. AEM Screens Player の登録中にデバイスに失敗と表示され、コンソールログに ENAME_NOT_FOUND エラーが表示される場合は、どのようにトラブルシューティングすればよいですか？ {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
+### 3. AEM Screens Player の登録中にデバイスに失敗と表示され、コンソールログに ENAME_NOT_FOUND エラーが表示される場合は、どのようにトラブルシューティングすればよいですか？  {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
 
 この問題は、プレーヤーが AEM Screens サーバーの DNS を検出できない場合に発生する可能性があります。IP アドレスを使用して接続してみてください。サーバーの IP アドレスを取得するには、*arp &lt;server_dns_name>* を使用します。
 
-### 4. AMS では、すべてのデバイスに Android ウォッチドッグを実装することを推奨していますか？ウォッチドッグ（Cordova）プラグインは APK に含まれていますか？ {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
+### 4. AMS では、すべてのデバイスに Android ウォッチドッグを実装することを推奨していますか？ウォッチドッグ（Cordova）プラグインは APK に含まれていますか？  {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
 純粋な Android API を使用するクロスプラットフォームの Android ウォッチドッグは、既に APK に含まれています。追加のソフトウェアは必要ありませんが、使用するデバイスによっては、APK に再署名して、完全な電源サイクルを実行するためのシステム権限（PowerManager API）を取得しなければならない場合があります。製造元のキーを使用して再署名しない場合は、アプリケーションが終了して再起動しますが、電源のオン／オフはおこなわれません。
 
 Android プレーヤーの実装方法について詳しくは、[**Android プレーヤーの実装**](implementing-android-player.md)&#x200B;を参照してください。
 
-### 5. Adobe／AMS では、各デバイスの監視にどのようなサードパーティ製リモート監視および警告ツール（ソフトウェア）を推奨していますか？ {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
+### 5. Adobe／AMS では、各デバイスの監視にどのようなサードパーティ製リモート監視および警告ツール（ソフトウェア）を推奨していますか？   {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
 必要な監視および警告機能にもよりますが、新機能である AEM Screens 通知サービスでは、デバイスがしばらくの間 ping に応答しなかった場合にユーザーに通知します。サードパーティツールは、お使いのオペレーティングシステム（OS）とその機能、およびユーザー固有のニーズによって異なります。
 
@@ -122,7 +120,7 @@ Android プレーヤーの実装方法について詳しくは、[**Android プ�
 
 ## AEM Screens Player {#aem-screens-player}
 
-### 1. Chrome OS プレーヤーを Chrome ブラウザープラグインとしてインストールするには、どうすればよいですか？ {#how-to-install-chromeos-player-as-chrome-browser-plugin}
+### 1. Chrome OS プレーヤーを Chrome ブラウザープラグインとしてインストールするには、どうすればよいですか？  {#how-to-install-chromeos-player-as-chrome-browser-plugin}
 
 Chrome OS プレーヤーは、実際の Chrome プレーヤーデバイスがなくても、開発者モードで Chrome ブラウザープラグインとしてインストールできます。インストールについては、次の手順に従います。
 
@@ -135,11 +133,11 @@ Chrome OS プレーヤーは、実際の Chrome プレーヤーデバイスが�
 1. 新しいタブを開き、左上隅の「**アプリ**」アイコンをクリックするか、***chrome://apps*** に直接移動します。
 1. 「**AEM Screens** プラグイン」をクリックして、Chrome プレーヤーを起動します。デフォルトでは、プレーヤーはフルスクリーンモードで起動します。**Esc** キーを押すと、フルスクリーンモードが終了します。
 
-### 2. AEM Screens Player がカスタムエラーハンドラーでパブリッシュインスタンスを通じて認証できない場合、トラブルシューティングするには、どうすればよいですか？ {#how-to-troubleshoot-if-screens-player-is-unable-to-authenticate-through-publish-instance-with-custom-error-handler}
+### 2. AEM Screens Player がカスタムエラーハンドラーでパブリッシュインスタンスを通じて認証できない場合、トラブルシューティングするには、どうすればよいですか？  {#how-to-troubleshoot-if-screens-player-is-unable-to-authenticate-through-publish-instance-with-custom-error-handler}
 
 AEM Screens Player は、起動時に 404 エラーが発生すると、***/content/screens/svc.ping.json*** への要求をおこないます。プレーヤーが認証要求を開始して、パブリッシュインスタンスに対して認証をおこないます。パブリッシュインスタンスにカスタムエラーハンドラーがある場合、匿名ユーザーに対しては、***/content/screens/svc.ping.json*** の実行で必ず 404 のステータスコードを返すようにしてください。
 
-### 3. Android プレーヤーでデバイスの画面が常に表示されるように設定するには、どうすればよいですか？ {#how-to-set-the-device-screen-stay-on-in-an-android-player}
+### 3. Android プレーヤーでデバイスの画面が常に表示されるように設定するには、どうすればよいですか？  {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
 次の手順に従って、任意の Android プレーヤーで「スリープモードにしない」をオンにします。
 
@@ -148,7 +146,7 @@ AEM Screens Player は、起動時に 404 エラーが発生すると、***/cont
 1. **開発者向けオプション**&#x200B;に移動します。
 1. 「**スリープモードにしない**」をオンにします。
 
-### 4. Windows プレーヤーのウィンドウモードを有効にする方法 {#enable-player}
+### 4. Windows プレーヤーのウィンドウモードを有効にする方法{#enable-player}
 
 Windows Player にはウィンドウモードはありません。常にフルスクリーンモードになります。
 
@@ -188,7 +186,7 @@ Windows Player にはウィンドウモードはありません。常にフル�
 
 ## トラブルシューティングに関する一般的なヒント {#general-troubleshooting-tips}
 
-### 1. Livefyre を無効にして A/P Screens エラーを回避するには、どうすればよいですか？ {#how-to-disable-livefyre-to-avoid-a-p-screens-error}
+### 1. Livefyre を無効にして A/P Screens エラーを回避するには、どうすればよいですか？  {#how-to-disable-livefyre-to-avoid-a-p-screens-error}
 
 Livefyre を無効にしてログエラーを回避するには、次の手順に従います。
 
@@ -204,11 +202,9 @@ Livefyre を無効にしてログエラーを回避するには、次の手順�
    * 新しいプロパティ *enabled*（*Boolean* 型）を追加します。
    * **enabled プロパティ**&#x200B;を **false** に設定します。
 
-### 2. Oak インデックス情報の追加方法 {#add-oak-index-info}
+### 2. Oak インデックス情報の追加方法  {#add-oak-index-info}
 
 AEM Screens は、製品で使用されるクエリのインデックス定義を作成します。
 `error.log` に *クエリトラバーサル WARN* がある場合は、クエリのカスタムインデックスを作成します。詳しくは、「[インデックスの設定](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=ja#configuring-the-indexes)」を参照してください。
 
 [Oak ドキュメント](https://jackrabbit.apache.org/oak/docs/query/lucene.html)の追加リソースも参照できます。
-
-

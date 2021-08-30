@@ -1,24 +1,24 @@
 ---
 title: AEM SPA Editor を使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合
-seo-title: AEM SPA Editor を使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合
+seo-title: Embedding a REACT application using the AEM SPA Editor and Integrating with AEM Screens Analytics
 description: ここでは、AEM でビジネスプロフェッショナルが設定できる AEM SPA Editor を使用して React（または Angular）ベースのインタラクティブなシングルページアプリケーションを埋め込む方法について説明します。また、インタラクティブアプリケーションをオフライン Adobe Analytics と統合する方法についても説明します。
-seo-description: ここでは、AEM でビジネスプロフェッショナルが設定できる AEM SPA Editor を使用して React（または Angular）ベースのインタラクティブなシングルページアプリケーションを埋め込む方法について説明します。また、インタラクティブアプリケーションをオフライン Adobe Analytics と統合する方法についても説明します。
+seo-description: Follow this page to learn how to embed an interactive single page application using REACT (or Angular) using the AEM SPA editor that can be configured by business professionals in AEM and also how to integrate your interactive application with offline Adobe Analytics.
 uuid: fb56ede0-7b36-4f47-b9e5-d806c9a3c707
 content-type: reference
 topic-tags: developing
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: e4ecc179-e421-4687-854c-14d31bed031d
 docset: aem65
-feature: Screens の開発
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '722'
-ht-degree: 100%
+exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
+source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 82%
 
 ---
-
 
 # AEM SPA Editor を使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合 {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
@@ -67,14 +67,12 @@ AEM Screens にインタラクティブ React アプリを追加するには、�
 
 1. 新しい AEM Screens プロジェクトを作成します。詳しくは、[プロジェクトの作成と管理](creating-a-screens-project.md)を参照してください。
 
+1. Screensプロジェクトの&#x200B;**Channels**&#x200B;フォルダーに、新しい&#x200B;**アプリケーションチャネル**（できれば）（1x1テンプレートまたはマルチゾーンチャネル）を作成します。
+
    >[!NOTE]
-   >
-   >Screens プロジェクトの&#x200B;**チャネル**&#x200B;フォルダーにチャネルを作成する際に、**シーケンスチャネル**&#x200B;を作成します。
-   >
-   >
+   >**シーケンスチャネル** は、エクスペリエンスのインタラクティブな特性と競合するスライドショーロジックを本質的に備えているので、この使用例では推奨されません
    >詳しくは、[チャネルの作成と管理](managing-channels.md)を参照してください。
 
-   ![screen_shot_2019-02-15at100330am](assets/screen_shot_2019-02-15at100330am.png)
 
 1. シーケンスチャネルを編集し、埋め込みページコンポーネントをドラッグ＆ドロップします。
 
@@ -84,15 +82,21 @@ AEM Screens にインタラクティブ React アプリを追加するには、�
    >
    >チャネルをディスプレイに割り当てる際には、必ずユーザーインタラクションイベントを追加してください。
 
-1. アクションバーの「**編集**」をクリックして、シーケンスチャネルのプロパティを編集します。
+1. アクションバーの「**編集**」をクリックして、チャネルのプロパティを編集します。
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. **埋め込みページ**&#x200B;コンポーネントをドラッグ＆ドロップし、mysamplespa アプリケーションのホームページ（例：***/content/mysamplespa/en/home***）を選択します。
+1. **埋め込みページ**&#x200B;コンポーネントをドラッグ&amp;ドロップするか、アプリケーションチャネルで既存のコンポーネントを再利用し、mysamplespaアプリケーションの下のホームページ（例：***/content/mysamplespa/en/home***）を選択します。
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
-1. このプロジェクトに対してプレーヤーを登録すると、AEM Screens 上で動作するインタラクティブアプリケーションが表示されます。
+1. チャネルをディスプレイに割り当てる
+
+   >[!NOTE]
+   >チャネルをディスプレイに割り当てる際には、必ずユーザーインタラクションイベントを追加してください。
+
+1. 
+   1. このプロジェクトに対してプレーヤーを登録し、ディスプレイに割り当てます。 これで、AEM Screens上で実行されているインタラクティブアプリケーションが表示されます。
 
    デバイスの登録について詳しくは、[デバイスの登録](device-registration.md)を参照してください。
 
@@ -138,4 +142,3 @@ AEM Screens を通じて SPA をオフライン機能付きの Adobe Analytics �
    >[!NOTE]
    >
    >プレーヤーのファームウェアによって、送信するカスタム分析データにプレーヤーとそのランタイム環境に関する詳細が自動的に追加されます。したがって、どうしても必要な場合を除き、OS やデバイスに関する低レベルの詳細情報を取得する必要はありません。ビジネス分析データに的を絞るだけでよいのです。
-

@@ -13,7 +13,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
+source-git-commit: ffc44dbf1822ff4d0e875ef693d48dece248d555
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 82%
@@ -90,13 +90,12 @@ AEM Screens にインタラクティブ React アプリを追加するには、�
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
-1. チャネルをディスプレイに割り当てる
+1. チャネルをディスプレイに割り当てます。
 
    >[!NOTE]
    >チャネルをディスプレイに割り当てる際には、必ずユーザーインタラクションイベントを追加してください。
 
-1. 
-   1. このプロジェクトに対してプレーヤーを登録し、ディスプレイに割り当てます。 これで、AEM Screens上で実行されているインタラクティブアプリケーションが表示されます。
+1. このプロジェクトに対してプレーヤーを登録し、ディスプレイに割り当てます。 これで、AEM Screens上で実行されているインタラクティブアプリケーションが表示されます。
 
    デバイスの登録について詳しくは、[デバイスの登録](device-registration.md)を参照してください。
 

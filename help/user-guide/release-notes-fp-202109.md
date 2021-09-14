@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: e96c314ea7487932d2ab994ffc41ca8d2af61c5c
+source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 93%
+source-wordcount: '334'
+ht-degree: 42%
 
 ---
 
@@ -29,29 +29,23 @@ AEM Screens機能パック202109のリリース日は2021年9月9日です。
 
 ### 新機能 {#what-is-new}
 
-* **AEM Screens チャネルでのページのロック**
+* **ビデオのサムネールのサポート**
 
-   AEM Screens では、AEM Sites で既に実装されているように、*ページのロック*&#x200B;をサポートするようになりました。Adobe Experience Manager（AEM）では、他のユーザーがコンテンツを変更できないようにページをロックすることができます。ページのロックは、ある特定のページで大量の編集作業を行う場合や、短期間ページを凍結する必要がある場合に便利です。
+   でのビデオのサムネールのサポートがAEM Screensでサポートされるようになりました。 コンテンツ作成者は、ビデオのサムネールを定義して、画像をプレースホルダーとして使用し、コンテンツの再生とターゲティングを適切にテストしながら、実際のビデオを適切なチームで確定できます。 ビデオの再生に失敗した場合にも、画像を使用できます。
+詳しくは、ビデオのサムネールのサポートを参照してください。
 
-* **AEM Screens Player デバイスの命名**
+* **基本的な再生の監視**
 
-   AEM Screens Player で、デバイス名を Adobe Experience Manager（AEM）に送信できるようになりました。デフォルトでは、一括登録を使用してデバイスを登録すると、システムで生成されたユーザー名が「タイトル」フィールドに入力されます。あるいは、顧客がアセットタグやその他のわかりやすい名前を使用することもできます。この場合は、その名前が AEM に表示され、適切なコンテンツを割り当てやすくなります。
+   AEM Screensは、基本的な再生監視をサポートするようになりました。 プレーヤーでは、各pingで様々な再生指標がレポートされるようになります（デフォルトは30秒）。 指標に基づいて、様々なエッジケース（動きのないエクスペリエンス、空白画面、スケジュールの問題など）を検出できます。 この機能を使用すると、プレーヤーがコンテンツを適切に再生しているかどうかをチームがリモートで監視し、空白の画面やフィールド内のエクスペリエンスの破損に対する反応性を向上し、エンドユーザーに壊れたエクスペリエンスを表示するリスクを低減できます。
+詳しくは、基本的な再生監視を参照してください。
 
-   サポートされている各オペレーティングシステムでの名前の設定方法については、次のドキュメントを参照してください。
+* **コンテンツ割り当てレポートの更新**
 
-   * [Android](/help/user-guide/implementing-android-player.md#name-android)
-   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-   * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
-* **マニフェストの生成**
-
-   チャネルマニフェストの生成が迅速化されたほか、サーバー上に割り当てられるリソースの削減など、パフォーマンスが向上しました。
 
 ### バグ修正 {#bug-fixes}
 
-* 動的埋め込みシーケンスを含んだチャネルに切り替えると、プレーヤーの画面が黒くなっていました。
-* Screens Player で、破損したチャネルへの切り替えがブロックされるようになりました。これにより、それ以降の 404 エラーやエラーメッセージページの表示を回避できます。
+
 
 ### リリースされている AEM Screens Player {#released-aem-screens-players}
 

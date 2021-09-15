@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
+source-git-commit: 33e71d5d9b02036aa91db093274dcb058769f288
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 42%
+source-wordcount: '397'
+ht-degree: 34%
 
 ---
 
@@ -41,6 +41,10 @@ AEM Screens機能パック202109のリリース日は2021年9月9日です。
 
 * **コンテンツ割り当てレポートの更新**
 
+* **V3マニフェストのサポート**
+
+   マニフェストバージョンv3用にDispatcherを設定できるようになりました。 詳しくは、 [マニフェストバージョンv3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3)のDispatcherの設定を参照してください。
+また、カスタムコンポーネントをv3マニフェストの一部として使用する場合は、「[カスタムハンドラーのテンプレート](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers)」を参照してください。
 
 
 ### バグ修正 {#bug-fixes}

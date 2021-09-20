@@ -8,9 +8,9 @@ role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
 source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1872'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -68,21 +68,21 @@ ht-degree: 99%
 
 ## デバイスの登録 {#device-registration}
 
-### 1. デバイスのオンボーディングや登録の要求などのエンドポイントを検出した場合、多数のデバイスをスクリプト化して、これらのデバイスを登録できます。これをブランチ Wi-Fi にロックする以外に、これらの要求のセキュリティを確保することは可能ですか？  {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
+### 1. デバイスのオンボーディングや登録のリクエストなどのエンドポイントを検出した場合、多数のデバイスをスクリプト化して、これらのデバイスを登録できます。これをブランチ Wi-Fi にロックする以外に、これらのリクエストのセキュリティを確保することは可能ですか？ {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
 
 現在、登録はオーサーインスタンス上でのみ可能です。登録サービスは認証されていませんが、保留中のデバイスを AEM に作成するだけで、実際にデバイスを登録したりディスプレイを割り当てたりすることはありません。
 
 デバイスを登録する（つまり、デバイスのユーザーを AEM に作成する）には、やはり AEM に対する認証が必要です。現時点では、登録ウィザードに従って手動で登録を完了する必要があります。理論的には、悪意のあるユーザーが保留中のデバイスを複数作成する可能性がありますが、AEM にログインしない限り、デバイスを登録することはできません。
 
-### 2. 何らかの認証形式で HTTP GET 要求を HTTP POST 要求に変換する方法はありますか？  {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
+### 2. 何らかの認証形式で HTTP GET リクエストを HTTP POST リクエストに変換する方法はありますか？ {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
-登録要求は POST 要求です。
+登録リクエストは POST リクエストです。
 
 デバイス ID は、パラメーターとして渡すのではなく、セッションから取得することをお勧めします。これにより、サーバーログ、ブラウザーキャッシュなどがクリーンアップされます。現時点では、これでセキュリティ上の問題にはなっていません。なお、意味的には、GET は、サーバー上で状態変化がない場合に使用され、状態変化がある場合は POST が使用されます。
 
-### 3. デバイス登録要求を拒否する方法はありますか？  {#is-there-a-way-to-decline-a-device-registration-request}
+### 3. デバイス登録リクエストを拒否する方法はありますか？  {#is-there-a-way-to-decline-a-device-registration-request}
 
-登録要求を拒否することはできません。代わりに、`Adobe Experience Manager Web Console`で設定したタイムアウトの後に登録要求の有効期限が切れます。 デフォルトでは、この値は 1 日に設定され、メモリキャッシュに保存されます。
+登録リクエストを拒否することはできません。代わりに、`Adobe Experience Manager Web Console` で設定したタイムアウトの後に登録リクエストの有効期限が切れます。デフォルトでは、この値は 1 日に設定され、メモリキャッシュに保存されます。
 
 ## デバイスの監視とヘルスレポート {#device-monitoring-and-health-reports}
 
@@ -106,13 +106,13 @@ Apache Sling Referrer Filter の「Allow Empty」をオンにする必要があ�
 
 この問題は、プレーヤーが AEM Screens サーバーの DNS を検出できない場合に発生する可能性があります。IP アドレスを使用して接続してみてください。サーバーの IP アドレスを取得するには、*arp &lt;server_dns_name>* を使用します。
 
-### 4. AMS では、すべてのデバイスに Android ウォッチドッグを実装することを推奨していますか？ウォッチドッグ（Cordova）プラグインは APK に含まれていますか？  {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
+### 4. AMS では、すべてのデバイスに Android ウォッチドッグを実装することを推奨していますか？ウォッチドッグ（Cordova）プラグインは APK に含まれていますか？ {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
 純粋な Android API を使用するクロスプラットフォームの Android ウォッチドッグは、既に APK に含まれています。追加のソフトウェアは必要ありませんが、使用するデバイスによっては、APK に再署名して、完全な電源サイクルを実行するためのシステム権限（PowerManager API）を取得しなければならない場合があります。製造元のキーを使用して再署名しない場合は、アプリケーションが終了して再起動しますが、電源のオン／オフはおこなわれません。
 
 Android プレーヤーの実装方法について詳しくは、[**Android プレーヤーの実装**](implementing-android-player.md)&#x200B;を参照してください。
 
-### 5. Adobe／AMS では、各デバイスの監視にどのようなサードパーティ製リモート監視および警告ツール（ソフトウェア）を推奨していますか？   {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
+### 5. Adobe／AMS では、各デバイスの監視にどのようなサードパーティ製リモート監視および警告ツール（ソフトウェア）を推奨していますか？  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
 必要な監視および警告機能にもよりますが、新機能である AEM Screens 通知サービスでは、デバイスがしばらくの間 ping に応答しなかった場合にユーザーに通知します。サードパーティツールは、お使いのオペレーティングシステム（OS）とその機能、およびユーザー固有のニーズによって異なります。
 

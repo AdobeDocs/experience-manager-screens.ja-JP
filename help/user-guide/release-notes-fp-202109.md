@@ -1,11 +1,11 @@
 ---
 title: 機能パック 202109 のリリースノート
-description: 「2021年9月23日にリリースされたAEM Screens機能パック202105について説明します。」
+description: 2021年9月24日にリリースされたAEM Screens機能パック202105について説明します。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 33e71d5d9b02036aa91db093274dcb058769f288
+source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 34%
@@ -25,7 +25,7 @@ Adobe ID を使用して、AEM Screens 6.5.9 リリースの最新の機能パ�
 
 ## リリース日 {#release-date}
 
-AEM Screens機能パック202109のリリース日は2021年9月9日です。
+AEM Screens機能パック202109のリリース日は2021年9月24日です。
 
 ### 新機能 {#what-is-new}
 

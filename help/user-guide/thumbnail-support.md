@@ -2,7 +2,7 @@
 title: AEM Screensでのビデオのサムネールのサポート
 description: このページでは、Screensにビデオのサムネールサポートを追加する方法について説明します。
 index: false
-source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
+source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -31,7 +31,6 @@ ht-degree: 0%
 ビデオでサムネールを使用するには、以下の手順に従います。
 
 1. 既存のScreensチャネルに移動するか、新しいチャネルを作成します。
-
 
 1. チャネルを選択し、アクションバーの「**編集**」をクリックして、エディターを開きます。
 

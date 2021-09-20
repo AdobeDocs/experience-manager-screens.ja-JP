@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 060ab6a906597ab8e8789fab6932cec310cc06f5
+source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 19%
+source-wordcount: '763'
+ht-degree: 18%
 
 ---
 
@@ -40,6 +40,8 @@ AEM Screens機能パック202109のリリース日は2021年9月24日です。
 詳しくは、基本的な再生監視を参照してください。
 
 * **コンテンツ割り当てレポートの更新**
+
+   コンテンツ割り当てレポートが最適化され、ユーザーエクスペリエンスが強化されました。 ダウンロード可能なレポートでは、場所、ディスプレイ、デバイスなどのプレーヤー関連のエンティティが1つのスプレッドシートタブに表示され、コンテンツプロバイダー情報（チャネルやアセットなど）が他のタブに表示されます。
 
 * **V3マニフェストのサポート**
 

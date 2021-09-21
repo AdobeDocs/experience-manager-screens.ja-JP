@@ -1,15 +1,16 @@
 ---
 title: AEM Screensのアダプティブレンディション
-description: このページでは、AEM Screensでのアダプティブレンディションの使用方法について説明します。
+description: このページでは、AEM Screensのアダプティブレンディションのアーキテクチャの概要と設定について説明します。
 index: false
-source-git-commit: e56b14639370b9ecd8924270e827dbd70112581b
+source-git-commit: 773632de04b10b2e9040fede8e85e8d9092be5a6
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '683'
 ht-degree: 1%
 
 ---
 
-# アダプティブレンディション {#adaptive-renditions}
+
+# アダプティブレンディション：アーキテクチャの概要と設定 {#adaptive-renditions}
 
 ## はじめに {#introduction}
 
@@ -59,12 +60,11 @@ AEM Screens開発者は、すべてのコンテンツバリエーションを手
 
 ## オーサーとパブリッシュのセットアップ {#setup-author-publish}
 
-オーサーとパブリッシュをセットアップするには、次の手順に従います。
+アダプティブレンディションを使用する前に、オーサーとパブリッシュで次の推奨事項を考慮してください。
 
 * レンディションマッピングは手動でレプリケートする必要があります。
 
 * アセットレンディションは、デフォルトではレプリケートされません。 関連するすべてのアセットを手動でレプリケートする必要があります。
-
 
 ## レンディションマッピングルールの追加 {#adding-rendition-mapping-rules}
 
@@ -90,4 +90,4 @@ AEM Screens開発者は、すべてのコンテンツバリエーションを手
 
 ## 次の手順 {#next-steps}
 
-レンディションをアップロードすると、AEM Screensチャネルでアダプティブレンディションを使用できるようになります。
+レンディションをアップロードすると、AEM Screensチャネルでアダプティブレンディションを使用できるようになります。 詳しくは、「アダプティブレンディションの使用」を参照してください。

@@ -2,14 +2,14 @@
 title: AEM Screensでのアダプティブレンディションの使用
 description: このページでは、AEM Screensでのアダプティブレンディションの使用方法について説明します。
 index: false
-source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
+source-git-commit: 97354c05f3b01dd76b6b8d4bdaf45c9be3ce4db2
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '379'
 ht-degree: 1%
 
 ---
 
-# アダプティブレンディションの使用 {#adaptive-renditions}
+# AEM Screensでのアダプティブレンディションの使用 {#adaptive-renditions}
 
 ## はじめに {#introduction}
 

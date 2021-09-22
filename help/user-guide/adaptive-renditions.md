@@ -2,9 +2,9 @@
 title: AEM Screensのアダプティブレンディション
 description: このページでは、AEM Screensのアダプティブレンディションのアーキテクチャの概要と設定について説明します。
 index: false
-source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
+source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '506'
 ht-degree: 2%
 
 ---
@@ -49,24 +49,7 @@ AEM Screens開発者は、すべてのコンテンツバリエーションを手
 
       ![画像](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
-## 移行戦略 {#migration-strategy}
 
->[!IMPORTANT]
->大規模なネットワークの場合は、機能によってマニフェストおよびファイルストレージ形式に変更が加えられるので、リスクを軽減するために、移行を徐々におこなうことをお勧めします。
-
-次の図は、大規模なネットワークの移行戦略を示しています。
-
-![画像](/help/user-guide/assets/adaptive-renditions/migration-strategy1.png)
-
-この機能を有効にするには、少なくとも1つのマッピングルールを追加し、ディスプレイとチャネルのコンテキストでレンディションマッピング設定が解決可能であることを確認します。 移行するには、次の手順に従います。
-
-1. [レンディションマッピングルール](#adding-rendition-mapping-rules)を追加します。
-1. 新しいチャネル用のフォルダーを作成し、レンディションマッピング設定を指す参照を追加します。
-1. 古いチャネルを置き換える新しいチャネルを作成し、レンディションをアップロードします。
-1. ディスプレイを新しいチャネルに再割り当てします。
-1. レンディションマッピング設定を指す、移行済みのディスプレイまたは場所への参照を追加します。
-1. 残りのすべてのチャネルとディスプレイに対して、手順3、4、5を繰り返します。
-1. 移行が完了したら、チャネル、ディスプレイ、場所からすべての設定参照を削除し、1つの設定参照をプロジェクトコンテンツノードに追加します。
 
 ## オーサーとパブリッシュのセットアップ {#setup-author-publish}
 
@@ -90,17 +73,6 @@ AEM Screens開発者は、すべてのコンテンツバリエーションを手
    ![画像](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
 
 
-## レンディションのアップロード {#upload-renditions}
-
-1. 例えば`portrait orientation`のように、サイネージの表示に適したバージョンのアセットを作成します。
-
-1. レンディションの命名パターン（例：`portrait`）を選択します。
-
-1. アセットファイルの名前を変更して、パターン（例：`my_asset_portrait.png`）を含めます。
-
-1. 「 **レンディションを追加** 」をクリックして、レンディションをアップロードします（下図を参照）。
-
-   ![画像](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
 
 ## 次の手順 {#next-steps}
 

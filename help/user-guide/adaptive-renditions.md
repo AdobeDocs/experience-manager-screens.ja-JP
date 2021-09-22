@@ -2,9 +2,9 @@
 title: AEM Screensのアダプティブレンディション
 description: このページでは、AEM Screensのアダプティブレンディションのアーキテクチャの概要と設定について説明します。
 index: false
-source-git-commit: f9e10463418ddc44f75c7d6c689298dcba20338f
+source-git-commit: 951fd38d5f69cdab1bf9b23f07b4e92075e87baf
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '552'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ AEM Screens開発者は、すべてのコンテンツバリエーションを手
 
 ![画像](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
-## アダプティブレンディションを使用するための設定の指定 {#setup-adaptive-renditions}
+## Screensプロジェクトへのレンディションマッピングプロパティの追加 {#rendition-mapping-new}
 
 アダプティブレンディション機能を有効にするには、次のマッピングルールが存在し、チャネルとディスプレイに対してコンテキスト対応(CA)設定を解決できる必要があります。
 
@@ -37,22 +37,22 @@ AEM Screens開発者は、すべてのコンテンツバリエーションを手
 
 次の手順に従って、設定を指定します。
 
-1. **CRXDE Lite**&#x200B;に移動します。 次の図に示すように、 **rendition-mapping**&#x200B;設定が`JCR`に存在するかどうかを確認します。
+1. **CRXDE Lite**&#x200B;に移動します。 次の図に示すように、 **rendition-mapping**&#x200B;設定が`/conf/screens/sling:configs/rendition-mapping`に存在するかどうかを確認します。
 
-   >[!NOTE]
-   >すべての最新の機能パックには、このノード構造が事前に設定されています。
+   >![画像](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
-   ![画像](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
+   >[!IMPORTANT]
+   >最新の機能パック202109をインストールした場合は、CRXDE Liteの`/conf/screens/sling:configs/rendition-mapping`に&#x200B;**rendition-mapping**&#x200B;ノード構造が事前に設定されています。 最新の機能パックの詳細については、[機能パック202109](/help/user-guide/release-notes-fp-202109.md)のリリースノートを参照してください。
+   >既存のプロジェクトの場合、Screensプロジェクトに&#x200B;**rendition-mapping**&#x200B;設定が関連付けられていることを確認します。 詳しくは、 [既存のプロジェクトへのレンディションマッピングの追加](#rendition-mapping-existing)の節を参照してください。
 
-1. Screensプロジェクトにレンディションマッピング設定が関連付けられていることを確認します。
+### 既存のプロジェクトへのレンディションマッピングプロパティの追加 {#rendition-mapping-existing}
 
-   * Screensプロジェクトウィザードで作成される新しいプロジェクトには、すべて&#x200B;**rendition-mapping**&#x200B;設定を指す参照が含まれます。
+1. **CRXDE Lite**&#x200B;に移動します。
 
-      ![画像](/help/user-guide/assets/adaptive-renditions/mapping-rules2.png)
+1. 次の図に示すように、`/conf/screens`を指す`sling:configRef`プロパティをプロジェクトコンテンツノードに追加して、レンディションマッピングの関連付けを明示的に定義します。
 
-   * 古いバージョンのScreensプロジェクトでは、`/conf/screens`を指す`sling:configRef`プロパティをプロジェクトコンテンツノードに追加して、関連付けを明示的に定義する必要があります。
+   ![画像](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
-      ![画像](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
 ## オーサーとパブリッシュのセットアップ {#setup-author-publish}
 

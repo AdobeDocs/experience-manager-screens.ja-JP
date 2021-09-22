@@ -2,9 +2,9 @@
 title: AEM Screensのアダプティブレンディション
 description: このページでは、AEM Screensのアダプティブレンディションのアーキテクチャの概要と設定について説明します。
 index: false
-source-git-commit: 375024848ed736104add828251ea494406a4f7ba
+source-git-commit: d3a2c7695afb296e9344aa55f6630798db5b1941
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '519'
 ht-degree: 2%
 
 ---
@@ -74,4 +74,4 @@ AEM Screens開発者は、すべてのコンテンツバリエーションを手
 
 ## 次の手順 {#next-steps}
 
-レンディションを設定してアップロードすると、AEM Screensチャネルでアダプティブレンディションを使用できるようになります。 詳しくは、「アダプティブレンディションの使用」を参照してください。
+レンディションを設定してアップロードすると、コンテンツ作成者としてアダプティブレンディションを使用し、AEM Screensチャネルでこの機能を適用するためにデバイスを移行できるようになります。 詳しくは、[アダプティブレンディションの使用](/help/user-guide/using-adaptive-renditions.md)を参照してください。

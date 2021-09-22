@@ -2,10 +2,10 @@
 title: AEM Screensのアダプティブレンディション
 description: このページでは、AEM Screensのアダプティブレンディションのアーキテクチャの概要と設定について説明します。
 index: false
-source-git-commit: d3a2c7695afb296e9344aa55f6630798db5b1941
+source-git-commit: b597370d9ee9e2b06ebcd6915ecd949c003f8a50
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 2%
+source-wordcount: '545'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,12 @@ AEM Screens開発者は、すべてのコンテンツバリエーションを手
 
 ## アダプティブレンディションを使用するための設定の指定 {#setup-adaptive-renditions}
 
-アダプティブレンディション機能を有効にするには、マッピングルールが存在し、チャネルとディスプレイ用にコンテキスト対応設定を解決できる必要があります。
+アダプティブレンディション機能を有効にするには、マッピングルールが存在し、チャネルとディスプレイ用に解決可能なコンテキスト対応(CA)設定が必要です。
+
+>[!NOTE]
+>コンテンツ対応設定の詳細については、[こちら](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html)を参照してください。
+
+次の手順に従って、設定を指定します。
 
 1. `JCR`にレンディションマッピング設定が存在するかどうかを確認します。 すべての最新の機能パックには、このノード構造が事前に設定されています。
 
@@ -74,4 +79,4 @@ AEM Screens開発者は、すべてのコンテンツバリエーションを手
 
 ## 次の手順 {#next-steps}
 
-レンディションを設定してアップロードすると、コンテンツ作成者としてアダプティブレンディションを使用し、AEM Screensチャネルでこの機能を適用するためにデバイスを移行できるようになります。 詳しくは、[アダプティブレンディションの使用](/help/user-guide/using-adaptive-renditions.md)を参照してください。
+レンディションを設定してアップロードすると、コンテンツ作成者としてアダプティブレンディションを使用し、大規模なネットワーク用のデバイスを移行して、AEM Screensチャネルでこの機能を利用できるようになります。 詳しくは、[アダプティブレンディションの使用](/help/user-guide/using-adaptive-renditions.md)を参照してください。

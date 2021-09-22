@@ -2,7 +2,7 @@
 title: AEM Screensのアダプティブレンディション
 description: このページでは、AEM Screensのアダプティブレンディションのアーキテクチャの概要と設定について説明します。
 index: false
-source-git-commit: fcc7126ac545c80004d718888b39c6477624cd33
+source-git-commit: 375024848ed736104add828251ea494406a4f7ba
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 2%
@@ -48,8 +48,6 @@ AEM Screens開発者は、すべてのコンテンツバリエーションを手
    * 古いバージョンのScreensプロジェクトでは、`/conf/screens`を指す`sling:configRef`プロパティをプロジェクトコンテンツノードに追加して、関連付けを明示的に定義する必要があります。
 
       ![画像](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
-
-
 
 ## オーサーとパブリッシュのセットアップ {#setup-author-publish}
 

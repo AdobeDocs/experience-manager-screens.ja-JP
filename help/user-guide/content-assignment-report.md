@@ -1,16 +1,16 @@
 ---
 title: コンテンツ割り当てレポート
 description: このページでは、コンテンツ割り当てレポートのダウンロードと使用方法について説明します。
-feature: Screens のオーサリング
+feature: Authoring Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '334'
-ht-degree: 100%
+exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
+source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 72%
 
 ---
-
 
 # コンテンツ割り当てレポート {#content-assignment-report}
 
@@ -51,10 +51,13 @@ ht-degree: 100%
 
    ![画像](/help/user-guide/assets/content-assignment-report/can-download.png)
 
+1. ダウンロードしたスプレッドシートは、「**場所**」および「**コンテンツ**」などの2つのタブで構成されます。 「場所」タブには、「**ロケーション**」、「**ディスプレイ**」、「**チャネル**」、「**デバイス**」の4つの列が表示され、AEM Screensプロジェクトに関する4つのエンティティをさらに調査できます。
+
+   ![画像](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
+
    >[!NOTE]
-   >ダウンロードしたスプレッドシートは、**チャネル**、**Assets**、**表示**、**デバイス**&#x200B;の 4 つの列で構成され、AEM Screens プロジェクトに関するこれら 4 つのエンティティをさらに調査できます。
+   >スプレッドシートに表示されるデータは、読みやすい形式でアルファベット順に並べ替えられます。
 
-1. Excel シートが、AEM Screens プロジェクト名と同じ名前のプレフィックスが付いたローカルマシンにダウンロードされます。例えば、プロジェクト名が **DemoScreens** の場合、ダウンロードされるファイル名は **demoscreens-content-assignment-report.xlxs** になります。
+1. 「**チャネル**」列の任意のチャネルをクリックして「**コンテンツ**」タブを開くと、そのチャネルに直接移動し、そのチャネルに関連付けられたアセット（画像とビデオ）に関する情報が表示されます（下図を参照）。
 
-   ![画像](/help/user-guide/assets/content-assignment-report/car-download1.png)
-
+   ![画像](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

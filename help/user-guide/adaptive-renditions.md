@@ -2,9 +2,9 @@
 title: AEM Screensのアダプティブレンディション
 description: このページでは、AEM Screensのアダプティブレンディションのアーキテクチャの概要と設定について説明します。
 index: false
-source-git-commit: bbae7c8ba0f24b228221df8bc4c26cc5c4817ce0
+source-git-commit: 3ced907f4611ff7499ca4c013c4b25e1315e3726
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '686'
 ht-degree: 3%
 
 ---
@@ -86,9 +86,10 @@ AEM Screens開発者は、すべてのコンテンツバリエーションを手
 
    ![画像](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
+1. レンディションの命名パターンを含む値を使用して、パターンプロパティを追加します。
 
-
-1. 式がtrueに評価される場合、選択するレンディション命名パターンを含む値を持つパターンプロパティを追加します。
+   >[!NOTE]
+   >式がtrueと評価される場合、パターンプロパティで定義された値が新しいアセットレンディションと照合され、値が選択されます。
 
    パターンプロパティを追加するには、作成した&#x200B;**rule1**&#x200B;をクリックし、次に示すように、**名前**&#x200B;に&#x200B;**パターン**&#x200B;を、**値**&#x200B;に&#x200B;**横**&#x200B;を入力します。 「**追加**」をクリックします。
 

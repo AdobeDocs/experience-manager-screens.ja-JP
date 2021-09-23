@@ -2,9 +2,9 @@
 title: AEM Screensのアダプティブレンディション
 description: このページでは、AEM Screensのアダプティブレンディションのアーキテクチャの概要と設定について説明します。
 index: false
-source-git-commit: 951fd38d5f69cdab1bf9b23f07b4e92075e87baf
+source-git-commit: bbae7c8ba0f24b228221df8bc4c26cc5c4817ce0
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '671'
 ht-degree: 3%
 
 ---
@@ -64,16 +64,39 @@ AEM Screens開発者は、すべてのコンテンツバリエーションを手
 
 ## レンディションマッピングルールの追加 {#add-rendition-mapping-rules}
 
-1. マッピングルールを追加するには、**rendition-mapping**&#x200B;ノードの下にタイプ`nt:unstructured`のノードを作成する必要があります。
+以下の手順に従って、「レンディションマッピング」の下にノードを追加します。
 
-1. クエリ式を含む値を持つ式プロパティを追加します。
+1. **CRXDE Lite**&#x200B;からこのパス`/conf/screens/sling:configs/rendition-mapping`に移動します。
+
+1. **rendition-mapping**&#x200B;の下にノードを作成します。 **rendition-mapping**&#x200B;を右クリックし、**Create** —> **Create Node**&#x200B;をクリックします（下図を参照）。
+
+   ![画像](/help/user-guide/assets/adaptive-renditions/add-node1.png)
+
+1. **rule1**&#x200B;や、**Create Node**&#x200B;ダイアログボックスで、**Name**&#x200B;を&#x200B;**Type**&#x200B;を&#x200B;**nt:unstructured**&#x200B;として入力します。 「**OK**」をクリックします。
+
+   ![画像](/help/user-guide/assets/adaptive-renditions/add-node2.png)
+
+
+1. クエリ式を含む値を持つ式プロパティを追加する必要があります。
 
    >[!NOTE]
    >詳しくは、[メディアクエリ構文](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)の使用を参照してください。
 
+   作成した&#x200B;**ルール1**&#x200B;をクリックし、次に示すように、**名前**&#x200B;に&#x200B;**式**&#x200B;を入力し、**値**&#x200B;に&#x200B;**(orientation:landscape)**&#x200B;を入力します。 「**追加**」をクリックします。
+
+   ![画像](/help/user-guide/assets/adaptive-renditions/add-node3.png)
+
+
+
 1. 式がtrueに評価される場合、選択するレンディション命名パターンを含む値を持つパターンプロパティを追加します。
 
-   ![画像](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
+   パターンプロパティを追加するには、作成した&#x200B;**rule1**&#x200B;をクリックし、次に示すように、**名前**&#x200B;に&#x200B;**パターン**&#x200B;を、**値**&#x200B;に&#x200B;**横**&#x200B;を入力します。 「**追加**」をクリックします。
+
+   ![画像](/help/user-guide/assets/adaptive-renditions/add-node4.png)
+
+1. 「**すべて保存**」をクリックすると、**rendition-mapping**&#x200B;で作成したノードの下にプロパティが表示されます。
+
+   ![画像](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 
 
 ## 次の手順 {#next-steps}

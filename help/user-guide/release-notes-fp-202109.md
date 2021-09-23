@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
+source-git-commit: 0ffdf33afd6a97246e886fadb692d1b9a2ef55ab
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '832'
 ht-degree: 16%
 
 ---
@@ -65,8 +65,6 @@ AEM Screens機能パック202109のリリース日は2021年9月24日です。
 * アセットをレンディションに置き換えることで、ファイルキャッシュのエラーを解決しました。
 
 * レンディションマッピングが存在する場合、プレーヤーがアセットレンディションのみを公開するようになりました。
-
-* splunkログに基づいてslackアラートを設定できるようになりました。
 
 * 応答が有効なJSONでない場合に再認証するpingの機能が強化されました。
 

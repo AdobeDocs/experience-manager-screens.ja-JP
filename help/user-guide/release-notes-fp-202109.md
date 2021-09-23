@@ -4,10 +4,9 @@ description: 2021年9月24日にリリースされたAEM Screens機能パック2
 feature: Feature Pack
 role: Developer
 level: Intermediate
-index: false
-source-git-commit: 0ffdf33afd6a97246e886fadb692d1b9a2ef55ab
+source-git-commit: ec58cd9171e359b451eaad7015d42b41ef1bff3f
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '842'
 ht-degree: 16%
 
 ---
@@ -48,7 +47,7 @@ AEM Screens機能パック202109のリリース日は2021年9月24日です。
 
    アダプティブレンディションを使用すると、デバイスは、顧客定義のルールに基づいて、デバイスに最適なレンディションを自動的に選択できます。
 
-   AEM Screens開発者は、すべてのコンテンツバリエーションを手動で作成することなく、デバイス固有のアセットレンディションをダウンロードして自動的に再生するように設定できるようになりました。
+   AEM Screens開発者は、すべてのコンテンツバリエーションを手動で作成することなく、デバイス固有のアセットレンディションをダウンロードして自動的に再生するように設定できるようになりました。 [アダプティブレンディションを参照してください。アーキテクチャの概要と設定](/help/user-guide/adaptive-renditions.md)を参照してください。
 
    さらに、AEM Screensコンテンツ作成者は、AEM Screensプロジェクトでアダプティブレンディションを使用し、大規模なネットワークに移行戦略を適用できるようになりました。
 

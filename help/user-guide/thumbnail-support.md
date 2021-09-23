@@ -1,11 +1,11 @@
 ---
 title: AEM Screensでのビデオのサムネールのサポート
 description: このページでは、Screensにビデオのサムネールサポートを追加する方法について説明します。
-index: false
-source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
+exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
+source-git-commit: ec58cd9171e359b451eaad7015d42b41ef1bff3f
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 0%
+source-wordcount: '425'
+ht-degree: 1%
 
 ---
 
@@ -34,13 +34,23 @@ ht-degree: 0%
 
 1. チャネルを選択し、アクションバーの「**編集**」をクリックして、エディターを開きます。
 
+   ![画像](/help/user-guide/assets/thumbnails/thumbnail-1.png)
+
 1. 次の図に示すように、既存のビデオコンポーネントを追加または編集します。
+
+   ![画像](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
 1. ビデオを選択し、*レンチ*&#x200B;アイコンをクリックして、ビデオのプロパティを開きます。
 
+   ![画像](/help/user-guide/assets/thumbnails/thumbnail-3.png)
+
 1. **ビデオ**&#x200B;ダイアログボックスが開き、**サムネール**&#x200B;のドロップゾーンが表示されます。
 
+   ![画像](/help/user-guide/assets/thumbnails/thumbnail-4.png)
+
 1. アセットピッカーからサムネール&#x200B;**ドロップゾーンに画像をドラッグ&amp;ドロップし、「**&#x200B;完了&#x200B;**」をクリックします。**
+
+   ![画像](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
 1. 「**プレビュー**」をクリックします。
 

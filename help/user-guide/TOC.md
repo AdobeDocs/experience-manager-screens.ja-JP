@@ -6,10 +6,10 @@ user-guide-title: Adobe Experience Manager Screens ヘルプ
 breadcrumb-title: AEM Screens ガイド
 user-guide-description: 動的でインタラクティブなデジタルエクスペリエンスおよびインタラクションの公開を可能にするデジタル署名ソリューションの使用方法について説明します。
 feature-set: Experience Manager Screens
-source-git-commit: a2a214964a2b2785bf9b57d7af4148e62d58245f
+source-git-commit: f710bb2004cac8e10bf6cd0e0ccde4f9d10120a6
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 99%
+source-wordcount: '460'
+ht-degree: 97%
 
 ---
 
@@ -38,7 +38,6 @@ ht-degree: 99%
    + [コンテンツ同期からスマート同期への移行](smartsync.md)
    + [ファイルをソースとする新しいプロジェクトインポーター](project-importer.md)
    + [データトリガーのパブリッシュサーバーへのレプリケーション](replicating-data-triggers.md)
-   + [ビデオのサムネールのサポート](thumbnail-support.md)
    + 顧客固有の考慮事項 {#installing-client}
       + [Chrome OS プレーヤー](implementing-chrome-os-player.md)
       + [拡張機能としての Chrome プレーヤーの使用](using-chrome-player-as-an-extension.md)
@@ -82,6 +81,7 @@ ht-degree: 99%
       + [データトリガーを使用したオーサリング](authoring-data-triggers.md)
       + [音声認識](voice-recognition.md)
       + [コンテンツ割り当てレポート](content-assignment-report.md)
+      + [ビデオのサムネールのサポート](thumbnail-support.md)
    + コンテンツ更新の管理 {#content-updates}
       + [オンデマンドのコンテンツ更新](on-demand-content.md)
       + [サービスとしてのコンテンツの更新](content-update-as-a-service.md)
@@ -105,11 +105,13 @@ ht-degree: 99%
    + [AEM Screens プロジェクトでの ContextHub の設定](configuring-context-hub.md)
    + [マルチゾーンレイアウトでのカスタムテンプレートの作成](creating-custom-templates-multizone-layouts.md)
    + [テキストオーバーレイのカスタムブランディングとスタイルの適用](custom-branding-text-overlays.md)
+   + [アダプティブレンディション：アーキテクチャの概要と設定](/help/user-guide/adaptive-renditions.md)
 + トラブルシューティングと FAQ {#troubleshooting}
    + [AEM Screens の FAQ](aem-screens-faqs.md)
    + [デバイスコントロールセンターからのトラブルシューティング](monitoring-screens.md)
    + [ビデオ再生の設定](troubleshoot-videos.md)
 + リリースノート {#release-notes}
+   + [機能パック 202109 のリリースノート](release-notes-fp-202109.md)
    + [機能パック 202105 のリリースノート](release-notes-fp-202105.md)
    + [機能パック 202103 のリリースノート](release-notes-fp-202103.md)
    + [機能パック 202011 のリリースノート](release-notes-fp-202011.md)

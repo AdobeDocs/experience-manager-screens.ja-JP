@@ -1,10 +1,9 @@
 ---
-title: AEM Screensのアダプティブレンディション
-description: このページでは、AEM Screensのアダプティブレンディションのアーキテクチャの概要と設定について説明します。
-index: false
-source-git-commit: 884bee85c6f081cbd0969a8b51125f18e2d85413
+title: アダプティブレンディションのアーキテクチャの概要と設定
+description: このページでは、AEM ScreensのアダプティブレンディションのCRXDE Liteにおけるアーキテクチャの概要と設定について説明します。
+source-git-commit: d30426f871d319bcfacb7a832479b87400e18fc2
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '648'
 ht-degree: 3%
 
 ---
@@ -54,14 +53,6 @@ AEM Screens開発者は、すべてのコンテンツバリエーションを手
    ![画像](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
 
-## オーサーとパブリッシュのセットアップ {#setup-author-publish}
-
-アダプティブレンディションを使用する前に、オーサーとパブリッシュで次の推奨事項を考慮してください。
-
-* レンディションマッピングは手動でレプリケートする必要があります。
-
-* アセットレンディションは、デフォルトではレプリケートされません。 関連するすべてのアセットを手動でレプリケートする必要があります。
-
 ## レンディションマッピングルールの追加 {#add-rendition-mapping-rules}
 
 以下の手順に従って、「レンディションマッピング」の下にノードを追加します。
@@ -102,4 +93,4 @@ AEM Screens開発者は、すべてのコンテンツバリエーションを手
 
 ## 次の手順 {#next-steps}
 
-レンディションマッピングのプロパティとルールをコンテンツ作成者として追加したら、アセットでアダプティブレンディションを使用するように設定し、大規模なネットワーク用のデバイスを移行して、AEM Screensチャネルでこの機能を利用できます。 詳しくは、[アダプティブレンディションの使用](/help/user-guide/using-adaptive-renditions.md)を参照してください。
+レンディションマッピングのプロパティとルールをコンテンツ作成者として追加したら、アセットでアダプティブレンディションを使用するように設定し、大規模なネットワーク用のデバイスを移行して、AEM Screensチャネルでこの機能を利用できます。

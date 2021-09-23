@@ -2,7 +2,7 @@
 title: AEM Screensでのアダプティブレンディションの使用
 description: このページでは、AEM Screensでのアダプティブレンディションの使用方法について説明します。
 index: false
-source-git-commit: d3a54ed85b9fa2ddf3918161566ba2c82c373be0
+source-git-commit: 687b850860cc0576b9e3ee607cac2f9e5685d33e
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%
@@ -43,7 +43,6 @@ AEM Screensコンテンツ作成者は、すべてのコンテンツバリエー
 
    >[!NOTE]
    >移行が完了したら、チャネル、ディスプレイ、場所からすべての設定参照を削除し、1つの設定参照をプロジェクトコンテンツノードに追加します。
-
 
 ## レンディションのアップロードとAEM Screensチャネルでのアダプティブレンディションの使用 {#upload-renditions}
 

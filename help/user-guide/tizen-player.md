@@ -1,14 +1,14 @@
 ---
 title: Tizen プレーヤー
 description: このページでは、Tizen プレーヤーのインストールと動作について説明します。
-feature: Screens の管理、プレーヤー
+feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
-workflow-type: ht
-source-wordcount: '1229'
-ht-degree: 100%
+source-git-commit: 0f99b96e90f0aac6bf923343ecefa1708d5cfd17
+workflow-type: tm+mt
+source-wordcount: '1222'
+ht-degree: 99%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 1. ローカルマシンから Tizen プレーヤー&#x200B;*（.zip）*&#x200B;ファイルをインストールします。
 
-## ローカルサーバーの設定と Zip ファイルの展開 {#setting-local-server}
+## HTTPサーバーの設定 {#setting-local-server}
 
 >[!NOTE]
 > zip ファイルを展開し、`http server` を通じて Tizen プレーヤーを入手できるようにします（`http server` はローカルサーバーまたは Apache サーバーである必要はありません）。

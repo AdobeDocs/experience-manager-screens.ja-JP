@@ -6,10 +6,10 @@ user-guide-title: Adobe Experience Manager Screens ヘルプ
 breadcrumb-title: AEM Screens ガイド
 user-guide-description: 動的でインタラクティブなデジタルエクスペリエンスおよびインタラクションの公開を可能にするデジタル署名ソリューションの使用方法について説明します。
 feature-set: Experience Manager Screens
-source-git-commit: 21bb9194d470bc4842a00e20ab3e3d7f517effed
-workflow-type: ht
-source-wordcount: '445'
-ht-degree: 100%
+source-git-commit: a2a214964a2b2785bf9b57d7af4148e62d58245f
+workflow-type: tm+mt
+source-wordcount: '449'
+ht-degree: 99%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 100%
    + [コンテンツ同期からスマート同期への移行](smartsync.md)
    + [ファイルをソースとする新しいプロジェクトインポーター](project-importer.md)
    + [データトリガーのパブリッシュサーバーへのレプリケーション](replicating-data-triggers.md)
+   + [ビデオのサムネールのサポート](thumbnail-support.md)
    + 顧客固有の考慮事項 {#installing-client}
       + [Chrome OS プレーヤー](implementing-chrome-os-player.md)
       + [拡張機能としての Chrome プレーヤーの使用](using-chrome-player-as-an-extension.md)

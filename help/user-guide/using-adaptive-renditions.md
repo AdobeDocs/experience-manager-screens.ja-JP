@@ -1,9 +1,9 @@
 ---
 title: AEM Screensでのアダプティブレンディションの使用
 description: このページでは、AEM Screensでのアダプティブレンディションの使用方法について説明します。
-source-git-commit: 99102513b100f1f3b086eff9dcd21e5afb4f493c
+source-git-commit: 68e7a47d7a9b10d1d3fecb7a7f7d96bbbde1c48a
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '554'
 ht-degree: 1%
 
 ---
@@ -38,11 +38,18 @@ AEM Screensコンテンツ作成者は、すべてのコンテンツバリエー
 
 1. レンディションの命名パターン（例：`landscape`）を選択します。これは、**CRXDE Lite**&#x200B;の&#x200B;**pattern**&#x200B;プロパティで定義したものと同様です。 詳しくは、[レンディションマッピングルールの追加](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)を参照してください。
 
-1. パターン（手順3で定義）が含まれるように、アセットファイルの名前を変更します（例：`seahorse_landscape.png`）。
+1. パターン（手順3で定義）が含まれるように、アセットファイルの名前を変更します（例：`seahorse-landscape.png`）。
 
 1. 「 **レンディションを追加** 」をクリックして、レンディションをアップロードします（下図を参照）。
 
    ![画像](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
+
+1. アセットを追加したら、アセットを選択し、アクションバーの「**公開を管理**」をクリックして、アセットを公開します。
+
+   ![画像](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
+
+   >[!NOTE]
+   >公開の管理と、オーサーからパブリッシュ経由でデバイスにコンテンツの更新を配信する方法について詳しくは、 [オンデマンドコンテンツの更新](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content.html?lang=en)を参照してください。
 
 
 ## 移行戦略 {#migration-strategy}

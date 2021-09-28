@@ -1,13 +1,13 @@
 ---
 title: アダプティブレンディションのアーキテクチャの概要と設定
 description: このページでは、AEM ScreensのアダプティブレンディションのCRXDE Liteにおけるアーキテクチャの概要と設定について説明します。
-source-git-commit: d30426f871d319bcfacb7a832479b87400e18fc2
+exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
+source-git-commit: e5da55eeb5da3d0ef9f21bd47bfec75d660a6a1e
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '658'
 ht-degree: 3%
 
 ---
-
 
 # アダプティブレンディション：アーキテクチャの概要と設定 {#adaptive-renditions}
 
@@ -93,4 +93,4 @@ AEM Screens開発者は、すべてのコンテンツバリエーションを手
 
 ## 次の手順 {#next-steps}
 
-レンディションマッピングのプロパティとルールをコンテンツ作成者として追加したら、アセットでアダプティブレンディションを使用するように設定し、大規模なネットワーク用のデバイスを移行して、AEM Screensチャネルでこの機能を利用できます。
+レンディションマッピングのプロパティとルールをコンテンツ作成者として追加したら、アセットでアダプティブレンディションを使用するように設定し、大規模なネットワーク用のデバイスを移行して、AEM Screensチャネルでこの機能を利用できます。 詳しくは、[AEM Screensでのアダプティブレンディションの使用](/help/user-guide/using-adaptive-renditions.md)を参照してください。

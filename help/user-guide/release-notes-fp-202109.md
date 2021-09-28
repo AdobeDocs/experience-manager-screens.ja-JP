@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 609cb66ea1cc34262bb57c020eb07fd18bd31f0d
+source-git-commit: 6d9dab9fd59289aafdb688682fea47589d3ec873
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '859'
 ht-degree: 16%
 
 ---
@@ -50,7 +50,7 @@ AEM Screens機能パック202109のリリース日は2021年9月24日です。
 
    AEM Screens開発者は、すべてのコンテンツバリエーションを手動で作成することなく、デバイス固有のアセットレンディションをダウンロードして自動的に再生するように設定できるようになりました。 [アダプティブレンディションを参照してください。アーキテクチャの概要と設定](/help/user-guide/adaptive-renditions.md)を参照してください。
 
-   さらに、AEM Screensコンテンツ作成者は、AEM Screensプロジェクトでアダプティブレンディションを使用し、大規模なネットワークに移行戦略を適用できるようになりました。
+   さらに、AEM Screensコンテンツ作成者は、アダプティブレンディションを使用するようにアセットを設定し、大規模なネットワーク用のデバイスを移行して、AEM Screensチャネルでこの機能を利用することもできます。 詳しくは、[AEM Screensでのアダプティブレンディションの使用](/help/user-guide/using-adaptive-renditions.md)を参照してください。
 
 * **V3マニフェストのサポート**
 

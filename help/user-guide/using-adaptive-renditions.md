@@ -1,13 +1,13 @@
 ---
 title: AEM Screensでのアダプティブレンディションの使用
 description: このページでは、AEM Screensでのアダプティブレンディションの使用方法について説明します。
-index: false
-source-git-commit: db6f8c438783725c6ea99e8e363f74e766a3767b
+source-git-commit: 99102513b100f1f3b086eff9dcd21e5afb4f493c
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '500'
 ht-degree: 1%
 
 ---
+
 
 # AEM Screensでのアダプティブレンディションの使用 {#adaptive-renditions}
 
@@ -36,9 +36,9 @@ AEM Screensコンテンツ作成者は、すべてのコンテンツバリエー
 
 1. 例えば`seahorse.jpg`のように、サイネージの表示に適したバージョンのアセットを作成します。
 
-1. レンディションの命名パターン（例：`landscape`）を選択します。これは、CRXDE Liteのパターンプロパティで定義したものと同じです。 詳しくは、[レンディションマッピングルールの追加](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)を参照してください。
+1. レンディションの命名パターン（例：`landscape`）を選択します。これは、**CRXDE Lite**&#x200B;の&#x200B;**pattern**&#x200B;プロパティで定義したものと同様です。 詳しくは、[レンディションマッピングルールの追加](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)を参照してください。
 
-1. アセットファイルの名前を変更して、パターン（例：`seahorse_landscape.png`）を含めます。
+1. パターン（手順3で定義）が含まれるように、アセットファイルの名前を変更します（例：`seahorse_landscape.png`）。
 
 1. 「 **レンディションを追加** 」をクリックして、レンディションをアップロードします（下図を参照）。
 

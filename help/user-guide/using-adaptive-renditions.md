@@ -2,9 +2,9 @@
 title: AEM Screensでのアダプティブレンディションの使用
 description: このページでは、AEM Screensでのアダプティブレンディションの使用方法について説明します。
 index: false
-source-git-commit: 687b850860cc0576b9e3ee607cac2f9e5685d33e
+source-git-commit: db6f8c438783725c6ea99e8e363f74e766a3767b
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '497'
 ht-degree: 1%
 
 ---
@@ -21,12 +21,34 @@ AEM Screensコンテンツ作成者は、すべてのコンテンツバリエー
 開発者がレンディションマッピングのプロパティとルールを追加したら、レンディションマッピングをアセットに適用し、その後AEM Screensチャネルに含める準備が整います。
 
 >[!IMPORTANT]
->アダプティブレンディションの使用を開始する前に、AEM Screensチャネルで、この機能のアーキテクチャの概要と設定について学ぶことをお勧めします。 「アダプティブレンディション」を参照してください。アーキテクチャの概要と設定を参照してください。
+>アダプティブレンディションの使用を開始する前に、AEM Screensチャネルで、この機能のアーキテクチャの概要と設定について学ぶことをお勧めします。 [アダプティブレンディションを参照してください。アーキテクチャの概要と設定](/help/user-guide/adaptive-renditions.md)を参照してください。
+
+## チャネルでのアダプティブレンディションの使用 {#using-adaptive-renditions}
+
+>[!NOTE]
+>[レンディションマッピングプロパティをScreensプロジェクト](/help/user-guide/adaptive-renditions.md#rendition-mapping-new)および[レンディションマッピングルール](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)に追加すると、コンテンツ作成者として、アセットにレンディションを適用する準備が整います。
+
+### アセットへのレンディションの適用 {#apply-renditions-assets}
+
+次の手順に従って、ツアー画面チャネルで使用するアセットにレンディションを適用します。
+
+1. AEMインスタンスの&#x200B;**Assets**&#x200B;フォルダーに移動します。
+
+1. 例えば`seahorse.jpg`のように、サイネージの表示に適したバージョンのアセットを作成します。
+
+1. レンディションの命名パターン（例：`landscape`）を選択します。これは、CRXDE Liteのパターンプロパティで定義したものと同じです。 詳しくは、[レンディションマッピングルールの追加](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)を参照してください。
+
+1. アセットファイルの名前を変更して、パターン（例：`seahorse_landscape.png`）を含めます。
+
+1. 「 **レンディションを追加** 」をクリックして、レンディションをアップロードします（下図を参照）。
+
+   ![画像](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
+
 
 ## 移行戦略 {#migration-strategy}
 
 >[!IMPORTANT]
->大規模なネットワークの場合は、機能によってマニフェストおよびファイルストレージ形式に変更が加えられるので、リスクを軽減するために、移行を徐々におこなうことをお勧めします。
+>大規模なネットワークの場合は、機能によってマニフェストおよびファイルストレージ形式に変更が加えられるので、リスクを軽減するために、移行を徐々におこなうことをお勧めします。 プロジェクト全体に`sling:configRef`を追加するには、すべてのプレーヤーを機能パック6.5.9に更新する必要があります。一部のプレーヤーを更新した場合は、`sling:configRef`を、すべてのプレーヤーを機能パック6.5.9に更新したディスプレイ、場所、チャネルフォルダーにのみ追加します。
 
 次の図は、大規模なネットワークの移行戦略を示しています。
 
@@ -44,14 +66,3 @@ AEM Screensコンテンツ作成者は、すべてのコンテンツバリエー
    >[!NOTE]
    >移行が完了したら、チャネル、ディスプレイ、場所からすべての設定参照を削除し、1つの設定参照をプロジェクトコンテンツノードに追加します。
 
-## レンディションのアップロードとAEM Screensチャネルでのアダプティブレンディションの使用 {#upload-renditions}
-
-1. 例えば`portrait orientation`のように、サイネージの表示に適したバージョンのアセットを作成します。
-
-1. レンディションの命名パターン（例：`portrait`）を選択します。
-
-1. アセットファイルの名前を変更して、パターン（例：`my_asset_portrait.png`）を含めます。
-
-1. 「 **レンディションを追加** 」をクリックして、レンディションをアップロードします（下図を参照）。
-
-   ![画像](/help/user-guide/assets/adaptive-renditions/add-rendition.png)

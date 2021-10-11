@@ -1,8 +1,8 @@
 ---
 title: Screens ローンチを使用したコンテンツの更新
-seo-title: Screens ローンチを使用したコンテンツの更新
+seo-title: Content Update using Screens Launch
 description: コンテンツ作成者は、「ローンチ」と呼ばれるチャネルの将来バージョンを作成でき、さらに、このローンチのライブ日付を設定することで、デバイスやプレーヤーでコンテンツをライブにすることができます。
-seo-description: コンテンツ作成者は、「ローンチ」と呼ばれるチャネルの将来バージョンを作成でき、さらに、このローンチのライブ日付を設定することで、デバイスやプレーヤーでコンテンツをライブにすることができます。
+seo-description: Content authors can create future version of the channel(s), known as Launch and further setting live date for this launch allows content to be live in devices or players.
 uuid: fb13117c-b99b-48bd-adb6-040dbd13af16
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
-feature: Screens のオーサリング、ローンチ
+feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1619'
-ht-degree: 100%
+source-git-commit: 2cc613454d0d20a42871858e3d754e1b0e161dc3
+workflow-type: tm+mt
+source-wordcount: '1580'
+ht-degree: 98%
 
 ---
 

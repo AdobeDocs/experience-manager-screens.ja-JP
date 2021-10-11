@@ -7,10 +7,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
-workflow-type: ht
-source-wordcount: '1872'
-ht-degree: 100%
+source-git-commit: 467526b82c07fd3594c704c1720477c72ecb9d38
+workflow-type: tm+mt
+source-wordcount: '1978'
+ht-degree: 94%
 
 ---
 
@@ -65,6 +65,17 @@ ht-degree: 100%
 1. ディスプレイの祖父母の場所に、参照先のチャネル名と一致する子ノードがあります
 
 場所フォルダーに到達するまでこのような解決を繰り返し、到達した時点で停止します（例えば、チャネルフォルダー内のチャネルを参照することはできません。参照できるのは、場所サブツリー内のチャネルだけです）。
+
+### 5. AEM Screensチャネルでカスタム clientlib のオフライン設定をセットアップする方法
+
+AEM Screensチャネルでカスタムのクライアント側コード `clientlib` を使用する場合、次の手順は、`clientlib` ファイルがチャネル (`manifest.json`) に正常に読み込まれ、`clientlib` のパスを含めるために必要です。
+
+チャネルエディターから次の手順に従います。
+
+1. チャネルを選択し、アクションバーの「**編集**」をクリックして、チャネルエディターを開きます。
+1. カスタム `clientlib` を追加するコンポーネントを選択します。
+1. 設定ボタン（レンチアイコン）をクリックします。
+1. 「**オフライン設定**」タブに移動し、**クライアント側ライブラリ** のカスタムクライアントライブラリへのパスを追加します。
 
 ## デバイスの登録 {#device-registration}
 

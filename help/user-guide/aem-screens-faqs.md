@@ -7,7 +7,7 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 6f491825c8cbc7159de1a41dd6f902b086325606
+source-git-commit: 77ec3e6de6760bc5e31675399ed91bac4150ae69
 workflow-type: tm+mt
 source-wordcount: '2040'
 ht-degree: 92%
@@ -221,7 +221,7 @@ AEM Screens は、製品で使用されるクエリのインデックス定義�
 [Oak ドキュメント](https://jackrabbit.apache.org/oak/docs/query/lucene.html)の追加リソースも参照できます。
 
 
-### 3. v3 マニフェストの設定に必要なもの {#configure-v3}
+### 3. v3 マニフェストの設定に必要なものは何ですか。 {#configure-v3}
 
 v3 マニフェストを有効にするには、次の操作が必要です。
 

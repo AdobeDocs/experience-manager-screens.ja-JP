@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 6d9dab9fd59289aafdb688682fea47589d3ec873
-workflow-type: ht
-source-wordcount: '859'
-ht-degree: 100%
+source-git-commit: 6433e586f505df889fef7ddb9ee5f530f5d6d46c
+workflow-type: tm+mt
+source-wordcount: '878'
+ht-degree: 97%
 
 ---
 
@@ -54,7 +54,10 @@ AEM Screens 機能パック 202109 のリリース日は 2021年9月23日（PT�
 
 * **V3 マニフェストのサポート**
 
-   マニフェストバージョン v3 に対応するように Dispatcher を設定できるようになりました。詳しくは、[マニフェストバージョン v3 に対応した Dispatcher の設定](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=ja#configuring-dispatcherv3)を参照してください。
+   マニフェストバージョン v3 に対応するように Dispatcher を設定できるようになりました。v3 マニフェストを有効にするには、次の設定が必要です。* Dispatcher の更新*カスタムコンポーネントの更新*でコンテンツ同期を無効にする `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+*でのスマート同期の有効化 `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
+
+   詳しくは、[マニフェストバージョン v3 に対応した Dispatcher の設定](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=ja#configuring-dispatcherv3)を参照してください。
 さらに、カスタムコンポーネントを v3 マニフェストの一部として使用する場合は、[カスタムハンドラーのテンプレート](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=ja#custom-handlers)を参照してください。
 
 

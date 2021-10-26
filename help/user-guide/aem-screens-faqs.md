@@ -7,10 +7,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 467526b82c07fd3594c704c1720477c72ecb9d38
+source-git-commit: 6f491825c8cbc7159de1a41dd6f902b086325606
 workflow-type: tm+mt
-source-wordcount: '1978'
-ht-degree: 94%
+source-wordcount: '2040'
+ht-degree: 92%
 
 ---
 
@@ -68,14 +68,14 @@ ht-degree: 94%
 
 ### 5. AEM Screensチャネルでカスタム clientlib のオフライン設定をセットアップする方法
 
-AEM Screensチャネルでカスタムのクライアント側コード `clientlib` を使用する場合、次の手順は、`clientlib` ファイルがチャネル (`manifest.json`) に正常に読み込まれ、`clientlib` のパスを含めるために必要です。
+組み込みのカスタムクライアント側コードを使用する場合 `clientlib` AEM Screensチャネルでは、 `clientlib` ファイルがチャネルに正常に読み込まれた (`manifest.json`) には、 `clientlib`.
 
 チャネルエディターから次の手順に従います。
 
-1. チャネルを選択し、アクションバーの「**編集**」をクリックして、チャネルエディターを開きます。
-1. カスタム `clientlib` を追加するコンポーネントを選択します。
+1. チャネルを選択し、 **編集** アクションバーからチャネルエディターを開きます。
+1. カスタムを追加するコンポーネントを選択します。 `clientlib`.
 1. 設定ボタン（レンチアイコン）をクリックします。
-1. 「**オフライン設定**」タブに移動し、**クライアント側ライブラリ** のカスタムクライアントライブラリへのパスを追加します。
+1. に移動します。 **オフライン設定** タブに移動し、 **クライアント側ライブラリ**.
 
 ## デバイスの登録 {#device-registration}
 
@@ -219,3 +219,18 @@ AEM Screens は、製品で使用されるクエリのインデックス定義�
 `error.log` に *クエリトラバーサル WARN* がある場合は、クエリのカスタムインデックスを作成します。詳しくは、「[インデックスの設定](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=ja#configuring-the-indexes)」を参照してください。
 
 [Oak ドキュメント](https://jackrabbit.apache.org/oak/docs/query/lucene.html)の追加リソースも参照できます。
+
+
+### 3. v3 マニフェストの設定に必要なもの {#configure-v3}
+
+v3 マニフェストを有効にするには、次の操作が必要です。
+
+* Dispatcher を更新します。
+詳しくは、 [マニフェストバージョン v3 用の Dispatcher の設定](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=ja#configuring-dispatcherv3) を参照してください。
+
+* カスタムコンポーネントの更新
+詳しくは、 [カスタムハンドラーのテンプレート](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=ja#custom-handlers) を参照してください。
+
+* でのコンテンツ同期の無効化 `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
+
+* でのスマート同期の有効化 `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.

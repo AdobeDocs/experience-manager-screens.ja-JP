@@ -7,9 +7,9 @@ breadcrumb-title: AEM Screens ガイド
 user-guide-description: 動的でインタラクティブなデジタルエクスペリエンスおよびインタラクションの公開を可能にするデジタル署名ソリューションの使用方法について説明します。
 feature-set: Experience Manager Screens
 source-git-commit: 8676b259304326ef3319ef40aa072b9d2a292a2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -81,8 +81,8 @@ ht-degree: 96%
       + [データトリガーを使用したオーサリング](authoring-data-triggers.md)
       + [音声認識](voice-recognition.md)
       + [コンテンツ割り当てレポート](content-assignment-report.md)
-      + [ビデオのサムネールのサポート](thumbnail-support.md)
-      + [AEM Screensでのアダプティブレンディションの使用](using-adaptive-renditions.md)
+      + [ビデオのサムネールサポート](thumbnail-support.md)
+      + [AEM Screens でのアダプティブレンディションの使用](using-adaptive-renditions.md)
    + コンテンツ更新の管理 {#content-updates}
       + [オンデマンドのコンテンツ更新](on-demand-content.md)
       + [サービスとしてのコンテンツの更新](content-update-as-a-service.md)
@@ -106,7 +106,7 @@ ht-degree: 96%
    + [AEM Screens プロジェクトでの ContextHub の設定](configuring-context-hub.md)
    + [マルチゾーンレイアウトでのカスタムテンプレートの作成](creating-custom-templates-multizone-layouts.md)
    + [テキストオーバーレイのカスタムブランディングとスタイルの適用](custom-branding-text-overlays.md)
-   + [アダプティブレンディション：アーキテクチャの概要と設定](/help/user-guide/adaptive-renditions.md)
+   + [アダプティブレンディション：アーキテクチャ概要と設定](/help/user-guide/adaptive-renditions.md)
 + トラブルシューティングと FAQ {#troubleshooting}
    + [AEM Screens の FAQ](aem-screens-faqs.md)
    + [デバイスコントロールセンターからのトラブルシューティング](monitoring-screens.md)

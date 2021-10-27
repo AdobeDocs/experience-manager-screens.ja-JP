@@ -7,10 +7,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 77ec3e6de6760bc5e31675399ed91bac4150ae69
+source-git-commit: 9e9c7d49db3e3745719ded2505b1c41358ceeddd
 workflow-type: tm+mt
-source-wordcount: '2040'
-ht-degree: 92%
+source-wordcount: '2061'
+ht-degree: 91%
 
 ---
 
@@ -66,16 +66,16 @@ ht-degree: 92%
 
 場所フォルダーに到達するまでこのような解決を繰り返し、到達した時点で停止します（例えば、チャネルフォルダー内のチャネルを参照することはできません。参照できるのは、場所サブツリー内のチャネルだけです）。
 
-### 5. AEM Screensチャネルでカスタム clientlib のオフライン設定をセットアップする方法
+### 5. AEM Screens Channel でカスタム clientlib のオフライン設定をセットアップする方法を教えてください。
 
-組み込みのカスタムクライアント側コードを使用する場合 `clientlib` AEM Screensチャネルでは、 `clientlib` ファイルがチャネルに正常に読み込まれた (`manifest.json`) には、 `clientlib`.
+組み込みのカスタムクライアント側コードを使用する場合 `clientlib` AEM Screensチャネルで、 `clientlib` ファイルがチャネルに正常に読み込まれました (`manifest.json`) で始まり、 `clientlib`.
 
 チャネルエディターから次の手順に従います。
 
 1. チャネルを選択し、 **編集** アクションバーからチャネルエディターを開きます。
-1. カスタムを追加するコンポーネントを選択します。 `clientlib`.
+1. カスタムを追加するコンポーネントを選択します `clientlib`.
 1. 設定ボタン（レンチアイコン）をクリックします。
-1. に移動します。 **オフライン設定** タブに移動し、 **クライアント側ライブラリ**.
+1. 次に移動： **オフライン設定** 」タブに移動し、カスタムクライアントライブラリへのパスを **クライアント側ライブラリ**.
 
 ## デバイスの登録 {#device-registration}
 
@@ -221,16 +221,22 @@ AEM Screens は、製品で使用されるクエリのインデックス定義�
 [Oak ドキュメント](https://jackrabbit.apache.org/oak/docs/query/lucene.html)の追加リソースも参照できます。
 
 
-### 3. v3 マニフェストの設定に必要なものは何ですか。 {#configure-v3}
+### 3. v3 マニフェストの設定に必要な情報 {#configure-v3}
 
-v3 マニフェストを有効にするには、次の操作が必要です。
+v3 マニフェストを有効にするには、次の操作を行う必要があります。
 
 * Dispatcher を更新します。
 詳しくは、 [マニフェストバージョン v3 用の Dispatcher の設定](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=ja#configuring-dispatcherv3) を参照してください。
 
-* カスタムコンポーネントの更新
+* カスタムコンポーネントを更新します。
 詳しくは、 [カスタムハンドラーのテンプレート](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=ja#custom-handlers) を参照してください。
 
-* でのコンテンツ同期の無効化 `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
+* でコンテンツ同期を無効にする `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
 * でのスマート同期の有効化 `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
+
+* 編集 `channel/experience fragment/page components`.
+
+* 次に移動： **オフライン設定** タブをクリックします。
+
+* 入力 `clientlibs `マニフェストに追加する必要がある静的ファイルのフォルダー。

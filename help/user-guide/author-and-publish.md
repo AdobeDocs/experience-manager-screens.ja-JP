@@ -1,16 +1,16 @@
 ---
 title: AEM Screens でのオーサーとパブリッシュの設定
-seo-title: AEM Screens でのオーサーとパブリッシュの設定
+seo-title: Configuring Author and Publish in AEM Screens
 description: AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成された後、複数のパブリッシュインスタンスにフォワードレプリケートされます。ここでは、オーサーとパブリッシュを AEM Screens 用に設定する方法について説明します。
-seo-description: AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成された後、複数のパブリッシュインスタンスにフォワードレプリケートされます。ここでは、オーサーとパブリッシュを AEM Screens 用に設定する方法について説明します。
-feature: Screens の管理
+seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn how to configure author and publish for AEM Screens.
+feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1907'
-ht-degree: 100%
+source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
+workflow-type: tm+mt
+source-wordcount: '1882'
+ht-degree: 98%
 
 ---
 
@@ -112,6 +112,9 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 
 1. pub1 の AEM Screens レプリケーションエージェントを作成します。デフォルトで、ポート 4503 を指す名前付きの Screens レプリケーションエージェントが 1 つ用意されています。これを有効にする必要があります。
 1. pub2 の AEM Screens レプリケーションエージェントを作成します。pub1 の Screens レプリケーションエージェントをコピーし、pub2 の 4504 を指すようにポートを変更します。
+
+   >[!NOTE]
+   >Screens レプリケーションエージェントの設定方法については、 [Screens レプリケーションエージェントの設定](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/configure-screens-replication.html?lang=en).
 
 #### Screens リバースレプリケーションエージェントの作成 {#creating-screens-reverse-replication-agents}
 

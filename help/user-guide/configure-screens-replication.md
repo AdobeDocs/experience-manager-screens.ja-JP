@@ -3,10 +3,10 @@ title: Screens レプリケーションエージェントの設定
 description: このページでは、Screens レプリケーションエージェントの設定方法について説明します。
 role: Developer
 level: Intermediate
-source-git-commit: 99d66e5ac4239a6e43c15bb835f1e41ca94d908b
+source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 9%
+source-wordcount: '417'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 9%
 Screens レプリケーションエージェントの設定を完了するには、次の両方の節を完了する必要があります。
 
 1. [ユーザーの有効化とパスワードの更新](#enable-users)
-1. [Screens レプリケーションエージェントの更新](#replicate-agent)
+1. [Screens レプリケーションエージェント設定の更新](#replicate-agent)
 
 ## ユーザーの有効化とパスワードの更新 {#enable-users}
 
@@ -81,7 +81,7 @@ Screens レプリケーションエージェントの設定を完了するには
 
 1. クリック **OK** をクリックして確定します。
 
-## Screens レプリケーションエージェントの更新 {#replicate-agent}
+## Screens レプリケーションエージェント設定の更新 {#replicate-agent}
 
 以下の節に従って、Screens レプリケーションエージェントの設定を更新します。
 
@@ -95,7 +95,10 @@ Screens レプリケーションエージェントの設定を完了するには
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. レターを含むリンクを検索 **S** 次の図に示すように、クリックします。
+1. 次の図に示すように、オーサー環境で Screens レプリケーションエージェントを検索し、リンクをクリックします。
+
+   >[!NOTE]
+   >レターで Screens レプリケーションエージェントを検索します。 **S** 作成者の名前に含まれます。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 

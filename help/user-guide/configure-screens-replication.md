@@ -3,9 +3,9 @@ title: Screens レプリケーションエージェントの設定
 description: このページでは、Screens レプリケーションエージェントの設定方法について説明します。
 role: Developer
 level: Intermediate
-source-git-commit: 8f4aa5d33616275591c8b4c3bf0616c6cbd0ebf3
+source-git-commit: 46b466d5d05700def4b2c290fa164fbdabae268a
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '507'
 ht-degree: 5%
 
 ---
@@ -105,10 +105,10 @@ Screens レプリケーションエージェントの設定を完了するには
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. 次の図に示すように、オーサー環境で Screens レプリケーションエージェントを検索し、リンクをクリックします。
+1. 次の図に示すように、オーサー環境のすべての Screens レプリケーションエージェントを検索し、リンクをクリックします。
 
    >[!NOTE]
-   >レターで Screens レプリケーションエージェントを検索します。 **S** 作成者の名前に含まれます。
+   >すべての Screens レプリケーションエージェントを検索します。 Screens レプリケーションエージェント名には文字が含まれます **S** をクリックします。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 

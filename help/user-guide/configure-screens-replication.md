@@ -3,10 +3,10 @@ title: Screens レプリケーションエージェントの設定
 description: このページでは、Screens レプリケーションエージェントの設定方法について説明します。
 role: Developer
 level: Intermediate
-source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
+source-git-commit: 42e6adb7f8aa60854637a48fbb08525a0a971276
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 8%
+source-wordcount: '440'
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,10 @@ Screens レプリケーションエージェントの設定を完了するには
 
 ## ユーザーの有効化とパスワードの更新 {#enable-users}
 
-次の手順に従います。
+次の手順に従って、ユーザーを有効にし、screens-receiver-user のパスワードを更新します。
+
+>[!NOTE]
+>セキュリティ上の理由から、screens-receiver-user に admin パスワードを使用しないことをお勧めします。
 
 1. AEM インスタンスに移動します。
 

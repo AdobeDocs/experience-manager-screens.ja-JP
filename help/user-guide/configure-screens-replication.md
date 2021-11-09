@@ -3,9 +3,9 @@ title: Screens レプリケーションエージェントの設定
 description: このページでは、Screens レプリケーションエージェントの設定方法について説明します。
 role: Developer
 level: Intermediate
-source-git-commit: 9f0beddf87d9f5473fdedc292d3c24e96b85cdd4
+source-git-commit: 75250cf11254499dbb30b3a5b04b1849753ea266
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '339'
 ht-degree: 10%
 
 ---
@@ -82,3 +82,29 @@ ht-degree: 10%
 1. ツール/ **導入** —> **レプリケーション**.
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication1a.png)
+
+1. クリック **作成者のエージェント**.
+
+   ![画像](/help/user-guide/assets/screens-replication/screens-replication1b.png)
+
+1. 下の図に示すように、リンクをクリックします。
+
+   ![画像](/help/user-guide/assets/screens-replication/screens-replication1c.png)
+
+1. **編集**&#x200B;をクリックします。
+
+   ![画像](/help/user-guide/assets/screens-replication/screens-replication1d.png)
+
+1. チェック **有効** から **設定** タブをクリックします。
+
+   ![画像](/help/user-guide/assets/screens-replication/screens-replication1e.png)
+
+1. に移動します。 **輸送** タブ **エージェント設定** ダイアログボックスに入力し、 [ユーザーの有効化とパスワードの更新](#enable-users). 「**OK**」をクリックします。
+
+   ![画像](/help/user-guide/assets/screens-replication/screens-replication1f.png)
+
+1. 上記の手順を完了したら、「 **接続をテスト** 接続を確認します。
+
+   ![画像](/help/user-guide/assets/screens-replication/screens-replication1g.png)
+
+   接続の検証が成功した場合は、Screens レプリケーションエージェントの設定を完了しています。

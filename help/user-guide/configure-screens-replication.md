@@ -3,10 +3,10 @@ title: Screens レプリケーションエージェントの設定
 description: このページでは、Screens レプリケーションエージェントの設定方法について説明します。
 role: Developer
 level: Intermediate
-source-git-commit: 137480ddaf6d7b73452c26402d56588230aa8c30
+source-git-commit: 8f4aa5d33616275591c8b4c3bf0616c6cbd0ebf3
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 7%
+source-wordcount: '504'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 ## 目的 {#objective}
 
-Screens レプリケーションエージェントは、パブリッシュからオーサーに ping データを取り込みます。 作成者がデバイス ping を表示できるように設定する必要があります。
+Screens レプリケーションエージェントは、次のような ping データを取り込みます。 *ユーザー*, *パスワード*, *rebootSchedule*, *maxNumberOfLogFilesToKeep*&#x200B;を含み、さらに多くの値を公開から作成者に渡します。 作成者がデバイス ping を表示できるように設定する必要があります。
 
 >[!NOTE]
 >Screens レプリケーションエージェントについて詳しくは、 [Screens レプリケーションエージェントとコマンド](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
@@ -34,7 +34,7 @@ Screens レプリケーションエージェントの設定を完了するには
 >[!NOTE]
 >セキュリティ上の理由から、screens-receiver-user に admin パスワードを使用しないことをお勧めします。
 
-1. AEM インスタンスに移動します。
+1. AEM オーサーインスタンスに移動します。
 
 1. ツール/ **セキュリティ** —> **ユーザー**.
 
@@ -65,7 +65,7 @@ Screens レプリケーションエージェントの設定を完了するには
 1. 新しいパスワードを **パスワードを変更** ダイアログボックスを開き、 **保存**.
 
    >[!NOTE]
-   >次を入力してください： **admin** in **パスワード** フィールドに入力します。
+   >既存の管理者ユーザーパスワードは、 **パスワード** フィールドに入力します。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication7.png)
 
@@ -92,6 +92,9 @@ Screens レプリケーションエージェントの設定を完了するには
 
 以下の節に従って、Screens レプリケーションエージェントの設定を更新します。
 
+>[!IMPORTANT]
+>既存のすべての Screens レプリケーションエージェントで、次の手順を実行する必要があります。
+
 1. AEM インスタンスに移動します。
 
 1. ツール/ **導入** —> **レプリケーション**.
@@ -117,9 +120,11 @@ Screens レプリケーションエージェントの設定を完了するには
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication1e.png)
 
-1. に移動します。 **輸送** タブ **エージェント設定** ダイアログボックスに入力し、 [ユーザーの有効化とパスワードの更新](#enable-users). 「**OK**」をクリックします。
+1. に移動します。 **輸送** タブ **エージェント設定** ダイアログボックスを開き、 **ユーザー** から **screens-receiver-user** と同じパスワードを入力します。 [ユーザーの有効化とパスワードの更新](#enable-users).
 
-   ![画像](/help/user-guide/assets/screens-replication/screens-replication1f.png)
+   ![画像](/help/user-guide/assets/screens-replication/screens-replication1-f.png)
+
+1. 「**OK**」をクリックします。
 
 1. 上記の手順を完了したら、「 **接続をテスト** 接続を確認します。
 

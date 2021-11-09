@@ -3,10 +3,10 @@ title: Screens レプリケーションエージェントの設定
 description: このページでは、Screens レプリケーションエージェントの設定方法について説明します。
 role: Developer
 level: Intermediate
-source-git-commit: 75250cf11254499dbb30b3a5b04b1849753ea266
+source-git-commit: 99d66e5ac4239a6e43c15bb835f1e41ca94d908b
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 10%
+source-wordcount: '396'
+ht-degree: 9%
 
 ---
 
@@ -14,6 +14,14 @@ ht-degree: 10%
 # Screens レプリケーションエージェントの設定 {#configuring-screens-replication-agent}
 
 ここでは、Screens レプリケーションエージェントの設定方法について説明します。
+
+>[!NOTE]
+>Screens レプリケーションエージェントについて詳しくは、 [Screens レプリケーションエージェントとコマンド](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
+
+Screens レプリケーションエージェントの設定を完了するには、次の両方の節を完了する必要があります。
+
+1. [ユーザーの有効化とパスワードの更新](#enable-users)
+1. [Screens レプリケーションエージェントの更新](#replicate-agent)
 
 ## ユーザーの有効化とパスワードの更新 {#enable-users}
 
@@ -87,7 +95,7 @@ ht-degree: 10%
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. 下の図に示すように、リンクをクリックします。
+1. レターを含むリンクを検索 **S** 次の図に示すように、クリックします。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 

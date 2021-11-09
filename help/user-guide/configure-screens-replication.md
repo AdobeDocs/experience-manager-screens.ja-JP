@@ -3,9 +3,9 @@ title: Screens レプリケーションエージェントの設定
 description: このページでは、Screens レプリケーションエージェントの設定方法について説明します。
 role: Developer
 level: Intermediate
-source-git-commit: 42e6adb7f8aa60854637a48fbb08525a0a971276
+source-git-commit: 137480ddaf6d7b73452c26402d56588230aa8c30
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '470'
 ht-degree: 7%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 7%
 # Screens レプリケーションエージェントの設定 {#configuring-screens-replication-agent}
 
 ここでは、Screens レプリケーションエージェントの設定方法について説明します。
+
+## 目的 {#objective}
+
+Screens レプリケーションエージェントは、パブリッシュからオーサーに ping データを取り込みます。 作成者がデバイス ping を表示できるように設定する必要があります。
 
 >[!NOTE]
 >Screens レプリケーションエージェントについて詳しくは、 [Screens レプリケーションエージェントとコマンド](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).

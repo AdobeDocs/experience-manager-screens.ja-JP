@@ -3,7 +3,7 @@ title: Screens レプリケーションエージェントの設定
 description: このページでは、Screens レプリケーションエージェントの設定方法について説明します。
 role: Developer
 level: Intermediate
-source-git-commit: 46b466d5d05700def4b2c290fa164fbdabae268a
+source-git-commit: ede0eb02c97c99732c64a92c603e51bedecdbac8
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 5%
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 ## 目的 {#objective}
 
-Screens レプリケーションエージェントは、次のような ping データを取り込みます。 *ユーザー*, *パスワード*, *rebootSchedule*, *maxNumberOfLogFilesToKeep*&#x200B;を含み、さらに多くの値を公開から作成者に渡します。 作成者がデバイス ping を表示できるように設定する必要があります。
+Screens レプリケーションエージェントは、次のようなコマンドデータを取得します。 *ユーザー*, *パスワード*, *rebootSchedule*, *maxNumberOfLogFilesToKeep*&#x200B;を含み、さらに多くの値を公開から作成者に渡します。 作成者がデバイス ping を表示できるように設定する必要があります。
 
 >[!NOTE]
 >Screens レプリケーションエージェントについて詳しくは、 [Screens レプリケーションエージェントとコマンド](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).

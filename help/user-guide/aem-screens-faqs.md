@@ -10,7 +10,7 @@ exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
 source-git-commit: 9e9c7d49db3e3745719ded2505b1c41358ceeddd
 workflow-type: tm+mt
 source-wordcount: '2061'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -53,11 +53,11 @@ ht-degree: 91%
 
 「チャネルロール」は、作成者が汎用のエクスペリエンスに直接専念できるように、実行される実際のチャネルを抽象化したものです。チャネルをそのコンテキスト（ディスプレイまたはスケジュール）で一意に識別する一種のタグと考えることができます。
 
-### 4. 実際のチャネル解決はどのようにおこなわれますか？  {#how-does-actual-channel-resolution-happen}
+### 4. 実際のチャネル解決はどのように行われますか？ {#how-does-actual-channel-resolution-happen}
 
 *静的参照*&#x200B;の場合、解決は指定されたパスに従うだけです。
 
-*動的参照*&#x200B;の場合は、チャネルが（スケジュールではなく）ディスプレイに割り当てられると、解決がおこなわれます。ディスプレイのパスがチャネルのコンテキストになり、解決は次のように（優先順位の高い順に）おこなわれます。
+*動的参照*&#x200B;の場合は、チャネルが（スケジュールではなく）ディスプレイに割り当てられると、解決が行われます。ディスプレイのパスがチャネルのコンテキストになり、解決は次のように（優先順位の高い順に）行われます。
 
 1. ディスプレイに、参照先のチャネル名と一致する子ノードがあります
 1. ディスプレイに、参照先のチャネル名と一致する兄弟ノードがあります
@@ -66,16 +66,16 @@ ht-degree: 91%
 
 場所フォルダーに到達するまでこのような解決を繰り返し、到達した時点で停止します（例えば、チャネルフォルダー内のチャネルを参照することはできません。参照できるのは、場所サブツリー内のチャネルだけです）。
 
-### 5. AEM Screens Channel でカスタム clientlib のオフライン設定をセットアップする方法を教えてください。
+### 5. AEM Screens チャネルにカスタム clientlib のオフライン設定をセットアップするにはどうすればよいですか？
 
-組み込みのカスタムクライアント側コードを使用する場合 `clientlib` AEM Screensチャネルで、 `clientlib` ファイルがチャネルに正常に読み込まれました (`manifest.json`) で始まり、 `clientlib`.
+ビルド済みのカスタムクライアント側コード `clientlib` を AEM Screens チャネルで使用する場合は、`clientlib` ファイルがチャネル（`manifest.json`）に正常に読み込まれ、`clientlib` のパスがファイルに確実に含まれるようにするために、次の手順を実行する必要があります。
 
-チャネルエディターから次の手順に従います。
+チャネルエディターで次の手順に従います。
 
-1. チャネルを選択し、 **編集** アクションバーからチャネルエディターを開きます。
-1. カスタムを追加するコンポーネントを選択します `clientlib`.
+1. チャネルを選択し、アクションバーの「**編集**」をクリックして、チャネルエディターを開きます。
+1. カスタム `clientlib` を追加するコンポーネントを選択します。
 1. 設定ボタン（レンチアイコン）をクリックします。
-1. 次に移動： **オフライン設定** 」タブに移動し、カスタムクライアントライブラリへのパスを **クライアント側ライブラリ**.
+1. 「**オフライン設定**」タブに移動し、カスタム clientlib のパスを「**クライアント側ライブラリ**」に追加します。
 
 ## デバイスの登録 {#device-registration}
 
@@ -97,9 +97,9 @@ ht-degree: 91%
 
 ## デバイスの監視とヘルスレポート {#device-monitoring-and-health-reports}
 
-### 1. AEM Screens Player に空白の画面が表示される場合、トラブルシューティングをおこなうには、どうすればよいですか？  {#how-do-i-troubleshoot-if-my-aem-screens-player-shows-blank-screen}
+### 1. AEM Screens Player に空白の画面が表示される場合、トラブルシューティングを行うには、どうすればよいですか？ {#how-do-i-troubleshoot-if-my-aem-screens-player-shows-blank-screen}
 
-画面が空白になる問題のトラブルシューティングをおこなうには、以下の可能性がないか確認してください。
+画面が空白になる問題のトラブルシューティングを行うには、以下の可能性がないか確認してください。
 
 * AEM がオフラインコンテンツをプッシュできない
 * チャネルにコンテンツがない
@@ -119,7 +119,7 @@ Apache Sling Referrer Filter の「Allow Empty」をオンにする必要があ�
 
 ### 4. AMS では、すべてのデバイスに Android ウォッチドッグを実装することを推奨していますか？ウォッチドッグ（Cordova）プラグインは APK に含まれていますか？ {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
-純粋な Android API を使用するクロスプラットフォームの Android ウォッチドッグは、既に APK に含まれています。追加のソフトウェアは必要ありませんが、使用するデバイスによっては、APK に再署名して、完全な電源サイクルを実行するためのシステム権限（PowerManager API）を取得しなければならない場合があります。製造元のキーを使用して再署名しない場合は、アプリケーションが終了して再起動しますが、電源のオン／オフはおこなわれません。
+純粋な Android API を使用するクロスプラットフォームの Android ウォッチドッグは、既に APK に含まれています。追加のソフトウェアは必要ありませんが、使用するデバイスによっては、APK に再署名して、完全な電源サイクル（電源のオン／オフ）を実行するためのシステム権限（PowerManager API）を取得しなければならない場合があります。製造元のキーを使用して再署名しない場合は、アプリケーションが終了して再起動しますが、電源サイクル（電源のオン／オフ）は行われません。
 
 Android プレーヤーの実装方法について詳しくは、[**Android プレーヤーの実装**](implementing-android-player.md)&#x200B;を参照してください。
 
@@ -146,7 +146,7 @@ Chrome OS プレーヤーは、実際の Chrome プレーヤーデバイスが�
 
 ### 2. AEM Screens Player がカスタムエラーハンドラーでパブリッシュインスタンスを通じて認証できない場合、トラブルシューティングするには、どうすればよいですか？  {#how-to-troubleshoot-if-screens-player-is-unable-to-authenticate-through-publish-instance-with-custom-error-handler}
 
-AEM Screens Player は、起動時に 404 エラーが発生すると、***/content/screens/svc.ping.json*** への要求をおこないます。プレーヤーが認証要求を開始して、パブリッシュインスタンスに対して認証をおこないます。パブリッシュインスタンスにカスタムエラーハンドラーがある場合、匿名ユーザーに対しては、***/content/screens/svc.ping.json*** の実行で必ず 404 のステータスコードを返すようにしてください。
+AEM Screens Player は、起動時に 404 エラーが発生すると、***/content/screens/svc.ping.json*** への要求を行います。プレーヤーが認証要求を開始して、パブリッシュインスタンスに対して認証を行います。パブリッシュインスタンスにカスタムエラーハンドラーがある場合、匿名ユーザーに対しては、***/content/screens/svc.ping.json*** の実行で必ず 404 のステータスコードを返すようにしてください。
 
 ### 3. Android プレーヤーでデバイスの画面が常に表示されるように設定するには、どうすればよいですか？  {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
@@ -157,15 +157,15 @@ AEM Screens Player は、起動時に 404 エラーが発生すると、***/cont
 1. **開発者向けオプション**&#x200B;に移動します。
 1. 「**スリープモードにしない**」をオンにします。
 
-### 4. Windows プレーヤーのウィンドウモードを有効にする方法{#enable-player}
+### 4. Windows プレーヤーのウィンドウモードを有効にする方法 {#enable-player}
 
 Windows Player にはウィンドウモードはありません。常にフルスクリーンモードになります。
 
 ### 5. AEM Screens プレーヤーがログインリクエストを継続的に送信する場合のトラブルシューティング方法 {#requests-login}
 
-次の手順に従って、AEM Screens プレーヤーが `/content/screens/svc.json` および `/libs/granite/core/content/login.validate/j_security_check` へ継続的にリクエストを送信する場合のトラブルシューティングをおこないます。
+次の手順に従って、AEM Screens プレーヤーが `/content/screens/svc.json` および `/libs/granite/core/content/login.validate/j_security_check` へ継続的にリクエストを送信する場合のトラブルシューティングを行います。
 
-1. AEM Screens プレーヤーが起動すると、`/content/screens/svc.json` に対してリクエストをおこないます。プレーヤーが応答で 404 ステータスコードを取得すると、*パブリッシュ*&#x200B;インスタンスに対して `/libs/granite/core/content/login.validate/j_security_check` を使用し、認証要求を開始します。*パブリッシュ*&#x200B;インスタンスにカスタムエラーハンドラーがある場合、`/content/screens/svc.json` または `/content/screens/svc.ping.json` で、匿名ユーザーに対して必ず 404 のステータスコードを返すようにしてさい。
+1. AEM Screens プレーヤーが起動すると、`/content/screens/svc.json` に対してリクエストを行います。プレーヤーが応答で 404 ステータスコードを取得すると、*パブリッシュ*&#x200B;インスタンスに対して `/libs/granite/core/content/login.validate/j_security_check` を使用し、認証要求を開始します。*パブリッシュ*&#x200B;インスタンスにカスタムエラーハンドラーがある場合、`/content/screens/svc.json` または `/content/screens/svc.ping.json` で、匿名ユーザーに対して必ず 404 のステータスコードを返すようにしてさい。
 
 1. ディスパッチャー設定によってこれらのリクエストが許可されているかどうかを `/filters` で確認します。
 
@@ -175,7 +175,7 @@ Windows Player にはウィンドウモードはありません。常にフル�
 
 1. *オーサー*&#x200B;または&#x200B;*パブリッシュ*&#x200B;インスタンスに `/etc/map` パスがあるかどうか、および Screens のパスが `sling:match` と一致し、内部的に別のパスにリダイレクトされているかどうかを確認します。`/system/console/jcrresolver` で正しい URL を解決すると、これらの URL が&#x200B;*パブリッシュ*&#x200B;インスタンスによって他のパスに書き換えられているかどうかを識別できます。
 
-1. Apache Sling Resource Resolver Factory の設定によって、内部で書き換えがおこなわれているかどうかを確認します。
+1. Apache Sling Resource Resolver Factory の設定によって、内部で書き換えが行われているかどうかを確認します。
 
 ### 6. プレーヤー API からディスプレイとデバイスの詳細を取得する方法
 

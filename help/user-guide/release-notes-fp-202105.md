@@ -1,13 +1,14 @@
 ---
 title: 機能パック 202105 のリリースノート
 description: 「2021 年 6 月 4 日（PT）にリリースされた AEM Screens 機能パック 202105 について説明します。」
-feature: 機能パック
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 444535b38fdf112939fdbf4c0f3f48e1cc28c902
-workflow-type: ht
-source-wordcount: '378'
-ht-degree: 100%
+exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
+source-git-commit: 02bc399d61f5666918caad9fce3d69d63f0782d7
+workflow-type: tm+mt
+source-wordcount: '399'
+ht-degree: 94%
 
 ---
 
@@ -21,6 +22,9 @@ ht-degree: 100%
 AEM Screens は、AEM 6.5 機能パック 8 をリリースしました。
 
 Adobe ID を使用して、AEM Screens 6.5.8 リリースの最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からダウンロードできます。「**Adobe Experience Manager**」タブに移動し、「**Screens**」を検索して「**AEM 6.5 Screens FP8**」というタイトルが付いた最新の機能パックを入手します。
+
+>[!IMPORTANT]
+>パッケージをインストールした後で AMS コネクタが動作するには、最低限のバージョンのAEM 6.5 機能パック 8 をインストールする必要があります `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16` そして `screens core bundles`.
 
 ## リリース日 {#release-date}
 
@@ -62,6 +66,6 @@ AEM Screens 6.5 機能パック 8 向けに、次の AEM Screens Player がリ�
 * Android
 * Linux
 
-#### AEM Screens Player のダウンロード {#aem-screens-player-downloads}
+#### AEM Screens Player のダウンロード   {#aem-screens-player-downloads}
 
 最新の AEM Screens Player のダウンロードとバグ修正について詳しくは、**[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/index.html)**&#x200B;を参照してください。

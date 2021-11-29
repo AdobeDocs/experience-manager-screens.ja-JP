@@ -4,9 +4,9 @@ description: このページでは、Screens レプリケーションエージ�
 role: Developer
 level: Intermediate
 source-git-commit: ede0eb02c97c99732c64a92c603e51bedecdbac8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '507'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 5%
 
 ## 目的 {#objective}
 
-Screens レプリケーションエージェントは、次のようなコマンドデータを取得します。 *ユーザー*, *パスワード*, *rebootSchedule*, *maxNumberOfLogFilesToKeep*&#x200B;を含み、さらに多くの値を公開から作成者に渡します。 作成者がデバイス ping を表示できるように設定する必要があります。
+Screens レプリケーションエージェントは、*user*、*password*、*rebootSchedule*、*maxNumberOfLogFilesToKeep* などのコマンドデータをはじめ、さらに多くの値をパブリッシュからオーサーに渡す役目を担います。オーサーがデバイス ping を表示できるように設定する必要があります。
 
 >[!NOTE]
->Screens レプリケーションエージェントについて詳しくは、 [Screens レプリケーションエージェントとコマンド](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
+>Screens レプリケーションエージェントについて詳しくは、[Screens レプリケーションエージェントとコマンド](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=ja#screens-replication-agents-and-commands)を参照してください。
 
 Screens レプリケーションエージェントの設定を完了するには、次の両方の節を完了する必要があります。
 
@@ -36,57 +36,57 @@ Screens レプリケーションエージェントの設定を完了するには
 
 1. AEM オーサーインスタンスに移動します。
 
-1. ツール/ **セキュリティ** —> **ユーザー**.
+1. ツール／**セキュリティ**／**ユーザー**&#x200B;をクリックします。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication1.png)
 
-1. を検索 **screens-receiver-user**.
+1. **screens-receiver-user** を検索します。
 
-1. を選択します。 **screens-receiver-user** をクリックし、 **有効にする** をクリックします。
+1. アクションバーから **screens-receiver-user** を選択し、「**有効にする**」をクリックします。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication2.png)
 
-1. クリック **OK** をクリックして確定します。
+1. 「**OK**」をクリックして確定します。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication3.png)
 
-   ユーザーを有効にすると、 **screens-receiver-user** as **有効** の下に **ステータス** フィールドに入力します。
+   ユーザーを有効にすると、**ステータス**&#x200B;フィールドで、**screens-receiver-user** が&#x200B;**有効**&#x200B;になっていることを確認できます。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication4.png)
 
-1. を選択します。 **screens-receiver-user** をクリックし、 **プロパティ** をクリックします。
+1. アクションバーから **screens-receiver-user** を選択し、「**プロパティ**」をクリックします。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication5.png)
 
-1. クリック **パスワードを変更** under **アカウント設定** から **詳細** 」タブに表示されます。
+1. 次の図に示すように、「**詳細**」タブの&#x200B;**アカウント設定**&#x200B;から、「**パスワードを変更**」をクリックします。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication6.png)
 
-1. 新しいパスワードを **パスワードを変更** ダイアログボックスを開き、 **保存**.
+1. **パスワードを変更**&#x200B;ダイアログボックスに新しいパスワードを入力し、「**保存**」をクリックします。
 
    >[!NOTE]
-   >既存の管理者ユーザーパスワードは、 **パスワード** フィールドに入力します。
+   >既存の管理者ユーザーパスワードは、**パスワード**&#x200B;フィールドに入力する必要があります。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication7.png)
 
-1. クリック **保存して閉じる**.
+1. 「**保存して閉じる**」をクリックします。
 
-1. を選択します。 **screens-receiver-user** をクリックし、 **有効化** をクリックします。
+1. アクションバーから **screens-receiver-user** を選択し、「**アクティベート**」をクリックします。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication8.png)
 
-1. クリック **OK** をクリックして確定します。
+1. 「**OK**」をクリックして確定します。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication9.png)
 
-1. を選択します。 **screens-receiver-user** をクリックし、 **無効にする** をクリックします。
+1. アクションバーから **screens-receiver-user** を選択し、「**無効にする**」をクリックします。
 
    >[!IMPORTANT]
-   > 無効化 **screens-receiver-user** は、このユーザーをオーサーインスタンスから無効にするだけで、パブリッシュインスタンスのすべてのユーザーはアクティブなままです。 クリックしない **無効化** アクティベートを解除すると、ユーザーがパブリッシュインスタンスからも削除されるので、アクションバーから。
+   > **screens-receiver-user** の無効化は、このユーザーをオーサーインスタンスから無効にするだけで、パブリッシュインスタンスのすべてのユーザーはアクティブなままです。無効化は、ユーザーがパブリッシュインスタンスからも削除されるので、アクションバーから「**無効にする**」をクリックしないようにします。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication10.png)
 
-1. クリック **OK** をクリックして確定します。
+1. 「**OK**」をクリックして確定します。
 
 ## Screens レプリケーションエージェント設定の更新 {#replicate-agent}
 
@@ -97,18 +97,18 @@ Screens レプリケーションエージェントの設定を完了するには
 
 1. AEM インスタンスに移動します。
 
-1. ツール/ **導入** —> **レプリケーション**.
+1. ツール／**導入**／**レプリケーション**&#x200B;をクリックします。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 
-1. クリック **作成者のエージェント**.
+1. **作成者のエージェント**&#x200B;をクリックします。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
 1. 次の図に示すように、オーサー環境のすべての Screens レプリケーションエージェントを検索し、リンクをクリックします。
 
    >[!NOTE]
-   >すべての Screens レプリケーションエージェントを検索します。 Screens レプリケーションエージェント名には文字が含まれます **S** をクリックします。
+   >すべての Screens レプリケーションエージェントを検索します。Screens レプリケーションエージェント名には、タイトルに **S** が含まれます。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
@@ -116,18 +116,18 @@ Screens レプリケーションエージェントの設定を完了するには
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication1d.png)
 
-1. チェック **有効** から **設定** タブをクリックします。
+1. 「**設定**」タブから「**有効**」をチェックします。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication1e.png)
 
-1. に移動します。 **輸送** タブ **エージェント設定** ダイアログボックスを開き、 **ユーザー** から **screens-receiver-user** と同じパスワードを入力します。 [ユーザーの有効化とパスワードの更新](#enable-users).
+1. **エージェント設定**&#x200B;ダイアログボックスから「**トランスポート**」タブに移動し、**ユーザー**&#x200B;を **screens-receiver-user** に更新して、[ユーザーの有効化とパスワードの更新](#enable-users)の手順 (8) で入力したパスワードと同じものを入力します。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication1-f.png)
 
 1. 「**OK**」をクリックします。
 
-1. 上記の手順を完了したら、「 **接続をテスト** 接続を確認します。
+1. 上記の手順を完了したら、「**接続をテスト**」をクリックして接続を検証します。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 
-   接続の検証が成功した場合は、Screens レプリケーションエージェントの設定を完了しています。
+   接続の検証が成功した場合は、Screens レプリケーションエージェントの設定は完了です。

@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: a3bed3baf7e825299a82ccf624c3cdf876830cd0
+source-git-commit: fc120c02e01d0159ca0294a9b5326b53a0fa48f0
 workflow-type: tm+mt
-source-wordcount: '2119'
+source-wordcount: '2120'
 ht-degree: 97%
 
 ---
@@ -243,4 +243,4 @@ v3 マニフェストを有効にするには、次の操作を行う必要が�
 
 ### 4. screens-cloud-ams-pkg-0.0.20 パッケージの後、screens-cloud-ams-pkg-0.0.16 と screens コアバンドルがインストールされていて、アクティブでない場合は、どうすればよいですか？
 
-AMS コネクタを動作させるには、最低限のバージョンのAEM 6.5 機能パック 8 をインストールする必要があります。 詳しくは、 [使用可否](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) 機能パックの最小バージョンを取得するには、以下を実行します。
+AMS コネクタを動作させるには、最低限のバージョンのAEM 6.5 機能パック 8 をインストールする必要があります。 詳しくは、 [使用可否](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) をクリックして、Screens 機能パックの最小バージョンを取得します。

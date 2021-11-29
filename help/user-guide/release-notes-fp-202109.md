@@ -8,7 +8,7 @@ exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
 source-git-commit: c49cce64fe34e0611f086de5ac1c363589e3dc14
 workflow-type: tm+mt
 source-wordcount: '876'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -64,7 +64,7 @@ AEM Screens 機能パック 202109 のリリース日は 2021年9月23日（PT�
 
    * でのスマート同期の有効化 `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
 
-   * 詳しくは、 [マニフェストバージョン v3 用の Dispatcher の設定](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=ja#configuring-dispatcherv3) を参照してください。
+   * 詳しくは、[マニフェストバージョン v3 に対応した Dispatcher の設定](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=ja#configuring-dispatcherv3)を参照してください。
    * カスタムコンポーネントを v3 マニフェストの一部として使用している場合は、 [カスタムハンドラーのテンプレート](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=ja#custom-handlers).
 
 

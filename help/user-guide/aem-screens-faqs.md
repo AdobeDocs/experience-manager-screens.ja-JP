@@ -10,7 +10,7 @@ exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
 source-git-commit: 9e9c7d49db3e3745719ded2505b1c41358ceeddd
 workflow-type: tm+mt
 source-wordcount: '2061'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -157,11 +157,11 @@ AEM Screens Player は、起動時に 404 エラーが発生すると、***/cont
 1. **開発者向けオプション**&#x200B;に移動します。
 1. 「**スリープモードにしない**」をオンにします。
 
-### 4. Windows プレーヤーのウィンドウモードを有効にする方法 {#enable-player}
+### 4. Windows プレーヤーのウィンドウモードを有効にする方法？ {#enable-player}
 
 Windows Player にはウィンドウモードはありません。常にフルスクリーンモードになります。
 
-### 5. AEM Screens プレーヤーがログインリクエストを継続的に送信する場合のトラブルシューティング方法 {#requests-login}
+### 5. AEM Screens プレーヤーがログインリクエストを継続的に送信する場合のトラブルシューティング方法？ {#requests-login}
 
 次の手順に従って、AEM Screens プレーヤーが `/content/screens/svc.json` および `/libs/granite/core/content/login.validate/j_security_check` へ継続的にリクエストを送信する場合のトラブルシューティングを行います。
 
@@ -216,27 +216,27 @@ Livefyre を無効にしてログエラーを回避するには、次の手順�
 ### 2. Oak インデックス情報の追加方法  {#add-oak-index-info}
 
 AEM Screens は、製品で使用されるクエリのインデックス定義を作成します。
-`error.log` に *クエリトラバーサル WARN* がある場合は、クエリのカスタムインデックスを作成します。詳しくは、「[インデックスの設定](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=ja#configuring-the-indexes)」を参照してください。
+`error.log` に&#x200B;*クエリトラバーサル WARN* がある場合は、クエリのカスタムインデックスを作成します。詳しくは、「[インデックスの設定](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=ja#configuring-the-indexes)」を参照してください。
 
 [Oak ドキュメント](https://jackrabbit.apache.org/oak/docs/query/lucene.html)の追加リソースも参照できます。
 
 
-### 3. v3 マニフェストの設定に必要な情報 {#configure-v3}
+### 3. v3 マニフェストを設定するための必須事項？ {#configure-v3}
 
 v3 マニフェストを有効にするには、次の操作を行う必要があります。
 
 * Dispatcher を更新します。
-詳しくは、 [マニフェストバージョン v3 用の Dispatcher の設定](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=ja#configuring-dispatcherv3) を参照してください。
+詳しくは、[マニフェストバージョン v3 に対応した Dispatcher の設定](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=ja#configuring-dispatcherv3)を参照してください。
 
 * カスタムコンポーネントを更新します。
-詳しくは、 [カスタムハンドラーのテンプレート](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=ja#custom-handlers) を参照してください。
+詳しくは、[カスタムハンドラーのテンプレート](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=ja#custom-handlers)を参照してください。
 
-* でコンテンツ同期を無効にする `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
+* `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` でコンテンツ同期を無効にします。
 
-* でのスマート同期の有効化 `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
+* `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl` でスマート同期を有効にします。
 
-* 編集 `channel/experience fragment/page components`.
+* `channel/experience fragment/page components` を編集します。
 
-* 次に移動： **オフライン設定** タブをクリックします。
+* 「**オフライン設定**」タブに移動します。
 
-* 入力 `clientlibs `マニフェストに追加する必要がある静的ファイルのフォルダー。
+* `clientlibs ` およびマニフェストに追加する必要がある静的ファイルのフォルダーを入力します。

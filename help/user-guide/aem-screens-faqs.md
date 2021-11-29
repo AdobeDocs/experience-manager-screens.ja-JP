@@ -7,10 +7,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: fc120c02e01d0159ca0294a9b5326b53a0fa48f0
+source-git-commit: 089bf4eebe5234d77d6f02ae6fc3b8bb75ba6ea2
 workflow-type: tm+mt
-source-wordcount: '2120'
-ht-degree: 97%
+source-wordcount: '2185'
+ht-degree: 94%
 
 ---
 
@@ -244,3 +244,13 @@ v3 マニフェストを有効にするには、次の操作を行う必要が�
 ### 4. screens-cloud-ams-pkg-0.0.20 パッケージの後、screens-cloud-ams-pkg-0.0.16 と screens コアバンドルがインストールされていて、アクティブでない場合は、どうすればよいですか？
 
 AMS コネクタを動作させるには、最低限のバージョンのAEM 6.5 機能パック 8 をインストールする必要があります。 詳しくは、 [使用可否](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) をクリックして、Screens 機能パックの最小バージョンを取得します。
+
+### 5. Screens で CQ Link Externalizer サービスを設定する方法を教えてください。
+
+このサービスは、オーサーインスタンスとパブリッシュインスタンスのパブリックホスト名を定義するために使用され、値を使用してデバイスサーバーの URL を更新したり、ContextHub のターゲティングもおこなったりします。
+
+Screens の CQ Link Externalizer サービスは、次の場所で設定できます。
+
+1. `http://localhost:4502/system/console/configMgr` に移動します。
+1. Day CQ Link Externalizer
+1. のホスト名を変更します。 `author/publish` 必要に応じてエントリを作成

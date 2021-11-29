@@ -7,9 +7,9 @@ breadcrumb-title: AEM Screens ガイド
 user-guide-description: 動的でインタラクティブなデジタルエクスペリエンスおよびインタラクションの公開を可能にするデジタル署名ソリューションの使用方法について説明します。
 feature-set: Experience Manager Screens
 source-git-commit: 75250cf11254499dbb30b3a5b04b1849753ea266
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '470'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

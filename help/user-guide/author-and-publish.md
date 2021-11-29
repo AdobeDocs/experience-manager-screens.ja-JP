@@ -8,9 +8,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
 source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1882'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -114,7 +114,7 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 1. pub2 の AEM Screens レプリケーションエージェントを作成します。pub1 の Screens レプリケーションエージェントをコピーし、pub2 の 4504 を指すようにポートを変更します。
 
    >[!NOTE]
-   >Screens レプリケーションエージェントの設定方法については、 [Screens レプリケーションエージェントの設定](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/configure-screens-replication.html?lang=en).
+   >Screens レプリケーションエージェントの設定方法については、[Screens レプリケーションエージェントの設定](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/configure-screens-replication.html?lang=ja)を参照してください。
 
 #### Screens リバースレプリケーションエージェントの作成 {#creating-screens-reverse-replication-agents}
 

@@ -1,18 +1,14 @@
 ---
 title: AEM Screens でのオーサーとパブリッシュの設定
-seo-title: Configuring Author and Publish in AEM Screens
 description: AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成された後、複数のパブリッシュインスタンスにフォワードレプリケートされます。ここでは、オーサーとパブリッシュを AEM Screens 用に設定する方法について説明します。
-seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn how to configure author and publish for AEM Screens.
-feature: Administering Screens
-role: Admin, Developer
-level: Intermediate
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
-workflow-type: ht
-source-wordcount: '1882'
-ht-degree: 100%
+source-git-commit: c152c6b46e33b42376cedeb7245d69c7c09ecd44
+workflow-type: tm+mt
+source-wordcount: '2006'
+ht-degree: 93%
 
 ---
+
 
 # AEM Screens でのオーサーとパブリッシュの設定 {#configuring-author-and-publish-in-aem-screens}
 
@@ -310,3 +306,22 @@ AEM Screens Player で変更結果を表示します。
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
 「**公開を管理**」機能を使用すると、コンテンツの更新をオーサーからパブリッシュ経由でデバイスに配信できます。AEM Screens プロジェクト全体のコンテンツを公開／非公開にすることも、チャネル、ロケーション、デバイス、アプリケーション、スケジュールのいずれか 1 つのコンテンツを公開／非公開にすることもできます。この機能の詳細については、[オンデマンドコンテンツの更新](on-demand-content.md)を参照してください。
+
+## トラブルシューティングのヒント {#troubleshoot-tips}
+
+オーサー/パブリッシュの設定に関するよくある質問に対する回答を得るには、以下の節に従います。
+
+### 初回登録と割り当ての後に https から http にリダイレクトを追加する方法を教えてください。 {#add-redirect}
+
+**解決策**
+有効に設定 `Proxy/Load Balancer Connection in the Jetty configuration` から `true`.
+
+### 外部のアセットでオフラインコンテンツとプレーヤーのダウンロードの問題を更新する方法 `/content/dam/projects/<project>`? {#update-offline-content}
+
+**解決策**
+すべてのに対し、 bulk-offline-update-screens-service ユーザーと screens-devices-master グループの読み取り権限を付与します。 `/content/dam` 使用する特定のアセットに対して、より制限を厳しくする場合は。
+
+### Screens レプリケーションエージェントのエラーを解決するにはどうすればよいですか？ {#replication-agent}
+
+**解決策**
+エージェント設定で、「リバースレプリケーションに使用」オプションが選択されていないことを確認します。 Screens レプリケーションエージェントをリバースレプリケーションエージェントとして使用することはできません。この機能の範囲は、デバイスのコマンドをオーサーからパブリッシュに転送することです。

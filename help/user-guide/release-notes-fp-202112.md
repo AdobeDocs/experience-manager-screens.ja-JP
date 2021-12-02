@@ -4,10 +4,10 @@ description: 2021 年 12 月 03 日にリリースされたAEM Screens機能パ�
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: a01458fd34bb2fca01ef3f498ccaab1cf258e9f8
+source-git-commit: 2b1396762134c72836f6b05b6936a9cec380dd97
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 81%
+source-wordcount: '269'
+ht-degree: 52%
 
 ---
 
@@ -29,15 +29,26 @@ AEM Screens機能パック202112のリリース日は 2021 年 12 月 3 日で�
 
 ### 新機能 {#what-is-new}
 
-* Android アプリのアップデートは、Android 11（API レベル 30）をターゲットにする必要があります。
+* Android アプリケーションのアップデートで、Android 11（API レベル 30）がターゲットになりました。 現在、Android プレーヤーはターゲット API レベル 29 です。
+
+* 開発者は、マニフェスト内の対応するアセットの下にレンディションエントリとしてのみ表示されるアセットレンディションを表示して、マニフェスト処理の拡張性、明確性、簡単性を確保できるようになりました。
 
 ### バグ修正 {#bug-fixes}
 
+* イベントタイプに基づいて Analytics イベントをフィルタリングできるようになりました。
+
+* オンプレミスプレーヤーのログを収集し、黒い画面の分析をおこないます。
+
+* 分割画面チャネルを含む空白の画面が表示されるプレーヤーが修正されました。
+
+* 公開 Maven にコアバンドルを追加して、カスタムハンドラードキュメントを修正しました。
+
+* アップグレード後に、プレーヤーがファームウェアのバージョンを更新しなかった問題を修正しました。 現在は修正されました。
 
 
 ### リリースされている AEM Screens Player {#released-aem-screens-players}
 
-AEM Screens 6.5 機能パック 9 向けに、次の AEM Screens Player がリリースされています。
+AEM Screens 6.5 機能パック 10 向けに、次の AEM Screens Player がリリースされています。
 
 * Chrome OS
 * Windows

@@ -1,10 +1,10 @@
 ---
 title: 機能パック 202112 のリリースノート
-description: 2021 年 12 月 03 日にリリースされたAEM Screens機能パック202112について説明します。
+description: 2021 年 12 月 06 日にリリースされたAEM Screens機能パック202112について説明します。
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 2b1396762134c72836f6b05b6936a9cec380dd97
+source-git-commit: a80b7d81df0ddcfad814e3462604e4d64f0c88ac
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 52%
@@ -25,7 +25,7 @@ Adobe ID を使用して、AEM Screens 6.5.10 リリースの最新の機能パ�
 
 ## リリース日 {#release-date}
 
-AEM Screens機能パック202112のリリース日は 2021 年 12 月 3 日です。
+AEM Screens機能パック202112のリリース日は 2021 年 12 月 06 日です。
 
 ### 新機能 {#what-is-new}
 

@@ -10,7 +10,7 @@ exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
 source-git-commit: 089bf4eebe5234d77d6f02ae6fc3b8bb75ba6ea2
 workflow-type: tm+mt
 source-wordcount: '2185'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -241,9 +241,9 @@ v3 マニフェストを有効にするには、次の操作を行う必要が�
 
 * `clientlibs ` およびマニフェストに追加する必要がある静的ファイルのフォルダーを入力します。
 
-### 4. screens-cloud-ams-pkg-0.0.20 パッケージの後、screens-cloud-ams-pkg-0.0.16 と screens コアバンドルがインストールされていて、アクティブでない場合は、どうすればよいですか？
+### 4. screens-cloud-ams-pkg-0.0.20 パッケージの後、screens-cloud-ams-pkg-0.0.16 と Screens コアバンドルがインストールされていて、アクティブでない場合は、どうすればよいですか？
 
-AMS コネクタを動作させるには、最低限のバージョンのAEM 6.5 機能パック 8 をインストールする必要があります。 詳しくは、 [使用可否](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) をクリックして、Screens 機能パックの最小バージョンを取得します。
+ コネクタを動作させるには、最低限のバージョンの AEM 6.5 機能パック 8 AMS をインストールする必要があります。 詳しくは、 [使用可否](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=ja#availability) をクリックして、Screens 機能パックの最小バージョンを取得します。
 
 ### 5. Screens で CQ Link Externalizer サービスを設定する方法を教えてください。
 

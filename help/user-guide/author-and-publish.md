@@ -3,9 +3,9 @@ title: AEM Screens でのオーサーとパブリッシュの設定
 description: AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成された後、複数のパブリッシュインスタンスにフォワードレプリケートされます。ここでは、オーサーとパブリッシュを AEM Screens 用に設定する方法について説明します。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
 source-git-commit: c152c6b46e33b42376cedeb7245d69c7c09ecd44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2006'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -309,19 +309,19 @@ AEM Screens Player で変更結果を表示します。
 
 ## トラブルシューティングのヒント {#troubleshoot-tips}
 
-オーサー/パブリッシュの設定に関するよくある質問に対する回答を得るには、以下の節に従います。
+下のセクションに従って、作成者や公開の設定に関連したよくある質問についての回答を入手します。 
 
-### 初回登録と割り当ての後に https から http にリダイレクトを追加する方法を教えてください。 {#add-redirect}
-
-**解決策**
-有効に設定 `Proxy/Load Balancer Connection in the Jetty configuration` から `true`.
-
-### 外部のアセットでオフラインコンテンツとプレーヤーのダウンロードの問題を更新する方法 `/content/dam/projects/<project>`? {#update-offline-content}
+### 最初の登録と割り当ての後に https から http へのリダイレクトを追加する方法について教えてください。 {#add-redirect}
 
 **解決策**
-すべてのに対し、 bulk-offline-update-screens-service ユーザーと screens-devices-master グループの読み取り権限を付与します。 `/content/dam` 使用する特定のアセットに対して、より制限を厳しくする場合は。
+`Proxy/Load Balancer Connection in the Jetty configuration` の有効化を `true` に設定します。
 
-### Screens レプリケーションエージェントのエラーを解決するにはどうすればよいですか？ {#replication-agent}
+### `/content/dam/projects/<project>` 外部のアセットでオフラインコンテンツとプレーヤーダウンロードの問題を更新する方法について教えてください。{#update-offline-content}
 
 **解決策**
-エージェント設定で、「リバースレプリケーションに使用」オプションが選択されていないことを確認します。 Screens レプリケーションエージェントをリバースレプリケーションエージェントとして使用することはできません。この機能の範囲は、デバイスのコマンドをオーサーからパブリッシュに転送することです。
+より制限する必要がある場合は、すべての `/content/dam` または使用する特定のアセットの bulk-offline-update-screens-service ユーザーと screens-devices-master グループに読み取り権限を付与します。
+
+### Screens レプリケーションエージェントのエラーを解決する方法について教えてください。 {#replication-agent}
+
+**解決策**
+エージェント設定で「リバースレプリケーションに使用」オプションがオンになっていないことを確認してください。Screens レプリケーションエージェントは、リバースレプリケーションエージェントとして使用できません。この機能の範囲は、デバイスコマンドを作成者からパブリッシュに転送することです。

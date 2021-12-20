@@ -6,9 +6,9 @@ role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
 source-git-commit: 02bc399d61f5666918caad9fce3d69d63f0782d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '399'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ AEM Screens は、AEM 6.5 機能パック 8 をリリースしました。
 Adobe ID を使用して、AEM Screens 6.5.8 リリースの最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からダウンロードできます。「**Adobe Experience Manager**」タブに移動し、「**Screens**」を検索して「**AEM 6.5 Screens FP8**」というタイトルが付いた最新の機能パックを入手します。
 
 >[!IMPORTANT]
->パッケージをインストールした後で AMS コネクタが動作するには、最低限のバージョンのAEM 6.5 機能パック 8 をインストールする必要があります `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16` そして `screens core bundles`.
+>`screens-cloud-ams-pkg-0.0.20`、`screens-cloud-ams-pkg-0.0.16`、`screens core bundles` パッケージをインストールした後で AMS コネクタを動作させるには、最小バージョンの AEM 6.5 機能パック 8 をインストールする必要があります。
 
 ## リリース日 {#release-date}
 

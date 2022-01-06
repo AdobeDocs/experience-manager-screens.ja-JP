@@ -6,7 +6,7 @@ user-guide-title: Adobe Experience Manager Screens ヘルプ
 breadcrumb-title: AEM Screens ガイド
 user-guide-description: 動的でインタラクティブなデジタルエクスペリエンスおよびインタラクションの公開を可能にするデジタル署名ソリューションの使用方法について説明します。
 feature-set: Experience Manager Screens
-source-git-commit: 2243a2a87fc5826a02c3eff60030dc296fa77a0f
+source-git-commit: 3602eda37d662017ec5a1d31735e42b6b6f0f89d
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 100%
@@ -113,7 +113,7 @@ ht-degree: 100%
    + [デバイスコントロールセンターからのトラブルシューティング](monitoring-screens.md)
    + [ビデオ再生の設定](troubleshoot-videos.md)
 + リリースノート {#release-notes}
-   + [機能パック 202109 のリリースノート](release-notes-fp-202112.md)
+   + [機能パック 202112 のリリースノート](release-notes-fp-202112.md)
    + [機能パック 202109 のリリースノート](release-notes-fp-202109.md)
    + [機能パック 202105 のリリースノート](release-notes-fp-202105.md)
    + [機能パック 202103 のリリースノート](release-notes-fp-202103.md)

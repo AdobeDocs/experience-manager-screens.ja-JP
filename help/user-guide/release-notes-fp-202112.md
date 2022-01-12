@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 7b16515253bb360cb595ca76956107d47b13cf21
+source-git-commit: 3366a918c75dd1485dfe8716797d7254b3b5c2b3
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 94%
+source-wordcount: '291'
+ht-degree: 87%
 
 ---
 
@@ -45,6 +45,11 @@ AEM Screens 機能パック 202112 のリリース日は 2021年12月17日（PT�
 
 * プレーヤーはアップグレード後にファームウェアバージョンを更新していませんでした。これは修正されました。
 
+* 以前のプレーヤー設定でディスプレイのプレビューが動かない。
+
+* 一部の状況で、表示プレビューがレンダリングされない。
+
+* スマート同期の同時ダウンロードエラーを修正しました。
 
 ### リリースされている AEM Screens Player {#released-aem-screens-players}
 

@@ -1,14 +1,14 @@
 ---
 title: 機能パック 202112 のリリースノート
-description: 2021 年 12 月 17 日にリリースされたAEM Screens機能パック202112について説明します。
+description: 2021年12月17日（PT）にリリースされた AEM Screens 機能パック 202112 については、このページを参照してください。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
 source-git-commit: 3366a918c75dd1485dfe8716797d7254b3b5c2b3
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 87%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

@@ -6,9 +6,9 @@ role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
 source-git-commit: b56844c66bfa980013b610523842c7ac0c30f44d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '931'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -54,19 +54,19 @@ AEM Screens 機能パック 202109 のリリース日は 2021 年 9 月 23 日�
 
 * **V3 マニフェストのサポート**
 
-   マニフェストバージョン v3 に対応するように Dispatcher を設定できるようになりました。v3 マニフェストを有効にするには、次の操作が必要です。
+   マニフェストバージョン v3 に対応するように Dispatcher を設定できるようになりました。v3 マニフェストを有効にするには、次を設定する必要があります。
 
-   * オーサーとパブリッシュの両方の保留中のオフラインコンテンツジョブをクリアします
+   * オーサーとパブリッシュ環境の両方で、保留中オフラインコンテンツジョブを消去します
 
-      * オーサーとパブリッシュで crx/de に移動します。
+      * オーサーとパブリッシュで crx/de に移動します
 
-      * ツール/クエリをクリックします。
+      * ツール／クエリをクリックします
 
-      * クエリでは、 `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
+      * クエリで次を使用します `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
 
       * これにより、現在実行中またはキューで保留中のオフラインコンテンツジョブが一覧表示されます
 
-      * クエリから返されたオフラインコンテンツジョブがなくなるまで待ちます
+      * クエリから返されるオフラインコンテンツジョブがなくなるまで待ちます
    * `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` でコンテンツ同期を無効にする
 
    * `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl` でスマート同期を有効にする

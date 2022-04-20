@@ -1,19 +1,19 @@
 ---
 title: AEM Screens とは
 seo-title: What is AEM Screens?
-description: デジタルサイネージソリューションであるAEM Screensの使用方法を学びます。このソリューションを使用すると、様々な種類の画面に関する動的でインタラクティブなデジタルエクスペリエンスやインタラクションを、包括的なデジタルマーケティングプラットフォームと組み合わせて公開できます。
+description: AEM Screens の使用について学びます。AEM Screens は、包括的なデジタルマーケティングプラットフォームと連携する様々なタイプの画面など、動的でインタラクティブなデジタルエクスペリエンスおよびインタラクションを公開できるデジタルサイネージソリューションです。
 feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
 source-git-commit: 52778cf4c62b079576b1f84db2f27925042db3e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# AEM Screens とは{#what-is-aem-screens}
+# AEM Screens とは {#what-is-aem-screens}
 
 **AEM（Adobe Experience Manager）Screens** は、包括的なデジタルマーケティングプラットフォームと連携する様々なタイプの画面など、動的でインタラクティブなデジタルエクスペリエンスおよびインタラクションを公開できるデジタルサイネージソリューションです。
 

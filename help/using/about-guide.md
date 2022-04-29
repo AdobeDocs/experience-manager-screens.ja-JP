@@ -1,13 +1,13 @@
 ---
 title: このガイドについて
 seo-title: Description on the Guide
-description: AEM Screensプロジェクトでは、このベストプラクティスAEM 6.5 ガイドに従って、戦略的および設計の概要からデプロイメントまで、サポート後まで、プロジェクトの計画と実行をおこないます。
+description: この AEM Screens プロジェクト用ベストプラクティス AEM 6.5 ガイドに従って、戦略的および設計の概要からデプロイメント、サポート後に至るまで、プロジェクトの計画と実行を行います。
 seo-description: This page describes the intent of the Best Practices Guide
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
 source-git-commit: 4817c02bf7f65edd1e55ab56f250cc982cc7c1ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 

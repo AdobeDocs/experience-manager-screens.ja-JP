@@ -1,8 +1,8 @@
 ---
 title: Android プレーヤーの実装
-seo-title: Android プレーヤーの実装
+seo-title: Implementation of Android Player
 description: このページでは、Android ウォッチドック（Android プレーヤーをクラッシュから回復させるソリューション）を実装する方法について見ていきます。
-seo-description: このページでは、Android ウォッチドック（Android プレーヤーをクラッシュから回復させるソリューション）を実装する方法について見ていきます。
+seo-description: Follow this page to learn implementation of Android Watchdog, a solution to recover the player from crashes.
 uuid: 17edd093-f1b1-479e-9f25-28c64f1a7223
 contentOwner: Jyotika syal
 content-type: reference
@@ -10,14 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-feature: Screens の管理、Android プレーヤー
+feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
-workflow-type: ht
-source-wordcount: '1534'
-ht-degree: 100%
+source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+workflow-type: tm+mt
+source-wordcount: '1529'
+ht-degree: 98%
 
 ---
 
@@ -205,3 +205,7 @@ Android プレーヤーの一括プロビジョニングを可能にするには
    >デバイスは、アプリケーションと設定を同時に受信し、選択した設定を持つ正しい AEM サーバーを参照します。一括登録コードを設定することを選択し、AEM に設定した値と同じにしておくと、プレーヤーは自動的に登録されるはずです。デフォルトディスプレイを設定した場合は、一部のデフォルトコンテンツをダウンロードして表示することもできます（このコンテンツは後で都合に合わせて変更できます）。
 
 また、AppConfig のサポートについては、EMM ベンダーに確認してください。中でも、[VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm)、[Mobile Iron](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm)、[SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm)、[Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm)、[IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm)、[Samsung Knox](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) などの最も一般的なものは、この業界標準をサポートしています。
+
+### Screens リモートコントロールの使用 {#using-remote-control}
+
+AEM Screensは、リモート制御機能を提供します。 この機能の詳細については、こちらを参照してください。 [Screens リモートコントロール](implementing-remote-control.md)

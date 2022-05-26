@@ -1,22 +1,22 @@
 ---
 title: Chrome OS プレーヤーの実装
-seo-title: Chrome OS プレーヤーの実装
+seo-title: Implementing Chrome OS Player
 description: このページでは、Chrome 管理コンソールを使用した Chrome OS プレーヤーの実装について説明します。
-seo-description: このページでは、Chrome 管理コンソールを使用した Chrome OS プレーヤーの実装について説明します。
+seo-description: Follow  this page to learn about the implementation of the Chrome OS Player using the Chrome Management Console.
 uuid: eee84286-fa81-475c-ad6f-db2d6cf1fed5
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
-feature: Screens の管理
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
-workflow-type: ht
-source-wordcount: '850'
-ht-degree: 100%
+source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+workflow-type: tm+mt
+source-wordcount: '846'
+ht-degree: 97%
 
 ---
 
@@ -152,3 +152,7 @@ AEM Screens Player は、キオスク対応アプリケーションです。Chro
 >[!NOTE]
 >
 >ポリシー設定は厳格に適用されます。プレーヤーの Admin UI で、手動で上書きされることはありません。特定のポリシーに対して手動のプレーヤー設定を許可する場合は、***ポリシー設定***&#x200B;にポリシーを指定しないでください。例えば、再起動スケジュールの手動設定を許可する場合は、ポリシー設定にキー ***rebootSchedule*** を指定しないでください。
+
+### Screens リモートコントロールの使用 {#using-remote-control}
+
+AEM Screensは、リモート制御機能を提供します。 この機能の詳細については、こちらを参照してください。 [Screens リモートコントロール](implementing-remote-control.md)

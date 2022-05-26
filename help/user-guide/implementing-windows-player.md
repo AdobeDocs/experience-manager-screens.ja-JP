@@ -1,8 +1,8 @@
 ---
 title: Windows 10 プレーヤーの実装
-seo-title: Windows 10 プレーヤーの実装
+seo-title: Implementing Windows 10 Player
 description: このページでは、AEM Screens Windows 10 プレーヤーの設定について説明します。
-seo-description: このページでは、AEM Screens Windows 10 プレーヤーの設定について説明します。
+seo-description: Follow this page to learn about configuring AEM Screens Windows 10 player.
 uuid: da7e88bf-c251-481e-9029-f8fc4768b309
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-feature: Screens の管理、Windows プレーヤー
+feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
-workflow-type: ht
-source-wordcount: '1095'
-ht-degree: 100%
+source-git-commit: 97bc64ce3c01ac2de301b17bf9f8610662d45f88
+workflow-type: tm+mt
+source-wordcount: '1097'
+ht-degree: 98%
 
 ---
 
@@ -194,3 +194,7 @@ $ShellLauncherClass.RemoveCustomShell($Admins_SID)
 
 $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 ```
+
+### Screens リモートコントロールの使用 {#using-remote-control}
+
+AEM Screensは、リモート制御機能を提供します。 この機能の詳細については、こちらを参照してください。 [Screens リモートコントロール](implementing-remote-control.md)

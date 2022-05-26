@@ -12,7 +12,7 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: ff59c3748ea69a37ca68e81e5bf753881e8464b0
+source-git-commit: a256f624c4b647deb4cee7668665ad7b576932e7
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -52,4 +52,6 @@ Tizen プレーヤーに固有の機能は、ハードウェアリモートま�
 >[!NOTE]
 >デバイス設定の値 enableAdminUI や enableOSD を false に設定した場合、リモートは管理 UI とチャネルスイッチャーを切り替えません。 また、矢印キーを使用して Admin UI やチャネルをナビゲートすることもできません。 ただし、キャッシュをクリアしてプレーヤーを再読み込みすることはできます。 次のコードを使用して、いずれかのキーボードの組み合わせがインタラクティブコンテンツと競合する場合に、リモート制御機能を無効にできます。
 
-```javascript require(/['util/ScreensDisplay'/], function() /{window.ScreensDisplay.ignoreRemoteControl = true;/}); ```
+```
+require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 
+```

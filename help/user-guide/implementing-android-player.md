@@ -1,7 +1,7 @@
 ---
 title: Android プレーヤーの実装
 seo-title: Implementation of Android Player
-description: このページでは、Android ウォッチドック（Android プレーヤーをクラッシュから回復させるソリューション）を実装する方法について見ていきます。
+description: このページでは、Android ウォッチドック（Android プレーヤーをクラッシュから回復させるソリューション）の実装について説明します。
 seo-description: Follow this page to learn implementation of Android Watchdog, a solution to recover the player from crashes.
 uuid: 17edd093-f1b1-479e-9f25-28c64f1a7223
 contentOwner: Jyotika syal
@@ -15,9 +15,9 @@ role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
 source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1529'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -108,7 +108,7 @@ Android ウォッチドッグサービスは、*AlarmManager* を使用した co
 
 >[!NOTE]
 >
->Android では、*AlarmManager* は、アプリケーションがクラッシュして、そのアラーム配信が API 19（Kitkat）から正確に行われなくても実行可能な *pendingIntents* を登録するために使用されます。タイマーの間隔と *AlarmManager* の *pendingIntents* のアラームとの間にいくらかの時間を設けるようにしてください。
+>Android では、*AlarmManager* は、アプリケーションがクラッシュして、そのアラーム配信が API 19（Kitkat）から正確に行われなくても実行可能な *pendingIntents* を登録するために使用されます。タイマーの間隔と *AlarmManager* の *pendingIntent* のアラームとの間にいくらかの時間を設けるようにしてください。
 
 **3.アプリケーションのクラッシュ**：クラッシュした場合、AlarmManager に登録されているリブートのペンディングインテントはリセットされず、（cordova プラグインの初期化時に使用可能な権限に応じて）アプリケーションのリブートまたは再起動を実行します。
 
@@ -206,6 +206,6 @@ Android プレーヤーの一括プロビジョニングを可能にするには
 
 また、AppConfig のサポートについては、EMM ベンダーに確認してください。中でも、[VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm)、[Mobile Iron](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm)、[SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm)、[Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm)、[IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm)、[Samsung Knox](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) などの最も一般的なものは、この業界標準をサポートしています。
 
-### Screens リモートコントロールの使用 {#using-remote-control}
+### Screens リモート制御の使用 {#using-remote-control}
 
-AEM Screensは、リモート制御機能を提供します。 この機能の詳細については、こちらを参照してください。 [Screens リモートコントロール](implementing-remote-control.md)
+AEM Screens には、リモート制御機能が用意されています。この機能について詳しくは、[Screens リモート制御](implementing-remote-control.md)を参照してください。

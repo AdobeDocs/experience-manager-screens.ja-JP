@@ -14,9 +14,9 @@ role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
 source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '846'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -153,6 +153,6 @@ AEM Screens Player は、キオスク対応アプリケーションです。Chro
 >
 >ポリシー設定は厳格に適用されます。プレーヤーの Admin UI で、手動で上書きされることはありません。特定のポリシーに対して手動のプレーヤー設定を許可する場合は、***ポリシー設定***&#x200B;にポリシーを指定しないでください。例えば、再起動スケジュールの手動設定を許可する場合は、ポリシー設定にキー ***rebootSchedule*** を指定しないでください。
 
-### Screens リモートコントロールの使用 {#using-remote-control}
+### Screens リモート制御の使用 {#using-remote-control}
 
-AEM Screensは、リモート制御機能を提供します。 この機能の詳細については、こちらを参照してください。 [Screens リモートコントロール](implementing-remote-control.md)
+AEM Screens には、リモート制御機能が用意されています。この機能について詳しくは、[Screens リモート制御](implementing-remote-control.md)を参照してください。

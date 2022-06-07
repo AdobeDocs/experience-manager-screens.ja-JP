@@ -7,9 +7,9 @@ breadcrumb-title: AEM Screens ガイド
 user-guide-description: 動的でインタラクティブなデジタルエクスペリエンスおよびインタラクションの公開を可能にするデジタル署名ソリューションの使用方法について説明します。
 feature-set: Experience Manager Screens
 source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 99%
       + [Windows プレーヤー](implementing-windows-player.md)
       + [Tizen プレーヤー](tizen-player.md)
       + [プレーヤーの自動登録](auto-registration-players.md)
-      + [リモートコントロールの使用](implementing-remote-control.md)
+      + [リモート制御の使用](implementing-remote-control.md)
    + オーサーとパブリッシュ {#author-publish}
       + [オーサーとパブリッシュのアーキテクチャの概要](author-publish-architecture-overview.md)
       + [オーサーとパブリッシュの設定](author-and-publish.md)

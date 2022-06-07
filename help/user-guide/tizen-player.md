@@ -6,9 +6,9 @@ role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
 source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1242'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -168,6 +168,6 @@ Tizen デバイスを Samsung Remote Management Service（RMS）に登録し URL
 
 1. 「**Save**」をクリックすると、変更内容が画面に表示されます。
 
-### Screens リモートコントロールの使用 {#using-remote-control}
+### Screens リモート制御の使用 {#using-remote-control}
 
-AEM Screensは、リモート制御機能を提供します。 この機能の詳細については、こちらを参照してください。 [Screens リモートコントロール](implementing-remote-control.md)
+AEM Screens には、リモート制御機能が用意されています。この機能について詳しくは、[Screens リモート制御](implementing-remote-control.md)を参照してください。

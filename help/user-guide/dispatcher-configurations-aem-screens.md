@@ -1,16 +1,16 @@
 ---
 title: AEM Screens プロジェクトの Dispatcher の設定
-seo-title: AEM Screens プロジェクトの Dispatcher の設定
+seo-title: Dispatcher Configurations for AEM Screens
 description: ここでは、AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインについて説明します。
-seo-description: ここでは、AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインについて説明します。
-feature: Screens の管理
+seo-description: This page highlights guidelines for configuring dispatcher for an AEM Screens project.
+feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 0f32fc015729685c724176c25920da6f07707c00
-workflow-type: ht
-source-wordcount: '586'
-ht-degree: 100%
+source-git-commit: 13c9ed116a310c2c17fd1cc3d2c56ef74620df4b
+workflow-type: tm+mt
+source-wordcount: '660'
+ht-degree: 85%
 
 ---
 
@@ -229,3 +229,24 @@ AEM Screens 用 に Dispatcher（Manifest バージョン v3）を設定する�
        /type "deny"
        }
    ```
+
+### segments.js の無効化ルールを追加 {#invalidsegmentjs}
+
+新しいセグメントを追加して公開する場合は、 `segments.js` dispatcher が提供するファイルに新しいエントリがないので、screens デバイス上のターゲティングフローが壊れていました。 segments.js ファイルが Dispatcher レベルでキャッシュされていますが、同じ無効化ルールはありませんでした。 その結果、無効化ルールを追加する必要があります。
+
+* 新しいセグメントを `/conf/<project-name>/settings/wcm/segments.seg.js` ファイル。
+
+* に無効化ルールを追加 `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. 次に、追加するルールを示します。
+
+```
+    /invalidate {
+                        .
+                        .
+                        /0004 {
+                               /glob "conf/personalisation-hub/settings/wcm/.js"
+                               /type "allow"
+                        }
+                }
+```
+
+* このルールは、 `segments.js` ファイルが無効化され、変更されると最新のが取得されます。

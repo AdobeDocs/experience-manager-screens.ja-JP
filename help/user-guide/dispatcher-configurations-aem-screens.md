@@ -7,10 +7,10 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 13c9ed116a310c2c17fd1cc3d2c56ef74620df4b
+source-git-commit: 01d2245cca5757441ef2bd4e2c05c231b678ce48
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 85%
+source-wordcount: '645'
+ht-degree: 87%
 
 ---
 
@@ -232,9 +232,7 @@ AEM Screens 用 に Dispatcher（Manifest バージョン v3）を設定する�
 
 ### segments.js の無効化ルールを追加 {#invalidsegmentjs}
 
-新しいセグメントを追加して公開する場合は、 `segments.js` dispatcher が提供するファイルに新しいエントリがないので、screens デバイス上のターゲティングフローが壊れていました。 segments.js ファイルが Dispatcher レベルでキャッシュされていますが、同じ無効化ルールはありませんでした。 その結果、無効化ルールを追加する必要があります。
-
-* 新しいセグメントを `/conf/<project-name>/settings/wcm/segments.seg.js` ファイル。
+AEM Screensでターゲットキャンペーンを使用している場合、 `segments.js file` AEMで新しいセグメントを追加して公開する際、dispatcher が提供するものを無効にする必要があります。 この無効化ルールがないと、新しいターゲットキャンペーンは Screens Player では機能しません（代わりにデフォルトコンテンツが表示されます）。
 
 * に無効化ルールを追加 `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. 次に、追加するルールを示します。
 
@@ -243,7 +241,7 @@ AEM Screens 用 に Dispatcher（Manifest バージョン v3）を設定する�
                         .
                         .
                         /0004 {
-                               /glob "conf/personalisation-hub/settings/wcm/.js"
+                               /glob "conf/<project-name>/settings/wcm/.js"
                                /type "allow"
                         }
                 }

@@ -10,7 +10,7 @@ exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
 source-git-commit: 01d2245cca5757441ef2bd4e2c05c231b678ce48
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,8 @@ Dispatcher は、Adobe Experience Manager のキャッシュやロードバラ�
 >
 >Dispatcher がない場合は、OSGi コンポーネントリストで登録サーブレットを無効にします。
 
-AEM Screens プロジェクトの Dispatcher を設定する前に、Dispatcher に関する事前の知識が必要です。詳しくは、[Dispatcher の設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)を参照してください。
+AEM Screens プロジェクトの Dispatcher を設定する前に、Dispatcher に関する事前の知識が必要です。
+詳しくは、[Dispatcher の設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)を参照してください。
 
 ## Manifest バージョン v2 用 Dispatcher の設定 {#configuring-dispatcher}
 
@@ -230,11 +231,11 @@ AEM Screens 用 に Dispatcher（Manifest バージョン v3）を設定する�
        }
    ```
 
-### segments.js の無効化ルールを追加 {#invalidsegmentjs}
+### segments.js の無効化ルールの追加 {#invalidsegmentjs}
 
 AEM Screensでターゲットキャンペーンを使用している場合、 `segments.js file` AEMで新しいセグメントを追加して公開する際、dispatcher が提供するものを無効にする必要があります。 この無効化ルールがないと、新しいターゲットキャンペーンは Screens Player では機能しません（代わりにデフォルトコンテンツが表示されます）。
 
-* に無効化ルールを追加 `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. 次に、追加するルールを示します。
+* 無効化ルールを `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any` に追加します。 追加するルールは次のとおりです。
 
 ```
     /invalidate {
@@ -247,4 +248,4 @@ AEM Screensでターゲットキャンペーンを使用している場合、 `s
                 }
 ```
 
-* このルールは、 `segments.js` ファイルが無効化され、変更されると最新のが取得されます。
+* このルールにより、`segments.js` ファイルが無効化され、変更時に最新のファイルが取得されます。

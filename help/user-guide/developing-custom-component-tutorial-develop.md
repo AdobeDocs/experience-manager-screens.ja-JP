@@ -1,24 +1,24 @@
 ---
 title: AEM Screens 用カスタムコンポーネントの開発
-seo-title: AEM Screens 用カスタムコンポーネントの開発
+seo-title: Developing a Custom Component for AEM Screens
 description: 以下のチュートリアルでは、AEM Screens 用のカスタムコンポーネントを作成する手順について説明します。AEM Screens では、他の AEM 製品の様々な既存のデザインパターンやテクノロジーを再利用しています。このチュートリアルでは、AEM Screens 用に開発する際の相違点と特別な考慮事項について重点的に説明します。
-seo-description: AEM Screens 用のシンプルな「Hello World」コンポーネントを構築するための入門チュートリアルです。AEM Screens では、他の AEM 製品の様々な既存のデザインパターンやテクノロジーを再利用しています。以下のチュートリアルでは、AEM Screens 用に開発する際の具体的な相違点と考慮事項について重点的に説明します。
+seo-description: An introductory tutorial to build a simple "Hello World" component for AEM Screens. AEM Screens reuses many existing design patterns and technologies of other AEM products. The following tutorial intends to highlight the specific differences and considerations when developing for AEM Screens.
 uuid: 8ec8be5a-6348-48f2-9cb7-75b2bad555a6
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
-feature: Screens の開発
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
+source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
 workflow-type: ht
-source-wordcount: '2188'
+source-wordcount: '2127'
 ht-degree: 100%
 
 ---
-
 
 # AEM Screens 用カスタムコンポーネントの開発 {#developing-a-custom-component-for-aem-screens}
 
@@ -166,7 +166,7 @@ AEM Screens には、従来の WCM Sites コンポーネントには必ずしも
 
    このコンポーネントでは、`div` タグと `h1` タグ（テキストを含む）をレンダリングします。`${properties.message}` は HTL スクリプトの一部で、`message` という名前の JCR プロパティのコンテンツを出力します。`message` プロパティテキストの値をユーザーが入力できるダイアログを後で作成します。
 
-   また、コンポーネントでは BEM（ブロック要素修飾子）表記が使用されることにも注意してください。BEM は、再利用可能なコンポーネントを容易に作成できる CSS コーディング規則です。BEM は、[AEM のコアコンポーネント](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions)で使用される表記です。詳しくは、[https://getbem.com/](https://getbem.com/) を参照してください。
+   また、コンポーネントでは BEM（ブロック要素修飾子）表記が使用されることにも注意してください。BEM は、再利用可能なコンポーネントを容易に作成できる CSS コーディング規則です。BEM は、[AEM のコアコンポーネント](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions)で使用される表記です。<!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
 1. `/apps/weretail-run/components/content/helloworld` の下に `edit.html.` という名前のファイルを作成します。
 
@@ -409,7 +409,7 @@ We.Retail Run プロジェクトに固有のすべての設定を保存する We
 
 Hello World コンポーネントは、シーケンスチャネルで使用するためのものです。このコンポーネントをテストするために、新しいシーケンスチャネルを作成します。
 
-1. AEM のスタートメニューで、**Screens**／**We.Retail Run** に移動し、「**チャネル**」を選択します。
+1. AEM のスタートメニューで、 **Screens**／**We.Retail Run** に移動し、「**チャネル**」を選択します。
 
 1. 「**作成**」ボタンをクリックします。
 

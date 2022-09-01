@@ -1,24 +1,24 @@
 ---
 title: AEM Screens コンポーネントの拡張
-seo-title: AEM Screens コンポーネントの拡張
+seo-title: Extending an AEM Screens Component
 description: 以下のチュートリアルでは、標準搭載の AEM Screens コンポーネントを拡張する際の手順とベストプラクティスについて説明します。画像コンポーネントが拡張されて、オーサリング可能なテキストオーバーレイが追加されます。
-seo-description: 以下のチュートリアルでは、標準搭載の AEM Screens コンポーネントを拡張する際の手順とベストプラクティスについて説明します。画像コンポーネントが拡張されて、オーサリング可能なテキストオーバーレイが追加されます。
+seo-description: The following tutorial walks through the steps and best practices for extending out of the box AEM Screens components. The Image component is extended to add an authorable text overlay.
 uuid: 38ee3a2b-a51a-4c35-b93a-89a0e5fc3837
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
-feature: Screens の開発
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '1854'
-ht-degree: 100%
+exl-id: e316614f-2d40-4b62-a1e5-f30817def742
+source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+workflow-type: tm+mt
+source-wordcount: '1786'
+ht-degree: 86%
 
 ---
-
 
 # AEM Screens コンポーネントの拡張 {#extending-an-aem-screens-component}
 
@@ -38,17 +38,17 @@ ht-degree: 100%
 
 ## 前提条件 {#prerequisites}
 
-このチュートリアルを完了するには、以下が必要です。
+このチュートリアルを完了するには、次の手順を実行する必要があります。
 
-1. [AEM 6.4](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/release-notes/release-notes.html) または [AEM 6.3](https://helpx.adobe.com/jp/experience-manager/6-3/release-notes.html) + 最新の Screens 機能パック
+1. [AEM 6.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/release-notes.html?lang=ja) または [AEM 6.3](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=ja) + 最新の Screens 機能パック
 1. [AEM Screens Player](/help/user-guide/aem-screens-introduction.md)
 1. ローカル開発環境
 
-チュートリアルの手順とスクリーンショットは、CRXDE-Lite を使用して実行します。[Eclipse](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/developing/devtools/aem-eclipse.html) IDE または [IntelliJ](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/developing/devtools/ht-intellij.html) IDE を使用しても、このチュートリアルを完了できます。AEM での開発に IDE を使用する方法について詳しくは、[こちら](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#eclipse-ide)を参照してください。
+チュートリアルの手順とスクリーンショットは、CRXDE-Lite を使用して実行します。[Eclipse](https://experienceleague.adobe.com/docs/experience-manager-64/developing/devtools/aem-eclipse.html) IDE または [IntelliJ](https://experienceleague.adobe.com/docs/experience-manager-64/developing/devtools/ht-intellij.html) IDE を使用しても、このチュートリアルを完了できます。AEM での開発に IDE を使用する方法について詳しくは、[こちら](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html)を参照してください。
 
 ## プロジェクトのセットアップ {#project-setup}
 
-Screens プロジェクトのソースコードは、通常、マルチモジュールの Maven プロジェクトとして管理されます。このチュートリアルを効率よく進めるために、[AEM プロジェクトアーキタイプ 13](https://github.com/adobe/aem-project-archetype) を使用してプロジェクトを事前に生成してあります。Maven AEM プロジェクトアーキタイプを使用したプロジェクトの作成について詳しくは、[こちら](https://docs.adobe.com/content/help/ja-JP/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#maven-multimodule)を参照してください。
+Screens プロジェクトのソースコードは、通常、マルチモジュールの Maven プロジェクトとして管理されます。このチュートリアルを効率よく進めるために、[AEM プロジェクトアーキタイプ 13](https://github.com/adobe/aem-project-archetype) を使用してプロジェクトを事前に生成してあります。Maven AEM プロジェクトアーキタイプを使用したプロジェクトの作成について詳しくは、[こちら](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html)を参照してください。
 
 1. **CRX パッケージマネージャー**（`http://localhost:4502/crx/packmgr/index.jsp)r:`）を使用して、次のパッケージをダウンロードしてインストールします。
 
@@ -74,11 +74,11 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
 ## ポスターコンポーネントの作成 {#poster-cmp}
 
-ポスターコンポーネントは、Screens に標準搭載の画像コンポーネントを拡張したものです。Sling の `sling:resourceSuperType` メカニズムを使用すると、画像コンポーネントのコア機能をコピーして貼り付けなくても継承できるようになります。Sling のリクエスト処理の基本について詳しくは、[こちら](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/the-basics.html#SlingRequestProcessing)を参照してください。
+ポスターコンポーネントは、Screens に標準搭載の画像コンポーネントを拡張したものです。Sling の `sling:resourceSuperType` メカニズムを使用すると、画像コンポーネントのコア機能をコピーして貼り付けなくても継承できるようになります。Sling のリクエスト処理の基本について詳しくは、[こちら](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/the-basics.html?lang=ja)を参照してください。
 
 ポスターコンポーネントは、プレビュー／実稼動モードではフルスクリーンでレンダリングされます。編集モードでは、シーケンスチャネルのオーサリングを容易におこなえるように、コンポーネントをフルスクリーン以外でレンダリングすることが重要です。
 
-1. **CRXDE Lite**（`http://localhost:4502/crx/de/index.jsp`）または任意の IDE で、`/apps/weretail-run/components/content` の下に `poster` という名前の新しい `cq:Component` を作成します。
+1. In **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp` （または任意の IDE）を `/apps/weretail-run/components/content`を作成する `cq:Component` 名前付き `poster`.
 
    `poster` コンポーネントに次のプロパティを追加します。
 
@@ -95,7 +95,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
    /apps/weretail-run/components/content/poster のプロパティ
 
-   `sling:resourceSuperType` プロパティを `screens/core/components/content/image` に設定すると、ポスターコンポーネントは画像コンポーネントのすべての機能を事実上継承します。機能を上書きおよび拡張するために、`screens/core/components/content/image` の下にある同等のノードおよびファイルを `poster` コンポーネントの下に追加することができます。
+   を設定する `sling:resourceSuperType`プロパティが次と等しい `screens/core/components/content/image` ポスターコンポーネントは、画像コンポーネントのすべての機能を事実上継承します。 機能を上書きおよび拡張するために、`screens/core/components/content/image` の下にある同等のノードおよびファイルを `poster` コンポーネントの下に追加することができます。
 
 1. `/libs/screens/core/components/content/image.` の下の `cq:editConfig` ノードをコピーし、`/apps/weretail-run/components/content/poster` コンポーネントの下に `cq:editConfig` を貼り付けます。
 
@@ -250,7 +250,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
    ポスター - 最終的なダイアログ構造
 
-   この段階で、`poster` コンポーネントのインスタンスを We.Retail Run プロジェクトの **Idle Channel** ページ（`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`）に追加できます。
+   この時点で、 `poster` コンポーネントは **Idle Channel** We.Retail Run プロジェクトのページ： `http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`.
 
    ![ポスターダイアログのフィールド](assets/poster-dialog-full.png)
 
@@ -286,9 +286,9 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
    「`cmp-poster__text`」のバリエーションを使用する 3 つの CSS クラスを含んだ div ラッパーで、`h1` タグと `h2` タグを囲みます。`textPosition` プロパティと `textColor` プロパティの値を使用し、作成者によるダイアログ選択に基づいてレンダリングされる CSS クラスを変更します。次の節では、クライアントライブラリの CSS を記述して、これらの変更をディスプレイに反映します。
 
-   コンポーネントには、ロゴもオーバーレイとして含まれます。この例では、We.Retail ロゴのパスが DAM にハードコードされています。使用例によっては、ロゴのパスを動的に設定できるような新しいダイアログフィールドを作成する方が合理的な場合があります。
+   コンポーネントには、ロゴもオーバーレイとして含まれます。この例では、We.Retail ロゴのパスが DAM にハードコードされています。使用例によっては、ロゴのパスを動的に設定される値にするためのダイアログフィールドを作成する方が合理的な場合があります。
 
-   また、コンポーネントでは BEM（ブロック要素修飾子）表記が使用されることにも注意してください。BEM は、再利用可能なコンポーネントを容易に作成できる CSS コーディング規則です。BEM は、[AEM のコアコンポーネント](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions)で使用される表記です。詳しくは、[https://getbem.com/](https://getbem.com/) を参照してください。
+   また、コンポーネントでは BEM（ブロック要素修飾子）表記が使用されることにも注意してください。BEM は、再利用可能なコンポーネントを容易に作成できる CSS コーディング規則です。BEM は、[AEM のコアコンポーネント](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions)で使用される表記です。<!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
 1. `/apps/weretail-run/components/content/poster` の下に `edit.html.` という名前のファイルを作成します。
 
@@ -312,23 +312,23 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
    </div>
    ```
 
-   上記は、ポスターコンポーネントの&#x200B;**編集用**&#x200B;マークアップです。HTL スクリプトで `/libs/screens/core/components/content/image/edit.html` が上書きされます。このマークアップは `production.html` のマークアップと似ており、画像の上にタイトルと説明が表示されます。
+   上記は、ポスターコンポーネントの&#x200B;**編集用**&#x200B;マークアップです。HTL スクリプトで `/libs/screens/core/components/content/image/edit.html` が上書きされます。このマークアップは、 `production.html` マークアップを追加し、画像の上にタイトルと説明を表示します。
 
-   コンポーネントがエディターでフルスクリーンでレンダリングされないように、`aem-Screens-editWrapper` を追加します。`data-emptytext` 属性を指定すると、画像やコンテンツが入力されていない場合に、必ずプレースホルダーが表示されるようになります。
+   この `aem-Screens-editWrapper`コンポーネントがエディターでフルスクリーンでレンダリングされないように、を追加します。 この `data-emptytext` 属性を指定すると、画像やコンテンツが入力されていない場合に、必ずプレースホルダーが表示されます。
 
 ## クライアント側ライブラリの作成 {#clientlibs}
 
-クライアント側ライブラリは、AEM の実装で必要な CSS および JavaScript ファイルの編成および管理のための仕組みを提供します。クライアント側ライブラリの使用の詳細については、[こちら](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/clientlibs.html)を参照してください。
+クライアント側ライブラリは、AEM の実装で必要な CSS および JavaScript ファイルの編成および管理のための仕組みを提供します。クライアント側ライブラリの使用の詳細については、[こちら](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html?lang=ja)を参照してください。
 
 AEM Screens コンポーネントは、編集モードとプレビュー／実稼動モードではレンダリングが異なります。2 組のクライアントライブラリが作成されます。1 つは編集モード用、もう 1 つはプレビュー／実稼動用です。
 
 1. ポスターコンポーネントのクライアント側ライブラリ用のフォルダーを作成します。
 
-   `/apps/weretail-run/components/content/poster,` の下に、`clientlibs` という名前の新しいフォルダーを作成します。
+   の下 `/apps/weretail-run/components/content/poster,`次の名前のフォルダーを作成します。 `clientlibs`.
 
    ![2018-05-03_at_1008pm](assets/2018-05-03_at_1008pm.png)
 
-1. `clientlibs` フォルダーの下に、名前が `shared` で `cq:ClientLibraryFolder.` 型の新しいノードを作成します。
+1. の `clientlibs` フォルダー作成ノード： `shared` タイプ `cq:ClientLibraryFolder.`
 
    ![2018-05-03_at_1011pm](assets/2018-05-03_at_1011pm.png)
 
@@ -343,7 +343,7 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
    `categories` プロパティは、クライアントライブラリを識別する文字列です。`cq.screens.components` カテゴリは、編集モードとプレビュー／実稼動モードの両方で使用されます。したがって、`shared` クライアントライブラリに定義された CSS／JS は、すべてのモードに読み込まれます。
 
-   実稼動環境では、直接 /apps にパスを公開しないことをお勧めします。`allowProxy` プロパティにより、クライアントライブラリの CSS と JS が `/etc.clientlibs` というプレフィックスを付けて参照されるようになります。allowProxy について詳しくは、[こちら](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/clientlibs.html#main-pars_title_8ced)を参照してください。
+   実稼動環境では、直接 /apps にパスを公開しないことをお勧めします。`allowProxy` プロパティにより、クライアントライブラリの CSS と JS が `/etc.clientlibs` というプレフィックスを付けて参照されるようになります。allowProxy について詳しくは、[こちら](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html?lang=en)を参照してください。
 
 1. 共有フォルダーの下に `css.txt` という名前のファイルを作成します。
 
@@ -359,7 +359,7 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
    ![2018-05-03_at_1057pm](assets/2018-05-03_at_1057pm.png)
 
-   このチュートリアルでは、CSS を直接記述するのではなく、LESS を使用します。[LESS](https://lesscss.org/) は、CSS 変数、ミックスイン、関数をサポートしている一般的な CSS プリコンパイラーです。AEM のクライアントライブラリは、LESS によるコンパイルをネイティブにサポートしています。Sass などのプリコンパイラーも使用できますが、その場合は、AEM の外部でコンパイルする必要があります。
+   このチュートリアルでは、CSS を直接記述するのではなく、LESS を使用します。[LESS](https://lesscss.org/) は、CSS 変数、ミックスイン、関数をサポートしている一般的な CSS プリコンパイラーです。AEM のクライアントライブラリは、LESS によるコンパイルをネイティブにサポートしています。Sass またはその他のプリコンパイラーも使用できますが、AEM以外でコンパイルする必要があります。
 
 1. `/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less` に以下を入力します。
 
@@ -416,7 +416,7 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
    >[!NOTE]
    >
-   >Google Web フォントは、フォントファミリーに使用します。Web フォントを使用するにはインターネット接続が必要ですが、すべての Screens 実装に信頼性の高い接続があるとは限りません。オフラインモードへの対応を計画することは、Screens デプロイメントの重要な考慮事項です。
+   >GoogleWeb Fontsは、フォントファミリに使用されます。 Web Fontsにはインターネット接続が必要ですが、すべての Screens 実装が信頼性の高い接続になるわけではありません。 オフラインモードへの対応を計画することは、Screens デプロイメントの重要な考慮事項です。
 
 1. クライアントライブラリフォルダー `shared` をコピーします。兄弟として貼り付け、名前を `production` に変更します。
 
@@ -483,7 +483,7 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
    }
    ```
 
-   上記のスタイルでは、「タイトル」と「説明」がスクリーン上の絶対位置に表示されます。タイトルは説明よりもかなり大きく表示されます。コンポーネントの BEM 表記により、cmp-poster クラス内のスタイルを注意深くスコープ設定するのが非常に容易になります。
+   上記のスタイルでは、「タイトル」と「説明」がスクリーン上の絶対位置に表示されます。タイトルは説明よりも大きく表示されます。 コンポーネントの BEM 表記を使用すると、cmp-poster クラス内のスタイルを慎重にスコープ設定するのが容易になります。
 
 3 番目のクライアントライブラリカテゴリ `cq.screens.components.edit` は、コンポーネントに編集専用のスタイルを追加する場合に使用できます。
 
@@ -495,7 +495,7 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
 ## シーケンスチャネルへのポスターコンポーネントの追加 {#add-sequence-channel}
 
-ポスターコンポーネントは、シーケンスチャネルで使用するためのものです。このチュートリアルのスターターパッケージには、Idle Channel が含まれています。Idle Channel は、**We.Retail Run - Content** グループのコンポーネントを許可するように事前設定されています。ポスターコンポーネントのグループは `We.Retail Run - Content` に設定されており、チャネルに追加できるようになっています。
+ポスターコンポーネントは、シーケンスチャネルで使用されます。 このチュートリアルのスターターパッケージには、Idle Channel が含まれています。Idle Channel は、**We.Retail Run - Content** グループのコンポーネントを許可するように事前設定されています。ポスターコンポーネントのグループは `We.Retail Run - Content` に設定されており、チャネルに追加できるようになっています。
 
 1. We.Retail Run プロジェクトの Idle Channel（**`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**）を開きます。
 1. **ポスター**&#x200B;コンポーネントの新しいインスタンスをサイドバーからページにドラッグ＆ドロップします。

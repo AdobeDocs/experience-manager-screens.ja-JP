@@ -1,8 +1,8 @@
 ---
 title: テキストオーバーレイ
-seo-title: テキストオーバーレイ
+seo-title: Text Overlay
 description: テキストオーバーレイは AEM Screens で利用できる機能で、画像の上にタイトルや説明を重ねて表示することにより、シーケンスチャネルに魅力的なエクスペリエンスを作成できます。このページでは、この機能について詳しく見ていきます。
-seo-description: テキストオーバーレイは AEM Screens で利用できる機能で、画像の上にタイトルや説明を重ねて表示することにより、シーケンスチャネルに魅力的なエクスペリエンスを作成できます。このページでは、この機能について詳しく見ていきます。
+seo-description: Text Overlay is a feature available in AEM Screens that allows you to create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image. Follow this page to learn more.
 uuid: 944477e8-0025-4cc7-aa61-6b72f4a245fd
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
-feature: Screens のオーサリング
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '850'
-ht-degree: 100%
+source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+workflow-type: tm+mt
+source-wordcount: '797'
+ht-degree: 72%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 独自のカスタムコンポーネントの作成方法については、**AEM Screens コンポーネントの拡張**&#x200B;を参照してください。
 
-この節では、ポスターコンポーネントを AEM Screens プロジェクトのシーケンスチャネルの 1 つでテキストオーバーレイとして使用する方法のみ紹介します。
+この節では、ポスターコンポーネントをAEM Screensプロジェクトで使用および適用し、それをシーケンスチャネルの 1 つでテキストオーバーレイとして使用する方法についてのみ説明します。
 
 ## テキストオーバーレイの使用 {#using-text-overlay}
 
@@ -76,7 +76,7 @@ ht-degree: 100%
 
 ### テキストオーバーレイのプロパティについて {#understanding-text-overlay-properties}
 
-「テキストオーバーレイ」タブのプロパティを使用すると、Screens プロジェクトの任意のコンポーネントにテキストを追加できます。この節では、「テキストオーバーレイ」タブで使用できるプロパティの概要を説明します。
+「テキストオーバーレイ」プロパティを使用すると、Screens プロジェクトの任意のコンポーネントにテキストを追加できます。 この節では、「テキストオーバーレイ」タブで使用できるプロパティの概要を説明します。
 
 ![text](assets/text.gif)
 
@@ -84,11 +84,11 @@ ht-degree: 100%
 
 **カラーバリアント**：このオプションを選択すると、テキストは「暗い色」（黒のテキスト）または「明るい色」（白のテキスト）になります。
 
-**サイズと位置の設定**：テキストを水平または垂直方向に揃えることができます。さらに、詳細設定ツールを使用してテキストの位置揃えをおこなうこともできます。
+**サイズと位置の設定** このオプションを使用すると、テキストを水平または垂直に揃えたり、詳細設定ツールを使用してテキストの位置揃えをおこなうことができます。
 
 >[!NOTE]
 >
->詳細設定ツールを適切に使用するには、「px」をサフィックスとして使用して、正しい位置をピクセル単位で指定する必要があります。例えば、「200px」とすると、開始点から 200 ピクセル離れた位置が指定されます。
+>詳細設定ツールを適切に使用するには、「px」をサフィックスとして使用して、正しい位置をピクセル単位で指定する必要があります。例えば、「200px」とすると、この式の結果は、開始点から 200 ピクセル離れた位置になります。
 
 ## テキストオーバーレイでの ContextHub 値の使用 {#using-text-overlay-context-hub}
 
@@ -96,15 +96,15 @@ ht-degree: 100%
 
 **前提条件**
 
-AEM Screens プロジェクトの ContextHub 構成を設定する必要があります。
+AEM Screensプロジェクトの ContextHub 設定をセットアップします。
 
-データストアを使用してデータ駆動型アセットの変更を設定および管理する方法については、「[AEM Screens での ContextHub の設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-screens/user-guide/developing/configuring-context-hub.html)」を参照してください。
+データストアを使用してデータ駆動型アセットの変更を設定および管理する方法については、 [AEM Screensでの ContextHub の設定](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/configuring-context-hub.html).
 
 プロジェクトに必要な設定をおこなったら、次の手順に従って Google シートの値を使用します。
 
 1. **TextOverlayDemo**／**チャネル**／**TextSample** に移動して、アクションバーから「**プロパティ**」をクリックします。
 
-1. 「**パーソナライズ機能**」タブを選択して、ContextHub 設定をセットアップします。
+1. を選択します。 **パーソナライズ** 」タブをクリックして、ContextHub 設定をセットアップします。
 
    1. 「**ContextHub のパス**」として **libs**/**settings**/**cloudsettings**/**default**/**ContextHub 設定** を選択し、「**選択**」をクリックします。
 
@@ -131,9 +131,9 @@ AEM Screens プロジェクトの ContextHub 構成を設定する必要があ�
 1. **画像**&#x200B;ダイアログボックスから「**ContextHub**」タブに移動します。「**追加**」をクリックします。
 
    >[!NOTE]
-   >ContextHub 構成を設定していない場合、このオプションはプロジェクトで無効になります。
+   >ContextHub 設定を設定していない場合、このオプションはプロジェクトで無効になります。
 
-1. 「**プレースホルダー**」フィールドに&#x200B;**値**&#x200B;を入力し、Google スプレッドシートから値を取得する行を選択して **ContextHub 変数**（この場合、値は Google スプレッドシートの行 2 列 1 から取得されます）に入力します。**デフォルト値**&#x200B;を **20** として入力します（下の図参照）。完了したら、チェックマークをクリックします。
+1. 入力 **値** 内 **プレースホルダー** フィールドに入力します。Googleシートの値を取得する行を選択します。 **ContextHub 変数**.この場合、値はGoogleシートの 2 行目と 1 列目から取得されます。 次に、 **デフォルト値** as **20**（下図を参照） 完了したら、チェックマークをクリックします。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 

@@ -1,7 +1,7 @@
 ---
 title: マルチゾーンレイアウト
 seo-title: Multi-zone Layout
-description: マルチゾーンレイアウトを使用すると、マルチゾーンコンテンツを作成し、ビデオ、画像およびテキストなどの様々なアセットを使用して、単一のスクリーンに組み合わせることができます。 このページでは、この機能について詳しく見ていきます。
+description: マルチゾーンレイアウトを使用すると、複数のゾーンコンテンツを作成し、ビデオ、画像およびテキストなどの様々なアセットを使用して、単一のスクリーンに組み合わせることができます。このページでは、この機能について詳しく見ていきます。
 seo-description: Multi-zone Layout allows you to create multiple zone content and use a variety of assets such as videos, images and text that can be combined in a single screen. Follow this page to learn more.
 uuid: 2ad689ef-700a-4eed-b5e2-fc57f2288388
 contentOwner: jsyal
@@ -15,9 +15,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
 source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1129'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -33,17 +33,17 @@ ht-degree: 88%
 
 ## 概要 {#overview}
 
-***マルチゾーンレイアウト*** では、マルチゾーンコンテンツを作成し、ビデオ、画像およびテキストなどの様々なアセットを使用して、1 つの画面に組み合わせることができます。 画像、ビデオおよびテキスト取り込み、すべてを組み合わせて、直感的なデジタルエクスペリエンスを作成できます。
+***マルチゾーンレイアウト***&#x200B;を使用すると、複数のゾーンコンテンツを作成し、ビデオ、画像およびテキストなどの様々なアセットを使用して、単一のスクリーンに組み合わせることができます。画像、ビデオおよびテキスト取り込み、すべてを組み合わせて、直感的なデジタルエクスペリエンスを作成できます。
 
-プロジェクト要件に応じて、1 つのチャネルに複数のゾーンが必要になり、1 つの包括的なユニットとして編集することがあります。例えば、単一チャネルの 3 つの異なるゾーンで動作する、関連するソーシャルメディアフィードを含む製品シーケンスなどです。
+プロジェクト要件に応じて、1 つのチャネルに複数のゾーンが必要になり、1 つの包括的なユニットとして編集することがあります。例えば、単一チャネルの 3 つの個別のゾーンで実行する、関連するソーシャルメディアフィードを含む製品シーケンスなどです。
 
 
 ### 前提条件 {#prerequisites}
 
 この機能の実装を開始する前に、次のドキュメントを参照して概念を確実に理解しておいてください。
 
-* [AEM Screens プロジェクトの作成](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
-* [ディスプレイの作成](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
+* [AEM Screens プロジェクトの作成](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html?lang=ja)
+* [ディスプレイの作成](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html?lang=ja)
 * [ディスプレイへのチャネルの割り当て](/help/user-guide/channel-assignment.md)
 
 ## マルチゾーンレイアウトの作成 {#creating-multi-zone-layout}
@@ -123,7 +123,7 @@ ht-degree: 88%
 
 ### ロケーションとディスプレイの作成 {#creating-location}
 
-Screens Player でコンテンツを表示する場所とディスプレイを作成します。
+Screens Player でコンテンツを表示するには、ロケーションとディスプレイを作成します。
 
 1. **ロケーションの作成**
 
@@ -141,7 +141,7 @@ Screens Player でコンテンツを表示する場所とディスプレイを�
 
 ### ディスプレイへのチャネルの割り当て {#channel-channel}
 
-ディスプレイにチャネルを割り当てて、コンテンツを表示します。 ディスプレイにチャネルを割り当てるには、次の手順に従います。
+コンテンツを表示するには、ディスプレイにチャネルを割り当てます。ディスプレイにチャネルを割り当てるには、次の手順に従います。
 
 1. **ディスプレイへのチャネルの割り当て**
 
@@ -187,7 +187,7 @@ Screens Player でコンテンツを表示する場所とディスプレイを�
 
 上記の手順を使用してマルチゾーンレイアウトを実装したら、次の出力が表示されます。
 
-2 つの異なるゾーンにコンテンツを表示する出力を Screens Player で確認します。左ゾーンと右ゾーンです（両方とも埋め込みシーケンスをコンポーネントとして使用しています）。
+2 つの異なるゾーンにコンテンツを表示する出力を Screens Player で確認します。左ゾーンと右ゾーン（どちらも埋め込みシーケンスをコンポーネントとして使用します）。
 
 左ゾーンはシーケンスチャネルで、右ゾーンにはビデオが含まれています。
 

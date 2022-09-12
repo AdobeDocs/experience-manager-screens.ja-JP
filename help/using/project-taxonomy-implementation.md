@@ -5,9 +5,9 @@ description: ここでは、プロジェクトの分類について説明しま�
 seo-description: The page describes Project Taxonomy
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
 source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ AEM Screens デジタルサイネージソリューションを実装する前�
 * **スケジュール設定**
 * **コンテンツのプレビュー**
 
-これらの用語については、[用語集](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=en)を参照してください。
+これらの用語については、[用語集](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=ja)を参照してください。
 
 >[!NOTE]
 >
@@ -47,15 +47,15 @@ AEM Screens の作成者は、利用可能な AEM Screens コンポーネント�
 
 AEM Screens プロジェクトを開始する際に作成者は、通常、以下をおこないます。
 
-* [AEM Screens プロジェクトの作成](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html?lang=en)
-* [チャネルの作成](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels.html?lang=en)
-* [チャネルへのコンポーネントやアセットの追加](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel.html?lang=en)
-* [スケジュールの作成](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules.html?lang=en)
-* [場所の作成](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations.html?lang=en)
-* [ディスプレイの作成](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html?lang=en)
-* [ディスプレイへのチャネルの割り当て](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment.html?lang=en)
+* [AEM Screens プロジェクトの作成](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html?lang=ja)
+* [チャネルの作成](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels.html?lang=ja)
+* [チャネルへのコンポーネントやアセットの追加](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel.html?lang=ja)
+* [スケジュールの作成](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules.html?lang=ja)
+* [場所の作成](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations.html?lang=ja)
+* [ディスプレイの作成](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html?lang=ja)
+* [ディスプレイへのチャネルの割り当て](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment.html?lang=ja)
 
-* [AEM Screens Player でのコンテンツの表示](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/working-with-screens-player.html?lang=en)
+* [AEM Screens Player でのコンテンツの表示](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/working-with-screens-player.html?lang=ja)
 
 >[!NOTE]
->また、CSV/XLS スプレッドシートからAEM Screensプロジェクトに一連のロケーションを一括で読み込むこともできます。 詳しくは、[ファイルをソースとする新しいプロジェクトインポーター](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/project-importer.html?lang=en)を参照してください。
+>さらに、CSV／XLS スプレッドシートから AEM Screens プロジェクトに一連の場所を一括読み込みすることもできます。詳しくは、[ファイルをソースとする新しいプロジェクトインポーター](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/project-importer.html?lang=ja)を参照してください。

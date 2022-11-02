@@ -1,16 +1,16 @@
 ---
 title: アセットレベルのアクティベーション
-seo-title: アセットレベルのアクティベーション
+seo-title: Asset Level Activation
 description: ここでは、プレーヤーのローカルタイムゾーンで予定時間枠にチャネル内の特定のアセットをアクティブにする方法について説明します。
-seo-description: ここでは、プレーヤーのローカルタイムゾーンで予定時間枠にチャネル内の特定のアセットをアクティブにする方法について説明します。
-feature: Screens のオーサリング、アセットレベルのアクティベーション
+seo-description: Follow this page to learn how to activate a specific asset in a channel for a scheduled time frame in the player's local timezone.
+feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1450'
-ht-degree: 100%
+source-git-commit: 939d078def133e0db0e61ec80167f496c65ade46
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,6 +29,7 @@ ht-degree: 100%
    * 月分割
    * 分割の組み合わせ
 * 複数アセットのアクティベーション
+* ユニバーサル開始時刻のグローバルオーバーライド
 
 >[!CAUTION]
 >
@@ -222,3 +223,25 @@ ht-degree: 100%
    >複数アセットのアクティベーションが設定されているアセットの右上隅にスケジュールアイコンが表示されます。
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
+
+## ユニバーサル開始時刻のグローバルオーバーライド {#global-override-scheduling}
+
+***ユニバーサル開始時刻のグローバルオーバーライド***&#x200B;は、特定の時間に基づいて画像またはビデオアセットの再生をコンテンツ作成者が定義できる設定です。 個々のプレーヤーの時間/タイムゾーン設定は使用されません。
+
+通常、再生は任意のプレーヤーのローカル時間によって決定されますが、グローバルオーバーライドでは、特定の汎用開始時間を使用してアセットの再生を開始できます。
+
+これにより、コンテンツを割り当てたプレーヤーのローカル時計に関係なく、特定のアセットの再生が特定の日時に発生したとコンテンツ作成者が指定できます。
+
+ユニバーサル開始時刻のグローバルオーバーライドは、 **Activation** タブをクリックして、アセットのプロパティにアクセスします。 アセットスケジュール設定のグローバル上書きを実行するには、次の手順に従います。
+
+1. 任意のチャネルを選択し、アクションバーの「**編集**」をクリックして、チャネル内のコンテンツを追加または編集します。
+
+   ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
+
+1. 「**編集**」をクリックしてチャネルエディターを開き、スケジュールを設定するアセットを選択します。
+
+   ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
+
+1. グローバルオーバーライドの場合は、有効化時間を **タイムゾーンの上書き** セクションに表示されます。 この領域に何も入力しない場合、適用されるタイムゾーンはプレーヤーのタイムゾーンになります。
+
+

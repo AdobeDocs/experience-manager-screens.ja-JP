@@ -2,9 +2,9 @@
 title: AEM Screens でのオーサーとパブリッシュの設定
 description: AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成された後、複数のパブリッシュインスタンスにフォワードレプリケートされます。ここでは、オーサーとパブリッシュを AEM Screens 用に設定する方法について説明します。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: c152c6b46e33b42376cedeb7245d69c7c09ecd44
-workflow-type: ht
-source-wordcount: '2006'
+source-git-commit: 458ecfbbfb072a07d97d68f2a7ef1eb51f3db598
+workflow-type: tm+mt
+source-wordcount: '1974'
 ht-degree: 100%
 
 ---
@@ -240,8 +240,6 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 #### 手順 4：パブリッシュインスタンスへのデバイス設定の公開 {#step-publishing-device-configuration-to-publish-instances}
 
 **デバイスの確認**
-
-以下の手順を実行する前に、デバイス ID を確認してください。確認するには、CRXDE Lite で、パスを */home/users/screens/we-retail/devices* としてデバイス ID を検索します。
 
 次の手順に従って、デバイスユーザーをレプリケートします。
 

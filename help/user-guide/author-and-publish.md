@@ -2,10 +2,10 @@
 title: AEM Screens でのオーサーとパブリッシュの設定
 description: AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成された後、複数のパブリッシュインスタンスにフォワードレプリケートされます。ここでは、オーサーとパブリッシュを AEM Screens 用に設定する方法について説明します。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 458ecfbbfb072a07d97d68f2a7ef1eb51f3db598
+source-git-commit: ed9debd55cc4e142a46eda05e9e1aabc32532311
 workflow-type: tm+mt
 source-wordcount: '1974'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -102,20 +102,20 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 #### 標準レプリケーションエージェントの作成  {#creating-standard-replication-agents}
 
 1. pub1 の標準レプリケーションエージェントを作成します（すぐに使用できるデフォルトエージェントは既に設定されている必要があります）（例：*https://&lt;hostname>:4503/bin/receive?sling:authRequestLogin=1*）。
-1. pub2 の標準レプリケーションエージェントを作成します。pub1 のレプリケーションエージェントをコピーし、トランスポート設定のポートを変更することで、トランスポートを pub2 用に更新することができます（例：*https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*）。
+1. pub2 の標準レプリケーションエージェントを作成します。pub1 のレプリケーションエージェントをコピーし、トランスポート設定のポートを変更して、トランスポートを pub2 用に更新できます。 （例：*https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*）。
 
 #### Screens レプリケーションエージェントの作成 {#creating-screens-replication-agents}
 
-1. pub1 の AEM Screens レプリケーションエージェントを作成します。デフォルトで、ポート 4503 を指す名前付きの Screens レプリケーションエージェントが 1 つ用意されています。これを有効にする必要があります。
-1. pub2 の AEM Screens レプリケーションエージェントを作成します。pub1 の Screens レプリケーションエージェントをコピーし、pub2 の 4504 を指すようにポートを変更します。
+1. pub1 の screens レプリケーションエージェントを作成します。 そのまま使用できる、ポート 4503 を指す名前付きの Screens レプリケーションエージェントが 1 つあります。 これを有効にする必要があります。
+1. pub2 の screens レプリケーションエージェントを作成します。 pub1 の Screens レプリケーションエージェントをコピーし、pub2 の 4504 を指すようにポートを変更します。
 
    >[!NOTE]
    >Screens レプリケーションエージェントの設定方法については、[Screens レプリケーションエージェントの設定](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/configure-screens-replication.html?lang=ja)を参照してください。
 
 #### Screens リバースレプリケーションエージェントの作成 {#creating-screens-reverse-replication-agents}
 
-1. pub1 の標準リバースレプリケーションエージェントを作成します。
-1. pub2 の標準リバースレプリケーションエージェントを作成します。pub1 のリバースレプリケーションエージェントをコピーし、トランスポート設定のポートを変更することで、トランスポートを pub2 用に更新することができます
+1. pub1 のリバースレプリケーションエージェントを作成します。
+1. pub2 のリバースレプリケーションエージェントを作成します。 pub1 のリバースレプリケーションエージェントをコピーし、トランスポート設定のポートを変更することで、トランスポートを pub2 用に更新できます。
 
 ## パブリッシュトポロジのセットアップ {#setting-up-publish-topology}
 

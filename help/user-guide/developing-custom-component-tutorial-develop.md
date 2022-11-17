@@ -13,10 +13,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
 workflow-type: tm+mt
-source-wordcount: '2127'
-ht-degree: 100%
+source-wordcount: '2275'
+ht-degree: 93%
 
 ---
 
@@ -553,6 +553,15 @@ public class MyCustomHandler extends AbstractResourceHandler {
 以下のビデオでは、完成したコンポーネントと、それをシーケンスチャネルに追加する方法を示しています。この後、チャネルはロケーションのディスプレイに追加され、最終的に Screens プレーヤーに割り当てられます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
+
+## 他のページやフラグメントを埋め込むカスタムコンポーネントに関するその他の考慮事項 {#additional-considerations}
+
+開発中のカスタムコンポーネントで、他のページやエクスペリエンスフラグメントを組み込む場合で、チャネルを再公開せずに、埋め込みコンテンツの変更をプレーヤーで自動的に取り込むには、次の 2 つの制約を考慮する必要があります。
+
+1. を直接拡張する代わりに、 `foundation/components/parbase`を拡張するには、 `screens/core/components/content/page` または `screens/core/components/content/experiencefragment`
+2. 埋め込みコンテンツを参照するために使用するプロパティの名前は、次の条件を満たす必要があります `pagePath`
+
+また、これら 2 つの Screens コアコンポーネントを活用すると、必要な依存関係（クライアント側ライブラリ、フォントなど）の一部をバンドルする際にも対応できるというメリットがもたらされます。 コンポーネントダイアログのオフライン設定オプションを使用すると、これに対して使用する必要のあるカスタムオフラインハンドラーの責任が軽減されます。また、最初に使用する必要が完全になくなることもあります。
 
 ## 完成したコード {#finished-code}
 

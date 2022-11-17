@@ -2,10 +2,10 @@
 title: AEM Screens でのオーサーとパブリッシュの設定
 description: AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成された後、複数のパブリッシュインスタンスにフォワードレプリケートされます。ここでは、オーサーとパブリッシュを AEM Screens 用に設定する方法について説明します。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: ed9debd55cc4e142a46eda05e9e1aabc32532311
+source-git-commit: ab959584c01c10f76c231ab89b574886ad7346c5
 workflow-type: tm+mt
-source-wordcount: '1974'
-ht-degree: 94%
+source-wordcount: '1988'
+ht-degree: 93%
 
 ---
 
@@ -128,9 +128,10 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 1. `https://<host>:<port>/system/console/configMgr` に移動します。
 1. 「**Apache Sling Oak-Based Discovery Service**」の設定を選択します。
 1. トポロジコネクタ URL の更新：参加するすべてのパブリッシュインスタンスの URL を追加します。
-   * `https://localhost:4503/libs/sling/topology/connector`
-   * `https://localhost:4504/libs/sling/topology/connector`
-1. **Topology Connector サービスのホワイトリスト：参加するパブリッシュインスタンスをカバーする IP またはサブネットに合わせます。**
+   * `https://publish:4503/libs/sling/topology/connector`
+   * `https://publish:4504/libs/sling/topology/connector`
+1. **Topology Connector のホワイトリスト**:すべてのパブリッシュインスタンスをカバーする IP またはサブネットに合わせます。 すべてのパブリッシュインスタンスの IP/ホスト名を、ポート番号を含めずにホワイトリストに登録してください。
+
 1. 「**ローカルループの自動停止**」をオンにします。
 
 各パブリッシュインスタンスの設定は同じにする必要があり、ローカルループの自動停止は無限ループを防ぎます。

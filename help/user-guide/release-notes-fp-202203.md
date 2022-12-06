@@ -1,13 +1,14 @@
 ---
 title: 機能パック 202203 のリリースノート
-description: 2022 年 3 月 25 日にリリースされたAEM Screens機能パック202203について説明します。
+description: 2022年3月25日（PT）にリリースされた AEM Screens 機能パック 202203 については、このページを参照してください。
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 78afc81cf588e643ad8c046d8bb70774e6296a11
-workflow-type: tm+mt
+exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
+source-git-commit: a6708e1d91383c076ed822b50b9f37de163361c8
+workflow-type: ht
 source-wordcount: '263'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +25,7 @@ Adobe ID を使用して、AEM Screens 6.5.11 リリースの最新の機能パ�
 
 ## リリース日 {#release-date}
 
-AEM Screens機能パック202203のリリース日は 2022 年 3 月 25 日です。
+AEM Screens 機能パック 202203 のリリース日は 2022年3月25日（PT）です。
 
 ### 新機能 {#what-is-new}
 
@@ -40,7 +41,7 @@ AEM Screens機能パック202203のリリース日は 2022 年 3 月 25 日で�
 
 * Screens SPA チャネルが原因で、Windows プレーヤーで白い画面が表示されていました。これは修正されました。
 
-* この *wcmmode* パラメーターが、パブリッシュインスタンス上のすべての Screens リクエストから削除されました。
+* *wcmmode* パラメーターが、パブリッシュインスタンス上のすべての Screens リクエストから削除されました。
 
 * プレーヤーアクティビティ UI が期待どおりに動作するようになりました。
 

@@ -5,7 +5,7 @@ exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
 source-git-commit: ab959584c01c10f76c231ab89b574886ad7346c5
 workflow-type: tm+mt
 source-wordcount: '1988'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 1. トポロジコネクタ URL の更新：参加するすべてのパブリッシュインスタンスの URL を追加します。
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
-1. **Topology Connector のホワイトリスト**:すべてのパブリッシュインスタンスをカバーする IP またはサブネットに合わせます。 すべてのパブリッシュインスタンスの IP/ホスト名を、ポート番号を含めずにホワイトリストに登録してください。
+1. **Topology Connector 許可リストのリスト**：すべてのパブリッシュインスタンスをカバーする IP またはサブネットに適応します。ポート番号なしで、すべてのパブリッシュインスタンスの IP／ホスト名を、許可リストに登録してください。
 
 1. 「**ローカルループの自動停止**」をオンにします。
 

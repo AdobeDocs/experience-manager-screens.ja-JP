@@ -14,9 +14,9 @@ role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
 source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2275'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -39,12 +39,12 @@ ht-degree: 93%
 1. [AEM Screens Player](https://helpx.adobe.com/jp/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html)
 1. ローカル開発環境
 
-チュートリアルの手順とスクリーンショットは、**CRXDE-Lite** を使用して実行します。IDE を使用してチュートリアルを完了することもできます。AEM での開発に IDE を使用する方法について詳しくは、[こちら](https://helpx.adobe.com/jp/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#eclipse-ide)を参照してください。
+チュートリアルの手順とスクリーンショットは、**CRXDE-Lite** を使用して実行します。IDE を使用してチュートリアルを完了することもできます。AEM での開発に IDE を使用する方法について詳しくは、[こちら](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html?lang=ja)を参照してください。
 
 
 ## プロジェクトのセットアップ {#project-setup}
 
-Screens プロジェクトのソースコードは、通常、マルチモジュールの Maven プロジェクトとして管理されます。このチュートリアルを効率よく進めるために、[AEM プロジェクトアーキタイプ 13](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype) を使用してプロジェクトを事前に生成してあります。Maven AEM プロジェクトアーキタイプを使用したプロジェクトの作成について詳しくは、[こちら](https://helpx.adobe.com/jp/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#maven-multimodule)を参照してください。
+Screens プロジェクトのソースコードは、通常、マルチモジュールの Maven プロジェクトとして管理されます。このチュートリアルを効率よく進めるために、[AEM プロジェクトアーキタイプ 13](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype) を使用してプロジェクトを事前に生成してあります。Maven AEM プロジェクトアーキタイプを使用したプロジェクトの作成について詳しくは、[こちら](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html?lang=ja)を参照してください。
 
 1. [CRX パッケージマネージャー](http://localhost:4502/crx/packmgr/index.jsp)を使用して、次のパッケージをダウンロードしてインストールします。
 
@@ -556,12 +556,12 @@ public class MyCustomHandler extends AbstractResourceHandler {
 
 ## 他のページやフラグメントを埋め込むカスタムコンポーネントに関するその他の考慮事項 {#additional-considerations}
 
-開発中のカスタムコンポーネントで、他のページやエクスペリエンスフラグメントを組み込む場合で、チャネルを再公開せずに、埋め込みコンテンツの変更をプレーヤーで自動的に取り込むには、次の 2 つの制約を考慮する必要があります。
+開発中のカスタムコンポーネントに、他のページやエクスペリエンスフラグメントを組み込む場合、およびチャネルを再公開せずに、埋め込みコンテンツの変更をプレーヤーで自動的に取り込むには、次の 2 つの制約を考慮する必要があります。
 
-1. を直接拡張する代わりに、 `foundation/components/parbase`を拡張するには、 `screens/core/components/content/page` または `screens/core/components/content/experiencefragment`
-2. 埋め込みコンテンツを参照するために使用するプロパティの名前は、次の条件を満たす必要があります `pagePath`
+1. `foundation/components/parbase` を直接拡張する代わりに、`screens/core/components/content/page` または `screens/core/components/content/experiencefragment` のいずれかを拡張する必要があります
+2. 埋め込みコンテンツの参照に使用するプロパティの名前は、`pagePath` である必要があります
 
-また、これら 2 つの Screens コアコンポーネントを活用すると、必要な依存関係（クライアント側ライブラリ、フォントなど）の一部をバンドルする際にも対応できるというメリットがもたらされます。 コンポーネントダイアログのオフライン設定オプションを使用すると、これに対して使用する必要のあるカスタムオフラインハンドラーの責任が軽減されます。また、最初に使用する必要が完全になくなることもあります。
+また、これら 2 つの Screens コアコンポーネントを活用すると、必要な依存関係（クライアント側ライブラリ、フォントなど）の一部をバンドルできるという追加の恩恵も受けることができます。コンポーネントダイアログの「オフライン設定」オプションを使用すると、これに対して使用する必要のあるカスタムオフラインハンドラーの責任が軽減されます。また、場合によっては、最初から使用する必要が完全になくなることもあります。
 
 ## 完成したコード {#finished-code}
 

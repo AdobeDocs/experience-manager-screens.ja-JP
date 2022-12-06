@@ -1,14 +1,14 @@
 ---
 title: 機能パック 202112 のリリースノート
-description: 2022 年 1 月 12 日にリリースされた AEM Screens 機能パック 202112 について説明します。
+description: 2022年1月12日（PT）にリリースされた AEM Screens 機能パック 202112 について説明します。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
 source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -25,17 +25,17 @@ Adobe ID を使用して、AEM Screens 6.5.10 リリースの最新の機能パ�
 
 ## リリース日 {#release-date}
 
-AEM Screens 機能パック 202112 のリリース日は 2022 年 1 月 12 日です。
+AEM Screens 機能パック 202112 のリリース日は 2022年1月12日（PT）です。
 
 ### 新機能 {#what-is-new}
 
 * Android アプリケーションのアップデートは、Android 11（API レベル 30）を対象とするようになりました。現在、Android プレーヤーは API レベル 29 をターゲットにしています。
 
-* 以前のプレーヤー設定でディスプレイのプレビューが動かない
+* 以前のプレーヤー設定でディスプレイのプレビューが停止する
 
-* 一部の状況で、表示プレビューがレンダリングされない
+* 一部の状況でディスプレイのプレビューがレンダリングされない
 
-* スマート同期の同時ダウンロードエラーを修正
+* SmartSync の同時ダウンロードエラーを修正しました
 
 * 開発者は、マニフェストの処理の拡張性、明確性、容易さを確保するために、マニフェスト内の対応するアセットの下にレンディションエントリとしてのみリストされるアセットレンディションを表示できるようになりました。
 

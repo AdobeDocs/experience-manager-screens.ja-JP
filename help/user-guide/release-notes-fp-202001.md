@@ -1,26 +1,30 @@
 ---
 title: 機能パック 202001 のリリースノート
-seo-title: 機能パック 202001 のリリースノート
+seo-title: Release Notes for Feature Pack 202001
 description: 2020 年 1 月 31 日にリリースされた AEM Screens 機能パック 202001 について説明します。
-seo-description: 2020 年 1 月 31 日にリリースされた AEM Screens 機能パック 202001 について説明します。
-feature: 機能パック
+seo-description: Follow this page to get information for AEM Screens Feature Pack 202001 released on January 31, 2020.
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '284'
+exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
+source-git-commit: 1d591503bc337e5677a3c4030771463f7e178e1e
+workflow-type: tm+mt
+source-wordcount: '304'
 ht-degree: 100%
 
 ---
 
-
-# 機能パック 202001 のリリースノート {#release-notes-for-feature-pack}
+# 機能パック 202001 のリリースノート{#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
 >最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
 
-AEM 6.4 機能パック 7 および AEM 6.5 機能パック 3 向けの AEM Screens がリリースされました。詳細は以下のとおりです。
+## 入手方法 {#availability}
+
+AEM Screens では、AEM 6.5 機能パック 3 をリリースしました。
+
+Adobe ID を使用して、AEM Screens 6.5.3 リリースの最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からダウンロードできます。「**Adobe Experience Manager**」タブに移動し、「**Screens**」を検索して「**AEM 6.5 Screens FP3**」というタイトルが付いた最新の機能パックを入手します。
 
 ## リリース日 {#release-date}
 
@@ -52,6 +56,6 @@ AEM 6.4 機能パック 7 および AEM 6.5 機能パック 3 向けに、次の
 * Windows
 * Android
 
-#### AEM Screens Player のダウンロード {#aem-screens-player-downloads}
+#### AEM Screens Player のダウンロード   {#aem-screens-player-downloads}
 
 最新の AEM Screens Player のダウンロードとバグ修正について詳しくは、[**AEM Screens Player のダウンロード**](https://download.macromedia.com/screens/)を参照してください。

@@ -8,7 +8,7 @@ role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
 source-git-commit: 1d591503bc337e5677a3c4030771463f7e178e1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Adobe ID を使用して、AEM Screens 6.5.3 リリースの最新の機能パ�
 
 ## リリース日 {#release-date}
 
-AEM Screens 機能パック 202001 のリリース日は 2020 年 1 月 31 日です。
+AEM Screens 機能パック 202001 のリリース日は 2020年1月31日（PT）です。
 
 ### 新機能 {#what-s-new}
 
@@ -45,7 +45,7 @@ AEM Screens プロジェクトを実行する前に、ヘルスチェックフ�
 トランジションコンポーネントのプロパティは、例えば、 
 **タイプ**&#x200B;は&#x200B;**フェード**&#x200B;に、**デュレーション (ms)** は **1600** にデフォルトで設定されるようになりました。
 
-   詳細については、[トランジションの適用](/help/user-guide/applying-transitions.md)使用例を参照してください。
+   詳細については、[トランジションの適用](/help/user-guide/applying-transitions.md)ユースケースを参照してください。
 
 
 ### リリースされている AEM Screens Player {#released-aem-screens-players}

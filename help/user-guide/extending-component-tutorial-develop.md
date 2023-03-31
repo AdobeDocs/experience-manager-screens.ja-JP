@@ -14,9 +14,9 @@ role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
 source-git-commit: 29116a15d5486b2c446cae0d092c4d4b802fe9e7
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1771'
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 このチュートリアルを完了するには、以下が必要になります。
 
-1. AEM 6.5 +最新の Screens 機能パック
+1. AEM 6.5 および最新の Screens 機能パック
 1. [AEM Screens Player](/help/user-guide/aem-screens-introduction.md)
 1. ローカル開発環境
 

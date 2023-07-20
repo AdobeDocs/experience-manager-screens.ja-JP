@@ -7,8 +7,10 @@ getting-started-description: AEM Screens Best Practices Guide provides guidance 
 feature-set: Experience Manager Screens
 product: experience manager
 audience: end-user
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: tm+mt
+feature: Content
+role: User
+source-git-commit: 0286497306276c45c126b83b4c799970b145f42d
+workflow-type: ht
 source-wordcount: '131'
 ht-degree: 100%
 

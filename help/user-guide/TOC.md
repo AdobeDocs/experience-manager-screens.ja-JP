@@ -8,10 +8,10 @@ user-guide-description: 動的でインタラクティブなデジタルエク�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 0286497306276c45c126b83b4c799970b145f42d
+source-git-commit: b055ab685a1dcf5d53552971ecea42bffd81b848
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 100%
+source-wordcount: '489'
+ht-degree: 99%
 
 ---
 
@@ -47,6 +47,7 @@ ht-degree: 100%
       + [Android プレーヤー](implementing-android-player.md)
       + [Windows プレーヤー](implementing-windows-player.md)
       + [Tizen プレーヤー](tizen-player.md)
+      + [Cloud Player](implementing-cloud-player.md)
       + [プレーヤーの自動登録](auto-registration-players.md)
       + [リモート制御の使用](implementing-remote-control.md)
    + オーサーとパブリッシュ {#author-publish}

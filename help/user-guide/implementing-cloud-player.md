@@ -12,9 +12,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 source-git-commit: 718ef76b620accd7096be2e4b7ac53658cb7fce7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '455'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -24,46 +24,46 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Cloud Player の互換性を使用するには、様々なデバイスで一貫したパフォーマンスを実現するために、PWAがサポートされている最新のブラウザーが必要です。
+>Cloud Player の互換性には、様々なデバイスで一貫したパフォーマンスを実現するために、PWA をサポートする最新のブラウザーが必要です。
 
 ## Cloud Player のインストール {#installing-cloud-player}
 
-Cloud Player のインストールは、プラットフォームによって異なる場合があります。 一般に、最新のブラウザーを持つプラットフォームでは、次の手順に従って Cloud Player アプリケーションを実行できます。
+Cloud Player のインストールは、プラットフォームによって異なる場合があります。一般に、最新のブラウザーを備えたプラットフォームでは、次の手順に従って Cloud Player アプリケーションを実行できます。
 
-1. ブラウザーを開き、 [Cloud Player URL](https://player.adobescreens.com) をクリックします。
-1. ブラウザーは、Cloud Player がインストール可能かどうかを確認し、アドレスバーにインストールアイコンを表示します。
+1. ブラウザーを開き、アドレスバーに [Cloud Player の URL](https://player.adobescreens.com) を入力します。
+1. ブラウザーでは、Cloud Player がインストール可能かどうかが確認され、アドレスバーにインストールアイコンが表示されます。
 
 ![画像](/help/user-guide/assets/cloud-player-install.png)
 
-1. 確認ダイアログで、インストールアイコンをクリックし、インストールボタンをクリックします。 Cloud Player は、スタンドアロンアプリケーションとしてデバイスにインストールされ、アイコンを使用して起動できます。
+1. 確認ダイアログで、インストールアイコンとインストールボタンをクリックします。Cloud Player は、スタンドアロンアプリケーションとしてデバイスにインストールされ、アイコンを使用して起動できます。
 
 ### Cloud Player のインストールオプション {#cloud-player-install-option}
 
-1. PWAのインストールオプションは、「ホーム画面に追加」または A2HS 機能とも呼ばれます。  Web からのPWAのインストールに対するサポートは、ブラウザーおよびプラットフォームによって異なります。
-1. ブラウザーアプリがインストール可能かどうかを確認するための異なるPWAの条件があります。 一般に、ブラウザーは次の項目をチェックします（詳しくは、こちらを参照）。
-   * アプリケーションに、プラットフォームにアプリをインストールするために必要な最小限のキーを持つマニフェスト json ファイル（名前、アイコン、start_url、表示）がある場合
+1. PWA のインストールオプションは、「ホーム画面に追加」または A2HS 機能とも呼ばれます。Web からの PWA のインストールに対するサポートは、ブラウザーとプラットフォームによって異なります。
+1. ブラウザーごとに、PWA アプリがインストール可能かどうかを確認するための条件が異なります。一般に、ブラウザーでは次の項目が確認されます（詳しくは、こちらを参照）。
+   * アプリケーションに、プラットフォームにアプリをインストールするために必要な最小限のキー（名前、アイコン、start_url、表示）を含むマニフェスト JSON ファイルがある場合
    * アプリケーションに、フェッチイベントリスナーを含むサービスワーカーファイルがある場合。
-   * アプリは https 経由で提供される必要があります。
-1. インストールオプションは、ブラウザーやデバイスの種類に応じて異なる場所に表示される場合があります。 一部のブラウザーでは、オプションメニューバーのインストールアイコンが非表示になる場合があります。
+   * アプリは、https 経由で提供する必要があります。
+1. インストールオプションは、ブラウザーやデバイスのタイプに応じて異なる場所に表示される場合があります。一部のブラウザーでは、オプションメニューバーのインストールアイコンが非表示になる場合があります。
 
 ## Cloud Player の一括プロビジョニング {#bulk-provisioning}
 
-複数のデバイスでクラウドプレーヤーの一括プロビジョニングをおこなうには、次の手順を実行します。
+複数のデバイスで Cloud Player の一括プロビジョニングを行うには、次の手順に従います。
 
-1. URL を持つブラウザーをキオスクモードで実行できる MDM ソリューションを選択します。
-1. 次の手順に従うことで、すべてのデバイスに同じ設定を適用できます。
-   1. サーバー上で config.json をホストし、次のようにアクセス可能にします。 https://&lt;config_server_host>/config.json
-   1. クラウドプレーヤーをインストールし、ホスト設定を適用するには、次のようなクラウドプレーヤー URL を使用します。 https://player.adobescreens.com?playerConfigAddress=https://&lt;config_server_host>
-   1. Cloud Player アプリケーションは、のルートで config.json を探します。 &lt;config_server_host>を解析し、config.json を解析してカスタム設定を取得し、それらの設定を適用します。
-   1. これらの設定は、プレーヤーの再読み込みのたびに適用されます。
+1. キオスクモードでの URL を使用したブラウザーの実行をサポートする MDM ソリューションを選択します。
+1. すべてのデバイスに同じ設定を適用するには、次の手順に従います。
+   1. https://&lt;config_server_host>>/config.json のように、アクセスできるようにサーバー上で config.json をホストします。
+   1. Cloud Player をインストールし、ホストされた設定を適用するには、https://player.adobescreens.com?playerConfigAddress=https://&lt;config_server_host> のような Cloud Player の URL を使用します。
+   1. Cloud Player アプリケーションは、&lt;config_server_host> のルートで config.json を検索し、config.json を解析してカスタム設定を取得および適用します。
+   1. これらの設定は、プレーヤーのリロードごとに適用されます。
 
 ## Chrome OS での一括プロビジョニング {#bulk-provisioning-chrome}
 
-Chrome OS での一括プロビジョニングについて詳しくは、以下を参照してください。 [Chrome OS での Cloud Player のインストール](https://main--screens-franklin-documentation--hlxscreens.hlx.page/updates/cloud-player/guides/chromeos-install-cloud-player).
+Chrome OS での一括プロビジョニングについて詳しくは、[Chrome OS での Cloud Player のインストール](https://main--screens-franklin-documentation--hlxscreens.hlx.page/updates/cloud-player/guides/chromeos-install-cloud-player)を参照してください。
 
-## AEMインスタンスに必要な設定 {#bulk-provisioning-config-aem}
+## AEM インスタンスに必要な設定 {#bulk-provisioning-config-aem}
 
-AEMインスタンスのタイプに基づいて、次のガイドのいずれかを選択し、AEMおよび Cloud Player との CORS を有効にします。
-* [AEMオンプレミス/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
+AEM インスタンスのタイプに基づいて、次のガイドのいずれかを選択し、AEM および Cloud Player との CORS を有効にします。
+* [AEM オンプレミス／AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
 

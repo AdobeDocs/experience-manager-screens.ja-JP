@@ -14,16 +14,16 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 97bc64ce3c01ac2de301b17bf9f8610662d45f88
-workflow-type: ht
-source-wordcount: '1097'
-ht-degree: 100%
+source-git-commit: 970762bb08f19ab07917dd5a21f67a007ec1143f
+workflow-type: tm+mt
+source-wordcount: '1148'
+ht-degree: 93%
 
 ---
 
 # Windows 10 プレーヤーの実装 {#implementing-windows-player}
 
-ここでは、AEM Screens Windows 10 プレーヤーの設定について説明します。使用可能な設定ファイルやオプションと、開発およびテストに使用する推奨設定について説明します。
+ここでは、AEM Screens Windows 10 プレーヤーの設定について説明します。使用可能な設定ファイルやオプションと、開発およびテストに使用する設定のレコメンデーションについて説明します。
 
 ## Windows プレーヤーのインストール {#installing-windows-player}
 
@@ -106,11 +106,11 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 ## Windows プレーヤーの一括登録 {#bulk-registration}
 
-Windows プレーヤーを実装する場合、すべてのプレーヤーを個別に手動で設定する必要はありません。テストが済み、デプロイの準備ができた設定 JSON ファイルを更新することで、すべてのプレーヤーを設定できます。
+Windows プレーヤーを実装する場合、1 つのプレーヤーをすべて手動で設定する必要はありません。 テストが済み、デプロイの準備ができた設定 JSON ファイルを更新することで、すべてのプレーヤーを設定できます。
 
 設定では、すべてのプレーヤーが、設定ファイルで指定された同じサーバーに ping を送信することを確認されます。プレーヤーの登録は個別に手動で行う必要があります。
 
-Windows 10 プレーヤーを設定するには、次の手順を実行します。
+Windows 10 プレーヤーを設定するには、次の手順に従います。
 
 1. Windows プレーヤーをインストールします。
 1. 設定ファイルは ***%appdata%\com.adobe.aem.screens.player\config.json*** の下にあります。
@@ -118,16 +118,20 @@ Windows 10 プレーヤーを設定するには、次の手順を実行します
 
 ### ポリシー属性 {#policy-attributes}
 
-次の表に、参照用のポリシー JSON の例と共にポリシー属性を示します。
+次の表に、ポリシー属性と、参照用のポリシー JSON の例を示します。
+
 
 | **ポリシー名** | **目的** |
 |---|---|
-| server | Adobe Experience Manager（AEM） サーバーの URL。 |
+| server | Adobe Experience Manager(AEM) サーバーへの URL。 |
+| registrationKey | 事前共有キーを使用したデバイスの一括登録に使用されます。 |
 | resolution | デバイスの解像度。 |
 | rebootSchedule | プレーヤーを再起動するスケジュール。 |
 | enableAdminUI | サイト上でデバイスを設定するための Admin UI を有効にします。設定が完了して実稼働になったら、false に設定します。 |
 | enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。設定が完了して実稼働になったら、false に設定することを検討します。 |
-| enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にしておき、設定が完了して実稼働になったら無効にします。 |
+| enableActivityUI | ダウンロードや同期などのアクティビティの進行状況を表示できます。 トラブルシューティング用に有効にしておき、設定が完了して実稼働になったら無効にします。 |
+| cloudMode | Tizen プレーヤーから Screens as a Cloud Service に接続する場合は、true に設定します。AMS またはオンプレミス AEM に接続する場合は、false に設定します。 |
+| cloudToken | Screens as a Cloud Service に登録するための登録トークン。 |
 
 #### ポリシー JSON ファイルの例 {#example-policy-json-file}
 

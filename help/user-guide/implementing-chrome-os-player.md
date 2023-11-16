@@ -16,7 +16,7 @@ exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
 source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
 workflow-type: tm+mt
 source-wordcount: '893'
-ht-degree: 71%
+ht-degree: 98%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 71%
 
 Chrome 管理コンソールを設定するには、次の手順を実行します。
 
-1. Chrome 管理コンソールに登録します。 Chrome 管理コンソールのライセンスを取得する必要があります。 Chrome のデバイス設定の管理について詳しくは、[Google サポート](https://support.google.com/chrome/a/answer/1375678?hl=ja&amp;ref_topic=2935995)にお問い合わせください。
-1. Chrome OS デバイスをドメインに登録し、デバイスが Chrome 管理コンソールと同期されるまで 15 分待ちます。 Chrome デバイスの登録について詳しくは、 [ここ](https://support.google.com/chrome/a/answer/1360534?hl=ja).
-1. Chrome Web ストアで Chrome プレーヤーを利用できるようになります。
+1. Chrome 管理コンソールを登録します。Chrome 管理コンソールのライセンスを取得する必要があります。Chrome のデバイス設定の管理について詳しくは、[Google サポート](https://support.google.com/chrome/a/answer/1375678?hl=ja&amp;ref_topic=2935995)にお問い合わせください。
+1. Chrome OS デバイスをドメインに登録し、デバイスが Chrome 管理コンソールと同期するまで 15 分間待ちます。Chrome デバイスの登録について詳しくは、[ここ](https://support.google.com/chrome/a/answer/1360534?hl=ja)をクリックしてください。
+1. Chrome Web Store で Chrome プレーヤーが利用できるようになります。
 
 >[!NOTE]
 >
->Chrome OS デバイスのデプロイメントと管理には、Chrome 管理コンソールなどのデバイス管理ソリューションをお勧めします。 このドキュメントでは Chrome 管理コンソールの実装を提供していますが、他のベンダーも同様の機能を提供すると主張しています。 デバイス管理ソフトウェアのベンダーに問い合わせてください。
+>Chrome OS デバイスのデプロイメントおよび管理には、Chrome 管理コンソールなどのデバイス管理ソリューションをお勧めします。このドキュメントでは Chrome 管理コンソールの実装を扱いますが、他のベンダーにも同様の機能を提供するものがあります。デバイス管理ソフトウェアのベンダーにお問い合わせください。
 
 ## Chrome OS プレーヤーの命名 {#name-chrome}
 
@@ -87,23 +87,23 @@ Chrome プレーヤーに名前を設定するには、次の手順に従いま�
 
 1. Chrome Developer コンソールにログインします。
 1. **Device management**／**Chrome Devices** を参照し、制御したいデバイスを選択します。
-1. クリック **システムアクティビティとトラブルシューティング**.
-1. 次を確認します。 **デバイスを再起動** および **スクリーンキャプチャ** デバイスのプロパティ。 また、デバイスのステータスとヘルス情報を確認することもできます。
+1. 「**System Activity and troubleshooting**」をクリックします。
+1. デバイスの **Reboot Device** および **Screen Capture** プロパティを確認します。また、デバイスステータスおよびヘルス情報も確認できます。
 
 >[!NOTE]
 >
->これらの設定は、デバイスが登録されてから数分後に有効になる場合があります。 各オプションは、時間の経過と共に有効になる場合があります。
+>これらの設定は、デバイスが登録されてから数分後に有効になることがあります。各オプションは、時間が経過すると有効になることがあります。
 
 ### Chrome OS プレーヤーのリモート設定の設定 {#configuring-remote-configuration-of-chrome-os-players}
 
 AEM Screens Player は、キオスク対応アプリケーションです。Chrome OS プレーヤーのリモートポリシー設定にも対応しています。
 
-以下の手順に従って、プレーヤーの様々なオプションを設定します。
+プレーヤーの様々なオプションを設定するには、次の手順を実行します。
 
 1. Chrome 管理コンソールにログインします。
 1. **Device management**／**Chrome Management**／**App Management** をクリックします。AEM Screens Player がリストに表示されます。
-1. アプリケーションをクリックします。 **AEM Screens Player**.
-1. クリック **キオスク設定** を選択し、組織 (*テスト環境を使用する場合*) をクリックします。
+1. **AEM Screens Player** アプリケーションをクリックします。
+1. 「**Kiosk settings**」をクリックして、組織（*テスト環境を使用している場合*）を選択します。
 1. 「**upload configuration file**」をクリックして、設定ポリシー（*Json file*）をアップロードします。
 1. 「**保存**」をクリックします。ポリシーを同期するには、デバイスを再起動する必要があります。
 
@@ -142,20 +142,20 @@ AEM Screens Player は、キオスク対応アプリケーションです。Chro
 
 | **ポリシー名** | **目的** |
 |---|---|
-| server | Adobe Experience Manager(AEM) サーバーへの URL。 |
+| server | Adobe Experience Manager（AEM）サーバーの URL。 |
 | registrationKey | 事前共有キーを使用したデバイスの一括登録に使用されます。 |
 | resolution | デバイスの解像度。 |
 | rebootSchedule | プレーヤーを再起動するスケジュール。 |
 | enableAdminUI | サイト上でデバイスを設定するための Admin UI を有効にします。設定が完了して実稼働になったら、false に設定します。 |
 | enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。設定が完了して実稼働になったら、false に設定することを検討します。 |
-| enableActivityUI | ダウンロードや同期などのアクティビティの進行状況を表示できます。 トラブルシューティング用に有効にしておき、設定が完了して実稼働になったら無効にします。 |
+| enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にしておき、設定が完了して実稼働になったら無効にします。 |
 | cloudMode | Chrome プレーヤーで Screens に接続する場合は、true に設定しますas a Cloud Service。 AMS またはオンプレミス AEM に接続する場合は、false に設定します。 |
 | cloudToken | Screens as a Cloud Service に登録するための登録トークン。 |
 
 >[!NOTE]
 >
->ポリシー設定は厳密に適用され、プレーヤーの管理 UI で手動で上書きされるわけではありません。 特定のポリシーに対して手動のプレーヤー設定を許可する場合は、***ポリシー設定***&#x200B;にポリシーを指定しないでください。例えば、再起動スケジュールの手動設定を許可する場合は、ポリシー設定にキー ***rebootSchedule*** を指定しないでください。
+>ポリシー設定は厳格に適用されます。プレーヤーの Admin UI で、手動で上書きされることはありません。特定のポリシーに対して手動のプレーヤー設定を許可する場合は、***ポリシー設定***&#x200B;にポリシーを指定しないでください。例えば、再起動スケジュールの手動設定を許可する場合は、ポリシー設定にキー ***rebootSchedule*** を指定しないでください。
 
 ### Screens リモート制御の使用 {#using-remote-control}
 
-AEM Screens には、リモート制御機能が用意されています。この機能について詳しくは、[Screens リモート制御](implementing-remote-control.md)を参照してください。
+AEM Screens には、リモート制御機能が用意されています。この機能について詳しくは、[Screens リモート制御](implementing-remote-control.md)を参照してください

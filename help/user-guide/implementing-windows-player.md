@@ -17,7 +17,7 @@ exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
 source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -106,11 +106,11 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 ## Windows プレーヤーの一括登録 {#bulk-registration}
 
-Windows プレーヤーを実装する場合、1 つのプレーヤーをすべて手動で設定する必要はありません。 テストが済み、デプロイの準備ができた設定 JSON ファイルを更新することで、すべてのプレーヤーを設定できます。
+Windows プレーヤーを実装する場合、すべてのプレーヤーを個別に手動で設定する必要はありません。テストが済み、デプロイの準備ができた設定 JSON ファイルを更新することで、すべてのプレーヤーを設定できます。
 
 設定では、すべてのプレーヤーが、設定ファイルで指定された同じサーバーに ping を送信することを確認されます。プレーヤーの登録は個別に手動で行う必要があります。
 
-Windows 10 プレーヤーを設定するには、次の手順に従います。
+Windows 10 プレーヤーを設定するには、次の手順を実行します。
 
 1. Windows プレーヤーをインストールします。
 1. 設定ファイルは ***%appdata%\com.adobe.aem.screens.player\config.json*** の下にあります。
@@ -118,18 +118,18 @@ Windows 10 プレーヤーを設定するには、次の手順に従います。
 
 ### ポリシー属性 {#policy-attributes}
 
-次の表に、ポリシー属性と、参照用のポリシー JSON の例を示します。
+次の表に、参照用のポリシー JSON の例と共にポリシー属性を示します。
 
 
 | **ポリシー名** | **目的** |
 |---|---|
-| server | Adobe Experience Manager(AEM) サーバーへの URL。 |
+| server | Adobe Experience Manager（AEM）サーバーの URL。 |
 | registrationKey | 事前共有キーを使用したデバイスの一括登録に使用されます。 |
 | resolution | デバイスの解像度。 |
 | rebootSchedule | プレーヤーを再起動するスケジュール。 |
 | enableAdminUI | サイト上でデバイスを設定するための Admin UI を有効にします。設定が完了して実稼働になったら、false に設定します。 |
 | enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。設定が完了して実稼働になったら、false に設定することを検討します。 |
-| enableActivityUI | ダウンロードや同期などのアクティビティの進行状況を表示できます。 トラブルシューティング用に有効にしておき、設定が完了して実稼働になったら無効にします。 |
+| enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にしておき、設定が完了して実稼働になったら無効にします。 |
 | cloudMode | Windows プレーヤーで Screens に接続する場合は、true に設定しますas a Cloud Service。 AMS またはオンプレミス AEM に接続する場合は、false に設定します。 |
 | cloudToken | Screens as a Cloud Service に登録するための登録トークン。 |
 
@@ -201,4 +201,4 @@ $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 
 ### Screens リモート制御の使用 {#using-remote-control}
 
-AEM Screens には、リモート制御機能が用意されています。この機能について詳しくは、[Screens リモート制御](implementing-remote-control.md)を参照してください。
+AEM Screens には、リモート制御機能が用意されています。この機能について詳しくは、[Screens リモート制御](implementing-remote-control.md)を参照してください

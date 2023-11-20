@@ -14,9 +14,9 @@ role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
 source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '893'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -149,7 +149,7 @@ AEM Screens Player は、キオスク対応アプリケーションです。Chro
 | enableAdminUI | サイト上でデバイスを設定するための Admin UI を有効にします。設定が完了して実稼働になったら、false に設定します。 |
 | enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。設定が完了して実稼働になったら、false に設定することを検討します。 |
 | enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示します。トラブルシューティング用に有効にしておき、設定が完了して実稼働になったら無効にします。 |
-| cloudMode | Chrome プレーヤーで Screens に接続する場合は、true に設定しますas a Cloud Service。 AMS またはオンプレミス AEM に接続する場合は、false に設定します。 |
+| cloudMode | Chrome プレーヤーから Screens as a Cloud Service に接続する場合は、true に設定します。AMS またはオンプレミス AEM に接続する場合は、false に設定します。 |
 | cloudToken | Screens as a Cloud Service に登録するための登録トークン。 |
 
 >[!NOTE]

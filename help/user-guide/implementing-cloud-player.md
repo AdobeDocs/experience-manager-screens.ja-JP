@@ -11,10 +11,11 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: 718ef76b620accd7096be2e4b7ac53658cb7fce7
-workflow-type: ht
-source-wordcount: '455'
-ht-degree: 100%
+exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
+source-git-commit: 8d1b955e54650daf3a09b5f1c16f92f2e1143f2c
+workflow-type: tm+mt
+source-wordcount: '582'
+ht-degree: 78%
 
 ---
 
@@ -67,3 +68,24 @@ AEM インスタンスのタイプに基づいて、次のガイドのいずれ�
 * [AEM オンプレミス／AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
 
+## 外部コンテンツ取得のオフラインサポート {#offline-support}
+
+様々な使用シナリオでは、本来オフラインサポートを提供できない外部ソース（天気予報ウィジェットや Commerce 統合単一ページアプリケーションなど）からコンテンツを取得する必要が生じる場合があります。 これらの特定の使用例でオフライン機能を有効にするために、Cloud Player では、カスタムヘッダーのサポートを提供しています。
+Cloud Player は、ネットワークファーストのキャッシュ戦略を採用しています。つまり、ネットワークからコンテンツを取得し（その後、最新でキャッシュを更新）、キャッシュされたコンテンツ（可能な場合）にフォールバックします。 このようなコンテンツ取得のオフラインサポートを実装するには、リクエストにカスタムヘッダーを含める必要があります。 その後、カスタムヘッダーを含むリクエストがプレーヤーにキャッシュされ、ネットワーク初回キャッシュ戦略を維持しながら、コンテンツへのオフラインアクセスが容易になります。
+
+```
+// Sample fetch request with the 'X-Cache-Strategy' header
+fetch(externalUrl, {
+  headers: {
+    'X-Cache-Strategy': 'external-cache'
+  }
+})
+  .then(response => {
+    // Handle the response, which may be from the network or cache.
+    // Your logic here.
+  })
+  .catch(error => {
+    // Handle any errors that may occur during the fetch operation.
+    // Your error handling logic here.
+  }); 
+```

@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics と AEM Screens の統合
-seo-title: Adobe Analytics と AEM Screens の統合
+seo-title: Adobe Analytics Integration with AEM Screens
 description: ここでは、標準で利用できる、AEM Screens と Adobe Analytics の統合について説明し、提供される再生検証機能についても紹介します。
-seo-description: ここでは、標準で利用できる、AEM Screens と Adobe Analytics の統合について説明し、提供される再生検証機能についても紹介します。
+seo-description: Follow this page to learn about out of the box integration of AEM Screens with Adobe Analytics and provides you with a proof of play.
 uuid: 80d61af7-bf4d-46ca-a026-99a666c2e1a0
 contentOwner: jsyal
 content-type: reference
@@ -10,14 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
-feature: Screens の管理
+feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '704'
-ht-degree: 100%
+source-git-commit: 97820c602885ecf581ae1e6bada6c104aeeb4c70
+workflow-type: tm+mt
+source-wordcount: '690'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->この AEM Screens 機能は、AEM 6.4.2 機能パック 2 の最小バージョンまたは AEM 6.3.3 機能パック 4 がインストールされている場合にのみ使用できます。
+>この AEM Screens 機能は、AEM 6.4.2 機能パック 2 の最小バージョンまたは AEM 6.3.3 機能パック 4 がインストールされている場合にのみ使用できます。AEM Screens Cloud Service のお客様の場合、Screens Cloud でAdobe Analyticsを有効にするには、Adobeのリレーションシップマネージャーにお問い合わせください。
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Adobe Analytics を AEM Screens 用に設定するためのプロパティとそ
   <tr>
    <td><strong>Analytics URL</strong></td>
    <td>プレーヤーから得られる分析データを投稿するための URL。<br>
-   開発／ステージング環境の場合</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>プロダクション環境の場合</em> - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
+   開発／ステージング環境の場合</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>プロダクション環境の場合</em> - https://cc-api-data.adobe.io/ingest/<br /> <br /></td>
   </tr>
   <tr>
    <td><strong>Analytics API キー</strong></td>

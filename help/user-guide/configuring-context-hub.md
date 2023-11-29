@@ -1,8 +1,8 @@
 ---
 title: AEM Screens プロジェクトでの ContextHub の設定
-seo-title: AEM Screens プロジェクトでの ContextHub の設定
+seo-title: Configuring ContextHub in AEM Screens
 description: ここでは、データでトリガーされるコンテンツ変更のためのデータストアを定義するターゲティングエンジンの ContextHub について説明します。
-seo-description: ここでは、データでトリガーされるコンテンツ変更のためのデータストアを定義するターゲティングエンジンの ContextHub について説明します。
+seo-description: Follow this page to learn about ContextHub in the targeting engine to define data store for the purpose of data trigger content change.
 uuid: be06bda8-7de9-40d6-a84b-5ed8d8b3d180
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,16 +10,16 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-feature: Screens の開発
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '1533'
-ht-degree: 100%
+exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
+source-git-commit: 93e9514ebd25a4d84076174c4d90a0325b167393
+workflow-type: tm+mt
+source-wordcount: '1513'
+ht-degree: 98%
 
 ---
-
 
 # AEM Screens プロジェクトでの ContextHub の設定 {#configuring-contexthub-in-aem-screens}
 
@@ -92,7 +92,6 @@ Google シートが正しく設定されると、次のように表示されま�
    1. **ContextHubDemo**／**作成**／**ContextHub 設定**&#x200B;に&#x200B;**移動**&#x200B;し、「**保存**」をクリックします。
 
       >[!NOTE]
-      >
       > 「**保存**」をクリックすると、**ContextHub 設定**&#x200B;画面が開きます。
 
    1. **ContextHub 設定**&#x200B;画面で、**作成**／**ContentHub ストア設定**&#x200B;をクリックします。
@@ -118,7 +117,6 @@ Google シートが正しく設定されると、次のように表示されま�
    1. 「**タイトル**」に「**Google Sheets**」、「**ストア名**」に「**googlesheets**」、「**ストアの種類**」に「**contexthub.generic-jsonp**」と、それぞれ入力して、「**次へ**」をクリックします。
 
       >[!CAUTION]
-      >
       >Adobe Experience Manager（AEM）6.4 を使用している場合は、「**構成タイトル**」を「**googlesheets**」、「**ストアタイプ**」を「**contexthub.generic-jsonp**」として入力します。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub6.png)
@@ -126,7 +124,6 @@ Google シートが正しく設定されると、次のように表示されま�
    1. 固有の JSON 設定を入力します。例えば、次の JSON をデモ用に使用し、「**保存**」をクリックすると、ContextHub 設定に「**Google Sheets**」という名前のストア設定が表示されます。
 
       >[!IMPORTANT]
-      >
       >上記の JSON コードの該当するプレースホルダーを、Google シートのセットアップ時に取得した実際の *&lt;シート ID>* と *&lt;API キー>* に必ず置き換えてください。
 
       ```
@@ -147,13 +144,13 @@ Google シートが正しく設定されると、次のように表示されま�
 
       >[!NOTE]
       >
-      >上記のサンプルコードで、**pollInterval** は、値が更新される頻度をミリ秒単位で定義します。
-      >上記の JSON コードの該当するプレースホルダーを、Google シートのセットアップ時に取得した実際の *&lt;シート ID>* と *&lt;API キー>* に置き換えます。
+      上記のサンプルコードで、**pollInterval** は、値が更新される頻度をミリ秒単位で定義します。
+      >
+      上記の JSON コードの該当するプレースホルダーを、Google シートのセットアップ時に取得した実際の *&lt;シート ID>* と *&lt;API キー>* に置き換えます。
 
       >[!CAUTION]
       >
-      >Google シートのストア設定をグローバルフォルダー以外（例えば、独自のプロジェクトフォルダー内など）で作成した場合、ターゲティングは初期状態では機能しません。
-
+      Google シートのストア設定をグローバルフォルダー以外（例えば、独自のプロジェクトフォルダー内など）で作成した場合、ターゲティングは初期状態では機能しません。
 
 1. **ストアのセグメント化の設定**
 
@@ -164,8 +161,7 @@ Google シートが正しく設定されると、次のように表示されま�
    1. 「**次へ**」、「**保存**」の順にクリックします。
 
       >[!NOTE]
-      >
-      >json を定義するプロセスをスキップし、空白のままにしておく必要があります。
+json を定義するプロセスをスキップし、空白のままにしておく必要があります。
 
 
 ## 手順 3：オーディエンスのセグメントのセットアップ {#setting-up-audience}
@@ -181,7 +177,6 @@ Google シートが正しく設定されると、次のように表示されま�
       ![画像](/help/user-guide/assets/context-hub/context-hub11.png)
 
    1. **Higherthan50** セグメントを選択し、アクションバーの「**プロパティ**」をクリックします。
-
       ![画像](/help/user-guide/assets/context-hub/context-hub12.png)
 
    1. **セグメントプロパティ**&#x200B;から「**パーソナライゼーション**」タブを選択します。次の図に示すように、「**ContextHub のパス**」を `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations`、「**セグメントのパス**」を `/conf/screens/settings/wcm/segments` に設定し、「**保存**」をクリックします。
@@ -209,10 +204,9 @@ Google シートが正しく設定されると、次のように表示されま�
 
       >[!CAUTION]
       >
-      >既知の問題：
-
+      既知の問題：
 領域を追加するには、URL（例えば下記）から「master」を削除します。
-      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`
+      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`。
 
 1. **ブランドに領域を作成する**
 
@@ -267,8 +261,7 @@ Google シートが正しく設定されると、次のように表示されま�
    1. 「**プロパティ名**」のドロップダウンから「**googlesheets/value/1/0**」を選択します。
 
       >[!NOTE]
-      >
-      >**googlesheets/value/1/0** は、下図のように、Google シートの 1 列目の 2 行目に入力された値を参照します。
+**googlesheets/value/1/0** は、下図のように、Google シートの 1 列目の 2 行目に入力された値を参照します。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub17.png)
 
@@ -278,9 +271,10 @@ Google シートが正しく設定されると、次のように表示されま�
 
       >[!NOTE]
       >
-      >AEM で Google シートのデータが検証されると、セグメントが緑色で表示されます。
+      AEM で Google シートのデータが検証されると、セグメントが緑色で表示されます。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub18.png)
+
    同様に、プロパティ値を **Lowerthan50** へと編集します。
 
    1. **比較：プロパティ - 値**&#x200B;コンポーネントをエディターにドラッグ＆ドロップします。
@@ -292,7 +286,6 @@ Google シートが正しく設定されると、次のように表示されま�
    1. 「**演算子**」のドロップダウンメニューから「**次よりも小さい**」を選択します。
 
    1. 「**値**」に「**50**」と入力します。
-
 
 
 ## チャネルでのターゲティングの有効化 {#step-enabling-targeting-in-channels}
@@ -307,21 +300,22 @@ Google シートが正しく設定されると、次のように表示されま�
 
 1. 「**パーソナライズ機能**」タブを選択して、ContextHub 設定をセットアップします。
 
-   1. 「**ContextHub パス**」を `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` に設定、「**セグメントパス**」を `/conf/screens/settings/wcm/segments` に設定して、「**保存**」をクリックします。
+   1. を設定します。 **ContextHub のパス** から `/conf/screens/settings/wcm/segments` および **セグメントのパス** から `/conf/screens/settings/wcm/segments`.
+   1. ブランドをに設定 **ScreensBrand** ドロップダウンから、 **領域参照を設定** から **ScreensValue**.
 
    1. 「**保存して閉じる**」をクリックします。
 
       >[!NOTE]
       >
-      >ContextHub 設定とセグメントをそれぞれ最初に保存した、Context Hub とセグメントのパスを使用します。
+      ContextHub 設定とセグメントをそれぞれ最初に保存した、Context Hub とセグメントのパスを使用します。
 
-      ![画像](/help/user-guide/assets/context-hub/context-hub20.png)
+      ![画像](/help/user-guide/assets/context-hub/context-hub20New.png)
 
    1. **TargetChannel** チャネルに移動して選択し、アクションバーの「**編集**」をクリックします。
 
       >[!NOTE]
       >
-      >すべてを正しくセットアップしたら、下図に示すように、エディターのドロップダウンに「**ターゲティング**」オプションが表示されます。
+      すべてを正しくセットアップしたら、下図に示すように、エディターのドロップダウンに「**ターゲティング**」オプションが表示されます。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub21.png)
 

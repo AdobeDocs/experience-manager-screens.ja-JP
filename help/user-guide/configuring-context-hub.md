@@ -144,13 +144,13 @@ Google シートが正しく設定されると、次のように表示されま�
 
       >[!NOTE]
       >
-      上記のサンプルコードで、**pollInterval** は、値が更新される頻度をミリ秒単位で定義します。
+      >上記のサンプルコードで、**pollInterval** は、値が更新される頻度をミリ秒単位で定義します。
       >
       上記の JSON コードの該当するプレースホルダーを、Google シートのセットアップ時に取得した実際の *&lt;シート ID>* と *&lt;API キー>* に置き換えます。
 
       >[!CAUTION]
       >
-      Google シートのストア設定をグローバルフォルダー以外（例えば、独自のプロジェクトフォルダー内など）で作成した場合、ターゲティングは初期状態では機能しません。
+      >Google シートのストア設定をグローバルフォルダー以外（例えば、独自のプロジェクトフォルダー内など）で作成した場合、ターゲティングは初期状態では機能しません。
 
 1. **ストアのセグメント化の設定**
 
@@ -161,7 +161,7 @@ Google シートが正しく設定されると、次のように表示されま�
    1. 「**次へ**」、「**保存**」の順にクリックします。
 
       >[!NOTE]
-json を定義するプロセスをスキップし、空白のままにしておく必要があります。
+      >json を定義するプロセスをスキップし、空白のままにしておく必要があります。
 
 
 ## 手順 3：オーディエンスのセグメントのセットアップ {#setting-up-audience}
@@ -204,9 +204,9 @@ json を定義するプロセスをスキップし、空白のままにしてお
 
       >[!CAUTION]
       >
-      既知の問題：
-領域を追加するには、URL（例えば下記）から「master」を削除します。
-      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`
+      >既知の問題：
+      >領域を追加するには、URL（例えば下記）から「master」を削除します。
+      >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`
 
 1. **ブランドに領域を作成する**
 
@@ -261,7 +261,7 @@ json を定義するプロセスをスキップし、空白のままにしてお
    1. 「**プロパティ名**」のドロップダウンから「**googlesheets/value/1/0**」を選択します。
 
       >[!NOTE]
-**googlesheets/value/1/0** は、下図のように、Google シートの 1 列目の 2 行目に入力された値を参照します。
+      >**googlesheets/value/1/0** は、下図のように、Google シートの 1 列目の 2 行目に入力された値を参照します。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub17.png)
 
@@ -271,7 +271,7 @@ json を定義するプロセスをスキップし、空白のままにしてお
 
       >[!NOTE]
       >
-      AEM で Google シートのデータが検証されると、セグメントが緑色で表示されます。
+      >AEM で Google シートのデータが検証されると、セグメントが緑色で表示されます。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub18.png)
 
@@ -307,7 +307,7 @@ json を定義するプロセスをスキップし、空白のままにしてお
 
       >[!NOTE]
       >
-      ContextHub 設定とセグメントをそれぞれ最初に保存した、Context Hub とセグメントのパスを使用します。
+      >ContextHub 設定とセグメントをそれぞれ最初に保存した、Context Hub とセグメントのパスを使用します。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub20New.png)
 
@@ -315,7 +315,7 @@ json を定義するプロセスをスキップし、空白のままにしてお
 
       >[!NOTE]
       >
-      すべてを正しくセットアップしたら、下図に示すように、エディターのドロップダウンに「**ターゲティング**」オプションが表示されます。
+      >すべてを正しくセットアップしたら、下図に示すように、エディターのドロップダウンに「**ターゲティング**」オプションが表示されます。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub21.png)
 

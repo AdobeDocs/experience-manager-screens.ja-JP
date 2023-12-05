@@ -15,9 +15,9 @@ role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
 source-git-commit: 93e9514ebd25a4d84076174c4d90a0325b167393
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1513'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -206,7 +206,7 @@ json を定義するプロセスをスキップし、空白のままにしてお
       >
       既知の問題：
 領域を追加するには、URL（例えば下記）から「master」を削除します。
-      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`。
+      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`
 
 1. **ブランドに領域を作成する**
 
@@ -246,7 +246,7 @@ json を定義するプロセスをスキップし、空白のままにしてお
 
       ![画像](/help/user-guide/assets/context-hub/context-hub16.png)
 
-## 手順 5：オーディエンスのセグメントの編集 {#editing-audience-segmentation}
+## 手順 5：オーディエンスのセグメントの編集{#editing-audience-segmentation}
 
 1. **セグメントを編集する**
 
@@ -300,8 +300,8 @@ json を定義するプロセスをスキップし、空白のままにしてお
 
 1. 「**パーソナライズ機能**」タブを選択して、ContextHub 設定をセットアップします。
 
-   1. を設定します。 **ContextHub のパス** から `/conf/screens/settings/wcm/segments` および **セグメントのパス** から `/conf/screens/settings/wcm/segments`.
-   1. ブランドをに設定 **ScreensBrand** ドロップダウンから、 **領域参照を設定** から **ScreensValue**.
+   1. 「**ContextHub パス**」を `/conf/screens/settings/wcm/segments` に設定、「**セグメントパス**」を `/conf/screens/settings/wcm/segments` に設定します。
+   1. ドロップダウンからブランドを **ScreensBrand**、「**エリア参照を設定**」を **ScreensValue** に設定します。
 
    1. 「**保存して閉じる**」をクリックします。
 

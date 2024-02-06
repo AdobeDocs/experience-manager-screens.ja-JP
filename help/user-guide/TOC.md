@@ -8,9 +8,9 @@ user-guide-description: 動的でインタラクティブなデジタルエク�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: f20cdc76eb599000b4da4b2c654b3c191d963ed6
+source-git-commit: 5f67d469bb6e562e0bc91f098e1941aeea923c9e
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '516'
 ht-degree: 100%
 
 ---
@@ -117,7 +117,8 @@ ht-degree: 100%
    + [デバイスコントロールセンターからのトラブルシューティング](monitoring-screens.md)
    + [ビデオ再生の設定](troubleshoot-videos.md)
 + リリースノート {#release-notes}
-   + [機能パック 20240166 のリリースノート](release-notes-fp-20240116.md)
+   + [機能パック 202401 のリリースノート](release-notes-fp-202401.md)
+   + [機能パック 20240116 のリリースノート](release-notes-fp-20240116.md)
    + [機能パック 202204 のリリースノート](release-notes-fp-202204.md)
    + [機能パック 202203 のリリースノート](release-notes-fp-202203.md)
    + [機能パック 202112 のリリースノート](release-notes-fp-202112.md)

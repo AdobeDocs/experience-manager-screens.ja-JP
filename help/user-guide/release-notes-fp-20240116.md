@@ -1,13 +1,13 @@
 ---
 title: Screens 機能パック 20240116 のリリースノート
-description: 2024 年 1 月 17 日にリリースされたAEM Screens機能パック20240116について説明します。
+description: 2024年1月16日（PT）にリリースされた AEM Screens 機能パック 20240116 については、このページを参照してください。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 source-git-commit: f20cdc76eb599000b4da4b2c654b3c191d963ed6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 68%
 
 AEM Screens では、AEM 6.5 機能パック 11.2 をリリースしました。
 
-Adobe ID を使用して、AEM Screens 6.5.11.2 リリースの最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からダウンロードできます。に移動します。 **Adobe Experience Manager** タブと検索 **Screens** というタイトルの最新の機能パックを取得するには **AEM 6.5 Screens FP11.2**.
+Adobe ID を使用して、AEM Screens 6.5.11.2 リリースの最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からダウンロードできます。「**Adobe Experience Manager**」タブに移動し、「**Screens**」を検索して「**AEM 6.5 Screens FP11.2**」というタイトルが付いた最新の機能パックを入手します。
 
 ## リリース日 {#release-date}
 
-AEM Screens機能パック202204のリリース日は 2024 年 1 月 16 日です。
+AEM Screens 機能パック 202204 のリリース日は 2024年1月16日（PT）です。
 
 ### 新機能 {#what-is-new}
 

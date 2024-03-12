@@ -8,9 +8,9 @@ user-guide-description: 動的でインタラクティブなデジタルエク�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 5f67d469bb6e562e0bc91f098e1941aeea923c9e
+source-git-commit: 705540969c96d143294953d4fa391ad97a3aa0f5
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '522'
 ht-degree: 100%
 
 ---
@@ -119,6 +119,7 @@ ht-degree: 100%
 + リリースノート {#release-notes}
    + [機能パック 202401 のリリースノート](release-notes-fp-202401.md)
    + [機能パック 20240116 のリリースノート](release-notes-fp-20240116.md)
+   + [機能パック 20240215 のリリースノート](release-notes-fp-20240215.md)
    + [機能パック 202204 のリリースノート](release-notes-fp-202204.md)
    + [機能パック 202203 のリリースノート](release-notes-fp-202203.md)
    + [機能パック 202112 のリリースノート](release-notes-fp-202112.md)

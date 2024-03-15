@@ -1,13 +1,13 @@
 ---
 title: Screens 機能パック 20240215 のリリースノート
-description: 2024 年 2 月 15 日にリリースされたAEM Screens機能パック20240215について説明します。
+description: 2024年2月15日（PT）にリリースされた AEM Screens 機能パック 20240215 については、このページを参照してください。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 source-git-commit: d5b94814df33f00e23fcd22e85e50d6f02947d45
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 58%
 
 ## 入手方法 {#availability}
 
-AEM Screens では、AEM 6.5 機能パック 11.3 をリリースしました。
+AEM Screens は、AEM 6.5 機能パック 11.3 をリリースしました。
 
-Adobe ID を使用して、AEM Screens 6.5.11.3 リリースの最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からダウンロードできます。に移動します。 **Adobe Experience Manager** タブと検索 **Screens** というタイトルの最新の機能パックを取得するには **AEM 6.5 Screens FP11.3**.
+Adobe ID を使用して、AEM Screens 6.5.11.3 リリースの最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からダウンロードできます。「**Adobe Experience Manager**」タブに移動し、「**Screens**」を検索して「**AEM 6.5 Screens FP11.3**」というタイトルが付いた最新の機能パックを入手します。
 
 ## リリース日 {#release-date}
 
-AEM Screens機能パック20240215のリリース日は 2024 年 2 月 15 日です。
+AEM Screens 機能パック 20240215 のリリース日は 2024年2月15日（PT）です。
 
 ### 新機能 {#what-is-new}
 
@@ -32,6 +32,6 @@ AEM Screens機能パック20240215のリリース日は 2024 年 2 月 15 日で
 
 ### バグの修正 {#bug-fixes}
 
-* XSS の FP11.1 で前述した修正から、トグルチェックを削除しました。 `libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.openLink.js`. （SCRNS-3459）
+* `libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.openLink.js` の XSS 用に FP11.1 で以前に提供された修正から切替スイッチのチェックを削除しました。（SCRNS-3459）
 
 * `libs/screens/dcc/components/clientlibs/columnviewnavigatorshim.js` での XSS の問題。（SCRNS-3973）

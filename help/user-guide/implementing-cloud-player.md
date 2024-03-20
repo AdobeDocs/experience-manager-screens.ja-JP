@@ -76,9 +76,11 @@ AEM インスタンスのタイプに基づいて、次のガイドのいずれ�
 
 >[!NOTE]
 >
-## Googleによる Chrome アプリの廃止
-1. Chrome OS Hardware 上の Chrome アプリ： Googleは、Chrome アプリを積極的に非推奨 (PWAアプリに優先 ) とし、2025 年 1 月までの移行を予定しています。 その結果、Chrome OS 上のAEM Screens Player アプリは、共有タイムラインに基づいて機能しなくなります。現在、実稼動環境で Chrome Player を使用しているお客様は、Screens Cloud Player への移行を計画することをお勧めします。
-2. Mac、Windows および Linux 上の Chrome 拡張機能プレーヤー： Googleの廃止プロセスにより、Google Chrome バージョン 114 以降、Screens Chrome 拡張機能プレーヤーはサポートされなくなりました。 お客様の開発およびテスト要件をすべて Screens Cloud Player に移行することを強くお勧めします。
+>## Googleによる Chrome アプリの廃止
+>1. Chrome OS Hardware 上の Chrome アプリ： 
+>Googleは、Chrome アプリを積極的に非推奨 (PWAアプリに優先 ) とし、2025 年 1 月までの移行を予定しています。 その結果、Chrome OS 上のAEM Screens Player アプリは、共有タイムラインに基づいて機能しなくなります。現在、実稼動環境で Chrome Player を使用しているお客様は、Screens Cloud Player への移行を計画することをお勧めします。
+>2. Mac、Windows および Linux 上の Chrome 拡張機能プレーヤー： 
+>Googleの廃止プロセスにより、Google Chrome バージョン 114 以降、Screens Chrome 拡張機能プレーヤーはサポートされなくなりました。 お客様の開発およびテスト要件をすべて Screens Cloud Player に移行することを強くお勧めします。
 
 ## 外部コンテンツ取得のオフラインサポート {#offline-support}
 

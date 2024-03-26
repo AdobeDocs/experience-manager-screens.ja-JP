@@ -13,17 +13,19 @@ role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
 source-git-commit: 214da80530b472b67a30b575eb8ab11486d44692
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '858'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 # Cloud Player の実装  {#implementing-cloud-player}
 
-AEM Screensは、従来、ChromeOS、Windows、Android、Tizen など、様々なプラットフォーム向けに異なるネイティブプレーヤーアプリケーションを提供してきました。 しかし、ユーザーのニーズの進化に応えて、革新的なソリューションであるAEM Screens Cloud Player を導入しました。
-Cloud Player は、以前のネイティブアプリケーションからの大きな違いを表しています。 これは、サーバー上でホストされるプログレッシブ Web アプリ (PWA) です。 この変革的なアプローチにより、Web ブラウザー内で直接動作する、プラットフォームに依存しないプレーヤーを強化できます。
-Cloud Player へのアクセスは、https://player.adobescreens.comにアクセスするだけで簡単にできます。 プラットフォームに関係なく、ユーザーはデバイスにインストールして、シームレスなデジタルサイネージエクスペリエンスを楽しむことができます。 Cloud Player の互換性は、最新のブラウザーとPWAのサポートが存在することに左右され、様々なデバイスで一貫したパフォーマンスを実現します。 手動アップデートのお別れを告げ、自動的に修正や機能を提供するプレーヤーにこんにちは。常に指先で最新の機能を利用できます。 PWAベースのクラウドプレーヤーへの移行は、デジタルサイネージ製品の画期的な進化を示し、これまで以上にアクセシブルで、汎用性が高く、ユーザーフレンドリーな製品となりました。
+AEM Screens は従来、ChromeOS、Windows、Android、Tizen などの様々なプラットフォームに個別のネイティブプレーヤーアプリケーションを提供してきましたが、。ユーザーの進化するニーズに応えて、革新的なソリューションである AEM Screens Cloud Player を導入しました。
+Cloud Player は、以前のネイティブアプリケーションとは大きく異なります。これは、サーバー上でホストされるプログレッシブ web アプリ（PWA）です。この革新的なアプローチにより、お客様は web ブラウザー内で直接実行される、プラットフォームに依存しないプレーヤーを活用できます。
+Cloud Player へのアクセスは、https://player.adobescreens.com にアクセスするだけで簡単です。ユーザーは、どのプラットフォームを使用しているかに関わらず、このアプリをデバイスにインストールでき、シームレスなデジタルサイネージエクスペリエンスをお楽しみいただけます。Cloud Player の互換性は、PWA をサポートする最新のブラウザーの存在に左右され、
+様々なデバイス間で一貫したパフォーマンスを保証します。手動更新が不要になり、修正と機能を自動的に提供するプレーヤーを使用して、常に最新の機能をすぐに使用できるになります。PWA ベースの Cloud Player へのこの移行により、
+当社のデジタルサイネージ製品は画期的に進化し、これまで以上にアクセスしやすく、多用途で、ユーザーにわかりやすくなりました。
 この節では、Cloud Player の実装方法について説明します。
 
 
@@ -76,11 +78,11 @@ AEM インスタンスのタイプに基づいて、次のガイドのいずれ�
 
 >[!NOTE]
 >
->## Googleによる Chrome アプリの廃止
->1. Chrome OS Hardware 上の Chrome アプリ： 
->Googleは、Chrome アプリを積極的に非推奨 (PWAアプリに優先 ) とし、2025 年 1 月までの移行を予定しています。 その結果、Chrome OS 上のAEM Screens Player アプリは、共有タイムラインに基づいて機能しなくなります。現在、実稼動環境で Chrome Player を使用しているお客様は、Screens Cloud Player への移行を計画することをお勧めします。
->2. Mac、Windows および Linux 上の Chrome 拡張機能プレーヤー： 
->Googleの廃止プロセスにより、Google Chrome バージョン 114 以降、Screens Chrome 拡張機能プレーヤーはサポートされなくなりました。 お客様の開発およびテスト要件をすべて Screens Cloud Player に移行することを強くお勧めします。
+## Googleによる Chrome アプリの非推奨（廃止予定）
+1. Chrome OS ハードウェア上の Chrome アプリ：
+Google は、PWA アプリを優先して Chrome アプリを積極的に非推奨（廃止予定）にしており、2025年1月までに移行を完了する予定です。その結果、Chrome OS 上の AEM Screens Player アプリは、共有タイムラインに基づいて機能しなくなります。現在、実稼動環境で Chrome Player を使用しているお客様には、Screens Cloud Player への移行を計画することをお勧めします。
+2. Mac、Windows、Linux 上の Chrome 拡張機能プレーヤー：
+Google の非推奨（廃止予定）プロセスに伴い、Google Chrome バージョン 114 以降、Screens Chrome 拡張機能プレーヤーはサポートされなくなりました。すべての開発およびテスト要件に対応するには、Screens Cloud Player に移行することを強くお勧めします。
 
 ## 外部コンテンツ取得のオフラインサポート {#offline-support}
 
@@ -106,4 +108,4 @@ fetch(externalUrl, {
 
 ## フィードバック
 
-アドビはお客様のフィードバックを大切にしています。 これを通して皆様のご意見をお聞かせ下さい [フォーム](https://forms.office.com/r/MQXX9JsuEd).
+アドビでは、お客様のフィードバックを大切にしています。この[フォーム](https://forms.office.com/r/MQXX9JsuEd)を通じてご意見をお聞かせください。

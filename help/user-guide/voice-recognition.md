@@ -1,14 +1,14 @@
 ---
 title: AEM Screens の音声認識
 description: このページでは、AEM Screens の音声認識機能について説明します。
-feature: Screens のオーサリング
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1126'
-ht-degree: 100%
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '1119'
+ht-degree: 94%
 
 ---
 
@@ -57,7 +57,7 @@ AEM Screens プロジェクトで音声認識を実装するには、ディス�
 
    ![画像](assets/voice-recognition/vr-emb-1.png)
 
-1. 各チャネルに移動し、コンテンツを追加します。例えば、**VoiceDemo**／**チャネル**／**Main** に移動し、チャネルを選択します。アクションバーの「**編集**」をクリックしてエディターを開き、必要に応じてコンテンツ（画像／ビデオ）を追加します。同様に、**ColdDrinks** と **HotDrinks** の両方のチャネルにコンテンツを追加します。
+1. 各チャネルに移動し、コンテンツを追加します。例えば、次の場所に移動します。 **VoiceDemo** > **チャネル** > **メイン** をクリックし、チャネルを選択します。 アクションバーの「**編集**」をクリックしてエディターを開き、必要に応じてコンテンツ（画像／ビデオ）を追加します。同様に、**ColdDrinks** と **HotDrinks** の両方のチャネルにコンテンツを追加します。
 
    次の図に示すように、チャネルにアセット（画像）が含まれるようになりました。
 
@@ -83,7 +83,7 @@ AEM Screens プロジェクトで音声認識を実装するには、ディス�
 
 下の手順に従って、チャネルにタグを追加します。
 
-1. 各チャネルに移動し、コンテンツを追加します。例えば、**VoiceDemo**／**チャネル**／**Main** に移動し、チャネルを選択します。
+1. 各チャネルに移動し、コンテンツを追加します。例えば、次の場所に移動します。 **VoiceDemo** > **チャネル** > **メイン** をクリックし、チャネルを選択します。
 
 1. アクションバーの「**プロパティ**」をクリックします。
 
@@ -116,10 +116,10 @@ AEM Screens プロジェクトで音声認識を実装するには、ディス�
 
 1. AEM インスタンスに移動します。
 
-1. ツールアイコン／**タグ付け**をクリックします。
+1. ツールアイコン/をクリックします。 **タグ付け**.
    ![画像](assets/voice-recognition/vr-7.png)
 
-1. **作成**／**名前空間を作成**をクリックします。
+1. クリック **作成** > **名前空間を作成**.
    ![画像](assets/voice-recognition/vr-tag3.png)
 
 1. プロジェクトの名前（例：**VoiceDemo**）を入力し、「**作成**」をクリックします。
@@ -139,7 +139,7 @@ AEM Screens プロジェクトで音声認識を実装するには、ディス�
    ![画像](assets/voice-recognition/vr-loc.png)
 
    >[!NOTE]
-   >ディスプレイにチャネルを割り当てる方法については、[ディスプレイの作成と管理](/help/user-guide/managing-displays.md)を参照してください。
+   >ディスプレイにチャネルを割り当てる方法については、 [ディスプレイの作成と管理](/help/user-guide/managing-displays.md).
 
 1. チャネル（**Main**、**ColdDrinks**、**HotDrinks**）を **LobbyDisplay** に割り当てます。また、プロジェクトに **SplitScreen** チャネルを使用している場合は、それをディスプレイに割り当てていることを確認します。
 
@@ -157,7 +157,7 @@ AEM Screens プロジェクトで音声認識を実装するには、ディス�
 
    >[!NOTE]
    >
-   >ディスプレイにチャネルを割り当てる方法については、[ディスプレイの作成と管理](/help/user-guide/managing-displays.md)を参照してください。
+   >ディスプレイにチャネルを割り当てる方法については、 [ディスプレイの作成と管理](/help/user-guide/managing-displays.md).
 
 1. ディスプレイにチャネルを割り当てたら、**LobbyDisplay** に移動して、ディスプレイを選択します。アクションバーから「**プロパティ**」を選択します。
 

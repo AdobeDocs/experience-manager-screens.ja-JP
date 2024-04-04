@@ -1,19 +1,19 @@
 ---
 title: マルチゾーンレイアウトのカスタムテンプレートの作成
-seo-title: マルチゾーンレイアウトのカスタムテンプレートの作成
+seo-title: Creating Custom Templates in MultiZone Layouts
 description: ここでは、マルチゾーンレイアウトのカスタムテンプレートの作成について説明します。
-seo-description: ここでは、マルチゾーンレイアウトのカスタムテンプレートの作成について説明します。
+seo-description: Follow this page to learn about creating custom templates in MultiZone layouts.
 contentOwner: Jyotika Syal
-feature: Screens の開発
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '949'
-ht-degree: 100%
+exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '927'
+ht-degree: 96%
 
 ---
-
 
 # マルチゾーンレイアウトでのカスタムテンプレートの作成 {#creating-custom-templates-multizone}
 
@@ -66,7 +66,7 @@ Left20-LandscapeHD3Zone レイアウトを使用すると、プロジェクト�
 
    ![画像](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
-1. AEM インスタンス／ツール／**CRXDE Lite** から **CRXDE Lite** に移動します。
+1. に移動します。 **CRXDE Lite** AEMインスタンスで、 /ツール/ **CRXDE Lite**.
 
 1. **apps** の下に、**customtemplate** という名前のフォルダーを作成します。同様に、次の図に示すように、**customtemplate** の下で **template** という名前の別のフォルダーを作成します。
 
@@ -154,7 +154,7 @@ Left20-LandscapeHD3Zone レイアウトを使用すると、プロジェクト�
 
    ![画像](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
-## 背景レイヤーとしての画像の挿入 {#inserting-image}
+## 背景レイヤーとしての画像の挿入  {#inserting-image}
 
 画像を背景レイヤーとしてレイアウトに挿入できます。
 
@@ -174,6 +174,3 @@ Left20-LandscapeHD3Zone レイアウトを使用すると、プロジェクト�
 背景色を変更するには、CSS ファイル（手順 13 で作成した *static.css*）に次のコードを追加します。
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
-
-
-

@@ -3,13 +3,13 @@ title: Screens レプリケーションエージェントの設定
 description: このページでは、Screens レプリケーションエージェントの設定方法について説明します。
 role: Developer
 level: Intermediate
-source-git-commit: ede0eb02c97c99732c64a92c603e51bedecdbac8
-workflow-type: ht
-source-wordcount: '507'
-ht-degree: 100%
+exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '498'
+ht-degree: 97%
 
 ---
-
 
 # Screens レプリケーションエージェントの設定 {#configuring-screens-replication-agent}
 
@@ -36,7 +36,7 @@ Screens レプリケーションエージェントの設定を完了するには
 
 1. AEM オーサーインスタンスに移動します。
 
-1. ツール／**セキュリティ**／**ユーザー**&#x200B;をクリックします。
+1. ツール/をクリックします。 **セキュリティ** > **ユーザー**.
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication1.png)
 
@@ -97,7 +97,7 @@ Screens レプリケーションエージェントの設定を完了するには
 
 1. AEM インスタンスに移動します。
 
-1. ツール／**導入**／**レプリケーション**&#x200B;をクリックします。
+1. ツール/をクリックします。 **導入** > **レプリケーション**.
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 

@@ -1,19 +1,19 @@
 ---
 title: テキストオーバーレイのカスタムブランディングとスタイルの適用
-seo-title: テキストオーバーレイのカスタムブランディングとスタイルの適用
+seo-title: Applying Custom Branding and Styling for Text Overlays
 description: このページでは、テキストオーバーレイのカスタムブランディングとスタイル設定を適用する方法について説明します。
-seo-description: このページでは、テキストオーバーレイのカスタムブランディングとスタイル設定を適用する方法について説明します。
+seo-description: Follow this page to learn how to apply custom branding and styling for Text Overlays.
 contentOwner: Jyotika Syal
-feature: Screens の開発
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '628'
-ht-degree: 100%
+exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 93%
 
 ---
-
 
 # テキストオーバーレイのカスタムブランディングとスタイル設定 {#creating-custom-branding-styling}
 
@@ -34,7 +34,7 @@ ht-degree: 100%
    >[!NOTE]
    >チャネルエディターでテキストオーバーレイをアセットに追加する方法については、[テキストオーバーレイ](/help/user-guide/text-overlay.md)を参照してください。
 
-1. AEM インスタンス／ツール／**CRXDE Lite** から CRXDE Lite に移動します。
+1. AEMインスタンス/CRXDE Lite/ツールに移動します。 **CRXDE Lite**.
 
 1. カスタムデザインを `/apps/settings/wcm/designs/<your-project>/` に作成する必要があります。例えば、この場合は、`/apps/settings/wcm/designs/customstyle/` に移動します。
 
@@ -110,7 +110,7 @@ ht-degree: 100%
 
 次の手順に従って、更新したデザインをテキストオーバーレイに表示します。
 
-1. **customstyle** という AEM Screens プロジェクトから、**チャネル**／**DemoBrand** に移動します。チャネルを選択し、アクションバーの「**編集**」をクリックして、エディターを開きます。
+1. という名前のAEM Screensプロジェクトに移動します。 **customstyle** > **チャネル** > **DemoBrand**. チャネルを選択し、アクションバーの「**編集**」をクリックして、エディターを開きます。
 
 1. デザインは「**デザイン**」フィールドに追加されたので、前述のように「**プレビュー**」をクリックすると、現在のスタイルが画像上のテキストオーバーレイで表示されます。
 
@@ -131,12 +131,3 @@ ht-degree: 100%
    ![画像](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
    これで、アセットに追加されたテキストオーバーレイのブランドやカスタムスタイルを更新する準備が整いました。
-
-
-
-
-
-
-
-
-

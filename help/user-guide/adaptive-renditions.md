@@ -2,10 +2,10 @@
 title: アダプティブレンディションのアーキテクチャ概要と設定
 description: このページでは、AEM Screens のアダプティブレンディションのアーキテクチャ概要と CRXDE Lite での設定について説明します。
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: e5da55eeb5da3d0ef9f21bd47bfec75d660a6a1e
-workflow-type: ht
-source-wordcount: '658'
-ht-degree: 100%
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '645'
+ht-degree: 97%
 
 ---
 
@@ -59,7 +59,7 @@ AEM Screens 開発者は、すべてのコンテンツバリエーションを�
 
 1. **CRXDE Lite** から `/conf/screens/sling:configs/rendition-mapping` のパスに移動します。
 
-1. **rendition-mapping** の配下にノードを作成します。**rendition-mapping** を右クリックし、**作成**／**ノードを作成**&#x200B;を選択します（下図を参照）。
+1. **rendition-mapping** の配下にノードを作成します。右クリック **rendition-mapping** をクリックし、 **作成** > **ノードを作成**（下の図を参照）。
 
    ![画像](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 

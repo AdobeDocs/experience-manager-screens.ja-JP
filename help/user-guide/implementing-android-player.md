@@ -14,18 +14,18 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
-workflow-type: ht
-source-wordcount: '1529'
-ht-degree: 100%
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '1510'
+ht-degree: 91%
 
 ---
 
 # Android プレーヤーの実装 {#implementing-android-player}
 
-ここでは、Android プレーヤーの設定について説明します。使用可能な設定ファイルやオプションと、開発およびテストに使用する推奨設定について説明します。
+ここでは、Android プレーヤーの設定について説明します。使用可能な設定ファイルやオプションと、開発およびテストに使用する設定のレコメンデーションについて説明します。
 
-さらに、プレーヤーをクラッシュから回復させるソリューションとして、**ウォッチドッグ**&#x200B;があります。アプリケーションは、ウォッチドッグサービスに登録し、アプリケーション自体がアライブであることを知らせるメッセージを定期的に送信する必要があります。ウォッチドッグサービスに、所定の時間内にキープアライブメッセージが届かないと、ウォッチドッグサービスは、デバイスをリブートしてクリーンリカバリを試みるか（ウォッチドッグサービスが十分な権限が持つ場合）、アプリケーションの再起動を試みます。
+さらに、プレーヤーをクラッシュから回復させるソリューションとして、**ウォッチドッグ**&#x200B;があります。アプリケーションは、自身をウォッチドッグサービスに登録し、その後、そのアプリケーションが有効であることを示すメッセージを定期的にサービスに送信する必要があります。 ウォッチドッグサービスが所定の時間内にキープアライブメッセージを受け取らない場合、サービスは（十分な権限を持っている場合は）デバイスを再起動して、クリーンリカバリを試みるか、アプリケーションを再起動します。
 
 ## Android プレーヤーのインストール {#installing-android-player}
 
@@ -71,7 +71,7 @@ AEM オーサーインスタンスおよびパブリッシュインスタンス�
 
 ## Android ウォッチドッグを実装する {#implementing-android-watchdog}
 
-Android のアーキテクチャ上、デバイスをリブートするには、アプリケーションがシステム権限を持っている必要があります。そのためには、製造元の署名キーを使用して apk に署名する必要があります。この署名を行わないと、ウォッチドッグはデバイスをリブートするのではなく、プレーヤーアプリケーションを再起動します。
+Android のアーキテクチャにより、デバイスを再起動するには、アプリケーションにシステム権限が必要です。 そのためには、製造元の署名キーを使用して apk に署名する必要があります。この署名を行わないと、ウォッチドッグはデバイスをリブートするのではなく、プレーヤーアプリケーションを再起動します。
 
 ### 製造元のキーを使用した Android apk への署名 {#signage-of-android-apks-using-manufacturer-keys}
 
@@ -81,15 +81,15 @@ Android のアーキテクチャ上、デバイスをリブートするには、
 >
 >前提条件：
 >
->以下の手順を実行する前に、Android SDK をインストールしてください。
+>次の手順を実行する前に、Android SDK をインストールしておく必要があります。
 
 次の手順に従って、製造元のキーを使用して Android apk に署名します。
 
 1. Google Play または [AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)ページから apk をダウンロードします。
 1. 製造元のプラットフォームキーを入手して、*pk8* ファイルと *pem* ファイルを取得します。
 
-1. find ~/Library/Android/sdk/build-tools -name &quot;apksigner&quot; を使用して、Android SDK の apksigner ツールを見つけます。
-1. &lt;pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk
+1. find ～/Library/Android/sdk/build-tools -name &quot;apksigner&quot;を使用して、android sdk で apksigner ツールを探します。
+1. &lt;pathto> /apksigner sign —key platform.pk8 —cert platform.x509.pem aemscreensplayer.apk
 1. Android SDK の zip align ツールへのパスを見つけます。
 1. &lt;pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk
 1. adb install を使用して、デバイスに ***aemscreensaligned.apk*** をインストールします。
@@ -187,7 +187,7 @@ Android プレーヤーを一括デプロイする場合、プレーヤーを 1 
 
 Android プレーヤーに名前を設定するには、次の手順に従います。
 
-1. **設定**／**デバイス情報**&#x200B;に移動します。
+1. に移動します。 **設定** > **デバイスについて**
 1. デバイス名を編集および設定して、Android プレーヤーに名前を付けます
 
 ### エンタープライズモビリティ管理を使用した Android プレーヤーの一括プロビジョニングの実装 {#implementation}
@@ -208,4 +208,4 @@ Android プレーヤーの一括プロビジョニングを可能にするには
 
 ### Screens リモート制御の使用 {#using-remote-control}
 
-AEM Screens には、リモート制御機能が用意されています。この機能について詳しくは、[Screens リモート制御](implementing-remote-control.md)を参照してください。
+AEM Screens には、リモート制御機能が用意されています。この機能について詳しくは、[Screens リモート制御](implementing-remote-control.md)を参照してください

@@ -14,10 +14,10 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
-workflow-type: ht
-source-wordcount: '1148'
-ht-degree: 100%
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '1145'
+ht-degree: 99%
 
 ---
 
@@ -77,7 +77,7 @@ AEM オーサーインスタンスおよびパブリッシュインスタンス�
 
 Windows プレーヤーに名前を設定するには、次の手順に従います。
 
-1. **スタート**／**ファイル名を指定して実行**&#x200B;をクリックします。
+1. クリック： **開始** > **実行**
 1. `system.cpl` と入力します。
 1. 「コンピューター名」タブを使用して、コンピューターのホスト名を設定します
 

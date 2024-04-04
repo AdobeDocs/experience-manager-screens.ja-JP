@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: b56844c66bfa980013b610523842c7ac0c30f44d
-workflow-type: ht
-source-wordcount: '931'
-ht-degree: 100%
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '908'
+ht-degree: 99%
 
 ---
 
@@ -31,42 +31,43 @@ AEM Screens 機能パック 202109 のリリース日は 2021 年 9 月 23 日�
 
 * **ビデオのサムネールサポート**
 
-   ビデオのサムネールが AEM Screens でサポートされるようになりました。コンテンツ作成者は、ビデオのサムネールを定義して、その画像をプレースホルダーとして使用できるようにし、実際のビデオを該当チームが仕上げている間に、コンテンツの再生とターゲティングを適切にテストすることができます。その画像は、ビデオの再生に失敗した場合でも使用できます。
+  ビデオのサムネールが AEM Screens でサポートされるようになりました。コンテンツ作成者は、ビデオのサムネールを定義して、その画像をプレースホルダーとして使用できるようにし、実際のビデオを該当チームが仕上げている間に、コンテンツの再生とターゲティングを適切にテストすることができます。その画像は、ビデオの再生に失敗した場合でも使用できます。
 詳しくは、[ビデオのサムネールサポート](/help/user-guide/thumbnail-support.md)を参照してください。
 
 * **基本的な再生モニタリング**
 
-   AEM Screens では、基本的な再生モニタリングをサポートするようになりました。プレーヤーでは、各 ping（デフォルトは 30 秒）で様々な再生指標がレポートされるようになります。指標に基づいて、様々なエッジケース（動きのないエクスペリエンス、空白の画面、スケジュールの問題など）を検出できます。この機能を使用すると、プレーヤーがコンテンツを適切に再生しているかどうかをチームがリモートで監視できます。また、空白の画面やフィールド内のエクスペリエンスの不具合に対する反応性が向上し、不具合のあるエクスペリエンスがエンドユーザーに表示されるリスクが低くなります。
+  AEM Screens では、基本的な再生モニタリングをサポートするようになりました。プレーヤーでは、各 ping（デフォルトは 30 秒）で様々な再生指標がレポートされるようになります。指標に基づいて、様々なエッジケース（動きのないエクスペリエンス、空白の画面、スケジュールの問題など）を検出できます。この機能を使用すると、プレーヤーがコンテンツを適切に再生しているかどうかをチームがリモートで監視できます。また、空白の画面やフィールド内のエクスペリエンスの不具合に対する反応性が向上し、不具合のあるエクスペリエンスがエンドユーザーに表示されるリスクが低くなります。
 詳しくは、[基本的な再生モニタリング](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=ja#playback-monitoring)を参照してください。
 
 * **コンテンツ割り当てレポートの更新**
 
-   コンテンツ割り当てレポートが最適化され、ユーザーエクスペリエンスが向上しました。ダウンロード可能なレポートでは、ロケーション、ディスプレイ、デバイスなどの改善されたプレーヤー関連のエンティティが一方のスプレッドシートタブに表示され、チャネルやアセットなどのコンテンツプロバイダー情報がもう一方のタブに表示されます。
+  コンテンツ割り当てレポートが最適化され、ユーザーエクスペリエンスが向上しました。ダウンロード可能なレポートでは、ロケーション、ディスプレイ、デバイスなどの改善されたプレーヤー関連のエンティティが一方のスプレッドシートタブに表示され、チャネルやアセットなどのコンテンツプロバイダー情報がもう一方のタブに表示されます。
 詳しくは、[コンテンツ割り当てレポート](/help/user-guide/content-assignment-report.md)を参照してください。
 
 * **アダプティブレンディション**
 
-   アダプティブレンディションを使用すると、顧客定義のルールに基づいて、デバイスに最適なレンディションをデバイスで自動的に選択できます。
+  アダプティブレンディションを使用すると、顧客定義のルールに基づいて、デバイスに最適なレンディションをデバイスで自動的に選択できます。
 
-   AEM Screens 開発者は、すべてのコンテンツバリエーションを手動で作成しなくても、デバイス固有のアセットレンディションが自動的にダウンロードされて再生されるように設定できるようになりました。詳しくは、[アダプティブレンディション：アーキテクチャ概要と設定](/help/user-guide/adaptive-renditions.md)を参照してください。
+  AEM Screens 開発者は、すべてのコンテンツバリエーションを手動で作成しなくても、デバイス固有のアセットレンディションが自動的にダウンロードされて再生されるように設定できるようになりました。詳しくは、[アダプティブレンディション：アーキテクチャ概要と設定](/help/user-guide/adaptive-renditions.md)を参照してください。
 
-   さらに、AEM Screens コンテンツ作成者は、アダプティブレンディションを使用するようにアセットを設定できるほか、デバイスを大規模なネットワークに移行して AEM Screens チャネルでこの機能を利用することもできます。詳しくは、[AEM Screens でのアダプティブレンディションの使用](/help/user-guide/using-adaptive-renditions.md)を参照してください。
+  さらに、AEM Screens コンテンツ作成者は、アダプティブレンディションを使用するようにアセットを設定できるほか、デバイスを大規模なネットワークに移行して AEM Screens チャネルでこの機能を利用することもできます。詳しくは、[AEM Screens でのアダプティブレンディションの使用](/help/user-guide/using-adaptive-renditions.md)を参照してください。
 
 * **V3 マニフェストのサポート**
 
-   マニフェストバージョン v3 に対応するように Dispatcher を設定できるようになりました。v3 マニフェストを有効にするには、次を設定する必要があります。
+  マニフェストバージョン v3 に対応するように Dispatcher を設定できるようになりました。v3 マニフェストを有効にするには、次を設定する必要があります。
 
    * オーサーとパブリッシュ環境の両方で、保留中オフラインコンテンツジョブを消去します
 
       * オーサーとパブリッシュで crx/de に移動します
 
-      * ツール／クエリをクリックします
+      * ツール/クエリをクリックします。
 
       * クエリで次を使用します `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
 
       * これにより、現在実行中またはキューで保留中のオフラインコンテンツジョブが一覧表示されます
 
       * クエリから返されるオフラインコンテンツジョブがなくなるまで待ちます
+
    * `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` でコンテンツ同期を無効にする
 
    * `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl` でスマート同期を有効にする
@@ -78,7 +79,6 @@ AEM Screens 機能パック 202109 のリリース日は 2021 年 9 月 23 日�
 
    * 詳しくは、[マニフェストバージョン v3 に対応した Dispatcher の設定](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=ja#configuring-dispatcherv3)を参照してください。
    * さらに、カスタムコンポーネントを v3 マニフェストの一部として使用する場合は、[カスタムハンドラーのテンプレート](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=ja#custom-handlers)を参照してください。
-
 
 
 ### バグ修正 {#bug-fixes}

@@ -1,8 +1,8 @@
 ---
 title: デバイスの登録
-seo-title: デバイスの登録
+seo-title: Device Registration
 description: このページでは、AEM Screens プロジェクトでのデバイス登録プロセスについて説明します。
-seo-description: このページでは、AEM Screens プロジェクトでのデバイス登録プロセスについて説明します。
+seo-description: This page describes the device registration process in an AEM Screens project.
 uuid: 5365e506-1641-4a0c-b34d-c39da02f700b
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ content-type: reference
 topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
-feature: Screens の管理、デバイスの登録
+feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '789'
-ht-degree: 100%
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '761'
+ht-degree: 85%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 100%
 
 デバイス登録プロセスには、次に示す 2 台のコンピューターを使用します。
 
-* 実際に登録するデバイス（サイネージディスプレイなど）
-* デバイスの登録に使用する AEM サーバー
+* 登録する実際のデバイス（例えば、サイネージディスプレイ）
+* デバイスの登録に使用するAEMサーバー
 
 >[!NOTE]
 >
@@ -41,11 +41,9 @@ ht-degree: 100%
 >1. 左のアクションメニューの「**登録**」リンクをクリックし、以下の手順でデバイス登録プロセスを完了します。
 >
 
-
-
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
 
-1. デバイスで AEM Screens プレーヤーを起動します。登録用の UI が表示されます。
+1. デバイスで、AEM Screens Player を起動します。 登録 UI が表示されます。
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
@@ -126,7 +124,7 @@ ht-degree: 100%
 
 デバイスをプレーヤーに登録すると、デバイスマネージャーの UI からすべてのデバイスを表示できます。
 
-1. **DemoScreens**／**デバイス**&#x200B;など、AEM Screens プロジェクトからデバイスマネージャの UI に移動します。
+1. 例えば、AEM Screensプロジェクトからデバイスマネージャー UI に移動します。 **DemoScreens** > **デバイス**.
 
 1. **デバイス**&#x200B;フォルダーを選択し、アクションバーの「**デバイスマネージャー**」クリックします。
 
@@ -149,9 +147,8 @@ ht-degree: 100%
 
 * ユーザーは、*デバイス ID*&#x200B;または&#x200B;*デバイス名*&#x200B;に存在する任意の単語を検索できます。
 
-   >[!NOTE]
-   >
-   >デバイス名は、「*BostonStoreLobby*」のように 1 単語ではなく、「*Boston Store Lobby*」のように複数の単語で作成することをお勧めします。
+  >[!NOTE]
+  >デバイス名は、「*BostonStoreLobby*」のように 1 単語ではなく、「*Boston Store Lobby*」のように複数の単語で作成することをお勧めします。
 
 * *Boston Store Lobby* などのデバイス名を作成すると、「*boston*」、「*store*」、「*lobby*」などの単語を検索できますが、デバイス名が「*BostonStoreLobby*」の場合、「*boston*」を検索しても結果は表示されません。
 
@@ -161,13 +158,13 @@ ht-degree: 100%
 
 ## デバイスの登録の制限 {#limitations-on-device-registration}
 
-システム全体のユーザーパスワードの制限により、デバイスの登録に失敗することがあります。デバイスの登録では、デバイスのユーザーを作成するためにランダム生成されたパスワードが使用されます。
+システム全体のユーザーパスワード制限により、デバイスの登録に失敗する場合があります。 デバイス登録では、ランダムに生成されたパスワードを使用して、デバイスユーザーを作成します。
 
-このパスワードが *AuthorizableActionProvider* 設定により制限されている場合は、デバイスのユーザーの作成に失敗することがあります。
+パスワードが *AuthorizableActionProvider* 設定で、デバイスユーザーの作成に失敗する場合があります。
 
 >[!NOTE]
 >
->現在生成されるランダムパスワードは、33 ～ 122 の範囲の 36 文字の ASCII 文字で構成されています（ほとんどすべての特殊文字が含まれます）。
+>現在生成されるランダムパスワードは、33 ～ 122 の 36 文字の ASCII 文字で構成されます（ほとんどすべての特殊文字を含む）。
 
 ```java
 25.09.2016 16:54:03.140 *ERROR* [59.100.121.82 [1474844043109] POST /content/screens/svc/registration HTTP/1.1] com.adobe.cq.screens.device.registration.impl.RegistrationServlet Error during device registration

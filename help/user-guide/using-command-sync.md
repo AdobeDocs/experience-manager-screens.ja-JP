@@ -7,10 +7,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 43ac19cf7ef63ec17611cf19ca357f791dca6e87
-workflow-type: ht
-source-wordcount: '780'
-ht-degree: 100%
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '779'
+ht-degree: 95%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >ディスプレイにチャネルを割り当てる方法については、[ディスプレイの作成と管理](/help/user-guide/managing-displays.md)を参照してください。
+   >ディスプレイにチャネルを割り当てる方法については、 [ディスプレイの作成と管理](/help/user-guide/managing-displays.md).
 
 1. **デバイス**&#x200B;フォルダーに移動し、アクションバーの「**デバイスマネージャー**」をクリックしてデバイスを登録します。
 
@@ -92,7 +92,7 @@ ht-degree: 100%
 
 ### プライマリの設定 {#setting-up-primary}
 
-1. **CommandSyncDemo**／**Locations**／**Lobby**／**LobbyDisplay** でディスプレイダッシュボードに移動し、アクションバーの「**ダッシュボード**」をクリックします。
+1. からディスプレイダッシュボードに移動します。 **CommandSyncDemo** > **場所**  > **ロビー** > **LobbyDisplay** をクリックし、 **ダッシュボード** をクリックします。
 次の図に示すように、**デバイス**パネルに 2 つのデバイス（Chrome と Windows プレーヤー）が表示されます。
    ![image1](assets/command-sync/command-sync10-1.png)
 

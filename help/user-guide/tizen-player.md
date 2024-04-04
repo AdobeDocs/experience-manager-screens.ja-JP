@@ -5,10 +5,10 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
-workflow-type: ht
-source-wordcount: '1242'
-ht-degree: 100%
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+workflow-type: tm+mt
+source-wordcount: '1247'
+ht-degree: 96%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 Tizen プレーヤーに名前を設定するには、次の手順に従います。
 
 1. リモコンのメニューボタンを押します。
-1. **Network**／**Device Name** に移動して、プレーヤーに名前を割り当てます。
+1. に移動します。 **network** > **デバイス名** をクリックして、プレーヤーに名前を割り当てます。
 
 ### Samsung デバイスでの更新の構成 {#config-updates}
 
@@ -76,7 +76,7 @@ Samsung デバイスの次の手順に従って、デバイスに AEM Screens �
 ## cookie の SameSite 属性に対応していないユーザーエージェントの適用除外 {#exempting-user-agents}
 
 >[!IMPORTANT]
->**この節の内容は、Adobe Experience Manager（AEM）6.5.5 から AEM 6.5.7** までのバージョンに適用されます。
+>**この節の内容は、Adobe Experience Manager(AEM)6.5.5 からAEM 6.5.7 までのバージョンに当てはまります。**
 >ブラウザーエンジンの中には、AEM 6.5 から AEM 6.7 までのバージョンが発行するログイントークンで使用される *SameSite=None* 属性に対応していないものが一部あります。この問題は、通常、ブラウザーを入手可能な最新のバージョンにアップグレードすることで解決できます。ただし、スマートディスプレイやセットトップボックスのように、ブラウジングエンジンが組み込まれているデバイスの場合など、そのようなアップグレードが不可能な場合があります。
 
 *SameSite=None* を使用する場合に、その属性に対応していないこれらのクライアントを適用対象外にするには、次の手順に従います。
@@ -97,7 +97,7 @@ Tizen プレーヤーをリモートでプロビジョニングすると、数�
 
 この機能を利用すると、Tizen プレーヤーをリモートで設定し、必要に応じてそれらの設定を一元的に更新できます。必要なのは、Tizen アプリケーション `(wgt and xml file)` をホストするための `HTTP` サーバーと、適切なパラメーターを記述した `config.json` を保存するためのテキストエディターだけです。
 
-Tizen デバイスに URL ランチャーアドレスを設定してあることを確認します（リモコンの「Home」ボタンを押して「URL Launcher Settings」に移動）。
+Tizen デバイス（ホームボタン/URL ランチャー設定）で URL ランチャーアドレスが設定されていることを確認します。
 Tizen アプリケーションをホストする `HTTP` サーバー上で、`config.json` ファイルを `wgt` ファイルと同じ場所に置きます。ファイル名は `config.json` にする必要があります。
 Tizen プレーヤーがインストールされ、プレーヤーの起動時（および再起動時）に `config.json` ファイル内の設定がチェックされ適用されます。
 
@@ -122,7 +122,7 @@ Tizen プレーヤーがインストールされ、プレーヤーの起動時�
 
 | **ポリシー名** | **目的** |
 |---|---|
-| server | Adobe Experience Manager（AEM） サーバーの URL。 |
+| server | Adobe Experience Manager（AEM）サーバーの URL。 |
 | registrationKey | 事前共有キーを使用したデバイスの一括登録に使用されます。 |
 | resolution | デバイスの解像度。 |
 | rebootSchedule | プレーヤーを再起動するスケジュール。 |
@@ -170,4 +170,4 @@ Tizen デバイスを Samsung Remote Management Service（RMS）に登録し URL
 
 ### Screens リモート制御の使用 {#using-remote-control}
 
-AEM Screens には、リモート制御機能が用意されています。この機能について詳しくは、[Screens リモート制御](implementing-remote-control.md)を参照してください。
+AEM Screens には、リモート制御機能が用意されています。この機能について詳しくは、[Screens リモート制御](implementing-remote-control.md)を参照してください

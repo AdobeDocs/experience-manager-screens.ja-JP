@@ -7,10 +7,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 089bf4eebe5234d77d6f02ae6fc3b8bb75ba6ea2
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '2185'
-ht-degree: 100%
+source-wordcount: '2168'
+ht-degree: 99%
 
 ---
 
@@ -152,7 +152,7 @@ AEM Screens Player は、起動時に 404 エラーが発生すると、***/cont
 
 次の手順に従って、任意の Android プレーヤーで「スリープモードにしない」をオンにします。
 
-1. Android プレーヤーの設定／**端末情報**&#x200B;に移動します。
+1. Android プレーヤーの設定/に移動します。 **について**
 1. ビルド番号を 7 回タップして、**設定**&#x200B;の「**開発者向けオプション**」を有効にします。
 1. **開発者向けオプション**&#x200B;に移動します。
 1. 「**スリープモードにしない**」をオンにします。
@@ -184,16 +184,16 @@ Windows Player にはウィンドウモードはありません。常にフル�
 * **内部 JS API**
 * **ContextHub ストア**：`/libs/screens/clientlibs/contexthub` では、チャネル、デバイス、および表示情報を公開するための 3 つの ContextHub ストアが定義されています。
 
-   次の手順に従って、ContentHub ストアの値を使用します。
+  次の手順に従って、ContentHub ストアの値を使用します。
 
    * チャネルのプロパティを編集し、パーソナライゼーションタブの ContextHub パスを値に設定します（上述）
    * チャネル JS では、次を使用できます。
 
-      ```shell
-         ContextHub.getStore('screens-device');
-         ContextHub.getStore('screens-display');
-         ContextHub.getStore('screens-channels');
-      ```
+     ```shell
+        ContextHub.getStore('screens-device');
+        ContextHub.getStore('screens-display');
+        ContextHub.getStore('screens-channels');
+     ```
 
 ## トラブルシューティングに関する一般的なヒント {#general-troubleshooting-tips}
 
@@ -203,7 +203,7 @@ Livefyre を無効にしてログエラーを回避するには、次の手順�
 
 1. ***Livefyre バンドルを無効にする：***
 
-   * `https://&lt;host&gt;:&lt;port&gt;/system/console/bundles` に移動します。
+   * `https://<host>:<port>/system/console/bundles` に移動します。
    * AEM Livefyre バンドル `com.adobe.cq.social.cq-social-livefyre` を検索します。
    * 「**停止**」をクリックします。
 

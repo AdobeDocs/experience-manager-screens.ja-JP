@@ -1,16 +1,16 @@
 ---
 title: チャネルの作成と管理
-seo-title: チャネルの管理
-description: このページに従って、チャネルの作成および管理について学びます。また、チャネルダッシュボードおよびチャネルのコンテンツの編集も説明します。
-seo-description: このページに従って、チャネルの作成および管理について学びます。また、チャネルダッシュボードおよびチャネルのコンテンツの編集も説明します。
-feature: Screens のオーサリング
+seo-title: Managing Channels
+description: このページでは、チャネルの作成と管理について説明します。 また、チャネルのダッシュボードと、チャネルのコンテンツの編集についても説明します。
+seo-description: Follow this page to learn about creating and managing channels. It also explains channel dashboard and editing content for a channel.
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1328'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '1305'
+ht-degree: 92%
 
 ---
 
@@ -53,7 +53,7 @@ AEM Screens 用のプロジェクトを作成したら、以下の手順に従�
 
 | **テンプレートオプション** | **説明** |
 |---|---|
-| チャネルフォルダー | チャネルのコレクションを格納するためのフォルダーを作成できます。 |
+| チャネルフォルダー | チャネルのコレクションを保存するフォルダーを作成できます。 |
 | シーケンスチャネル | コンポーネントを連続して（スライドショーで 1 つずつ）再生するチャネルを作成できます。 |
 | アプリケーションチャネル | Screens Player でカスタム Web アプリケーションを紹介できます。 |
 | 1 x 1 分割画面チャネル | 1 個のゾーンにコンポーネントを表示できます。 |
@@ -69,7 +69,7 @@ AEM Screens 用のプロジェクトを作成したら、以下の手順に従�
 
 >[!IMPORTANT]
 >
-> コンテンツを作成してチャネルに追加したら、次の手順では、ロケーションを作成してからディスプレイを作成します。さらに、そのチャネルをディスプレイに割り当てる必要があります。詳しくは、この節の最後に記載されているリソースを参照してください。
+> コンテンツを作成してチャネルに追加したら、次の手順では、ロケーションを作成してからディスプレイを作成します。さらに、そのチャネルをディスプレイに割り当てる必要があります。 詳しくは、節の最後にある以下のリソースを参照してください。
 
 ## チャネルでの作業 {#working-with-channels}
 
@@ -161,7 +161,7 @@ AEM Screens 用のプロジェクトを作成したら、以下の手順に従�
 
 チャネルをオンラインにするには、次の手順に従います。
 
-1. **TestProject**／**Channels** ／**TestChannel**&#x200B;と選択して、チャネルに移動します。
+1. チャネルに次のように移動します。 **TestProject** > **チャネル** > **TestChannel**.
 
    チャネルを選択します。
 
@@ -242,9 +242,8 @@ AEM Screens 用のプロジェクトを作成したら、以下の手順に従�
 >ロケーションでのディスプレイの作成については、次を参照してください。
 >
 >* [ロケーションの作成と管理](managing-locations.md)
-* [ディスプレイの作成と管理](managing-displays.md)
-
-
+>* [ディスプレイの作成と管理](managing-displays.md)
+>
 
 さらに、**割り当てられたディスプレイ**&#x200B;パネルでディスプレイをクリックすると、ディスプレイの情報が表示されます（下図を参照）。
 

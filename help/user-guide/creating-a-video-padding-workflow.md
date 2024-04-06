@@ -1,8 +1,8 @@
 ---
 title: ビデオパディングワークフローの作成
-seo-title: ビデオパディングワークフローの作成
+seo-title: Creating a Video Padding Workflow
 description: ここでは、アセットのワークフローにおけるビデオパディングの作成について説明します。
-seo-description: ここでは、アセットのワークフローにおけるビデオパディングの作成について説明します。
+seo-description: Follow this page to learn about creating a video padding in the workflow for your assets.
 uuid: c0f004ca-c934-47f8-bcdc-da58ea62118e
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
-feature: Screens のオーサリング
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '605'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '579'
+ht-degree: 96%
 
 ---
 
@@ -61,11 +61,11 @@ ht-degree: 100%
 
 以下の手順に従って、ビデオのワークフローを作成します。
 
-1. AEM インスタンスに移動し、サイドレールのハンマーアイコンをクリックします。**ワークフロー**／**モデル**&#x200B;を選択して、新しいモデルを作成します。
+1. AEM インスタンスに移動し、サイドレールのハンマーアイコンをクリックします。選択 **ワークフロー** > **モデル** をクリックして、新しいモデルを作成します。
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. **モデル**／**作成**／**モデルを作成**&#x200B;をクリックします。**ワークフローモデルを追加**&#x200B;で、「**タイトル**」（**VideoRendition**）と「**名前**」を入力します。「**完了**」をクリックして、ワークフローモデルを追加します。
+1. クリック **モデル** > **作成** > **モデルを作成**. **ワークフローモデルを追加**&#x200B;で、「**タイトル**」（**VideoRendition**）と「**名前**」を入力します。「**完了**」をクリックして、ワークフローモデルを追加します。
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
@@ -101,7 +101,7 @@ ht-degree: 100%
 
 以下の手順に従って、AEM Screens プロジェクトでワークフローを使用します。
 
-1. AEM Screens プロジェクト（**TestVideoRendition**／**チャネル**／**VideoRendition**）に移動します。
+1. AEM Screensプロジェクト (**TestVideoRendition** > **チャネル** >**VideoRendition**) をクリックします。
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 

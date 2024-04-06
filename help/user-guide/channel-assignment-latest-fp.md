@@ -6,10 +6,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
 source-wordcount: '1476'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -59,9 +59,9 @@ ht-degree: 94%
 
 ### ディスプレイへのチャネルの割り当て {#assigning-channel-to-display}
 
-プロジェクトの設定が完了したら、チャネルをディスプレイに割り当てて、コンテンツを表示する必要があります。
+プロジェクトの設定が完了したら、コンテンツを表示するディスプレイにチャネルを割り当てる必要があります。
 
-1. 必要なディスプレイに移動します（例：**DemoScreens**／**Locations**／**SanJose**／**StoreDisplay**）。
+1. 必要なディスプレイ（例： ）に移動します。 **DemoScreens** > **場所** > **サンノゼ** > **ロビー**.
 
 1. アクションバーで「**チャネルの割り当て**」をタップまたはクリックします。
 
@@ -110,7 +110,7 @@ ht-degree: 94%
 
 タイムライン表示に移動するには、次の手順を実行します。
 
-1. 必要なディスプレイに移動します（例：**DemoScreens**／**Locations**／**SanJose**／**StoreDisplay**）。
+1. 必要なディスプレイ（例： ）に移動します。 **DemoScreens** > **場所** > **サンノゼ** > **ロビー**.
 
 1. アクションバーで「**チャネルの割り当て**」をタップまたはクリックします。
 

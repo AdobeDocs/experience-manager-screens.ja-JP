@@ -14,10 +14,10 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: 2cc613454d0d20a42871858e3d754e1b0e161dc3
-workflow-type: ht
-source-wordcount: '1580'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '1593'
+ht-degree: 98%
 
 ---
 
@@ -90,7 +90,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 AEM Screens プロジェクトに Screens ローンチ機能を実装するには、以下の手順に従います。
 
-1. AEM Screens プロジェクト内のチャネル（例：**LaunchesDemo**／**チャネル**／**FutureLaunch**）に移動します（下図を参照）。
+1. AEM Screensプロジェクトにシーケンスチャネルを作成します（例： ）。 **LaunchesDemo** > **チャネル** > **FutureLaunch**、以下に示すように。
 
    >[!CAUTION]
    >
@@ -141,9 +141,9 @@ AEM Screens プロジェクトに Screens ローンチ機能を実装するに�
    * **変更したページを昇格**：変更されたローンチリソースのみ昇格されます。ローンチのレビューが不要な場合は、このオプションを使用することをお勧めします。
    * **承認済みページの昇格**：このオプションを使用するには、ローンチチャネルでローンチ承認ワークフローを実行する必要があります。承認されたページのみが、設定されたライブ日付に昇格されます。
 
-      >[!CAUTION]
-      >
-      >ローンチのライブ日付は、サーバーのタイムゾーンではなく、プレーヤーやデバイスのタイムゾーンに従います。
+     >[!CAUTION]
+     >
+     >ローンチのライブ日付は、サーバーのタイムゾーンではなく、プレーヤーやデバイスのタイムゾーンに従います。
 
 1. ローンチが作成されたことがわかります。「**開く**」をクリックすると、ページがエディターに表示され、「**完了**」をクリックすると、プロジェクトに戻ります。
 

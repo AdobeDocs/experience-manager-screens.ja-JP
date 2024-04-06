@@ -14,10 +14,10 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 99%
+source-wordcount: '1143'
+ht-degree: 98%
 
 ---
 
@@ -179,7 +179,7 @@ Windows プレーヤーをデプロイする際は、他のアプリケーショ
 
 Windows プレーヤーのデフォルトのインストールパスは次のとおりです。
 
-***C:\Users\&amp;lt;your user>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
+***C:\Users\&lt;your user=&quot;&quot;>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
 
 リンク内のサンプルスクリプトでは、カスタムシェルを有効および無効にします。したがって、場合によっては、スクリプトを 2 つに分割し、それぞれで、該当する以下の行を有効または無効にする必要があります。
 

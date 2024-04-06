@@ -1,8 +1,8 @@
 ---
 title: 接客業向けの予約状況に応じたアクティベーション
-seo-title: 接客業向けの予約状況に応じたアクティベーション
+seo-title: Hospitality Reservation Activation
 description: 以下の使用例では、Google シートに入力された値に基づく、接客業向けの予約状況に応じたアクティベーションを示しています。
-seo-description: 以下の使用例では、Google シートに入力された値に基づく、接客業向けの予約状況に応じたアクティベーションを示しています。
+seo-description: The following use case demonstrates the usage of hospital reservation activation based on the values populated in Google Sheets.
 uuid: 7692d616-2b00-4d9a-9d3f-211c089b29af
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
-feature: Screens のオーサリング
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '475'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '463'
+ht-degree: 96%
 
 ---
 
@@ -77,7 +77,7 @@ AEM Screens プロジェクトに「接客業向けの予約状況に応じた�
 
    >[!CAUTION]
    >
-   >チャネルの&#x200B;**プロパティ**&#x200B;を開き、「**パーソナライズ機能**」タブを使用して「**ContextHub** **設定**」をセットアップしておいてください。
+   >以下の手順で、 **ContextHub** **設定** チャネルの使用 **プロパティ** > **パーソナライズ** タブをクリックします。
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -86,4 +86,5 @@ AEM Screens プロジェクトに「接客業向けの予約状況に応じた�
 
    1. 「**プレビュー**」をクリックします。また、Google シートを開き、値を更新します。
    1. **Restaurant1** 列と **Restaurant2** 列の値を更新します。**Restaurant1** の値が **Restaurant2** の値より大きい場合は、スクリーンに&#x200B;*ステーキ料理*&#x200B;の画像が表示され、それ以外の場合は、*タイ料理*&#x200B;の画像が表示されます。
+
    ![result5](assets/result5.gif)

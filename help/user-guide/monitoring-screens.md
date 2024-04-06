@@ -1,8 +1,8 @@
 ---
 title: デバイスコントロールセンターからのトラブルシューティング
-seo-title: Screens の監視
+seo-title: Monitoring Screens
 description: デバイスダッシュボードを使用して Screens Player のアクティビティやデバイスのパフォーマンスを監視およびトラブルシューティングするには、このページに従ってください。
-seo-description: デバイスダッシュボードを使用して Screens Player のアクティビティやデバイスのパフォーマンスを監視およびトラブルシューティングするには、このページに従ってください。
+seo-description: Follow this page to monitor and troubleshoot performance for your Screens player activity and device usingtheDevice dashboard.
 uuid: b6895d5d-c743-4e10-a166-de573e122335
 contentOwner: Jyotika Syal
 content-type: reference
@@ -10,16 +10,16 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
-feature: デジタルサイネージ、コンテンツ、プレーヤー
+feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '805'
-ht-degree: 100%
+exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '775'
+ht-degree: 75%
 
 ---
-
 
 # デバイスコントロールセンターからのトラブルシューティング {#troubleshooting-device-control-center}
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 デバイスダッシュボードに移動するには、次の手順を実行します。
 
-1. プロジェクトからデバイスダッシュボードに移動します（例：***Test Project***／***デバイス***）。
+1. 例えば、プロジェクトからデバイスダッシュボードに移動します。 ***プロジェクトをテスト*** > ***デバイス***.
 
    アクションバーから「**デバイス**」および「**デバイスマネージャー**」を選択します。
 
@@ -53,19 +53,19 @@ ht-degree: 100%
 
 ### デバイスアクティビティの監視 {#monitor-device-activity}
 
-**アクティビティ**&#x200B;パネルには、Screens Player の最後の ping とそのタイムスタンプが表示されます。最後の ping は、デバイスがサーバーに最後にアクセスした時間と一致します。
+The **アクティビティ** パネルには、screens player の最後の ping とタイムスタンプが表示されます。 最後の ping は、デバイスが最後にサーバーにアクセスした時点に対応します。
 
 ![chlimage_1](assets/chlimage_1.png)
 
 さらに、**アクティビティ**&#x200B;パネルの右上隅にある「**ログを収集**」をクリックすると、プレーヤーのログが表示されます。
 
-### デバイス詳細の更新 {#update-device-details}
+### デバイスの詳細を更新 {#update-device-details}
 
 デバイスの IP、ストレージ使用状況、ファームウェアバージョンおよびプレーヤー稼動時間を確認するには、**デバイスの詳細**&#x200B;パネルをチェックします。
 
 ![chlimage_1-1](assets/chlimage_1-1.png)
 
-さらに、このパネルでは、「**キャッシュをクリア**」および「**更新**」をクリックして、デバイスのキャッシュをクリアしたり、[ファームウェア](screens-glossary.md)バージョンを更新したりすることもできます。
+さらに、「 **キャッシュをクリア** および **更新** デバイスのキャッシュをクリアし、 [ファームウェア](screens-glossary.md) バージョンを選択できます。
 
 また、**デバイスの詳細**&#x200B;パネルの右上隅にある「**...**」をクリックして、プレーヤーを再起動したり、ステータスを更新したりすることもできます。
 
@@ -81,7 +81,7 @@ ht-degree: 100%
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
-「**プロパティ**」をクリックすると、**デバイスのプロパティ**&#x200B;ダイアログボックスが表示されます。デバイスのタイトルを編集したり、設定の更新オプションとして「**手動**」または「**自動**」を選択したりすることができます。
+クリック **プロパティ** 表示する **デバイスのプロパティ** ダイアログボックス。 デバイスのタイトルを編集するか、設定の更新のオプションを選択できます。 **手動** または **自動**.
 
 >[!NOTE]
 >
@@ -97,7 +97,7 @@ ht-degree: 100%
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
-### 環境設定の管理 {#manage-preferences}
+### 環境設定を管理 {#manage-preferences}
 
 **環境設定**&#x200B;パネルでは、デバイスの&#x200B;**管理 UI**、**チャネルスイッチャー**、**リモートデバッグ**&#x200B;の環境設定を変更できます。
 
@@ -111,7 +111,7 @@ ht-degree: 100%
 * **サーバー URL**
 * **解像度**
 * **スケジュールを再起動**
-* **保持するログファイルの最大数**
+* **最大数 保持するログファイル数**
 * **ログレベル**
 
 ![screen_shot_2019-09-05at14511pm](assets/screen_shot_2019-09-05at14511pm.png)
@@ -123,7 +123,6 @@ ht-degree: 100%
 >* **情報**
 >* **警告**
 >* **エラー**
-
 
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 
@@ -141,25 +140,25 @@ Apache Sling Referrer Filter の Allow Empty 設定を有効にするには、�
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 
-### 推奨事項 {#recommendations}
+### レコメンデーション {#recommendations}
 
-次の節では、ヘルスを把握したり、問題に対処したりするために、ネットワークリンク、サーバーおよびプレーヤーを監視することが推奨されています。
+次の節では、ネットワークリンク、サーバー、プレーヤーを監視して、ヘルスを把握し、問題に対処することをお勧めします。
 
-AEM の組み込みの監視では、次の点がチェックされます。
+AEMには、次の機能を組み込んだ監視機能が用意されています。
 
 * 5 秒間隔の&#x200B;*ハートビート*。これは、AEM Screens Player が動作中であることを示します。
 * プレーヤーの&#x200B;*スクリーンショット*。これは、プレーヤーに現在何が表示されているかを示します。
 * AEM Screens Player *ファームウェア*&#x200B;バージョンがプレーヤーにインストールされていること。
 * プレーヤー上に&#x200B;*空きストレージ領域*&#x200B;が存在すること。
 
-サードパーティソフトウェアを使用してリモート監視をおこなう場合は、次の点をチェックすることが推奨されています。
+サードパーティのソフトウェアを使用したリモート監視のためのRecommendations:
 
-* プレーヤー上の CPU 使用量。
-* AEM Screens Player プロセスの動作状態。
-* プレーヤーのリモート再起動。
+* プレーヤーの CPU 使用率。
+* AEM Screens Player プロセスが実行中かどうかを確認します。
+* プレーヤーのリモート再起動/再起動。
 * リアルタイム通知。
 
-プレーヤーハードウェアおよび OS をデプロイする際には、リモートログインを許可して問題の診断やプレーヤーの再起動をおこなえるようにすることをお勧めします。
+問題を診断し、プレーヤーを再起動するためのリモートログインを可能にする方法で、プレーヤーハードウェアと OS をデプロイすることをお勧めします。
 
 #### その他のリソース {#additional-resources}
 

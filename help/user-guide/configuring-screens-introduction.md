@@ -1,22 +1,18 @@
 ---
 title: AEM Screens の設定とデプロイ
-seo-title: Screens の設定とデプロイ
-description: AEM Screens Player は Android、Chrome OS、iOS、Windows で使用できます。ここでは、AEM Screens の設定とデプロイメントについて説明し、プレーヤーデバイスのハードウェア選定ガイドラインの概要も説明します。
-seo-description: AEM Screens Player は Android、Chrome OS、iOS、Windows で使用できます。ここでは、AEM Screens の設定とデプロイメントについて説明し、プレーヤーデバイスのハードウェア選定ガイドラインの概要も説明します。
-uuid: bf730d0f-e590-4c0d-a554-e1ff914eb420
+description: AEM Screens Player は、Android&trade、Chrome OS、iOS、Windows で使用できます。 AEM Screensの設定とデプロイメントについて説明します。
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
-discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '752'
-ht-degree: 100%
+source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+workflow-type: tm+mt
+source-wordcount: '681'
+ht-degree: 62%
 
 ---
 
@@ -26,11 +22,9 @@ ht-degree: 100%
 
 ## サーバーの設定 {#server-configuration}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->**重要**：
->
->AEM Screens Player は、クロスサイトリクエストフォージェリ（CSRF）トークンを利用していません。したがって、AEM Screens で使用できるように AEM サーバーを設定するには、空のリファラーを許可して、リファラーフィルターをスキップします。
+>AEM Screens Player は、クロスサイトリクエストフォージェリ (CSRF) トークンを使用しません。 したがって、AEMサーバーをAEM Screens用に使用できるように設定するには、空のリファラーを許可してリファラーフィルターをスキップします。
 
 ## ヘルスチェックフレームワーク {#health-check-framework}
 
@@ -48,7 +42,7 @@ ht-degree: 100%
    ![アセット](assets/health-check1.png)
 
 
-2. 上記の 2 つのプロパティの検証を実行するには、「**Execute selected health checks**」をクリックします。
+2. 選択 **選択したヘルスチェックを実行** 上記の 2 つのプロパティに対して検証を実行できます。
 
    両方のフィルターが有効な場合、**Screens Configuration Health Service** では&#x200B;**結果**&#x200B;が&#x200B;**OK**&#x200B;と表示され、両方の設定が有効となっています。
 
@@ -64,14 +58,13 @@ ht-degree: 100%
 >* **Apache Sling Referrer Filter** を有効にするには、[空のリファラー要求の許可](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests)を参照してください。
 >* **HTTP** サービスを有効にするには、[Apache Felix Jetty Based HTTP Service ](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service)を参照してください。
 
-
 ### 前提条件 {#prerequisites}
 
 AEM Screens で使用できるように AEM サーバーを設定する際に役立つ重要なポイントを次に示します。
 
 #### 空のリファラー要求の許可 {#allow-empty-referrer-requests}
 
-1. AEM インスタンスでハンマーアイコン／**運営**／**Web コンソール**&#x200B;をクリックして、「**Adobe Experience Manager Web コンソール設定**」に移動します。
+1. に移動します。 **Adobe Experience Manager Web コンソールの設定** AEMインスタンスを使用し、ハンマーアイコンを使用します。 **運用** > **Web コンソール**.
 
    ![画像](assets/config/empty-ref1.png)
 
@@ -88,7 +81,7 @@ AEM Screens で使用できるように AEM サーバーを設定する際に役
 
 #### Apache Felix Jetty Based HTTP Service {#allow-apache-felix-service}
 
-1. AEM インスタンスでハンマーアイコン／**運営**／**Web コンソール**&#x200B;をクリックして、「**Adobe Experience Manager Web コンソール設定**」に移動します。
+1. に移動します。 **Adobe Experience Manager Web コンソールの設定** AEMインスタンスを使用し、ハンマーアイコンを使用します。 **運用** > **Web コンソール**.
 
    ![画像](assets/config/empty-ref1.png)
 
@@ -104,12 +97,12 @@ AEM Screens で使用できるように AEM サーバーを設定する際に役
 
 #### AEM Screens のタッチ操作対応 UI の有効化 {#enable-touch-ui-for-aem-screens}
 
-AEM Screens にはタッチ操作対応 UI が必要で、Adobe Experience Manager（AEM）のクラシック UI では AEM Screens は動作しません。
+AEM Screensは、タッチ UI が必要で、Adobe Experience Manager(AEM) のクラシック UI では動作しません。
 
-1. *&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl* に移動します。
+1. `*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*` に移動します。
 1. 「**Default authoring UI mode**」が「**TOUCH**」に設定されていることを確認します（下図を参照）。
 
-また、yourAuthorInstance／*ツール（ハンマーアイコン）*／**運営**／**Web コンソール**&#x200B;をクリックし、**WCM Authoring UI Mode Service** を検索して、同じ設定を実行することもできます。
+また、yourAuthorInstance を使用して同じ設定を実行することもできます *>* ツール（ハンマーアイコン） > **運用** > **Web コンソール** およびを検索します。 **WCM オーサリング UI モードサービス**.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -117,11 +110,11 @@ AEM Screens にはタッチ操作対応 UI が必要で、Adobe Experience Manag
 >
 >ユーザーの環境設定を使用して、特定のユーザーに対して常にクラシック UI を有効にすることができます。
 
-#### NOSAMPLECONTENT 実行モードの AEM {#aem-in-nosamplecontent-runmode}
+#### AEM （NOSAMPLECONTENT 実行モード） {#aem-in-nosamplecontent-runmode}
 
-実稼動環境での AEM の実行には、**NOSAMPLECONTENT** 実行モードを使用します。次の場所に移動して、（追加の応答ヘッダーセクションにある）*X-Frame-Options=SAMEORIGIN* ヘッダーを削除します。
+実稼動環境でAEMを実行する場合は、 **NOSAMPLECONTENT** 実行モード。 次の場所に移動して、（追加の応答ヘッダーセクションにある）*X-Frame-Options=SAMEORIGIN* ヘッダーを削除します。
 
-`https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`
+`https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`。
 
 これは、AEM Screens Player でオンラインチャネルを再生するために必要です。
 
@@ -129,26 +122,26 @@ AEM Screens にはタッチ操作対応 UI が必要で、Adobe Experience Manag
 
 ***DeviceServiceImpl*** の最新の変更により、パスワード制限を削除する必要がなくなりました。
 
-次のリンクから ***DeviceServiceImpl*** を設定して、Screens デバイスユーザーのパスワードを作成する際のパスワード制限を有効にすることができます。
+次の項目を設定できます。 ***DeviceServiceImpl*** 次のリンクから、画面デバイスユーザーのパスワードを作成する際のパスワード制限を有効にします。
 
 `https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService`
 
 以下の手順に従って ***DeviceServiceImpl*** を設定します。
 
-1. AEM インスタンスでハンマーアイコン／**運営**／**Web コンソール**&#x200B;をクリックして、「**Adobe Experience Manager Web コンソール設定**」に移動します。
+1. に移動します。 **Adobe Experience Manager Web コンソールの設定** AEMインスタンスのハンマーアイコンで、 > **運用** > **Web コンソール**.
 
-1. **Adobe Experience Manager Web コンソール設定**&#x200B;が開きます。「*deviceservice*」を検索します。このプロパティを検索するには、**Command + F** キー（macOS）または **Ctrl + F** キー（Microsoft Windows）を押します。
+1. **Adobe Experience Manager Web コンソール設定**&#x200B;が開きます。`*deviceservice*` を検索します。プロパティを検索するには、 **Command + F** (macOSと **Ctrl + F** (Microsoft® Windows の場合 )
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
 #### Dispatcher 設定 {#dispatcher-configuration}
 
-AEM Screens プロジェクトの Dispatcher を設定する方法については、[AEM Screens プロジェクトの Dispatcher の設定](dispatcher-configurations-aem-screens.md)を参照してください。
+AEM Screensプロジェクト用の Dispatcher の設定方法については、 [AEM Screensプロジェクト用の Dispatcher の設定](dispatcher-configurations-aem-screens.md).
 
-#### Java エンコーディング {#java-encoding}
+#### Java™エンコーディング {#java-encoding}
 
-***Java エンコーディング***&#x200B;を Unicode に設定します。例えば、*Dfile.encoding=Cp1252* は機能しません。
+を設定します。 ***Java™エンコーディング*** を Unicode に変更します。 例： `*Dfile.encoding=Cp1252*` は機能しません。
 
 >[!NOTE]
->**推奨事項：**
->実稼動環境では AEM Screens サーバーに HTTPS を使用することをお勧めします。
+>
+>実稼動環境ではAEM Screens Server に HTTPS を使用します。

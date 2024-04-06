@@ -1,8 +1,8 @@
 ---
 title: 小売店向けの在庫に応じたアクティベーション
-seo-title: 小売店向けの在庫に応じたアクティベーション
+seo-title: Retail Inventory Targeted Activation
 description: この使用例は、3 種類のカラートレーナーの小売在庫を表示します。Google シートに記録されているトレーナーの在庫数に応じて、最も数が多いトレーナー（赤、緑、青のいずれか）の画像がスクリーンに表示されます。
-seo-description: この使用例は、3 種類のカラートレーナーの小売在庫を表示します。Google シートに記録されているトレーナーの在庫数に応じて、最も数が多いトレーナー（赤、緑、青のいずれか）の画像がスクリーンに表示されます。
+seo-description: This Use Case showcases the retail inventory stock for three different colored sweatshirts. Depending on the number of sweatshirts available in stock that is recorded in Google Sheets, the image (red, green, or blue sweatshirt) with highest number is displayed on the screen.
 uuid: 8e7faa65-b004-42b3-8865-4f71eb5dc1b1
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
-feature: Screens のオーサリング
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '693'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 95%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 
    1. 「**データタイプ**」として「**数値**」を選択します。
 
-   1. 「**2 つめのプロパティの名前**」のドロップダウンから「**googlesheets/value/1/1**」を選択します。
+   1. 選択 **googlesheets/value/1/1** 次に示すドロップダウンから **2 つ目のプロパティ名**.
 
    1. 別の「**比較：プロパティ - プロパティ**」コンポーネントをエディターにドラッグ＆ドロップし、設定アイコンをクリックしてプロパティを編集します。
    1. 「**1 つめのプロパティの名前**」のドロップダウンから「**googlesheets/value/1/2**」を選択します。
@@ -94,7 +94,7 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >チャネルの&#x200B;**プロパティ**&#x200B;を開き、「**パーソナライズ機能**」タブを使用して「**ContextHub** **設定**」をセットアップしておいてください。
+   >以下の手順で、 **ContextHub** **設定** チャネルの使用 **プロパティ** > **パーソナライズ** タブをクリックします。
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 

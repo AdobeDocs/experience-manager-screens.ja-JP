@@ -6,10 +6,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
 source-wordcount: '1233'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 93%
 
 ## チャネルの割り当て {#assign-a-channel}
 
-下の手順に従ってチャネルをディスプレイに割り当てます。
+ディスプレイにチャネルを割り当てるには、次の手順に従います。
 
-1. 必要なディスプレイに移動します（例：**DemoProject**／**Locations**／**SanJose**／**StoreDisplay**）。
+1. 必要なディスプレイ（例： ）に移動します。 **DemoProject** > **場所** > **サンノゼ** > **StoreDisplay**.
 
    ![画像](assets/screen_shot_2018-08-23at25359pm.png)
 

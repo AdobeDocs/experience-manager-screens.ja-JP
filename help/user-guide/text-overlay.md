@@ -14,10 +14,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
-workflow-type: ht
-source-wordcount: '797'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '796'
+ht-degree: 89%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 
 次の手順に従って、AEM Screens チャネルでテキストオーバーレイを使用します。
 
-1. **TextOverlayDemo**／**Channels**／**TextSample** に移動し、アクションバーの「**編集**」をクリックして、エディターを開きます。
+1. に移動します。 **TextOverlayDemo** > **チャネル** > **TextSample** をクリックします。 **編集** アクションバーから、エディターを開きます。
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
@@ -102,7 +102,7 @@ AEM Screens プロジェクトの ContextHub 設定を設定します。
 
 プロジェクトに必要な設定をおこなったら、次の手順に従って Google シートの値を使用します。
 
-1. **TextOverlayDemo**／**チャネル**／**TextSample** に移動して、アクションバーから「**プロパティ**」をクリックします。
+1. に移動します。 **TextOverlayDemo** > **チャネル** > **TextSample** をクリックします。 **プロパティ** をクリックします。
 
 1. 「**パーソナライゼーション**」タブを選択して、ContextHub 設定をセットアップします。
 
@@ -118,7 +118,7 @@ AEM Screens プロジェクトの ContextHub 設定を設定します。
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. **TextOverlayDemo**／**Channels**／**TextSample** に移動し、アクションバーの「**編集**」をクリックして、エディターを開きます。
+1. に移動します。 **TextOverlayDemo** > **チャネル** > **TextSample** をクリックします。 **編集** アクションバーから、エディターを開きます。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
@@ -133,7 +133,7 @@ AEM Screens プロジェクトの ContextHub 設定を設定します。
    >[!NOTE]
    >ContextHub 設定を行っていない場合、このオプションはプロジェクトで無効になります。
 
-1. 「**プレースホルダー**」フィールドに&#x200B;**値**&#x200B;を入力します。**ContextHub 変数**&#x200B;の Google シートから値を取得する行を選択します。この場合、値は Google シートの行 2 と列 1 から取得されます。次の図に示すように、**デフォルト値**&#x200B;を **20** と入力します。完了したら、チェックマークをクリックします。
+1. 入力 **値** （内） **プレースホルダー** フィールドに入力します。 Googleシートの値を取得する行を選択します。 **ContextHub 変数**. この場合、値はGoogleシートの 2 行目と 1 列目から取得されます。 次の図に示すように、**デフォルト値**&#x200B;を **20** と入力します。完了したら、チェックマークをクリックします。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 

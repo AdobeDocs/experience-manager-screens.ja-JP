@@ -1,8 +1,8 @@
 ---
 title: 旅行センター向けの気温に応じたアクティベーション
-seo-title: 旅行センター向けの気温に応じたアクティベーション
+seo-title: Travel Center Temperature Activation
 description: 以下の使用例では、Google シートに入力された値に基づく、旅行センター向けの現地気温に応じたアクティベーションを示しています。
-seo-description: 以下の使用例では、Google シートに入力された値に基づく、旅行センター向けの現地気温に応じたアクティベーションを示しています。
+seo-description: The following use case demonstrates the usage of travel center local temperature activation based on the values populated in Google Sheets.
 uuid: b35286d2-79be-4c36-b72e-c40ffc1a0ca0
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
-feature: Screens のオーサリング
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '478'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 96%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >チャネルの&#x200B;**プロパティ**&#x200B;を開き、「**パーソナライズ機能**」タブを使用して「**ContextHub** **設定**」をセットアップしておいてください。
+   >以下の手順で、 **ContextHub** **設定** チャネルの使用 **プロパティ** > **パーソナライズ** タブをクリックします。
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -90,4 +90,5 @@ ht-degree: 100%
 
    1. 「**プレビュー**」をクリックします。また、Google シートを開き、値を更新します。
    1. 値を 50 未満に変更すると、暖かい飲み物の画像が表示されます。Google シートの値が 50 以上の場合は、冷たい飲み物の画像が表示されます。
+
    ![result3](assets/result3.gif)

@@ -1,8 +1,8 @@
 ---
 title: チャネルへのコンポーネントの追加
-seo-title: チャネルへのコンポーネントの追加
+seo-title: Adding Components to a Channel
 description: このページに従って、AEM Screens プロジェクトでのチャネルへのコンポーネントの追加について学びます。
-seo-description: このページに従って、AEM Screens プロジェクトでのチャネルへのコンポーネントの追加について学びます。
+seo-description: Follow this page to learn more about adding components to channels in an AEM Screens project.
 uuid: 205d0edd-a696-47d0-a859-5f44d48c5e4a
 contentOwner: jsyal
 content-type: reference
@@ -10,57 +10,57 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
-feature: Screens のオーサリング
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1466'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '1450'
+ht-degree: 73%
 
 ---
 
 # チャネルへのコンポーネントの追加{#adding-components-to-a-channel}
 
-コンポーネントは、AEM（Adobe Experience Manager）エクスペリエンスの基本的要素です。多数のコンポーネントを使用でき、AEM Screens プロジェクトのチャネルに追加できます。
+コンポーネントは、AEM(Adobe Experience Manager) エクスペリエンスの基本要素です。 様々なコンポーネントを使用し、AEM Screensプロジェクトのチャネルに追加できます。
 
 ## AEM Screens のコンポーネント {#components-in-aem-screens}
 
 AEM Screens には、Screens プロジェクトで使用できる様々な AEM コンポーネントが用意されています。
 
-### AEM Screens コンポーネントの表示 {#viewing-aem-screens-components}
+### AEM Screensコンポーネントの表示 {#viewing-aem-screens-components}
 
-AEM Screens プロジェクトを作成する場合はいつでも、プロジェクトに追加できるデフォルトコンポーネントのリストが表示されます。
+AEM Screensプロジェクトを作成する際には常に、プロジェクトに追加できるデフォルトコンポーネントのリストが表示されます。
 
 Screens プロジェクトのデフォルトコンポーネントを表示するには、次の手順に従います。
 
-1. チャネルを選択します。（例：**We.Retail In-Store**／**Channels**／**Idle Channel**）。
+1. チャネルを選択します。例： **We.Retail In Store** > **チャネル** > **Idle Channel**.
 
-1. アクションバーから「**編集**」をクリックして、AEM エディターを開きます。
-1. サイドバーから **+** アイコンをクリックして、コンポーネントを開きます。
-1. 次に示す図のように、AEM Screens プロジェクトにデフォルトで含まれるすべてのコンポーネントが表示されます。
+1. クリック **編集** アクションバーからAEMエディターを開きます。
+1. 次をクリック： **+** アイコンを使用して、コンポーネントを開きます。
+1. 次の図に示すように、AEM Screensプロジェクトにデフォルトで含まれるすべてのコンポーネントが表示されます。
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
 
 ### 新しいコンポーネントの追加 {#adding-a-new-component}
 
-AEM には、他のコンポーネントが多数用意されています。AEM Screens と互換性のある（デフォルトで含まれていない）他のコンポーネントをプロジェクトにいつでも追加できます。
+AEMには、他の多数のコンポーネントが用意されています。 AEM Screens と互換性のある（デフォルトで含まれていない）他のコンポーネントをプロジェクトにいつでも追加できます。
 
-次に、AEM Screens プロジェクトへの Livefyre コンポーネントの追加例を示します。
+次の例は、AEM Screensプロジェクトへの Livefyre コンポーネントの追加を示しています。
 
-1. 新しいコンポーネントを追加するチャネルを選択します（例：**We.Retail In-Store**／**Channels**／**Idle Channel**）。
+1. 新しいコンポーネントを追加するチャネルを選択します。 例： **We.Retail In Store** > **チャネル** > **Idle Channel**.
 
 1. アクションバーの「**編集**」をクリックして、エディターを開きます。
 1. **デザイン**&#x200B;モードを選択します。
-1. 右側のデザインエディター全体を選択して、設定シンボルをクリックし、**ParSys Design** ダイアログボックスを開きます。
-1. AEM Screens プロジェクトに読み込むコンポーネントを選択できます。次に、AEM Screens プロジェクトへの **Livefyre** コンポーネントの追加例を示します。
+1. 右側のデザインエディタ全体を選択し、設定記号をクリックして、 **ParSys デザイン** ダイアログボックス。
+1. AEM Screensプロジェクトに読み込むコンポーネントを選択できます。 次に、AEM Screens プロジェクトへの **Livefyre** コンポーネントの追加例を示します。
 
 ![adding_components](assets/adding_components.gif)
 
 >[!NOTE]
 >
->同様に、AEM Screens と互換性のある他の新しいコンポーネントをプロジェクトに好きなだけ追加できます。
+>同様に、AEM Screensと互換性のある他の新しいコンポーネントを任意の数だけプロジェクトに追加できます。
 
 ## AEM Screen コンポーネントについて {#understanding-aem-screen-components}
 
@@ -72,9 +72,9 @@ AEM には、他のコンポーネントが多数用意されています。AEM 
 
 ### アプリケーション {#application}
 
-**アプリケーション**&#x200B;コンポーネントを使用すると、チャネルにアプリケーションを追加できます。
+The **アプリ** コンポーネントを使用すると、チャネルにアプリケーションを追加できます。
 
-アプリケーションコンポーネントには、次のプロパティがあります。
+アプリケーションコンポーネントには次のプロパティがあります。
 
 | **プロパティ** | **説明** |
 |---|---|
@@ -91,9 +91,9 @@ AEM には、他のコンポーネントが多数用意されています。AEM 
 
 ### チャネル {#channel}
 
-**チャネル**&#x200B;コンポーネントを使用すると、プロジェクトにチャネル全体を追加できます。
+The **チャネル** コンポーネントを使用すると、チャネル全体をプロジェクトに追加できます。
 
-チャネルコンポーネントには、次のプロパティがあります。
+チャネルコンポーネントには次のプロパティがあります。
 
 <table>
  <tbody>
@@ -141,7 +141,7 @@ AEM には、他のコンポーネントが多数用意されています。AEM 
 >
 >埋め込みシーケンスについて詳しくは、Screens のオーサリングの節の[埋め込みシーケンス](embedded-sequences.md)を参照してください。
 
-埋め込みシーケンスを使用すると、既存のチャネル（他のアセットを含む）内に埋め込みシーケンスチャネルを追加できます。
+埋め込みシーケンスを使用すると、埋め込みシーケンスチャネルを既存のチャネル内（他のアセットと共に）に追加できます。
 
 埋め込みシーケンスには、次のページプロパティがあります。
 
@@ -153,7 +153,7 @@ AEM には、他のコンポーネントが多数用意されています。AEM 
   </tr>
   <tr>
    <td>チャネルパス</td>
-   <td>チャネルに追加するシーケンスの絶対パスを選択します。<br /> </td>
+   <td>チャネルに含めるシーケンスの絶対パスを選択します。<br /> </td>
   </tr>
   <tr>
    <td><strong><em>デュレーション (ms)</em></strong></td>
@@ -218,9 +218,9 @@ AEM には、他のコンポーネントが多数用意されています。AEM 
 
 ### 画像 {#image}
 
-画像を使用すると、チャネルに画像を追加できます。
+「画像」を使用すると、チャネルに画像を追加できます。
 
-イメージアセットには、「**画像**」、「**アクセシビリティ**」および「**シーケンス**」の 3 つのタブがあります。
+画像アセットには、 **画像**, **アクセシビリティ**、および **シーケンス**:
 
 | **プロパティ** | **説明** |
 |---|---|
@@ -310,7 +310,7 @@ AEM には、他のコンポーネントが多数用意されています。AEM 
 
 ビデオコンポーネントを使用すると、Screens プロジェクトにビデオを追加できます。
 
-ビデオコンポーネントには、次のプロパティがあります。
+ビデオコンポーネントには次のプロパティがあります。
 
 <table>
  <tbody>
@@ -328,7 +328,7 @@ AEM には、他のコンポーネントが多数用意されています。AEM 
   </tr>
   <tr>
    <td><em><strong>レンダリング</strong></em></td>
-   <td><p>ビデオの縦横比がスクリーンに合わない場合、<strong>含む</strong>または<strong>カバー</strong>のどちらかでレンダリングを調整できます。</p> <p><em>含む</em>は、ビデオ全体が表示され、足りない領域は黒い境界線で埋められることを意味します。</p> <p><em>カバー</em>は、ビデオが表示域全体を占めますが、サイドのオーバーフローする部分は非表示になります。</p> </td>
+   <td><p>ビデオの縦横比が画面に合わない場合は、レンダリングを <strong>次を含む</strong> または <strong>カバー</strong>.</p> <p><em>次を含む</em> は、ビデオ全体が表示され、見つからない領域に黒い境界線が引かれていることを意味します。</p> <p><em>カバー</em> は、ビデオがビューポート全体を覆っていることを意味しますが、側面でオーバーフローする一部は非表示になっています。</p> </td>
   </tr>
   <tr>
    <td><em><strong>サイズ</strong></em></td>

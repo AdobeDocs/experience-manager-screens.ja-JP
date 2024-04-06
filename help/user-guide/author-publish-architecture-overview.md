@@ -1,22 +1,22 @@
 ---
 title: オーサーとパブリッシュのアーキテクチャの概要
-seo-title: オーサーとパブリッシュのアーキテクチャの概要
+seo-title: Author and Publish Architectural Overview
 description: AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成された後、複数のパブリッシュインスタンスにフォワードレプリケートされます。ここでは、オーサーとパブリッシュのアーキテクチャの概要について詳しく説明しています。
-seo-description: AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成された後、複数のパブリッシュインスタンスにフォワードレプリケートされます。ここでは、オーサーとパブリッシュのアーキテクチャの概要について詳しく説明しています。
+seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn more on author and publish architectural overview.
 uuid: 19bac3de-8938-4339-82f0-6ccb932b6684
 content-type: reference
 topic-tags: administering
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 112404de-5a5a-4b37-b87c-d02029933c8a
 docset: aem65
-feature: Screens の管理
+feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '1028'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '983'
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->この AEM Screens 機能は、AEM 6.4 Screens 機能パック 2 がインストールされている場合にのみ使用できます。この機能パックにアクセスするには、アドビサポートに連絡してアクセス権をリクエストする必要があります。アクセス権が付与されると、パッケージ共有から機能パックをダウンロードできるようになります。
+>この AEM Screens 機能は、AEM 6.4 Screens 機能パック 2 がインストールされている場合にのみ使用できます。この機能パックにアクセスするには、Adobeサポートに連絡し、アクセス権をリクエストする必要があります。 アクセス権が付与されると、パッケージ共有から機能パックをダウンロードできるようになります。
 
 ## はじめに {#introduction}
 
@@ -56,7 +56,7 @@ AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテク
 
 * デバイス別にオーサーからパブリッシュにディスプレイの&#x200B;***コンテンツをレプリケート***
 
-* （デバイスから受信した）パブリッシュのバイナリコンテンツをオーサーに&#x200B;***リバース***&#x200B;レプリケート
+* （デバイスから受信した）バイナリコンテンツをパブリッシュからオーサーに&#x200B;***リバース***&#x200B;レプリケート
 * 特定の REST API を介してオーサーからパブリッシュにコマンドを&#x200B;***送信***
 * デバイス情報の更新とコマンドを同期させるためのパブリッシュインスタンス間の&#x200B;***メッセージング***
 * 特定の REST API を介してデバイス情報を取得するためにパブリッシュインスタンスの作成者によっておこなわれる&#x200B;***ポーリング***

@@ -1,14 +1,14 @@
 ---
 title: データトリガーを使用したオーサリング
-seo-title: データトリガーを使用したオーサリング
+seo-title: Authoring with Data Triggers
 description: データトリガーを使用して作成する方法については、このページを参照してください。
-feature: Screens のオーサリング
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '377'
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '371'
 ht-degree: 100%
 
 ---
@@ -57,6 +57,7 @@ ht-degree: 100%
    1. 「**セグメントのパス**」として **conf**/**We.Retail**/**settings**/**wcm**/**segments** を選択し、「**選択**」をクリックします。
 
    1. 「**保存して閉じる**」をクリックします。
+
    >[!NOTE]
    >
    >ContextHub 設定とセグメントをそれぞれ最初に保存した、Context Hub とセグメントのパスを使用します。

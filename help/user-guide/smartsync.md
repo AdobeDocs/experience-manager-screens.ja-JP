@@ -1,22 +1,22 @@
 ---
 title: コンテンツ同期からスマート同期への移行
-seo-title: コンテンツ同期からスマート同期への移行
+seo-title: Transitioning from ContentSync to SmartSync
 description: ここでは、スマート同期機能およびコンテンツ同期からスマート同期への移行方法について説明します。
-seo-description: ここでは、スマート同期機能およびコンテンツ同期からスマート同期への移行方法について説明します。
+seo-description: Follow this page to learn about SmartSync feature and how you can transition from ContentSync to SmartSync.
 uuid: c0619b56-1f6f-465a-a428-6df28e40b555
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
-feature: Screens の管理
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '467'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 96%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 100%
    >
    >スマート同期の使用を開始する前に、コンテンツキャッシュをすべてクリアする必要があります。
 
-1. AEM インスタンスでハンマーアイコン／**運営**／**Web コンソール**&#x200B;をクリックして、「**Adobe Experience Manager Web コンソール設定**」に移動します。
+1. に移動します。 **Adobe Experience Manager Web コンソールの設定** AEMインスタンスを使用し、ハンマーアイコンを使用します。 **運用** > **Web コンソール**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 

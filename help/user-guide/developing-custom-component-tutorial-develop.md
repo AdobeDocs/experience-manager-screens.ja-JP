@@ -13,9 +13,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
-workflow-type: ht
-source-wordcount: '2275'
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '2207'
 ht-degree: 100%
 
 ---
@@ -274,7 +274,7 @@ AEM Screens には、従来の WCM Sites コンポーネントには必ずしも
 
 ## クライアント側ライブラリの作成 {#clientlibs}
 
-クライアント側ライブラリは、AEM の実装で必要な CSS および JavaScript ファイルの編成および管理のための仕組みを提供します。
+クライアントサイドライブラリは、AEM の実装で必要な CSS および JavaScript ファイルの編成および管理のための仕組みを提供します。
 
 AEM Screens コンポーネントは、編集モードとプレビュー／実稼動モードではレンダリングが異なります。2 つのクライアントライブラリが作成されます。1 つは編集モード用、もう 1 つはプレビュー／実稼動用です。
 
@@ -422,6 +422,7 @@ Hello World コンポーネントは、シーケンスチャネルで使用す�
 1. テンプレートの手順 - 「**シーケンスチャネル**」を選択します
 
    1. プロパティの手順
+
    * 「基本」タブ／「タイトル」に「**Idle Channel**」を入力
    * 「チャネル」タブ／「**チャンネルをオンラインにする**」をオン
 

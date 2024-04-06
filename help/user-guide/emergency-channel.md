@@ -1,22 +1,22 @@
 ---
 title: 緊急チャネル
-seo-title: 緊急チャネル
+seo-title: Emergency Channel
 description: この使用例では、緊急チャネルの作成と管理について説明します。事前条件が成立した場合、コンテンツ作成者はシーケンスチャネルから緊急チャネルに切り替えることができます。
-seo-description: この使用例では、緊急チャネルの作成と管理について説明します。事前条件が成立した場合、コンテンツ作成者はシーケンスチャネルから緊急チャネルに切り替えることができます。
+seo-description: Follow this use case example to learn about creating and managing an emergency channel that the content author can switch from a sequence channel in case of a precondition.
 uuid: 612917c9-a832-453b-970c-f4365f7b105d
 content-type: example
 topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
-feature: Screens のオーサリング
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '814'
-ht-degree: 100%
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+workflow-type: tm+mt
+source-wordcount: '769'
+ht-degree: 95%
 
 ---
 
@@ -118,6 +118,7 @@ ht-degree: 100%
       1. 「**保存**」をクリックします。
 
       同様に、同じ手順を繰り返して **EmergencyChannel** を割り当て、その「**優先度**」を設定する必要があります。
+
    >[!NOTE]
    >
    >優先度は、複数の割り当てが再生条件に一致する場合に、割り当ての順序付けをおこなうために使用します。最高値のものが低い値よりも常に優先されます。
@@ -143,12 +144,12 @@ ht-degree: 100%
 
 1. **各ディスプレイへのスケジュールの割り当て**
 
-   1. 各ディスプレイに移動します（**EmergencyChannel**／**Locations**／**Store**／**StoreFront** など）。
+   1. 各ディスプレイ（例： ）に移動します。 **EmergencyChannel** > **場所** > **ストア** >**StoreFront**.
 
    1. アクションバーの「**ダッシュボード**」をクリックして、ディスプレイダッシュボードを開きます。
    1. **割り当てられたチャネルとスケジュール**&#x200B;パネルで「**...**」をクリックし、さらに「**+ スケジュールを割り当て**」をクリックします。
 
-   1. スケジュールのパスを選択します（例：**EmergencyChannel**／**Schedules**／**StoreSchedule**）。
+   1. スケジュールのパスを選択します ( 例： **EmergencyChannel** > **スケジュール** >**StoreSchedule**) をクリックします。
 
    1. 「**保存**」をクリックします。
 
@@ -165,7 +166,7 @@ ht-degree: 100%
 
 緊急の場合には、以下の手順を実行します。
 
-1. **EmergencyChannel**／**Schedules**／**StoreSchedule** に移動し、アクションバーの「**ダッシュボード**」をクリックします。
+1. に移動します。 **EmergencyChannel** > **スケジュール** > **StoreSchedule** を選択し、 **ダッシュボード** をクリックします。
 
    ![screen_shot_2019-02-25at101112pm](assets/screen_shot_2019-02-25at101112pm.png)
 

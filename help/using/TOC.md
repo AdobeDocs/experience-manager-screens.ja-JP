@@ -1,4 +1,5 @@
 ---
+cloud: Experience Cloud
 user-guide-title: AEM Screens プロジェクトのベストプラクティスガイド
 breadcrumb-title: AEM Screens ベストプラクティスガイド
 solution-title: AEM Screens
@@ -9,7 +10,7 @@ product: experience manager
 audience: end-user
 feature: Content
 role: User
-source-git-commit: 0286497306276c45c126b83b4c799970b145f42d
+source-git-commit: cd3c7e0766aebd0fd5cb0ae52c0bf72095308bb5
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 100%

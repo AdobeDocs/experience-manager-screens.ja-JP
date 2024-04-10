@@ -1,17 +1,15 @@
 ---
 title: マルチゾーンレイアウトのカスタムテンプレートの作成
-seo-title: Creating Custom Templates in MultiZone Layouts
-description: ここでは、マルチゾーンレイアウトのカスタムテンプレートの作成について説明します。
-seo-description: Follow this page to learn about creating custom templates in MultiZone layouts.
+description: AEM Screens用 MultiZone レイアウトでカスタムテンプレートを作成する方法について説明します。
 contentOwner: Jyotika Syal
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 96%
+source-wordcount: '849'
+ht-degree: 30%
 
 ---
 
@@ -25,88 +23,88 @@ ht-degree: 96%
 
 1. **固定ピクセルサイズまたはパーセンテージ**：
 
-   カスタムレイアウトで異なるゾーンに対して固定ピクセルサイズを使用するか、パーセンテージを使用したカスタムレイアウトを作成するかを決定する必要があります。
+   カスタムレイアウトで様々なゾーンに固定ピクセルサイズを使用するか、割合を使用してカスタムレイアウトを作成するかを決定します。
 
    >[!NOTE]
-   >カスタムレイアウトのゾーンの設定にパーセンテージを設定すると、様々な画面サイズでテンプレートを再利用できるという利点があります。
+   >パーセンテージを使用してカスタムレイアウトのゾーンを設定する利点により、様々な画面サイズでテンプレートを再利用できます。
 
 1. **命名規則**：
 
-   AEM Screens プロジェクトで使用するカスタムマルチゾーンテンプレートの作成方法を理解する前に、作成するテンプレートの用語を理解しておくことが推奨されています。
+   AEM Screens プロジェクトで使用するカスタムのマルチゾーンテンプレートを作成する方法を理解する前に、作成するテンプレートの概要を理解する必要があります。
 
    | **レイアウト名** | **説明** |
    |---|---|
-   | Left20-LandscapeHD3Zone | ゾーン 1 が左上、縦横 20％、ゾーン 2 が右上、縦 20％横 80％、ゾーン 3 が縦 80％横 100％のスクリーンサイズを占める 3 ゾーンで構成される、縦横比 16:9 の 3 ゾーン横型レイアウトが作成可能 |
-   | Upper20-PortraitHD2Zone | 上部から 20％、2 ゾーンで構成される、縦横比 16:9 の縦型テンプレート |
-   | Right20-LandscapeSD3Zone | 右から 20％、3 ゾーンで構成される、縦横比 4:3 のテンプレート |
+   | `Left20-LandscapeHD3Zone` | 3 つのゾーンを作成できる 3 ゾーンの横長レイアウト：<br>* ゾーン 1 を左から水平および垂直スクリーンの 20% として表示<br>* ゾーン 2 を水平方向の画面の 80 %、垂直方向の画面の右に揃えて表示<br>* ゾーン 3:100 % の水平および 80 % の垂直スクリーン、アスペクト比 16:9 |
+   | `Upper20-PortraitHD2Zone` | 画面の 20% を上からカバーする縦横比 16:9 の 2 ゾーンの縦長テンプレート |
+   | `Right20-LandscapeSD3Zone` | 画面の 20% を右からカバーする 3 ゾーンテンプレート。縦横比は 4:3 |
 
    >[!IMPORTANT]
    >カスタムレイアウト内で定義されたゾーンは、レイアウト全体の縦横比と一致しない場合があります。このドキュメントで従う命名規則では、カスタムレイアウト全体の縦横比を指定します。
 
-## 使用例 Left20-LandscapeHD3Zone レイアウト {#custom-template-one}
+## 使用例 `Left20-LandscapeHD3Zone` レイアウト {#custom-template-one}
 
-以下の節に従って、次の設定で *Left20-LandscapeHD3Zone* カスタムテンプレートを作成します。
+以下の節に従って、カスタムテンプレートを作成します *`Left20-LandscapeHD3Zone`* に作成し、次のように設定します。
 
-* **Left20** は、縦横 20％のスクリーンサイズを占める左上部のゾーンを示します。
-* **Landscape** は画面の向きを示します。
-* **HD** は、縦横比 16:9 を示します。
-* **3Zone** は、ディスプレイの 3 ゾーンを示します。
+* **`Left20`**  – 左側のトップゾーンで、画面の水平方向および垂直方向のサイズの 20% をカバーしています。
+* **`Landscape`**  – 画面の向き。
+* **`HD`**  – 縦横比は 16:9 です。
+* **`3Zone`** - ディスプレイの 3 つのゾーン。
 
-## マルチゾーンレイアウトの視覚表現 {#multi-layout-visual-one}
+## マルチゾーンレイアウトの視覚的表現 {#multi-layout-visual-one}
 
-Left20-LandscapeHD3Zone レイアウトを使用すると、プロジェクトに次のマルチゾーンレイアウトを作成できます。
+この `Left20-LandscapeHD3Zone` レイアウトを使用すると、プロジェクトに次のマルチゾーンレイアウトを作成できます。
 
 ![画像](/help/user-guide/assets/custom-multizone/landscape-3-zone-new.png)
 
-## Left20-LandscapeHD3Zone レイアウトの作成 {#landscape-layout-one}
+## の作成 `Left20-LandscapeHD3Zone` レイアウト {#landscape-layout-one}
 
-次の手順に従って、AEM Screens プロジェクト用の Left20-LandscapeHD3Zone レイアウトを作成します。
+以下の手順に従って、 `Left20-LandscapeHD3Zone` AEM Screens プロジェクトのレイアウト。
 
-1. 「**customtemplate**」というタイトルの AEM Screens プロジェクトを作成します。
+1. というタイトルのAEM Screens プロジェクトの作成 **`customtemplate`**.
 
    ![画像](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
-1. に移動します。 **CRXDE Lite** AEMインスタンスで、 /ツール/ **CRXDE Lite**.
+1. に移動します。 **CRXDE Lite** AEM インスタンス/ ツール /から **CRXDE Lite**.
 
-1. **apps** の下に、**customtemplate** という名前のフォルダーを作成します。同様に、次の図に示すように、**customtemplate** の下で **template** という名前の別のフォルダーを作成します。
+1. の下にフォルダーを作成 **apps** タイトルは **`customtemplate`**. 同様に、という名前の別のフォルダーを作成します。 **template** 未満 **`customtemplate`**&#x200B;を参照してください（下図を参照）。
 
    ![画像](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
    >[!NOTE]
-   >ノードを作成、編集、ノードにコンテンツをコピーするたびに CRXDE Lite のアクションバーで「**すべて保存**」をクリックすることをお勧めします。そうしないと、更新をコミットできなくなります。
+   >を選択 **すべて保存** コンテンツを作成、編集または任意のノードにコピーするたびに、CRXDE Liteのアクションバーから。 追加されていない場合は、更新をコミットできません。
 
 1. lbar-left テンプレートを`/libs/screens/core/templates/splitscreenchannel/lbar-left` から `/apps/customtemplate/template` にコピーします。
 
 1. コピーした **lbar-left**（`/apps/customtemplate/template`）の名前を **my-custom-layout** に変更します。
    ![画像](/help/user-guide/assets/custom-multizone/custom-template3.png)
 
-1. `/apps/customtemplate/template/my-custom-layout` に移動して、プロパティ **jcr:description** を *Left20-LandscapeHD3Zone 用のテンプレート*&#x200B;に更新し、**jcr:title** を *Left-LandscapeHD3Zone 用のテンプレート*&#x200B;に更新します。
+1. に移動します。 `/apps/customtemplate/template/my-custom-layout` プロパティを更新します **`jcr:description`** 対象： *のテンプレート`Left20-LandscapeHD3Zone`* および **`jcr:title`** 対象： *`Left20-LandscapeHD3Zone`*.
 
    ![画像](/help/user-guide/assets/custom-multizone/custom-template4.png)
 
-1. `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` から **offline-config** ノードに移動し、**jcr:title** を *Left20-LandscapeHD3Zone* に更新します。
+1. に移動します。 **`offline-config`** からのノード `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` を更新します **`jcr:title`** 対象： *`Left20-LandscapeHD3Zone`*.
 
    ![画像](/help/user-guide/assets/custom-multizone/custom-template5.png)
 
-1. `/apps/customtemplate/template/my-custom-layout/jcr:content` から **my custom-template** の *jcr:content* プロパティに移動し、**cq:cssClass** プロパティを **aem-Layout my-custom-layout** に更新します。
+1. に移動します。 *`jcr:content`* のプロパティ **my-custom-template** から `/apps/customtemplate/template/my-custom-layout/jcr:content` を更新します **`cq:cssClass`** 使用できるプロパティ **aem-Layout my-custom-layout**.
 
    ![画像](/help/user-guide/assets/custom-multizone/custom-template6.png)
 
-1. lbar-left テンプレートをコピーした手順（4）を参照して、`my-custom-layout/jcr:content` の下に 3 つのレスポンシブグリッドを表示します。*cq:cssClass* プロパティの各レスポンシブグリッドに custom css クラスを追加します。例は、*r1c1* ノードに対する *my-custom-layout--top-left* です。
+1. lbar-left テンプレートをコピーした手順（4）では、の下に 3 つのレスポンシブグリッドを表示できます `my-custom-layout/jcr:content`. の各レスポンシブグリッドへのカスタム css クラスの追加 *`cq:cssClass`* プロパティ（例：） *my-custom-layout-top-left* （用） *r1c1* ノード。
 
    ![画像](/help/user-guide/assets/custom-multizone/custom-template7.png)
 
    同様に、*r1c2* ノードに対しては *my-custom-layout--top-right* を追加し、*r2c1* ノードに対しては *my-custom-layout--bottom* を追加します。
 
    >[!NOTE]
-   >これらのカスタムクラスは、レスポンシブグリッドの幅と高さを設定するために CSS で使用されます。
+   >これらのカスタムクラスは、css で使用され、これらのレスポンシブグリッドの幅と高さを設定します。
 
    >[!NOTE]
-   >レスポンシブグリッドは、必要な合計グリッド数に基づいて追加または削除できます。この例では、最初の行に 2 つのグリッドを、2 番目の行に 1 つのグリッドを表示しているので、合計 3 つのレスポンシブグリッド（r1c1、r1c2、r2c1）があります。
+   >レスポンシブグリッドは、必要な合計グリッド数に基づいて追加または削除できます。この例では、最初の行に 2 つのグリッド、2 番目の行に 1 つのグリッドが表示されるので、合計 3 つのレスポンシブグリッド（r1c1、r1c2、r2c1）があります。
 
 1. `/libs/settings/wcm/designs/screens` を `/apps/settings/wcm/designs/` にコピーして、コピーしたデザインの名前を **custom-template-designs** に変更します。
 
-1. `/apps/settings/wcm/designs/custom-template-designs` に移動して、**custom-template-designs** の *jcr:title* プロパティを **customtemplate-design** に更新します。
+1. に移動します。 `/apps/settings/wcm/designs/custom-template-designs` およびプロパティの更新 *`jcr:title`* 件中 **custom-template-designs** 対象： **customtemplate-design**.
 
 1. `/apps/settings/wcm/designs/custom-template-designs` に移動して、static.css ファイルを作成します。
 
@@ -133,10 +131,10 @@ Left20-LandscapeHD3Zone レイアウトを使用すると、プロジェクト�
    >[!NOTE]
    >パーセンテージは、カスタムテンプレートの要件に合わせて更新できます。
 
-1. `/apps/<project>/templates/my-custom-layout/jcr:content` に移動し、*cq:designPath* プロパティを `/apps/settings/wcm/designs/customtemplate-designs` に更新して、static.css で設定されたスタイルを読み込みます。
+1. に移動します。 `/apps/<project>/templates/my-custom-layout/jcr:content` およびプロパティの更新 *`cq:designPath`* 対象： `/apps/settings/wcm/designs/customtemplate-designs` そのため、static.css で設定したスタイルを読み込むことができます。
 
    >[!NOTE]
-   >コピーして貼り付けると、空白が発生して CSS のスタイル設定に問題が生じる可能性があるので、すべてのスタイルを手動で入力することをお勧めします。
+   >コピーや貼り付けではなくスタイルをすべて入力します。空白が原因で css スタイル設定の問題が発生する可能性があります。
 
 ## 結果の表示 {#viewing-result}
 
@@ -146,27 +144,27 @@ Left20-LandscapeHD3Zone レイアウトを使用すると、プロジェクト�
 
    ![画像](/help/user-guide/assets/custom-multizone/custom-template8.png)
 
-1. アクションバーで「**作成**」をクリックし、**作成**&#x200B;ウィザードで **Left20-LandscapeHD3Zone** テンプレートを選択します。
+1. を選択 **作成** アクションバーからテンプレートを選択します。 **`Left20-LandscapeHD3Zone`** から **作成** ウィザード。
 
    ![画像](/help/user-guide/assets/custom-multizone/custom-template9.png)
 
-1. カスタマイズしたテンプレートを使用してチャネルを作成したら、エディターからチャネルにアセットを追加できます。次のプレビューは、カスタムテンプレート内の画像を示しています。
+1. カスタマイズしたテンプレートでチャネルを作成したら、エディターからチャネルにアセットを追加できます。 次のプレビューは、カスタムテンプレート内の画像を示しています。
 
    ![画像](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
-## 背景レイヤーとしての画像の挿入  {#inserting-image}
+## 画像を背景レイヤーとして挿入する  {#inserting-image}
 
 画像を背景レイヤーとしてレイアウトに挿入できます。
 
-いわゆる「data-uri」を使用して画像（Base64 エンコード済み）を CSS ファイル（手順 13 で作成した *static.css*）に直接埋め込むように、CSS ルールを調整できます。
+CSS ルールを「data-uri」を使用するように調整し、画像を直接インライン化できます（`Base64` （エンコード済み）に保存する必要があります。（手順 13） *static.css*.
 
 それには次のようにします。
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
 
 または、次の手順に従うこともできます。
 
-1. 画像を何らかの形でチャネルのオフライン設定に含めます。
-1. 上記の CSS で、「data-uri」バリアントではなく、画像への直接リンクを使用します。
+1. 画像がチャネルのオフライン設定に何らかの形で含まれていることを確認してください。
+1. 上記の CSS で、「data-uri」バリアントの代わりに画像への直接リンクを使用します。
 
 
 ## 背景色の更新 {#updating-color}

@@ -1,13 +1,11 @@
 ---
 title: プロジェクトレベルの画像再生時間
-seo-title: プロジェクトレベルの画像再生時間
-description: 'この機能を使用すると、プロジェクトレベルで画像の再生時間を定義できます。 '
-seo-description: 'この機能を使用すると、プロジェクトレベルで画像の再生時間を定義できます。 '
+description: プロジェクトレベルで画像再生時間を定義する方法を説明します。
 contentOwner: jsyal
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 100%
+source-wordcount: '333'
+ht-degree: 87%
 
 ---
 
@@ -16,7 +14,7 @@ ht-degree: 100%
 
 ## 概要 {#overview}
 
-この機能を使用すると、プロジェクトレベルで画像の再生時間を定義できます。デフォルトでは、すべての画像はこの再生時間を継承します。プロジェクトレベルで時間が定義されていない場合、デフォルトの再生は 8 秒間続きます。
+この機能を使用すると、画像の再生時間をプロジェクトレベルで定義できます。 デフォルトでは、すべての画像はこの再生時間を継承します。プロジェクトレベルで時間が定義されていない場合、デフォルトの再生は 8 秒間続きます。
 
 ### 前提条件 {#prerequisites}
 
@@ -34,11 +32,11 @@ ht-degree: 100%
 
    ![アセット](assets/image_playback2.png)
 
-## プロジェクトレベル画像再生時間割り当ての編集 {#editing-project-level-image-playback-duration-assignment}
+## プロジェクトレベル画像再生時間の割り当ての編集 {#editing-project-level-image-playback-duration-assignment}
 
 以下の節では、AEM Screens プロジェクトのコンテンツの再生時間を編集する方法について説明します。
 
-### プロジェクトレベル画像再生時間の更新 {#updating-the-playback-duration-for-images-in-a-project}
+### プロジェクトレベルでの画像の再生時間の更新 {#updating-the-playback-duration-for-images-in-a-project}
 
 
 >[!NOTE]

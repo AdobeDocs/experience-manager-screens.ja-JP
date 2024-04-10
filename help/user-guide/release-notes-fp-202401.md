@@ -1,20 +1,21 @@
 ---
 title: Screens 機能パック 202401 のリリースノート
-description: 2024年1月2日（PT）にリリースされた AEM Screens 機能パック 202401 については、このページを参照してください。
+description: 2024 年 1 月 2 日（PT）にリリースされたAEM Screens機能パック 202401 について説明します。
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: bdc8ff6c1291b7f0dc749e4a9f3a4c1d21678303
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+exl-id: 9879f339-e70f-446d-acd3-380016269f27
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 91%
 
 ---
 
 # 機能パック 202401 のリリースノート {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->最新バージョンの 6.5 Adobe Experience Manager（AEM 6.5）にアップグレードすることをお勧めします。最新バージョンの情報は、[こちら](https://experienceleague.adobe.com/docs/experience-manager-65/content/release-notes/release-notes.html?lang=ja)から入手できます
+>最新バージョンの 6.5 Adobe Experience Manager（AEM 6.5）にアップグレードすることをお勧めします。から最新のバージョン情報を取得できます。 [こちら](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## 入手方法 {#availability}
 

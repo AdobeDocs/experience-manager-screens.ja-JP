@@ -1,33 +1,30 @@
 ---
 title: AEM Screens と連携する Adobe Analytics の設定
-seo-title: AEM Screens と連携する Adobe Analytics の設定
-description: ここでは、オフライン Adobe Analytics を使用したカスタムイベントのシーケンス化と送信について詳しく説明します
-seo-description: ここでは、オフライン Adobe Analytics を使用したカスタムイベントのシーケンス化と送信について詳しく説明します
-uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
+description: オフライン Adobe Analyticsを使用したカスタムイベントの順序付けと送信について詳しく説明します。
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
-feature: Screens の管理
+feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '696'
-ht-degree: 100%
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 71%
 
 ---
 
 # AEM Screens と連携する Adobe Analytics の設定 {#configuring-adobe-analytics-with-aem-screens}
 
+<!-- OBSOLETE NOTE>
 >[!CAUTION]
 >
->この AEM Screens 機能は、AEM 6.4.2 機能パック 2 と AEM 6.3.3 機能パック 4 がインストールされている場合にのみ使用できます。
+>This AEM Screens functionality is only available if you have installed AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4.
 >
->このいずれかの機能パックにアクセスするには、アドビサポートに連絡してアクセス権をリクエストする必要があります。アクセス権が付与されると、パッケージ共有から機能パックをダウンロードできるようになります。
+>To get access to either of these Feature Packs, you must contact Adobe Support and request access. Once you have permissions, download it from Package Share. -->
 
 ここでは、以下のトピックについて説明します。
 
@@ -36,7 +33,7 @@ ht-degree: 100%
 
 ## AEM Screens と連携する Adobe Analytics でのシーケンス化 {#sequencing-in-adobe-analytics-with-aem-screens}
 
-***シーケンス化***&#x200B;は、Adobe Analytics サービスをアクティブにするデータストレージサービスで開始されます。チャネルコンテンツは、データテストキャプチャを含んだ Adobe Analytics イベントを Windows I/O に送信し、滞在イベントがトリガーされます。これらのイベントはインデックス DB に保存され、さらにオブジェクトストアに格納されます。管理者が設定したスケジュールに基づいて、データがオブジェクトストアから切り出され、さらにチャンクストアに転送されます。接続時に、最大量のデータ送信が試みられます。
+***シーケンス化***&#x200B;は、Adobe Analytics サービスをアクティブにするデータストレージサービスで開始されます。チャネルコンテンツは、データテストキャプチャを含んだ Adobe Analytics イベントを Windows I/O に送信し、滞在イベントがトリガーされます。これらのイベントはインデックス DB に保存され、さらにオブジェクトストアに格納されます。管理者が設定したスケジュールに基づいて、オブジェクト ストアからデータを切り取り、さらにチャンク ストアに転送します。 接続時に最大量のデータを送信しようとします。
 
 ### シーケンス図 {#sequencing-diagram}
 
@@ -84,7 +81,7 @@ ht-degree: 100%
    <td>推奨</td> 
    <td>文字列</td> 
    <td>タイムスタンプ - UTC</td> 
-   <td>イベント開始日時。指定しない場合、イベントの時刻はサーバーで受信された時刻と見なされます</td> 
+   <td>イベント開始日時。これを指定しなかった場合、イベント時刻はサーバーが受信した時刻と見なされます</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -111,7 +108,7 @@ ht-degree: 100%
    <td>必須</td> 
    <td>文字列</td> 
    <td> </td> 
-   <td>メインカテゴリ（DESKTOP、MOBILE、WEB、PROCESS、SDK、SERVICE、ECOSYSTEM）- <strong>プレーヤーに送信する</strong>イベントタイプの分類</td> 
+   <td>メインカテゴリ（デスクトップ、モバイル、WEB、プロセス、SDK、サービス、エコシステム） – イベントタイプのグループ化 –  <strong>Player sent</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -120,7 +117,7 @@ ht-degree: 100%
    <td>推奨</td> 
    <td>文字列</td> 
    <td> </td> 
-   <td>サブカテゴリ - ワークフローのセクション、スクリーンの領域など（最近使用したファイル、CC ファイル、モバイル作品など）。</td> 
+   <td>サブカテゴリ – ワークフローのセクションまたは画面の領域など。 （最近使用したファイル、CC ファイル、モバイル作品など）。</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -138,7 +135,7 @@ ht-degree: 100%
    <td>推奨</td> 
    <td>文字列</td> 
    <td> </td> 
-   <td>イベントサブタイプ（作成、更新、削除、公開など）- ユーザーアクションの追加の詳細情報</td> 
+   <td>イベントサブタイプ（作成、更新、削除、公開など） – ユーザーアクションの詳細</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -174,7 +171,7 @@ ht-degree: 100%
    <td>オプション</td> 
    <td>文字列<br /> </td> 
    <td>UUID</td> 
-   <td>デバイス GUID（例：マシン ID、IP アドレス + サブネットマスク + ネットワーク ID + ユーザーエージェントのハッシュなど）を識別します。登録時に生成されたプレーヤーユーザー名をここに送信します。</td> 
+   <td>デバイス GUID を識別します（例：マシン ID、または IP アドレス + サブネットマスク + ネットワーク ID + ユーザーエージェントのハッシュ）。ここでは、登録時に生成されたプレーヤーのユーザー名が送信されます。</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -183,7 +180,7 @@ ht-degree: 100%
    <td>オプション</td> 
    <td>数値</td> 
    <td> </td> 
-   <td>イベントの発生回数 - ビデオの長さを送信します</td> 
+   <td>イベントが発生した回数 – ビデオのデュレーションが送信されます</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -192,7 +189,7 @@ ht-degree: 100%
    <td>オプション</td> 
    <td>文字列</td> 
    <td> </td> 
-   <td>イベントの値（例：設定のオン／オフ）</td> 
+   <td>イベントの値（設定のオン/オフなど）</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -291,7 +288,7 @@ ht-degree: 100%
    <td>必須</td> 
    <td>文字列</td> 
    <td> </td> 
-   <td>実際に再生されたレンディションを含むアセットの URL</td> 
+   <td>再生されたレンディションを含むアセットへの URL</td> 
   </tr>
   <tr>
    <td> </td> 

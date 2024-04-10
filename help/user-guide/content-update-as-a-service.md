@@ -1,18 +1,15 @@
 ---
 title: サービスとしてのコンテンツ更新
-seo-title: サービスとしてのコンテンツ更新
-description: ここでは、サービスとしてのコンテンツ更新について説明します。
-seo-description: ここでは、サービスとしてのコンテンツ更新について説明します。
-uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
+description: サービスとしてのコンテンツ更新について説明します。
 contentOwner: Jyotika syal
-feature: Screens のオーサリング
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '358'
-ht-degree: 100%
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+workflow-type: tm+mt
+source-wordcount: '291'
+ht-degree: 81%
 
 ---
 
@@ -23,15 +20,16 @@ ht-degree: 100%
 * **概要**
 * **オフライン一括更新の使用**
 
+<!--
 >[!CAUTION]
 >
->この AEM Screens 機能は、AEM 6.3 機能パック 3 または AEM 6.4 Screens 機能パック 1 がインストールされている場合にのみ使用できます。
+>This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->この機能パックにアクセスするには、アドビサポートに連絡してアクセス権をリクエストする必要があります。アクセス権が付与されると、パッケージ共有から機能パックをダウンロードできるようになります。
+>To get access to this Feature Pack, you must contact Adobe Support and request access. When you have permission you can download it from Package Share. -->
 
 ## 概要 {#overview}
 
-オフライン一括更新を使用すると、すべてのチャネルを一括更新できます。特定のチャネルに移動してコンテンツを更新する手間が省けます。代わりに、ある特定のプロジェクトのチャネルに含まれているすべてのコンテンツを一度に更新できます。
+オフライン一括更新：すべてのチャネルを一括で更新できます。 特定のチャネルに移動してコンテンツを更新する手間が省けます。代わりに、ある特定のプロジェクトのチャネルに含まれているすべてのコンテンツを一度に更新できます。
 
 また、ネットワークトラフィックが少ない時間帯に、このアクティビティをスケジュールすることもできます。
 
@@ -71,6 +69,6 @@ ht-degree: 100%
    >
    >チャネルからの相対的なプロジェクトパスを指定します。
 
-   **スケジュールの頻度**：このサービスでオフラインコンテンツを更新する時刻（例：午後 5 時または 17 時）を指定します。
+   **スケジュール頻度** このサービスがオフラインコンテンツを更新する時刻（例：午後 5:00 または 17:00）を指定します。
 
-1. 「**保存**」をクリックして設定を保存すると、指定した時刻にコンテンツが更新されるようになります。
+1. を選択 **保存** そのため、設定を保存できます。 指定した時間にすべてのコンテンツが更新されます。

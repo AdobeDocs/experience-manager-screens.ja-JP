@@ -1,23 +1,19 @@
 ---
 title: オフライン一括更新
-seo-title: オフライン一括更新
-description: ここでは、すべてのチャネルを一括更新する方法について説明します。
-seo-description: ここでは、すべてのチャネルを一括更新する方法について説明します。
-uuid: 9b52c5e7-aa6d-4f55-b23c-8bd923723552
+description: すべてのチャネルを一括で更新する方法を説明します。
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 5d4ca652-d918-4b2b-b239-a2be9255ef0d
 noindex: true
-feature: Screens のオーサリング
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '359'
-ht-degree: 100%
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 74%
 
 ---
 
@@ -28,15 +24,16 @@ ht-degree: 100%
 * **概要**
 * **オフライン一括更新の使用**
 
+<!-- OBSOLETE VERSIONS
 >[!CAUTION]
 >
->この AEM Screens 機能は、AEM 6.3 機能パック 3 または AEM 6.4 Screens 機能パック 1 がインストールされている場合にのみ使用できます。
+>This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->この機能パックにアクセスするには、アドビサポートに連絡してアクセス権をリクエストする必要があります。アクセス権が付与されると、パッケージ共有から機能パックをダウンロードできるようになります。
+>To get access to this Feature Pack, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share. -->
 
 ## 概要 {#overview}
 
-オフライン一括更新を使用すると、すべてのチャネルを一括更新できます。特定のチャネルに移動してコンテンツを更新する手間が省けます。代わりに、ある特定のプロジェクトのチャネルに含まれているすべてのコンテンツを一度に更新できます。
+オフライン一括更新：すべてのチャネルを一括で更新できます。 特定のチャネルに移動してコンテンツを更新する手間が省けます。代わりに、ある特定のプロジェクトのチャネルに含まれているすべてのコンテンツを一度に更新できます。
 
 また、ネットワークトラフィックが少ない時間帯に、このアクティビティをスケジュールすることもできます。
 
@@ -53,7 +50,7 @@ ht-degree: 100%
 次の手順に従って、AEM Screens プロジェクトでオフライン一括更新を使用します。
 
 1. AEM Screens プロジェクトに移動します。
-1. プロジェクトを選択し、アクションバーの「**オフラインコンテンツを更新**」をクリックして、チャネルコンテンツを手動で更新します。
+1. プロジェクトを選択してから、を選択します。 **オフラインコンテンツを更新** アクションバーので、チャネルコンテンツを手動で更新できます。
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -76,6 +73,6 @@ ht-degree: 100%
    >
    >チャネルからの相対的なプロジェクトパスを指定します。
 
-   **スケジュールの頻度**：このサービスでオフラインコンテンツを更新する時刻（例：午後 5 時または 17 時）を指定します。
+   **スケジュール頻度** このサービスがオフラインコンテンツを更新する時刻（例：午後 5:00 または 17:00）を指定します。
 
-1. 「**保存**」をクリックして設定を保存すると、指定した時刻にコンテンツが更新されるようになります。
+1. を選択 **保存** をクリックして設定を保存します。 コンテンツは指定した時間に更新されます。

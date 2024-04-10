@@ -1,22 +1,23 @@
 ---
 title: Screens 機能パック 20240116 のリリースノート
-description: 2024年1月16日（PT）にリリースされた AEM Screens 機能パック 20240116 については、このページを参照してください。
+description: 2024 年 1 月 16 日（PT）にリリースされたAEM Screens機能パック 20240116 について説明します。
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: f20cdc76eb599000b4da4b2c654b3c191d963ed6
-workflow-type: ht
-source-wordcount: '163'
-ht-degree: 100%
+exl-id: b26ed2de-2e47-4dd5-be1c-4c46971e9f6d
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 87%
 
 ---
 
 # 機能パック 20240116 のリリースノート {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->最新バージョンの 6.5 Adobe Experience Manager（AEM 6.5）にアップグレードすることをお勧めします。最新バージョンの情報は、[こちら](https://experienceleague.adobe.com/docs/experience-manager-65/content/release-notes/release-notes.html?lang=ja)から入手できます
+>最新バージョンの 6.5 Adobe Experience Manager（AEM 6.5）にアップグレードすることをお勧めします。から最新のバージョン情報を取得できます。 [こちら](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/release-notes/release-notes)
 
-## 入手方法 {#availability}
+## 可用性 {#availability}
 
 AEM Screens では、AEM 6.5 機能パック 11.2 をリリースしました。
 
@@ -36,6 +37,6 @@ AEM Screens 機能パック 202204 のリリース日は 2024年1月16日（PT�
 
 * `libs/screens/dcc/components/fileuploaddrop/clientlibs/js/dropzone.js` での XSS の問題。（SCRNS-3906）
 
-#### AEM Screens Player のダウンロード   {#aem-screens-player-downloads}
+#### AEM Screens Player のダウンロード 
 
 最新の AEM Screens Player をダウンロードするには、**[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/index.html)**&#x200B;を参照してください。

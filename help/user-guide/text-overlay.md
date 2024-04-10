@@ -1,23 +1,19 @@
 ---
 title: テキストオーバーレイ
-seo-title: Text Overlay
-description: テキストオーバーレイは AEM Screens で利用できる機能で、画像の上にタイトルや説明を重ねて表示することにより、シーケンスチャネルに魅力的なエクスペリエンスを作成できます。このページでは、この機能について詳しく見ていきます。
-seo-description: Text Overlay is a feature available in AEM Screens that allows you to create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image. Follow this page to learn more.
-uuid: 944477e8-0025-4cc7-aa61-6b72f4a245fd
+description: 画像の上にオーバーレイしたタイトルや説明を提供することで、シーケンスチャネルで魅力的なエクスペリエンスを作成できる、AEM Screensのテキストオーバーレイについて説明します。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: authoring
-discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 89%
+source-wordcount: '767'
+ht-degree: 58%
 
 ---
 
@@ -32,13 +28,13 @@ ht-degree: 89%
 
 >[!CAUTION]
 >
->**テキストオーバーレイ**&#x200B;機能は、AEM 6.3 機能パック 5 または AEM 6.4 機能パック 3 がインストールされている場合にのみ使用できます。
+>この **テキストオーバーレイ** 機能は、AEM 6.3 機能パック 5 またはAEM 6.4 機能パック 3 がインストールされている場合にのみ使用できます。
 
 ## 概要 {#overview}
 
-テキストオーバーレイは AEM Screens で利用できる機能で、画像の上にタイトルや説明を重ねて表示することにより、シーケンスチャネルに魅力的なエクスペリエンスを作成できます。
+テキストオーバーレイは、AEM Screensで使用できる機能で、画像の上にオーバーレイされたタイトルや説明を提供することで、シーケンスチャネルで魅力的なエクスペリエンスを作成できます。
 
-独自のカスタムコンポーネントの作成方法については、**AEM Screens コンポーネントの拡張**&#x200B;を参照してください。
+独自のカスタムコンポーネントの作成方法については、を参照してください。 **AEM Screens コンポーネントの拡張**.
 
 この節では、ポスターコンポーネントを AEM Screens プロジェクトで使用および適用して、シーケンスチャネルの 1 つにテキストオーバーレイとして使用する方法のみ紹介します。
 
@@ -48,7 +44,7 @@ ht-degree: 89%
 
 **前提条件**
 
-テキストオーバーレイ機能の実装を開始する前に、前提条件として、プロジェクトをセットアップしておく必要があります。例：
+この機能を実装する前に、テキストオーバーレイの実装を開始するための前提条件として、プロジェクトが設定されていることを確認してください。 例：
 
 * AEM Screens プロジェクト（この例では **TextOverlayDemo**）を作成する
 
@@ -62,7 +58,7 @@ ht-degree: 89%
 
 次の手順に従って、AEM Screens チャネルでテキストオーバーレイを使用します。
 
-1. に移動します。 **TextOverlayDemo** > **チャネル** > **TextSample** をクリックします。 **編集** アクションバーから、エディターを開きます。
+1. に移動します。 **TextOverlayDemo** > **チャネル** > **TextSample** をクリックして、 **編集** アクションバーから。
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
@@ -98,19 +94,19 @@ ht-degree: 89%
 
 AEM Screens プロジェクトの ContextHub 設定を設定します。
 
-データストアを使用してデータ駆動型アセットの変更を設定および管理する方法については、[AEM Screens での ContextHub の設定](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/configuring-context-hub.html?lang=ja)を参照してください。
+データストアを使用してデータ駆動型アセットの変更を設定および管理する方法については、を参照してください。 [AEM Screensでの ContextHub の設定](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
 
-プロジェクトに必要な設定をおこなったら、次の手順に従って Google シートの値を使用します。
+プロジェクトに必要な設定を行った後、次の手順に従ってGoogle Sheets の値を使用します。
 
-1. に移動します。 **TextOverlayDemo** > **チャネル** > **TextSample** をクリックします。 **プロパティ** をクリックします。
+1. に移動します。 **TextOverlayDemo** > **チャネル** > **TextSample** を選択して、 **プロパティ** アクションバーから。
 
-1. 「**パーソナライゼーション**」タブを選択して、ContextHub 設定をセットアップします。
+1. 「」を選択します **Personalization** タブをクリックして、ContextHub 設定をセットアップします。
 
-   1. 「**ContextHub のパス**」として **libs**/**settings**/**cloudsettings**/**default**/**ContextHub 設定** を選択し、「**選択**」をクリックします。
+   1. 「」を選択します **ContextHub パス** as **libs** > **設定** > **cloudsettings** > **default** > **ContextHub 設定** を選択して、 **を選択**.
 
-   1. 「**セグメントのパス**」として **conf**／**Screens**／**settings**／**wcm**／**segments** を選択し、「**選択**」をクリックします。
+   1. 「」を選択します **セグメントのパス** as **conf** > **スクリーン** > **設定** > **wcm** > **セグメント** を選択して、 **を選択**.
 
-   1. 「**保存して閉じる**」をクリックします。
+   1. 「**保存して閉じる**」を選択します。
 
       >[!NOTE]
       >
@@ -118,27 +114,27 @@ AEM Screens プロジェクトの ContextHub 設定を設定します。
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. に移動します。 **TextOverlayDemo** > **チャネル** > **TextSample** をクリックします。 **編集** アクションバーから、エディターを開きます。
+1. に移動します。 **TextOverlayDemo** > **チャネル** > **TextSample** をクリックして、 **編集** アクションバーから。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
 1. 「[テキストオーバーレイの使用](/help/user-guide/text-overlay.md#using-text-overlay)」の節で説明されているように、画像とテキストオーバーレイコンポーネントを画像に追加します。
 
-1. 「**構成**」（レンチアイコン）をクリックして、「**画像**」ダイアログボックスを開きます。
+1. Select on **設定** （レンチアイコン）をクリックして、 **画像** ダイアログが表示されます。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. **画像**&#x200B;ダイアログボックスから「**ContextHub**」タブに移動します。「**追加**」をクリックします。
+1. **画像**&#x200B;ダイアログボックスから「**ContextHub**」タブに移動します。「**追加**」を選択します。
 
    >[!NOTE]
    >ContextHub 設定を行っていない場合、このオプションはプロジェクトで無効になります。
 
-1. 入力 **値** （内） **プレースホルダー** フィールドに入力します。 Googleシートの値を取得する行を選択します。 **ContextHub 変数**. この場合、値はGoogleシートの 2 行目と 1 列目から取得されます。 次の図に示すように、**デフォルト値**&#x200B;を **20** と入力します。完了したら、チェックマークをクリックします。
+1. Enter **値** が含まれる **プレースホルダー** フィールド。 Google シートの値を取得する行を **ContextHub 変数**. この場合、値はGoogle シートの行 2 と列 1 から取得されます。 次の図に示すように、**デフォルト値**&#x200B;を **20** と入力します。完了したら、チェックマークをクリックします。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
    >[!NOTE]
-   >参照用に、次の図は Google シートから取得される値を示しています。
+   >参考までに、次の画像はGoogle Sheets から取得された値を示しています。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay6.png)
 
@@ -146,6 +142,6 @@ AEM Screens プロジェクトの ContextHub 設定を設定します。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 
-1. 「**プレビュー**」をクリックし、出力を表示します。
+1. **プレビュー**&#x200B;を選択します。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)

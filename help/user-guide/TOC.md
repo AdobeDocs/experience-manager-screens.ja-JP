@@ -1,17 +1,17 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens ヘルプ
 breadcrumb-title: AEM Screens ガイド
-user-guide-description: 動的でインタラクティブなデジタルエクスペリエンスおよびインタラクションの公開を可能にするデジタル署名ソリューションの使用方法について説明します。
+user-guide-description: 動的でインタラクティブなデジタルエクスペリエンスとインタラクションを公開できる、デジタルサイネージソリューションの使用方法を説明します。
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 705540969c96d143294953d4fa391ad97a3aa0f5
-workflow-type: ht
-source-wordcount: '522'
-ht-degree: 100%
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+workflow-type: tm+mt
+source-wordcount: '518'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 + [Screens の概要](aem-screens-introduction.md)
 + 概要とキックスタートガイド {#overview}
    + [キックスタートガイド](kickstart-for-aem-screens.md)
-   + [Screens ベストプラクティスガイド](https://experienceleague.adobe.com/docs/experience-manager-screens/using/about-guide.html?lang=ja)
+   + [Screens ベストプラクティスガイド](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
    + [キーワード](screens-glossary.md)
 + デジタルサイネージネットワークの基礎知識 {#digital-signage-network}
    + [第 1 部：プロジェクト上の役割と責務](project-roles-responsibilities.md)
@@ -41,10 +41,10 @@ ht-degree: 100%
    + [ファイルをソースとする新しいプロジェクトインポーター](project-importer.md)
    + [データトリガーのパブリッシュサーバーへのレプリケーション](replicating-data-triggers.md)
    + [Screens レプリケーションエージェントの設定](configure-screens-replication.md)
-   + 顧客固有の考慮事項 {#installing-client}
+   + クライアント固有の考慮事項 {#installing-client}
       + [Chrome OS プレーヤー](implementing-chrome-os-player.md)
       + [拡張機能としての Chrome プレーヤーの使用](using-chrome-player-as-an-extension.md)
-      + [Android プレーヤー](implementing-android-player.md)
+      + [Android](implementing-android-player.md)
       + [Windows プレーヤー](implementing-windows-player.md)
       + [Tizen プレーヤー](tizen-player.md)
       + [Cloud Player](implementing-cloud-player.md)

@@ -1,23 +1,19 @@
 ---
 title: デバイスの登録
-seo-title: Device Registration
-description: このページでは、AEM Screens プロジェクトでのデバイス登録プロセスについて説明します。
-seo-description: This page describes the device registration process in an AEM Screens project.
-uuid: 5365e506-1641-4a0c-b34d-c39da02f700b
+description: AEM Screens プロジェクトでのデバイス登録プロセスについて説明します。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: administering
-discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 85%
+source-wordcount: '745'
+ht-degree: 57%
 
 ---
 
@@ -27,18 +23,18 @@ ht-degree: 85%
 
 ## デバイスの登録 {#registering-a-device}
 
-デバイス登録プロセスには、次に示す 2 台のコンピューターを使用します。
+デバイスの登録プロセスは、次の 2 台の異なるマシンで実行されます。
 
-* 登録する実際のデバイス（例えば、サイネージディスプレイ）
-* デバイスの登録に使用するAEMサーバー
+* 登録する実際のデバイス （サイネージディスプレイなど）
+* デバイスの登録に使用するAEM サーバー
 
 >[!NOTE]
 >
 >最新の Windows プレーヤー（*.exe*）を [AEM 6.4 Screens Player のダウンロード](https://download.macromedia.com/screens/)ページからダウンロードしたら、以下の手順に従ってプレーヤーのアドホックインストールを完了します。
 >
->1. 左上隅を長押しして、管理パネルを開きます。
+>1. 左上隅のを長押して、管理パネルを開きます。
 >1. 左のアクションメニューから「**設定**」に移動し、AEM インスタンスの場所のアドレスを「**サーバー**」に入力して、「**保存**」をクリックします。
->1. 左のアクションメニューの「**登録**」リンクをクリックし、以下の手順でデバイス登録プロセスを完了します。
+>1. 「」を選択します **登録** 左側のアクションメニューからのリンクと以下の手順に従って、デバイス登録プロセスを完了します。
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
@@ -51,7 +47,7 @@ ht-degree: 85%
 
    >[!NOTE]
    >
-   >AEM ダッシュボードで Screens の新しいプロジェクトを作成する方法について詳しくは、[Screens プロジェクトの作成と管理](creating-a-screens-project.md)を参照してください。
+   >AEM ダッシュボードでの Screens のプロジェクトの作成について詳しくは、 [Screens プロジェクトの作成と管理](creating-a-screens-project.md).
 
 1. アクションバーの「**デバイスマネージャー**」ボタンをタップまたはクリックします。
 
@@ -84,17 +80,17 @@ ht-degree: 85%
 
    >[!NOTE]
    >
-   >「**戻る**」をタップまたはクリックすると、新しいデバイスを登録できます。
+   >この **新規登録** 新しいデバイスを登録できます。
    >
    >「**ディスプレイを割り当て**」をタップまたはクリックすると、デバイスをディスプレイに直接追加できます。
 
-   「**完了**」をタップまたはクリックする場合は、デバイスをディスプレイに割り当てる必要があります。
+   クリックした場合 **終了**&#x200B;デバイスをディスプレイに割り当てる必要があります。
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
    >[!NOTE]
    >
-   >Screens プロジェクトのディスプレイの作成と管理について詳しくは、[ディスプレイの作成と管理](managing-displays.md)を参照してください。
+   >Screens プロジェクトのディスプレイの作成と管理について詳しくは、以下を参照してください。 [ディスプレイの作成と管理](managing-displays.md).
 
 ### ディスプレイへのデバイスの割り当て {#assigning-device-to-a-display}
 
@@ -116,7 +112,7 @@ ht-degree: 85%
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   また、「**完了**」をクリックすると、ディスプレイダッシュボードが表示されます。
+   また、をクリックすると表示ダッシュボードを表示できます **終了**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -124,7 +120,7 @@ ht-degree: 85%
 
 デバイスをプレーヤーに登録すると、デバイスマネージャーの UI からすべてのデバイスを表示できます。
 
-1. 例えば、AEM Screensプロジェクトからデバイスマネージャー UI に移動します。 **DemoScreens** > **デバイス**.
+1. AEM Screens プロジェクトからデバイスマネージャー UI （例：）に移動します。 **DemoScreen** > **デバイス**.
 
 1. **デバイス**&#x200B;フォルダーを選択し、アクションバーの「**デバイスマネージャー**」クリックします。
 
@@ -145,26 +141,26 @@ ht-degree: 85%
 
 ### 検索機能の制限 {#limitations}
 
-* ユーザーは、*デバイス ID*&#x200B;または&#x200B;*デバイス名*&#x200B;に存在する任意の単語を検索できます。
+* に存在する単語を検索できる *デバイス ID* または *デバイス名*.
 
   >[!NOTE]
   >デバイス名は、「*BostonStoreLobby*」のように 1 単語ではなく、「*Boston Store Lobby*」のように複数の単語で作成することをお勧めします。
 
-* *Boston Store Lobby* などのデバイス名を作成すると、「*boston*」、「*store*」、「*lobby*」などの単語を検索できますが、デバイス名が「*BostonStoreLobby*」の場合、「*boston*」を検索しても結果は表示されません。
+* 次のようなデバイス名を作成する場合： *ボストン店ロビー*、任意の単語を検索します *ボストン*, *store*、または *ロビー*. ただし、デバイス名が *ボストンストアロビー*&#x200B;を探します。 *ボストン* 結果は表示されません。
 
-* ワイルドカード（`*`）は、検索でサポートされています。「*boston*」で始まるすべてのデバイスを検索する場合は、「*boston**」を使用できます。
+* ワイルドカード（`*`）は、検索でサポートされています。で始まる名前のデバイスをすべて検索したい場合 *ボストン*、以下を使用できます *ボストン**.
 
-* デバイス名が「*BostonStoreLobby*」の場合、「*boston*」を検索しても結果が返されませんが、代わりに検索条件で「*boston**」を使用すると、結果が返されます。
+* デバイス名が *ボストンストアロビー* およびを検索しています *ボストン* が結果を返さず、次を使用する *ボストン**を指定すると、検索条件に一致する結果が返されます。
 
 ## デバイスの登録の制限 {#limitations-on-device-registration}
 
-システム全体のユーザーパスワード制限により、デバイスの登録に失敗する場合があります。 デバイス登録では、ランダムに生成されたパスワードを使用して、デバイスユーザーを作成します。
+システム全体のユーザーパスワード制限により、デバイスの登録が失敗する場合があります。 デバイス登録は、ランダムに生成されたパスワードを使用してデバイスユーザーを作成します。
 
-パスワードが *AuthorizableActionProvider* 設定で、デバイスユーザーの作成に失敗する場合があります。
+によってパスワードが制限されている場合 *AuthorizableActionProvider* 設定、デバイスユーザーの作成に失敗する場合があります。
 
 >[!NOTE]
 >
->現在生成されるランダムパスワードは、33 ～ 122 の 36 文字の ASCII 文字で構成されます（ほとんどすべての特殊文字を含む）。
+>現在の生成されたランダムパスワードは、33 から 122 の範囲の 36 個の ASCII 文字（ほとんどすべての特殊文字を含む）で構成されます。
 
 ```java
 25.09.2016 16:54:03.140 *ERROR* [59.100.121.82 [1474844043109] POST /content/screens/svc/registration HTTP/1.1] com.adobe.cq.screens.device.registration.impl.RegistrationServlet Error during device registration

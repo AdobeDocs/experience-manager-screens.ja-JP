@@ -1,31 +1,27 @@
 ---
 title: 機能パック 201812 のリリースノート
-seo-title: 機能パック 201812 のリリースノート
-description: 2019 年 1 月 16 日にリリースされた AEM Screens 機能パック 201812 について説明します。
-seo-description: 2019 年 1 月 16 日にリリースされた AEM Screens 機能パック 201812 について説明します。
-uuid: 7cc8dd96-5965-4af0-bebc-9d4941481734
+description: 2019 年 1 月 16 日（PT）にリリースされたAEM Screens機能パック 201812 について説明します。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: release-notes
-discoiquuid: 08ace4d8-bccf-4783-a664-a28bbae7ecc3
 noindex: true
-feature: 機能パック
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '277'
-ht-degree: 100%
+exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+workflow-type: tm+mt
+source-wordcount: '244'
+ht-degree: 53%
 
 ---
 
-
-# 機能パック 201812 のリリースノート {#release-notes-for-feature-pack}
+# 機能パック 201812 のリリースノート{#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
+>最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。AEM Screensは、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供します。
 
 AEM 6.3 機能パック 5 および AEM 6.4 機能パック 3 向けの AEM Screens がリリースされました。詳細は以下のとおりです。
 
@@ -37,28 +33,28 @@ AEM Screens 機能パック 201812 のリリース日は 2019 年 1 月 16 日�
 
 * **チャネル内のアセットへのテキストオーバーレイ**
 
-   テキストオーバーレイは AEM Screens で利用できる機能で、画像の上にタイトルや説明を重ねて表示することにより、シーケンスチャネルに魅力的なエクスペリエンスを作成できます。詳しくは、[**テキストオーバーレイ**](text-overlay.md)&#x200B;を参照してください。
+  テキストオーバーレイは、AEM Screensで使用できる機能で、画像の上にオーバーレイされたタイトルや説明を提供することで、シーケンスチャネルで魅力的なエクスペリエンスを作成できます。 参照： [**テキストオーバーレイ**](text-overlay.md).
 
 * **複数アセットスケジュール設定**
 
-   複数アセットスケジュール設定を使用すると、複数のアセットを選択し、選択したすべてのアセットに再生スケジュールを適用できます。詳しくは、**[アセットスケジュール設定](asset-level-scheduling.md)**&#x200B;の&#x200B;**複数アセットスケジュール設定**&#x200B;の節を参照してください。
+  複数アセットスケジュール設定を使用すると、複数のアセットを選択し、選択したすべてのアセットに再生スケジュールを適用できます。参照： **複数アセットのスケジュール**&#x200B;のセクション&#x200B;**[アセットスケジュール](asset-level-scheduling.md)**.
 
 * **マルチゾーンレイアウト**
 
-   マルチゾーンレイアウトを使用すると、マルチゾーンコンテンツを作成し、ビデオ、画像およびテキストなどの様々なアセットを使用して、単一のスクリーンに組み合わせることができます。詳しくは、**[マルチゾーンレイアウト](multi-zone-layout-aem-screens.md)**&#x200B;を参照してください。
+  マルチゾーンレイアウトを使用すると、複数のゾーンコンテンツを作成し、ビデオ、画像およびテキストなどの様々なアセットを使用して、単一のスクリーンに組み合わせることができます。 参照： **[マルチゾーンレイアウト](multi-zone-layout-aem-screens.md)**.
 
 * **プレーヤーへのアセットのスマート同期**
 * **オーサー／パブリッシュのデプロイメント（堅牢化）**
 
-### リリースされている AEM Screens Player {#released-aem-screens-players}
+### リリースされている AEM Screens Player
 
 AEM 6.3 機能パック 5 および AEM 6.4 機能パック 3 向けに、次の AEM Screens Player がリリースされています。
 
 * Chrome OS
 * Windows
-* Android
+* Android™
 * iOS
 
-#### AEM Screens Player のダウンロード {#aem-screens-player-downloads}
+#### AEM Screens Player のダウンロード 
 
-最新の AEM Screens Player のダウンロードとバグ修正について詳しくは、[**AEM Screens Player のダウンロード**](https://download.macromedia.com/screens/)を参照してください。
+最新のAEM Screens Player のダウンロードとバグ修正について詳しくは、以下を参照してください。 [**AEM Screens Player のダウンロード**](https://download.macromedia.com/screens/).

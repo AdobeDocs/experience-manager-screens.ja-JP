@@ -1,22 +1,18 @@
 ---
 title: デバイスの管理
-seo-title: デバイスの管理
-description: このページでデバイス割り当てを説明します。
-seo-description: このページに従って、デバイス割り当てについて学びます。デバイスコンソールでは、デバイスマネージャーにアクセスして、デバイスをディスプレイに割り当てることができます。
-uuid: 889cc11c-60f7-4966-82b5-9ebdd082a3c5
+description: AEM Screensでのデバイスの割り当てと管理について説明します。
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
-feature: Screens のオーサリング
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '270'
-ht-degree: 100%
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 62%
 
 ---
 
@@ -24,11 +20,11 @@ ht-degree: 100%
 
 このページでデバイス割り当てを説明します。
 
-デバイスコンソールでは、デバイスマネージャーにアクセスして、デバイスをディスプレイに割り当てることができます。
+デバイス コンソールを使用すると、デバイスマネージャーにアクセスしてデバイスをディスプレイに割り当てることができます。
 
 >[!CAUTION]
 >
->デバイスを割り当てる前に、デバイスを登録する必要があります。詳しくは、[デバイスの登録](device-registration.md)を参照してください。
+>デバイスを割り当てる前に、登録する必要があります。 詳しくは、を参照してください [デバイスの登録](device-registration.md).
 
 ## デバイスの割り当て {#device-assignment}
 
@@ -48,7 +44,7 @@ ht-degree: 100%
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. デバイスを割り当てるディスプレイをリストから選択し、「**割り当て**」をタップまたはクリックします。
+1. デバイスの割り当て先となるディスプレイをリストから選択し、 **割り当て**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
@@ -59,7 +55,7 @@ ht-degree: 100%
 
    ![chlimage_1-37](assets/chlimage_1-37.png)
 
-   **デバイス**&#x200B;パネルの右上隅の（**...**）をクリックして、デバイス設定を追加するかデバイスを更新します。
+   「」（**...**）を選択します。 **デバイス** パネルを開いて、デバイス設定を追加するか、デバイスを更新します。
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 
@@ -67,7 +63,7 @@ ht-degree: 100%
 >
 >初めてのデバイスが新しい Screens プロジェクトに追加されるたびに、ユーザーグループが作成されます。
 >例えば、プロジェクトノード名が *we-retail* である場合、ユーザーグループ名は *screens-we-retail-devices* になります。
->このグループは、下の図で示されているように、**寄稿者**&#x200B;グループのメンバーとして追加されます。
+>このグループは、 **投稿者** グループ化します（下図を参照）。
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 

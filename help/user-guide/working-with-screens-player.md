@@ -1,46 +1,42 @@
 ---
 title: AEM Screens Player での作業
-seo-title: Working with Screens Player
-description: ここでは、Screens Player について説明します。 また、管理 UI とチャネルスイッチャーについても説明します。
-seo-description: Follow this page to learn about Screens Player. It also explains the Admin UI and the Channel Switcher.
-uuid: 93e113ea-fbef-4757-982b-b7dc52fc76a7
+description: AEM Screens Player、管理 UI およびチャネルスイッチャーでの操作について説明します。
 contentOwner: jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 76%
+source-wordcount: '1059'
+ht-degree: 55%
 
 ---
 
-# AEM Screens Player での作業 {#working-with-aem-screens-player}
+# AEM Screens Player での作業
 
 AEM Screens Player でチャネルコンテンツなどの設定を管理できます。
 
 >[!NOTE]
 >
->***Ctrl+Cmd+F*** を押すと、OS X AEM Screens Player のフルスクリーンモードを終了できます。
+>押す ***Ctrl + Cmd + F*** os X AEM Screens Player のフルスクリーンモードを終了できます。
 
-ディスプレイにチャネルを割り当てると、AEM Screens Player にコンテンツが表示されます。 プレーヤーの設定は、（ダッシュボードから）Admin UI の環境設定を使用しておこなうか、プレーヤー自体から設定できます。
+ディスプレイにチャネルを割り当てると、AEM Screens Player にコンテンツが表示されます。 管理 UI の環境設定を使用して（ダッシュボードから）、またはプレーヤー自体から、プレーヤーの設定を指定できます。
 
 ## デバイスダッシュボードの使用 {#using-the-device-dashboard}
 
 AEM オーサリングインスタンスを介してアクセスできる、デバイスダッシュボードからデバイスの環境設定を構成できます。
 
-1. 例えば、プロジェクトからデバイスダッシュボードに移動します。 ***プロジェクトをテスト*** > ***デバイス***.
+1. プロジェクトからデバイスダッシュボード（例：）に移動します。 ***プロジェクトのテスト*** > ***デバイス***.
 
    アクションバーから「**デバイス**」および「**デバイスマネージャー**」を選択します。
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. デバイスをクリックしてデバイスダッシュボードを開きます。
+1. デバイスをクリックして、デバイスのダッシュボードを開きます。
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
@@ -50,27 +46,27 @@ AEM オーサリングインスタンスを介してアクセスできる、デ�
 
 ### 管理 UI {#the-admin-ui}
 
-環境設定パネルから「**管理 UI**」を有効にすると、ユーザーは Screens Player から管理者設定を開くことができます。さらに、このオプションをデバイスダッシュボードから無効にすると、ユーザーはプレーヤーから Admin UI を開くことができなくなります。
+環境設定パネルから「**管理 UI**」を有効にすると、ユーザーは Screens Player から管理者設定を開くことができます。また、デバイスダッシュボードからこのオプションを無効にすると、ユーザーはプレーヤーから管理 UI を開くことができなくなります。
 
-Screens Player から Admin UI を表示するには、タッチ有効の AEM Screens Player またはマウスを使用して左上角を長押しして、Admin メニューを開きます。登録が完了しチャネルがロードされた後、ここに情報が表示されます。
+Screens Player から管理 UI を表示するには、左上隅を長押しして、タッチ操作対応AEM Screens Player またはマウスを使用して「管理」メニューを開きます。 登録が完了し、チャネルが読み込まれると、情報が表示されます。
 
 >[!NOTE]
 >
->さらに、AEM Screens Player アプリのアップタイムを表示して、アプリの正常性をチェックできます。
+>また、AEM Screens Player アプリの稼動時間を表示して、アプリの正常性のステータスを確認することもできます。
 
 ![chlimage_1-3](assets/chlimage_1-3.gif)
 
 #### 設定メニューオプションへのアクセス {#configuration-options}
 
-次の図に示すように、サイドメニューから「**設定**」オプションを選択すると、設定を更新できます。
+以下を選択した場合、設定を更新できます **設定** サイドメニューのオプションを選択します（下図を参照）。
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
-設定メニューでは、次の設定を変更できます。
+設定メニューを使用すると、次の設定を変更できます。
 
 * このダイアログボックスから、**ファームウェア**、**環境設定**、または&#x200B;**デフォルト設定**&#x200B;をリセットします。
 
-* AEM Screens プレーヤーに対して保持するログファイルの最大数は、「**保持するログファイルの最大数**」で指定します。
+* AEM Screens Player に保持する最大ログファイル数を指定します **最大数 最大数**」で指定します。
 
 * Screens プレーヤーの&#x200B;**管理者メニュー**、**チャネル切り替え**、**アクティビティ UI** を有効または無効にします。
 
@@ -80,7 +76,7 @@ Screens Player から Admin UI を表示するには、タッチ有効の AEM Sc
 
 >[!NOTE]
 >
->「**ファームウェアを更新**」オプションは、Android プレーヤーなどの cordova でのみ機能します。
+>この **ファームウェアの更新** オプションは、Android™ プレーヤーなどの Cordova でのみ機能します。
 
 >[!NOTE]
 >
@@ -88,9 +84,9 @@ Screens Player から Admin UI を表示するには、タッチ有効の AEM Sc
 
 #### コンテンツキャッシュメニューオプションへのアクセス {#content-cache-options}
 
-チャネルやアプリケーションのキャッシュを、AEM Screens Player の Admin UI からクリアできます。
+AEM Screens Player の管理 UI から、チャネルおよびアプリケーションのキャッシュをクリアできます。
 
-を選択します。 **コンテンツキャッシュ** サイドレールからキャッシュを更新します。
+「」を選択します **コンテンツキャッシュ** サイドパネルからキャッシュを更新できます。
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 
@@ -98,33 +94,33 @@ Screens Player から Admin UI を表示するには、タッチ有効の AEM Sc
 
 環境設定パネルから「**チャネルスイッチャー**」を有効にすると、Screens Player からチャネル選択／設定を開くことができます。
 
-さらに、このオプションをデバイスダッシュボードから無効にした場合、ユーザーは Screens Player からチャネルの環境設定を制御できません。
+また、デバイスダッシュボードでこのオプションを無効にすると、ユーザーは Screens Player でチャネル環境設定を制御できなくなります。
 
 Screens Player からチャネルの設定を切り替えて制御できます。
 
-プレーヤーからチャネルスイッチャーを表示するには、左下隅を長押ししてチャネルスイッチャーを開き、チャネルやその他の機能の切り替えを可能にします。
+プレーヤーからチャネルスイッチャーを表示するには、左下隅を長押しして、チャネルやその他の機能を切り替えられるチャネルスイッチャーを開きます。
 
 ![chlimage_1-69](assets/chlimage_1-69.png)
 
 >[!NOTE]
 >
->また、Screens Player から、プレーヤーの管理者メニューやチャネル切り替えボタンの有効/無効を切り替えることもできます。
+>また、Screens Player から、プレーヤーの管理メニューとチャネルスイッチャーを有効または無効にすることもできます。
 >
->( 詳しくは、 *Screens Player から環境設定を変更する* （以下の節で説明）。
+>（詳しくは、 *Screens Player からの環境設定の変更* 以下の節で説明します）。
 
-### AEM Screens Player からの環境設定の管理 {#managing-preferences-from-the-aem-screens-player}
+### AEM Screens Player からの環境設定の管理
 
 プレーヤー自体からも Admin UI およびチャネルスイッチャーの設定を変更できます。
 
-以下の手順に従って、プレーヤーから環境設定を変更します。
+プレーヤーから環境設定を変更するには：
 
-1. アイドルチャネルの左上隅を長押しして、管理パネルを開きます。
+1. アイドルチャネルの左上隅のを長押しして、管理パネルを開きます。
 1. 左のアクションメニューから&#x200B;**設定**&#x200B;に移動します。
 1. **Admin UI** または&#x200B;**チャネルスイッチャー**&#x200B;の設定の有効／無効を切り替えます。
 
 ![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
 
-## AEM Screens Player のトラブルシューティング {#troubleshooting-aem-screens-player}
+## AEM Screens Player のトラブルシューティング
 
 AEM Screens Player に関係する様々な問題をトラブルシューティングすることができます。
 
@@ -137,14 +133,14 @@ AEM Screens Player に関係する様々な問題をトラブルシューティ�
 | AEM Screens Player が再起動後に自動起動しません | OS のスタートフォルダーまたは初期化手順を確認してください |
 | AEM Screens Player のコンテンツ表示が間違っていたり古かったりします | ネットワーク接続を確認してください |
 
-### AEM Screens Player のアップデート {#updates-for-aem-screens-player}
+### AEM Screens Player のアップデート
 
 AEM Screens Player には、次の 2 とおりの更新方法があります。
 
 | **方法** | **詳細** | **リモート経由** | **自動** | **ダウンタイムなし** |
 |---|---|---|---|---|
-| ファームウェアの更新 | リモートコマンドを介して既存のインストール済みプレーヤーに適用されます。アップデート後に、プレーヤーは既存のコンテンツで自動リロードされます。 | はい | カスタム | ほぼ 1～3 秒 |
-| プレーヤーシェルの更新 | これは、プレーヤーにデプロイされる新しい実行可能ファイルです。そのためには、プレーヤー上で新しいバイナリをリモートコピーし、現在実行中のを停止して新しいバージョンを開始する必要があります。 その場合は、パッケージのプリロードを再ダウンロードする必要が生じる場合があります。 | はい（リモートシェル経由） | カスタム | いいえ |
+| ファームウェアの更新 | リモートコマンドを使用して、既存のインストール済みプレーヤーに適用されます。 更新後、プレーヤーは既存のコンテンツで自動リロードされます。 | はい | カスタム | ほぼ 1～3 秒 |
+| プレーヤーシェルの更新 | これは、プレーヤーにデプロイされる新しい実行可能ファイルです。これには、プレーヤーの新しいバイナリをリモートコピーし、現在実行中のを停止して、新しいバージョンを起動する必要があります。 パッケージのプリロードを再度ダウンロードする必要が生じる場合があります。 | 可（リモートシェル経由） | カスタム | いいえ |
 
 ## プレーヤーデバイスのハードウェア選定ガイドライン {#hardware-selection-guidelines-for-player-device}
 
@@ -173,12 +169,12 @@ AEM Screens プロジェクトの典型的な使用例に対応するハード�
   </tr>
   <tr>
    <td>基本</td>
-   <td>デュアルコア、i3 またはエントリーレベルのクアッドコア Intel® Atom プロセッサー</td>
+   <td>デュアルコア、i3、またはエントリーレベルのクアッドコア インテル® Atom プロセッサー</td>
    <td><p>4 GB のメモリ</p> <p>2 MB のキャッシュ</p> </td>
-   <td><p>・Chrome OS：32 GB</p> <p>・Windows：128 GB</p> </td>
+   <td><p>*ChromeOS 32 GB</p> <p>*Windows 128 GB</p> </td>
    <td>オンボード</td>
    <td>1920 x 1080</td>
-   <td>DVI、<br />イーサネット／ワイヤレス、<br />USB x 2</td>
+   <td>DVI<br /> イーサネット/ワイヤレス<br /> USB x 2</td>
    <td>
     <ul>
      <li>標準フルスクリーンループ<br /> </li>
@@ -187,7 +183,7 @@ AEM Screens プロジェクトの典型的な使用例に対応するハード�
   </tr>
   <tr>
    <td>標準</td>
-   <td>クアッドコア、Intel® Core i5 プロセッサー</td>
+   <td>クアッドコア、インテル® Core™ i5 プロセッサー</td>
    <td><p>8 GB のメモリ</p> <p>4 MB のキャッシュ</p> </td>
    <td>128 GB</td>
    <td>オンボード</td>
@@ -202,7 +198,7 @@ AEM Screens プロジェクトの典型的な使用例に対応するハード�
   </tr>
   <tr>
    <td>アドバンス</td>
-   <td>ハイパースレッディング対応クアッドコア、Intel® Core i7 プロセッサー</td>
+   <td>クアッドコア、ハイパースレッディング対応、インテル® Core™ i7 プロセッサー</td>
    <td><p>16 GB のメモリ</p> <p>8 MB のキャッシュ</p> </td>
    <td>256 GB</td>
    <td>専用グラフィック GPU</td>

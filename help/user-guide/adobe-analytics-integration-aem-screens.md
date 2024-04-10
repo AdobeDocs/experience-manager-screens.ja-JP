@@ -1,23 +1,19 @@
 ---
 title: Adobe Analytics と AEM Screens の統合
-seo-title: Adobe Analytics Integration with AEM Screens
 description: ここでは、標準で利用できる、AEM Screens と Adobe Analytics の統合について説明し、提供される再生検証機能についても紹介します。
-seo-description: Follow this page to learn about out of the box integration of AEM Screens with Adobe Analytics and provides you with a proof of play.
-uuid: 80d61af7-bf4d-46ca-a026-99a666c2e1a0
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
-discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 97820c602885ecf581ae1e6bada6c104aeeb4c70
-workflow-type: ht
-source-wordcount: '690'
-ht-degree: 100%
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+workflow-type: tm+mt
+source-wordcount: '684'
+ht-degree: 97%
 
 ---
 
@@ -131,4 +127,4 @@ Analytics イベントは、IndexedDB にオフラインで保存され、後で
 
 >[!NOTE]
 >
->***シーケンス***&#x200B;と&#x200B;***イベントの標準データモデル***&#x200B;について詳しくは、**[AEM Screens 用の Adobe Analytics の設定](configuring-adobe-analytics-aem-screens.md)**&#x200B;を参照してください。
+>について詳しくは、 ***シーケンス*** および ***イベントの標準データモデル***&#x200B;を参照してください **[AEM Screens用のAdobe Analyticsの設定](configuring-adobe-analytics-aem-screens.md)**.

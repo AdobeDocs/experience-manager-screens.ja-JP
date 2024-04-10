@@ -5,10 +5,10 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
-workflow-type: ht
-source-wordcount: '562'
-ht-degree: 100%
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 83%
 
 ---
 
@@ -18,19 +18,19 @@ ht-degree: 100%
 
 [AEM Screens のキックスタート](kickstart-for-aem-screens.md)を用いて、シンプルなデジタルサイネージエクスペリエンスをインストールおよび導入できます。
 
-Experience Manager as a Cloud Service で Experience Manager Screens プロジェクトを設定および作成する方法については、[こちら](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/screens-as-cloud-service/home.html?lang=ja)を参照してください。
+Experience Manager as a Cloud Service で Experience Manager Screens プロジェクトを設定および作成する方法については、[こちら](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)を参照してください。
 
 ## 概要 {#overview}
 
-**Experience Manager Screens** は、***Experience Manager Sites*** の強固な基盤の上に構築されています。マーケティング担当者や IT 担当者は、Experience Manager Screens を使用し、ブランドを確立して需要を促進するという店舗や会場内での目標に影響する、複数のデジタルスクリーンでのエクスペリエンスを作成して管理できます。Experience Manager Screens と Sites を統合すると、既存のコンテンツを再利用し、明瞭で一貫性のある顧客ソリューションを効果的に提供することが可能です。これにより、費用対効果と有用性の非常に高い、特化したデジタルエクスペリエンスを作成するための合理的なワークフローが実現します。さらに、ブランドの認知度に影響を与え、購入や関与の増加につながる意思決定にも影響を及ぼすことができます。
+**Experience Manager Screens** ～の強固な基盤の上に築かれている ***Experience Manager Sites***. マーケターや IT 担当者は、複数のデジタル画面でのエクスペリエンスを作成および管理できます。これらの画面は、ブランド構築や需要の増加に関する店舗/会場内の目標に影響を与えます。 Experience Manager Screensと Sites を統合すると、既存のコンテンツを再利用し、一貫性のある一貫性のあるカスタマーソリューションを効果的に提供できます。 これにより、費用対効果と有用性の非常に高い、特化したデジタルエクスペリエンスを作成するための合理的なワークフローが実現します。さらに、ブランドの認知度に影響を与え、購入や関与の増加につながる意思決定にも影響を及ぼすことができます。
 
 Experience Manager Screens は、専用のデジタルメニューボード、商品レコメンデーション、背景のライフスタイル画像を作成して、顧客とのやり取りを拡大できる強力な web ベースのソリューションです。同じ Experience Manager プラットフォームから、店舗、ホテル、銀行、医療機関、教育機関などの物理的な場所に、統一された有用なブランドエクスペリエンスを提供するのに役立ちます。Screens では、インタラクティブなディスプレイ、ウェイファインディング、ブランディング、環境音の追加など、多数のユニークなアプリケーションを、それらがデプロイされるドメインに基づいて顧客や従業員に提供します。
 
-Experience Manager Screens を使用したアプリケーションの作成と管理はシンプルかつ直感的です。*アプリケーション*&#x200B;は、顧客や実装パートナーが Experience Manager Screens 向けに作成した web ページをホストします。*ロケーション*&#x200B;は、事前に定義された階層を管理し、*ディスプレイ*&#x200B;を含みます。各ディスプレイには、関連付けられている様々なデバイスやスクリーンを表示するダッシュボードがあります。Experience Manager Screens のコンテンツは&#x200B;*チャネル*&#x200B;で管理されます。チャネル内に存在するコンテンツが Experience Manager Screens Player によってディスプレイにレンダリングされます。
+Experience Manager Screens を使用したアプリケーションの作成と管理はシンプルかつ直感的です。*アプリケーション*&#x200B;は、顧客や実装パートナーが Experience Manager Screens 向けに作成した web ページをホストします。*場所* 事前定義済みの階層を管理し、次の情報を含める *ディスプレイ*. 各ディスプレイには、関連付けられている様々なデバイスやスクリーンを表示するダッシュボードがあります。Experience Manager Screens のコンテンツは&#x200B;*チャネル*&#x200B;で管理されます。チャネル内に存在するコンテンツが Experience Manager Screens Player によってディスプレイにレンダリングされます。
 
 Experience Manager Screens に関連する重要な用語を理解するには、[用語集](screens-glossary.md)を参照してください。
 
-### Screens Player のアーキテクチャ {#architecture-of-screens-player}
+### Screens Player のアーキテクチャ
 
 次の図は、Experience Manager Screens Player の一般的なアーキテクチャを示しています。
 
@@ -46,7 +46,7 @@ Experience Manager Screens に関連する重要な用語を理解するには�
 
 * **作成者**
 * **開発者**
-* **システム管理者／技術者**
+* **システム管理者/技術者**
 
 次の図は、Experience Manager Screens のユーザーとその役割の定義を示しています。
 
@@ -57,11 +57,11 @@ Experience Manager Screens に関連する重要な用語を理解するには�
 
 * **実装の初期設定（ガイド付き）**
 
-   Experience Manager Screens でサポートされている基本機能と高度な機能について説明している、ガイド付き学習パス **[Experience Manager Screens 実装の初期設定](https://experienceleague.adobe.com/?launch=AEM-7a&amp;lang=ja)**&#x200B;に従ってください。
+  ガイド付き学習パスに従う **[Experience Manager Screens実装の初期設定](https://experienceleague.adobe.com/?launch=AEM-7a&amp;lang=ja)** ここでは、Experience Manager Screensでサポートされる基本機能と高度な機能について説明します。
 
 * **Experience Manager Screens プロジェクトのベストプラクティスガイド**
 
-   Experience Manager Screens プロジェクトの実装時に一般的な問題を特定するように設計された、**[Experience Manager Screens プロジェクトのベストプラクティスガイド](/help/using/about-guide.md)**&#x200B;に従ってください。この資料では主に、プロジェクトの役割と責任、様々な役割についての RACI チャート、Experience Manager プラットフォームの設定、サポートと監視に焦点を当てています。
+  Experience Manager Screens プロジェクトの実装時に一般的な問題を特定するように設計された、**[Experience Manager Screens プロジェクトのベストプラクティスガイド](/help/using/about-guide.md)**&#x200B;に従ってください。この資料では主に、プロジェクトの役割と責任、様々な役割についての RACI チャート、Experience Manager プラットフォームの設定、サポートと監視に焦点を当てています。
 
 <!-- DEAD LINK * **New Adobe Customer Support Experience**
 

@@ -1,24 +1,24 @@
 ---
 title: 機能パック 201809 のリリースノート
-seo-title: 機能パック 201809 のリリースノート
+seo-title: Release Notes for Feature Pack 201809
 description: 2018 年 10 月 1 日にリリースされた AEM Screens 機能パック 201809 について説明します。
-seo-description: 2018 年 10 月 1 日にリリースされた AEM Screens 機能パック 201809 について説明します。
+seo-description: Follow this page to get information for AEM Screens Feature Pack 201809 released on October 01, 2018.
 uuid: 48240e27-e4c2-48bc-bcca-2a2ec93edc47
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: release-notes
 discoiquuid: 2a049c2c-26ee-498d-a505-a2967be7cbcd
-feature: 機能パック
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '267'
-ht-degree: 100%
+exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 92%
 
 ---
-
 
 # 機能パック 201809 のリリースノート {#release-notes-for-feature-pack}
 
@@ -54,6 +54,6 @@ AEM 6.4.2 機能パック 2 および AEM 6.3.3 機能パック 4 向けに、�
 * Android
 * iOS
 
-#### AEM Screens Player のダウンロード {#aem-screens-player-downloads}
+#### AEM Screens Player のダウンロード  {#aem-screens-player-downloads}
 
-最新の AEM Screens Player のダウンロードとバグ修正について詳しくは、[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)を参照してください。
+最新のAEM Screens Player のダウンロードとバグ修正について詳しくは、以下を参照してください。 [AEM Screens Player のダウンロード](https://download.macromedia.com/screens/).

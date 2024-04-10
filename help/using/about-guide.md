@@ -1,13 +1,11 @@
 ---
 title: このガイドについて
-seo-title: Description on the Guide
-description: この AEM Screens プロジェクト用ベストプラクティス AEM 6.5 ガイドに従って、戦略的および設計の概要からデプロイメント、サポート後に至るまで、プロジェクトの計画と実行を行います。
-seo-description: This page describes the intent of the Best Practices Guide
+description: 戦略的および設計の概要からデプロイメント、サポート後に至るまで、プロジェクトを計画および実行するためのAEM Screens プロジェクトのベストプラクティスについて説明します。
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: 4817c02bf7f65edd1e55ab56f250cc982cc7c1ef
-workflow-type: ht
-source-wordcount: '260'
-ht-degree: 100%
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+workflow-type: tm+mt
+source-wordcount: '254'
+ht-degree: 38%
 
 ---
 
@@ -23,11 +21,11 @@ AEM Screens ベストプラクティスガイドは、AEM Screens プロジェ�
 * *プロジェクトマネージャー*
 * *コンサルタント*
 
-ただし、このガイドに目を通すことは、他の多くの役割の方にとっても有益です。
+ただし、このガイドを読むことで、他の多くの役割にもメリットがあることを強調する必要があります。
 
-AEM Screens は Adobe Experience Manager（AEM）の新しい拡張機能です。ツールは新しく、その潜在的なアプリケーションは様々なので、AEM Screens の開発と導入に関わる重要な検討事項と一般的なリスク要因を特定することが非常に重要です。
+AEM Screensは、Adobe Experience Manager（AEM）の新しい拡張機能です。 ツールは新しく、その潜在的な用途はさまざまであるため、AEM Screensの開発とデプロイに関わる重要な考慮事項と一般的な危険因子を特定することが重要です。
 
-本ガイドでは、意図したとおりにカスタマーエクスペリエンスを想像し、デザインし、デジタルサイネージの実装に導くための包括的なインサイトと実践的なアドバイスを提供します。また、それだけでなく、AEM Screens でのデジタルサイネージプロジェクトの導入時に従ったベストプラクティスの一部を使用して、ビジネスに良い影響を与える方法についても説明します。
+このガイドでは、デジタルサイネージの実装で意図的な顧客体験を想像、設計、提供するための包括的なインサイトと実践的なアドバイスを提供します。 また、AEM Screensでデジタルサイネージプロジェクトをデプロイする際に従ったベストプラクティスのいくつかを使用して、ビジネスにプラスの影響を与える方法についても説明します。
 
 >[!IMPORTANT]
 >
@@ -38,11 +36,9 @@ AEM Screens は Adobe Experience Manager（AEM）の新しい拡張機能です�
 > * **[AEM Platform 設定](aem-platform-configurations.md)**
 > * **[サポートと監視](support-monitoring.md)**
 
-
 >[!NOTE]
 >
 > 本ガイド（AEM Screens のコンテキスト内）で使用される次の用語について補足します。
 >
 > * **UX** は、エンドユーザーに提供されるデジタルサイネージエクスペリエンスを意味します。
-> * **UI** は、Screens でプロジェクトを作成および管理するためのユーザーインターフェイスを意味します。
-
+> * **UI** は、Screens でプロジェクトを作成および管理できるユーザーインターフェイスを意味すると考えられます。

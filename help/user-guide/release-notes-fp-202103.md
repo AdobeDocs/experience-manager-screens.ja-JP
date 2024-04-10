@@ -1,21 +1,21 @@
 ---
 title: 機能パック 202103 のリリースノート
-description: 「2021 年 3 月 5 日にリリースされた AEM Screens 機能パック 202103 について説明します。」
-feature: 機能パック
+description: 2021 年 3 月 5 日にリリースされたAEM Screens機能パック 202103 の詳細情報。
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '396'
-ht-degree: 100%
+exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 57%
 
 ---
-
 
 # 機能パック 202103 のリリースノート {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
+>最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。AEM Screensは、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供します。
 
 ## 入手方法 {#availability}
 
@@ -31,19 +31,19 @@ AEM Screens 機能パック 202103 のリリース日は 2021 年 3 月 5 日で
 
 * **AEM Screens のプレーヤーの自動登録**
 
-   何千ものプレーヤーを手動で一括登録するのは非常に面倒で、時間とコストが余計にかかります。このプロセスを簡単にするために、プレーヤーの自動登録機能では、設定ファイルまたはモバイルデバイス管理（MDM）ソリューションを通じてプレーヤーにプロビジョニングできる事前共有キーを AEM に指定できます。
+  何千人ものプレーヤーを手動で一括登録するのは面倒で、時間とコストが増えます。 このプロセスを簡単にするために、プレーヤーの自動登録機能を使用して、AEMで事前共有キーを指定できます。 このキーは、設定ファイルまたはモバイルデバイス管理（MDM）ソリューションを使用して、プレーヤーにプロビジョニングできます。
 
-   詳しくは、[プレーヤーの自動登録](/help/user-guide/auto-registration-players.md)を参照してください。
-
-
-* **エンタープライズモビリティ管理を使用した Android プレーヤーの一括プロビジョニング**
-
-   Android プレーヤーを一括デプロイする場合、プレーヤーを 1 つずつ手動で AEM に登録するのは非常に面倒です。VMWare Airwatch、MobileIron、Samsung Knox などの EMM（エンタープライズモビリティ管理）ソリューションを使用して、デプロイメントのプロビジョニングと管理をリモートでおこなうことを強くお勧めします。AEM Screens Android プレーヤーでは、業界標準の EMM AppConfig をサポートしているので、リモートプロビジョニングが可能です。
-
-   詳しくは、[エンタープライズモビリティ管理を使用した Android プレーヤーの一括プロビジョニング](/help/user-guide/implementing-android-player.md#implementation)を参照してください。
+  詳しくは、[プレーヤーの自動登録](/help/user-guide/auto-registration-players.md)を参照してください。
 
 
-### バグ修正 {#bug-fixes}
+* **エンタープライズモビリティ管理を使用した Android™ プレーヤーの一括プロビジョニング**
+
+  Android™ プレーヤーを一括でデプロイする場合は、すべてのプレーヤーをAEMに手動で登録するのが面倒になります。 次のような EMM （エンタープライズモビリティ管理）ソリューションを使用することを強くお勧めします `VMWare Airwatch`, `MobileIron`、または `Samsung Knox` デプロイメントをリモートでプロビジョニングおよび管理します。 AEM Screens Android™ プレーヤーは、業界標準の EMM AppConfig をサポートしており、リモートプロビジョニングが可能です。
+
+  こちらを参照してください [エンタープライズモビリティ管理を使用した Android™ プレーヤーの一括プロビジョニング](/help/user-guide/implementing-android-player.md#implementation) を参照してください。
+
+
+### バグの修正 {#bug-fixes}
 
 * `clientlib` と `asset hashes` の計算のパフォーマンスが向上しました。
 
@@ -51,7 +51,7 @@ AEM Screens 機能パック 202103 のリリース日は 2021 年 3 月 5 日で
 
 * 割り当てに *OfflineConfig* が含まれる場合にオフラインキャッシュが作成されない問題を修正しました。
 
-* リファラーポリシー strict-origin-when-cross-origin をサポートしていないので正常に動作しなかった Tizen プレーヤーを更新しました。
+* 更新先 `Tizen` リファラーポリシーがクロスオリジンの場合に厳格なオリジン設定をサポートしていないことが原因で破損したプレーヤー。
 
 * 割り当てたチャネルのスケジュールの「*繰り返し*」フィールドを変更すると UI が正常に動作しなくなる問題を修正しました。
 
@@ -61,14 +61,14 @@ AEM Screens 機能パック 202103 のリリース日は 2021 年 3 月 5 日で
 
 * 設定更新リクエストの失敗により画面が空白になる問題を修正しました。
 
-### リリースされている AEM Screens Player {#released-aem-screens-players}
+### リリースされている AEM Screens Player
 
 AEM Screens 6.5 機能パック 7 向けに、次の AEM Screens Player がリリースされています。
 
 * Chrome OS
 * Windows
-* Linux
+* Linux®
 
-#### AEM Screens Player のダウンロード {#aem-screens-player-downloads}
+#### AEM Screens Player のダウンロード 
 
 最新の AEM Screens Player のダウンロードとバグ修正について詳しくは、**[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/index.html)**&#x200B;を参照してください。

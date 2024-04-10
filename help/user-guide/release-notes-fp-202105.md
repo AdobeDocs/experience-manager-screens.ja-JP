@@ -1,21 +1,21 @@
 ---
 title: 機能パック 202105 のリリースノート
-description: 「2021 年 6 月 4 日（PT）にリリースされた AEM Screens 機能パック 202105 について説明します。」
+description: 2021 年 6 月 4 日（PT）にリリースされたAEM Screens機能パック 202105 について説明します。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
-source-git-commit: 02bc399d61f5666918caad9fce3d69d63f0782d7
-workflow-type: ht
-source-wordcount: '399'
-ht-degree: 100%
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+workflow-type: tm+mt
+source-wordcount: '395'
+ht-degree: 75%
 
 ---
 
 # 機能パック 202105 のリリースノート {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
+>最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。AEM Screensは、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供します。
 
 ## 入手方法 {#availability}
 
@@ -24,7 +24,7 @@ AEM Screens は、AEM 6.5 機能パック 8 をリリースしました。
 Adobe ID を使用して、AEM Screens 6.5.8 リリースの最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からダウンロードできます。「**Adobe Experience Manager**」タブに移動し、「**Screens**」を検索して「**AEM 6.5 Screens FP8**」というタイトルが付いた最新の機能パックを入手します。
 
 >[!IMPORTANT]
->`screens-cloud-ams-pkg-0.0.20`、`screens-cloud-ams-pkg-0.0.16`、`screens core bundles` パッケージをインストールした後で AMS コネクタを動作させるには、最小バージョンの AEM 6.5 機能パック 8 をインストールする必要があります。
+>パッケージのインストール後に AMS コネクタを動作させるには、最小バージョンのAEM 6.5 機能パック 8 をインストールします `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16`、および `screens core bundles`.
 
 ## リリース日 {#release-date}
 
@@ -34,13 +34,13 @@ AEM Screens 機能パック 202105 のリリース日は 2021 年 6 月 4 日（
 
 * **AEM Screens チャネルでのページのロック**
 
-   AEM Screens では、AEM Sites で既に実装されているように、*ページのロック*&#x200B;をサポートするようになりました。Adobe Experience Manager（AEM）では、他のユーザーがコンテンツを変更できないようにページをロックすることができます。ページのロックは、ある特定のページで大量の編集作業を行う場合や、短期間ページを凍結する必要がある場合に便利です。
+  AEM Screens では、AEM Sites で既に実装されているように、*ページのロック*&#x200B;をサポートするようになりました。Adobe Experience Manager（AEM）を使用すると、他のユーザーがコンテンツを変更できないようにページをロックできます。 ページのロックは、1 つの特定のページで大量の編集作業を行う場合や、短期間ページを凍結する必要がある場合に便利です。
 
 * **AEM Screens Player デバイスの命名**
 
-   AEM Screens Player で、デバイス名を Adobe Experience Manager（AEM）に送信できるようになりました。デフォルトでは、一括登録を使用してデバイスを登録すると、システムで生成されたユーザー名が「タイトル」フィールドに入力されます。あるいは、顧客がアセットタグやその他のわかりやすい名前を使用することもできます。この場合は、その名前が AEM に表示され、適切なコンテンツを割り当てやすくなります。
+  AEM Screens Player で、デバイス名を Adobe Experience Manager（AEM）に送信できるようになりました。デフォルトでは、一括登録を使用してデバイスを登録すると、システムで生成されたユーザー名が「タイトル」フィールドに入力されます。 あるいは、顧客がアセットタグやその他のわかりやすい名前を使用することもできます。この場合は、その名前が AEM に表示され、適切なコンテンツを割り当てやすくなります。
 
-   サポートされている各オペレーティングシステムでの名前の設定方法については、次のドキュメントを参照してください。
+  サポートされている各オペレーティングシステムでの名前の設定方法については、次のドキュメントを参照してください。
 
    * [Android](/help/user-guide/implementing-android-player.md#name-android)
    * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
@@ -49,23 +49,23 @@ AEM Screens 機能パック 202105 のリリース日は 2021 年 6 月 4 日（
 
 * **マニフェストの生成**
 
-   チャネルマニフェストの生成が迅速化されたほか、サーバー上に割り当てられるリソースの削減など、パフォーマンスが向上しました。
+  チャネルマニフェストの生成が迅速化されたほか、サーバー上に割り当てられるリソースの削減など、パフォーマンスが向上しました。
 
 ### バグ修正 {#bug-fixes}
 
 * 動的埋め込みシーケンスを含んだチャネルに切り替えると、プレーヤーの画面が黒くなっていました。
 * Screens Player で、破損したチャネルへの切り替えがブロックされるようになりました。これにより、それ以降の 404 エラーやエラーメッセージページの表示を回避できます。
 
-### リリースされている AEM Screens Player {#released-aem-screens-players}
+### リリースされている AEM Screens Player
 
 AEM Screens 6.5 機能パック 8 向けに、次の AEM Screens Player がリリースされています。
 
 * Chrome OS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 
-#### AEM Screens Player のダウンロード   {#aem-screens-player-downloads}
+#### AEM Screens Player のダウンロード 
 
 最新の AEM Screens Player のダウンロードとバグ修正について詳しくは、**[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/index.html)**&#x200B;を参照してください。

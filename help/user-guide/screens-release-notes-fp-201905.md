@@ -10,10 +10,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 55%
+source-wordcount: '312'
+ht-degree: 40%
 
 ---
 
@@ -35,25 +35,25 @@ AEM Screens 機能パック 201905 のリリース日は 2019 年 5 月 16 日�
 
 プロジェクトインポーターはAEM Screensで使用できる機能で、CSV/XLS スプレッドシートからAEM Screens プロジェクトに一連の場所を一括読み込みできます。
 
-詳しくは、**[ファイルをソースとする新しいプロジェクトインポーター](project-importer.md)**&#x200B;を参照してください。
+参照： **[ファイルをソースとする新規プロジェクトインポーター](project-importer.md)** を参照してください。
 
 * **コンテンツ同期からスマート同期への移行**
 
 スマート同期で、サーバー負荷／ストレージとネットワークトラフィックを最小限に抑えてコストを削減できます。
 
-詳しくは、**[コンテンツ同期からスマート同期への移行](smartsync.md)**&#x200B;を参照してください。
+参照： **[コンテンツ同期からスマート同期への移行](smartsync.md)** を参照してください。
 
 * **緊急チャネル**
 
 このユースケースの例では、事前条件がある場合にコンテンツ作成者がシーケンスチャネルから切り替えることができる緊急チャネルを作成および管理することに重点を置いています。
 
-詳しくは、**[緊急チャネル](emergency-channel.md)**&#x200B;の使用例を参照してください。
+参照： **[緊急チャネル](emergency-channel.md)** 詳しくは、ユースケースを参照してください。
 
 * **AEM SPA Editor を使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合**
 
 ここでは、AEM SPAエディターで REACT （またはAngular）を使用してインタラクティブな単一ページアプリケーションを埋め込む方法について説明します。 エディターは、AEMのビジネスプロフェッショナルが設定できます。 また、インタラクティブアプリケーションをオフラインのAdobe Analyticsと統合する方法についても説明します。
 
-詳しくは、**[AEM SPA Editor を使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合](embedding-react-app.md)**&#x200B;を参照してください。
+参照： **[AEM SPAエディターを使用した React アプリケーションの埋め込みとAEM Screens Analytics との統合](embedding-react-app.md)** を参照してください。
 
 ### リリースされている AEM Screens Player
 

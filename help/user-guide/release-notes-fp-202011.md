@@ -1,16 +1,16 @@
 ---
 title: 機能パック 202011 のリリースノート
 description: 「2020 年 11 月 30 日にリリースされた AEM Screens 機能パック 202011 について説明します。」
-feature: 機能パック
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '283'
-ht-degree: 100%
+exl-id: b080a697-0e65-4ae1-a161-669c3098246b
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 87%
 
 ---
-
 
 # 機能パック 202011 のリリースノート {#release-notes-for-feature-pack}
 
@@ -31,23 +31,23 @@ AEM Screens 機能パック 202011 のリリース日は 2020 年 11 月 30 日�
 
 * **コンテンツ割り当てレポート**
 
-   コンテンツ割り当てレポート機能を使用すると、AEM Screens 管理者または作成者は、*コンテンツ割り当てレポート*をスプレッドシート形式で書き出すことができます。
-詳しくは、「[コンテンツ割り当てレポート](/help/user-guide/content-assignment-report.md)」を参照してください。
+  コンテンツ割り当てレポート機能を使用すると、AEM Screens 管理者または作成者は、*コンテンツ割り当てレポート*をスプレッドシート形式で書き出すことができます。
+詳しくは、[コンテンツ割り当てレポート](/help/user-guide/content-assignment-report.md)を参照してください。
 
 
 * **Tizen プレーヤー**
 
-   Tizen プレーヤーと呼ばれる新しいプレーヤーが、AEM Screens 6.5.6 リリースの最新の機能パックで導入されました。
-詳しくは、「[Tizen プレーヤーの実装](/help/user-guide/tizen-player.md)」を参照してください。
+  Tizen プレーヤーと呼ばれる新しいプレーヤーが、AEM Screens 6.5.6 リリースの最新の機能パックで導入されました。
+参照： [Tizen プレーヤーの実装](/help/user-guide/tizen-player.md) を参照してください。
 
 * **デバイスマネージャーからの検索機能**
 
-   AEM Screens 6.5.6 リリースの最新機能パックが含まれるデバイスマネージャー UI から、新しい検索機能が利用できるようになりました。
-詳細は、「[デバイスマネージャーからのデバイスの検索](/help/user-guide/device-registration.md#search-device)」を参照してください。
+  AEM Screens 6.5.6 リリースの最新機能パックが含まれるデバイスマネージャー UI から、新しい検索機能が利用できるようになりました。
+参照： [デバイスマネージャからのデバイスの検索](/help/user-guide/device-registration.md#search-device) を参照してください。
 
 * **デフォルトの Ping 間隔**
 
-   このリリースでは、デフォルトの ping 間隔が 30 秒に設定されています。
+  このリリースでは、デフォルトの ping 間隔が 30 秒に設定されています。
 
 ### リリースされている AEM Screens Player {#released-aem-screens-players}
 
@@ -59,6 +59,6 @@ AEM Screens 6.5 機能パック 6 向けに、次の AEM Screens Player がリ�
 * Tizen
 * Linux
 
-#### AEM Screens Player のダウンロード {#aem-screens-player-downloads}
+#### AEM Screens Player のダウンロード   {#aem-screens-player-downloads}
 
-最新の AEM Screens Player のダウンロードとバグ修正について詳しくは、**[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/index.html)**&#x200B;を参照してください。
+最新のAEM Screens Player のダウンロードとバグ修正について詳しくは、以下を参照してください。 **[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/index.html)**.

@@ -2,10 +2,10 @@
 title: '[!UICONTROL AEM Screens] の概要'
 description: ここでは AEM Screens について紹介します
 exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 69%
+source-wordcount: '661'
+ht-degree: 66%
 
 ---
 
@@ -32,7 +32,7 @@ AEM Screens を使用したデジタルサイネージネットワークの作�
 
 >[!NOTE]
 >
->AEM Screens プロジェクトの開発と管理に関する様々な機能について詳しくは、『**[AEM Screens ユーザーガイド](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**』を参照してください。
+>AEM Screens プロジェクトの開発と管理における様々な機能について詳しくは、を参照してください。 **[AEM Screens ユーザーガイド](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**.
 
 ## AEM SitesとAEM Screens {#aem-sites-screens}
 

@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 38%
+source-wordcount: '1176'
+ht-degree: 36%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 38%
 
    ![画像](/help/user-guide/assets/channel-assign1.png)
 
-   以下のセクションで、**チャネルの割り当て**&#x200B;ダイアログボックスのプロパティを設定できます。チャネルプロパティの詳細については、「[チャネルプロパティ](#channel-properties)」の節を参照してください。
+   以下のセクションで、**チャネルの割り当て**&#x200B;ダイアログボックスのプロパティを設定できます。参照： [チャネルプロパティ](#channel-properties) チャネルプロパティの詳細については、こちらを参照してください。
 
 ## チャネル割り当てのチャネルプロパティからのチャネルプロパティ {#channel-properties}
 
@@ -172,7 +172,7 @@ ht-degree: 38%
 
 >[!NOTE]
 >
-> 日分割の詳細については、以下の節を参照してください。
+> 日分割について詳しくは、以下の節を参照してください。
 >
 >* [アセット内の繰り返しの処理](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
 >* [チャネル内アセットの繰り返し処理](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)

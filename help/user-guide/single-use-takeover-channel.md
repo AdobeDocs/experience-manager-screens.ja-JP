@@ -6,10 +6,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 48%
+source-wordcount: '623'
+ht-degree: 46%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 48%
    ![アセット](assets/single-takeover6.png)
 
    >[!NOTE]
-   >ディスプレイにチャネルを割り当てる方法については、**[チャネル割り当て](channel-assignment.md)**&#x200B;を参照してください。
+   >ディスプレイにチャネルを割り当てる方法については、を参照してください **[チャネル割り当て](channel-assignment.md)**.
 
 1. **チャネル割り当て**&#x200B;ダイアログボックスでフィールド（「**チャネルパス**」、「**優先度**」、「**サポートされているイベント**」）に入力し、「**保存**」をクリックします。これで、**MainAdChannel** がディスプレイに割り当てられました。
 

@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 45%
+source-wordcount: '1458'
+ht-degree: 43%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 45%
    ![画像](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
-   >AEM Screens プロジェクトの作成方法については、「[プロジェクトの作成と管理](creating-a-screens-project.md)」を参照してください。
+   >参照： [プロジェクトの作成と管理](creating-a-screens-project.md) AEM Screens プロジェクトの作成方法を説明します。
 
 1. 「**Cafeteria**」という名前のシーケンスチャネルを&#x200B;**チャネル**&#x200B;フォルダーに作成します。
 
@@ -97,7 +97,7 @@ ht-degree: 45%
 
 この例は、Chrome Player の出力を示します。ディスプレイにチャネルを割り当てたら、そのデバイスをプレーヤーに登録する必要があります。
 
-デバイスを AEM Screens プレーヤーに登録する方法については、[デバイス登録](device-registration.md)を参照してください。
+参照： [デバイスの登録](device-registration.md) AEM Screens player にデバイスを登録する方法を説明します。
 
 次の出力は、選択したプレーヤーで表示できます。
 

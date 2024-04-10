@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 59%
+source-wordcount: '281'
+ht-degree: 43%
 
 ---
 
@@ -30,13 +30,13 @@ AEM Screens 機能パック 201909 のリリース日は 2019 年 10 月 7 日�
 
   AEM Screens プロジェクトを作成するための更新されたユーザーインターフェイスが利用できるようになりました。 数回のクリックで Screens プロジェクトを作成できます。 また、各プロジェクトの「プロパティ」タブに、より直感的なユーザーインターフェイスが追加されました。
 
-  詳しくは、[新しい Screens プロジェクトの作成](creating-a-screens-project.md)を参照してください。
+  参照： [新しい Screens プロジェクトの作成](creating-a-screens-project.md) を参照してください。
 
 * **Enhanced Device Dashboard**
 
   デバイスダッシュボードには、デバイスのアクティビティと機能を監視できるデバイス情報、ステータス、スクリーンショット、ログ、環境設定およびデバイスの詳細が表示されます。 パネルが更新されました。
 
-  詳しくは、[デバイスコントロールセンターからのトラブルシューティング](monitoring-screens.md)を参照してください。
+  参照： [デバイスコントロールセンターのトラブルシューティング](monitoring-screens.md) を参照してください。
 
 * **キーボードインタラクションを許可するための有効なタイムアウト**
 
@@ -45,7 +45,7 @@ AEM Screens 機能パック 201909 のリリース日は 2019 年 10 月 7 日�
 * **エクスペリエンスフラグメントでのオフライン設定**
 
   Screens エクスペリエンスフラグメントの設定時に、オフライン設定（クライアント側ライブラリと静的ファイル）を追加できるようになりました。
-詳しくは、[エクスペリエンスフラグメントの使用](experience-fragments-in-screens.md)を参照してください。
+参照： [エクスペリエンスフラグメントの使用](experience-fragments-in-screens.md) を参照してください。
 
 ### リリースされている AEM Screens Player
 
@@ -57,4 +57,4 @@ AEM 6.4.6 機能パック 6 および AEM 6.5.2 機能パック 2 向けに、�
 
 #### AEM Screens Player のダウンロード 
 
-最新の AEM Screens Player のダウンロードとバグ修正について詳しくは、[**AEM Screens Player のダウンロード**](https://download.macromedia.com/screens/)を参照してください。
+最新のAEM Screens Player のダウンロードとバグ修正について詳しくは、以下を参照してください。 [**AEM Screens Player のダウンロード**](https://download.macromedia.com/screens/).

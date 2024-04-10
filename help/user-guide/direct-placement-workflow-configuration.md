@@ -1,10 +1,10 @@
 ---
 title: ダイレクト配置ワークフロー設定
 description: このページでは、ダイレクト配置ワークフロー設定について説明します。
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 53%
+source-wordcount: '190'
+ht-degree: 46%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 53%
 
 >[!NOTE]
 >
->オフラインで一括更新を使用する方法については、[Content Update As a Service](/help/user-guide/content-update-as-a-service.md) を参照してください。
+>オフライン一括更新の使用方法については、を参照してください [サービスとしてのコンテンツ更新](/help/user-guide/content-update-as-a-service.md).
 
 ## ダイレクト配置ワークフローの設定 {#configuring-workflow}
 

@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
-workflow-type: ht
-source-wordcount: '313'
-ht-degree: 100%
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 94%
 
 ---
 
@@ -69,4 +69,4 @@ AEM Screens 6.5 機能パック 10 向けに、次の AEM Screens Player がリ�
 
 #### AEM Screens Player のダウンロード   {#aem-screens-player-downloads}
 
-最新の AEM Screens Player のダウンロードとバグ修正について詳しくは、**[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/index.html)**&#x200B;を参照してください。
+最新のAEM Screens Player のダウンロードとバグ修正について詳しくは、以下を参照してください。 **[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/index.html)**.

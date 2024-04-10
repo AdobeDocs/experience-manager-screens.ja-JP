@@ -5,10 +5,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '2123'
-ht-degree: 59%
+source-wordcount: '2121'
+ht-degree: 58%
 
 ---
 
@@ -214,9 +214,9 @@ Livefyre を無効にしてログエラーを回避するには、次の手順�
 ### 2. Oak インデックス情報の追加方法  {#add-oak-index-info}
 
 AEM Screens は、製品で使用されるクエリのインデックス定義を作成します。
-`error.log` に&#x200B;*クエリトラバーサル WARN* がある場合は、クエリのカスタムインデックスを作成します。詳しくは、「[インデックスの設定](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes)」を参照してください。
+`error.log` に&#x200B;*クエリトラバーサル WARN* がある場合は、クエリのカスタムインデックスを作成します。参照： [インデックスの設定](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) を参照してください。
 
-[Oak ドキュメント](https://jackrabbit.apache.org/oak/docs/query/lucene.html)の追加リソースも参照できます。
+また、に追加のリソースが表示されます。 [Oak ドキュメント](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 
 ### 3. v3 マニフェストを設定するための必須事項？ {#configure-v3}

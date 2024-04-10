@@ -13,10 +13,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 92%
+source-wordcount: '251'
+ht-degree: 70%
 
 ---
 
@@ -34,14 +34,14 @@ AEM Screens 機能パック 201809 のリリース日は 2018 年 10 月 1 日�
 
 ### 新機能 {#what-s-new}
 
-* **Adobe Analytics の再生検証レポート**：詳しくは、[Adobe Analytics と AEM Screens の統合](adobe-analytics-integration-aem-screens.md)を参照してください。
+* **Adobe Analytics Proof of Play レポート**：を参照 [Adobe AnalyticsとAEM Screensの統合](adobe-analytics-integration-aem-screens.md) を参照してください。
 
-* **Adobe Analytics との連携によりプレーヤーでの再生イベントのキャッシングと Adobe Analytics への送信が可能**：詳しくは、[AEM Screens と連携する Adobe Analytics の設定](configuring-adobe-analytics-aem-screens.md)を参照してください。
+* **Adobe Analyticsを使用すると、プレーヤーで再生イベントをキャッシュしてAdobe Analyticsに送信できます**：を参照 [Adobe AnalyticsとAEM Screensの設定](configuring-adobe-analytics-aem-screens.md) を参照してください。
 
-* **オフラインコンテンツの一括更新**：すべてのチャネルを一括更新でき、特定のチャネルに移動してコンテンツを更新する手間を省くことができます。詳しくは、[オフライン一括更新](bulk-offline-update.md)を参照してください。
+* **オフラインコンテンツの一括更新**：すべてのチャネルを一括更新でき、特定のチャネルに移動してコンテンツを更新する手間を省くことができます。参照： [オフライン一括更新](bulk-offline-update.md) を参照してください。
 
 * **パブリッシュインスタンスへのチャネルの一括公開**
-* **プレーヤーのログメカニズムの機能強化**：AEM Screens Player の最大ログファイル数を指定できます。詳しくは、[AEM Screens Player での作業](working-with-screens-player.md)を参照してください。
+* **プレーヤーのログメカニズムの機能強化**：AEM Screens Player の最大ログファイル数を指定できます。参照： [AEM Screens Player の操作](working-with-screens-player.md) を参照してください。
 
 * **オーサー／パブリッシュのデプロイメント（堅牢化）**
 

@@ -2,10 +2,10 @@
 title: アダプティブレンディションのアーキテクチャ概要と設定
 description: このページでは、AEM Screens のアダプティブレンディションのアーキテクチャ概要と CRXDE Lite での設定について説明します。
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 97%
+source-wordcount: '644'
+ht-degree: 96%
 
 ---
 
@@ -59,7 +59,7 @@ AEM Screens 開発者は、すべてのコンテンツバリエーションを�
 
 1. **CRXDE Lite** から `/conf/screens/sling:configs/rendition-mapping` のパスに移動します。
 
-1. **rendition-mapping** の配下にノードを作成します。右クリック **rendition-mapping** をクリックし、 **作成** > **ノードを作成**（下の図を参照）。
+1. **rendition-mapping** の配下にノードを作成します。右クリック **rendition-mapping** をクリックし、 **作成** > **ノードを作成**&#x200B;を参照してください（下図を参照）。
 
    ![画像](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
@@ -71,7 +71,7 @@ AEM Screens 開発者は、すべてのコンテンツバリエーションを�
 1. クエリ式を値とする expression プロパティを追加する必要があります。
 
    >[!NOTE]
-   >詳しくは、[メディアクエリの使用](https://developer.mozilla.org/ja-JP/docs/Web/CSS/Media_Queries/Using_media_queries)を参照してください。
+   >参照： [メディアクエリの構文の使用](https://developer.mozilla.org/ja-JP/docs/Web/CSS/Media_Queries/Using_media_queries) を参照してください。
 
    作成した **rule1** をクリックして、「**名前**」に「**expression**」と入力し、「**値**」に「**(orientation:landscape)**」と入力します（下図を参照）。「**追加**」をクリックします。
 

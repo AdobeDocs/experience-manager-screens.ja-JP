@@ -8,10 +8,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
-workflow-type: ht
-source-wordcount: '512'
-ht-degree: 100%
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '510'
+ht-degree: 92%
 
 ---
 
@@ -33,7 +33,6 @@ AEM Screens Player は Android、Chrome OS、Windows で使用できます。
 >1. 左のアクションメニューから「**設定**」に移動し、AEM インスタンスの場所のアドレスを「**サーバー**」に入力して、「**保存**」をクリックします。
 >1. 左のアクションメニューの「**登録**」リンクをクリックし、以下の手順でデバイス登録プロセスを完了します。
 
-
 ## 基本的な再生モニタリング {#playback-monitoring}
 
 プレーヤーは、各 `ping`（デフォルトは 30 秒）で様々な再生指標を報告します。これらの指標に基づいて、様々なエッジケース（動きのないエクスペリエンス、空白の画面、スケジュールの問題など）を検出できます。これにより、デバイスの問題を把握してトラブルシューティングできるので、調査や修正を迅速に行えます。
@@ -50,7 +49,7 @@ AEM Screens Player での基本的な再生モニタリングにより、以下�
 
 各 `ping` には、次のプロパティが含まれています。
 
-| プロパティ | 詳細 |
+| プロパティ | 説明 |
 |---|---|
 | id {string} | プレーヤーの識別子 |
 | activeChannel {string} | 現在再生中のチャネルパス。何もスケジュールされていない場合は null |
@@ -79,10 +78,10 @@ AEM Screens Player での基本的な再生モニタリングにより、以下�
 
 ### その他のリソース {#additional-resources}
 
-詳細については、以下のトピックを参照してください。
+詳しくは、次のトピックを参照してください。
 
-* Android プレーヤーをダウンロードするには、**Google Play** にアクセスします。Android ウォッチドッグの実装については、[Android プレーヤーの実装](implementing-android-player.md)を参照してください。
+* Android プレーヤーをダウンロードするには、**Google Play** にアクセスします。Android ウォッチドッグの実装については、を参照してください。 [Android プレーヤーの実装](implementing-android-player.md).
 
-* Chrome OS プレーヤーの実装について詳しくは、[Chrome 管理コンソール](implementing-chrome-os-player.md)を参照してください。
+* Chrome OS プレーヤーを実装するには、を参照してください。 [Chrome 管理コンソール](implementing-chrome-os-player.md) を参照してください。
 
-* Windows 版 AEM Screens Player を設定するには、[Windows 10 プレーヤーの実装](implementing-windows-player.md)を参照してください。
+* AEM Screens Windows プレーヤーを設定するには、以下を参照してください。 [Windows プレーヤーの実装](implementing-windows-player.md).

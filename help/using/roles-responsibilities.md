@@ -1,15 +1,15 @@
 ---
 title: AEM Screens プロジェクト上の役割と責務
-seo-title: AEM Screens プロジェクト上の役割と責務
+seo-title: AEM Screens Project Roles  and Responsibilities
 description: ここでは、AEM Screens プロジェクト上の役割と責務について説明します
-seo-description: ここでは、AEM Screens プロジェクト上の役割と責務について説明します
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '1263'
-ht-degree: 100%
+seo-description: The page describes AEM Screens Project Roles  and Responsibilities
+exl-id: 9377625b-529a-4b46-89d9-f526de398639
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '1242'
+ht-degree: 97%
 
 ---
-
 
 # プロジェクト上の役割と責務 {#roles-responsibilities}
 
@@ -17,7 +17,7 @@ AEM の実装経験が豊富であれば、*作成者*、*開発者*、*IT／技
 
 一般的な AEM Screens プロジェクトでは、プロジェクトでそれぞれ重要な目的を果たすように、役割がさらに絞り込まれています。
 
-このガイド全体を通して言及される役割を次の図に示します。
+次の図は、ガイド全体に表示される役割を示しています。
 
 ![](/help/assets/project-roles-revised.png)
 
@@ -47,7 +47,7 @@ AV インテグレーターは、ハードウェアベンダー／パートナ�
 
 AV インテグレーターは、デジタルサイネージハードウェアの導入を設計、構築および効果的に管理するために、エンドカスタマーと共に洗い出し作業をおこなって、プロジェクト範囲を決定する要件を定義します。
 
-#### ハードウェアパートナーの検討 {#selecting-hardware-partner}
+#### ハードウェア・パートナーの検討 {#selecting-hardware-partner}
 
 適切なハードウェアパートナーを選択することが非常に重要です。以下の質問について検討する必要があります。
 
@@ -77,7 +77,7 @@ AV インテグレーターは、デジタルサイネージハードウェア�
 * クリエイティブエージェンシー
 * ブランドマネージャー
 
-### プロジェクトマネージャー {#project-managers}
+### プロジェクト管理者 {#project-managers}
 
 通常、プロジェクトマネージャーは、AEM Screens の導入全体を管理します。プロジェクトマネージャーは、指定されたプロジェクトの実装全体の窓口となり、タイムラインの設定、チームのニーズとコミュニケーションの処理、課題への対処、目標の確実な達成といった重要な責務を果たします。
 
@@ -86,7 +86,7 @@ AV インテグレーターは、デジタルサイネージハードウェア�
 >デジタルサイネージプロジェクト上の様々な役割と責務およびターゲットオーディエンスについて詳しくは、**[プロジェクト上の役割と責務](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**&#x200B;を参照してください。
 
 
-## プロジェクトの段階 {#project-stages}
+## プロジェクトのステージ {#project-stages}
 
 デジタルサイネージの導入を成功させるために、通常はプロジェクトを 3 段階に分けます。  これらの段階は一般に **Days** と呼ばれます。これらは文字どおりの日数ではなく、プロジェクトの各主要段階の名称です。
 
@@ -100,7 +100,7 @@ AV インテグレーターは、デジタルサイネージハードウェア�
 >
 >プロジェクトのプリプロダクション、プロジェクトの開始、プロジェクトの進行については、**[プロジェクトの管理と導入](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/project-management-and-deployment.html)**&#x200B;に関する追加のビデオを参照してください。
 
-## RACI チャート {#raci-chart}
+## RACI グラフ {#raci-chart}
 
 以下は、役割の定義を使用した RACI チャートの例です。
 
@@ -158,7 +158,7 @@ AV インテグレーターは、デジタルサイネージハードウェア�
 |---|---|---|---|---|
 | ハードウェアの発注と保管 | RA | I | I | I |
 | 小売オンボーディングスケジュール | I | I | C | RA |
-| ユーザー受け入れテストのステージング | I | C | RA |  |
+| ユーザー受け入れテストのステージング | I | C | RA |   |
 | ハードウェア一括設定 | RA | I | C | I |
 | 運用開始後のサポートに関する合意 | RA | C | RA | C |
 

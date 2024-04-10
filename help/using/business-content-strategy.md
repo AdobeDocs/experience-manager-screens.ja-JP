@@ -1,15 +1,15 @@
 ---
 title: '[!UICONTROL AEM Screens] のビジネスコンテンツ戦略'
-seo-title: '[!UICONTROL AEM Screens] のビジネスコンテンツ戦略'
+seo-title: Business Content Strategy for [!UICONTROL AEM Screens]
 description: このガイドでは、ビジネスコンテンツ戦略について説明します
-seo-description: このガイドでは、ビジネスコンテンツ戦略について説明します
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '443'
-ht-degree: 100%
+seo-description: The guide describes Business Content Strategy
+exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 94%
 
 ---
-
 
 # ビジネスコンテンツ戦略 {#business-content}
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 >
 >帯域幅が制限された状態でエクスペリエンスがオフラインで動作する必要がある点を考慮する必要があります。
 
-AEM Screens プロジェクトのコンテンツ戦略を策定する際には、以下の質問に答える必要があります。
+AEM Screens プロジェクトのコンテンツ戦略を構築する際には、次のいくつかの質問に答える必要があります。
 
 * ターゲットオーディエンスは誰で、予想される滞留時間はどれくらいですか？
 * どのようなコンテンツをオーディエンスに表示する必要がありますか？
@@ -40,9 +40,9 @@ AEM Screens プロジェクトのコンテンツ戦略を策定する際には�
 * 更新およびアップグレード戦略はどうなっていますか？
 * 新しいコンテンツが必要になる頻度はどのくらいですか？
 
-   >[!NOTE]
-   >
-   >プリセールス段階では、共有対象となるコンテンツだけでなく、コンテンツデータの現在の場所や、Screens プロジェクトへのコンテンツデータの活用方法に関しても、質問を始めることが重要です。実装時にコンテンツをさらに詳しく検討してみる必要がありますが、使用可能なデータと形式を事前に確定しておく必要があります。
+  >[!NOTE]
+  >
+  >プリセールス段階では、共有対象となるコンテンツだけでなく、コンテンツデータの現在の場所や、Screens プロジェクトへのコンテンツデータの活用方法に関しても、質問を始めることが重要です。実装時にコンテンツをさらに詳しく検討してみる必要がありますが、使用可能なデータと形式を事前に確定しておく必要があります。
 
 ## 重要な検討事項 {#important-considerations}
 

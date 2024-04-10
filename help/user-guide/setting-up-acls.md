@@ -1,6 +1,6 @@
 ---
 title: ACL の設定
-description: 各個人またはチームが独自のプロジェクトを処理できるように、ACL を使用してプロジェクトを区別する方法を説明します。
+description: ACL を使用してプロジェクトを分離し、個々またはチームが独自のプロジェクトを処理できるようにする方法を説明します。
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 27%
+source-wordcount: '491'
+ht-degree: 28%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 27%
 
 ここでは、各個人またはチームが独自のプロジェクトを処理できるように、ACL を使用してプロジェクトを区別する方法について説明します。
 
-AEM管理者は、プロジェクトのチームメンバーが他のプロジェクトに干渉しないようにし、各ユーザーに、プロジェクト要件に応じて特定の役割が割り当てられるようにします。
+AEM管理者は、プロジェクトのチームメンバーが他のプロジェクトに干渉せず、各ユーザーにプロジェクト要件に従って特定の役割が割り当てられることを確認する必要があります。
 
 ## 権限の設定 {#setting-up-permissions}
 
@@ -34,15 +34,15 @@ AEM管理者は、プロジェクトのチームメンバーが他のプロジ�
 
    または、このリンク（`http://localhost:4502/libs/granite/security/content/groupadmin.html`）を使用します。
 
-   次に、「 **保存**.
+   次に、を選択します **保存**.
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. 選択 **寄稿者** リストから、ダブルクリックします。
+1. を選択 **投稿者** リストで、ダブルクリックします。
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. 次を追加： **Acme** （作成したプロジェクト） **メンバーをグループに追加**. 「**保存**」をクリックします。
+1. を追加 **アクメ** （作成したプロジェクト） **グループにメンバーを追加**. 「**保存**」をクリックします。
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -50,11 +50,11 @@ AEM管理者は、プロジェクトのチームメンバーが他のプロジ�
    >
    >プロジェクトチームメンバーにプレーヤーを登録させる場合（各プレーヤー用のユーザーの作成を伴う）、グループのユーザー管理者を見つけて、ACME グループをユーザー管理者に追加します。
 
-1. 作業中のすべてのユーザーを **Acme** にプロジェクトを **Acme** グループ化します。
+1. に取り組んでいるすべてのユーザーを追加 **アクメ** にプロジェクト **アクメ** グループ。
 
    ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
 
-1. グループの権限を設定します **Acme** これを使用 `(http://localhost:4502/useradmin)`.
+1. グループの権限の設定 **アクメ** これを使用 `(http://localhost:4502/useradmin)`.
 
    **Acme** グループを選択して、「**権限**」をクリックします。
 
@@ -62,32 +62,32 @@ AEM管理者は、プロジェクトのチームメンバーが他のプロジ�
 
 ### 権限 {#permissions}
 
-次の表に、プロジェクトレベルでの権限を持つパスの概要を示します。
+次の表に、プロジェクトレベルの権限を持つパスの概要を示します。
 
 | **パス** | **権限** | **説明** |
 |---|---|---|
-| `/apps/<project>` | 読み取り | 該当する場合は、プロジェクトファイルへのアクセスを提供します。 |
+| `/apps/<project>` | 読み取り | 必要に応じて、プロジェクト ファイルにアクセスできます。 |
 | `/content/dam/<project>` | すべて | 画像やビデオなどのプロジェクトアセットを DAM に保存するためのアクセス権を提供します。 |
-| `/content/screens/<project>` | すべて | /content/screens の下にある他のすべてのプロジェクトへのアクセスを削除します。 |
-| `/content/screens/svc` | 読み取り | 登録サービスへのアクセスを提供します。 |
+| `/content/screens/<project>` | すべて | /content/screens の下にあるその他すべてのプロジェクトへのアクセスを削除します。 |
+| `/content/screens/svc` | 読み取り | 登録サービスにアクセスできます。 |
 | `/libs/screens` | 読み取り | DCC へのアクセスを提供します。 |
 | `/var/contentsync/content/screens/` | すべて | プロジェクトのオフラインコンテンツを更新できます。 |
 
 >[!NOTE]
 >
->作成者の機能（アセットの管理やチャネルの作成など）と管理機能（プレーヤーの登録など）を分けることができます。 このシナリオでは、2 つのグループを作成し、作成者グループを寄稿者に追加し、管理者グループを寄稿者とユーザー管理者の両方に追加します。
+>オーサー機能（アセットの管理やチャネルの作成など）と管理機能（プレーヤーの登録など）を分離できる場合があります。 このようなシナリオでは、2 つのグループを作成し、作成者グループを投稿者に、管理者グループを投稿者とユーザー管理者の両方に追加します。
 
 ### グループの作成 {#creating-groups}
 
-プロジェクトを作成する場合は、基本的な権限セットが割り当てられたデフォルトのユーザーグループも作成する必要があります。 権限を、AEM Screensで定義されている一般的な役割に拡張します。
+プロジェクトを作成する際は、基本的な権限セットが割り当てられたデフォルトのユーザーグループも作成する必要があります。 権限をAEM Screensで定義された一般的な役割に拡張します。
 
 例えば、次のプロジェクト固有のグループを作成できます。
 
 * Screens プロジェクト管理者
 * Screens プロジェクトオペレーター（プレーヤーの登録、場所とデバイスの管理）
-* Screens プロジェクトユーザー（チャネル、スケジュール、チャネル割り当てを担当）
+* Screens プロジェクトユーザー（チャネル、スケジュール、チャネル割り当てを操作する）
 
-AEM Screensプロジェクトの説明と権限を持つグループの概要を次の表に示します。
+次の表に、AEM Screens プロジェクトの説明と権限を含むグループをまとめます。
 
 <table>
  <tbody>
@@ -97,43 +97,43 @@ AEM Screensプロジェクトの説明と権限を持つグループの概要を
    <td><strong>権限</strong></td>
   </tr>
   <tr>
-   <td>Screens 管理者<br /> <em>screens-admins</em></td>
-   <td>AEM Screens機能の管理者レベルアクセス</td>
+   <td>Screens 管理者<br /> <em><code>screens-admins</code></em></td>
+   <td>AEM Screens機能の管理レベルアクセス</td>
    <td>
     <ul>
-     <li>寄稿者のメンバー</li>
+     <li>Member Of Contributors</li>
      <li>ユーザー管理者のメンバー</li>
-     <li>ALL /content/screens</li>
-     <li>ALL /content/dam</li>
-     <li>ALL /content/experience-fragments</li>
-     <li>ALL /etc/design/screens</li>
+     <li>すべての/content/screens</li>
+     <li>すべての/content/dam</li>
+     <li>すべての/content/experience-fragments</li>
+     <li>すべての/etc/design/screens</li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens ユーザー<br /> <em>screens-users</em></td>
-   <td>AEM Screensでチャネルとスケジュールを作成および更新し、ロケーションに割り当てます。</td>
+   <td>Screens ユーザー<br /> <em><code>screens-users</code></em></td>
+   <td>AEM Screensで、チャネルとスケジュールを作成および更新し、場所を割り当てる</td>
    <td>
     <ul>
-     <li>寄稿者のメンバー</li>
-     <li>&lt;project&gt; /content/screens</li>
-     <li>&lt;project&gt; /content/dam</li>
-     <li>&lt;project&gt; /content/experience-fragments</li>
+     <li>Member Of Contributors</li>
+     <li><code>&lt;project&gt; /content/screens</code></li>
+     <li><code>&lt;project&gt; /content/dam</code></li>
+     <li><code>&lt;project&gt; /content/experience-fragments</code></li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens オペレーター<br /> <em>screens-operators</em></td>
-   <td>AEM Screensでの場所構造の作成と更新とプレーヤーの登録</td>
+   <td>Screens オペレーター<br /> <em><code>screens-operators</code></em></td>
+   <td>場所構造を作成および更新し、AEM Screensにプレーヤーを登録する</td>
    <td>
     <ul>
-     <li>寄稿者のメンバー</li>
-     <li>jcr:all /home/users/screens</li>
-     <li>jcr:all /home/groups/screens</li>
-     <li>&lt;project&gt; /content/screens</li>
+     <li>Member Of Contributors</li>
+     <li><code>jcr:all /home/users/screens</code></li>
+     <li><code>jcr:all /home/groups/screens</code></li>
+     <li><code>&lt;project&gt; /content/screens</code></li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens プレーヤー<br /> <em>screens-&lt;project&gt;-devices</em></td>
-   <td>すべてのプレーヤーをグループ化し、すべてのプレーヤー/デバイスが自動的に寄稿者のメンバーになります。</td>
+   <td>Screens Player<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
+   <td>グループすべてのプレーヤーとすべてのプレーヤー/デバイスは、自動的に投稿者のメンバーになります。</td>
    <td><p> 寄稿者のメンバー</p> </td>
   </tr>
  </tbody>

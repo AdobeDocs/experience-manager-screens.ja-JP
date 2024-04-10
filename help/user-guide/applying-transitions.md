@@ -1,18 +1,18 @@
 ---
 title: 切り替えの適用
-seo-title: 切り替えの適用
+seo-title: Applying Transitions
 description: ここでは、Screens プロジェクトに切り替えを適用する方法について説明します。
-seo-description: ここでは、Screens プロジェクトに切り替えを適用する方法について説明します。
+seo-description: Follow this page to learn how to apply transitions to your Screens projects.
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
-feature: Screens のオーサリング
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '289'
-ht-degree: 100%
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->**切り替え**&#x200B;コンポーネントのプロパティについて詳しくは、[切り替え](adding-components-to-a-channel.md#transition)を参照してください。
+>のプロパティの詳細を説明するには **遷移** コンポーネント、「」を参照してください [切り替え](adding-components-to-a-channel.md#transition).
 
 ## チャネル内のアセットへの切り替えコンポーネントの追加 {#adding-transition}
 

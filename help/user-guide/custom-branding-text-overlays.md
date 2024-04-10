@@ -8,10 +8,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 93%
+source-wordcount: '602'
+ht-degree: 89%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
 
 このページでは、AEM Screens チャネルのアセットに適用されたテキストオーバーレイのカスタムブランディングとスタイル設定を適用する方法について説明します。
 
-## テキストオーバーレイのカスタムブランディングとスタイル設定の作成 {#steps-custom-branding}
+## テキストオーバーレイのカスタムブランディングとスタイルの作成 {#steps-custom-branding}
 
 次の手順に従って、テキストオーバーレイのカスタムブランディングとスタイル設定を作成します。
 
@@ -32,9 +32,9 @@ ht-degree: 93%
    ![画像](/help/user-guide/assets/custom-brand/custom-brand2.png)
 
    >[!NOTE]
-   >チャネルエディターでテキストオーバーレイをアセットに追加する方法については、[テキストオーバーレイ](/help/user-guide/text-overlay.md)を参照してください。
+   >チャネルエディターでアセットにテキストオーバーレイを追加する方法については、を参照してください。 [テキストオーバーレイ](/help/user-guide/text-overlay.md).
 
-1. AEMインスタンス/CRXDE Lite/ツールに移動します。 **CRXDE Lite**.
+1. AEM インスタンスからCRXDE Lite / ツールに移動します。 **CRXDE Lite**.
 
 1. カスタムデザインを `/apps/settings/wcm/designs/<your-project>/` に作成する必要があります。例えば、この場合は、`/apps/settings/wcm/designs/customstyle/` に移動します。
 
@@ -84,7 +84,7 @@ ht-degree: 93%
 1. 「**保存して閉じる**」をクリックして、デザインパスを更新します。
 
    >[!IMPORTANT]
-   >既存の Screens テンプレートをオーバーレイして、デフォルトで独自のデザインを挿入したり、完全に独自のテンプレートを作成したりできるオプションがあります。詳しくは、以下の手順を参照してください。
+   >既存の Screens テンプレートをオーバーレイして、デフォルトで独自のデザインを挿入したり、完全に独自のテンプレートを作成したりできるオプションがあります。詳しくは、次の手順を参照してください。
 
 1. 既存の Screen テンプレートをオーバーレイして独自のデザインを挿入するには、次の手順に従います。
 
@@ -110,7 +110,7 @@ ht-degree: 93%
 
 次の手順に従って、更新したデザインをテキストオーバーレイに表示します。
 
-1. という名前のAEM Screensプロジェクトに移動します。 **customstyle** > **チャネル** > **DemoBrand**. チャネルを選択し、アクションバーの「**編集**」をクリックして、エディターを開きます。
+1. というタイトルのAEM Screens プロジェクトに移動します。 **customstyle** > **チャネル** > **DemoBrand**. チャネルを選択し、アクションバーの「**編集**」をクリックして、エディターを開きます。
 
 1. デザインは「**デザイン**」フィールドに追加されたので、前述のように「**プレビュー**」をクリックすると、現在のスタイルが画像上のテキストオーバーレイで表示されます。
 

@@ -13,10 +13,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: ffc44dbf1822ff4d0e875ef693d48dece248d555
-workflow-type: ht
-source-wordcount: '723'
-ht-degree: 100%
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '709'
+ht-degree: 89%
 
 ---
 
@@ -65,18 +65,18 @@ React アプリのコンテンツを編集するには、以下の手順に従�
 
 AEM Screens にインタラクティブ React アプリを追加するには、以下の手順に従います。
 
-1. 新しい AEM Screens プロジェクトを作成します。詳しくは、[プロジェクトの作成と管理](creating-a-screens-project.md)を参照してください。
+1. 新しい AEM Screens プロジェクトを作成します。参照： [プロジェクトの作成と管理](creating-a-screens-project.md) を参照してください。
 
 1. Screens プロジェクトの&#x200B;**チャネル**&#x200B;フォルダーで、新しい（できれば）**アプリケーションチャネル**（または 1x1 テンプレートまたはマルチゾーンチャネル）を作成します。
 
    >[!NOTE]
    >**シーケンスチャネル**には、エクスペリエンスのインタラクティブな性質と競合するスライドショーロジックがもともと備わっているため、この使用例では推奨されません
-   >詳しくは、[チャネルの作成と管理](managing-channels.md)を参照してください。
+   >参照： [チャネルの作成と管理](managing-channels.md) を参照してください。
 
 
 1. シーケンスチャネルを編集し、埋め込みページコンポーネントをドラッグ＆ドロップします。
 
-   詳しくは、[チャネルへのコンポーネントの追加](adding-components-to-a-channel.md)を参照してください。
+   参照： [チャネルへのコンポーネントの追加](adding-components-to-a-channel.md) を参照してください。
 
    >[!NOTE]
    >
@@ -97,7 +97,7 @@ AEM Screens にインタラクティブ React アプリを追加するには、�
 
 1. このプロジェクトに対してプレーヤーを登録し、ディスプレイに割り当てます。これで、AEM Screens 上で実行中のインタラクティブアプリケーションが表示されるようになりました。
 
-   デバイスの登録について詳しくは、[デバイスの登録](device-registration.md)を参照してください。
+   参照： [デバイスの登録](device-registration.md) デバイスの登録について詳しく説明します。
 
 ## AEM Screens を使用した SPA とオフライン機能付き Adobe Analytics の統合 {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
 
@@ -105,12 +105,12 @@ AEM Screens を通じて SPA をオフライン機能付きの Adobe Analytics �
 
 1. AEM Screens で Adobe Analytics を設定します。
 
-   AEM Screens と連携する Adobe Analytics でのシーケンス化の実行方法と、オフライン Adobe Analytics を使用したカスタムイベントの送信方法については、[AEM Screens と連携する Adobe Analytics の設定](configuring-adobe-analytics-aem-screens.md)を参照してください。
+   参照： [Adobe AnalyticsとAEM Screensの設定](configuring-adobe-analytics-aem-screens.md) AEM Screensを使用してAdobe Analyticsでシーケンスを実行し、オフライン Adobe Analyticsを使用してカスタムイベントを送信する方法について説明します。
 
 1. 任意の IDE またはエディターを使用して、React アプリ（特に、イベントの発行を開始するテキストコンポーネントなどのコンポーネント）を編集します。
 1. コンポーネントに対してキャプチャするクリックイベントなどのイベントで、標準データモデルを使用して分析情報を追加します。
 
-   詳しくは、[AEM Screens と連携する Adobe Analytics の設定](configuring-adobe-analytics-aem-screens.md)を参照してください。
+   参照： [Adobe AnalyticsとAEM Screensの設定](configuring-adobe-analytics-aem-screens.md)s を参照してください。
 
 1. AEM Screens Analytics API を呼び出して、イベントをオフラインで保存し Adobe Analytics にバースト送信します。
 

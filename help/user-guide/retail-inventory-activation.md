@@ -14,10 +14,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 95%
+source-wordcount: '630'
+ht-degree: 90%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 95%
 
 小売店向けの在庫に応じたアクティベーションの実装を開始する前に、AEM Screens プロジェクトで&#x200B;***データストア***、***オーディエンスのセグメント化***、***チャネルのターゲティングの有効化***&#x200B;をセットアップする方法を理解しておく必要があります。
 
-詳しくは、[AEM Screens プロジェクトでの ContextHub の設定](configuring-context-hub.md)を参照してください。
+参照： [AEM Screensでの ContextHub の設定](configuring-context-hub.md) を参照してください。
 
 ## 基本フロー {#basic-flow}
 
@@ -50,7 +50,7 @@ ht-degree: 95%
 
 1. **要件に従ってオーディエンスを設定する**
 
-   1. オーディエンスのセグメントに移動します（詳しくは、***AEM Screens プロジェクトでの ContextHub の設定***&#x200B;の&#x200B;**[手順 2：オーディエンスのセグメント化のセットアップ](configuring-context-hub.md)**&#x200B;を参照してください）。
+   1. オーディエンスのセグメントに移動します（を参照）。 ***手順 2：オーディエンスセグメント化の設定*** 。対象： **[AEM Screensでの ContextHub の設定](configuring-context-hub.md)** 詳しくはこちらを参照してください）。
 
    1. 3 つの新しいセグメント **For_Red**、**For_Green**、**For_Blue** を追加します。
 
@@ -63,7 +63,7 @@ ht-degree: 95%
 
    1. 「**データタイプ**」として「**数値**」を選択します。
 
-   1. 選択 **googlesheets/value/1/1** 次に示すドロップダウンから **2 つ目のプロパティ名**.
+   1. を選択 **googlesheets/value/1/1** のドロップダウンから **2 番目のプロパティ名**.
 
    1. 別の「**比較：プロパティ - プロパティ**」コンポーネントをエディターにドラッグ＆ドロップし、設定アイコンをクリックしてプロパティを編集します。
    1. 「**1 つめのプロパティの名前**」のドロップダウンから「**googlesheets/value/1/2**」を選択します。
@@ -94,7 +94,7 @@ ht-degree: 95%
 
    >[!CAUTION]
    >
-   >以下の手順で、 **ContextHub** **設定** チャネルの使用 **プロパティ** > **パーソナライズ** タブをクリックします。
+   >を設定する必要があります **ContextHub** **設定** チャネルの使用 **プロパティ** > **Personalization** タブ。
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 

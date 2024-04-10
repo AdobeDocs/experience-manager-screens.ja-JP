@@ -14,10 +14,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 96%
+source-wordcount: '576'
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 96%
 
 ## 前提条件 {#prerequisites}
 
-ビデオのワークフローを作成する前に、次の前提条件を満たしてください。
+ビデオのワークフローを作成する前に、次の前提条件を満たします。
 
 1. AEM インスタンスの **Assets** フォルダーにビデオをアップロードする
 1. AEM Screens プロジェクト（例：**TestVideoRendition**）と、**VideoRendering** という名前のチャネルを作成します（下図を参照）。
@@ -61,7 +61,7 @@ ht-degree: 96%
 
 以下の手順に従って、ビデオのワークフローを作成します。
 
-1. AEM インスタンスに移動し、サイドレールのハンマーアイコンをクリックします。選択 **ワークフロー** > **モデル** をクリックして、新しいモデルを作成します。
+1. AEM インスタンスに移動し、サイドレールのハンマーアイコンをクリックします。を選択 **ワークフロー** > **モデル** 新規モデルを作成します。
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
@@ -85,7 +85,7 @@ ht-degree: 96%
 
    「**MIME タイプ**」フィールドに形式（***video/mp4***）を入力し、ワークフローを開始するコマンド（/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4）を「**コマンド**」フィールドに入力します。
 
-   「**MIME タイプ**」と「**コマンド**」について詳しくは、以下の注記を参照してください。
+   詳細を参照してください **Mime タイプ** および **コマンド** 以下のメモを参照してください。
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
@@ -101,7 +101,7 @@ ht-degree: 96%
 
 以下の手順に従って、AEM Screens プロジェクトでワークフローを使用します。
 
-1. AEM Screensプロジェクト (**TestVideoRendition** > **チャネル** >**VideoRendition**) をクリックします。
+1. AEM Screens プロジェクト（）に移動します&#x200B;**TestVideoRendition** > **チャネル** >**VideoRendition**）に設定します。
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 

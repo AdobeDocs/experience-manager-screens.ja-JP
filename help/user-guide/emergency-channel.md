@@ -13,10 +13,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 95%
+source-wordcount: '768'
+ht-degree: 93%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 95%
 1. **EmergencyChannel** という名前の AEM Screens プロジェクトを作成します（下図を参照）。
 
    >[!NOTE]
-   >AEM Screens でのプロジェクトの作成と管理について詳しくは、プロジェクトの作成と管理を参照してください。
+   >AEM Screensでのプロジェクトの作成と管理については、プロジェクトの作成を参照してください。
 
    ![screen_shot_2019-02-21at35809pm](assets/screen_shot_2019-02-21at35809pm.png)
 
@@ -144,12 +144,12 @@ ht-degree: 95%
 
 1. **各ディスプレイへのスケジュールの割り当て**
 
-   1. 各ディスプレイ（例： ）に移動します。 **EmergencyChannel** > **場所** > **ストア** >**StoreFront**.
+   1. 次のような各表示に移動します **Emergen シーチャネル** > **場所** > **ストア** >**StoreFront**.
 
    1. アクションバーの「**ダッシュボード**」をクリックして、ディスプレイダッシュボードを開きます。
    1. **割り当てられたチャネルとスケジュール**&#x200B;パネルで「**...**」をクリックし、さらに「**+ スケジュールを割り当て**」をクリックします。
 
-   1. スケジュールのパスを選択します ( 例： **EmergencyChannel** > **スケジュール** >**StoreSchedule**) をクリックします。
+   1. スケジュールのパスを選択します（ここでは、 **Emergen シーチャネル** > **スケジュール** >**StoreSchedule**）に設定します。
 
    1. 「**保存**」をクリックします。
 
@@ -166,7 +166,7 @@ ht-degree: 95%
 
 緊急の場合には、以下の手順を実行します。
 
-1. に移動します。 **EmergencyChannel** > **スケジュール** > **StoreSchedule** を選択し、 **ダッシュボード** をクリックします。
+1. に移動します。 **Emergen シーチャネル** > **スケジュール** > **StoreSchedule** を選択して、 **Dashboard** アクションバーから。
 
    ![screen_shot_2019-02-25at101112pm](assets/screen_shot_2019-02-25at101112pm.png)
 

@@ -2,10 +2,10 @@
 title: テストと品質保証
 description: AEM Screensのテストと品質保証については、ベストプラクティスガイドを参照してください。
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: a22702998599ea184529ab62eb8bd5113ad58e2c
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 61%
+source-wordcount: '332'
+ht-degree: 56%
 
 ---
 
@@ -58,7 +58,7 @@ AEM Screens には、Screens Player アプリケーションのエンドポイ�
 1. コンテンツダウンロードの管理
 1. アプリケーションの再起動に関する問題の管理
 
-***デバイスコントロールセンター***&#x200B;について詳しくは、[AEM Screens ユーザーガイド](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens)の&#x200B;**デバイスコントロールセンターからのトラブルシューティング**&#x200B;を参照してください。
+詳しく知るには ***デバイスコントロールセンター***&#x200B;を参照してください [デバイスコントロールセンターのトラブルシューティング](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) 。対象： **AEM Screens ユーザーガイド**.
 
 >[!CAUTION]
 >

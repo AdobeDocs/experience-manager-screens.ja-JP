@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1057'
 ht-degree: 55%
 
 ---
@@ -187,7 +187,7 @@ AEM Screens プロジェクトの典型的な使用例に対応するハード�
    <td><p>8 GB のメモリ</p> <p>4 MB のキャッシュ</p> </td>
    <td>128 GB</td>
    <td>オンボード</td>
-   <td>3840 x 2160（4K）</td>
+   <td>3840x2160 （<code>4K</code>）</td>
    <td>DVI、HDMI<br /> イーサネット／ワイヤレス、<br />USB x 2</td>
    <td>
     <ul>
@@ -202,7 +202,7 @@ AEM Screens プロジェクトの典型的な使用例に対応するハード�
    <td><p>16 GB のメモリ</p> <p>8 MB のキャッシュ</p> </td>
    <td>256 GB</td>
    <td>専用グラフィック GPU</td>
-   <td>3840 x 2160（4K）</td>
+   <td>3840x2160 （<code>4K</code>）</td>
    <td>DVI、HDMI<br /> イーサネット／ワイヤレス、<br />USB x 4</td>
    <td>
     <ul>

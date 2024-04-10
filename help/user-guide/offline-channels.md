@@ -1,8 +1,8 @@
 ---
 title: オフラインチャネル
-seo-title: オフラインチャネル
-description: 'AEM Screens Player では、ContentSync テクノロジーを利用してチャネルのオフラインサポートを提供しています。このページでは、更新ハンドラーの概要とチャネルのオフライン設定の有効化について説明します。  '
-seo-description: 'AEM Screens Player では、ContentSync テクノロジーを利用してチャネルのオフラインサポートを提供しています。このページでは、更新ハンドラーの概要とチャネルのオフライン設定の有効化について説明します。  '
+seo-title: Offline Channels
+description: AEM Screens Player は、ContentSync テクノロジーを活用して、チャネルをオフラインサポートします。 ここでは、更新ハンドラーと、チャネルに対してオフライン設定を有効にする方法について説明します。
+seo-description: The AEM Screens player provides offline support for channels by leveraging the ContentSync technology. Follow this page to learn more about update handlers and enabling offline configuration for a channel.
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
 content-type: reference
@@ -10,41 +10,41 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
-feature: Screens の開発
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '483'
-ht-degree: 100%
+exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '448'
+ht-degree: 56%
 
 ---
-
 
 # オフラインチャネル {#offline-channels}
 
 Screens Player では、***ContentSync*** テクノロジーを利用してチャネルのオフラインサポートを提供しています。
 
-プレーヤーは、解凍したコンテンツを提供するためにローカルの HTTP サーバーを使用します。
+プレーヤーは、解凍されたコンテンツを提供するためにローカル http サーバーを使用します。
 
 チャネルが&#x200B;*オンライン*&#x200B;で実行されるように設定されている場合、プレーヤーは AEM サーバーにアクセスしてチャネルリソースを提供します。これに対し、チャネルが&#x200B;*オフライン*&#x200B;で実行されるように設定されている場合、プレーヤーはローカルの HTTP サーバーからチャネルリソースを提供します。
 
-このプロセスのワークフローを次に示します。
+プロセスのワークフローは次のとおりです。
 
-1. 目的のページを解析します。
-1. すべての関連アセットを収集します。
-1. すべての要素を zip ファイルにパッケージ化します。
-1. zip ファイルをダウンロードし、ローカルに抽出します。
-1. コンテンツのローカルコピーを表示します。
+1. 目的のページを解析します
+1. 関連するすべてのアセットを収集
+1. すべてを zip ファイルにパッケージ化
+1. zip ファイルをダウンロードし、ローカルで抽出します。
+1. コンテンツのローカルコピーを表示
 
 ## 更新ハンドラー {#update-handlers}
 
-***ContentSync*** は、更新ハンドラーを使用して、特定のプロジェクトに必要なすべてのページとアセットを解析および収集します。AEM Screens では、次の更新ハンドラーが使用されます。
+***ContentSync*** は、更新ハンドラーを使用して、特定のプロジェクトに必要なすべてのページとアセットを解析および収集します。AEM Screensでは、次の更新ハンドラーを使用します。
 
 ### 共通オプション {#common-options}
 
-* *type*：使用する更新ハンドラーのタイプ
-* *path*：リソースのパス
+* *タイプ*：使用する更新ハンドラーのタイプ
+* *パス*：リソースへのパス
 * *[targetRootDirectory]*：zip ファイル内のターゲットフォルダー
 
 <table>
@@ -52,7 +52,7 @@ Screens Player では、***ContentSync*** テクノロジーを利用してチ�
   <tr>
    <td><strong>タイプ</strong></td> 
    <td><strong>説明</strong></td> 
-   <td><strong>オプション</strong></td> 
+   <td><strong>Options</strong></td> 
   </tr>
   <tr>
    <td>channels</td> 
@@ -77,7 +77,7 @@ Screens Player では、***ContentSync*** テクノロジーを利用してチ�
  </tbody>
 </table>
 
-### ContentSync 設定のテスト {#testing-contentsync-configuration}
+### コンテンツ同期設定のテスト {#testing-contentsync-configuration}
 
 ContentSync 設定をテストするには、以下の手順に従います。
 
@@ -88,13 +88,13 @@ ContentSync 設定をテストするには、以下の手順に従います。
 1. 「すべてダウンロード」をクリックします。
 1. zip ファイルを解凍します。
 1. 解凍したフォルダーでローカルサーバーを起動します。
-1. スタートページを開き、アプリケーションの状態を確認します。
+1. 開始ページを開き、アプリのステータスを確認します
 
 ## チャネルのオフライン設定の有効化 {#enabling-offline-config-for-a-channel}
 
-チャネルのオフライン設定を有効にするには、次の手順を実行します。
+チャネルのオフライン設定を有効にするには、次の手順に従います。
 
-1. チャネルコンテンツを調べて、それが AEM インスタンスから要求されているかどうかを確認します（オンライン）。
+1. チャネルコンテンツをInspectし、チャネルコンテンツがAEM インスタンス（オンライン）からリクエストされたものかどうかを確認します。
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
@@ -102,7 +102,7 @@ ContentSync 設定をテストするには、以下の手順に従います。
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
-1. チャネルのプロパティに移動し、「**チャネル**」タブのチェックボックスが無効になっていることを確認します。「**保存して閉じる**」をクリックします。
+1. チャネルプロパティに移動し、の下にあるチェックボックスが無効になっていることを確認します **チャネル** タブ。 「**保存して閉じる**」をクリックします。
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
@@ -120,4 +120,4 @@ ContentSync 設定をテストするには、以下の手順に従います。
 
 >[!NOTE]
 >
->カスタムオフラインリソースハンドラーのテンプレートの詳細と、そのプロジェクトに対する `pom.xml` の最小要件については、**AEM Screens 用カスタムコンポーネントの開発**&#x200B;の[カスタムハンドラーのテンプレート](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers)を参照してください。
+>カスタムのオフラインリソースハンドラーのテンプレートと最小要件について詳しくは、を参照してください。 `pom.xml` 具体的なプロジェクトについては、を参照してください。 [カスタムハンドラーのテンプレート](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) 。対象： **AEM Screens用カスタムコンポーネントの開発**.

@@ -1,57 +1,58 @@
 ---
-title: AEM Platform 設定
-seo-title: AEM プラットフォーム設定
+title: AEM プラットフォーム設定
 description: ここでは、AEM Platform の設定について説明します
-seo-description: ここでは、AEM Platform の設定について説明します
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '522'
-ht-degree: 100%
+exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '447'
+ht-degree: 44%
 
 ---
 
-# AEM Platform 設定 {#platform-configurations}
+# AEM Platform 設定  {#platform-configurations}
 
 >[!NOTE]
 >
 >このアクティビティの典型的な関係者は、AEM 実装担当者です。
 
-AEM Screens の使用を開始するには、まず、以下の節に従って AEM Platform の設定をおこないます。
+以下の節に従って、AEM Screensの基本を学び、AEM Platform 設定をセットアップします
 
-## サーバーの設定 {#server-configurations}
+## サーバー設定 {#server-configurations}
 
-サーバーの設定をおこなうには、[サーバーの設定](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/configuring-screens-introduction.html#ServerConfiguration)を参照してください。
+サーバ構成をセットアップするには、を参照してください。 [サーバー設定](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction#ServerConfiguration).
 
-## オーサーとパブリッシュ {#author-publish}
+## オーサー – パブリッシュ {#author-publish}
 
-オーサーとパブリッシュを設定するには、[AEM Screens でのオーサーとパブリッシュの設定](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/author-and-publish.html)を参照してください。
+参照： [AEM Screensでのオーサーとパブリッシュの設定](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
 
 >[!NOTE]
 >
->オーサーとパブリッシュが 1 つだけの場合は、[AEM Screens でのオーサーとパブリッシュの設定](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/author-and-publish.html)の&#x200B;**オーサー環境でのレプリケーションエージェントの設定**&#x200B;で示されている手順に従うだけです。
+>オーサーとパブリッシュが 1 つしかない場合は、の手順にのみ従います **オーサー環境へのレプリケーションエージェントのセットアップ** 。対象： [AEM Screensでのオーサーとパブリッシュの設定](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) ページ。
 
-## Dispatcher の設定 {#dispatcher-configurations}
+## Dispatcher 設定 {#dispatcher-configurations}
 
-Dispatcher は、Adobe Experience Manager のキャッシュやロードバランシングを管理するツールです。AEM の Dispatcher は、AEM サーバーを攻撃から保護する目的にも役立ちます。したがって、Dispatcher をエンタープライズクラスの Web サーバーと組み合わせて使用すれば、AEM インスタンスのセキュリティを強化できます。
+Dispatcher は、Adobe Experience Managerのキャッシュおよびロードバランシングツールです。 AEM Dispatcher を使用すると、AEM サーバーを攻撃から保護するのにも役立ちます。したがって、エンタープライズクラスの web サーバーと共に Dispatcher を使用することで、AEM インスタンスのセキュリティを高められます。
 
-AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインを説明している **[AEM Screens の Dispatcher 設定](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/dispatcher-configurations-aem-screens.html)**&#x200B;を参照してください。
+参照： **[AEM Screensの Dispatcher 設定](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens)** AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインについて説明します。
 
-## FFmpeg とビデオレンディションのインストール {#installing-ffmpeg}
+## FFMpeg とビデオレンディションのインストール {#installing-ffmpeg}
 
 適切な OS（通常は RHEL）の手順に従って、FFmpeg をインストールします。
 
 1. EPEL と RPMFusion を有効にしてインストールする場合は、すべての gstreamer コーデックをインストールして、FFmpeg 変換のサポートを拡張できます。
-1. AAC コーデックが試行用とマークされている場合、FFmpeg 変換は失敗します。この問題を回避するには、ビデオプロファイル（AEM 6.3 では /etc/dam/video、AEM 6.4 では /libs/settings/dam/video）に -strict -2 を追加します。
+1. AAC コーデックが実験的としてマークされている場合、ffmpeg 変換は失敗します。 これを回避するには、次を追加します `-strict -2` をビデオプロファイル（AEM 6.3 では/etc/dam/video）に追加し、AEM 6.4 では/libs/settings/dam/video に移動しました。
+
    >[!NOTE]
    >
-   > なお、-strict -2 パラメーターは、パラメーターリストの最後に記述する必要があります。さらに、AEM 6.4 では、[ビデオレンディション](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/generating-renditions.html)で言及しているように、*/libs/settings/dam/video* 配下のノードを */conf/global/settings/dam/video* にコピーする必要があります。
+   >この `-strict -2` は、パラメーターのリストの最後のパラメーターである必要があります。 また、AEM 6.4 では、の下にノードをコピーする必要があります */libs/settings/dam/video* 対象： */conf/global/settings/dam/video* ～で述べたように [ビデオレンディション](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
 1. ビデオ変換がおこなわれ、レンディションが作成されていることを確認します。
 
 ## パスワード制限 {#password-restrictions}
 
-AMS インスタンスで AEM のパスワードポリシーを無効にする必要があります。または、Screens デバイスサービス *com.adobe.cq.screens.device.impl.DeviceService* を使用して、Web コンソールでこれを設定することもできます。詳しくは、[AEM Screens でのオーサーとパブリッシュの設定](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/author-and-publish.html)の&#x200B;**パスワード制限**&#x200B;の節を参照してください。
+AEMのパスワードポリシーは、AMS インスタンスで無効にする必要があります。 これは、Screens デバイスサービスを使用して web コンソールで交互に設定できます *com.adobe.cq.screens.device.impl.DeviceService*
+参照： **パスワード制限** のセクション[AEM Screensでのオーサーとパブリッシュの設定](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
 
-## 環境の設定 {#setting-up-environments}
+## 環境のセットアップ {#setting-up-environments}
 
 お使いのバージョンの Adobe Experience Manager（AEM）用に、次のパッケージの最新バージョンをインストールして実行します。
 
@@ -59,14 +60,14 @@ AMS インスタンスで AEM のパスワードポリシーを無効にする�
 * Screens 機能パック
 * AEM 累積修正パック
 
-上記に加えて、必要な開発用パッケージ（WCM コアコンポーネントなど）やサードパーティ製ツールキット（SAP Hybris など）を特定します。同じソフトウェアパッケージをローカルの開発環境にインストールします。QA サーバー、ステージサーバー、実稼働サーバーのすべてで同じ設定を使用するように、クライアントに指示します。サーバー設定が一致しないと、デプロイ時およびテスト時に問題が発生します。
+上記に加えて、必要な開発用パッケージ（WCM コアコンポーネントなど）やサードパーティ製ツールキット（SAP Hybris など）を特定します。ローカル開発環境に同じソフトウェアパッケージをインストールします。 QA サーバー、ステージサーバー、実稼働サーバーのすべてで同じ設定を使用するように、クライアントに指示します。サーバー設定が一致しないと、デプロイおよびテスト時に問題が発生します。
 
 >[!NOTE]
 >
->AEM Screens の最新の機能パックをインストールするには、[リリースノート](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/aem-screens-introduction.html?lang=ja&amp;topic=/experience-manager/6-5/screens/morehelp/release-notes.ug.jsa)を参照してください。
+>AEM Screensの最新の機能パックをインストールするには、以下を参照してください。 [リリースノート](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction).
 
 ## ACL の設定 {#setting-up-acls}
 
 「ACL の設定」では、各個人またはチームが独自のプロジェクトを処理できるようにプロジェクトを区別する方法について説明します。
 
-詳しくは、[ACL の設定](https://helpx.adobe.com/jp/experience-manager/6-5/screens/using/setting-up-acls.html)を参照してください。
+詳しくは、[ACL の設定](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/setting-up-acls)を参照してください。

@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 94%
+source-wordcount: '1114'
+ht-degree: 90%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 >
 >音声認識機能を使用する場合は、地域に適用される法的および倫理的なガイドラインに従ってください（プレーヤーが音声認識を使用していることをエンドユーザーに明確に通知する場合を含みますが、これに限定されません）。Adobe Inc は、音声に関連する情報を受け取らず、保存も処理もしません。AEM Screens Player は、ブラウジングエンジンに組み込まれている標準的な Web 音声 API を使用します。この API の内部で、音声の波形は Google サーバーに送られて音声からテキストへ変換され、プレーヤーによるテキストと設定済みキーワードとの照合がおこなわれます。
 >
->詳しくは、[Web 音声 API についての Google のプライバシーに関するホワイトペーパー](https://www.google.com/chrome/privacy/whitepaper.html#speech)を参照してください。
+>参照： [Web Speech API に関するGoogle プライバシーのホワイトペーパー](https://www.google.com/chrome/privacy/whitepaper.html#speech) を参照してください。
 
 
 音声認識機能を使用すると、音声操作によって駆動される AEM Screens チャネルのコンテンツを変更できます。
@@ -49,7 +49,7 @@ AEM Screens プロジェクトで音声認識を実装するには、ディス�
 
    >[!NOTE]
    >
-   >チャネルを作成する方法、またはチャネルにコンテンツを追加する方法については、[チャネルの作成と管理](/help/user-guide/managing-channels.md)を参照してください。
+   >チャネルを作成する方法やチャネルにコンテンツを追加する方法については、を参照してください。 [チャネルの作成と管理](/help/user-guide/managing-channels.md)
 
    または、
 
@@ -57,7 +57,7 @@ AEM Screens プロジェクトで音声認識を実装するには、ディス�
 
    ![画像](assets/voice-recognition/vr-emb-1.png)
 
-1. 各チャネルに移動し、コンテンツを追加します。例えば、次の場所に移動します。 **VoiceDemo** > **チャネル** > **メイン** をクリックし、チャネルを選択します。 アクションバーの「**編集**」をクリックしてエディターを開き、必要に応じてコンテンツ（画像／ビデオ）を追加します。同様に、**ColdDrinks** と **HotDrinks** の両方のチャネルにコンテンツを追加します。
+1. 各チャネルに移動し、コンテンツを追加します。例えば、次に移動します。 **VoiceDemo** > **チャネル** > **メイン** チャネルを選択します。 アクションバーの「**編集**」をクリックしてエディターを開き、必要に応じてコンテンツ（画像／ビデオ）を追加します。同様に、**ColdDrinks** と **HotDrinks** の両方のチャネルにコンテンツを追加します。
 
    次の図に示すように、チャネルにアセット（画像）が含まれるようになりました。
 
@@ -83,7 +83,7 @@ AEM Screens プロジェクトで音声認識を実装するには、ディス�
 
 下の手順に従って、チャネルにタグを追加します。
 
-1. 各チャネルに移動し、コンテンツを追加します。例えば、次の場所に移動します。 **VoiceDemo** > **チャネル** > **メイン** をクリックし、チャネルを選択します。
+1. 各チャネルに移動し、コンテンツを追加します。例えば、次に移動します。 **VoiceDemo** > **チャネル** > **メイン** チャネルを選択します。
 
 1. アクションバーの「**プロパティ**」をクリックします。
 
@@ -116,7 +116,7 @@ AEM Screens プロジェクトで音声認識を実装するには、ディス�
 
 1. AEM インスタンスに移動します。
 
-1. ツールアイコン/をクリックします。 **タグ付け**.
+1. ツールアイコン/をクリックします。 **タグ設定**.
    ![画像](assets/voice-recognition/vr-7.png)
 
 1. クリック **作成** > **名前空間を作成**.
@@ -139,7 +139,7 @@ AEM Screens プロジェクトで音声認識を実装するには、ディス�
    ![画像](assets/voice-recognition/vr-loc.png)
 
    >[!NOTE]
-   >ディスプレイにチャネルを割り当てる方法については、 [ディスプレイの作成と管理](/help/user-guide/managing-displays.md).
+   >ディスプレイにチャネルを割り当てる方法については、を参照してください [ディスプレイの作成と管理](/help/user-guide/managing-displays.md).
 
 1. チャネル（**Main**、**ColdDrinks**、**HotDrinks**）を **LobbyDisplay** に割り当てます。また、プロジェクトに **SplitScreen** チャネルを使用している場合は、それをディスプレイに割り当てていることを確認します。
 
@@ -157,7 +157,7 @@ AEM Screens プロジェクトで音声認識を実装するには、ディス�
 
    >[!NOTE]
    >
-   >ディスプレイにチャネルを割り当てる方法については、 [ディスプレイの作成と管理](/help/user-guide/managing-displays.md).
+   >ディスプレイにチャネルを割り当てる方法については、を参照してください [ディスプレイの作成と管理](/help/user-guide/managing-displays.md).
 
 1. ディスプレイにチャネルを割り当てたら、**LobbyDisplay** に移動して、ディスプレイを選択します。アクションバーから「**プロパティ**」を選択します。
 
@@ -173,7 +173,7 @@ AEM Screens プロジェクトで音声認識を実装するには、ディス�
 上記の手順が完了したら、Chrome デバイスを登録して出力を表示できます。
 
 >[!NOTE]
->デバイスを AEM Screens プレーヤーに登録する方法については、[デバイス登録](device-registration.md)を参照してください。
+>参照： [デバイスの登録](device-registration.md) AEM Screens player にデバイスを登録する方法を説明します。
 
 **シーケンスチャネルの求められる出力**
 

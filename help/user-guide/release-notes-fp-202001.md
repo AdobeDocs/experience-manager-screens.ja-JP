@@ -7,10 +7,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-source-git-commit: 1d591503bc337e5677a3c4030771463f7e178e1e
-workflow-type: ht
-source-wordcount: '304'
-ht-degree: 100%
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '307'
+ht-degree: 77%
 
 ---
 
@@ -33,19 +33,18 @@ AEM Screens 機能パック 202001 のリリース日は 2020年1月31日（PT�
 ### 新機能 {#what-s-new}
 
 * **アセット再生のコマンド同期**
-コマンド同期を使用すると、異なるプレーヤー間で再生を同期させることができます。プレーヤーごとに異なるコンテンツを再生できますが、各アセットの再生時間は同じにする必要があります。
-コマンド同期およびマスターとクライアントを設定する方法について詳しくは、[コマンド同期の使用](using-command-sync.md)を参照してください。
+コマンド同期を使用すると、異なるプレーヤー間で再生を同期させることができます。 プレーヤーごとに異なるコンテンツを再生できますが、各アセットの再生時間は同じにする必要があります。
+コマンド同期の詳細と、マスターとクライアントの設定方法については、を参照してください。 [コマンド同期の使用](using-command-sync.md).
 
 * **HTTPS のステータスを表示し、空のリファラーを許可するヘルスチェックフレームワーク**：
 AEM Screens プロジェクトを実行する前に、ヘルスチェックフレームワークを使用して 2 つの必要な設定（空のリファラー要求の許可および Apache Felix Jetty Based HTTP Service の許可）が設定されているかどうかを確認できます。
 
-   ヘルスチェックフレームワークの詳細については、[ヘルスチェックフレームワーク](/help/user-guide/configuring-screens-introduction.md#health-check-framework)を参照してください。
+  ヘルスチェックフレームワークについて詳しくは、 [ヘルスチェックフレームワーク](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
-* **デフォルトのトランジションタイプの更新**
-トランジションコンポーネントのプロパティは、例えば、 
-**タイプ**&#x200B;は&#x200B;**フェード**&#x200B;に、**デュレーション (ms)** は **1600** にデフォルトで設定されるようになりました。
+* **デフォルトのトランジションタイプの更新**：
+デフォルトでは、トランジションコンポーネントのプロパティは、例えば、「**タイプ**」は「**フェード**」に、「**デュレーション（ms）**」は「**1600**」に設定されています。
 
-   詳細については、[トランジションの適用](/help/user-guide/applying-transitions.md)ユースケースを参照してください。
+  参照： [切り替えの適用](/help/user-guide/applying-transitions.md) ユースケースを参照してください。
 
 
 ### リリースされている AEM Screens Player {#released-aem-screens-players}
@@ -58,4 +57,4 @@ AEM 6.4 機能パック 7 および AEM 6.5 機能パック 3 向けに、次の
 
 #### AEM Screens Player のダウンロード   {#aem-screens-player-downloads}
 
-最新の AEM Screens Player のダウンロードとバグ修正について詳しくは、[**AEM Screens Player のダウンロード**](https://download.macromedia.com/screens/)を参照してください。
+最新のAEM Screens Player のダウンロードとバグ修正について詳しくは、以下を参照してください。 [**AEM Screens Player のダウンロード**](https://download.macromedia.com/screens/).

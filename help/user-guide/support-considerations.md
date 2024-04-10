@@ -1,8 +1,8 @@
 ---
 title: 第 5 部：サポートに関する考慮事項
-seo-title: 第 5 部：サポートに関する考慮事項
+seo-title: "Part 5: Support Considerations"
 description: このチュートリアルでは、ハードウェア、ソフトウェア、接続に関する問題に対処する方法について説明します。オンサイトサポートのコスト見積もりとフレームワークを検討します。さらに、SLA パラメーター、運用予算、NOC ハンドオフの管理方法についても説明します。
-seo-description: このチュートリアルでは、ハードウェア、ソフトウェア、接続に関する問題に対処する方法について説明します。オンサイトサポートのコスト見積もりとフレームワークを検討します。さらに、SLA パラメーター、運用予算、NOC ハンドオフの管理方法についても説明します。
+seo-description: Follow this tutorial to learn how hardware, software and connectivity issues are addressed. Explore cost estimations and frameworks for onsite support. Additionally learn how SLA parameters, operational budgets, and NOC handoffs are managed.
 uuid: da2f82e2-81e7-490e-9123-6479f05918a4
 contentOwner: jsyal
 content-type: reference
@@ -10,14 +10,14 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 59430d38-b441-4488-934e-74a55122b063
 docset: aem65
-feature: 概要
+feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '635'
-ht-degree: 100%
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '608'
+ht-degree: 98%
 
 ---
 
@@ -69,4 +69,4 @@ Day 2 でのサポートに関する主要な考慮事項は次のとおりで�
 
 ## まとめ {#conclusion}
 
-この 5 部構成のシリーズでは、プロジェクトを確実に成功させるうえで欠かせない重要な考慮事項を重点的に取り上げています。実装の詳細については、AEM Screens ユーザーガイドの他の節を参照してください。
+この 5 部構成のシリーズでは、プロジェクトを確実に成功させるうえで欠かせない重要な考慮事項を重点的に取り上げています。実装について詳しくは、AEM Screens ユーザーガイドの他の節を参照してください。

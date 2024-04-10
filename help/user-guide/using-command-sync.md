@@ -7,10 +7,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 95%
+source-wordcount: '776'
+ht-degree: 92%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 95%
 
    >[!NOTE]
    >
-   >チャネルを作成する方法、またはチャネルにコンテンツを追加する方法については、[チャネルの作成と管理](/help/user-guide/managing-channels.md)を参照してください。
+   >チャネルを作成する方法やチャネルにコンテンツを追加する方法については、を参照してください。 [チャネルの作成と管理](/help/user-guide/managing-channels.md)
 
    下の図に示すように、チャネルには次のコンテンツが含まれます。
 
@@ -62,7 +62,7 @@ ht-degree: 95%
 
    >[!NOTE]
    >
-   >ディスプレイにチャネルを割り当てる方法については、 [ディスプレイの作成と管理](/help/user-guide/managing-displays.md).
+   >ディスプレイにチャネルを割り当てる方法については、を参照してください [ディスプレイの作成と管理](/help/user-guide/managing-displays.md).
 
 1. **デバイス**&#x200B;フォルダーに移動し、アクションバーの「**デバイスマネージャー**」をクリックしてデバイスを登録します。
 
@@ -70,7 +70,7 @@ ht-degree: 95%
 
    >[!NOTE]
    >
-   >デバイスの登録方法については、[デバイス登録](/help/user-guide/device-registration.md)を参照してください。
+   >デバイスの登録方法については、を参照してください。 [デバイスの登録](/help/user-guide/device-registration.md)
 
 1. デモ用に、この例では、Chrome デバイスと Windows プレーヤーを 2 つの異なるデバイスとして使用します。両方のデバイスが同じディスプレイを指しています。
    ![image1](assets/command-sync6.png)
@@ -92,7 +92,7 @@ ht-degree: 95%
 
 ### プライマリの設定 {#setting-up-primary}
 
-1. からディスプレイダッシュボードに移動します。 **CommandSyncDemo** > **場所**  > **ロビー** > **LobbyDisplay** をクリックし、 **ダッシュボード** をクリックします。
+1. から表示ダッシュボードに移動します **CommandSyncDemo** > **場所**  > **ロビー** > **LobbyDisplay** をクリックし、 **Dashboard** アクションバーから。
 次の図に示すように、**デバイス**パネルに 2 つのデバイス（Chrome と Windows プレーヤー）が表示されます。
    ![image1](assets/command-sync/command-sync10-1.png)
 

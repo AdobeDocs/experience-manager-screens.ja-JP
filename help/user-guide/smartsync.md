@@ -13,10 +13,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 96%
+source-wordcount: '438'
+ht-degree: 93%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 96%
 >
 >スマート同期は、AEM 6.4.3 機能パック 3 に対応するサーバーの場合に、Screens Player で使用できます。
 >
->最新のプレーヤーをダウンロードするには、[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)を参照してください。各プラットフォームに最低限必要なプレーヤーバージョンを次の表に示します。
+>を参照してください。 [AEM Screens Player のダウンロード](https://download.macromedia.com/screens/) 最新のプレーヤーをダウンロードするには。 各プラットフォームに最低限必要なプレーヤーバージョンを次の表に示します。
 
 | **プラットフォーム** | **サポートされているプレーヤーの最小バージョン** |
 |---|---|
@@ -79,7 +79,7 @@ ht-degree: 96%
    >
    >スマート同期の使用を開始する前に、コンテンツキャッシュをすべてクリアする必要があります。
 
-1. に移動します。 **Adobe Experience Manager Web コンソールの設定** AEMインスタンスを使用し、ハンマーアイコンを使用します。 **運用** > **Web コンソール**.
+1. に移動します。 **Adobe Experience Manager Web コンソールの設定** AEM インスタンス/ハンマーアイコン/を選択 **運用** > **Web コンソール**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 

@@ -1,12 +1,12 @@
 ---
 title: ターゲットオーディエンス
-seo-title: AEM Screens のターゲットオーディエンス
+seo-title: Target Audience for AEM Screens
 description: ここでは、AEM Screens ベストプラクティスガイドにおける「ターゲットオーディエンス」について説明します
-seo-description: ここでは、AEM Screens ベストプラクティスガイドにおける「ターゲットオーディエンス」について説明します
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+seo-description: The page describes who are the target audience for AEM Screens Best Practices Guide
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 100%
+source-wordcount: '495'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +17,7 @@ AEM の実装経験が豊富であれば、*作成者*、*開発者*、*IT／技
 
 一般的な AEM Screens プロジェクトでは、プロジェクトでそれぞれ重要な目的を果たすように、役割がさらに絞り込まれています。
 
-このガイド全体を通して言及される役割を次の図に示します。
+次の図は、ガイド全体に表示される役割を示しています。
 
 ![](/help/assets/roles-used.png)
 
@@ -62,7 +62,7 @@ AV インテグレーターは、デジタルサイネージハードウェア�
 * クリエイティブエージェンシー
 * ブランドマネージャー
 
-### プロジェクトマネージャー {#project-managers}
+### プロジェクト管理者 {#project-managers}
 
 通常、プロジェクトマネージャーは、AEM Screens の導入全体を管理します。プロジェクトマネージャーは、指定されたプロジェクトの実装全体の窓口となり、タイムラインの設定、チームのニーズとコミュニケーションの処理、課題への対処、目標の確実な達成といった重要な責務を果たします。
 

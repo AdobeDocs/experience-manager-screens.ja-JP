@@ -10,10 +10,10 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 97%
+source-wordcount: '681'
+ht-degree: 86%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->この AEM Screens 機能は、AEM 6.4.2 機能パック 2 の最小バージョンまたは AEM 6.3.3 機能パック 4 がインストールされている場合にのみ使用できます。AEM Screens Cloud Service のお客様の場合、Screens Cloud でAdobe Analytics を有効にするには、アドビリレーションシップマネージャーにお問い合わせください。
+>この AEM Screens 機能は、AEM 6.4.2 機能パック 2 の最小バージョンまたは AEM 6.3.3 機能パック 4 がインストールされている場合にのみ使用できます。AEM Screens Cloud Service をご利用のお客様が Screens Cloud でAdobe Analyticsを有効にするには、Adobeのリレーションシップマネージャーにお問い合わせください。
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ Adobe Analytics の設定は、OSGi コンソールから指定できます。
 
 >[!CAUTION]
 >
->プロパティを設定する前に、アドビのリレーションシップマネージャーに連絡して、AEM Screens で使用する **Analytics API キー**&#x200B;と **Analytics プロジェクト**&#x200B;を取得するためのチケットを作成してください。
+>プロパティを設定する前に、Adobeのリレーションシップマネージャーに連絡して、を取得するためのチケットを作成します。 **Analytics API キー** および **Analytics プロジェクト** AEM Screensで使用します。
 
 ![]()
 
@@ -81,7 +81,7 @@ Adobe Analytics の設定は、OSGi コンソールから指定できます。
 
 >[!CAUTION]
 >
->プロパティを設定する前に、アドビのリレーションシップマネージャーに連絡して、AEM Screens で使用する **Analytics API キー**&#x200B;と **Analytics プロジェクト**&#x200B;を取得するためのチケットを作成してください。
+>プロパティを設定する前に、Adobeのリレーションシップマネージャーに連絡して、を取得するためのチケットを作成します。 **Analytics API キー** および **Analytics プロジェクト** AEM Screensで使用します。
 
 Adobe Analytics を AEM Screens 用に設定するためのプロパティとその説明を次の表に示します。
 

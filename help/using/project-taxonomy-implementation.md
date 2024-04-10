@@ -4,10 +4,10 @@ seo-title: Project Taxonomy
 description: ここでは、プロジェクトの分類について説明します
 seo-description: The page describes Project Taxonomy
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
-workflow-type: ht
-source-wordcount: '361'
-ht-degree: 100%
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 82%
 
 ---
 
@@ -27,7 +27,7 @@ AEM Screens デジタルサイネージソリューションを実装する前�
 * **スケジュール設定**
 * **コンテンツのプレビュー**
 
-これらの用語については、[用語集](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=ja)を参照してください。
+これらの用語については、を参照してください。 [用語集](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=ja).
 
 >[!NOTE]
 >
@@ -36,14 +36,13 @@ AEM Screens デジタルサイネージソリューションを実装する前�
 >* Screens プロジェクトに自動入力するハードウェアアセットデータベース
 >* すべてのプレイヤーに特定の AEM インスタンスを自動的に参照させるテキスト設定ファイル
 
-
 ## AEM Screens プロジェクトの実装 {#creating-a-project}
 
 AEM Screens の作成者は、利用可能な AEM Screens コンポーネントを使用するユーザーエクスペリエンスの作成および管理を担当します。作成者は、AEM Screens の使用可能なセグメントを設定、導入、統合することで、コンテンツを作成およびレビューし、使いやすいグラフィカルユーザーインターフェイスを提供します。
 
 >[!NOTE]
 >
->作成者は、チャネルを与えられたシーケンスから作成し、キャンペーンオーディエンスおよび望ましいフォーカスを把握しています。AEM Screens の作成者は、多様なチャネルを作成し、シーケンスをタイムチャネル体験に割り当てることで、指定時刻に動作するエンドユーザー体験を作成して編成します。
+>作成者は、指定されたシーケンスからチャネルを作成し、キャンペーンのオーディエンスと目的のフォーカスを把握しています。 したがって、AEM Screens作成者は、様々なチャネルを作成し、タイムドチャネルエクスペリエンスにシーケンスを割り当てることで、エンドユーザーエクスペリエンスを作成および調整します。
 
 AEM Screens プロジェクトを開始する際に作成者は、通常、以下をおこないます。
 

@@ -10,10 +10,10 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1464'
-ht-degree: 36%
+source-wordcount: '1462'
+ht-degree: 35%
 
 ---
 
@@ -118,7 +118,7 @@ Android™ プレーヤーを一括でロールアウトする場合は、AEM �
 Android™ プレーヤーで一括プロビジョニングを許可するには、次の手順に従います。
 
 1. `player-config.default.json` という名前で設定 JSON ファイルを作成します。
-を参照 [JSON ポリシーの例](#example-json) および各種のの使用方法を説明した表 [ポリシー属性](#policy-attributes).
+を表示 [JSON ポリシーの例](#example-json) および各種のの使用方法を説明した表 [ポリシー属性](#policy-attributes).
 
 1. MDM、ADB、Android™ Studio のファイルエクスプローラーを使用して、このポリシーの JSON ファイルをにドロップします *sdcard* android™ デバイスのフォルダー。
 
@@ -168,7 +168,7 @@ Android™ プレーヤーで一括プロビジョニングを許可するには
 ```
 
 >[!NOTE]
->すべての Android™ デバイスには以下が含まれています `*sdcard*` フォルダーが実際であるかどうか `*sdcard*` が挿入されているかどうか。 デプロイ時、このファイルは Downloads フォルダーと同じレベルにあります。Samsung Knox などの一部の MDM では、*sdcard* フォルダーの場所を&#x200B;*内部ストレージ*&#x200B;と呼ぶ場合があります。
+>すべての Android™ デバイスには以下が含まれています `*sdcard*` フォルダーが実際であるかどうか `*sdcard*` が挿入されているかどうか。 デプロイ時、このファイルは Downloads フォルダーと同じレベルにあります。Samsung Knox などの一部の MDM には、このメッセージが表示される場合があります *sdcard* フォルダーの場所 *内部ストレージ*.
 
 ## エンタープライズモビリティ管理を使用した Android™ プレーヤーの一括プロビジョニング {#bulk-provisioning}
 

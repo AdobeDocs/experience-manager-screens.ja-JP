@@ -1,16 +1,14 @@
 ---
 title: 機能パック 202001 のリリースノート
-seo-title: Release Notes for Feature Pack 202001
-description: 2020 年 1 月 31 日にリリースされた AEM Screens 機能パック 202001 について説明します。
-seo-description: Follow this page to get information for AEM Screens Feature Pack 202001 released on January 31, 2020.
+description: 2020 年 1 月 31 日にリリースされたAEM Screens機能パック 202001 について説明します。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 77%
+source-wordcount: '299'
+ht-degree: 41%
 
 ---
 
@@ -18,9 +16,9 @@ ht-degree: 77%
 
 >[!CAUTION]
 >
->最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
+>最新バージョンのAdobe Experience Manager（AEM）にアップグレードしてください。 AEM Screensは、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供します。
 
-## 入手方法 {#availability}
+## 可用性 {#availability}
 
 AEM Screens では、AEM 6.5 機能パック 3 をリリースしました。
 
@@ -33,28 +31,30 @@ AEM Screens 機能パック 202001 のリリース日は 2020年1月31日（PT�
 ### 新機能 {#what-s-new}
 
 * **アセット再生のコマンド同期**
-コマンド同期を使用すると、異なるプレーヤー間で再生を同期させることができます。 プレーヤーごとに異なるコンテンツを再生できますが、各アセットの再生時間は同じにする必要があります。
-コマンド同期の詳細と、マスターとクライアントの設定方法については、を参照してください。 [コマンド同期の使用](using-command-sync.md).
 
-* **HTTPS のステータスを表示し、空のリファラーを許可するヘルスチェックフレームワーク**：
-AEM Screens プロジェクトを実行する前に、ヘルスチェックフレームワークを使用して 2 つの必要な設定（空のリファラー要求の許可および Apache Felix Jetty Based HTTP Service の許可）が設定されているかどうかを確認できます。
+コマンド同期を使用すると、異なるプレーヤー間で再生を同期させることができます。プレーヤーは異なるコンテンツを再生できますが、各アセットのデュレーションは同じである必要があります。
+コマンド同期の詳細と、プライマリとクライアントの設定方法については、を参照してください。 [コマンド同期の使用](using-command-sync.md).
 
-  ヘルスチェックフレームワークについて詳しくは、 [ヘルスチェックフレームワーク](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
+* **https のステータスを表示し、空のリファラーを許可するためのヘルスチェックフレームワーク**
 
-* **デフォルトのトランジションタイプの更新**：
-デフォルトでは、トランジションコンポーネントのプロパティは、例えば、「**タイプ**」は「**フェード**」に、「**デュレーション（ms）**」は「**1600**」に設定されています。
+ヘルスチェックフレームワークを使用すると、AEM Screens プロジェクトを実行する前に 2 つの必要な設定（空のリファラーリクエストと Apache Felix Jetty ベースの HTTP サービスを許可）がセットアップされているかどうかを確認できます。
+
+ヘルスチェックフレームワークについて詳しくは、 [ヘルスチェックフレームワーク](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
+
+* **デフォルトのトランジションタイプの更新**
+トランジションコンポーネントのプロパティ（例：） **タイプ** はに設定されました **フェード** および **期間** as **1600 ミリ秒**（デフォルト）。
 
   参照： [切り替えの適用](/help/user-guide/applying-transitions.md) ユースケースを参照してください。
 
 
-### リリースされている AEM Screens Player {#released-aem-screens-players}
+### リリースされている AEM Screens Player
 
 AEM 6.4 機能パック 7 および AEM 6.5 機能パック 3 向けに、次の AEM Screens Player がリリースされています。
 
 * Chrome OS
 * Windows
-* Android
+* Android™
 
-#### AEM Screens Player のダウンロード   {#aem-screens-player-downloads}
+#### AEM Screens Player のダウンロード 
 
 最新のAEM Screens Player のダウンロードとバグ修正について詳しくは、以下を参照してください。 [**AEM Screens Player のダウンロード**](https://download.macromedia.com/screens/).

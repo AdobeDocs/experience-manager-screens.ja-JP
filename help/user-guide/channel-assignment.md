@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
 workflow-type: tm+mt
 source-wordcount: '1176'
 ht-degree: 36%
@@ -40,7 +40,7 @@ ht-degree: 36%
 
    ![画像](/help/user-guide/assets/channel-assign1.png)
 
-   以下のセクションで、**チャネルの割り当て**&#x200B;ダイアログボックスのプロパティを設定できます。参照： [チャネルプロパティ](#channel-properties) チャネルプロパティの詳細については、こちらを参照してください。
+   以下のセクションで、**チャネルの割り当て**&#x200B;ダイアログボックスのプロパティを設定できます。参照： [チャネルプロパティ](#channel-properties) チャネルプロパティについて詳しくは、を参照してください。
 
 ## チャネル割り当てのチャネルプロパティからのチャネルプロパティ {#channel-properties}
 

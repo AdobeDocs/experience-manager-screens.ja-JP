@@ -10,10 +10,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
 workflow-type: tm+mt
-source-wordcount: '1452'
-ht-degree: 46%
+source-wordcount: '1447'
+ht-degree: 43%
 
 ---
 
@@ -102,7 +102,7 @@ AEM Screens プロジェクト用に Context Hub の設定を開始する前に�
    >
    >1. CRXDE Lite に移動してから`/conf/screens/settings/cloudsettings`に移動します。
    >1. `cloudsettings jcr:primaryType` が `sling:Folder` にあるかどうかを確認します。`jcr:primaryType` が `sling:folder` にない場合は、次の手順に進みます。
-   >1. 右クリック `/conf/screens/settings` を使用してノードを作成します。 *名前* as **cloudsettings1** および *タイプ* as **sling:Folder** 変更を保存します。
+   >1. 右クリック `/conf/screens/settings` を使用してノードを作成します。 *名前* as **`cloudsettings1`** および *タイプ* as **`sling:Folder`** 変更を保存します。
    >1. `/conf/screens/settings/cloudsettings` の下のすべてのノードを `cloudsettings1` に移動します。
    >1. `cloudsettings` を削除して保存します。
    >1. `cloudsettings1` を `cloudsettings` に名前変更して保存します。
@@ -110,10 +110,10 @@ AEM Screens プロジェクト用に Context Hub の設定を開始する前に�
    >
    >オーサーとパブリッシュで、アップグレードの前または後に次の手順に従います。
 
-   1. 「**タイトル**」に「**Google Sheets**」、「**ストア名**」に「**googlesheets**」、「**ストアの種類**」に「**contexthub.generic-jsonp**」と、それぞれ入力して、「**次へ**」をクリックします。
+   1. を入力 **タイトル** as **Google シート**, **ストア名** as **`googlesheets`**、および **ストアタイプ** as **c`ontexthub.generic-jsonp`** をクリックして、 **次**.
 
       >[!CAUTION]
-      >Adobe Experience Manager（AEM）6.4 を使用している場合は、「**構成タイトル**」を「**googlesheets**」、「**ストアタイプ**」を「**contexthub.generic-jsonp**」として入力します。
+      >Adobe Experience Manager（AEM） 6.4 を使用している場合は、 **設定のタイトル** as **`googlesheets`** および **ストアタイプ** as **c`ontexthub.generic-jsonp`**.
 
       ![画像](/help/user-guide/assets/context-hub/context-hub6.png)
 

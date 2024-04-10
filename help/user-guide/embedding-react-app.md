@@ -1,9 +1,6 @@
 ---
 title: AEM SPA Editor を使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合
-seo-title: Embedding a REACT application using the AEM SPA Editor and Integrating with AEM Screens Analytics
-description: ここでは、AEM でビジネスプロフェッショナルが設定できる AEM SPA Editor を使用して React（または Angular）ベースのインタラクティブなシングルページアプリケーションを埋め込む方法について説明します。また、インタラクティブアプリケーションをオフライン Adobe Analytics と統合する方法についても説明します。
-seo-description: Follow this page to learn how to embed an interactive single page application using REACT (or Angular) using the AEM SPA editor that can be configured by business professionals in AEM and also how to integrate your interactive application with offline Adobe Analytics.
-uuid: fb56ede0-7b36-4f47-b9e5-d806c9a3c707
+description: AEM SPAエディターで REACT （またはAngular）を使用してインタラクティブなシングルページアプリケーションを埋め込む方法を説明します。
 content-type: reference
 topic-tags: developing
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -13,16 +10,16 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 89%
+source-wordcount: '681'
+ht-degree: 52%
 
 ---
 
 # AEM SPA Editor を使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合 {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-ここでは、AEM でビジネスプロフェッショナルが設定できる AEM SPA Editor を使用して React（または Angular）ベースのインタラクティブなシングルページアプリケーションを埋め込む方法について説明します。また、インタラクティブアプリケーションをオフライン Adobe Analytics と統合する方法についても説明します。
+React （またはAngular）を使用して、インタラクティブな単一ページアプリケーションを埋め込むことができます。 これを行うには、AEMでビジネスプロフェッショナルが設定したAEM SPAエディターを使用します。 また、インタラクティブアプリケーションをオフライン Adobe Analyticsと統合する方法についても説明します。
 
 ## AEM SPA Editor の使用 {#using-the-aem-spa-editor}
 
@@ -32,9 +29,9 @@ AEM SPA Editor を使用するには、以下の手順に従います。
 
    >[!NOTE]
    >
-   >このアーキタイプでは、独自の SPA プロジェクトの出発点として、最小限の Adobe Experience Manager プロジェクトが作成されます。このアーキタイプの使用時に指定する必要があるプロパティを通じて、このプロジェクトのあらゆる部分に必要に応じて名前を付けることができます。
+   >このアーキタイプでは、独自の SPA プロジェクトの出発点として、最小限の Adobe Experience Manager プロジェクトが作成されます。このアーキタイプを使用する際に指定する必要があるプロパティを使用すると、このプロジェクトのすべての部分に必要に応じて名前を付けることができます。
 
-1. AEM SPA Editor アーキタイププロジェクトを作成するには、readme の説明に従ってください。
+1. AEM SPAエディターアーキタイププロジェクトを作成するには、の README の手順に従います。
 
    ```
    mvn clean install archetype:update-local-catalog
@@ -49,7 +46,7 @@ AEM SPA Editor を使用するには、以下の手順に従います。
 
    >[!NOTE]
    >
-   >ここでは、**GroupId** として ***com.adobe.aem.screens*** を、**ArtifactId** として ***My Sample SPA***（これがデフォルト）を使用します。必要に応じて独自に選択できます。
+   >このドキュメントでは、を使用します **GroupId** as ***com.adobe.aem.screens*** および **ArtifactId** as ***My サンプル SPA*** （デフォルト）。 必要に応じて独自に選択できます。
 
 1. プロジェクトを作成したら、任意の IDE またはエディターを使用し、生成された Maven プロジェクトをインポートします。
 1. ***mvn clean install -PautoInstallPackage*** コマンドを使用して、ローカルの AEM インスタンスにデプロイします。
@@ -58,21 +55,19 @@ AEM SPA Editor を使用するには、以下の手順に従います。
 
 React アプリのコンテンツを編集するには、以下の手順に従います。
 
-1. `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` に移動します（ホスト名、ポート、プロジェクト名を実際のものに置き換えます）。
+1. に移動します。 `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` （必要に応じて、ホスト名、ポート、プロジェクト名を置き換えます）。
 1. Hello world アプリケーションに表示されるテキストを編集できます。
 
 ### AEM Screens へのインタラクティブ React アプリの追加 {#adding-the-interactive-react-app-to-aem-screens}
 
 AEM Screens にインタラクティブ React アプリを追加するには、以下の手順に従います。
 
-1. 新しい AEM Screens プロジェクトを作成します。参照： [プロジェクトの作成と管理](creating-a-screens-project.md) を参照してください。
-
-1. Screens プロジェクトの&#x200B;**チャネル**&#x200B;フォルダーで、新しい（できれば）**アプリケーションチャネル**（または 1x1 テンプレートまたはマルチゾーンチャネル）を作成します。
+1. AEM Screens プロジェクトを作成します。参照： [プロジェクトの作成と管理](creating-a-screens-project.md) を参照してください。
+1. を作成 **アプリケーションチャネル** （できれば）（または 1x1 テンプレートまたはマルチゾーンチャネル）を **チャネル** AEM Screens プロジェクトのフォルダー。
 
    >[!NOTE]
-   >**シーケンスチャネル**には、エクスペリエンスのインタラクティブな性質と競合するスライドショーロジックがもともと備わっているため、この使用例では推奨されません
+   >**シーケンスチャネル** は、エクスペリエンスのインタラクティブな性質と競合するスライドショーロジックがもともと備わっているため、このユースケースでは推奨されません。
    >参照： [チャネルの作成と管理](managing-channels.md) を参照してください。
-
 
 1. シーケンスチャネルを編集し、埋め込みページコンポーネントをドラッグ＆ドロップします。
 
@@ -82,11 +77,11 @@ AEM Screens にインタラクティブ React アプリを追加するには、�
    >
    >チャネルをディスプレイに割り当てる際には、必ずユーザーインタラクションイベントを追加してください。
 
-1. アクションバーの「**編集**」をクリックして、チャネルのプロパティを編集します。
+1. クリック **編集** アクションバーのを使用して、チャネルのプロパティを編集できます。
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. **埋め込みページ**&#x200B;コンポーネントをドラッグ&amp;ドロップするか、アプリケーションチャネルで既存のコンポーネントを再利用し、mysamplespa アプリケーションの下のホームページ（例：***/content/mysamplespa/en/home***）を選択します。
+1. をドラッグ&amp;ドロップ **埋め込みページ** コンポーネントを選択するか、アプリケーションチャネルで既存のコンポーネントを再利用し、mysamplespa アプリケーションの下のホームページ（例：） ***/content/mysamplespa/en/home***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -97,7 +92,7 @@ AEM Screens にインタラクティブ React アプリを追加するには、�
 
 1. このプロジェクトに対してプレーヤーを登録し、ディスプレイに割り当てます。これで、AEM Screens 上で実行中のインタラクティブアプリケーションが表示されるようになりました。
 
-   参照： [デバイスの登録](device-registration.md) デバイスの登録について詳しく説明します。
+   参照： [デバイスの登録](device-registration.md) デバイスの登録に関する詳細情報。
 
 ## AEM Screens を使用した SPA とオフライン機能付き Adobe Analytics の統合 {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
 
@@ -105,14 +100,14 @@ AEM Screens を通じて SPA をオフライン機能付きの Adobe Analytics �
 
 1. AEM Screens で Adobe Analytics を設定します。
 
-   参照： [Adobe AnalyticsとAEM Screensの設定](configuring-adobe-analytics-aem-screens.md) AEM Screensを使用してAdobe Analyticsでシーケンスを実行し、オフライン Adobe Analyticsを使用してカスタムイベントを送信する方法について説明します。
+   参照： [Adobe AnalyticsとAEM Screensの設定](configuring-adobe-analytics-aem-screens.md) AEM Screensを使用してAdobe Analyticsでシーケンスを実行する方法や、オフライン Adobe Analyticsを使用してカスタムイベントを送信する方法について詳しくは、こちらを参照してください。
 
 1. 任意の IDE またはエディターを使用して、React アプリ（特に、イベントの発行を開始するテキストコンポーネントなどのコンポーネント）を編集します。
 1. コンポーネントに対してキャプチャするクリックイベントなどのイベントで、標準データモデルを使用して分析情報を追加します。
 
-   参照： [Adobe AnalyticsとAEM Screensの設定](configuring-adobe-analytics-aem-screens.md)s を参照してください。
+   参照： [Adobe AnalyticsとAEM Screensの設定](configuring-adobe-analytics-aem-screens.md) を参照してください。
 
-1. AEM Screens Analytics API を呼び出して、イベントをオフラインで保存し Adobe Analytics にバースト送信します。
+1. AEM Screens Analytics API を呼び出して、イベントをオフラインで保存し、バーストでAdobe Analyticsに送信できるようにします。
 
    例：
 
@@ -140,4 +135,4 @@ AEM Screens を通じて SPA をオフライン機能付きの Adobe Analytics �
 
    >[!NOTE]
    >
-   >プレーヤーのファームウェアによって、送信するカスタム分析データにプレーヤーとそのランタイム環境に関する詳細が自動的に追加されます。したがって、どうしても必要な場合を除き、OS やデバイスに関する低レベルの詳細情報を取得する必要はありません。ビジネス分析データに的を絞るだけでよいのです。
+   >プレーヤーのファームウェアによって、送信するカスタム分析データにプレーヤーとそのランタイム環境に関する詳細が自動的に追加されます。したがって、必要でない限り、低レベルの OS/デバイスの詳細を取得する必要がある場合があります。 ビジネス分析データに焦点を当てます。

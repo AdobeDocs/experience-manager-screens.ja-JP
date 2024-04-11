@@ -1,62 +1,61 @@
 ---
 title: ビデオレンディション
-seo-title: ビデオレンディション
-description: このページに従って、Screens プロジェクトでのフル HD レンディションの生成について学びます。
-seo-description: このページに従って、Screens プロジェクトでのフル HD レンディションの生成について学びます。
-uuid: 0a3b009e-8a97-4396-ad47-97077fe26cde
+description: AEM Screens プロジェクトのフル HD レンディションの生成について説明します。
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
-feature: Screens のオーサリング
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '427'
-ht-degree: 100%
+source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 23%
 
 ---
 
 # ビデオレンディション {#video-renditions}
 
-手動および自動でフル HD レンディションを生成できます。ここでは、アセットにレンディションを追加するワークフローを説明します。
+手動および自動のフル HD レンディションを生成できます。 次の節では、アセットにレンディションを追加するワークフローについて説明します。
 
 ## フル HD レンディションの自動生成  {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
->デバイスで AEM Screens ビデオレンディションが自動的に再生されない場合は、ビデオの仕様についてハードウェアベンダーにお問い合わせください。これは、デバイスで最高のパフォーマンスを得るのに役立ち、これにより、FFMPEG でレンディションを生成するための適切なパラメーターを提供する独自のカスタムビデオプロファイルを作成できます。続いて、次の手順でプロファイルのリストにカスタムビデオプロファイルを追加します。
+>AEM Screensのビデオレンディションがデバイスで最適に再生されない場合は、ハードウェアのベンダーにビデオの仕様を問い合わせてください。 これにより、デバイスで最高のパフォーマンスを得ることができ、レンディションを生成するための FFMPEG の適切なパラメーターを提供する独自のカスタムビデオプロファイルを作成できます。 次に、次の手順を使用して、カスタムビデオプロファイルをプロファイルのリストに追加します。
 >
->また、チャネルで再生されているビデオをデバッグおよびトラブルシューティングする方法については、[ビデオのトラブルシューティング](troubleshoot-videos.md)を参照してください。
+>また、を参照してください。 [トラブルシューティングビデオ](troubleshoot-videos.md) チャネルで再生されるビデオをデバッグおよびトラブルシューティングする。
 
 フル HD レンディションを自動的に生成するには、次の手順に従います。
 
-1. Adobe Experience Manager リンク（左上）を選択し、ツールを選択するためのハンマーアイコンをクリックして、「**ワークフロー**」を選択します。
+1. Adobe Experience Manager リンク（左上）を選択し、ハンマーアイコンをクリックして選択します **ワークフロー**.
 
-   「**モデル**」をクリックして、ワークフローモデル管理に進みます。
+   クリック **モデル**.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. 「**DAM アセットの更新**」モデルを選択し、アクションバーの「編集」をクリックして、**DAM アセットの更新**&#x200B;ウィンドウを開きます。
+1. ワークフローモデル管理で、 **DAM アセットの更新** モデル化してクリック **編集** アクションバーから。
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
-1. **FFmpeg トランスコーディング**&#x200B;の手順をダブルクリックします。
+1. が含まれる **DAM アセットの更新** ウィンドウで、 **FFmpeg トランスコーディング** ステップ。
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. 「**プロセス**」タブを選択し、プロセスの引数を編集します。「**引数**」のリストにフル HD プロファイルとして「***,profile:fullhd-bp,profile:fullhd-hp***」を入力し、「**OK**」をクリックします。
+1. 「」を選択します **プロセス** タブ。
+1. で、フル HD プロファイルのリストへの入力 **引数** を次のように設定します。
+   ***`,profile:fullhd-bp,profile:fullhd-hp`***
+1. 「**OK**」をクリックします。
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. **DAM アセットの更新**&#x200B;画面の左上にある「**保存**」をクリックします。
+1. クリック **保存** の左上に **DAM アセットの更新** 画面。
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. **Assets** に移動し、新しいビデオをアップロードします。ビデオをクリックしてレンディションサイドレールを開くと、2 つのフル HD ビデオが表示されます。
+1. **Assets** に移動し、新しいビデオをアップロードします。ビデオをクリックして、レンディション サイドパネルを開きます。 2 つのフル HD ビデオに注目してください。
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
@@ -64,7 +63,7 @@ ht-degree: 100%
 
    ![step11_-_open_therenditionssiderail](assets/step11_-_open_therenditionssiderail.png)
 
-1. 2 つの新しいフル HD レンディションが表示されます。
+1. 2 つの新しいフル HD レンディションがあります。
 
    ![step12_-_2_new_renditionsareaddedtothevideo](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
 
@@ -72,13 +71,13 @@ ht-degree: 100%
 
 フル HD レンディションを手動で生成するには、次の手順に従います。
 
-1. Adobe Experience Manager リンク（左上）を選択し、ツールを選択するためのハンマーアイコンをクリックして、「**ワークフロー**」を選択します。
+1. Adobe Experience Manager リンク（左上）を選択し、ハンマーアイコンをクリックして、ツールを選択し、次の項目を選択します **ワークフロー**.
 
-   「**モデル**」をクリックして、ワークフローモデル管理に進みます。
+   クリック **モデル**.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. 「**スクリーン更新アセット**」モデルを選択し、「**ワークフローを開始**」をクリックして&#x200B;**ワークフローを実行**&#x200B;ダイアログボックスを開きます。
+1. ワークフローモデル管理で、 **Screens アセットの更新** モデルを作成し、 **ワークフローを開始** を開きます **ワークフローを実行** ダイアログが表示されます。
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
@@ -90,6 +89,6 @@ ht-degree: 100%
 
    ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 
-1. **レンディション**&#x200B;サイドレールを開くと、新しいフル HD レンディションが表示されます。
+1. を開きます **レンディション** サイドレール。 新しいフル HD レンディションに注目してください。
 
    ![step8_-_open_therenditionssiderail](assets/step8_-_open_therenditionssiderail.png)

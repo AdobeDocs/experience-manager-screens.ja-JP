@@ -1,23 +1,21 @@
 ---
 title: エクスペリエンスフラグメントアクティベーション
-seo-title: エクスペリエンスフラグメントアクティベーション
-description: エクスペリエンスフラグメントのアクティベーションについて学ぶには、使用事例の例に従ってください。
-seo-description: エクスペリエンスフラグメントのアクティベーションについて学ぶには、使用事例の例に従ってください。
-source-git-commit: 7876c5eed8d23bbe566645feefd8eefb9aeac3f3
+description: AEM Screensに関連するエクスペリエンスフラグメントのアクティベーションについて学ぶのに役立つ使用例です。
+source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '194'
+ht-degree: 51%
 
 ---
 
 
-# エクスペリエンスフラグメントアクティベーション：OmniChannel エクスペリエンス {#experience-fragments-activation}
+# エクスペリエンスフラグメントのアクティベーション：OmniChannel エクスペリエンス {#experience-fragments-activation}
 
 ## 使用例の説明 {#use-case-description}
 
 エクスペリエンスフラグメントは、ページ内で参照されるコンテンツおよびレイアウトを含む 1 つ以上のコンポーネントのグループです。
 
-次の使用例では、エクスペリエンスフラグメントをAEM Screens プロジェクトに活用するデモプロジェクトを導入できます。この使用例の主な特徴は次のとおりです。
+次の使用例では、エクスペリエンスフラグメントがAEM Screens プロジェクトに適用される場所からデモプロジェクトを実装できます。 このユースケースの主なハイライトには、次のものが含まれます。
 
 * テキストサイズの拡大
 * 画像の反転
@@ -28,13 +26,13 @@ ht-degree: 100%
 >**前提条件
 >エクスペリエンスフラグメントの基礎知識と、AEM Screens プロジェクトでのエクスペリエンスフラグメントの使用方法について、事前に知識を持っている必要があります。[エクスペリエンスフラグメントの使用](/help/user-guide/experience-fragments-in-screens.md)を参照してください
 
-### デモプロジェクトのセットアップ {#demo-project-setup}
+### デモプロジェクトの設定 {#demo-project-setup}
 
 次の図に示すように、AEM Screens で、**DemoProject** という名前のプロジェクトと、**TestChannel** という名前のシーケンスチャネルを作成します。
 
-### AEM Screens プロジェクトへのエクスペリエンスフラグメントの実装 {#experience-fragments-implementation}
+### AEM Screens プロジェクトでのエクスペリエンスフラグメントの実装 {#experience-fragments-implementation}
 
-エクスペリエンスフラグメントを作成して、AEM Screens プロジェクト&#x200B;**DemoProject** で活用すると、必要に応じてエクスペリエンスフラグメントを拡張できます。
+エクスペリエンスフラグメントを作成し、AEM Screens プロジェクトに適用したら、次の手順を実行します。 **デモプロジェクト** 必要に応じて、エクスペリエンスフラグメントを拡張できます。
 
 ### テキストサイズの拡大 {#increasing-text-size}
 

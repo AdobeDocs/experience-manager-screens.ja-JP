@@ -9,7 +9,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
 workflow-type: tm+mt
 source-wordcount: '2135'
 ht-degree: 69%
@@ -250,7 +250,7 @@ AEM Screens には、従来の WCM Sites コンポーネントには必ずしも
                                    sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
                                    defaultValue=""
                                    fieldDescription="Amount of time the image is shown in the sequence, in milliseconds"
-                                   fieldLabel="Duration (ms)"
+                                   fieldLabel="Duration (milliseconds)"
                                    min="0"
                                    name="./duration"/>
                            </items>

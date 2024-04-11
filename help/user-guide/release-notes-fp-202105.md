@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '394'
 ht-degree: 66%
 
 ---
@@ -40,7 +40,7 @@ AEM Screens 機能パック 202105 のリリース日は 2021 年 6 月 4 日（
 
   AEM Screens Player で、デバイス名を Adobe Experience Manager（AEM）に送信できるようになりました。デフォルトでは、一括登録を使用してデバイスを登録すると、システムで生成されたユーザー名が「タイトル」フィールドに入力されます。 あるいは、顧客がアセットタグやその他のわかりやすい名前を使用することもできます。この場合は、その名前が AEM に表示され、適切なコンテンツを割り当てやすくなります。
 
-  サポートしている各オペレーティングシステムで名前を設定する方法については、次のドキュメントを参照してください。
+  サポート対象の各オペレーティングシステムで名前を設定する方法については、次のドキュメントを参照してください。
 
    * [Android](/help/user-guide/implementing-android-player.md#name-android)
    * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)

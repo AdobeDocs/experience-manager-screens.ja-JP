@@ -1,22 +1,18 @@
 ---
 title: 機能パック 201809 のリリースノート
-seo-title: Release Notes for Feature Pack 201809
-description: 2018 年 10 月 1 日にリリースされた AEM Screens 機能パック 201809 について説明します。
-seo-description: Follow this page to get information for AEM Screens Feature Pack 201809 released on October 01, 2018.
-uuid: 48240e27-e4c2-48bc-bcca-2a2ec93edc47
+description: 2018 年 10 月 1 日にリリースされたAEM Screens機能パック 201809 について説明します。
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: release-notes
-discoiquuid: 2a049c2c-26ee-498d-a505-a2967be7cbcd
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 70%
+source-wordcount: '249'
+ht-degree: 41%
 
 ---
 
@@ -24,7 +20,7 @@ ht-degree: 70%
 
 >[!CAUTION]
 >
->最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
+>Adobeでは、最新バージョンのAdobe Experience Manager（AEM）にアップグレードすることをお勧めします。 AEM Screensは、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供します。
 
 AEM 6.4.2 機能パック 2 および AEM 6.3.3 機能パック 4 向けの AEM Screens がリリースされました。詳細は以下のとおりです。
 
@@ -36,24 +32,24 @@ AEM Screens 機能パック 201809 のリリース日は 2018 年 10 月 1 日�
 
 * **Adobe Analytics Proof of Play レポート**：を参照 [Adobe AnalyticsとAEM Screensの統合](adobe-analytics-integration-aem-screens.md) を参照してください。
 
-* **Adobe Analyticsを使用すると、プレーヤーで再生イベントをキャッシュしてAdobe Analyticsに送信できます**：を参照 [Adobe AnalyticsとAEM Screensの設定](configuring-adobe-analytics-aem-screens.md) を参照してください。
+* **Adobe Analyticsを使用すると、プレーヤーがキャッシュして送信できます `playback` Adobe Analyticsへのイベント**：を参照 [Adobe AnalyticsとAEM Screensの設定](configuring-adobe-analytics-aem-screens.md) を参照してください。
 
-* **オフラインコンテンツの一括更新**：すべてのチャネルを一括更新でき、特定のチャネルに移動してコンテンツを更新する手間を省くことができます。参照： [オフライン一括更新](bulk-offline-update.md) を参照してください。
+* **オフラインコンテンツの一括更新**：すべてのチャネルを一括で更新できます。特定のチャネルに移動してコンテンツを更新する手間が省けます。 参照： [オフライン一括更新](bulk-offline-update.md) を参照してください。
 
-* **パブリッシュインスタンスへのチャネルの一括公開**
+* **すべてのパブリッシュインスタンスへのチャネルの一括公開**
 * **プレーヤーのログメカニズムの機能強化**：AEM Screens Player の最大ログファイル数を指定できます。参照： [AEM Screens Player の操作](working-with-screens-player.md) を参照してください。
 
 * **オーサー／パブリッシュのデプロイメント（堅牢化）**
 
-### リリースされている AEM Screens Player {#released-aem-screens-players}
+### リリースされている AEM Screens Player
 
 AEM 6.4.2 機能パック 2 および AEM 6.3.3 機能パック 4 向けに、次の AEM Screens Player がリリースされています。
 
 * Chrome OS
 * Windows
-* Android
+* Android™
 * iOS
 
-#### AEM Screens Player のダウンロード  {#aem-screens-player-downloads}
+#### AEM Screens Player のダウンロード 
 
 最新のAEM Screens Player のダウンロードとバグ修正について詳しくは、以下を参照してください。 [AEM Screens Player のダウンロード](https://download.macromedia.com/screens/).

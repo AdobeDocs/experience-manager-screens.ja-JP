@@ -1,36 +1,32 @@
 ---
 title: REST API
-seo-title: REST API
-description: AEM Screens には、Siren の仕様に準拠するシンプルな RESTful API が用意されています。このページの説明に従って、コンテンツ構造内を移動する方法と環境内のデバイスにコマンドを送信する方法を学習します。
-seo-description: AEM Screens には、Siren の仕様に準拠するシンプルな RESTful API が用意されています。このページの説明に従って、コンテンツ構造内を移動する方法と環境内のデバイスにコマンドを送信する方法を学習します。
-uuid: 5988fdcb-cda5-4d3e-a2ab-f9ee4179e568
+description: AEM Screensが Siren 仕様に準拠したシンプルな RESTful API を提供する方法について説明します。 また、コンテンツ構造内を移動する方法や、環境内のデバイスにコマンドを送信する方法についても説明します。
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: c07b6e4f-c0a4-4151-a543-76dabd6d5146
-feature: Screens の開発
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '241'
-ht-degree: 100%
+exl-id: ac01935a-c3ff-485a-b60e-227fb94c75b0
+source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 57%
 
 ---
 
+# REST API{#rest-apis}
 
-# REST API {#rest-apis}
-
-AEM Screens には、[Siren](https://github.com/kevinswiber/siren) の仕様に準拠するシンプルな RESTful API が用意されています。この API により、コンテンツ構造内を移動したり、環境内のデバイスにコマンドを送信したりできるようになります。
+AEM Screens には、[Siren](https://github.com/kevinswiber/siren) の仕様に準拠するシンプルな RESTful API が用意されています。コンテンツ構造内を移動したり、環境内のデバイスにコマンドを送信したりできます。
 
 この API には、[*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json) からアクセスできます。
 
 ## コンテンツ構造内での移動 {#navigating-content-structure}
 
-API 呼び出しから返される JSON コードには、現在のリソースに関連するエンティティのリストが記述されています。リストに含まれている自己リンクをたどると、各エンティティに REST リソースとして再びアクセスできます。
+API 呼び出しから返される JSON コードには、現在のリソースに関連するエンティティのリストが記述されています。リストに表示されたセルフリンクの後、これらの各エンティティは、REST リソースとして再びアクセスできます。
 
-例えば、重要なデモロケーションのディスプレイにアクセスするには、次の呼び出しをおこないます。
+例えば、デモのフラッグシップの場所のディスプレイにアクセスするには、次を呼び出します。
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship.json HTTP/1.1
@@ -153,7 +149,7 @@ curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/
 }
 ```
 
-このアクションを呼び出すには、次の呼び出しをおこないます。
+このアクションをトリガーするには、以下を呼び出します。
 
 ```xml
 POST /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
@@ -167,4 +163,3 @@ Host: http://localhost:4502
 ```xml
 curl -u admin:admin -X POST -d ':operation=broadcast-command&msg=reboot' http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json
 ```
-

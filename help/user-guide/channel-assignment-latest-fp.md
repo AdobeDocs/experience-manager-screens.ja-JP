@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
 source-wordcount: '1458'
-ht-degree: 43%
+ht-degree: 41%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 43%
    ![画像](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
-   >参照： [プロジェクトの作成と管理](creating-a-screens-project.md) AEM Screens プロジェクトの作成方法を説明します。
+   >AEM Screens プロジェクトを作成する方法については、を参照してください。 [プロジェクトの作成と管理](creating-a-screens-project.md).
 
 1. 「**Cafeteria**」という名前のシーケンスチャネルを&#x200B;**チャネル**&#x200B;フォルダーに作成します。
 
@@ -82,14 +82,14 @@ ht-degree: 43%
 
    >[!NOTE]
    >
-   >チャネルの割り当てプロパティの詳細については、[チャネルプロパティ](#channel-properties)の節を参照してください。
+   >チャネル割り当てプロパティの詳細については、を参照してください。 [チャネルプロパティ](#channel-properties) セクション。
 
 1. から **スケジュール** オプションで、 **アクティベーションウィンドウ** および **繰り返しスケジュール**.
    ![画像](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >チャネルの割り当てプロパティの詳細については、[チャネルプロパティ](#channel-properties)の節を参照してください。
+   >チャネル割り当てプロパティの詳細については、を参照してください。 [チャネルプロパティ](#channel-properties) セクション。
 
 1. 環境を設定したら、「**保存**」をクリックします。
 
@@ -97,7 +97,7 @@ ht-degree: 43%
 
 この例は、Chrome Player の出力を示します。ディスプレイにチャネルを割り当てたら、そのデバイスをプレーヤーに登録する必要があります。
 
-参照： [デバイスの登録](device-registration.md) AEM Screens player にデバイスを登録する方法を説明します。
+AEM Screens Player にデバイスを登録する方法については、を参照してください。 [デバイスの登録](device-registration.md).
 
 次の出力は、選択したプレーヤーで表示できます。
 

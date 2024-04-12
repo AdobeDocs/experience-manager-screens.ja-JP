@@ -1,23 +1,23 @@
 ---
 title: 機能パック 202204 のリリースノート
-description: 2022年4月26日にリリースされた AEM Screens 機能パック 202204 について説明します。
+description: 2022 年 4 月 26 日（PT）にリリースされたAEM Screens機能パック 202204 について説明します。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 5fd41f3a-212d-4179-8e59-22c0a32a1e19
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 93%
+source-wordcount: '298'
+ht-degree: 63%
 
 ---
 
 # 機能パック 202204 のリリースノート {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
+>Adobeでは、最新バージョンのAdobe Experience Manager（AEM）にアップグレードすることをお勧めします。 AEM Screensは、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供します。
 
-## 入手方法 {#availability}
+## 可用性 {#availability}
 
 AEM Screens では、AEM 6.5 機能パック 11 をリリースしました。
 
@@ -29,7 +29,7 @@ AEM Screens 機能パック 202204 のリリース日は 2022年4月26日です�
 
 ### 新機能 {#what-is-new}
 
-* 新しいリモート制御機能を使用すると、管理 UI、チャネルスイッチャーまたはその他の機能（キャッシュのクリアやプレーヤーのリロードなど）にアクセスしやすくなります。また、プレーヤーのローカルファームウェアバージョンやシステム情報を表示することもできます。
+* 新しいリモート制御機能を使用すると、管理 UI、チャネルスイッチャーまたはその他の機能（キャッシュのクリアやリロードなど）にアクセスしやすくなります。 また、プレーヤーのローカルファームウェアバージョンやシステム情報を表示することもできます。
 
 ### バグ修正 {#bug-fixes}
 
@@ -45,18 +45,18 @@ AEM Screens 機能パック 202204 のリリース日は 2022年4月26日です�
 
 * プレーヤーアクティビティ UI が期待どおりに動作するようになりました。
 
-* 「公開を管理」を通じてプレーヤーの最新のアップデートを取得できませんでした。これは修正されました。
+* 公開を管理を介してプレーヤーの最新のアップデートを取得できませんでした。 これは修正されました。
 
-### リリースされている AEM Screens Player {#released-aem-screens-players}
+### リリースされている AEM Screens Player
 
 AEM Screens 6.5 機能パック 11 向けに、次の AEM Screens Player がリリースされています。
 
 * Chrome OS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 
-#### AEM Screens Player のダウンロード   {#aem-screens-player-downloads}
+#### AEM Screens Player のダウンロード 
 
 最新のAEM Screens Player のダウンロードとバグ修正について詳しくは、以下を参照してください。 **[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/index.html)**.

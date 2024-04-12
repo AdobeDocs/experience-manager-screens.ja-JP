@@ -1,17 +1,17 @@
 ---
-title: '[!UICONTROL AEM Screens] の概要'
-description: ここでは AEM Screens について紹介します
+title: AEM Screens の概要
+description: AEM Screensの概要と機能について説明します。
 exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 66%
+source-wordcount: '660'
+ht-degree: 65%
 
 ---
 
 # AEM Screens の概要 {#introduction}
 
-**AEM（Adobe Experience Manager） Screens** は、動的でインタラクティブなデジタルエクスペリエンスを作成、公開、再生できるデジタルサイネージソリューションです。 会場内の様々なタイプのディスプレイ画面と、包括的なオムニチャネルデジタルマーケティング戦略を組み合わせて使用します。
+**AEM Screens** は、動的でインタラクティブなデジタルエクスペリエンスを作成、公開、再生できるデジタルサイネージソリューションです。 会場内の様々なタイプのディスプレイ画面と、包括的なオムニチャネルデジタルマーケティング戦略を組み合わせて使用します。
 
 AEM Screensでは、以下を作成できます。
 

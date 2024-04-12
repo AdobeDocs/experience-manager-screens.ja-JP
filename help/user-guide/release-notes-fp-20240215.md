@@ -1,22 +1,23 @@
 ---
 title: Screens 機能パック 20240215 のリリースノート
-description: 2024年2月15日（PT）にリリースされた AEM Screens 機能パック 20240215 については、このページを参照してください。
+description: 2024 年 2 月 15 日（PT）にリリースされたAEM Screens機能パック 20240215 について説明します。
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: d5b94814df33f00e23fcd22e85e50d6f02947d45
-workflow-type: ht
-source-wordcount: '155'
-ht-degree: 100%
+exl-id: e4149f5b-42c0-43c8-b275-ecbe90104a98
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 74%
 
 ---
 
 # 機能パック 20240215 のリリースノート {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->最新バージョンの 6.5 Adobe Experience Manager（AEM 6.5）にアップグレードすることをお勧めします。最新バージョンの情報は、[こちら](https://experienceleague.adobe.com/docs/experience-manager-65/content/release-notes/release-notes.html?lang=ja)から入手できます
+>Adobeでは、最新バージョンの 6.5 Adobe Experience Manager（AEM 6.5）にアップグレードすることをお勧めします。 から最新のバージョン情報を取得できます。 [こちら](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/release-notes/release-notes)
 
-## 入手方法 {#availability}
+## 可用性 {#availability}
 
 AEM Screens は、AEM 6.5 機能パック 11.3 をリリースしました。
 

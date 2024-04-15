@@ -10,10 +10,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 43%
+source-wordcount: '1445'
+ht-degree: 42%
 
 ---
 
@@ -41,7 +41,7 @@ AEM Screens プロジェクトでの在庫駆動型チャネルの作成と管�
 
 ## 前提条件 {#preconditions}
 
-AEM Screens プロジェクト用に Context Hub の設定を開始する前に、（デモ用に）Google シートをセットアップする必要があります。
+AEM Screens プロジェクトの Context Hub 設定の指定を開始する前に、Google Sheets を設定します（デモ用）。
 
 >[!IMPORTANT]
 >

@@ -10,10 +10,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '662'
-ht-degree: 46%
+ht-degree: 44%
 
 ---
 
@@ -86,6 +86,4 @@ Day 1 の終わりには、NOC への引き渡しを完了することになり�
 
 ## 次のステップ {#the-next-step}
 
-AEM Screens プロジェクトデプロイメントのためのプロジェクト管理に関する重要な考慮事項を十分に理解したら、
-
-に移動します。 **[第 5 部：サポートに関する考慮事項](support-considerations.md)** 2 日目のサポートとそのプロセスについて理解しているとします。
+AEM Screens デプロイメントのプロジェクト管理に関する重要な考慮事項を完了したら、次に移動します **[第 5 部：サポートに関する考慮事項](support-considerations.md)** 2 日目のサポートとそのプロセスについて理解しているとします。

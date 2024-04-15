@@ -10,10 +10,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 52%
+ht-degree: 49%
 
 ---
 
@@ -48,7 +48,7 @@ AEM SPA Editor を使用するには、以下の手順に従います。
    >
    >このドキュメントでは、を使用します **GroupId** as ***com.adobe.aem.screens*** および **ArtifactId** as ***My サンプル SPA*** （デフォルト）。 必要に応じて独自に選択できます。
 
-1. プロジェクトを作成したら、任意の IDE またはエディターを使用し、生成された Maven プロジェクトをインポートします。
+1. プロジェクトが作成されたら、任意の IDE またはエディターを使用し、生成された Maven プロジェクトを読み込みます。
 1. ***mvn clean install -PautoInstallPackage*** コマンドを使用して、ローカルの AEM インスタンスにデプロイします。
 
 ### React アプリのコンテンツの編集 {#editing-content-in-the-react-app}

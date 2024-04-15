@@ -1,41 +1,37 @@
 ---
 title: オフラインチャネル
-seo-title: Offline Channels
-description: AEM Screens Player は、ContentSync テクノロジーを活用して、チャネルをオフラインサポートします。 ここでは、更新ハンドラーと、チャネルに対してオフライン設定を有効にする方法について説明します。
-seo-description: The AEM Screens player provides offline support for channels by leveraging the ContentSync technology. Follow this page to learn more about update handlers and enabling offline configuration for a channel.
-uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
+description: AEM Screens Player がコンテンツ同期テクノロジーを使用してチャネルのオフラインサポートを提供する方法について詳しく説明します。
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 56%
+source-wordcount: '425'
+ht-degree: 42%
 
 ---
 
 # オフラインチャネル {#offline-channels}
 
-Screens Player では、***ContentSync*** テクノロジーを利用してチャネルのオフラインサポートを提供しています。
+Screens Player では、以下を使用してチャネルをオフラインサポートします。 ***ContentSync*** 技術。
 
 プレーヤーは、解凍されたコンテンツを提供するためにローカル http サーバーを使用します。
 
-チャネルが&#x200B;*オンライン*&#x200B;で実行されるように設定されている場合、プレーヤーは AEM サーバーにアクセスしてチャネルリソースを提供します。これに対し、チャネルが&#x200B;*オフライン*&#x200B;で実行されるように設定されている場合、プレーヤーはローカルの HTTP サーバーからチャネルリソースを提供します。
+チャネルが実行されるように設定されている場合 *オンライン*&#x200B;プレーヤーは、AEM サーバーにアクセスしてチャネルリソースを提供します。 ただし、チャネルが実行されるように設定されている場合は、 *オフライン*&#x200B;プレーヤーは、ローカル http サーバーからチャネルリソースを提供します。
 
 プロセスのワークフローは次のとおりです。
 
-1. 目的のページを解析します
-1. 関連するすべてのアセットを収集
-1. すべてを zip ファイルにパッケージ化
+1. 目的のページを解析します。
+1. 関連するすべてのアセットを収集します。
+1. すべてを zip ファイルにパッケージ化します。
 1. zip ファイルをダウンロードし、ローカルで抽出します。
-1. コンテンツのローカルコピーを表示
+1. コンテンツのローカルコピーを表示します。
 
 ## 更新ハンドラー {#update-handlers}
 
@@ -55,22 +51,22 @@ Screens Player では、***ContentSync*** テクノロジーを利用してチ�
    <td><strong>Options</strong></td> 
   </tr>
   <tr>
-   <td>channels</td> 
+   <td><code>channels</code></td> 
    <td>チャネルを収集します</td> 
    <td>extension：収集するリソースの拡張子<br />[pathSuffix='']：チャネルパスに追加するサフィックス<br /> </td> 
   </tr>
   <tr>
-   <td>clientlib</td> 
+   <td><code>clientlib</code></td> 
    <td>指定されたクライアントライブラリを収集します</td> 
    <td>[extension='']：css か js のどちらか（前者のみか後者のみを収集するために指定）</td> 
   </tr>
   <tr>
-   <td>assetrenditions：</td> 
+   <td><code>assetrenditions</code></td> 
    <td>アセットレンディションを収集します</td> 
    <td>[renditions=[]]：収集するレンディションのリスト。デフォルトで元のレンディションに設定</td> 
   </tr>
   <tr>
-   <td>copy</td> 
+   <td><code>copy</code></td> 
    <td>指定された構造をパスからコピーします</td> 
    <td> </td> 
   </tr>
@@ -98,11 +94,13 @@ ContentSync 設定をテストするには、以下の手順に従います。
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. チャネルのダッシュボードに移動し、**チャネル情報**&#x200B;パネルの「**...**」をクリックして、プロパティを変更します。
+1. チャネルダッシュボードに移動します。
+1. クリック **...** が含まれる **チャネル情報** パネル。
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
-1. チャネルプロパティに移動し、の下にあるチェックボックスが無効になっていることを確認します **チャネル** タブ。 「**保存して閉じる**」をクリックします。
+1. チャネルプロパティに移動します。
+1. 「（（チャネル））」タブで、チェックボックスが無効になっていることを確認し、クリックします **保存して閉じる**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 

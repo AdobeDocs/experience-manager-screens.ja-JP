@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 57%
+source-wordcount: '447'
+ht-degree: 50%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 57%
 
 ## 前提条件 {#preconditions}
 
-旅行センター向けの現地気温に応じたアクティベーションの実装を開始する前に、AEM Screens プロジェクトで&#x200B;***データストア***、***オーディエンスのセグメント化***、***チャネルのターゲティングの有効化***&#x200B;をセットアップする方法を理解しておく必要があります。
+トラベルセンターの地域温度アクティベーションの実装を開始する前に、の設定方法について説明します ***データストア***, ***オーディエンスのセグメント化*** および ***チャネルのターゲティングを有効にする*** （AEM Screens プロジェクト内）。
 
 参照： [AEM Screensでの ContextHub の設定](configuring-context-hub.md) を参照してください。
 

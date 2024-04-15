@@ -2,9 +2,9 @@
 title: AEM プラットフォーム設定
 description: ここでは、AEM Platform の設定について説明します
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '445'
 ht-degree: 44%
 
 ---
@@ -44,7 +44,7 @@ Dispatcher は、Adobe Experience Managerのキャッシュおよびロードバ
 
    >[!NOTE]
    >
-   >この `-strict -2` は、パラメーターのリストの最後のパラメーターである必要があります。 また、AEM 6.4 では、の下にノードをコピーする必要があります */libs/settings/dam/video* 対象： */conf/global/settings/dam/video* ～で述べたように [ビデオレンディション](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
+   >この `-strict -2` は、パラメーターのリストの最後のパラメーターである必要があります。 また、AEM 6.4 では、の下にノードをコピーします。 */libs/settings/dam/video* 対象： */conf/global/settings/dam/video* ～で述べたように [ビデオレンディション](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
 1. ビデオ変換がおこなわれ、レンディションが作成されていることを確認します。
 
 ## パスワード制限 {#password-restrictions}

@@ -5,10 +5,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: fb5e7f314ce8557bbee64743929dce945b35a83a
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2118'
+ht-degree: 57%
 
 ---
 
@@ -221,7 +221,7 @@ AEM Screens は、製品で使用されるクエリのインデックス定義�
 
 ### 3. v3 マニフェストを設定するための必須事項？ {#configure-v3}
 
-v3 マニフェストを有効にするには、次の操作を行う必要があります。
+v3 マニフェストを有効にするには、次の手順を実行します。
 
 * Dispatcher を更新します。
 詳しくは、[マニフェストバージョン v3 に対応した Dispatcher の設定](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)を参照してください。

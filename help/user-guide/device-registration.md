@@ -10,10 +10,10 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 57%
+source-wordcount: '743'
+ht-degree: 51%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 57%
 
 >[!NOTE]
 >
->最新の Windows プレーヤー（*.exe*）を [AEM 6.4 Screens Player のダウンロード](https://download.macromedia.com/screens/)ページからダウンロードしたら、以下の手順に従ってプレーヤーのアドホックインストールを完了します。
+>最新の Windows プレーヤーをダウンロードしたら、*.exe*）、から [AEM 6.4 Player のダウンロード](https://download.macromedia.com/screens/) ページで、プレーヤーの手順に従ってアドホックインストールを完了します。
 >
 >1. 左上隅のを長押して、管理パネルを開きます。
 >1. 左のアクションメニューから「**設定**」に移動し、AEM インスタンスの場所のアドレスを「**サーバー**」に入力して、「**保存**」をクリックします。
@@ -84,7 +84,7 @@ ht-degree: 57%
    >
    >「**ディスプレイを割り当て**」をタップまたはクリックすると、デバイスをディスプレイに直接追加できます。
 
-   クリックした場合 **終了**&#x200B;デバイスをディスプレイに割り当てる必要があります。
+   クリックした場合 **終了**&#x200B;デバイスをディスプレイに割り当てます。
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -118,7 +118,7 @@ ht-degree: 57%
 
 ## デバイスマネージャからのデバイスの検索 {#search-device}
 
-デバイスをプレーヤーに登録すると、デバイスマネージャーの UI からすべてのデバイスを表示できます。
+プレーヤーにデバイスを登録したら、デバイスマネージャーの UI からすべてのデバイスを表示できます。
 
 1. AEM Screens プロジェクトからデバイスマネージャー UI （例：）に移動します。 **DemoScreen** > **デバイス**.
 

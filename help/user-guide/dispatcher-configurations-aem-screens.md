@@ -5,9 +5,9 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '623'
 ht-degree: 27%
 
 ---
@@ -24,7 +24,7 @@ Dispatcher はAdobe Experience Managerのキャッシュ/ロードバランシ�
 >
 >Dispatcher がない場合は、OSGi コンポーネントリストで登録サーブレットを無効にします。
 
-Dispatcher をAEM Screens プロジェクト用に設定するには、事前に Dispatcher に関する知識が必要です。
+Dispatcher をAEM Screens プロジェクト用に設定する前に、Dispatcher に関する十分な知識があります。
 参照： [Dispatcher の設定](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) を参照してください。
 
 ## Manifest バージョン v2 用 Dispatcher の設定 {#configuring-dispatcher}

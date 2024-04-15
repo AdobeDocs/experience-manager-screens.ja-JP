@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 79%
+source-wordcount: '373'
+ht-degree: 67%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 79%
 
 ## 前提条件 {#prereqs}
 
-チャネルでのターゲティングを有効にするには、次の手順に従う前に、AEM Screens での ContextHub とターゲティングを理解するために「[AEM Screens の設定における主な用語](configuring-context-hub.md)」を参照してください。
+チャネルでターゲティングを有効にするには、次の手順に従う前に [AEM Screensでのの設定の主な用語](configuring-context-hub.md) AEM Screensの ContextHub とターゲティングを理解するために必要です。
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,7 @@ ht-degree: 79%
 1. **[データストアの設定](configuring-context-hub.md)**
 1. **[オーディエンスのセグメント化の設定](configuring-context-hub.md)**
 
-上記の手順を完了したら、チャネルでターゲティングを有効にする準備が整いました。
+上記の手順を完了すると、チャネルでのターゲティングを有効にする準備が整います。
 
 ## データトリガーを使用したオーサリングの概要 {#author-targeting}
 

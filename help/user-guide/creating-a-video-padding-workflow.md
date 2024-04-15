@@ -1,23 +1,19 @@
 ---
 title: ビデオパディングワークフローの作成
-seo-title: Creating a Video Padding Workflow
-description: ここでは、アセットのワークフローにおけるビデオパディングの作成について説明します。
-seo-description: Follow this page to learn about creating a video padding in the workflow for your assets.
-uuid: c0f004ca-c934-47f8-bcdc-da58ea62118e
+description: アセットのワークフローでのビデオパディングの作成について詳しくは、こちらを参照してください。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 content-type: reference
-discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 92%
+source-wordcount: '561'
+ht-degree: 53%
 
 ---
 
@@ -37,7 +33,7 @@ ht-degree: 92%
 
 次の使用例では、チャネルへのビデオ（例：1280 x 720）の配置が必要になります。このチャネルのディスプレイは 1920 x 1080 で、0x0（左上）にビデオが配置されます。ビデオは、引き伸ばしや変更を一切おこなわないでください。また、ビデオコンポーネントで「**カバー**」は使用しません。
 
-ビデオは横がピクセル 1～1280、縦がピクセル 1～720 のオブジェクトとして表示され、チャンネルの残りの部分はデフォルトの色になります。
+ビデオは、ピクセル 1 ～ 1280 の間でピクセル 1 からピクセル 720 の間でオブジェクトとして表示され、残りのチャネルはデフォルトのカラーになります。
 
 ## 前提条件 {#prerequisites}
 
@@ -50,7 +46,7 @@ ht-degree: 92%
 
 ## ビデオパディングワークフローの作成 {#creating-a-video-padding-workflow-1}
 
-ビデオパディングワークフローを作成するには、ビデオのワークフローを作成したあと、同じワークフローを AEM Screens プロジェクトのチャネルでも使用する必要があります。
+ビデオパディングワークフローを作成するには、ビデオのワークフローを作成してから、AEM Screens プロジェクトチャネルで同じワークフローを使用します。
 
 以下の手順に従って、ワークフローを作成して使用します。
 
@@ -61,7 +57,9 @@ ht-degree: 92%
 
 以下の手順に従って、ビデオのワークフローを作成します。
 
-1. AEM インスタンスに移動し、サイドレールのハンマーアイコンをクリックします。を選択 **ワークフロー** > **モデル** 新規モデルを作成します。
+1. AEM インスタンスに移動します。
+1. サイドパネルからツールをクリックします。
+1. を選択 **ワークフロー** > **モデル** そのため、モデルを作成できます。
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
@@ -69,31 +67,31 @@ ht-degree: 92%
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
-1. ワークフローモデルを作成したら、モデル（**VideoRendition**）を選択し、アクションバーの「**編集**」をクリックします。
+1. ワークフローモデルを作成したら、モデル（**VideoRendition**）を選択し、をクリックします **編集** アクションバーから。
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
-1. **コマンドライン**&#x200B;コンポーネントをワークフローにドラッグ＆ドロップします。
+1. をドラッグ&amp;ドロップ **`Command Line`** コンポーネントをワークフローに追加します。
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
-1. **コマンドライン**&#x200B;コンポーネントを選択し、プロパティダイアログボックスを開きます。
+1. 「」を選択します **`Command Line`** コンポーネントを選択し、「プロパティ」ダイアログボックスを開きます。
 
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
-1. **コマンドライン - 手順のプロパティ**&#x200B;ダイアログボックスで、「**引数**」タブを選択してフィールドに入力します。
-
-   「**MIME タイプ**」フィールドに形式（***video/mp4***）を入力し、ワークフローを開始するコマンド（/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4）を「**コマンド**」フィールドに入力します。
+1. 「」を選択します **引数** タブ。
+1. が含まれる **コマンドライン – ステップのプロパティ** ダイアログ ボックスで、形式を **Mime タイプ** （as ***video/mp4***）、およびコマンドを（***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4***）。 このコマンドは、でワークフローを開始します **コマンド** フィールド。
 
    詳細を参照してください **Mime タイプ** および **コマンド** 以下のメモを参照してください。
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
-1. ワークフロー（**VideoRenditions**）を選択し、アクションバーの「**ワークフローを開始**」をクリックして、**ワークフローを実行**&#x200B;ダイアログボックスを開きます。
+1. ワークフローを選択（**VideoRenditions**）に設定します。
+1. クリック **ワークフローを開始** アクションバーから。
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. 「**ペイロード**」でアセットのパス（***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***）を選択し、「**タイトル**」に「***RunVideo***」と入力して、「**実行**」をクリックします。
+1. が含まれる **ワークフローを実行** ダイアログボックスで、アセットのパスを **ペイロード** （as ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***）を選択し、を入力します **タイトル** as ***RunVideo*** をクリックして、 **実行**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
@@ -109,7 +107,7 @@ ht-degree: 92%
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
-1. ビデオをアップロードしたら、「**プレビュー**」をクリックして出力を表示します。
+1. ビデオをアップロードしたら、 **プレビュー** 出力を表示します。
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 

@@ -1,22 +1,18 @@
 ---
 title: ロケーションの作成と管理
-seo-title: ロケーションの管理
-description: ここでは、ロケーションの作成と管理について説明します。
-seo-description: ここでは、ロケーションの作成と管理について説明します。
-uuid: f18802d4-dae8-48b2-8c94-ecc73579b29f
+description: AEM Screensに関連する場所の作成と管理について詳しく説明します。
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 70bdf384-6c27-403b-a6ab-fdec68016428
-feature: Screens のオーサリング
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7935c206-7189-4243-9a2d-ccc322caf441
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
-workflow-type: ht
-source-wordcount: '262'
-ht-degree: 100%
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 64%
 
 ---
 
@@ -34,22 +30,20 @@ ht-degree: 100%
 
 ## 新しいロケーションの作成 {#creating-a-new-location}
 
-Screens プロジェクトを作成したら、以下の手順に従って、プロジェクト用の新しいロケーションを作成します。
+Screens 用のプロジェクトを作成したら、次の手順に従って Screens プロジェクトの場所を作成します。
 
 1. Adobe Experience Manager リンク（左上）を選択し、「Screens」を選択します。または、`http://localhost:4502/screens.html/content/screens` から直接アクセスすることもできます。
 1. Screens プロジェクトに移動し、「**ロケーション**」をクリックします。
-1. アクションバーのプラスアイコンの横にある「**作成**」をクリックします。ウィザードが開きます。
+1. クリック **作成** アクションバーのプラスアイコンの横。
 1. ウィザードで「**場所**」テンプレートを選択し、「**次へ**」をクリックします。
-
 1. 「**タイトルとタグ**」、「**他のタイトルと説明**」、「**オン / オフタイム**」、「**バニティ URL」**&#x200B;の各プロパティを入力します。
-
 1. 「**作成**」をクリックすると、ロケーションが作成されて、ロケーションフォルダーに追加されます。
 
-下図を参照して、AEM Screens プロジェクト用の新しいロケーションの作成を理解してください。デモ用に、新しいロケーション（SanJose）が *DemoProject* の下に作成されます。
+AEM Screens プロジェクトの場所の作成を理解するには、以下の手順を参照してください。 デモ用に、新しいロケーション（SanJose）が *DemoProject* の下に作成されます。
 
 ![player2](assets/player2.gif)
 
-ロケーションを作成したら、ロケーションの新しいディスプレイを作成する必要があります。
+場所を作成したら、その場所のディスプレイを作成します。
 
 ### ロケーションのプロパティの編集 {#editing-properties-for-a-location}
 
@@ -62,6 +56,6 @@ Screens プロジェクトを作成したら、以下の手順に従って、プ
 
 #### 次の手順 {#the-next-steps}
 
-ロケーションを作成したら、ロケーションの新しいディスプレイを作成する必要があります。
+場所を作成したら、その場所のディスプレイを作成します。
 
-詳しくは、[ディスプレイの作成と管理](managing-displays.md)を参照してください。
+参照： [ディスプレイの作成と管理](managing-displays.md).

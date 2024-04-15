@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '697'
 ht-degree: 30%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 30%
 
 ### ライブコピーチャネルへの変更の反映 {#propagating-changes-to-the-live-copy-channel}
 
-元のチャネルで変更や更新を行う場合は、その変更もライブコピーチャネルに反映する必要があります。
+元のチャネルで変更や更新を加えた場合は、その変更をライブコピーチャネルにも反映させます。
 
 元のチャネルからライブコピーチャネルに変更が確実に反映されるようにするには、次の手順に従います。
 

@@ -1,9 +1,9 @@
 ---
 title: ダイレクト配置ワークフロー設定
 description: このページでは、ダイレクト配置ワークフロー設定について説明します。
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '188'
 ht-degree: 46%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 46%
 
 >[!IMPORTANT]
 >
->設定を開始する前に、をインストールする必要があります `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. パッケージをインストールすると、AEM インスタンスでツール （アイコン）/パッケージを表示してアクセスできるようになります **ワークフロー** > **ワークフローモデル**.
+>設定を開始する前に、をインストールします `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. パッケージをインストールすると、AEM インスタンスでツール （アイコン）/パッケージを表示してアクセスできるようになります **ワークフロー** > **ワークフローモデル**.
 
 ダイレクト配置ワークフローを設定するには、次の手順を実行します。
 

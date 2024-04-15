@@ -5,10 +5,10 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '1208'
-ht-degree: 58%
+ht-degree: 55%
 
 ---
 
@@ -58,7 +58,7 @@ Samsung デバイスで次の手順に従って、デバイスにAEM Screens Pla
 1. デバイスのリモートコントローラーで「**MENU**」ボタンをクリックし、左のナビゲーションバーで「**System**」まで下にスクロールします。
 1. 下にスクロールし、「**Play via**」オプションを選択して「**URL Launcher**」に変更します。
    ![画像](/help/user-guide/assets/tizen/rms-2.png)
-1. URL ランチャーを設定したら、リモートコントローラーの「**Home**」ボタンを押します。
+1. URL ランチャーを設定したら、 **ホーム** リモコンのボタンを押します。
 1. 「**URL Launcher Settings**」に移動し、localhost サーバーの IP アドレスを入力して、「**Done**」をクリックします。
 
    >[!NOTE]

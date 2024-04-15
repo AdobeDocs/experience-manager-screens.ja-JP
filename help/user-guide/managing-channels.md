@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 58%
+source-wordcount: '1256'
+ht-degree: 57%
 
 ---
 
@@ -67,7 +67,7 @@ AEM Screensのプロジェクトを作成したら、次の手順に従ってプ
 
 >[!IMPORTANT]
 >
-> コンテンツを作成してチャネルに追加したら、次の手順では、ロケーションを作成してからディスプレイを作成します。さらに、そのチャネルをディスプレイに割り当てる必要があります。 この節の最後で、以下のリソースを参照してください。
+>チャネルにコンテンツを作成して追加した後、次の手順ではロケーションを作成してディスプレイを作成します。 さらに、そのチャネルをディスプレイに割り当てます。 この節の最後で、以下のリソースを参照してください。
 
 ## チャネルでの作業 {#working-with-channels}
 

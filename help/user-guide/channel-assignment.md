@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 36%
+source-wordcount: '1174'
+ht-degree: 35%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 36%
 >[!IMPORTANT]
 >このセクションでは、AEM 6.5.5 Screens バージョンより前の機能パックのチャネルの割り当てとスケジュールについて説明します。
 
-ディスプレイの設定が完了したら、チャネルをディスプレイに割り当てて、コンテンツを表示する必要があります。
+ディスプレイを設定したら、コンテンツを表示するチャネルをディスプレイに割り当てます。
 
 このページでは、ディスプレイへのチャネル割り当てを示します。
 

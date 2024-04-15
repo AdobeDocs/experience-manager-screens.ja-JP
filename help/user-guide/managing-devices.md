@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 62%
+source-wordcount: '242'
+ht-degree: 57%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 62%
 
 >[!CAUTION]
 >
->デバイスを割り当てる前に、登録する必要があります。 詳しくは、を参照してください [デバイスの登録](device-registration.md).
+>デバイスを割り当てる前に、登録します。 参照： [デバイスの登録](device-registration.md).
 
 ## デバイスの割り当て {#device-assignment}
 
@@ -69,6 +69,4 @@ ht-degree: 62%
 
 ### 次の手順 {#the-next-steps}
 
-チャネルのディスプレイへの割り当てに習熟したら、次のリソースを参照してください。
-
-* [モニターおよびトラブルシューティング](monitoring-screens.md)
+ディスプレイへのチャネルの割り当てに詳しくは、[監視とトラブルシューティング](monitoring-screens.md).

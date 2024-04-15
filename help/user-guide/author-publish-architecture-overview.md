@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '976'
 ht-degree: 41%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 41%
 
 >[!NOTE]
 >
->このAEM Screens機能は、AEM 6.4 Screens 機能パック 2 をインストールしている場合にのみ使用できます。 この機能パックにアクセスするには、Adobeサポートに連絡してアクセス権をリクエストする必要があります。 権限が付与されたら、Package Share からダウンロードします。
+>このAEM Screens機能は、AEM 6.4 Screens 機能パック 2 をインストールしている場合にのみ使用できます。 この機能パックへのアクセス権を取得するには、Adobeサポートに連絡してアクセス権をリクエストします。 権限が付与されたら、Package Share からダウンロードします。
 
 ## はじめに {#introduction}
 
@@ -108,4 +108,4 @@ AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテク
 
 ### 次の手順 {#the-next-steps}
 
-AEM Screensにおけるオーサーとパブリッシュのセットアップについて詳しくは、以下を参照してください。 [AEM Screens用のオーサーとパブリッシュの設定](author-and-publish.md) を参照してください。
+AEM Screensにおけるオーサーとパブリッシュのセットアップについて詳しくは、を参照してください。 [AEM Screens用のオーサーとパブリッシュの設定](author-and-publish.md) を参照してください。

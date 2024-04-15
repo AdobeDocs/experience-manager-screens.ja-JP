@@ -1,22 +1,18 @@
 ---
 title: コンテンツ同期からスマート同期への移行
-seo-title: Transitioning from ContentSync to SmartSync
-description: ここでは、スマート同期機能およびコンテンツ同期からスマート同期への移行方法について説明します。
-seo-description: Follow this page to learn about SmartSync feature and how you can transition from ContentSync to SmartSync.
-uuid: c0619b56-1f6f-465a-a428-6df28e40b555
+description: スマート同期機能の詳細と、コンテンツ同期からスマート同期への移行方法について説明します。
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 content-type: reference
-discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 93%
+source-wordcount: '431'
+ht-degree: 69%
 
 ---
 
@@ -32,7 +28,7 @@ ht-degree: 93%
 
 **サーバー側**：
 
-* チャネルのコンテンツ（アセットなど）は、*/var/contentsync* にキャッシュされます。
+* アセットを含むチャネルのコンテンツのキャッシュ先： *`/var/contentsync`*.
 * キャッシュは、ディスプレイに使用可能なコンテンツを記述するマニフェストを通じてプレーヤーに公開されます。
 
 **クライアント側**：
@@ -41,11 +37,11 @@ ht-degree: 93%
 
 ### スマート同期を使用するメリット {#benefits-of-using-smartsync}
 
-スマート同期機能は、AEM Screens プロジェクトに多くのメリットをもたらします。例えば、以下が可能になります。
+スマート同期機能は、次のようなAEM Screens プロジェクトの利点をもたらします。
 
-* ネットワークトラフィックとサーバー側に必要なストレージが大幅に削減されます。
-* アセットが見つからないか変更された場合にのみ、プレーヤーがアセットをダウンロードします。
-* サーバー側およびクライアント側のストレージが最適化されます。
+* ネットワークトラフィックとサーバーサイドのストレージ要件を大幅に削減します。
+* アセットが見つからないか変更された場合にのみ、Player はアセットをインテリジェントにダウンロードします。
+* サーバーサイドとクライアントサイドのストレージの最適化。
 
 >[!NOTE]
 >
@@ -63,7 +59,7 @@ ht-degree: 93%
 
 | **プラットフォーム** | **サポートされているプレーヤーの最小バージョン** |
 |---|---|
-| Android | 3.3.72 |
+| Android™ | 3.3.72 |
 | Chrome OS | 1.0.136 |
 | Windows | 1.0.136 |
 
@@ -85,11 +81,11 @@ ht-degree: 93%
 
 1. **Adobe Experience Manager Web コンソール設定**&#x200B;が開きます。「*offlinecontentservice*」を検索します。
 
-   「**Screens Offline Content Service**」プロパティを検索するには、**Command + F** キー（**Mac**）または **Ctrl + F** キー（**Windows**）を押します。
+   を検索するには **Screens オフラインコンテンツサービス** プロパティ、を押す **Command+F** （用） **Mac**、および **Control+F** （用） **Windows**.
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
 1. 「**保存**」をクリックして、「**Screens Offline コンテンツサービス**」プロパティを有効にします。こうして、AEM Screens でスマート同期を使用します。
-1. スマート同期を有効にしたら、プロジェクトに移動し、*（アクションバーの）*「**オフラインコンテンツを更新**」をクリックする必要があります（下図を参照）。
+1. スマート同期を有効にしたら、プロジェクトに移動して、 **オフラインコンテンツを更新** *（アクションバーから）、* 次の図に示すように。
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)

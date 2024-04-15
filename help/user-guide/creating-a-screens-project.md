@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 52%
+source-wordcount: '317'
+ht-degree: 39%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Experience Manager のリンク（左上）を選択し、「Screens」を
 
 ## プロパティの表示 {#viewing-properties}
 
-Screens プロジェクトを作成したら、プロジェクトを選択し、アクションバーの「**プロパティ**」をクリックして、プロジェクトのプロパティを編集します。
+Screens プロジェクトを作成したら、プロジェクトを選択し、 **プロパティ** アクションバーのを使用して、プロジェクトのプロパティを編集できます。
 
 次のオプションで、**TestScreens** のプロパティを編集または変更できます。
 
@@ -74,4 +74,4 @@ Screens プロジェクトを作成したら、プロジェクトを選択し、
 
 ### 次の手順 {#the-next-steps}
 
-独自のプロジェクトを作成したら、[チャネル管理](managing-channels.md)を参照して、チャネルのコンテンツを作成および管理します。
+独自のプロジェクトを作成したら、次を参照してください [チャネル管理](managing-channels.md) でチャネル内のコンテンツを作成および管理します。

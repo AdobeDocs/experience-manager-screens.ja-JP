@@ -10,10 +10,10 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 5a340534df051a4ad4bf9080b972111717f14736
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 56%
+source-wordcount: '674'
+ht-degree: 54%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 56%
 
 >[!NOTE]
 >
->このいずれかの機能パックにアクセスするには、アドビサポートに連絡してアクセス権をリクエストする必要があります。Adobe ID を使用して、AEM Screens の最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からダウンロードできます。
+>これらの機能パックのいずれかにアクセスするには、Adobeサポートに問い合わせてアクセス権をリクエストします。 Adobe ID を使用して、AEM Screens の最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からダウンロードできます。
 
 ここでは、以下のトピックについて説明します。
 

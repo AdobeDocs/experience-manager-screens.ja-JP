@@ -6,10 +6,10 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 31%
+source-wordcount: '823'
+ht-degree: 32%
 
 ---
 
@@ -122,6 +122,6 @@ AEM Screens プロジェクトのコンテンツのアップデートを、オ�
 
 ### チャネルとデバイスの再割り当て： {#channel-and-device-re-assignment}
 
-デバイスを再割り当てした場合は、デバイスを新しいディスプレイに再割り当てした後に、最初のディスプレイと新しいディスプレイの両方を公開する必要があります。
+デバイスを再割り当てした場合は、デバイスが新しいディスプレイに再割り当てされると、最初のディスプレイと新しいディスプレイの両方を公開します。
 
-同様に、チャネルを再割り当てした場合は、チャネルが新しいディスプレイに再割り当てされると、最初のディスプレイと新しいディスプレイの両方を公開する必要があります。
+同様に、チャネルを再割り当てした場合は、チャネルが新しいディスプレイに再割り当てされると、最初のディスプレイと新しいディスプレイの両方を公開します。

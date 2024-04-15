@@ -2,7 +2,7 @@
 title: AEM Screens でのアダプティブレンディションの使用
 description: AEM Screensでアダプティブレンディションを使用する方法を説明します。
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 36%
@@ -25,7 +25,7 @@ AEM Screens コンテンツ作成者は、すべてのコンテンツバリエ�
 ## チャネルでのアダプティブレンディションの使用 {#using-adaptive-renditions}
 
 >[!NOTE]
->追加したら [rendition-mapping プロパティから Screens プロジェクトへ](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) および [rendition-mapping ルール](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)これで、コンテンツ作成者として、アセットにレンディションを適用する準備が整いました。
+>追加後 [rendition-mapping プロパティから Screens プロジェクトへ](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) および [rendition-mapping ルール](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)これで、コンテンツ作成者として、アセットにレンディションを適用する準備が整いました。
 
 ### アセットへのレンディションの適用 {#apply-renditions-assets}
 

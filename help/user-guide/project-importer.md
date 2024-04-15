@@ -10,10 +10,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 48%
+source-wordcount: '619'
+ht-degree: 47%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 48%
 
 ## はじめに {#introduction}
 
-AEM Screens プロジェクトを組織内で初めて設定する場合は、すべての場所も作成する必要があります。 プロジェクトに多数の場所が含まれる場合、UI でのクリックや待機が多くなる面倒なタスクになります。
+組織で初めてAEM Screens プロジェクトを設定する場合は、すべての場所も作成します。 プロジェクトに多数の場所が含まれる場合、UI でのクリックや待機が多くなる面倒なタスクになります。
 
 この機能は、プロジェクトのセットアップに要する時間を短縮して、予算の問題を解決することを目的としています。
 
@@ -107,7 +107,7 @@ AEM Screens プロジェクトを組織内で初めて設定する場合は、�
 
 1. この **インポート** ウィザードが表示されます。 場所を含むプロジェクトのファイルを選択するか、ファイル（***minimal-file.xls***）からダウンロードしました *前提条件* セクション。
 
-   ファイルを選択したら、「**次へ**」をクリックします。
+   ファイルを選択したら、 **次**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 

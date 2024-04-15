@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 15%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->このAEM Screens機能は、AEM 6.3 Sites 機能パック 1 がインストールされている場合にのみ使用できます。 この機能パックにアクセスするには、Adobeサポートに連絡してアクセス権をリクエストする必要があります。 必要な権限を取得したら、Package Share からダウンロードできます。
+>このAEM Screens機能は、AEM 6.3 Sites 機能パック 1 がインストールされている場合にのみ使用できます。 この機能パックへのアクセス権を取得するには、Adobeサポートに連絡してアクセス権をリクエストします。 必要な権限を取得したら、Package Share からダウンロードできます。
 
 ## スケジュールの作成 {#creating-a-schedule}
 

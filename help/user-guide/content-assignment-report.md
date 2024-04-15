@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 38%
+source-wordcount: '355'
+ht-degree: 30%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 38%
 
 ## コンテンツ割り当てレポートのダウンロード {#downloading-content-assignment-report-fp}
 
-前の手順に示すように、AEM Screens プロジェクトをセットアップし、各場所に表示を割り当てたら、コンテンツ割り当てレポートをダウンロードする準備が整います。
+上記の手順に示すようにAEM Screens プロジェクトを設定し、各ロケーションにディスプレイを割り当てたら、コンテンツ割り当てレポートをダウンロードします。
 
 >[!NOTE]
 >コンテンツ割り当てレポート機能には、プロジェクトレベルでのみアクセスできます。

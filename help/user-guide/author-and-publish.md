@@ -2,9 +2,9 @@
 title: AEM Screensでのオーサーインスタンスとパブリッシュインスタンスの設定
 description: AEM Screensのオーサーインスタンスとパブリッシュインスタンスを設定する方法について説明します。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '1924'
 ht-degree: 41%
 
 ---
@@ -28,11 +28,11 @@ ht-degree: 41%
 
 >[!NOTE]
 >
->このAEM Screens機能は、AEM 6.4 Screens 機能パック 2 をインストールしている場合にのみ使用できます。 この機能パックにアクセスするには、Adobeサポートに連絡してアクセス権をリクエストする必要があります。 権限を取得したら、Package Share からダウンロードできます。
+>このAEM Screens機能は、AEM 6.4 Screens 機能パック 2 をインストールしている場合にのみ使用できます。 この機能パックへのアクセス権を取得するには、Adobeサポートに連絡してアクセス権をリクエストします。 権限を取得したら、Package Share からダウンロードできます。
 
 >[!IMPORTANT]
 >
->Dispatcher で複数のパブリッシュインスタンスを使用する場合は、Dispatcher を更新する必要があります。 詳しくは、[スティッキーセッションの有効化](dispatcher-configurations-aem-screens.md#enable-sticky-session)を参照してください。
+>Dispatcher で複数のパブリッシュインスタンスを使用する場合は、Dispatcher を更新します。 参照： [スティッキーセッションの有効化](dispatcher-configurations-aem-screens.md#enable-sticky-session).
 
 ## オーサーインスタンスとパブリッシュインスタンスの設定 {#configuring-author-and-publish-instances}
 
@@ -50,7 +50,7 @@ ht-degree: 41%
 
 ## オーサー環境へのレプリケーションエージェントのセットアップ {#setting-replication-agents}
 
-レプリケーションエージェントを作成するには、標準のレプリケーションエージェントの作成方法を習得する必要があります。
+レプリケーションエージェントを作成するには、標準レプリケーションエージェントの作成方法を参照してください。
 
 Screens には、次の 3 つのレプリケーションエージェントが必要です。
 

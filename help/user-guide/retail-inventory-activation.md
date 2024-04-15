@@ -1,23 +1,19 @@
 ---
 title: 小売店向けの在庫に応じたアクティベーション
-seo-title: Retail Inventory Targeted Activation
-description: この使用例は、3 種類のカラートレーナーの小売在庫を表示します。Google シートに記録されているトレーナーの在庫数に応じて、最も数が多いトレーナー（赤、緑、青のいずれか）の画像がスクリーンに表示されます。
-seo-description: This Use Case showcases the retail inventory stock for three different colored sweatshirts. Depending on the number of sweatshirts available in stock that is recorded in Google Sheets, the image (red, green, or blue sweatshirt) with highest number is displayed on the screen.
-uuid: 8e7faa65-b004-42b3-8865-4f71eb5dc1b1
+description: 3 種類のカラーのスウェットシャツの小売在庫在庫を表示する、このAEM Screensのユースケースについて説明します。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: use-case-examples
-discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 90%
+source-wordcount: '578'
+ht-degree: 44%
 
 ---
 
@@ -29,11 +25,11 @@ ht-degree: 90%
 
 この使用例は、3 種類のカラートレーナーの小売在庫を表示します。Google シートに記録されているトレーナーの在庫数に応じて、最も数が多いトレーナー（赤、緑、青のいずれか）の画像がスクリーンに表示されます。
 
-この使用例では、赤、緑、青の 3 色のうち、在庫数の最も多いトレーナーがスクリーンに表示されます。
+このユースケースでは、使用可能なセーターの最大数に基づいて、赤、緑、青のセーターが画面に表示されます。
 
 ## 前提条件 {#preconditions}
 
-小売店向けの在庫に応じたアクティベーションの実装を開始する前に、AEM Screens プロジェクトで&#x200B;***データストア***、***オーディエンスのセグメント化***、***チャネルのターゲティングの有効化***&#x200B;をセットアップする方法を理解しておく必要があります。
+小売在庫のターゲット設定アクティブ化の実装を開始する前に、の設定方法を学びます ***データストア***, ***オーディエンスのセグメント化*** および ***チャネルのターゲティングを有効にする*** （AEM Screens プロジェクト内）。
 
 参照： [AEM Screensでの ContextHub の設定](configuring-context-hub.md) を参照してください。
 
@@ -56,23 +52,17 @@ ht-degree: 90%
 
    1. 「**For_Red**」を選択し、アクションバーの「**編集**」をクリックします。
 
-   1. **比較：プロパティ - プロパティ**&#x200B;コンポーネントをエディターにドラッグ＆ドロップし、設定アイコンをクリックしてプロパティを編集します。
+   1. をドラッグ&amp;ドロップします **Comparison : プロパティ – プロパティ** をエディターに送信します。
+   1. 「」をクリックします **設定** アイコン。
    1. 「**1 つめのプロパティの名前**」のドロップダウンから「**googlesheets/value/1/2**」を選択します。
-
    1. 「**演算子**」のドロップダウンメニューから「**次よりも大きい**」を選択します。
-
-   1. 「**データタイプ**」として「**数値**」を選択します。
-
+   1. を選択 **データタイプ** as **数値**.
    1. を選択 **googlesheets/value/1/1** のドロップダウンから **2 番目のプロパティ名**.
-
-   1. 別の「**比較：プロパティ - プロパティ**」コンポーネントをエディターにドラッグ＆ドロップし、設定アイコンをクリックしてプロパティを編集します。
+   1. ドラッグ&amp;ドロップ **もう 1 つの比較：プロパティ – プロパティ** エディターに移動し、 **設定** アイコン。
    1. 「**1 つめのプロパティの名前**」のドロップダウンから「**googlesheets/value/1/2**」を選択します。
-
    1. 「**演算子**」のドロップダウンメニューから「**次よりも大きい**」を選択します。
-
-   1. 「**データタイプ**」として「**数値**」を選択します。
-
-   1. 「**2 つめのプロパティの名前**」のドロップダウンから「**googlesheets/value/1/0**」を選択します。
+   1. を選択 **データタイプ** as **数値**.
+   1. を選択 **google シート/値/1/0** のドロップダウンから **2 番目のプロパティ名**.
 
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
@@ -80,15 +70,16 @@ ht-degree: 90%
 
    ![screen_shot_2019-05-06at103728am](assets/screen_shot_2019-05-06at103728am.png)
 
-   同様に、For_Green セグメントにプロパティ比較ルールを追加し編集します（下図を参照）。
+   同様に、比較プロパティルールを編集して次に追加します **For_Green** 次の図に示すセグメント。
 
    ![screen_shot_2019-05-06at103418am](assets/screen_shot_2019-05-06at103418am.png)
 
    >[!NOTE]
    >
-   >Google シートの値どおり、現時点では最初の比較のみ有効なので、セグメント **For_Blue** および **For_Green** については、データをエディターで解決できません。
+   >セグメント用であることに注意してください **For_Green** および **For_Green**&#x200B;最初の比較のみがGoogle シートの値に従って有効になるので、エディターでデータを解決することはできません。
 
-1. **DataDrivenRetail** チャネル（シーケンスチャネル）に移動して選択し、アクションバーの「**編集**」をクリックします。
+1. に移動して **DataDrivenRetail** channel （シーケンスチャネル）。
+1. クリック **編集** アクションバーから。
 
    ![screen_shot_2019-05-06at104257am](assets/screen_shot_2019-05-06at104257am.png)
 
@@ -100,30 +91,29 @@ ht-degree: 90%
 
    >[!NOTE]
    >
-   >ターゲティングプロセスを開始したときにアクティビティが正しく一覧表示されるように、「**ブランド**」と「**領域**」の両方を選択する必要があります。
+   >「両方」を選択します **ブランド** および **領域** （ターゲティングプロセスを開始したときに、アクティビティが適切にリストされるようにするには）。
 
 1. **デフォルト画像を追加する**
 
    1. チャネルにデフォルト画像を追加し、「**ターゲティング**」をクリックします。
    1. 「**ブランド**」と「**アクティビティ**」のドロップダウンメニューから選択し、「**ターゲティングを開始**」をクリックします。
-
    1. 「**ターゲティングを開始**」をクリックします。
 
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
    >
-   >ターゲティングを開始する前に、サイドレールの「**+ エクスペリエンスのターゲットを追加**」をクリックして、セグメント（**For_Green**、**For_Red**、**For_Blue**）を追加する必要があります（下図を参照）。
+   >ターゲティングを開始する前に、セグメント（**For_Green**, **For_Red**、および **For_Blue**）をクリックします。 **+ エクスペリエンスのターゲット設定を追加** 次の図に示すように、サイドレールから。
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
-1. 以下に示すように、3 つの異なるシナリオすべてに画像を追加します。
+1. 次に示すように、3 つの異なるシナリオすべてに画像を追加します。
 
    ![retail_targeting](assets/retail_targeting.gif)
 
 1. **プレビューを確認する**
 
    1. 「**プレビュー**」をクリックします。また、Google シートを開き、値を更新します。
-   1. 3 つの異なる列の値をすべて変更すると、在庫の最大数に応じてディスプレイ画像が更新されます。
+   1. 3 つの異なる列の値をすべて変更します。 在庫の最高値に従ってディスプレイ画像が更新されることに注意してください。
 
    ![retail_result](assets/retail_result.gif)

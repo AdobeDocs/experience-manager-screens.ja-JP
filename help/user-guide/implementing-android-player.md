@@ -10,10 +10,10 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '1462'
-ht-degree: 35%
+ht-degree: 32%
 
 ---
 
@@ -52,7 +52,7 @@ AEM オーサーインスタンスおよびパブリッシュインスタンス�
 
 アドホック方式を使用すると、最新の Android™ プレーヤー（*.exe*）に設定します。 [**AEM 6.5 Player のダウンロード**](https://download.macromedia.com/screens/)ページにアクセスします。
 
-アプリケーションをダウンロードしたら、以下の手順に従ってプレーヤーのアドホックインストールを完了します。
+アプリケーションをダウンロードしたら、Player の手順に従ってアドホックインストールを完了します。
 
 1. 左上隅のを長押して、管理パネルを開きます。
 1. 左のアクションメニューから「**設定**」に移動し、接続する AEM インスタンスの場所（アドレス）を入力して、「**保存**」をクリックします。
@@ -122,7 +122,7 @@ Android™ プレーヤーで一括プロビジョニングを許可するには
 
 1. MDM、ADB、Android™ Studio のファイルエクスプローラーを使用して、このポリシーの JSON ファイルをにドロップします *sdcard* android™ デバイスのフォルダー。
 
-1. ファイルをデプロイしたら、MDM を使用してプレーヤーアプリケーションをインストールします。
+1. ファイルがデプロイされたら、MDM を使用してプレーヤーアプリケーションをインストールします。
 
 1. Player アプリケーションが起動すると、この設定ファイルが読み取られ、該当するAEM サーバーを指します。このサーバーに登録され、制御されます。
 

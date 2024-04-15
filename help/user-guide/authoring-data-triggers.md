@@ -1,15 +1,14 @@
 ---
 title: データトリガーを使用したオーサリング
-seo-title: Authoring with Data Triggers
-description: データトリガーを使用して作成する方法については、このページを参照してください。
+description: AEM Screens チャネルでデータトリガーを使用してオーサリングする方法について詳しく説明します。
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 79%
 
 ---
 
@@ -44,17 +43,17 @@ ht-degree: 100%
 
 以下の手順に従って、チャネルでターゲティングを有効にします。
 
-1. AEM Screens チャネルのいずれかに移動します。以下の手順は、AEM Screens チャネルで作成した **DataDrivenRetail** *（シーケンスチャネル）*&#x200B;を使用してターゲティングを有効にする方法を示しています。
+1. AEM Screens チャネルのいずれかに移動します。 以下の手順は、AEM Screens チャネルで作成した **DataDrivenRetail** *（シーケンスチャネル）*&#x200B;を使用してターゲティングを有効にする方法を示しています。
 
 1. **DataDrivenRetail** チャネルを選択し、アクションバーの「**プロパティ**」をクリックします。
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. 「**パーソナライズ機能**」タブを選択して ContextHub 設定を設定し、ContextHub とセグメントのパスを選択します。
+1. 「」を選択します **Personalization** タブをクリックして、ContextHub 設定をセットアップし、ContextHub とセグメントのパスを選択します。
 
    1. 「**ContextHub のパス**」として **libs**/**settings**/**cloudsettings**/**default**/**ContextHub 設定** を選択し、「**選択**」をクリックします。
 
-   1. 「**セグメントのパス**」として **conf**/**We.Retail**/**settings**/**wcm**/**segments** を選択し、「**選択**」をクリックします。
+   1. 「」を選択します **セグメントのパス** as **conf** > **`We.Retail`** > **設定** > **wcm** > **セグメント** をクリックして、 **を選択**.
 
    1. 「**保存して閉じる**」をクリックします。
 
@@ -68,7 +67,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >すべてを正しくセットアップしたら、下図に示すように、エディターのドロップダウンに「**ターゲティング**」オプションが表示されます。
+   >すべてが正しく設定されていれば、次のように表示されます **ターゲティング** エディターのドロップダウンの「」オプション（下図を参照）。
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 

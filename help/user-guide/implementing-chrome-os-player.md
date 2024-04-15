@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 65%
+source-wordcount: '867'
+ht-degree: 62%
 
 ---
 
@@ -41,7 +41,7 @@ Chrome 管理コンソールを設定するには、次の手順を実行しま�
 
 Chrome プレーヤーに名前を設定するには、次の手順に従います。
 
-1. オプションで、エンタープライズ登録の一環として AV インテグレーターまたは IT 管理者がアセット ID および場所を設定できるようにすることも可能です。
+1. オプションで、エンタープライズ登録の一環としてオーディオ/ビデオインテグレーターまたは IT 管理者がアセット ID および場所を設定できるようにすることができます。
 
    ![画像](/help/user-guide/assets/chrome-device/chrome1.png)
 

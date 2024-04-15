@@ -2,10 +2,10 @@
 title: このガイドについて
 description: 戦略的および設計の概要からデプロイメント、サポート後に至るまで、プロジェクトを計画および実行するためのAEM Screens プロジェクトのベストプラクティスについて説明します。
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 38%
+source-wordcount: '255'
+ht-degree: 37%
 
 ---
 
@@ -16,7 +16,7 @@ AEM Screens ベストプラクティスガイドは、AEM Screens プロジェ�
 このドキュメントの対象読者は次のとおりです。
 
 * *AEM 実装担当者*
-* *AV インテグレーター*
+* *オーディオ/ビデオインテグレーター*
 * *ビジネスストラテジスト*
 * *プロジェクトマネージャー*
 * *コンサルタント*

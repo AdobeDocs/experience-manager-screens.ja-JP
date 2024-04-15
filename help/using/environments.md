@@ -1,23 +1,21 @@
 ---
 title: '[!UICONTROL AEM Screens] の環境'
-seo-title: '[!UICONTROL AEM Screens] の環境'
-description: ここでは、AEM Screens プロジェクトの環境について説明します。
-seo-description: ここでは、AEM Screens プロジェクトの環境について重点的に説明します。
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+description: AEM Screens プロジェクトの環境の詳細を説明します。
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 100%
+source-wordcount: '152'
+ht-degree: 61%
 
 ---
 
 
 # 環境 {#environments}
 
-*開発*&#x200B;と&#x200B;*デプロイメント*&#x200B;の両方に使用することをクライアントが想定している、クライアントに既存の AEM 環境を事前に決定します。
+クライアントが所有し、使用を想定しているAEM環境を、事前に特定します（以下の両方を行う場合） *開発* および *配置*.
 
 >[!NOTE]
 >
->AEM Screens では、プロジェクトが機能するために複数のパッケージが必要です。すべての環境で同じバージョンの Adobe Experience Manager を実行する必要があります。
+>AEM Screensでは、プロジェクトを機能させるために複数のパッケージが必要です。 すべての環境で同じバージョンの Adobe Experience Manager を実行する必要があります。
 
 AEM Screens プロジェクトの環境を設定するには、次のガイドラインに従います。
 
@@ -29,6 +27,6 @@ AEM Screens プロジェクトの環境を設定するには、次のガイド�
 
 1. 必要な開発用パッケージ（WCM コアコンポーネントなど）やサードパーティ製ツールキット（SAP Hybris など）を特定します。
 
-1. 同じソフトウェアパッケージをローカルの開発環境にインストールします。
+1. ローカル開発環境に同じソフトウェアパッケージをインストールします。
 
-1. QA サーバー、ステージサーバー、実稼働サーバーのすべてで同じ設定を使用するように、クライアントに指示します。サーバー設定が一致しないと、デプロイ時およびテスト時に問題が発生します。
+1. QA サーバー、ステージサーバー、実稼働サーバーのすべてで同じ設定を使用するように、クライアントに指示します。サーバー設定が一致しないと、デプロイおよびテスト時に問題が発生します。

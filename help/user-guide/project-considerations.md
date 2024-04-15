@@ -10,10 +10,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 50%
+source-wordcount: '626'
+ht-degree: 49%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 50%
 * コンテンツ戦略
 * 事業運営要件
 * IT およびネットワーク環境の洗い出し
-* A/V 要件
+* オーディオ/ビデオの要件
 * 機器の仕様
 * サイト対応準備
 
@@ -67,7 +67,7 @@ I/O は、オーディエンスの近接性の検知に基づいて、コンテ�
 
 事業運営は、コンテンツ戦略の打ち合わせで定義する際にも重要です。エンドクライアントのサポート要件を形式化すると、導入後の期待事項を管理するのに役立ち、サポート作業を適切に測定できます。
 
-### A/V 要件 {#a-v-requirements}
+### オーディオ/ビデオの要件 {#a-v-requirements}
 
 また、機器の保守に必要なデバイスアクセスに関する検討事項と同様に、取り付けのシナリオも定義する必要があります。これは、最初のインストール作業や機器の推奨事項だけでなく、進行中のサービスおよびサポートの要件も決定します。
 

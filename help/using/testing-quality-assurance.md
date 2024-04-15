@@ -2,17 +2,17 @@
 title: テストと品質保証
 description: AEM Screensのテストと品質保証については、ベストプラクティスガイドを参照してください。
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 56%
+source-wordcount: '333'
+ht-degree: 51%
 
 ---
 
 # テストと品質保証 {#testing-quality}
 
 >[!NOTE]
->このアクティビティの典型的な関係者は、AV インテグレーターです。
+>このアクティビティの一般的な関係者は、オーディオ/ビデオインテグレーターです。
 
 デジタルサイネージネットワークのデプロイメントに近づいたら、すべてのハードウェアコンポーネント、すべてのソフトウェアコンポーネント、すべてのネットワークコンポーネントを含むネットワークのすべての要素に対処するテストおよび QA 計画を作成します。
 この段階では、テストシステム全体を構築し、完全にテストする必要があります。
@@ -82,4 +82,4 @@ AEM Screens には、Screens Player アプリケーションのエンドポイ�
 * TeamViewer
 * AirWatch
 * `42Gears`
-* AV インテグレーター独自のミドルウェア
+* 独自のオーディオ/ビデオインテグレーターのミドルウェア

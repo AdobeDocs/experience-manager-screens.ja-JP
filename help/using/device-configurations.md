@@ -1,21 +1,21 @@
 ---
 title: デバイスの仕様
-seo-title: デバイスの仕様
+seo-title: Device Specifications
 description: ここでは、デバイスの仕様について説明します
-seo-description: ここでは、デバイスの仕様について説明します
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '209'
-ht-degree: 100%
+seo-description: The page describes device specifications
+exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 95%
 
 ---
-
 
 # デバイス設定 {#device-configurations}
 
 >[!NOTE]
 >
->このアクティビティの典型的な関係者は、AV インテグレーターです。
+>このアクティビティの一般的な関係者は、オーディオ/ビデオインテグレーターです。
 
 *Day 0* で収集された情報に基づいて、開発を開始する前に以下の情報を確認します。
 

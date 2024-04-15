@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 74%
+ht-degree: 67%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 74%
 
    **プロジェクトパス**：AEM Screens プロジェクトのパスを指定します。パスは通常、`/content/screens/<Name of your project>` です。
 
-   *例えば*、`/content/screens/we-retail` などとなります。AEM Screens で任意のプロジェクトを選択すれば（アイコンをクリックしないでください）、URL にこのパスが含まれていることがわかります。
+   *例えば*、`/content/screens/we-retail` などとなります。このパスを URL で見つけるには、AEM Screensの下でプロジェクトを選択します（アイコンを選択しないでください）。
 
    >[!NOTE]
    >

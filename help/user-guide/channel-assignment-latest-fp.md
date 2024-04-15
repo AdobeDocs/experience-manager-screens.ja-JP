@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '1452'
-ht-degree: 37%
+source-wordcount: '1448'
+ht-degree: 34%
 
 ---
 
@@ -62,13 +62,13 @@ ht-degree: 37%
 
 1. 必要なディスプレイ（例：）に移動します。 **DemoScreen** > **場所** > **サンノゼ** > **ロビー**.
 
-1. アクションバーで「**チャネルの割り当て**」をタップまたはクリックします。
+1. を選択 **チャネルを割り当て** アクションバーから。
 
    ![画像](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    または、
 
-   アクションバーの「**ダッシュボード**」をタップまたはクリックし、「**割り当てられたチャネルとスケジュール**」パネルで「**チャネルの割り当て**」をクリックします。
+   を選択 **Dashboard** アクションバーから「」を選択します。 **+チャネルの割り当て** から **割り当てられたチャネルとスケジュール** パネル。
 
    ![画像](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -91,7 +91,7 @@ ht-degree: 37%
    >
    >チャネル割り当てプロパティの詳細については、を参照してください。 [チャネルプロパティ](#channel-properties) セクション。
 
-1. 環境を設定したら、「**保存**」をクリックします。
+1. を選択 **保存** 環境設定を行ったら、
 
 ### Chrome Player でのコンテンツの表示 {#viewing-content-output}
 
@@ -111,11 +111,11 @@ AEM Screens Player にデバイスを登録する方法については、を参�
 
 1. 必要なディスプレイ（例：）に移動します。 **DemoScreen** > **場所** > **サンノゼ** > **ロビー**.
 
-1. アクションバーで「**チャネルの割り当て**」をタップまたはクリックします。
+1. を選択 **チャネルを割り当て** アクションバーから。
 
    または、
 
-   「**ダッシュボード**」をタップまたはクリックし、「**割り当てられたチャネルとスケジュール**」パネルで「**タイムライン**」をクリックします。
+   を選択 **Dashboard** を選択して、 **タイムライン** から **割り当てられたチャネルとスケジュール** パネル。
 
    ![画像](/help/user-guide/assets/channel-assignment/timeline-1.png)
 

@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 53%
+ht-degree: 51%
 
 ---
 
@@ -58,16 +58,16 @@ ht-degree: 53%
 以下の手順に従って、ビデオのワークフローを作成します。
 
 1. AEM インスタンスに移動します。
-1. サイドパネルからツールをクリックします。
+1. サイドパネルからツールを選択します。
 1. を選択 **ワークフロー** > **モデル** そのため、モデルを作成できます。
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. クリック **モデル** > **作成** > **モデルを作成**. **ワークフローモデルを追加**&#x200B;で、「**タイトル**」（**VideoRendition**）と「**名前**」を入力します。「**完了**」をクリックして、ワークフローモデルを追加します。
+1. を選択 **モデル** > **作成** > **モデルを作成**. **ワークフローモデルを追加**&#x200B;で、「**タイトル**」（**VideoRendition**）と「**名前**」を入力します。を選択 **完了** ワークフローモデルを追加します。
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
-1. ワークフローモデルを作成したら、モデル（**VideoRendition**）を選択し、をクリックします **編集** アクションバーから。
+1. ワークフローモデルを作成したら、モデル（**VideoRendition**）、を選択します。 **編集** アクションバーから。
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
@@ -87,11 +87,11 @@ ht-degree: 53%
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
 1. ワークフローを選択（**VideoRenditions**）に設定します。
-1. クリック **ワークフローを開始** アクションバーから。
+1. を選択 **ワークフローを開始** アクションバーから。
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. が含まれる **ワークフローを実行** ダイアログボックスで、アセットのパスを **ペイロード** （as ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***）を選択し、を入力します **タイトル** as ***RunVideo*** をクリックして、 **実行**.
+1. が含まれる **ワークフローを実行** ダイアログボックスで、アセットのパスを **ペイロード** （as ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***）を選択し、を入力します **タイトル** as ***RunVideo*** を選択して、 **実行**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
@@ -103,11 +103,11 @@ ht-degree: 53%
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
-1. アクションバーの「**編集**」をクリックします。最初に&#x200B;**アセット**&#x200B;フォルダーにアップロードしたビデオをドラッグ＆ドロップします。
+1. を選択 **編集** アクションバーから。 最初に&#x200B;**アセット**&#x200B;フォルダーにアップロードしたビデオをドラッグ＆ドロップします。
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
-1. ビデオをアップロードしたら、 **プレビュー** 出力を表示します。
+1. ビデオをアップロードしたら、次のオプションを選択します。 **プレビュー** 出力を表示します。
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 

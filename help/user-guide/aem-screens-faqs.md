@@ -5,7 +5,7 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '2118'
 ht-degree: 57%
@@ -109,7 +109,7 @@ Apache Sling リファラーフィルターの「空を許可」を有効にし�
 
 1. **Adobe Experience Manager Web コンソールの設定**&#x200B;に移動します。
 1. 「**allow.empty**」オプションをオンにします。
-1. 「**保存**」をクリックします。
+1. 「**保存**」を選択します。
 
 ### 3. AEM Screens Player の登録中にデバイスに失敗と表示され、コンソールログに ENAME_NOT_FOUND エラーが表示される場合は、どのようにトラブルシューティングすればよいですか？ 
 
@@ -133,7 +133,7 @@ Android™ プレーヤーの実装方法について詳しくは、以下を参
 
 Chrome OS プレーヤーは、実際の Chrome プレーヤーデバイスがなくても、開発者モードで Chrome ブラウザープラグインとしてインストールできます。インストールについては、次の手順に従います。
 
-1. [ここ](https://download.macromedia.com/screens/)をクリックして、最新の Chrome プレーヤーをダウンロードします。
+1. を選択 [こちら](https://download.macromedia.com/screens/) 最新の Chrome プレーヤーをダウンロードします。
 1. 解凍してディスクに保存します。
 1. Chrome ブラウザーを開き、メニューから「**拡張機能**」を選択するか、***chrome://extensions*** に直接移動します。
 1. をオンにする **開発者モード** 右上隅から

@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 39%
+ht-degree: 35%
 
 ---
 
@@ -29,8 +29,8 @@ Adobe Experience Manager のリンク（左上）を選択し、「Screens」を
 ## 新しい Screens プロジェクトの作成
 
 1. AEM インスタンスから「**Screens**」を選択します。
-1. 「**Screens プロジェクトを作成**」をクリックします。
-1. タイトルに「**TestScreens**」と入力し、「**保存**」をクリックします。
+1. を選択 **Screens プロジェクトの作成**.
+1. タイトルに「」と入力 **TestScreen** を選択して、 **保存**.
 
 プロジェクトが作成され、Screens プロジェクトコンソールに戻ります。これでプロジェクトを選択できます。
 
@@ -51,7 +51,7 @@ Adobe Experience Manager のリンク（左上）を選択し、「Screens」を
 
 ## プロパティの表示 {#viewing-properties}
 
-Screens プロジェクトを作成したら、プロジェクトを選択し、 **プロパティ** アクションバーのを使用して、プロジェクトのプロパティを編集できます。
+Screens プロジェクトを作成したら、プロジェクトを選択して以下を選択します。 **プロパティ** アクションバーのを使用して、プロジェクトのプロパティを編集できます。
 
 次のオプションで、**TestScreens** のプロパティを編集または変更できます。
 
@@ -65,8 +65,8 @@ Screens プロジェクトを作成したら、プロジェクトを選択し、
 
 1. プロジェクトを選択し、 **作成** アクションバーのプラスアイコンの横。
 1. この **作成** ウィザードが開き、適切なオプションを選択します。
-1. 「**次へ**」をクリックします。
-1. プロパティを入力し、 **作成**.
+1. 「**次へ**」を選択します。
+1. プロパティを入力し、を選択します。 **作成**.
 
 以下の手順は、に対するアプリケーションフォルダーの作成を示しています **アプリケーション** のプライマリページ **TestScreen**.
 

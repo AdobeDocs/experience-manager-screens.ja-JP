@@ -2,7 +2,7 @@
 title: 画像再生時間
 description: AEM Screensでの画像再生時間について説明します。
 contentOwner: jsyal
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 53%
@@ -36,7 +36,7 @@ ht-degree: 53%
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. クリック **編集** アクションバーから。
+1. を選択 **編集** アクションバーから。
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -56,7 +56,7 @@ ht-degree: 53%
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   を編集する **期間** 8000 （ミリ秒）～3000 （ミリ秒）、つまり 3 秒です。 右上のチェックマークをクリックします **ページ** ダイアログボックスが開き、変更を保存できます。
+   を編集する **期間** 8000 （ミリ秒）～3000 （ミリ秒）、つまり 3 秒です。 の右上にあるチェックマークを選択 **ページ** ダイアログボックスが開き、変更を保存できます。
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

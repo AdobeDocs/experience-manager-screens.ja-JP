@@ -9,10 +9,10 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '798'
-ht-degree: 35%
+ht-degree: 32%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 35%
 ビデオを表示するには：
 
 1. ビデオ（例：`http://localhost:4502/assets.html/content/dam/we-retail/en/videos`）に移動します。
-1. ビデオをクリックし、左上のメニューを展開して、 **レンディション**.
+1. ビデオを選択し、左上のメニューを展開して、 **レンディション**.
 
 異なるレンディション（MP4 または M4V）が必要です。
 
@@ -39,7 +39,7 @@ ht-degree: 35%
 >
 >レンディションがない場合は、AEM が動作している OS に ffmpeg がインストールされていることを確認してください。
 >
->ffmpeg をインストールするには、[ここ](https://www.ffmpeg.org/download.html)をクリックしてください。
+>を選択 [こちら](https://www.ffmpeg.org/download.html) をクリックして ffmpeg をインストールします。
 
 ## ビデオアセット {#video-assets}
 
@@ -51,11 +51,11 @@ ffmpeg がインストールされていること、およびビデオプロフ�
 
 ### ビデオプロファイルの確認 {#checking-video-profile}
 
-1. **ビデオプロファイル**（`http://localhost:4502/etc/dam/video.html`）に移動し、「**テストビデオをアップロード**」をクリックします。
+1. に移動します。 **ビデオプロファイル**、つまり、 `http://localhost:4502/etc/dam/video.html` を選択して、 **テストビデオをアップロード**.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. テストビデオをアップロードし、 **Ok** そのため、トランスコーディングを開始できます。
+1. テストビデオをアップロードして選択 **Ok** そのため、トランスコーディングを開始できます。
 
    トランスコードされたビデオが失敗した場合は、ffmpeg 出力を展開して、ffmpeg のコンソール出力のエラーを把握します。
 

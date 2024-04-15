@@ -10,10 +10,10 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 40%
+ht-degree: 38%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 40%
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. デバイス（**NewTestDevice**）を選択し、アクションバーの「**ダッシュボード**」をクリックします。
+1. デバイスを選択（**NewTestDevice**）に設定し、 **Dashboard** アクションバーから。
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
@@ -89,7 +89,7 @@ ht-degree: 40%
 
 **プレーヤーのスクリーンショット**&#x200B;パネルを使用すると、デバイスからプレーヤーのスクリーンショットを表示できます。
 
-プレーヤーのスクリーンショット パネルの右上隅にある (**...**) をクリックし更新 [スクリーンショット&#x200B;**] を選択して**、実行中のプレーヤーのスナップショット表示ます。
+プレーヤーのスクリーンショット パネルの右上隅にある (**...**) を選択し更新 [スクリーンショット&#x200B;**] を選択して**、実行中のプレーヤーのスナップショット表示ます。
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -132,7 +132,7 @@ Apache Sling Referrer Filter の Allow Empty 設定を有効にするには、�
 
 1. **Adobe Experience Manager Web Console Configuration**（`https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`）に移動します。
 1. 「**allow.empty**」オプションをオンにします。
-1. 「**保存**」をクリックします。
+1. 「**保存**」を選択します。
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 

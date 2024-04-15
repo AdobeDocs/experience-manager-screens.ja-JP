@@ -2,7 +2,7 @@
 title: AEM Screens でのアダプティブレンディションの使用
 description: AEM Screensでアダプティブレンディションを使用する方法を説明します。
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 36%
@@ -34,12 +34,12 @@ Screens チャネルで使用するアセットにレンディションを適用
 1. AEM インスタンスの&#x200B;**アセット**&#x200B;フォルダーに移動します。
 1. サイネージディスプレイに適したバージョンのアセット（例：`seahorse.jpg`）を作成します。
 1. レンディション命名パターン（例：`landscape`）を選択します。これは、**CRXDE Lite** で **pattern** プロパティに定義したものと同様です。参照： [レンディションマッピングルールの追加](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) を参照してください。
-1. クリック **レンディションを追加** にレンディションをアップロードします（下図を参照）。
+1. を選択 **レンディションを追加** にレンディションをアップロードします（下図を参照）。
 
    ![画像](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
 
 1. 名前を変更したアセットファイルを選択します。追加するレンディションには、（手順 3 で定義した）パターン（例：`seahorse-landscape.png`）が含まれている必要があります。
-1. アセットを追加したら、アセットを選択し、 **公開を管理** アクションバーのを使用して、アセットを公開します。
+1. アセットを追加したら、アセットを選択して以下を選択します。 **公開を管理** アクションバーのを使用して、アセットを公開します。
 
    ![画像](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 

@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 30%
@@ -47,7 +47,7 @@ ht-degree: 30%
 
 1. AEM Screens プロジェクトに移動し、**DemoScreens** プロジェクトを選択します。
 
-1. クリック **コンテンツ割り当てレポート** アクションバーから。
+1. を選択 **コンテンツ割り当てレポート** アクションバーから。
 
    ![画像](/help/user-guide/assets/content-assignment-report/can-download.png)
 
@@ -58,6 +58,6 @@ ht-degree: 30%
    >[!NOTE]
    >スプレッドシートに表示されるデータは、読みやすい形式でアルファベット順に並べ替えられています。
 
-1. いずれかのチャネルをクリックする **チャネル** 列を開くと、 **コンテンツ** タブ。 次に、そのチャネルに直接移動し、その特定のチャネルに関連付けられたアセット（画像とビデオ）に関する情報を提供します。
+1. いずれかのチャネルをから選択 **チャネル** 列を開くと、 **コンテンツ** タブ。 次に、そのチャネルに直接移動し、その特定のチャネルに関連付けられたアセット（画像とビデオ）に関する情報を提供します。
 
    ![画像](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

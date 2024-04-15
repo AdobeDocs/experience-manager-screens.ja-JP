@@ -6,10 +6,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 52%
+ht-degree: 48%
 
 ---
 
@@ -28,8 +28,8 @@ AEM Screens Player は、Android™、Chrome OS および Windows で使用で�
 >最新の Player をダウンロードしたら、*.exe*）、プレーヤーの手順に従ってアドホックインストールを完了します。
 >
 >1. 左上隅のを長押して、管理パネルを開きます。
->1. 左のアクションメニューから「**設定**」に移動し、AEM インスタンスの場所のアドレスを「**サーバー**」に入力して、「**保存**」をクリックします。
->1. クリック **登録** 左側のアクションメニューからのリンクと以下の手順に従って、デバイス登録プロセスを完了します。
+>1. に移動します。 **設定** 左側のアクションメニューから、にあるAEM インスタンスの場所アドレスを入力します。 **サーバー** を選択して、 **保存**.
+>1. を選択 **登録** 左側のアクションメニューからのリンクと以下の手順に従って、デバイス登録プロセスを完了します。
 
 ## 基本的な再生モニタリング {#playback-monitoring}
 

@@ -5,10 +5,10 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1208'
-ht-degree: 55%
+ht-degree: 52%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 55%
 
 Tizen プレーヤーに名前を設定するには、次の手順に従います。
 
-1. リモコンのメニューボタンを押します。
+1. リモコンのメニューボタンを選択します。
 1. に移動します。 **ネットワーク** > **デバイス名** そのため、プレーヤーに名前を割り当てることができます。
 
 ### Samsung デバイスでの更新の構成 {#config-updates}
@@ -55,11 +55,11 @@ Tizen プレーヤーに名前を設定するには、次の手順に従いま�
 Samsung デバイスで次の手順に従って、デバイスにAEM Screens Player をインストールします。
 
 1. Samsung デバイスに移動し、電源を入れます。
-1. デバイスのリモートコントローラーで「**MENU**」ボタンをクリックし、左のナビゲーションバーで「**System**」まで下にスクロールします。
+1. 「」を選択します **メニュー** デバイスのリモコンのボタンをクリックし、下にスクロールして次の場所に移動します： **システム** 左側のナビゲーションバーから。
 1. 下にスクロールし、「**Play via**」オプションを選択して「**URL Launcher**」に変更します。
    ![画像](/help/user-guide/assets/tizen/rms-2.png)
 1. URL ランチャーを設定したら、 **ホーム** リモコンのボタンを押します。
-1. 「**URL Launcher Settings**」に移動し、localhost サーバーの IP アドレスを入力して、「**Done**」をクリックします。
+1. に移動します。 **URL ランチャーの設定** を入力し、localhost サーバーの IP アドレスを入力して、 **完了**.
 
    >[!NOTE]
    >Tizen プレーヤーが http サーバーに接続できるようになります。

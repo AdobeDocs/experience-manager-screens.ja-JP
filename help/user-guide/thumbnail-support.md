@@ -2,7 +2,7 @@
 title: AEM Screens でのビデオのサムネールサポート
 description: AEM Screensにビデオのサムネールサポートを追加する方法を説明します。
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 77%

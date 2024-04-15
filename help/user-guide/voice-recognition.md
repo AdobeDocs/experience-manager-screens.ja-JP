@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1088'
-ht-degree: 52%
+ht-degree: 48%
 
 ---
 
@@ -57,7 +57,7 @@ AEM Screens プロジェクトに音声認識を実装するには、ディス�
 
    ![画像](assets/voice-recognition/vr-emb-1.png)
 
-1. 各チャネルに移動して、コンテンツを追加します。 例えば、次に移動します。 **VoiceDemo** > **チャネル** > **メイン** チャネルを選択します。 クリック **編集** アクションバーから、必要に応じてコンテンツ（画像/ビデオ）を追加します。 同様に、**ColdDrinks** と **HotDrinks** の両方のチャネルにコンテンツを追加します。
+1. 各チャネルに移動して、コンテンツを追加します。 例えば、次に移動します。 **VoiceDemo** > **チャネル** > **メイン** チャネルを選択します。 を選択 **編集** アクションバーから、必要に応じてコンテンツ（画像/ビデオ）を追加します。 同様に、**ColdDrinks** と **HotDrinks** の両方のチャネルにコンテンツを追加します。
 
    次の図に示すように、チャネルにアセット（画像）が含まれるようになりました。
 
@@ -85,7 +85,7 @@ AEM Screens プロジェクトに音声認識を実装するには、ディス�
 
 1. 各チャネルに移動して、コンテンツを追加します。 例えば、次に移動します。 **VoiceDemo** > **チャネル** > **メイン** チャネルを選択します。
 
-1. アクションバーの「**プロパティ**」をクリックします。
+1. アクションバーから「**プロパティ**」を選択します。
 
    ![画像](assets/voice-recognition/vr-5.png)
 
@@ -107,7 +107,7 @@ AEM Screens プロジェクトに音声認識を実装するには、ディス�
 
    ![画像](assets/voice-recognition/vr-emb-7.png)
 
-1. 完了したら、「**保存して閉じる**」をクリックします。
+1. を選択 **保存して閉じる** 完了したら、
 
 
 ### タグの作成 {#creating-tags}
@@ -116,18 +116,18 @@ AEM Screens プロジェクトに音声認識を実装するには、ディス�
 
 1. AEM インスタンスに移動します。
 
-1. ツールアイコン/をクリックします。 **タグ設定**.
+1. ツールアイコン/を選択します **タグ設定**.
    ![画像](assets/voice-recognition/vr-7.png)
 
-1. クリック **作成** > **名前空間を作成**.
+1. を選択 **作成** > **名前空間を作成**.
    ![画像](assets/voice-recognition/vr-tag3.png)
 
-1. プロジェクトの名前（例：**VoiceDemo**）を入力し、「**作成**」をクリックします。
+1. プロジェクトの名前（例：）を入力します。 **VoiceDemo** を選択して、 **作成**.
 
-1. **VoiceDemo** プロジェクトを選択し、アクションバーの「**タグを作成**」をクリックします。
+1. 「」を選択します **VoiceDemo** プロジェクトと選択 **タグを作成** アクションバーから。
    ![画像](assets/voice-recognition/vr-tag4.png)
 
-1. タグの名前を入力し、「**送信**」をクリックします。
+1. タグの名前を入力し、を選択します。 **Submit**.
    ![画像](assets/voice-recognition/vr-tag5.png)
 
 これらのタグを AEM Screens プロジェクトで使用できるようになりました。

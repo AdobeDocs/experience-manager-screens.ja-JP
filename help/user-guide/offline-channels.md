@@ -10,10 +10,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 42%
+ht-degree: 36%
 
 ---
 
@@ -79,9 +79,9 @@ ContentSync 設定をテストするには、以下の手順に従います。
 
 1. `https://localhost:4502/libs/cq/contentsync/content/console.html` を開きます。
 1. リストから設定を選択します。
-1. 「キャッシュをクリア」をクリックします。
-1. 「キャッシュを更新」をクリックします。
-1. 「すべてダウンロード」をクリックします。
+1. 「キャッシュのクリア」を選択します
+1. 「キャッシュを更新」を選択します
+1. 「完全ダウンロード」を選択します
 1. zip ファイルを解凍します。
 1. 解凍したフォルダーでローカルサーバーを起動します。
 1. 開始ページを開き、アプリのステータスを確認します
@@ -95,16 +95,16 @@ ContentSync 設定をテストするには、以下の手順に従います。
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
 1. チャネルダッシュボードに移動します。
-1. クリック **...** が含まれる **チャネル情報** パネル。
+1. を選択 **...** が含まれる **チャネル情報** パネル。
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
 1. チャネルプロパティに移動します。
-1. 「（（チャネル））」タブで、チェックボックスが無効になっていることを確認し、クリックします **保存して閉じる**.
+1. 「（（チャネル））」タブで、チェックボックスが無効になっていることを確認し、選択します **保存して閉じる**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
-   コンテンツを適切にデバイスに実装する前に、「**オフラインコンテンツを更新**」をクリックします。
+   コンテンツをデバイスに適切にデプロイする前に、 **オフラインコンテンツを更新**.
 
    ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
 

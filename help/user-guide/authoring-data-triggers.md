@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 67%
+ht-degree: 52%
 
 ---
 
@@ -45,17 +45,17 @@ ht-degree: 67%
 
 1. AEM Screens チャネルのいずれかに移動します。 以下の手順は、AEM Screens チャネルで作成した **DataDrivenRetail** *（シーケンスチャネル）*&#x200B;を使用してターゲティングを有効にする方法を示しています。
 
-1. **DataDrivenRetail** チャネルを選択し、アクションバーの「**プロパティ**」をクリックします。
+1. チャネルを選択 **DataDrivenRetail** を選択して、 **プロパティ** アクションバーから。
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
 1. 「」を選択します **Personalization** タブをクリックして、ContextHub 設定をセットアップし、ContextHub とセグメントのパスを選択します。
 
-   1. 「**ContextHub のパス**」として **libs**/**settings**/**cloudsettings**/**default**/**ContextHub 設定** を選択し、「**選択**」をクリックします。
+   1. 「」を選択します **ContextHub パス** as **libs** > **設定** > **cloudsettings** > **default** > **ContextHub 設定** を選択して、 **を選択**.
 
-   1. 「」を選択します **セグメントのパス** as **conf** > **`We.Retail`** > **設定** > **wcm** > **セグメント** をクリックして、 **を選択**.
+   1. 「」を選択します **セグメントのパス** as **conf** > **`We.Retail`** > **設定** > **wcm** > **セグメント** を選択して、 **を選択**.
 
-   1. 「**保存して閉じる**」をクリックします。
+   1. 「**保存して閉じる**」を選択します。
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ ht-degree: 67%
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. **DataDrivenAssets**／**チャネル**&#x200B;に移動して「**DataDrivenRetail**」を選択し、アクションバーの「**編集**」をクリックします。チャンネルエディターでアセットをドラッグ&amp;ドロップします。
+1. に移動してフォルダーを選択します **DataDrivenRetail** から **DataDrivenAssets** > **チャネル** を選択して、 **編集** アクションバーから。 チャンネルエディターでアセットをドラッグ&amp;ドロップします。
 
    >[!NOTE]
    >
@@ -71,9 +71,9 @@ ht-degree: 67%
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. 「**ターゲティング**」をクリック
+1. を選択 **ターゲティング**.
 
-1. 「**ブランド**」と「**アクティビティ**」のドロップダウンメニューから選択し、「**ターゲティングを開始**」をクリックします。
+1. を選択 **ブランド** および **Activity** ドロップダウンメニューからを選択します。 **ターゲティングを開始**.
 
 ### 詳細情報：使用例 {#learn-more-example-use-cases}
 

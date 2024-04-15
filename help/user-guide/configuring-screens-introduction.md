@@ -9,10 +9,10 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '679'
-ht-degree: 58%
+ht-degree: 56%
 
 ---
 
@@ -76,7 +76,7 @@ AEM Screens で使用できるように AEM サーバーを設定する際に役
 
    ![画像](assets/config/empty-ref2.png)
 
-1. 「**保存**」をクリックして、Apache Sling Referrer Filter の「Allow Empty」を有効にします。
+1. を選択 **保存** apache Sling Referrer Filter を有効にするには、Allow Empty を指定します。
 
 
 #### Apache Felix Jetty Based HTTP Service {#allow-apache-felix-service}
@@ -93,7 +93,7 @@ AEM Screens で使用できるように AEM サーバーを設定する際に役
 
    ![画像](assets/config/config-1.png)
 
-1. 「**Save**」をクリックし、*HTTP* サービスを有効にします。
+1. を選択 **保存** を有効にします *http* サービス。
 
 #### AEM Screens のタッチ操作対応 UI の有効化 {#enable-touch-ui-for-aem-screens}
 

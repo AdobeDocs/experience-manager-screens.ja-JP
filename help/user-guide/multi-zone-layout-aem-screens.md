@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: c440527b80a3899fd45ec2d20d8cb48ffe85f6f3
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 49%
+source-wordcount: '1126'
+ht-degree: 47%
 
 ---
 
@@ -33,6 +33,8 @@ ht-degree: 49%
 
 プロジェクト要件に応じて、1 つのチャネルに複数のゾーンが必要になり、1 つの包括的なユニットとして編集することがあります。例えば、単一チャネルの 3 つの個別のゾーンで実行する、関連するソーシャルメディアフィードを含む製品シーケンスなどです。
 
+>[!NOTE]
+>マルチゾーンチャネルでは、競合の可能性や意図しない動作が原因で、アセットレベルのスケジュール設定は推奨されません。 アセットレベルのスケジューリングが必要な場合は、個別のシーケンスチャネルを作成し、そのチャネル内にスケジュールロジックを適用することをお勧めします。 次に、シーケンスチャネルをマルチゾーンチャネルに埋め込みます。
 
 ### 前提条件 {#prerequisites}
 

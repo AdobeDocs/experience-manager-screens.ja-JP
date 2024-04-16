@@ -4,14 +4,14 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens ヘルプ
 breadcrumb-title: AEM Screens ガイド
-user-guide-description: 動的でインタラクティブなデジタルエクスペリエンスとインタラクションを公開できる、デジタルサイネージソリューションの使用方法を説明します。
+user-guide-description: 動的でインタラクティブなデジタルエクスペリエンスおよびインタラクションの公開を可能にするデジタルサイネージソリューションの使用方法について説明します。
 feature-set: Experience Manager Screens
 feature: Content
 role: User
 source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 

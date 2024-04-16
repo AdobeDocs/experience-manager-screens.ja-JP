@@ -1,14 +1,14 @@
 ---
 title: 機能パック 201909 のリリースノート
-description: 2019 年 7 月 31 日（PT）にリリースされたAEM Screens機能パック 201909 のリリースノート。
+description: 2019 年 7 月 31 日にリリースされたAEM Screens機能パック 201909 について説明します。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 43%
+source-wordcount: '283'
+ht-degree: 38%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 43%
 
 >[!CAUTION]
 >
->最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。AEM Screensは、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供します。
+>Adobeでは、最新バージョンのAdobe Experience Manager（AEM）にアップグレードすることをお勧めします。 AEM Screensは、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供します。
 
 AEM 6.4.6 機能パック 6 および AEM 6.5.2 機能パック 2 向けの AEM Screens がリリースされました。詳細は以下のとおりです。
 

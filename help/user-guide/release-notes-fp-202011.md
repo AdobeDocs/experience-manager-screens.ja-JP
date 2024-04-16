@@ -1,21 +1,21 @@
 ---
 title: 機能パック 202011 のリリースノート
-description: 「2020 年 11 月 30 日にリリースされた AEM Screens 機能パック 202011 について説明します。」
+description: 2020 年 11 月 30 日（PT）にリリースされたAEM Screens機能パック 202011 について説明します。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 87%
+source-wordcount: '284'
+ht-degree: 73%
 
 ---
 
 # 機能パック 202011 のリリースノート {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
+>Adobeでは、最新バージョンのAdobe Experience Manager（AEM）にアップグレードすることをお勧めします。 AEM Screensは、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供します。
 
 ## 入手方法 {#availability}
 
@@ -49,16 +49,16 @@ AEM Screens 機能パック 202011 のリリース日は 2020 年 11 月 30 日�
 
   このリリースでは、デフォルトの ping 間隔が 30 秒に設定されています。
 
-### リリースされている AEM Screens Player {#released-aem-screens-players}
+### リリースされている AEM Screens Player
 
 AEM Screens 6.5 機能パック 6 向けに、次の AEM Screens Player がリリースされています。
 
 * Chrome OS
 * Windows
-* Android
+* Android™
 * Tizen
-* Linux
+* Linux®
 
-#### AEM Screens Player のダウンロード   {#aem-screens-player-downloads}
+#### AEM Screens Player のダウンロード 
 
 最新のAEM Screens Player のダウンロードとバグ修正について詳しくは、以下を参照してください。 **[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/index.html)**.

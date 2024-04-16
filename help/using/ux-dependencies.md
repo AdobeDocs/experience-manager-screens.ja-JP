@@ -1,15 +1,13 @@
 ---
-title: '[!UICONTROL AEM Screens] の UX の依存関係'
-seo-title: '[!UICONTROL AEM Screens] の UX の依存関係'
-description: このガイドでは、[!UICONTROL AEM Screens] の UX の依存関係について説明します。
-seo-description: このガイドでは、[!UICONTROL AEM Screens] の UX の依存関係について説明します。
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
-workflow-type: ht
-source-wordcount: '151'
-ht-degree: 100%
+title: AEM Screensの UX の依存関係
+description: AEM Screensの UX 依存関係について説明します。
+exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 77%
 
 ---
-
 
 # UX の依存関係 {#ux-dependencies}
 
@@ -31,14 +29,12 @@ ht-degree: 100%
    * ウェイファインディングのためか？
    * 広告を表示するか？
 
-1. 接続とネットワーク配線をどのように設定するか？
+1. 接続とネットワーク配線のセットアップ方法
 
-1. コンピューターと接続のオン／オフの頻度はどれくらいか？
+1. コンピューターと接続のオン/オフの頻度はどれくらいですか？
 
 1. 設備設計はアクセシビリティをサポートしているか？
 
 1. 1 つのディスプレイに複数のデバイスが必要か（マルチゾーン、特大ボードの場合など）？
 
 1. 明るさ、温度、季節など、環境上の考慮事項は何か？
-
-

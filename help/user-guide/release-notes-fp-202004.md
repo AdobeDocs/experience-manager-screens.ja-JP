@@ -1,16 +1,14 @@
 ---
 title: 機能パック 202004 のリリースノート
-seo-title: Release Notes for Feature Pack 202004
-description: 2020 年 4 月 20 日にリリースされた AEM Screens 機能パック 202004 について説明します。
-seo-description: Follow this page to get information for AEM Screens Feature Pack 202004 released on April 20, 2020.
+description: 2020 年 4 月 20 日（PT）にリリースされたAEM Screens機能パック 202004 について説明します。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 76%
+source-wordcount: '367'
+ht-degree: 56%
 
 ---
 
@@ -18,7 +16,7 @@ ht-degree: 76%
 
 >[!CAUTION]
 >
->最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
+>Adobeでは、最新バージョンのAdobe Experience Manager（AEM）にアップグレードすることをお勧めします。 AEM Screensは、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供します。
 
 ## 入手方法 {#availability}
 
@@ -34,9 +32,9 @@ AEM Screens 機能パック 202004 のリリース日は 2020 年 4 月 20 日�
 
 * **再生中断方法のオプション**
 
-  コンテンツ作成者は、重要でないコンテンツを切り取るために、チャネルを中断するタイミングを指定できますが、スケジュールによって再生を中断する前に、重要なコンテンツを完全に再生するオプションを選択することもできます。
+  コンテンツ作成者は、チャネルが中断されたタイミングを指定します。これにより、重要でないコンテンツの再生を停止しますが、スケジュールが設定されているので、重要なコンテンツの再生は完全に停止してから行うことができます。
 
-  セクションを参照してください **[割り込み方法](/help/user-guide/channel-assignment.md#interruption-method-channel)** から利用できるオプションの詳細を確認するには、以下を参照してください。 **チャネル割り当て** この機能をAEM Screens プロジェクトに実装するためのダイアログボックス。
+  から利用できるオプションの詳細については、こちらを参照してください。 **チャネル割り当て** この機能をAEM Screens プロジェクトに実装するためのダイアログボックスについては、の節を参照してください。 **[割り込み方法](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
 
 * **Screens ローンチ**
 
@@ -59,7 +57,7 @@ AEM Screens 機能パック 202004 のリリース日は 2020 年 4 月 20 日�
 
   テキストオーバーレイ機能にテストを追加する際に、フォントサイズが正確になり、改善されました。
 
-  参照： **[テキストオーバーレイ](text-overlay.md)** 画像の上にオーバーレイされたタイトルまたは説明を提供することにより、シーケンスチャネルで魅力的なエクスペリエンスを作成する。
+  画像の上にオーバーレイされるタイトルや説明を指定することで、シーケンスチャネルで魅力的なエクスペリエンスを作成するには、を参照してください。 **[テキストオーバーレイ](text-overlay.md)**.
 
 * **コマンド同期の機能強化**
 
@@ -67,14 +65,14 @@ AEM Screens 機能パック 202004 のリリース日は 2020 年 4 月 20 日�
 
   参照： **[コマンド同期](using-command-sync.md)** を参照してください。
 
-### リリースされている AEM Screens Player {#released-aem-screens-players}
+### リリースされている AEM Screens Player
 
 AEM Screen でリリースされた AEM 6.4 機能パック 8 および AEM 6.5 機能パック 4 向けに、次の AEM Screens Player がリリースされています。
 
 * Chrome OS
 * Windows
-* Android
+* Android™
 
-#### AEM Screens Player のダウンロード   {#aem-screens-player-downloads}
+#### AEM Screens Player のダウンロード 
 
 最新のAEM Screens Player のダウンロードとバグ修正について詳しくは、以下を参照してください。 **[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)**.

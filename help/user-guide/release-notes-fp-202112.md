@@ -1,23 +1,23 @@
 ---
 title: 機能パック 202112 のリリースノート
-description: 2022年1月12日（PT）にリリースされた AEM Screens 機能パック 202112 について説明します。
+description: 2022 年 1 月 12 日（PT）にリリースされたAEM Screens機能パック 202112 について説明します。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 94%
+source-wordcount: '315'
+ht-degree: 66%
 
 ---
 
 # 機能パック 202112 のリリースノート {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
+>Adobeでは、最新バージョンのAdobe Experience Manager（AEM）にアップグレードすることをお勧めします。 AEM Screensは、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供します。
 
-## 入手方法 {#availability}
+## 可用性 {#availability}
 
 AEM Screens は、AEM 6.5 機能パック 10 をリリースしました。
 
@@ -29,7 +29,7 @@ AEM Screens 機能パック 202112 のリリース日は 2022年1月12日（PT�
 
 ### 新機能 {#what-is-new}
 
-* Android アプリケーションのアップデートは、Android 11（API レベル 30）を対象とするようになりました。現在、Android プレーヤーは API レベル 29 をターゲットにしています。
+* Android™ アプリケーションのアップデートは、Android™ 11 （API レベル 30）をターゲットとするようになりました。 現在、Android™ プレーヤーは API レベル 29 をターゲットにしています。
 
 * 以前のプレーヤー設定でディスプレイのプレビューが停止する
 
@@ -37,7 +37,7 @@ AEM Screens 機能パック 202112 のリリース日は 2022年1月12日（PT�
 
 * SmartSync の同時ダウンロードエラーを修正しました
 
-* 開発者は、マニフェストの処理の拡張性、明確性、容易さを確保するために、マニフェスト内の対応するアセットの下にレンディションエントリとしてのみリストされるアセットレンディションを表示できるようになりました。
+* 開発者は、マニフェストの処理の拡張性、明確性、容易さを確保するために、マニフェスト内の対応するアセットの下にレンディションエントリとしてのみリストするアセットレンディションを表示します。
 
 ### バグ修正 {#bug-fixes}
 
@@ -57,16 +57,16 @@ AEM Screens 機能パック 202112 のリリース日は 2022年1月12日（PT�
 
 * SmartSync の同時ダウンロードエラーを修正しました。
 
-### リリースされている AEM Screens Player {#released-aem-screens-players}
+### リリースされている AEM Screens Player
 
 AEM Screens 6.5 機能パック 10 向けに、次の AEM Screens Player がリリースされています。
 
 * Chrome OS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 
-#### AEM Screens Player のダウンロード   {#aem-screens-player-downloads}
+#### AEM Screens Player のダウンロード 
 
 最新のAEM Screens Player のダウンロードとバグ修正について詳しくは、以下を参照してください。 **[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/index.html)**.

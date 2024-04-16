@@ -1,14 +1,14 @@
 ---
 title: 機能パック 202008 のリリースノート
-description: 2020 年 9 月 3 日にリリースされたAEM Screens機能パック 202008 の詳細情報。
+description: 2020 年 9 月 3 日にリリースされたAEM Screens機能パック 202008 について説明します。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 70%
+ht-degree: 65%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 70%
 
 >[!CAUTION]
 >
->最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。AEM Screensは、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供します。
+>Adobeでは、最新バージョンのAdobe Experience Manager（AEM）にアップグレードすることをお勧めします。 AEM Screensは、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供します。
 
 ## 入手方法 {#availability}
 

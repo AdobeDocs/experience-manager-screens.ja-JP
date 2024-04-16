@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 67%
+ht-degree: 74%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 67%
 次の手順に従って、AEM Screens プロジェクトでオフライン一括更新を使用します。
 
 1. AEM Screens プロジェクトに移動します。
-1. プロジェクトを選択してから、を選択します。 **オフラインコンテンツを更新** アクションバーので、チャネルコンテンツを手動で更新できます。
+1. プロジェクトをクリックしてから、 **オフラインコンテンツを更新** アクションバーので、チャネルコンテンツを手動で更新できます。
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -67,7 +67,7 @@ ht-degree: 67%
 
    **プロジェクトパス**：AEM Screens プロジェクトのパスを指定します。パスは通常、`/content/screens/<Name of your project>` です。
 
-   *例えば*、`/content/screens/we-retail` などとなります。このパスを URL で見つけるには、AEM Screensの下でプロジェクトを選択します（アイコンを選択しないでください）。
+   *例えば*、`/content/screens/we-retail` などとなります。AEM Screens で任意のプロジェクトを選択すれば（アイコンをクリックしないでください）、URL にこのパスが含まれていることがわかります。
 
    >[!NOTE]
    >
@@ -75,4 +75,4 @@ ht-degree: 67%
 
    **スケジュール頻度** このサービスがオフラインコンテンツを更新する時刻（例：午後 5:00 または 17:00）を指定します。
 
-1. を選択 **保存** をクリックして設定を保存します。 コンテンツは指定した時間に更新されます。
+1. クリック **保存** をクリックして設定を保存します。 コンテンツは指定した時間に更新されます。

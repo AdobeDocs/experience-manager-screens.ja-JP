@@ -10,10 +10,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 45%
+ht-degree: 49%
 
 ---
 
@@ -77,11 +77,11 @@ AEM Screens にインタラクティブ React アプリを追加するには、�
    >
    >チャネルをディスプレイに割り当てる際には、必ずユーザーインタラクションイベントを追加してください。
 
-1. を選択 **編集** アクションバーのを使用して、チャネルのプロパティを編集できます。
+1. クリック **編集** アクションバーのを使用して、チャネルのプロパティを編集できます。
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. をドラッグ&amp;ドロップ **埋め込みページ** コンポーネントを選択するか、アプリケーションチャネルで既存のコンポーネントを再利用し、mysamplespa アプリケーションの下のホームページ（例：） ***/content/mysamplespa/en/home***.
+1. をドラッグ&amp;ドロップ **埋め込みページ** コンポーネントを選択するか、アプリケーションチャネルで既存のコンポーネントを再利用し、mysamplespa アプリケーションの下のホームページ（例：）をクリックします。 ***/content/mysamplespa/en/home***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -103,7 +103,7 @@ AEM Screens を通じて SPA をオフライン機能付きの Adobe Analytics �
    参照： [Adobe AnalyticsとAEM Screensの設定](configuring-adobe-analytics-aem-screens.md) AEM Screensを使用してAdobe Analyticsでシーケンスを実行する方法や、オフライン Adobe Analyticsを使用してカスタムイベントを送信する方法について詳しくは、こちらを参照してください。
 
 1. 任意の IDE またはエディターを使用して、React アプリ（特に、イベントの発行を開始するテキストコンポーネントなどのコンポーネント）を編集します。
-1. コンポーネントに対して取得する選択イベントまたはその他のイベントで、標準データモデルを使用して分析情報を追加します。
+1. コンポーネントに対してキャプチャするクリックイベントなどのイベントで、標準データモデルを使用して分析情報を追加します。
 
    参照： [Adobe AnalyticsとAEM Screensの設定](configuring-adobe-analytics-aem-screens.md) を参照してください。
 

@@ -5,10 +5,10 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 49%
+ht-degree: 45%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 49%
 
 プレーヤーの自動登録を実装するには、次の手順に従います。
 
-1. AEM インスタンスにログインし、AEM Screens プロジェクトを選択して、 **プロパティ** アクションバーから。
-1. 「」を選択します **詳細** タブで、 **デバイスの登録** セクション。
+1. AEM インスタンスにログインし、AEM Screens プロジェクトをクリックして、 **プロパティ** アクションバーから。
+1. 「」をクリックします **詳細** タブで、 **デバイスの登録** セクション。
 
 1. 「**一括登録コード**」フィールドで自動登録コード、「**デフォルトのディスプレイ割り当て**」フィールドでオプションのデフォルトディスプレイを指定して、自動登録されるプレーヤーに割り当てます。
 
    >[!NOTE]
-   >任意のコードを入力し、必要に応じてデフォルトのディスプレイを選択します。
+   >任意のコードを入力し、必要に応じてデフォルトの表示をクリックします。
 
    ![画像](/help/user-guide/assets/auto-registration/auto-register1.png)
 1. MDM または設定 JSON ファイルを使用して、適切なサーバー URL と登録コードをプレーヤーにプロビジョニングします。

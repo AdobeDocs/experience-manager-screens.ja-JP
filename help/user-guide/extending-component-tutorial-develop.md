@@ -9,10 +9,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 79%
+ht-degree: 78%
 
 ---
 
@@ -192,7 +192,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
                                    name="./jcr:description"/>
                                <position
                                    jcr:primaryType="nt:unstructured"
-                                   sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                   sling:resourceType="granite/ui/components/coral/foundation/form/click"
                                    fieldLabel="Text Position"
                                    name="./textPosition">
                                    <items jcr:primaryType="nt:unstructured">
@@ -212,7 +212,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
                                </position>
                                <color
                                    jcr:primaryType="nt:unstructured"
-                                   sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                   sling:resourceType="granite/ui/components/coral/foundation/form/click"
                                    fieldLabel="Text Color"
                                    name="./textColor">
                                    <items jcr:primaryType="nt:unstructured">
@@ -240,7 +240,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
    `items` ノードでプロパティ `sling:hideChildren`= `"[linkURL,size]`&quot; を使用して、**linkURL** フィールドと **size** フィールドがダイアログで非表示になるようにします。これらのノードをポスターダイアログから削除するだけでは不十分です。「アクセシビリティ」タブのプロパティ `sling:hideResource="{Boolean}true"` は、タブ全体を非表示にするために使用されます。
 
-   2 つの選択フィールドをダイアログに追加すると、「タイトル」と「説明」のテキスト位置や色を作成者が制御できるようになります。
+   ダイアログに 2 つのクリックフィールドが追加され、作成者がテキストの位置とタイトルおよび説明の色を制御できるようになります。
 
    ![ポスター - 最終的なダイアログ構造](assets/2018-05-03_at_4_49pm.png)
 

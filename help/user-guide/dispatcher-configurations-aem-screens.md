@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 27%
@@ -49,7 +49,7 @@ AEM Screens プレーヤーまたはデバイスは、認証済みセッショ�
  }
 ```
 
-1 つのパブリッシュインスタンスの前に 1 つの Dispatcher がある場合、ロードバランサーが各リクエストを Dispatcher に送信する可能性があるので、Dispatcher でスティッキネスを有効にしても役立ちません。 この場合、を選択します。 **Enable （有効）** 。対象： **ベタベタ感** 次の図に示すように、ロードバランサーレベルでオンにするフィールド。
+1 つのパブリッシュインスタンスの前に 1 つの Dispatcher がある場合、ロードバランサーが各リクエストを Dispatcher に送信する可能性があるので、Dispatcher でスティッキネスを有効にしても役立ちません。 この場合、 **Enable （有効）** 。対象： **ベタベタ感** 次の図に示すように、ロードバランサーレベルでオンにするフィールド。
 
 ![画像](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 

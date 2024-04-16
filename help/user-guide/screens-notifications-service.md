@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 16%
    >
    >入力できるメールアドレスは 1 つだけです。一括メールを送信するには、関連するユーザーとグループまたは配布リストを作成します。
 
-1. を選択 **保存** 使用しているAEM Screens デバイスにメールを送信して監視アクティビティを設定します。
+1. 「**保存**」をクリックして、AEM Screens デバイスのメールを使用した監視アクティビティを設定します。
 
 ## メール通知 {#email-notification}
 

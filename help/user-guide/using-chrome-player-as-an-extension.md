@@ -5,10 +5,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 36%
+ht-degree: 40%
 
 ---
 
@@ -22,21 +22,21 @@ Chrome OS プレーヤーは、実際の Chrome プレーヤーデバイスが�
 
 Chrome プレーヤーをブラウザー拡張機能としてインストールする方法については、このページを参照してください。
 
-1. を選択 [こちら](https://download.macromedia.com/screens/) 最新の Chrome プレーヤーをダウンロードします。
+1. [ここ](https://download.macromedia.com/screens/)をクリックして、最新の Chrome プレーヤーをダウンロードします。
 
 1. 解凍してディスクに保存します。
 
-1. Chrome ブラウザーを開き、3 ドット メニューを選択して次を選択します **その他のツール** から **拡張機能** 右上隅にあるまたはに直接移動します。 `chrome://extensions`.
+1. Chrome ブラウザーを開き、「。..」メニューをクリックし、 **その他のツール** から **拡張機能** 右上隅にあるまたはに直接移動します。 `chrome://extensions`.
 
 1. をオンにする **開発者** モードは右上隅から
 
-1. を選択 **展開されたロード** 左上隅から解凍した Chrome プレーヤーを読み込みます。
+1. クリック **展開されたロード** 左上隅から解凍した Chrome プレーヤーを読み込みます。
 
 1. 拡張機能のリストにAEM Screens Chrome Player プラグインがある場合は、それを確認します。
 
-1. 新しいタブを開き、左上隅のアプリアイコンを選択するか、に直接移動します `chrome://apps`.
+1. 新しいタブを開き、左上隅のアプリアイコンをクリックするか、に直接移動します `chrome://apps`.
 
-1. を選択 **AEM Screens プラグイン** だから、Chrome プレーヤーを起動することができます。
+1. クリック **AEM Screens プラグイン** だから、Chrome プレーヤーを起動することができます。
 
    >[!NOTE]
    >
@@ -66,4 +66,4 @@ Chrome プレーヤーをブラウザー拡張機能としてインストール�
 1. プレーヤーファイルを含んだ古いフォルダーの名前を変更します。
 1. 新しい zip ファイルを古いフォルダーと同じ場所に解凍します。
 1. Chrome を起動し、`chrome://extensions` に移動します。
-1. プレーヤーアイコンを確認し、「更新」または「リロード」ボタンを選択します。
+1. プレーヤーアイコンを確認し、「更新」または「再読み込み」ボタンをクリックします。

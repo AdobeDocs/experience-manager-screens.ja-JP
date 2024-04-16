@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7935c206-7189-4243-9a2d-ccc322caf441
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '236'
-ht-degree: 51%
+ht-degree: 54%
 
 ---
 
@@ -32,12 +32,12 @@ ht-degree: 51%
 
 Screens 用のプロジェクトを作成したら、次の手順に従って Screens プロジェクトの場所を作成します。
 
-1. Adobe Experience Manager リンク（左上）を選択し、「Screens」を選択します。または、`http://localhost:4502/screens.html/content/screens` から直接アクセスすることもできます。
-1. Screens プロジェクトに移動し、以下を選択します。 **場所**.
-1. を選択 **作成** アクションバーのプラスアイコンの横。
-1. テンプレートの選択 **場所** ウィザードからを選択します。 **次**.
+1. Adobe Experience Manager リンク（左上）をクリックし、「画面」をクリックします。 または、`http://localhost:4502/screens.html/content/screens` から直接アクセスすることもできます。
+1. Screens プロジェクトに移動し、「**ロケーション**」をクリックします。
+1. クリック **作成** アクションバーのプラスアイコンの横。
+1. テンプレートをクリックします **場所** ウィザードで、をクリックします **次**.
 1. 「**タイトルとタグ**」、「**他のタイトルと説明**」、「**オン / オフタイム**」、「**バニティ URL」**&#x200B;の各プロパティを入力します。
-1. を選択 **作成** これで、場所が作成され、locations フォルダーに追加されます。
+1. 「**作成**」をクリックすると、ロケーションが作成されて、ロケーションフォルダーに追加されます。
 
 AEM Screens プロジェクトの場所の作成を理解するには、以下の手順を参照してください。 デモ用に、新しいロケーション（SanJose）が *DemoProject* の下に作成されます。
 
@@ -49,8 +49,8 @@ AEM Screens プロジェクトの場所の作成を理解するには、以下�
 
 ロケーションのプロパティを編集／アクセスするには、以下の手順に従います。
 
-1. ロケーションを選択します。
-1. アクションバーから「**プロパティ**」を選択します。
+1. 場所をクリックします。
+1. アクションバーの「**プロパティ**」をクリックします。
 
 ![player3](assets/player3.gif)
 

@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 57%
+ht-degree: 55%
 
 ---
 
@@ -46,7 +46,7 @@ AEM Screens 機能パック 202109 のリリース日は 2021 年 9 月 23 日�
 
 * **アダプティブレンディション**
 
-  アダプティブレンディションを使用すると、顧客定義のルールに基づいて、デバイスに最適なレンディションをデバイスで自動的に選択できます。
+  アダプティブレンディションを使用すると、顧客定義のルールに基づいて、デバイスに最適なレンディションをデバイスで自動的にクリックできます。
 
   AEM Screens 開発者は、すべてのコンテンツバリエーションを手動で作成しなくても、デバイス固有のアセットレンディションが自動的にダウンロードされて再生されるように設定できるようになりました。詳しくは、[アダプティブレンディション：アーキテクチャ概要と設定](/help/user-guide/adaptive-renditions.md)を参照してください。
 
@@ -60,7 +60,7 @@ AEM Screens 機能パック 202109 のリリース日は 2021 年 9 月 23 日�
 
       * オーサーとパブリッシュのCRXDE Liteーに移動します。
 
-      * ツール/クエリを選択します。
+      * ツール/クエリをクリックします。
 
       * クエリで、を使用します `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
 

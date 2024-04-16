@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 52%
+ht-degree: 53%
 
 ---
 
@@ -45,17 +45,17 @@ ht-degree: 52%
 
 1. AEM Screens チャネルのいずれかに移動します。 以下の手順は、AEM Screens チャネルで作成した **DataDrivenRetail** *（シーケンスチャネル）*&#x200B;を使用してターゲティングを有効にする方法を示しています。
 
-1. チャネルを選択 **DataDrivenRetail** を選択して、 **プロパティ** アクションバーから。
+1. チャネルをクリックします **DataDrivenRetail** をクリックして、 **プロパティ** アクションバーから。
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. 「」を選択します **Personalization** タブをクリックして、ContextHub 設定をセットアップし、ContextHub とセグメントのパスを選択します。
+1. 「」をクリックします **Personalization** タブをクリックして ContextHub 設定をセットアップし、「ContextHub とセグメント」パスをクリックします。
 
-   1. 「」を選択します **ContextHub パス** as **libs** > **設定** > **cloudsettings** > **default** > **ContextHub 設定** を選択して、 **を選択**.
+   1. 「」をクリックします **ContextHub パス** as **libs** > **設定** > **cloudsettings** > **default** > **ContextHub 設定** をクリックして、 **クリック**.
 
-   1. 「」を選択します **セグメントのパス** as **conf** > **`We.Retail`** > **設定** > **wcm** > **セグメント** を選択して、 **を選択**.
+   1. 「」をクリックします **セグメントのパス** as **conf** > **`We.Retail`** > **設定** > **wcm** > **セグメント** をクリックして、 **クリック**.
 
-   1. 「**保存して閉じる**」を選択します。
+   1. 「**保存して閉じる**」をクリックします。
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ ht-degree: 52%
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. に移動してフォルダーを選択します **DataDrivenRetail** から **DataDrivenAssets** > **チャネル** を選択して、 **編集** アクションバーから。 チャンネルエディターでアセットをドラッグ&amp;ドロップします。
+1. に移動し、 **DataDrivenRetail** から **DataDrivenAssets** > **チャネル** をクリックして、 **編集** アクションバーから。 チャンネルエディターでアセットをドラッグ&amp;ドロップします。
 
    >[!NOTE]
    >
@@ -71,9 +71,9 @@ ht-degree: 52%
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. を選択 **ターゲティング**.
+1. 「**ターゲティング**」をクリック
 
-1. を選択 **ブランド** および **Activity** ドロップダウンメニューからを選択します。 **ターゲティングを開始**.
+1. クリック **ブランド** および **Activity** ドロップダウンメニューからを選択し、 **ターゲティングを開始**.
 
 ### 詳細情報：使用例 {#learn-more-example-use-cases}
 

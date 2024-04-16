@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 30%
+ht-degree: 27%
 
 ---
 
@@ -45,9 +45,9 @@ ht-degree: 30%
 
 コンテンツ割り当てレポートをダウンロードするには、次の手順に従います。
 
-1. AEM Screens プロジェクトに移動し、**DemoScreens** プロジェクトを選択します。
+1. AEM Screens プロジェクトに移動し、プロジェクトをクリックします **DemoScreen**.
 
-1. を選択 **コンテンツ割り当てレポート** アクションバーから。
+1. クリック **コンテンツ割り当てレポート** アクションバーから。
 
    ![画像](/help/user-guide/assets/content-assignment-report/can-download.png)
 

@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 60%
+ht-degree: 69%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 60%
 
 1. コンテンツ同期からスマート同期に移行する場合は、スマート同期を有効にする前にコンテンツ同期キャッシュをクリアする必要があります。
 
-   リンクを使用して、インスタンスからコンテンツ同期コンソールに移動します ***https://localhost:4502/libs/cq/contentsync/content/console.html*** を選択して、 **キャッシュのクリア**&#x200B;を参照してください（下図を参照）。
+   リンク ***https://localhost:4502/libs/cq/contentsync/content/console.html*** を使用してインスタンスからコンテンツ同期コンソールに移動し、「**キャッシュをクリア**」をクリックします（下図を参照）。
 
    ![clear_contesync_cache](assets/clear_contesync_cache.png)
 
@@ -85,7 +85,7 @@ ht-degree: 60%
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. を選択 **保存** を有効にします **Screens オフラインコンテンツサービス** プロパティを設定し、AEM Screensに対して SmartSync を使用します。
-1. スマート同期を有効にしたら、プロジェクトに移動して次を選択します。 **オフラインコンテンツを更新** *（アクションバーから）、* 次の図に示すように。
+1. 「**保存**」をクリックして、「**Screens Offline コンテンツサービス**」プロパティを有効にします。こうして、AEM Screens でスマート同期を使用します。
+1. スマート同期を有効にしたら、プロジェクトに移動して、 **オフラインコンテンツを更新** *（アクションバーから）、* 次の図に示すように。
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)

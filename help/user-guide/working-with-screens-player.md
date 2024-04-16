@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 55%
+ht-degree: 54%
 
 ---
 
@@ -32,11 +32,11 @@ AEM オーサリングインスタンスを介してアクセスできる、デ�
 
 1. プロジェクトからデバイスダッシュボード（例：）に移動します。 ***プロジェクトのテスト*** > ***デバイス***.
 
-   アクションバーから「**デバイス**」および「**デバイスマネージャー**」を選択します。
+   クリック **デバイス** および **デバイスマネージャ** アクションバーから。
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. デバイスを選択すると、デバイスのダッシュボードを開くことができます。
+1. デバイスをクリックして、デバイスのダッシュボードを開きます。
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
@@ -58,7 +58,7 @@ Screens Player から管理 UI を表示するには、左上隅を長押しし�
 
 #### 設定メニューオプションへのアクセス {#configuration-options}
 
-以下を選択した場合、設定を更新できます **設定** サイドメニューのオプションを選択します（下図を参照）。
+をクリックすると、設定を更新できます **設定** サイドメニューのオプションを選択します（下図を参照）。
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
@@ -86,7 +86,7 @@ Screens Player から管理 UI を表示するには、左上隅を長押しし�
 
 AEM Screens Player の管理 UI から、チャネルおよびアプリケーションのキャッシュをクリアできます。
 
-「」を選択します **コンテンツキャッシュ** サイドパネルからキャッシュを更新できます。
+「」をクリックします **コンテンツキャッシュ** サイドパネルからキャッシュを更新できます。
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 

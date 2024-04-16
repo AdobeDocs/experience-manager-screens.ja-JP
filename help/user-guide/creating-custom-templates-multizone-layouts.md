@@ -6,10 +6,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '849'
-ht-degree: 30%
+ht-degree: 28%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 30%
    ![画像](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
    >[!NOTE]
-   >を選択 **すべて保存** コンテンツを作成、編集または任意のノードにコピーするたびに、CRXDE Liteのアクションバーから。 追加されていない場合は、更新をコミットできません。
+   >クリック **すべて保存** コンテンツを作成、編集または任意のノードにコピーするたびに、CRXDE Liteのアクションバーから。 追加されていない場合は、更新をコミットできません。
 
 1. lbar-left テンプレートを`/libs/screens/core/templates/splitscreenchannel/lbar-left` から `/apps/customtemplate/template` にコピーします。
 
@@ -140,11 +140,11 @@ ht-degree: 30%
 
 以下の手順に従って、AEM Screens プロジェクトでカスタマイズされた上記のテンプレートを使用します。
 
-1. 手順 1 で作成した Screens プロジェクトに移動し、**Channels** フォルダーを選択します。
+1. 手順（1）で作成した Screens プロジェクトに移動し、 **チャネル** フォルダー。
 
    ![画像](/help/user-guide/assets/custom-multizone/custom-template8.png)
 
-1. を選択 **作成** アクションバーからテンプレートを選択します。 **`Left20-LandscapeHD3Zone`** から **作成** ウィザード。
+1. クリック **作成** アクションバーでテンプレートをクリックします。 **`Left20-LandscapeHD3Zone`** から **作成** ウィザード。
 
    ![画像](/help/user-guide/assets/custom-multizone/custom-template9.png)
 

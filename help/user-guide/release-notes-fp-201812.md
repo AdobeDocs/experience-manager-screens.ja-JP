@@ -10,10 +10,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 47%
+ht-degree: 40%
 
 ---
 
@@ -37,7 +37,7 @@ AEM Screens 機能パック 201812 のリリース日は 2019 年 1 月 16 日�
 
 * **複数アセットスケジュール設定**
 
-  複数アセットスケジュール設定を使用すると、複数のアセットを選択し、選択したすべてのアセットに再生スケジュールを適用できます。参照： **複数アセットのスケジュール**&#x200B;のセクション&#x200B;**[アセットスケジュール](asset-level-scheduling.md)**.
+  マルチアセットスケジュールを使用すると、複数のアセットをクリックし、選択したすべてのアセットに再生スケジュールを適用できます。 参照： **複数アセットのスケジュール**&#x200B;のセクション&#x200B;**[アセットスケジュール](asset-level-scheduling.md)**.
 
 * **マルチゾーンレイアウト**
 

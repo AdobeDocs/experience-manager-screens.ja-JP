@@ -7,10 +7,10 @@ topic-tags: introduction
 content-type: reference
 docset: aem65
 targetaudience: target-audience new
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 40%
+ht-degree: 44%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 40%
 
 1. AEM Screens Player
 
-AEM Screens Player をダウンロードするには、以下を選択します。 [こちら](https://download.macromedia.com/screens/). また、AEM Screensは次の場所でも使用できます [Google Playストア](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&amp;hl=en). <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
+AEM Screens Player をダウンロードするには、[ここ](https://download.macromedia.com/screens/)をクリックしてください。また、AEM Screensは次の場所でも使用できます [Google Playストア](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&amp;hl=en). <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
 
 以下のビデオでは、新しいチャネルの作成、新しいコンテンツのオーサリング、再利用可能なスケジュールへのチャネルの追加について詳しく説明します。 [Screens キックスタートガイド](kickstart-for-aem-screens.md)の前半部に大体従っています。
 

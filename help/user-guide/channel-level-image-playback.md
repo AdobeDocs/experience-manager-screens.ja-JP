@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 45%
@@ -45,7 +45,7 @@ ht-degree: 45%
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. を選択 **編集** アクションバーから。
+1. クリック **編集** アクションバーから。
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -53,7 +53,7 @@ ht-degree: 45%
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
-1. チャネル内のすべての画像を選択し、左上のレンチアイコン（下図を参照）を選択して、チャネルレベルの設定ダイアログボックスを開きます。
+1. チャネル内のすべての画像をクリックし、左上のレンチ アイコン（下図を参照）をクリックして、チャネルレベルの設定ダイアログボックスを開きます。
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
@@ -64,7 +64,7 @@ ht-degree: 45%
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   を編集する **期間** 8000 （ミリ秒）～3000 （ミリ秒）、つまり 3 秒です。 の右上にあるチェックマークを選択 **ページ** ダイアログボックスが開き、変更を保存できます。
+   を編集する **期間** 8000 （ミリ秒）～3000 （ミリ秒）、つまり 3 秒です。 右上のチェックマークをクリックします **ページ** ダイアログボックスが開き、変更を保存できます。
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

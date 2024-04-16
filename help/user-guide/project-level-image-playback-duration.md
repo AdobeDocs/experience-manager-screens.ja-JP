@@ -2,10 +2,10 @@
 title: プロジェクトレベルの画像再生時間
 description: プロジェクトレベルで画像再生時間を定義する方法を説明します。
 contentOwner: jsyal
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 33%
+ht-degree: 36%
 
 ---
 
@@ -43,10 +43,10 @@ ht-degree: 33%
 
 プロジェクトレベルの画像再生時間の割り当てを更新するには、以下の手順に従います。
 
-1. プロジェクトへの移動 **ProjectLevelPlay** を選択して、 **プロパティ** アクションバーから。
+1. プロジェクト **ProjectLevelPlayback** に移動し、アクションバーの「**プロパティ**」をクリックします。
    ![アセット](assets/image_playback3.png)
 
-1. チャネル内のすべての画像を選択し、左上のレンチアイコン（下図を参照）を選択して、チャネルレベルの設定ダイアログボックスを開きます。
+1. チャネル内のすべての画像をクリックし、左上のレンチ アイコン（下図を参照）をクリックして、チャネルレベルを設定ダイアログボックスを開きます。
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 

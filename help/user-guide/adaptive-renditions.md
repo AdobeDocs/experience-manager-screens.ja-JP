@@ -2,10 +2,10 @@
 title: アダプティブレンディションのアーキテクチャ概要と設定
 description: AEM ScreensのアダプティブレンディションCRXDE Liteにおけるアーキテクチャ概要と設定について説明します。
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 43%
+ht-degree: 40%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 43%
 
 ## はじめに {#introduction}
 
-アダプティブレンディションを使用すると、顧客定義のルールに基づいて、デバイスに最適なレンディションをデバイスで自動的に選択できます。これらのルールに基づいて、アセットの最も適切なレンディションをデバイスが自動的にダウンロードして再生するので、ユーザーはアセットの設計に専念できます。 *メイン* 経験。
+アダプティブレンディションを使用すると、顧客定義のルールに基づいて、デバイスに最適なレンディションをデバイスで自動的にクリックできます。 これらのルールに基づいて、アセットの最も適切なレンディションをデバイスが自動的にダウンロードして再生するので、ユーザーはアセットの設計に専念できます。 *メイン* 経験。
 
 ## 目的 {#objective}
 
@@ -58,11 +58,11 @@ AEM Screens 開発者は、すべてのコンテンツバリエーションを�
 レンディションマッピングの配下にノードを追加するには、次の手順に従います。
 
 1. **CRXDE Lite** から `/conf/screens/sling:configs/rendition-mapping` のパスに移動します。
-1. **rendition-mapping** の配下にノードを作成します。右クリック **rendition-mapping** を選択して、 **作成** > **ノードを作成**&#x200B;を参照してください（下図を参照）。
+1. **rendition-mapping** の配下にノードを作成します。右クリック **rendition-mapping** をクリックして、 **作成** > **ノードを作成**&#x200B;を参照してください（下図を参照）。
 
    ![画像](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
-1. を入力 **名前** などのマッピングルールの場合 **rule1** およびノード **タイプ** as **`nt:unstructured`** 。対象： **ノードを作成** ダイアログが表示されます。 「**OK**」を選択します。
+1. を入力 **名前** などのマッピングルールの場合 **rule1** およびノード **タイプ** as **`nt:unstructured`** 。対象： **ノードを作成** ダイアログが表示されます。 「**OK**」をクリックします。
 
    ![画像](/help/user-guide/assets/adaptive-renditions/add-node2.png)
 
@@ -72,7 +72,7 @@ AEM Screens 開発者は、すべてのコンテンツバリエーションを�
    >[!NOTE]
    >参照： [メディアクエリの構文の使用](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) を参照してください。
 
-   を選択 **rule1** を作成し、を入力します **式** 。対象： **名前** および **（方向：横）** 。対象： **値**&#x200B;を参照してください。 「**追加**」を選択します。
+   クリック **rule1** を作成し、を入力します **式** 。対象： **名前** および **（方向：横）** 。対象： **値**&#x200B;を参照してください。 「**追加**」をクリックします。
 
    ![画像](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -81,11 +81,11 @@ AEM Screens 開発者は、すべてのコンテンツバリエーションを�
    >[!NOTE]
    >pattern プロパティで定義された値は新しいアセットレンディションと照合され、式が true と評価された場合は選択されます。
 
-   pattern プロパティを追加するには、以下を選択します。 **rule1** を作成し、を入力します **pattern** 。対象： **名前** および **横** 。対象： **値**&#x200B;を参照してください。 「**追加**」を選択します。
+   pattern プロパティを追加するには、以下をクリックします。 **rule1** を作成し、を入力します **pattern** 。対象： **名前** および **横** 。対象： **値**&#x200B;を参照してください。 「**追加**」をクリックします。
 
    ![画像](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
-1. を選択 **すべて保存** 次に、作成したノードの下のプロパティに注目してください **rendition-mapping**.
+1. クリック **すべて保存** 次に、作成したノードの下のプロパティに注目してください **rendition-mapping**.
 
    ![画像](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 

@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 55%
@@ -58,15 +58,15 @@ ht-degree: 55%
 
 次の手順に従って、AEM Screens チャネルでテキストオーバーレイを使用します。
 
-1. に移動します。 **TextOverlayDemo** > **チャネル** > **TextSample** を選択して、 **編集** アクションバーから。
+1. に移動します。 **TextOverlayDemo** > **チャネル** > **TextSample** をクリックして、 **編集** アクションバーから。
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. 画像を選択し、を選択します。 **設定** （レンチアイコン）をクリックして、「プロパティ」ダイアログボックスを開きます。
+1. 画像をクリックし、 **設定** （レンチアイコン）をクリックして、「プロパティ」ダイアログボックスを開きます。
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
-1. ダイアログボックスのナビゲーションバーから「**テキストオーバーレイ**」オプションを選択します（下図を参照）。
+1. 「」をクリックします **テキストオーバーレイ** 次の図に示すように、ダイアログボックスのナビゲーションバーのオプション。
 
    ![screen_shot_2018-12-16at80424pm](assets/screen_shot_2018-12-16at80424pm.png)
 
@@ -98,15 +98,15 @@ AEM Screens プロジェクトの ContextHub 設定を設定します。
 
 プロジェクトに必要な設定を行った後、次の手順に従ってGoogle Sheets の値を使用します。
 
-1. に移動します。 **TextOverlayDemo** > **チャネル** > **TextSample** を選択して、 **プロパティ** アクションバーから。
+1. に移動します。 **TextOverlayDemo** > **チャネル** > **TextSample** をクリックして、 **プロパティ** アクションバーから。
 
-1. 「」を選択します **Personalization** タブをクリックして、ContextHub 設定をセットアップします。
+1. 「」をクリックします **Personalization** タブをクリックして、ContextHub 設定をセットアップします。
 
-   1. 「」を選択します **ContextHub パス** as **libs** > **設定** > **cloudsettings** > **default** > **ContextHub 設定** を選択して、 **を選択**.
+   1. 「」をクリックします **ContextHub パス** as **libs** > **設定** > **cloudsettings** > **default** > **ContextHub 設定** をクリックして、 **を選択**.
 
-   1. 「」を選択します **セグメントのパス** as **conf** > **スクリーン** > **設定** > **wcm** > **セグメント** を選択して、 **を選択**.
+   1. 「」をクリックします **セグメントのパス** as **conf** > **スクリーン** > **設定** > **wcm** > **セグメント** をクリックして、 **を選択**.
 
-   1. 「**保存して閉じる**」を選択します。
+   1. 「**保存して閉じる**」をクリックします。
 
       >[!NOTE]
       >
@@ -114,22 +114,22 @@ AEM Screens プロジェクトの ContextHub 設定を設定します。
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. に移動します。 **TextOverlayDemo** > **チャネル** > **TextSample** を選択して、 **編集** アクションバーから。
+1. に移動します。 **TextOverlayDemo** > **チャネル** > **TextSample** をクリックして、 **編集** アクションバーから。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
 1. 「[テキストオーバーレイの使用](/help/user-guide/text-overlay.md#using-text-overlay)」の節で説明されているように、画像とテキストオーバーレイコンポーネントを画像に追加します。
 
-1. Select on **設定** （レンチアイコン）をクリックして、 **画像** ダイアログが表示されます。
+1. 「**構成**」（レンチアイコン）をクリックして、「**画像**」ダイアログボックスを開きます。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. **画像**&#x200B;ダイアログボックスから「**ContextHub**」タブに移動します。「**追加**」を選択します。
+1. **画像**&#x200B;ダイアログボックスから「**ContextHub**」タブに移動します。「**追加**」をクリックします。
 
    >[!NOTE]
    >ContextHub 設定を行っていない場合、このオプションはプロジェクトで無効になります。
 
-1. Enter **値** が含まれる **プレースホルダー** フィールド。 Google シートの値を取得する行を **ContextHub 変数**. この場合、値はGoogle シートの行 2 と列 1 から取得されます。 次の図に示すように、**デフォルト値**&#x200B;を **20** と入力します。完了したら、チェックマークを選択します。
+1. Enter **値** が含まれる **プレースホルダー** フィールド。 Google シートから値を取得する行をクリックします。 **ContextHub 変数**. この場合、値はGoogle シートの行 2 と列 1 から取得されます。 次の図に示すように、**デフォルト値**&#x200B;を **20** と入力します。完了したら、チェックマークをクリックします。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
@@ -142,6 +142,6 @@ AEM Screens プロジェクトの ContextHub 設定を設定します。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 
-1. **プレビュー**&#x200B;を選択します。
+1. **プレビュー**&#x200B;をクリックします。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)

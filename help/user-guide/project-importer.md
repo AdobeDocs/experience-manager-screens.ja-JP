@@ -10,10 +10,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 45%
+ht-degree: 47%
 
 ---
 
@@ -101,17 +101,17 @@ ht-degree: 45%
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. プロジェクト ** DemoProjectImporter を選択します。 **>** 作成 **>** サイドバーから**場所を読み込みます。
+1. プロジェクト DemoProjectImporter をクリック**ます。 **>** 作成 **>** サイドバーから**場所を読み込みます。
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. この **インポート** ウィザードが表示されます。 場所を含むプロジェクトのファイルを選択するか、ファイル（***minimal-file.xls***）からダウンロードしました *前提条件* セクション。
+1. この **インポート** ウィザードが表示されます。 場所を含むプロジェクトのファイルをクリックするか、ファイル（***minimal-file.xls***）からダウンロードしました *前提条件* セクション。
 
    ファイルを選択したら、 **次**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. インポートウィザードでファイル（場所）の内容を確認し、以下を選択します **インポート**.
+1. 読み込みウィザードでファイル（ロケーション）の内容を確認し、「**読み込み**」をクリックします。
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

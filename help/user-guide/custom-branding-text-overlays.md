@@ -6,10 +6,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '581'
-ht-degree: 34%
+ht-degree: 44%
 
 ---
 
@@ -67,7 +67,7 @@ AEM Screens チャンネルのアセットに適用されたテキストオー�
 
 1. パスをプロジェクトにコピーします。この場合、パスはです。 `/apps/settings/wcm/designs/customstyle`.
 
-1. というタイトルのチャネルに移動します。 **DemoBrand** （手順（1）で作成）をクリックして選択します。 **プロパティ** チャネルを選択した後、アクションバーから変更します。
+1. 手順（1）で作成した **DemoBrand** というタイトルのチャネルに移動し、チャネルを選択した後、アクションバーの&#x200B;**プロパティ**&#x200B;をクリックします。
 
 1. 「**詳細**」タブに移動し、「**デザイン**」フィールドを確認します。
    ![画像](/help/user-guide/assets/custom-brand/custom-brand5.png)
@@ -79,7 +79,7 @@ AEM Screens チャンネルのアセットに適用されたテキストオー�
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
-1. を選択 **保存して閉じる** をクリックしてデザインパスを更新します。
+1. 「**保存して閉じる**」をクリックして、デザインパスを更新します。
 
    >[!IMPORTANT]
    >オプションで、既存の Screens テンプレートをオーバーレイして、デフォルトで独自のデザインを挿入したり、独自のテンプレートを完全に作成したりできます。 詳しくは、次の手順を参照してください。
@@ -108,9 +108,9 @@ AEM Screens チャンネルのアセットに適用されたテキストオー�
 
 次の手順に従って、更新したデザインをテキストオーバーレイに表示します。
 
-1. というタイトルのAEM Screens プロジェクトに移動します。 **`customstyle`** > **チャネル** > **DemoBrand**. チャネルを選択し、 **編集** アクションバーから。
+1. というタイトルのAEM Screens プロジェクトに移動します。 **`customstyle`** > **チャネル** > **DemoBrand**. チャネルをクリックし、 **編集** アクションバーから。
 
-1. これで、デザインがに追加されました **デザイン** フィールドで、前述のように、を選択します **プレビュー** をクリックして、テキストオーバーレイを含む画像の現在のスタイル設定を表示します。
+1. デザインは「**デザイン**」フィールドに追加されたので、前述のように「**プレビュー**」をクリックすると、現在のスタイルが画像上のテキストオーバーレイで表示されます。
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand7.png)
 

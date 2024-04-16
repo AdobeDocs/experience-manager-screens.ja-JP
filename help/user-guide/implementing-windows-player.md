@@ -10,10 +10,10 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 52%
+ht-degree: 54%
 
 ---
 
@@ -46,7 +46,7 @@ AEM オーサーインスタンスおよびパブリッシュインスタンス�
 1. **login-token cookie の SameSite 属性**&#x200B;を **Lax** から **None** に設定します。
    ![画像](/help/user-guide/assets/granite-updates.png)
 
-1. 「**保存**」を選択します。
+1. 「**保存**」をクリックします。
 
 ### アドホック方式 {#ad-hoc-method}
 
@@ -55,7 +55,7 @@ AEM オーサーインスタンスおよびパブリッシュインスタンス�
 アプリケーションをダウンロードしたら、Player の手順に従ってアドホックインストールを完了します。
 
 1. 左上隅のを長押して、管理パネルを開きます。
-1. に移動します。 **設定** 左側のアクションメニューから接続先のAEM インスタンスの場所（アドレス）を入力し、選択します **保存**.
+1. 左のアクションメニューから「**設定**」に移動し、接続する AEM インスタンスの場所（アドレス）を入力して、「**保存**」をクリックします。
 1. に移動します。 **デバイス** **登録** 左側のアクションメニューからのリンクを使用して、デバイス登録プロセスのステータスを確認できます。
 
 >[!NOTE]
@@ -73,7 +73,7 @@ AEM オーサーインスタンスおよびパブリッシュインスタンス�
 
 Windows プレーヤーに名前を設定するには、次の手順に従います。
 
-1. を選択 **開始** > **実行**.
+1. クリック **開始** > **実行**.
 1. Enter `system.cpl`.
 1. 「コンピューター名」タブを使用して、コンピューターのホスト名を設定します。
 

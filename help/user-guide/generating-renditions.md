@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 17%
+ht-degree: 20%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 17%
 
 フル HD レンディションを自動的に生成するには、次の手順に従います。
 
-1. Adobe Experience Manager リンク（左上）を選択し、ハンマーアイコンを選択して、次の項目を選択できます **ワークフロー**.
+1. Adobe Experience Manager リンク（左上）をクリックし、ハンマーアイコンをクリックして、 **ワークフロー**.
 
-   を選択 **モデル**.
+   クリック **モデル**.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. ワークフローモデル管理で、 **DAM アセットの更新** モデル化と選択 **編集** アクションバーから。
+1. ワークフローモデル管理で、 **DAM アセットの更新** モデル化してクリック **編集** アクションバーから。
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
@@ -44,18 +44,18 @@ ht-degree: 17%
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. 「」を選択します **プロセス** タブ。
+1. 「」をクリックします **プロセス** タブ。
 1. で、フル HD プロファイルのリストへの入力 **引数** を次のように設定します。
    ***`,profile:fullhd-bp,profile:fullhd-hp`***
-1. 「**OK**」を選択します。
+1. 「**OK**」をクリックします。
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. を選択 **保存** の左上に **DAM アセットの更新** 画面。
+1. クリック **保存** の左上に **DAM アセットの更新** 画面。
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. **Assets** に移動し、新しいビデオをアップロードします。ビデオを選択し、レンディション サイドパネルを開きます。 2 つのフル HD ビデオに注目してください。
+1. **Assets** に移動し、新しいビデオをアップロードします。ビデオをクリックして、レンディション サイドパネルを開きます。 2 つのフル HD ビデオに注目してください。
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
@@ -71,9 +71,9 @@ ht-degree: 17%
 
 フル HD レンディションを手動で生成するには、次の手順に従います。
 
-1. Adobe Experience Manager リンク（左上）を選択し、ハンマーアイコンを選択して、ツールを選択し、次の項目を選択します **ワークフロー**.
+1. Adobe Experience Manager リンク（左上）をクリックし、ハンマーアイコンをクリックして、ツールをクリックし、 **ワークフロー**.
 
-   を選択 **モデル**.
+   クリック **モデル**.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
@@ -81,11 +81,11 @@ ht-degree: 17%
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. で目的のビデオを選択 **ペイロード** を選択して、 **実行**.
+1. 目的のビデオをクリックします。 **ペイロード** をクリックして、 **実行**.
 
    ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
-1. に移動します。 **アセット**&#x200B;をクリックし、アセットにドリルダウンして選択します。
+1. **Assets** に移動し、アセットまでドリルダウンしてクリックします。
 
    ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 

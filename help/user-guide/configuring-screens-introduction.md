@@ -9,10 +9,10 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '679'
-ht-degree: 56%
+ht-degree: 58%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 56%
    ![アセット](assets/health-check1.png)
 
 
-2. を選択 **選択したヘルスチェックの実行** したがって、上記の 2 つのプロパティに対して検証を実行できます。
+2. クリック **選択したヘルスチェックの実行** したがって、上記の 2 つのプロパティに対して検証を実行できます。
 
    両方のフィルターが有効な場合、**Screens Configuration Health Service** では&#x200B;**結果**&#x200B;が&#x200B;**OK**&#x200B;と表示され、両方の設定が有効となっています。
 
@@ -76,7 +76,7 @@ AEM Screens で使用できるように AEM サーバーを設定する際に役
 
    ![画像](assets/config/empty-ref2.png)
 
-1. を選択 **保存** apache Sling Referrer Filter を有効にするには、Allow Empty を指定します。
+1. 「**保存**」をクリックして、Apache Sling Referrer Filter の「Allow Empty」を有効にします。
 
 
 #### Apache Felix Jetty Based HTTP Service {#allow-apache-felix-service}
@@ -93,7 +93,7 @@ AEM Screens で使用できるように AEM サーバーを設定する際に役
 
    ![画像](assets/config/config-1.png)
 
-1. を選択 **保存** を有効にします *http* サービス。
+1. 「**Save**」をクリックし、*HTTP* サービスを有効にします。
 
 #### AEM Screens のタッチ操作対応 UI の有効化 {#enable-touch-ui-for-aem-screens}
 

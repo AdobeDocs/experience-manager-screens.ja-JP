@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 24%
+ht-degree: 26%
 
 ---
 
@@ -30,19 +30,19 @@ AEM管理者は、プロジェクトのチームメンバーが他のプロジ�
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
-1. を選択 **グループ** さらに ID （例：Acme）を入力します。
+1. 「**グループ**」をクリックして、ID（例：Acme）を入力します。
 
    または、このリンク（`http://localhost:4502/libs/granite/security/content/groupadmin.html`）を使用します。
 
-   次に、を選択します **保存**.
+   次に、 **保存**.
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. を選択 **投稿者** リストから選択し、ダブルクリックします。
+1. クリック **投稿者** リストで、ダブルクリックします。
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. を追加 **アクメ** （作成したプロジェクト） **グループにメンバーを追加**. 「**保存**」を選択します。
+1. を追加 **アクメ** （作成したプロジェクト） **グループにメンバーを追加**. 「**保存**」をクリックします。
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -56,7 +56,7 @@ AEM管理者は、プロジェクトのチームメンバーが他のプロジ�
 
 1. グループの権限の設定 **アクメ** これを使用 `(http://localhost:4502/useradmin)`.
 
-   グループを選択します **アクメ** を選択し、 **権限**.
+   グループをクリックします **アクメ** をクリックし、 **権限**.
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 

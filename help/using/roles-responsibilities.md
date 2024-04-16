@@ -2,10 +2,10 @@
 title: AEM Screens プロジェクトの役割と責務
 description: AEM Screens プロジェクトの役割と責務について説明します。
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 68%
+ht-degree: 67%
 
 ---
 
@@ -47,7 +47,7 @@ AEM 実装担当者は、通常、段階的にカスタム機能を適所に導�
 
 #### ハードウェア・パートナーの検討 {#selecting-hardware-partner}
 
-適切なハードウェアパートナーを選択することが非常に重要です。以下の質問について検討する必要があります。
+適切なハードウェアパートナーをクリックすることが重要です。 以下の質問について検討する必要があります。
 
 1. サービスレベル契約の条項はどうなっていますか？
 

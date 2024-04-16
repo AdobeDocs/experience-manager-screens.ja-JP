@@ -2,10 +2,10 @@
 title: AEM Screens でのビデオのサムネールサポート
 description: AEM Screensにビデオのサムネールサポートを追加する方法を説明します。
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 77%
+ht-degree: 81%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 77%
 
 1. 既存のAEM Screens チャンネルに移動するか、チャンネルを作成します。
 
-1. チャネルを選択し、 **編集** アクションバーから。
+1. チャネルをクリックし、 **編集** アクションバーから。
 
    ![画像](/help/user-guide/assets/thumbnails/thumbnail-1.png)
 
@@ -40,7 +40,7 @@ ht-degree: 77%
 
    ![画像](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
-1. ビデオを選択し、 *レンチ* アイコン。
+1. ビデオをクリックし、 *レンチ* アイコン。
 
    ![画像](/help/user-guide/assets/thumbnails/thumbnail-3.png)
 
@@ -48,11 +48,11 @@ ht-degree: 77%
 
    ![画像](/help/user-guide/assets/thumbnails/thumbnail-4.png)
 
-1. アセットピッカーから画像をにドラッグ&amp;ドロップします **サムネール** ゾーンをドロップして選択 **完了**.
+1. アセットピッカーから&#x200B;**サムネール**&#x200B;ドロップゾーンに画像をドラッグ＆ドロップし、「**完了**」をクリックします。
 
    ![画像](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
-1. **プレビュー**&#x200B;を選択します。
+1. **プレビュー**&#x200B;をクリックします。
 
 1. コンポーネントにビデオが設定されている場合は、ビデオが再生されます。ビデオが設定されておらず、サムネールが設定されている場合は、サムネールが再生されます。それ以外の場合、コンポーネントは未設定と見なされ、スキップされます。
 

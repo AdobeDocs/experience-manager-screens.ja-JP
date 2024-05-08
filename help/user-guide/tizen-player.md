@@ -1,14 +1,14 @@
 ---
 title: Tizen プレーヤー
-description: このページでは、Tizen プレーヤーのインストールと動作について説明します。
+description: Tizen プレーヤーのインストールと操作について説明します。
 feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1208'
-ht-degree: 53%
+source-wordcount: '1217'
+ht-degree: 42%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 53%
 
 ## Tizen プレーヤーのインストール {#installing-tizen-player}
 
-次の手順に従って、AEM Screens 用の Tizen プレーヤーを実装します。
+AEM Screens用の Tizen プレーヤーを実装するには、次の手順に従います。
 
 1. に移動します。 [AEM Screens Player のダウンロード](https://download.macromedia.com/screens/) tizen プレーヤーをダウンロードできます。
 
-1. ローカルマシンから Tizen プレーヤー&#x200B;*（.zip）*&#x200B;ファイルをインストールします。
+1. Tizen プレーヤーのインストール *（.zip）* ローカルマシンのファイル。
 
 ## HTTP サーバーのセットアップ {#setting-local-server}
 
@@ -34,7 +34,7 @@ ht-degree: 53%
    >[!NOTE]
    >`AEMScreensPlayer.wgt` は実際の Tizen プレーヤーアプリケーションです。`sssp_config.xml` には、Tizen プレーヤーを Tizen デバイスにインストールする際に役立つ、このマップに関する情報が記載されています。
 
-1. ローカル HTTP サーバーの IP または URL を取得します（ルートフォルダーではなくサブフォルダーに抽出された場合は、手順 2 で抽出されたファイルを含むフォルダーへのパスも取得します）。
+1. ローカル HTTP サーバーの IP または URL （ルートフォルダーではなくサブフォルダーに抽出された場合は、手順 2 で抽出されたファイルを含むフォルダーへのパス）を取得します。
 
 1. Tizen プレーヤーは、ローカルサーバーからインストーラーをダウンロードします。
 
@@ -56,13 +56,13 @@ Samsung デバイスで次の手順に従って、デバイスにAEM Screens Pla
 
 1. Samsung デバイスに移動し、電源を入れます。
 1. デバイスのリモートコントローラーで「**MENU**」ボタンをクリックし、左のナビゲーションバーで「**System**」まで下にスクロールします。
-1. 下にスクロールして、 **遊ぶ方法** オプションを選択して、に変更します **URL ランチャー** オプション。
+1. 下にスクロールして、 **～を経由して遊ぶ** 「」オプションを選択して、「」に変更します **URL ランチャー** オプション。
    ![画像](/help/user-guide/assets/tizen/rms-2.png)
 1. URL ランチャーを設定したら、 **ホーム** リモコンのボタンを押します。
 1. 「**URL Launcher Settings**」に移動し、localhost サーバーの IP アドレスを入力して、「**Done**」をクリックします。
 
    >[!NOTE]
-   >Tizen プレーヤーが http サーバーに接続できるようになります。
+   >Tizen プレーヤーは、HTTP サーバーに接続できます。
 
 1. AEM Screens Player が自動的にインストールされ、Samsung デバイスで起動します。
 
@@ -83,7 +83,7 @@ Samsung デバイスで次の手順に従って、デバイスにAEM Screens Pla
 
 1. AEMの再起動後、に移動します。 `/system/console/configMgr` を検索します **Adobe Granite トークン認証ハンドラー**. **SameSite** の値を「**None**」に設定します。
 
-1. 新しいオプションが表示されます *`User agents to be exempted from samesite attribute`*. *SameSite=None* 属性に対応していないユーザーエージェントを表す正規表現を、このオプションに設定します。
+1. 新しいオプションが表示されます *`User agents to be exempted from samesite attribute`*. このオプションに、と互換性のないユーザーエージェントに対応する正規表現を入力します *SameSite=None* 属性。
 
    >[!NOTE]
    >
@@ -97,7 +97,7 @@ Tizen プレーヤーをリモートでプロビジョニングすると、数�
 
 この機能を使用すると、Tizen プレーヤーをリモートで設定し、必要に応じてそれらの設定を一元的に更新できます。 必要なのは、Tizen アプリケーション `(wgt and xml file)` をホストするための `HTTP` サーバーと、適切なパラメーターを記述した `config.json` を保存するためのテキストエディターだけです。
 
-Tizen デバイスに URL ランチャーアドレスを設定してあることを確認します（ホームボタン/URL ランチャー設定）。
+Tizen デバイスに URL ランチャーアドレスが設定されていることを確認します。 「ホーム」ボタン/「URL ランチャーの設定」をクリックします。
 Tizen アプリケーションをホストする `HTTP` サーバー上で、`config.json` ファイルを `wgt` ファイルと同じ場所に置きます。ファイル名は `config.json` にする必要があります。
 Tizen プレーヤーがインストールされ、プレーヤーの起動時（および再起動時）に `config.json` ファイル。
 
@@ -118,7 +118,7 @@ Tizen プレーヤーがインストールされ、プレーヤーの起動時�
 次の表に、ポリシーとその機能の概要を示します。
 
 >[!NOTE]
->ポリシー設定は厳格に適用されます。プレーヤーの Admin UI で、手動で上書きされることはありません。特定のポリシーに対して手動のプレーヤー設定を許可する場合は、ポリシー設定でポリシーを指定しないでください。
+>プレーヤーの管理 UI ポリシー設定は厳密に適用され、手動で上書きされることはありません。 特定のポリシーに対して手動のプレーヤー設定を許可する場合は、ポリシー設定でポリシーを指定しないでください。
 >例えば、再起動スケジュールの手動設定を許可する場合は、キーを指定しないでください `rebootSchedule` をポリシー設定で使用できます。 ポリシー設定は、プレーヤーが再読み込みされるたびに読み取られます。
 
 | **ポリシー名** | **目的** |
@@ -128,7 +128,7 @@ Tizen プレーヤーがインストールされ、プレーヤーの起動時�
 | resolution | デバイスの解像度。 |
 | rebootSchedule | プレーヤーを再起動するスケジュール。 |
 | enableAdminUI | サイト上でデバイスを設定するための Admin UI を有効にします。設定が完了して実稼働になったら、false に設定します。 |
-| enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。設定が完了して実稼働になったら、false に設定することを検討します。 |
+| enableOSD | ユーザーがデバイスのチャネルを切り替えるためのチャネルスイッチャー UI を有効にします。 設定が完了して実稼働になったら、false に設定することを検討します。 |
 | enableActivityUI | を有効にすると、ダウンロードや同期など、アクティビティの進行状況を表示できます。 トラブルシューティング用に有効にしておき、設定が完了して実稼働になったら無効にします。 |
 | cloudMode | Tizen プレーヤーから Screens as a Cloud Service に接続する場合は、true に設定します。AMS またはオンプレミス AEMに接続する場合は、false に設定します。 |
 | cloudToken | Screens as a Cloud Service に登録するための登録トークン。 |
@@ -143,7 +143,7 @@ Tizen デバイスを Samsung Remote Management Service（RMS）に登録し URL
 
 1. **Menu**／**Network**／**Server Network Settings** に移動し、**Enter** キーを押します。
 
-1. サーバーのアドレスに移動し、MagicInfo URL アクセスを入力して、「**Done**」をクリックします。
+1. サーバーアドレスに移動し、MagicInfo URL access と入力してキーを押します **完了**.
 
 1. 必要に応じて、TLS を設定します。 ポートに移動し、サーバーのポート番号をクリックして、 **保存**.
 

@@ -2,10 +2,10 @@
 title: プラットフォームへの移行
 description: AEM Screensの Platform への移行について説明します。
 exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 11%
+source-wordcount: '180'
+ht-degree: 6%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->このアクティビティの典型的な関係者は、AEM 実装担当者です。
+>このアクティビティの典型的な関係者は、AEM実装者です。
 
 プロジェクトが戦略的ビジョンからワイヤーフレーム化された現実に移行したので、デプロイ可能なAEMで Screens プロジェクトを実際に作成するために必要なタスクの準備を開始する必要があります。
 

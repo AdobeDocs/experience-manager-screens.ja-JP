@@ -2,10 +2,10 @@
 title: ジャーニーマップ
 description: AEM Screensのジャーニーマップについて説明します。
 exl-id: 23c368aa-5c5e-4bc8-802f-6ff53ec9e63a
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 5%
+source-wordcount: '272'
+ht-degree: 1%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->このアクティビティの典型的な関係者は、マーケティング／ビジネスストラテジストです。
+>このアクティビティの典型的な関係者は、マーケティング/ビジネスストラテジストです。
 
 ユーザーエクスペリエンスジャーニーマップは、ネットワークで配信されるデジタルコンテンツをユーザーがどのように、なぜ体験しているのかを可視化するように設計されています。
 

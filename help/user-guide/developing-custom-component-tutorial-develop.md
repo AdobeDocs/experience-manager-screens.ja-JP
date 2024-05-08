@@ -9,10 +9,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '2135'
-ht-degree: 70%
+source-wordcount: '2139'
+ht-degree: 69%
 
 ---
 
@@ -60,7 +60,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
 
-   ![CRX パッケージマネージャーを使用してインストールされた Screens We.Retail Run Ui.Content および Ui.Apps パッケージ](assets/crx-packages.png)
+   ![Screens We.Retail CRX パッケージマネージャーを介してインストールされた Ui.Apps および Ui.Content パッケージを実行します](assets/crx-packages.png)
 
    スクリーン `We.Retail` 実行 `Ui.Apps` および `Ui.Content` crx パッケージマネージャーを通じてインストールされるパッケージ。
 
@@ -296,7 +296,7 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
    categories プロパティは、クライアントライブラリを識別する文字列です。cq.screens.componentscategory は、編集モードとプレビュー／実稼動モードの両方で使用されます。したがって、sharedclientlib に定義された CSS／JS は、すべてのモードに読み込まれます。
 
-   実稼動環境では、直接 /apps にパスを公開しないことをお勧めします。allowProxy プロパティにより、クライアントライブラリの CSS と JS が /etc.clientlibs というプレフィックスを付けて参照されるようになります。
+   実稼動環境では、直接 /apps にパスを公開しないことをお勧めします。allowProxy プロパティにより、クライアントライブラリの CSS と JS が of/etc.clientlibs. の接頭辞を付けて参照されるようになります。
 
 1. 共有フォルダーの下に `css.txt` という名前のファイルを作成します。
 

@@ -2,10 +2,10 @@
 title: AEM プラットフォーム設定
 description: ここでは、AEM Platform の設定について説明します
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 44%
+source-wordcount: '446'
+ht-degree: 42%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 44%
 
 >[!NOTE]
 >
->このアクティビティの典型的な関係者は、AEM 実装担当者です。
+>このアクティビティの典型的な関係者は、AEM実装者です。
 
 以下の節に従って、AEM Screensの基本を学び、AEM Platform 設定をセットアップします
 
@@ -64,7 +64,7 @@ AEMのパスワードポリシーは、AMS インスタンスで無効にする�
 
 >[!NOTE]
 >
->AEM Screensの最新の機能パックをインストールするには、以下を参照してください。 [リリースノート](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction).
+>AEM Screensの最新の機能パックをインストールするには、以下を参照してください。 [リリースノート](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/aem-screens-introduction).
 
 ## ACL の設定 {#setting-up-acls}
 

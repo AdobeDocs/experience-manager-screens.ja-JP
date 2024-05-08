@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 9879f339-e70f-446d-acd3-380016269f27
-source-git-commit: fe4f7d593ccea91f6109a0c759aea3faa37ae471
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 65%
+source-wordcount: '225'
+ht-degree: 58%
 
 ---
 
@@ -35,7 +35,7 @@ AEM Screens 機能パック 202204 のリリース日は 2024年1月2日（PT）
 
 * AEM Screens デバイスの「アイドルテキスト」フィールドでの XSS の問題。（SCRNS-2614）
 
-* `Clear cache` アクションダイアログ経由の `screens/dashboard/device.html` での XSS の問題。（SCRNS-2632）
+* での XSS の問題 `screens/dashboard/device.html` 経由 `Clear cache` アクションダイアログ。 （SCRNS-2632）
 
 * `libs/screens/player/browser/firmware.html` の Screens Player 設定での XSS の問題。（SCRNS-2652）
 
@@ -45,7 +45,7 @@ AEM Screens 機能パック 202204 のリリース日は 2024年1月2日（PT）
 
 * `/screens/register-device-wizard.html` でパラメーター `item` を使用した XSS が反映されました。（SCRNS-2670）
 
-* `returnPage` パラメーター経由で `screens/dashboard/device.html` に XSS が反映されました。（SCRNS-3056）
+* XSS の反映先 `screens/dashboard/device.html` 経由 `returnPage` パラメーター。 （SCRNS-3056）
 
 * assign-device-wizard.html でリダイレクトが開かれます。（SCRNS-3444）
 

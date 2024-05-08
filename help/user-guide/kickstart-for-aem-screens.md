@@ -5,9 +5,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1284'
 ht-degree: 43%
 
 ---
@@ -34,7 +34,7 @@ AEM Screens のキックスタートで、AEM Screens プロジェクトの設�
 
 ## 空のリファラー要求の許可 {#allow-empty-referrer-requests}
 
-1. に移動します。 **Adobe Experience Manager Web コンソールの設定** AEM インスタンス/ハンマーアイコン/を選択 **運用** > **Web コンソール**.
+1. に移動します。 **Adobe Experience Manager Web コンソールの設定** AEM インスタンス/ハンマーアイコン/から選択 **運用** > **Web コンソール**.
 
    ![画像](assets/config/empty-ref1.png)
 

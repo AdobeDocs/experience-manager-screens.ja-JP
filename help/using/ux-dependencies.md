@@ -2,10 +2,10 @@
 title: AEM Screensの UX の依存関係
 description: AEM Screensの UX 依存関係について説明します。
 exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 77%
+source-wordcount: '138'
+ht-degree: 69%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 77%
 
 >[!NOTE]
 >
->このアクティビティの典型的な関係者は、マーケティング／ビジネスストラテジストです。
+>このアクティビティの典型的な関係者は、マーケティング/ビジネスストラテジストです。
 
 「UX の依存関係」では、最も効果的になるようにコンテンツを戦略化する場所と方法を定義します。
 

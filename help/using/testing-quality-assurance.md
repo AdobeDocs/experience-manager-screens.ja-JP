@@ -2,10 +2,10 @@
 title: テストと品質保証
 description: AEM Screensのテストと品質保証については、ベストプラクティスガイドを参照してください。
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 50%
+source-wordcount: '334'
+ht-degree: 28%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->このフェーズは、インストールおよびユーザーガイドを作成するためのツールとしても使用する必要があります。このガイドは、後で機器に同梱し、後日参照するために現場に保管することができます。
+>この段階は、インストールおよびユーザーガイドを作成するためのツールとしても使用できます。 どちらも後で機器と共に出荷され、将来の参照用に現場に保管できます。
 
 次の要素を考慮する必要があります。
 
@@ -48,9 +48,9 @@ ht-degree: 50%
 
 ## 3. デバイス管理に関する考慮事項 {#device-management-considerations}
 
-AEM Screens には、Screens Player アプリケーションのエンドポイントを管理するための Device Control Center モジュールが含まれています。
+AEM Screensには、Screens プレーヤーアプリケーションのエンドポイントを管理できるデバイスコントロールセンターモジュールが含まれています。
 
-このエンドポイントは、Screens Player アプリケーションがインストールされており、AEM のインスタンスに登録されているあらゆる&#x200B;*プレイヤー*ハードウェアデバイスを指します。
+いずれかを指します *player* screens プレーヤーアプリケーションがインストールされ、AEMのインスタンスに登録されているハードウェアデバイス。
 このモジュールでは、次のことが可能です。
 
 1. プレーヤーアプリケーションエラーログの監視
@@ -58,11 +58,11 @@ AEM Screens には、Screens Player アプリケーションのエンドポイ�
 1. コンテンツダウンロードの管理
 1. アプリケーションの再起動に関する問題の管理
 
-詳しく知るには ***デバイスコントロールセンター***&#x200B;を参照してください [デバイスコントロールセンターのトラブルシューティング](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) 。対象： **AEM Screens ユーザーガイド**.
+について詳しくは、 ***デバイスコントロールセンター***&#x200B;を参照してください [デバイスコントロールセンターのトラブルシューティング](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) 。対象： **AEM Screens ユーザーガイド**.
 
 >[!CAUTION]
 >
->デバイス コントロール センターを使用して、次の操作を行わないでください。
+>デバイスコントロールセンターを次の目的で使用しないでください。
 >
 >* 新しいバージョンのプレイヤーアプリケーションのインストール
 >* システムレベルのリソースの監視

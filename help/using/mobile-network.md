@@ -2,10 +2,10 @@
 title: 直接モバイルネットワーク
 description: AEM Screensでの直接モバイルネットワーク設定について説明します。
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 52%
+ht-degree: 50%
 
 ---
 
@@ -92,6 +92,6 @@ AEM Screensは、デジタルサイネージユーザーに大きなメリット
 
 >[!NOTE]
 >
->インターネットソースをリクエストしてダウンロードするネットワーク内の各デバイスの消費量が、これらの情報からわかります。これらのリクエストが合計されると、ダウンロード時間が延長されます。
+>すべての情報は、インターネットソースを要求およびダウンロードするネットワーク内の各デバイスの消費を参照します。 これらのリクエストが合計されると、ダウンロード時間が延長されます。
 
 ![](/help/using/assets/download-times-mobile.png)

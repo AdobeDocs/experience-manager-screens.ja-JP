@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 51%
+source-wordcount: '1059'
+ht-degree: 49%
 
 ---
 
@@ -28,7 +28,7 @@ AEM Screens Player でチャネルコンテンツなどの設定を管理でき�
 
 ## デバイスダッシュボードの使用 {#using-the-device-dashboard}
 
-AEM オーサリングインスタンスを介してアクセスできる、デバイスダッシュボードからデバイスの環境設定を構成できます。
+AEM オーサリングインスタンスを介してアクセスできる、デバイスダッシュボードからデバイスの環境設定を指定できます。
 
 1. プロジェクトからデバイスダッシュボード（例：）に移動します。 ***プロジェクトのテスト*** > ***デバイス***.
 

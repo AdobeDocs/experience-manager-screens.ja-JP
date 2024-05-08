@@ -3,9 +3,9 @@ title: データ駆動型イベント
 description: ヌル
 page-status-flag: never-activated
 contentOwner: jsyal
-source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '164'
 ht-degree: 12%
 
 ---
@@ -30,7 +30,7 @@ AEM Screens では、Context Hub を使用してデータ駆動型イベント�
 
 #### 運用データ {#data-in-operational}
 
-これは、さらにチャネル割り込みとプレースホルダーに分類できます。
+このイベントは、さらにチャネル割り込みとプレースホルダーに分類できます。
 
 #### プレゼンテーション内のデータ {#data-in-presentation}
 

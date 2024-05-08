@@ -2,10 +2,10 @@
 title: AEM Screensのビジネスコンテンツ戦略
 description: AEM Screensに関連するマーケティングおよびビジネスコンテンツ戦略について詳しく説明します。
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 50%
+source-wordcount: '433'
+ht-degree: 47%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->このアクティビティの典型的な関係者は、マーケティング／ビジネスストラテジストです。
+>このアクティビティの典型的な関係者は、マーケティング/ビジネスストラテジストです。
 
 コンテンツは、エンゲージメントを促進する主な要因です。 プリセールス・フェーズでは、アプリケーションがハードウェア、ソフトウェア、接続リソースをどのように使用してクライアントの顧客に意図した価値を提供するかを考慮するビジネス・コンテンツ戦略を定義することが重要です。
 

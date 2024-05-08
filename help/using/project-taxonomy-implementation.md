@@ -2,10 +2,10 @@
 title: プロジェクト分類
 description: AEM Screensに関連するプロジェクト分類について詳しく説明します。
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 47%
+source-wordcount: '266'
+ht-degree: 43%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->このアクティビティの典型的な関係者は、AEM 実装担当者です。
+>このアクティビティの典型的な関係者は、AEM実装者です。
 
 AEM Screens プロジェクトを作成する前に、プロジェクトの UX ワイヤーフレーム フェーズで定義されるすべてのコンポーネントを理解し、戦略を立てます。
 

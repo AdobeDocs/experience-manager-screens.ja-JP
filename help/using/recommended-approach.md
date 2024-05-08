@@ -2,10 +2,10 @@
 title: 推奨されるアプローチ
 description: AEM Screens プロジェクトで推奨されるアプローチについて説明します。
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 38%
+ht-degree: 36%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 38%
 
 * **パイロット、ロールアウト、POC の定義**：概念実証（POC）を作成し、パイロットやロールアウトを通じて必要に応じて調整します。
 
-* **コンテンツ戦略の事前定義**：短期目標や長期目標を含むコンテンツ戦略を策定します。また、ブランドの目標や KPI を機能の改善と関連付けます。
+* **コンテンツ戦略の事前定義**：短期目標と長期目標を含むコンテンツ戦略を確立します。 また、ブランドの目標や KPI を機能の改善と関連付けます。
 
   >[!NOTE]
   >

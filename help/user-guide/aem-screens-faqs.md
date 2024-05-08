@@ -5,10 +5,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '2130'
-ht-degree: 40%
+source-wordcount: '2134'
+ht-degree: 39%
 
 ---
 
@@ -177,7 +177,7 @@ Windows プレーヤーにはウィンドウモードはありません。 常�
 
 ### 6. プレーヤー API からディスプレイとデバイスの詳細を取得する方法
 
-ディスプレイとデバイスの詳細は、次の場所で取得できます。
+ディスプレイとデバイスの詳細は、次の方法で取得できます。
 
 * **内部 JS API**
 * **ContextHub ストア**：`/libs/screens/clientlibs/contexthub` では、チャネル、デバイス、および表示情報を公開するための 3 つの ContextHub ストアが定義されています。
@@ -247,7 +247,7 @@ AMS コネクタを動作させるには、最小バージョンのAEM 6.5 機�
 
 このサービスは、オーサーインスタンスとパブリッシュインスタンスのパブリックホスト名を定義するために使用され、値を使用してデバイスサーバーの URL を更新したり、ContextHub のターゲティングもおこなったりします。
 
-Screens の CQ Link Externalizer サービスは、次の場所で設定できます。
+Screens の CQ Link Externalizer サービスは、次の方法で設定できます。
 
 1. `http://localhost:4502/system/console/configMgr` に移動します。
 1. Day CQ Link Externalizer

@@ -9,10 +9,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 78%
+source-wordcount: '1698'
+ht-degree: 77%
 
 ---
 
@@ -70,7 +70,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
 ## ポスターコンポーネントの作成 {#poster-cmp}
 
-ポスターコンポーネントは、標準のAEM Screens画像コンポーネントを拡張します。 Sling の `sling:resourceSuperType` メカニズムを使用すると、画像コンポーネントのコア機能をコピーして貼り付けなくても継承できるようになります。Sling のリクエスト処理の基本について詳しくは、[こちら](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)を参照してください。
+ポスターコンポーネントは、標準のAEM Screens画像コンポーネントを拡張します。 Sling の `sling:resourceSuperType` メカニズムを使用すると、画像コンポーネントのコア機能をコピーして貼り付けなくても継承できるようになります。Sling のリクエスト処理の基本について詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)を参照してください。
 
 ポスターコンポーネントは、プレビュー／実稼動モードではフルスクリーンでレンダリングされます。編集モードでは、シーケンスチャネルのオーサリングを容易にするために、コンポーネントを別の方法でレンダリングすることが重要です。
 
@@ -339,7 +339,7 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
    `categories` プロパティは、クライアントライブラリを識別する文字列です。`cq.screens.components` カテゴリは、編集モードとプレビュー／実稼動モードの両方で使用されます。したがって、`shared` クライアントライブラリに定義された CSS／JS は、すべてのモードに読み込まれます。
 
-   実稼動環境では、直接 /apps にパスを公開しないことをお勧めします。`allowProxy` プロパティにより、クライアントライブラリの CSS と JS が `/etc.clientlibs` というプレフィックスを付けて参照されるようになります。allowProxy について詳しくは、[こちら](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)を参照してください。
+   実稼動環境では、直接 /apps にパスを公開しないことをお勧めします。この `allowProxy` プロパティは、クライアントライブラリ CSS と JS がのプレフィックスによって参照されることを保証します `/etc.clientlibs`. allowProxy について詳しくは、[こちら](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)を参照してください。
 
 1. 共有フォルダーの下に `css.txt` という名前のファイルを作成します。
 

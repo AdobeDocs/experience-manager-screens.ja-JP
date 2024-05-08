@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 69%
+source-wordcount: '435'
+ht-degree: 64%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 69%
 **サーバー側**：
 
 * アセットを含むチャネルのコンテンツのキャッシュ先： *`/var/contentsync`*.
-* キャッシュは、ディスプレイに使用可能なコンテンツを記述するマニフェストを通じてプレーヤーに公開されます。
+* キャッシュは、ディスプレイに使用可能なコンテンツを記述するマニフェストを介してプレーヤーに公開されます。
 
 **クライアント側**：
 
@@ -75,7 +75,7 @@ ht-degree: 69%
    >
    >スマート同期の使用を開始する前に、コンテンツキャッシュをすべてクリアする必要があります。
 
-1. に移動します。 **Adobe Experience Manager Web コンソールの設定** AEM インスタンス/ハンマーアイコン/を選択 **運用** > **Web コンソール**.
+1. に移動します。 **Adobe Experience Manager Web コンソールの設定** AEM インスタンス/ハンマーアイコン/から選択 **運用** > **Web コンソール**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 

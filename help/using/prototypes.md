@@ -2,10 +2,10 @@
 title: プロトタイプ
 description: ここでは、AEM Screens プロジェクトのプロトタイプについて説明します
 exl-id: 164bf664-15ce-4032-9ee8-5d52903b3ac9
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 29%
+source-wordcount: '267'
+ht-degree: 25%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->このアクティビティの典型的な関係者は、マーケティング／ビジネスストラテジストです。
+>このアクティビティの典型的な関係者は、マーケティング/ビジネスストラテジストです。
 
 UX プロトタイピングを使用して、UX ジャーニーマップで以前に定義したアイデア、前提、依存関係をテストすることが重要です。
 

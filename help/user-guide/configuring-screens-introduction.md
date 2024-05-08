@@ -9,9 +9,9 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '686'
 ht-degree: 50%
 
 ---
@@ -64,7 +64,7 @@ AEM Screens で使用できるように AEM サーバーを設定する際に役
 
 #### 空のリファラー要求の許可 {#allow-empty-referrer-requests}
 
-1. に移動します。 **Adobe Experience Manager Web コンソールの設定** AEM インスタンス/ハンマーアイコン/を選択 **運用** > **Web コンソール**.
+1. に移動します。 **Adobe Experience Manager Web コンソールの設定** AEM インスタンス/ハンマーアイコン/から選択 **運用** > **Web コンソール**.
 
    ![画像](assets/config/empty-ref1.png)
 
@@ -81,7 +81,7 @@ AEM Screens で使用できるように AEM サーバーを設定する際に役
 
 #### Apache Felix Jetty Based HTTP Service {#allow-apache-felix-service}
 
-1. に移動します。 **Adobe Experience Manager Web コンソールの設定** AEM インスタンス/ハンマーアイコン/を選択 **運用** > **Web コンソール**.
+1. に移動します。 **Adobe Experience Manager Web コンソールの設定** AEM インスタンス/ハンマーアイコン/から選択 **運用** > **Web コンソール**.
 
    ![画像](assets/config/empty-ref1.png)
 

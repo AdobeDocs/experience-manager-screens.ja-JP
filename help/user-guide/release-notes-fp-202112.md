@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 66%
+source-wordcount: '326'
+ht-degree: 39%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 66%
 
 AEM Screens は、AEM 6.5 機能パック 10 をリリースしました。
 
-Adobe ID を使用して、AEM Screens 6.5.10 リリースの最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からダウンロードできます。「**Adobe Experience Manager**」タブに移動し、「**Screens**」を検索して「**AEM 6.5 Screens FP10**」というタイトルが付いた最新の機能パックを入手します。
+AEM Screens 6.5.10 リリースの最新の機能パックは、からダウンロードできます。 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe IDを使用する。 に移動します。 **Adobe Experience Manager** タブで「」を検索 **スクリーン** というタイトルの最新の機能パックを取得するには **AEM 6.5 Screens FP10**.
 
 ## リリース日 {#release-date}
 
@@ -37,7 +37,7 @@ AEM Screens 機能パック 202112 のリリース日は 2022年1月12日（PT�
 
 * SmartSync の同時ダウンロードエラーを修正しました
 
-* 開発者は、マニフェストの処理の拡張性、明確性、容易さを確保するために、マニフェスト内の対応するアセットの下にレンディションエントリとしてのみリストするアセットレンディションを表示します。
+* 開発者は、マニフェスト内の対応するアセットの下で、レンディションエントリとしてのみリストするアセットレンディションを表示します。 これにより、マニフェストの処理の拡張性、明確性、容易さを確保できます。
 
 ### バグ修正 {#bug-fixes}
 
@@ -45,11 +45,11 @@ AEM Screens 機能パック 202112 のリリース日は 2022年1月12日（PT�
 
 * オンプレミスプレーヤーのログを収集し、ブラックスクリーンがないか分析します。
 
-* 画面チャネルを分割したときにプレーヤーに空白画面が表示される問題を修正しました。
+* 画面チャネルを分割したときにプレーヤーに空白画面が表示される問題を修正しました
 
 * 公開 Maven にコアバンドルを追加することで、カスタムハンドラーのドキュメントを修正しました。
 
-* プレーヤーはアップグレード後にファームウェアバージョンを更新していませんでした。これは修正されました。
+* プレーヤーは、アップグレード後にファームウェアバージョンをアップデートしていませんでした。 このバグは修正されました。
 
 * 以前のプレーヤー設定でディスプレイのプレビューが停止します。
 

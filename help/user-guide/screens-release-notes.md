@@ -9,10 +9,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 41%
+source-wordcount: '250'
+ht-degree: 34%
 
 ---
 
@@ -37,7 +37,7 @@ AEM Screens 機能パック 201809 のリリース日は 2018 年 10 月 1 日�
 * **オフラインコンテンツの一括更新**：すべてのチャネルを一括で更新できます。特定のチャネルに移動してコンテンツを更新する手間が省けます。 参照： [オフライン一括更新](bulk-offline-update.md) を参照してください。
 
 * **すべてのパブリッシュインスタンスへのチャネルの一括公開**
-* **プレーヤーのログメカニズムの機能強化**：AEM Screens Player の最大ログファイル数を指定できます。参照： [AEM Screens Player の操作](working-with-screens-player.md) を参照してください。
+* **強化されたプレーヤーログメカニズム**:AEM Screens Player の最大ログファイル数を指定できます。 参照： [AEM Screens Player の操作](working-with-screens-player.md) を参照してください。
 
 * **オーサー／パブリッシュのデプロイメント（堅牢化）**
 

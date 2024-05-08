@@ -1,17 +1,17 @@
 ---
 title: プレーヤーデバイスのハードウェア選定ガイドライン
 description: AEM Screens Player デバイスのハードウェア選定ガイドラインについて説明します。
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 79%
+ht-degree: 74%
 
 ---
 
 
 # プレーヤーデバイスのハードウェア選定ガイドライン {#hardware-selection}
 
-この節では、AEM Screens Player のハードウェア選定ガイドラインを示します。
+次の節では、AEM Screens Player のハードウェア選定ガイドラインを示します。
 
 ## 重要な検討事項 {#important-considerations}
 

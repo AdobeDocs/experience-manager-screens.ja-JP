@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 35%
@@ -102,7 +102,7 @@ DAM ワークフローを使用して FullHD レンディションを作成す�
 
 #### 自動再生ポリシーフラグのトラブルシューティング {#troubleshooting-autoplay-policy-flag}
 
-AEM Screens Player がビデオを取得しても表示されない場合は、「自動再生ポリシー」フラグのトラブルシューティングを行います。
+AEM Screens Player でビデオが選択されても表示されない場合は、「自動再生ポリシー」フラグのトラブルシューティングを行います。
 
 Googleの自動再生ポリシーフラグの問題をトラブルシューティングするには、次の手順に従います。
 

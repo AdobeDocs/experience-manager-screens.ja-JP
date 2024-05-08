@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 65%
+source-wordcount: '342'
+ht-degree: 47%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 65%
 
 AEM Screens は、AEM 6.5 機能パック 5 をリリースしました。
 
-Adobe ID を使用して、AEM Screens 6.5.5 リリースの最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からダウンロードできます。「**Adobe Experience Manager**」タブに移動し、「**Screens**」を検索して最新の機能パックを入手します。
+AEM Screens 6.5.5 リリースの最新の機能パックは、からダウンロードできます。 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe IDを使用する。 に移動します。 **Adobe Experience Manager** タブで「」を検索 **スクリーン** 最新の機能パックを取得するには、
 
 ## リリース日 {#release-date}
 
@@ -38,7 +38,7 @@ AEM Screens 機能パック 202008 のリリース日は 2020 年 9 月 3 日で
 
 * **繰り返しスケジュール**
 
-  繰り返しスケジュールを使用すると、チャネルに繰り返しスケジュールを設定できます。 1 つのチャネルに対して、複数の繰り返しスケジュールを設定します。
+  繰り返しスケジュールを使用すると、チャネルに繰り返しスケジュールを設定できます。 チャネルに対して複数の繰り返しスケジュールを設定できます。
 
   詳しくは、「[繰り返しスケジュール](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule)」を参照してください。
 
@@ -46,7 +46,7 @@ AEM Screens 機能パック 202008 のリリース日は 2020 年 9 月 3 日で
 
   音声認識機能を使用すると、音声操作によって駆動される AEM Screens チャネルのコンテンツを変更できます。
 
-  コンテンツ作成者は、ディスプレイを音声対応となるよう設定できます。この機能の目的は、お客様がディスプレイを操作する方法として音声を使用できるようにすることです。
+  コンテンツ作成者は、音声対応のディスプレイを設定できます。 この機能の目的は、お客様がディスプレイを操作する方法として音声を使用できるようにすることです。
 
   詳しくは、[音声認識](voice-recognition.md)を参照してください。
 

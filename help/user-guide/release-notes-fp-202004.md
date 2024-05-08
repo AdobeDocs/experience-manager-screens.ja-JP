@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 56%
+source-wordcount: '375'
+ht-degree: 31%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 56%
 
 AEM Screens は、AEM 6.4 機能パック 8 および AEM 6.5 機能パック 4 をリリースしました。
 
-Adobe ID を使用して、AEM Screens 6.4.8 または AEM Screens 6.5.4 リリースの最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からダウンロードできます。「**Adobe Experience Manager**」タブに移動し、「**Screens**」を検索して最新の機能パックを入手します。
+AEM Screens 6.4.8 またはAEM Screens 6.5.4 リリースの最新の機能パックは、からダウンロードできます。 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe IDを使用する。 に移動します。 **Adobe Experience Manager** タブで「」を検索 **スクリーン** 最新の機能パックを取得するには、
 
 ## リリース日 {#release-date}
 
@@ -32,19 +32,19 @@ AEM Screens 機能パック 202004 のリリース日は 2020 年 4 月 20 日�
 
 * **再生中断方法のオプション**
 
-  コンテンツ作成者は、チャネルが中断されたタイミングを指定します。これにより、重要でないコンテンツの再生を停止しますが、スケジュールが設定されているので、重要なコンテンツの再生は完全に停止してから行うことができます。
+  コンテンツ作成者は、チャネルが中断されたタイミングを指定します。 このアクションは、重要でないコンテンツを停止する一方で、スケジュールによって再生が中断される前に、重要なコンテンツを完全に再生することをオプションとして選択できる場合に役立ちます。
 
-  から利用できるオプションの詳細については、こちらを参照してください。 **チャネル割り当て** この機能をAEM Screens プロジェクトに実装するためのダイアログボックスについては、の節を参照してください。 **[割り込み方法](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
+  から使用できるオプションの詳細については、を参照してください。 **チャネル割り当て** この機能をAEM Screens プロジェクトに実装するためのダイアログボックスについては、の節を参照してください。 **[割り込み方法](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
 
 * **Screens ローンチ**
 
-  コンテンツ作成者のユーザーエクスペリエンスのフローが改善され、将来バージョン公開を使用するためのクリック数が減少しました。
+  コンテンツ作成者のユーザーエクスペリエンスフローが改善され、今後の公開で使用するためのクリック数が減りました。
 
   参照： **[Screens ローンチを使用したコンテンツの更新](launches.md)** を参照してください。
 
 * **チャネルダッシュボード**
 
-  **チャネル情報**&#x200B;パネルのチャネルダッシュボードに手順の更新を反映します。
+  に、チャネルダッシュボードの手順の更新を反映します **チャネル情報** パネル。
 
 
 * **マニフェストを表示**
@@ -61,7 +61,7 @@ AEM Screens 機能パック 202004 のリリース日は 2020 年 4 月 20 日�
 
 * **コマンド同期の機能強化**
 
-  この機能パックのリリースでは、アセットの変更間のコマンド同期遅延の改善が反映されています。
+  この機能パック リリースでは、アセット変更間のコマンド同期遅延の改善が反映されています。
 
   参照： **[コマンド同期](using-command-sync.md)** を参照してください。
 

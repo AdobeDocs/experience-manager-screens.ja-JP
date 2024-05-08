@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '313'
 ht-degree: 40%
 
 ---
@@ -45,9 +45,9 @@ AEM Screens 機能パック 201905 のリリース日は 2019 年 5 月 16 日�
 
 * **緊急チャネル**
 
-このユースケースの例では、事前条件がある場合にコンテンツ作成者がシーケンスチャネルから切り替えることができる緊急チャネルを作成および管理することに重点を置いています。
+このユースケースの例では、前提条件がある場合にコンテンツ作成者がシーケンスチャネルからシーケンスチャネルに切り替えることができる緊急チャネルを作成および管理することに重点を置いています。
 
-参照： **[緊急チャネル](emergency-channel.md)** 詳しくは、ユースケースを参照してください。
+参照： **[緊急チャネル](emergency-channel.md)** ユースケースを参照してください。
 
 * **AEM SPA Editor を使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合**
 

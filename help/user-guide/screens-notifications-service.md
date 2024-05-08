@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 20%
+ht-degree: 19%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 20%
 
 ## 概要 {#overview}
 
-***AEM Screens通知サービス*** 設定可能な時間AEM Screens player が ping を送信しなかった場合、それを知らせるメールを管理者に送信します。
+***AEM Screens通知サービス*** 設定可能な期間AEM Screens Player が ping を送信しなかった場合、それを知らせるメールを管理者に送信します。
 
 このサービスは OSGi Web コンソールで設定できます。
 

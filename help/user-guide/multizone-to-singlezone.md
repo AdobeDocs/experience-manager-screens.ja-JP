@@ -1,21 +1,21 @@
 ---
-title: マルチゾーンからシングルゾーンへのトランジションの使用例
+title: MultiZone から SingleZone への移行のユースケース
 description: このページでは、MultiZone から SingleZone への移行のユースケースについて説明します。
 contentOwner: Jyotika Syal
 feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 32%
+ht-degree: 29%
 
 ---
 
 # マルチゾーンからシングルゾーンへのトランジション {#multizone-to-singlezone-use-case}
 
-## 使用例の説明 {#use-case-description}
+## ユースケースの説明 {#use-case-description}
 
 ここでは、シングルゾーンレイアウトチャネルと交互に使用されるマルチゾーンレイアウトチャネルの設定方法に重点を置いたユースケース例を説明します。 マルチゾーンチャネルには画像/ビデオアセットのシーケンスがあり、マルチゾーンからシングルゾーンに、またはその逆に切り替わるプロジェクトを設定する方法を示します。
 

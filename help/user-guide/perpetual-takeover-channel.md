@@ -1,15 +1,15 @@
 ---
 title: 永続テイクオーバーチャネル
-description: 永続テイクオーバーチャネルを作成する場合は、この使用例に従います。
+description: 永続テイクオーバーチャネルを作成する場合は、このユースケースに従ってください。
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '869'
-ht-degree: 38%
+ht-degree: 36%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 38%
 
 以下では、特定の日時に継続的に再生される永続テイクオーバーチャネルを作成するプロジェクトのセットアップに重点を置いた使用例を示します。
 
-## 使用例の説明 {#use-case-description}
+## ユースケースの説明 {#use-case-description}
 
 このユースケースでは、次の条件を満たすチャネルの作成方法を説明します *引き継ぐ* ディスプレイまたはディスプレイのグループの通常再生チャネルから。 乗っ取りは、特定の日と時間、永続的に発生します。
 例えば、毎週金曜日の午前 9:00～午前 10:00 に再生される永続テイクオーバーチャネルがあります。この間、他のチャネルは再生されません。 次の例では、毎週水曜日の午後 2 時から午後 4 時までの 2 時間、コンテンツを再生できる永続テイクオーバーチャネルを作成する例を示します。

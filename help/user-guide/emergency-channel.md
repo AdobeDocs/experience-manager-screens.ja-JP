@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 49%
@@ -18,7 +18,7 @@ ht-degree: 49%
 
 # 緊急チャネル {#emergency-channel}
 
-## 使用例の説明 {#use-case-description}
+## ユースケースの説明 {#use-case-description}
 
 ここでは、緊急チャネルの作成と管理に重点を置いた使用例について説明します。事前条件が存在する場合、コンテンツ作成者はシーケンスチャネルから緊急チャネルに切り替えることができます。
 
@@ -183,6 +183,6 @@ ht-degree: 49%
 
 ### まとめ {#conclusion}
 
-この **Emergen シーチャネル** コンテンツ作成者が優先度の値を 1 にリセットするまで、コンテンツの表示を続けます。
+この **Emergen シーチャネル** コンテンツ作成者が優先度の値を 1 にリセットするまで、コンテンツを表示し続けます。
 
 コンテンツ作成者は、緊急事態が解除されたという指示を受け取ったら、の優先度を更新する必要があります **MainAdChannel** これにより、通常の再生が再開されます。

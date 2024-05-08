@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '244'
 ht-degree: 40%
 
 ---
@@ -33,7 +33,7 @@ AEM Screens 機能パック 201812 のリリース日は 2019 年 1 月 16 日�
 
 * **チャネル内のアセットへのテキストオーバーレイ**
 
-  テキストオーバーレイは、AEM Screensで使用できる機能で、画像の上にオーバーレイされたタイトルや説明を提供することで、シーケンスチャネルで魅力的なエクスペリエンスを作成できます。 参照： [**テキストオーバーレイ**](text-overlay.md).
+  テキストオーバーレイは、AEM Screensで利用できる機能です。 画像の上にオーバーレイされるタイトルや説明を提供することで、シーケンスチャネルで魅力的なエクスペリエンスを作成できます。 参照： [**テキストオーバーレイ**](text-overlay.md).
 
 * **複数アセットスケジュール設定**
 

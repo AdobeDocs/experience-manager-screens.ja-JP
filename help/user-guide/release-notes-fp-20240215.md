@@ -5,23 +5,23 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4149f5b-42c0-43c8-b275-ecbe90104a98
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: fe4f7d593ccea91f6109a0c759aea3faa37ae471
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 74%
+ht-degree: 44%
 
 ---
 
 # 機能パック 20240215 のリリースノート {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobeでは、最新バージョンの 6.5 Adobe Experience Manager（AEM 6.5）にアップグレードすることをお勧めします。 から最新のバージョン情報を取得できます。 [こちら](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/release-notes/release-notes)
+>Adobeでは、最新バージョンの 6.5 Adobe Experience Manager（AEM 6.5）にアップグレードすることをお勧めします。 から最新のバージョン情報を取得できます。 [こちら](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/release-notes/release-notes).
 
 ## 可用性 {#availability}
 
 AEM Screens は、AEM 6.5 機能パック 11.3 をリリースしました。
 
-Adobe ID を使用して、AEM Screens 6.5.11.3 リリースの最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からダウンロードできます。「**Adobe Experience Manager**」タブに移動し、「**Screens**」を検索して「**AEM 6.5 Screens FP11.3**」というタイトルが付いた最新の機能パックを入手します。
+AEM Screens 6.5.11.3 リリースの最新の機能パックは、からダウンロードできます。 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe IDを使用する。 に移動します。 **Adobe Experience Manager** タブで「」を検索 **スクリーン** というタイトルの最新の機能パックを取得するには **AEM 6.5 Screens FP11.3**.
 
 ## リリース日 {#release-date}
 

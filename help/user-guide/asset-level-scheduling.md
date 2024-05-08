@@ -5,10 +5,10 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1460'
-ht-degree: 54%
+ht-degree: 50%
 
 ---
 
@@ -224,7 +224,7 @@ ht-degree: 54%
 
 ## ユニバーサル開始時刻のグローバルオーバーライド {#global-override-scheduling}
 
-***ユニバーサル開始時刻のグローバルオーバーライド***&#x200B;は、コンテンツ作成者が特定の時間に基づいて画像アセットまたはビデオアセットの再生を定義できる設定です。個々のプレーヤーの時間／タイムゾーン設定は使用されません。
+***ユニバーサル開始時刻のグローバルオーバーライド***&#x200B;は、コンテンツ作成者が特定の時間に基づいて画像アセットまたはビデオアセットの再生を定義できる設定です。 個々のプレーヤーの時間／タイムゾーン設定は使用されません。
 
 通常、再生は特定のプレーヤーのローカル時間によって決定されますが、グローバルオーバーライドでは、特定のユニバーサル開始時刻を使用してアセットの再生を開始できます。
 

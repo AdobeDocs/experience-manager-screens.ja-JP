@@ -5,26 +5,26 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 53%
+source-wordcount: '1282'
+ht-degree: 43%
 
 ---
 
 # キックスタートガイド {#kickstart-guide}
 
-AEM Screens のキックスタートで、AEM Screens プロジェクトの設定および実行方法について説明します。基本的なデジタルサイネージエクスペリエンスの設定、各チャネルへのアセットやビデオなどのコンテンツの追加、さらにそのコンテンツの AEM Screens Player への公開に関する手順を説明します。
+AEM Screens のキックスタートで、AEM Screens プロジェクトの設定および実行方法について説明します。基本的なデジタルサイネージエクスペリエンスを設定し、アセットやビデオなどのコンテンツを各チャネルに追加し、AEM Screens Player に公開する手順について説明します。
 
 >[!NOTE]
->プロジェクトの詳細に取り組む前に、AEM Screensの最新の機能パックがインストールされていることを確認してください。 Adobe ID を使用して、リリースの最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からダウンロードできます。
+>プロジェクトの詳細に取り組む前に、AEM Screensの最新の機能パックがインストールされていることを確認してください。 最新の機能パックは、からダウンロードできます [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe IDを使用する。
 
 ## 前提条件 {#prerequisites}
 
-次の手順に従って、AEM Screens のサンプルプロジェクトを作成し、コンテンツを Screens Player に公開します。
+次の手順に従って、AEM Screensのサンプルプロジェクトを作成し、コンテンツを Screens Player にさらに公開します。
 
 >[!NOTE]
->次のチュートリアルは、Chrome OS プレーヤーでチャネルのコンテンツを再生する場合を示します。
+>次のチュートリアルでは、Chrome OS プレーヤーでチャネルのコンテンツを再生する方法を示します。
 
 >[!IMPORTANT]
 >**OSGi 設定**
@@ -87,7 +87,7 @@ AEM Screens プロジェクトを作成したら、コンテンツを管理す�
 
 ### チャネルへのコンテンツの追加 {#adding-content}
 
-チャンネルを用意したら、AEM Screens Player で表示できるコンテンツをチャンネルに追加します。
+チャンネルを設定したら、AEM Screens Player で表示できるコンテンツをチャンネルに追加します。
 
 以下の手順に従って、プロジェクトのチャネル（**TestChannel**）にコンテンツを追加します。
 
@@ -162,18 +162,18 @@ AEM Screens プロジェクトを作成したら、コンテンツを管理す�
 
 1. 「**チャネル割り当て**」ダイアログボックスが開きます。
 
-1. 「**設定**」オプションから、チャネルを&#x200B;**パスで**&#x200B;選択し、「**サポートされているイベント**」として「**初期ロード**」と「**待機中画面**」を選択します。
+1. から **設定** オプション、チャネルを選択します **パス別** および **サポートされるイベント** 例： **初期読み込み** および **アイドル画面**.
 
    >[!NOTE]
    >
-   >「**チャネルロール**」、「**優先度**」、「**中断メソッド**」は、すべてデフォルトで設定されます。参照： [チャネルプロパティ](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) チャネル割り当てプロパティの詳細については、を参照してください。
+   >「**チャネルロール**」、「**優先度**」、「**中断メソッド**」は、すべてデフォルトで設定されます。を参照してください。 [チャネルプロパティ](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) チャネル割り当てプロパティの詳細については、を参照してください。
 
    ![画像](assets/kickstart/demo-assign3.png)
 
    また、 **アクティベーションウィンドウ** および **繰り返しスケジュール**.
 
    >[!NOTE]
-   >この *繰り返しスケジュール* チャネルに繰り返しスケジュールを設定できます。 1 つのチャネルに対して、複数の繰り返しスケジュールを設定します。
+   >この *繰り返しスケジュール* チャネルに繰り返しスケジュールを設定できます。 チャネルに対して複数の繰り返しスケジュールを設定できます。
    >詳しくは、「[繰り返しスケジュール](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule)」を参照してください。
 
 1. 環境を設定したら、「**保存**」をクリックします。
@@ -183,7 +183,7 @@ AEM Screens プロジェクトを作成したら、コンテンツを管理す�
 AEM ダッシュボードを使用してデバイスを登録します。
 
 >[!IMPORTANT]
->Chrome OS プレーヤーは、実際の Chrome プレーヤーデバイスがなくても、開発者モードで Chrome ブラウザープラグインとしてインストールできます。インストールについては、次の手順に従います。
+>Chrome OS プレーヤーは、実際の Chrome プレーヤーデバイスを必要とせずに、開発者モードで Chrome ブラウザープラグインとしてインストールすることができます。 インストールについては、次の手順に従います。
 >
 >1. [ここ](https://download.macromedia.com/screens/)をクリックして、最新の Chrome プレーヤーをダウンロードします。
 >1. 解凍してディスクに保存します。

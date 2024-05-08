@@ -1,17 +1,17 @@
 ---
 title: エクスペリエンスフラグメントアクティベーション
 description: AEM Screensに関連するエクスペリエンスフラグメントのアクティベーションについて学ぶのに役立つ使用例です。
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 51%
+ht-degree: 49%
 
 ---
 
 
 # エクスペリエンスフラグメントのアクティベーション：OmniChannel エクスペリエンス {#experience-fragments-activation}
 
-## 使用例の説明 {#use-case-description}
+## ユースケースの説明 {#use-case-description}
 
 エクスペリエンスフラグメントは、ページ内で参照されるコンテンツおよびレイアウトを含む 1 つ以上のコンポーネントのグループです。
 

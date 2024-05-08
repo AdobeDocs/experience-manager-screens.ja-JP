@@ -9,10 +9,10 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 58%
+source-wordcount: '682'
+ht-degree: 50%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 58%
 
 ## ヘルスチェックフレームワーク {#health-check-framework}
 
-ヘルスチェックフレームワークを使用すると、AEM Screens プロジェクトを実行する前に、必要な設定が 2 つあるかどうかを確認できます。
+ヘルスチェックフレームワークを使用すると、AEM Screens プロジェクトを実行する前に、2 つの必要な設定が設定されているかどうかを確認できます。
 
 次の 2 つの設定を確認して、AEM Screens プロジェクトを実行できます。つまり、次の 2 つのフィルターの状態を確認できます。
 
@@ -42,7 +42,7 @@ ht-degree: 58%
    ![アセット](assets/health-check1.png)
 
 
-2. クリック **選択したヘルスチェックの実行** したがって、上記の 2 つのプロパティに対して検証を実行できます。
+2. クリック **選択したヘルスチェックを実行します** したがって、上記の 2 つのプロパティに対して検証を実行できます。
 
    両方のフィルターが有効な場合、**Screens Configuration Health Service** では&#x200B;**結果**&#x200B;が&#x200B;**OK**&#x200B;と表示され、両方の設定が有効となっています。
 
@@ -93,7 +93,7 @@ AEM Screens で使用できるように AEM サーバーを設定する際に役
 
    ![画像](assets/config/config-1.png)
 
-1. 「**Save**」をクリックし、*HTTP* サービスを有効にします。
+1. クリック **保存** を有効にします *Http* サービス。
 
 #### AEM Screens のタッチ操作対応 UI の有効化 {#enable-touch-ui-for-aem-screens}
 
@@ -116,11 +116,11 @@ AEMを実稼動環境で実行するには、を使用します **NOSAMPLECONTEN
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`。
 
-これは、AEM Screens Player でオンラインチャネルを再生するために必要です。
+この削除は、AEM Screens Player でオンラインチャネルを再生するために必要です。
 
 #### パスワード制限 {#password-restrictions}
 
-***DeviceServiceImpl*** の最新の変更により、パスワード制限を削除する必要がなくなりました。
+最新の変更で ***DeviceServiceImpl***&#x200B;パスワード制限を削除する必要はありません。
 
 以下を設定できます ***DeviceServiceImpl*** 以下のリンクから、スクリーンデバイスユーザーのパスワードを作成する際にパスワード制限を有効にします。
 

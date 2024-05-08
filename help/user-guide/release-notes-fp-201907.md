@@ -10,10 +10,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
-source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 52%
+source-wordcount: '375'
+ht-degree: 44%
 
 ---
 
@@ -33,15 +33,16 @@ AEM Screens 機能パック 201907 のリリース日は 2019 年 7 月 31 日�
 
 * **AEM Screens チャネルのアセット変更を駆動するデータトリガー**
 
-プレーヤーは、緊急システムで発生したイベントを受信すると、緊急情報を表示するチャネルに切り替わります。緊急事態が終わるまで、そのチャネルだけが再生されます。
+プレイヤは、緊急情報を表示するチャンネルに切り替える。 緊急システムは、イベントを受け取ると、この情報を送信します。 緊急事態が終わるまで、そのチャネルだけが再生されます。
+
 
 参照： [緊急チャネル](emergency-channel.md) 実装のユースケース。
 
 * 非同期コンポーネントのターゲティングが有効
 
-AEM Screens プロジェクトで使用されるアセットに対してターゲティングを有効にできるようになりました。
+AEM Screens プロジェクトで使用されるアセットに対して、ターゲティングを有効にできるようになりました。
 
-AEM Screens プロジェクトでアセットのターゲティングを有効にする方法については、 [AEM Screensでの ContextHub の設定](configuring-context-hub.md).
+AEM Screens プロジェクトでアセットのターゲティングを有効にする方法について詳しくは、 [AEM Screensでの ContextHub の設定](configuring-context-hub.md).
 
 AEM Screens プロジェクトに ContextHub を設定したら、以下の様々な使用例を通じて、データでトリガーされるアセットが様々な業界でいかに重要な役割を果たしているかを理解できます。
 

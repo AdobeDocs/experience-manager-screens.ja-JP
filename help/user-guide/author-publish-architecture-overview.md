@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 41%
@@ -40,7 +40,7 @@ ht-degree: 41%
 
 AEM Screens のアーキテクチャは、従来の AEM Sites のアーキテクチャに似ています。コンテンツは AEM オーサーインスタンスで作成された後、複数のパブリッシュインスタンスにフォワードレプリケートされます。AEM Screensのデバイスは、ロードバランサーを介してAEM パブリッシュファームに接続できるようになりました。 複数の AEM パブリッシュンスタンスを追加して、パブリッシュファームの拡大／縮小を続行できます。
 
-*例：* AEM Screensのコンテンツ作成者は、特定のデバイスのオーサリングシステムでコマンドを発行します。 そのデバイスは、パブリッシュファームまたはパブリッシュファームと対話するように設定されているデバイスに関する情報を取得するAEM Screens コンテンツ作成者と対話するように設定されています。
+*例：* AEM Screens コンテンツ作成者は、特定のデバイスのオーサリングシステムでコマンドを発行します。 そのデバイスは、パブリッシュファームまたはパブリッシュファームと対話するように設定されているデバイスに関する情報を取得するAEM Screens コンテンツ作成者と対話するように設定されています。
 
 次の図に、オーサー環境と公開環境の両方を示します。
 

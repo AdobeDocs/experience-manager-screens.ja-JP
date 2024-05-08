@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 41%
+source-wordcount: '307'
+ht-degree: 26%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 41%
 
 AEM Screens では、AEM 6.5 機能パック 3 をリリースしました。
 
-Adobe ID を使用して、AEM Screens 6.5.3 リリースの最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からダウンロードできます。「**Adobe Experience Manager**」タブに移動し、「**Screens**」を検索して「**AEM 6.5 Screens FP3**」というタイトルが付いた最新の機能パックを入手します。
+AEM Screens 6.5.3 リリースの最新の機能パックは、からダウンロードできます。 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe IDを使用する。 に移動します。 **Adobe Experience Manager** タブで「」を検索 **スクリーン** というタイトルの最新の機能パックを取得するには **AEM 6.5 Screens FP3**.
 
 ## リリース日 {#release-date}
 
@@ -35,7 +35,7 @@ AEM Screens 機能パック 202001 のリリース日は 2020年1月31日（PT�
 コマンド同期を使用すると、異なるプレーヤー間で再生を同期させることができます。プレーヤーは異なるコンテンツを再生できますが、各アセットのデュレーションは同じである必要があります。
 コマンド同期の詳細と、プライマリとクライアントの設定方法については、を参照してください。 [コマンド同期の使用](using-command-sync.md).
 
-* **https のステータスを表示し、空のリファラーを許可するためのヘルスチェックフレームワーク**
+* **https のステータスを表示し、空のリファラーを許可するヘルスチェックフレームワーク**
 
 ヘルスチェックフレームワークを使用すると、AEM Screens プロジェクトを実行する前に 2 つの必要な設定（空のリファラーリクエストと Apache Felix Jetty ベースの HTTP サービスを許可）がセットアップされているかどうかを確認できます。
 

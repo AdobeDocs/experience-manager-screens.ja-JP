@@ -2,10 +2,10 @@
 title: AEM Screensでのオーサーインスタンスとパブリッシュインスタンスの設定
 description: AEM Screensのオーサーインスタンスとパブリッシュインスタンスを設定する方法について説明します。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1923'
-ht-degree: 41%
+ht-degree: 40%
 
 ---
 
@@ -220,7 +220,7 @@ Screens には、次の 3 つのレプリケーションエージェントが必
 
 >[!NOTE]
 >
->AEM Screens Player を開くには、ダウンロードした AEM Screens アプリか Web ブラウザーを使用します。
+>ダウンロードしたAEM Screens アプリまたは web ブラウザーを使用して、AEM Screens Player を開くことができます。
 
 #### 手順 2：オーサー環境へのデバイスの登録 {#step-registering-a-device-on-author}
 
@@ -264,7 +264,7 @@ Screens には、次の 3 つのレプリケーションエージェントが必
 
 >[!NOTE]
 >
->または、デバイスをアクティブにした後で、サーバー URL を編集または更新することもできます。 クリック **サーバー URL を編集** 次の図に示すように、アクションバーから、変更内容がAEM Screens player に反映されます。
+>または、デバイスをアクティブにした後で、サーバー URL を編集または更新することもできます。 クリック **サーバー URL を編集** 次の図に示すように、アクションバーから、変更内容がAEM Screens Player に反映されます。
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -296,13 +296,13 @@ Screens には、次の 3 つのレプリケーションエージェントが必
 1. サイドパネルの「**設定**」オプションをクリックします。
 1. オーサーインスタンスをパブリッシュインスタンスに変更する場所 **サーバー**.
 
-AEM Screens Player で変更結果を表示します。
+AEM Screens Player で変更内容を表示します。
 
 または、次の手順に従って、デバイス管理コンソールでサーバー URL を更新または編集することもできます。
 
 1. AEM Screens プロジェクトに移動し、 **デバイス** フォルダー。
 1. アクションバーの「**デバイスマネージャー**」をクリックします。
-1. デバイスをクリックし、 **サーバー URL を編集** アクションバーから（下図を参照）、変更内容がAEM Screens player に反映されます。
+1. デバイスをクリックし、 **サーバー URL を編集** アクションバーから（下図を参照）、変更内容がAEM Screens Player に反映されます。
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 

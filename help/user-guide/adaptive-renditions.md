@@ -2,10 +2,10 @@
 title: アダプティブレンディションのアーキテクチャ概要と設定
 description: AEM ScreensのアダプティブレンディションCRXDE Liteにおけるアーキテクチャ概要と設定について説明します。
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 40%
+source-wordcount: '620'
+ht-degree: 37%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 40%
 
 ## はじめに {#introduction}
 
-アダプティブレンディションを使用すると、顧客定義のルールに基づいて、デバイスに最適なレンディションをデバイスで自動的にクリックできます。 これらのルールに基づいて、アセットの最も適切なレンディションをデバイスが自動的にダウンロードして再生するので、ユーザーはアセットの設計に専念できます。 *メイン* 経験。
+アダプティブレンディションを使用すると、顧客定義のルールに基づいて、デバイスに最適なレンディションをデバイスで自動的にクリックできます。 これらのルールに基づいて、アセットの最も適切なレンディションをデバイスが自動的にダウンロードして再生するので、ユーザーはアセットのデザインに専念できます。 *メイン* エクスペリエンスのみ。
 
 ## 目的 {#objective}
 
@@ -41,7 +41,7 @@ AEM Screens 開発者は、すべてのコンテンツバリエーションを�
    >![画像](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >最新の機能パック 202109 をインストールした場合は、 **rendition-mapping** で事前入力されたノード構造 `/conf/screens/sling:configs/rendition-mapping` CRXDE Liteで。 最新の機能パックについて詳しくは、[機能パック 202109 のリリースノート](/help/user-guide/release-notes-fp-202109.md)を参照してください。
+   >最新の機能パック 202109 をインストールした場合は、 **rendition-mapping** で事前入力されたノード構造 `/conf/screens/sling:configs/rendition-mapping` CRXDE Liteで。 参照： [機能パック 202109 のリリースノート](/help/user-guide/release-notes-fp-202109.md) 最新の機能パックについて詳しくは、こちらを参照してください。
    >既存プロジェクトの場合は、Screens プロジェクトに **rendition-mapping** 設定が関連付けられていることを確認します。参照： [既存プロジェクトへのレンディションマッピングの追加](#rendition-mapping-existing) を参照してください。
 
 ### 既存プロジェクトへのレンディションマッピングプロパティの追加 {#rendition-mapping-existing}
@@ -72,7 +72,7 @@ AEM Screens 開発者は、すべてのコンテンツバリエーションを�
    >[!NOTE]
    >参照： [メディアクエリの構文の使用](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) を参照してください。
 
-   クリック **rule1** を作成し、を入力します **式** 。対象： **名前** および **（方向：横）** 。対象： **値**&#x200B;を参照してください。 「**追加**」をクリックします。
+   クリック **rule1** を作成し、 **式** 。対象： **名前** および **（方向：横）** 。対象： **値**&#x200B;を参照してください。 「**追加**」をクリックします。
 
    ![画像](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -81,7 +81,7 @@ AEM Screens 開発者は、すべてのコンテンツバリエーションを�
    >[!NOTE]
    >pattern プロパティで定義された値は新しいアセットレンディションと照合され、式が true と評価された場合は選択されます。
 
-   pattern プロパティを追加するには、以下をクリックします。 **rule1** を作成し、を入力します **pattern** 。対象： **名前** および **横** 。対象： **値**&#x200B;を参照してください。 「**追加**」をクリックします。
+   pattern プロパティを追加するには、以下をクリックします。 **rule1** を作成し、 **pattern** 。対象： **名前** および **横** 。対象： **値**&#x200B;を参照してください。 「**追加**」をクリックします。
 
    ![画像](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
@@ -91,4 +91,4 @@ AEM Screens 開発者は、すべてのコンテンツバリエーションを�
 
 ## 次の手順 {#next-steps}
 
-rendition-mapping プロパティおよびルールを追加したら、コンテンツ作成者はアセットを設定できます。 これを行うには、アダプティブレンディションを使用し、また、この機能をAEM Screens チャネルで使用するために、デバイスを大規模なネットワーク用に移行します。 参照： [AEM Screensでのアダプティブレンディションの使用](/help/user-guide/using-adaptive-renditions.md) を参照してください。
+rendition-mapping プロパティおよびルールを追加したら、コンテンツ作成者はアセットを設定できます。 アダプティブレンディションを使用したり、デバイスを大規模なネットワークに移行してAEM Screens チャネルでこの機能を使用したりできます。 参照： [AEM Screensでのアダプティブレンディションの使用](/help/user-guide/using-adaptive-renditions.md) を参照してください。

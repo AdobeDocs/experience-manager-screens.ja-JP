@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '2426'
-ht-degree: 48%
+ht-degree: 47%
 
 ---
 
@@ -260,7 +260,7 @@ AEM Screens プロジェクトに動的埋め込みシーケンスを実装す�
 >* [AEM Screens Player での作業](working-with-screens-player.md)
 
 
-以下では、ディスプレイパスに応じて、AEM Screens Player でチャネルのコンテンツを確認します。
+以下の出力は、ディスプレイパスに応じて、AEM Screens Player のチャネルコンテンツを確認するものです。
 
 **シナリオ 1**：
 
@@ -280,7 +280,7 @@ AEM Screens プロジェクトに動的埋め込みシーケンスを実装す�
 
 ACL を編集して、場所に基づいてコンテンツに対するユーザーのアクセスを制限できます。
 
-### ユースケース例 {#example-use-case}
+### 使用例 {#example-use-case}
 
 次の例では、上記のデモプロジェクトに 3 人のユーザーを作成できます。
 

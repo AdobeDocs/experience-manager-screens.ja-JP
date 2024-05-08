@@ -10,7 +10,7 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 36%
@@ -23,7 +23,7 @@ ht-degree: 36%
 
 ## デバイスコントロールセンターからの監視およびトラブルシューティング {#monitor-and-troubleshoot-from-device-control-center}
 
-デバイスダッシュボードを使用して、アクティビティを監視し、AEM Screens Player のトラブルシューティングを行うことができます。
+アクティビティを監視できるので、Device Dashboard を使用してAEM Screens Player のトラブルシューティングを行えます。
 
 ### デバイスダッシュボード {#device-dashboard}
 
@@ -49,7 +49,7 @@ ht-degree: 36%
 
 ### デバイスアクティビティの監視 {#monitor-device-activity}
 
-この **Activity** パネルには、AEM Screens Player の最後の ping がタイムスタンプと共に表示されます。 最後の ping は、デバイスが最後にサーバーに接続した時刻に対応します。
+この **Activity** パネルには、タイムスタンプと共にAEM Screens Player の最後の ping が表示されます。 最後の ping は、デバイスが最後にサーバーに接続した時刻に対応します。
 
 ![chlimage_1](assets/chlimage_1.png)
 

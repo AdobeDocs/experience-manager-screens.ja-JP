@@ -1,6 +1,6 @@
 ---
 title: Adobe Analytics と AEM Screens の統合
-description: AEM ScreensとAdobe Analyticsの標準統合について説明し、遊びの証拠を提供します。
+description: AEM ScreensとAdobe Analyticsの標準の統合について説明し、遊びの証拠を提供します。
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,10 +10,10 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 54%
+source-wordcount: '672'
+ht-degree: 46%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 54%
 
 >[!CAUTION]
 >
->このAEM Screens機能は、最小バージョンのAEM 6.4.2 機能パック 2 またはAEM 6.3.3 機能パック 4 をインストールしている場合にのみ使用できます。 AEM Screens Cloud Service をご利用のお客様が Screens Cloud でAdobe Analyticsを有効にするには、Adobeのリレーションシップマネージャーにお問い合わせください。
+>このAEM Screens機能は、最小バージョンのAEM 6.4.2 機能パック 2 またはAEM 6.3.3 機能パック 4 をインストールしている場合にのみ使用できます。 AEM Screens Cloud Service のお客様が Screens Cloud でAdobe Analyticsを有効にする場合は、Adobeのリレーションシップマネージャーにお問い合わせください。
 
 >[!NOTE]
 >
->これらの機能パックのいずれかにアクセスするには、Adobeサポートに問い合わせてアクセス権をリクエストします。 Adobe ID を使用して、AEM Screens の最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からダウンロードできます。
+>これらの機能パックのいずれかにアクセスするには、Adobeサポートに問い合わせてアクセス権をリクエストします。 AEM Screensの最新の機能パックは、からダウンロードできます [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe IDを使用する。
 
 ここでは、以下のトピックについて説明します。
 
@@ -45,8 +45,8 @@ AEM Screens は、標準で Adobe Analytics と統合されており、再生検
 * アセット別の再生検証レポートが可能
 * すべてのプレーヤーイベントをキャプチャしタイムスタンプを設定できる
 * 再生がネットワークに接続されていない場合、すべてのプレーヤーイベントをローカルに保存できる
-* フィードバックループを作成して再生イベントを経時的に追跡できる
-* コンテンツ作成者が定義した成功条件に基づいてシステムがコンテンツやレイアウトを変更できる
+* 再生イベントを経時的に追跡するフィードバックループを作成できます
+* コンテンツ作成者が定義した成功基準に基づいて、システムがコンテンツとレイアウトを編集できるようにします
 
 Adobe Analytics と AEM Screens の統合により、*次の*&#x200B;目標を達成できます。
 
@@ -55,7 +55,7 @@ Adobe Analytics と AEM Screens の統合により、*次の*&#x200B;目標を�
 
 ## アーキテクチャの詳細 {#architectural-details}
 
-AEM Screensのお客様は、どのようなコンテンツがいつ表示され、どのくらいの期間（集計）表示されたかを理解したいと考えています。 これは、サイネージソリューションの一般的な機能です。AEM Screensでは、別の分析アプリケーションを構築する代わりに、Adobe Analyticsを使用します。 この組み合わせにより、場所に表示されるコンテンツと他のデータソースを関連付けるのに役立つクロスチャネル分析など、市場で一意のものを実現できます。
+AEM Screensのお客様は、どのようなコンテンツがいつ表示され、どのくらいの期間（集計）表示されたかを理解したいと考えています。 この必要性は、サイネージソリューションの一般的な機能です。 AEM Screensでは、別の分析アプリケーションを構築する代わりに、Adobe Analyticsを使用します。 この組み合わせにより、場所に表示されるコンテンツと他のデータソースを関連付けるのに役立つクロスチャネル分析など、市場で一意のものを実現できます。
 
 次のアーキテクチャ図では、Adobe Analytics と AEM Screens の統合について説明しています。
 
@@ -119,7 +119,7 @@ Adobe Analytics を AEM Screens 用に設定するためのプロパティとそ
 
 #### AEM Screens での Adobe Analytics サービスの使用 {#using-adobe-analytics-service-in-aem-screens}
 
-このシナリオでは、ファームウェア内の Analytics サービスからの REST 呼び出しを使用して、Analytics API を呼び出します。 また、特定の使用例に固有のイベントを明示的に作成して送信するように、AEM screens コアコンポーネントを設定します。 これらをすべて考慮すると、カスタム開発されたチャネルから Analytics にカスタムメッセージを送信できる拡張性も考慮する必要があります。
+このシナリオでは、ファームウェア内の Analytics サービスからの REST 呼び出しを使用して、Analytics API を呼び出します。 また、特定の使用例に固有のイベントを作成して送信するためのAEM screens コアコンポーネントも実装します。 これらすべての機能に加えて、カスタム開発されたチャネルから Analytics にカスタムメッセージを送信できる拡張性も提供します。
 
 Analytics イベントは、IndexedDB にオフラインで保存され、後でまとめてクラウドに送信されます。
 

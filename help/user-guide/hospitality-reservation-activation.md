@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 26%
@@ -23,7 +23,7 @@ ht-degree: 26%
 
 ## 説明 {#description}
 
-このユースケースでは、Google シートには、2 つのレストランの予約率が入力されています **`Restaurant1`** および **`Restaurant2`**. 数式は、次の値に基づいて適用されます `Restaurant1` および `Restaurant2` さらに、数式に基づいて、値 1 または値 2 がに割り当てられます **AdTarget** 列。
+この使用例では、Google シートに、2 つのレストランの予約率が表示されます **`Restaurant1`** および **`Restaurant2`**. 数式は、次の値に基づいて適用されます `Restaurant1` および `Restaurant2` さらに、数式に基づいて、値 1 または値 2 がに割り当てられます **AdTarget** 列。
 
 の値 **`Restaurant1`** > **`Restaurant2`**、次に **広告** 割り当てられた値 **1** それ以外の場合 **AdTarget** 割り当てられた値 **2**. 値 1 の生成 *ステーキ食品* オプションと値 2 の結果、 *タイ料理* ディスプレイ画面のオプション。
 

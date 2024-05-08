@@ -2,10 +2,10 @@
 title: テストと品質保証
 description: AEM Screensのテストと品質保証については、ベストプラクティスガイドを参照してください。
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 51%
+source-wordcount: '332'
+ht-degree: 50%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 51%
 AEM Screens には、Screens Player アプリケーションのエンドポイントを管理するための Device Control Center モジュールが含まれています。
 
 このエンドポイントは、Screens Player アプリケーションがインストールされており、AEM のインスタンスに登録されているあらゆる&#x200B;*プレイヤー*ハードウェアデバイスを指します。
-このモジュールでは次のことができます。
+このモジュールでは、次のことが可能です。
 
 1. プレーヤーアプリケーションエラーログの監視
 1. リモートスクリーンショットの管理

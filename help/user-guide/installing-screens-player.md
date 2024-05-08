@@ -1,15 +1,15 @@
 ---
 title: Screens Player のインストール
-description: AEM Screens Player を正しくインストールする方法を説明します。
+description: AEM Screens Player の正しいインストール方法を説明します。
 contentOwner: jsyal
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 52%
+source-wordcount: '503'
+ht-degree: 44%
 
 ---
 
@@ -29,7 +29,7 @@ AEM Screens Player は、Android™、Chrome OS および Windows で使用で�
 >
 >1. 左上隅のを長押して、管理パネルを開きます。
 >1. 左のアクションメニューから「**設定**」に移動し、AEM インスタンスの場所のアドレスを「**サーバー**」に入力して、「**保存**」をクリックします。
->1. クリック **登録** 左側のアクションメニューからのリンクと以下の手順に従って、デバイス登録プロセスを完了します。
+>1. 「」をクリックします **登録** 左側のアクションメニューからのリンクと以下の手順に従って、デバイス登録プロセスを完了します。
 
 ## 基本的な再生モニタリング {#playback-monitoring}
 
@@ -69,11 +69,11 @@ AEM Screens Player での基本的な再生モニタリングにより、次の�
 
 * プレーヤーが自分自身の再生状態をサーバーに報告するので、アクティブな接続が必要です。
 
-* この `isContentRendering` gpu が大量のリソースを消費しているかどうかを確認するプロパティがデフォルトで有効になっている必要があり、プレーヤーの環境設定で明示的にオプトインする必要があります。 Adobeでは、実稼動環境のビデオでは使用しないことをお勧めします。
+* この `isContentRendering` gpu がデフォルトで有効になる必要があり、GPU がより多くのリソースを消費しているかどうかを確認するプロパティ。プレーヤーの環境設定で明示的にオプトインする必要があります。 Adobeでは、実稼動環境のビデオでは使用しないことをお勧めします。
 
 * この機能はシーケンスチャネルの場合にのみサポートされており、インタラクティブチャネル（SPA）のユースケースにはまだ対応していません。
 
-* これらの指標は、まだ顧客に完全には公開されておらず、Adobeでは、ダッシュボードのようなレポートおよびアラートのメカニズムの有効化に間もなく取り組んでいます。
+* これらの指標は、まだ顧客に完全には公開されていませんが、Adobeでは、ダッシュボードのようなレポートおよびアラートのメカニズムをすぐに有効にするよう取り組んでいます。
 
 ### その他のリソース {#additional-resources}
 
@@ -83,4 +83,4 @@ AEM Screens Player での基本的な再生モニタリングにより、次の�
 
 * Chrome OS プレーヤーを実装するには、を参照してください。 [Chrome 管理コンソール](implementing-chrome-os-player.md) を参照してください。
 
-* AEM Screens Windows プレーヤーを設定するには、以下を参照してください。 [Windows プレーヤーの実装](implementing-windows-player.md).
+* AEM Screens Windows プレーヤーを設定するには、次を参照してください。 [Windows プレーヤーの実装](implementing-windows-player.md).

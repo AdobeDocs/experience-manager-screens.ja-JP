@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 33%
+ht-degree: 31%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 33%
 
 ## 説明 {#description}
 
-この使用例は、3 種類のカラートレーナーの小売在庫を表示します。Google シートに記録されているトレーナーの在庫数に応じて、最も数が多いトレーナー（赤、緑、青のいずれか）の画像がスクリーンに表示されます。
+このユースケースでは、3 種類のカラーのスウェットシャツの小売在庫在庫を表示します。 Google シートに記録されているトレーナーの在庫数に応じて、最も数が多いトレーナー（赤、緑、青のいずれか）の画像がスクリーンに表示されます。
 
 このユースケースでは、使用可能なセーターの最大数に基づいて、赤、緑、青のセーターが画面に表示されます。
 

@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '740'
-ht-degree: 46%
+ht-degree: 44%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 46%
    >
    >デバイスの登録方法については、を参照してください。 [デバイスの登録](/help/user-guide/device-registration.md)
 
-1. デモ用に、この例では、Chrome デバイスと Windows プレーヤーを 2 つの異なるデバイスとして使用します。両方のデバイスが同じディスプレイを指しています。
+1. デモ目的で、この例では Chrome デバイスと Windows プレーヤーを 2 つの異なるデバイスとして表示します。 両方のデバイスが同じディスプレイを指しています。
    ![image1](assets/command-sync6.png)
 
 ### チャネル設定の更新
@@ -91,7 +91,7 @@ ht-degree: 46%
 ### プライマリの設定 {#setting-up-primary}
 
 1. から表示ダッシュボードに移動します **CommandSyncDemo** > **場所**  > **ロビー** > **LobbyDisplay** をクリックして、 **Dashboard** アクションバーから。
-の 2 つのデバイス（chrome と windows プレーヤー）に注目してください。 **デバイス** 以下に示すように、パネル。
+の 2 つのデバイス（chrome と Windows プレーヤー）に注目してください。 **デバイス** 以下に示すように、パネル。
    ![image1](assets/command-sync/command-sync10-1.png)
 
 1. から **デバイス** パネルで、プライマリとして設定するデバイスをクリックします。 次の例は、Chrome デバイスをプライマリとして設定する方法を示しています。クリック **プライマリデバイスとして設定**.

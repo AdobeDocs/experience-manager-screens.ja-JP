@@ -9,28 +9,28 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 53%
+source-wordcount: '870'
+ht-degree: 63%
 
 ---
 
-# Chrome OS プレーヤーの実装  {#implementing-chrome-os-player}
+# Chrome OS プレーヤーの実装 {#implementing-chrome-os-player}
 
 ここでは、Chrome 管理コンソールを使用した Chrome OS プレーヤーの実装方法を説明します。
 
 ## Chrome 管理コンソールの使用 {#using-chrome-management-console}
 
-Chrome 管理コンソールを設定するには、次の手順を実行します。
+Chrome 管理コンソールをセットアップするには、次の手順に従います。
 
-1. Chrome 管理コンソールを登録します。Chrome 管理コンソールのライセンスを取得する必要があります。 Chrome のデバイス設定の管理について詳しくは、[Google サポート](https://support.google.com/chrome/a/answer/1375678?hl=ja&amp;ref_topic=2935995)にお問い合わせください。
-1. Chrome OS デバイスをドメインに登録し、デバイスが Chrome 管理コンソールと同期するまで 15 分間待ちます。Chrome デバイスの登録について詳しくは、[ここ](https://support.google.com/chrome/a/answer/1360534?hl=ja)をクリックしてください。
+1. Chrome 管理コンソールを登録します。Chrome 管理コンソールのライセンスを取得する必要があります。Chrome のデバイス設定の管理について詳しくは、[Google サポート](https://support.google.com/chrome/a/answer/1375678?hl=ja&amp;ref_topic=2935995)にお問い合わせください。
+1. Chrome OS デバイスをドメインに登録し、デバイスが Chrome 管理コンソールと同期するまで 15 分待ちます。 Chrome デバイスの登録について詳しくは、[ここ](https://support.google.com/chrome/a/answer/1360534?hl=ja)をクリックしてください。
 1. Chrome プレーヤーは、Chrome ウェブストアで入手できます。
 
 >[!NOTE]
 >
->Chrome OS デバイスのデプロイメントおよび管理には、Chrome 管理コンソールなどのデバイス管理ソリューションをお勧めします。このドキュメントでは Chrome 管理コンソールの実装を示していますが、同様の機能を提供すると主張するベンダーは他にもあります。 デバイス管理ソフトウェアのベンダーにお問い合わせください。
+>Chrome OS デバイスのデプロイメントおよび管理には、Chrome 管理コンソールなどのデバイス管理ソリューションをお勧めします。このドキュメントでは Chrome 管理コンソールの実装を扱いますが、他のベンダーにも同様の機能を提供するものがあります。デバイス管理ソフトウェアのベンダーにお問い合わせください。
 
 ## Chrome OS プレーヤーの命名 {#name-chrome}
 
@@ -64,7 +64,7 @@ Chrome プレーヤーに名前を設定するには、次の手順に従いま�
 
    ![screen_shot_2017-12-08at20303pm](assets/screen_shot_2017-12-08at20303pm.png)
 
-1. **Device management**／**Chrome Management**／**Device Settings** を参照します。
+1. を参照 **デバイス管理** > **Chrome 管理** > **デバイス設定**.
 1. 「**Kiosk Settings**」にスクロールダウンして、「**Manage Kiosk Applications**」をクリックします。
 
    ![kiosk](assets/kiosk.png)
@@ -88,24 +88,24 @@ Chrome プレーヤーに名前を設定するには、次の手順に従いま�
 
 >[!NOTE]
 >
->これらの設定は、デバイスが登録されてから数分後に有効にすることができます。 各オプションは、時間の経過と共に有効にすることができます。
+>これらの設定が有効になるには、デバイスが登録されてから数分後かかる場合があります。各オプションは、時間が経過すると有効になります。
 
 ### Chrome OS プレーヤーのリモート設定の設定 {#configuring-remote-configuration-of-chrome-os-players}
 
 AEM Screens Player は、キオスク対応アプリケーションです。Chrome OS プレーヤーのリモートポリシー設定にも対応しています。
 
-プレーヤーの様々なオプションを設定するには、次の手順を実行します。
+プレーヤーの様々なオプションを設定するには、次の手順に従います。
 
 1. Chrome 管理コンソールにログインします。
-1. **Device management**／**Chrome Management**／**App Management** をクリックします。AEM Screens Player がリストに表示されます。
+1. クリック **デバイス管理** > **Chrome 管理** > **アプリ管理**. AEM Screens Player がリストに表示されます。
 1. **AEM Screens Player** アプリケーションをクリックします。
 1. クリック **キオスク設定** 組織（*テスト環境を使用する場合*）に設定します。
-1. クリック **設定ファイルをアップロード** を作成し、設定ポリシー（*JSon ファイル*）に設定します。
-1. 「**保存**」をクリックします。デバイスを再起動して、ポリシーを同期します。
+1. 「**設定ファイルをアップロード**」をクリックして、設定ポリシー（*JSON ファイル*）をアップロードします。
+1. 「**保存**」をクリックします。ポリシーを同期するには、デバイスを再起動します。
 
 >[!NOTE]
 >
->デバイスを再起動して、ポリシーの変更を同期します。
+>ポリシーの変更を同期するには、デバイスを再起動します。
 
 #### ポリシー JSON ファイルの例 {#example-policy-json-file}
 
@@ -143,14 +143,14 @@ AEM Screens Player は、キオスク対応アプリケーションです。Chro
 | resolution | デバイスの解像度。 |
 | rebootSchedule | プレーヤーを再起動するスケジュール。 |
 | enableAdminUI | サイト上でデバイスを設定するための Admin UI を有効にします。設定が完了して実稼働になったら、false に設定します。 |
-| enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。設定が完了して実稼働になったら、false に設定することを検討します。 |
+| enableOSD | ユーザーがデバイスのチャネルを切り替えるためのチャネルスイッチャー UI を有効にします。 設定が完了して実稼働になったら、false に設定することを検討します。 |
 | enableActivityUI | を有効にすると、ダウンロードや同期など、アクティビティの進行状況を表示できます。 トラブルシューティング用に有効にしておき、設定が完了して実稼働になったら無効にします。 |
-| cloudMode | Chrome Player から Screens as a Cloud Serviceに接続する場合は、true に設定します。 AMS またはオンプレミス AEMに接続する場合は、false に設定します。 |
+| cloudMode | Chrome Player から Screens as a Cloud Serviceに接続する場合は、true に設定します。 AMS またはオンプレミス AEM に接続する場合は、false に設定します。 |
 | cloudToken | Screens as a Cloud Service に登録するための登録トークン。 |
 
 >[!NOTE]
 >
->ポリシー設定は厳格に適用されます。プレーヤーの Admin UI で、手動で上書きされることはありません。特定のポリシーに対して手動のプレーヤー設定を許可する場合、 ***ポリシー設定***. 例えば、再起動スケジュールの手動設定を許可する場合は、キーを指定しないでください ***rebootSchedule*** をポリシー設定で使用できます。
+>ポリシー設定は厳格に適用され、プレーヤーの管理 UI は手動で上書きされません。 特定のポリシーに対して手動のプレーヤー設定を許可するには、***ポリシー設定***&#x200B;でポリシーを指定しないでください。例えば、再起動スケジュールの手動設定を許可する場合は、ポリシー設定で ***rebootSchedule*** キーを指定しないでください。
 
 ### Screens リモート制御の使用 {#using-remote-control}
 

@@ -2,9 +2,9 @@
 title: デバイスの仕様
 description: AEM Screensに関連するデバイス仕様について説明します。
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '209'
 ht-degree: 69%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->このアクティビティの一般的な関係者は、オーディオ/ビデオインテグレーターです。
+>このアクティビティの一般的な関係者は、オーディオビデオインテグレーターです。
 
 *Day 0* で収集された情報に基づいて、開発を開始する前に以下の情報を確認します。
 

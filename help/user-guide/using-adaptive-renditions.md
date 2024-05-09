@@ -2,10 +2,10 @@
 title: AEM Screens でのアダプティブレンディションの使用
 description: AEM Screensでアダプティブレンディションを使用する方法を説明します。
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 32%
+source-wordcount: '541'
+ht-degree: 22%
 
 ---
 
@@ -13,11 +13,12 @@ ht-degree: 32%
 
 ## はじめに {#introduction}
 
-アダプティブレンディションを使用すると、顧客定義のルールに基づいて、デバイスに最適なレンディションをデバイスで自動的にクリックできます。 これらのルールに基づいて、アセットの最も適切なレンディションをデバイスが自動的にダウンロードして再生するので、ユーザーはアセットの設計に専念できます。 *メイン* 経験。
+アダプティブレンディションを使用すると、顧客定義のルールに基づいて、デバイスに最適なレンディションをデバイスで自動的にクリックできます。 これらのルールに基づいて、アセットの最も適切なレンディションをデバイスが自動的にダウンロードして再生します。 これにより、お客様はプロジェクトの設計に専念できます *メイン* 経験。
 
 ## 目的 {#objective}
 
-AEM Screens コンテンツ作成者は、すべてのコンテンツバリエーションを手動で作成しなくても、デバイス固有のアセットレンディションが自動的にダウンロードされて再生されるように設定できるようになりました。デベロッパーが rendition-mapping のプロパティとルールを追加したら、レンディションマッピングをアセットに適用し、AEM Screens チャネルに含める準備が整います。
+AEM Screens コンテンツ作成者は、すべてのコンテンツバリエーションを手動で作成しなくても、デバイス固有のアセットレンディションが自動的にダウンロードされて再生されるように設定できるようになりました。
+デベロッパーが rendition-mapping プロパティとルールを追加したら、レンディションマッピングをアセットに適用してから、AEM Screens チャネルに含める準備が整います。
 
 >[!IMPORTANT]
 >AEM Screens チャネルでアダプティブレンディションの使用を開始する前に、Adobeでは、この機能のアーキテクチャ概要と設定について学習することをお勧めします。 参照： [アダプティブレンディション：アーキテクチャ概要と設定](/help/user-guide/adaptive-renditions.md).
@@ -25,15 +26,15 @@ AEM Screens コンテンツ作成者は、すべてのコンテンツバリエ�
 ## チャネルでのアダプティブレンディションの使用 {#using-adaptive-renditions}
 
 >[!NOTE]
->追加後 [rendition-mapping プロパティから Screens プロジェクトへ](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) および [rendition-mapping ルール](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)これで、コンテンツ作成者として、アセットにレンディションを適用する準備が整いました。
+>を追加したら、 [rendition-mapping プロパティから Screens プロジェクトへ](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) および [rendition-mapping ルール](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)これで、コンテンツ作成者として、アセットにレンディションを適用する準備が整いました。
 
 ### アセットへのレンディションの適用 {#apply-renditions-assets}
 
-Screens チャネルで使用するアセットにレンディションを適用するには、次の手順を実行します。
+ツアースクリーンチャネルで使用するアセットにレンディションを適用するには、次の手順を実行します。
 
 1. AEM インスタンスの&#x200B;**アセット**&#x200B;フォルダーに移動します。
-1. サイネージディスプレイに適したバージョンのアセット（例：`seahorse.jpg`）を作成します。
-1. レンディション命名パターン（例：`landscape`）を選択します。これは、**CRXDE Lite** で **pattern** プロパティに定義したものと同様です。参照： [レンディションマッピングルールの追加](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) を参照してください。
+1. サイネージディスプレイに適したバージョンのアセット（例：）を作成します。 `seahorse.jpg`.
+1. レンディション命名パターンを選択します（例：）。`landscape`で定義されたものと同様 **pattern** のプロパティ **CRXDE Lite**. 詳しくは、[レンディションマッピングルールの追加](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)を参照してください。
 1. クリック **レンディションを追加** にレンディションをアップロードします（下図を参照）。
 
    ![画像](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)

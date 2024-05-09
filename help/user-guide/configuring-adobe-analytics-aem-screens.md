@@ -1,6 +1,6 @@
 ---
 title: AEM Screens と連携する Adobe Analytics の設定
-description: オフライン Adobe Analyticsを使用したカスタムイベントの順序付けと送信について詳しく説明します。
+description: オフライン Adobe Analytics を使用したカスタムイベントのシーケンス化と送信について詳しく説明します
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,10 +10,10 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 71%
+source-wordcount: '625'
+ht-degree: 80%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 71%
 
 ## AEM Screens と連携する Adobe Analytics でのシーケンス化 {#sequencing-in-adobe-analytics-with-aem-screens}
 
-***シーケンス化***&#x200B;は、Adobe Analytics サービスをアクティブにするデータストレージサービスで開始されます。チャネルコンテンツは、データテストキャプチャを含んだ Adobe Analytics イベントを Windows I/O に送信し、滞在イベントがトリガーされます。これらのイベントはインデックス DB に保存され、さらにオブジェクトストアに格納されます。管理者が設定したスケジュールに基づいて、オブジェクト ストアからデータを切り取り、さらにチャンク ストアに転送します。 接続時に最大量のデータを送信しようとします。
+この ***シークエンシング過程*** Adobe Analytics サービスをアクティブ化するデータストレージサービスで開始します。 チャネルコンテンツは、データテストキャプチャを含んだ Adobe Analytics イベントを Windows I/O に送信し、滞在イベントがトリガーされます。イベントはインデックス DB に保存され、さらにオブジェクトストアに配置されます。 管理者が設定したスケジュールに基づいて、オブジェクト ストアからデータを切り取り、さらにチャンク ストアに転送します。 接続時に最大量のデータを送信しようとします。
 
 ### シーケンス図 {#sequencing-diagram}
 
@@ -81,7 +81,7 @@ ht-degree: 71%
    <td>推奨</td> 
    <td>文字列</td> 
    <td>タイムスタンプ - UTC</td> 
-   <td>イベント開始日時。これを指定しなかった場合、イベント時刻はサーバーが受信した時刻と見なされます</td> 
+   <td>イベントの開始日時。この時間を指定しなかった場合、イベントの開始時刻は、サーバーがイベントを受信した時刻と見なされます。</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -108,7 +108,7 @@ ht-degree: 71%
    <td>必須</td> 
    <td>文字列</td> 
    <td> </td> 
-   <td>メインカテゴリ（デスクトップ、モバイル、WEB、プロセス、SDK、サービス、エコシステム） – イベントタイプのグループ化 –  <strong>Player sent</strong></td> 
+   <td>メインカテゴリ（DESKTOP、MOBILE、WEB、PROCESS、SDK、SERVICE、ECOSYSTEM） - イベントタイプのグループ化 - <strong>プレーヤーが送信</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -117,7 +117,7 @@ ht-degree: 71%
    <td>推奨</td> 
    <td>文字列</td> 
    <td> </td> 
-   <td>サブカテゴリ – ワークフローのセクションまたは画面の領域など。 （最近使用したファイル、CC ファイル、モバイル作品など）。</td> 
+   <td>サブカテゴリ - ワークフローのセクション、スクリーンの領域など。（最近使用したファイル、CC ファイル、モバイル作品など）。</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -144,7 +144,7 @@ ht-degree: 71%
    <td>オプション</td> 
    <td>ブール型</td> 
    <td> </td> 
-   <td>アクションがオフライン／オンラインの間にイベントが生成された（オフラインの場合は true、オンラインの場合は false）</td> 
+   <td>アクションがオフライン/オンラインの間にイベントが生成されました（true/false）</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -171,7 +171,7 @@ ht-degree: 71%
    <td>オプション</td> 
    <td>文字列<br /> </td> 
    <td>UUID</td> 
-   <td>デバイス GUID を識別します（例：マシン ID、または IP アドレス + サブネットマスク + ネットワーク ID + ユーザーエージェントのハッシュ）。ここでは、登録時に生成されたプレーヤーのユーザー名が送信されます。</td> 
+   <td>デバイス GUID（例：マシン ID、IP アドレス + サブネットマスク + ネットワーク ID + ユーザーエージェントのハッシュなど）を識別 - 登録時に生成されたプレーヤーのユーザー名をここで送信。</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -180,7 +180,7 @@ ht-degree: 71%
    <td>オプション</td> 
    <td>数値</td> 
    <td> </td> 
-   <td>イベントが発生した回数 – ビデオのデュレーションが送信されます</td> 
+   <td>イベントが発生した回数 - ビデオのデュレーションを送信</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -189,7 +189,7 @@ ht-degree: 71%
    <td>オプション</td> 
    <td>文字列</td> 
    <td> </td> 
-   <td>イベントの値（設定のオン/オフなど）</td> 
+   <td>イベントの値（例：設定のオン／オフ）</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -207,7 +207,7 @@ ht-degree: 71%
    <td>オプション</td> 
    <td>文字列</td> 
    <td> </td> 
-   <td>Web プロパティまたはモバイルスキーマの URL - 完全修飾 URL を含める必要があります</td> 
+   <td>Web プロパティまたはモバイルスキーマの URL – 完全修飾 URL を含める必要があります。</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -288,7 +288,7 @@ ht-degree: 71%
    <td>必須</td> 
    <td>文字列</td> 
    <td> </td> 
-   <td>再生されたレンディションを含むアセットへの URL</td> 
+   <td>再生されたレンディションを含むアセットの URL</td> 
   </tr>
   <tr>
    <td> </td> 

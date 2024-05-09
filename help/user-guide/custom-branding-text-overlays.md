@@ -6,22 +6,22 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '582'
 ht-degree: 44%
 
 ---
 
 # テキストオーバーレイのカスタムブランディングとスタイル設定 {#creating-custom-branding-styling}
 
-AEM Screens チャンネルのアセットに適用されたテキストオーバーレイにカスタムブランディングとスタイルを適用する方法を説明します。
+AEM Screens チャンネルのアセットに適用されるテキストオーバーレイにカスタムブランディングとスタイルを適用する方法を説明します。
 
-## テキストオーバーレイのカスタムブランディングとスタイルの作成 {#steps-custom-branding}
+## テキストオーバーレイのカスタムブランディングとスタイル設定の作成 {#steps-custom-branding}
 
 次の手順に従って、テキストオーバーレイのカスタムブランディングとスタイル設定を作成します。
 
-1. AEM Screens プロジェクトを作成します。この例では、という名前のプロジェクトを作成して、機能を示します。 **`customstyle`** および「」というタイトルのチャネル **DemoBrand** を参照してください（下図を参照）。
+1. AEM Screens プロジェクトを作成します。この例では、という名前のプロジェクトを作成して、機能を示します。 **`customstyle`** および「」というタイトルのチャネル **DemoBrand**&#x200B;を参照してください（下図を参照）。
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -30,15 +30,15 @@ AEM Screens チャンネルのアセットに適用されたテキストオー�
    ![画像](/help/user-guide/assets/custom-brand/custom-brand2.png)
 
    >[!NOTE]
-   >チャネルエディターでアセットにテキストオーバーレイを追加する方法については、を参照してください。 [テキストオーバーレイ](/help/user-guide/text-overlay.md).
+   >チャネルエディターでテキストオーバーレイをアセットに追加する方法について詳しくは、[テキストオーバーレイ](/help/user-guide/text-overlay.md)を参照してください。
 
-1. AEM インスタンスからCRXDE Lite / ツールに移動します。 **CRXDE Lite**.
+1. AEM インスタンス／ツール／**CRXDE Lite** から CRXDE Lite に移動します。
 
 1. でのカスタムデザインの作成 `/apps/settings/wcm/designs/<your-project>/`例えば、この場合、次に移動します。 `/apps/settings/wcm/designs/customstyle/`
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. *static.css* ファイルを作成し、次の css ルールを設定します。また、css ルールは下の図の例としても示されています。
+1. を作成 *static.css* をファイルし、次の css ルールを設定します。 また、css ルールは下の図の例としても示されています。
 
    ```shell
     //global styles
@@ -73,7 +73,7 @@ AEM Screens チャンネルのアセットに適用されたテキストオー�
    ![画像](/help/user-guide/assets/custom-brand/custom-brand5.png)
 
    >[!NOTE]
-   >デフォルトでは、「**デザイン**」フィールドには、libs フォルダー内のデザインを指すパスが表示されます。
+   >デフォルトにする **デザイン** フィールドには、libs フォルダー内のデザインを指すパスが表示されます。
 
 1. プロジェクトフォルダーのパスで、「**デザイン**」フィールドを更新します。この場合、値は `/apps/settings/wcm/designs/customstyle` です。
 
@@ -82,7 +82,7 @@ AEM Screens チャンネルのアセットに適用されたテキストオー�
 1. 「**保存して閉じる**」をクリックして、デザインパスを更新します。
 
    >[!IMPORTANT]
-   >オプションで、既存の Screens テンプレートをオーバーレイして、デフォルトで独自のデザインを挿入したり、独自のテンプレートを完全に作成したりできます。 詳しくは、次の手順を参照してください。
+   >オプションで、既存の Screens テンプレートをオーバーレイして、デフォルトで独自のデザインを挿入したり、独自のテンプレートを完全に作成したりできます。 詳しくは、以下の手順を参照してください。
 
 1. 既存の Screen テンプレートをオーバーレイして独自のデザインを挿入するには、次の手順に従います。
 
@@ -130,4 +130,4 @@ AEM Screens チャンネルのアセットに適用されたテキストオー�
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-   これで、アセットに追加されたテキストオーバーレイのブランドやカスタムスタイルを更新する準備が整いました。
+   これで、アセットに追加したテキストオーバーレイのブランドとカスタムスタイル設定を更新する準備が整いました。

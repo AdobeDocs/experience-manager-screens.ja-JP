@@ -1,44 +1,44 @@
 ---
-title: AEM Screens プロジェクトの Dispatcher の設定
+title: AEM Screens での Dispatcher 設定
 description: ここでは、AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインに焦点を当てています。
 feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 27%
+source-wordcount: '633'
+ht-degree: 53%
 
 ---
 
-# AEM Screens プロジェクトの Dispatcher の設定 {#dispatcher-configurations-for-aem-screens}
+# AEM Screens での Dispatcher 設定{#dispatcher-configurations-for-aem-screens}
 
-Dispatcher はAdobe Experience Managerのキャッシュ/ロードバランシングツールです。
+Dispatcher は、Adobe Experience Managerのキャッシュ、ロードバランシングツールまたはその両方に使用されます。
 
-次のページでは、AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインを示します。
+次のページでは、AEM Screens プロジェクトの Dispatcher を設定するためのガイドラインを示します。
 
 >[!NOTE]
 >
->Dispatcher が使用可能な場合は、Dispatcher ルールでフィルタリングすることで、登録サーブレットへの接続を防ぐことができます。
+>Dispatcher が使用可能な場合は、Dispatcher ルールでフィルタリングすると、登録サーブレットへの接続を防ぐことができます。
 >
 >Dispatcher がない場合は、OSGi コンポーネントリストで登録サーブレットを無効にします。
 
 Dispatcher をAEM Screens プロジェクト用に設定する前に、Dispatcher に関する十分な知識があります。
-参照： [Dispatcher の設定](https://experienceleague.adobe.com/ja/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) を参照してください。
+詳しくは、[Dispatcher の設定](https://experienceleague.adobe.com/ja/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration)を参照してください。
 
 ## Manifest バージョン v2 用 Dispatcher の設定 {#configuring-dispatcher}
 
 >[!IMPORTANT]
->次の Dispatcher 設定は、Manifest バージョン v2 にのみ適用されます。参照： [Manifest バージョン v3 の Dispatcher 設定](#configuring-dispatcherv3) マニフェストバージョン v3 の場合。
+>次の Dispatcher 設定は、Manifest バージョン v2 にのみ適用されます。参照： [Manifest バージョン v3 の Dispatcher 設定](#configuring-dispatcherv3) （Manifest バージョン v3 の場合）。
 
-AEM Screens プレーヤーまたはデバイスは、認証済みセッションを使用して、パブリッシュインスタンスのリソースにもアクセスします。 そのため、複数のパブリッシュインスタンスがある場合、AEM Screens プレーヤー/デバイスからのすべてのリクエストに対して認証済みセッションが有効になるように、リクエストは常に同じパブリッシュインスタンスに送信される必要があります。
+AEM Screens プレーヤーまたはデバイスは、パブリッシュインスタンスのリソースにもアクセスする際にも、認証済みセッションを使用します。 複数のパブリッシュインスタンスがある場合、認証済みセッションがAEM Screens プレーヤーまたはデバイスからのすべてのリクエストに対して有効になるように、リクエストは常に同じパブリッシュインスタンスに送信される必要があります。
 
 次の手順に従って、AEM Screens プロジェクトの Dispatcher を設定します。
 
 ### スティッキーセッションの有効化 {#enable-sticky-session}
 
-1 つの Dispatcher の前に複数のパブリッシュインスタンスを使用する場合は、 `dispatcher.any` スティッキネスを有効にするファイル。
+1 つの Dispatcher を経由して複数のパブリッシュインスタンスを使用する場合は、`dispatcher.any` ファイルを更新してスティッキー機能を有効にします。
 
 ```xml
 /stickyConnections {
@@ -49,11 +49,11 @@ AEM Screens プレーヤーまたはデバイスは、認証済みセッショ�
  }
 ```
 
-1 つのパブリッシュインスタンスの前に 1 つの Dispatcher がある場合、ロードバランサーが各リクエストを Dispatcher に送信する可能性があるので、Dispatcher でスティッキネスを有効にしても役立ちません。 この場合、 **Enable （有効）** 。対象： **ベタベタ感** 次の図に示すように、ロードバランサーレベルでオンにするフィールド。
+1 つの Dispatcher を経由して 1 つのパブリッシュインスタンスを使用する場合、ロードバランサーが各リクエストを Dispatcher に送信してしまうため、Dispatcher でスティッキー機能を有効にしても役に立ちません。この場合、 **Enable （有効）** 。対象： **ベタベタ感** 次の図に示すように、ロードバランサーレベルでオンにするフィールド。
 
 ![画像](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
-例えば、AWS ALB を使用している場合は、を参照してください。 [アプリケーションロードバランサーのターゲットグループ](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) ALB レベルでのスティッキネスを可能にする。 1 日のスティッキネスを有効にします。
+例えば、AWS ALB を使用している場合、ALB レベルでのスティッキー機能の有効化については、[アプリケーションロードバランサーのターゲットグループ](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html)を参照してください。1 日間、スティッキー機能を有効にします。
 
 ### 手順 1：クライアントヘッダーの設定 {#step-configuring-client-headers}
 
@@ -67,7 +67,7 @@ AEM Screens プレーヤーまたはデバイスは、認証済みセッショ�
 
 ### 手順 2：Screens フィルターの設定 {#step-configure-screens-filters}
 
-Screens フィルターを設定するには、以下の内容を ***/filter*** に追加します。
+Screens フィルターを設定するには、次の内容を***に追加します。`/filter`***。
 
 ```
 ## AEM Screens Filters
@@ -90,9 +90,9 @@ Screens フィルターを設定するには、以下の内容を ***/filter*** 
 
 ### 手順 3：Dispatcher キャッシュの無効化 {#step-disabling-dispatcher-cache}
 
-の Dispatcher キャッシュを無効にする ***/content/screens のパス***.
+***/content/screens path*** の Dispatcher キャッシュを無効にします。
 
-Screens プレーヤーは認証済みセッションを使用するので、Dispatcher は以下に対する Screens プレーヤーのリクエストをキャッシュしません `channels/assets`.
+Screens Player は認証済みセッションを使用するので、Dispatcher は、`channels/assets` に対する Screens Player のリクエストをキャッシュしません。
 
 アセットのキャッシュを有効にして、アセットが Dispatcher のキャッシュから提供されるようにするには、次の手順を実行します。
 
@@ -131,19 +131,19 @@ Screens プレーヤーは認証済みセッションを使用するので、Dis
 
 Screens を機能させるには、パブリッシュインスタンスの前にある Dispatcher で、これらのフィルターとキャッシュルールを必ず許可してください。
 
-### Manifest バージョン v3 の前提条件 {#prerequisites3}
+### Manifest バージョン v3 の前提条件{#prerequisites3}
 
 AEM Screens用に Dispatcher （Manifest バージョン v3）を設定する前に、次の 2 つの前提条件に従います。
 
 * `v3 manifests` を使用していることを確認します。`https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` に移動し、`Enable ContentSync Cache` がオフになっていることを確認します。
 
-* Dispatcher フラッシュエージェントがで設定されていることを確認します。 `/etc/replication/agents.publish/dispatcher1useast1Agent` パブリッシュインスタンスで。
+* パブリッシュインスタンスの `/etc/replication/agents.publish/dispatcher1useast1Agent` に Dispatcher フラッシュエージェントが設定されていることを確認します。
 
   ![画像](/help/user-guide/assets/dispatcher/dispatcher-1.png)
 
   ![画像](/help/user-guide/assets/dispatcher/dispatcher-3.png)
 
-### フィルター  {#filter-v3}
+### フィルター {#filter-v3}
 
 ```
 ## AEM Screens Filters
@@ -173,10 +173,10 @@ AEM Screens用に Dispatcher （Manifest バージョン v3）を設定する前
 
 * `/allowAuthorized "1"` を `publish_farm.any` の `/cache` のセクションに追加します。
 
-* すべてのAEM Screens プレーヤーは、認証済みセッションを使用してAEM（オーサー/パブリッシュ）に接続します。 標準の Dispatcher は、これらの URL をキャッシュしないので、これらを有効にする必要があります。
+* すべてのAEM Screens プレーヤーは、認証済みセッションを使用してAEM（オーサー/パブリッシュ）に接続します。 初期状態の Dispatcher はこれらの URL をキャッシュしないので、それらを有効にする必要があります。
 
 * 追加 `statfileslevel "10"` 対象： `/cache` のセクション `publish_farm.any`
-これにより、すべてを無効化するのではなく、キャッシュドキュメントルートから最大 10 レベルのキャッシュをサポートし、コンテンツが公開されたときにそれに応じて無効化します。 コンテンツ構造の深さに基づいて、このレベルを自由に変更できます。
+このルールは、すべてを無効化するのではなく、キャッシュドキュメントルートから最大 10 レベルのキャッシュをサポートし、コンテンツが公開されたときにそれに応じて無効化します。 コンテンツ構造の深さに基づいて、このレベルを自由に変更できます。
 
 * `/invalidate section in publish_farm.any` に次の内容を追加します
 
@@ -231,7 +231,7 @@ AEM Screens用に Dispatcher （Manifest バージョン v3）を設定する前
 
 ### segments.js の無効化ルールの追加 {#invalidsegmentjs}
 
-AEM Screensでターゲットキャンペーンを使用している場合は、 `segments.js file` AEMで新しいセグメントを追加して公開する際は、Dispatcher から提供される機能を無効にする必要があります。 この無効化ルールがないと、新しいターゲットキャンペーンはAEM Screens Player で機能しません（代わりにデフォルトコンテンツが表示されます）。
+AEM Screens でターゲットキャンペーンを使用している場合は、AEM で新しいセグメントを追加して公開する際に、Dispatcher から提供される `segments.js file` を無効にする必要があります。この無効化ルールがないと、新しいターゲットキャンペーンはAEM Screens Player で機能しません（代わりにデフォルトコンテンツが表示されます）。
 
 * 無効化ルールを `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any` に追加します。 追加するルールは次のとおりです。
 

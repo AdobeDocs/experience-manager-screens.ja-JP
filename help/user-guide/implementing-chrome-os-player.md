@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 63%
+ht-degree: 62%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 63%
 Chrome 管理コンソールをセットアップするには、次の手順に従います。
 
 1. Chrome 管理コンソールを登録します。Chrome 管理コンソールのライセンスを取得する必要があります。Chrome のデバイス設定の管理について詳しくは、[Google サポート](https://support.google.com/chrome/a/answer/1375678?hl=ja&amp;ref_topic=2935995)にお問い合わせください。
-1. Chrome OS デバイスをドメインに登録し、デバイスが Chrome 管理コンソールと同期するまで 15 分待ちます。 Chrome デバイスの登録について詳しくは、[ここ](https://support.google.com/chrome/a/answer/1360534?hl=ja)をクリックしてください。
+1. Chrome OS デバイスをドメインに登録し、デバイスが Chrome 管理コンソールと同期するまで 15 分待ちます。 Chrome デバイスへの登録について詳しくは、 [こちら](https://support.google.com/chrome/a/answer/1360534?hl=ja).
 1. Chrome プレーヤーは、Chrome ウェブストアで入手できます。
 
 >[!NOTE]
@@ -54,7 +54,7 @@ Chrome プレーヤーに名前を設定するには、次の手順に従いま�
    ![画像](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >Chrome プレーヤーをエンタープライズ登録で登録し、Chrome 管理コンソールでデプロイする必要があります。そうしないと、返されるアセット ID が空白になります（例えば、chrome を拡張機能として）。 デバイス名は登録時にのみ記録されます。それ以降の変更は、Adobe Experience Manager（AEM）には反映されません。
+   >Chrome プレーヤーをエンタープライズ登録で登録し、Chrome 管理コンソールでデプロイする必要があります。そうしないと、返されるアセット ID が空白になります（例えば、Chrome を拡張機能として）。 デバイス名は登録時にのみ記録されます。それ以降の変更は、Adobe Experience Manager（AEM）には反映されません。
 
 ### キオスクモードの有効化 {#enabling-kiosk-mode}
 

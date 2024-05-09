@@ -2,10 +2,10 @@
 title: プロジェクト分類
 description: AEM Screensに関連するプロジェクト分類について詳しく説明します。
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 43%
+source-wordcount: '268'
+ht-degree: 45%
 
 ---
 
@@ -25,14 +25,14 @@ AEM Screens デジタルサイネージソリューションを実装する前�
 * **スケジュール設定**
 * **コンテンツのプレビュー**
 
-これらの用語については、を参照してください。 [用語集](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
+これらの用語の詳細については、 [用語集](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
 
 >[!NOTE]
 >
 >以下の使用を検討することをお勧めします。
 >
 >* Screens プロジェクトに自動入力するハードウェアアセットデータベース
->* すべてのプレイヤーに特定の AEM インスタンスを自動的に参照させるテキスト設定ファイル
+>* AEMの特定のインスタンスを各プレーヤーが自動的に参照するテキストコンフィギュレーションファイル
 
 ## AEM Screens プロジェクトの実装 {#creating-a-project}
 
@@ -40,16 +40,16 @@ AEM Screens の作成者は、利用可能な AEM Screens コンポーネント�
 
 >[!NOTE]
 >
->作成者は、指定されたシーケンスからチャネルを作成し、キャンペーンのオーディエンスと目的のフォーカスを把握しています。 したがって、AEM Screens作成者は、様々なチャネルを作成し、タイムドチャネルエクスペリエンスにシーケンスを割り当てることで、ユーザーエクスペリエンスを作成および調整します。
+>作成者は、チャネルを与えられたシーケンスから作成し、キャンペーンオーディエンスおよび望ましいフォーカスを把握しています。したがって、AEM Screens作成者は、様々なチャネルを作成し、タイムドチャネルエクスペリエンスにシーケンスを割り当てることで、ユーザーエクスペリエンスを作成および調整します。
 
 AEM Screens プロジェクトを開始する際に作成者は、通常、以下をおこないます。
 
-* [AEM Screens プロジェクトの作成](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [AEM Screens プロジェクトの作成](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
 * [チャネルの作成](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels)
 * [チャネルへのコンポーネントやアセットの追加](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel)
 * [スケジュールの作成](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules)
 * [場所の作成](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations)
-* [ディスプレイの作成](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [ディスプレイの作成](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [ディスプレイへのチャネルの割り当て](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
 
 * [AEM Screens Player でのコンテンツの表示](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)

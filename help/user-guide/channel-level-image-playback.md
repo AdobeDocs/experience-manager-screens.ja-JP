@@ -1,6 +1,6 @@
 ---
 title: チャネルレベルの一括画像再生時間
-description: AEM Screensで特定の画像コンポーネントの再生時間を編集する方法について説明します。
+description: AEM Screens で特定の画像コンポーネントの再生時間を編集する方法について説明します。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 45%
+source-wordcount: '340'
+ht-degree: 70%
 
 ---
 
@@ -21,21 +21,21 @@ ht-degree: 45%
 
 ## 概要 {#overview}
 
-シーケンスチャネルを作成してそのチャネルに画像を追加すると、デフォルトでは、すべての画像にチャネルレベルの設定で定義された再生時間が適用されます。 それでも、個々の画像でこのデフォルトを上書きし、異なる再生時間にすることはできます。それには、特定の画像コンポーネントの再生時間を編集します。
+シーケンスチャネルを作成し、そこに画像を追加すると、デフォルトでは、すべての画像はチャネルレベル設定で定義された再生時間を前提とします。個々の画像はデフォルトを上書きでき、異なる再生時間を設定できます。 この機能は、特定の画像コンポーネントの再生時間を編集することで実現されます。
 
 ### 前提条件 {#prerequisites}
 
-この機能の実装を開始する前に、この機能の実装を開始するための前提条件としてプロジェクトが設定されていることを確認してください。 例：
+この機能の実装を開始する前に、この機能を実装を開始する前提条件として、プロジェクトをセットアップしておく必要があります。次に例を示します。
 
 1. AEM Screens プロジェクト（例：**ChannelLevelPlayback**）を作成する。
 
-1. **チャネル**&#x200B;フォルダーの下に **PlaybackChannel** というシーケンスチャネルを作成する。
+1. シーケンスチャネルの作成： **PlaybackChannel** の下 **チャネル** フォルダー。
 
 1. **PlaybackChannel** にコンテンツを追加する。
 
 ## チャネルレベル画像再生時間の割り当ての編集 {#editing-channel-level-image-playback-duration-assignment}
 
-以下の節では、AEM Screens チャンネルのコンテンツの再生時間を編集する方法について説明します。
+以下の節では、AEM Screens チャネルのコンテンツの再生時間を編集する方法について説明します。
 
 ### チャネル内の画像の再生時間を更新する方法 {#updating-the-playback-duration-for-images-in-a-channel}
 
@@ -45,7 +45,7 @@ ht-degree: 45%
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. クリック **編集** アクションバーから。
+1. アクションバーの「**編集**」をクリックします。
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -53,18 +53,18 @@ ht-degree: 45%
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
-1. チャネル内のすべての画像をクリックし、左上のレンチ アイコン（下図を参照）をクリックして、チャネルレベルの設定ダイアログボックスを開きます。
+1. チャネル内のすべての画像をクリックし、左上のレンチ アイコン（下図を参照）をクリックして、チャネルレベルを設定ダイアログボックスを開きます。
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. この **ページ** ダイアログボックスが開きます。
+1. **ページ**&#x200B;ダイアログボックスが開きます。
 
    >[!NOTE]
    >デフォルトでは、チャネル内の画像は再生時間が 8 秒に設定されています。
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   を編集する **期間** 8000 （ミリ秒）～3000 （ミリ秒）、つまり 3 秒です。 右上のチェックマークをクリックします **ページ** ダイアログボックスが開き、変更を保存できます。
+   「**デュレーション**」を 8000 （ミリ秒）から 3000 （ミリ秒）、すなわち 3 秒へと編集します。**ページ**&#x200B;ダイアログボックスの右上にあるチェックマークをクリックすると、変更を保存できます。
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

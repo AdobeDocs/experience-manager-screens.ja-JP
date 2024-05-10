@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 20%
+source-wordcount: '367'
+ht-degree: 17%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 20%
 
 手動および自動のフル HD レンディションを生成できます。 次の節では、アセットにレンディションを追加するワークフローについて説明します。
 
-## フル HD レンディションの自動生成  {#automatically-generating-full-hd-renditions}
+## フル HD レンディションの自動生成 {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
->AEM Screensのビデオレンディションがデバイスで最適に再生されない場合は、ハードウェアのベンダーにビデオの仕様を問い合わせてください。 これにより、デバイスで最高のパフォーマンスを得ることができ、レンディションを生成するための FFMPEG の適切なパラメーターを提供する独自のカスタムビデオプロファイルを作成できます。 次に、次の手順を使用して、カスタムビデオプロファイルをプロファイルのリストに追加します。
+>AEM Screensのビデオレンディションがデバイスで最適に再生されない場合は、ハードウェアのベンダーにビデオの仕様を問い合わせてください。 これにより、デバイスで最高のパフォーマンスを得ることができます。 これは、レンディションを生成するための FFMPEG に適したパラメーターを提供する独自のカスタムビデオプロファイルを作成する場合に役立ちます。 次に、次の手順を使用して、カスタムビデオプロファイルをプロファイルのリストに追加します。
 >
 >また、を参照してください。 [トラブルシューティングビデオ](troubleshoot-videos.md) チャネルで再生されるビデオをデバッグおよびトラブルシューティングする。
 

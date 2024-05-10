@@ -2,10 +2,10 @@
 title: AEM Screensの UX の依存関係
 description: AEM Screensの UX 依存関係について説明します。
 exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 69%
+source-wordcount: '139'
+ht-degree: 63%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 69%
 
 1. 小売レイアウトをコンテンツ戦略とどのように整合させればよいか？
 
-1. インタラクション（タッチスクリーン、モーション検知）が必要か？
+1. インタラクション（タッチスクリーン、モーション検出）は必要ですか？
 
 1. デジタルサイネージの目的は何か？
 

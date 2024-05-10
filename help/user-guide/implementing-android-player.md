@@ -1,6 +1,6 @@
 ---
-title: Android プレーヤーの実装
-description: クラッシュから Android プレーヤーを回復できるソリューションである Android Watchdog の実装について説明します。
+title: Android™ プレーヤーの実装
+description: Android™ プレーヤーをクラッシュから回復できるソリューションである Android™ ウォッチドッグの実装について説明します。
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,10 +10,10 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 72%
+source-wordcount: '1471'
+ht-degree: 71%
 
 ---
 
@@ -55,7 +55,7 @@ AEM オーサーインスタンスおよびパブリッシュインスタンス�
 アプリケーションをダウンロードしたら、Player の手順に従ってアドホックインストールを完了します。
 
 1. 左上隅を長押しして、管理パネルを開きます。
-1. 左のアクションメニューから「**設定**」に移動し、接続する AEM インスタンスの場所（アドレス）を入力して、「**保存**」をクリックします。
+1. に移動します。 **設定** 左側のアクションメニューから接続先のAEM インスタンスの場所（アドレス）を入力し、をクリックします **保存**.
 
 1. 左側のアクションメニューから「**デバイス**&#x200B;の&#x200B;**登録**」リンクに移動して、デバイス登録プロセスのステータスを確認できます。
 

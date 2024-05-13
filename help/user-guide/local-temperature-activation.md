@@ -13,7 +13,7 @@ exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 33%
+ht-degree: 43%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 33%
 
 トラベルセンターの地域温度アクティベーションの実装を開始する前に、の設定方法について説明します ***データストア***, ***オーディエンスのセグメント化*** および ***チャネルのターゲティングを有効にする*** （AEM Screens プロジェクト内）。
 
-参照： [AEM Screensでの ContextHub の設定](configuring-context-hub.md) を参照してください。
+詳しくは、[AEM Screens での ContextHub の設定](configuring-context-hub.md)を参照してください。
 
 ## 基本フロー {#basic-flow}
 
@@ -44,7 +44,7 @@ ht-degree: 33%
 
 1. **要件に従ってオーディエンスのセグメントを設定する**
 
-   1. オーディエンスのセグメントに移動します（を参照）。 ***手順 2：オーディエンスセグメント化の設定*** 。対象： **[AEM Screensでの ContextHub の設定](configuring-context-hub.md)** 詳しくはこちらを参照してください）。
+   1. オーディエンスのセグメントに移動します（詳しくは、**[AEM Screens での ContextHub の設定](configuring-context-hub.md)**&#x200B;ページの&#x200B;***手順 2：オーディエンスのセグメント化のセットアップ***&#x200B;を参照してください）。
 
    1. 「」をクリックします **シート A1 1** をクリックして、 **編集**.
 
@@ -74,7 +74,7 @@ ht-degree: 33%
 
    >[!CAUTION]
    >
-   >を設定する必要があります **ContextHub** **設定** チャネルの使用 **プロパティ** > **Personalization** タブ。
+   >チャネルの&#x200B;**プロパティ**／**パーソナライズ機能**&#x200B;タブを使用して&#x200B;**ContextHub** **設定**&#x200B;をセットアップしておいてください。
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 

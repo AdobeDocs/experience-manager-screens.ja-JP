@@ -1,6 +1,6 @@
 ---
 title: デバイスの管理
-description: AEM Screensでのデバイスの割り当てと管理について説明します。
+description: AEM Screens でのデバイスの割り当てと管理について説明します。
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -12,7 +12,7 @@ exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 41%
+ht-degree: 67%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 41%
 
 このページでデバイス割り当てを説明します。
 
-デバイス コンソールを使用すると、デバイスマネージャーにアクセスしてデバイスをディスプレイに割り当てることができます。
+デバイスコンソールでは、デバイスマネージャーにアクセスして、デバイスをディスプレイに割り当てることができます。
 
 >[!CAUTION]
 >
@@ -55,7 +55,7 @@ ht-degree: 41%
 
    ![chlimage_1-37](assets/chlimage_1-37.png)
 
-   「」（**...**）を選択します。 **デバイス** パネルを開いて、デバイス設定を追加するか、デバイスを更新します。
+   **デバイス**&#x200B;パネルの右上隅の（**...**）をクリックして、デバイス設定を追加するかデバイスを更新します。
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 
@@ -63,7 +63,7 @@ ht-degree: 41%
 >
 >初めてのデバイスが新しい Screens プロジェクトに追加されるたびに、ユーザーグループが作成されます。
 >例えば、プロジェクトノード名が *we-retail* である場合、ユーザーグループ名は *screens-we-retail-devices* になります。
->このグループは、 **投稿者** グループ化します（下図を参照）。
+>このグループは、下の図で示されているように、**寄稿者**&#x200B;グループのメンバーとして追加されます。
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 

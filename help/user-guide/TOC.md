@@ -4,14 +4,14 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens ヘルプ
 breadcrumb-title: AEM Screens ガイド
-user-guide-description: 動的でインタラクティブなデジタルエクスペリエンスおよびインタラクションの公開を可能にするデジタルサイネージソリューションの使用方法について説明します。
+user-guide-description: 動的でインタラクティブなデジタルエクスペリエンスおよびインタラクションの公開を可能にするデジタル署名ソリューションの使用方法について説明します。
 feature-set: Experience Manager Screens
 feature: Content
 role: User
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 + デジタルサイネージネットワークの基礎知識 {#digital-signage-network}
    + [第 1 部：プロジェクト上の役割と責務](project-roles-responsibilities.md)
    + [第 2 部：プロジェクト範囲を定義する際の検討事項](project-considerations.md)
-   + [第 3 部：テスト、POC、パイロット、ロールアウト](testing-pocs-pilots-rollouts.md)
+   + [第 3 部：テスト、POC、パイロットとロールアウト](testing-pocs-pilots-rollouts.md)
    + [第 4 部：プロジェクトの管理とデプロイメント](project-management-and-deployment.md)
    + [第 5 部：サポートに関する考慮事項](support-considerations.md)
 + 設定と管理 {#administering}
@@ -39,7 +39,7 @@ ht-degree: 97%
    + [AEM Screens セキュリティチェックリスト](security-checklist.md)
    + [コンテンツ同期からスマート同期への移行](smartsync.md)
    + [ファイルをソースとする新しいプロジェクトインポーター](project-importer.md)
-   + [データトリガーのパブリッシュサーバーへのレプリケーション](replicating-data-triggers.md)
+   + [データトリガーの公開サーバーへのレプリケーション](replicating-data-triggers.md)
    + [Screens レプリケーションエージェントの設定](configure-screens-replication.md)
    + クライアント固有の考慮事項 {#installing-client}
       + [Chrome OS プレーヤー](implementing-chrome-os-player.md)
@@ -108,13 +108,13 @@ ht-degree: 97%
    + [AEM Screens コンポーネントの拡張](extending-component-tutorial-develop.md)
    + [コンポーネントの作成](creating-components.md)
    + [AEM SPA Editor を使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合](embedding-react-app.md)
-   + [AEM Screens プロジェクトでの ContextHub の設定](configuring-context-hub.md)
+   + [AEM Screens での ContextHub の設定](configuring-context-hub.md)
    + [マルチゾーンレイアウトでのカスタムテンプレートの作成](creating-custom-templates-multizone-layouts.md)
    + [テキストオーバーレイのカスタムブランディングとスタイルの適用](custom-branding-text-overlays.md)
    + [アダプティブレンディション：アーキテクチャ概要と設定](/help/user-guide/adaptive-renditions.md)
 + トラブルシューティングと FAQ {#troubleshooting}
-   + [AEM Screens の FAQ](aem-screens-faqs.md)
-   + [デバイスコントロールセンターからのトラブルシューティング](monitoring-screens.md)
+   + [AEM Screens 関する FAQ](aem-screens-faqs.md)
+   + [デバイスコントロールセンターのトラブルシューティング](monitoring-screens.md)
    + [ビデオ再生の設定](troubleshoot-videos.md)
 + リリースノート {#release-notes}
    + [機能パック 202401 のリリースノート](release-notes-fp-202401.md)

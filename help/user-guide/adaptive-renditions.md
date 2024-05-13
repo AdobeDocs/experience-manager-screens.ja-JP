@@ -5,7 +5,7 @@ exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 37%
+ht-degree: 39%
 
 ---
 
@@ -70,7 +70,7 @@ AEM Screens 開発者は、すべてのコンテンツバリエーションを�
 1. クエリ式を値とする expression プロパティを追加します。
 
    >[!NOTE]
-   >参照： [メディアクエリの構文の使用](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) を参照してください。
+   >詳しくは、[メディアクエリ構文の使用](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries)を参照してください。
 
    クリック **rule1** を作成し、 **式** 。対象： **名前** および **（方向：横）** 。対象： **値**&#x200B;を参照してください。 「**追加**」をクリックします。
 

@@ -13,7 +13,7 @@ exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 54%
+ht-degree: 61%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 54%
 
 ## 前提条件 {#prerequisites}
 
-ビデオのワークフローを作成する前に、次の前提条件を満たします。
+ビデオのワークフローを作成する前に、次の前提条件を満たしてください。
 
 1. AEM インスタンスの **Assets** フォルダーにビデオをアップロードする
 1. AEM Screens プロジェクト（例：**TestVideoRendition**）と、**VideoRendering** という名前のチャネルを作成します（下図を参照）。
@@ -63,7 +63,7 @@ ht-degree: 54%
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. クリック **モデル** > **作成** > **モデルを作成**. **ワークフローモデルを追加**&#x200B;で、「**タイトル**」（**VideoRendition**）と「**名前**」を入力します。「**完了**」をクリックして、ワークフローモデルを追加します。
+1. **モデル**／**作成**／**モデルを作成**&#x200B;をクリックします。**ワークフローモデルを追加**&#x200B;で、「**タイトル**」（**VideoRendition**）と「**名前**」を入力します。「**完了**」をクリックして、ワークフローモデルを追加します。
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
@@ -82,7 +82,7 @@ ht-degree: 54%
 1. 「**引数**」タブをクリックします。
 1. が含まれる **コマンドライン – ステップのプロパティ** ダイアログ ボックスで、形式を **Mime タイプ** （as ***video/mp4***）、およびコマンドを（***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4***）。 このコマンドは、でワークフローを開始します **コマンド** フィールド。
 
-   詳細を参照してください **Mime タイプ** および **コマンド** 以下のメモを参照してください。
+   「**MIME タイプ**」と「**コマンド**」について詳しくは、以下の注記を参照してください。
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
@@ -99,7 +99,7 @@ ht-degree: 54%
 
 以下の手順に従って、AEM Screens プロジェクトでワークフローを使用します。
 
-1. AEM Screens プロジェクト（）に移動します&#x200B;**TestVideoRendition** > **チャネル** >**VideoRendition**）に設定します。
+1. AEM Screens プロジェクト（**TestVideoRendition**／**チャネル**／**VideoRendition**）に移動します。
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 

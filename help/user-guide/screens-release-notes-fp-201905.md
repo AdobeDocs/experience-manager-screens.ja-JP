@@ -1,6 +1,6 @@
 ---
 title: 機能パック 201905 のリリースノート
-description: 2019 年 5 月 16 日（PT）にリリースされたAEM Screens機能パック 201905 について説明します。
+description: 2019年5月16日（PT）にリリースされた AEM Screens 機能パック 201905 について説明します。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -13,7 +13,7 @@ exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 40%
+ht-degree: 79%
 
 ---
 
@@ -23,25 +23,25 @@ ht-degree: 40%
 >
 >最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。AEM Screensは、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供します。
 
-AEM 6.3.3.3 機能パック 6 および AEM 6.4.4.0 機能パック 4 向けの AEM Screens がリリースされました。詳細は以下のとおりです。
+AEM Screens は、AEM 6.3.3.3 機能パック 6 および AEM 6.4.4.0 機能パック 4 を リリースしました。詳細は次のとおりです。
 
 ## リリース日 {#release-date}
 
-AEM Screens 機能パック 201905 のリリース日は 2019 年 5 月 16 日です。
+AEM Screens 機能パック 201905 のリリース日は 2019年5月16日（PT）です。
 
 ### 新機能 {#what-s-new}
 
 * **プロジェクトインポーター**
 
-プロジェクトインポーターはAEM Screensで使用できる機能で、CSV/XLS スプレッドシートからAEM Screens プロジェクトに一連の場所を一括読み込みできます。
+プロジェクトインポーターは、AEM Screens で利用できる機能で、ユーザーは CSV/XLS スプレッドシートから AEM Screens プロジェクトに一連の場所を一括で読み込むことができます。
 
-参照： **[ファイルをソースとする新規プロジェクトインポーター](project-importer.md)** を参照してください。
+詳しくは、**[ファイルをソースとする新しいプロジェクトインポーター](project-importer.md)**&#x200B;を参照してください。
 
 * **コンテンツ同期からスマート同期への移行**
 
 スマート同期で、サーバー負荷／ストレージとネットワークトラフィックを最小限に抑えてコストを削減できます。
 
-参照： **[コンテンツ同期からスマート同期への移行](smartsync.md)** を参照してください。
+詳しくは、**[コンテンツ同期からスマート同期への移行](smartsync.md)**&#x200B;を参照してください。
 
 * **緊急チャネル**
 
@@ -51,9 +51,9 @@ AEM Screens 機能パック 201905 のリリース日は 2019 年 5 月 16 日�
 
 * **AEM SPA Editor を使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合**
 
-ここでは、AEM SPAエディターで REACT （またはAngular）を使用してインタラクティブな単一ページアプリケーションを埋め込む方法について説明します。 エディターは、AEMのビジネスプロフェッショナルが設定できます。 また、インタラクティブアプリケーションをオフラインのAdobe Analyticsと統合する方法についても説明します。
+この節では、AEM SPA エディターで React（または Angular）を使用して、インタラクティブな単一ページアプリケーションを埋め込む方法について説明します。エディターは、ビジネスプロフェッショナルが AEM で設定できます。また、インタラクティブアプリケーションをオフラインの Adobe Analytics と統合する方法についても説明します。
 
-参照： **[AEM SPAエディターを使用した React アプリケーションの埋め込みとAEM Screens Analytics との統合](embedding-react-app.md)** を参照してください。
+詳しくは、**[AEM SPA エディターを使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合](embedding-react-app.md)**&#x200B;を参照してください。
 
 ### リリースされている AEM Screens Player
 
@@ -63,6 +63,6 @@ AEM 6.3.3.3 機能パック 6 および AEM 6.4.4.0 機能パック 4 向けに�
 * Windows
 * Android™
 
-#### AEM Screens Player のダウンロード 
+#### AEM Screens Player のダウンロード
 
 最新のAEM Screens Player のダウンロードとバグ修正について詳しくは、以下を参照してください。 **[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)**.

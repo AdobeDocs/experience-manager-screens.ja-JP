@@ -1,6 +1,6 @@
 ---
 title: AEM Screens の概要ビデオ
-description: AEM Screensは、マーケターが動的でインタラクティブなデジタルエクスペリエンスを様々なタイプの画面に公開できる、デジタルサイネージソリューションです。
+description: AEM Screens は、マーケターが各種のスクリーンに動的でインタラクティブなデジタルエクスペリエンスを公開できるデジタルサイネージソリューションです。
 contentOwner: dgordon
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: introduction
@@ -10,7 +10,7 @@ targetaudience: target-audience new
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
@@ -22,21 +22,21 @@ ht-degree: 44%
 >[!VIDEO](https://video.tv.adobe.com/v/21353?quality=9)
 
 
-## チャネルとスケジュールのオーサリング – 第 1 部 {#channels-and-schedules-part-2}
+## チャネルとスケジュールのオーサリング - 第 1 部 {#channels-and-schedules-part-2}
 
-ビデオに沿って進めるには、次が必要です。
+ビデオに沿って作業を進めるには、以下が必要です。
 
-1. **AEM 6.4** または**AEM 6.3*+ **Screens 機能パック 1**
+1. **AEM 6.4** または **AEM 6.3*+ **Screens 機能パック 1**
 
 1. AEM Screens Player
 
-AEM Screens Player をダウンロードするには、[ここ](https://download.macromedia.com/screens/)をクリックしてください。また、AEM Screensは次の場所でも使用できます [Google Playストア](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&amp;hl=en). <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
+AEM Screens Player をダウンロードするには、[ここ](https://download.macromedia.com/screens/)をクリックしてください。また、AEM Screens は [Google Play ストア](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&amp;hl=jp)でも入手できます。<!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
 
-以下のビデオでは、新しいチャネルの作成、新しいコンテンツのオーサリング、再利用可能なスケジュールへのチャネルの追加について詳しく説明します。 [Screens キックスタートガイド](kickstart-for-aem-screens.md)の前半部に大体従っています。
+以下のビデオでは、新しいチャネルの作成、新しいコンテンツのオーサリング、再利用可能なスケジュールへのチャネルの追加について詳しく説明します。[Screens キックスタートガイド](kickstart-for-aem-screens.md)の前半部に大体従っています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/21387?quality=9)
 
-## 割り当てとデバイス登録の表示 – 第 2 部 {#display-and-device-pt2}
+## ディスプレイの割り当てとデバイスの登録 - 第 2 部 {#display-and-device-pt2}
 
 以下のビデオでは、ロケーション、ディスプレイ、デバイス設定の作成方法を示します。また、デバイスの登録とディスプレイへの割り当ての手順も示します。[Screens キックスタートガイド](kickstart-for-aem-screens.md)の後半部に大体従っています。
 

@@ -1,6 +1,6 @@
 ---
-title: AEM Screens プロジェクトでの ContextHub の設定
-description: データトリガーのコンテンツの変更用にデータストアを定義できるように、ターゲティングエンジンの ContextHub について説明します。
+title: AEM Screens での ContextHub の設定
+description: データトリガーコンテンツの変更用にデータストアを定義できるように、ターゲティングエンジンの ContextHub について説明します。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
@@ -13,27 +13,27 @@ exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1445'
-ht-degree: 40%
+ht-degree: 82%
 
 ---
 
-# AEM Screens プロジェクトでの ContextHub の設定 {#configuring-contexthub-in-aem-screens}
+# AEM Screens での ContextHub の設定 {#configuring-contexthub-in-aem-screens}
 
-この節では、データストアを使用したデータ駆動型アセットの変更の作成と管理に重点を置いて説明します。
+この節では、データストアを使用したデータ主導型アセット変更の作成と管理について重点的に説明します。
 
 ## キーワード {#key-terms}
 
-AEM Screens プロジェクトでの在庫駆動型チャネルの作成と管理の詳細を説明する前に、様々なシナリオに対する重要な用語の一部を学びます。
+AEM Screens プロジェクトの在庫主導型チャネルを作成および管理する方法の詳細に立ち入る前に、様々なシナリオのキーワードをいくつか説明します。
 
-**ブランド**  – 大まかなプロジェクト説明。
+**ブランド** - プロジェクトの概要。
 
-**領域** - デジタル広告サイネージなど、AEM Screens プロジェクトの名前
+**領域** - 「Digital Ad Signage」などの AEM Screens プロジェクト名。
 
-**Activity**  – 在庫主導、天候主導、部門可用性主導などのカテゴリルールを定義します。
+**アクティビティ** - 在庫主導、天気主導、部門可用性主導などのカテゴリルールを定義します。
 
-**対象読者**  – 規則を定義します。
+**オーディエンス** - ルールを定義します。
 
-**セグメント**  – 指定されたルールで再生されるアセットのバージョン。 例えば、温度が華氏 50 度を下回る場合、画面には温かい飲み物、それ以外の場合は冷たい飲み物の画像が表示されます。
+**セグメント** - 与えられたルールで再生されるアセットのバージョン。例えば、温度が華氏 50 度を下回る場合は温かい飲み物、それ以外の場合は冷たい飲み物の画像が画面に表示されます。
 
 以下の図は、ContextHub 設定がアクティビティ、オーディエンス、チャネルと一致する様子を視覚的に示しています。
 
@@ -47,19 +47,19 @@ AEM Screens プロジェクトの Context Hub 設定の指定を開始する前�
 >
 >次の例では、値の取得先となるサンプルデータベースシステムとして Google シートを使用していますが、この Google シートはあくまで教育用のものです。アドビでは、実稼動環境への Google シートの使用はお勧めしません。
 >
->詳しくは、を参照してください [API キーを取得](https://developers.google.com/maps/documentation/javascript/get-api-key) （Google ドキュメント）。
+>詳しくは、Google ドキュメントの [API キーの取得](https://developers.google.com/maps/documentation/javascript/get-api-key) を参照してください。
 
 ## 手順 1：データストアのセットアップ {#step-setting-up-a-data-store}
 
 データストアは、ローカル I/O イベントまたはローカルデータベースイベントとして設定できます。
 
-次のアセットレベルのデータトリガーの例では、ContextHub 設定を使用し、AEM Screens チャネルへのパスをセグメント化できる Excel シートなどのデータストアを設定するローカルデータベースイベントを示しています。
+次のアセットレベルのデータトリガーの例は、AEM Screens チャネルへの ContextHub 設定とセグメントパスを使用できる Excel シートなどのデータストアを設定するローカルデータベースイベントを示しています。
 
-を設定したら、 `google` 次の例に示すように、正しくシート化します。
+次の例に示すように、`google` シートを正しく設定した後に、
 
 ![画像](/help/user-guide/assets/context-hub/context-hub1.png)
 
-次の検証は、2 つの値を入力して接続を確認する場合に表示するものです。 `*google sheet ID*` および `*API key*` 以下の形式で指定します。
+`*google sheet ID*` と `*API key*` の 2 つの値を次の形式で入力し、接続を確認すると、以下の検証が表示されます。
 
 `https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
 
@@ -67,19 +67,19 @@ AEM Screens プロジェクトの Context Hub 設定の指定を開始する前�
 
 >[!NOTE]
 >
->次の具体的な例では、値が 100 より大きい場合または 50 未満の場合にアセットの変更をトリガーするデータストアとしての Google Sheets を示しています。
+>次の例は、値が 100 を超えるか 50 未満の場合にアセットの変更をトリガーするデータストアとしての Google シートを示しています。
 
 ## 手順 2：ストア設定のセットアップ {#step-setting-store-configurations}
 
 1. **ContextHub に移動する**
 
-   AEM インスタンスに移動し、左側のサイドバーにあるツールアイコンをクリックします。クリック **Sites** > **ContextHub**&#x200B;を参照してください（下図を参照）。
+   AEM インスタンスに移動し、左側のサイドバーにあるツールアイコンをクリックします。**サイト**／**ContextHub** をクリックします（下図を参照）。
 
    ![画像](/help/user-guide/assets/context-hub/context-hub3.png)
 
 1. **ContextHub ストア設定の作成**
 
-   1. 「**screens**」という設定コンテナに移動します。
+   1. **screens**&#x200B;という設定コンテナに移動します。
 
    1. **作成**／**設定コンテナを作成**&#x200B;をクリックし、タイトルに「**ContextHubDemo**」と入力します。
 
@@ -102,25 +102,25 @@ AEM Screens プロジェクトの Context Hub 設定の指定を開始する前�
    >
    >1. CRXDE Lite に移動してから`/conf/screens/settings/cloudsettings`に移動します。
    >1. `cloudsettings jcr:primaryType` が `sling:Folder` にあるかどうかを確認します。`jcr:primaryType` が `sling:folder` にない場合は、次の手順に進みます。
-   >1. 右クリック `/conf/screens/settings` を使用してノードを作成します。 *名前* as **`cloudsettings1`** および *タイプ* as **`sling:Folder`** 変更を保存します。
+   >1. `/conf/screens/settings` を右クリックし、*名前*&#x200B;を **`cloudsettings1`**、*タイプ*&#x200B;を **`sling:Folder`** としてノードを作成し、変更を保存します。
    >1. `/conf/screens/settings/cloudsettings` の下のすべてのノードを `cloudsettings1` に移動します。
    >1. `cloudsettings` を削除して保存します。
    >1. `cloudsettings1` を `cloudsettings` に名前変更して保存します。
-   >1. をご覧ください `/conf/screens/settings/cloudsettings` が `jcr:primaryType` as `sling:Folder`.
+   >1.  `/conf/screens/settings/cloudsettings` が `sling:Folder` として `jcr:primaryType` を持っていることを確認します。
    >
-   >オーサーとパブリッシュで、アップグレードの前または後に次の手順に従います。
+   >アップグレードの前後に、オーサーとパブリッシュで以上の手順を実行します。
 
-   1. を入力 **タイトル** as **Google シート**, **ストア名** as **`googlesheets`**、および **ストアタイプ** as **c`ontexthub.generic-jsonp`** をクリックして、 **次**.
+   1. 「**タイトル**」に「**Google Sheets**」、「**ストア名**」に **`googlesheets`**、「**ストアの種類**」に「**c`ontexthub.generic-jsonp`**」と、それぞれ入力して、「**次へ**」をクリックします。
 
       >[!CAUTION]
-      >Adobe Experience Manager（AEM） 6.4 を使用している場合は、 **設定のタイトル** as **`googlesheets`** および **ストアタイプ** as **c`ontexthub.generic-jsonp`**.
+      >Adobe Experience Manager（AEM）6.4 を使用している場合は、「**構成タイトル**」を **`googlesheets`**、「**ストアタイプ**」を「**c`ontexthub.generic-jsonp`**」として入力します。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub6.png)
 
-   1. 固有の JSON 設定を入力します。例えば、以下の json をデモ目的で使用し、をクリックできます。 **保存**. という名前のストア設定が表示されます。 **Google シート** （ContextHub 設定内）。
+   1. 固有の JSON 設定を入力します。例えば、以下の json をデモ目的で使用し、をクリックできます。 **保存**. ContextHub 設定に **Google スプレッドシート**&#x200B;というタイトルのストア設定が表示されます。
 
       >[!IMPORTANT]
-      >必ずコードを `*<Sheet ID>*` および `*<API Key>*`Google シートの設定中に取得した。
+      >コードは、Google スプレッドシートのセットアップ時に取得し `*<Sheet ID>*` と `*<API Key>*` に必ず置き換えてください。
 
       ```
        {
@@ -140,24 +140,24 @@ AEM Screens プロジェクトの Context Hub 設定の指定を開始する前�
 
       >[!NOTE]
       >
-      >上記のサンプルコードでは、 **pollInterval** 値が更新される頻度をミリ秒単位で定義します。
+      >上記のサンプルコードで、**pollInterval** は、値が更新される頻度をミリ秒単位で定義します。
       >
-      >コードをに置き換えます `*<Sheet ID>*` および `*<API Key>*`Google シートの設定中に取得した。
+      >コードは、Google スプレッドシートのセットアップ時に取得した `*<Sheet ID>*` と `*<API Key>*` に置き換えます。
 
       >[!CAUTION]
       >
-      >Google Sheets で、グローバルフォルダーの外部（例えば、独自のプロジェクトフォルダー内）に設定を保存する場合、ターゲティングは標準では機能しません。
+      >Google スプレッドシートのストア設定をグローバルフォルダー以外（例えば、独自のプロジェクトフォルダー内など）で作成した場合、ターゲティングは初期状態では機能しません。
 
 1. **ストアのセグメント化の設定**
 
-   1. に移動します。 **ContentHub ストアの設定** さらに、AEM Screens設定コンテナに別のストア設定を作成し、 **タイトル** as **segmentation-contexthub**, **ストア名** as **セグメント化** および **ストアタイプ** as **aem.segmentation**.
+   1. **ContentHub ストアの設定**&#x200B;に移動し、AEM Screens 設定コンテナに別のストア設定を作成し、**segmentation-contexthub**&#x200B;として&#x200B;**タイトル**&#x200B;を, **セグメント化**&#x200B;として&#x200B;**segmentation**&#x200B;を、そして、**aem.segmentation**&#x200B;として&#x200B;**ストアタイプ**&#x200B;を設定します。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub7.png)
 
    1. 「**次へ**」、「**保存**」の順にクリックします。
 
       >[!NOTE]
-      >JSON を定義するプロセスはスキップし、空白のままにします。
+      >JSON を定義するプロセスをスキップし、空白のままにしておきます。
 
 
 ## 手順 3：オーディエンスのセグメントのセットアップ {#setting-up-audience}
@@ -168,7 +168,7 @@ AEM Screens プロジェクトの Context Hub 設定の指定を開始する前�
 
    1. **作成**／**Context Hub セグメントを作成**&#x200B;をクリックします。**新しい ContextHub セグメント**&#x200B;ダイアログボックスが開きます。
 
-   1. を入力 **タイトル** as `**Higherthan50**` をクリックして、 **作成**. 同様に、というタイトルの別のセグメントを作成します `**Lowerthan50**`.
+   1. 「**タイトル**」に「`**Higherthan50**`」と入力し、「**作成**」をクリックします。同様に、「`**Lowerthan50**`」というタイトルの別のセグメントを作成します。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub11.png)
 
@@ -179,15 +179,15 @@ AEM Screens プロジェクトの Context Hub 設定の指定を開始する前�
 
    ![画像](/help/user-guide/assets/context-hub/context-hub13.png)
 
-   1. 同様に、 **ContextHub パス** および **セグメントのパス** （用） `**Lowerthan50**` セグメントも。
+   1. 同様に、`**Lowerthan50**` セグメントの&#x200B;**ContextHub のパス**&#x200B;と&#x200B;**セグメントのパス**&#x200B;を設定します。
 
 ## 手順 4：ブランドと領域の設定 {#setting-brand-area}
 
-アクティビティおよびブランドの下の領域にブランドを作成するには、次の手順に従います。
+次の手順に従って、アクティビティにブランドを、ブランドの下に領域を作成します。
 
 1. **アクティビティにブランドを作成する**
 
-   1. AEM インスタンスからに移動します。 **Personalization** > **アクティビティ**.
+   1. AEM インスタンスで、**パーソナライゼーション**／**アクティビティ**&#x200B;に移動します。
 
    1. **作成**／**ブランドを作成**&#x200B;をクリックします。
 
@@ -201,7 +201,7 @@ AEM Screens プロジェクトの Context Hub 設定の指定を開始する前�
       >[!CAUTION]
       >
       >既知の問題：
-      >領域を追加するには、次のように URL からプライマリを削除します
+      >領域を追加するには、URL（例えば下記）からプライマリを削除します。
       >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`。
 
 1. **ブランドに領域を作成する**
@@ -214,11 +214,11 @@ AEM Screens プロジェクトの Context Hub 設定の指定を開始する前�
 
    1. クリック **領域** から **ページを作成** ウィザードを表示して、 **次**.
 
-   1. 「**タイトル**」に「**ScreensValue**」と入力し、「**作成**」をクリックします。ブランドにエリアが作成されます。
+   1. 「**タイトル**」に「**ScreensValue**」と入力し、「**作成**」をクリックします。ブランドに領域が作成されます。
 
-## 手順 5：アクティビティのセグメントの作成 {#step-setting-up-audience-segmentation}
+## 手順 5：アクティビティでのセグメントの作成 {#step-setting-up-audience-segmentation}
 
-データストアの設定とアクティビティ（ブランドと領域）の定義が完了したら、次の手順に従ってアクティビティでセグメントを作成します。
+データストアを設定し、アクティビティ（ブランドと領域）を定義したら、次の手順に従ってアクティビティにセグメントを作成します。
 
 1. **アクティビティにセグメントを作成する**
 
@@ -238,7 +238,7 @@ AEM Screens プロジェクトの Context Hub 設定の指定を開始する前�
 
    ![画像](/help/user-guide/assets/context-hub/context-hub15.png)
 
-   1. 「**次へ**」、「**保存**」の順にクリックします。`**ValueCheck50**` これで、アクティビティの作成と設定が完了しました。
+   1. 「**次へ**」、「**保存**」の順にクリックします。`**ValueCheck50**` アクティビティが作成され、設定されました。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub16.png)
 
@@ -252,12 +252,12 @@ AEM Screens プロジェクトの Context Hub 設定の指定を開始する前�
 
    1. **比較：プロパティ - 値**&#x200B;コンポーネントをエディターにドラッグ＆ドロップします。
 
-   1. レンチアイコンをクリックして、 **プロパティと値の比較** ダイアログが表示されます。
+   1. レンチアイコンをクリックすると、**プロパティと値の比較**&#x200B;ダイアログボックスを開くことができます。
 
    1. クリック **google シート/値/1/0** のドロップダウンから **プロパティ名**.
 
       >[!NOTE]
-      > この **google シート/値/1/0** で入力された行 2 と列を指します `google` 下図のシート
+      > **googlesheets/value/1/0** は、下図の `google` シートに入力されている行 2 と列を指します。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub17.png)
 
@@ -271,7 +271,7 @@ AEM Screens プロジェクトの Context Hub 設定の指定を開始する前�
 
       ![画像](/help/user-guide/assets/context-hub/context-hub18.png)
 
-   同様に、プロパティ値をに編集します `**Lowerthan50**`.
+   同様に、プロパティ値を `**Lowerthan50**` へと編集します。
 
    1. **比較：プロパティ - 値**&#x200B;コンポーネントをエディターにドラッグ＆ドロップします。
 
@@ -288,7 +288,7 @@ AEM Screens プロジェクトの Context Hub 設定の指定を開始する前�
 
 以下の手順に従って、チャネルでターゲティングを有効にします。
 
-1. AEM Screens チャネルのいずれかに移動します。 以下の手順は、AEM Screens チャネルに作成した **DataDrivenChannel** を使用してターゲティングを有効にする方法を示しています。
+1. AEM Screens チャネルのいずれかに移動します。以下の手順は、AEM Screens チャネルに作成した **DataDrivenChannel** を使用してターゲティングを有効にする方法を示しています。
 
 1. チャネルをクリックします **TargetChannel** をクリックして、 **プロパティ** アクションバーから。
 
@@ -303,7 +303,7 @@ AEM Screens プロジェクトの Context Hub 設定の指定を開始する前�
 
       >[!NOTE]
       >
-      >ContextHub 設定とセグメントをそれぞれ最初に保存した、Context Hub とセグメントのパスを使用します。
+      >ContextHub 設定とセグメントを最初に保存した場所で、Context Hub とセグメントのパスを使用します。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub20New.png)
 
@@ -311,7 +311,7 @@ AEM Screens プロジェクトの Context Hub 設定の指定を開始する前�
 
       >[!NOTE]
       >
-      >すべてが正しく設定されていれば、次のように表示されます **ターゲティング** エディターのドロップダウンの「」オプション（下図を参照）。
+      >すべてを正しくセットアップしたら、下図に示すように、エディターのドロップダウンに「**ターゲティング**」オプションが表示されます。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub21.png)
 

@@ -9,17 +9,17 @@ exl-id: 757e6751-8008-487f-be89-9f53ac898928
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 55%
+ht-degree: 59%
 
 ---
 
 # 切り替えの適用 {#applying-transitions}
 
-ここでは、チャネル内の様々なアセット（画像やビデオ）および埋め込みシーケンスの間に&#x200B;**切り替え**&#x200B;コンポーネントを適用する方法について説明します。
+ここでは、チャネル内の様々なアセット（画像やビデオ）および埋め込みシーケンスの間に&#x200B;**トランジション**&#x200B;コンポーネントを適用する方法について説明します。
 
 >[!CAUTION]
 >
->のプロパティの詳細を説明するには **遷移** コンポーネント、「」を参照してください [切り替え](adding-components-to-a-channel.md#transition).
+>**トランジション**&#x200B;コンポーネントのプロパティについて詳しくは、[トランジション](adding-components-to-a-channel.md#transition)を参照してください。
 
 ## チャネル内のアセットへの切り替えコンポーネントの追加 {#adding-transition}
 

@@ -1,6 +1,6 @@
 ---
 title: Screens 機能パック 202401 のリリースノート
-description: 2024 年 1 月 2 日（PT）にリリースされたAEM Screens機能パック 202401 について説明します。
+description: 2024年1月2日（PT）にリリースされた AEM Screens 機能パック 202401 について説明します。
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -8,7 +8,7 @@ exl-id: 9879f339-e70f-446d-acd3-380016269f27
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '225'
-ht-degree: 58%
+ht-degree: 62%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 58%
 >[!CAUTION]
 >Adobeでは、最新バージョンの 6.5 Adobe Experience Manager（AEM 6.5）にアップグレードすることをお勧めします。 から最新のバージョン情報を取得します [こちら](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/release-notes/release-notes).
 
-## 可用性 {#availability}
+## 入手方法 {#availability}
 
 AEM Screens は、AEM 6.5 機能パック 11.1 をリリースしました。
 
-AEM Screens 6.5.11.1 リリースの最新の機能パックは、からダウンロードできます。 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe IDを使用する。 に移動します。 **Adobe Experience Manager** タブで「」を検索 **スクリーン** というタイトルの最新の機能パックを取得するには **AEM 6.5 Screens FP11.1**.
+AEM Screens 6.5.11.1 リリースの最新の機能パックは、からダウンロードできます。 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html) Adobe IDを使用する。 に移動します。 **Adobe Experience Manager** タブで「」を検索 **スクリーン** というタイトルの最新の機能パックを取得するには **AEM 6.5 Screens FP11.1**.
 
 ## リリース日 {#release-date}
 
@@ -31,7 +31,7 @@ AEM Screens 機能パック 202204 のリリース日は 2024年1月2日（PT）
 
 このリリースにはセキュリティ修正のみ含まれています。
 
-### バグの修正 {#bug-fixes}
+### バグ修正 {#bug-fixes}
 
 * AEM Screens デバイスの「アイドルテキスト」フィールドでの XSS の問題。（SCRNS-2614）
 

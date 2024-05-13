@@ -8,7 +8,7 @@ exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '1217'
-ht-degree: 42%
+ht-degree: 67%
 
 ---
 
@@ -40,7 +40,7 @@ AEM Screens用の Tizen プレーヤーを実装するには、次の手順に�
 
 ### Tizen プレーヤーの命名 {#name-tizen}
 
-ユーザーにわかりやすいデバイス名を Tizen プレーヤーに割り当てて、割り当てられたデバイス名をAdobe Experience Manager（AEM）に送信することができます。 この機能により、Tizen プレーヤーに名前を付けるだけでなく、適切なコンテンツを簡単に割り当てることもできます。
+ユーザーにわかりやすいデバイス名を Tizen プレーヤーに割り当てて、そのデバイス名を Adobe Experience Manager（AEM）に送信することができます。この機能により、Tizen プレーヤーに名前を付けるだけでなく、適切なコンテンツを簡単に割り当てることもできます。
 
 >[!NOTE]
 >プレーヤー名は、登録にのみ選択できます。プレーヤーの登録後は、プレーヤー名を変更できなくなります。
@@ -64,7 +64,7 @@ Samsung デバイスで次の手順に従って、デバイスにAEM Screens Pla
    >[!NOTE]
    >Tizen プレーヤーは、HTTP サーバーに接続できます。
 
-1. AEM Screens Player が自動的にインストールされ、Samsung デバイスで起動します。
+1. AEM Screens プレーヤーが Samsung デバイスに自動的にインストールされて起動します。
 
    >[!NOTE]
    >Tizen デバイスと `http` サーバーが相互に接続できるようになり、サーバーは Tizen プレーヤーに到達できます。
@@ -73,33 +73,33 @@ Samsung デバイスで次の手順に従って、デバイスにAEM Screens Pla
 ## cookie の SameSite 属性に対応していないユーザーエージェントの適用除外 {#exempting-user-agents}
 
 >[!IMPORTANT]
->**この節の内容は、Adobe Experience Manager（AEM） 6.5.5 からAEM 6.5.7 までのバージョンに適用されます。**
+>**この節の内容は、Adobe Experience Manager（AEM）6.5.5 から AEM 6.5.7 までのバージョンに適用されます。**
 >
->ブラウザーのエンジンの中には、 *`SameSite=None`* AEM 6.5.5 からAEM 6.5.7 までのバージョンで発行されるログイントークンで使用される属性。通常、この問題はブラウザーを入手可能な最新バージョンにアップグレードすることで解決できます。 スマートディスプレイ、セットトップボックス、またはブラウジングエンジンが組み込まれたその他のデバイスでは、アップグレードができない場合があります。
+>ブラウザーエンジンの中には、AEM 6.5.5 から AEM 6.5.7 までのバージョンが発行するログイントークンで使用される *`SameSite=None`* 属性に対応していないものが一部あります。この問題は、通常、ブラウザーを入手可能な最新のバージョンにアップグレードすれば解決できます。ただし、スマートディスプレイやセットトップボックスのように、ブラウジングエンジンが組み込まれているデバイスの場合など、そのようなアップグレードが不可能な場合があります。
 
 *SameSite=None* を使用する場合に、その属性に対応していないこれらのクライアントを適用対象外にするには、次の手順に従います。
 
 1. Adobe Experience Manager（AEM）Service Pack 6.5.7 にアップグレードします。
 
-1. AEMの再起動後、に移動します。 `/system/console/configMgr` を検索します **Adobe Granite トークン認証ハンドラー**. **SameSite** の値を「**None**」に設定します。
+1. AEM を再起動した後、`/system/console/configMgr` に移動し、**Adobe Granite Token Authentication Handler** を探します。**SameSite** の値を「**None**」に設定します。
 
-1. 新しいオプションが表示されます *`User agents to be exempted from samesite attribute`*. このオプションに、と互換性のないユーザーエージェントに対応する正規表現を入力します *SameSite=None* 属性。
+1. 新しいオプション *`User agents to be exempted from samesite attribute`* が表示されます。このオプションに、と互換性のないユーザーエージェントに対応する正規表現を入力します *SameSite=None* 属性。
 
    >[!NOTE]
    >
-   >詳しくは、[SameSite=None: Known Incompatible Clients](https://www.chromium.org/updates/same-site/incompatible-clients)（「SameSite=None」に対応していない既知のクライアント）を参照してください。Tizen プレーヤーの場合は、正規表現を使用します。 `(.*)Tizen(.*)`.
+   >詳しくは、[SameSite=None: Known Incompatible Clients](https://www.chromium.org/updates/same-site/incompatible-clients)を参照してください。Tizen プレーヤーの場合は `(.*)Tizen(.*)` という正規表現を使用します。
 
 1. AEM 6.5.5 以降のインスタンスに Tizen プレーヤーを登録します。これによりプレーヤーが登録され、コンテンツが正常に表示されます。
 
 ## Tizen プレーヤーのリモートプロビジョニング {#remote-provisioning}
 
-Tizen プレーヤーをリモートでプロビジョニングすると、数百台から数千台の Samsung Tizen ディスプレイを、大きな手間をかけずにデプロイできます。 これにより、サーバー URL や一括登録コードなどのパラメーターを各プレーヤーに手動で設定する必要がなくなります。 また、AEM Screensがas a Cloud Serviceされている場合は、クラウドモードとクラウドトークンを設定します。
+Tizen プレーヤーをリモートでプロビジョニングすると、数百台から数千台の Samsung Tizen ディスプレイを、大きな手間をかけずにデプロイできます。 これにより、サーバー URL や一括登録コード、またはその他のパラメーターを各プレーヤーに手動で設定する必要がなくなります。また、AEM Screens as a Cloud Service がある場合は、クラウドモードとクラウドトークンの設定も同様です。
 
-この機能を使用すると、Tizen プレーヤーをリモートで設定し、必要に応じてそれらの設定を一元的に更新できます。 必要なのは、Tizen アプリケーション `(wgt and xml file)` をホストするための `HTTP` サーバーと、適切なパラメーターを記述した `config.json` を保存するためのテキストエディターだけです。
+この機能を利用すると、Tizen プレーヤーをリモートで設定し、必要に応じてその設定を一元的に更新できます。必要なのは、Tizen アプリケーション `(wgt and xml file)` をホストするための `HTTP` サーバーと、適切なパラメーターを記述した `config.json` を保存するためのテキストエディターだけです。
 
 Tizen デバイスに URL ランチャーアドレスが設定されていることを確認します。 「ホーム」ボタン/「URL ランチャーの設定」をクリックします。
 Tizen アプリケーションをホストする `HTTP` サーバー上で、`config.json` ファイルを `wgt` ファイルと同じ場所に置きます。ファイル名は `config.json` にする必要があります。
-Tizen プレーヤーがインストールされ、プレーヤーの起動時（および再起動時）に `config.json` ファイル。
+Tizen プレーヤーがインストールされ、プレーヤーの起動時（および再起動時）に `config.json` ファイル内の設定がチェックされ適用されます。
 
 ### JSON ポリシーの例 {#example-json}
 
@@ -119,7 +119,7 @@ Tizen プレーヤーがインストールされ、プレーヤーの起動時�
 
 >[!NOTE]
 >プレーヤーの管理 UI ポリシー設定は厳密に適用され、手動で上書きされることはありません。 特定のポリシーに対して手動のプレーヤー設定を許可する場合は、ポリシー設定でポリシーを指定しないでください。
->例えば、再起動スケジュールの手動設定を許可する場合は、キーを指定しないでください `rebootSchedule` をポリシー設定で使用できます。 ポリシー設定は、プレーヤーが再読み込みされるたびに読み取られます。
+>例えば、再起動スケジュールの手動設定を許可する場合は、ポリシー設定で `rebootSchedule` キーを指定しないでください。ポリシー設定は、プレーヤーが再読み込みされるたびに読み取られます。
 
 | **ポリシー名** | **目的** |
 |---|---|
@@ -130,7 +130,7 @@ Tizen プレーヤーがインストールされ、プレーヤーの起動時�
 | enableAdminUI | サイト上でデバイスを設定するための Admin UI を有効にします。設定が完了して実稼働になったら、false に設定します。 |
 | enableOSD | ユーザーがデバイスのチャネルを切り替えるためのチャネルスイッチャー UI を有効にします。 設定が完了して実稼働になったら、false に設定することを検討します。 |
 | enableActivityUI | を有効にすると、ダウンロードや同期など、アクティビティの進行状況を表示できます。 トラブルシューティング用に有効にしておき、設定が完了して実稼働になったら無効にします。 |
-| cloudMode | Tizen プレーヤーから Screens as a Cloud Service に接続する場合は、true に設定します。AMS またはオンプレミス AEMに接続する場合は、false に設定します。 |
+| cloudMode | Tizen プレーヤーから Screens as a Cloud Service に接続する場合は、true に設定します。AMS またはオンプレミス AEM に接続する場合は、false に設定します。 |
 | cloudToken | Screens as a Cloud Service に登録するための登録トークン。 |
 
 
@@ -145,9 +145,9 @@ Tizen デバイスを Samsung Remote Management Service（RMS）に登録し URL
 
 1. サーバーアドレスに移動し、MagicInfo URL access と入力してキーを押します **完了**.
 
-1. 必要に応じて、TLS を設定します。 ポートに移動し、サーバーのポート番号をクリックして、 **保存**.
+1. 必要に応じて、TLS をセットアップします。ポートに移動し、サーバーのポート番号をクリックして、 **保存**.
 
-1. に移動します。 **デバイス** タブをクリックして、設定したデバイスを確認します。 デバイスが見つかったら、チェックボックスをクリックし、 **承認**.
+1. 「**デバイス**」タブに移動し、設定したデバイスを確認します。デバイスが見つかったら、チェックボックスをクリックし、 **承認**.
 
    >![画像](/help/user-guide/assets/tizen/rms-3.png)
 
@@ -155,7 +155,7 @@ Tizen デバイスを Samsung Remote Management Service（RMS）に登録し URL
 
    >![画像](/help/user-guide/assets/tizen/rms-7.png)
 
-1. デバイスが承認されると、デバイスリストに表示されます。 クリック *情報* 次に示すように、デバイスボックスに入力します。
+1. デバイスが承認されると、デバイスリストに表示されます。クリック *情報* 次に示すように、デバイスボックスに入力します。
 
    >![画像](/help/user-guide/assets/tizen/rms-6.png)
 
@@ -163,7 +163,7 @@ Tizen デバイスを Samsung Remote Management Service（RMS）に登録し URL
 
    >![画像](/help/user-guide/assets/tizen/rms-5.png)
 
-1. デバイスオプションを編集し、 **設定** タブ。 に移動します。 **URL ランチャー** セクションに移動し、ウィジェットをホストする URL を入力して、 `SSSP config file` 以下に、 `SSSP` アプリケーション（下図を参照）。
+1. デバイスオプションを編集し、 **設定** タブ。 「**URL ランチャー**」セクションに移動し、wgt と `SSSP config file` をホストする URL を入力すると、次の図に示すように `SSSP` アプリケーションをインストールできます。
 
    ![画像](/help/user-guide/assets/tizen/rms-9.png)
 

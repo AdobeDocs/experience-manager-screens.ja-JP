@@ -1,6 +1,6 @@
 ---
 title: 機能パック 202011 のリリースノート
-description: 2020 年 11 月 30 日（PT）にリリースされたAEM Screens機能パック 202011 について説明します。
+description: 2020年11月30日（PT）にリリースされた AEM Screens 機能パック 202011 について説明します。
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -8,7 +8,7 @@ exl-id: b080a697-0e65-4ae1-a161-669c3098246b
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '287'
-ht-degree: 42%
+ht-degree: 53%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 42%
 
 AEM Screens は、AEM 6.5 機能パック 6 をリリースしました。
 
-AEM Screens 6.5.6 リリースの最新の機能パックは、からダウンロードできます。 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe IDを使用する。 に移動します。 **Adobe Experience Manager** タブで「」を検索 **スクリーン** というタイトルの最新の機能パックを取得するには **AEM 6.5 Screens FP6**.
+AEM Screens 6.5.6 リリースの最新の機能パックは、からダウンロードできます。 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html) Adobe IDを使用する。 に移動します。 **Adobe Experience Manager** タブで「」を検索 **スクリーン** というタイトルの最新の機能パックを取得するには **AEM 6.5 Screens FP6**.
 
 ## リリース日 {#release-date}
 
-AEM Screens 機能パック 202011 のリリース日は 2020 年 11 月 30 日です。
+AEM Screens 機能パック 202011 のリリース日は 2020年11月30日（PT）です。
 
 ### 新機能 {#what-is-new}
 
@@ -38,12 +38,12 @@ AEM Screens 機能パック 202011 のリリース日は 2020 年 11 月 30 日�
 * **Tizen プレーヤー**
 
   AEM Screens 6.5.6 リリースの最新の機能パックを含んだ Tizen プレーヤーが導入されました。
-参照： [Tizen プレーヤーの実装](/help/user-guide/tizen-player.md) を参照してください。
+詳しくは、[Tizen プレーヤーの実装](/help/user-guide/tizen-player.md)を参照してください。
 
 * **デバイスマネージャーからの検索機能**
 
   AEM Screens 6.5.6 リリースの最新の機能パックで、Device Manager UI から新しい検索機能が使用できるようになりました。
-参照： [デバイスマネージャからのデバイスの検索](/help/user-guide/device-registration.md#search-device) を参照してください。
+詳細は、[デバイスマネージャーからのデバイスの検索](/help/user-guide/device-registration.md#search-device)を参照してください。
 
 * **デフォルトの Ping 間隔**
 
@@ -59,6 +59,6 @@ AEM Screens 6.5 機能パック 6 向けに、次の AEM Screens Player がリ�
 * Tizen
 * Linux®
 
-#### AEM Screens Player のダウンロード 
+#### AEM Screens Player のダウンロード
 
 最新のAEM Screens Player のダウンロードとバグ修正について詳しくは、以下を参照してください。 **[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/index.html)**.

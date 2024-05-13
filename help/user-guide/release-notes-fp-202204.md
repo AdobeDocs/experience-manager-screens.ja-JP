@@ -17,11 +17,11 @@ ht-degree: 36%
 >[!CAUTION]
 >Adobeでは、最新バージョンのAdobe Experience Manager（AEM）にアップグレードすることをお勧めします。 AEM Screensは、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供します。
 
-## 可用性 {#availability}
+## 入手方法 {#availability}
 
 AEM Screens では、AEM 6.5 機能パック 11 をリリースしました。
 
-AEM Screens 6.5.11 リリースの最新の機能パックは、からダウンロードできます。 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe IDを使用する。 に移動します。 **Adobe Experience Manager** タブで「」を検索 **スクリーン** というタイトルの最新の機能パックを取得するには **AEM 6.5 Screens FP11**.
+AEM Screens 6.5.11 リリースの最新の機能パックは、からダウンロードできます。 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html) Adobe IDを使用する。 に移動します。 **Adobe Experience Manager** タブで「」を検索 **スクリーン** というタイトルの最新の機能パックを取得するには **AEM 6.5 Screens FP11**.
 
 ## リリース日 {#release-date}
 
@@ -57,6 +57,6 @@ AEM Screens 6.5 機能パック 11 向けに、次の AEM Screens Player がリ�
 * Android™
 * Linux®
 
-#### AEM Screens Player のダウンロード 
+#### AEM Screens Player のダウンロード
 
 最新のAEM Screens Player のダウンロードとバグ修正について詳しくは、以下を参照してください。 **[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/index.html)**.

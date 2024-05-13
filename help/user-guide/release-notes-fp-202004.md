@@ -1,6 +1,6 @@
 ---
 title: 機能パック 202004 のリリースノート
-description: 2020 年 4 月 20 日（PT）にリリースされたAEM Screens機能パック 202004 について説明します。
+description: 2020年4月20日（PT）にリリースされた AEM Screens 機能パック 202004 について説明します。
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -8,7 +8,7 @@ exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 31%
+ht-degree: 40%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 31%
 
 AEM Screens は、AEM 6.4 機能パック 8 および AEM 6.5 機能パック 4 をリリースしました。
 
-AEM Screens 6.4.8 またはAEM Screens 6.5.4 リリースの最新の機能パックは、からダウンロードできます。 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe IDを使用する。 に移動します。 **Adobe Experience Manager** タブで「」を検索 **スクリーン** 最新の機能パックを取得するには、
+AEM Screens 6.4.8 またはAEM Screens 6.5.4 リリースの最新の機能パックは、からダウンロードできます。 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html) Adobe IDを使用する。 に移動します。 **Adobe Experience Manager** タブで「」を検索 **スクリーン** 最新の機能パックを取得するには、
 
 ## リリース日 {#release-date}
 
-AEM Screens 機能パック 202004 のリリース日は 2020 年 4 月 20 日です。
+AEM Screens 機能パック 202004 のリリース日は 2020年4月20日（PT）です。
 
 ### 新機能 {#what-s-new}
 
@@ -40,7 +40,7 @@ AEM Screens 機能パック 202004 のリリース日は 2020 年 4 月 20 日�
 
   コンテンツ作成者のユーザーエクスペリエンスフローが改善され、今後の公開で使用するためのクリック数が減りました。
 
-  参照： **[Screens ローンチを使用したコンテンツの更新](launches.md)** を参照してください。
+  詳しくは、「**[Screens ローンチを使用したコンテンツの更新](launches.md)**」を参照してください。
 
 * **チャネルダッシュボード**
 
@@ -51,7 +51,7 @@ AEM Screens 機能パック 202004 のリリース日は 2020 年 4 月 20 日�
 
   チャネルダッシュボードからマニフェストファイルを表示できるようになりました。
 
-  参照： **[マニフェストの表示](/help/user-guide/managing-channels.md#view-manifest)**.
+  「**[マニフェストの表示](/help/user-guide/managing-channels.md#view-manifest)**」を参照してください。
 
 * **テキストオーバーレイ**
 
@@ -63,7 +63,7 @@ AEM Screens 機能パック 202004 のリリース日は 2020 年 4 月 20 日�
 
   この機能パック リリースでは、アセット変更間のコマンド同期遅延の改善が反映されています。
 
-  参照： **[コマンド同期](using-command-sync.md)** を参照してください。
+  詳しくは、「**[コマンド同期](using-command-sync.md)**」を参照してください。
 
 ### リリースされている AEM Screens Player
 
@@ -73,6 +73,6 @@ AEM Screen でリリースされた AEM 6.4 機能パック 8 および AEM 6.5 
 * Windows
 * Android™
 
-#### AEM Screens Player のダウンロード 
+#### AEM Screens Player のダウンロード
 
 最新のAEM Screens Player のダウンロードとバグ修正について詳しくは、以下を参照してください。 **[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)**.

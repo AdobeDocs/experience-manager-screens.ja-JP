@@ -1,6 +1,6 @@
 ---
 title: 機能パック 202109 のリリースノート
-description: 2021 年 9 月 23 日にリリースされたAEM Screens機能パック 202109 について説明します。
+description: 2021年9月23日にリリースされた AEM Screens 機能パック 202109 について説明します。
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -8,7 +8,7 @@ exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '916'
-ht-degree: 37%
+ht-degree: 63%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 37%
 >[!CAUTION]
 >Adobeでは、最新バージョンのAdobe Experience Manager（AEM）にアップグレードすることをお勧めします。 AEM Screensは、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供します。
 
-## 可用性 {#availability}
+## 入手方法 {#availability}
 
 AEM Screens は、AEM 6.5 機能パック 9 をリリースしました。
 
-AEM Screens 6.5.9 リリースの最新の機能パックは、からダウンロードできます。 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe IDを使用する。 に移動します。 **Adobe Experience Manager** タブで「」を検索 **スクリーン** というタイトルの最新の機能パックを取得するには **AEM 6.5 Screens FP9**.
+AEM Screens 6.5.9 リリースの最新の機能パックは、からダウンロードできます。 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html) Adobe IDを使用する。 に移動します。 **Adobe Experience Manager** タブで「」を検索 **スクリーン** というタイトルの最新の機能パックを取得するには **AEM 6.5 Screens FP9**.
 
 ## リリース日 {#release-date}
 
@@ -31,13 +31,13 @@ AEM Screens 機能パック 202109 のリリース日は 2021 年 9 月 23 日�
 
 * **ビデオのサムネールサポート**
 
-  ビデオのサムネールが AEM Screens でサポートされるようになりました。コンテンツ作成者は、画像がプレースホルダーとして使用されるように、ビデオのサムネールを定義します。 また、適切なチームが実際のビデオに仕上げる間に、コンテンツの再生とターゲティングも適切にテストします。 この画像は、ビデオの再生に失敗した場合にも使用できます。
+  ビデオのサムネールが AEM Screens でサポートされるようになりました。コンテンツ作成者は、画像がプレースホルダーとして使用されるように、ビデオのサムネールを定義します。 また、適切なチームが実際のビデオに仕上げる間に、コンテンツの再生とターゲティングも適切にテストします。 その画像は、ビデオの再生に失敗した場合でも使用できます。
 詳しくは、[ビデオのサムネールサポート](/help/user-guide/thumbnail-support.md)を参照してください。
 
 * **基本的な再生モニタリング**
 
-  AEM Screens では、基本的な再生モニタリングをサポートするようになりました。現在は、各 ping で様々な再生指標がレポートされます（デフォルトは 30 秒）。 指標に基づいて、様々なエッジケース（動きのないエクスペリエンス、空白の画面、スケジュールの問題など）を検出します。 この機能を使用すると、プレーヤーがコンテンツを適切に再生しているかどうかをチームがリモートで監視でき、空白の画面やフィールド内のエクスペリエンスの不具合に対する反応性が向上します。 また、不具合のあるエクスペリエンスがエンドユーザーに表示されるリスクの軽減にもつながります。
-詳しくは、[基本的な再生モニタリング](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring)を参照してください。
+  AEM Screens では、基本的な再生モニタリングをサポートするようになりました。プレーヤーでは、各 ping（デフォルトは 30 秒）で様々な再生指標がレポートされるようになりました。指標に基づいて、様々なエッジケース（動きのないエクスペリエンス、空白の画面、スケジュールの問題など）を検出します。この機能を使用すると、プレーヤーがコンテンツを適切に再生しているかどうかをチームがリモートで監視でき、空白の画面やフィールド内のエクスペリエンスの不具合に対する反応が向上します。不具合のあるエクスペリエンスがエンドユーザーに表示されるリスクも軽減されます。
+詳しくは、[基本的な再生モニタリング](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring)を参照してください。
 
 * **コンテンツ割り当てレポートの更新**
 
@@ -50,7 +50,7 @@ AEM Screens 機能パック 202109 のリリース日は 2021 年 9 月 23 日�
 
   AEM Screens 開発者は、すべてのコンテンツバリエーションを手動で作成しなくても、デバイス固有のアセットレンディションが自動的にダウンロードされて再生されるように設定できるようになりました。詳しくは、[アダプティブレンディション：アーキテクチャ概要と設定](/help/user-guide/adaptive-renditions.md)を参照してください。
 
-  また、AEM Screens コンテンツ作成者は、アダプティブレンディションを使用するようにアセットを設定することができます。 また、デバイスを大規模なネットワークに移行して、AEM Screens チャンネルでこの機能を使用することもできます。 詳しくは、[AEM Screens でのアダプティブレンディションの使用](/help/user-guide/using-adaptive-renditions.md)を参照してください。
+  また、AEM Screens コンテンツ作成者は、アダプティブレンディションを使用するようにアセットを設定することができます。また、デバイスを大規模なネットワークに移行して、AEM Screens チャネルでこの機能を使用することもできます。詳しくは、[AEM Screens でのアダプティブレンディションの使用](/help/user-guide/using-adaptive-renditions.md)を参照してください。
 
 * **V3 マニフェストのサポート**
 
@@ -58,11 +58,11 @@ AEM Screens 機能パック 202109 のリリース日は 2021 年 9 月 23 日�
 
    * オーサーとパブリッシュ環境の両方で、保留中オフラインコンテンツジョブを消去します。
 
-      * オーサーとパブリッシュのCRXDE Liteーに移動します。
+      * オーサーとパブリッシュで CRXDE Lite に移動します。
 
-      * ツール/クエリをクリックします。
+      * ツール／クエリをクリックします。
 
-      * クエリで、を使用します `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
+      * クエリで `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']` を使用します。
 
       * これにより、現在実行中またはキューで保留中のオフラインコンテンツジョブが一覧表示されます。
 
@@ -77,8 +77,8 @@ AEM Screens 機能パック 202109 のリリース日は 2021 年 9 月 23 日�
    * カスタムコンポーネントを更新します。
 
 
-   * 詳しくは、[マニフェストバージョン v3 に対応した Dispatcher の設定](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)を参照してください。
-   * さらに、カスタムコンポーネントを v3 マニフェストの一部として使用する場合は、[カスタムハンドラーのテンプレート](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)を参照してください。
+   * 詳しくは、[マニフェストバージョン v3 に対応した Dispatcher の設定](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)を参照してください。
+   * さらに、カスタムコンポーネントを v3 マニフェストの一部として使用する場合は、[カスタムハンドラーのテンプレート](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)を参照してください。
 
 
 ### バグ修正 {#bug-fixes}
@@ -103,7 +103,7 @@ AEM Screens 機能パック 202109 のリリース日は 2021 年 9 月 23 日�
 
 * プレーヤーは、再生ステータスを報告する必要があります。
 
-* 次の場合、プレーヤーがアセットを再ダウンロードしない `ALL` キャッシュがクリアされます。
+* `ALL` キャッシュがクリアされると、プレーヤーがアセットを再ダウンロードしません。
 
 * プレーヤー管理者は、プレーヤー名を選択できるようになりました。
 
@@ -118,7 +118,7 @@ AEM Screens 機能パック 202109 のリリース日は 2021 年 9 月 23 日�
 **サーバー側**
 
 * ターゲットビデオが表示されません。
-* 後続シーケンスへの表示データのブロードキャスト時に競合状態が発生する。
+* 後続シーケンスへの表示データのブロードキャスト時に競合状態が発生します。
 
 * チャネルプレビューが、ビデオを含んだチャネルで機能しません。
 
@@ -160,6 +160,6 @@ AEM Screens 6.5 機能パック 9 向けに、次の AEM Screens Player がリ�
 * Android™
 * Linux®
 
-#### AEM Screens Player のダウンロード 
+#### AEM Screens Player のダウンロード
 
 最新のAEM Screens Player のダウンロードとバグ修正について詳しくは、以下を参照してください。 **[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/index.html)**.

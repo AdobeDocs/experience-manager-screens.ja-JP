@@ -6,7 +6,7 @@ contentOwner: jsyal
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '164'
-ht-degree: 12%
+ht-degree: 43%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 12%
 
 AEM Screens では、Context Hub を使用してデータ駆動型イベントを実現します。Context Hub を使用すると、リアルタイムで使用できます。
 
-### データドリブンイベントの分類 {#categorizing-data-driven-events}
+### データ駆動型イベントのカスタマイズ {#categorizing-data-driven-events}
 
 データ駆動型イベントは、次の 4 つの異なるカテゴリに分類されます。
 
 * 運用データ
 * プレゼンテーション内のデータ
 * アクションにつながるデータ出力
-* Data out presentational
+* Data out Presentational
 
 #### 運用データ {#data-in-operational}
 
@@ -34,12 +34,12 @@ AEM Screens では、Context Hub を使用してデータ駆動型イベント�
 
 #### プレゼンテーション内のデータ {#data-in-presentation}
 
-データが一時チャンネルで実行中で、トリガー後にチャンネル内のアセットが変更される。
+データは、一時チャネルで実行され、トリガー後、チャネル内のアセットを変更します。
 
 #### アクションにつながるデータ出力 {#data-out-actionable}
 
-LCD 画面にコマンドが送信され、画面のオン/オフが切り替えられたとき。 例えば、画面の明るさやボリュームなどです。
+コマンドが液晶画面に送信されると、画面のオンおよびオフが切り替わります例えば、画面の明るさやボリュームなどです。
 
-#### Data out presentational {#data-out-presentational}
+#### Data out Presentational {#data-out-presentational}
 
-情報をフィードバックループに集約したグラフ。 Analytics を使用してイベントを評価し、通知します。
+情報をフィードバックループに集約したグラフ。 分析に使用され、イベントを評価および通知します。

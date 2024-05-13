@@ -13,7 +13,7 @@ exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 46%
+ht-degree: 57%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 46%
 
 >[!NOTE]
 >
->これらの機能パックのいずれかにアクセスするには、Adobeサポートに問い合わせてアクセス権をリクエストします。 AEM Screensの最新の機能パックは、からダウンロードできます [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe IDを使用する。
+>これらの機能パックのいずれかにアクセスするには、Adobeサポートに問い合わせてアクセス権をリクエストします。 AEM Screensの最新の機能パックは、からダウンロードできます [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html) Adobe IDを使用する。
 
 ここでは、以下のトピックについて説明します。
 
@@ -73,13 +73,13 @@ Adobe Analytics の設定は、OSGi コンソールから指定できます。
 
 >[!CAUTION]
 >
->プロパティを設定する前に、Adobeのリレーションシップマネージャーに連絡して、を取得するためのチケットを作成します。 **Analytics API キー** および **Analytics プロジェクト** AEM Screensで使用します。
+>プロパティを設定する前に、アドビのリレーションシップマネージャーに連絡して、AEM Screens で使用する **Analytics API キー**&#x200B;と **Analytics プロジェクト**&#x200B;を取得するためのチケットを作成してください。
 
 ### プロパティの設定 {#configuring-the-properties}
 
 >[!CAUTION]
 >
->プロパティを設定する前に、Adobeのリレーションシップマネージャーに連絡して、を取得するためのチケットを作成します。 **Analytics API キー** および **Analytics プロジェクト** AEM Screensで使用します。
+>プロパティを設定する前に、アドビのリレーションシップマネージャーに連絡して、AEM Screens で使用する **Analytics API キー**&#x200B;と **Analytics プロジェクト**&#x200B;を取得するためのチケットを作成してください。
 
 Adobe Analytics を AEM Screens 用に設定するためのプロパティとその説明を次の表に示します。
 
@@ -125,4 +125,4 @@ Analytics イベントは、IndexedDB にオフラインで保存され、後で
 
 >[!NOTE]
 >
->について詳しくは、 ***シーケンス*** および ***イベントの標準データモデル***&#x200B;を参照してください **[AEM Screens用のAdobe Analyticsの設定](configuring-adobe-analytics-aem-screens.md)**.
+>***シーケンス***&#x200B;と&#x200B;***イベントの標準データモデル***&#x200B;について詳しくは、**[AEM Screens 用の Adobe Analytics の設定](configuring-adobe-analytics-aem-screens.md)**&#x200B;を参照してください。

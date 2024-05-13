@@ -1,11 +1,11 @@
 ---
 title: プロジェクトレベルの画像再生時間
-description: プロジェクトレベルで画像再生時間を定義する方法を説明します。
+description: プロジェクトレベルで画像の再生時間を定義する方法を説明します。
 contentOwner: jsyal
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 36%
+ht-degree: 85%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 36%
 
 ## 概要 {#overview}
 
-この機能を使用すると、プロジェクトレベルで画像の再生時間を定義できます。 デフォルトでは、すべての画像はこの再生時間を継承します。プロジェクトレベルで期間が定義されていない場合、8 秒のデフォルトの再生が続行されます。
+この機能を使用すると、プロジェクトレベルで画像の再生時間を定義できます。デフォルトでは、すべての画像はこの再生時間を継承します。プロジェクトレベルで時間が定義されていない場合、デフォルトの再生は 8 秒間続きます。
 
 ### 前提条件 {#prerequisites}
 
-この機能を使用する前に、この機能の実装を開始するための前提条件としてプロジェクトを設定します。 例：
+この機能の使用を開始する前に、この機能の実装の前提条件として、プロジェクトをセットアップします。次に例を示します。
 
-1. AEM Screens プロジェクト（この例では、 **ProjectLevelPlay**）に設定します。
-1. シーケンスチャネルの作成： **PlayBackChannel** 未満 **チャネル** フォルダー。
-1. コンテンツの追加先 **PlayBackChannel**.
+1. AEM Screens プロジェクト（この例では **ProjectLevelPlayback**）を作成する
+1. **チャネル**&#x200B;フォルダーの下に **PlayBackChannel** というシーケンスチャネルを作成する
+1. **PlayBackChannel** にコンテンツを追加する
 
    ![アセット](assets/image_playback1.png)
 
@@ -30,16 +30,16 @@ ht-degree: 36%
 
    ![アセット](assets/image_playback2.png)
 
-## プロジェクトレベル画像再生時間の割り当ての編集 {#editing-project-level-image-playback-duration-assignment}
+## プロジェクトレベル画像再生時間割り当ての編集 {#editing-project-level-image-playback-duration-assignment}
 
 以下の節では、AEM Screens プロジェクトのコンテンツの再生時間を編集する方法について説明します。
 
-### プロジェクトレベルでの画像の再生時間の更新 {#updating-the-playback-duration-for-images-in-a-project}
+### プロジェクトレベル画像再生時間の更新 {#updating-the-playback-duration-for-images-in-a-project}
 
 
 >[!NOTE]
 >
->画像またはチャネルレベルの再生時間を更新する場合は、を参照してください [チャネルレベルの画像再生時間](channel-level-image-playback.md).
+>画像レベルまたはチャネルレベルの再生時間を更新する場合は、[チャネルレベルの画像再生時間](channel-level-image-playback.md)を参照してください。
 
 プロジェクトレベルの画像再生時間の割り当てを更新するには、以下の手順に従います。
 
@@ -50,7 +50,7 @@ ht-degree: 36%
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. この **ページ** ダイアログボックスが開きます。
+1. **ページ**&#x200B;ダイアログボックスが開きます。
 
    >[!NOTE]
    >
@@ -58,13 +58,13 @@ ht-degree: 36%
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   を編集する **期間** 8000 （ミリ秒）～3000 （ミリ秒）、つまり 3 秒です。 の右上にあるチェックマークを選択 **ページ** ダイアログボックスが開き、変更内容が保存されます。
+   「**デュレーション**」を 8000 （ミリ秒）から 3000 （ミリ秒）、すなわち 3 秒へと編集します。の右上にあるチェックマークを選択 **ページ** ダイアログボックスが開き、変更内容が保存されます。
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
 ### 結果の表示 {#viewing-the-result}
 
-チャネル再生時間（この例では 3 つの画像すべて）を更新したら、画像が 8 秒（デフォルト値）ではなく 3 秒間再生されることに注意してください。
+チャンネルの再生時間（この例では 3 つの画像のすべて）を更新後、画像が 8 秒間（デフォルト値）ではなく 3 秒間再生されるようになります。
 
 ![channel_preview](assets/channel_preview.gif)
 

@@ -1,6 +1,6 @@
 ---
 title: 機能パック 202112 のリリースノート
-description: 2022 年 1 月 12 日（PT）にリリースされたAEM Screens機能パック 202112 について説明します。
+description: 2022年1月12日（PT）にリリースされた AEM Screens 機能パック 202112 について説明します。
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -8,7 +8,7 @@ exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 39%
+ht-degree: 44%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 39%
 >[!CAUTION]
 >Adobeでは、最新バージョンのAdobe Experience Manager（AEM）にアップグレードすることをお勧めします。 AEM Screensは、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供します。
 
-## 可用性 {#availability}
+## 入手方法 {#availability}
 
 AEM Screens は、AEM 6.5 機能パック 10 をリリースしました。
 
-AEM Screens 6.5.10 リリースの最新の機能パックは、からダウンロードできます。 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe IDを使用する。 に移動します。 **Adobe Experience Manager** タブで「」を検索 **スクリーン** というタイトルの最新の機能パックを取得するには **AEM 6.5 Screens FP10**.
+AEM Screens 6.5.10 リリースの最新の機能パックは、からダウンロードできます。 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html) Adobe IDを使用する。 に移動します。 **Adobe Experience Manager** タブで「」を検索 **スクリーン** というタイトルの最新の機能パックを取得するには **AEM 6.5 Screens FP10**.
 
 ## リリース日 {#release-date}
 
@@ -67,6 +67,6 @@ AEM Screens 6.5 機能パック 10 向けに、次の AEM Screens Player がリ�
 * Android™
 * Linux®
 
-#### AEM Screens Player のダウンロード 
+#### AEM Screens Player のダウンロード
 
 最新のAEM Screens Player のダウンロードとバグ修正について詳しくは、以下を参照してください。 **[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/index.html)**.

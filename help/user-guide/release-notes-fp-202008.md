@@ -1,6 +1,6 @@
 ---
 title: 機能パック 202008 のリリースノート
-description: 2020 年 9 月 3 日にリリースされたAEM Screens機能パック 202008 について説明します。
+description: 2020年9月3日（PT）にリリースされた AEM Screens 機能パック 202008 について説明します。
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -8,7 +8,7 @@ exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 47%
+ht-degree: 64%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 47%
 
 AEM Screens は、AEM 6.5 機能パック 5 をリリースしました。
 
-AEM Screens 6.5.5 リリースの最新の機能パックは、からダウンロードできます。 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Adobe IDを使用する。 に移動します。 **Adobe Experience Manager** タブで「」を検索 **スクリーン** 最新の機能パックを取得するには、
+AEM Screens 6.5.5 リリースの最新の機能パックは、からダウンロードできます。 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html) Adobe IDを使用する。 に移動します。 **Adobe Experience Manager** タブで「」を検索 **スクリーン** 最新の機能パックを取得するには、
 
 ## リリース日 {#release-date}
 
-AEM Screens 機能パック 202008 のリリース日は 2020 年 9 月 3 日です。
+AEM Screens 機能パック 202008 のリリース日は 2020年9月3日（PT）です。
 
 ### 新機能 {#what-is-new}
 
@@ -38,7 +38,7 @@ AEM Screens 機能パック 202008 のリリース日は 2020 年 9 月 3 日で
 
 * **繰り返しスケジュール**
 
-  繰り返しスケジュールを使用すると、チャネルに繰り返しスケジュールを設定できます。 チャネルに対して複数の繰り返しスケジュールを設定できます。
+  繰り返しスケジュールを使用すると、チャネルの定期的なスケジュールを設定できます。チャネルに対して複数の繰り返しスケジュールを設定できます。
 
   詳しくは、「[繰り返しスケジュール](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule)」を参照してください。
 
@@ -50,15 +50,15 @@ AEM Screens 機能パック 202008 のリリース日は 2020 年 9 月 3 日で
 
   詳しくは、[音声認識](voice-recognition.md)を参照してください。
 
-### 既知の問題と修正点 {#known-issues}
+### 既知の問題と修正 {#known-issues}
 
-AEM Screens 6.5.5 Service Pack を使用している場合は、Windows または Android™ プレーヤーの環境を設定します。
+AEM Screens 6.5.5 サービスパックを使用している場合は、Windows または Android™ プレーヤー用の環境を設定します。
 
 AEM オーサーインスタンスおよびパブリッシュインスタンスの **Adobe Experience Manager Web コンソール設定**&#x200B;で、**login-token cookies の SameSite 属性**&#x200B;を **Lax** から **None** に設定します。
 
 * 詳しくは、[Windows 10 プレーヤーの実装](implementing-windows-player.md#fp-environment-setup)を参照してください。
 
-* 参照： [Android™ プレーヤーの実装](implementing-android-player.md#fp-environment-setup) を参照してください。
+* 詳しくは、[Android™ プレーヤーの実装](implementing-android-player.md#fp-environment-setup)を参照してください。
 
 ### リリースされている AEM Screens Player
 
@@ -68,6 +68,6 @@ AEM Screens でリリースされた AEM 6.5 機能パック 5 向けに、次�
 * Windows
 * Android™
 
-#### AEM Screens Player のダウンロード 
+#### AEM Screens Player のダウンロード
 
 最新のAEM Screens Player のダウンロードとバグ修正について詳しくは、以下を参照してください。 **[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/index.html)**.

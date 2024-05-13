@@ -8,10 +8,10 @@ user-guide-description: 動的でインタラクティブなデジタルエク�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 98%
+source-wordcount: '520'
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 98%
    + [コンテンツ同期からスマート同期への移行](smartsync.md)
    + [ファイルをソースとする新しいプロジェクトインポーター](project-importer.md)
    + [データトリガーの公開サーバーへのレプリケーション](replicating-data-triggers.md)
-   + [Screens レプリケーションエージェントの設定](configure-screens-replication.md)
+   + [Screens でのレプリケーションエージェントの設定](configure-screens-replication.md)
    + クライアント固有の考慮事項 {#installing-client}
       + [Chrome OS プレーヤー](implementing-chrome-os-player.md)
       + [拡張機能としての Chrome プレーヤーの使用](using-chrome-player-as-an-extension.md)
@@ -100,7 +100,7 @@ ht-degree: 98%
       + [切り替えの適用](applying-transitions.md)
       + [マルチゾーンからシングルゾーンへの切り替え](multizone-to-singlezone.md)
       + [単一使用テイクオーバーチャネル](single-use-takeover-channel.md)
-      + [永続テイクオーバーチャネル](perpetual-takeover-channel.md)
+      + [テイクオーバーチャネルの永続的な使用](perpetual-takeover-channel.md)
 + 開発者向けリソースと API リソース {#developing}
    + [REST API](rest-api.md)
    + [AEM Screens 用カスタムコンポーネントの開発](developing-custom-component-tutorial-develop.md)

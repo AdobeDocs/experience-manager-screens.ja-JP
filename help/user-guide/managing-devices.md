@@ -9,16 +9,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 67%
+source-wordcount: '239'
+ht-degree: 64%
 
 ---
 
 # デバイスの管理 {#managing-devices}
 
-このページでデバイス割り当てを説明します。
+このページでは、デバイスの割り当てについて説明します。
 
 デバイスコンソールでは、デバイスマネージャーにアクセスして、デバイスをディスプレイに割り当てることができます。
 

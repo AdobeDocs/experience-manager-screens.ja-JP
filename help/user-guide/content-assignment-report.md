@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '354'
 ht-degree: 29%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 29%
 
    ![画像](/help/user-guide/assets/content-assignment-report/can-download.png)
 
-1. ダウンロードしたスプレッドシートは、「**ロケーション**」と「**コンテンツ**」の 2 つのタブで構成されています。「場所」タブには、次のような 4 つの列が表示されます **場所**, **ディスプレイ**, **チャネル**、および **デバイス** を使用すると、AEM Screens プロジェクトに関する 4 つのエンティティをさらに調査できます。
+1. ダウンロードしたスプレッドシートは、「**ロケーション**」と「**コンテンツ**」の 2 つのタブで構成されています。「場所」タブには、次のような 4 つの列が表示されます **場所**, **ディスプレイ**, **チャネル**、および **デバイス** これを使用して、AEM Screens プロジェクトに関するこれら 4 つのエンティティを調査できます。
 
    ![画像](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
 

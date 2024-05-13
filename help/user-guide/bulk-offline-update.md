@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 91%
+ht-degree: 82%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 91%
 次の手順に従って、AEM Screens プロジェクトでオフライン一括更新を使用します。
 
 1. Adobe Experience Manager の Web コンソール設定を開きます。
-1. オフライン一括更新サービスを検索します。
+1. Bulk Offline Update Services を検索します。
 
    ![screen_shot_2018-04-24at121428pm](assets/screen_shot_2018-04-24at121428pm.png)
 

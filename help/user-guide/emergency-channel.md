@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '712'
 ht-degree: 53%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 53%
 
 ## ユースケースの説明 {#use-case-description}
 
-ここでは、緊急チャネルの作成と管理に重点を置いた使用例について説明します。事前条件が存在する場合、コンテンツ作成者はシーケンスチャネルから緊急チャネルに切り替えることができます。
+この節では、使用例を説明します。 前提条件がある場合に、コンテンツ作成者がシーケンスチャネルから切り替えられる緊急チャネルの作成と管理に重点を置いています。
 
 ### 前提条件 {#preconditions}
 
@@ -84,7 +84,7 @@ ht-degree: 53%
 
 1. **ロケーションの作成**
 
-   1. **ロケーション**&#x200B;フォルダーに移動します。
+   1. に移動します。 **場所** フォルダー。
    1. アクションバーの「**作成**」をクリックし、ウィザードから **Store** というタイトルのロケーションを作成します。
 
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
@@ -185,4 +185,4 @@ ht-degree: 53%
 
 この **Emergen シーチャネル** コンテンツ作成者が優先度の値を 1 にリセットするまで、コンテンツを表示し続けます。
 
-コンテンツ作成者は、緊急事態が解除されたという指示を受け取ったら、の優先度を更新する必要があります **MainAdChannel** これにより、通常の再生が再開されます。
+コンテンツ作成者は、緊急事態が解除されたという指示を受け取ったら、の優先度を更新する必要があります **MainAdChannel**. これにより、通常の再生が再開されます。

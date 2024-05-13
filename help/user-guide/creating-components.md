@@ -9,10 +9,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 4d673039-4963-458a-89e9-023a993dd354
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 53%
+ht-degree: 40%
 
 ---
 
@@ -47,8 +47,8 @@ AEM コンポーネントを使用して、web ページ上で使用できるコ
 
 | **コンポーネント** | **クライアントライブラリ** |
 |---|---|
-| *cq.screens.components.edit* | オーサリング時に読み込む必要がある CSS および JS |
-| *cq.screens.components.production* | チャネルの実行時に読み込む必要がある CSS および JS |
+| *cq.screens.components.edit* | オーサリング中に読み込む必要がある CSS と JS |
+| *cq.screens.components.production* | チャネルの実行中に読み込む必要がある CSS と JS |
 | *cq.screens.components* | 共有 CSS および JS |
 
 >[!NOTE]

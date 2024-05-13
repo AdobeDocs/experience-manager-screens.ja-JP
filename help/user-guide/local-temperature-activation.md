@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 43%
+source-wordcount: '444'
+ht-degree: 40%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 43%
 
    >[!CAUTION]
    >
-   >チャネルの&#x200B;**プロパティ**／**パーソナライズ機能**&#x200B;タブを使用して&#x200B;**ContextHub** **設定**&#x200B;をセットアップしておいてください。
+   >あなたの **ContextHub** **設定** チャネルの使用 **プロパティ** > **Personalization** タブは既に設定されているはずです。
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -85,6 +85,6 @@ ht-degree: 43%
 1. **プレビューを確認する**
 
    1. 「**プレビュー**」をクリックします。また、Google シートを開き、値を更新します。
-   1. 値を 50 未満に変更します。 冷たい飲み物の画像を見ることができるはずです。 Google シートの値が 50 以上の場合は、ホットドリンクの画像が表示されます。
+   1. 値を 50 未満に変更します。 冷たい飲み物の画像を見ることができます。 Google シートの値が 50 以上の場合は、ホットドリンクの画像が表示されます。
 
    ![result3](assets/result3.gif)

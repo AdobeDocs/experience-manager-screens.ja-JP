@@ -2,10 +2,10 @@
 title: プロジェクトレベルの画像再生時間
 description: プロジェクトレベルで画像の再生時間を定義する方法を説明します。
 contentOwner: jsyal
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 85%
+source-wordcount: '329'
+ht-degree: 73%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 85%
 この機能の使用を開始する前に、この機能の実装の前提条件として、プロジェクトをセットアップします。次に例を示します。
 
 1. AEM Screens プロジェクト（この例では **ProjectLevelPlayback**）を作成する
-1. **チャネル**&#x200B;フォルダーの下に **PlayBackChannel** というシーケンスチャネルを作成する
+1. シーケンスチャネルの作成： **PlayBackChannel** の下 **チャネル** フォルダー。
 1. **PlayBackChannel** にコンテンツを追加する
 
    ![アセット](assets/image_playback1.png)
@@ -64,7 +64,7 @@ ht-degree: 85%
 
 ### 結果の表示 {#viewing-the-result}
 
-チャンネルの再生時間（この例では 3 つの画像のすべて）を更新後、画像が 8 秒間（デフォルト値）ではなく 3 秒間再生されるようになります。
+チャネル再生時間（この例では 3 つの画像すべて）を更新したら、画像が 8 秒（デフォルト値）ではなく 3 秒間再生されることに注意してください。
 
 ![channel_preview](assets/channel_preview.gif)
 

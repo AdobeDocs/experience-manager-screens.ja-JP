@@ -6,10 +6,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 91%
+ht-degree: 78%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 91%
 
 ## 概要 {#overview}
 
-オフライン一括更新を使用すると、すべてのチャネルを一括更新できます。特定のチャネルに移動してコンテンツを更新する手間が省けます。代わりに、ある特定のプロジェクトのチャネルに含まれているすべてのコンテンツを一度に更新できます。
+オフライン一括更新を使用すると、すべてのチャネルを一括で更新できます。 特定のチャネルに移動してコンテンツを更新する手間が省けます。代わりに、ある特定のプロジェクトのチャネルに含まれているすべてのコンテンツを一度に更新できます。
 
 また、ネットワークトラフィックが少ない時間帯に、このアクティビティをスケジュールすることもできます。
 
@@ -39,7 +39,7 @@ ht-degree: 91%
 
 ## オフライン一括更新の使用 {#using-bulk-offline-update}
 
-ユーザーインターフェイス（UI）からオフライン一括更新を手動で使用することも、OSGi サービスから一括更新をスケジュールすることもできます。
+ユーザーインターフェイス（UI）から手動でオフライン一括更新を使用することも、OSGi サービスから一括更新をスケジュールすることもできます。
 
 ### AEM Screens のユーザーインターフェイスを使用する場合 {#using-aem-screens-user-interface}
 
@@ -55,7 +55,7 @@ ht-degree: 91%
 次の手順に従って、AEM Screens プロジェクトでオフライン一括更新を使用します。
 
 1. Adobe Experience Manager の Web コンソール設定を開きます。
-1. オフライン一括更新サービスを検索します。
+1. 一括オフライン更新サービスを検索します。
 
    ![screen_shot_2018-04-24at121428pm](assets/screen_shot_2018-04-24at121428pm.png)
 

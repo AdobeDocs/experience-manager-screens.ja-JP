@@ -1,7 +1,7 @@
 ---
 title: エクスペリエンスフラグメントアクティベーション
 description: AEM Screensに関連するエクスペリエンスフラグメントのアクティベーションについて学ぶのに役立つ使用例です。
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 49%
@@ -32,7 +32,7 @@ ht-degree: 49%
 
 ### AEM Screens プロジェクトでのエクスペリエンスフラグメントの実装 {#experience-fragments-implementation}
 
-エクスペリエンスフラグメントを作成し、AEM Screens プロジェクトに適用したら、次の手順を実行します。 **デモプロジェクト** 必要に応じて、エクスペリエンスフラグメントを拡張できます。
+エクスペリエンスフラグメントを作成し、AEM Screens プロジェクトに適用したら、次の手順を実行します。 **デモプロジェクト**&#x200B;を使用すると、必要に応じてエクスペリエンスフラグメントを拡張できます。
 
 ### テキストサイズの拡大 {#increasing-text-size}
 

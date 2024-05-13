@@ -10,10 +10,10 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 71%
+source-wordcount: '779'
+ht-degree: 68%
 
 ---
 
@@ -144,7 +144,7 @@ AEM には、次を監視する機能が組み込まれています。
 
 * 5 秒間隔の&#x200B;*ハートビート*&#x200B;は、AEM Screens Player が動作中であることを示します。
 * プレーヤーの&#x200B;*スクリーンショット*&#x200B;は、プレーヤーに何が表示されているかを示します。
-* AEM Screens Player *ファームウェア*&#x200B;バージョンがプレーヤーにインストールされていること。
+* この *AEM Screens Player ファームウェア* バージョンがプレーヤーにインストールされている。
 * プレーヤー上に&#x200B;*空きストレージ領域*&#x200B;が存在すること。
 
 サードパーティ製ソフトウェアによるリモート監視の推奨事項は、次のとおりです。

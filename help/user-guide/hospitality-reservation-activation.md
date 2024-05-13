@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 37%
+source-wordcount: '448'
+ht-degree: 33%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 37%
 
 この使用例では、Google シートに、2 つのレストランの予約率が表示されます **`Restaurant1`** および **`Restaurant2`**. 数式は、次の値に基づいて適用されます `Restaurant1` および `Restaurant2` さらに、数式に基づいて、値 1 または値 2 がに割り当てられます **AdTarget** 列。
 
-の値 **`Restaurant1`** > **`Restaurant2`**、次に **広告** 割り当てられた値 **1** それ以外の場合 **AdTarget** 割り当てられた値 **2**. 値 1 の生成 *ステーキ食品* オプションと値 2 の結果、 *タイ料理* ディスプレイ画面のオプション。
+の値 **`Restaurant1`** > **`Restaurant2`**、次に **広告** 割り当てられた値 **1** それ以外の場合 **AdTarget** 割り当てられた値 **2**. 値 1 の場合、 *ステーキ食品* オプションと値 2 の結果、 *タイ料理* ディスプレイ画面のオプション。
 
 ## 前提条件 {#preconditions}
 
@@ -66,7 +66,7 @@ ht-degree: 37%
 
    >[!CAUTION]
    >
-   >チャネルの&#x200B;**プロパティ**&#x200B;を開き、「**パーソナライズ機能**」タブを使用して「**ContextHub** **設定**」をセットアップしておいてください。
+   >あなたの **ContextHub** **設定** チャネルの使用 **プロパティ** > **Personalization** この時点では、タブは既に設定されているはずです。
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 

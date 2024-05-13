@@ -10,10 +10,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 85%
+source-wordcount: '623'
+ht-degree: 68%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 85%
 この機能では、作成者が入力ファイルとしてスプレッドシートを提供でき、システムがバックエンドにロケーションツリーを自動的に作成できるので、以下のメリットがあります。
 
 * *UI から手動で選択する場合よりも優れたパフォーマンスを実現*
-* *顧客が既存のロケーションを独自のシステムから書き出して、直接 AEM に簡単に読み込むことができます。*
+* *を使用すると、お客様は自社のシステムから場所をエクスポートして、AEMに簡単に直接読み込むことができます*
 
-これにより、初回のプロジェクトセットアップ時または既存の AEM Screens プロジェクトを新しいロケーションに拡張する際に、時間と費用の両方を節約できます。
+このプロセスにより、プロジェクトの初期設定や、既存のAEM Screensを新しい場所に拡張する際の時間と費用の両方が節約されます。
 
 ## アーキテクチャの概要 {#architectural-overview}
 
@@ -51,14 +51,14 @@ ht-degree: 85%
 | **プロパティ** | **説明** |
 |---|---|
 | ***`path {string*}`*** | ロケーションのリソースパス |
-| ***`[./jcr:title] {string*}`*** | 使用するテンプレートの名前（*screens/core/templates/location* の場合は location） |
+| ***`[./jcr:title] {string*}`*** | 使用するテンプレートの名前（の場所） *screens/core/templates/location*） |
 | ***`template {string}`*** | ページに使用するタイトル（オプション） |
 | ***`[./jcr:description] {string}`*** | ページに使用する説明（オプション） |
 
 したがって、スプレッドシート（CSV/XLS）ファイルには次の列が必要です。
 
 * **path {string}**：読み込む場所のパス。プロジェクトの場所フォルダーをルートとします（つまり、*`/foo`* は *`/content/screens/<project>/locations/foo`* に読み込まれます）。
-* **template {string}**：新しい場所に使用するテンプレート。今のところ、使用可能な値は「location」だけですが、今後、すべての Screens テンプレート（`display`、`sequencechannel` など）に拡張される予定です。
+* **template {string}**  – 新しい場所に使用するテンプレート。現時点では「location」しか使用できませんが、この値は今後のすべての Screens テンプレートに拡張されます（`display`, `sequencechannel`など）。
 * **[。/*] {string}**：場所（つまり、`./jcr:title`、`./jcr:description`、`./foo, ./bar`）に設定する任意のオプションプロパティ。現在のリリースではフィルタリングはできません。
 
 >[!NOTE]
@@ -89,7 +89,7 @@ ht-degree: 85%
 
 ### 最低限必要なフィールドを含んだファイルの読み込み {#importing-the-file-with-minimum-required-fields}
 
-最小限の必須フィールドを含むファイルを場所フォルダーに読み込むには、以下の手順に従います。
+最低限必要なフィールドを含んだ location フォルダーにファイルをインポートするには、次の手順に従います。
 
 >[!NOTE]
 >

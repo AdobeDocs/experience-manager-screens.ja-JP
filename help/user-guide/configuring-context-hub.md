@@ -1,6 +1,6 @@
 ---
 title: AEM Screens での ContextHub の設定
-description: データトリガーコンテンツの変更用にデータストアを定義できるように、ターゲティングエンジンの ContextHub について説明します。
+description: データトリガーのコンテンツの変更用にデータストアを定義できるよう、ターゲティングエンジンの ContextHub について説明します。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
@@ -10,10 +10,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '1445'
-ht-degree: 82%
+source-wordcount: '1450'
+ht-degree: 66%
 
 ---
 
@@ -33,15 +33,15 @@ AEM Screens プロジェクトの在庫主導型チャネルを作成および�
 
 **オーディエンス** - ルールを定義します。
 
-**セグメント** - 与えられたルールで再生されるアセットのバージョン。例えば、温度が華氏 50 度を下回る場合は温かい飲み物、それ以外の場合は冷たい飲み物の画像が画面に表示されます。
+**セグメント**  – 指定されたルールで再生されるアセットのバージョン。 例えば、温度が華氏 50 度を下回る場合は温かい飲み物、それ以外の場合は冷たい飲み物の画像が画面に表示されます。
 
-以下の図は、ContextHub 設定がアクティビティ、オーディエンス、チャネルと一致する様子を視覚的に示しています。
+次の図は、ContextHub の設定とアクティビティ、オーディエンス、チャネルがどのように一致するかを視覚的に表したものです。
 
 ![screen_shot_2019-05-29at53729pm](assets/screen_shot_2019-05-29at53729pm.png)
 
 ## 前提条件 {#preconditions}
 
-AEM Screens プロジェクトの Context Hub 設定の指定を開始する前に、Google Sheets を設定します（デモ用）。
+AEM Screens プロジェクトの ContextHub 設定の指定を開始する前に、Google Sheets を設定します（デモ用）。
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ AEM Screens プロジェクトの Context Hub 設定の指定を開始する前�
 
 データストアは、ローカル I/O イベントまたはローカルデータベースイベントとして設定できます。
 
-次のアセットレベルのデータトリガーの例は、AEM Screens チャネルへの ContextHub 設定とセグメントパスを使用できる Excel シートなどのデータストアを設定するローカルデータベースイベントを示しています。
+次のアセットレベルのデータトリガーの例では、ローカルデータベースイベントを示しています。 このイベントにより、Excel シートなどのデータストアが設定され、ContextHub 設定とセグメントパスを使用してAEM Screens チャンネルを参照できるようになります。
 
 次の例に示すように、`google` シートを正しく設定した後に、
 
@@ -67,13 +67,13 @@ AEM Screens プロジェクトの Context Hub 設定の指定を開始する前�
 
 >[!NOTE]
 >
->次の例は、値が 100 を超えるか 50 未満の場合にアセットの変更をトリガーするデータストアとしての Google シートを示しています。
+>次の例では、値が 100 より大きい場合または 50 未満の場合にアセットの変更をトリガーするデータストアとしてのGoogle シートを示しています。
 
 ## 手順 2：ストア設定のセットアップ {#step-setting-store-configurations}
 
 1. **ContextHub に移動する**
 
-   AEM インスタンスに移動し、左側のサイドバーにあるツールアイコンをクリックします。**サイト**／**ContextHub** をクリックします（下図を参照）。
+   AEM インスタンスに移動し、左サイドバーのツールアイコンをクリックします。 **サイト**／**ContextHub** をクリックします（下図を参照）。
 
    ![画像](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -146,7 +146,7 @@ AEM Screens プロジェクトの Context Hub 設定の指定を開始する前�
 
       >[!CAUTION]
       >
-      >Google スプレッドシートのストア設定をグローバルフォルダー以外（例えば、独自のプロジェクトフォルダー内など）で作成した場合、ターゲティングは初期状態では機能しません。
+      >Google シートを作成して、グローバルフォルダーの外部（例えば、独自のプロジェクトフォルダー内）に設定を保存する場合、ターゲティングは標準では機能しません。
 
 1. **ストアのセグメント化の設定**
 
@@ -166,7 +166,7 @@ AEM Screens プロジェクトの Context Hub 設定の指定を開始する前�
 
    1. AEM インスタンスで、**パーソナライゼーション**／**オーディエンス**／**Screens** に移動します。
 
-   1. **作成**／**Context Hub セグメントを作成**&#x200B;をクリックします。**新しい ContextHub セグメント**&#x200B;ダイアログボックスが開きます。
+   1. クリック **作成** > **ContextHub セグメントを作成します。**&#x200B;をクリックします。**新しい ContextHub セグメント**&#x200B;ダイアログボックスが開きます。
 
    1. 「**タイトル**」に「`**Higherthan50**`」と入力し、「**作成**」をクリックします。同様に、「`**Lowerthan50**`」というタイトルの別のセグメントを作成します。
 
@@ -218,7 +218,7 @@ AEM Screens プロジェクトの Context Hub 設定の指定を開始する前�
 
 ## 手順 5：アクティビティでのセグメントの作成 {#step-setting-up-audience-segmentation}
 
-データストアを設定し、アクティビティ（ブランドと領域）を定義したら、次の手順に従ってアクティビティにセグメントを作成します。
+データストアの設定とアクティビティ（ブランドと領域）の定義が完了したら、次の手順に従ってアクティビティでセグメントを作成します。
 
 1. **アクティビティにセグメントを作成する**
 
@@ -288,7 +288,7 @@ AEM Screens プロジェクトの Context Hub 設定の指定を開始する前�
 
 以下の手順に従って、チャネルでターゲティングを有効にします。
 
-1. AEM Screens チャネルのいずれかに移動します。以下の手順は、AEM Screens チャネルに作成した **DataDrivenChannel** を使用してターゲティングを有効にする方法を示しています。
+1. AEM Screens チャネルのいずれかに移動します。次の手順は、を使用してターゲティングを有効にする方法を示しています。 **DataDrivenChannel** AEM Screens チャンネルで作成されます。
 
 1. チャネルをクリックします **TargetChannel** をクリックして、 **プロパティ** アクションバーから。
 
@@ -303,7 +303,7 @@ AEM Screens プロジェクトの Context Hub 設定の指定を開始する前�
 
       >[!NOTE]
       >
-      >ContextHub 設定とセグメントを最初に保存した場所で、Context Hub とセグメントのパスを使用します。
+      >最初に ContextHub の設定とセグメントを保存した、ContextHub とセグメントのパスを使用します。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub20New.png)
 
@@ -311,7 +311,7 @@ AEM Screens プロジェクトの Context Hub 設定の指定を開始する前�
 
       >[!NOTE]
       >
-      >すべてを正しくセットアップしたら、下図に示すように、エディターのドロップダウンに「**ターゲティング**」オプションが表示されます。
+      >すべてが正しく設定されていれば、 **ターゲティング** エディターのドロップダウンの「」オプション（下図を参照）。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub21.png)
 

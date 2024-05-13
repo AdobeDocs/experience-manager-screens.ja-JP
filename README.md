@@ -1,16 +1,16 @@
 ---
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 75%
+source-wordcount: '71'
+ht-degree: 87%
 
 ---
 # Adobe Experience Manager Screens ドキュメント
 
-Adobe Experience Manager Screens ドキュメントのリポジトリです。
+このリポジトリは、Adobe Experience Manager Screens ドキュメント用です。
 
 ドキュメントに関するご意見やご提案をお寄せください。次のリソースを参照してください。
 
 * [contributing.md](contributing.md)：ドキュメントに対する投稿方法の概要。
 * [guidelines.md](guidelines.md)：投稿で期待される内容とドキュメント投稿の作成方法の概要。
-* [code-of-conduct.md](code-of-conduct.md) このドキュメントプロジェクトにコントリビューションする、Adobeが想定する行動の標準の概要については、を参照してください。
+* [code-of-conduct.md](code-of-conduct.md)：このドキュメントプロジェクトへの貢献時にアドビが期待する行動の基準の概要。

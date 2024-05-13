@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 96%
+source-wordcount: '488'
+ht-degree: 76%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 ここでは、各個人またはチームが独自のプロジェクトを処理できるように、ACL を使用してプロジェクトを区別する方法について説明します。
 
-AEM 管理者は、プロジェクトのチームメンバーが他のプロジェクトに干渉するのを防ぎ、プロジェクト要件に応じて各ユーザーが特定の役割を割り当てられるようにします。
+AEM管理者は、プロジェクトのチームメンバーが他のプロジェクトに干渉しないようにする必要があります。 各ユーザーには、プロジェクト要件に従って特定の役割が割り当てられます。
 
 ## 権限の設定 {#setting-up-permissions}
 
@@ -42,7 +42,7 @@ AEM 管理者は、プロジェクトのチームメンバーが他のプロジ�
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. **Acme**（作成したプロジェクト）を「**メンバーをグループに追加**」に追加します。「**保存**」をクリックします。
+1. を追加 **アクメ** （作成したプロジェクト） **グループにメンバーを追加**. 「**保存**」をクリックします。
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -66,12 +66,12 @@ AEM 管理者は、プロジェクトのチームメンバーが他のプロジ�
 
 | **パス** | **権限** | **説明** |
 |---|---|---|
-| `/apps/<project>` | 読み取り | プロジェクトファイルへのアクセス権を付与します（該当する場合）。 |
+| `/apps/<project>` | 読み取り | 必要に応じて、プロジェクト ファイルへのアクセスを提供します。 |
 | `/content/dam/<project>` | すべて | 画像やビデオなどのプロジェクトアセットを DAM に保存するためのアクセス権を付与します。 |
 | `/content/screens/<project>` | すべて | /content/screens の下にある他のすべてのプロジェクトへのアクセス権を削除します。 |
-| `/content/screens/svc` | 読み取り | 登録サービスへのアクセス権を付与します。 |
-| `/libs/screens` | 読み取り | DCC へのアクセス権を付与します。 |
-| `/var/contentsync/content/screens/` | すべて | プロジェクトのオフラインコンテンツを更新できます。 |
+| `/content/screens/svc` | 読み取り | 登録サービスへのアクセスを提供します。 |
+| `/libs/screens` | 読み取り | DCC へのアクセスを提供します。 |
+| `/var/contentsync/content/screens/` | すべて | プロジェクトのオフラインコンテンツを更新するのに役立ちます。 |
 
 >[!NOTE]
 >
@@ -133,7 +133,7 @@ AEM 管理者は、プロジェクトのチームメンバーが他のプロジ�
   </tr>
   <tr>
    <td>Screens Player<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
-   <td>すべてのプレーヤーをグループ化し、すべてのプレーヤー／デバイスが自動的に寄稿者のメンバーになる</td>
+   <td>すべてのプレーヤーとすべてのプレーヤー/デバイスは、自動的にコントリビューターのメンバーになります。</td>
    <td><p> 寄稿者のメンバー</p> </td>
   </tr>
  </tbody>

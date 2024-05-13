@@ -2,10 +2,10 @@
 title: デバイスの仕様
 description: AEM Screensに関連するデバイス仕様について説明します。
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 69%
+source-wordcount: '211'
+ht-degree: 60%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 69%
 
 * プレーヤーのコンテンツはいつ更新されますか？
 
-* ビデオを実行する場合は、コンテンツが正しく表示されるように、デバイスの仕様を理解しておく必要がある
+* ビデオを実行する場合は、コンテンツが正しく表示されるように、デバイスの仕様を理解していることを確認します。
 
 * 上記の環境上の検討事項に基づいて判断すると、半導体ストレージとハードディスクストレージのどちらが適しているか
 

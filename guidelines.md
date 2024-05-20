@@ -1,5 +1,5 @@
 ---
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: 0f3a2cb6deacd0a81db8f0dc2b1554e7506aaf17
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 69%
@@ -90,3 +90,4 @@ Microsoft のスタイルガイド『[The Microsoft® Manual of Style](https://l
 記事では、製品を常にフルネームで参照します **Adobe Experience Manager** 初回使用時。 以降、これを以下と呼びます **AEM**.
 
 Day、Day Software、CQ、CRX は、クラス名や AEM の履歴に言及する場合など、やむを得ない場合を除き、使用しないでください。
+

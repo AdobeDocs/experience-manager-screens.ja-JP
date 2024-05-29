@@ -8,9 +8,9 @@ user-guide-description: 動的でインタラクティブなデジタルエク�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: 1bd79ed3a0a610efb12f9ff1030a33978ccccf1e
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '522'
 ht-degree: 96%
 
 ---
@@ -84,6 +84,7 @@ ht-degree: 96%
       + [チャネルレベルの一括画像再生時間](channel-level-image-playback.md)
       + [コマンド同期](using-command-sync.md)
       + [データトリガーを使用したオーサリング](authoring-data-triggers.md)
+      + [タグの使用](tagging.md)
       + [音声認識](voice-recognition.md)
       + [コンテンツ割り当てレポート](content-assignment-report.md)
       + [ビデオのサムネールサポート](thumbnail-support.md)

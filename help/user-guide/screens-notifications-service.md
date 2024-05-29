@@ -12,7 +12,7 @@ exl-id: 205235d7-e621-4134-975c-257ae60939bc
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 75%
+ht-degree: 80%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 75%
 * **概要**
 * **メールの設定**
 * **メール通知**
-* **使用例**
+* **ユースケース**
 
 <!-- OBSOLETE NOTE>
 >[!CAUTION]
@@ -38,7 +38,7 @@ ht-degree: 75%
 
 ## 概要 {#overview}
 
-***AEM Screens通知サービス*** 設定可能な期間AEM Screens Player が ping を送信しなかった場合、それを知らせるメールを管理者に送信します。
+***AEM Screens 通知サービス***&#x200B;を使用すると、設定可能な期間 AEM Screens Player が ping を送信しなかった場合、それを知らせるメールを管理者が受信できます。
 
 このサービスは OSGi Web コンソールで設定できます。
 

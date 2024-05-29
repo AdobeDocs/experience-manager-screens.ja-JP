@@ -4,18 +4,18 @@ description: AEM Screensに関連するエクスペリエンスフラグメン�
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 49%
+ht-degree: 77%
 
 ---
 
 
-# エクスペリエンスフラグメントのアクティベーション：OmniChannel エクスペリエンス {#experience-fragments-activation}
+# エクスペリエンスフラグメントアクティベーション：オムニチャネルエクスペリエンス {#experience-fragments-activation}
 
 ## ユースケースの説明 {#use-case-description}
 
-エクスペリエンスフラグメントは、ページ内で参照されるコンテンツおよびレイアウトを含む 1 つ以上のコンポーネントのグループです。
+エクスペリエンスフラグメントは、ページ内で参照されるコンテンツやレイアウトを含む 1 つ以上のコンポーネントのグループです。
 
-次の使用例では、エクスペリエンスフラグメントがAEM Screens プロジェクトに適用される場所からデモプロジェクトを実装できます。 このユースケースの主なハイライトには、次のものが含まれます。
+次のユースケースでは、エクスペリエンスフラグメントを AEM Screens プロジェクトに適用するデモプロジェクトを実装できます。このユースケースの主なハイライトは次のとおりです。
 
 * テキストサイズの拡大
 * 画像の反転
@@ -26,7 +26,7 @@ ht-degree: 49%
 >**前提条件
 >エクスペリエンスフラグメントの基礎知識と、AEM Screens プロジェクトでのエクスペリエンスフラグメントの使用方法について、事前に知識を持っている必要があります。[エクスペリエンスフラグメントの使用](/help/user-guide/experience-fragments-in-screens.md)を参照してください
 
-### デモプロジェクトの設定 {#demo-project-setup}
+### デモプロジェクトのセットアップ {#demo-project-setup}
 
 次の図に示すように、AEM Screens で、**DemoProject** という名前のプロジェクトと、**TestChannel** という名前のシーケンスチャネルを作成します。
 

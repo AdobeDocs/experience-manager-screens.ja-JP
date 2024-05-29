@@ -1,6 +1,6 @@
 ---
 title: AEM Screens コンポーネントの拡張
-description: このチュートリアルでは、標準搭載のAEM Screens コンポーネントを拡張するための手順とベストプラクティスを説明します。 画像コンポーネントが拡張されて、オーサリング可能なテキストオーバーレイが追加されます。
+description: このチュートリアルでは、標準搭載の AEM Screens コンポーネントを拡張する際の手順とベストプラクティスについて説明します。画像コンポーネントが拡張されて、オーサリング可能なテキストオーバーレイが追加されます。
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: developing
@@ -12,7 +12,7 @@ exl-id: e316614f-2d40-4b62-a1e5-f30817def742
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '1700'
-ht-degree: 70%
+ht-degree: 86%
 
 ---
 
@@ -40,7 +40,7 @@ A `Custom Poster` 画像コンポーネントを拡張することでコンポ�
 1. [AEM Screens Player](/help/user-guide/aem-screens-introduction.md)
 1. ローカル開発環境
 
-チュートリアルの手順とスクリーンショットは、CRXDE-Lite を使用して実行されます。 [Eclipse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) IDE または [IntelliJ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDE を使用しても、このチュートリアルを完了できます。AEM での開発に IDE を使用する方法について詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)を参照してください。
+CRXDE-Lite を使用して、チュートリアルの手順とスクリーンショットを実行します。[Eclipse](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) IDE または [IntelliJ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDE を使用しても、このチュートリアルを完了できます。AEM での開発に IDE を使用する方法について詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)を参照してください。
 
 ## プロジェクトのセットアップ {#project-setup}
 
@@ -48,29 +48,29 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
 1. **CRX パッケージマネージャー**（`http://localhost:4502/crx/packmgr/index.jsp)r:`）を使用して、次のパッケージをダウンロードしてインストールします。
 
-[ファイルを入手](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
+[ファイルの取得](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
    [ファイルを入手](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
    **（オプション）** Eclipse などの IDE を使用して作業する場合は、以下のソースパッケージをダウンロードします。次の Maven コマンドを使用して、プロジェクトをローカルの AEM インスタンスにデプロイします。
 
    **`mvn -PautoInstallPackage clean install`**
 
-   SRC 開始画面 `We.Retail` プロジェクトを実行
+   SRC Start Screens `We.Retail` Run Project
 
-[ファイルを入手](assets/start-poster-screens-weretail-run.zip)
+[ファイルの取得](assets/start-poster-screens-weretail-run.zip)
 
 1. **CRX パッケージマネージャー**（`http://localhost:4502/crx/packmgr/index.jsp`）で、次の 2 つのパッケージがインストールされていることを確認します。
 
    1. **`screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip`**
    1. **`screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip`**
 
-   ![Screens We.Retail CRX パッケージマネージャーを介してインストールされた Ui.Apps および Ui.Content パッケージを実行します](assets/crx-packages.png)
+   ![CRX パッケージマネージャーを使用してインストールされた Screens We.Retail Run Ui.Apps および Ui.Content パッケージ](assets/crx-packages.png)
 
-   AEM Screens `We.Retail Run Ui.Apps` および `Ui.Content` crx パッケージマネージャーを使用してインストールされるパッケージ
+   CRX パッケージマネージャーを使用してインストールされた AEM Screens `We.Retail Run Ui.Apps` および `Ui.Content` パッケージ
 
 ## ポスターコンポーネントの作成 {#poster-cmp}
 
-ポスターコンポーネントは、標準のAEM Screens画像コンポーネントを拡張します。 Sling の `sling:resourceSuperType` メカニズムを使用すると、画像コンポーネントのコア機能をコピーして貼り付けなくても継承できるようになります。Sling のリクエスト処理の基本について詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)を参照してください。
+ポスターコンポーネントは、標準の AEM Screens 画像コンポーネントを拡張します。 Sling の `sling:resourceSuperType` メカニズムを使用すると、画像コンポーネントのコア機能をコピーして貼り付けなくても継承できるようになります。Sling のリクエスト処理の基本について詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)を参照してください。
 
 ポスターコンポーネントは、プレビュー／実稼動モードではフルスクリーンでレンダリングされます。編集モードでは、シーケンスチャネルのオーサリングを容易にするために、コンポーネントを別の方法でレンダリングすることが重要です。
 
@@ -91,15 +91,15 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
    /apps/weretail-run/components/content/poster のプロパティ
 
-   を設定する `sling:resourceSuperType`次と等しいプロパティ `screens/core/components/content/image`の場合、ポスターコンポーネントは画像コンポーネントのすべての機能を事実上継承します。 の下にある同等のノードおよびファイル `screens/core/components/content/image` の下に追加できます `poster` 機能をオーバーライドおよび拡張するコンポーネント。
+   `sling:resourceSuperType` プロパティを `screens/core/components/content/image` に設定すると、ポスターコンポーネントは画像コンポーネントのすべての機能を事実上継承します。機能を上書きおよび拡張するために、`screens/core/components/content/image` の下にある同等のノードおよびファイルを `poster` コンポーネントの下に追加することができます。
 
-1. をコピーします `cq:editConfig` の下のノード `/libs/screens/core/components/content/image`. を貼り付けます `cq:editConfig` の下に `/apps/weretail-run/components/content/poster` コンポーネント。
+1. `/libs/screens/core/components/content/image` の下にある `cq:editConfig` ノードをコピーします。`/apps/weretail-run/components/content/poster` コンポーネントの下に `cq:editConfig` をペーストします。
 
-   日 `cq:editConfig/cq:dropTargets/image/parameters` ノード、を更新する `sling:resourceType` プロパティが次と等しい `weretail-run/components/content/poster`.
+   `cq:editConfig/cq:dropTargets/image/parameters` ノードで、`sling:resourceType` プロパティを `weretail-run/components/content/poster` と等しくなるように更新します。
 
    ![edit-config](assets/edit-config.png)
 
-   の XML 表現 `cq:editConfig` 以下に示します。
+   `cq:editConfig` の XML 表現は次のようになります。
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -131,11 +131,11 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
    ![/libs/wcm/foundation/components/image/cq:dialog を /apps/weretail-run/components/content/poster にコピーした後](assets/2018-05-03_at_4_13pm.png)
 
-   からダイアログをコピーしました `/libs/wcm/foundation/components/image/cq:dialog` 対象： `/apps/weretail-run/components/content/poster`
+   ダイアログを `/libs/wcm/foundation/components/image/cq:dialog` から `/apps/weretail-run/components/content/poster` にコピーしました
 
-   AEM Screens `image` コンポーネントは WCM 基盤にスーパータイプ化されています `image` コンポーネント。 したがって、 `poster` コンポーネントは、両方のコンポーネントから機能を継承します。 ポスターコンポーネントのダイアログは、Screens ダイアログと基盤ダイアログの組み合わせで構成されます。**Sling Resource Merger** の機能を使用して、スーパータイプコンポーネントから継承した無関係なダイアログフィールドやタブを非表示にします。
+   WCM の `image` 基盤コンポーネントは、AEM Screens `image` コンポーネントのスーパータイプになります。したがって、 `poster` コンポーネントは、両方のコンポーネントから機能を継承します。 ポスターコンポーネントのダイアログは、Screens ダイアログと基盤ダイアログの組み合わせで構成されます。**Sling Resource Merger** の機能を使用して、スーパータイプコンポーネントから継承した無関係なダイアログフィールドやタブを非表示にします。
 
-1. を更新 `cq:dialog` 下 `/apps/weretail-run/components/content/poster` xml で表された次の変更を使用します。
+1. `/apps/weretail-run/components/content/poster` の下の `cq:dialog` を更新して、XML で表現された以下の変更を反映します。
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -246,7 +246,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
    ポスター - 最終的なダイアログ構造
 
-   この時点で、 `poster` コンポーネントは **アイドル チャネル** 内のページ`We.Retail` プロジェクトを実行： `http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`.
+   この段階で、`poster` コンポーネントのインスタンスを `We.Retail` 実行プロジェクトの&#x200B;**アイドルチャネルl**&#x200B;ページ（`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`）に追加できます。
 
    ![ポスターダイアログのフィールド](assets/poster-dialog-full.png)
 
@@ -282,7 +282,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
    を囲む `h1` および `h2` タグは、のバリエーションを持つ 3 つの CSS クラスを持つ div ラッパーです。`cmp-poster__text`.」と入力します。 `textPosition` プロパティと `textColor` プロパティの値を使用し、作成者によるダイアログ選択に基づいてレンダリングされる CSS クラスを変更します。次の節では、クライアントライブラリの CSS を記述して、これらの変更をディスプレイに反映します。
 
-   コンポーネントには、ロゴもオーバーレイとして含まれます。この例では、へのパスです。` We.Retail` ロゴは DAM にハードコードされています。 ユースケースによっては、ダイアログフィールドを作成して、ロゴのパスを動的に入力される値にする方が合理的な場合があります。
+   コンポーネントには、ロゴもオーバーレイとして含まれます。この例では、` We.Retail` ロゴのパスが DAM にハードコーディングされています。ユースケースによっては、ダイアログフィールドを作成して、ロゴのパスを動的に入力される値にする方が合理的な場合があります。
 
    また、コンポーネントでは BEM（ブロック要素修飾子）表記が使用されることにも注意してください。BEM は、再利用可能なコンポーネントを容易に作成できる CSS コーディング規則です。BEM は、[AEM のコアコンポーネント](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions)で使用される表記です。<!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
@@ -314,7 +314,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
 ## クライアント側ライブラリの作成 {#clientlibs}
 
-クライアント側ライブラリは、AEM の実装で必要な CSS および JavaScript ファイルの編成および管理のための仕組みを提供します。クライアント側ライブラリの使用の詳細については、[こちら](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)を参照してください。
+クライアント側ライブラリは、AEM の実装で必要な CSS および JavaScript ファイルの編成および管理のための仕組みを提供します。クライアント側ライブラリの使用の詳細については、[こちら](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)を参照してください。
 
 AEM Screens コンポーネントは、編集モードとプレビュー／実稼動モードではレンダリングが異なります。2 組のクライアントライブラリが作成されます。1 つは編集モード用、もう 1 つはプレビュー／実稼動用です。
 
@@ -339,7 +339,7 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
    `categories` プロパティは、クライアントライブラリを識別する文字列です。`cq.screens.components` カテゴリは、編集モードとプレビュー／実稼動モードの両方で使用されます。したがって、で定義されるすべての CSS/JS は `shared` clientlib はすべてのモードで読み込まれます。
 
-   ベストプラクティスとして、パスを直接には公開しないでください `/apps` （実稼動環境の場合）。 この `allowProxy` プロパティは、クライアントライブラリ CSS と JS がのプレフィックスを介して参照されることを保証します `/etc.clientlibs`. allowProxy について詳しくは、[こちら](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)を参照してください。
+   ベストプラクティスとして、パスを直接には公開しないでください `/apps` （実稼動環境の場合）。 この `allowProxy` プロパティは、クライアントライブラリ CSS と JS がのプレフィックスを介して参照されることを保証します `/etc.clientlibs`. allowProxy について詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)を参照してください。
 
 1. 共有フォルダーの下に `css.txt` という名前のファイルを作成します。
 
@@ -412,7 +412,7 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
    >[!NOTE]
    >
-   >フォントファミリーには Google web フォントが使用されます。Web Fontsにはインターネット接続が必要ですが、すべてのAEM Screens実装に信頼性の高い接続があるわけではありません。 オフラインモードに対応した計画は、AEM Screensのデプロイメントにおいて重要な考慮事項です。
+   >フォントファミリーには Google web フォントが使用されます。Web フォントを使用するにはインターネット接続が必要ですが、すべての AEM Screens 実装に信頼性の高い接続があるとは限りません。オフラインモードへの対応を計画することは、AEM Screens デプロイメントの重要な考慮事項です。
 
 1. クライアントライブラリフォルダー `shared` をコピーします。兄弟として貼り付け、名前を `production` に変更します。
 
@@ -481,7 +481,7 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
    上記のスタイルでは、「タイトル」と「説明」がスクリーン上の絶対位置に表示されます。タイトルは説明よりも大きく表示されます。コンポーネントの BEM 表記により、cmp-poster クラス内のスタイルを注意深くスコープ設定するのが容易になります。
 
-3 つ目のクライアントライブラリカテゴリ： `cq.screens.components.edit` を使用して、特定のスタイルのみをコンポーネントに追加します。
+3 番目のクライアントライブラリカテゴリ `cq.screens.components.edit` は、コンポーネントに編集専用のスタイルを追加する場合に使用できます。
 
 | クライアントライブラリカテゴリ | 使用方法 |
 |---|---|
@@ -498,7 +498,7 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
    ![2018-05-07_at_3_23pm](assets/2018-05-07_at_3_23pm.png)
 
-1. ポスターコンポーネントのダイアログボックスを編集して、画像、タイトル、説明を追加できるようにします。 「テキストの位置」と「テキストの色」の選択フィールドを使用して、「タイトル」や「説明」が画像上で読みやすくなるようにします。
+1. ポスターコンポーネントのダイアログボックスを編集して、「画像」、「タイトル」、「説明」を追加します。「テキストの位置」と「テキストの色」の選択フィールドを使用して、「タイトル」や「説明」が画像上で読みやすくなるようにします。
 
    ![2018-05-07_at_3_25pm](assets/2018-05-07_at_3_25pm.png)
 
@@ -514,12 +514,12 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
 ## 完成したコード {#finished-code}
 
-チュートリアルで完成したコードは以下のとおりです。**screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** と **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** は、コンパイル済みの AEM パッケージです。この **SRC-screens-weretail-run-0.0.1.zip** は、Maven を使用してデプロイできるコンパイルされていないソースコードです。
+チュートリアルで完成したコードは以下のとおりです。**screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** と **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** は、コンパイル済みの AEM パッケージです。**SRC-screens-weretail-run-0.0.1.zip** は、Maven を使用してデプロイできる未コンパイルのソースコードです。
 
-[ファイルを入手](assets/final-poster-screens-weretail-runuiapps-001-snapshot.zip)
+[ファイルの取得](assets/final-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
-[ファイルを入手](assets/final-poster-screens-weretail-runuicontent-001-snapshot.zip)
+[ファイルの取得](assets/final-poster-screens-weretail-runuicontent-001-snapshot.zip)
 
-SRC 最終AEM Screens `We.Retail` プロジェクトを実行
+SRC Final AEM Screens `We.Retail` Run Project
 
-[ファイルを入手](assets/src-screens-weretail-run-001.zip)
+[ファイルの取得](assets/src-screens-weretail-run-001.zip)

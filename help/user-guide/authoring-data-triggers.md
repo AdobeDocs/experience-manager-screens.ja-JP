@@ -8,7 +8,7 @@ exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 50%
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 50%
 
 ## 前提条件 {#prereqs}
 
-チャネルでターゲティングを有効にするには、次の手順に従う前に [AEM Screensでのの設定の主な用語](configuring-context-hub.md) AEM Screensの ContextHub とターゲティングを理解するために必要です。
+以下の手順に従ってチャネルでターゲティングを有効化する前に、AEM Screens での ContextHub とターゲティングを理解するために必要な [AEM Screens の設定における主要な用語](configuring-context-hub.md)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,7 @@ ht-degree: 50%
 1. **[データストアの設定](configuring-context-hub.md)**
 1. **[オーディエンスのセグメント化の設定](configuring-context-hub.md)**
 
-上記の手順を完了すると、チャネルでのターゲティングを有効にする準備が整います。
+上記の手順を完了したら、チャネルでターゲティングを有効化する準備が整いました。
 
 ## データトリガーを使用したオーサリングの概要 {#author-targeting}
 
@@ -45,15 +45,15 @@ ht-degree: 50%
 
 1. AEM Screens チャネルのいずれかに移動します。次の手順は、を使用してターゲティングを有効にする方法を示しています。 **DataDrivenRetail** *（シーケンスチャネル）* AEM Screens チャンネルで作成されます。
 
-1. チャネルをクリックします **DataDrivenRetail** をクリックして、 **プロパティ** アクションバーから。
+1. **DataDrivenRetail** チャネルをクリックし、アクションバーの「**プロパティ**」を選択します。
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. 「」をクリックします **Personalization** タブをクリックして ContextHub 設定をセットアップし、「ContextHub とセグメント」パスをクリックします。
+1. ContextHub 設定をセットアップできるように「**パーソナライゼーション**」タブをクリックして、「ContextHub とセグメントのパス」を選択します。
 
-   1. 「」をクリックします **ContextHub パス** as **libs** > **設定** > **cloudsettings** > **default** > **ContextHub 設定** をクリックして、 **クリック**.
+   1. 「**ContextHub のパス**」として **libs**／**settings**／**cloudsettings**／**default**／**ContextHub 設定** をクリックし、「**選択**」を選択します。
 
-   1. 「」をクリックします **セグメントのパス** as **conf** > **`We.Retail`** > **設定** > **wcm** > **セグメント** をクリックして、 **クリック**.
+   1. 「**セグメントのパス**」として **conf**／**`We.Retail`**／**settings**／**wcm**／**segments** をクリックし、「**選択**」を選択します。
 
    1. 「**保存して閉じる**」をクリックします。
 
@@ -63,7 +63,7 @@ ht-degree: 50%
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. に移動し、 **DataDrivenRetail** から **DataDrivenAssets** > **チャネル** をクリックして、 **編集** アクションバーから。 チャンネルエディターでアセットをドラッグ&amp;ドロップします。
+1. **DataDrivenAssets**／**チャネル**&#x200B;に移動して「**DataDrivenRetail**」をクリックし、アクションバーの「**編集**」を選択します。チャネルエディターでアセットをドラッグ＆ドロップします。
 
    >[!NOTE]
    >
@@ -73,7 +73,7 @@ ht-degree: 50%
 
 1. 「**ターゲティング**」をクリック
 
-1. クリック **ブランド** および **Activity** ドロップダウンメニューからを選択し、 **ターゲティングを開始**.
+1. ドロップダウンメニューで「**ブランド**」と「**アクティビティ**」をクリックし、「**ターゲット設定を開始**」をクリックします。
 
 ### 詳細情報：使用例 {#learn-more-example-use-cases}
 

@@ -1,17 +1,17 @@
 ---
 title: AEM Screens の概要
-description: AEM Screensの概要と機能について説明します。
+description: AEM Screens の概要と機能について説明します。
 exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '667'
-ht-degree: 82%
+ht-degree: 87%
 
 ---
 
 # AEM Screens の概要 {#introduction}
 
-**AEM Screens** は、動的でインタラクティブなデジタルエクスペリエンスを作成、公開、再生できるデジタルサイネージソリューションです。 これには、包括的なオムニチャネルデジタルマーケティング戦略と連携して、様々なタイプの会場ディスプレイ画面が含まれます。
+**AEM Screens** は、動的でインタラクティブなデジタルエクスペリエンスを作成、公開、再生できるデジタルサイネージソリューションです。これには、包括的なオムニチャネルデジタルマーケティング戦略と連携して、様々なタイプの会場ディスプレイ画面が含まれます。
 
 AEM Screens では、以下を作成できます。
 

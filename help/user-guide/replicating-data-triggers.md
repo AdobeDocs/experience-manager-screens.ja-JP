@@ -8,7 +8,7 @@ exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '523'
-ht-degree: 73%
+ht-degree: 80%
 
 ---
 
@@ -46,7 +46,7 @@ ContextHub およびAEM ターゲティングエンジンを使用して、オ�
    >
    >テストが失敗した場合は、オーサーインスタンスとパブリッシュインスタンス間のレプリケーションエージェントの設定を修正してください。詳しくは、[テスト接続のトラブルシューティング](/help/user-guide/replicating-data-triggers.md#troubleshoot-test)を参照してください。
 
-1. クリック **追加** から **配布エージェント** スクリーンツリーで、プロジェクトの設定パス（例：）をクリックします。 `/conf/screens/settings/cloudsettings/configuration`.
+1. **配布エージェント**&#x200B;画面のツリーから「**追加**」をクリックし、プロジェクトの設定パスをクリックします（例：`/conf/screens/settings/cloudsettings/configuration`）。
 
 1. 「**送信**」をクリックします。
 
@@ -58,7 +58,7 @@ ContextHub およびAEM ターゲティングエンジンを使用して、オ�
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers10.png)
 
-1. ユーザーインターフェイスで、すべてのオーディエンスとセグメントをクリックします。
+1. ユーザーインターフェイスからすべてのオーディエンスとセグメントをクリックします。
 
 1. アクションバーの&#x200B;**公開の管理**&#x200B;をクリックします。
 
@@ -68,9 +68,9 @@ ContextHub およびAEM ターゲティングエンジンを使用して、オ�
 
 1. AEM インスタンス／**パーソナライズ機能**／**アクティビティ**&#x200B;に移動するか、`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` を使用して直接移動します。
 
-1. プロジェクトフォルダ（`/content/campaigns/screens/…`）にドリルダウンします。
+1. プロジェクトフォルダー（`/content/campaigns/screens/…`）にドリルダウンします。
 
-1. ユーザーインターフェイスで「すべてのアクティビティ」をクリックします。
+1. ユーザーインターフェイスからすべてのアクティビティをクリックします。
 
 1. アクションバーの&#x200B;**公開の管理**&#x200B;をクリックします。
 

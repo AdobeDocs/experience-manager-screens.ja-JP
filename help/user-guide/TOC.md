@@ -11,7 +11,7 @@ role: User
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -95,9 +95,9 @@ ht-degree: 95%
    + 使用例 {#use-case-examples}
       + [緊急チャネル](emergency-channel.md)
       + [旅行センター向けの気温に応じたアクティベーション](local-temperature-activation.md)
-      + [接客業向けの予約状況に応じたアクティベーション](hospitality-reservation-activation.md)
+      + [接客業向け予約状況に応じたアクティベーション](hospitality-reservation-activation.md)
       + [小売店向けの在庫に応じたアクティベーション](retail-inventory-activation.md)
-      + [切り替えの適用](applying-transitions.md)
+      + [トランジションの適用](applying-transitions.md)
       + [マルチゾーンからシングルゾーンへの切り替え](multizone-to-singlezone.md)
       + [単一使用テイクオーバーチャネル](single-use-takeover-channel.md)
       + [テイクオーバーチャネルの永続的な使用](perpetual-takeover-channel.md)

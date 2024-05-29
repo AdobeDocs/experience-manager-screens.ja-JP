@@ -4,7 +4,7 @@ description: AEM Screens Player デバイスのハードウェア選定ガイド
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 82%
 * デジタルサイネージマーケットに商品を提供しているベンダーと常に連携します。
 * 周囲の気温や相対湿度などの環境要因を常に考慮に入れます。
 * 電源要件と電力調整を常に確認します。
-* アプリケーションに必要なパフォーマンスニーズと I/O ポートを慎重に確認します。
+* パフォーマンスのニーズとアプリケーションに必要な I/O ポートを慎重に確認します。
 
-## ハードウェア構成 {#hardware-configurations}
+## ハードウェア設定 {#hardware-configurations}
 
 AEM Screens プロジェクトの典型的な使用例に対応するハードウェア構成を次の表にまとめます。
 
@@ -46,7 +46,7 @@ AEM Screens プロジェクトの典型的な使用例に対応するハード�
    <td><p>*ChromeOS 32 GB</p> <p>*Windows 128 GB</p> </td>
    <td>オンボード</td>
    <td>1920 x 1080</td>
-   <td>DVI<br /> イーサネット/ワイヤレス、<br /> USB x 2</td>
+   <td>DVI <br />イーサネット／ワイヤレス<br /> USB x 2</td>
    <td>
     <ul>
      <li>標準フルスクリーンループ<br /> </li>

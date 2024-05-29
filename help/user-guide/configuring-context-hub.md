@@ -13,7 +13,7 @@ exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
 source-wordcount: '1450'
-ht-degree: 66%
+ht-degree: 82%
 
 ---
 
@@ -88,9 +88,9 @@ AEM Screens プロジェクトの ContextHub 設定の指定を開始する前�
    1. **ContextHubDemo**／**作成**／**ContextHub 設定**&#x200B;に&#x200B;**移動**&#x200B;し、「**保存**」をクリックします。
 
       >[!NOTE]
-      > クリックした後 **保存**&#x200B;が表示されます **ContextHub 設定** 画面。
+      > 「**保存**」をクリックすると、**ContextHub 設定**&#x200B;画面が開きます。
 
-   1. から **ContextHub 設定** 画面、クリック **作成** > **ContentHub ストアの設定**
+   1. **ContextHub 設定**&#x200B;画面で、**作成**／**ContentHub ストア設定**&#x200B;をクリックします。
 
    ![画像](/help/user-guide/assets/context-hub/context-hub5.png)
 
@@ -117,7 +117,7 @@ AEM Screens プロジェクトの ContextHub 設定の指定を開始する前�
 
       ![画像](/help/user-guide/assets/context-hub/context-hub6.png)
 
-   1. 固有の JSON 設定を入力します。例えば、以下の json をデモ目的で使用し、をクリックできます。 **保存**. ContextHub 設定に **Google スプレッドシート**&#x200B;というタイトルのストア設定が表示されます。
+   1. 固有の JSON 設定を入力します。例えば、デモ用に次の JSON を使用し、「**保存**」をクリックします。ContextHub 設定に **Google スプレッドシート**&#x200B;というタイトルのストア設定が表示されます。
 
       >[!IMPORTANT]
       >コードは、Google スプレッドシートのセットアップ時に取得し `*<Sheet ID>*` と `*<API Key>*` に必ず置き換えてください。
@@ -168,14 +168,14 @@ AEM Screens プロジェクトの ContextHub 設定の指定を開始する前�
 
    1. クリック **作成** > **ContextHub セグメントを作成します。**&#x200B;をクリックします。**新しい ContextHub セグメント**&#x200B;ダイアログボックスが開きます。
 
-   1. 「**タイトル**」に「`**Higherthan50**`」と入力し、「**作成**」をクリックします。同様に、「`**Lowerthan50**`」というタイトルの別のセグメントを作成します。
+   1. 「**タイトル**」に「`**Higherthan50**`」と入力し、「**作成**」をクリックします。同様に、`**Lowerthan50**` というタイトルの別のセグメントを作成します。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub11.png)
 
-   1. セグメントをクリックします `**Higherthan50**` をクリックして、 **プロパティ** アクションバーから。
+   1. `**Higherthan50**` セグメントをクリックし、アクションバーの「**プロパティ**」をクリックします。
       ![画像](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. 「」をクリックします **Personalization** tab キーを押して **セグメントのプロパティ**. 次の図に示すように、「**ContextHub のパス**」を `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations`、「**セグメントのパス**」を `/conf/screens/settings/wcm/segments` に設定し、「**保存**」をクリックします。
+   1. **セグメントプロパティ**&#x200B;から「**パーソナライゼーション**」タブをクリックします。次の図に示すように、「**ContextHub のパス**」を `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations`、「**セグメントのパス**」を `/conf/screens/settings/wcm/segments` に設定し、「**保存**」をクリックします。
 
    ![画像](/help/user-guide/assets/context-hub/context-hub13.png)
 
@@ -191,7 +191,7 @@ AEM Screens プロジェクトの ContextHub 設定の指定を開始する前�
 
    1. **作成**／**ブランドを作成**&#x200B;をクリックします。
 
-   1. クリック **ブランド** から **ページを作成** ウィザードを表示して、 **次**.
+   1. **ページを作成**&#x200B;ウィザードで「**ブランド**」をクリックし、「**次へ**」をクリックします。
 
    1. 「**タイトル**」に「**ScreensBrand**」と入力し、「**作成**」をクリックします。これで、以下のようにブランドが作成されました。
 
@@ -208,13 +208,14 @@ AEM Screens プロジェクトの ContextHub 設定の指定を開始する前�
 
    以下の手順に従って、ブランドに領域を作成します。
 
-   1. クリック **作成** その後 **エリアを作成**.
+   1. 「**作成**」、「**領域を作成**」を順にクリックします。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub9.png)
 
-   1. クリック **領域** から **ページを作成** ウィザードを表示して、 **次**.
+   1. **ページを作成**&#x200B;ウィザードで「**領域**」をクリックし、「**次へ**」をクリックします。
 
-   1. 「**タイトル**」に「**ScreensValue**」と入力し、「**作成**」をクリックします。ブランドに領域が作成されます。
+   1. 「**タイトル**」に「**ScreensValue**」と入力し、「**作成**」をクリックします。
+ブランドに領域が作成されます。
 
 ## 手順 5：アクティビティでのセグメントの作成 {#step-setting-up-audience-segmentation}
 
@@ -226,15 +227,15 @@ AEM Screens プロジェクトの ContextHub 設定の指定を開始する前�
 
    1. **作成**／**アクティビティを作成**&#x200B;をクリックします。**アクティビティの設定**&#x200B;ウィザードが開きます。
 
-   1. 「**タイトル**」に「**ValueCheck50**」、「**名前**」に「**valuecheck50**」と入力します。「」をクリックします **ターゲティングエンジン** as **ContextHub （AEM）** ドロップダウンから「」を選択し、 **次**.
+   1. 「**タイトル**」に「**ValueCheck50**」、「**名前**」に「**valuecheck50**」と入力します。**ContextHub (AEM)** として、ドロップダウンから&#x200B;**ターゲティングエンジン**&#x200B;をクリックし、「**次へ**」をクリックします。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub14.png)
 
-   1. クリック **エクスペリエンスを追加** から `**Configure Activity**` ウィザード。
+   1. `**Configure Activity**` ウィザードから「**エクスペリエンスを追加**」をクリックします。
 
-   1. から **オーディエンス**&#x200B;を選択し、 `**Higherthan50**` をクリックして、 **エクスペリエンスを追加** を入力し、 **タイトル** as `**higherthan50**` **名前** as `**higherthan50**`. 「**OK**」をクリックします。
+   1. 「**オーディエンス**」から、`**Higherthan50**` をクリックし、「**エクスペリエンスを追加**」をクリックして、「**タイトル**」に「`**higherthan50**`」、「**名前**」に「`**higherthan50**`」と入力します。「**OK**」をクリックします。
 
-   1. から **オーディエンス**&#x200B;を選択し、 `**Lowerthan50**` をクリックして、 **エクスペリエンスを追加** を入力し、 **タイトル** as `**lowerthan50**` **名前** as `**lowerthan50**`. 「**OK**」をクリックします。
+   1. 「**オーディエンス**」から、`**Lowerthan50**` をクリックし、「**エクスペリエンスを追加**」をクリックして、「**タイトル**」に「`**lowerthan50**`」、「**名前**」に「`**lowerthan50**`」と入力します。「**OK**」をクリックします。
 
    ![画像](/help/user-guide/assets/context-hub/context-hub15.png)
 
@@ -248,20 +249,20 @@ AEM Screens プロジェクトの ContextHub 設定の指定を開始する前�
 
    1. AEM インスタンスで、**パーソナライゼーション**／**オーディエンス**／**Screens** に移動します。
 
-   1. セグメントをクリックします `**Higherthan50**`を選択し、 **編集** アクションバーから。
+   1. セグメント `**Higherthan50**` をクリックし、アクションバーの「**編集**」をクリックします。
 
    1. **比較：プロパティ - 値**&#x200B;コンポーネントをエディターにドラッグ＆ドロップします。
 
    1. レンチアイコンをクリックすると、**プロパティと値の比較**&#x200B;ダイアログボックスを開くことができます。
 
-   1. クリック **google シート/値/1/0** のドロップダウンから **プロパティ名**.
+   1. **プロパティ名**&#x200B;のドロップダウンから **googlesheets/value/1/0** をクリックします。
 
       >[!NOTE]
       > **googlesheets/value/1/0** は、下図の `google` シートに入力されている行 2 と列を指します。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub17.png)
 
-   1. 「」をクリックします **演算子** as **より大きい** ドロップダウンメニューから。
+   1. **演算子**&#x200B;のドロップダウンメニューから「**次よりも大きい**」をクリックします。
 
    1. 「**値**」に「**70**」を入力します。
 
@@ -275,11 +276,11 @@ AEM Screens プロジェクトの ContextHub 設定の指定を開始する前�
 
    1. **比較：プロパティ - 値**&#x200B;コンポーネントをエディターにドラッグ＆ドロップします。
 
-   1. レンチ アイコンをクリックします。
+   1. レンチアイコンをクリックします。
 
-   1. が含まれる **プロパティと値の比較** ダイアログ ボックスで、 **google シート/値/1/0** のドロップダウンから **プロパティ名**.
+   1. **プロパティと値の比較**&#x200B;ダイアログボックスで、**プロパティ名**&#x200B;のドロップダウンから **googlesheets/value/1/0** をクリックします。
 
-   1. 「」をクリックします **演算子** as **より小さい** ドロップダウンメニューから。
+   1. **演算子**&#x200B;のドロップダウンメニューから「**次よりも小さい**」をクリックします。
 
    1. 「**値**」に「**50**」と入力します。
 
@@ -290,11 +291,11 @@ AEM Screens プロジェクトの ContextHub 設定の指定を開始する前�
 
 1. AEM Screens チャネルのいずれかに移動します。次の手順は、を使用してターゲティングを有効にする方法を示しています。 **DataDrivenChannel** AEM Screens チャンネルで作成されます。
 
-1. チャネルをクリックします **TargetChannel** をクリックして、 **プロパティ** アクションバーから。
+1. **TargetChannel** チャネルをクリックし、アクションバーの「**プロパティ**」をクリックします。
 
    ![画像](/help/user-guide/assets/context-hub/context-hub19.png)
 
-1. 「」をクリックします **Personalization** タブをクリックして、ContextHub 設定をセットアップします。
+1. 「**パーソナライゼーション**」タブをクリックすると、ContextHub 設定をセットアップできます。
 
    1. 「**ContextHub パス**」を `/conf/screens/settings/wcm/segments` に設定、「**セグメントパス**」を `/conf/screens/settings/wcm/segments` に設定します。
    1. ドロップダウンからブランドを **ScreensBrand**、「**エリア参照を設定**」を **ScreensValue** に設定します。
@@ -307,7 +308,7 @@ AEM Screens プロジェクトの ContextHub 設定の指定を開始する前�
 
       ![画像](/help/user-guide/assets/context-hub/context-hub20New.png)
 
-   1. に移動し、 **TargetChannel** チャネルとクリック **編集** アクションバーから。
+   1. **TargetChannel** チャネルに移動してクリックし、アクションバーの「**編集**」をクリックします。
 
       >[!NOTE]
       >

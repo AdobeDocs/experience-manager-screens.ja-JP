@@ -7,7 +7,7 @@ exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 64%
+ht-degree: 78%
 
 ---
 
@@ -42,7 +42,7 @@ Screens レプリケーションエージェントの設定を完了する場合
 
 1. **`screens-receiver-user`** を検索します。
 
-1. 「」をクリックします **`screens-receiver-user`** をクリックして、 **Enable （有効）** アクションバーから。
+1. 「**`screens-receiver-user`**」をクリックし、アクションバーの「**有効にする**」をクリックします。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication2.png)
 
@@ -50,11 +50,11 @@ Screens レプリケーションエージェントの設定を完了する場合
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication3.png)
 
-   ユーザーを有効にすると、 **`screens-receiver-user`** as **Enabled** の下 **ステータス** フィールド。
+   ユーザーを有効にすると、「**ステータス**」フィールドで、**`screens-receiver-user`** が&#x200B;**有効**&#x200B;になっていることを確認できます。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication4.png)
 
-1. 「」をクリックします **`screens-receiver-user`** をクリックして、 **プロパティ** アクションバーから。
+1. 「**`screens-receiver-user`**」をクリックし、アクションバーの「**プロパティ**」をクリックします。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication5.png)
 
@@ -71,7 +71,7 @@ Screens レプリケーションエージェントの設定を完了する場合
 
 1. 「**保存して閉じる**」をクリックします。
 
-1. 「」をクリックします **`screens-receiver-user`** をクリックして、 **Activate** アクションバーから。
+1. 「**`screens-receiver-user`**」を選択し、アクションバーの「**アクティベート**」をクリックします。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication8.png)
 
@@ -79,7 +79,7 @@ Screens レプリケーションエージェントの設定を完了する場合
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication9.png)
 
-1. 「」をクリックします **`screens-receiver-user`** をクリックして、 **無効** アクションバーから。
+1. 「**`screens-receiver-user`**」をクリックし、アクションバーの「**無効にする**」をクリックします。
 
    >[!IMPORTANT]
    > **`screens-receiver-user`** の無効化は、このユーザーをオーサーインスタンスから無効にするだけで、パブリッシュインスタンスのすべてのユーザーはアクティブなままです。無効化は、ユーザーがパブリッシュインスタンスからも削除されるので、アクションバーから「**無効にする**」をクリックしないようにします。
@@ -125,7 +125,7 @@ Screens レプリケーションエージェントの設定を完了する場合
 
 1. 「**OK**」をクリックします。
 
-1. 上記の手順を完了したら、 **接続をテスト** 接続を確認します。
+1. 上記の手順を完了したら、「**接続をテスト**」をクリックして接続を検証します。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 

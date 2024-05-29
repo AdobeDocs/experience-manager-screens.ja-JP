@@ -1,5 +1,5 @@
 ---
-title: MultiZone から SingleZone への移行のユースケース
+title: マルチゾーンからシングルゾーンへのトランジションの使用例
 description: このページでは、マルチゾーンからシングルゾーンへのトランジションの使用例について説明します。
 contentOwner: Jyotika Syal
 feature: Authoring Screens
@@ -9,7 +9,7 @@ exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '404'
-ht-degree: 63%
+ht-degree: 74%
 
 ---
 
@@ -43,8 +43,8 @@ ht-degree: 63%
 
 1. **マルチゾーン Screens チャネルの作成**
 
-   1. 「」をクリックします **チャネル** フォルダーをクリックし、 **作成** アクションバーからウィザードを開いて、チャネルを作成します。
-   1. クリック **左 – 左バー分割画面チャンネル** ウィザードから、という名前のチャネルを作成します。 **MultiZoneLayout**.
+   1. **Channels** フォルダーを選択し、アクションバーの「**作成**」をクリックして、ウィザードを開き、チャネルを作成します。
+   1. ウィザードで「**左 L バー型分割画面チャネル**」をクリックし、**MultiZoneLayout** というタイトルのチャネルを作成します。
    1. このチャネルにコンテンツを追加します。各ゾーンにアセットをドラッグ＆ドロップします。次の例は、ビデオ、画像、（埋め込みシーケンス内の）テキストバナーで構成される **MultiZoneLayout** チャネルを示しています（下図を参照）。
 
    ![アセット](assets/mz-to-sz2.png)

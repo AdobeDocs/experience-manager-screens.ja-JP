@@ -4,7 +4,7 @@ description: このページでは、ダイレクト配置ワークフロー設�
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 84%
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 84%
 
 ダイレクト配置ワークフローの設定は、AEM Screens プロジェクトチャネルをアセット内の特定のフォルダーにマップし、そのフォルダー内の任意のアセットを配置できるようにします。アドビでは、オフライン一括アップデートをトリガーして公開を完了することをお勧めします。
 
-または、コンテンツ作成者が手動でクリックすることもできます。 **オフラインコンテンツを更新**.
+また、コンテンツ作成者として、「**オフラインコンテンツを更新**」を手動でクリックすることもできます。
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ ht-degree: 84%
 
 >[!IMPORTANT]
 >
->設定を開始する前に、をインストールします `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. パッケージをインストールすると、AEM インスタンス／ツール（アイコン）／**ワークフロー**／**ワークフローモデル**&#x200B;から表示してアクセスできます。
+>設定を開始する前に、`[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)` をインストールしてください。パッケージをインストールすると、AEM インスタンス／ツール（アイコン）／**ワークフロー**／**ワークフローモデル**&#x200B;から表示してアクセスできます。
 
 ダイレクト配置ワークフローを設定するには、次の手順を実行します。
 

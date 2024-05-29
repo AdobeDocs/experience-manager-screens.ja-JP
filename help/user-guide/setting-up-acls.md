@@ -12,7 +12,7 @@ exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '488'
-ht-degree: 76%
+ht-degree: 80%
 
 ---
 
@@ -34,11 +34,11 @@ AEM管理者は、プロジェクトのチームメンバーが他のプロジ�
 
    または、このリンク（`http://localhost:4502/libs/granite/security/content/groupadmin.html`）を使用します。
 
-   次に、 **保存**.
+   次に、「**保存**」をクリックします。
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. クリック **投稿者** リストで、ダブルクリックします。
+1. リストの「**寄稿者**」をクリックし、さらにダブルクリックします。
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
@@ -56,7 +56,7 @@ AEM管理者は、プロジェクトのチームメンバーが他のプロジ�
 
 1. この `(http://localhost:4502/useradmin)` を使用して、**Acme** グループの権限を設定します。
 
-   グループをクリックします **アクメ** をクリックし、 **権限**.
+   **Acme** グループをクリックして、「**権限**」をクリックします。
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 

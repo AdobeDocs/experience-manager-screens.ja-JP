@@ -13,7 +13,7 @@ exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 76%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 76%
 
 >[!CAUTION]
 >
->最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。AEM Screensは、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供します。
+>最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。AEM Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
 
 AEM Screens は、AEM 6.3.3.3 機能パック 6 および AEM 6.4.4.0 機能パック 4 を リリースしました。詳細は次のとおりです。
 
@@ -45,9 +45,9 @@ AEM Screens 機能パック 201905 のリリース日は 2019年5月16日（PT�
 
 * **緊急チャネル**
 
-このユースケースの例では、前提条件がある場合にコンテンツ作成者がシーケンスチャネルからシーケンスチャネルに切り替えることができる緊急チャネルを作成および管理することに重点を置いています。
+このユースケースでは、緊急チャネルの作成と管理に重点を置いています。前提条件がある場合に、コンテンツ作成者はシーケンスチャネルから緊急チャネルに切り替えることができます。
 
-参照： **[緊急チャネル](emergency-channel.md)** ユースケースを参照してください。
+詳しくは、**[緊急チャネル](emergency-channel.md)**&#x200B;のユースケースを参照してください。
 
 * **AEM SPA Editor を使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合**
 
@@ -65,4 +65,4 @@ AEM 6.3.3.3 機能パック 6 および AEM 6.4.4.0 機能パック 4 向けに�
 
 #### AEM Screens Player のダウンロード
 
-最新のAEM Screens Player のダウンロードとバグ修正について詳しくは、以下を参照してください。 **[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)**.
+最新の AEM Screens Player のダウンロードとバグ修正について詳しくは、**[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)**&#x200B;を参照してください。

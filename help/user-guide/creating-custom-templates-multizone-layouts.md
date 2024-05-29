@@ -7,9 +7,9 @@ role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
 source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '862'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 69%
 
 ## 重要な検討事項 {#considerations}
 
-マルチゾーンレイアウトでカスタムテンプレートを作成する前に、次の 2 つの重要な考慮事項に注意する必要があります。
+マルチゾーンレイアウトでカスタムテンプレートを作成する前に、注意する必要がある重要な検討事項が 2 つあります。
 
 1. **固定ピクセルサイズまたはパーセンテージ**：
 
@@ -30,18 +30,18 @@ ht-degree: 69%
 
 1. **命名規則**：
 
-   これにより、AEM Screens プロジェクトで使用するカスタムのマルチゾーンテンプレートを作成する方法を理解できます。 ただし、最初に、作成するテンプレートのバージョンを理解する必要があります。
+   命名規則は、AEM Screens プロジェクトで使用するカスタムマルチゾーンテンプレートの作成方法を理解するのに役立ちます。ただし、まずは、作成するテンプレートの用語を理解する必要があります。
 
    | **レイアウト名** | **説明** |
    |---|---|
-   | `Left20-LandscapeHD3Zone` | 3 つのゾーンを作成できる 3 ゾーンの横長レイアウト：<br>* ゾーン 1 を左から水平および垂直スクリーンの 20% として表示<br>* ゾーン 2 を水平方向の画面の 80%、垂直方向の画面の右の画面の 20% として揃える<br>* ゾーン 3 は水平スクリーンの 100%、垂直スクリーンの 80% です。 縦横比は 16:9 です |
-   | `Upper20-PortraitHD2Zone` | 画面の 20% を上からカバーする縦横比 16:9 の 2 ゾーンの縦長テンプレート |
-   | `Right20-LandscapeSD3Zone` | 画面の 20% を右からカバーする 3 ゾーンテンプレート。縦横比は 4:3 |
+   | `Left20-LandscapeHD3Zone` | 次の 3 つのゾーンを作成できる 3 ゾーンの横長レイアウト：<br>* ゾーン 1、画面の左から縦横 20％<br>* ゾーン 2、右揃えで縦 20％、横 80％<br>* ゾーン 3、縦 80％、横 100％。縦横比は 16:9 |
+   | `Upper20-PortraitHD2Zone` | 画面の上から 20％を占める、縦横比 16:9、2 ゾーンの縦長テンプレート |
+   | `Right20-LandscapeSD3Zone` | 画面の右から 20％を占める、縦横比 4:3、3 ゾーンのテンプレート |
 
    >[!IMPORTANT]
    >カスタムレイアウト内で定義されたゾーンは、レイアウト全体の縦横比と一致しない場合があります。このドキュメントで従う命名規則では、カスタムレイアウト全体の縦横比を指定します。
 
-## 使用例 `Left20-LandscapeHD3Zone` レイアウト {#custom-template-one}
+## `Left20-LandscapeHD3Zone` レイアウトの使用例 {#custom-template-one}
 
 以下の節に従って、次の設定でカスタムテンプレート *`Left20-LandscapeHD3Zone`* を作成します。
 
@@ -71,7 +71,7 @@ ht-degree: 69%
    ![画像](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
    >[!NOTE]
-   >クリック **すべて保存** コンテンツを作成、編集または任意のノードにコピーするたびに、CRXDE Liteのアクションバーから。 そうしないと、更新をコミットできません。
+   >コンテンツを作成、編集するたび、またはいずれかのノードにコンテンツをコピーするたびに、CRXDE Lite のアクションバーから「**すべて保存**」をクリックします。そうしないと、更新をコミットできません。
 
 1. lbar-left テンプレートを`/libs/screens/core/templates/splitscreenchannel/lbar-left` から `/apps/customtemplate/template` にコピーします。
 
@@ -90,11 +90,11 @@ ht-degree: 69%
 
    ![画像](/help/user-guide/assets/custom-multizone/custom-template6.png)
 
-1. lbar-left テンプレートをコピーした手順（4）を参照すると、`my-custom-layout/jcr:content` の下に 3 つのレスポンシブグリッドを表示できます。の各レスポンシブグリッドへのカスタム css クラスの追加 *`cq:cssClass`* プロパティ（例：） *my-custom-layout-top-left* （用） *r1c1* ノード。
+1. lbar-left テンプレートをコピーした手順（4）を参照すると、`my-custom-layout/jcr:content` の下に 3 つのレスポンシブグリッドを表示できます。*`cq:cssClass`* プロパティの各レスポンシブグリッドにカスタム css クラスを追加します。例えば、*r1c1* ノードの場合は *my-custom-layout-top-left* です。
 
    ![画像](/help/user-guide/assets/custom-multizone/custom-template7.png)
 
-   同様に、を追加します *my-custom-layout-top-right* （用） *r1c2* および *my-custom-layout-bottom* （用） *r2c1* ノード。
+   同様に、*r1c2* ノードに対しては *my-custom-layout-top-right* を追加し、*r2c1* ノードに対しては *my-custom-layout-bottom* を追加します。
 
    >[!NOTE]
    >これらのカスタムクラスは、レスポンシブグリッドの幅と高さを設定するために CSS で使用されます。
@@ -134,17 +134,17 @@ ht-degree: 69%
 1. `/apps/<project>/templates/my-custom-layout/jcr:content` に移動し、*`cq:designPath`* プロパティを `/apps/settings/wcm/designs/customtemplate-designs` に更新して、static.css で設定されたスタイルを読み込みます。
 
    >[!NOTE]
-   >コピーや貼り付けをするのではなく、すべてのスタイルを入力します。これにより、空白が原因で css スタイル設定の問題が発生する可能性があります。
+   >コピーして貼り付けると、空白が発生して CSS のスタイル設定に問題が生じる可能性があるので、すべてのスタイルを手動で入力します。
 
 ## 結果の表示 {#viewing-result}
 
-以下の手順に従って、AEM Screens プロジェクトでカスタマイズされた上記のテンプレートを使用します。
+以下の手順に従って、AEM Screens プロジェクトで上記のカスタマイズされたテンプレートを使用します。
 
-1. 手順（1）で作成した Screens プロジェクトに移動し、 **チャネル** フォルダー。
+1. 手順 1 で作成した Screens プロジェクトに移動し、**チャネル**&#x200B;フォルダーを選択します。
 
    ![画像](/help/user-guide/assets/custom-multizone/custom-template8.png)
 
-1. クリック **作成** アクションバーでテンプレートをクリックします。 **`Left20-LandscapeHD3Zone`** から **作成** ウィザード。
+1. アクションバーで「**作成**」をクリックし、**作成**&#x200B;ウィザードで **`Left20-LandscapeHD3Zone`** テンプレートをクリックします。
 
    ![画像](/help/user-guide/assets/custom-multizone/custom-template9.png)
 
@@ -158,7 +158,7 @@ ht-degree: 69%
 
 「data-uri」を使用して画像（`Base64` エンコード済み）を CSS ファイル（手順 13 で作成した *static.css*）に直接埋め込むように、CSS ルールを調整できます。
 
-この取り決めは、以下のように行われます。
+この配置は次のようにします。
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
 
 または、次の手順に従うこともできます。

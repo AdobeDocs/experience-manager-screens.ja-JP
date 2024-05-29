@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
 source-git-commit: 6720e20f5254e869bde814bd167730e426d0f8fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '854'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -34,24 +34,24 @@ Cloud Player へのアクセスは、`https://player.adobescreens.com` にアク
 Cloud Player のインストールは、プラットフォームによって異なる場合があります。一般に、最新のブラウザーを備えたプラットフォームでは、次の手順に従って Cloud Player アプリケーションを実行できます。
 
 1. ブラウザーを開き、アドレスバーに [Cloud Player の URL](https://player.adobescreens.com/content/dam/universal-player/firmware.html) を入力します。
-1. ブラウザーは、Cloud Player がインストール可能かどうかを確認してから、アドレスバーにインストールアイコンを表示します。
+1. ブラウザーで Cloud Player がインストール可能かどうかが確認され、その後アドレスバーにインストールアイコンが表示されます。
 
    ![画像](/help/user-guide/assets/cloud-player-install.png)
 
-1. 確認ダイアログ・ボックスのインストール・アイコンとインストール・ボタンをクリックします。 Cloud Player は、スタンドアロンアプリケーションとしてデバイスにインストールされ、アイコンを使用して起動できます。
+1. 確認ダイアログボックスで、インストールアイコンとインストールボタンをクリックします。Cloud Player は、スタンドアロンアプリケーションとしてデバイスにインストールされ、アイコンを使用して起動できます。
 
 >[!NOTE]
 >
 >### Cloud Player のインストールオプション {#cloud-player-install-option}
 >
-1. PWA のインストールオプションは、「ホーム画面に追加」または A2HS 機能とも呼ばれます。Web からのPWAのインストールのサポートは、ブラウザーおよびプラットフォームによって異なります。
-1. ブラウザーごとに、PWA アプリがインストール可能かどうかを確認するための条件が異なります。通常、ブラウザーは次の項目を確認できます（詳しくは、こちらを参照）。
+1. PWA のインストールオプションは、「ホーム画面に追加」または A2HS 機能とも呼ばれます。Web からの PWA のインストールに対するサポートは、ブラウザーとプラットフォームによって異なります。
+1. ブラウザーごとに、PWA アプリがインストール可能かどうかを確認するための条件が異なります。通常、ブラウザーでは次の項目を確認できます（詳しくは、こちらを参照）。
 >
-* プラットフォームにアプリケーションをインストールするために必要な最小限のキー（名前、アイコン、start_url、ディスプレイ）を含むマニフェスト JSON ファイルがアプリケーションにある場合
-* アプリケーションに、フェッチイベントリスナーを含むサービスワーカーファイルがある場合
-* アプリは https で提供する必要があります
+* アプリケーションに、プラットフォームにアプリをインストールするために必要な最小限のキー（name、icons、start_url、display）を含むマニフェスト JSON ファイルがあるかどうか
+* アプリケーションに、フェッチイベントリスナーを含むサービスワーカーファイルがあるかどうか
+* アプリは https 経由で提供する必要がある
 >
-1. このインストールオプションは、ブラウザーやデバイスタイプが異なるさまざまな場所に表示される場合があります。 一部のブラウザーでは、オプションメニューバーにインストールアイコンが表示されないことがあります。
+1. インストールオプションは、ブラウザーやデバイスのタイプに応じて異なる場所に表示される場合があります。一部のブラウザーでは、オプションメニューバーのインストールアイコンが非表示になる場合があります。
 
 ## Cloud Player の一括プロビジョニング {#bulk-provisioning}
 
@@ -62,18 +62,18 @@ Cloud Player のインストールは、プラットフォームによって異�
 
    1. `https://<config_server_host>/config.json` のように、アクセスできるようにサーバー上で config.json をホストします。
    1. Cloud Player をインストールし、ホストされた設定を適用するには、`https://player.adobescreens.com?playerConfigAddress=https://<config_server_host>` のような Cloud Player の URL を使用します。
-   1. Cloud Player アプリケーションは、のルートで config.json を探します。 &lt;config_server_host>は、config.json を解析してカスタム設定を取得し、それらの設定を適用します。
+   1. Cloud Player アプリケーションは、&lt;config_server_host> のルートで config.json を検索し、config.json を解析してカスタム設定を取得および適用します。
    1. これらの設定は、プレーヤーのリロードごとに適用されます。
 
 ## Chrome OS での一括プロビジョニング {#bulk-provisioning-chrome}
 
-Chrome OS での一括プロビジョニングの詳細を説明します。 参照： [Chrome OS への Cloud Player のインストール](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). &lt;!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` >
+Chrome OS での一括プロビジョニングの詳細を説明します。[Chrome OS への Cloud Player のインストール](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player)を参照してください。&lt;!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` >
 
 ## AEM インスタンスに必要な設定 {#bulk-provisioning-config-aem}
 
-AEM インスタンスのタイプに応じて、次のいずれかのガイドをクリックして、CORS 白黒AEMおよび Cloud Player を有効にします。
+AEM インスタンスのタイプに基づいて、次のガイドのいずれかをクリックし、AEM および Cloud Player との CORS を有効にします。
 
-* [AEM オンプレミス/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
+* [AEM オンプレミス／AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
 
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
 
@@ -94,7 +94,7 @@ Google の非推奨（廃止予定）プロセスに伴い、Google Chrome バ�
 
 様々な使用シナリオでは、チャネルは、本質的にオフラインサポートを提供できない外部ソース（天気予報ウィジェットやコマース統合単一ページアプリケーションなど）からのコンテンツの取得を必要とする場合があります。これらの特定のユースケースでオフライン機能を有効にするために、Cloud Player ではカスタムヘッダーのサポートを提供します。
 
-Cloud Player では、ネットワークの最初のキャッシュ戦略を採用しています。つまり、ネットワークからコンテンツを取得し（その後、キャッシュを最新の状態に更新）、利用可能な場合はキャッシュされたコンテンツにフォールバックしようとします。 このようなコンテンツ取得のオフラインサポートを実装するには、リクエストにカスタムヘッダーを含める必要があります。その後、カスタムヘッダーを含むリクエストがプレーヤーにキャッシュされ、ネットワークファーストのキャッシュ戦略を維持しながらコンテンツへのオフラインアクセスが簡単になります。
+Cloud Player では、ネットワークファーストのキャッシュ戦略を採用しています。つまり、ネットワークからコンテンツを取得し（その後、最新でキャッシュを更新し）、キャッシュされたコンテンツが使用可能な場合はフォールバックします。このようなコンテンツ取得のオフラインサポートを実装するには、リクエストにカスタムヘッダーを含める必要があります。その後、カスタムヘッダーを含むリクエストがプレーヤーにキャッシュされ、ネットワークファーストのキャッシュ戦略を維持しながらコンテンツへのオフラインアクセスが簡単になります。
 
 ```
 // Sample fetch request with the 'X-Cache-Strategy' header

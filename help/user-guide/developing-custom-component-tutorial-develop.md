@@ -10,9 +10,9 @@ role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
 source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2161'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -44,29 +44,29 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
 1. [CRX パッケージマネージャー](http://localhost:4502/crx/packmgr/index.jsp)を使用して、次のパッケージをダウンロードしてインストールします。
 
-[ファイルを入手](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
+[ファイルの取得](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
    [ファイルを入手](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
-   **オプション** Eclipse または別の IDE を使用している場合は、以下のソースパッケージをダウンロードします。 次の Maven コマンドを使用して、プロジェクトをローカルの AEM インスタンスにデプロイします。
+   **（オプション）** Eclipse などの IDE を使用して作業する場合は、以下のソースパッケージをダウンロードします。次の Maven コマンドを使用して、プロジェクトをローカルの AEM インスタンスにデプロイします。
 
    **`mvn -PautoInstallPackage clean install`**
 
    Start HelloWorld SRC Screens `We.Retail` Run Project.
 
-[ファイルを入手](assets/src-screens-weretail-run.zip)
+[ファイルの取得](assets/src-screens-weretail-run.zip)
 
 1. [CRX パッケージマネージャー](http://localhost:4502/crx/packmgr/index.jsp)で、次の 2 つのパッケージがインストールされていることを確認します。
 
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
 
-   ![Screens We.Retail CRX パッケージマネージャーを介してインストールされた Ui.Apps および Ui.Content パッケージを実行します](assets/crx-packages.png)
+   ![CRX パッケージマネージャーを使用してインストールされた Screens We.Retail Run Ui.Content および Ui.Apps パッケージ](assets/crx-packages.png)
 
    CRX パッケージマネージャーを使用してインストールされた Screens `We.Retail` Run `Ui.Apps` および `Ui.Content` パッケージ。
 
 1. **screens-weretail-run.ui.apps** パッケージでは、`/apps/weretail-run` の下にコードがインストールされます。
 
-   このパッケージには、プロジェクトのカスタムコンポーネントをレンダリングするコードが含まれています。このパッケージには、コンポーネントコードのほか、必要な JavaScript または CSS が含まれています。このパッケージにはも埋め込まれています **screens-weretail-run.core-0.0.1-SNAPSHOT.jar** プロジェクトに必要な Java™ コードが含まれているフォルダー。
+   このパッケージには、プロジェクトのカスタムコンポーネントをレンダリングするコードが含まれています。このパッケージには、コンポーネントコードのほか、必要な JavaScript または CSS が含まれています。このパッケージには、**screens-weretail-run.core-0.0.1-SNAPSHOT.jar** も埋め込まれており、この中に、プロジェクトで必要な Java™ コードが含まれています。
 
    >[!NOTE]
    >
@@ -84,11 +84,11 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
 
-   このパッケージには、プロジェクトに必要な初期コンテンツおよび設定構造が含まれています。**`/conf/we-retail-run`** には、`We.Retail` Run プロジェクトのすべての設定が含まれています。**`/content/dam/we-retail-run`** には、プロジェクトの初期デジタルアセットが含まれています。**`/content/screens/we-retail-run`** には、Screens のコンテンツ構造が含まれています。これらすべてのパスのコンテンツは、主にAEMで更新されます。 環境（ローカル、開発、ステージング、実稼動）間の一貫性を高めるために、多くの場合、ベースコンテンツ構造がソース管理下に保存されます。
+   このパッケージには、プロジェクトに必要な初期コンテンツおよび設定構造が含まれています。**`/conf/we-retail-run`** には、`We.Retail` Run プロジェクトのすべての設定が含まれています。**`/content/dam/we-retail-run`** には、プロジェクトの初期デジタルアセットが含まれています。**`/content/screens/we-retail-run`** には、Screens のコンテンツ構造が含まれています。これらすべてのパスの内容は主に AEM で更新されます。環境（ローカル、開発、ステージング、実稼動）間の一貫性を高めるために、多くの場合、ベースコンテンツ構造がソース管理下に保存されます。
 
 1. **AEM Screens／`We.Retail` Run プロジェクト**&#x200B;に移動します。
 
-   AEMのスタートメニューで、「Screens」アイコンをクリックします。 `We.Retail` Run プロジェクトが表示されていることを確認します。
+   AEM のスタートメニューで Screens アイコンをクリックします。`We.Retail` Run プロジェクトが表示されていることを確認します。
 
    ![we-retaiul-run-starter](assets/we-retaiul-run-starter.png)
 
@@ -116,7 +116,7 @@ AEM Screens には、従来の WCM Sites コンポーネントには必ずしも
 
    /apps/weretail-run/components/content/helloworld のプロパティ
 
-   この **Hello World** コンポーネントはを拡張します **基盤，コンポーネント，Parbase** シーケンスチャネル内で適切に使用できるようにコンポーネント化します。
+   **Hello World** コンポーネントは **foundation/components/parbase** コンポーネントを拡張したものなので、シーケンスチャネル内で適切に使用できます。
 
 1. `/apps/weretail-run/components/content/helloworld` の下に `helloworld.html.` という名前のファイルを作成します。
 
@@ -158,7 +158,7 @@ AEM Screens には、従来の WCM Sites コンポーネントには必ずしも
    </div>
    ```
 
-   上記は、Hello World コンポーネントの実稼動用マークアップです。 このコンポーネントはシーケンスチャネルで使用されるので、`data-duration` 属性が含まれています。この `data-duration` 属性は、シーケンスチャネルでシーケンス項目の表示期間を把握するために使用されます。
+   上記は、Hello World コンポーネントの実稼動用マークアップです。このコンポーネントはシーケンスチャネルで使用されるので、`data-duration` 属性が含まれています。`data-duration` 属性は、シーケンスチャネルでシーケンス項目の表示時間を把握するために使用されます。
 
    このコンポーネントでは、`div` タグと `h1` タグ（テキストを含む）をレンダリングします。`${properties.message}` は HTL スクリプトの一部で、`message` という名前の JCR プロパティのコンテンツを出力します。後でダイアログボックスが作成され、ユーザーは `message` プロパティテキストの値を入力できます。
 
@@ -189,20 +189,20 @@ AEM Screens には、従来の WCM Sites コンポーネントには必ずしも
    </div>
    ```
 
-   上記は、Hello World コンポーネント用に編集されたマークアップです。 ダイアログメッセージが既に入力されている場合、最初のブロックにはコンポーネントの編集済みバージョンが表示されます。
+   上記は、Hello World コンポーネントの編集済みマークアップです。ダイアログメッセージが既に入力されている場合、最初のブロックにはコンポーネントの編集済みバージョンが表示されます。
 
-   2 つ目のブロックは、ダイアログボックスのメッセージが入力されていない場合にレンダリングされます。 その場合、`cq-placeholder` と `data-emptytext` は、「***Hello World***」というラベルをプレースホルダーとしてレンダリングします。複数のロケールでのオーサリングをサポートするために、ラベルの文字列を i18n を使用して国際化することができます。
+   ダイアログボックスメッセージがまだ入力されていない場合は、2 番目のブロックがレンダリングされます。その場合、`cq-placeholder` と `data-emptytext` は、「***Hello World***」というラベルをプレースホルダーとしてレンダリングします。複数のロケールでのオーサリングをサポートするために、ラベルの文字列を i18n を使用して国際化することができます。
 
 1. **Hello World コンポーネントに使用する Screens 画像ダイアログをコピーします。**
 
-   既存のダイアログボックスから開始して、変更を加えるのが簡単です。
+   既存のダイアログボックスを出発点にして、それに変更を加えるのが最も簡単です。
 
-   1. ダイアログボックスを次の場所からコピーします。 `/libs/screens/core/components/content/image/cq:dialog`
-   1. ダイアログボックスをの下に貼り付けます `/apps/weretail-run/components/content/helloworld`
+   1. ダイアログボックスのコピー元：`/libs/screens/core/components/content/image/cq:dialog`
+   1. ダイアログボックスの貼り付け先のパス：`/apps/weretail-run/components/content/helloworld`
 
    ![copy-image-dialog](assets/copy-image-dialog.gif)
 
-1. **Hello World ダイアログボックスを更新して、メッセージのタブを追加します。**
+1. **メッセージのタブが含まれるように Hello World ダイアログボックスを更新します。**
 
    次の条件に合致するようにダイアログを更新します。最終的なダイアログの JCR ノード構造は、次のような XML コードになります。
 
@@ -272,7 +272,7 @@ AEM Screens には、従来の WCM Sites コンポーネントには必ずしも
 
 クライアントサイドライブラリは、AEM の実装で必要な CSS および JavaScript ファイルの編成および管理のための仕組みを提供します。
 
-AEM Screens コンポーネントのレンダリングは、編集モードとプレビュー – 実稼動モードで異なります。 編集モード用とプレビュープロダクション用の 2 つのクライアントライブラリが作成されます。
+AEM Screens コンポーネントは、編集モードとプレビュー／実稼動モードではレンダリングが異なります。2 つのクライアントライブラリが作成されます。1 つ目は編集モード用、2 つ目はプレビュー／実稼動用です。
 
 1. Hello World コンポーネントのクライアントサイドライブラリ用のフォルダーを作成します。
 
@@ -294,9 +294,9 @@ AEM Screens コンポーネントのレンダリングは、編集モードと�
 
    /apps/weretail-run/components/content/helloworld/clientlibs/shared のプロパティ
 
-   categories プロパティは、クライアントライブラリを識別する文字列です。cq.screens.componentscategory は、編集モードとプレビュー – 実稼動モードの両方で使用されます。 したがって、sharedclientlib で定義された CSS や JS は、すべてのモードで読み込まれます。
+   categories プロパティは、クライアントライブラリを識別する文字列です。cq.screens.componentscategory は、編集モードとプレビュー／実稼動モードの両方で使用されます。したがって、sharedclientlib に定義された CSS や JavaScript は、すべてのモードに読み込まれます。
 
-   ベストプラクティスとして、次の場所への直接パスを使用します `/apps` 実稼動環境では、決して公開しないでください。 allowProxy プロパティにより、のプレフィックスを使用してクライアントライブラリ CSS および JS が参照されるようになります `/etc.clientlibs`.
+   ベストプラクティスとして、実稼動環境の `/apps` を直接指すパスは、公開しないでください。allowProxy プロパティにより、クライアントライブラリの CSS と JavaScript が `/etc.clientlibs` というプレフィックスを付けて参照されるようになります。
 
 1. 共有フォルダーの下に `css.txt` という名前のファイルを作成します。
 
@@ -342,7 +342,7 @@ AEM Screens コンポーネントのレンダリングは、編集モードと�
 
 1. 本番用クライアントライブラリの `categories` プロパティを `cq.screens.components.production.` に更新します。
 
-   これにより、プレビュー – 実稼動モードの場合にのみスタイルが読み込まれるようにします。
+   これにより、プレビュー／実稼動モードの場合のみ、スタイルが読み込まれるようになります。
 
    ![/apps/weretail-run/components/content/helloworld/clientlibs/production のプロパティ](assets/2018-04-30_at_5_04pm.png)
 
@@ -403,9 +403,9 @@ AEM Screens では、[静的ページテンプレート](https://experienceleagu
 
 ## シーケンスチャネルの作成 {#create-sequence-channel}
 
-Hello World コンポーネントは、シーケンスチャネルで使用します。 コンポーネントをテストするために、新しいシーケンスチャネルが作成されます。
+Hello World コンポーネントは、シーケンスチャネルでの使用を目的としています。このコンポーネントをテストするために、新しいシーケンスチャネルを作成します。
 
-1. AEMのスタートメニューで、に移動します。 **スクリーン** > **`We.Retail`実行** > をクリックし、 **チャネル**.
+1. AEM のスタートメニューで、**Screens**／**`We.Retail`実行**&#x200B;に移動し、「**チャネル**」をクリックします。
 
 1. 「**作成**」ボタンをクリックします。
 
@@ -437,11 +437,11 @@ Hello World コンポーネントは、シーケンスチャネルで使用し�
 
    1. Parsys の&#x200B;**レンチ**&#x200B;アイコンをクリックすると、使用可能なコンポーネントを設定できます。
 
-   1. 「」をクリックします **スクリーン** グループと **`We.Retail`実行 – コンテンツ** グループ。
+   1. 「**Screens**」グループと「**`We.Retail`Run - Content**」グループをクリックします。
 
    ![2018-04-30_at_5_43pm](assets/2018-04-30_at_5_43pm.png)
 
-1. ページモードを&#x200B;**編集**&#x200B;に切り替えます。Hello World コンポーネントをページに追加し、他のシーケンスチャネルコンポーネントと組み合わせることができるようになりました。
+1. ページモードを&#x200B;**編集**&#x200B;に切り替えます。これで、Hello World コンポーネントをページに追加し、他のシーケンスチャネルコンポーネントと組み合わせることができるようになりました。
 
    ![2018-04-30_at_5_53pm](assets/2018-04-30_at_5_53pm.png)
 
@@ -453,11 +453,11 @@ Hello World コンポーネントは、シーケンスチャネルで使用し�
 
 ## カスタムハンドラーのテンプレート {#custom-handlers}
 
-カスタムコンポーネントでアセット（画像、ビデオ、フォント、アイコン）、特定のアセットレンディション、クライアントサイドライブラリ（css および js）などの外部リソースを使用する場合、これらのリソースはオフライン設定に自動的には追加されません。 これは、デフォルトでは HTML マークアップのみがバンドルされているからです。
+カスタムコンポーネントでアセット（画像、ビデオ、フォント、アイコン）、特定のアセットレンディション、クライアントサイドのライブラリ（css と js）などの外部リソースを使用している場合、これらのリソースはオフライン設定に自動的に追加されません。これは、デフォルトでは HTML マークアップのみがバンドルされているからです。
 
-プレーヤーにダウンロードされる正確なアセットをカスタマイズし最適化できるように、Adobeでは拡張メカニズムを提供しています。 このメカニズムは、カスタムコンポーネントが、その依存関係をAEM Screensのオフラインキャッシュロジックに公開できるようにするためのものです。
+プレーヤーにダウンロードされる正確なアセットをカスタマイズし最適化できるように、アドビでは拡張メカニズムを提供しています。このメカニズムは、カスタムコンポーネントが、それ自身の依存関係を AEM Screens のオフラインキャッシュロジックに公開できるようにするためのものです。
 
-以下の節では、カスタムオフラインリソースハンドラーのテンプレートを示します。 また、での最小要件も示します `pom.xml` 対象となる特定のプロジェクトの。
+以下の節では、カスタムオフラインリソースハンドラーのテンプレートを示します。また、その特定のプロジェクトに対する `pom.xml` の最小要件も紹介します。
 
 ```java
 package …;
@@ -546,7 +546,7 @@ public class MyCustomHandler extends AbstractResourceHandler {
       </dependencies>
 ```
 
-**メモ** :AEMas a Cloud Serviceがある場合は、で以下の依存関係を使用します `pom.xml` 対象となる特定のプロジェクトの。
+**メモ**：AEM as a Cloud Service がある場合は、その特定のプロジェクトの `pom.xml` で以下の依存関係を使用します。
 
 ```css
    <dependencies>
@@ -574,14 +574,14 @@ public class MyCustomHandler extends AbstractResourceHandler {
 1. `foundation/components/parbase` を直接拡張する代わりに、`screens/core/components/content/page` または `screens/core/components/content/experiencefragment` のいずれかを拡張する必要があります
 2. 埋め込みコンテンツの参照に使用するプロパティの名前は、`pagePath` である必要があります。
 
-また、これら 2 つの Screens コアコンポーネントを使用すると、必要な依存関係（クライアントサイドライブラリ、フォントなど）の一部をバンドルできるという追加の利点も得られます。この機能は、コンポーネントダイアログボックスのオフライン設定オプションによって実行されます。 これにより、カスタムオフラインハンドラーに使用する必要がある場合の責任が軽減されます。 場合によっては、そもそも使用する必要性そのものがなくなることさえあります。
+また、これら 2 つの Screens コアコンポーネントを使用すると、必要な依存関係（クライアントサイドライブラリ、フォントなど）の一部をバンドルできるという追加の利点も得られます。この機能は、コンポーネントダイアログボックスのオフライン設定オプションで実行されます。これにより、それを実現する場合に使用する必要があるカスタムオフラインハンドラーの責任が軽減されます。場合によっては、そもそも使用する必要性そのものがなくなることさえあります。
 
 ## 完成したコード {#finished-code}
 
 チュートリアルで完成したコードは以下のとおりです。**screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** と **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** は、コンパイル済みの AEM パッケージです。SRC-screens-wertail-run-0.0.1.zip は、Maven を使用してデプロイできる未コンパイルのソースコードです。
 
-[ファイルを入手](assets/screens-weretail-runuiapps-001-snapshot.zip)
+[ファイルの取得](assets/screens-weretail-runuiapps-001-snapshot.zip)
 
-[ファイルを入手](assets/screens-weretail-runuicontent-001-snapshot.zip)
+[ファイルの取得](assets/screens-weretail-runuicontent-001-snapshot.zip)
 
-[ファイルを入手](assets/screens-weretail-run.zip)
+[ファイルの取得](assets/screens-weretail-run.zip)

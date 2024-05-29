@@ -6,15 +6,15 @@ role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
 source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 # Adobe Experience Manager Screens とは {#what-is-aem-screens}
 
-**Experience Manager Screens**  – 動的でインタラクティブなデジタルエクスペリエンスと、様々なタイプの画面を含むインタラクションを、すべて包括的なデジタルマーケティングプラットフォームで公開できるデジタルサイネージソリューションです。
+**Experience Manager Screens** - 動的でインタラクティブなデジタルエクスペリエンスと、様々なタイプの画面を含むインタラクションを、すべて包括的なデジタルマーケティングプラットフォームで公開できるデジタルサイネージソリューションです。
 
 [AEM Screens のキックスタート](kickstart-for-aem-screens.md)を用いて、シンプルなデジタルサイネージエクスペリエンスをインストールおよび導入できます。
 
@@ -22,13 +22,13 @@ Experience Manager as a Cloud Service で Experience Manager Screens プロジ�
 
 ## 概要 {#overview}
 
-**Experience Manager Screens**&#x200B;は、***Experience Manager Sites*** の強固な基盤の上に構築されています。これにより、マーケターや IT 担当者は、複数のデジタル画面でのエクスペリエンスを作成および管理して、ブランド構築や需要の促進に関する店舗/会場内の目標に影響を与えることができます。 Experience Manager Screens と Sites を統合すると、既存のコンテンツを再利用し、一貫性のある顧客ソリューションを効果的に提供できます。このワークフローは、費用対効果が高く使用可能な専用のデジタルエクスペリエンスを作成するために合理化されます。 さらに、ブランドの認知度に影響を与え、購入や関与の増加につながる意思決定にも影響を及ぼすことができます。
+**Experience Manager Screens**&#x200B;は、***Experience Manager Sites*** の強固な基盤の上に構築されています。マーケターと IT 担当者は、ブランドの構築と需要の促進という店舗内および会場内の目標に影響を与えるエクスペリエンスを、複数のデジタル画面上で作成および管理できるようになります。Experience Manager Screens と Sites を統合すると、既存のコンテンツを再利用し、一貫性のある顧客ソリューションを効果的に提供できます。このワークフローは、費用対効果と有用性の非常に高い、専用デジタルエクスペリエンスを作成するために合理化されています。さらに、ブランドの認知度に影響を与え、購入や関与の増加につながる意思決定にも影響を及ぼすことができます。
 
-Experience Manager Screens は、専用のデジタルメニューボード、商品レコメンデーション、背景のライフスタイル画像を作成して、顧客とのやり取りを拡大できる強力な web ベースのソリューションです。同じ Experience Manager プラットフォームから、店舗、ホテル、銀行、医療機関、教育機関などの物理的な場所に、統一された有用なブランドエクスペリエンスを提供するのに役立ちます。Screens には、独自のアプリケーションが多数用意されています。 例えば、インタラクティブなディスプレイ、ウェイファインディング、ブランディングおよび顧客や従業員の環境への環境効果の追加を、それらがデプロイされているドメインに基づいて行います。
+Experience Manager Screens は、専用のデジタルメニューボード、商品レコメンデーション、背景のライフスタイル画像を作成して、顧客とのやり取りを拡大できる強力な web ベースのソリューションです。同じ Experience Manager プラットフォームから、店舗、ホテル、銀行、医療機関、教育機関などの物理的な場所に、統一された有用なブランドエクスペリエンスを提供するのに役立ちます。Screens では、多数のユニークなアプリケーションを提供します。例えば、インタラクティブなディスプレイ、ウェイファインディング、ブランディング、環境音の追加などを、それらがデプロイされるドメインに基づいて顧客や従業員に提供します。
 
 Experience Manager Screens を使用したアプリケーションの作成と管理はシンプルかつ直感的です。*アプリケーション*&#x200B;は、顧客や実装パートナーが Experience Manager Screens 向けに作成した web ページをホストします。*場所*&#x200B;は、事前に定義された階層を管理し、*ディスプレイ*&#x200B;を含みます。各ディスプレイには、関連付けられている様々なデバイスやスクリーンを表示するダッシュボードがあります。Experience Manager Screens のコンテンツは&#x200B;*チャネル*&#x200B;で管理されます。チャネル内に存在するコンテンツが Experience Manager Screens Player によってディスプレイにレンダリングされます。
 
-Experience Manager Screensに関連する重要な用語を理解するには、 [用語集](screens-glossary.md).
+Experience Manager Screens に関連する重要な用語を理解するには、[用語集](screens-glossary.md)を参照してください。
 
 ### Screens Player のアーキテクチャ
 
@@ -38,7 +38,7 @@ Experience Manager Screensに関連する重要な用語を理解するには、
 
 ### デジタルサイネージエクスペリエンスを 5 分で作成する {#create-a-digital-signage-experience-in-minutes}
 
-デモ用の Screens プロジェクトを作成し、コンテンツを Screens Player に公開するには、を参照してください。 [Experience Manager Screensのキックスタート](kickstart-for-aem-screens.md).
+デモ用の Screens プロジェクトを作成し、コンテンツを Screens Player に公開するには、[Experience Manager Screens のキックスタート](kickstart-for-aem-screens.md)を参照してください。
 
 ## 新しい Experience Manager Screens プロジェクトの開始 {#starting-a-new-aem-screens-project}
 
@@ -61,7 +61,7 @@ Experience Manager Screensに関連する重要な用語を理解するには、
 
 * **Experience Manager Screens プロジェクトのベストプラクティスガイド**
 
-  に従う **[Experience Manager Screensプロジェクトのベストプラクティスガイド](/help/using/about-guide.md)** これは、Experience Manager Screensプロジェクトの実装時に一般的な問題を特定するように設計されています。 この資料では主に、プロジェクト上の役割と責務に焦点を当てています。 ここでは、様々な役割、Experience Managerプラットフォームの設定、サポートとモニタリングのための RACI チャートに焦点を当てています。
+  Experience Manager Screens プロジェクトの実装時に一般的な問題を特定するように設計された、**[Experience Manager Screens プロジェクトのベストプラクティスガイド](/help/using/about-guide.md)**&#x200B;に従ってください。この資料では主に、プロジェクトの役割と責任に焦点を当てています。また、様々な役割についての RACI チャート、Experience Manager プラットフォームの設定、サポートと監視についても説明しています。
 
 <!-- DEAD LINK * **New Adobe Customer Support Experience**
 

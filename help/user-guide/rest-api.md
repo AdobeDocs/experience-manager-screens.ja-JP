@@ -1,6 +1,6 @@
 ---
 title: REST API
-description: AEM Screensが Siren 仕様に準拠したシンプルな RESTful API を提供する方法について説明します。 また、コンテンツ構造内を移動する方法や、環境内のデバイスにコマンドを送信する方法についても説明します。
+description: AEM Screens が、Siren の仕様に準拠するシンプルな RESTful API をどのように提供するかを説明します。コンテンツ構造内を移動したり、環境内のデバイスにコマンドを送信したりする方法についても説明します。
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,23 +10,23 @@ role: Developer
 level: Intermediate
 exl-id: ac01935a-c3ff-485a-b60e-227fb94c75b0
 source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
 # REST API{#rest-apis}
 
-AEM Screens には、[Siren](https://github.com/kevinswiber/siren) の仕様に準拠するシンプルな RESTful API が用意されています。コンテンツ構造内を移動したり、環境内のデバイスにコマンドを送信したりできます。
+AEM Screens には、[Siren](https://github.com/kevinswiber/siren) の仕様に準拠するシンプルな RESTful API が用意されています。これにより、コンテンツ構造内を移動したり、環境内のデバイスにコマンドを送信したりできるようになります。
 
 この API には、[*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json) からアクセスできます。
 
 ## コンテンツ構造内での移動 {#navigating-content-structure}
 
-API 呼び出しから返される JSON コードには、現在のリソースに関連するエンティティのリストが記述されています。リストに表示されたセルフリンクの後、これらの各エンティティは、REST リソースとして再びアクセスできます。
+API 呼び出しから返される JSON コードには、現在のリソースに関連するエンティティのリストが記述されています。リストに含まれている自己リンクをたどると、各エンティティに REST リソースとして再びアクセスできます。
 
-例えば、デモのフラッグシップの場所のディスプレイにアクセスするには、次を呼び出します。
+例えば、重要なデモロケーションのディスプレイにアクセスするには、次を呼び出すことができます。
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship.json HTTP/1.1
@@ -149,7 +149,7 @@ curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/
 }
 ```
 
-このアクションをトリガーするには、以下を呼び出します。
+このアクションをトリガーするには、次を呼び出します。
 
 ```xml
 POST /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1

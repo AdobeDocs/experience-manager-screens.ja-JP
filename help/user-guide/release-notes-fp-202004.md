@@ -6,9 +6,9 @@ role: Developer
 level: Intermediate
 exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 40%
 
 >[!CAUTION]
 >
->Adobeでは、最新バージョンのAdobe Experience Manager（AEM）にアップグレードすることをお勧めします。 AEM Screensは、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供します。
+>最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。AEM Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
 
 ## 入手方法 {#availability}
 
 AEM Screens は、AEM 6.4 機能パック 8 および AEM 6.5 機能パック 4 をリリースしました。
 
-AEM Screens 6.4.8 またはAEM Screens 6.5.4 リリースの最新の機能パックは、からダウンロードできます。 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html) Adobe IDを使用する。 に移動します。 **Adobe Experience Manager** タブで「」を検索 **スクリーン** 最新の機能パックを取得するには、
+Adobe ID を使用して、AEM Screens 6.4.8 または AEM Screens 6.5.4 リリースの最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html)からダウンロードできます。「**Adobe Experience Manager**」タブに移動し、「**Screens**」を検索して最新の機能パックを入手します。
 
 ## リリース日 {#release-date}
 
@@ -32,19 +32,19 @@ AEM Screens 機能パック 202004 のリリース日は 2020年4月20日（PT�
 
 * **再生中断方法のオプション**
 
-  コンテンツ作成者は、チャネルが中断されたタイミングを指定します。 このアクションは、重要でないコンテンツを停止する一方で、スケジュールによって再生が中断される前に、重要なコンテンツを完全に再生することをオプションとして選択できる場合に役立ちます。
+  コンテンツ作成者は、チャネルが中断されるタイミングを指定します。重要でないコンテンツを停止することを選択できる一方、スケジュール上の理由で再生が中断される前に重要なコンテンツを完全に再生することをオプションとして選択できるので、このアクションは役に立ちます。
 
-  から使用できるオプションの詳細については、を参照してください。 **チャネル割り当て** この機能をAEM Screens プロジェクトに実装するためのダイアログボックスについては、の節を参照してください。 **[割り込み方法](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
+  AEM Screens プロジェクトにこの機能を実装するための&#x200B;**チャネル割り当て**&#x200B;ダイアログボックスで利用可能なオプションについて詳しくは、**[中断方法](/help/user-guide/channel-assignment.md#interruption-method-channel)**&#x200B;の節を参照してください。
 
 * **Screens ローンチ**
 
-  コンテンツ作成者のユーザーエクスペリエンスフローが改善され、今後の公開で使用するためのクリック数が減りました。
+  コンテンツ作成者のユーザーエクスペリエンスのフローが改善され、将来のバージョン公開を使用するためのクリック数が減少しました。
 
   詳しくは、「**[Screens ローンチを使用したコンテンツの更新](launches.md)**」を参照してください。
 
 * **チャネルダッシュボード**
 
-  に、チャネルダッシュボードの手順の更新を反映します **チャネル情報** パネル。
+  **チャネル情報**&#x200B;パネルのチャネルダッシュボードに手順の更新を反映します。
 
 
 * **マニフェストを表示**
@@ -57,11 +57,11 @@ AEM Screens 機能パック 202004 のリリース日は 2020年4月20日（PT�
 
   テキストオーバーレイ機能にテストを追加する際に、フォントサイズが正確になり、改善されました。
 
-  画像の上にオーバーレイされるタイトルや説明を指定することで、シーケンスチャネルで魅力的なエクスペリエンスを作成するには、を参照してください。 **[テキストオーバーレイ](text-overlay.md)**.
+  画像の上にタイトルや説明をオーバーレイ表示して、シーケンスチャネルに魅力的なエクスペリエンスを作成するには、**[テキストオーバーレイ](text-overlay.md)**&#x200B;を参照してください。
 
 * **コマンド同期の機能強化**
 
-  この機能パック リリースでは、アセット変更間のコマンド同期遅延の改善が反映されています。
+  この機能パックのリリースでは、アセットの変更間のコマンド同期遅延の改善が反映されています。
 
   詳しくは、「**[コマンド同期](using-command-sync.md)**」を参照してください。
 
@@ -75,4 +75,4 @@ AEM Screen でリリースされた AEM 6.4 機能パック 8 および AEM 6.5 
 
 #### AEM Screens Player のダウンロード
 
-最新のAEM Screens Player のダウンロードとバグ修正について詳しくは、以下を参照してください。 **[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)**.
+最新の AEM Screens Player のダウンロードとバグ修正について詳しくは、**[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)**&#x200B;を参照してください。

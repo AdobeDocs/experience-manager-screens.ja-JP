@@ -1,15 +1,15 @@
 ---
 title: Screens Player のインストール
-description: AEM Screens Player の正しいインストール方法を説明します。
+description: AEM Screens Player を正しくインストールする方法を説明します。
 contentOwner: jsyal
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 69%
 
 ## 使用可能な Screens Player {#available-players}
 
-AEM Screens Player は、Android™、Chrome OS および Windows で使用できます。
+AEM Screens Player は Android™、Chrome OS および Windows で使用できます。
 
 **AEM Screens Player** をダウンロードするには、[AEM 6.5 Player のダウンロード](https://download.macromedia.com/screens/)ページにアクセスします。
 
@@ -29,7 +29,7 @@ AEM Screens Player は、Android™、Chrome OS および Windows で使用で�
 >
 >1. 左上隅を長押しして、管理パネルを開きます。
 >1. 左のアクションメニューから「**設定**」に移動し、AEM インスタンスの場所のアドレスを「**サーバー**」に入力して、「**保存**」をクリックします。
->1. 「」をクリックします **登録** 左側のアクションメニューからのリンクと以下の手順に従って、デバイス登録プロセスを完了します。
+>1. 左のアクションメニューの「**登録**」リンクをクリックし、以下の手順でデバイス登録プロセスを完了します。
 
 ## 基本的な再生モニタリング {#playback-monitoring}
 
@@ -69,18 +69,18 @@ AEM Screens Player での基本的な再生モニタリングにより、次の�
 
 * プレーヤーが自分自身の再生状態をサーバーに報告するので、アクティブな接続が必要です。
 
-* この `isContentRendering` gpu がデフォルトで有効になる必要があり、GPU がより多くのリソースを消費しているかどうかを確認するプロパティ。プレーヤーの環境設定で明示的にオプトインする必要があります。 アドビでは、実稼動環境のビデオと組み合わせて使用しないことをお勧めします。
+* GPU をチェックする `isContentRendering` プロパティは、リソースを大量に消費するので、デフォルトで有効にするのではなく、プレーヤーの環境設定から明示的にオプトインする必要があります。アドビでは、実稼動環境のビデオと組み合わせて使用しないことをお勧めします。
 
 * この機能はシーケンスチャネルの場合にのみサポートされており、インタラクティブチャネル（SPA）のユースケースにはまだ対応していません。
 
-* これらの指標は、まだ顧客に完全には公開されていませんが、Adobeでは、ダッシュボードのようなレポートおよびアラートのメカニズムをすぐに有効にするよう取り組んでいます。
+* 指標は、まだ完全にはお客様に公開されていませんが、アドビは、近日中にダッシュボードに似たレポートおよび警告メカニズムを実現できるように取り組んでいます。
 
 ### その他のリソース {#additional-resources}
 
-詳しくは、次のトピックを参照してください。
+詳しくは、以下のトピックを参照してください。
 
 * Android™ プレーヤーをダウンロードするには、**Google Play** にアクセスします。Android™ ウォッチドッグの実装については、[Android™ プレーヤーの実装](implementing-android-player.md)を参照してください。
 
 * Chrome OS プレーヤーの実装について詳しくは、[Chrome 管理コンソール](implementing-chrome-os-player.md)を参照してください。
 
-* AEM Screens Windows プレーヤーを設定するには、次を参照してください。 [Windows プレーヤーの実装](implementing-windows-player.md).
+* Windows 版 AEM Screens Player を設定するには、[Windows プレーヤーの実装](implementing-windows-player.md)を参照してください。

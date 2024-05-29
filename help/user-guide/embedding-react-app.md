@@ -11,15 +11,15 @@ role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
 source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 # AEM SPA エディターを使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合 {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-React（または Angular）を使用して、インタラクティブ単一ページアプリケーションを埋め込むことができます。これを行うには、AEMのビジネスプロフェッショナルが設定するAEM SPAエディターを使用します。 また、インタラクティブアプリケーションをオフライン Adobe Analytics と統合する方法についても説明します。
+React（または Angular）を使用して、インタラクティブ単一ページアプリケーションを埋め込むことができます。これを行うには、AEM でビジネスプロフェッショナルが設定した AEM SPA エディターを使用します。また、インタラクティブアプリケーションをオフライン Adobe Analytics と統合する方法についても説明します。
 
 ## AEM SPA Editor の使用 {#using-the-aem-spa-editor}
 
@@ -48,7 +48,7 @@ AEM SPA Editor を使用するには、以下の手順に従います。
    >
    >このドキュメントは、**GroupId** として ***com.adobe.aem.screens*** を、**ArtifactId** として ***My Sample SPA***（これがデフォルト）を使用します。必要に応じて独自に選択できます。
 
-1. プロジェクトが作成されたら、任意の IDE またはエディターを使用し、生成された Maven プロジェクトを読み込みます。
+1. プロジェクトを作成したら、任意の IDE またはエディターを使用し、生成された Maven プロジェクトを読み込みます。
 1. ***mvn clean install -PautoInstallPackage*** コマンドを使用して、ローカルの AEM インスタンスにデプロイします。
 
 ### React アプリのコンテンツの編集 {#editing-content-in-the-react-app}
@@ -56,7 +56,7 @@ AEM SPA Editor を使用するには、以下の手順に従います。
 React アプリのコンテンツを編集するには、以下の手順に従います。
 
 1. `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` に移動します（ホスト名、ポート、プロジェクト名を実際のものに置き換えます）。
-1. Hello World アプリケーションに表示されているテキストを編集できる。
+1. Hello World アプリケーションに表示されるテキストを編集できます。
 
 ### AEM Screens へのインタラクティブ React アプリの追加 {#adding-the-interactive-react-app-to-aem-screens}
 
@@ -81,7 +81,7 @@ AEM Screens にインタラクティブ React アプリを追加するには、�
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. をドラッグ&amp;ドロップ **埋め込みページ** コンポーネントを選択するか、アプリケーションチャネルで既存のコンポーネントを再利用し、mysamplespa アプリケーションの下のホームページ（例：）をクリックします。 ***/content/mysamplespa/en/home***.
+1. **埋め込みページ**&#x200B;コンポーネントをドラッグ＆ドロップするか、アプリケーションチャネルで既存のコンポーネントを再利用し、mysamplespa アプリケーションの下のホームページ（例：***/content/mysamplespa/en/home***）をクリックします。
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -90,7 +90,7 @@ AEM Screens にインタラクティブ React アプリを追加するには、�
    >[!NOTE]
    >チャネルをディスプレイに割り当てる際には、必ずユーザーインタラクションイベントを追加してください。
 
-1. このプロジェクトに対してプレーヤーを登録し、ディスプレイに割り当てます。これで、AEM Screens上で動作しているインタラクティブアプリケーションが表示されます。
+1. このプロジェクトに対してプレーヤーを登録し、ディスプレイに割り当てます。これで、AEM Screens 上で実行中のインタラクティブアプリケーションが表示されるようになりました。
 
    デバイスの登録に関する詳細情報については、[デバイスの登録](device-registration.md)を参照してください。
 
@@ -102,8 +102,8 @@ AEM Screens を通じて SPA をオフライン機能付きの Adobe Analytics �
 
    AEM Screens と連携する Adobe Analytics でのシーケンス化の実行方法と、オフライン Adobe Analytics を使用したカスタムイベントの送信方法については、[AEM Screens と連携する Adobe Analytics の設定](configuring-adobe-analytics-aem-screens.md)を参照してください。
 
-1. 任意の IDE/エディター（特に、イベントの生成を開始するテキストコンポーネントやその他のコンポーネント）で React アプリを編集します。
-1. コンポーネントについて取得するクリックイベントまたはその他のイベントで、標準のデータモデルを使用して分析情報を追加します。
+1. 選択した IDE またはエディターを使用して、React アプリ（特に、イベントの発行を開始するテキストコンポーネントなどのコンポーネント）を編集します。
+1. コンポーネントに対するクリックイベントなどのイベントをキャプチャする際に、標準データモデルを使用して分析情報を追加します。
 
    詳しくは、[AEM Screens と連携する Adobe Analytics の設定](configuring-adobe-analytics-aem-screens.md)を参照してください。
 

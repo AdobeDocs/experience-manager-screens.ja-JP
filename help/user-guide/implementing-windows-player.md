@@ -1,6 +1,6 @@
 ---
 title: Windows プレーヤーの実装
-description: AEM Screensでの Windows プレーヤーの設定について説明します。
+description: AEM Screens での Windows プレーヤーの設定について説明します。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
@@ -11,15 +11,15 @@ role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
 source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1117'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 # Windows プレーヤーの実装 {#implementing-windows-player}
 
-ここでは、AEM Screensでの Windows プレーヤーの設定について説明します。 開発およびテストで使用する設定に関して、使用可能および推奨される設定ファイルおよびオプションの情報を提供します。
+この節では、AEM Screens での Windows プレーヤーの設定について説明します。開発およびテストで使用する設定に関して、使用可能および推奨される設定ファイルおよびオプションの情報を提供します。
 
 ## Windows プレーヤーのインストール {#installing-windows-player}
 
@@ -28,12 +28,12 @@ AEM Screens 用の Windows プレーヤーを実装するには、AEM Screens �
 [**AEM 6.5 Player のダウンロード**](https://download.macromedia.com/screens/)ページにアクセスします。
 
 >[!NOTE]
->Windows プレーヤーにはウィンドウモードはありません。 常に全画面表示モードです。
+>Windows プレーヤーにはウィンドウモードはありません。常にフルスクリーンモードになります。
 
-### AEM Screens 6.5.5 Service Pack の環境の設定 {#fp-environment-setup}
+### AEM Screens 6.5.5 サービスパック環境の設定 {#fp-environment-setup}
 
 >[!NOTE]
->AEM Screens 6.5.5 Service Pack を使用している場合は、Windows プレーヤーの環境を設定します。
+>AEM Screens 6.5.5 サービスパックを使用している場合は、Windows プレーヤー用の環境を設定します。
 
 AEM オーサーインスタンスおよびパブリッシュインスタンスの **Adobe Experience Manager Web コンソール設定**&#x200B;で、**login-token cookies の SameSite 属性**&#x200B;を **Lax** から **None** に設定します。
 
@@ -52,10 +52,10 @@ AEM オーサーインスタンスおよびパブリッシュインスタンス�
 
 アドホック方式を使用すると、最新の Windows プレーヤー（*.exe*）をインストールできます。[**AEM 6.5 Player のダウンロード**](https://download.macromedia.com/screens/)ページにアクセスします。
 
-アプリケーションをダウンロードしたら、Player の手順に従ってアドホックインストールを完了します。
+アプリケーションをダウンロードしたら、プレーヤー上で以下の手順に従ってアドホックインストールを完了します。
 
 1. 左上隅を長押しして、管理パネルを開きます。
-1. に移動します。 **設定** 左側のアクションメニューから接続先のAEM インスタンスの場所（アドレス）を入力し、をクリックします **保存**.
+1. 左のアクションメニューから「**設定**」に移動し、接続する AEM インスタンスの場所（アドレス）を入力して、「**保存**」をクリックします。
 1. 左側のアクションメニューから「**デバイス****登録**」リンクに移動すると、デバイス登録プロセスのステータスを確認できます。
 
 >[!NOTE]
@@ -66,10 +66,10 @@ AEM オーサーインスタンスおよびパブリッシュインスタンス�
 
 ## Windows プレーヤーの命名 {#name-windows}
 
-ユーザーにわかりやすいデバイス名を Windows プレーヤーに割り当てて、割り当てられたデバイス名をAdobe Experience Manager（AEM）に送信することができます。 この機能により、Windows プレーヤーに名前を付けるだけでなく、適切なコンテンツを簡単に割り当てることもできます。
+ユーザーにわかりやすいデバイス名を Windows プレーヤーに割り当てて、そのデバイス名を Adobe Experience Manager（AEM）に送信することができます。この機能により、Windows プレーヤーに名前を付けるだけでなく、適切なコンテンツを簡単に割り当てることもできます。
 
 >[!NOTE]
->プレーヤー名は、登録にのみ選択できます。プレーヤーの登録後は、プレーヤー名を変更できなくなります。
+>プレーヤー名は、登録前にのみ選択できます。プレーヤーの登録後は、プレーヤー名を変更できなくなります。
 
 Windows プレーヤーに名前を設定するには、次の手順に従います。
 
@@ -83,7 +83,7 @@ Windows インストーラーのデフォルトのオプションを変更する
 
 ## CLI（PowerShell）を使用したインストール {#install-powershell}
 
-1. Screens プレーヤー&#x200B;**専用**に、カスタムの場所を作成します。（例：
+1. Screens プレーヤー&#x200B;**専用**に、カスタムの場所を作成します。例：
    `C:\Users\User\screens-player`
 1. 次をインストールします：
    `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
@@ -102,7 +102,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 ## Windows プレーヤーの一括登録 {#bulk-registration}
 
-Windows プレーヤーを実装する場合、すべてのプレーヤーを手動で設定する必要はありません。 代わりに、設定 JSON ファイルがテストされ、デプロイの準備が整った後に更新できます。
+Windows プレーヤーを実装する場合、すべてのプレーヤーを手動で設定する必要はありません。代わりに、設定 JSON ファイルがテストされ、デプロイの準備が整った後に更新できます。
 
 この設定により、すべてのプレーヤーが、設定ファイルで指定された同じサーバーに ping を送信します。各プレーヤーを手動で登録します。
 
@@ -124,9 +124,9 @@ Windows 10 プレーヤーを設定するには、次の手順を実行します
 | resolution | デバイスの解像度。 |
 | rebootSchedule | プレーヤーを再起動するスケジュール。 |
 | enableAdminUI | サイト上でデバイスを設定するための Admin UI を有効にします。設定が完了して実稼働になったら、false に設定します。 |
-| enableOSD | ユーザーがデバイスのチャネルを切り替えるためのチャネルスイッチャー UI を有効にします。 設定が完了して実稼働になったら、false に設定することを検討します。 |
-| enableActivityUI | を有効にすると、ダウンロードや同期など、アクティビティの進行状況を表示できます。 トラブルシューティング用に有効にしておき、設定が完了して実稼働になったら無効にします。 |
-| cloudMode | Windows プレーヤーを Screens as a Cloud Serviceに接続する場合は、true に設定します。 AMS またはオンプレミス AEM に接続する場合は、false に設定します。 |
+| enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。設定が完了して実稼働になったら、false に設定することを検討します。 |
+| enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進捗を表示できます。トラブルシューティング用に有効にしておき、設定が完了して実稼働になったら無効にします。 |
+| cloudMode | Windows プレーヤーから Screens as a Cloud Service に接続する場合は、true に設定します。AMS またはオンプレミス AEM に接続する場合は、false に設定します。 |
 | cloudToken | Screens as a Cloud Service に登録するための登録トークン。 |
 
 #### ポリシー JSON ファイルの例 {#example-policy-json-file}
@@ -144,11 +144,11 @@ Windows 10 プレーヤーを設定するには、次の手順を実行します
 
 ## キオスクモードの有効化 {#enabling-kiosk-mode}
 
-Windows プレーヤーを展開するときは、他のアプリケーションやタスク バーが Windows デスクトップに表示されないように、キオスク モードを有効にすることが重要です。
+Windows プレーヤーをデプロイする際は、他のアプリケーションやタスクバーが Windows デスクトップに表示されないように、キオスクモードを有効にすることが重要です。
 
 >[!CAUTION]
 >
->Windows のキオスクモードを有効にするには、デバイス管理ソリューションを使用することをお勧めします。キオスクモードを有効にするためのデバイス管理ソリューションがない場合は、以下の手順に従います。この方法では、Windows 10 Enterprise および Edu で使用可能なシェル ランチャー機能を使用します。 UWP 以外のアプリでMicrosoftが推奨する他の方法を使用して、特に Windows の他のエディションでキオスクを有効にすることもできます。
+>Windows のキオスクモードを有効にするには、デバイス管理ソリューションを使用することをお勧めします。キオスクモードを有効にするためのデバイス管理ソリューションがない場合は、以下の手順に従います。この方法では、Windows 10 Enterprise および Windows 10 Education で利用可能なシェルランチャー機能を使用します。非 UWP アプリ向けに Microsoft が推奨する他の方法もキオスクモードの有効化、特に、Windows の他のエディションでの有効化に適用できます。
 
 キオスクモードを有効にするには、以下の手順に従います。
 
@@ -160,18 +160,18 @@ Windows プレーヤーを展開するときは、他のアプリケーション
 
    詳しくは、Microsoft® Windows サポートの&#x200B;**[シェルランチャー](https://learn.microsoft.com/ja-jp/windows/iot/iot-enterprise/customize/shell-launcher)**&#x200B;ページの&#x200B;***シェルランチャーの構成***&#x200B;を参照してください。
 
-1. キオスクモードに使用する管理者以外のユーザーを作成します（まだ存在しない場合）。ローカルユーザーまたはドメインユーザーを指定できます。
-1. そのキオスクユーザーの Windows プレーヤーを [AEM Screens Player のダウンロード](https://download.macromedia.com/screens/) ページ。
+1. キオスクモードに使用する管理者以外のユーザーを作成します（まだ存在しない場合）。ローカルユーザーでもドメインユーザーでも構いません。
+1. [AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)ページから、そのキオスクユーザー用の Windows プレーヤーをインストールします。
 1. PowerShell スクリプトの変更について詳しくは、[シェルランチャーを使って Windows 10 キオスクを作成する](https://learn.microsoft.com/ja-jp/windows/configuration/assigned-access/shell-launcher/?tabs=intune)を参照してください。
 
-   PowerShell スクリプトを変更して、ユーザー名を作成したユーザー名に置き換えられるようにします。アプリケーションの実行可能ファイルへのパスが正しいことを確認します。これにより、カスタム シェルがキオスク ユーザーの Windows Player アプリケーションとして設定され、他のユーザーの既定が explorer.exe に設定されます。
+   PowerShell スクリプトを変更して、ユーザー名を作成したユーザー名に置き換えられるようにします。アプリケーションの実行可能ファイルへのパスが正しいことを確認します。これにより、カスタムシェルがキオスクユーザーの Windows プレーヤーアプリケーションとして設定され、他のユーザーには explorer.exe がデフォルトとして設定されます。
 
 1. PowerShell スクリプトを管理者として実行します。
 1. 再起動してキオスクユーザーとしてログインすると、プレーヤーアプリケーションが起動します。
 
 ### トラブルシューティング {#troubleshooting}
 
-Kiosk ユーザーとしてログインした後に黒い画面が表示される場合は、Windows プレーヤーの実行可能ファイルへのパスを誤って指定した可能性があります。 管理者として再度ログインし、スクリプトを確認してから再実行します。
+キオスクユーザーとしてログインした後に黒い画面が表示された場合は、Windows プレーヤーの実行可能ファイルへのパスが正しく指定されていない可能性があります。管理者として再度ログインし、スクリプトを確認してから再実行します。
 
 Windows プレーヤーのデフォルトのインストールパスは次のとおりです。
 
@@ -181,9 +181,9 @@ Windows プレーヤーのデフォルトのインストールパスは次のと
 
 >[!NOTE]
 >
->Windows 環境によっては、PowerShell スクリプトがポリシー（特に未署名のスクリプト）によって制限される場合があります。 スクリプトを実行するには、この制限を一時的に無効にしてから再度有効にして、スクリプトを実行します。PowerShell ウィンドウを開き、次のコマンドを使用します。
+>一部の Windows 環境では、PowerShell スクリプト（特に未署名のスクリプト）がポリシーによって制限されている場合があります。スクリプトを実行するには、この制限を一時的に無効にしてから再度有効にして、スクリプトを実行します。PowerShell ウィンドウを開き、次のコマンドを使用します。
 >
->*`set-executionpolicy unrestricted`*  – 制限を一時的に削除します。
+>*`set-executionpolicy unrestricted`* - 制限を一時的に解除します。
 >
 >*`set-executionpolicy restricted`* - スクリプトの実行後に制限を再度有効にします。
 

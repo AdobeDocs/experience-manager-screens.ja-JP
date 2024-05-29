@@ -1,6 +1,6 @@
 ---
 title: AEM Screens の設定とデプロイ
-description: AEM Screens Player は、Android&trade;、Chrome OS、iOSおよび Windows で使用できます。 AEM Screens の設定とデプロイメントについて説明します。
+description: AEM Screens Player は Android&trade、Chrome OS、iOS、Windows で使用できます。AEM Screens の設定とデプロイメントについて説明します。
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 77%
 
 >[!IMPORTANT]
 >
->AEM Screens Player は、クロスサイトリクエストフォージェリー（CSRF）トークンを使用しません。 そのため、AEM サーバーを AEM Screens で使用できるように設定する場合は、空のリファラーを許可してリファラーフィルターをスキップします。
+>AEM Screens Player は、クロスサイトリクエストフォージェリー（CSRF）トークンを使用しません。そのため、AEM サーバーを AEM Screens で使用できるように設定する場合は、空のリファラーを許可してリファラーフィルターをスキップします。
 
 ## ヘルスチェックフレームワーク {#health-check-framework}
 
-ヘルスチェックフレームワークを使用すると、AEM Screens プロジェクトを実行する前に、2 つの必要な設定が設定されているかどうかを確認できます。
+ヘルスチェックフレームワークを使用すると、AEM Screens プロジェクトを実行する前に、2 つの必要な設定がセットアップされているかどうかを確認できます。
 
 次の 2 つの設定を確認して、AEM Screens プロジェクトを実行できます。つまり、次の 2 つのフィルターの状態を確認できます。
 
@@ -42,7 +42,7 @@ ht-degree: 77%
    ![アセット](assets/health-check1.png)
 
 
-2. クリック **選択したヘルスチェックを実行します** したがって、上記の 2 つのプロパティに対して検証を実行できます。
+2. 上記の 2 つのプロパティの検証を実行するには、「**選択したヘルスチェックを実行**」をクリックします。
 
    両方のフィルターが有効な場合、**Screens Configuration Health Service** では&#x200B;**結果**&#x200B;が&#x200B;**OK**&#x200B;と表示され、両方の設定が有効となっています。
 
@@ -64,7 +64,7 @@ AEM Screens で使用できるように AEM サーバーを設定する際に役
 
 #### 空のリファラー要求の許可 {#allow-empty-referrer-requests}
 
-1. に移動します。 **Adobe Experience Manager Web コンソールの設定** AEM インスタンス/ハンマーアイコン/から選択 **運用** > **Web コンソール**.
+1. AEM インスタンス／ハンマーアイコン／**操作**／**web コンソール**&#x200B;を使用して、**Adobe Experience Manager web コンソール設定**&#x200B;に移動します。
 
    ![画像](assets/config/empty-ref1.png)
 
@@ -81,7 +81,7 @@ AEM Screens で使用できるように AEM サーバーを設定する際に役
 
 #### Apache Felix Jetty Based HTTP Service {#allow-apache-felix-service}
 
-1. に移動します。 **Adobe Experience Manager Web コンソールの設定** AEM インスタンス/ハンマーアイコン/から選択 **運用** > **Web コンソール**.
+1. AEM インスタンス／ハンマーアイコン／**操作**／**web コンソール**&#x200B;を使用して、**Adobe Experience Manager web コンソール設定**&#x200B;に移動します。
 
    ![画像](assets/config/empty-ref1.png)
 
@@ -93,11 +93,11 @@ AEM Screens で使用できるように AEM サーバーを設定する際に役
 
    ![画像](assets/config/config-1.png)
 
-1. クリック **保存** を有効にします *Http* サービス。
+1. 「**保存**」をクリックし、*HTTP* サービスを有効にします。
 
 #### AEM Screens のタッチ操作対応 UI の有効化 {#enable-touch-ui-for-aem-screens}
 
-AEM Screensにはタッチ UI が必要で、Adobe Experience Manager（AEM）のクラシック UI では動作しません。
+AEM Screens にはタッチ操作対応 UI が必要で、Adobe Experience Manager（AEM）のクラシック UI では AEM Screens は動作しません。
 
 1. `*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*` に移動します。
 1. 「**Default authoring UI mode**」が「**TOUCH**」に設定されていることを確認します（下図を参照）。
@@ -116,11 +116,11 @@ AEM Screensにはタッチ UI が必要で、Adobe Experience Manager（AEM）�
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`。
 
-この削除は、AEM Screens Player でオンラインチャネルを再生するために必要です。
+この削除は、AEM Screens Player でオンラインチャンネルを再生するために必要です。
 
 #### パスワード制限 {#password-restrictions}
 
-最新の変更で ***DeviceServiceImpl***&#x200B;パスワード制限を削除する必要はありません。
+***DeviceServiceImpl*** の最新の変更により、パスワード制限を削除する必要がなくなりました。
 
 次のリンクから ***DeviceServiceImpl*** を設定して、Screens デバイスユーザーのパスワードを作成する際のパスワード制限を有効にすることができます。
 

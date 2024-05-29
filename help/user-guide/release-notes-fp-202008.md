@@ -6,9 +6,9 @@ role: Developer
 level: Intermediate
 exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 64%
 
 >[!CAUTION]
 >
->Adobeでは、最新バージョンのAdobe Experience Manager（AEM）にアップグレードすることをお勧めします。 AEM Screensは、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供します。
+>最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。AEM Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
 
 ## 入手方法 {#availability}
 
 AEM Screens は、AEM 6.5 機能パック 5 をリリースしました。
 
-AEM Screens 6.5.5 リリースの最新の機能パックは、からダウンロードできます。 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html) Adobe IDを使用する。 に移動します。 **Adobe Experience Manager** タブで「」を検索 **スクリーン** 最新の機能パックを取得するには、
+Adobe ID を使用して、AEM Screens 6.5.5 リリースの最新機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html)からダウンロードできます。「**Adobe Experience Manager**」タブに移動し、「**Screens**」を検索して最新の機能パックを入手します。
 
 ## リリース日 {#release-date}
 
@@ -38,7 +38,7 @@ AEM Screens 機能パック 202008 のリリース日は 2020年9月3日（PT）
 
 * **繰り返しスケジュール**
 
-  繰り返しスケジュールを使用すると、チャネルの定期的なスケジュールを設定できます。チャネルに対して複数の繰り返しスケジュールを設定できます。
+  繰り返しスケジュールを使用すると、チャネルの定期的なスケジュールを設定できます。1 つのチャネルに対して、複数の繰り返しスケジュールを設定できます。
 
   詳しくは、「[繰り返しスケジュール](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule)」を参照してください。
 
@@ -46,7 +46,7 @@ AEM Screens 機能パック 202008 のリリース日は 2020年9月3日（PT）
 
   音声認識機能を使用すると、音声操作によって駆動される AEM Screens チャネルのコンテンツを変更できます。
 
-  コンテンツ作成者は、音声対応のディスプレイを設定できます。 この機能の目的は、お客様がディスプレイを操作する方法として音声を使用できるようにすることです。
+  コンテンツ作成者は、ディスプレイを音声対応となるよう設定できます。この機能の目的は、顧客がディスプレイとやり取りする方法として音声を使用できるようにすることです。
 
   詳しくは、[音声認識](voice-recognition.md)を参照してください。
 
@@ -70,4 +70,4 @@ AEM Screens でリリースされた AEM 6.5 機能パック 5 向けに、次�
 
 #### AEM Screens Player のダウンロード
 
-最新のAEM Screens Player のダウンロードとバグ修正について詳しくは、以下を参照してください。 **[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/index.html)**.
+最新の AEM Screens Player のダウンロードとバグ修正について詳しくは、**[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/index.html)**&#x200B;を参照してください。

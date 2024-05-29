@@ -11,9 +11,9 @@ role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
 source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '244'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 61%
 
 >[!CAUTION]
 >
->Adobeでは、最新バージョンのAdobe Experience Manager（AEM）にアップグレードすることをお勧めします。 AEM Screensは、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供します。
+>最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。AEM Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
 
 AEM Screens では、AEM 6.3 機能パック 5 および AEM 6.4 機能パック 3 がリリースされました。詳細は以下のとおりです。
 
@@ -33,11 +33,11 @@ AEM Screens 機能パック 201812 のリリース日は 2019年1月16日（PT�
 
 * **チャネル内のアセットへのテキストオーバーレイ**
 
-  テキストオーバーレイは、AEM Screensで利用できる機能です。 画像の上にオーバーレイされるタイトルや説明を提供することで、シーケンスチャネルで魅力的なエクスペリエンスを作成できます。 [**テキストオーバーレイ**](text-overlay.md)&#x200B;を参照してください。
+  テキストオーバーレイは、AEM Screensで利用できる機能です。画像の上に重ねて表示されるタイトルや説明を指定してシーケンスチャネルで魅力的なエクスペリエンスを作成することができます。[**テキストオーバーレイ**](text-overlay.md)&#x200B;を参照してください。
 
 * **複数アセットスケジュール設定**
 
-  マルチアセットスケジュールを使用すると、複数のアセットをクリックし、選択したすべてのアセットに再生スケジュールを適用できます。 **[アセットスケジュール設定](asset-level-scheduling.md)**&#x200B;の&#x200B;**複数アセットのスケジュール設定**&#x200B;の節を参照してください。
+  複数アセットスケジュール設定を使用すると、複数のアセットをクリックし、選択したすべてのアセットに再生スケジュールを適用できます。**[アセットスケジュール設定](asset-level-scheduling.md)**&#x200B;の&#x200B;**複数アセットのスケジュール設定**&#x200B;の節を参照してください。
 
 * **マルチゾーンレイアウト**
 
@@ -57,4 +57,4 @@ AEM 6.3 機能パック 5 および AEM 6.4 機能パック 3 向けに、次の
 
 #### AEM Screens Player のダウンロード
 
-最新のAEM Screens Player のダウンロードとバグ修正について詳しくは、以下を参照してください。 [**AEM Screens Player のダウンロード**](https://download.macromedia.com/screens/).
+最新の AEM Screens Player のダウンロードとバグ修正について詳しくは、[**AEM Screens Player のダウンロード**](https://download.macromedia.com/screens/)を参照してください。

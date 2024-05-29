@@ -1,6 +1,6 @@
 ---
 title: ロケーションの作成と管理
-description: AEM Screensに関連する場所の作成と管理について詳しく説明します。
+description: AEM Screens に関連するロケーションの作成と管理について詳しく説明します。
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 7935c206-7189-4243-9a2d-ccc322caf441
 source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -30,32 +30,32 @@ ht-degree: 54%
 
 ## 新しいロケーションの作成 {#creating-a-new-location}
 
-Screens 用のプロジェクトを作成したら、次の手順に従って Screens プロジェクトの場所を作成します。
+Screens 用のプロジェクトを作成したら、以下の手順に従って Screens プロジェクト用のロケーションを作成します。
 
-1. Adobe Experience Manager リンク（左上）をクリックし、「画面」をクリックします。 または、`http://localhost:4502/screens.html/content/screens` から直接アクセスすることもできます。
+1. Adobe Experience Manager リンク（左上）をクリックし、「Screens」をクリックします。または、`http://localhost:4502/screens.html/content/screens` から直接アクセスすることもできます。
 1. Screens プロジェクトに移動し、「**ロケーション**」をクリックします。
-1. クリック **作成** アクションバーのプラスアイコンの横。
-1. テンプレートをクリックします **場所** ウィザードで、をクリックします **次**.
+1. アクションバーのプラスアイコンの横にある「**作成**」をクリックします。
+1. ウィザードからテンプレート「**ロケーション**」をクリックし、「**次へ**」をクリックします。
 1. 「**タイトルとタグ**」、「**他のタイトルと説明**」、「**オン / オフタイム**」、「**バニティ URL」**&#x200B;の各プロパティを入力します。
 1. 「**作成**」をクリックすると、ロケーションが作成されて、ロケーションフォルダーに追加されます。
 
-AEM Screens プロジェクトの場所の作成を理解するには、以下の手順を参照してください。 デモ用に、新しいロケーション（SanJose）が *DemoProject* の下に作成されます。
+次の手順を参照して、AEM Screens プロジェクト用のロケーションの作成をご確認ください。デモ用に、新しいロケーション（SanJose）が *DemoProject* の下に作成されます。
 
 ![player2](assets/player2.gif)
 
-場所を作成したら、その場所のディスプレイを作成します。
+ロケーションを作成したら、ロケーションのディスプレイを作成します。
 
 ### ロケーションのプロパティの編集 {#editing-properties-for-a-location}
 
-ロケーションのプロパティを編集／アクセスするには、以下の手順に従います。
+ロケーションのプロパティを編集したりプロパティにアクセスしたりするには、以下の手順に従います。
 
-1. 場所をクリックします。
+1. ロケーションをクリックします。
 1. アクションバーの「**プロパティ**」をクリックします。
 
 ![player3](assets/player3.gif)
 
 #### 次の手順 {#the-next-steps}
 
-場所を作成したら、その場所のディスプレイを作成します。
+ロケーションを作成したら、ロケーションのディスプレイを作成します。
 
-参照： [ディスプレイの作成と管理](managing-displays.md).
+[ディスプレイの作成と管理](managing-displays.md)を参照してください。

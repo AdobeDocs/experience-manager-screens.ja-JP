@@ -3,9 +3,9 @@ title: Screens クラウドでのタグ付け
 description: このページでは、Screens クラウドでタグを作成、管理および使用する方法について説明します。
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 6c59d86d7c2224994686320381632b9150287fca
+source-git-commit: 62036fb6149d4babfeba69261af0bc4904ae0e82
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## タグの作成と管理 {#create-and-manage-tags}
 
-![タグを作成するビデオ](assets/tagging/create-tag.mp4).
+![タグを作成](assets/tagging/create-tag.gif).
 
 同じアクションメニューを使用して、タグの名前を変更したり、タグを削除したりします。
 
@@ -35,13 +35,13 @@ ht-degree: 0%
 
 作成したタグをディスプレイとプレーヤーで使用します。 タグ付けできるのは、最大 30 個のタグです。
 
-![タグ割り当てを管理するビデオ](assets/tagging/assign-tags-to-players.mp4).
+![タグ割り当ての管理](assets/tagging/assign-tags-to-players.gif).
 
 ## タグでフィルター {#filter-by-tags}
 
 タグを選択して、ディスプレイまたはプレーヤーのリストをフィルタリングします。
 
-![タグ別のビデオフィルター](assets/tagging/filter-by-tags.mp4).
+![タグでフィルター](assets/tagging/filter-by-tags.gif).
 
 >[!NOTE]
 > 

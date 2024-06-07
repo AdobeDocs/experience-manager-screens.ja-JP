@@ -10,15 +10,15 @@ role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '799'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # ビデオ再生の設定とトラブルシューティング {#video-playback-configuration-and-troubleshooting}
 
-ビデオを DAM にアップロードしてチャンネルに追加すると、AEM Screens Player でビデオが再生されない問題が発生する場合があります。
+ビデオを DAM にアップロードしチャネルに追加すると、AEM Screens Player でビデオが再生されない問題が発生する場合があります。
 
 以下の節では、チャネルで再生されるビデオをデバッグおよびトラブルシューティングする方法について説明します。
 
@@ -33,19 +33,19 @@ ht-degree: 80%
 
 様々なレンディションがあります（MP4 や M4V など）。
 
-レンディションがない場合は、AEMが動作している OS に FFMPEG がインストールされていることを確認します。
+レンディションがない場合は、AEM が実行されている OS に FFMPEG がインストールされていることを確認してください。
 
 >[!CAUTION]
 >
->レンディションがない場合は、AEMが動作している OS に FFMPEG がインストールされていることを確認します。
+>レンディションがない場合は、AEM が実行されている OS に FFMPEG がインストールされていることを確認してください。
 >
->クリック [こちら](https://www.ffmpeg.org/download.html) FFMPEG をインストールします。
+>FFMPEG をインストールするには、[こちら](https://www.ffmpeg.org/download.html)をクリックしてください。
 
 ## ビデオアセット {#video-assets}
 
 ビデオの下にソース属性が表示されない場合は、ビデオがトランスコードされなかった可能性があります。ビデオが正しくトランスコードされている場合は、以下に示すようにダッシュボードに表示されます。
 
-FFMPEG がインストールされ、ビデオプロファイルが指定されていることを確認します。
+FFMPEG がインストールされていること、およびビデオプロファイルを確認してください。
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
@@ -57,7 +57,7 @@ FFMPEG がインストールされ、ビデオプロファイルが指定され�
 
 1. テストビデオをアップロードし、「**OK**」をクリックしてトランスコードを開始します。
 
-   トランスコードされたビデオが失敗した場合は、FFMPEG 出力を展開して、FFMPEG のコンソール出力にエラーがあるかどうかを確認します。
+   トランスコードされたビデオが失敗した場合は、FFMPEG 出力を展開して FFMPEG のコンソール出力でエラーを確認します。
 
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
@@ -80,13 +80,13 @@ FFMPEG がインストールされ、ビデオプロファイルが指定され�
 1. ビデオをクリックし、**編集**&#x200B;ダイアログを開きます。「**プロファイル**」タブを開きます。
 
    >[!NOTE]
-   >別のプロファイルをクリックします（少なくとも「高品質 H.264」プロファイルがあるはずです）。
+   >様々なプロファイルをクリックします（少なくとも「高画質 H.264」プロファイルは必ずあります）。
 
 ### Web プレーヤーでのビデオの確認 {#checking-the-video-in-the-web-player}
 
 **Web プレーヤー**（`http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0`）を使用して、ブラウザー（Chrome および Safari）で再生を検証します。Chrome は Android™ デバイスで使用されますが、Safari は OS X および iOS ブラウザーです。
 
-ビデオが Safari で実行されない場合、OS X と iOS Player でも実行されません。この問題はエンコーディングの問題である可能性が高く、ビデオを再エンコードする必要があります。
+ビデオが Safari で実行されない場合、OS X と iOS Player でも実行されません。この問題はエンコーディングの問題である可能性が高く、ビデオを再度エンコードする必要があります。
 
 DAM ワークフローを使用して FullHD レンディションを作成するには、次の手順を実行します。
 
@@ -109,11 +109,11 @@ Google の自動再生ポリシーフラグに関する問題をトラブルシ�
 1. ***chrome://flags/#autoplay-policy*** に移動します。
 1. 「**Autoplay policy**」を「**Default**」から「**No user gesture is required**」に変更します。
 
-1. Web ブラウザーを再起動し、プレーヤーを更新します
+1. Web ブラウザーを再起動し、プレーヤーを更新します。
 
 >[!NOTE]
 >
->Chrome の新しい自動再生ポリシーで、優れたユーザーエクスペリエンスを実現するベストプラクティスについて詳しく説明します。 参照： *ポリシー変更の自動再生* 時刻 `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
+>Chrome の新しい自動再生ポリシーを使用して、優れたユーザーエクスペリエンスを実現するベストプラクティスについて詳しく説明します。`https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio` の&#x200B;*自動再生ポリシーの変更*&#x200B;を参照してください。
 
 ### 複数のプレーヤーでのビデオの同期 {#syncing-video-across-multiple-players}
 

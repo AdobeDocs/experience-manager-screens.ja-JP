@@ -11,9 +11,9 @@ role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Screens Player では、***ContentSync*** テクノロジーを使用してチ�
   </tr>
   <tr>
    <td><code>copy</code></td> 
-   <td>指定した構造をパスからコピーします</td> 
+   <td>指定された構造をパスからコピーします</td> 
    <td> </td> 
   </tr>
  </tbody>
@@ -78,12 +78,12 @@ Screens Player では、***ContentSync*** テクノロジーを使用してチ�
 ContentSync 設定をテストするには、以下の手順に従います。
 
 1. `https://localhost:4502/libs/cq/contentsync/content/console.html` を開きます。
-1. リストで設定をクリックします。
-1. クリック **キャッシュのクリア**.
-1. クリック **キャッシュの更新**.
-1. クリック **完全なダウンロード**.
+1. リスト内の設定をクリックします。
+1. 「**キャッシュをクリア**」をクリックします。
+1. 「**キャッシュを更新**」をクリックします。
+1. 「**すべてダウンロード**」をクリックします。
 1. zip ファイルを解凍します。
-1. 抽出したフォルダー内でローカルサーバーを起動します。
+1. 解凍したフォルダーでローカルサーバーを起動します。
 1. 開始ページを開き、アプリのステータスを確認します。
 
 ## チャネルのオフライン設定の有効化 {#enabling-offline-config-for-a-channel}
@@ -118,4 +118,4 @@ ContentSync 設定をテストするには、以下の手順に従います。
 
 >[!NOTE]
 >
->カスタムのオフラインリソースハンドラーのテンプレートについて説明します。 また、最小要件の詳細については、を参照してください `pom.xml` をプロジェクト用に設定します。 参照： [カスタムハンドラーのテンプレート](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) 。対象： **AEM Screens用カスタムコンポーネントの開発**.
+>カスタムオフラインリソースハンドラーのテンプレートについて確認してください。また、プロジェクトの `pom.xml` の最小要件についても詳細を確認してください。**AEM Screens 用カスタムコンポーネントの開発**&#x200B;の[カスタムハンドラーのテンプレート](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers)を参照してください。

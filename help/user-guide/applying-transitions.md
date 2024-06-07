@@ -7,9 +7,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ AEM Screens プロジェクトに切り替えコンポーネントを追加す�
 
    >[!NOTE]
    >
-   >この **TestTransition** チャネルには、既にいくつかのアセット（画像とビデオ）があります。 例えば、以下の例では、3 つの画像と 2 つのビデオが **TestTransition** チャネルに含まれています。
+   >**TestTransition** チャネルには、既にいくつかのアセット（画像やビデオ）が含まれています。例えば、以下の例では、3 つの画像と 2 つのビデオが **TestTransition** チャネルに含まれています。
 
    ![image2](assets/transitions2.png)
 
@@ -46,7 +46,7 @@ AEM Screens プロジェクトに切り替えコンポーネントを追加す�
 
    >[!CAUTION]
    >
-   >チャネルのアセットにトランジションを追加する前に、順次チャネルの最初のアセットの前にトランジションを追加しないでください。 チャネルの最初のアイテムは、切り替えではなくアセットにする必要があります。
+   >チャネル内のアセットにトランジションを追加する前に、シーケンスチャネルの最初のアセットの前にトランジションを追加しないようにしてください。チャネルの最初のアイテムは、切り替えではなくアセットにする必要があります。
 
    ![image3](assets/transitions3.png)
 

@@ -1,6 +1,6 @@
 ---
 title: スケジュールの作成と管理
-description: チャネルを再利用可能なグループに整理し、割り当てを個別に繰り返す必要をなくすスケジュールについて説明します。
+description: チャネルを再利用可能なグループに整理し、個別に割り当てを繰り返さなくてもよいようにスケジュールする方法について説明します。
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,15 +10,15 @@ role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 # スケジュールの作成と管理 {#creating-and-managing-schedules}
 
-**スケジュール** AEM Screensでは、チャネルを再利用可能なグループに整理できます。 つまり、コンテンツを表示するディスプレイごとに割り当てを個別に繰り返す必要はありません。
+AEM Screen の&#x200B;**スケジュール**&#x200B;では、チャネルを再利用可能なグループに整理できます。つまり、コンテンツを表示するディスプレイごとに割り当てを個別に繰り返す必要はありません。
 
 スケジュールを&#x200B;***日分割***&#x200B;と組み合わせると、1 日の特定の時間に実行される複数のチャネルでグローバルスケジュールを設定でき、また一度にすべてのディスプレイでその設定を再使用できます。
 
@@ -30,7 +30,7 @@ ht-degree: 76%
 
 ユースケースのすべてのアクティビティを管理する Screens プロジェクトのスケジュールを作成できます。
 
-チャネルのスケジュールを作成するには、次の手順に従います。
+以下の手順に従って、チャネルのスケジュールを作成します。
 
 1. Adobe Experience Manager リンク（左上）をクリックし、「Screens」をクリックします。または、`http://localhost:4502/screens.html/content/screens` に直接アクセスすることもできます。
 1. Screens プロジェクトに移動し、「**スケジュール**」をクリックします。

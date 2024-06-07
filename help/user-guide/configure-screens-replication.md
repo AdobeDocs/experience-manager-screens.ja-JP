@@ -5,9 +5,9 @@ role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 78%
 
 ## 目的 {#objective}
 
-Screens レプリケーションエージェントは、次のようなコマンドデータを取り込みます *ユーザー*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep*、およびパブリッシュからオーサーへのさらに多くの値。 オーサーがデバイス ping を表示できるように、このエージェントを設定する必要があります。
+Screens レプリケーションエージェントは、*user*、*password*、*rebootSchedule*、*maxNumberOfLogFilesToKeep* などのコマンドデータをはじめ、さらに多くの値をパブリッシュからオーサーに渡す役目を担います。オーサーがデバイス ping を表示できるように、このエージェントを設定する必要があります。
 
 >[!NOTE]
 >Screens レプリケーションエージェントについて詳しくは、[Screens レプリケーションエージェントとコマンド](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands)を参照してください。
@@ -93,7 +93,7 @@ Screens レプリケーションエージェントの設定を完了する場合
 以下の節に従って、AEM Screens レプリケーションエージェントの設定を更新します。
 
 >[!IMPORTANT]
->既存のすべてのAEM Screens レプリケーションエージェントで、次の手順を実行します。
+>既存のすべての AEM Screens レプリケーションエージェントで、次の手順を実行します。
 
 1. AEM インスタンスに移動します。
 1. ツール／**導入**／**レプリケーション**&#x200B;をクリックします。
@@ -104,10 +104,10 @@ Screens レプリケーションエージェントの設定を完了する場合
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. 次の図に示すように、オーサー環境のすべてのAEM Screens レプリケーションエージェントを検索し、リンクをクリックします。
+1. 次の図に示すように、オーサー環境のすべての AEM Screens レプリケーションエージェントを検索し、リンクをクリックします。
 
    >[!NOTE]
-   >すべてのAEM Screens レプリケーションエージェントを検索します。 Screens レプリケーションエージェント名には、タイトルに **S** が含まれます。
+   >すべての AEM Screens レプリケーションエージェントを検索します。Screens レプリケーションエージェント名には、タイトルに **S** が含まれます。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
@@ -129,4 +129,4 @@ Screens レプリケーションエージェントの設定を完了する場合
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 
-   接続の検証が成功した場合は、Screens レプリケーションエージェントの設定は完了です。
+   接続の検証が成功した場合、Screens レプリケーションエージェントの設定は完了です。

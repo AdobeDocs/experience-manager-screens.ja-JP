@@ -11,9 +11,9 @@ role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ AEM Screens 機能パック 201905 のリリース日は 2019年5月16日（PT�
 
 * **AEM SPA Editor を使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合**
 
-この節では、AEM SPA エディターで React（または Angular）を使用して、インタラクティブな単一ページアプリケーションを埋め込む方法について説明します。AEMのビジネスプロフェッショナルは、エディターを設定できます。 また、インタラクティブアプリケーションをオフラインの Adobe Analytics と統合する方法についても説明します。
+この節では、AEM SPA エディターで React（または Angular）を使用して、インタラクティブな単一ページアプリケーションを埋め込む方法について説明します。AEM のビジネスプロフェッショナルは、エディターを設定できます。また、インタラクティブアプリケーションをオフラインの Adobe Analytics と統合する方法についても説明します。
 
 詳しくは、**[AEM SPA エディターを使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合](embedding-react-app.md)**&#x200B;を参照してください。
 

@@ -2,9 +2,9 @@
 title: '[!UICONTROL AEM Screens] の環境'
 description: AEM Screens プロジェクトの環境について説明します。
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,6 +27,6 @@ AEM Screens プロジェクトの環境を設定するには、次のガイド�
 
 1. 必要な開発用パッケージ（WCM コアコンポーネントなど）やサードパーティ製ツールキット（SAP Hybris など）を特定します。
 
-1. ローカル開発環境に同じソフトウェアパッケージをインストールします。
+1. 同じソフトウェアパッケージをローカルの開発環境にインストールします。
 
 1. QA サーバー、ステージサーバー、実稼動サーバーのすべてで同じ設定を使用するように、クライアントに指示します。サーバー設定が一致しないと、デプロイ時およびテスト時に問題が発生します。

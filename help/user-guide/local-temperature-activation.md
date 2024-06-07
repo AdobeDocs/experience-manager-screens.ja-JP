@@ -11,9 +11,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '444'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 94%
 
    >[!CAUTION]
    >
-   >あなたの **ContextHub** **設定** チャネルの使用 **プロパティ** > **Personalization** タブは既に設定されているはずです。
+   >チャネル&#x200B;**プロパティ**／**パーソナライゼーション**&#x200B;タブを使用した **ContextHub** **設定**&#x200B;は既にセットアップされているはずです。
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -85,6 +85,6 @@ ht-degree: 94%
 1. **プレビューを確認する**
 
    1. 「**プレビュー**」をクリックします。また、Google シートを開き、値を更新します。
-   1. 値を 50 未満に変更します。冷たい飲み物の画像を見ることができます。 Google Sheets の値が 50 以上の場合は、温かい飲み物の画像が表示されます。
+   1. 値を 50 未満に変更します。冷たい飲み物の画像をご覧いただけます。Google Sheets の値が 50 以上の場合は、温かい飲み物の画像が表示されます。
 
    ![result3](assets/result3.gif)

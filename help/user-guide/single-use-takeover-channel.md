@@ -1,15 +1,15 @@
 ---
 title: 単一使用テイクオーバーチャネル
-description: シングルユースのテイクオーバーチャネルを作成する場合は、次の使用例に従ってください。
+description: 単一使用テイクオーバーチャネルを作成する場合は、このユースケースに従います。
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 91%
 
    ![アセット](assets/single-takeover4.png)
 
-1. チャネルのロケーションとディスプレイをセットアップします。例えば、次のようになります。 **ロビー** 場所と **MainLobbyDisplay** このプロジェクトの表示が設定されています。
+1. チャネルのロケーションとディスプレイをセットアップします。例えば、次の **Lobby** ロケーションと **MainLobbyDisplay** ディスプレイをこのプロジェクトにセットアップします。
 
    ![アセット](assets/single-takeover5.png)
 
@@ -98,7 +98,7 @@ ht-degree: 91%
 
      ![アセット](assets/single-takeover8.png)
 
-     からディスプレイに移動します **SingleUseTakeOver** > **場所** > **ロビー** > **MainLobbyDisplay**. クリック **Dashboard** アクションバーの「」をクリックして、割り当てられたチャネルを優先度と共に表示します（下図を参照）。
+     **SingleUseTakeOver**／**Locations**／**Lobby**／**MainLobbyDisplay** からディスプレイに移動します。アクションバーの「**ダッシュボード**」をクリックすると、以下に示すように、割り当てられたチャネルとその優先度が表示されます。
 
      >[!NOTE]
      >テイクオーバーチャネルの優先度を最も高く設定する必要があります。

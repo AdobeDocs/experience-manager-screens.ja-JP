@@ -2,9 +2,9 @@
 title: ダイレクト配置ワークフロー設定
 description: このページでは、ダイレクト配置ワークフロー設定について説明します。
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '189'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -38,5 +38,5 @@ ht-degree: 94%
 
 1. AEM インスタンスから AEM Screens に移動し、**アセットワークフロー**&#x200B;という名前の Screens プロジェクトを作成します。
 
-1. というタイトルのチャネルの作成 **Workflow-Assets** の下 **チャネル** フォルダー。
+1. **チャネル**&#x200B;フォルダーの下に&#x200B;**ワークフロー - アセット**&#x200B;というチャネルを作成します。
 

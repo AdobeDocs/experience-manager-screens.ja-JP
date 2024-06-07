@@ -11,9 +11,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 85%
 
 ## 説明 {#description}
 
-この使用例では、**`Restaurant1`** および **`Restaurant2`** という 2 つのレストランの予約率が Google シートに入力されています。数式は、次の値に基づいて適用されます `Restaurant1` および `Restaurant2` さらに、数式に基づいて、値 1 または値 2 がに割り当てられます **AdTarget** 列。
+この使用例では、**`Restaurant1`** および **`Restaurant2`** という 2 つのレストランの予約率が Google シートに入力されています。`Restaurant1` と `Restaurant2` の値に基づいて数式が適用され、その数式に基づいて、値 1 または値 2 が **AdTarget** 列に割り当てられます。
 
-**`Restaurant1`** の値が **`Restaurant2`** の値より大きい場合は、**AdTaget** に値 **1** が割り当てられ、それ以外の場合は、**AdTarget** に値 **2** が割り当てられます。値 1 の場合、 *ステーキ食品* オプションと値 2 の結果、 *タイ料理* ディスプレイ画面のオプション。
+**`Restaurant1`** の値が **`Restaurant2`** の値より大きい場合は、**AdTaget** に値 **1** が割り当てられ、それ以外の場合は、**AdTarget** に値 **2** が割り当てられます。値 1 の場合はディスプレイの画面に&#x200B;*ステーキ料理*&#x200B;のオプション、値 2 の場合は&#x200B;*タイ料理*&#x200B;のオプションが表示されます。
 
 ## 前提条件 {#preconditions}
 
@@ -66,7 +66,7 @@ AEM Screens プロジェクトに「接客業向けの予約状況に応じた�
 
    >[!CAUTION]
    >
-   >あなたの **ContextHub** **設定** チャネルの使用 **プロパティ** > **Personalization** この時点では、タブは既に設定されているはずです。
+   >この時点で、チャネルの&#x200B;**プロパティ**／**パーソナライゼーション**&#x200B;タブを使用した **ContextHub** **設定**&#x200B;が既に設定されているはずです。
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 

@@ -6,9 +6,9 @@ role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 88%
 
 以下の手順に従って、チャネルでターゲティングを有効にします。
 
-1. AEM Screens チャネルのいずれかに移動します。次の手順は、を使用してターゲティングを有効にする方法を示しています。 **DataDrivenRetail** *（シーケンスチャネル）* AEM Screens チャンネルで作成されます。
+1. AEM Screens チャネルのいずれかに移動します。以下の手順は、AEM Screens チャネルで作成した **DataDrivenRetail** *（シーケンスチャネル）*&#x200B;を使用してターゲティングを有効にする方法を示しています。
 
 1. **DataDrivenRetail** チャネルをクリックし、アクションバーの「**プロパティ**」を選択します。
 
@@ -67,7 +67,7 @@ ht-degree: 88%
 
    >[!NOTE]
    >
-   >すべてが正しく設定されていれば、 **ターゲティング** エディターのドロップダウンの「」オプション（下図を参照）。
+   >すべてを正しくセットアップしたら、下図に示すように、エディターのドロップダウンに「**ターゲティング**」オプションが表示されます。
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 

@@ -11,7 +11,7 @@ role: User
 source-git-commit: 1bd79ed3a0a610efb12f9ff1030a33978ccccf1e
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 96%
       + [トランジションの適用](applying-transitions.md)
       + [マルチゾーンからシングルゾーンへの切り替え](multizone-to-singlezone.md)
       + [単一使用テイクオーバーチャネル](single-use-takeover-channel.md)
-      + [テイクオーバーチャネルの永続的な使用](perpetual-takeover-channel.md)
+      + [永続使用テイクオーバーチャネル](perpetual-takeover-channel.md)
 + 開発者向けリソースと API リソース {#developing}
    + [REST API](rest-api.md)
    + [AEM Screens 用カスタムコンポーネントの開発](developing-custom-component-tutorial-develop.md)

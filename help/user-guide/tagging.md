@@ -3,10 +3,10 @@ title: Screens Cloud でのタグ付け
 description: このページでは、Screens Cloud でタグを作成、管理および使用する方法について説明します。
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 62036fb6149d4babfeba69261af0bc4904ae0e82
-workflow-type: ht
-source-wordcount: '158'
-ht-degree: 100%
+source-git-commit: 43971621ae34a433cb5af3cd84b0e6f074af0c30
+workflow-type: tm+mt
+source-wordcount: '150'
+ht-degree: 82%
 
 ---
 
@@ -28,14 +28,18 @@ ht-degree: 100%
 
 >[!NOTE]
 > 
-> タグ名には、文字、数字、ダッシュおよびアンダースコアのみを含めることができます。名前の先頭および末尾には文字または数字のみを使用できます。
 > 1 つのテナントに対して合計 500 個のタグを使用できます
 
 ## タグ割り当ての管理 {#manage-tags-assignments}
 
-作成したタグをディスプレイとプレーヤーで使用します。タグ付けできるのは、最大 30 個のタグです。
+作成したタグをディスプレイとプレーヤーで使用します。
 
 ![タグ割り当てを管理します](assets/tagging/assign-tags-to-players.gif)。
+
+>[!NOTE]
+> 
+> ディスプレイまたはプレーヤーは、最大 100 個のタグを持つことができます。
+> 一度に最大 30 個の項目をタグ付けできます。
 
 ## タグによるフィルタリング {#filter-by-tags}
 

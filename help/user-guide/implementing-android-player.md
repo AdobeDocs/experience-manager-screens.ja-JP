@@ -10,10 +10,10 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
-workflow-type: ht
+source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
+workflow-type: tm+mt
 source-wordcount: '1471'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -92,7 +92,7 @@ Android™ のアーキテクチャ上、デバイスをリブートするには
 
 ## Android™ ウォッチドッグサービスについて {#android-watchdog-services}
 
-Android ウォッチドッグサービスは、*AlarmManager* を使用した Cordova プラグインとして実装されます。
+クロスAndroid™ ウォッチドッグサービスは、を使用して Cordova プラグインとして実装されます。 *AlarmManager*.
 
 次の図に、ウォッチドッグサービスの実装を示します。
 

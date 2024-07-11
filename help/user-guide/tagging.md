@@ -3,7 +3,7 @@ title: Screens Cloud でのタグ付け
 description: このページでは、Screens Cloud でタグを作成、管理および使用する方法について説明します。
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 43971621ae34a433cb5af3cd84b0e6f074af0c30
+source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 82%
@@ -39,7 +39,7 @@ ht-degree: 82%
 >[!NOTE]
 > 
 > ディスプレイまたはプレーヤーは、最大 100 個のタグを持つことができます。
-> 一度に最大 30 個の項目をタグ付けできます。
+> 1 回の操作でタグ付けできる項目は最大 30 個です。
 
 ## タグによるフィルタリング {#filter-by-tags}
 

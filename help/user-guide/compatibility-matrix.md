@@ -5,7 +5,7 @@ page-status-flag: de-activated
 contentOwner: jsyal
 docset: aem65
 source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 100%
 

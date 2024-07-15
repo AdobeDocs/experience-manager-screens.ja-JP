@@ -3,7 +3,7 @@ title: プロジェクト範囲を定義する際の検討事項
 description: AEM Screens プロジェクトの範囲を定義する際の考慮事項を詳しく説明します。
 exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
 

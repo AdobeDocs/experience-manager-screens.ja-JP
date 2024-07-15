@@ -2,7 +2,7 @@
 title: ダイレクト配置ワークフロー設定
 description: このページでは、ダイレクト配置ワークフロー設定について説明します。
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 100%
 

@@ -2,7 +2,7 @@
 title: エクスペリエンスフラグメントアクティベーション
 description: AEM Screens に関連するエクスペリエンスフラグメントアクティベーションについて学ぶのに役立つユースケース例です。
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 100%
 

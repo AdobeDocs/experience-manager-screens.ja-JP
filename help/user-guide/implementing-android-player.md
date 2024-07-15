@@ -92,7 +92,7 @@ Android™ のアーキテクチャ上、デバイスをリブートするには
 
 ## Android™ ウォッチドッグサービスについて {#android-watchdog-services}
 
-クロスAndroid™ ウォッチドッグサービスは、を使用して Cordova プラグインとして実装されます。 *AlarmManager*.
+クロスAndroid™ ウォッチドッグサービスは、*AlarmManager* を使用して Cordova プラグインとして実装されます。
 
 次の図に、ウォッチドッグサービスの実装を示します。
 

@@ -3,7 +3,7 @@ title: プロジェクト分類
 description: AEM Screens に関連するプロジェクト分類について詳しく説明します。
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
 source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
 

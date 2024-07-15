@@ -30,7 +30,7 @@ ht-degree: 93%
 
 1. AEM Screens Player
 
-AEM Screens Player をダウンロードするには、[ここ](https://download.macromedia.com/screens/)をクリックしてください。また、AEM ScreensはGoogle Play Store でも入手できます。 <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
+AEM Screens Player をダウンロードするには、[ここ](https://download.macromedia.com/screens/)をクリックしてください。また、AEM ScreensはGoogle Play Store でも入手できます。<!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
 
 以下のビデオでは、新しいチャネルの作成、新しいコンテンツのオーサリング、再利用可能なスケジュールへのチャネルの追加について詳しく説明します。[Screens キックスタートガイド](kickstart-for-aem-screens.md)の前半部に大体従っています。
 

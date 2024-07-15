@@ -3,7 +3,7 @@ title: 直接モバイルネットワーク
 description: AEM Screens での直接モバイルネットワーク設定について説明します。
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
 source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 100%
 

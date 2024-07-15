@@ -3,7 +3,7 @@ title: ジャーニーマップ
 description: AEM Screens のジャーニーマップについて説明します。
 exl-id: 23c368aa-5c5e-4bc8-802f-6ff53ec9e63a
 source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 100%
 

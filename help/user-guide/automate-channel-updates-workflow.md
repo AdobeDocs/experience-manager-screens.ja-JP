@@ -8,7 +8,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 100%
 

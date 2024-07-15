@@ -3,7 +3,7 @@ title: AEM Screens でのオーサーおよびパブリッシュインスタン�
 description: AEM Screens のオーサーインスタンスとパブリッシュインスタンスを設定する方法について説明します。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
 source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1940'
 ht-degree: 100%
 

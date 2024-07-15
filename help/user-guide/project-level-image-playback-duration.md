@@ -3,7 +3,7 @@ title: プロジェクトレベルの画像再生時間
 description: プロジェクトレベルで画像の再生時間を定義する方法を説明します。
 contentOwner: jsyal
 source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 100%
 

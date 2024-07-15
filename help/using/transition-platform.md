@@ -3,7 +3,7 @@ title: プラットフォームへの移行
 description: AEM Screens でのプラットフォームへの移行について説明します。
 exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
 source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 100%
 

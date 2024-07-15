@@ -2,7 +2,7 @@
 title: '[!UICONTROL AEM Screens] の環境'
 description: AEM Screens プロジェクトの環境について説明します。
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 100%
 

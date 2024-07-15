@@ -3,7 +3,7 @@ title: デバイスの仕様
 description: AEM Screens に関連するデバイス仕様の詳細を説明します。
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 100%
 

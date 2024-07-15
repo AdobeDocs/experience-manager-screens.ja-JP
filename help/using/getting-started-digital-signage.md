@@ -3,7 +3,7 @@ title: '[!UICONTROL AEM Screens] のデジタルサイネージの基本'
 description: デジタルサイネージプロジェクトの基本について説明します。
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 100%
 

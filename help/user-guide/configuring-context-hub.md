@@ -11,7 +11,7 @@ role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 100%
 
@@ -202,7 +202,7 @@ AEM Screens プロジェクト用に ContextHub の設定を開始する前に�
       >
       >既知の問題：
       >領域を追加するには、URL（例えば下記）からプライマリを削除します。
-      >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`
+      >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`。
 
 1. **ブランドに領域を作成する**
 

@@ -10,7 +10,7 @@ role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ AEM Screens で使用できるように AEM サーバーを設定する際に役
 
 #### 空のリファラー要求の許可 {#allow-empty-referrer-requests}
 
-1. AEM インスタンス／ハンマーアイコン／**操作**／**web コンソール**&#x200B;を使用して、**Adobe Experience Manager web コンソール設定**&#x200B;に移動します。
+1. AEM インスタンス／ハンマーアイコン／**操作**／**Web コンソール**&#x200B;を使用して、**Adobe Experience Manager Web コンソール設定**&#x200B;に移動します。
 
    ![画像](assets/config/empty-ref1.png)
 

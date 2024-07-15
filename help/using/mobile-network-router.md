@@ -3,7 +3,7 @@ title: モバイルデータルーターとアクティブなネットワーク�
 description: このページは、モバイルデータルーターとアクティブなネットワークコンポーネントを使用したモバイルネットワークについて説明しています
 exl-id: a6b44a04-438d-49d4-ac98-32629c11dcdb
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 100%
 

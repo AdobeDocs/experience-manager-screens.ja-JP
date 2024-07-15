@@ -3,7 +3,7 @@ title: AEM Screens のビジネスコンテンツ戦略
 description: AEM Screens に関連するマーケティングおよびビジネスコンテンツ戦略について詳しく説明します。
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 100%
 

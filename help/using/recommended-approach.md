@@ -3,7 +3,7 @@ title: 推奨アプローチ
 description: AEM Screens プロジェクトでの推奨アプローチについて説明します。
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 100%
 

@@ -3,7 +3,7 @@ title: 画像再生時間
 description: AEM Screens での画像再生時間について説明します。
 contentOwner: jsyal
 source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
 

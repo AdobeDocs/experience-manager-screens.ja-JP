@@ -2,7 +2,7 @@
 title: 運用開始後のサポート
 description: AEM Screens の運用開始後のサポートについては、ベストプラクティスガイドを参照してください。
 source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 100%
 

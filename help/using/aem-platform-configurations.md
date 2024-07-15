@@ -3,7 +3,7 @@ title: AEM Platform 設定
 description: ここでは、AEM Platform の設定について説明します
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
 source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 100%
 

@@ -3,7 +3,7 @@ title: AEM Screens プロジェクトでの役割と責務
 description: AEM Screens プロジェクトでの役割と責務について説明します。
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
 source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 100%
 

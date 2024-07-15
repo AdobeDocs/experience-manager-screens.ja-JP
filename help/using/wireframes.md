@@ -3,7 +3,7 @@ title: ワイヤーフレーム
 description: AEM Screens プロジェクトのワイヤーフレームの使用について説明します。
 exl-id: 7aa16e3b-9ab6-4687-b897-8b1be4c2825d
 source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 100%
 

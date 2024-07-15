@@ -3,7 +3,7 @@ title: 直接インターネットアクセス
 description: 直接インターネットアクセス
 exl-id: a393ce2f-b774-4cd5-9001-c5cc24d445ae
 source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 100%
 

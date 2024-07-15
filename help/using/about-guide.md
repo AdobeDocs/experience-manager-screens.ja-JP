@@ -3,7 +3,7 @@ title: このガイドについて
 description: 戦略および設計の概要からデプロイメント、サポート後に至るまで、AEM Screens プロジェクトを計画および実行するためのベストプラクティスについて説明します。
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
 source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 100%
 

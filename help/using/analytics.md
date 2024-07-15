@@ -3,7 +3,7 @@ title: AEM Screens での分析
 description: Adobe Experience Manager Screens での Adobe Analytics の利用について説明します。
 exl-id: cfb47e94-9f65-43f3-b197-07222f3f6424
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 100%
 

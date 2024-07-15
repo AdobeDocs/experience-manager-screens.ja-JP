@@ -3,7 +3,7 @@ title: AEM Screens でのアダプティブレンディションの使用
 description: AEM Screens でアダプティブレンディションを使用する方法について説明します。
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
 source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%
 

@@ -8,10 +8,10 @@ user-guide-description: 動的でインタラクティブなデジタルエク�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 1bd79ed3a0a610efb12f9ff1030a33978ccccf1e
+source-git-commit: 25a89400d2def07026c79cfedcd6418750c1de7d
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 100%
    + [キックスタートガイド](kickstart-for-aem-screens.md)
    + [Screens ベストプラクティスガイド](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/using/about-guide)
    + [キーワード](screens-glossary.md)
+   + [Screens の用語と概念](screens-concepts-feature-video-understand.md)
 + デジタルサイネージネットワークの基礎知識 {#digital-signage-network}
    + [第 1 部：プロジェクト上の役割と責務](project-roles-responsibilities.md)
    + [第 2 部：プロジェクト範囲を定義する際の検討事項](project-considerations.md)

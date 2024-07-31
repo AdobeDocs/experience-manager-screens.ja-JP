@@ -6,7 +6,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 33c469477fc38e79e0364411378c9a3a30a1eda3
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 100%
@@ -57,6 +57,7 @@ AEM Screens Player での基本的な再生モニタリングにより、次の�
 | lastContentChange {string} | 最後にコンテンツが変更されたときのタイムスタンプ |
 
 >[!NOTE]
+>
 >オプションで、プレーヤーの環境設定（「再生モニタリングを有効にする」）から、次の高度なプロパティを有効にすることができます。
 >
 >| プロパティ | 説明 |

@@ -1,6 +1,6 @@
 ---
 title: ACL の設定
-description: 各個人またはチームが独自のプロジェクトを処理できるように、ACL を使用してプロジェクトを区別する方法について説明します。
+description: アクセス制御リスト（ACL）を使用してプロジェクトを分離し、個々またはチームが独自のプロジェクトを処理できるようにする方法を説明します。
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,16 +9,16 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: 71b4f55c860d559dceaac9d5bf7ea71ce52210fa
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 100%
+source-wordcount: '497'
+ht-degree: 90%
 
 ---
 
-# ACL の設定 {#setting-up-acls}
+# アクセス制御リスト （ACL）の設定 {#setting-up-acls}
 
-ここでは、各個人またはチームが独自のプロジェクトを処理できるように、ACL を使用してプロジェクトを区別する方法について説明します。
+次の節では、アクセス制御リスト（ACL）を使用してプロジェクトを分離し、個々またはチームが独自のプロジェクトを処理できるようにする方法について説明します。
 
 AEM 管理者は、プロジェクトのチームメンバーが他のプロジェクトに干渉しないようにする必要があります。各ユーザーには、プロジェクト要件に応じて特定の役割が割り当てられます。
 

@@ -4,7 +4,7 @@ description: 2025年3月27日（PT）にリリースされた AEM Screens 機能
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 206140ca131ccf4149c91e793eae9447f748549d
+source-git-commit: 320925ccf25872be6b70b1249bebdd63ad062ec6
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 35%
@@ -42,4 +42,3 @@ AEM Screens 機能パック 20250327 のリリース日は 2025年3月27日で�
 * パッケージがサービスパック 21 およびScreens機能パックと競合しています。 （SCRNS-4638）
 
 * Screens ダッシュボードが機能しません。 （SCRNS-4749）
-

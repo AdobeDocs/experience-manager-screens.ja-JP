@@ -56,7 +56,7 @@ AEM 実装担当者は、通常、段階的にカスタム機能を適所にデ�
 
 ### 第 1 部：プロジェクト上の役割と責務
 
->[!VIDEO](https://video.tv.adobe.com/v/28375)
+>[!VIDEO](https://video.tv.adobe.com/v/34077?captions=jpn)
 
 *アドビ、オーディオ／ビジュアルインテグレーター、AEM 実装担当者の役割と責務について学びます。*
 

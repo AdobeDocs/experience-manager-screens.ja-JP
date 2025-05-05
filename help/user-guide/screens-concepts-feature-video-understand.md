@@ -26,7 +26,7 @@ ht-degree: 93%
 
 ビデオに沿って作業を進めるには、以下が必要です。
 
-1. **AEM 6.4** または **AEM 6.3*+ **Screens 機能パック 1**
+1. **AEM 6.4** または **AEM 6.3*+ &#x200B;** Screens 機能パック 1**
 
 1. AEM Screens Player
 

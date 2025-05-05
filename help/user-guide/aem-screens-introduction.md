@@ -57,7 +57,7 @@ Experience Manager Screens に関連する重要な用語を理解するには�
 
 * **実装の初期設定（ガイド付き）**
 
-  Experience Manager Screens でサポートされている基本機能と高度な機能について説明している、ガイド付き学習パス **[Experience Manager Screens 実装の初期設定](https://experienceleague.adobe.com/?launch=AEM-7a&amp;lang=ja)**&#x200B;に従ってください。
+  Experience Manager Screens でサポートされている基本機能と高度な機能について説明している、ガイド付き学習パス **[Experience Manager Screens 実装の初期設定](https://experienceleague.adobe.com/ja?launch=AEM-7a&amp;lang=ja)**&#x200B;に従ってください。
 
 * **Experience Manager Screens プロジェクトのベストプラクティスガイド**
 

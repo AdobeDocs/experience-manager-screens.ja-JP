@@ -67,15 +67,15 @@ Cloud Player のインストールは、プラットフォームによって異�
 
 ## Chrome OS での一括プロビジョニング {#bulk-provisioning-chrome}
 
-Chrome OS での一括プロビジョニングの詳細を説明します。[Chrome OS への Cloud Player のインストール](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player)を参照してください。&lt;!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` >
+Chrome OS での一括プロビジョニングの詳細を説明します。[Chrome OS への Cloud Player のインストール](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player)を参照してください。&lt;!-- `https://www.adobe.com/go/aem_screens_cloud_player_jp` >
 
 ## AEM インスタンスに必要な設定 {#bulk-provisioning-config-aem}
 
 AEM インスタンスのタイプに基づいて、次のガイドのいずれかをクリックし、AEM および Cloud Player との CORS を有効にします。
 
-* [AEM オンプレミス／AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
+* [AEM オンプレミス／AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_jp` -->
 
-* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
+* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_jp` -->
 
 
 >[!NOTE]

@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 71b4f55c860d559dceaac9d5bf7ea71ce52210fa
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 90%
+ht-degree: 85%
 
 ---
 
@@ -75,7 +75,7 @@ AEM 管理者は、プロジェクトのチームメンバーが他のプロジ�
 
 >[!NOTE]
 >
->場合によっては、作成者機能（アセットの管理やチャネルの作成など）を管理者機能（プレーヤーの登録など）から分離することができます。その場合、2 つのグループを作成して、作成者グループを寄稿者に追加し、管理者グループを寄稿者とユーザー管理者の両方に追加します。
+>場合によっては、作成者機能（アセットの管理やチャネルの作成など）を管理者機能（プレーヤーの登録など）から分離することができます。このようなシナリオでは、2 つのグループを作成し、作成者グループを投稿者に、管理者グループを投稿者とユーザー管理者の両方に追加します。
 
 ### グループの作成 {#creating-groups}
 

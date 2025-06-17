@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 100%
+source-wordcount: '238'
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. リストから未割り当てデバイスをクリックし、アクションバーの「**デバイスを割り当て**」をクリックします。
+1. リストから未割り当てのデバイスをクリックし、アクションバーで「**デバイスを割り当て**」をクリックします。
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
@@ -62,8 +62,8 @@ ht-degree: 100%
 >[!NOTE]
 >
 >初めてのデバイスが新しい Screens プロジェクトに追加されるたびに、ユーザーグループが作成されます。
->例えば、プロジェクトノード名が *we-retail* である場合、ユーザーグループ名は *screens-we-retail-devices* になります。
->このグループは、下の図で示されているように、**寄稿者**&#x200B;グループのメンバーとして追加されます。
+>>例えば、プロジェクトノード名が *we-retail* である場合、ユーザーグループ名は *screens-we-retail-devices* になります。
+>>このグループは、下の図で示されているように、**寄稿者**&#x200B;グループのメンバーとして追加されます。
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 

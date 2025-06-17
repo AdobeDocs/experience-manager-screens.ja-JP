@@ -10,17 +10,17 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 7410e2d8fd7fe1e8b795a35f3a76df4ea882117e
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 97%
+source-wordcount: '1492'
+ht-degree: 94%
 
 ---
 
 # Android™ プレーヤーの実装 {#implementing-android-player}
 
 >[!CAUTION]
->AndroidをベースとするAEM Screens Player は、正式に非推奨（廃止予定）となりました。 AEM Screensでサポートされている別のオペレーティングシステムに移行することをお勧めします。
+>AndroidをベースとするAEM Screens Player は、正式に非推奨（廃止予定）となりました。 AEM Screensがサポートする別のオペレーティングシステムに移行することをお勧めします。
 
 この節では、Android™ プレーヤーの設定について説明します。開発およびテストで使用する設定に関して、使用可能および推奨される設定ファイルおよびオプションの情報を提供します。
 
@@ -74,7 +74,7 @@ Android™ のアーキテクチャ上、デバイスをリブートするには
 
 ### 製造元のキーを使用した Android™ `apks` への署名  {#signage-of-android-apks-using-manufacturer-keys}
 
-*PowerManager* や *HDMIControlServices* など、Android™ の特権付き API にアクセスするには、製造元のキーを使用して Android™ `apk` に署名します。
+*PowerManager* や *HDMIControlServices* など、Android™ の権限のある API の一部にアクセスするには、製造元のキーを使用してAndroid™ `apk` 署名します。
 
 >[!CAUTION]
 >
@@ -130,7 +130,7 @@ Android™ プレーヤーを一括で展開する場合、管理者 UI で手�
 1. プレーヤーアプリケーションが起動すると、この設定ファイルが読み取られ、該当する AEM サーバーを指し、そこで登録および制御されます。
 
    >[!NOTE]
-   >このファイルは、アプリケーションが初めて起動されたときは&#x200B;*読み取り専用*&#x200B;で、以降の設定には使用できません。設定ファイルがドロップされる前にプレーヤーが起動した場合は、デバイスでアプリケーションをアンインストールして、再インストールします。
+   >このファイルは、アプリケーションが初めて起動されたときは&#x200B;*読み取り専用*&#x200B;で、以降の設定には使用できません。設定ファイルがドロップされる前にプレーヤーが起動された場合は、デバイスにアプリケーションをアンインストールして再インストールするだけです。
 
 ### ポリシー属性 {#policy-attributes}
 
@@ -143,7 +143,7 @@ Android™ プレーヤーを一括で展開する場合、管理者 UI で手�
 | *rebootSchedule* | 再起動するスケジュールは、すべてのプラットフォームに適用されます。 |
 | *enableAdminUI* | サイト上でデバイスを設定するための Admin UI を有効にします。設定が完了して実稼働になったら、*false* に設定します。 |
 | *enableOSD* | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。設定が完了して運用が開始したら、*false* に設定することを検討します。 |
-| *enableActivityUI* | ダウンロードや同期などのアクティビティの進行状況を表示する場合に有効にします。トラブルシューティング用に有効にしておき、設定が完了して実稼働になったら無効にします。 |
+| *enableActivityUI* | ダウンロードや同期など、アクティビティの進行状況を表示する場合に有効にします。 トラブルシューティング用に有効にしておき、設定が完了して実稼働になったら無効にします。 |
 | *enableNativeVideo* | ビデオ再生でネイティブのハードウェアアクセラレーションを使用する場合に有効にします（Android™ のみ）。 |
 
 ### JSON ポリシーの例 {#example-json}

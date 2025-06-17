@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->AEM Screens プロジェクトにはスマート同期を使用することを強くお勧めします。
+>Adobeでは、AEM Screens プロジェクトにスマート同期を使用することをお勧めします。
 
 ## コンテンツ同期からスマート同期への移行 {#migrating-from-contentsync-to-smartsync}
 

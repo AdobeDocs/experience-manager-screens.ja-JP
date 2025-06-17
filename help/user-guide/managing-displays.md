@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 100%
+source-wordcount: '660'
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 1. ディスプレイフォルダーをクリックし、アクションバーの「**ダッシュボードを表示**」をクリックします。
 1. **デバイス**&#x200B;パネルの右上にある「**+ デバイス設定を追加**」をクリックします。
 
-1. 必要なテンプレートとして「**デバイス設定**」をクリックし、「**次へ**」をクリックします。
+1. 必要なテンプレートとして **デバイス設定** をクリックし、「**次へ**」をクリックします。
 
 1. 必要に応じてプロパティを入力し、「**作成**」をクリックします。
 

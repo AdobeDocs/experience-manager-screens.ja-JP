@@ -10,10 +10,10 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 100%
+source-wordcount: '721'
+ht-degree: 98%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 100%
    >
    >「**新規登録**」では、新しいデバイスを登録できます。
    >
-   >「**ディスプレイを割り当て**」をタップまたはクリックすると、デバイスをディスプレイに直接追加できます。
+   >**ディスプレイを割り当て**：デバイスをディスプレイに直接追加できます。
 
    「**完了**」をクリックする場合は、デバイスをディスプレイに割り当てます。
 

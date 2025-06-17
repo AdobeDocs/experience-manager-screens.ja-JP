@@ -10,10 +10,10 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1117'
-ht-degree: 100%
+source-wordcount: '1118'
+ht-degree: 96%
 
 ---
 
@@ -125,7 +125,7 @@ Windows 10 プレーヤーを設定するには、次の手順を実行します
 | rebootSchedule | プレーヤーを再起動するスケジュール。 |
 | enableAdminUI | サイト上でデバイスを設定するための Admin UI を有効にします。設定が完了して実稼働になったら、false に設定します。 |
 | enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。設定が完了して実稼働になったら、false に設定することを検討します。 |
-| enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進捗を表示できます。トラブルシューティング用に有効にしておき、設定が完了して実稼働になったら無効にします。 |
+| enableActivityUI | を有効にすると、ダウンロードや同期など、アクティビティの進行状況を表示できます。 トラブルシューティング用に有効にしておき、設定が完了して実稼働になったら無効にします。 |
 | cloudMode | Windows プレーヤーから Screens as a Cloud Service に接続する場合は、true に設定します。AMS またはオンプレミス AEM に接続する場合は、false に設定します。 |
 | cloudToken | Screens as a Cloud Service に登録するための登録トークン。 |
 
@@ -158,11 +158,11 @@ Windows プレーヤーをデプロイする際は、他のアプリケーショ
 
 1. シェルランチャーを有効にします。
 
-   詳しくは、Microsoft® Windows サポートの&#x200B;**[シェルランチャー](https://learn.microsoft.com/ja-jp/windows/iot/iot-enterprise/customize/shell-launcher)**&#x200B;ページの&#x200B;***シェルランチャーの構成***&#x200B;を参照してください。
+   詳しくは、Microsoft® Windows サポートの&#x200B;**[シェルランチャー](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/)**&#x200B;ページの&#x200B;***シェルランチャーの構成***&#x200B;を参照してください。
 
 1. キオスクモードに使用する管理者以外のユーザーを作成します（まだ存在しない場合）。ローカルユーザーでもドメインユーザーでも構いません。
 1. [AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)ページから、そのキオスクユーザー用の Windows プレーヤーをインストールします。
-1. PowerShell スクリプトの変更について詳しくは、[シェルランチャーを使って Windows 10 キオスクを作成する](https://learn.microsoft.com/ja-jp/windows/configuration/assigned-access/shell-launcher/?tabs=intune)を参照してください。
+1. PowerShell スクリプトの変更について詳しくは、[シェルランチャーを使って Windows 10 キオスクを作成する](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/?tabs=intune)を参照してください。
 
    PowerShell スクリプトを変更して、ユーザー名を作成したユーザー名に置き換えられるようにします。アプリケーションの実行可能ファイルへのパスが正しいことを確認します。これにより、カスタムシェルがキオスクユーザーの Windows プレーヤーアプリケーションとして設定され、他のユーザーには explorer.exe がデフォルトとして設定されます。
 
@@ -181,7 +181,7 @@ Windows プレーヤーのデフォルトのインストールパスは次のと
 
 >[!NOTE]
 >
->一部の Windows 環境では、PowerShell スクリプト（特に未署名のスクリプト）がポリシーによって制限されている場合があります。スクリプトを実行するには、この制限を一時的に無効にしてから再度有効にして、スクリプトを実行します。PowerShell ウィンドウを開き、次のコマンドを使用します。
+>一部の Windows 環境では、特にスクリプトが未署名の場合、ポリシーによって PowerShell スクリプトが制限されます。 スクリプトを実行するには、この制限を一時的に無効にしてから再度有効にして、スクリプトを実行します。PowerShell ウィンドウを開き、次のコマンドを使用します。
 >
 >*`set-executionpolicy unrestricted`* - 制限を一時的に解除します。
 >

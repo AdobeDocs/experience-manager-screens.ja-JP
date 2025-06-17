@@ -2,10 +2,10 @@
 title: AEM Screens プロジェクトでの役割と責務
 description: AEM Screens プロジェクトでの役割と責務について説明します。
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 7eae5038cb836219447d900bacf8af2faab51a43
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 98%
+source-wordcount: '1254'
+ht-degree: 96%
 
 ---
 
@@ -114,7 +114,7 @@ AEM 実装担当者は、通常、段階的にカスタム機能を適所に導�
 
 * **実行責任者**（Responsible）：タスクを完了するために作業を行います。
 
-* **説明責任者**（Accountable）：作業を委任し、タスクの完了前にタスクを最終的にレビューします。
+* **責任**：委任は作業し、タスクが完了するまでのレビューを行う最後のパーティです。
 
 * **相談先**（Consulted）：タスクまたは成果物をレビューして、アドバイスを提供します。
 

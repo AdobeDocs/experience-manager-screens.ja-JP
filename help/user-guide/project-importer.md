@@ -10,10 +10,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 100%
+source-wordcount: '619'
+ht-degree: 88%
 
 ---
 
@@ -57,9 +57,9 @@ AEM Screens プロジェクトを組織で初めて設定する場合は、す�
 
 したがって、スプレッドシート（CSV/XLS）ファイルには次の列が必要です。
 
-* **path {string}**：読み込む場所のパス。プロジェクトの場所フォルダーをルートとします（つまり、*`/foo`* は *`/content/screens/<project>/locations/foo`* に読み込まれます）。
-* **template {string}**：新しいロケーションに使用するテンプレート。今のところ、使用可能な値は「location」だけですが、今後、この値はすべての Screens テンプレート（`display`、`sequencechannel` など）に拡張される予定です。
-* **[。/*] {string}**：場所（つまり、`./jcr:title`、`./jcr:description`、`./foo, ./bar`）に設定する任意のオプションプロパティ。現在のリリースではフィルタリングはできません。
+* **path{string}** – 読み込む場所のパス。パスのルートは、プロジェクトのロケーションフォルダー（つまり、*`/content/screens/<project>/locations/foo`* に読み込まれ *`/foo`* フォルダー）です。
+* **テンプレート{string}** – 新しい場所に使用するテンプレート。現時点では「location」しか使用できませんが、この値は今後のすべての `Screens` テンプレート（`display`、`sequencechannel` など）に拡張されます
+* **[。/*] {string}** - ロケーションに設定する任意のオプションプロパティ（`./jcr:title`、`./jcr:description`、`./foo, ./bar`）。 現在のリリースではフィルタリングはできません。
 
 >[!NOTE]
 >

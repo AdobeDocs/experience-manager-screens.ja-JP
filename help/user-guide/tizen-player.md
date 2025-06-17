@@ -5,10 +5,10 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 100%
+source-wordcount: '1218'
+ht-degree: 96%
 
 ---
 
@@ -119,7 +119,7 @@ Tizen プレーヤーがインストールされ、プレーヤーの起動時�
 
 >[!NOTE]
 >プレーヤーの管理 UI ポリシー設定は厳密に適用され、手動で上書きされることはありません。特定のポリシーに対して手動のプレーヤー設定を許可する場合は、ポリシー設定でポリシーを指定しないでください。
->例えば、再起動スケジュールの手動設定を許可する場合は、ポリシー設定で `rebootSchedule` キーを指定しないでください。ポリシー設定は、プレーヤーが再読み込みされるたびに読み取られます。
+>>例えば、再起動スケジュールの手動設定を許可する場合は、ポリシー設定で `rebootSchedule` キーを指定しないでください。ポリシー設定は、プレーヤーが再読み込みされるたびに読み取られます。
 
 | **ポリシー名** | **目的** |
 |---|---|
@@ -129,7 +129,7 @@ Tizen プレーヤーがインストールされ、プレーヤーの起動時�
 | rebootSchedule | プレーヤーを再起動するスケジュール。 |
 | enableAdminUI | サイト上でデバイスを設定するための Admin UI を有効にします。設定が完了して実稼働になったら、false に設定します。 |
 | enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。設定が完了して実稼働になったら、false に設定することを検討します。 |
-| enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進捗を表示できます。トラブルシューティング用に有効にしておき、設定が完了して実稼働になったら無効にします。 |
+| enableActivityUI | を有効にすると、ダウンロードや同期など、アクティビティの進行状況を表示できます。 トラブルシューティング用に有効にしておき、設定が完了して実稼働になったら無効にします。 |
 | cloudMode | Tizen プレーヤーから Screens as a Cloud Service に接続する場合は、true に設定します。AMS またはオンプレミス AEM に接続する場合は、false に設定します。 |
 | cloudToken | Screens as a Cloud Service に登録するための登録トークン。 |
 

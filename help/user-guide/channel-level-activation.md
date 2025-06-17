@@ -6,10 +6,10 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '1791'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -105,7 +105,7 @@ AEM Screens プロジェクトにチャネルレベルのアクティベーシ�
    1. 「**チャネルパス**」をクリックし、**Channel Level Activation**／***Channels***／***MainAdChannel*** をクリックします。
    1. 「**チャネルロール**」は **mainadchannel** に設定します。
    1. 「**優先度**」をクリックし、**1** に設定します。
-   1. **サポートされているイベント**&#x200B;で「**最初の読み込み**」および「**待機中画面**」をクリックします。
+   1. **初期読み込み** や **** 待機中の画面 **など、「サポートされているイベント** をクリックします。
    1. 「**保存**」をクリックします。
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
@@ -146,8 +146,8 @@ AEM Screens プロジェクトにチャネルレベルのアクティベーシ�
 >[!NOTE]
 >
 >AEM Screens Player については、次のリソースを参照してください。
->[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)
->[AEM Screens Player での作業](working-with-screens-player.md)
+>>[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)
+>>[AEM Screens Player での作業](working-with-screens-player.md)
 
 
 ## チャネル内アセットの繰り返し処理 {#handling-recurrence-in-assets}

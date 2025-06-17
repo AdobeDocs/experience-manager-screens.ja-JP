@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 100%
+source-wordcount: '1416'
+ht-degree: 99%
 
 ---
 
@@ -289,7 +289,7 @@ AEM には、他にもいくつかのコンポーネントが用意されてい�
   </tr>
   <tr>
    <td><strong><em>次の日から有効</em></strong></td>
-   <td>トランジションがアクティブになる時点を示すタイムスタンプ。<br /> </td>
+   <td>トランジションをアクティブにできるタイミングを表すタイムスタンプ。<br /> </td>
   </tr>
   <tr>
    <td><strong><em>次の日まで有効</em></strong></td>

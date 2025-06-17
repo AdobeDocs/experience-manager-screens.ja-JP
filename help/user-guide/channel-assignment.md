@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 100%
+source-wordcount: '1180'
+ht-degree: 98%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 100%
 
 スケジュールを&#x200B;**日分割**&#x200B;と組み合わせると、1 日の特定の時間に実行される複数のチャネルでグローバルスケジュールを設定でき、また一度にすべてのディスプレイでその設定を再使用できます。
 
-日分割は、1 日を複数の時間帯に分けて、必要な時間にどのコンテツを再生するかを指定することを意味します。AEM Screens では、必要に応じて日、週、月内の日分割でチャネルのスケジュールを設定できます。
+日分割は、1 日を複数の時間帯に分割し、必要な時間にどのコンテンツを再生するかを指定することと呼ばれます。 AEM Screens では、必要に応じて日、週、月内の日分割でチャネルのスケジュールを設定できます。
 
 次の例は、3 つのシナリオにおけるチャネルの日分割に関する説明です。
 

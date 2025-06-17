@@ -9,10 +9,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1700'
-ht-degree: 100%
+source-wordcount: '1698'
+ht-degree: 97%
 
 ---
 
@@ -133,7 +133,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
    ダイアログを `/libs/wcm/foundation/components/image/cq:dialog` から `/apps/weretail-run/components/content/poster` にコピーしました
 
-   WCM の `image` 基盤コンポーネントは、AEM Screens `image` コンポーネントのスーパータイプになります。したがって、`poster` コンポーネントは両者から機能を継承します。ポスターコンポーネントのダイアログは、Screens ダイアログと基盤ダイアログの組み合わせで構成されます。**Sling Resource Merger** の機能を使用して、スーパータイプコンポーネントから継承した無関係なダイアログフィールドやタブを非表示にします。
+   WCM の `image` 基盤コンポーネントは、AEM Screens `image` コンポーネントのスーパータイプになります。したがって、`poster` コンポーネントは両者から機能を継承します。ポスターコンポーネントのダイアログは、Screens ダイアログと基盤ダイアログの組み合わせで構成されます。**`Sling Resource Merger`** の機能を使用すると、スーパータイプされたコンポーネントから継承された無関係なダイアログフィールドとタブを非表示にすることができます。
 
 1. `/apps/weretail-run/components/content/poster` の下の `cq:dialog` を更新して、XML で表現された以下の変更を反映します。
 
@@ -308,7 +308,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
    </div>
    ```
 
-   ポスターコンポーネントの&#x200B;**編集**&#x200B;マークアップは、すぐ上に表示されます。HTL スクリプトで `/libs/screens/core/components/content/image/edit.html` が上書きされます。このマークアップは `production.html` のマークアップと似ており、画像の上にタイトルと説明が表示されます。
+   ポスターコンポーネントの **編集** マークアップは、すぐ上に表示されます。 HTL スクリプトで `/libs/screens/core/components/content/image/edit.html` が上書きされます。このマークアップは `production.html` のマークアップと似ており、画像の上にタイトルと説明が表示されます。
 
    コンポーネントがエディターでフルスクリーンでレンダリングされないように、`aem-Screens-editWrapper` を追加します。`data-emptytext` 属性を指定すると、画像やコンテンツが入力されていない場合には必ずプレースホルダーが表示されるようになります。
 
@@ -355,7 +355,7 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
    ![2018-05-03_at_1057pm](assets/2018-05-03_at_1057pm.png)
 
-   このチュートリアルでは、CSS を直接記述するのではなく、LESS を使用します。[LESS](https://lesscss.org/) は、CSS 変数、ミックスイン、関数をサポートしている一般的な CSS プリコンパイラーです。AEM のクライアントライブラリは、LESS によるコンパイルをネイティブにサポートしています。Sass などのプリコンパイラーも使用できますが、AEM の外部でコンパイルする必要があります。
+   このチュートリアルでは、CSS を直接記述するのではなく、LESS を使用します。[LESS](https://lesscss.org/) は、CSS 変数、ミックスイン、関数をサポートしている一般的な CSS プリコンパイラーです。AEM のクライアントライブラリは、LESS によるコンパイルをネイティブにサポートしています。Sass などのプリコンパイラーを使用できますが、AEMの外部でコンパイルする必要があります。
 
 1. `/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less` に以下を入力します。
 

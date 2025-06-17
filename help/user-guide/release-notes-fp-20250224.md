@@ -4,10 +4,11 @@ description: 2025年2月24日（PT）にリリースされた AEM Screens 機能
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 45f2c282c16318d7968098c92b52e772eb0bf4cd
+exl-id: dc47ec1b-77f4-43e8-a6d4-2cbbc2133b4a
+source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 46%
+source-wordcount: '170'
+ht-degree: 48%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 46%
 
 >[!CAUTION]
 >最新バージョンの 6.5 Adobe Experience Manager（AEM 6.5）にアップグレードすることをお勧めします。最新バージョンの情報は、[こちら](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/release-notes/release-notes)から入手できます
->FeaturePack （FP）バージョン 11.5 は、バージョン 21 までの ServicePack （SP）と互換性があります。
+>>FeaturePack （FP）バージョン 11.5 は、バージョン 21 までの ServicePack （SP）と互換性があります。
 
 
 ## 入手方法 {#availability}
@@ -35,4 +36,4 @@ AEM Screens 機能パック 20250224 のリリース日は 2025年2月24日（PT
 ### バグ修正 {#bug-fixes}
 
 * パッケージがサービスパック 21 およびScreens機能パックと競合しています。 （SCRNS-4638）
-* /libs/screens/dcc/components/dashboard/clientlibs/active-channel.jsでの vuln 修正（SCRNS-4607）
+* `/libs/screens/dcc/components/dashboard/clientlibs/active-channel.js` の脆弱性の修正（SCRNS-4607）

@@ -5,9 +5,9 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '514'
 ht-degree: 100%
 
 ---
@@ -102,7 +102,7 @@ ContextHub 設定をレプリケーション中にテスト接続が失敗した
    次の手順に従います。
 
    1. ツール／**操作**／**web コンソール** `http://localhost:4502/system/console/configMgr` に移動すると、**Adobe Experience Manager web コンソール画面**&#x200B;を開くことができます。
-   1. **Apache Sling Distribution トランスポート認証情報 - ユーザ認証情報に基づく DistributionTransportSecretProvider** を探します。
+   1. **`Apache Sling Distribution Transport Credentials - User Credentials based DistributionTransportSecretProvider`** を検索します
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
 

@@ -2,10 +2,10 @@
 title: AEM Platform 設定
 description: ここでは、AEM Platform の設定について説明します
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '438'
+ht-degree: 96%
 
 ---
 
@@ -40,7 +40,7 @@ AEM Screens プロジェクトの Dispatcher を設定する際のガイドラ�
 適切な OS（通常は RHEL）の手順に従って、FFmpeg をインストールします。
 
 1. EPEL と RPMFusion を有効にしてインストールする場合は、すべての gstreamer コーデックをインストールして、FFmpeg 変換のサポートを拡張できます。
-1. AAC コーデックが試行用とマークされている場合、FFmpeg 変換は失敗します。この問題を回避するには、ビデオプロファイル（AEM 6.3 では /etc/dam/video、AEM 6.4 では /libs/settings/dam/video）に `-strict -2` を追加します。
+1. AAC コーデックが試行用とマークされている場合、FFmpeg 変換は失敗します。この問題を回避するには、`-strict -2` をビデオプロファイルに追加します（AEM 6.3 では `/etc/dam/video`、`/libs/settings/dam/video in AEM 6.4` に移動しました）
 
    >[!NOTE]
    >

@@ -6,10 +6,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
 1. 以下のプロパティを追加します。
 
-   **プロジェクトパス**：AEM Screens プロジェクトのパスを指定します。パスは通常、`/content/screens/<Name of your project>` です。
+   **プロジェクトパス** - AEM Screens プロジェクトのパスを指定します。 パスは通常、`/content/screens/<Name of your project>` です。
 
    *例えば*、`/content/screens/we-retail` などとなります。AEM Screens で任意のプロジェクトを選択すれば（アイコンをクリックしないでください）、URL にこのパスが含まれていることがわかります。
 
@@ -69,6 +69,6 @@ ht-degree: 100%
    >
    >チャネルからの相対的なプロジェクトパスを指定します。
 
-   **スケジュールの頻度**：このサービスでオフラインコンテンツを更新する時刻（例：午後 5 時または 17 時）を指定します。
+   **スケジュールの頻度** – このサービスがオフラインコンテンツを更新する時刻（例：午後 5 時または 17 時）を指定します。
 
 1. 「**保存**」をクリックすると設定を保存できます。指定した時間にすべてのコンテンツが更新されます。

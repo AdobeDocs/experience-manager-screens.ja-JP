@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
-source-git-commit: 658acac989ed06f33dae10a6145ada31ff57811d
+source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 36%
+source-wordcount: '219'
+ht-degree: 37%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 36%
 
 >[!CAUTION]
 >最新バージョンの 6.5 Adobe Experience Manager（AEM 6.5）にアップグレードすることをお勧めします。最新バージョンの情報は、[こちら](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/release-notes/release-notes)から入手できます
->SP （servicepack）バージョン 22 以降の FP11.6 を使用してください。
+>>FP11.6 と SP （servicepack）バージョン 22 以降を使用します。
 
 ## 入手方法 {#availability}
 
@@ -35,8 +35,8 @@ AEM Screens 機能パック 20250327 のリリース日は 2025年3月27日で�
 * このリリースでは、SP22 以降のカード表示の問題が修正されています。
 
 * **AEM Screens Players の最新情報**
-   * Linux ベースのAEM Screens Player は正式に非推奨（廃止予定）となりました。 AEM Screensでサポートされている別のオペレーティングシステムに移行することをお勧めします。
-   * Android ベースのAEM Screens Player に対する追加の更新や機能強化はありません。 AEM Screensでサポートされている別のオペレーティングシステムに移行することをお勧めします。
+   * Linux ベースのAEM Screens Player は正式に非推奨（廃止予定）となりました。 AEM Screensがサポートする別のオペレーティングシステムに移行することをお勧めします。
+   * Android ベースのAEM Screens Player は、それ以上の更新や機能強化は行われません。 AEM Screensがサポートしている別のオペレーティングシステムに移行することをお勧めします。
 
 ### バグ修正 {#bug-fixes}
 

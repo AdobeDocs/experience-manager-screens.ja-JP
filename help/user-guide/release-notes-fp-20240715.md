@@ -4,10 +4,11 @@ description: 2024年7月15日（PT）にリリースされた AEM Screens 機能
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 971b3d3768602929e213abdf9ae407fe9015ab4b
+exl-id: 5a99f65f-c74a-4d0c-8609-ce6600369b96
+source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 55%
+source-wordcount: '148'
+ht-degree: 58%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 55%
 
 >[!CAUTION]
 >最新バージョンの 6.5 Adobe Experience Manager（AEM 6.5）にアップグレードすることをお勧めします。最新バージョンの情報は、[こちら](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/release-notes/release-notes)から入手できます
->機能パック（FP）バージョン 11.4 は、バージョン 20 までの ServicePack （SP）と互換性があります。
+>>機能パック（FP）バージョン 11.4 は、バージョン 20 までの ServicePack （SP）と互換性があります。
 
 
 ## 入手方法 {#availability}
@@ -30,8 +31,8 @@ AEM Screens 機能パック 20240715 のリリース日は 2024年7月15日（PT
 
 ### 新機能 {#what-is-new}
 
-* このリリースにはセキュリティ修正のみ含まれています。
+このリリースにはセキュリティ修正のみ含まれています。
 
 ### バグ修正 {#bug-fixes}
 
-* /libs/screens/clientlibs/libs/scripts/scroll/tests/index.htmlでの XSS の問題（SCRNS-4359）
+`/libs/screens/clientlibs/libs/scripts/scroll/tests/index.html` での XSS の問題（SCRNS-4359）

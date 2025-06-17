@@ -1,24 +1,24 @@
 ---
 cloud: Experience Cloud
-user-guide-title: AEM Screens プロジェクトのベストプラクティスガイド
+user-guide-title: AEM Screens プロジェクトのベストプラクティス
 breadcrumb-title: AEM Screens ベストプラクティスガイド
 solution-title: AEM Screens
 getting-started-title: AEM Screens Best Practices Guide
-getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
+getting-started-description: AEM Screens best practices provides guidance on how to successfully plan and execute an AEM Screens project.
 feature-set: Experience Manager Screens
 product: experience manager
 audience: end-user
 feature: Content
 role: User
-source-git-commit: 5e04d2a5a024f60ce1d3868f6303244de1eeee6f
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 98%
+source-wordcount: '131'
+ht-degree: 80%
 
 ---
 
 
-# AEM Screens プロジェクトのベストプラクティスガイド {#using}
+# AEM Screens プロジェクトのベストプラクティス {#using}
 
 + [このガイドについて](about-guide.md)
 + 概要 {#overview}

@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '2451'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -310,7 +310,7 @@ ACL を編集して、場所に基づいてコンテンツに対するユーザ�
    1. 「**グループを作成**」をクリックし、「**ID**」に「**Global-Author**」と入力します。
    1. 「**保存して閉じる**」をクリックします。
 
-   同様に、**Region-Author** や **Store-Author** など、他の 2 つのグループを作成します。
+   同様に、**Region-Author** と **Store-Author** という 2 つの他のグループを作成します。
 
    ![screen_shot_2018-09-17at34008pm](assets/screen_shot_2018-09-17at34008pm.png)
 
@@ -318,12 +318,12 @@ ACL を編集して、場所に基づいてコンテンツに対するユーザ�
 
    1. **Adobe Experience Manager** に移動します。
    1. **ツール**／**セキュリティ**／**ユーザー**&#x200B;をクリックします。
-   1. 「**ユーザーを作成**」をクリックし、「**ID**」に「**Global-User**」と入力します。
+   1. **ユーザーを作成** をクリックし、**ID** で **グローバルユーザー** と入力します。
    1. このユーザーのパスワードを「**パスワード**」に入力し、パスワードの確認入力もおこないます。
    1. 「**グループ**」タブをクリックし、「**グループをクリック**」にグループ名を入力します。例えば、「**Global-Author**」と入力して、その特定のグループに **Global-User** を追加します。
    1. 「**保存して閉じる**」をクリックします。
 
-   同様に、**Region-User** や **Store-User** など、他の 2 人のユーザーを作成し、**Region-Author** と **Store-Author** にそれぞれ追加します。
+   同様に、**Region-User** および **Store-User** などの他の 2 つのユーザーを作成し、それぞれ **Region-Author** および **Store-Author** に追加します。
 
    >[!NOTE]
    >グループにユーザーを追加してから、個々のユーザーグループに権限を割り当てることをお勧めします。

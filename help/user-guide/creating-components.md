@@ -9,10 +9,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 4d673039-4963-458a-89e9-023a993dd354
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 100%
+source-wordcount: '281'
+ht-degree: 92%
 
 ---
 
@@ -24,11 +24,11 @@ AEM コンポーネントを使用して、web ページ上で使用できるコ
 >
 >AEM コンポーネントの作成について詳しくは、AEM コンポーネントの開発を参照してください。
 
-## チャネルのオーサリング {#authoring-channels}
+## オーサーチャネル {#authoring-channels}
 
 チャネルは、一連のディスプレイに配信されるコンテンツの中心的なオブジェクトです。したがって、コンテンツ作成者は、通常、エディターでチャネルを開いてコンテンツを追加または変更します。チャネルは ***`cq:Page`*** なので、同じ従来の UX パターンに従って、チャネル上のコンポーネントを追加および変更します。
 
-ただし、チャネル内のコンポーネントは通常フルスクリーンでレンダリングされるので、単一コンポーネントの編集や新しい順序の編成を行う際にオーサリングエクスペリエンスに影響を及ぼします。そのため、チャネルはコンポーネントの様々なビューをレンダリングするためにセレクターを使用します。オーサリング環境では、編集セレクターを使用して、カスタムチャネルのレンダリングをアクティベートします。
+ただし、チャネル内のコンポーネントは通常フルスクリーンでレンダリングされるので、単一コンポーネントの編集や新しい順序の編成を行う際にオーサリングエクスペリエンスに影響を及ぼします。そのため、チャネルはコンポーネントの様々なビューをレンダリングするためにセレクターを使用します。オーサリング環境では、`edit` セレクターを使用してカスタムチャネルレンダリングを有効化します。
 
 例：`http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html](http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html`
 

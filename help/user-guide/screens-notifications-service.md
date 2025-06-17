@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 1. 以下のフィールドを定義して、メールの設定を指定します。
 
-   **デバイスパス**：監視する Screens プロジェクトへのパスを入力します。パスは通常、`/home/users/screens/<Name of your project>` です。
+   **デバイスのパス** – 監視するScreens プロジェクトへのパスを入力します。 パスは通常、`/home/users/screens/<Name of your project>` です。
 
    例えば、プロジェクトが **`We.Retail`** の場合、プロジェクトのパスは ***/home/users/screens/we-retail*** になります。
 

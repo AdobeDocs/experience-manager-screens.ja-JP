@@ -9,10 +9,10 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 100%
+source-wordcount: '794'
+ht-degree: 98%
 
 ---
 
@@ -148,7 +148,7 @@ Google の自動再生ポリシーフラグに関する問題をトラブルシ�
 
 1. 各 OSX ボックスで、**日付と時刻**&#x200B;環境設定を開きます。
 1. 「**日付と時刻を自動的に設定**」をオンにします。
-1. ドロップダウンの値 0.pool.ntp.org、1.pool.ntp.org、2.pool.ntp.org、3.pool.ntp.org、time.apple.com を貼り付けるか、単に *sudo ntpdate -u -v 0.pool.ntp.org* を実行します。
+1. 値0.pool.ntp.org、1.pool.ntp.org、2.pool.ntp.org、3.pool.ntp.org、time.apple.comをドロップダウンに貼り付けるか、*`sudo ntpdate -u -v 0.pool.ntp.org`* を実行します
 1. 2 台以上のプレーヤーを起動します。
 
 プレーヤーが新しく割り当てられたシーケンスを開始するまでに時間がかかることがあります。

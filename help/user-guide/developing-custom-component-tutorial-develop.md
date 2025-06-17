@@ -9,10 +9,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '2161'
-ht-degree: 100%
+source-wordcount: '2163'
+ht-degree: 99%
 
 ---
 
@@ -139,7 +139,7 @@ AEM Screens には、従来の WCM Sites コンポーネントには必ずしも
    Screens コンポーネントでは、使用する[オーサリングモード](https://experienceleague.adobe.com/ja/docs/experience-manager-64/authoring/authoring/author-environment-tools)に応じて、2 種類のレンダリングが必要になります。
 
    1. **実稼動**：プレビューまたはパブリッシュモード（wcmmode=disabled）
-   1. **編集**：編集、デザイン、基礎、開発者など、他のすべてのオーサリングモードに使用されます。
+   1. **編集**：編集、デザイン、基礎モード、開発者など、他のすべてのオーサリングモードに使用されます。
 
    `helloworld.html` はスイッチとして機能し、アクティブなオーサリングモードを確認し、別の HTL スクリプトにリダイレクトします。編集モード用に `edit.html` スクリプトを用意し、実稼動モード用に `production.html` スクリプトを用意するというのが、Screens コンポーネントで一般に使用される規則です。
 
@@ -296,7 +296,7 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
    categories プロパティは、クライアントライブラリを識別する文字列です。cq.screens.componentscategory は、編集モードとプレビュー／実稼動モードの両方で使用されます。したがって、sharedclientlib に定義された CSS や JavaScript は、すべてのモードに読み込まれます。
 
-   ベストプラクティスとして、実稼動環境の `/apps` を直接指すパスは、公開しないでください。allowProxy プロパティにより、クライアントライブラリの CSS と JavaScript が `/etc.clientlibs` というプレフィックスを付けて参照されるようになります。
+   ベストプラクティスとして、実稼動環境の `/apps` を直接指すパスは、公開しないでください。allowProxy プロパティにより、クライアントライブラリの CSS と JavaScript が `/etc.clientlibs` という接頭辞を付けて参照されるようになります。
 
 1. 共有フォルダーの下に `css.txt` という名前のファイルを作成します。
 
@@ -312,7 +312,7 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
    ![2018-04-30_at_3_11pm](assets/2018-04-30_at_3_11pm.png)
 
-   このチュートリアルでは、CSS を直接記述するのではなく、LESS を使用します。[LESS](https://lesscss.org/) は、CSS 変数、ミックスイン、関数をサポートしている一般的な CSS プリコンパイラーです。AEM のクライアントライブラリは、LESS によるコンパイルをネイティブにサポートしています。Sass などのプリコンパイラーも使用できますが、AEM の外部でコンパイルする必要があります。
+   このチュートリアルでは、CSS を直接記述するのではなく、LESS を使用します。[LESS](https://lesscss.org/) は、CSS 変数、ミックスイン、関数をサポートしている一般的な CSS プリコンパイラーです。AEM のクライアントライブラリは、LESS によるコンパイルをネイティブにサポートしています。Sass などのプリコンパイラーを使用できますが、AEMの外部でコンパイルする必要があります。
 
 1. `/apps/weretail-run/components/content/helloworld/clientlibs/shared/css/styles.less` に以下を入力します。
 

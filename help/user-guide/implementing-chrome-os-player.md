@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 100%
+source-wordcount: '870'
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 Chrome 管理コンソールを設定するには、次の手順を実行します。
 
-1. Chrome 管理コンソールを登録します。Chrome 管理コンソールのライセンスを取得する必要があります。Chrome のデバイス設定の管理について詳しくは、[Google サポート](https://support.google.com/chrome/a/answer/1375678?hl=ja&amp;ref_topic=2935995)にお問い合わせください。
+1. Chrome 管理コンソールを登録します。Chrome 管理コンソールのライセンスを取得する必要があります。Chrome のデバイス設定の管理について詳しくは、[Google サポート](https://support.google.com/chrome/a/answer/1375678?hl=ja&ref_topic=2935995)にお問い合わせください。
 1. Chrome OS デバイスをドメインに登録し、デバイスが Chrome 管理コンソールと同期するまで 15 分間待ちます。Chrome デバイスの登録について詳しくは、[ここ](https://support.google.com/chrome/a/answer/1360534?hl=ja)をクリックしてください。
 1. Chrome プレーヤーは Chrome ウェブストアで入手できます。
 
@@ -144,7 +144,7 @@ AEM Screens Player は、キオスク対応アプリケーションです。Chro
 | rebootSchedule | プレーヤーを再起動するスケジュール。 |
 | enableAdminUI | サイト上でデバイスを設定するための Admin UI を有効にします。設定が完了して実稼働になったら、false に設定します。 |
 | enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。設定が完了して実稼働になったら、false に設定することを検討します。 |
-| enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進捗を表示できます。トラブルシューティング用に有効にしておき、設定が完了して実稼働になったら無効にします。 |
+| enableActivityUI | を有効にすると、ダウンロードや同期など、アクティビティの進行状況を表示できます。 トラブルシューティング用に有効にしておき、設定が完了して実稼働になったら無効にします。 |
 | cloudMode | Chrome プレーヤーから Screens as a Cloud Service に接続する場合は、true に設定します。AMS またはオンプレミス AEM に接続する場合は、false に設定します。 |
 | cloudToken | Screens as a Cloud Service に登録するための登録トークン。 |
 

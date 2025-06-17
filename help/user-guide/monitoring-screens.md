@@ -10,10 +10,10 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 100%
+source-wordcount: '773'
+ht-degree: 97%
 
 ---
 
@@ -114,6 +114,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >クリックできるログレベルは次のいずれかです。
+>
 >* **無効**
 >* **デバッグ**
 >* **情報**
@@ -126,7 +127,7 @@ ht-degree: 100%
 
 デバイスからサーバーへのデータの投稿を許可するには、空のリファラーを有効にします。例えば、空のリファラーのプロパティが無効になっていると、デバイスからスクリーンショットを投稿できません。
 
-現在、これらの機能の一部は、OSGi 設定で *Apache Sling Referrer Filter の Allow Empty 設定*&#x200B;が有効になっている場合にのみ使用できます。ダッシュボードには、セキュリティ設定がこれらの機能の一部の動作を妨げる可能性があることを示す警告が表示される場合があります。
+現在、これらの機能の一部は、OSGi 設定で *`Apache Sling Referrer Filter Allow Empty`* が有効になっている場合にのみ使用できます。 ダッシュボードには、セキュリティ設定がこれらの機能の一部の動作を妨げる可能性があることを示す警告が表示される場合があります。
 
 Apache Sling Referrer Filter の Allow Empty 設定を有効にするには、次の手順を実行します。
 

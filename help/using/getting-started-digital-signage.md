@@ -2,10 +2,10 @@
 title: '[!UICONTROL AEM Screens] のデジタルサイネージの基本'
 description: デジタルサイネージプロジェクトの基本について説明します。
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 100%
+source-wordcount: '409'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ AEM Screens 実装のベストプラクティスに取りかかる前に、プ�
 
 1. **接続**
 
-   「接続」では次の質問が重視されます。
+   接続性では、次の点が重視されます。
    * ネットワーク接続（セル または Wi-Fi）ですか、スタンドアロン接続ですか？
       * USB コンテンツの更新を許可する必要がありますか？
       * 使用状況のデータ収集を許可する必要がありますか？

@@ -1,5 +1,5 @@
 ---
-title: Screens ローンチを使用したコンテンツの更新
+title: Screens Launch を使用したコンテンツ更新
 description: ローンチと呼ばれる将来のチャネルバージョンを作成する方法、およびローンチのライブ日付を設定して、デバイスやプレーヤーでコンテンツの公開を開始する方法を説明します。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 100%
+source-wordcount: '1568'
+ht-degree: 97%
 
 ---
 
-# Screens ローンチを使用したコンテンツの更新 {#launches}
+# Screens Launch を使用したコンテンツ更新 {#launches}
 
 コンテンツ作成者は、将来のチャネルバージョンを作成し、さらにこのローンチのライブ日付を設定できます。この機能により、指定した日付にコンテンツをデバイスまたはプレーヤーで開始することができます。
 

@@ -101,7 +101,7 @@ AEM Screens プロジェクトを組織で初めて設定する場合は、す�
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. サイドバーの **DemoProjectImporter **／**&#x200B;作成&#x200B;**／**&#x200B;ロケーションを読み込む**をクリックします。
+1. サイドバーの **DemoProjectImporter &#x200B;**／**&#x200B;作成&#x200B;**／**&#x200B;ロケーションを読み込む**&#x200B;をクリックします。
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 

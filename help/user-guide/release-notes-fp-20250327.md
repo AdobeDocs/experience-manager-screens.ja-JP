@@ -16,7 +16,7 @@ ht-degree: 37%
 
 >[!CAUTION]
 >最新バージョンの 6.5 Adobe Experience Manager（AEM 6.5）にアップグレードすることをお勧めします。最新バージョンの情報は、[こちら](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/release-notes/release-notes)から入手できます
->>FP11.6 と SP （servicepack）バージョン 22 以降を使用します。
+>&#x200B;>FP11.6 と SP （servicepack）バージョン 22 以降を使用します。
 
 ## 入手方法 {#availability}
 

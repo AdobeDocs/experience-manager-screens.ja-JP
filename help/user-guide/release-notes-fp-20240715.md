@@ -16,7 +16,7 @@ ht-degree: 58%
 
 >[!CAUTION]
 >最新バージョンの 6.5 Adobe Experience Manager（AEM 6.5）にアップグレードすることをお勧めします。最新バージョンの情報は、[こちら](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/release-notes/release-notes)から入手できます
->>機能パック（FP）バージョン 11.4 は、バージョン 20 までの ServicePack （SP）と互換性があります。
+>&#x200B;>機能パック（FP）バージョン 11.4 は、バージョン 20 までの ServicePack （SP）と互換性があります。
 
 
 ## 入手方法 {#availability}

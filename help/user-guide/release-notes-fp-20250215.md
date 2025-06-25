@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: cadd83cd-fe64-436d-b3fd-6d72b9565885
-source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
+source-git-commit: 6cdf350fa4e45b816d50b64252b8ed6d5e0904d0
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 36%
+source-wordcount: '244'
+ht-degree: 34%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 36%
 
 >[!CAUTION]
 >最新バージョンの 6.5 Adobe Experience Manager（AEM 6.5）にアップグレードすることをお勧めします。最新バージョンの情報は、[こちら](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/release-notes/release-notes)から入手できます
->&#x200B;>Adobeでは、FP11.6 を SP （servicepack） >= 21 と共に使用することをお勧めします。
+>>Adobeでは、FP11.6 を SP （servicepack） >= 21 と共に使用することをお勧めします。
 
 ## 入手方法 {#availability}
 
@@ -43,3 +43,5 @@ AEM Screens 機能パック 20250327 のリリース日は 2025年3月27日で�
 * パッケージがサービスパック 21 およびScreens機能パックと競合しています。 （SCRNS-4638）
 
 * Screens ダッシュボードが機能しない。 （SCRNS-4749）
+
+* /libs/screens/dcc/components/dashboard/clientlibs/device-clear-cache.jsでの XSS の問題（SCRNS-4761）

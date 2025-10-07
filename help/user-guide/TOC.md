@@ -8,10 +8,10 @@ user-guide-description: 動的でインタラクティブなデジタルエク�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: d8392b015c65e6bba35ba4c923d4f663e1121e0c
+source-git-commit: 6a1ecea5d54da483c3033d0be0555b2d0dc71c83
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 100%
+source-wordcount: '556'
+ht-degree: 92%
 
 ---
 
@@ -51,10 +51,10 @@ ht-degree: 100%
       + [Cloud Player](implementing-cloud-player.md)
       + [プレーヤーの自動登録](auto-registration-players.md)
       + [リモート制御の使用](implementing-remote-control.md)
-   + オーサーとパブリッシュ {#author-publish}
+   + オーサー/パブリッシュ {#author-publish}
       + [オーサーとパブリッシュのアーキテクチャの概要](author-publish-architecture-overview.md)
       + [オーサーとパブリッシュの設定](author-and-publish.md)
-   + Analytics と AEM Screens の統合 {#analytics-integration}
+   + Analytics とAEM Screensの統合 {#analytics-integration}
       + [Adobe Analytics との統合](adobe-analytics-integration-aem-screens.md)
       + [AEM Screens と連携する Adobe Analytics の設定](configuring-adobe-analytics-aem-screens.md)
 + オーサリングと使用例 {#authoring}
@@ -119,6 +119,7 @@ ht-degree: 100%
    + [デバイスコントロールセンターのトラブルシューティング](monitoring-screens.md)
    + [ビデオ再生の設定](troubleshoot-videos.md)
 + リリースノート {#release-notes}
+   + [機能パック 20251007 のリリースノート](release-notes-fp-20251007.md)
    + [機能パック 20250327 のリリースノート](release-notes-fp-20250327.md)
    + [機能パック 20250224 のリリースノート](release-notes-fp-20250224.md)
    + [機能パック 20240715 のリリースノート](release-notes-fp-20240715.md)

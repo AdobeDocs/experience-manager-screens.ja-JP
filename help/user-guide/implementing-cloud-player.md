@@ -67,7 +67,7 @@ Cloud Player のインストールは、プラットフォームによって異�
 
 ## Chrome OS での一括プロビジョニング {#bulk-provisioning-chrome}
 
-Chrome OS での一括プロビジョニングの詳細を説明します。[Chrome OS への Cloud Player のインストール ](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player) を参照してください。<!-- `https://www.adobe.com/go/aem_screens_cloud_player_jp` -->
+Chrome OS での一括プロビジョニングの詳細を説明します。[Chrome OS への Cloud Player のインストール &#x200B;](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player) を参照してください。<!-- `https://www.adobe.com/go/aem_screens_cloud_player_jp` -->
 
 ## AEM インスタンスに必要な設定 {#bulk-provisioning-config-aem}
 

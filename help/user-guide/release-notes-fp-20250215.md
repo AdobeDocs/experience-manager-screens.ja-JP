@@ -22,7 +22,7 @@ ht-degree: 34%
 
 AEM Screens は、AEM 6.5 機能パック 11.6 をリリースしました。
 
-Adobe IDを使用して、AEM Screens 6.5.11.6 リリースの最新の機能パックを [ ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html) からダウンロードできます。 「**Adobe Experience Manager**」タブに移動し、「**Screens**」を検索して「**AEM 6.5 Screens FP11.6**」というタイトルが付いた最新の機能パックを入手します。
+Adobe IDを使用して、AEM Screens 6.5.11.6 リリースの最新の機能パックを [&#x200B; ソフトウェア配布ポータル &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html) からダウンロードできます。 「**Adobe Experience Manager**」タブに移動し、「**Screens**」を検索して「**AEM 6.5 Screens FP11.6**」というタイトルが付いた最新の機能パックを入手します。
 
 ## リリース日 {#release-date}
 

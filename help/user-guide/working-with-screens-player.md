@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: 107e296237a98b7d69744b5ec4b87142d7de61cd
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 97%
+source-wordcount: '1103'
+ht-degree: 94%
 
 ---
 
@@ -143,6 +143,10 @@ AEM Screens Player には、次の 2 とおりの更新方法があります。
 | プレーヤーシェルの更新 | プレーヤーにデプロイされる新しい実行可能ファイル。この機能を使用するには、プレーヤーに新しいバイナリをリモートコピーし、現在実行中のバイナリを停止して、新しいバージョンを起動する必要があります。パッケージのプリロードを再度ダウンロードする必要が生じる場合があります。 | 可（リモートシェル経由） | カスタム | いいえ |
 
 ## プレーヤーデバイスのハードウェア選定ガイドライン {#hardware-selection-guidelines-for-player-device}
+
+>[!NOTE]
+>
+>**非推奨：** このハードウェア選択ガイダンスは非推奨であり、新規デプロイメントには使用しないでください。 ハードウェアの仕様および推奨事項は、具体的なデプロイメント要件とユースケースに基づいて、認定 AV インテグレーターが提供する必要があります。
 
 この節では、Screens プロジェクトのハードウェア選定ガイドラインを示します。
 

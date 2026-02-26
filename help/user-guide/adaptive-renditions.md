@@ -2,16 +2,19 @@
 title: アダプティブレンディションのアーキテクチャ概要と設定
 description: AEM Screens のアダプティブレンディションのアーキテクチャ概要と CRXDE Lite での設定について説明します。
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 053df80bfd6fe39be93c0fe4c800fe775740dc7e
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 100%
+source-wordcount: '639'
+ht-degree: 94%
 
 ---
 
 # アダプティブレンディション：アーキテクチャ概要と設定 {#adaptive-renditions}
 
 ## はじめに {#introduction}
+
+>[!CAUTION]
+>この機能は、AEM オンプレミス（AEM 6.5）でのみサポートされます。 AEM as a Cloud Serviceではサポートされていません。
 
 アダプティブレンディションを使用すると、顧客定義のルールに基づいて、デバイスに最適なレンディションをデバイスで自動的にクリックできます。これらのルールに基づいて、アセットの最も適切なレンディションをデバイスが自動的にダウンロードして再生するので、お客様は&#x200B;*メイン*&#x200B;のエクスペリエンスの設計に専念できます。
 
@@ -72,7 +75,7 @@ AEM Screens 開発者は、すべてのコンテンツバリエーションを�
    >[!NOTE]
    >詳しくは、[メディアクエリ構文の使用](https://developer.mozilla.org/ja-JP/docs/Web/CSS/CSS_media_queries/Using_media_queries)を参照してください。
 
-   作成した「**rule1**」をクリックして、**名前**&#x200B;に「**expression**」と入力し、**値**&#x200B;に「**(orientation:landscape)**」と入力します（下図を参照）。「**追加**」をクリックします。
+   作成した **rule1** をクリックして、「**名前**」に **式** を入力し、「**値 :landscape」に** （向き **** を入力します（下図を参照）。 「**追加**」をクリックします。
 
    ![画像](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 

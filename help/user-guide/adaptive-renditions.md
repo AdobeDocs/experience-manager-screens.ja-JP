@@ -75,7 +75,7 @@ AEM Screens 開発者は、すべてのコンテンツバリエーションを�
    >[!NOTE]
    >詳しくは、[メディアクエリ構文の使用](https://developer.mozilla.org/ja-JP/docs/Web/CSS/CSS_media_queries/Using_media_queries)を参照してください。
 
-   作成した **rule1** をクリックして、「**名前**」に **式** を入力し、「**値 :landscape」に** （向き **** を入力します（下図を参照）。 「**追加**」をクリックします。
+   作成した **rule1** をクリックして、「**名前**」に **式** を入力し、「**値 :landscape」に** （向き **&#x200B;**&#x200B;を入力します（下図を参照）。 「**追加**」をクリックします。
 
    ![画像](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 

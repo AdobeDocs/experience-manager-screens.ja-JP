@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '294'
 ht-degree: 90%
 
 ---
@@ -25,11 +25,12 @@ ht-degree: 90%
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. When you have permission you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. When you have permission you can download it from Package Share. 
+-->
 
 ## 概要 {#overview}
 
-オフライン一括更新を使用すると、すべてのチャネルを一括更新できます。特定のチャネルに移動してコンテンツを更新する手間が省けます。代わりに、ある特定のプロジェクトのチャネルに含まれているすべてのコンテンツを一度に更新できます。
+オフライン一括更新を使用すると、すべてのチャネルを一括更新できます。 特定のチャネルに移動してコンテンツを更新する手間が省けます。 代わりに、ある特定のプロジェクトのチャネルに含まれているすべてのコンテンツを一度に更新できます。
 
 また、ネットワークトラフィックが少ない時間帯に、このアクティビティをスケジュールすることもできます。
 
@@ -63,12 +64,12 @@ ht-degree: 90%
 
    **プロジェクトパス** - AEM Screens プロジェクトのパスを指定します。 パスは通常、`/content/screens/<Name of your project>` です。
 
-   *例えば*、`/content/screens/we-retail` などとなります。AEM Screens で任意のプロジェクトを選択すれば（アイコンをクリックしないでください）、URL にこのパスが含まれていることがわかります。
+   *例えば*、`/content/screens/we-retail` などとなります。 AEM Screens で任意のプロジェクトを選択すれば（アイコンをクリックしないでください）、URL にこのパスが含まれていることがわかります。
 
    >[!NOTE]
    >
    >チャネルからの相対的なプロジェクトパスを指定します。
 
-   **スケジュールの頻度** – このサービスがオフラインコンテンツを更新する時刻（例：午後 5 時または 17 時）を指定します。
+   **スケジュールの頻度** – このサービスがオフラインコンテンツを更新す :00 時刻（例：午後 5:00 または 17）を指定します。
 
-1. 「**保存**」をクリックすると設定を保存できます。指定した時間にすべてのコンテンツが更新されます。
+1. 「**保存**」をクリックすると設定を保存できます。 指定した時間にすべてのコンテンツが更新されます。

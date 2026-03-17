@@ -3,7 +3,7 @@ title: Screens Cloud でのタグ付け
 description: このページでは、Screens Cloud でタグを作成、管理および使用する方法について説明します。
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 76%
@@ -14,7 +14,7 @@ ht-degree: 76%
 
 >[!CAUTION]
 >
->**タグ付け**&#x200B;機能は、テナントに対して有効になっている場合にのみ使用できます。有効にするには、AEM Screens エンジニアリングにお問い合わせください。
+>**タグ付け**&#x200B;機能は、テナントに対して有効になっている場合にのみ使用できます。 有効にするには、AEM Screens エンジニアリングにお問い合わせください。
 
 ## はじめに {#introduction}
 
@@ -39,7 +39,7 @@ ht-degree: 76%
 >[!NOTE]
 >
 > ディスプレイまたはプレーヤーには、最大 30 個のタグを割り当てることができます。
-> &#x200B;> 1 回の操作でタグ付けできる項目は最大 30 個です。
+> 1 回の操作でタグ付けできる項目は最大 30 個です。
 
 ## タグによるフィルタリング {#filter-by-tags}
 

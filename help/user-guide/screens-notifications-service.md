@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 97%
+source-wordcount: '492'
+ht-degree: 84%
 
 ---
 
@@ -29,12 +29,14 @@ ht-degree: 97%
 * **メール通知**
 * **ユースケース**
 
-<!-- OBSOLETE NOTE>
+<!-- 
+OBSOLETE NOTE>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3.2 Feature Pack 3 or AEM 6.4.1 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. After you have permissions you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. After you have permissions you can download it from Package Share. 
+-->
 
 ## 概要 {#overview}
 
@@ -61,7 +63,7 @@ ht-degree: 97%
    >
    >デバイスユーザーがアクセスするプロジェクトパスを指定します。
 
-   **スケジュールの頻度**：このモニターがメールを送信する時刻（例：午後 5 時または 17 時）または頻度（時間単位、例：1）を指定します。
+   **スケジュールの頻度** – このモニターがメールを送信する時刻（例：午後 5:00 または 17:00）または頻度（時間単位、例：1）を指定します。
 
    **ping タイムアウト**：このフィールドは、デバイスが到達不能と見なされるまでの経過時間を分単位で指定します。
 
@@ -71,7 +73,7 @@ ht-degree: 97%
 
    **TLS を使用**：TLS（Transport Layer Security）を使用すると、SMTP サーバーとの安全な通信を行えます。
 
-   会社のメールサーバーとの安全な接続には、TLS を使用することをお勧めします。適切な値については、メール管理者に確認してください。
+   会社のメールサーバーとの安全な接続には、TLS を使用することをお勧めします。 適切な値については、メール管理者に確認してください。
 
    **ユーザー名**：メールを送信する際のユーザー名を指定します。
 
@@ -81,7 +83,7 @@ ht-degree: 97%
 
    >[!NOTE]
    >
-   >入力できるメールアドレスは 1 つだけです。一括メールを送信するには、該当するユーザーのグループつまり配布リストを作成します。
+   >入力できるメールアドレスは 1 つだけです。 一括メールを送信するには、該当するユーザーのグループつまり配布リストを作成します。
 
 1. 「**保存**」をクリックして、AEM Screens デバイスのメールを使用した監視アクティビティを設定します。
 
@@ -102,8 +104,8 @@ ht-degree: 97%
 
 **シナリオ 1**
 
-スケジュールの頻度を午前 1 時、ping タイムアウトを 60 に設定します。次に、AEM Screens デバイスが午後 12:00 から午後 1:00 まで ping を送信しなければ、デバイスが無操作状態であることを知らせるメール通知が届きます。
+スケジュールの頻度を午前 1:00、ping タイムアウトを 60 に設定します。 次に、AEM Screens デバイスが午後 12 時から :00 後 1 時まで ping を送信しない場合は、デバイスが無操作状態であることを :00 すメール通知が届きます。
 
 **シナリオ 2**
 
-スケジュールの頻度を 1 に、ping タイムアウトを 60 に設定します。次に、AEM Screens デバイスが 1 日の間の特定の時間に 1 回も ping を送信しなかった場合は、デバイスが無操作状態であることを確認するメール通知が届きます。
+スケジュールの頻度を 1 に、ping タイムアウトを 60 に設定します。 次に、AEM Screens デバイスが 1 日の間の特定の時間に 1 回も ping を送信しなかった場合は、デバイスが無操作状態であることを確認するメール通知が届きます。

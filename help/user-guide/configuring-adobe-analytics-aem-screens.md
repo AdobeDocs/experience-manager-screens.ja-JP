@@ -10,21 +10,23 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '631'
 ht-degree: 98%
 
 ---
 
 # AEM Screens と連携する Adobe Analytics の設定 {#configuring-adobe-analytics-with-aem-screens}
 
-<!-- OBSOLETE NOTE>
+<!--
+OBSOLETE NOTE>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available if you have installed AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4.
 >
->To get access to either of these Feature Packs, contact Adobe Support and request access. When you have permissions, download it from Package Share. -->
+>To get access to either of these Feature Packs, contact Adobe Support and request access. When you have permissions, download it from Package Share. 
+-->
 
 ここでは、以下のトピックについて説明します。
 
@@ -33,7 +35,7 @@ ht-degree: 98%
 
 ## AEM Screens と連携する Adobe Analytics でのシーケンス化 {#sequencing-in-adobe-analytics-with-aem-screens}
 
-***シーケンスプロセス***&#x200B;は、Adobe Analytics サービスをアクティブ化するデータストレージサービスで開始します。チャネルコンテンツは、データテストキャプチャを含んだ Adobe Analytics イベントを Windows I/O に送信し、滞在イベントがトリガーされます。これらのイベントはインデックス DB に保存され、さらにオブジェクトストアに格納されます。管理者が設定したスケジュールに基づいて、データがオブジェクトストアから切り出され、さらにチャンクストアに転送されます。接続時に、最大量のデータ送信が試みられます。
+***シーケンスプロセス***&#x200B;は、Adobe Analytics サービスをアクティブ化するデータストレージサービスで開始します。 チャネルコンテンツは、データテストキャプチャを含んだ Adobe Analytics イベントを Windows I/O に送信し、滞在イベントがトリガーされます。 これらのイベントはインデックス DB に保存され、さらにオブジェクトストアに格納されます。 管理者が設定したスケジュールに基づいて、データがオブジェクトストアから切り出され、さらにチャンクストアに転送されます。 接続時に、最大量のデータ送信が試みられます。
 
 ### シーケンス図 {#sequencing-diagram}
 
@@ -43,7 +45,7 @@ ht-degree: 98%
 
 ## オフライン Adobe Analytics を使用したカスタムイベントの送信 {#sending-custom-events-using-offline-adobe-analytics}
 
-イベントの標準データモデルを次の表にまとめます。Adobe Analytics に送信されるすべてのフィールドが一覧されています。
+イベントの標準データモデルを次の表にまとめます。 Adobe Analytics に送信されるすべてのフィールドが一覧されています。
 
 <table>
  <tbody>
@@ -117,7 +119,7 @@ ht-degree: 98%
    <td>推奨</td> 
    <td>文字列</td> 
    <td> </td> 
-   <td>サブカテゴリ - ワークフローのセクション、スクリーンの領域など。（最近使用したファイル、CC ファイル、モバイル作品など）。</td> 
+   <td>サブカテゴリ - ワークフローのセクション、スクリーンの領域など。 （最近使用したファイル、CC ファイル、モバイル作品など）。</td> 
   </tr>
   <tr>
    <td> </td> 

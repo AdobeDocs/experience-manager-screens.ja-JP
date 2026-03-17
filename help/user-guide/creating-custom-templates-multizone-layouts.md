@@ -6,10 +6,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 100%
+source-wordcount: '893'
+ht-degree: 94%
 
 ---
 
@@ -30,16 +30,16 @@ ht-degree: 100%
 
 1. **命名規則**：
 
-   命名規則は、AEM Screens プロジェクトで使用するカスタムマルチゾーンテンプレートの作成方法を理解するのに役立ちます。ただし、まずは、作成するテンプレートの用語を理解する必要があります。
+   命名規則は、AEM Screens プロジェクトで使用するカスタムマルチゾーンテンプレートの作成方法を理解するのに役立ちます。 ただし、まずは、作成するテンプレートの用語を理解する必要があります。
 
    | **レイアウト名** | **説明** |
    |---|---|
-   | `Left20-LandscapeHD3Zone` | 次の 3 つのゾーンを作成できる 3 ゾーンの横長レイアウト：<br>* ゾーン 1、画面の左から縦横 20％<br>* ゾーン 2、右揃えで縦 20％、横 80％<br>* ゾーン 3、縦 80％、横 100％。縦横比は 16:9 |
-   | `Upper20-PortraitHD2Zone` | 画面の上から 20％を占める、縦横比 16:9、2 ゾーンの縦長テンプレート |
-   | `Right20-LandscapeSD3Zone` | 画面の右から 20％を占める、縦横比 4:3、3 ゾーンのテンプレート |
+   | `Left20-LandscapeHD3Zone` | 次の 3 つのゾーンを作成できる 3 ゾーンの横長レイアウト：<br>* ゾーン 1、画面の左から縦横 20％<br>* ゾーン 2、右揃えで縦 20％、横 80％<br>* ゾーン 3、縦 80％、横 100％。 縦横比は 16:9 です。 |
+   | `Upper20-PortraitHD2Zone` | 画面の 20% を上から覆う 2 ゾーンの縦長テンプレート。縦横比は 16:9 |
+   | `Right20-LandscapeSD3Zone` | 画面の 20% を右からカバーする 3 ゾーンテンプレート。縦横比は 4 です :3 |
 
    >[!IMPORTANT]
-   >カスタムレイアウト内で定義されたゾーンは、レイアウト全体の縦横比と一致しない場合があります。このドキュメントで従う命名規則では、カスタムレイアウト全体の縦横比を指定します。
+   >カスタムレイアウト内で定義されたゾーンは、レイアウト全体の縦横比と一致しない場合があります。 このドキュメントで従う命名規則では、カスタムレイアウト全体の縦横比を指定します。
 
 ## `Left20-LandscapeHD3Zone` レイアウトの使用例 {#custom-template-one}
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 * **`Left20`** – 画面サイズの縦横 20％を占める左上部のゾーン。
 * **`Landscape`** – 画面の向き。
-* **`HD`** – 16:9 の縦横比。
+* **`HD`** - 16:9 の縦横比。
 * **`3Zone`** – ディスプレイの 3 つのゾーン。
 
 ## マルチゾーンレイアウトの視覚表現 {#multi-layout-visual-one}
@@ -66,12 +66,12 @@ ht-degree: 100%
 
 1. AEM インスタンス／ツール／**CRXDE Lite** から **CRXDE Lite** に移動します。
 
-1. **apps** の下に、**`customtemplate`** という名前のフォルダーを作成します。同様に、次の図に示すように、**`customtemplate`** の下に、**template** という名前の別のフォルダーを作成します。
+1. **apps** の下に、**`customtemplate`** という名前のフォルダーを作成します。 同様に、次の図に示すように、**`customtemplate`** の下に、**template** という名前の別のフォルダーを作成します。
 
    ![画像](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
    >[!NOTE]
-   >コンテンツを作成、編集するたび、またはいずれかのノードにコンテンツをコピーするたびに、CRXDE Lite のアクションバーから「**すべて保存**」をクリックします。そうしないと、更新をコミットできません。
+   >コンテンツを作成、編集するたび、またはいずれかのノードにコンテンツをコピーするたびに、CRXDE Lite のアクションバーから「**すべて保存**」をクリックします。 そうしないと、更新をコミットできません。
 
 1. lbar-left テンプレートを`/libs/screens/core/templates/splitscreenchannel/lbar-left` から `/apps/customtemplate/template` にコピーします。
 
@@ -90,7 +90,7 @@ ht-degree: 100%
 
    ![画像](/help/user-guide/assets/custom-multizone/custom-template6.png)
 
-1. lbar-left テンプレートをコピーした手順（4）を参照すると、`my-custom-layout/jcr:content` の下に 3 つのレスポンシブグリッドを表示できます。*`cq:cssClass`* プロパティの各レスポンシブグリッドにカスタム css クラスを追加します。例えば、*r1c1* ノードの場合は *my-custom-layout-top-left* です。
+1. lbar-left テンプレートをコピーした手順（4）を参照すると、`my-custom-layout/jcr:content` の下に 3 つのレスポンシブグリッドを表示できます。 *`cq:cssClass`* プロパティの各レスポンシブグリッドにカスタム css クラスを追加します。例えば、*r1c1* ノードの場合は *my-custom-layout-top-left* です。
 
    ![画像](/help/user-guide/assets/custom-multizone/custom-template7.png)
 
@@ -100,7 +100,7 @@ ht-degree: 100%
    >これらのカスタムクラスは、レスポンシブグリッドの幅と高さを設定するために CSS で使用されます。
 
    >[!NOTE]
-   >レスポンシブグリッドは、必要な合計グリッド数に基づいて追加または削除できます。この例では、最初の行に 2 つのグリッドを、2 番目の行に 1 つのグリッドを表示しているので、合計 3 つのレスポンシブグリッド（r1c1、r1c2、r2c1）があります。
+   >レスポンシブグリッドは、必要な合計グリッド数に基づいて追加または削除できます。 この例では、最初の行に 2 つのグリッドを、2 番目の行に 1 つのグリッドを表示しているので、合計 3 つのレスポンシブグリッド（r1c1、r1c2、r2c1）があります。
 
 1. `/libs/settings/wcm/designs/screens` を `/apps/settings/wcm/designs/` にコピーして、コピーしたデザインの名前を **custom-template-designs** に変更します。
 
@@ -148,11 +148,11 @@ ht-degree: 100%
 
    ![画像](/help/user-guide/assets/custom-multizone/custom-template9.png)
 
-1. カスタマイズしたテンプレートを使用してチャネルを作成したら、エディターからチャネルにアセットを追加できます。次のプレビューは、カスタムテンプレート内の画像を示しています。
+1. カスタマイズしたテンプレートを使用してチャネルを作成したら、エディターからチャネルにアセットを追加できます。 次のプレビューは、カスタムテンプレート内の画像を示しています。
 
    ![画像](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
-## 背景レイヤーとしての画像の挿入  {#inserting-image}
+## 背景レイヤーとしての画像の挿入 {#inserting-image}
 
 画像を背景レイヤーとしてレイアウトに挿入できます。
 

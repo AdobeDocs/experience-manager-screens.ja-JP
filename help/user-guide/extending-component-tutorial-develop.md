@@ -129,7 +129,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
    1. ダイアログのコピー元：`/libs/wcm/foundation/components/image/cq:dialog`
    1. ダイアログの貼り付け先のパス：`/apps/weretail-run/components/content/poster`
 
-   ![ ダイアログを/libs/wcm/foundation/components/image/cq:dialogから/apps/weretail-run/components/content/poster](assets/2018-05-03_at_4_13pm.png)にコピーしました
+   ![&#x200B; ダイアログを/libs/wcm/foundation/components/image/cq:dialogから/apps/weretail-run/components/content/poster](assets/2018-05-03_at_4_13pm.png)にコピーしました
 
    ダイアログを `/libs/wcm/foundation/components/image/cq:dialog` から `/apps/weretail-run/components/content/poster` にコピーしました
 

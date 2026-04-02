@@ -8,7 +8,7 @@ user-guide-description: 動的でインタラクティブなデジタルエク�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 8d86b0ac2038cec2da89d66920728de8636b33aa
+source-git-commit: dce7f8bdd8c1c8d66b84d7d112e6e59f40a903dc
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 90%
@@ -143,3 +143,4 @@ ht-degree: 90%
    + [機能パック 201905 のリリースノート](screens-release-notes-fp-201905.md)
    + [機能パック 201812 のリリースノート](release-notes-fp-201812.md)
    + [機能パック 201809 のリリースノート](screens-release-notes.md)
+

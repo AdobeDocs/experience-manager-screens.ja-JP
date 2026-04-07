@@ -8,10 +8,10 @@ user-guide-description: 動的でインタラクティブなデジタルエク�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 6a1ecea5d54da483c3033d0be0555b2d0dc71c83
+source-git-commit: dce7f8bdd8c1c8d66b84d7d112e6e59f40a903dc
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 92%
+source-wordcount: '581'
+ht-degree: 90%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 92%
 # AEM Screens ユーザーガイド {#user-guide}
 
 + [Screens の概要](aem-screens-introduction.md)
-+ 概要とキックスタートガイド {#overview}
++ 概要とスタートガイド {#overview}
    + [キックスタートガイド](kickstart-for-aem-screens.md)
-   + [Screens ベストプラクティスガイド](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/using/about-guide)
+   + [Screensのベストプラクティスガイド](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/using/about-guide)
    + [キーワード](screens-glossary.md)
    + [Screens の用語と概念](screens-concepts-feature-video-understand.md)
-+ デジタルサイネージネットワークの基礎知識 {#digital-signage-network}
++ デジタルサイネージネットワークの基本 {#digital-signage-network}
    + [第 1 部：プロジェクト上の役割と責務](project-roles-responsibilities.md)
    + [第 2 部：プロジェクト範囲を定義する際の検討事項](project-considerations.md)
    + [第 3 部：テスト、POC、パイロットとロールアウト](testing-pocs-pilots-rollouts.md)
@@ -45,19 +45,19 @@ ht-degree: 92%
    + クライアント固有の考慮事項 {#installing-client}
       + [Chrome OS プレーヤー](implementing-chrome-os-player.md)
       + [拡張機能としての Chrome プレーヤーの使用](using-chrome-player-as-an-extension.md)
-      + [Android](implementing-android-player.md)
+      + [Android™ Player](implementing-android-player.md)
       + [Windows プレーヤー](implementing-windows-player.md)
       + [Tizen プレーヤー](tizen-player.md)
       + [Cloud Player](implementing-cloud-player.md)
       + [プレーヤーの自動登録](auto-registration-players.md)
       + [リモート制御の使用](implementing-remote-control.md)
-   + オーサー/パブリッシュ {#author-publish}
+   + オーサー公開 {#author-publish}
       + [オーサーとパブリッシュのアーキテクチャの概要](author-publish-architecture-overview.md)
       + [オーサーとパブリッシュの設定](author-and-publish.md)
-   + Analytics とAEM Screensの統合 {#analytics-integration}
+   + Adobe AnalyticsとAEM Screensの統合 {#analytics-integration}
       + [Adobe Analytics との統合](adobe-analytics-integration-aem-screens.md)
       + [AEM Screens と連携する Adobe Analytics の設定](configuring-adobe-analytics-aem-screens.md)
-+ オーサリングと使用例 {#authoring}
++ オーサリングとユースケース {#authoring}
    + Screens プロジェクトの設定 {#setting-up-projects}
       + [プロジェクトの作成と管理](creating-a-screens-project.md)
       + [チャネルの作成と管理](managing-channels.md)
@@ -94,7 +94,7 @@ ht-degree: 92%
       + [オンデマンドのコンテンツ更新](on-demand-content.md)
       + [サービスとしてのコンテンツの更新](content-update-as-a-service.md)
       + [Screens ローンチを使用したコンテンツの更新](launches.md)
-   + 使用例 {#use-case-examples}
+   + 事例 {#use-case-examples}
       + [緊急チャネル](emergency-channel.md)
       + [旅行センター向けの気温に応じたアクティベーション](local-temperature-activation.md)
       + [接客業向け予約状況に応じたアクティベーション](hospitality-reservation-activation.md)
@@ -103,7 +103,7 @@ ht-degree: 92%
       + [マルチゾーンからシングルゾーンへの切り替え](multizone-to-singlezone.md)
       + [単一使用テイクオーバーチャネル](single-use-takeover-channel.md)
       + [永続使用テイクオーバーチャネル](perpetual-takeover-channel.md)
-+ 開発者向けリソースと API リソース {#developing}
++ 開発者およびAPIのリソース {#developing}
    + [REST API](rest-api.md)
    + [AEM Screens 用カスタムコンポーネントの開発](developing-custom-component-tutorial-develop.md)
    + [オフラインチャネル](offline-channels.md)
@@ -114,11 +114,12 @@ ht-degree: 92%
    + [マルチゾーンレイアウトでのカスタムテンプレートの作成](creating-custom-templates-multizone-layouts.md)
    + [テキストオーバーレイのカスタムブランディングとスタイルの適用](custom-branding-text-overlays.md)
    + [アダプティブレンディション：アーキテクチャ概要と設定](/help/user-guide/adaptive-renditions.md)
-+ トラブルシューティングと FAQ {#troubleshooting}
++ トラブルシューティングとFAQ {#troubleshooting}
    + [AEM Screens 関する FAQ](aem-screens-faqs.md)
    + [デバイスコントロールセンターのトラブルシューティング](monitoring-screens.md)
    + [ビデオ再生の設定](troubleshoot-videos.md)
 + リリースノート {#release-notes}
+   + [機能パック 20260318のリリースノート](release-notes-fp-20260318.md)
    + [機能パック 20251007 のリリースノート](release-notes-fp-20251007.md)
    + [機能パック 20250327 のリリースノート](release-notes-fp-20250327.md)
    + [機能パック 20250224 のリリースノート](release-notes-fp-20250224.md)
@@ -142,3 +143,4 @@ ht-degree: 92%
    + [機能パック 201905 のリリースノート](screens-release-notes-fp-201905.md)
    + [機能パック 201812 のリリースノート](release-notes-fp-201812.md)
    + [機能パック 201809 のリリースノート](screens-release-notes.md)
+

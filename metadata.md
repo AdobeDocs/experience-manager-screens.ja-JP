@@ -9,7 +9,7 @@ landing-page-name: experience-manager
 landing-page-breadcrumb-title: AEM
 type: Documentation
 index: true
-git-repo: https://github.com/AdobeDocs/experience-manager-screens.en
+git-repo: https://github.com/AdobeDocs/experience-manager-screens.ja-JP
 recommendations: noDisplay
 source-git-commit: afd878a5b0df9a304f3b5475819e8a7fa0112f7d
 workflow-type: tm+mt

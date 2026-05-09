@@ -2,7 +2,9 @@
 cloud: Experience Cloud
 solution-title: AEM Screens
 solution: Experience Manager, Experience Manager Screens
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
 landing-page-name: experience-manager
 landing-page-breadcrumb-title: AEM
 type: Documentation

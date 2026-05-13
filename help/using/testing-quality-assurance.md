@@ -66,7 +66,7 @@ AEM Screens には、Screens Player アプリケーションエンドポイン�
 1. コンテンツダウンロードの管理
 1. アプリケーションの再起動に関する問題の管理
 
-***デバイスコントロールセンター***&#x200B;について詳しくは、**AEM Screens ユーザーガイド**&#x200B;の[デバイスコントロールセンターのトラブルシューティング](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens)を参照してください。
+***デバイスコントロールセンター***&#x200B;について詳しくは、**AEM Screens ユーザーガイド**&#x200B;の[デバイスコントロールセンターのトラブルシューティング](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens)を参照してください。
 
 >[!CAUTION]
 >

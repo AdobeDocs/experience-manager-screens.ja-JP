@@ -3,9 +3,13 @@ title: '[!UICONTROL AEM Screens] の前提条件'
 description: AEM Screens プロジェクトを開始する前に、前提条件を確認してください。
 exl-id: ff305a6c-02cb-4c06-a457-9a22f525fab5
 TQID: https://experienceleague.adobe.com/dk-19TSfxyU66bjfuv5yE6Avfq1c3QJhGpVtFe8aWQU
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
 source-wordcount: 712

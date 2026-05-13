@@ -7,12 +7,22 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
 TQID: https://experienceleague.adobe.com/2AALuBZHZkc0HhlqvmSKvBTVEr-MRlwqNs15ETiA8Lk
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2: id: ba4275ba-c29a-4197-90dc-5a633402ca3cid: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
 source-wordcount: 1808

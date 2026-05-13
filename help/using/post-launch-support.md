@@ -3,8 +3,11 @@ title: 運用開始後のサポート
 description: AEM Screens の運用開始後のサポートについては、ベストプラクティスガイドを参照してください。
 exl-id: cd7442ed-52a4-43d2-adc7-f643f4f16581
 TQID: https://experienceleague.adobe.com/PrdfsEIOJySNyu7GvWpOptg-AkyP-HFkxrbnMbJKaho
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
 source-wordcount: 390
@@ -16,7 +19,7 @@ ht-degree: 99%
 
 運用開始後の初期段階のサポートを見逃さないようにしてください。
 
-サイトがハードウェアベンダーから十分なサポートを受けられるようにすることは、ビジネス運営にとって非常に重要です。 **オーディオビデオインテグレーター**は、ビジネス関係者と緊密に連携し、必要な要件を様々な角度から特定する必要があります。
+サイトがハードウェアベンダーから十分なサポートを受けられるようにすることは、ビジネス運営にとって非常に重要です。 **オーディオビデオインテグレーター**&#x200B;は、ビジネス関係者と緊密に連携し、必要な要件を様々な角度から特定する必要があります。
 運用開始後のサポートでは、以下の要件を検討してください。
 
 * リモートデバイス管理

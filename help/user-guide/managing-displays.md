@@ -10,11 +10,19 @@ role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
 TQID: https://experienceleague.adobe.com/orHLShhCxLB8T9Dm8Vvihvy7GNGrmJQZt8toCPs5c3k
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2: id: d8e42837-75d7-4e4e-accd-d0cdd8efe1f4id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: d8e42837-75d7-4e4e-accd-d0cdd8efe1f4
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
 source-wordcount: 664

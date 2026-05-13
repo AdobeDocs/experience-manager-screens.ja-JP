@@ -3,8 +3,11 @@ title: アダプティブレンディションのアーキテクチャ概要と�
 description: AEM Screens のアダプティブレンディションのアーキテクチャ概要と CRXDE Lite での設定について説明します。
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
 TQID: https://experienceleague.adobe.com/6kL7RJWr-AJQsQdBqE-GI8lI-6QQXTNiRXP4maEdmzA
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
 source-wordcount: 672

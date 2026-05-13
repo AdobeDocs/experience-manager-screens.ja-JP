@@ -6,10 +6,15 @@ role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
 TQID: https://experienceleague.adobe.com/bbQW2pnyxEfjm8d5SveI-CGuQN5RZCVmDt35iK3Ysxs
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
 source-wordcount: 579

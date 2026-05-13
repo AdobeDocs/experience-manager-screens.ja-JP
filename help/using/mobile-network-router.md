@@ -3,9 +3,13 @@ title: モバイルデータルーターとアクティブなネットワーク�
 description: このページは、モバイルデータルーターとアクティブなネットワークコンポーネントを使用したモバイルネットワークについて説明しています
 exl-id: a6b44a04-438d-49d4-ac98-32629c11dcdb
 TQID: https://experienceleague.adobe.com/uKyl9w97xF0m6W9kj-PTAbIgt5HtZRAgkOUCstAuti4
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
 source-wordcount: 1050

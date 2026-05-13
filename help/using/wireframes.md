@@ -3,8 +3,11 @@ title: ワイヤーフレーム
 description: AEM Screens プロジェクトのワイヤーフレームの使用について説明します。
 exl-id: 7aa16e3b-9ab6-4687-b897-8b1be4c2825d
 TQID: https://experienceleague.adobe.com/vZIM1FREMXC5FemQIbC5F5O27wTU6acsRyv5GP5zDEw
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
 source-wordcount: 199

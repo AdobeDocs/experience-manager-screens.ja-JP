@@ -10,16 +10,21 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/mb21H-Ky-ySuMvkF75Vhm8Zxzc4zRB65RBVu8hUrFHA
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 97%
+source-wordcount: 781
+ht-degree: 92%
 
 ---
 
 # デバイスコントロールセンターのトラブルシューティング {#troubleshooting-device-control-center}
 
-デバイスダッシュボードを使用して、AEM Screens Player のアクティビティやデバイスのパフォーマンスの監視とトラブルシューティングを行うことができます。このページでは、Screens Player や割り当てられているデバイスを監視し、確認されたパフォーマンスの問題をトラブルシューティングする方法について説明します。
+デバイスダッシュボードを使用して、AEM Screens Player のアクティビティやデバイスのパフォーマンスの監視とトラブルシューティングを行うことができます。 このページでは、Screens Player や割り当てられているデバイスを監視し、確認されたパフォーマンスの問題をトラブルシューティングする方法について説明します。
 
 ## デバイスコントロールセンターからの監視およびトラブルシューティング {#monitor-and-troubleshoot-from-device-control-center}
 
@@ -49,7 +54,7 @@ ht-degree: 97%
 
 ### デバイスアクティビティの監視 {#monitor-device-activity}
 
-**アクティビティ**&#x200B;パネルには、AEM Screens Player の最後の ping がタイムスタンプと共に表示されます。最後の ping は、デバイスがサーバーに最後にアクセスした時間と一致します。
+**アクティビティ**&#x200B;パネルには、AEM Screens Player の最後の ping がタイムスタンプと共に表示されます。 最後の ping は、デバイスがサーバーに最後にアクセスした時間と一致します。
 
 ![chlimage_1](assets/chlimage_1.png)
 
@@ -69,15 +74,15 @@ ht-degree: 97%
 
 ### デバイス情報の更新 {#update-device-information}
 
-**デバイス情報**&#x200B;パネルを確認します。ここでは、設定の更新、デバイスモデル、デバイス OS、シェル情報などを表示できます。
+**デバイス情報**&#x200B;パネルを確認します。 ここでは、設定の更新、デバイスモデル、デバイス OS、シェル情報などを表示できます。
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
-また、デバイス情報パネルの右上隅にある「**...**」をクリックして、プロパティを表示したり、デバイスをアップデートしたりすることもできます。
+また、（**...**）をクリックします デバイス情報パネルの右上隅から、プロパティを表示するか、デバイスを更新します。
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
-「**プロパティ**」をクリックすると、**デバイスのプロパティ**&#x200B;ダイアログボックスが表示されます。デバイスのタイトルを編集したり、設定の更新のオプションとして「**手動**」または「**自動**」を選択したりすることができます。
+「**プロパティ**」をクリックすると、**デバイスのプロパティ**&#x200B;ダイアログボックスが表示されます。 デバイスのタイトルを編集したり、設定の更新のオプションとして「**手動**」または「**自動**」を選択したりすることができます。
 
 >[!NOTE]
 >
@@ -89,7 +94,7 @@ ht-degree: 97%
 
 **プレーヤーのスクリーンショット**&#x200B;パネルを使用すると、デバイスからプレーヤーのスクリーンショットを表示できます。
 
-プレーヤーのスクリーンショットパネルの右上隅にある（「**...**」）をクリックし、「**スクリーンショットを更新**」をクリックすると、実行中のプレーヤーのスナップショットが表示されます。
+クリック （**...**） プレーヤーのスクリーンショットパネルの右上隅にある「**スクリーンショットを更新**」をクリックして、実行中のプレーヤーのスナップショットを表示します。
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -102,12 +107,12 @@ ht-degree: 97%
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
 
-また、右上隅の「**設定**」をクリックして、デバイスの環境設定を更新します。更新できる環境設定は次のとおりです。
+また、右上隅の「**設定**」をクリックして、デバイスの環境設定を更新します。 更新できる環境設定は次のとおりです。
 
 * **サーバー URL**
 * **解像度**
 * **スケジュールを再起動**
-* **保存するログファイルの最大数**
+* **保存するログファイルの 最大数**
 * **ログレベル**
 
 ![screen_shot_2019-09-05at14511pm](assets/screen_shot_2019-09-05at14511pm.png)
@@ -125,13 +130,13 @@ ht-degree: 97%
 
 ## OSGi 設定のトラブルシューティング {#troubleshoot-osgi-settings}
 
-デバイスからサーバーへのデータの投稿を許可するには、空のリファラーを有効にします。例えば、空のリファラーのプロパティが無効になっていると、デバイスからスクリーンショットを投稿できません。
+デバイスからサーバーへのデータの投稿を許可するには、空のリファラーを有効にします。 例えば、空のリファラーのプロパティが無効になっていると、デバイスからスクリーンショットを投稿できません。
 
-現在、これらの機能の一部は、OSGi 設定で *`Apache Sling Referrer Filter Allow Empty`* が有効になっている場合にのみ使用できます。 ダッシュボードには、セキュリティ設定がこれらの機能の一部の動作を妨げる可能性があることを示す警告が表示される場合があります。
+現在、これらの機能の一部は、*`Apache Sling Referrer Filter Allow Empty`*&#x200B;がOSGi設定で有効になっている場合にのみ使用できます。 ダッシュボードには、セキュリティ設定がこれらの機能の一部の動作を妨げる可能性があることを示す警告が表示される場合があります。
 
 Apache Sling Referrer Filter の Allow Empty 設定を有効にするには、次の手順を実行します。
 
-1. **Adobe Experience Manager Web Console Configuration**（`https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`）に移動します。
+1. **Adobe Experience Manager web コンソール設定**（`https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`）に移動します。
 1. 「**allow.empty**」オプションをオンにします。
 1. 「**保存**」をクリックします。
 
@@ -141,7 +146,7 @@ Apache Sling Referrer Filter の Allow Empty 設定を有効にするには、�
 
 次の節では、ヘルスを把握したり、問題に対処したりするために、ネットワークリンク、サーバーおよびプレーヤーを監視することが推奨されています。
 
-AEM には、次を監視する機能が組み込まれています。
+AEM には、次を監視するビルトインの機能があります。
 
 * 5 秒間隔の&#x200B;*ハートビート*&#x200B;は、AEM Screens Player が動作中であることを示します。
 * プレーヤーの&#x200B;*スクリーンショット*&#x200B;は、プレーヤーに何が表示されているかを示します。

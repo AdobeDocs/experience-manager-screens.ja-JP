@@ -10,9 +10,14 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/KKpBuSTtOex2pEiA19fzMIv0IIngpQdE9It8yLS-Eds
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: 727
 ht-degree: 98%
 
 ---
@@ -39,7 +44,7 @@ ht-degree: 98%
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
 
-1. デバイスで、AEM Screens Player を起動します。登録 UI が表示されます。
+1. デバイスで、AEM Screens Player を起動します。 登録 UI が表示されます。
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
@@ -82,7 +87,7 @@ ht-degree: 98%
    >
    >「**新規登録**」では、新しいデバイスを登録できます。
    >
-   >**ディスプレイを割り当て**：デバイスをディスプレイに直接追加できます。
+   >**ディスプレイを割り当て**&#x200B;すると、デバイスをディスプレイに直接追加できます。
 
    「**完了**」をクリックする場合は、デバイスをディスプレイに割り当てます。
 
@@ -146,15 +151,15 @@ ht-degree: 98%
   >[!NOTE]
   >デバイス名は、「*`BostonStoreLobby`*」のように 1 単語ではなく、「*`Boston Store Lobby`*」のように複数の単語で作成することをお勧めします。
 
-* *`Boston Store Lobby`* のようなデバイス名を作成した場合は、*`boston`*、*`store`*、*`lobby`* のいずれかに一致する任意の単語が検索されます。ただし、デバイス名が *`BostonStoreLobby`* の場合、*`boston`* を検索しても結果は表示されません。
+* *`Boston Store Lobby`* のようなデバイス名を作成した場合は、*`boston`*、*`store`*、*`lobby`* のいずれかに一致する任意の単語が検索されます。 ただし、デバイス名が *`BostonStoreLobby`* の場合、*`boston`* を検索しても結果は表示されません。
 
-* 検索ではワイルドカード（`*`）がサポートされています。「*`boston`*」で始まるすべてのデバイスを検索する場合は、「*`boston`**」を使用できます。
+* 検索ではワイルドカード（`*`）がサポートされています。 「*`boston`*」で始まるすべてのデバイスを検索する場合は、「*`boston`**」を使用できます。
 
 * デバイス名が *`BostonStoreLobby`* で、*`boston`* を検索しても結果が返されない場合は、検索条件で *`boston`** を使用すると、結果が返されます。
 
 ## デバイスの登録の制限 {#limitations-on-device-registration}
 
-システム全体のユーザーパスワード制限により、デバイスの登録に失敗することがあります。デバイスの登録では、ランダムに生成されたパスワードを使用してデバイスユーザーを作成します。
+システム全体のユーザーパスワード制限により、デバイスの登録に失敗することがあります。 デバイスの登録では、ランダムに生成されたパスワードを使用してデバイスユーザーを作成します。
 
 *AuthorizableActionProvider* 設定によってパスワードが制限される場合は、デバイスユーザーの作成に失敗する可能性があります。
 

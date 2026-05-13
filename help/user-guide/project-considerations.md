@@ -10,9 +10,15 @@ feature: Overview
 role: User, Developer
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
+TQID: https://experienceleague.adobe.com/KlRNE9SBHb1VaJJX2noHY-qzGoEOqFLKD22L3vDJ1K8
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: f18e6c98-d21a-4444-b84b-f327ce464de4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40did: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: 657
 ht-degree: 98%
 
 ---
@@ -55,7 +61,7 @@ I/O は、オーディエンスの近接性の検知に基づいて、コンテ�
 * アニメーションはビデオまたは HTML プログラムとして再生されるか？
 * コンテンツサブスクリプションサービス、ソーシャルメディア、RSS 集約サービスまたは API 呼び出しなどとのサードパーティ統合があるか？
 * 画像の解像度にはどのような要件があるか。
-* Screens は 16:9 の縦横比を標準にしていますか、カスタムですか。 縦置きか横置きか。
+* 画面は標準の縦横比16:9ですか、それともカスタムですか？ 縦置きか横置きか。
 * マルチスクリーンビデオウォールは必要か？ その場合、どのような設定か？
 * コンテンツは、運用収益や広告収益に結び付けられていて、ダウンタイムを防ぐためのフェイルオーバー戦略が必要か？
 

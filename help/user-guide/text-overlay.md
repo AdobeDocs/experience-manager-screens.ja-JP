@@ -10,10 +10,17 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+TQID: https://experienceleague.adobe.com/Vf9FDFJ9XI-vMFniqvL4jtq9afwXRRwNFnKyYjk-dBg
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aedid: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 100%
+source-wordcount: 788
+ht-degree: 96%
 
 ---
 
@@ -32,11 +39,11 @@ ht-degree: 100%
 
 ## 概要 {#overview}
 
-テキストオーバーレイは、AEM Screensで利用できる機能です。画像の上に重ねて表示されるタイトルや説明を指定してシーケンスチャネルで魅力的なエクスペリエンスを作成することができます。
+テキストオーバーレイは、AEM Screensで利用できる機能です。 画像の上に重ねて表示されるタイトルや説明を指定してシーケンスチャネルで魅力的なエクスペリエンスを作成することができます。
 
 独自のカスタムコンポーネントの作成方法については、**AEM Screens コンポーネントの拡張**&#x200B;を参照してください。
 
-この節では、AEM Screens プロジェクトでポスターコンポーネントを使用および適用する方法のみを示します。また、シーケンスチャネルの 1 つでテキストオーバーレイとして使用する方法も紹介します。
+この節では、AEM Screens プロジェクトでポスターコンポーネントを使用および適用する方法のみを示します。 また、シーケンスチャネルの 1 つでテキストオーバーレイとして使用する方法も紹介します。
 
 ## テキストオーバーレイの使用 {#using-text-overlay}
 
@@ -44,7 +51,7 @@ ht-degree: 100%
 
 **前提条件**
 
-この機能を実装する前に、テキストオーバーレイの実装を開始するための前提条件として、プロジェクトをセットアップしておく必要があります。次に例を示します。
+この機能を実装する前に、テキストオーバーレイの実装を開始するための前提条件として、プロジェクトをセットアップしておく必要があります。 次に例を示します。
 
 * AEM Screens プロジェクト（この例では **TextOverlayDemo**）を作成する
 
@@ -72,7 +79,7 @@ ht-degree: 100%
 
 ### テキストオーバーレイのプロパティについて {#understanding-text-overlay-properties}
 
-テキストオーバーレイのプロパティを使用すると、Screens プロジェクトの任意のコンポーネントにテキストを追加できます。この節では、「テキストオーバーレイ」タブで使用できるプロパティの概要を説明します。
+テキストオーバーレイのプロパティを使用すると、Screens プロジェクトの任意のコンポーネントにテキストを追加できます。 この節では、「テキストオーバーレイ」タブで使用できるプロパティの概要を説明します。
 
 ![text](assets/text.gif)
 
@@ -84,7 +91,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->詳細設定ツールを適切に使用するには、「px」をサフィックスとして使用して、正しい位置をピクセル単位で指定する必要があります（例：200 px）。この式の結果は、開始点から 200 ピクセルになります。
+>詳細設定ツールを適切に使用するには、「px」をサフィックスとして使用して、正しい位置をピクセル単位で指定する必要があります（例：200 px）。 この式の結果は、開始点から 200 ピクセルになります。
 
 ## テキストオーバーレイでの ContextHub 値の使用 {#using-text-overlay-context-hub}
 
@@ -124,12 +131,12 @@ AEM Screens プロジェクトの ContextHub 設定を設定します。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. **画像**&#x200B;ダイアログボックスから「**ContextHub**」タブに移動します。「**追加**」をクリックします。
+1. **画像**&#x200B;ダイアログボックスから「**ContextHub**」タブに移動します。 「**追加**」をクリックします。
 
    >[!NOTE]
    >ContextHub 設定を行っていない場合、このオプションはプロジェクトで無効になります。
 
-1. **プレースホルダー**&#x200B;フィールドに&#x200B;**値**&#x200B;を入力します。**ContextHub 変数**&#x200B;で、Google スプレッドシートから値を取得する行をクリックします。この場合、値は Google Sheets の行 2 と列 1 から取得されます。次の図に示すように、**デフォルト値**&#x200B;を **20** と入力します。完了したら、チェックマークをクリックします。
+1. **プレースホルダー**&#x200B;フィールドに&#x200B;**値**&#x200B;を入力します。 **ContextHub 変数**&#x200B;で、Google スプレッドシートから値を取得する行をクリックします。 この場合、値は Google Sheets の行 2 と列 1 から取得されます。 次の図に示すように、**デフォルト値**&#x200B;を **20** と入力します。 完了したら、チェックマークをクリックします。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
@@ -138,7 +145,7 @@ AEM Screens プロジェクトの ContextHub 設定を設定します。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay6.png)
 
-1. 次の図に示すように、画像ダイアログボックスから&#x200B;**テキストオーバーレイ**&#x200B;タブに戻り、「*Current Temperature {Value}*」というテキストを追加します。
+1. 画像ダイアログボックスから「**テキストオーバーレイ**」タブに戻り、次の図に示すように、「*現在の温度{Value}*」というテキストを追加します。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 

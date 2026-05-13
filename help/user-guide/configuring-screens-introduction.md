@@ -1,6 +1,6 @@
 ---
 title: AEM Screens の設定とデプロイ
-description: AEM Screens Player は Android&trade、Chrome OS、iOS、Windows で使用できます。AEM Screens の設定とデプロイメントについて説明します。
+description: AEM Screens Playerは、Android&trade;、Chrome OS、iOS、およびWindowsで使用できます。 AEM Screens の設定とデプロイメントについて説明します。
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,10 +9,14 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+TQID: https://experienceleague.adobe.com/Vtg1Wvu3G7YZN4vLHCC79s28SxABDyIzFwIDG-rTvII
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 100%
+source-wordcount: 697
+ht-degree: 97%
 
 ---
 
@@ -24,7 +28,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->AEM Screens Player は、クロスサイトリクエストフォージェリー（CSRF）トークンを使用しません。そのため、AEM サーバーを AEM Screens で使用できるように設定する場合は、空のリファラーを許可してリファラーフィルターをスキップします。
+>AEM Screens Player は、クロスサイトリクエストフォージェリー（CSRF）トークンを使用しません。 そのため、AEM サーバーを AEM Screens で使用できるように設定する場合は、空のリファラーを許可してリファラーフィルターをスキップします。
 
 ## ヘルスチェックフレームワーク {#health-check-framework}
 
@@ -37,7 +41,7 @@ ht-degree: 100%
 
 次の手順に従って、AEM Screens でこれら 2 つの重要な設定が有効になっているかどうかを確認します。
 
-1. [Adobe Experience Manager Web コンソール Sling Health Check ](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=)に移動します。
+1. [Adobe Experience Manager Web コンソール Sling Health Check ](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&overrideGlobalTimeout=)に移動します。
 
    ![アセット](assets/health-check1.png)
 
@@ -68,7 +72,7 @@ AEM Screens で使用できるように AEM サーバーを設定する際に役
 
    ![画像](assets/config/empty-ref1.png)
 
-1. **Adobe Experience Manager Web コンソール設定**&#x200B;が開きます。「sling referrer」を検索します。
+1. **Adobe Experience Manager Web コンソール設定**&#x200B;が開きます。 「sling referrer」を検索します。
 
    「sling referrer」プロパティを検索するには、**Command + F** キー（**Mac**）または **Ctrl + F** キー（**Windows**）を押します。
 
@@ -81,11 +85,11 @@ AEM Screens で使用できるように AEM サーバーを設定する際に役
 
 #### Apache Felix Jetty Based HTTP Service {#allow-apache-felix-service}
 
-1. AEM インスタンス／ハンマーアイコン／**操作**／**web コンソール**&#x200B;を使用して、**Adobe Experience Manager web コンソール設定**&#x200B;に移動します。
+1. AEM インスタンス／ハンマーアイコン／**操作**／**Web コンソール**&#x200B;を使用して、**Adobe Experience Manager Web コンソール設定**&#x200B;に移動します。
 
    ![画像](assets/config/empty-ref1.png)
 
-1. **Adobe Experience Manager Web コンソール設定**&#x200B;が開きます。「Apache Felix Jetty Based HTTP Service」を検索します。
+1. **Adobe Experience Manager Web コンソール設定**&#x200B;が開きます。 「Apache Felix Jetty Based HTTP Service」を検索します。
 
    このプロパティを検索するには、**Command+F** キー（**Mac**）または **Ctrl+F** キー（**Windows**）を押します。
 
@@ -112,7 +116,7 @@ AEM Screens にはタッチ操作対応 UI が必要で、Adobe Experience Manag
 
 #### NOSAMPLECONTENT 実行モードの AEM {#aem-in-nosamplecontent-runmode}
 
-本番環境での AEM の実行には、**NOSAMPLECONTENT** 実行モードを使用します。次の場所に移動して、（追加の応答ヘッダーセクションにある）*X-Frame-Options=SAMEORIGIN* ヘッダーを削除します。
+本番環境での AEM の実行には、**NOSAMPLECONTENT** 実行モードを使用します。 次の場所に移動して、（追加の応答ヘッダーセクションにある）*X-Frame-Options=SAMEORIGIN* ヘッダーを削除します。
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`。
 
@@ -130,7 +134,7 @@ AEM Screens にはタッチ操作対応 UI が必要で、Adobe Experience Manag
 
 1. AEM インスタンス／ハンマーアイコン／**操作**／**web コンソール**&#x200B;を使用して、**Adobe Experience Manager web コンソール設定**&#x200B;に移動します。
 
-1. **Adobe Experience Manager web コンソール設定**&#x200B;が開きます。`*deviceservice*` を検索します。このプロパティを検索するには、**Command + F** キー（macOS）または **Ctrl + F** キー（Microsoft® Windows）を押します。
+1. **Adobe Experience Manager web コンソール設定**&#x200B;が開きます。 `*deviceservice*` を検索します。 このプロパティを検索するには、**Command + F** キー（macOS）または **Ctrl + F** キー（Microsoft® Windows）を押します。
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
@@ -140,7 +144,7 @@ AEM Screens プロジェクトの Dispatcher を設定する方法について�
 
 #### Java™ エンコーディング {#java-encoding}
 
-***Java™ エンコーディング***&#x200B;を Unicode に設定します。例：`*Dfile.encoding=Cp1252*` は機能しません。
+***Java™ エンコーディング***&#x200B;を Unicode に設定します。 例：`*Dfile.encoding=Cp1252*` は機能しません。
 
 >[!NOTE]
 >

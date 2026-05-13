@@ -2,10 +2,14 @@
 title: テストと品質保証
 description: AEM Screens のテストと品質保証については、ベストプラクティスガイドを参照してください。
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+TQID: https://experienceleague.adobe.com/So83gHv7n21zhdoCdWHVf0yswyQuSr1hLWmCA7uHSiE
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 100%
+source-wordcount: 346
+ht-degree: 97%
 
 ---
 
@@ -21,11 +25,11 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->この段階は、インストールおよびユーザーガイドを作成するためのツールとしても使用します。どちらも後で機器に同梱し、将来の参照用に現場に保管できます。
+>この段階は、インストールおよびユーザーガイドを作成するためのツールとしても使用します。 どちらも後で機器に同梱し、将来の参照用に現場に保管できます。
 
 次の要素を考慮する必要があります。
 
-## 1. 機械に関する考慮事項 {#mechanical-considerations}
+## &#x200B;1. 機械的な検討事項 {#mechanical-considerations}
 
 以下の機械に関する考慮事項を推奨します。
 
@@ -36,7 +40,7 @@ ht-degree: 100%
 * ケーブル管理
 * デバイスネットワーク
 
-## 2. ソフトウェアに関する考慮事項 {#software-considerations}
+## &#x200B;2. ソフトウェアの考慮事項 {#software-considerations}
 
 以下のソフトウェアに関する考慮事項を推奨します。
 
@@ -46,7 +50,7 @@ ht-degree: 100%
 * データベースの依存関係（定義済み）
 
 
-## 3. デバイス管理に関する考慮事項 {#device-management-considerations}
+## &#x200B;3. デバイス管理の考慮事項 {#device-management-considerations}
 
 AEM Screens には、Screens Player アプリケーションエンドポイントを管理するためのデバイスコントロールセンターモジュールが含まれています。
 
@@ -58,7 +62,7 @@ AEM Screens には、Screens Player アプリケーションエンドポイン�
 1. コンテンツダウンロードの管理
 1. アプリケーションの再起動に関する問題の管理
 
-***デバイスコントロールセンター***&#x200B;について詳しくは、**AEM Screens ユーザーガイド**&#x200B;の[デバイスコントロールセンターのトラブルシューティング](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens)を参照してください。
+***デバイスコントロールセンター***&#x200B;について詳しくは、**AEM Screens ユーザーガイド**&#x200B;の[デバイスコントロールセンターのトラブルシューティング](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens)を参照してください。
 
 >[!CAUTION]
 >

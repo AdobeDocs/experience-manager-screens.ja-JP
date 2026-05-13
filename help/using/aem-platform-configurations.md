@@ -2,10 +2,14 @@
 title: AEM Platform 設定
 description: ここでは、AEM Platform の設定について説明します
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/qsJ-vj45WoTXXdBU5zsNQYoB7g4HnNTLwwfFSBL-wwI
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 96%
+source-wordcount: 545
+ht-degree: 87%
 
 ---
 
@@ -31,7 +35,7 @@ ht-degree: 96%
 
 ## Dispatcher 設定 {#dispatcher-configurations}
 
-Dispatcher は、Adobe Experience Manager のキャッシュおよびロードバランシングを管理するツールです。AEM Dispatcher を使用すると、AEM サーバーを攻撃から保護するのにも役立ちます。したがって、エンタープライズクラスの web サーバーと共に Dispatcher を使用することで、AEM インスタンスのセキュリティを高められます。
+Dispatcher は、Adobe Experience Manager のキャッシュおよびロードバランシングを管理するツールです。 AEM Dispatcher を使用すると、AEM サーバーを攻撃から保護するのにも役立ちます。 したがって、エンタープライズクラスの web サーバーと共に Dispatcher を使用することで、AEM インスタンスのセキュリティを高められます。
 
 AEM Screens プロジェクトの Dispatcher を設定する際のガイドラインを説明している **[AEM Screens の Dispatcher 設定](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens)**&#x200B;を参照してください。
 
@@ -40,17 +44,17 @@ AEM Screens プロジェクトの Dispatcher を設定する際のガイドラ�
 適切な OS（通常は RHEL）の手順に従って、FFmpeg をインストールします。
 
 1. EPEL と RPMFusion を有効にしてインストールする場合は、すべての gstreamer コーデックをインストールして、FFmpeg 変換のサポートを拡張できます。
-1. AAC コーデックが試行用とマークされている場合、FFmpeg 変換は失敗します。この問題を回避するには、`-strict -2` をビデオプロファイルに追加します（AEM 6.3 では `/etc/dam/video`、`/libs/settings/dam/video in AEM 6.4` に移動しました）
+1. AAC コーデックが試行用とマークされている場合、FFmpeg 変換は失敗します。 この問題を回避するには、ビデオプロファイルに`-strict -2`を追加します（`/etc/dam/video` AEM 6.3で`/libs/settings/dam/video in AEM 6.4`に移動）
 
    >[!NOTE]
    >
-   >この `-strict -2` は、パラメーターのリストの最後のパラメーターである必要があります。さらに、AEM 6.4 では、[ビデオレンディション](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions)で言及しているように、*/libs/settings/dam/video* 配下のノードを */conf/global/settings/dam/video* にコピーする必要があります。
+   >この `-strict -2` は、パラメーターのリストの最後のパラメーターである必要があります。 さらに、AEM 6.4 では、[ビデオレンディション](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions)で言及しているように、*/libs/settings/dam/video* 配下のノードを */conf/global/settings/dam/video* にコピーする必要があります。
 1. ビデオ変換が行われ、レンディションが作成されていることを確認します。
 
 ## パスワード制限 {#password-restrictions}
 
-AMS インスタンスで AEM のパスワードポリシーを無効にする必要があります。または、Screens デバイスサービス *com.adobe.cq.screens.device.impl.DeviceService* を使用して、web コンソールでこれを設定することもできます。
-詳しくは、[AEM Screens でのオーサーとパブリッシュの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)内の&#x200B;**パスワード制限**&#x200B;の節を参照してください。
+AMS インスタンスで AEM のパスワードポリシーを無効にする必要があります。 また、Screens デバイスサービス *com.adobe.cq.screens.device.impl.DeviceServiceを使用して、web コンソールで代替設定することもできます*
+AEM Screensでの作成者と公開の設定[の「**パスワード制限**」セクションを参照してください](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
 
 ## 環境の設定 {#setting-up-environments}
 
@@ -60,7 +64,9 @@ AMS インスタンスで AEM のパスワードポリシーを無効にする�
 * Screens 機能パック
 * AEM 累積修正パック
 
-上記に加えて、必要な開発用パッケージ（WCM コアコンポーネントなど）やサードパーティ製ツールキット（SAP Hybris など）を特定します。同じソフトウェアパッケージをローカルの開発環境にインストールします。QA サーバー、ステージサーバー、実稼動サーバーのすべてで同じ設定を使用するように、クライアントに指示します。サーバー設定が一致しないと、デプロイ時およびテスト時に問題が発生します。
+上記に加えて、任意の開発パッケージ（WCM Coreなど）を特定します
+コンポーネント）またはサードパーティ製ツールキット（SAP Hybrisなど）が必要です。
+同じソフトウェアパッケージをローカルの開発環境にインストールします。 QA サーバー、ステージサーバー、実稼動サーバーのすべてで同じ設定を使用するように、クライアントに指示します。 サーバー設定が一致しないと、デプロイ時およびテスト時に問題が発生します。
 
 >[!NOTE]
 >

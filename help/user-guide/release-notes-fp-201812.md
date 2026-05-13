@@ -10,9 +10,13 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/q9YVg4tWFAjPgKDfObgzgVItzxybnW66fKVjLYnnqig
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: 257
 ht-degree: 100%
 
 ---
@@ -21,7 +25,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。AEM Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
+>最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。 AEM Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
 
 AEM Screens では、AEM 6.3 機能パック 5 および AEM 6.4 機能パック 3 がリリースされました。詳細は以下のとおりです。
 
@@ -33,15 +37,15 @@ AEM Screens 機能パック 201812 のリリース日は 2019年1月16日（PT�
 
 * **チャネル内のアセットへのテキストオーバーレイ**
 
-  テキストオーバーレイは、AEM Screensで利用できる機能です。画像の上に重ねて表示されるタイトルや説明を指定してシーケンスチャネルで魅力的なエクスペリエンスを作成することができます。[**テキストオーバーレイ**](text-overlay.md)&#x200B;を参照してください。
+  テキストオーバーレイは、AEM Screensで利用できる機能です。 画像の上に重ねて表示されるタイトルや説明を指定してシーケンスチャネルで魅力的なエクスペリエンスを作成することができます。 [**テキストオーバーレイ**](text-overlay.md)&#x200B;を参照してください。
 
 * **複数アセットスケジュール設定**
 
-  複数アセットスケジュール設定を使用すると、複数のアセットをクリックし、選択したすべてのアセットに再生スケジュールを適用できます。**[アセットスケジュール設定](asset-level-scheduling.md)**&#x200B;の&#x200B;**複数アセットのスケジュール設定**&#x200B;の節を参照してください。
+  複数アセットスケジュール設定を使用すると、複数のアセットをクリックし、選択したすべてのアセットに再生スケジュールを適用できます。 **[アセットスケジュール設定](asset-level-scheduling.md)**&#x200B;の&#x200B;**複数アセットのスケジュール設定**&#x200B;の節を参照してください。
 
 * **マルチゾーンレイアウト**
 
-  マルチゾーンレイアウトを使用すると、複数のゾーンコンテンツを作成し、ビデオ、画像およびテキストなどの様々なアセットを使用して、単一のスクリーンに組み合わせることができます。**[マルチゾーンレイアウト](multi-zone-layout-aem-screens.md)**&#x200B;を参照してください。
+  マルチゾーンレイアウトを使用すると、複数のゾーンコンテンツを作成し、ビデオ、画像およびテキストなどの様々なアセットを使用して、単一のスクリーンに組み合わせることができます。 **[マルチゾーンレイアウト](multi-zone-layout-aem-screens.md)**&#x200B;を参照してください。
 
 * **プレーヤーへのアセットのスマート同期**
 * **オーサー／パブリッシュのデプロイメント（堅牢化）**

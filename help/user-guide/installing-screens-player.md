@@ -6,9 +6,14 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/Lu1KYTTaDEiaC1xP4k0V8KqDVoe5gIzqkut-JB0G4fg
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: 506
 ht-degree: 94%
 
 ---
@@ -33,7 +38,7 @@ AEM Screens Player は Android™、Chrome OS および Windows で使用でき�
 
 ## 基本的な再生モニタリング {#playback-monitoring}
 
-プレーヤーは、各 `ping`（デフォルトは 30 秒）で様々な再生指標を報告します。これらの指標に基づいて、様々なエッジケース（動きのないエクスペリエンス、空白の画面、スケジュールの問題など）を検出できます。 これにより、デバイスの問題を把握してトラブルシューティングできるので、調査や修正を迅速に行えます。
+プレーヤーは、各 `ping`（デフォルトは 30 秒）で様々な再生指標を報告します。 これらの指標にもとづいて、エクスペリエンスの停滞、空白の画面、スケジュール設定の問題など、さまざまなエッジケースを検出できます。 これにより、デバイスの問題を把握してトラブルシューティングできるので、調査や修正を迅速に行えます。
 
 AEM Screens Player での基本的な再生モニタリングにより、次の操作を行うことができます。
 
@@ -54,7 +59,7 @@ AEM Screens Player での基本的な再生モニタリングにより、次の�
 | activeElements {string} | コンマ区切りの文字列。再生中のすべてのシーケンスチャネルに現在表示されている要素（マルチゾーンレイアウトがある場合は複数） |
 | isDefaultContent {boolean} | 再生チャネルがデフォルトチャネルまたはフォールバックチャネルと見なされる（つまり、優先度が 1 でスケジュールが設定されていない）場合は true |
 | hasContentChanged {boolean} | コンテンツが過去 5 分間に変更された場合は true、それ以外の場合は false |
-| lastContentChange{string} | 最後にコンテンツが変更されたときのタイムスタンプ |
+| lastContentChange {string} | 最後にコンテンツが変更されたときのタイムスタンプ |
 
 >[!NOTE]
 >
@@ -70,7 +75,7 @@ AEM Screens Player での基本的な再生モニタリングにより、次の�
 
 * プレーヤーが自分自身の再生状態をサーバーに報告するので、アクティブな接続が必要です。
 
-* GPU をチェックする `isContentRendering` プロパティは、リソースを大量に消費するので、デフォルトで有効にするのではなく、プレーヤーの環境設定から明示的にオプトインする必要があります。アドビでは、実稼動環境のビデオと組み合わせて使用しないことをお勧めします。
+* GPU をチェックする `isContentRendering` プロパティは、リソースを大量に消費するので、デフォルトで有効にするのではなく、プレーヤーの環境設定から明示的にオプトインする必要があります。 アドビでは、実稼動環境のビデオと組み合わせて使用しないことをお勧めします。
 
 * この機能はシーケンスチャネルの場合にのみサポートされており、インタラクティブチャネル（SPA）のユースケースにはまだ対応していません。
 
@@ -80,7 +85,7 @@ AEM Screens Player での基本的な再生モニタリングにより、次の�
 
 詳しくは、以下のトピックを参照してください。
 
-* Android™ プレーヤーをダウンロードするには、**Google Play** にアクセスします。Android™ ウォッチドッグの実装については、[Android™ プレーヤーの実装](implementing-android-player.md)を参照してください。
+* Android™ プレーヤーをダウンロードするには、**Google Play** にアクセスします。 Android™ ウォッチドッグの実装については、[Android™ プレーヤーの実装](implementing-android-player.md)を参照してください。
 
 * Chrome OS プレーヤーの実装について詳しくは、[Chrome 管理コンソール](implementing-chrome-os-player.md)を参照してください。
 

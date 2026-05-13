@@ -10,10 +10,14 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/UXD1j2ysIuqkRz9RXQ-TwC4qJPDXdnQhawiXtRo8tRw
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 100%
+source-wordcount: 314
+ht-degree: 89%
 
 ---
 
@@ -21,9 +25,9 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。AEM Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
+>最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。 AEM Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
 
-AEM Screens は、AEM 6.3.3.3 機能パック 6 および AEM 6.4.4.0 機能パック 4 を リリースしました。詳細は次のとおりです。
+AEM Screensは、次の詳細を含むAEM 6.3.3.3機能パック 6とAEM 6.4.4.0機能パック 4をリリースしました。
 
 ## リリース日 {#release-date}
 
@@ -51,13 +55,13 @@ AEM Screens 機能パック 201905 のリリース日は 2019年5月16日（PT�
 
 * **AEM SPA Editor を使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合**
 
-この節では、AEM SPA エディターで React（または Angular）を使用して、インタラクティブな単一ページアプリケーションを埋め込む方法について説明します。AEM のビジネスプロフェッショナルは、エディターを設定できます。また、インタラクティブアプリケーションをオフラインの Adobe Analytics と統合する方法についても説明します。
+この節では、AEM SPA エディターで React（または Angular）を使用して、インタラクティブな単一ページアプリケーションを埋め込む方法について説明します。 AEM のビジネスプロフェッショナルは、エディターを設定できます。 また、インタラクティブアプリケーションをオフラインの Adobe Analytics と統合する方法についても説明します。
 
 詳しくは、**[AEM SPA エディターを使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合](embedding-react-app.md)**&#x200B;を参照してください。
 
 ### リリースされている AEM Screens Player
 
-AEM 6.3.3.3 機能パック 6 および AEM 6.4.4.0 機能パック 4 向けに、次の AEM Screens Player がリリースされています。
+AEM 6.3.3.3機能パック 6およびAEM 6.4.4.0機能パック 4では、次のAEM Screens プレーヤーがリリースされています。
 
 * Chrome OS
 * Windows

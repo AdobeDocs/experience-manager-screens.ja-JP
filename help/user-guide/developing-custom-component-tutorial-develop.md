@@ -9,10 +9,15 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/SSClqDvdUKva7LqeEJG9niJSXbaSwe2VMO2XssQaXLw
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '2364'
-ht-degree: 95%
+source-wordcount: 2364
+ht-degree: 99%
 
 ---
 
@@ -46,7 +51,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
    [ファイルの取得](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
-   [ファイルを入手](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
+   [ ファイルを取得](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
    **（オプション）** Eclipse などの IDE を使用して作業する場合は、以下のソースパッケージをダウンロードします。 次の Maven コマンドを使用して、プロジェクトをローカルの AEM インスタンスにデプロイします。
 
    **`mvn -PautoInstallPackage clean install`**
@@ -84,7 +89,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
 
-   このパッケージには、プロジェクトに必要な開始コンテンツと設定構造が含まれています。**`/conf/we-retail-run`** `We.Retail`実行プロジェクトのすべての設定が含まれます。**`/content/dam/we-retail-run`** プロジェクトのデジタルアセットの開始を含みます。**`/content/screens/we-retail-run`** Screens コンテンツ構造を含みます。 これらすべてのパスの内容は主に AEM で更新されます。 環境（ローカル、開発、ステージング、実稼動）間の一貫性を高めるために、多くの場合、ベースコンテンツ構造がソース管理下に保存されます。
+   このパッケージには、プロジェクトに必要な初期コンテンツおよび設定構造が含まれています。 **`/conf/we-retail-run`** には、`We.Retail` Run プロジェクトのすべての設定が含まれています。 **`/content/dam/we-retail-run`** には、プロジェクトの初期デジタルアセットが含まれています。 **`/content/screens/we-retail-run`** には、Screens のコンテンツ構造が含まれています。 これらすべてのパスの内容は主に AEM で更新されます。 環境（ローカル、開発、ステージング、実稼動）間の一貫性を高めるために、多くの場合、ベースコンテンツ構造がソース管理下に保存されます。
 
 1. **AEM Screens／`We.Retail` Run プロジェクト**&#x200B;に移動します。
 
@@ -124,14 +129,14 @@ AEM Screens には、従来の WCM Sites コンポーネントには必ずしも
 
    ```xml
    <!--/*
-
+   
     /apps/weretail-run/components/content/helloworld/helloworld.html
-
+   
    */-->
-
+   
    <!--/* production: preview authoring mode + unspecified mode (i.e. on publish) */-->
    <sly data-sly-test.production="${wcmmode.preview || wcmmode.disabled}" data-sly-include="production.html" />
-
+   
    <!--/* edit: any other authoring mode, i.e. edit, design, scaffolding, etc. */-->
    <sly data-sly-test="${!production}" data-sly-include="edit.html" />
    ```
@@ -150,9 +155,9 @@ AEM Screens には、従来の WCM Sites コンポーネントには必ずしも
    ```xml
    <!--/*
     /apps/weretail-run/components/content/helloworld/production.html
-
+   
    */-->
-
+   
    <div data-duration="${properties.duration}" class="cmp-hello-world">
     <h1 class="cmp-hello-world__message">${properties.message}</h1>
    </div>
@@ -160,7 +165,7 @@ AEM Screens には、従来の WCM Sites コンポーネントには必ずしも
 
    上記は、Hello World コンポーネントの実稼動用マークアップです。 このコンポーネントはシーケンスチャネルで使用されるので、`data-duration` 属性が含まれています。 `data-duration` 属性は、シーケンスチャネルでシーケンス項目の表示時間を把握するために使用されます。
 
-   コンポーネントは、テキストを含む`div` タグと`h1` タグをレンダリングします。`${properties.message}` は、`message`という名前のJCR プロパティの内容を出力するHTL スクリプトの一部です。 後でダイアログボックスが作成され、ユーザーは `message` プロパティテキストの値を入力できます。
+   このコンポーネントでは、`div` タグと `h1` タグ（テキストを含む）をレンダリングします。 `${properties.message}` は HTL スクリプトの一部で、`message` という名前の JCR プロパティのコンテンツを出力します。 後でダイアログボックスが作成され、ユーザーは `message` プロパティテキストの値を入力できます。
 
    また、コンポーネントでは BEM（ブロック要素修飾子）表記が使用されることにも注意してください。 BEM は、再利用可能なコンポーネントを容易に作成できる CSS コーディング規則です。 BEM は、[AEM のコアコンポーネント](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions)で使用される表記です。<!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
@@ -169,20 +174,19 @@ AEM Screens には、従来の WCM Sites コンポーネントには必ずしも
    ファイルに以下のように入力します。
 
    ```xml
-
    <!--/*
-
+   
     /apps/weretail-run/components/content/helloworld/edit.html
-
+   
    */-->
-
+   
    <!--/* if message populated */-->
    <div
     data-sly-test.message="${properties.message}"
     class="aem-Screens-editWrapper cmp-hello-world">
     <p class="cmp-hello-world__message">${message}</p>
    </div>
-
+   
    <!--/* empty place holder */-->
    <div data-sly-test="${!message}"
         class="aem-Screens-editWrapper cq-placeholder cmp-hello-world"
@@ -313,7 +317,7 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
    ![2018-04-30_at_3_11pm](assets/2018-04-30_at_3_11pm.png)
 
-   CSSを直接記述する代わりに、このチュートリアルではLESSを使用します。[LESS](https://lesscss.org/)は、CSS変数、ミックスイン、関数をサポートする人気のあるCSS プリコンパイラーです。 AEM のクライアントライブラリは、LESS によるコンパイルをネイティブにサポートしています。 Sassまたはその他のプリコンパイラを使用できますが、AEM以外でコンパイルする必要があります。
+   このチュートリアルでは、CSS を直接記述するのではなく、LESS を使用します。 [LESS](https://lesscss.org/) は、CSS 変数、ミックスイン、関数をサポートしている一般的な CSS プリコンパイラーです。 AEM のクライアントライブラリは、LESS によるコンパイルをネイティブにサポートしています。 Sassまたはその他のプリコンパイラを使用できますが、AEM以外でコンパイルする必要があります。
 
 1. `/apps/weretail-run/components/content/helloworld/clientlibs/shared/css/styles.less` に以下を入力します。
 
@@ -392,7 +396,7 @@ AEM Screens では、[静的ページテンプレート](https://experienceleagu
 1. designs フォルダーの下に `cq:Page` 型の `we-retail-run` という名前のノードを作成します。
 1. `we-retail-run` ページの下に、`nt:unstructured` 型の `jcr:content` という名前の別のノードを追加します。 この `jcr:content` ノードに次のプロパティを追加します。
 
-   | 名前 | タイプ | 値 |
+   | 名前 | 種類 | 値 |
    |---|---|---|
    | `jcr:title` | 文字列 | `We.Retail` Run |
    | `sling:resourceType` | 文字列 | `wcm`、`core`、`components`、`designer` |

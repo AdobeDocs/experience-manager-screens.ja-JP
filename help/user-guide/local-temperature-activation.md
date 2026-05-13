@@ -10,10 +10,17 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+TQID: https://experienceleague.adobe.com/C8FAKzAKUjdochkR96MShKiu2Ig-g-9BDnoX09g4xnM
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aedid: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 100%
+source-wordcount: 454
+ht-degree: 97%
 
 ---
 
@@ -23,7 +30,7 @@ ht-degree: 100%
 
 ## 説明 {#description}
 
-この使用例では、Google スプレッドシートの値が 50 未満の場合、温かい飲み物の画像が表示されます。値が 50 以上の場合は、冷たい飲み物の画像が表示されます。他の値がある場合や値がない場合、プレーヤーはデフォルトの画像を表示します。
+この使用例では、Google スプレッドシートの値が 50 未満の場合、温かい飲み物の画像が表示されます。 値が 50 以上の場合は、冷たい飲み物の画像が表示されます。 他の値がある場合や値がない場合、プレーヤーはデフォルトの画像を表示します。
 
 ## 前提条件 {#preconditions}
 
@@ -64,7 +71,7 @@ ht-degree: 100%
 
    1. 「**値**」に「**50**」を入力します。
 
-1. チャネルに移動して選択し、アクションバーの「**編集**」をクリックします。次の例では、**DataDrivenWeather** というシーケンスチャネルを使用して機能を紹介しています。
+1. チャネルに移動して選択し、アクションバーの「**編集**」をクリックします。 次の例では、**DataDrivenWeather** というシーケンスチャネルを使用して機能を紹介しています。
 
    >[!NOTE]
    >
@@ -78,13 +85,13 @@ ht-degree: 100%
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. エディターから「**ターゲット設定**」をクリックし、「**ブランド**」をクリックしてドロップダウンメニューから「**アクティビティ**」をクリックします。次に、「**ターゲット設定を開始**」をクリックします。
+1. エディターから「**ターゲティング**」をクリックし、「**ブランド**」をクリックしてドロップダウンメニューから「**アクティビティ**」をクリックします。次に、「**ターゲティングを開始**」をクリックします。
 
    ![new_activity3](assets/new_activity3.gif)
 
 1. **プレビューを確認する**
 
-   1. 「**プレビュー**」をクリックします。また、Google シートを開き、値を更新します。
-   1. 値を 50 未満に変更します。冷たい飲み物の画像をご覧いただけます。Google Sheets の値が 50 以上の場合は、温かい飲み物の画像が表示されます。
+   1. 「**プレビュー」をクリックします。** また、Google シートを開き、その値を更新します。
+   1. 値を 50 未満に変更します。 冷たい飲み物の画像をご覧いただけます。 Google Sheets の値が 50 以上の場合は、温かい飲み物の画像が表示されます。
 
    ![result3](assets/result3.gif)

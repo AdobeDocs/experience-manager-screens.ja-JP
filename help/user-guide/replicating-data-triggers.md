@@ -5,9 +5,15 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/T4JzIag-O6iz5ACtvG4mbsv-8pj0nHVKV08zwb2K9HE
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: 515
 ht-degree: 100%
 
 ---
@@ -44,7 +50,7 @@ ContextHub と AEM ターゲティングエンジンを使用して、オーサ�
 
    >[!NOTE]
    >
-   >テストが失敗した場合は、オーサーインスタンスとパブリッシュインスタンス間のレプリケーションエージェントの設定を修正してください。詳しくは、[テスト接続のトラブルシューティング](/help/user-guide/replicating-data-triggers.md#troubleshoot-test)を参照してください。
+   >テストが失敗した場合は、オーサーインスタンスとパブリッシュインスタンス間のレプリケーションエージェントの設定を修正してください。 詳しくは、[テスト接続のトラブルシューティング](/help/user-guide/replicating-data-triggers.md#troubleshoot-test)を参照してください。
 
 1. **配布エージェント**&#x200B;画面のツリーから「**追加**」をクリックし、プロジェクトの設定パスをクリックします（例：`/conf/screens/settings/cloudsettings/configuration`）。
 
@@ -78,7 +84,7 @@ ContextHub と AEM ターゲティングエンジンを使用して、オーサ�
 
 >[!IMPORTANT]
 >
->ContextHub 設定とオーディエンスは、アクティビティのレプリケーションと同時に、プロジェクトの設定中にレプリケーションされ、またレプリケーションはチャネル内でターゲット設定が変更されるたびに必要になります。
+>ContextHub 設定とオーディエンスは、アクティビティのレプリケーションと同時に、プロジェクトの設定中にレプリケーションされ、またレプリケーションはチャネル内でターゲティングが変更されるたびに必要になります。
 
 #### 結果 {#result}
 

@@ -5,9 +5,15 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/Pwq3ebRrbCufXFMk7R-FJj90xq4b7gLOcLvslch2L5o
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: 358
 ht-degree: 96%
 
 ---
@@ -18,7 +24,7 @@ ht-degree: 96%
 
 ## コンテンツ割り当てレポートの使用 {#using-content-assignment-report}
 
-コンテンツ割り当てレポートを使用すると、AEM Screens の作成者または管理者は、AEM Screens プロジェクトで作成されたすべてのチャネルの画像、ビデオなど、すべてのアセットを含むレポートをダウンロードできます。また、指定されたすべてのディスプレイに割り当てられているチャネル全体、および指定されたディスプレイに割り当てられているすべてのデバイスに関する情報も含まれます。
+コンテンツ割り当てレポートを使用すると、AEM Screens の作成者または管理者は、AEM Screens プロジェクトで作成されたすべてのチャネルの画像、ビデオなど、すべてのアセットを含むレポートをダウンロードできます。 また、指定されたすべてのディスプレイに割り当てられているチャネル全体、および指定されたディスプレイに割り当てられているすべてのデバイスに関する情報も含まれます。
 
 コンテンツの割り当てレポートは、選択した AEM Screens プロジェクト内のすべてのチャネル、アセット、表示、デバイスをプレビューできるだけでなく、プロジェクトの大まかな構造を提供します。
 
@@ -51,13 +57,13 @@ ht-degree: 96%
 
    ![画像](/help/user-guide/assets/content-assignment-report/can-download.png)
 
-1. ダウンロードしたスプレッドシートは、「**ロケーション** と **コンテンツ** の 2 つのタブで構成されています。 「ロケーション」タブには、「**ロケーション**」、「**ディスプレイ**」、「**チャネル**」、「**デバイス**」の 4 つの列が表示され、AEM Screens プロジェクトに関するこれら 4 つのエンティティを調査するために使用できます。
+1. ダウンロードされたスプレッドシートは、**場所**&#x200B;と&#x200B;**コンテンツ**&#x200B;などの2つのタブで構成されています。 「ロケーション」タブには、「**ロケーション**」、「**ディスプレイ**」、「**チャネル**」、「**デバイス**」の 4 つの列が表示され、AEM Screens プロジェクトに関するこれら 4 つのエンティティを調査するために使用できます。
 
    ![画像](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
 
    >[!NOTE]
    >スプレッドシートに表示されるデータは、読みやすい形式でアルファベット順に並べ替えられています。
 
-1. 「**チャネル**」列からいずれかのチャネルを選択すると、「**コンテンツ**」タブが開きます。次に、そのチャネルに直接移動すると、その特定のチャネルに関連付けられたアセット（画像とビデオ）に関する情報が表示されます。
+1. 「**チャネル**」列からいずれかのチャネルを選択すると、「**コンテンツ**」タブが開きます。 次に、そのチャネルに直接移動すると、その特定のチャネルに関連付けられたアセット（画像とビデオ）に関する情報が表示されます。
 
    ![画像](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

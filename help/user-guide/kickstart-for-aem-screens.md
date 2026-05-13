@@ -1,23 +1,28 @@
 ---
 title: キックスタートガイド
-description: AEM Screens のデモプロジェクトを作成する方法について説明します。インストールして新しいプロジェクトをセットアップしてから、AEM Screens Player でコンテンツを表示するまでの、デジタルサイネージエクスペリエンスの作成に役立ちます。
+description: AEM Screens のデモプロジェクトを作成する方法について説明します。 インストールして新しいプロジェクトをセットアップしてから、AEM Screens Player でコンテンツを表示するまでの、デジタルサイネージエクスペリエンスの作成に役立ちます。
 feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/ZrifVE5hQIzwTt75cQ-5Q-BNqpB0doqh2IMLuUaa82g
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: 1295
 ht-degree: 96%
 
 ---
 
 # キックスタートガイド {#kickstart-guide}
 
-AEM Screens のキックスタートで、AEM Screens プロジェクトの設定および実行方法について説明します。デジタルサイネージエクスペリエンスの基本的な設定、アセットやビデオなどのコンテンツの各チャネルへの追加、さらにそのコンテンツの AEM Screens Player への公開に関する手順を説明します。
+AEM Screens のキックスタートで、AEM Screens プロジェクトの設定および実行方法について説明します。 デジタルサイネージエクスペリエンスの基本的な設定、アセットやビデオなどのコンテンツの各チャネルへの追加、さらにそのコンテンツの AEM Screens Player への公開に関する手順を説明します。
 
 >[!NOTE]
->プロジェクトの詳細に関する作業の前に、AEM Screens の最新の機能パックがインストールされていることを確認してください。Adobe ID を使用して、最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html)からダウンロードできます。
+>プロジェクトの詳細に関する作業の前に、AEM Screens の最新の機能パックがインストールされていることを確認してください。 Adobe ID を使用して、最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html)からダウンロードできます。
 
 ## 前提条件 {#prerequisites}
 
@@ -27,9 +32,9 @@ AEM Screens のキックスタートで、AEM Screens プロジェクトの設�
 >次のチュートリアルは、Chrome OS プレーヤーでチャネルのコンテンツを再生する場合を示します。
 
 >[!IMPORTANT]
->**OSGi 設定**
->&#x200B;>デバイスからサーバーへのデータの投稿を許可するには、空のリファラーを有効にする必要があります。例えば、空のリファラーのプロパティが無効になっていると、デバイスからスクリーンショットを投稿できません。現在、これらの機能の一部は、OSGi 設定で「`Apache Sling` Referrer Filter Allow Empty」が有効になっている場合にのみ使用できます。 ダッシュボードには、セキュリティ設定がこれらの機能の一部の動作を妨げる可能性があることを示す警告が表示される場合があります。
->&#x200B;>***Apache Sling Referrer Filter の「Allow Empty」設定***&#x200B;を有効にするには、次の手順に従います。
+>**OSGi構成設定**
+>デバイスからサーバーへのデータの投稿を許可するには、空のリファラーを有効にする必要があります。 例えば、空のリファラーのプロパティが無効になっていると、デバイスからスクリーンショットを投稿できません。 現在、これらの機能の一部は、OSGi設定で`Apache Sling` Referrer Filter Allow Emptyが有効になっている場合にのみ使用できます。 ダッシュボードには、セキュリティ設定がこれらの機能の一部の動作を妨げる可能性があることを示す警告が表示される場合があります。
+>***Apache Sling Referrer Filter の「Allow Empty」設定***&#x200B;を有効にするには、次の手順に従います。
 
 
 ## 空のリファラー要求の許可 {#allow-empty-referrer-requests}
@@ -38,7 +43,7 @@ AEM Screens のキックスタートで、AEM Screens プロジェクトの設�
 
    ![画像](assets/config/empty-ref1.png)
 
-1. **Adobe Experience Manager Web コンソール設定**&#x200B;が開きます。「sling referrer」を検索します。
+1. **Adobe Experience Manager Web コンソール設定**&#x200B;が開きます。 「sling referrer」を検索します。
 
    「sling referrer」プロパティを検索するには、**Command + F** キー（**Mac**）または **Ctrl + F** キー（**Windows**）を押します。
 
@@ -54,7 +59,7 @@ AEM Screens のキックスタートで、AEM Screens プロジェクトの設�
 
 最初の手順は AEM Screens プロジェクトを作ることです。
 
-1. Adobe Experience Manager（AEM）インスタンスに移動し、「**Screens**」をクリックします。または、`https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens` から直接アクセスすることもできます。
+1. Adobe Experience Manager（AEM）インスタンスに移動し、「**Screens**」をクリックします。 または、`https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens` から直接アクセスすることもできます。
 
 1. 「**Screens プロジェクトの作成**」をクリックすると、Screens プロジェクトを作成できます。
 1. タイトルに「**DemoScreens**」と入力し、「**保存**」をクリックします。
@@ -62,7 +67,7 @@ AEM Screens のキックスタートで、AEM Screens プロジェクトの設�
    ![画像](assets/kickstart/demo-1.png)
 
    >[!NOTE]
-   >プロジェクトを作成すると、AEM Screens プロジェクトホームページに戻ります。これでプロジェクトをクリックできるようになりました。プロジェクトには、**Applications**、**Channels**、**Devices**、**Locations** および **Schedules** という 5 つの異なるフォルダーがあります。
+   >プロジェクトを作成すると、AEM Screens プロジェクトホームページに戻ります。 これでプロジェクトをクリックできるようになりました。 プロジェクトには、**Applications**、**Channels**、**Devices**、**Locations** および **Schedules** という 5 つの異なるフォルダーがあります。
 
 ### チャネルの作成 {#creating-channel}
 
@@ -70,7 +75,7 @@ AEM Screens プロジェクトを作成したら、コンテンツを管理す�
 
 以下の手順に従って、プロジェクトのチャネルを作成します。
 
-1. プロジェクトを作成したら、**DemoScreens** プロジェクトをクリックし、以下の図のように、**Channels** フォルダーをクリックします。アクションバーの「**+ 作成**」をクリックします。
+1. プロジェクトを作成したら、**DemoScreens** プロジェクトをクリックし、以下の図のように、**Channels** フォルダーをクリックします。 アクションバーの「**+ 作成**」をクリックします。
 
    ![画像](assets/kickstart/demo-2.png)
 
@@ -93,7 +98,7 @@ AEM Screens プロジェクトを作成したら、コンテンツを管理す�
 
 1. 作成した **DemoProject** に移動し、**チャネル**&#x200B;フォルダーから **TestChannel** をクリックします。
 
-1. アクションバーの「**編集**」をクリックします（下図を参照）。**TestChannel** のエディターが開きます。
+1. アクションバーの「**編集**」をクリックします（下図を参照）。 **TestChannel** のエディターが開きます。
 
    ![画像](assets/kickstart/demo-6.png)
 
@@ -162,18 +167,18 @@ AEM Screens プロジェクトを作成したら、コンテンツを管理す�
 
 1. 「**チャネル割り当て**」ダイアログボックスが開きます。
 
-1. 「**設定**」オプションから、チャネル **パス別** および **サポートされるイベント** （**初期読み込み** や **アイドル画面** を選択します。
+1. **設定** オプションから、**初期読み込み**&#x200B;や&#x200B;**アイドル画面**&#x200B;など、**パス別**&#x200B;および&#x200B;**サポートされているイベント**&#x200B;のチャネルを選択します。
 
    >[!NOTE]
    >
-   >「**チャネルロール**」、「**優先度**」、「**中断メソッド**」は、すべてデフォルトで設定されます。チャネルの割り当てプロパティについて詳しくは、[チャネルプロパティ](/help/user-guide/channel-assignment-latest-fp.md#channel-properties)の節を参照してください。
+   >「**チャネルロール**」、「**優先度**」、「**中断メソッド**」は、すべてデフォルトで設定されます。 チャネルの割り当てプロパティについて詳しくは、[チャネルプロパティ](/help/user-guide/channel-assignment-latest-fp.md#channel-properties)の節を参照してください。
 
    ![画像](assets/kickstart/demo-assign3.png)
 
    また、「**アクティベーションウィンドウ**」と「**繰り返しスケジュール**」もクリックできます。
 
    >[!NOTE]
-   >*繰り返しスケジュール*を使用すると、チャネルの定期的なスケジュールを設定できます。1 つのチャネルに対して、複数の繰り返しスケジュールを設定できます。
+   >*繰り返しスケジュール*を使用すると、チャネルの定期的なスケジュールを設定できます。 1 つのチャネルに対して、複数の繰り返しスケジュールを設定できます。
    >詳しくは、「[繰り返しスケジュール](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule)」を参照してください。
 
 1. 環境を設定したら、「**保存**」をクリックします。
@@ -183,7 +188,7 @@ AEM Screens プロジェクトを作成したら、コンテンツを管理す�
 AEM ダッシュボードを使用してデバイスを登録します。
 
 >[!IMPORTANT]
->Chrome OS プレーヤーは、実際の Chrome プレーヤーデバイスがなくても、開発者モードで Chrome ブラウザープラグインとしてインストールできます。インストールについては、次の手順に従います。
+>Chrome OS プレーヤーは、実際の Chrome プレーヤーデバイスがなくても、開発者モードで Chrome ブラウザープラグインとしてインストールできます。 インストールについては、次の手順に従います。
 >
 >1. [ここ](https://download.macromedia.com/screens/)をクリックして、最新の Chrome プレーヤーをダウンロードします。
 >1. 解凍してディスクに保存します。
@@ -192,7 +197,7 @@ AEM ダッシュボードを使用してデバイスを登録します。
 >1. 左上隅の「**パッケージ化されていない拡張機能を読み込む**」をクリックし、解凍した Chrome プレーヤーを読み込みます。
 >1. **AEM Screens Chrome Player** プラグインが拡張機能の一覧にあれば、それをオンにします。
 >1. 新しいタブを開き、左上隅の「**アプリ**」アイコンをクリックするか、***chrome://apps*** に直接移動します。
->1. 「**AEM Screens**」プラグインをクリックすると、Chrome プレーヤーを起動できます。デフォルトでは、プレーヤーはフルスクリーンモードで起動します。**Esc** キーを押すと、フルスクリーンモードが終了します。
+>1. 「**AEM Screens**」プラグインをクリックすると、Chrome プレーヤーを起動できます。 デフォルトでは、プレーヤーはフルスクリーンモードで起動します。 **Esc** キーを押すと、フルスクリーンモードが終了します。
 
 Chrome OS プレーヤーがオンになったら、次の手順に従って Chrome デバイスを登録します。
 
@@ -208,7 +213,7 @@ Chrome OS プレーヤーがオンになったら、次の手順に従って Chr
 
    ![画像](assets/kickstart/demo-register2.png)
 
-1. デバイスが登録コードを送信するのを待機し、同時に、Chrome デバイスで&#x200B;**登録コード**&#x200B;を確認します。
+1. デバイスが登録コードを送信するのを待機し、同時に、Chrome デバイスで&#x200B;**登録コード**を確認します。
    ![画像](assets/kickstart/demo-register3.png)
 
 1. 両方のコンピューターの&#x200B;**登録コード**&#x200B;が同じである場合は、AEM の「**検証**」をクリックします。
@@ -229,7 +234,7 @@ Chrome OS プレーヤーがオンになったら、次の手順に従って Chr
 
    ![画像](assets/kickstart/demo-register8.png)
 
-1. 「**完了**」をクリックして、登録プロセスを完了します。登録済みのデバイスがディスプレイダッシュボードに表示されます。
+1. 「**完了**」をクリックして、登録プロセスを完了します。 登録済みのデバイスがディスプレイダッシュボードに表示されます。
 
    ![画像](assets/kickstart/demo-register9.png)
 

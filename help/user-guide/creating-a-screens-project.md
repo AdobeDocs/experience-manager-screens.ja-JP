@@ -9,10 +9,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
+TQID: https://experienceleague.adobe.com/YXT-n3t6hQwrt8entuM0NCfRVpbMCOXPjF7Pxrreuc4
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 100%
+source-wordcount: 324
+ht-degree: 99%
 
 ---
 
@@ -23,8 +29,8 @@ Adobe Experience Manager のリンク（左上）を選択し、「Screens」を
 または、`http://localhost:4502/screens.html/content/screens` から直接アクセスすることもできます
 
 >[!NOTE]
->**ナビゲーションの説明：**
->カーソルキーを使用しても、AEM 内の様々なフォルダーを移動できます。さらに、特定のエンティティをクリックし、スペースバーを押すと、その特定のフォルダーのプロパティを編集または表示できます。
+>**ナビゲーションのヒント：**
+>カーソルキーを使用しても、AEM 内の様々なフォルダーを移動できます。 さらに、特定のエンティティをクリックし、スペースバーを押すと、その特定のフォルダーのプロパティを編集または表示できます。
 
 ## 新しい Screens プロジェクトの作成
 
@@ -32,7 +38,7 @@ Adobe Experience Manager のリンク（左上）を選択し、「Screens」を
 1. 「**Screens プロジェクトを作成**」をクリックします。
 1. タイトルに「**TestScreens**」と入力し、「**保存**」をクリックします。
 
-プロジェクトが作成され、Screens プロジェクトコンソールに戻ります。これでプロジェクトをクリックできるようになりました。
+プロジェクトが作成され、Screens プロジェクトコンソールに戻ります。 これでプロジェクトをクリックできるようになりました。
 
 下の図に示すように、プロジェクトには 5 種類のフォルダーがあります。
 
@@ -46,7 +52,7 @@ Adobe Experience Manager のリンク（左上）を選択し、「Screens」を
 
 >[!NOTE]
 >
->デフォルトの初期構造には、**スケジュール**、**ロケーション**、**アプリケーション**、**チャネル**&#x200B;および&#x200B;**デバイス**&#x200B;の各プライマリページが含まれていますが、この構造は必要に応じて手動で調整できます。使用可能なオプションがプロジェクトに関係ない場合は、そのオプションを削除できます。
+>デフォルトの初期構造には、**スケジュール**、**ロケーション**、**アプリケーション**、**チャネル**&#x200B;および&#x200B;**デバイス**&#x200B;の各プライマリページが含まれていますが、この構造は必要に応じて手動で調整できます。 使用可能なオプションがプロジェクトに関係ない場合は、そのオプションを削除できます。
 
 
 ## プロパティの表示 {#viewing-properties}

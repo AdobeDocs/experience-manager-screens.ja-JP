@@ -5,9 +5,16 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
+TQID: https://experienceleague.adobe.com/6ZaAh-q6ZXjHFhdPDqnJi4n08TXLSd8ZNggljGoIPzA
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: 1490
 ht-degree: 86%
 
 ---
@@ -83,7 +90,7 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 
 必要に応じて、毎日、毎週または毎月、特定の間隔でアセットが繰り返されるようにスケジュールを設定することができます。
 
-金曜日の午後 1 時から :00 後 10 時までの時間に画像を表示する :00 合を考えます。「**アクティベーション**」タブを使用して、アセットに必要な繰り返し間隔を設定できます。
+金曜日の午後1:00時から午後10:00時までのみ画像を表示するとします。「**アクティベーション**」タブを使用して、アセットの目的の繰り返し間隔を設定できます。
 
 ### 日分割 {#day-parting}
 
@@ -102,18 +109,18 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 
 | **式** | **解釈** |
 |---|---|
-| 午前 8:00 前。 | チャンネル内のアセットは、毎日午前 8:00 前に再生されます |
-| :00 後 2 時より | チャンネル内のアセットは、毎日 :00 後 2 時から再生されます |
-| 12 より後 :1512 より前 :45 | チャネル内のアセットは、毎日午後 12:15 以降 30 分間再生されます |
-| 12 より前 :1512 より後 :45 | チャネル内のアセットは、毎日午後 12:15 前に再生され、その後 :45 後も再生されます。 |
+| 午前8:00前。 | チャンネル内のアセットは、毎日午前8:00前に再生されます |
+| 午後2:00時以降。 | チャネル内のアセットは、毎日の午後2:00時以降に再生されます |
+| 12:15以降12:45以前 | チャネル内のアセットは、毎日12:15時間後に30分間再生されます |
+| before 12:15 also after 12:45 | チャネル内のアセットは、毎日午後12:15までに再生され、午後12:45以降も再生されます。 |
 
 >[!NOTE]
 >
->また、*A.M../P.M.* （午後 2:00）の代わりに _軍事時間_ 表記（14:00）を使用することもできます。
+>*A.M./P.M.* （2:00 P.M.）の代わりに&#x200B;_軍時間_&#x200B;の表記法（14:00）を使用することもできます。
 
 ### 週分割 {#week-parting}
 
-1. アセットをクリックし、**設定**（レンチアイコン）をクリックします。
+1. アセットをクリックしたあと、**設定**（レンチアイコン）をクリックします。
 
 1. 開始日時と終了日時を入力した後、式または自然言語テキスト形式を使用して、繰り返しスケジュールを指定できます。
 
@@ -177,11 +184,11 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 | **式** | **解釈** |
 |---|---|
 | `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | アセットは、1月から 3月末の月曜日と水曜日、午前 6 時から午後 6 時の間、チャネルで再生されます |
-| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | チャネル内のアセットの再生が 1 月 1 日の :00 後 2 時から始まり、1 月 2 日の午前 3 時まで 1 日 :00 り続けます |
-| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | チャネルのアセットの再生が 1:001 日の午後 2 時から始まって 1 月 2 日の午前 3:00 まで続き、その後 1 月 2 日の午後 2 時に再び開始されて :001 月 3 日の午前 3:00 まで続きます |
+| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | チャンネル内のアセットは、1月1日の午後2時から再生を開始し、1月3日の午前3時1分まで1日中再生を続けます:00:00 |
+| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | チャネル内のアセットは、1月1日の午後2:00時にプレーヤーを開始し、1月2日の午前3:00まで再生を続け、1月2日の午後2:00に再び開始し、1月3日の午前3:00まで再生を続けます |
 
 >[!NOTE]
->曜日や月を定義する場合は、省略形または通常の表記を使用できます（月／月曜日、1／1月など）。 また、*A.M../P.M.* （2:00 P.M.）の代わりに _軍事時間_ 表記（14:00）を使用することもできます。
+>曜日や月を定義する場合は、省略形または通常の表記を使用できます（月／月曜日、1／1月など）。 また、*A.M./P.M.* （2:00 P.M.）の代わりに&#x200B;_軍時間_&#x200B;の表記法（14:00）を使用することもできます。
 
 
 ## 複数アセットのアクティベーション {#multi-asset-scheduling}

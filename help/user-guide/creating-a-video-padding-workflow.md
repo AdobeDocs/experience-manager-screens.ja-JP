@@ -10,10 +10,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/NNWMddEX0RPig8ye2p8UfgG6BQHpCapqb9KNc5RS9Ys
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 95%
+source-wordcount: 548
+ht-degree: 92%
 
 ---
 
@@ -31,9 +37,9 @@ ht-degree: 95%
 
 ## 概要 {#overview}
 
-次の使用例では、チャネルへのビデオ（例：1280 x 720）の配置が必要になります。このチャネルのディスプレイは 1920 x 1080 で、0x0（左上）にビデオが配置されます。ビデオは、引き伸ばしや変更を一切おこなわないでください。また、ビデオコンポーネントで「**カバー**」は使用しません。
+次の使用例では、チャネルへのビデオ（例：1280 x 720）の配置が必要になります。このチャネルのディスプレイは 1920 x 1080 で、0x0（左上）にビデオが配置されます。 ビデオは、引き伸ばしや変更を一切おこなわないでください。また、ビデオコンポーネントで「**カバー**」は使用しません。
 
-ビデオは横がピクセル 1～1280、縦がピクセル 1～720 のオブジェクトとして表示されます。チャンネルの残りの部分はデフォルトのカラーです。
+ビデオは横がピクセル 1～1280、縦がピクセル 1～720 のオブジェクトとして表示されます。 チャンネルの残りの部分はデフォルトのカラーです。
 
 ## 前提条件 {#prerequisites}
 
@@ -63,7 +69,7 @@ ht-degree: 95%
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. **モデル**／**作成**／**モデルを作成**&#x200B;をクリックします。**ワークフローモデルを追加**&#x200B;で、「**タイトル**」（**VideoRendition** など）と「**名前**」を入力します。「**完了**」をクリックして、ワークフローモデルを追加します。
+1. **モデル**／**作成**／**モデルを作成**&#x200B;をクリックします。 **ワークフローモデルを追加**&#x200B;で、「**タイトル**」（**VideoRendition** など）と「**名前**」を入力します。 「**完了**」をクリックして、ワークフローモデルを追加します。
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
@@ -80,7 +86,7 @@ ht-degree: 95%
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
 1. 「**引数**」タブをクリックします。
-1. **コマンドライン – ステップのプロパティ** ダイアログボックスで、**MIME タイプ** に形式を（***video/mp4***）と入力し、コマンドに（**`/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hp.mp4`***）と入力します。 このコマンドは、「**コマンド**」フィールド内のワークフローを開始します。
+1. 「**コマンドライン – ステップのプロパティ**」ダイアログボックスで、**Mime Types** （***video/mp4***）という形式で入力し、コマンド（{***`/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hp.mp4`***）を入力します。 このコマンドは、「**コマンド**」フィールド内のワークフローを開始します。
 
    「**MIME タイプ**」と「**コマンド**」について詳しくは、以下の注記を参照してください。
 
@@ -103,7 +109,7 @@ ht-degree: 95%
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
-1. アクションバーの「**編集**」をクリックします。最初に&#x200B;**アセット**&#x200B;フォルダーにアップロードしたビデオをドラッグ＆ドロップします。
+1. アクションバーの「**編集**」をクリックします。 最初に&#x200B;**アセット**&#x200B;フォルダーにアップロードしたビデオをドラッグ＆ドロップします。
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
@@ -116,6 +122,6 @@ ht-degree: 95%
 出力は、次のいずれかの方法で検証できます。
 
 * チャネル内のビデオのプレビューを確認する
-* CRXDE Lite で ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** に移動する（下図を参照）
+* 次の図に示すように、CRXDE Liteの&#x200B;***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4***&#x200B;に移動します。
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)

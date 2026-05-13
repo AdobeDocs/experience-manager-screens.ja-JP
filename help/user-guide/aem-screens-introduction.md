@@ -5,10 +5,15 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
+TQID: https://experienceleague.adobe.com/bbQW2pnyxEfjm8d5SveI-CGuQN5RZCVmDt35iK3Ysxs
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 96%
+source-wordcount: 579
+ht-degree: 100%
 
 ---
 
@@ -26,7 +31,7 @@ Experience Manager as a Cloud Service で Experience Manager Screens プロジ�
 
 Experience Manager Screens は、専用のデジタルメニューボード、商品レコメンデーション、背景のライフスタイル画像を作成して、顧客とのやり取りを拡大できる強力な web ベースのソリューションです。 同じ Experience Manager プラットフォームから、店舗、ホテル、銀行、医療機関、教育機関などの物理的な場所に、統一された有用なブランドエクスペリエンスを提供するのに役立ちます。 Screens では、多数のユニークなアプリケーションを提供します。 例えば、インタラクティブなディスプレイ、ウェイファインディング、ブランディング、環境音の追加などを、それらがデプロイされるドメインに基づいて顧客や従業員に提供します。
 
-Experience Manager Screens を使用したアプリケーションの作成と管理はシンプルかつ直感的です。 *アプリケーション* は、お客様または実装パートナーがExperience Manager Screens向けに作成した web ページをホストします。*場所* 事前定義済みの階層を管理し、*ディスプレイ* を含みます。 各ディスプレイには、関連付けられている様々なデバイスやスクリーンを表示するダッシュボードがあります。 Experience Manager Screens のコンテンツは&#x200B;*チャネル*&#x200B;で管理されます。 チャネル内に存在するコンテンツが Experience Manager Screens Player によってディスプレイにレンダリングされます。
+Experience Manager Screens を使用したアプリケーションの作成と管理はシンプルかつ直感的です。 *アプリケーション*&#x200B;は、顧客や実装パートナーが Experience Manager Screens 向けに作成した web ページをホストします。 *場所*&#x200B;は、事前に定義された階層を管理し、*ディスプレイ*&#x200B;を含みます。 各ディスプレイには、関連付けられている様々なデバイスやスクリーンを表示するダッシュボードがあります。 Experience Manager Screens のコンテンツは&#x200B;*チャネル*&#x200B;で管理されます。 チャネル内に存在するコンテンツが Experience Manager Screens Player によってディスプレイにレンダリングされます。
 
 Experience Manager Screens に関連する重要な用語を理解するには、[用語集](screens-glossary.md)を参照してください。
 
@@ -57,7 +62,7 @@ Experience Manager Screens に関連する重要な用語を理解するには�
 
 * **実装の初期設定（ガイド付き）**
 
-  Experience Manager Screens でサポートされている基本機能と高度な機能について説明している、ガイド付き学習パス **[Experience Manager Screens 実装の初期設定](https://experienceleague.adobe.com/ja?launch=AEM-7a&lang=ja)**&#x200B;に従ってください。
+  Experience Manager Screens でサポートされている基本機能と高度な機能について説明している、ガイド付き学習パス **[Experience Manager Screens 実装の初期設定](https://experienceleague.adobe.com/?launch=AEM-7a&lang=ja)**&#x200B;に従ってください。
 
 * **Experience Manager Screens プロジェクトのベストプラクティスガイド**
 

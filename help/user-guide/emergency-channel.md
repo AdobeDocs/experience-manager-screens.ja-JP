@@ -9,9 +9,15 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+TQID: https://experienceleague.adobe.com/v0I1gmu10jscAJFcZGWu3g7X27BUNXIuyTGfKpPwUvA
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: 717
 ht-degree: 100%
 
 ---
@@ -20,7 +26,7 @@ ht-degree: 100%
 
 ## ユースケースの説明 {#use-case-description}
 
-この節ではユースケースの例について説明します。前提条件がある場合にコンテンツ作成者がシーケンスチャネルから切り替えることができる、緊急チャネルの作成と管理について重点的に説明します。
+この節ではユースケースの例について説明します。 前提条件がある場合にコンテンツ作成者がシーケンスチャネルから切り替えることができる、緊急チャネルの作成と管理について重点的に説明します。
 
 ### 前提条件 {#preconditions}
 
@@ -91,7 +97,7 @@ ht-degree: 100%
 
 1. **ロケーションにディスプレイを作成する**
 
-   ロケーション（**Store**）に移動し、アクションバーの「**作成**」をクリックします。ウィザードに従って、**StoreFront** および **StoreRear** というタイトルの 2 つの&#x200B;**ディスプレイ**&#x200B;を作成します。
+   ロケーション（**Store**）に移動し、アクションバーの「**作成**」をクリックします。 ウィザードに従って、**StoreFront** および **StoreRear** というタイトルの 2 つの&#x200B;**ディスプレイ**&#x200B;を作成します。
 
    ![screen_shot_2019-02-22at122556pm](assets/screen_shot_2019-02-22at122556pm.png)
 
@@ -120,7 +126,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >優先度は、複数の割り当てが再生条件に一致する場合に、割り当ての順序付けを行うために使用します。最も高い値のものが低い値よりも常に優先されます。
+   >優先度は、複数の割り当てが再生条件に一致する場合に、割り当ての順序付けを行うために使用します。 最も高い値のものが低い値よりも常に優先されます。
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
@@ -157,7 +163,7 @@ ht-degree: 100%
 
 1. **デバイスの登録**
 
-   デバイスの登録プロセスを完了します。登録すると、AEM Screens Player で次の出力が表示されます。
+   デバイスの登録プロセスを完了します。 登録すると、AEM Screens Player で次の出力が表示されます。
 
    ![new30](assets/new30.gif)
 
@@ -185,4 +191,4 @@ ht-degree: 100%
 
 コンテンツ作成者が優先度の値を 1 にリセットするまで、引き続き **EmergencyChannel** のコンテンツが表示されます。
 
-コンテンツ作成者は、緊急事態が解除されたという通知を受け取ったら、**MainAdChannel** の優先度を更新する必要があります。その結果、通常の再生が再開されます。
+コンテンツ作成者は、緊急事態が解除されたという通知を受け取ったら、**MainAdChannel** の優先度を更新する必要があります。 その結果、通常の再生が再開されます。

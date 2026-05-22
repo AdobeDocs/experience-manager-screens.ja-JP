@@ -1,6 +1,6 @@
 ---
 title: REST API
-description: AEM Screens が、Siren の仕様に準拠するシンプルな RESTful API をどのように提供するかを説明します。コンテンツ構造内を移動したり、環境内のデバイスにコマンドを送信したりする方法についても説明します。
+description: AEM Screens が、Siren の仕様に準拠するシンプルな RESTful API をどのように提供するかを説明します。 コンテンツ構造内を移動したり、環境内のデバイスにコマンドを送信したりする方法についても説明します。
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,22 +9,34 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: ac01935a-c3ff-485a-b60e-227fb94c75b0
-source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
+TQID: https://experienceleague.adobe.com/qh3gh-3IzKyUA4fr79v7JAT5WAq2Q2eZTqTlOAC7yN0
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 100%
+source-wordcount: 209
+ht-degree: 95%
 
 ---
 
 # REST API{#rest-apis}
 
-AEM Screens には、[Siren](https://github.com/kevinswiber/siren) の仕様に準拠するシンプルな RESTful API が用意されています。これにより、コンテンツ構造内を移動したり、環境内のデバイスにコマンドを送信したりできるようになります。
+AEM Screens には、[Siren](https://github.com/kevinswiber/siren) の仕様に準拠するシンプルな RESTful API が用意されています。 これにより、コンテンツ構造内を移動したり、環境内のデバイスにコマンドを送信したりできるようになります。
 
-この API には、[*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json) からアクセスできます。
+APIには、[*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json)からアクセスできます。
 
 ## コンテンツ構造内での移動 {#navigating-content-structure}
 
-API 呼び出しから返される JSON コードには、現在のリソースに関連するエンティティのリストが記述されています。リストに含まれている自己リンクをたどると、各エンティティに REST リソースとして再びアクセスできます。
+API 呼び出しから返される JSON コードには、現在のリソースに関連するエンティティのリストが記述されています。 リストに含まれている自己リンクをたどると、各エンティティに REST リソースとして再びアクセスできます。
 
 例えば、重要なデモロケーションのディスプレイにアクセスするには、次を呼び出すことができます。
 

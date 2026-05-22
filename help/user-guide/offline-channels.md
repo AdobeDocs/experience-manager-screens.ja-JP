@@ -10,9 +10,17 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/DbykjHEvhVlmBgM--hV4p707sv2FpTl1dZoUgJu2I0s
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: 430
 ht-degree: 100%
 
 ---
@@ -23,7 +31,7 @@ Screens Player では、***ContentSync*** テクノロジーを使用してチ�
 
 プレーヤーは、解凍したコンテンツを提供するためにローカルの HTTP サーバーを使用します。
 
-*オンライン*&#x200B;で動作するようにチャネルが設定されている場合、プレーヤーは AEM サーバーにアクセスしてチャネルリソースを提供します。ただし、*オフライン*&#x200B;で動作するようにチャネルが設定されている場合、プレーヤーは、ローカル http サーバーからチャネルリソースを提供します。
+*オンライン*&#x200B;で動作するようにチャネルが設定されている場合、プレーヤーは AEM サーバーにアクセスしてチャネルリソースを提供します。 ただし、*オフライン*&#x200B;で動作するようにチャネルが設定されている場合、プレーヤーは、ローカル http サーバーからチャネルリソースを提供します。
 
 このプロセスのワークフローは次のとおりです。
 
@@ -35,7 +43,7 @@ Screens Player では、***ContentSync*** テクノロジーを使用してチ�
 
 ## 更新ハンドラー {#update-handlers}
 
-***ContentSync*** は、更新ハンドラーを使用して、特定のプロジェクトに必要なすべてのページとアセットを解析および収集します。AEM Screens では、次の更新ハンドラーが使用されます。
+***ContentSync*** は、更新ハンドラーを使用して、特定のプロジェクトに必要なすべてのページとアセットを解析および収集します。 AEM Screens では、次の更新ハンドラーが使用されます。
 
 ### 共通オプション {#common-options}
 
@@ -46,9 +54,9 @@ Screens Player では、***ContentSync*** テクノロジーを使用してチ�
 <table>
  <tbody>
   <tr>
-   <td><strong>タイプ</strong></td> 
+   <td><strong>種類</strong></td> 
    <td><strong>説明</strong></td> 
-   <td><strong>Options</strong></td> 
+   <td><strong>オプション</strong></td> 
   </tr>
   <tr>
    <td><code>channels</code></td> 
@@ -63,7 +71,7 @@ Screens Player では、***ContentSync*** テクノロジーを使用してチ�
   <tr>
    <td><code>assetrenditions</code></td> 
    <td>アセットレンディションを収集します</td> 
-   <td>[renditions=[]]：収集するレンディションのリスト。デフォルトで元のレンディションに設定</td> 
+   <td>[renditions=[]]：収集するレンディションのリスト。 デフォルトで元のレンディションに設定</td> 
   </tr>
   <tr>
    <td><code>copy</code></td> 
@@ -118,4 +126,4 @@ ContentSync 設定をテストするには、以下の手順に従います。
 
 >[!NOTE]
 >
->カスタムオフラインリソースハンドラーのテンプレートについて確認してください。また、プロジェクトの `pom.xml` の最小要件についても詳細を確認してください。**AEM Screens 用カスタムコンポーネントの開発**&#x200B;の[カスタムハンドラーのテンプレート](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers)を参照してください。
+>カスタムオフラインリソースハンドラーのテンプレートについて確認してください。 また、プロジェクトの `pom.xml` の最小要件についても詳細を確認してください。 **AEM Screens 用カスタムコンポーネントの開発**&#x200B;の[カスタムハンドラーのテンプレート](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers)を参照してください。

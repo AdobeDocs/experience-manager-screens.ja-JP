@@ -6,10 +6,18 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
+TQID: https://experienceleague.adobe.com/f26UFATHoXD7n8eEH9Dp-1KpC843nb21Mg4nTbRAWSE
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 94%
+source-wordcount: 893
+ht-degree: 93%
 
 ---
 
@@ -34,9 +42,9 @@ ht-degree: 94%
 
    | **レイアウト名** | **説明** |
    |---|---|
-   | `Left20-LandscapeHD3Zone` | 次の 3 つのゾーンを作成できる 3 ゾーンの横長レイアウト：<br>* ゾーン 1、画面の左から縦横 20％<br>* ゾーン 2、右揃えで縦 20％、横 80％<br>* ゾーン 3、縦 80％、横 100％。 縦横比は 16:9 です。 |
-   | `Upper20-PortraitHD2Zone` | 画面の 20% を上から覆う 2 ゾーンの縦長テンプレート。縦横比は 16:9 |
-   | `Right20-LandscapeSD3Zone` | 画面の 20% を右からカバーする 3 ゾーンテンプレート。縦横比は 4 です :3 |
+   | `Left20-LandscapeHD3Zone` | 次の 3 つのゾーンを作成できる 3 ゾーンの横長レイアウト：<br>* ゾーン 1、画面の左から縦横 20％<br>* ゾーン 2、右揃えで縦 20％、横 80％<br>* ゾーン 3、縦 80％、横 100％。 縦横比は16:9です |
+   | `Upper20-PortraitHD2Zone` | 画面の上から20%をカバーし、縦横比が16:9の2 ゾーンのポートレート テンプレート |
+   | `Right20-LandscapeSD3Zone` | 画面の20%を右からカバーし、縦横比が4:3の3 ゾーンテンプレート |
 
    >[!IMPORTANT]
    >カスタムレイアウト内で定義されたゾーンは、レイアウト全体の縦横比と一致しない場合があります。 このドキュメントで従う命名規則では、カスタムレイアウト全体の縦横比を指定します。
@@ -47,7 +55,7 @@ ht-degree: 94%
 
 * **`Left20`** – 画面サイズの縦横 20％を占める左上部のゾーン。
 * **`Landscape`** – 画面の向き。
-* **`HD`** - 16:9 の縦横比。
+* **`HD`** - アスペクト比は16:9です。
 * **`3Zone`** – ディスプレイの 3 つのゾーン。
 
 ## マルチゾーンレイアウトの視覚表現 {#multi-layout-visual-one}
@@ -158,7 +166,7 @@ ht-degree: 94%
 
 「data-uri」を使用して画像（`Base64` エンコード済み）を CSS ファイル（手順 13 で作成した *static.css*）に直接埋め込むように、CSS ルールを調整できます。
 
-この配置は次のようにします。
+この取り決めは次のように行われます。
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
 
 または、次の手順に従うこともできます。

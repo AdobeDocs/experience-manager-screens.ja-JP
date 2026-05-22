@@ -10,10 +10,23 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/aLtguYZ6JwUbzmMP1S3UvOJ2b0RoFimlPvSE7AJ5Csg
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 100%
+source-wordcount: 1476
+ht-degree: 98%
 
 ---
 
@@ -33,7 +46,7 @@ AEM Screens プロジェクトの在庫主導型チャネルを作成および�
 
 **オーディエンス** - ルールを定義します。
 
-**セグメント** - 与えられたルールで再生されるアセットのバージョン。例えば、温度が華氏 50 度を下回る場合は温かい飲み物、それ以外の場合は冷たい飲み物の画像が画面に表示されます。
+**セグメント** - 与えられたルールで再生されるアセットのバージョン。 例えば、温度が華氏 50 度を下回る場合は温かい飲み物、それ以外の場合は冷たい飲み物の画像が画面に表示されます。
 
 以下の図は、ContextHub 設定がアクティビティ、オーディエンス、チャネルと一致する様子を視覚的に示しています。
 
@@ -45,7 +58,7 @@ AEM Screens プロジェクト用に ContextHub の設定を開始する前に�
 
 >[!IMPORTANT]
 >
->次の例では、値の取得先となるサンプルデータベースシステムとして Google シートを使用していますが、この Google シートはあくまで教育用のものです。アドビでは、実稼動環境への Google シートの使用はお勧めしません。
+>次の例では、値の取得先となるサンプルデータベースシステムとして Google シートを使用していますが、この Google シートはあくまで教育用のものです。 アドビでは、本番環境への Google シートの使用はお勧めしません。
 >
 >詳しくは、Google ドキュメントの [API キーの取得](https://developers.google.com/maps/documentation/javascript/get-api-key) を参照してください。
 
@@ -53,7 +66,7 @@ AEM Screens プロジェクト用に ContextHub の設定を開始する前に�
 
 データストアは、ローカル I/O イベントまたはローカルデータベースイベントとして設定できます。
 
-次のアセットレベルのデータトリガーの例は、ローカルデータベースイベントを示しています。イベントでは、AEM Screens チャネルへの ContextHub 設定とセグメントパスを使用できる Excel シートなどのデータストアを設定します。
+次のアセットレベルのデータトリガーの例は、ローカルデータベースイベントを示しています。 イベントでは、AEM Screens チャネルへの ContextHub 設定とセグメントパスを使用できる Excel シートなどのデータストアを設定します。
 
 次の例に示すように、`google` シートを正しく設定した後に、
 
@@ -73,7 +86,7 @@ AEM Screens プロジェクト用に ContextHub の設定を開始する前に�
 
 1. **ContextHub への移動**
 
-   AEM インスタンスに移動し、左側のサイドバーにあるツールアイコンをクリックします。**サイト**／**ContextHub** をクリックします（下図を参照）。
+   AEM インスタンスに移動し、左側のサイドバーにあるツールアイコンをクリックします。 **サイト**／**ContextHub** をクリックします（下図を参照）。
 
    ![画像](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -101,12 +114,12 @@ AEM Screens プロジェクト用に ContextHub の設定を開始する前に�
    >次の手順に従います。
    >
    >1. CRXDE Lite に移動してから`/conf/screens/settings/cloudsettings`に移動します。
-   >1. `cloudsettings jcr:primaryType` が `sling:Folder` にあるかどうかを確認します。`jcr:primaryType` が `sling:folder` にない場合は、次の手順に進みます。
+   >1. `cloudsettings jcr:primaryType` が `sling:Folder` にあるかどうかを確認します。 `jcr:primaryType` が `sling:folder` にない場合は、次の手順に進みます。
    >1. `/conf/screens/settings` を右クリックし、*名前*&#x200B;を **`cloudsettings1`**、*タイプ*&#x200B;を **`sling:Folder`** としてノードを作成し、変更を保存します。
    >1. `/conf/screens/settings/cloudsettings` の下のすべてのノードを `cloudsettings1` に移動します。
    >1. `cloudsettings` を削除して保存します。
    >1. `cloudsettings1` を `cloudsettings` に名前変更して保存します。
-   >1.  `/conf/screens/settings/cloudsettings` が `sling:Folder` として `jcr:primaryType` を持っていることを確認します。
+   >1. `/conf/screens/settings/cloudsettings` が `sling:Folder` として `jcr:primaryType` を持っていることを確認します。
    >
    >アップグレードの前後に、オーサーとパブリッシュで以上の手順を実行します。
 
@@ -117,7 +130,7 @@ AEM Screens プロジェクト用に ContextHub の設定を開始する前に�
 
       ![画像](/help/user-guide/assets/context-hub/context-hub6.png)
 
-   1. 固有の JSON 設定を入力します。例えば、デモ用に次の JSON を使用し、「**保存**」をクリックします。ContextHub 設定に **Google スプレッドシート**&#x200B;というタイトルのストア設定が表示されます。
+   1. 固有の JSON 設定を入力します。 例えば、デモ用に次の JSON を使用し、「**保存**」をクリックします。 ContextHub 設定に **Google スプレッドシート**&#x200B;というタイトルのストア設定が表示されます。
 
       >[!IMPORTANT]
       >コードは、Google スプレッドシートのセットアップ時に取得し `*<Sheet ID>*` と `*<API Key>*` に必ず置き換えてください。
@@ -166,16 +179,16 @@ AEM Screens プロジェクト用に ContextHub の設定を開始する前に�
 
    1. AEM インスタンスで、**パーソナライゼーション**／**オーディエンス**／**Screens** に移動します。
 
-   1. **作成**／**ContextHub セグメントを作成。**&#x200B;をクリックします。**新しい ContextHub セグメント**&#x200B;ダイアログボックスが開きます。
+   1. **作成**/**ContextHub セグメントを作成をクリックします。** **新しいContextHub セグメント** ダイアログボックスが開きます。
 
-   1. 「**タイトル**」に「`**Higherthan50**`」と入力し、「**作成**」をクリックします。同様に、`**Lowerthan50**` というタイトルの別のセグメントを作成します。
+   1. 「**タイトル**」に「`**Higherthan50**`」と入力し、「**作成**」をクリックします。 同様に、`**Lowerthan50**` というタイトルの別のセグメントを作成します。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub11.png)
 
    1. `**Higherthan50**` セグメントをクリックし、アクションバーの「**プロパティ**」をクリックします。
       ![画像](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. **セグメントプロパティ**&#x200B;から「**パーソナライゼーション**」タブをクリックします。次の図に示すように、「**ContextHub のパス**」を `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations`、「**セグメントのパス**」を `/conf/screens/settings/wcm/segments` に設定し、「**保存**」をクリックします。
+   1. **セグメントプロパティ**&#x200B;から「**パーソナライゼーション**」タブをクリックします。 次の図に示すように、「**ContextHub のパス**」を `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations`、「**セグメントのパス**」を `/conf/screens/settings/wcm/segments` に設定し、「**保存**」をクリックします。
 
    ![画像](/help/user-guide/assets/context-hub/context-hub13.png)
 
@@ -193,7 +206,7 @@ AEM Screens プロジェクト用に ContextHub の設定を開始する前に�
 
    1. **ページを作成**&#x200B;ウィザードで「**ブランド**」をクリックし、「**次へ**」をクリックします。
 
-   1. 「**タイトル**」に「**ScreensBrand**」と入力し、「**作成**」をクリックします。これで、以下のようにブランドが作成されました。
+   1. 「**タイトル**」に「**ScreensBrand**」と入力し、「**作成**」をクリックします。 これで、以下のようにブランドが作成されました。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub8.png)
 
@@ -202,7 +215,7 @@ AEM Screens プロジェクト用に ContextHub の設定を開始する前に�
       >
       >既知の問題：
       >領域を追加するには、URL（例えば下記）からプライマリを削除します。
-      >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`。
+      >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
 1. **ブランドに領域を作成する**
 
@@ -225,21 +238,21 @@ AEM Screens プロジェクト用に ContextHub の設定を開始する前に�
 
    1. AEM インスタンスで、**パーソナライゼーション**／**アクティビティ**／**ScreensBrand**／**ScreensValue** に移動します。
 
-   1. **作成**／**アクティビティを作成**&#x200B;をクリックします。**アクティビティの設定**&#x200B;ウィザードが開きます。
+   1. **Create** > **Create Activity.**&#x200B;をクリックします。 **アクティビティの設定ウィザード**&#x200B;が開きます。
 
-   1. 「**タイトル**」に「**ValueCheck50**」、「**名前**」に「**valuecheck50**」と入力します。**ContextHub (AEM)** として、ドロップダウンから&#x200B;**ターゲティングエンジン**&#x200B;をクリックし、「**次へ**」をクリックします。
+   1. 「**タイトル**」に「**ValueCheck50**」、「**名前**」に「**valuecheck50**」と入力します。 **ContextHub (AEM)** として、ドロップダウンから&#x200B;**ターゲティングエンジン**&#x200B;をクリックし、「**次へ**」をクリックします。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub14.png)
 
    1. `**Configure Activity**` ウィザードから「**エクスペリエンスを追加**」をクリックします。
 
-   1. 「**オーディエンス**」から、`**Higherthan50**` をクリックし、「**エクスペリエンスを追加**」をクリックして、「**タイトル**」に「`**higherthan50**`」、「**名前**」に「`**higherthan50**`」と入力します。「**OK**」をクリックします。
+   1. 「**オーディエンス**」から、`**Higherthan50**` をクリックし、「**エクスペリエンスを追加**」をクリックして、「**タイトル**」に「`**higherthan50**`」、「**名前**」に「`**higherthan50**`」と入力します。 「**OK**」をクリックします。
 
-   1. 「**オーディエンス**」から、`**Lowerthan50**` をクリックし、「**エクスペリエンスを追加**」をクリックして、「**タイトル**」に「`**lowerthan50**`」、「**名前**」に「`**lowerthan50**`」と入力します。「**OK**」をクリックします。
+   1. 「**オーディエンス**」から、`**Lowerthan50**` をクリックし、「**エクスペリエンスを追加**」をクリックして、「**タイトル**」に「`**lowerthan50**`」、「**名前**」に「`**lowerthan50**`」と入力します。 「**OK**」をクリックします。
 
    ![画像](/help/user-guide/assets/context-hub/context-hub15.png)
 
-   1. 「**次へ**」、「**保存**」の順にクリックします。`**ValueCheck50**` アクティビティが作成され、設定されました。
+   1. 「**次へ**」、「**保存**」の順にクリックします。 `**ValueCheck50**` アクティビティが作成され、設定されました。
 
       ![画像](/help/user-guide/assets/context-hub/context-hub16.png)
 
@@ -289,7 +302,7 @@ AEM Screens プロジェクト用に ContextHub の設定を開始する前に�
 
 以下の手順に従って、チャネルでターゲティングを有効にします。
 
-1. AEM Screens チャネルのいずれかに移動します。以下の手順は、AEM Screens チャネルに作成した **DataDrivenChannel** を使用してターゲティングを有効にする方法を示しています。
+1. AEM Screens チャネルのいずれかに移動します。 以下の手順は、AEM Screens チャネルに作成した **DataDrivenChannel** を使用してターゲティングを有効にする方法を示しています。
 
 1. **TargetChannel** チャネルをクリックし、アクションバーの「**プロパティ**」をクリックします。
 

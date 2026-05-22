@@ -10,10 +10,27 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+TQID: https://experienceleague.adobe.com/RVv6pOsJlK-uDu7AfobsDvpYlKQJ6nj4Q0cKSbTlBv4
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 100%
+source-wordcount: 590
+ht-degree: 98%
 
 ---
 
@@ -23,7 +40,7 @@ ht-degree: 100%
 
 ## 説明 {#description}
 
-このユースケースは、3 種類のカラートレーナーの小売在庫を表示します。Google シートに記録されているトレーナーの在庫数に応じて、最も数が多いトレーナー（赤、緑、青のいずれか）の画像が表示されます。
+このユースケースは、3 種類のカラートレーナーの小売在庫を表示します。 Google シートに記録されているトレーナーの在庫数に応じて、最も数が多いトレーナー（赤、緑、青のいずれか）の画像が表示されます。
 
 購入可能なセーターの最大数に基づいて、赤、緑、青のセーターが表示されます。
 
@@ -96,7 +113,7 @@ ht-degree: 100%
 1. **デフォルト画像を追加する**
 
    1. チャネルにデフォルト画像を追加し、「**ターゲティング**」をクリックします。
-   1. 「**ブランド**」と「**アクティビティ**」のドロップダウンメニューからクリックし、「**ターゲット設定を開始**」をクリックします。
+   1. 「**ブランド**」と「**アクティビティ**」のドロップダウンメニューからクリックし、「**ターゲティングを開始**」をクリックします。
    1. 「**ターゲティングを開始**」をクリックします。
 
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
@@ -113,7 +130,7 @@ ht-degree: 100%
 
 1. **プレビューを確認する**
 
-   1. 「**プレビュー**」をクリックします。また、Google シートを開き、値を更新します。
-   1. 3 つの異なる列すべての値を変更します。インベントリ内の最大値に応じてディスプレイの画像が更新されます。
+   1. 「**プレビュー」をクリックします。** また、Google シートを開き、その値を更新します。
+   1. 3 つの異なる列すべての値を変更します。 インベントリ内の最大値に応じてディスプレイの画像が更新されます。
 
    ![retail_result](assets/retail_result.gif)

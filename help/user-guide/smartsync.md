@@ -9,10 +9,20 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/hxV3PSzivkechOrO-jmc0NfJ8OH8LccD4-VBXUv8EtE
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 97%
+source-wordcount: 452
+ht-degree: 91%
 
 ---
 
@@ -22,7 +32,7 @@ ht-degree: 97%
 
 ## 概要 {#overview}
 
-スマート同期は、AEM Screens で使用される最新のメカニズムです。これは、オフラインチャネルのキャッシングとプレイヤーへの配信に現在使用されている方法の代わりになります。
+スマート同期は、AEM Screens で使用される最新のメカニズムです。 これは、オフラインチャネルのキャッシングとプレイヤーへの配信に現在使用されている方法の代わりになります。
 
 サーバー側とクライアント側の両方で実行されます。
 
@@ -45,17 +55,17 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->Adobeでは、AEM Screens プロジェクトにスマート同期を使用することをお勧めします。
+>Adobeでは、AEM Screens プロジェクトにSmartSyncを使用することをお勧めします。
 
 ## コンテンツ同期からスマート同期への移行 {#migrating-from-contentsync-to-smartsync}
 
 >[!NOTE]
 >
->AEM 6.3 機能パック 5 や AEM 6.4 機能パック 3 を既にインストールしてある場合は、アセットのスマート同期を有効にして、ディスク領域の使用量を削減することができます。スマート同期を有効にするには、以下の手順に従ってコンテンツ同期からスマート同期に移行し、スマート同期を有効にします。
+>AEM 6.3 機能パック 5 や AEM 6.4 機能パック 3 を既にインストールしてある場合は、アセットのスマート同期を有効にして、ディスク領域の使用量を削減することができます。 スマート同期を有効にするには、以下の手順に従ってコンテンツ同期からスマート同期に移行し、スマート同期を有効にします。
 >
 >スマート同期は、AEM 6.4.3 機能パック 3 に対応するサーバーの場合に、Screens Player で使用できます。
 >
->最新のプレーヤーをダウンロードするには、[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)を参照してください。各プラットフォームに最低限必要なプレーヤーバージョンを次の表に示します。
+>最新のプレーヤーをダウンロードするには、[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)を参照してください。 各プラットフォームに最低限必要なプレーヤーバージョンを次の表に示します。
 
 | **プラットフォーム** | **サポートされているプレーヤーの最小バージョン** |
 |---|---|
@@ -67,7 +77,7 @@ ht-degree: 97%
 
 1. コンテンツ同期からスマート同期に移行する場合は、スマート同期を有効にする前にコンテンツ同期キャッシュをクリアする必要があります。
 
-   リンク ***https://localhost:4502/libs/cq/contentsync/content/console.html*** を使用してインスタンスからコンテンツ同期コンソールに移動し、「**キャッシュをクリア**」をクリックします（下図を参照）。
+   次の図に示すように、リンク ***https://localhost:4502/libs/cq/contentsync/content/console.html***&#x200B;を使用してインスタンスからContentSync コンソールに移動し、**キャッシュをクリア**&#x200B;をクリックします。
 
    ![clear_contesync_cache](assets/clear_contesync_cache.png)
 
@@ -79,7 +89,7 @@ ht-degree: 97%
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. **Adobe Experience Manager Web コンソール設定**&#x200B;が開きます。「*offlinecontentservice*」を検索します。
+1. **Adobe Experience Manager Web コンソール設定**&#x200B;が開きます。 「*offlinecontentservice*」を検索します。
 
    「**Screens Offline コンテンツサービス**」プロパティを検索するには、**Command + F** キー（**Mac**）または **Ctrl + F** キー（**Windows**）を押します。
 

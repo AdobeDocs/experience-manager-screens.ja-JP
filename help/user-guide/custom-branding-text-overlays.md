@@ -6,9 +6,17 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/7M6tMLxqCrYuwdLcMpep7YdQe4efLFjNGgGqVX1ewRE
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: 584
 ht-degree: 96%
 
 ---
@@ -21,7 +29,7 @@ AEM Screens チャネルのアセットに適用されたテキストオーバ�
 
 次の手順に従って、テキストオーバーレイのカスタムブランディングとスタイル設定を作成します。
 
-1. AEM Screens プロジェクトを作成します。次の図のように、この例では、**`customstyle`** という名前のプロジェクトと、**DemoBrand** という名前のチャネルを作成して、この機能を示しています。
+1. AEM Screens プロジェクトを作成します。 次の図のように、この例では、**`customstyle`** という名前のプロジェクトと、**DemoBrand** という名前のチャネルを作成して、この機能を示しています。
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -38,7 +46,7 @@ AEM Screens チャネルのアセットに適用されたテキストオーバ�
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. *static.css* ファイルを作成し、次の css ルールを設定します。また、css ルールは下の図の例としても示されています。
+1. *static.css* ファイルを作成し、次の css ルールを設定します。 また、css ルールは下の図の例としても示されています。
 
    ```shell
     //global styles
@@ -75,14 +83,14 @@ AEM Screens チャネルのアセットに適用されたテキストオーバ�
    >[!NOTE]
    >デフォルトでは、「**デザイン**」フィールドには、libs フォルダー内のデザインを指すパスが表示されます。
 
-1. プロジェクトフォルダーのパスで、「**デザイン**」フィールドを更新します。この場合、値は `/apps/settings/wcm/designs/customstyle` です。
+1. プロジェクトフォルダーのパスで、「**デザイン**」フィールドを更新します。 この場合、値は `/apps/settings/wcm/designs/customstyle` です。
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
 1. 「**保存して閉じる**」をクリックして、デザインパスを更新します。
 
    >[!IMPORTANT]
-   >オプションで、既存の Screens テンプレートをオーバーレイして、デフォルトで独自のデザインを挿入したり、完全に独自のテンプレートを作成したりできます。詳しくは、以下の手順を参照してください。
+   >オプションで、既存の Screens テンプレートをオーバーレイして、デフォルトで独自のデザインを挿入したり、完全に独自のテンプレートを作成したりできます。 詳しくは、以下の手順を参照してください。
 
 1. 既存の Screen テンプレートをオーバーレイして独自のデザインを挿入するには、次の手順に従います。
 
@@ -108,13 +116,13 @@ AEM Screens チャネルのアセットに適用されたテキストオーバ�
 
 次の手順に従って、更新したデザインをテキストオーバーレイに表示します。
 
-1. **`customstyle`** という AEM Screens プロジェクトから、**チャネル**／**DemoBrand** に移動します。チャネルをクリックし、アクションバーの「**編集**」をクリックします。
+1. **`customstyle`** という AEM Screens プロジェクトから、**チャネル**／**DemoBrand** に移動します。 チャネルをクリックし、アクションバーの「**編集**」をクリックします。
 
 1. デザインは「**デザイン**」フィールドに追加されたので、前述のように「**プレビュー**」をクリックすると、現在のスタイルが画像上のテキストオーバーレイで表示されます。
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. CRXDE Liteの *static.css* ファイルに移動し、次に示すように、`font-family: "Lucida Console", Courier, monospace;` などのフォントをこのファイルに追加します。
+1. CRXDE Liteで&#x200B;*static.css* ファイルに移動し、次に示すように`font-family: "Lucida Console", Courier, monospace;`などのフォントをこのファイルに追加します。
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand8.png)
 

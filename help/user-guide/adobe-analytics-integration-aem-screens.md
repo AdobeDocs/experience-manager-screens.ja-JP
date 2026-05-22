@@ -10,9 +10,21 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/4Qdx25kNW3IszlXshNPGYGMJNE9E2QQlndLjJICDrI4
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: 693
 ht-degree: 100%
 
 ---
@@ -21,11 +33,11 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->この AEM Screens 機能は、AEM 6.4.2 機能パック 2 の最小バージョンまたは AEM 6.3.3 機能パック 4 がインストールされている場合にのみ使用できます。AEM Screens Cloud Service のお客様の場合、Screens Cloud でAdobe Analytics を有効にするには、アドビリレーションシップマネージャーにお問い合わせください。
+>この AEM Screens 機能は、AEM 6.4.2 機能パック 2 の最小バージョンまたは AEM 6.3.3 機能パック 4 がインストールされている場合にのみ使用できます。 AEM Screens Cloud Service のお客様の場合、Screens Cloud でAdobe Analytics を有効にするには、アドビリレーションシップマネージャーにお問い合わせください。
 
 >[!NOTE]
 >
->このいずれかの機能パックにアクセスするには、アドビサポートに利用申請を行います。AEM Screens の最新の機能パックは、Adobe ID を使用して[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html)からダウンロードできます。
+>このいずれかの機能パックにアクセスするには、アドビサポートに利用申請を行います。 AEM Screens の最新の機能パックは、Adobe ID を使用して[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html)からダウンロードできます。
 
 ここでは、以下のトピックについて説明します。
 
@@ -55,7 +67,7 @@ Adobe Analytics と AEM Screens の統合により、*次の*&#x200B;目標を�
 
 ## アーキテクチャの詳細 {#architectural-details}
 
-AEM Screens の顧客は、どのコンテンツが、いつ、どのくらいの時間（集計）表示されたかを把握したいと考えています。この要求は、サイネージソリューションの一般的な機能です。AEM Screens では、別の分析アプリケーションを作成するのではなく、Adobe Analytics を使用します。この組み合わせにより、特定の場所に表示されるコンテンツと他のデータソースとの関連性を探るのに役立つユニークなクロスチャネル分析を実現できます。
+AEM Screens の顧客は、どのコンテンツが、いつ、どのくらいの時間（集計）表示されたかを把握したいと考えています。 この要求は、サイネージソリューションの一般的な機能です。 AEM Screens では、別の分析アプリケーションを作成するのではなく、Adobe Analytics を使用します。 この組み合わせにより、特定の場所に表示されるコンテンツと他のデータソースとの関連性を探るのに役立つユニークなクロスチャネル分析を実現できます。
 
 次のアーキテクチャ図では、Adobe Analytics と AEM Screens の統合について説明しています。
 
@@ -91,7 +103,7 @@ Adobe Analytics を AEM Screens 用に設定するためのプロパティとそ
   </tr>
   <tr>
    <td><strong>Analytics URL</strong></td>
-   <td>プレーヤーから得られる分析データを投稿するための URL。<br>
+   <td>プレーヤーから得られる分析データを投稿するための URL。 <br>
    開発／ステージング環境の場合</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>プロダクション環境の場合</em> - https://cc-api-data.adobe.io/ingest/<br /> <br /></td>
   </tr>
   <tr>
@@ -104,11 +116,11 @@ Adobe Analytics を AEM Screens 用に設定するためのプロパティとそ
   </tr>
   <tr>
    <td><strong>環境</strong></td>
-   <td><p>ステージング環境または実稼動環境（「ステージング」か「実稼動」のいずれかを選択）。</p></td>
+   <td><p>ステージング環境または本番環境（「ステージング」か「本番」のいずれかを選択）。</p></td>
   </tr>
   <tr>
    <td><strong>分析送信頻度</strong></td>
-   <td>プレーヤーから分析データを送信する間隔（分）。デフォルトでは 15 分に設定されています。</td>
+   <td>プレーヤーから分析データを送信する頻度（分）。 デフォルトでは 15 分に設定されています。</td>
   </tr>
  </tbody>
 </table>
@@ -119,7 +131,7 @@ Adobe Analytics を AEM Screens 用に設定するためのプロパティとそ
 
 #### AEM Screens での Adobe Analytics サービスの使用 {#using-adobe-analytics-service-in-aem-screens}
 
-このシナリオでは、ファームウェアの分析サービスからの REST 呼び出しを通じて Analytics API を呼び出します。また、AEM Screens コアコンポーネントも実装して、特定のユースケースに固有のイベントを作成および送信します。これらすべての機能により、カスタム開発されたチャネルからカスタムメッセージを Analytics に送信できる拡張性が実現します。
+このシナリオでは、ファームウェアの分析サービスからの REST 呼び出しを通じて Analytics API を呼び出します。 また、AEM Screens コアコンポーネントも実装して、特定のユースケースに固有のイベントを作成および送信します。 これらすべての機能により、カスタム開発されたチャネルからカスタムメッセージを Analytics に送信できる拡張性が実現します。
 
 Analytics イベントは、IndexedDB にオフラインで保存され、後でまとめてクラウドに送信されます。
 

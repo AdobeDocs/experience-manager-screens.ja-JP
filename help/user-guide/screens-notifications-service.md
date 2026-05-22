@@ -9,9 +9,25 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
+TQID: https://experienceleague.adobe.com/9BVI-WKkjiL-vY57T-GMir-4Dll552q-30LDHF20BxU
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: 492
 ht-degree: 84%
 
 ---
@@ -55,7 +71,7 @@ OBSOLETE NOTE>
 
 1. 以下のフィールドを定義して、メールの設定を指定します。
 
-   **デバイスのパス** – 監視するScreens プロジェクトへのパスを入力します。 パスは通常、`/home/users/screens/<Name of your project>` です。
+   **Devices Path** - モニターするScreens プロジェクトへのパスを入力します。 パスは通常、`/home/users/screens/<Name of your project>` です。
 
    例えば、プロジェクトが **`We.Retail`** の場合、プロジェクトのパスは ***/home/users/screens/we-retail*** になります。
 
@@ -63,7 +79,7 @@ OBSOLETE NOTE>
    >
    >デバイスユーザーがアクセスするプロジェクトパスを指定します。
 
-   **スケジュールの頻度** – このモニターがメールを送信する時刻（例：午後 5:00 または 17:00）または頻度（時間単位、例：1）を指定します。
+   **頻度をスケジュール** – 時間（午後5:00または午後17:00など）または時間（例：1）で、このモニターがメールを送信する頻度を指定します。
 
    **ping タイムアウト**：このフィールドは、デバイスが到達不能と見なされるまでの経過時間を分単位で指定します。
 
@@ -104,7 +120,7 @@ OBSOLETE NOTE>
 
 **シナリオ 1**
 
-スケジュールの頻度を午前 1:00、ping タイムアウトを 60 に設定します。 次に、AEM Screens デバイスが午後 12 時から :00 後 1 時まで ping を送信しない場合は、デバイスが無操作状態であることを :00 すメール通知が届きます。
+スケジュールの頻度は午前1:00、ping タイムアウトは60に設定します。 次に、AEM Screens デバイスが午後12:00時から午後1:00時までpingを送信しない場合、デバイスの非アクティブを確認するメール通知が届きます。
 
 **シナリオ 2**
 

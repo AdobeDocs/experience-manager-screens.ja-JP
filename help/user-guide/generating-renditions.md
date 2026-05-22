@@ -9,22 +9,37 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+TQID: https://experienceleague.adobe.com/4xxCtO5lD71kiS-dSbTjTgycZDiWkQlHPdJOCVDrv38
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: 378
 ht-degree: 100%
 
 ---
 
 # ビデオレンディション {#video-renditions}
 
-手動および自動のフル HD レンディションを生成できます。次の節では、アセットにレンディションを追加するワークフローについて説明します。
+手動および自動のフル HD レンディションを生成できます。 次の節では、アセットにレンディションを追加するワークフローについて説明します。
 
 ## フル HD レンディションの自動生成 {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
->AEM Screens のビデオレンディションがデバイスで最適に再生されない場合は、ハードウェアのベンダーにビデオの仕様を問い合わせてください。これにより、デバイスで最高のパフォーマンスを得ることができます。これは、レンディションを生成するための FFMPEG に適したパラメーターを提供する、独自のカスタムビデオプロファイルを作成する場合に役立ちます。次に、次の手順を使用して、カスタムビデオプロファイルをプロファイルのリストに追加します。
+>AEM Screens のビデオレンディションがデバイスで最適に再生されない場合は、ハードウェアのベンダーにビデオの仕様を問い合わせてください。 これにより、デバイスで最高のパフォーマンスを得ることができます。 これは、レンディションを生成するための FFMPEG に適したパラメーターを提供する、独自のカスタムビデオプロファイルを作成する場合に役立ちます。 次に、次の手順を使用して、カスタムビデオプロファイルをプロファイルのリストに追加します。
 >
 >また、チャネルで再生されるビデオをデバッグおよびトラブルシューティングするには、[ビデオのトラブルシューティング](troubleshoot-videos.md)を参照してください。
 
@@ -55,7 +70,7 @@ ht-degree: 100%
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. **Assets** に移動し、新しいビデオをアップロードします。ビデオをクリックして、レンディションサイドパネルを開きます。2 つのフル HD ビデオに注目します。
+1. **Assets** に移動し、新しいビデオをアップロードします。 ビデオをクリックして、レンディションサイドパネルを開きます。 2 つのフル HD ビデオに注目します。
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
@@ -89,6 +104,6 @@ ht-degree: 100%
 
    ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 
-1. **レンディション**&#x200B;サイドパネルを開きます。新しいフル HD レンディションに注目してください。
+1. **レンディション**&#x200B;サイドパネルを開きます。 新しいフル HD レンディションに注目してください。
 
    ![step8_-_open_therenditionssiderail](assets/step8_-_open_therenditionssiderail.png)

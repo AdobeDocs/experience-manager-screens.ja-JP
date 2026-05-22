@@ -9,10 +9,20 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/4MMy4-ShZOJ1C09ayJpXRFAeaUZDDbzhNmIifacUPPk
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 98%
+source-wordcount: 805
+ht-degree: 97%
 
 ---
 
@@ -24,7 +34,7 @@ ht-degree: 98%
 
 ## DAM レンディション {#dam-renditions}
 
-ビデオをチャネルにアップロードすると、AEM によってそのビデオのレンディションの作成が開始されます。ビデオは Assets で表示できます。
+ビデオをチャネルにアップロードすると、AEM によってそのビデオのレンディションの作成が開始されます。 ビデオは Assets で表示できます。
 
 ビデオを表示するには：
 
@@ -43,7 +53,7 @@ ht-degree: 98%
 
 ## ビデオアセット {#video-assets}
 
-ビデオの下にソース属性が表示されない場合は、ビデオがトランスコードされなかった可能性があります。ビデオが正しくトランスコードされている場合は、以下に示すようにダッシュボードに表示されます。
+ビデオの下にソース属性が表示されない場合は、ビデオがトランスコードされなかった可能性があります。 ビデオが正しくトランスコードされている場合は、以下に示すようにダッシュボードに表示されます。
 
 FFMPEG がインストールされていること、およびビデオプロファイルを確認してください。
 
@@ -77,16 +87,16 @@ FFMPEG がインストールされていること、およびビデオプロフ�
 
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
-1. ビデオをクリックし、**編集**&#x200B;ダイアログを開きます。「**プロファイル**」タブを開きます。
+1. ビデオをクリックし、**編集**&#x200B;ダイアログを開きます。 「**プロファイル**」タブを開きます。
 
    >[!NOTE]
    >様々なプロファイルをクリックします（少なくとも「高画質 H.264」プロファイルは必ずあります）。
 
 ### Web プレーヤーでのビデオの確認 {#checking-the-video-in-the-web-player}
 
-**Web プレーヤー**（`http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0`）を使用して、ブラウザー（Chrome および Safari）で再生を検証します。Chrome は Android™ デバイスで使用されますが、Safari は OS X および iOS ブラウザーです。
+**Web プレーヤー**（`http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0`）を使用して、ブラウザー（Chrome および Safari）で再生を検証します。 Chrome は Android™ デバイスで使用されますが、Safari は OS X および iOS ブラウザーです。
 
-ビデオが Safari で実行されない場合、OS X と iOS Player でも実行されません。この問題はエンコーディングの問題である可能性が高く、ビデオを再度エンコードする必要があります。
+ビデオが Safari で実行されない場合、OS X と iOS Player でも実行されません。 この問題はエンコーディングの問題である可能性が高く、ビデオを再度エンコードする必要があります。
 
 DAM ワークフローを使用して FullHD レンディションを作成するには、次の手順を実行します。
 
@@ -113,7 +123,7 @@ Google の自動再生ポリシーフラグに関する問題をトラブルシ�
 
 >[!NOTE]
 >
->Chrome の新しい自動再生ポリシーを使用して、優れたユーザーエクスペリエンスを実現するベストプラクティスについて詳しく説明します。`https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio` の&#x200B;*自動再生ポリシーの変更*&#x200B;を参照してください。
+>Chrome の新しい自動再生ポリシーを使用して、優れたユーザーエクスペリエンスを実現するベストプラクティスについて詳しく説明します。 `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio` の&#x200B;*自動再生ポリシーの変更*&#x200B;を参照してください。
 
 ### 複数のプレーヤーでのビデオの同期 {#syncing-video-across-multiple-players}
 
@@ -148,7 +158,7 @@ Google の自動再生ポリシーフラグに関する問題をトラブルシ�
 
 1. 各 OSX ボックスで、**日付と時刻**&#x200B;環境設定を開きます。
 1. 「**日付と時刻を自動的に設定**」をオンにします。
-1. 値0.pool.ntp.org、1.pool.ntp.org、2.pool.ntp.org、3.pool.ntp.org、time.apple.comをドロップダウンに貼り付けるか、*`sudo ntpdate -u -v 0.pool.ntp.org`* を実行します
+1. 値0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.comをドロップダウンに貼り付けるか、*`sudo ntpdate -u -v 0.pool.ntp.org`*&#x200B;を実行します
 1. 2 台以上のプレーヤーを起動します。
 
 プレーヤーが新しく割り当てられたシーケンスを開始するまでに時間がかかることがあります。

@@ -5,9 +5,19 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/x7dgY8u-SdWo2JRK1W2uqRWtHy2wtXdAnIcS0gRoxiY
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: 407
 ht-degree: 100%
 
 ---
@@ -15,13 +25,13 @@ ht-degree: 100%
 # 機能パック 202103 のリリースノート {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。AEM Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
+>最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。 AEM Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
 
 ## 入手方法 {#availability}
 
 AEM Screens は、AEM 6.5 機能パック 7 をリリースしました。
 
-Adobe ID を使用して、AEM Screens 6.5.7 リリースの最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html)からダウンロードできます。「**Adobe Experience Manager**」タブに移動し、「**Screens**」を検索して、**AEM 6.5 Screens FP7** というタイトルが付いた最新の機能パックを入手します。
+Adobe ID を使用して、AEM Screens 6.5.7 リリースの最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html)からダウンロードできます。 「**Adobe Experience Manager**」タブに移動し、「**Screens**」を検索して、**AEM 6.5 Screens FP7** というタイトルが付いた最新の機能パックを入手します。
 
 ## リリース日 {#release-date}
 
@@ -31,14 +41,14 @@ AEM Screens 機能パック 202103 のリリース日は 2021年3月5日です�
 
 * **AEM Screens のプレーヤーの自動登録**
 
-  何千ものプレーヤーを手動で一括登録するのは面倒で、時間とコストが余計にかかります。このプロセスを簡単にするために、プレーヤーの自動登録機能を使用して、AEMで事前共有キーを指定できます。このキーは、設定ファイルまたはモバイルデバイス管理（MDM）ソリューションを使用して、プレーヤーにプロビジョニングできます。
+  何千ものプレーヤーを手動で一括登録するのは面倒で、時間とコストが余計にかかります。 このプロセスを簡単にするために、プレーヤーの自動登録機能を使用して、AEMで事前共有キーを指定できます。 このキーは、設定ファイルまたはモバイルデバイス管理（MDM）ソリューションを使用して、プレーヤーにプロビジョニングできます。
 
   詳しくは、[プレーヤーの自動登録](/help/user-guide/auto-registration-players.md)を参照してください。
 
 
 * **エンタープライズモビリティ管理を使用した Android™ プレーヤーの一括プロビジョニング**
 
-  Android™ プレーヤーを一括デプロイする場合、すべてのプレーヤーを手動で AEM に登録するのは非常に手間がかかります。`VMWare Airwatch`、`MobileIron`、`Samsung Knox` などの EMM（エンタープライズモビリティ管理）ソリューションを使用して、デプロイメントのプロビジョニングと管理をリモートで行うことを強くお勧めします。AEM Screens Android™ プレーヤーでは、業界標準の EMM AppConfig をサポートしているので、リモートプロビジョニングが可能です。
+  Android™ プレーヤーを一括デプロイする場合、すべてのプレーヤーを手動で AEM に登録するのは非常に手間がかかります。 `VMWare Airwatch`、`MobileIron`、`Samsung Knox` などの EMM（エンタープライズモビリティ管理）ソリューションを使用して、デプロイメントのプロビジョニングと管理をリモートで行うことを強くお勧めします。 AEM Screens Android™ プレーヤーでは、業界標準の EMM AppConfig をサポートしているので、リモートプロビジョニングが可能です。
 
   詳しくは、[エンタープライズモビリティ管理を使用した Android™ プレーヤーの一括プロビジョニング](/help/user-guide/implementing-android-player.md#implementation)を参照してください。
 

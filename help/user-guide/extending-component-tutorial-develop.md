@@ -9,10 +9,23 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/9n3Ft3gu3r1fN0FutW-6E3oiX6L2R1kK7D3oyVrn1M4
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1846'
-ht-degree: 94%
+source-wordcount: 1846
+ht-degree: 96%
 
 ---
 
@@ -40,7 +53,7 @@ ht-degree: 94%
 1. [AEM Screens Player](/help/user-guide/aem-screens-introduction.md)
 1. ローカル開発環境
 
-チュートリアルの手順とスクリーンショットは、CRXDE-Liteを使用して実行します。[Eclipse](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse)または[IntelliJ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDEを使用して、チュートリアルを完了することもできます。 AEM での開発に IDE を使用する方法について詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)を参照してください。
+CRXDE-Lite を使用して、チュートリアルの手順とスクリーンショットを実行します。 [Eclipse](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) IDE または [IntelliJ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDE を使用しても、このチュートリアルを完了できます。 AEM での開発に IDE を使用する方法について詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)を参照してください。
 
 ## プロジェクトのセットアップ {#project-setup}
 
@@ -50,7 +63,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
    [ファイルの取得](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
-   [ファイルを入手](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
+   [&#x200B; ファイルを取得](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
    **（オプション）** Eclipse などの IDE を使用して作業する場合は、以下のソースパッケージをダウンロードします。 次の Maven コマンドを使用して、プロジェクトをローカルの AEM インスタンスにデプロイします。
 
    **`mvn -PautoInstallPackage clean install`**
@@ -296,7 +309,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
        /apps/weretail-run/components/content/poster/edit.html
 
    */-->
-
+   
    <div class="aem-Screens-editWrapper ${image.cssClass} cmp-poster" data-sly-use.image="image.js" data-emptytext="${'Poster' @ i18n, locale=request.locale}">
        <img class="cmp-poster__image" src="${request.contextPath}${image.src @ context='uri'}" width="100%" />
        <div class="cmp-poster__text
@@ -355,7 +368,7 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
    ![2018-05-03_at_1057pm](assets/2018-05-03_at_1057pm.png)
 
-   CSSを直接記述する代わりに、このチュートリアルではLESSを使用します。[LESS](https://lesscss.org/)は、CSS変数、ミックスイン、関数をサポートする人気のあるCSS プリコンパイラーです。 AEM のクライアントライブラリは、LESS によるコンパイルをネイティブにサポートしています。 Sassまたはその他のプリコンパイラを使用できますが、AEM以外でコンパイルする必要があります。
+   このチュートリアルでは、CSS を直接記述するのではなく、LESS を使用します。 [LESS](https://lesscss.org/) は、CSS 変数、ミックスイン、関数をサポートしている一般的な CSS プリコンパイラーです。 AEM のクライアントライブラリは、LESS によるコンパイルをネイティブにサポートしています。 Sassまたはその他のプリコンパイラを使用できますが、AEM以外でコンパイルする必要があります。
 
 1. `/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less` に以下を入力します。
 

@@ -4,9 +4,19 @@ description: Screens レプリケーションエージェントの設定方法�
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+TQID: https://experienceleague.adobe.com/ms01oXXn6BqzkscgjG0o0g1pq-wEawpMy1eel6Uz1uM
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: 485
 ht-degree: 100%
 
 ---
@@ -17,7 +27,7 @@ ht-degree: 100%
 
 ## 目的 {#objective}
 
-Screens レプリケーションエージェントは、*user*、*password*、*rebootSchedule*、*maxNumberOfLogFilesToKeep* などのコマンドデータをはじめ、さらに多くの値をパブリッシュからオーサーに渡す役目を担います。オーサーがデバイス ping を表示できるように、このエージェントを設定する必要があります。
+Screens レプリケーションエージェントは、*user*、*password*、*rebootSchedule*、*maxNumberOfLogFilesToKeep* などのコマンドデータをはじめ、さらに多くの値をパブリッシュからオーサーに渡す役目を担います。 オーサーがデバイス ping を表示できるように、このエージェントを設定する必要があります。
 
 >[!NOTE]
 >Screens レプリケーションエージェントについて詳しくは、[Screens レプリケーションエージェントとコマンド](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands)を参照してください。
@@ -82,7 +92,7 @@ Screens レプリケーションエージェントの設定を完了する場合
 1. 「**`screens-receiver-user`**」をクリックし、アクションバーの「**無効にする**」をクリックします。
 
    >[!IMPORTANT]
-   > **`screens-receiver-user`** の無効化は、このユーザーをオーサーインスタンスから無効にするだけで、パブリッシュインスタンスのすべてのユーザーはアクティブなままです。無効化は、ユーザーがパブリッシュインスタンスからも削除されるので、アクションバーから「**無効にする**」をクリックしないようにします。
+   > **`screens-receiver-user`** の無効化は、このユーザーをオーサーインスタンスから無効にするだけで、パブリッシュインスタンスのすべてのユーザーはアクティブなままです。 無効化は、ユーザーがパブリッシュインスタンスからも削除されるので、アクションバーから「**無効にする**」をクリックしないようにします。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication10.png)
 
@@ -107,7 +117,7 @@ Screens レプリケーションエージェントの設定を完了する場合
 1. 次の図に示すように、オーサー環境のすべての AEM Screens レプリケーションエージェントを検索し、リンクをクリックします。
 
    >[!NOTE]
-   >すべての AEM Screens レプリケーションエージェントを検索します。Screens レプリケーションエージェント名には、タイトルに **S** が含まれます。
+   >すべての AEM Screens レプリケーションエージェントを検索します。 Screens レプリケーションエージェント名には、タイトルに **S** が含まれます。
 
    ![画像](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 

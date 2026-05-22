@@ -2,9 +2,23 @@
 title: AEM Screens プロジェクトでの役割と責務
 description: AEM Screens プロジェクトでの役割と責務について説明します。
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 2bab8e3ff6eb722b710f6e565be06d3061439d82
+TQID: https://experienceleague.adobe.com/4E0IiB-RKjq9MrHxvZcZsCAyzSlIZmRLlGe-9eItv2c
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+  - id: f18e6c98-d21a-4444-b84b-f327ce464de4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: 1303
 ht-degree: 97%
 
 ---
@@ -47,7 +61,7 @@ AEM 実装担当者は、通常、段階的にカスタム機能を適所に導�
 
 >[!NOTE]
 >
-> AEM Screensのデプロイメントの一環として、オーディオビデオインテグレーターが必要です。
+> AEM Screensのデプロイメントの一部として、Audio Video Integratorが必要です。
 
 #### ハードウェアパートナーの検討 {#selecting-hardware-partner}
 
@@ -114,7 +128,7 @@ AEM 実装担当者は、通常、段階的にカスタム機能を適所に導�
 
 * **実行責任者**（Responsible）：タスクを完了するために作業を行います。
 
-* **責任**：委任は作業し、タスクが完了するまでのレビューを行う最後のパーティです。
+* **説明責任**：作業を委任し、タスクが完了する前にタスクをレビューする最後の関係者です。
 
 * **相談先**（Consulted）：タスクまたは成果物をレビューして、アドバイスを提供します。
 
@@ -146,7 +160,7 @@ AEM 実装担当者は、通常、段階的にカスタム機能を適所に導�
 | アーキテクチャ設計 | I | RA | I | I |
 | UI デザインに関するデータ構造の検証 | I | RA | C | C |
 | アプリケーション開発 | RA | RA | RA | RA |
-| AEM Screens プロジェクトの設定 | I | RA | C | I |
+| AEM Screens プロジェクト設定 | I | RA | C | I |
 | Analytics の実装 | I | RA | C | - |
 | テストと導入 | RA | C | RA | I |
 | サーバーの設定 | I | RA | I | I |

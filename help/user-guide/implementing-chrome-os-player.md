@@ -9,9 +9,20 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/3fsKNXC1TmtKmk8r3niVhITl18OKTlMV-9EeowuG8Fw
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: 890
 ht-degree: 96%
 
 ---
@@ -24,20 +35,20 @@ ht-degree: 96%
 
 Chrome 管理コンソールを設定するには、次の手順を実行します。
 
-1. Chrome 管理コンソールを登録します。Chrome 管理コンソールのライセンスを取得する必要があります。Chrome のデバイス設定の管理について詳しくは、[Google サポート](https://support.google.com/chrome/a/answer/1375678?hl=ja&ref_topic=2935995)にお問い合わせください。
-1. Chrome OS デバイスをドメインに登録し、デバイスが Chrome 管理コンソールと同期するまで 15 分間待ちます。Chrome デバイスの登録について詳しくは、[ここ](https://support.google.com/chrome/a/answer/1360534?hl=ja)をクリックしてください。
+1. Chrome 管理コンソールを登録します。 Chrome 管理コンソールのライセンスを取得する必要があります。 Chrome のデバイス設定の管理について詳しくは、[Google サポート](https://support.google.com/chrome/a/answer/1375678?hl=ja&ref_topic=2935995)にお問い合わせください。
+1. Chrome OS デバイスをドメインに登録し、デバイスが Chrome 管理コンソールと同期するまで 15 分間待ちます。 Chrome デバイスの登録について詳しくは、[ここ](https://support.google.com/chrome/a/answer/1360534?hl=ja)をクリックしてください。
 1. Chrome プレーヤーは Chrome ウェブストアで入手できます。
 
 >[!NOTE]
 >
->Chrome OS デバイスのデプロイメントおよび管理には、Chrome 管理コンソールなどのデバイス管理ソリューションをお勧めします。このドキュメントでは Chrome 管理コンソールの実装を扱いますが、他のベンダーにも同様の機能を提供するものがあります。デバイス管理ソフトウェアのベンダーにお問い合わせください。
+>Chrome OS デバイスのデプロイメントおよび管理には、Chrome 管理コンソールなどのデバイス管理ソリューションをお勧めします。 このドキュメントでは Chrome 管理コンソールの実装を扱いますが、他のベンダーにも同様の機能を提供するものがあります。 デバイス管理ソフトウェアのベンダーにお問い合わせください。
 
 ## Chrome OS プレーヤーの命名 {#name-chrome}
 
-ユーザーにわかりやすいデバイス名を Chrome プレーヤーに割り当てて、その割り当てたデバイス名を Adobe Experience Manager（AEM）に送信できます。この機能により、Chrome プレーヤーに名前を付けるだけでなく、適切なコンテンツを簡単に割り当てることもできます。
+ユーザーにわかりやすいデバイス名を Chrome プレーヤーに割り当てて、その割り当てたデバイス名を Adobe Experience Manager（AEM）に送信できます。 この機能により、Chrome プレーヤーに名前を付けるだけでなく、適切なコンテンツを簡単に割り当てることもできます。
 
 >[!NOTE]
->プレーヤー名は、登録前にのみ選択できます。プレーヤーの登録後は、プレーヤー名を変更できなくなります。
+>プレーヤー名は、登録前にのみ選択できます。 プレーヤーの登録後は、プレーヤー名を変更できなくなります。
 
 Chrome プレーヤーに名前を設定するには、次の手順に従います。
 
@@ -54,7 +65,7 @@ Chrome プレーヤーに名前を設定するには、次の手順に従いま�
    ![画像](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >Chrome プレーヤーをエンタープライズ登録で登録し、Chrome 管理コンソールでデプロイする必要があります。そうでなければ、アセット ID が空白を返します（例：拡張機能としての Chrome など）。デバイス名は登録時にのみ記録されます。それ以降の変更は、Adobe Experience Manager（AEM）には反映されません。
+   >Chrome プレーヤーをエンタープライズ登録で登録し、Chrome 管理コンソールでデプロイする必要があります。そうでなければ、アセット ID が空白を返します（例：拡張機能としての Chrome など）。 デバイス名は登録時にのみ記録されます。 それ以降の変更は、Adobe Experience Manager（AEM）には反映されません。
 
 ### キオスクモードの有効化 {#enabling-kiosk-mode}
 
@@ -77,18 +88,18 @@ Chrome プレーヤーに名前を設定するには、次の手順に従いま�
 
 1. **Auto Launch Kiosk App** ドロップダウンから「**AEM Screens Player**」をクリックします。
 
-   ネットワークによっては、変更が反映されるまで数分かかることがあります。再起動することをお勧めします。
+   ネットワークによっては、変更が反映されるまで数分かかることがあります。 再起動することをお勧めします。
 
 #### リモートデバイスのステータスの確認 {#checking-remote-device-status}
 
 1. Chrome Developer Console にログインします。
 1. **デバイス管理**／**Chrome デバイス**&#x200B;を参照し、制御したいデバイスをクリックします。
 1. 「**System Activity and troubleshooting**」をクリックします。
-1. デバイスの **Reboot Device** および **Screen Capture** プロパティを確認します。また、デバイスステータスおよびヘルス情報も確認できます。
+1. デバイスの **Reboot Device** および **Screen Capture** プロパティを確認します。 また、デバイスステータスおよびヘルス情報も確認できます。
 
 >[!NOTE]
 >
->これらの設定が有効になるには、デバイスが登録されてから数分後かかる場合があります。各オプションは、時間が経過すると有効になります。
+>これらの設定が有効になるには、デバイスが登録されてから数分後かかる場合があります。 各オプションは、時間が経過すると有効になります。
 
 ### Chrome OS プレーヤーのリモート設定の設定 {#configuring-remote-configuration-of-chrome-os-players}
 
@@ -97,11 +108,11 @@ AEM Screens Player は、キオスク対応アプリケーションです。Chro
 プレーヤーの様々なオプションを設定するには、次の手順を実行します。
 
 1. Chrome 管理コンソールにログインします。
-1. **デバイス管理**／**Chrome 管理**／**アプリ管理**&#x200B;をクリックします。AEM Screens Player がリストに表示されます。
+1. **デバイス管理**／**Chrome 管理**／**アプリ管理**&#x200B;をクリックします。 AEM Screens Player がリストに表示されます。
 1. **AEM Screens Player** アプリケーションをクリックします。
 1. 「**キオスク設定**」をクリックして、組織（*テスト環境を使用している場合*）をクリックします。
 1. 「**設定ファイルをアップロード**」をクリックして、設定ポリシー（*JSON ファイル*）をアップロードします。
-1. 「**保存**」をクリックします。ポリシーを同期するには、デバイスを再起動します。
+1. 「**保存**」をクリックします。 ポリシーを同期するには、デバイスを再起動します。
 
 >[!NOTE]
 >
@@ -142,16 +153,16 @@ AEM Screens Player は、キオスク対応アプリケーションです。Chro
 | registrationKey | 事前共有キーを使用したデバイスの一括登録に使用されます。 |
 | resolution | デバイスの解像度。 |
 | rebootSchedule | プレーヤーを再起動するスケジュール。 |
-| enableAdminUI | サイト上でデバイスを設定するための Admin UI を有効にします。設定が完了して実稼働になったら、false に設定します。 |
-| enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。設定が完了して実稼働になったら、false に設定することを検討します。 |
-| enableActivityUI | を有効にすると、ダウンロードや同期など、アクティビティの進行状況を表示できます。 トラブルシューティング用に有効にしておき、設定が完了して実稼働になったら無効にします。 |
-| cloudMode | Chrome プレーヤーから Screens as a Cloud Service に接続する場合は、true に設定します。AMS またはオンプレミス AEM に接続する場合は、false に設定します。 |
+| enableAdminUI | サイト上でデバイスを設定するための Admin UI を有効にします。 設定が完了して実稼働になったら、false に設定します。 |
+| enableOSD | ユーザー用のチャネルスイッチャー UI を有効にし、デバイスのチャネルを切り替えます。 設定が完了し、実稼動中であれば、falseに設定することを検討してください。 |
+| enableActivityUI | 有効にすると、ダウンロードや同期などのアクティビティの進行状況を表示できます。 トラブルシューティング用に有効にしておき、設定が完了して実稼働になったら無効にします。 |
+| cloudMode | Chrome プレーヤーから Screens as a Cloud Service に接続する場合は、true に設定します。 AMS またはオンプレミス AEM に接続する場合は、false に設定します。 |
 | cloudToken | Screens as a Cloud Service に登録するための登録トークン。 |
 
 >[!NOTE]
 >
->ポリシー設定は厳格に適用され、プレーヤーの管理 UI は手動で上書きされません。特定のポリシーに対して手動のプレーヤー設定を許可するには、***ポリシー設定***&#x200B;でポリシーを指定しないでください。例えば、再起動スケジュールの手動設定を許可する場合は、ポリシー設定で ***rebootSchedule*** キーを指定しないでください。
+>ポリシー設定は厳格に適用され、プレーヤーの管理 UI は手動で上書きされません。 特定のポリシーに対して手動のプレーヤー設定を許可するには、***ポリシー設定***&#x200B;でポリシーを指定しないでください。 例えば、再起動スケジュールの手動設定を許可する場合は、ポリシー設定で ***rebootSchedule*** キーを指定しないでください。
 
 ### Screens リモート制御の使用 {#using-remote-control}
 
-AEM Screens には、リモート制御機能が用意されています。この機能について詳しくは、[Screens リモート制御](implementing-remote-control.md)を参照してください
+AEM Screens には、リモート制御機能が用意されています。 この機能について詳しくは、[Screens リモート制御](implementing-remote-control.md)を参照してください

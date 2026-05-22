@@ -6,9 +6,22 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
+TQID: https://experienceleague.adobe.com/p-13F7oySwiZfXHItW8zTIJRWiab5dOKxx-iU99vE9w
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: 294
 ht-degree: 90%
 
 ---
@@ -62,7 +75,7 @@ ht-degree: 90%
 
 1. 以下のプロパティを追加します。
 
-   **プロジェクトパス** - AEM Screens プロジェクトのパスを指定します。 パスは通常、`/content/screens/<Name of your project>` です。
+   **プロジェクトのパス** - AEM Screens プロジェクトのパスを指定します。 パスは通常、`/content/screens/<Name of your project>` です。
 
    *例えば*、`/content/screens/we-retail` などとなります。 AEM Screens で任意のプロジェクトを選択すれば（アイコンをクリックしないでください）、URL にこのパスが含まれていることがわかります。
 
@@ -70,6 +83,6 @@ ht-degree: 90%
    >
    >チャネルからの相対的なプロジェクトパスを指定します。
 
-   **スケジュールの頻度** – このサービスがオフラインコンテンツを更新す :00 時刻（例：午後 5:00 または 17）を指定します。
+   **スケジュール頻度** – このサービスがオフライン コンテンツを更新する必要がある時間（例：午後5:00または17:00）を指定します。
 
 1. 「**保存**」をクリックすると設定を保存できます。 指定した時間にすべてのコンテンツが更新されます。

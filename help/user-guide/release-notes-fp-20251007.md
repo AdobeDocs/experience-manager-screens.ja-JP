@@ -1,13 +1,24 @@
 ---
 title: Screens 機能パック 20251007 のリリースノート
-description: 2025 年 10 月 7 日（PT）にリリースされたAEM Screens機能パック 20251007 について説明します。
+description: 2025年10月7日（PT）にリリースされたAEM Screens機能パック 20251007について詳しく説明します。
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: b7ce4b726e9e9a2d70d852f40af3b9681c96bbd1
+exl-id: 2dc029ec-6fab-40e6-b387-d48ff89e0138
+TQID: https://experienceleague.adobe.com/0zMBuROP2wkvVXm74S-0lxNwZYWhKOCMQRazFg4z4xo
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 25%
+source-wordcount: 199
+ht-degree: 31%
 
 ---
 
@@ -15,17 +26,17 @@ ht-degree: 25%
 
 >[!CAUTION]
 >Adobeでは、最新バージョンのAdobe Experience Manager（AEM 6.5）にアップグレードすることをお勧めします。 最新バージョンの情報は、[こちら](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/release-notes/release-notes)から入手できます
->&#x200B;>FP11.7 と SP （servicepack）バージョン 22 以降を使用します。
+>SP （servicepack）バージョン 22以降でFP11.7を使用します。
 
 ## 入手方法 {#availability}
 
 AEM Screens は、AEM 6.5 機能パック 11.7 をリリースしました。
 
-Adobe IDを使用して、AEM Screens 6.5.11.7 リリースの最新の機能パックを [&#x200B; ソフトウェア配布ポータル &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html) からダウンロードできます。 「**Adobe Experience Manager**」タブに移動し、「**Screens**」を検索して「**AEM 6.5 Screens FP11.7**」というタイトルが付いた最新の機能パックを入手します。
+AEM Screensの最新の機能パック 6.5.11.7 リリースは、[Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html)からAdobe IDを使用してダウンロードできます。 **Adobe Experience Manager** タブに移動し、**Screens**&#x200B;を検索して、**AEM 6.5 Screens FP11.7**&#x200B;というタイトルの最新の機能パックを取得します。
 
 ## リリース日 {#release-date}
 
-AEM Screens機能パック 20251007 のリリース日は 2025 年 10 月 7 日（PT）です。
+AEM Screens機能パック 20251007のリリース日は2025年10月7日（PT）です。
 
 ### 新機能 {#what-is-new}
 
@@ -33,6 +44,6 @@ AEM Screens機能パック 20251007 のリリース日は 2025 年 10 月 7 日�
 
 ### バグ修正 {#bug-fixes}
 
-* /libs/screens/dcc/components/dashboard/clientlibs/device-clear-cache.jsでの XSS の問題（SCRNS-4866）
-* /libs/screens/dcc/components/dashboard/clientlibs/link-schedule.jsでの XSS の問題（SCRNS-4840）
-* /libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.copy.js での XSS の問題（SCRNS-4865）
+* XSSの問題（/libs/screens/dcc/components/dashboard/clientlibs/device-clear-cache.js）（SCRNS-4866）
+* /libs/screens/dcc/components/dashboard/clientlibs/link-schedule.jsでのXSSの問題（SCRNS-4840）
+* /libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.copy.jsでのXSSの問題（SCRNS-4865）

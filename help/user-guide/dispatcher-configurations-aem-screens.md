@@ -19,8 +19,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 662
-ht-degree: 95%
+source-wordcount: 656
+ht-degree: 93%
 
 ---
 
@@ -36,8 +36,8 @@ Dispatcher は、Adobe Experience Manager のキャッシュ、ロードバラ�
 >
 >Dispatcher がない場合は、OSGi コンポーネントリストで登録サーブレットを無効にします。
 
-AEM Screens プロジェクトの Dispatcher を設定する前に、Dispatcher に関する事前の知識が必要です。
-詳しくは、[Dispatcher の設定](https://experienceleague.adobe.com/ja/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration)を参照してください。
+AEM Screens プロジェクト用にDispatcherを設定する前に、Dispatcherに関する事前知識を持っている必要があります。
+詳しくは、[Dispatcherの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration)を参照してください。
 
 ## Manifest バージョン v2 用 Dispatcher の設定 {#configuring-dispatcher}
 

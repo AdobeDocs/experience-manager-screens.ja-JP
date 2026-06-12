@@ -3,13 +3,9 @@ title: '[!UICONTROL AEM Screens] の前提条件'
 description: AEM Screens プロジェクトを開始する前に、前提条件を確認してください。
 exl-id: ff305a6c-02cb-4c06-a457-9a22f525fab5
 TQID: https://experienceleague.adobe.com/dk-19TSfxyU66bjfuv5yE6Avfq1c3QJhGpVtFe8aWQU
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
 source-wordcount: 712
@@ -41,7 +37,7 @@ AEM Screens プロジェクトの基本を学ぶには、以下のリソース�
 
 * **[AEM Screens ユーザーガイド](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/aem-screens-introduction)**：AEM Screens プロジェクトで使用される様々なペルソナの機能に関する詳細なドキュメントです。
 
-* **[AEM Screens 実装の初期設定](https://experienceleague.adobe.com/ja?launch=AEM-7a#recommended/solutions/experience-manager)**：AEM Screens 実装の最も重要な側面を重点的に解説するガイド付きチュートリアルです。
+* **[AEM Screens 実装の初期設定](https://experienceleague.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**：AEM Screens 実装の最も重要な側面を重点的に解説するガイド付きチュートリアルです。
 
 * **[デジタルサイネージネットワークの基本に関するビデオ](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/aem-screens-introduction)**：オーディオビデオ（AV）とデジタルサイネージハードウェアに関する主要な要素を重点的に解説する基本ビデオです。 サイネージネットワークと AV インテグレーターとの連携との連携に関するビデオもあります。
    * *[第 1 部：プロジェクト上の役割と責務](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)*：5 部構成のシリーズの第 1 部は、チームメンバーが役割、責務、タイムラインをより深く理解できる内容になっています。 これらは、デジタルサイネージプロジェクトのセールスおよびプロジェクトのライフサイクル中に必要です。 アドビ、AEM 実装担当者、AV インテグレーターのプロジェクト上の役割と責務を大まかに説明します。

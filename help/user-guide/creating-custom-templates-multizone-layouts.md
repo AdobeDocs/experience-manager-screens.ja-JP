@@ -17,7 +17,7 @@ level_v2:
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
 source-wordcount: 893
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -166,7 +166,7 @@ ht-degree: 93%
 
 「data-uri」を使用して画像（`Base64` エンコード済み）を CSS ファイル（手順 13 で作成した *static.css*）に直接埋め込むように、CSS ルールを調整できます。
 
-この取り決めは次のように行われます。
+この配置は次のようにします。
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
 
 または、次の手順に従うこともできます。

@@ -63,7 +63,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
    [ファイルの取得](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
-   [&#x200B; ファイルを取得](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
+   [ファイルを入手](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
    **（オプション）** Eclipse などの IDE を使用して作業する場合は、以下のソースパッケージをダウンロードします。 次の Maven コマンドを使用して、プロジェクトをローカルの AEM インスタンスにデプロイします。
 
    **`mvn -PautoInstallPackage clean install`**
@@ -271,9 +271,9 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
    ```xml
    <!--/*
-
+   
        /apps/weretail-run/components/content/poster/production.html
-
+   
    */-->
    <div data-sly-use.image="image.js"
         data-duration="${properties.duration}"
@@ -305,9 +305,9 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
    ```xml
    <!--/*
-
+   
        /apps/weretail-run/components/content/poster/edit.html
-
+   
    */-->
    
    <div class="aem-Screens-editWrapper ${image.cssClass} cmp-poster" data-sly-use.image="image.js" data-emptytext="${'Poster' @ i18n, locale=request.locale}">

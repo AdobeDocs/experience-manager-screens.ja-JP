@@ -26,8 +26,8 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 242
-ht-degree: 83%
+source-wordcount: 205
+ht-degree: 72%
 
 ---
 
@@ -76,9 +76,9 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->初めてのデバイスが新しい Screens プロジェクトに追加されるたびに、ユーザーグループが作成されます。
->例えば、プロジェクトノード名が *we-retail* である場合、ユーザーグループ名は *screens-we-retail-devices* になります。
->このグループは、下の図で示されているように、**寄稿者**&#x200B;グループのメンバーとして追加されます。
+>最初のデバイスが新しいScreens プロジェクトに追加されるたびに、ユーザーグループが作成されます。
+>例えば、プロジェクトノード名が&#x200B;*we-retail*&#x200B;の場合、ユーザーグループ名は&#x200B;*screens-we-retail-devices*です。
+>このグループは、次の図に示すように、**Contributors** グループのメンバーとして追加されます。
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 

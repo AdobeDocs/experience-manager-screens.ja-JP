@@ -25,8 +25,8 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 1550
-ht-degree: 92%
+source-wordcount: 1533
+ht-degree: 91%
 
 ---
 
@@ -133,8 +133,8 @@ Android™ プレーヤーを一括で展開する場合、管理者 UI で手�
 
 次の手順に従って、Android™ プレーヤーで一括プロビジョニングを許可します。
 
-1. `player-config.default.json` という名前で設定 JSON ファイルを作成します。
-[JSON ポリシーの例](#example-json)と、様々な[ポリシー属性](#policy-attributes)の使い方を説明した表を参照してください。
+1. `player-config.default.json`という名前の設定JSON ファイルを作成します。
+[JSON ポリシーの例](#example-json)と、様々な[&#x200B; ポリシー属性](#policy-attributes)の使用について説明した表を参照してください。
 
 1. MDM、ADB、または Android™ Studio のファイルエクスプローラーを使用して、このポリシー JSON ファイルを Android™ デバイスの *sdcard* フォルダーにドロップします。
 

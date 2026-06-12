@@ -11,11 +11,18 @@ role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
 TQID: https://experienceleague.adobe.com/1vHr2YOQgczQlho8xJd9uV7k8Xh3qIu99C7IfRi6bzo
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
 source-wordcount: 1533
@@ -127,7 +134,7 @@ Android™ プレーヤーを一括で展開する場合、管理者 UI で手�
 次の手順に従って、Android™ プレーヤーで一括プロビジョニングを許可します。
 
 1. `player-config.default.json`という名前の設定JSON ファイルを作成します。
-[JSON ポリシーの例](#example-json)と、様々な[ ポリシー属性](#policy-attributes)の使用について説明した表を参照してください。
+[JSON ポリシーの例](#example-json)と、様々な[&#x200B; ポリシー属性](#policy-attributes)の使用について説明した表を参照してください。
 
 1. MDM、ADB、または Android™ Studio のファイルエクスプローラーを使用して、このポリシー JSON ファイルを Android™ デバイスの *sdcard* フォルダーにドロップします。
 

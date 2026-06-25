@@ -9,10 +9,15 @@ role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
 TQID: https://experienceleague.adobe.com/cqLg9YgSbzZMZ9q0C1ZheiZ-e3cN38EI69hL-l7Tgeg
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
 source-wordcount: 955
@@ -23,7 +28,7 @@ ht-degree: 94%
 # Cloud Player の実装 {#implementing-cloud-player}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 AEM Screens は従来、ChromeOS、Windows、Android™、`Tizen` などの様々なプラットフォームに個別のネイティブプレーヤーアプリケーションを提供してきました。 しかし、ユーザーの進化するニーズに応えて、革新的なソリューションである AEM Screens Cloud Player を導入しました。
 
@@ -75,7 +80,7 @@ Cloud Player のインストールは、プラットフォームによって異�
 
 ## Chrome OS での一括プロビジョニング {#bulk-provisioning-chrome}
 
-Chrome OS での一括プロビジョニングの詳細を説明します。 [Chrome OSへのCloud Playerのインストール ](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player)を参照してください。<!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` -->
+Chrome OS での一括プロビジョニングの詳細を説明します。 [Chrome OSへのCloud Playerのインストール &#x200B;](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player)を参照してください。<!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` -->
 
 ## AEM インスタンスに必要な設定 {#bulk-provisioning-config-aem}
 

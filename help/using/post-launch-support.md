@@ -3,8 +3,11 @@ title: 運用開始後のサポート
 description: AEM Screens の運用開始後のサポートについては、ベストプラクティスガイドを参照してください。
 exl-id: cd7442ed-52a4-43d2-adc7-f643f4f16581
 TQID: https://experienceleague.adobe.com/PrdfsEIOJySNyu7GvWpOptg-AkyP-HFkxrbnMbJKaho
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
 source-wordcount: 396
@@ -15,11 +18,11 @@ ht-degree: 80%
 # 起動後のサポート {#post-launch-support}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 運用開始後の初期段階のサポートを見逃さないようにしてください。
 
-ハードウェアベンダーから適切なサポートを受けられるようにすることは、ビジネス運営にとって非常に重要です。**オーディオ ビデオ インテグレーター**は、ビジネス関係者と緊密に連携し、様々な側面から必要な要件を特定する必要があります。
+ハードウェアベンダーから適切なサポートを受けられるようにすることは、ビジネス運営にとって非常に重要です。**オーディオ ビデオ インテグレーター**&#x200B;は、ビジネス関係者と緊密に連携し、様々な側面から必要な要件を特定する必要があります。
 ローンチ後のサポートでは、次の要件を検討してください。
 
 * リモートデバイス管理

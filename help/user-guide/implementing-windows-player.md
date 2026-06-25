@@ -11,10 +11,15 @@ role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
 TQID: https://experienceleague.adobe.com/B5n5-TaA7CoiLp51ReniPu--cQGLN9vYpj3-jgP62hM
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
 source-wordcount: 1201
@@ -25,7 +30,7 @@ ht-degree: 88%
 # Windows プレーヤーの実装 {#implementing-windows-player}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 この節では、AEM Screens での Windows プレーヤーの設定について説明します。 開発およびテストで使用する設定に関して、使用可能および推奨される設定ファイルおよびオプションの情報を提供します。
 
@@ -66,7 +71,7 @@ AEM Screens 用の Windows プレーヤーを実装するには、AEM Screens �
 
 1. 左上隅を長押しして、管理パネルを開きます。
 1. 左のアクションメニューから「**設定**」に移動し、接続する AEM インスタンスの場所（アドレス）を入力して、「**保存**」をクリックします。
-1. 左側のアクションメニューから「**デバイス****登録**」リンクに移動すると、デバイス登録プロセスのステータスを確認できます。
+1. 左側のアクションメニューから「**デバイス**&#x200B;**登録**」リンクに移動すると、デバイス登録プロセスのステータスを確認できます。
 
 >[!NOTE]
 >
@@ -93,7 +98,7 @@ Windows インストーラーのデフォルトのオプションを変更する
 
 ## CLI（PowerShell）を使用したインストール {#install-powershell}
 
-1. Screens プレーヤー&#x200B;**専用**に、カスタムの場所を作成します。例：
+1. Screens プレーヤー&#x200B;**専用**&#x200B;に、カスタムの場所を作成します。例：
    `C:\Users\User\screens-player`
 1. インストール
    `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`

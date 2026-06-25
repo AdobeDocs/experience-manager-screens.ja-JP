@@ -7,11 +7,18 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
 TQID: https://experienceleague.adobe.com/iK5EH0E-vKteNer-Dr0mDRaJke4OTmJr9JQfwTaqAt4
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
 source-wordcount: 672
@@ -22,7 +29,7 @@ ht-degree: 77%
 # 単一使用テイクオーバーチャネル {#single-use-takeover-channel}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 以下では、特定の時間帯に 1 回再生される単一使用テイクオーバーチャネルを作成するプロジェクトのセットアップに重点を置いた使用例を示します。
 
@@ -103,7 +110,7 @@ ht-degree: 77%
      >通常再生チャネルの優先度よりも高い値であれば、何でも優先度に設定できます。
    * **サポートされているイベント**：「**待機中画面**」と「**タイマー**」をクリックします。
    * **スケジュール**：このチャネルでディスプレイを実行するスケジュールのテキストを入力します。 例えば、このテキストでは、12月31日の午前12:00時から午前12:01時まで、コンテンツを2分再生できます。
-この例で言及されている**スケジュール**&#x200B;のテキストは、23:58後の12月31日と、00.01 *前の1月1日の*&#x200B;です。
+この例で言及されている&#x200B;**スケジュール**&#x200B;のテキストは、23:58後の12月31日と、00.01 *前の1月1日の*&#x200B;です。
 
      ![アセット](assets/single-takeover8.png)
 

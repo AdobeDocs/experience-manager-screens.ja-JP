@@ -25,14 +25,17 @@ level_v2:
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 657
-ht-degree: 98%
+source-wordcount: 703
+ht-degree: 92%
 
 ---
 
 # 第 2 部：プロジェクト範囲を定義する際の検討事項 {#part-considerations-as-projects-are-scoped}
+
+>[!IMPORTANT]
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 このページは 5 部構成のシリーズの第 2 部で、AEM Screens の導入を成功に導くためのプリセールス面の検討事項をチームメンバーがより深く理解できる内容になっています。
 

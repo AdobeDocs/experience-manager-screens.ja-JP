@@ -8,14 +8,17 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 199
-ht-degree: 100%
+source-wordcount: 212
+ht-degree: 69%
 
 ---
 
 # ワイヤーフレーム {#wireframes}
+
+>[!IMPORTANT]
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 >[!NOTE]
 >このアクティビティの典型的な関係者は、マーケティング／ビジネスストラテジストです。
@@ -30,8 +33,8 @@ ht-degree: 100%
 
 これにより、プロジェクトをプロトタイピング段階から実際の導入段階に近づけることができます。
 
-**アセットレベル表示**では、様々なコンテンツレイアウトオプションとコンテンツグループを定義するワイヤーフレームを作成する必要があります。 これは、複数のコンテンツをグループとして組み立てたときにどのように見えるかを定義するのに役立ちます。
-通常、このアクティビティでは、実稼動に対応した実際のグラフィック、画像、ビデオを使用します。
+**アセットレベルのビュー**&#x200B;から、様々なコンテンツレイアウトオプションとコンテンツグループを定義するワイヤーフレームを作成する必要があります。これは、グループとして組み立てたときの複数のコンテンツの外観を定義するのに役立ちます。
+通常、このアクティビティでは、実際の本番環境で使用できるグラフィック、画像、ビデオを使用します。
 
 **チャネルレベル表示**&#x200B;では、埋め込みチャネルの再生戦略を含めて、エクスペリエンス全体でコンテンツチャネルがどのようにリンクされているかを示すワイヤーフレームを作成する必要があります。 また、データトリガーが関与する際に発生する可能性のあるチャネル遷移を確認することもできます。
 

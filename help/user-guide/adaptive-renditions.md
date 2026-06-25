@@ -8,14 +8,17 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 672
-ht-degree: 94%
+source-wordcount: 703
+ht-degree: 84%
 
 ---
 
 # アダプティブレンディション：アーキテクチャ概要と設定 {#adaptive-renditions}
+
+>[!IMPORTANT]
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 ## はじめに {#introduction}
 
@@ -50,7 +53,7 @@ AEM Screens 開発者は、すべてのコンテンツバリエーションを�
    >![画像](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >最新の機能パック 202109 をインストールした場合は、CRXDE Lite の `/conf/screens/sling:configs/rendition-mapping` に **rendition-mapping** ノード構造が事前に設定されます。 最新の機能パックについて詳しくは、[機能パック 202109 のリリースノート](/help/user-guide/release-notes-fp-202109.md)を参照してください。
+   >最新の機能パック 202109をインストールすると、CRXDE Liteの`/conf/screens/sling:configs/rendition-mapping`に&#x200B;**rendition-mapping** ノード構造が事前入力されています。最新の機能パックについて詳しくは、[機能パック 202109](/help/user-guide/release-notes-fp-202109.md)のリリースノートを参照してください。
    >既存プロジェクトの場合は、Screens プロジェクトに **rendition-mapping** 設定が関連付けられていることを確認します。 詳しくは、[既存プロジェクトへのレンディションマッピングの追加](#rendition-mapping-existing)の節を参照してください。
 
 ### 既存プロジェクトへのレンディションマッピングプロパティの追加 {#rendition-mapping-existing}

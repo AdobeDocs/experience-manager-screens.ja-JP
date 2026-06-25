@@ -26,14 +26,17 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 2489
-ht-degree: 95%
+source-wordcount: 2532
+ht-degree: 93%
 
 ---
 
 # 動的埋め込みシーケンスの使用 {#using-dynamic-embedded-sequence}
+
+>[!IMPORTANT]
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 「動的埋め込みシーケンスの使用」では、以下のトピックについて説明します。
 
@@ -88,7 +91,7 @@ ht-degree: 95%
 * **チャネル**&#x200B;フォルダーの下に&#x200B;**グローバル**&#x200B;チャネルを作成します。
 * **グローバル** チャネルにコンテンツを追加する（*関連するアセットについては&#x200B;**resources.zip**&#x200B;を確認してください*）。
 
-次の画像は、**Channels** フォルダーに **Gobal** チャネルがある **Demo** プロジェクトを示しています。
+次の画像は、**チャネル** フォルダー内の&#x200B;**グローバル** チャネルを含む&#x200B;**デモ** プロジェクトを示しています。
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
 
 ### リソース {#resources}

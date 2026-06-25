@@ -10,14 +10,17 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 545
-ht-degree: 87%
+source-wordcount: 543
+ht-degree: 81%
 
 ---
 
 # AEM Platform 設定 {#platform-configurations}
+
+>[!IMPORTANT]
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 >[!NOTE]
 >
@@ -70,7 +73,7 @@ AEM Screensでの作成者と公開の設定[の「**パスワード制限**」�
 
 上記に加えて、任意の開発パッケージ（WCM Coreなど）を特定します
 コンポーネント）またはサードパーティ製ツールキット（SAP Hybrisなど）が必要です。
-同じソフトウェアパッケージをローカルの開発環境にインストールします。 QA サーバー、ステージサーバー、実稼動サーバーのすべてで同じ設定を使用するように、クライアントに指示します。 サーバー設定が一致しないと、デプロイ時およびテスト時に問題が発生します。
+同じソフトウェアパッケージをローカル開発環境にインストールします。クライアントのすべてのQA、ステージング、実稼動サーバーで同じ設定を採用するようにクライアントに指示します。サーバー設定が一致していないと、デプロイとテスト時に問題が発生します。
 
 >[!NOTE]
 >

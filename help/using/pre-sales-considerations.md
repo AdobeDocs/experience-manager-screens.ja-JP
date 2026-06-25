@@ -12,20 +12,23 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 288
-ht-degree: 94%
+source-wordcount: 252
+ht-degree: 75%
 
 ---
 
 # プロジェクト範囲を定義する際の検討事項 {#pre-sales-considerations}
 
+>[!IMPORTANT]
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+
 >[!NOTE]
 >このアクティビティの典型的な関係者は、マーケティング／ビジネスストラテジストです。
 
-この段階では、プロジェクト範囲を完全に定義する上で必要なあらゆるプリセールスおよび洗い出し作業を行います。 `Day Zero`に完了した作業は、プロジェクトの基盤を確立し、アプリケーション全体の成功に直接影響します。
-この段階で、主要ベンダーが特定され、共同でプロジェクト計画の策定を支援します。 この段階では、クライアント会社内の主要なプロジェクト関係者との賛同を確立することも重要です。 これらの関係者には、営業幹部、マーケティングマネージャー、IT チームが含まれます。 これらの人々は皆、アプリケーションの開発とその継続的なメンテナンスにおいて重要な役割を担っています。
+この段階には、プロジェクトスコープを包括的に定義するために必要なすべての販売前および発見前の取り組みが含まれます。`Day Zero`に完了した作業は、プロジェクトの基盤を確立し、アプリケーション全体の成功に直接影響します。
+この段階で、主要なベンダーを特定し、招集することで、プロジェクト計画を策定します。この段階では、顧客企業の主要なプロジェクト関係者との賛同が確立されることが重要です。これらの関係者には、営業担当者、マーケティングマネージャー、IT部門が含まれます。これらはすべて、アプリケーションの開発と継続的なメンテナンスにおいて重要な役割を果たします。
 
 ## 主な成果物 {#key-deliverables}
 

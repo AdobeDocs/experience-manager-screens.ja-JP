@@ -18,14 +18,17 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 688
-ht-degree: 100%
+source-wordcount: 734
+ht-degree: 93%
 
 ---
 
 # AEM SPA エディターを使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合 {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
+
+>[!IMPORTANT]
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 React（または Angular）を使用して、インタラクティブ単一ページアプリケーションを埋め込むことができます。 これを行うには、AEM でビジネスプロフェッショナルが設定した AEM SPA エディターを使用します。 また、インタラクティブアプリケーションをオフライン Adobe Analytics と統合する方法についても説明します。
 
@@ -74,7 +77,7 @@ AEM Screens にインタラクティブ React アプリを追加するには、�
 1. AEM Screens プロジェクトの **Channels** フォルダーで、（できれば）**アプリケーションチャネル**（または 1x1 テンプレートまたはマルチゾーンチャネル）を作成します。
 
    >[!NOTE]
-   >**シーケンスチャネル**には、エクスペリエンスのインタラクティブな性質と競合するスライドショーロジックがもともと備わっているため、この使用例では推奨されません。
+   >**シーケンスチャネル**&#x200B;には、エクスペリエンスのインタラクティブな性質と競合するスライドショーロジックがもともと備わっているため、この使用例では推奨されません。
    >詳しくは、[チャネルの作成と管理](managing-channels.md)を参照してください。
 
 1. シーケンスチャネルを編集し、埋め込みページコンポーネントをドラッグ＆ドロップします。
@@ -117,7 +120,7 @@ AEM Screens を通じて SPA をオフライン機能付きの Adobe Analytics �
 
 1. AEM Screens Analytics API を呼び出して、イベントをオフラインで保存し Adobe Analytics にバースト送信します。
 
-   例：
+   次に例を示します。
 
    ```
    handleClick() {

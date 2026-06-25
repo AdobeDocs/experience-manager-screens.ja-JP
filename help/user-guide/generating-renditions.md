@@ -24,14 +24,17 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 378
-ht-degree: 100%
+source-wordcount: 424
+ht-degree: 89%
 
 ---
 
 # ビデオレンディション {#video-renditions}
+
+>[!IMPORTANT]
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 手動および自動のフル HD レンディションを生成できます。 次の節では、アセットにレンディションを追加するワークフローについて説明します。
 
@@ -60,7 +63,7 @@ ht-degree: 100%
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
 1. 「**プロセス**」タブをクリックします。
-1. **引数**のリストへ、フル HD プロファイルを次のように入力します。
+1. **引数**&#x200B;のリストへ、フル HD プロファイルを次のように入力します。
    ***`,profile:fullhd-bp,profile:fullhd-hp`***
 1. 「**OK**」をクリックします。
 

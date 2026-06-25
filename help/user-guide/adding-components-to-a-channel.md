@@ -28,14 +28,17 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1420
-ht-degree: 99%
+source-wordcount: 1466
+ht-degree: 96%
 
 ---
 
 # チャネルへのコンポーネントの追加{#adding-components-to-a-channel}
+
+>[!IMPORTANT]
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 コンポーネントは、AEM（Adobe Experience Manager）エクスペリエンスの基本要素です。 複数のコンポーネントを使用し、AEM Screens プロジェクトのチャネルに追加できます。
 

@@ -23,14 +23,17 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1476
-ht-degree: 98%
+source-wordcount: 1515
+ht-degree: 95%
 
 ---
 
 # AEM Screens での ContextHub の設定 {#configuring-contexthub-in-aem-screens}
+
+>[!IMPORTANT]
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 この節では、データストアを使用したデータ主導型アセット変更の作成と管理について重点的に説明します。
 
@@ -227,8 +230,8 @@ AEM Screens プロジェクト用に ContextHub の設定を開始する前に�
 
    1. **ページを作成**&#x200B;ウィザードで「**領域**」をクリックし、「**次へ**」をクリックします。
 
-   1. 「**タイトル**」に「**ScreensValue**」と入力し、「**作成**」をクリックします。
-ブランドに領域が作成されます。
+   1. **タイトル**&#x200B;を&#x200B;**ScreensValue**&#x200B;として入力し、**作成**&#x200B;をクリックします。
+領域はブランドで作成されます。
 
 ## 手順 5：アクティビティでのセグメントの作成 {#step-setting-up-audience-segmentation}
 

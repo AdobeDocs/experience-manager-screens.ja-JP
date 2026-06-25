@@ -10,14 +10,17 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 288
-ht-degree: 100%
+source-wordcount: 289
+ht-degree: 76%
 
 ---
 
 # AEM Screens での分析 {#analytics-screens}
+
+>[!IMPORTANT]
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 >[!NOTE]
 >
@@ -31,5 +34,5 @@ AEM Screens では、各プレイヤーデバイスで実行されるすべて�
 
 フィードバックのループの使用例では、視覚的なレポートやダッシュボードに関心を向ける必要はなく、AEM でコンテンツ変更のために実行できるルールを定義します。 特定期間のすべての Screens プレイヤーイベントデータを消費し処理することで、画像 1 と画像 2 の有効性を評価するルールを定義できます。 AEM は販売データと再生データを組み合わせることで、販売に対する画像 1 の影響の方が大きいと判断し、画像 1 を使用するようすべてのプレイヤーに自動的に指示することができます。
 
-分析を使用する 2 つ目の使用例では、レポートやダッシュボードを通じて、再生イベントや人間の消費を表す使用状況データを処理します。
-このデータを使用してインタラクティブなエクスペリエンスのヒートマップを作成し、アプリケーションを通じて望ましいジャーニーマップを決定することができます。 また、ユーザーがアプリケーションとやり取りした回数をグラフィック表示するダッシュボードを作成することもできます。
+Analyticsを使用する2つ目のユースケースは、レポートとダッシュボードを介して、再生イベントと使用状況データを人間が使用するために処理することです。
+このデータを使用して、インタラクティブなエクスペリエンスのヒートマップを作成し、アプリケーション内で優先ジャーニーマップを決定できます。また、消費者がアプリケーションを操作する回数を視覚的に把握できるダッシュボードを作成することもできます。

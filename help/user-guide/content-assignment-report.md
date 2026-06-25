@@ -17,14 +17,17 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 358
-ht-degree: 96%
+source-wordcount: 397
+ht-degree: 80%
 
 ---
 
 # コンテンツ割り当てレポート {#content-assignment-report}
+
+>[!IMPORTANT]
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 コンテンツ割り当てレポート機能を使用すると、AEM Screens 管理者または作成者は、*コンテンツ割り当てレポート*&#x200B;をスプレッドシート形式で書き出すことができます。
 
@@ -37,7 +40,7 @@ ht-degree: 96%
 
 ### 前提条件 {#pre-reqs}
 
-コンテンツの割り当てレポートをダウンロードする前に、チャネル、場所、デバイスを含む AEM Screens プロジェクトが設定されていることを確認してください。
+コンテンツ割り当てレポートをダウンロードする前に、チャネル、場所、デバイスを含むAEM Screens プロジェクトを設定していることを確認してください。
 詳しくは、次のリソースを参照してください。
 
 1. [プロジェクトの作成と管理](/help/user-guide/creating-a-screens-project.md)

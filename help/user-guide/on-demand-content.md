@@ -18,14 +18,17 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 826
-ht-degree: 82%
+source-wordcount: 835
+ht-degree: 75%
 
 ---
 
 # オンデマンドコンテンツの更新 {#on-demand}
+
+>[!IMPORTANT]
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 ここでは、公開を管理するためのオンデマンドコンテンツについて説明します。
 
@@ -60,8 +63,8 @@ AEM Screens プロジェクトのコンテンツの更新をオーサーから�
 
    **子を含めるダイアログボックスについて**
 
-   上記の手順では、コンテンツ全体を公開する方法を示しています。 それ以外の 3 つの選択肢のいずれかを使用する場合は、その特定のオプションをオンにする必要があります。
-例えば、下図のようにオプションを選択すると、プロジェクト内の変更されたページのみを管理および更新できるようになります。
+   上記の手順は、コンテンツ全体を公開する方法を示しています。利用可能な他の3つの選択肢を使用したい場合は、その特定のオプションをチェックする必要があります。
+例えば、次の画像は、プロジェクト内の変更されたページのみを管理および更新する方法を示しています。
    ![画像](assets/author-publish-manage.png)
 
    以下の説明に従って、使用可能なオプションを理解します。

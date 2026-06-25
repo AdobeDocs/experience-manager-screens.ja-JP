@@ -12,14 +12,17 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
 source-wordcount: 706
-ht-degree: 99%
+ht-degree: 89%
 
 ---
 
 # 直接インターネットネットワーク（有線／ワイヤレス） {#direct-internet-access}
+
+>[!IMPORTANT]
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 直接インターネットネットワークには、AEM Screens が接続する必要のある AEM クラウドサービスにアクセスするための、インターネットアクセスのエントリアクセスポイントが含まれています。
 
@@ -81,8 +84,8 @@ AEM Screens 通信用の標準ポートは次のとおりです。
 
 ローカルエリアネットワーク（LAN）は、ネットワーク到達性に加えて、AEM Screens を動作させるのに十分な帯域幅を提供します。
 
-LAN ネットワークは通常、100 Mbps 以上のネットワークに相当するため、多くのデバイスを接続するのに十分な帯域幅が確保され、システムに対して優れたパフォーマンスを発揮します。
-Wi-Fi ソリューションで AEM Screens をインターネットリンクに接続することを想定している場合、最低でも `IEEE 802.11g` などの最新の Wi-Fi 標準を使用することをお勧めします。 この標準では、最大 54 Mbps までの接続をサポートします。 `802.11h-n` のような&#x200B;*新しい*&#x200B;標準はどれも高品質です。
+LAN ネットワークは通常、少なくとも100 Mbpsのネットワークと一致するため、システムに優れたパフォーマンスを持つ多くのデバイスを接続するのに十分な帯域幅があります。
+AEM ScreensをInternet Linkに接続するためにWi-Fi ソリューションが想定される場合は、最低でも`IEEE 802.11g`のような最新のWi-Fi標準を使用することをお勧めします。この規格は、最大54 Mbpsの接続をサポートしています。`802.11h-n`のような&#x200B;*新しい*&#x200B;標準は、より高品質です。
 
 >[!NOTE]
 >

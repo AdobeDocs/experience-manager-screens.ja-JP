@@ -19,21 +19,24 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 875
-ht-degree: 61%
+source-wordcount: 857
+ht-degree: 59%
 
 ---
 
 # 永続テイクオーバーチャネル {#perpetual-takeover-channel}
 
+>[!IMPORTANT]
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+
 以下では、特定の日時に継続的に再生される永続テイクオーバーチャネルを作成するプロジェクトのセットアップに重点を置いた使用例を示します。
 
 ## ユースケースの説明 {#use-case-description}
 
-このユースケースでは、ディスプレイまたはディスプレイグループの通常再生チャネルの後を&#x200B;*引き継ぐ*チャネルを作成する方法を説明します。 引き継ぎ（テイクオーバー）は、特定の日時に永続的に行われます。
-例えば、毎週金曜日の午前9:00から午前10:00まで再生されるPerpetual TakeOver チャネルがあります。この間、他のチャンネルは再生できません。 次の例では、コンテンツを毎週水曜日の午後2:00から午後4:00まで2時間再生できる永続テイクオーバーチャネルの作成を示します。
+この使用例では、ディスプレイまたはディスプレイのグループの通常の再生チャネルから&#x200B;*引き継ぐ* チャネルを作成する方法を説明します。引き継ぎは、特定の日と時間に永続的に行われます。
+例えば、毎週金曜日の午前9:00から午前10:00まで再生されるPerpetual TakeOver チャネルがあります。この間、他のチャンネルは再生できません。次の例では、コンテンツを毎週水曜日の午後2:00から午後4:00まで2時間再生できる永続テイクオーバーチャネルの作成を示します。
 
 ### 前提条件 {#preconditions}
 

@@ -22,14 +22,17 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1101
-ht-degree: 100%
+source-wordcount: 1132
+ht-degree: 94%
 
 ---
 
 # AEM Screens の音声認識 {#voice-recognition}
+
+>[!IMPORTANT]
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -90,7 +93,7 @@ AEM Screens プロジェクトで音声認識を実装するには、ディス�
 
    ![画像](assets/voice-recognition/vr-2.png)
 
-   分割画面チャンネルをプロジェクトに追加した場合は、**SplitScreen** に移動し、2 つの埋め込みシーケンスをドラッグ＆ドロップします。 以下の図に示すように、**ColdDrinks** と **HotDrinks** チャネルの両方にパスを追加します。
+   分割Screens チャンネルをプロジェクトに追加した場合は、**SplitScreen**&#x200B;に移動し、埋め込まれた2つのシーケンスをドラッグ&amp;ドロップします。次の図に示すように、**ColdDrinks**&#x200B;と&#x200B;**HotDrinks** チャネルの両方にパスを追加します。
    ![画像](assets/voice-recognition/vr-emb-6.png)
 
 
@@ -133,10 +136,10 @@ AEM Screens プロジェクトで音声認識を実装するには、ディス�
 
 1. AEM インスタンスに移動します。
 
-1. ツールアイコン／**タグ付け**をクリックします。
+1. ツールアイコン／**タグ付け**&#x200B;をクリックします。
    ![画像](assets/voice-recognition/vr-7.png)
 
-1. **作成**／**名前空間を作成**をクリックします。
+1. **作成**／**名前空間を作成**&#x200B;をクリックします。
    ![画像](assets/voice-recognition/vr-tag3.png)
 
 1. プロジェクトの名前（例：**VoiceDemo**）を入力し、「**作成**」をクリックします。

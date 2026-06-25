@@ -11,22 +11,25 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 537
-ht-degree: 99%
+source-wordcount: 532
+ht-degree: 90%
 
 ---
 
 # ネットワークトラフィックの管理 {#managing-network-traffic}
+
+>[!IMPORTANT]
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 ネットワーク設定の構造は様々です。 この節では、組織内で使用される最も一般的なネットワーク設定およびアプローチについて説明します。
 
 このガイドでは、プロキシサーバーについて紹介し、様々な組織内で設定される多様なネットワーク構造の概要について説明します。
 
 >[!NOTE]
->**AEM Screens ネットワーク要件**
->AEM Screens は、AEM as a Cloud Service と直接通信するので、2 つのノード間に安定した接続を確立する必要があります。 商用インターネットアクセスにはファイアウォールが必須です。 お客様は、これらのファイアウォールやその他の IT セキュリティ関連のネットワークコンポーネントで、どの通信ポートを開かなければいけないかを理解する必要があります。
+>**AEM Screensの必要ネットワーク構成**
+>AEM ScreensはAEM as a Cloud Serviceと直接通信しているため、2つのノード間で安定した接続を確立する必要があります。ファイアウォールは、商用インターネットアクセスに必須です。お客様は、これらのファイアウォールやその他のIT セキュリティ関連のネットワークコンポーネントで開く必要がある通信ポートを理解します。
 
 ## プロキシサーバーの概要 {#proxy-servers}
 

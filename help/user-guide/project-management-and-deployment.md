@@ -19,14 +19,17 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 675
-ht-degree: 95%
+source-wordcount: 721
+ht-degree: 89%
 
 ---
 
 # 第 4 部：プロジェクトの管理とデプロイメント {#part-project-management-and-deployment}
+
+>[!IMPORTANT]
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 このページは 5 部構成シリーズの第 4 部で、プロジェクトの管理とデプロイメントの準備について説明し、プロジェクトの管理とデプロイメントの準備に関して AV インテグレーターが責任を負う重要な要素を定義します。
 

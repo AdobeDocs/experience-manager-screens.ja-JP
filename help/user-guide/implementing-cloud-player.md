@@ -18,14 +18,17 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 909
-ht-degree: 99%
+source-wordcount: 955
+ht-degree: 94%
 
 ---
 
 # Cloud Player の実装 {#implementing-cloud-player}
+
+>[!IMPORTANT]
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 AEM Screens は従来、ChromeOS、Windows、Android™、`Tizen` などの様々なプラットフォームに個別のネイティブプレーヤーアプリケーションを提供してきました。 しかし、ユーザーの進化するニーズに応えて、革新的なソリューションである AEM Screens Cloud Player を導入しました。
 

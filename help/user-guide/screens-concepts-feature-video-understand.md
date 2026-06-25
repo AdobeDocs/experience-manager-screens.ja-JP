@@ -25,7 +25,7 @@ ht-degree: 72%
 
 ## Screens の用語と概念 {#terminology-and-concepts}
 
->[!VIDEO](https://video.tv.adobe.com/v/21353?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/40402?captions=jpn&quality=9)
 
 >[!IMPORTANT]
 >このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
@@ -42,10 +42,10 @@ AEM Screens Player をダウンロードするには、[ここ](https://download
 
 以下のビデオでは、新しいチャネルの作成、新しいコンテンツのオーサリング、再利用可能なスケジュールへのチャネルの追加について詳しく説明します。 [Screens キックスタートガイド](kickstart-for-aem-screens.md)の前半部に大体従っています。
 
->[!VIDEO](https://video.tv.adobe.com/v/21387?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/39370?captions=jpn&quality=9)
 
 ## ディスプレイの割り当てとデバイスの登録 - 第 2 部 {#display-and-device-pt2}
 
 以下のビデオでは、ロケーション、ディスプレイ、デバイス設定の作成方法を示します。 また、デバイスの登録とディスプレイへの割り当ての手順も示します。 [Screens キックスタートガイド](kickstart-for-aem-screens.md)の後半部に大体従っています。
 
->[!VIDEO](https://video.tv.adobe.com/v/21411?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/39391?captions=jpn&quality=9)

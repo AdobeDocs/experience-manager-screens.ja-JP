@@ -3,18 +3,21 @@ title: Screens Cloud でのタグ付け
 description: このページでは、Screens Cloud でタグを作成、管理および使用する方法について説明します。
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 76%
+source-wordcount: '186'
+ht-degree: 61%
 
 ---
 
 # Screens Cloud でのタグ付け {#tagging-on-Screens-Cloud}
 
+>[!IMPORTANT]
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+
 >[!CAUTION]
 >
->**タグ付け**&#x200B;機能は、テナントに対して有効になっている場合にのみ使用できます。 有効にするには、AEM Screens エンジニアリングにお問い合わせください。
+>**タグ付け**&#x200B;機能は、テナントに対して有効になっている場合にのみ使用できます。 AEM Screens Engineeringに連絡して有効にします。
 
 ## はじめに {#introduction}
 
@@ -32,14 +35,14 @@ ht-degree: 76%
 
 ## タグ割り当ての管理 {#manage-tags-assignments}
 
-作成したタグをディスプレイとプレーヤーで使用します。
+ディスプレイとプレーヤーで作成したタグを使用します。
 
 ![タグ割り当てを管理します](assets/tagging/assign-tags-to-players.gif)。
 
 >[!NOTE]
 >
-> ディスプレイまたはプレーヤーには、最大 30 個のタグを割り当てることができます。
-> 1 回の操作でタグ付けできる項目は最大 30 個です。
+> ディスプレイまたはプレーヤーには、最大30個のタグを割り当てることができます。
+> 一度にタグ付けできるアイテムは、最大30個です。
 
 ## タグによるフィルタリング {#filter-by-tags}
 

@@ -3,21 +3,20 @@ title: 直接モバイルネットワーク
 description: AEM Screens での直接モバイルネットワーク設定について説明します。
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
 TQID: https://experienceleague.adobe.com/nesp1a9TVyKUBaWjPR8bzW6n2dGyVVme1p5469h92LA
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 847
-ht-degree: 97%
+source-wordcount: 837
+ht-degree: 89%
 
 ---
 
 # 直接モバイルネットワーク {#mobile-network-setup}
+
+>[!IMPORTANT]
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 AEM Screens Player は、3G ネットワーク以上のモバイルネットワークまたは携帯電話ネットワークを使用して接続することもできます。
 
@@ -68,9 +67,9 @@ AEM Screens Player を携帯電話 3/4/5G でモバイルサービスデータ�
 
 使用するデータネットワークを検討する際には、次の点を考慮してください。
 
-使用可能なネットワーク速度は、特定のモバイルデータプロバイダーのプランと、AEM Screens コントローラーの場所で利用可能なカバレッジによって異なります。
-この設定を使用する際には、使用可能な帯域幅に加えて、モバイルデータプロバイダーのプランによって、特定の時間内に接続して受信できるデータ量が制限されることも考慮する必要があります。 データと帯域幅の量に十分な容量があることを確認する必要があります。
-そのため、最小限必要なデータパッケージは、次のとおりです。
+利用可能なネットワーク速度は、モバイルデータプロバイダーのプランと、AEM Screens Controllerの場所で利用可能なカバレッジによって異なります。
+この設定に従う間、使用可能な帯域幅に加えて、一部のモバイルデータプロバイダープランでは、特定の時間内に接続に接続されるデータの利用可能な量が制限されます。データと帯域幅の量に十分な容量があることを確認する必要があります。
+フォローアップとして、必要なデータパッケージは少なくとも次のようにする必要があります。
 
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 

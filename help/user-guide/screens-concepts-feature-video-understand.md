@@ -9,15 +9,12 @@ docset: aem65
 targetaudience: target-audience new
 exl-id: e2c8f5d6-5a70-45fa-a661-925f796a50f9
 TQID: https://experienceleague.adobe.com/I--6jVCUWNNGosI-eK-qCAVnVSW3O6lPeFmowhjOJyg
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 161
-ht-degree: 93%
+source-wordcount: 207
+ht-degree: 72%
 
 ---
 
@@ -25,14 +22,16 @@ ht-degree: 93%
 
 ## Screens の用語と概念 {#terminology-and-concepts}
 
->[!VIDEO](https://video.tv.adobe.com/v/40402?captions=jpn&quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/21353?quality=9)
 
+>[!IMPORTANT]
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 ## チャネルとスケジュールのオーサリング - 第 1 部 {#channels-and-schedules-part-2}
 
 ビデオに沿って作業を進めるには、以下が必要です。
 
-1. **AEM 6.4** または **&#x200B; AEM 6.3*+ &#x200B;** Screens 機能パック 1**
+1. **AEM 6.4** または ** AEM 6.3*+ **Screens 機能パック 1**
 
 1. AEM Screens Player
 
@@ -40,10 +39,10 @@ AEM Screens Player をダウンロードするには、[ここ](https://download
 
 以下のビデオでは、新しいチャネルの作成、新しいコンテンツのオーサリング、再利用可能なスケジュールへのチャネルの追加について詳しく説明します。 [Screens キックスタートガイド](kickstart-for-aem-screens.md)の前半部に大体従っています。
 
->[!VIDEO](https://video.tv.adobe.com/v/39370?captions=jpn&quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/21387?quality=9)
 
 ## ディスプレイの割り当てとデバイスの登録 - 第 2 部 {#display-and-device-pt2}
 
 以下のビデオでは、ロケーション、ディスプレイ、デバイス設定の作成方法を示します。 また、デバイスの登録とディスプレイへの割り当ての手順も示します。 [Screens キックスタートガイド](kickstart-for-aem-screens.md)の後半部に大体従っています。
 
->[!VIDEO](https://video.tv.adobe.com/v/39391?captions=jpn&quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/21411?quality=9)

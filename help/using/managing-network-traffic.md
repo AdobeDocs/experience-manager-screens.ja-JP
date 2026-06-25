@@ -3,30 +3,28 @@ title: ネットワークトラフィックの管理
 description: このページでは、標準ネットワークのセットアップとネットワークトラフィックの管理方法について説明します。
 exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
 TQID: https://experienceleague.adobe.com/toQExjYycmdyuJ18MzNczjmqjec2SQrXbnz4gxi01Tk
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 537
-ht-degree: 99%
+source-wordcount: 532
+ht-degree: 90%
 
 ---
 
 # ネットワークトラフィックの管理 {#managing-network-traffic}
+
+>[!IMPORTANT]
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 ネットワーク設定の構造は様々です。 この節では、組織内で使用される最も一般的なネットワーク設定およびアプローチについて説明します。
 
 このガイドでは、プロキシサーバーについて紹介し、様々な組織内で設定される多様なネットワーク構造の概要について説明します。
 
 >[!NOTE]
->**AEM Screens ネットワーク要件**
->AEM Screens は、AEM as a Cloud Service と直接通信するので、2 つのノード間に安定した接続を確立する必要があります。 商用インターネットアクセスにはファイアウォールが必須です。 お客様は、これらのファイアウォールやその他の IT セキュリティ関連のネットワークコンポーネントで、どの通信ポートを開かなければいけないかを理解する必要があります。
+>**AEM Screensの必要ネットワーク構成**
+>AEM ScreensはAEM as a Cloud Serviceと直接通信しているため、2つのノード間で安定した接続を確立する必要があります。ファイアウォールは、商用インターネットアクセスに必須です。お客様は、これらのファイアウォールやその他のIT セキュリティ関連のネットワークコンポーネントで開く必要がある通信ポートを理解します。
 
 ## プロキシサーバーの概要 {#proxy-servers}
 

@@ -6,24 +6,15 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
 TQID: https://experienceleague.adobe.com/-hIHgs66ksW-qvVaUp4euiJlPfbn0OGk88ASNIc4QZI
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
-  - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: ba4275ba-c29a-4197-90dc-5a633402ca3cid: d4878390-3838-4e80-8cb3-33bc1a01ea16id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1448
-ht-degree: 93%
+source-wordcount: 1464
+ht-degree: 90%
 
 ---
 
@@ -36,6 +27,8 @@ ht-degree: 93%
 ディスプレイの設定が完了したら、チャネルをディスプレイに割り当てて、コンテンツを表示します。
 
 このページでは、ディスプレイにチャネルを割り当てる方法、チャネルのプロパティの理解、および日分割について説明します。
+
+このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 >[!NOTE]
 >
@@ -199,8 +192,8 @@ ht-degree: 93%
 繰り返しスケジュールを使用すると、コンテンツの繰り返しスケジュールを設定できます。 「**スケジュールを追加**」をクリックして、チャネルに繰り返しスケジュールを追加します。
 
 >[!NOTE]
->チャネルには、複数の繰り返しスケジュールを追加できます。
->繰り返しスケジュールでは&#x200B;*日分割*&#x200B;が導入されています。 この方式では、特定の時間帯に複数のチャネルが実行されるグローバルスケジュールを設定でき、また一度にすべてのディスプレイでその設定を再利用できます。
+>チャネルに複数の定期的なスケジュールを追加できます。
+>繰り返しスケジュールでは、*日分割*&#x200B;が導入されます。特定の時間帯に複数のチャネルを実行するグローバルスケジュールを設定し、すべてのディスプレイに一度に設定したスケジュールを再利用します。
 
 以下のオプションを設定できます。
 

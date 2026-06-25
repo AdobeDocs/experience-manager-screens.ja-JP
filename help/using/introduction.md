@@ -20,7 +20,7 @@ ht-degree: 93%
 # AEM Screens の概要 {#introduction}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 **AEM Screens** は、動的でインタラクティブなデジタルエクスペリエンスを作成、公開、再生できるデジタルサイネージソリューションです。 これには、包括的なオムニチャネルデジタルマーケティング戦略と連携して、様々なタイプの会場ディスプレイ画面が含まれます。
 

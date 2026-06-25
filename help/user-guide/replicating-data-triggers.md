@@ -28,7 +28,7 @@ ht-degree: 91%
 # データトリガーの公開サーバーへのレプリケーション {#replicating-data-triggers}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 ContextHub と AEM ターゲティングエンジンを使用して、オーサーとパブリッシュのセットアップ時のデータトリガーに基づいてコンテンツをカスタマイズする場合、ContextHub とパーソナライズ機能に関連するすべての設定は、公開時にチャネルへ自動的にレプリケーションされません。
 

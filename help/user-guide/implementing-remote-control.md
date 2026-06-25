@@ -27,7 +27,7 @@ ht-degree: 80%
 # Screens リモート制御の使用 {#implementing-remote-control}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 リモートコントロール機能を使用すると、管理者UI、チャネルスイッチャー、またはキャッシュのクリアやリロードなどの機能に簡単にアクセスできます。 また、プレーヤーのローカルファームウェアバージョンやシステム情報を確認する手段も提供します。 マウスの接続が難しい場合には、この機能が特に役立ちます。 または、手の届かない実稼働デバイス上で動作させることもできます。さらに、プレーヤーが AEM との接続を失った場合にも動作可能です。 また、Samsung RMS を使用する場合にも便利です。解像度の違いにより、管理 UI を見つけてマウスを使用して開くことが難しい可能性があるからです。
 

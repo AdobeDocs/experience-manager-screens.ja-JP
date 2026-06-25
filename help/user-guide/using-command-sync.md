@@ -28,7 +28,7 @@ ht-degree: 85%
 # コマンド同期 {#command-sync}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 以下では、コマンド同期の使用方法について説明します。 コマンド同期を使用すると、異なるプレーヤー間で再生を同期させることができます。 プレーヤーごとに異なるコンテンツを再生できますが、各アセットの再生時間は同じにする必要があります。
 

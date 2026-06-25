@@ -24,7 +24,7 @@ ht-degree: 47%
 # 推奨アプローチ {#recommended-approach}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 エンタープライズレベルの AEM Screens プロジェクトは、すべて長期的な取り組みと考えることがベストプラクティスです。 特に、ソリューションで複雑なユーザー操作を可能にする場合や、ソリューションが様々なデバイスや場所にデプロイされる場合、プロジェクト期間が 1 年以上になる可能性があります。
 

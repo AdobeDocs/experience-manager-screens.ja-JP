@@ -34,7 +34,7 @@ ht-degree: 65%
 # スケジュールの作成と管理 {#creating-and-managing-schedules}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 AEM Screen の&#x200B;**スケジュール**&#x200B;では、チャネルを再利用可能なグループに整理できます。 つまり、コンテンツを表示するディスプレイごとに割り当てを個別に繰り返す必要はありません。
 

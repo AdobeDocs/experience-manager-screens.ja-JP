@@ -31,7 +31,7 @@ ht-degree: 90%
 ## ユースケースの説明 {#use-case-description}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 ここでは、シングルゾーンレイアウトのチャネルに切り替わるマルチゾーンレイアウトのチャネルをセットアップする方法に重点を置いた使用例について説明します。 このマルチゾーンチャネルには一連の画像／ビデオアセットがあり、マルチゾーンとシングルゾーンの間で切り替わるプロジェクトをセットアップする方法を示しています。
 

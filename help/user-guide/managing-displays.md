@@ -33,7 +33,7 @@ ht-degree: 86%
 # ディスプレイの作成と管理 {#creating-and-managing-displays}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 ディスプレイとは Screens の仮想グループのことで、隣り合って配置されます。 ディスプレイは、インストールに関して永続的です。 これは作成者が作業するオブジェクトコンテンツであり、物理的なディスプレイではなく常に論理的なディスプレイとして参照されます。
 

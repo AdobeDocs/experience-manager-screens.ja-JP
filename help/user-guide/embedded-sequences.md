@@ -36,7 +36,7 @@ ht-degree: 94%
 # 埋め込みシーケンス {#embedded-sequences}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 チャネルの&#x200B;***埋め込みシーケンス***&#x200B;を使用すると、ユーザーは、親チャネルにコンポーネントを追加したり、異なるチャネルからのコンテンツを再利用して親チャネルに埋め込んだりできます。
 

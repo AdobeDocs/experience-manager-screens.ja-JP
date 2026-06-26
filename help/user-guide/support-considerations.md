@@ -31,7 +31,7 @@ ht-degree: 91%
 # 第 5 部：サポートに関する考慮事項 {#part-support-considerations}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 このページは 5 部構成のシリーズの最終部であり、ハードウェア、ソフトウェア、接続の問題に対処する方法をチームメンバーが学ぶうえで役に立つ内容になっています。 このフェーズでは、オンサイトサポートのコスト見積りとフレームワークを説明します。 また、SLA パラメーター、運用予算、NOC ハンドオフの管理方法についても説明します。
 

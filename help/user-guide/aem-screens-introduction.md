@@ -25,7 +25,7 @@ ht-degree: 92%
 # Adobe Experience Manager Screens とは{#what-is-aem-screens}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 **Experience Manager Screens** - 動的でインタラクティブなデジタルエクスペリエンスと、様々なタイプの画面を含むインタラクションを、すべて包括的なデジタルマーケティングプラットフォームで公開できるデジタルサイネージソリューションです。
 
@@ -70,7 +70,7 @@ Experience Manager Screens に関連する重要な用語を理解するには�
 
 * **実装の初期設定（ガイド付き）**
 
-  Experience Manager Screens でサポートされている基本機能と高度な機能について説明している、ガイド付き学習パス **[Experience Manager Screens 実装の初期設定](https://experienceleague.adobe.com/?launch=AEM-7a&lang=ja)**&#x200B;に従ってください。
+  Experience Manager Screens でサポートされている基本機能と高度な機能について説明している、ガイド付き学習パス **[Experience Manager Screens 実装の初期設定](https://experienceleague.adobe.com/ja?launch=AEM-7a&lang=ja)**&#x200B;に従ってください。
 
 * **Experience Manager Screens プロジェクトのベストプラクティスガイド**
 

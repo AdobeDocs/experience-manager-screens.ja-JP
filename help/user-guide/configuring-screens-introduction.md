@@ -17,10 +17,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 743
-ht-degree: 91%
+source-wordcount: 750
+ht-degree: 92%
 
 ---
 
@@ -156,3 +156,4 @@ AEM Screens プロジェクトの Dispatcher を設定する方法について�
 >[!NOTE]
 >
 >本番環境では AEM Screens サーバーに HTTPS を使用してください。
+

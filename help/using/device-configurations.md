@@ -8,7 +8,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 258
 ht-degree: 82%
@@ -48,3 +48,4 @@ ht-degree: 82%
 >[!NOTE]
 >
 >また、選択したハードウェアの仕様を検証して、開発対象のアプリケーションを確実にサポートできるようにすることも重要です。 例えば、アプリケーションが同時に 5 つの高解像度ビデオを実行することを目的としている場合、ハードウェアはそれに対応していますか？
+

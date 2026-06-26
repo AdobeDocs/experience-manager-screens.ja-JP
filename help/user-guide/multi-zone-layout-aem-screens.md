@@ -25,7 +25,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 1214
 ht-degree: 95%
@@ -209,3 +209,4 @@ AEM Screens Player でコンテンツを表示するには、ロケーション�
 左ゾーンはシーケンスチャネルで、右ゾーンにはビデオが含まれています。
 
 ![new2-1](/help/user-guide/assets/multi-zone/Multi-gif.gif)
+

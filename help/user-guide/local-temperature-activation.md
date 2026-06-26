@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 500
 ht-degree: 88%
@@ -108,3 +108,4 @@ ht-degree: 88%
    1. 値を 50 未満に変更します。 冷たい飲み物の画像をご覧いただけます。 Google Sheets の値が 50 以上の場合は、温かい飲み物の画像が表示されます。
 
    ![result3](assets/result3.gif)
+

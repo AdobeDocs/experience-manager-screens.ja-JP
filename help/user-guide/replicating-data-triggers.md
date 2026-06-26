@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 561
 ht-degree: 91%
@@ -133,3 +133,4 @@ ContextHub 設定をレプリケーション中にテスト接続が失敗した
 
    1. `(name=default)` を `(name=slingTransportSecretProvider)` に更新します。
    1. 「**保存**」をクリックし、AEM インスタンスの&#x200B;**配布エージェント**&#x200B;画面から再びテスト接続を実行します。
+

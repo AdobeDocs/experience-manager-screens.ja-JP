@@ -13,7 +13,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 488
 ht-degree: 90%
@@ -48,3 +48,4 @@ ht-degree: 90%
 **シーケンスチャネル**：シーケンスチャネルとはユーザーが作成できるページで、スライドショーに 1 つずつ表示されるコンポーネントが含まれています。
 
 **ゾーン**：ゾーンとは、チャネルの主要なアドレス可能エンティティとして使用されるディスプレイセグメントのことです。 ディスプレイが複数の画面にまたがる場合、特に、画面に目立つ物理的なボーダーが表示される場合は、画面の寸法と一致するようゾーンを定義すると便利です。
+

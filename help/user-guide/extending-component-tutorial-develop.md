@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 1892
 ht-degree: 94%
@@ -66,7 +66,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
    [ファイルの取得](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
-   [ファイルを入手](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
+   &lbrack; ファイルを取得
    **（オプション）** Eclipse などの IDE を使用して作業する場合は、以下のソースパッケージをダウンロードします。 次の Maven コマンドを使用して、プロジェクトをローカルの AEM インスタンスにデプロイします。
 
    **`mvn -PautoInstallPackage clean install`**
@@ -539,3 +539,4 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 SRC Final AEM Screens `We.Retail` Run Project
 
 [ファイルの取得](assets/src-screens-weretail-run-001.zip)
+

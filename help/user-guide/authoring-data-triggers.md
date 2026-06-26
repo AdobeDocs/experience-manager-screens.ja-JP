@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 421
 ht-degree: 89%
@@ -102,3 +102,4 @@ AEM Screens プロジェクトに ContextHub を設定したら、以下の様�
 1. **[小売店向けの在庫に応じたアクティベーション](retail-inventory-activation.md)**
 1. **[旅行センター向けの気温に応じたアクティベーション](local-temperature-activation.md)**
 1. **[接客業向けの予約状況に応じたアクティベーション](hospitality-reservation-activation.md)**
+

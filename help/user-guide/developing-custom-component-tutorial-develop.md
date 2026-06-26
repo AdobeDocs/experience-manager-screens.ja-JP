@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 2410
+source-wordcount: 2414
 ht-degree: 97%
 
 ---
@@ -60,7 +60,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
    [ファイルの取得](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
-   [ファイルを入手](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
+   &lbrack; ファイルを取得
    **（オプション）** Eclipse などの IDE を使用して作業する場合は、以下のソースパッケージをダウンロードします。 次の Maven コマンドを使用して、プロジェクトをローカルの AEM インスタンスにデプロイします。
 
    **`mvn -PautoInstallPackage clean install`**
@@ -599,3 +599,4 @@ public class MyCustomHandler extends AbstractResourceHandler {
 [ファイルの取得](assets/screens-weretail-runuicontent-001-snapshot.zip)
 
 [ファイルの取得](assets/screens-weretail-run.zip)
+

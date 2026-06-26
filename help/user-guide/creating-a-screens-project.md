@@ -22,10 +22,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 336
-ht-degree: 85%
+source-wordcount: 370
+ht-degree: 87%
 
 ---
 
@@ -40,8 +40,7 @@ Adobe Experience Manager のリンク（左上）を選択し、「Screens」を
 または、`http://localhost:4502/screens.html/content/screens` から直接アクセスすることもできます
 
 >[!NOTE]
->**ナビゲーションのヒント：**
->AEMでは、カーソル キーを使用して別のフォルダー内を移動することもできます。また、特定のエンティティをクリックした後、スペースバーを押して、その特定のフォルダーのプロパティを編集または表示します。
+>**ナビゲーションのヒント：カーソルキーを使用しても、AEM 内の様々なフォルダーを移動できます。 さらに、特定のエンティティをクリックし、スペースバーを押すと、その特定のフォルダーのプロパティを編集または表示できます。
 
 ## 新しい Screens プロジェクトの作成
 
@@ -92,3 +91,4 @@ Screens プロジェクトを作成したら、プロジェクトをクリック
 ### 次の手順 {#the-next-steps}
 
 独自のプロジェクトを作成したら、[チャネル管理](managing-channels.md)を参照して、チャネルのコンテンツを作成および管理します。
+

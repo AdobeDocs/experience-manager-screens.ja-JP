@@ -17,10 +17,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 397
-ht-degree: 80%
+source-wordcount: 404
+ht-degree: 85%
 
 ---
 
@@ -40,8 +40,7 @@ ht-degree: 80%
 
 ### 前提条件 {#pre-reqs}
 
-コンテンツ割り当てレポートをダウンロードする前に、チャネル、場所、デバイスを含むAEM Screens プロジェクトを設定していることを確認してください。
-詳しくは、次のリソースを参照してください。
+コンテンツの割り当てレポートをダウンロードする前に、チャネル、場所、デバイスを含む AEM Screens プロジェクトが設定されていることを確認してください。詳しくは、次のリソースを参照してください。
 
 1. [プロジェクトの作成と管理](/help/user-guide/creating-a-screens-project.md)
 1. [チャネルの作成と管理](/help/user-guide/managing-channels.md)
@@ -76,3 +75,4 @@ ht-degree: 80%
 1. 「**チャネル**」列からいずれかのチャネルを選択すると、「**コンテンツ**」タブが開きます。 次に、そのチャネルに直接移動すると、その特定のチャネルに関連付けられたアセット（画像とビデオ）に関する情報が表示されます。
 
    ![画像](/help/user-guide/assets/content-assignment-report/report-sheet2.png)
+

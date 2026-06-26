@@ -23,9 +23,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1845
+source-wordcount: 1853
 ht-degree: 68%
 
 ---
@@ -165,8 +165,7 @@ AEM Screens プロジェクトにチャネルレベルのアクティベーシ�
 
 >[!NOTE]
 >
->AEM Screen Playerについて詳しくは、次の資料を参照してください。>[AEM Screens Playerのダウンロード &#x200B;](https://download.macromedia.com/screens/)
->[AEM Screens Playerの操作](working-with-screens-player.md)
+>AEM Screens Player については、次のリソースを参照してください。AEM Screens PlayerのダウンロードAEM Screens Player での作業&rbrack;(working-with-screens-player.md)
 
 
 ## チャネル内アセットの繰り返し処理 {#handling-recurrence-in-assets}
@@ -287,3 +286,4 @@ AEM Screens プロジェクトにチャネルレベルのアクティベーシ�
 >[!NOTE]
 >
 >曜日や月を定義する場合は、省略形または通常の表記を使用できます（月／月曜日、1／1月など）。 また、*A.M./P.M.* （午後2:00）の代わりに&#x200B;_軍時間_&#x200B;の表記法（14:00）を使用することもできます。
+

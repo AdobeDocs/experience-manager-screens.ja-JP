@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 482
 ht-degree: 47%
@@ -69,3 +69,4 @@ ht-degree: 47%
 
 * **カスタム統合の範囲について**:
 タッチスクリーンインタラクション、モーションセンサー、またはRFIDを備えたインタラクティブコンポーネントは、実装方法において大幅なカスタム開発が必要です。 スライドショー、ビデオ広告、静的メニューなどは、グラフィックコンテンツまたは HTML として Screens チャネルで提供できます。
+

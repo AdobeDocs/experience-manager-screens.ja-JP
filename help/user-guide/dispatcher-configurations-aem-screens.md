@@ -17,10 +17,10 @@ level_v2:
 topic_v2:
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 702
-ht-degree: 87%
+source-wordcount: 709
+ht-degree: 89%
 
 ---
 
@@ -39,8 +39,7 @@ Dispatcher は、Adobe Experience Manager のキャッシュ、ロードバラ�
 >
 >Dispatcher がない場合は、OSGi コンポーネントリストで登録サーブレットを無効にします。
 
-AEM Screens プロジェクト用にDispatcherを設定する前に、Dispatcherに関する事前知識を持っている必要があります。
-詳しくは、[Dispatcherの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration)を参照してください。
+AEM Screens プロジェクトの Dispatcher を設定する前に、Dispatcher に関する事前の知識が必要です。詳しくは、[Dispatcher の設定](https://experienceleague.adobe.com/ja/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration)を参照してください。
 
 ## Manifest バージョン v2 用 Dispatcher の設定 {#configuring-dispatcher}
 
@@ -262,3 +261,4 @@ AEM Screens でターゲットキャンペーンを使用している場合は�
 ```
 
 * このルールにより、`segments.js` ファイルが無効化され、変更時に最新のファイルが取得されます。
+

@@ -19,7 +19,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 721
 ht-degree: 89%
@@ -99,3 +99,4 @@ Day 1 イニシアチブの終わりには、NOC への引き渡しを完了す�
 ## 次の手順 {#the-next-step}
 
 AEM Screens デプロイメントのプロジェクト管理に関する重要な考慮事項をすべて検討したら、**[第 5 部：サポートに関する考慮事項](support-considerations.md)**&#x200B;を参照して、Day 2 でのサポートと関連プロセスを理解します。
+

@@ -24,7 +24,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 424
 ht-degree: 89%
@@ -110,3 +110,4 @@ ht-degree: 89%
 1. **レンディション**&#x200B;サイドパネルを開きます。 新しいフル HD レンディションに注目してください。
 
    ![step8_-_open_therenditionssiderail](assets/step8_-_open_therenditionssiderail.png)
+

@@ -20,7 +20,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 1536
 ht-degree: 84%
@@ -263,5 +263,6 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 
 1. グローバルオーバーライドの場合は、アセットの「**タイムゾーンオーバーライド**」セクションでアクティベーション時刻を入力します。 この領域に何も入力しない場合、適用されるタイムゾーンはプレーヤーのタイムゾーンになります。
+
 
 

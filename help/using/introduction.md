@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 736
 ht-degree: 93%
@@ -67,3 +67,4 @@ AEM サイトは、目的とする表示デバイスのサイズで使用でき�
 
 >[!NOTE]
 >多くの AEM Sites コンポーネントは、AEM Screens と互換性がありません。 AEM Screens には、すぐに使用できる独自のコンポーネントが多数付属しており、それらをそのまま使用してデジタルエクスペリエンスを構築できます。 プロジェクト要件が許す限り、できるだけビルトインの AEM Screens 機能を使用してください。
+

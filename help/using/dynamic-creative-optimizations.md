@@ -13,7 +13,7 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 307
 ht-degree: 85%
@@ -52,3 +52,4 @@ DCO を含む視覚的マーチャンダイジング戦略を採用すると、�
 
 * **ローカルデータトリガー**：デバイス上でローカルに発生するデータトリガーです。 例えば、画面をタッチすると、センサーが作動し、ローカルデータアセットまたはチャネルの切り替えがトリガーされます。
 * **リモートデータトリガー**：Web サービス API から返された値に基づいて、チャネルまたはアセットの切り替えがトリガーされます。
+

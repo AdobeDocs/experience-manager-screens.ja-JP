@@ -15,9 +15,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1249
+source-wordcount: 1343
 ht-degree: 93%
 
 ---
@@ -40,9 +40,7 @@ AEM Screens のキックスタートで、AEM Screens プロジェクトの設�
 >次のチュートリアルは、Chrome OS プレーヤーでチャネルのコンテンツを再生する場合を示します。
 
 >[!IMPORTANT]
->**OSGi構成設定**
->空のリファラーを有効にして、デバイスがサーバーにデータを投稿できるようにする必要があります。例えば、空のリファラープロパティが無効になっている場合、デバイスはスクリーンショットを再投稿できません。現在、これらの機能の一部は、OSGi設定で`Apache Sling` Referrer Filter Allow Emptyが有効になっている場合にのみ使用できます。ダッシュボードには、セキュリティ設定によって、これらの機能の一部が動作しない可能性があるという警告が表示されることがあります。
->次の手順に従って、***Apache Sling Referrer Filter Allow Empty***&#x200B;を有効にします。
+>**OSGi構成設定デバイスからサーバーへのデータの投稿を許可するには、空のリファラーを有効にする必要があります。 例えば、空のリファラーのプロパティが無効になっていると、デバイスからスクリーンショットを投稿できません。 現在、これらの機能の一部は、OSGi設定で`Apache Sling` Referrer Filter Allow Emptyが有効になっている場合にのみ使用できます。 ダッシュボードには、セキュリティ設定がこれらの機能の一部の動作を妨げる可能性があることを示す警告が表示される場合があります。***Apache Sling Referrer Filter の「Allow Empty」設定***を有効にするには、次の手順に従います。
 
 
 ## 空のリファラー要求の許可 {#allow-empty-referrer-requests}
@@ -186,8 +184,7 @@ AEM Screens プロジェクトを作成したら、コンテンツを管理す�
    また、「**アクティベーションウィンドウ**」と「**繰り返しスケジュール**」もクリックできます。
 
    >[!NOTE]
-   >*繰り返しスケジュール*を使用すると、チャネルの繰り返しスケジュールを設定できます。1つのチャネルに対して複数の繰り返しスケジュールを設定できます。
-   >詳しくは、「[繰り返しスケジュール](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule)」を参照してください。
+   >*繰り返しスケジュール*&#x200B;を使用すると、チャネルの定期的なスケジュールを設定できます。 1 つのチャネルに対して、複数の繰り返しスケジュールを設定できます。   >詳しくは、「[繰り返しスケジュール](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule)」を参照してください。
 
 1. 環境を設定したら、「**保存**」をクリックします。
 
@@ -253,3 +250,4 @@ Chrome OS プレーヤーがオンになったら、次の手順に従って Chr
 下図では、AEM Screens チャネルのコンテンツを再生しています。
 
 ![画像](assets/kickstart/demo-video-screens.gif)
+

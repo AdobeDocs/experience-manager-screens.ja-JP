@@ -24,7 +24,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 336
 ht-degree: 77%
@@ -95,3 +95,4 @@ OBSOLETE VERSIONS
    **スケジュール頻度** – このサービスがオフライン コンテンツを更新する必要がある時間（例：午後5:00または17:00）を指定します。
 
 1. 「**保存**」をクリックして、設定を保存します。 コンテンツは指定した時間に更新されます。
+

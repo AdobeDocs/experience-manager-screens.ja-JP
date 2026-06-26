@@ -23,9 +23,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1515
+source-wordcount: 1537
 ht-degree: 95%
 
 ---
@@ -218,7 +218,7 @@ AEM Screens プロジェクト用に ContextHub の設定を開始する前に�
       >
       >既知の問題：
       >領域を追加するには、URL（例えば下記）からプライマリを削除します。
-      >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
+      >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`
 
 1. **ブランドに領域を作成する**
 
@@ -230,8 +230,7 @@ AEM Screens プロジェクト用に ContextHub の設定を開始する前に�
 
    1. **ページを作成**&#x200B;ウィザードで「**領域**」をクリックし、「**次へ**」をクリックします。
 
-   1. **タイトル**&#x200B;を&#x200B;**ScreensValue**&#x200B;として入力し、**作成**&#x200B;をクリックします。
-領域はブランドで作成されます。
+   1. 「**タイトル**」に「**ScreensValue**」と入力し、「**作成**」をクリックします。ブランドに領域が作成されます。
 
 ## 手順 5：アクティビティでのセグメントの作成 {#step-setting-up-audience-segmentation}
 
@@ -339,3 +338,4 @@ AEM Screens プロジェクトに ContextHub を設定したら、以下の様�
 1. **[小売店向けの在庫に応じたアクティベーション](retail-inventory-activation.md)**
 1. **[旅行センター向けの気温に応じたアクティベーション](local-temperature-activation.md)**
 1. **[接客業向けの予約状況に応じたアクティベーション](hospitality-reservation-activation.md)**
+

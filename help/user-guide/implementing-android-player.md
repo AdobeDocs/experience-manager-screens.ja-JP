@@ -23,9 +23,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1579
+source-wordcount: 1600
 ht-degree: 89%
 
 ---
@@ -136,8 +136,7 @@ Android™ プレーヤーを一括で展開する場合、管理者 UI で手�
 
 次の手順に従って、Android™ プレーヤーで一括プロビジョニングを許可します。
 
-1. `player-config.default.json`という名前の設定JSON ファイルを作成します。
-[JSON ポリシーの例](#example-json)と、様々な[&#x200B; ポリシー属性](#policy-attributes)の使用について説明した表を参照してください。
+1. `player-config.default.json` という名前で設定 JSON ファイルを作成します。[JSON ポリシーの例](#example-json)と、様々な[ポリシー属性](#policy-attributes)の使い方を説明した表を参照してください。
 
 1. MDM、ADB、または Android™ Studio のファイルエクスプローラーを使用して、このポリシー JSON ファイルを Android™ デバイスの *sdcard* フォルダーにドロップします。
 
@@ -224,3 +223,4 @@ Android™ プレーヤーの一括プロビジョニングを可能にするに
 ### Screens リモート制御の使用 {#using-remote-control}
 
 AEM Screens には、リモート制御機能が用意されています。 この機能について詳しくは、[Screens リモート制御](implementing-remote-control.md)を参照してください
+

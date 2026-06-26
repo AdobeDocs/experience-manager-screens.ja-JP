@@ -8,10 +8,10 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 703
-ht-degree: 84%
+source-wordcount: 718
+ht-degree: 88%
 
 ---
 
@@ -53,8 +53,7 @@ AEM Screens 開発者は、すべてのコンテンツバリエーションを�
    >![画像](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >最新の機能パック 202109をインストールすると、CRXDE Liteの`/conf/screens/sling:configs/rendition-mapping`に&#x200B;**rendition-mapping** ノード構造が事前入力されています。最新の機能パックについて詳しくは、[機能パック 202109](/help/user-guide/release-notes-fp-202109.md)のリリースノートを参照してください。
-   >既存プロジェクトの場合は、Screens プロジェクトに **rendition-mapping** 設定が関連付けられていることを確認します。 詳しくは、[既存プロジェクトへのレンディションマッピングの追加](#rendition-mapping-existing)の節を参照してください。
+   >最新の機能パック 202109 をインストールした場合は、CRXDE Lite の `/conf/screens/sling:configs/rendition-mapping` に **rendition-mapping** ノード構造が事前に設定されます。 最新の機能パックについて詳しくは、[機能パック 202109 のリリースノート](/help/user-guide/release-notes-fp-202109.md)を参照してください。   >既存プロジェクトの場合は、Screens プロジェクトに **rendition-mapping** 設定が関連付けられていることを確認します。 詳しくは、[既存プロジェクトへのレンディションマッピングの追加](#rendition-mapping-existing)の節を参照してください。
 
 ### 既存プロジェクトへのレンディションマッピングプロパティの追加 {#rendition-mapping-existing}
 
@@ -104,3 +103,4 @@ AEM Screens 開発者は、すべてのコンテンツバリエーションを�
 ## 次の手順 {#next-steps}
 
 rendition-mapping プロパティおよびルールを追加したら、コンテンツ作成者はアセットを設定できます。 アダプティブレンディションを使用し、デバイスを大規模ネットワークに移行して、AEM Screens チャネルでこの機能を使用することもできます。 詳しくは、[AEM Screens でのアダプティブレンディションの使用](/help/user-guide/using-adaptive-renditions.md)を参照してください。
+

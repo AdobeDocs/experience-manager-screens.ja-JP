@@ -11,10 +11,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1959
-ht-degree: 82%
+source-wordcount: 2022
+ht-degree: 83%
 
 ---
 
@@ -155,8 +155,7 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 
 #### 手順3:ActiveMQ Artemis クラスターの設定 {#step-setup-activemq-artemis-cluster}
 
-この手順では、ActiveMQ Artemis クラスターの暗号化されたパスワードを作成できます。
-トポロジ内のすべてのパブリッシュインスタンスのクラスターユーザーとパスワードは同じである必要があります。ActiveMQ Artemis設定のパスワードは暗号化する必要があります。各インスタンスには独自の暗号化キーがあるため、暗号化されたパスワード文字列を作成するにはCrypto Supportを使用する必要があります。次に、暗号化されたパスワードをActiveMQのOSGi設定で使用できます。
+この手順では、ActiveMQ Artemis クラスターの暗号化パスワードを作成できます。トポロジ内のすべてのパブリッシュインスタンスのクラスターユーザーとパスワードは、同一である必要があります。 ActiveMQ Artemis 設定のパスワードは暗号化する必要があります。 インスタンスごとに専用の暗号化キーがあるので、Crypto Support を使用して、暗号化されたパスワード文字列を作成する必要があります。 こうして暗号化されたパスワードを、ActiveMQ の OSGi 設定で使用できるようになります。
 
 各パブリッシュインスタンスで以下を行います。
 
@@ -169,8 +168,7 @@ AEM Screens には次の 3 つのレプリケーションエージェントが�
 
 >[!NOTE]
 >
->パスワードは、先頭と末尾を中括弧で囲む必要があります。例：
->`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+>パスワードは波括弧（{}）で囲んでください。 次に例を示します。
 
 #### 手順 4：ActiveMQ Artemis クラスターのアクティブ化 {#step-activate-activemq-artemis-cluster}
 

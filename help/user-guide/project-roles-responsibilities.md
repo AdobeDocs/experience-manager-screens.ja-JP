@@ -21,7 +21,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 536
 ht-degree: 91%
@@ -84,3 +84,4 @@ AEM 実装担当者は、通常、段階的にカスタム機能を適所にデ�
 デジタルサイネージプロジェクトの実装におけるプロジェクト上の役割と責務を理解したら、次のチュートリアルに従います。 AEM Screens のビジネス機会を開発する際のプロジェクトの範囲を定義するため、テストやプリセールスに関する考慮事項などのトピックについて詳しく説明します。
 
 詳しくは、**[第 2 部：プロジェクト範囲を定義する際の検討事項](project-considerations.md)**&#x200B;を参照してください。
+

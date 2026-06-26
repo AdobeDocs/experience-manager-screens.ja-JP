@@ -20,9 +20,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 2246
+source-wordcount: 2299
 ht-degree: 81%
 
 ---
@@ -231,8 +231,7 @@ Livefyre を無効にしてログエラーを回避するには、次の手順�
 
 ### &#x200B;2. Oakのインデックス情報を追加するには？ {#add-oak-index-info}
 
-AEM Screensは、商品で使用されるクエリのインデックス定義を作成します。
-`error.log`に&#x200B;*クエリトラバーサル警告*&#x200B;がある場合は、クエリのカスタムインデックスを作成します。詳しくは、[&#x200B; インデックスの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes)を参照してください。
+AEM Screens は、製品で使用されるクエリのインデックス定義を作成します。`error.log`に&#x200B;*クエリトラバーサル警告*&#x200B;がある場合は、クエリのカスタムインデックスを作成します。 詳しくは、[インデックスの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes)を参照してください。
 
 [Oak ドキュメント](https://jackrabbit.apache.org/oak/docs/query/lucene.html)の追加リソースも参照できます。
 
@@ -241,11 +240,9 @@ AEM Screensは、商品で使用されるクエリのインデックス定義を
 
 v3 マニフェストを有効にするには、次の手順を実行します。
 
-* Dispatcherを更新します。
-詳しくは、[&#x200B; マニフェストバージョン v3](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)向けDispatcherの設定を参照してください。
+* Dispatcher を更新します。詳しくは、[マニフェストバージョン v3 に対応した Dispatcher の設定](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)を参照してください。
 
-* カスタムコンポーネントを更新します。
-詳しくは、[&#x200B; カスタムハンドラーのテンプレート &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)を参照してください。
+* カスタムコンポーネントを更新します。詳しくは、[カスタムハンドラーのテンプレート](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)を参照してください。
 
 * `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` でコンテンツ同期を無効にします。
 

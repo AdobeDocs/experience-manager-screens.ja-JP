@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 758
 ht-degree: 93%
@@ -52,3 +52,4 @@ AEM Screens プロジェクトの基本を学ぶには、以下のリソース�
    * *[第 3 部：テスト、POC、パイロットとロールアウト](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/digital-signage-network/testing-pocs-pilots-rollouts)*：5 部構成のシリーズの第 3 部は、チームメンバーが主要用語をより深く理解できる内容になっています。 これらの用語は、ロールアウト前にソリューションの開発を成功に導くうえで重要です。 ハードウェアのラボテストおよびパフォーマンス検証、概念実証（POC）、パイロットプログラムに関するアクションについて説明します。
    * *[第 4 部：プロジェクト管理とデプロイメント](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)*：5 部構成のシリーズの第 4 部では、プロジェクト管理とデプロイメントの準備について説明します。 また、プロジェクト管理とデプロイメントの準備に関して、AV インテグレーターが責任を負う重要な要因も定義します。 プロジェクトのプリプロダクション、プロジェクトの開始、プロジェクトの進行について説明します。
    * *[第 5 部：サポートに関する検討事項](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/digital-signage-network/support-considerations)*：5 部構成のシリーズの第 5 部は、チームメンバーがハードウェア、ソフトウェア、接続の問題に対処する方法を学べる内容となっています。 このフェーズでは、オンサイトサポートのコスト見積りとフレームワークを説明します。 また、SLA パラメーター、運用予算、NOC ハンドオフの管理方法についても説明します。
+

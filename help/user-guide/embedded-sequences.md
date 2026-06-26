@@ -26,10 +26,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 811
-ht-degree: 93%
+source-wordcount: 825
+ht-degree: 94%
 
 ---
 
@@ -56,8 +56,7 @@ ht-degree: 93%
 埋め込みシーケンスをチャネルに追加できます。 埋め込みシーケンスは、画像またはビデオなどのアセットを含んだ別のチャネルです。 埋め込みシーケンスを追加すると、ユーザーは、***チャネルパス***&#x200B;でチャネルにシーケンスを追加できます。
 
 >[!NOTE]
->***チャネルパス***は、チャネルへの明示的な参照を定義します。
->Channel Path *について詳しくは、「[Channel Assignment](channel-assignment.md) in Authoring Screens」を参照してください。*
+>***チャネルパス***&#x200B;は、チャネルへの明示的な参照を定義します。*チャネルパス*&#x200B;について詳しくは、Screens のオーサリングに関する節で[チャネル割り当て](channel-assignment.md)を参照してください。
 
 埋め込みシーケンスをチャネルに追加するには、次の手順に従います。
 
@@ -119,3 +118,4 @@ ht-degree: 93%
 1. 「**シーケンス**」タブで、シーケンスに埋め込まれたチャネルの「**デュレーション（ミリ秒）**」をクリックします。
 
 ![最新](assets/latest.gif)
+

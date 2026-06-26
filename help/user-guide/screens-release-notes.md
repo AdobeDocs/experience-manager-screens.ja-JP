@@ -19,7 +19,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 298
 ht-degree: 84%
@@ -66,3 +66,4 @@ AEM 6.4.2 機能パック 2 および AEM 6.3.3 機能パック 4 向けに、�
 #### AEM Screens Player のダウンロード
 
 最新の AEM Screens Player のダウンロードとバグ修正について詳しくは、[AEM Screens Player のダウンロード](https://download.macromedia.com/screens/)を参照してください。
+

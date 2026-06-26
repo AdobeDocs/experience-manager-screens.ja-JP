@@ -24,7 +24,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 593
 ht-degree: 92%
@@ -99,3 +99,4 @@ QC（品質管理）テストが完了したら、Day 2 でのサポート期間
 テスト、概念実証、パイロットプログラム、ロールアウトを十分に理解したら、次のチュートリアルを参照します。このチュートリアルでは、プロジェクト管理と関連プロセスについて詳しく説明しています。
 
 詳しくは、**[第 4 部：プロジェクトの管理とデプロイメント](project-management-and-deployment.md)**&#x200B;を参照してください。
+

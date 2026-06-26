@@ -20,7 +20,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 322
 ht-degree: 85%
@@ -74,3 +74,4 @@ AEM Screens プロジェクトに切り替えコンポーネントを追加す�
 1. また、**埋め込みシーケンス**&#x200B;コンポーネント（シーケンスチャネルを含む）をこのチャンネルエディターに追加すると、末尾にトランジションコンポーネントを追加できます。 これにより、次の画像に示すように、コンテンツが正しい順序で再生されます。
 
    ![image3](assets/transitions5.png)
+

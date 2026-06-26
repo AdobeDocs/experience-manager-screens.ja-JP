@@ -21,7 +21,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 827
 ht-degree: 87%
@@ -174,3 +174,4 @@ AEM には、次を監視するビルトインの機能があります。
 #### その他のリソース {#additional-resources}
 
 チャネルで再生するビデオのデバッグとトラブルシューティングを行う場合は、[ビデオ再生の設定とトラブルシューティング](troubleshoot-videos.md)を参照してください。
+

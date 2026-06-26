@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 499
 ht-degree: 88%
@@ -97,3 +97,4 @@ AEM Screens プロジェクトに「接客業向けの予約状況に応じた�
    1. **`Restaurant1`** 列と **`Restaurant2`** 列の値を更新します。 **`Restaurant1`** の値が **`Restaurant2`の値より大きい場合は、**&#x200B;スクリーンに&#x200B;*ステーキ*&#x200B;料理の画像が表示され、それ以外の場合は、*タイ料理*&#x200B;の画像が表示されます。
 
    ![result5](assets/result5.gif)
+

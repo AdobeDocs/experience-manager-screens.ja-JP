@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 186
 ht-degree: 75%
@@ -50,3 +50,4 @@ ht-degree: 75%
 1. 1 つのディスプレイに複数のデバイスが必要か（マルチゾーン、特大ボードの場合など）？
 
 1. 明るさ、温度、季節など、環境上の考慮事項は何か？
+

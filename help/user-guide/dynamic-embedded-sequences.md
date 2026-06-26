@@ -26,9 +26,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 2532
+source-wordcount: 2539
 ht-degree: 93%
 
 ---
@@ -91,8 +91,7 @@ ht-degree: 93%
 * **チャネル**&#x200B;フォルダーの下に&#x200B;**グローバル**&#x200B;チャネルを作成します。
 * **グローバル** チャネルにコンテンツを追加する（*関連するアセットについては&#x200B;**resources.zip**&#x200B;を確認してください*）。
 
-次の画像は、**チャネル** フォルダー内の&#x200B;**グローバル** チャネルを含む&#x200B;**デモ** プロジェクトを示しています。
-![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
+次の画像は、**Channels** フォルダーに **Gobal** チャネルがある **Demo** プロジェクトを示しています。![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
 
 ### リソース {#resources}
 
@@ -418,3 +417,4 @@ ACL を編集して、場所に基づいてコンテンツに対するユーザ�
 >[!NOTE]
 >
 >権限の設定について詳しくは、[ACL の設定](setting-up-acls.md)を参照してください。
+

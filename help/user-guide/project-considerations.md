@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 703
 ht-degree: 92%
@@ -108,3 +108,4 @@ I/O は、オーディエンスの近接性の検知に基づいて、コンテ�
 プロジェクトの洗い出し作業で特定された要素と、プロジェクトの評価および適切な設計の準備のための関係者のアドバイスについて説明します。 プロジェクト計画全体に関連する主要用語を説明します。 このような用語には、プロジェクトサイクル、ハードウェアテストに関係するアクション、概念実証、パイロット、ロールアウトが含まれます。
 
 詳しくは、**[テスト、POC、パイロット、ロールアウト](testing-pocs-pilots-rollouts.md)**&#x200B;を参照してください。
+

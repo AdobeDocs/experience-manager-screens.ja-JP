@@ -7,28 +7,22 @@ role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
 TQID: https://experienceleague.adobe.com/qceJ4N3M62xz-CCA9XhetBuzfU4dBHJSpmhMH88wPxI
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 835
-ht-degree: 75%
+source-wordcount: 872
+ht-degree: 78%
 
 ---
 
 # オンデマンドコンテンツの更新 {#on-demand}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 ここでは、公開を管理するためのオンデマンドコンテンツについて説明します。
 
@@ -63,9 +57,7 @@ AEM Screens プロジェクトのコンテンツの更新をオーサーから�
 
    **子を含めるダイアログボックスについて**
 
-   上記の手順は、コンテンツ全体を公開する方法を示しています。利用可能な他の3つの選択肢を使用したい場合は、その特定のオプションをチェックする必要があります。
-例えば、次の画像は、プロジェクト内の変更されたページのみを管理および更新する方法を示しています。
-   ![画像](assets/author-publish-manage.png)
+   上記の手順では、コンテンツ全体を公開する方法を示しています。 それ以外の 3 つの選択肢のいずれかを使用する場合は、その特定のオプションをオンにする必要があります。例えば、下図のようにオプションを選択すると、プロジェクト内の変更されたページのみを管理および更新できるようになります。   ![画像](assets/author-publish-manage.png)
 
    以下の説明に従って、使用可能なオプションを理解します。
 
@@ -143,3 +135,4 @@ AEM Screens プロジェクトのオーサー／パブリッシュ／チャネ�
 デバイスの再割り当てを行った場合は、デバイスを新しいディスプレイに再割り当てした後で、初期のディスプレイと新しいディスプレイの両方を公開します。
 
 同様に、チャネルの再割り当てを行った場合は、チャネルを新しいディスプレイに再割り当てした後で、初期のディスプレイと新しいディスプレイの両方を公開します。
+

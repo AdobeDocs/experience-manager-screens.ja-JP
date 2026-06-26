@@ -3,15 +3,12 @@ title: AEM Screens でのアダプティブレンディションの使用
 description: AEM Screens でアダプティブレンディションを使用する方法について説明します。
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
 TQID: https://experienceleague.adobe.com/HZzzIXVu8Px3-aXDrbfU9xQxg-F-ZJK-Sy-BVQSH-uo
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 601
-ht-degree: 77%
+source-wordcount: 630
+ht-degree: 78%
 
 ---
 
@@ -20,7 +17,7 @@ ht-degree: 77%
 ## はじめに {#introduction}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 >[!CAUTION]
 >この機能は、AEM オンプレミス（AEM 6.x）でのみサポートされています。 AEM as a Cloud Serviceではサポートされていません。
@@ -29,8 +26,7 @@ ht-degree: 77%
 
 ## 目的 {#objective}
 
-AEM Screens コンテンツ作成者は、すべてのコンテンツのバリエーションを手動で作成しなくても、デバイス固有のアセットレンディションを自動的にダウンロードおよび再生できるように設定できるようになりました。
-開発者がレンディションマッピングプロパティとルールを追加すると、レンディションマッピングをアセットに適用し、それらをAEM Screens チャネルに含める準備が整います。
+AEM Screens コンテンツ作成者は、すべてのコンテンツのバリエーションを手動で作成しなくても、デバイス固有のアセットレンディションを自動的にダウンロードおよび再生できるように設定できるようになりました。開発者がレンディションマッピングのプロパティとルールを追加したら、レンディションマッピングをアセットに適用し、アセットを AEM Screens チャネルに含めることができます。
 
 >[!IMPORTANT]
 >AEM Screens チャネルでのアダプティブレンディションの使用を開始する前に、この機能のアーキテクチャ概要と設定について理解しておくことをお勧めします。 [アダプティブレンディション：アーキテクチャ概要と設定](/help/user-guide/adaptive-renditions.md)を参照してください。
@@ -79,3 +75,4 @@ Tour Screens チャネルで使用するアセットにレンディションを�
 
    >[!NOTE]
    >移行が完了したら、必ずチャネル、ディスプレイ、ロケーションからすべての設定参照を削除し、設定参照を 1 つだけプロジェクトのコンテンツノードに追加します。
+

@@ -6,18 +6,13 @@ role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
 TQID: https://experienceleague.adobe.com/ZrifVE5hQIzwTt75cQ-5Q-BNqpB0doqh2IMLuUaa82g
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1249
+source-wordcount: 1343
 ht-degree: 93%
 
 ---
@@ -25,7 +20,7 @@ ht-degree: 93%
 # キックスタートガイド {#kickstart-guide}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 AEM Screens のキックスタートで、AEM Screens プロジェクトの設定および実行方法について説明します。 デジタルサイネージエクスペリエンスの基本的な設定、アセットやビデオなどのコンテンツの各チャネルへの追加、さらにそのコンテンツの AEM Screens Player への公開に関する手順を説明します。
 
@@ -40,9 +35,7 @@ AEM Screens のキックスタートで、AEM Screens プロジェクトの設�
 >次のチュートリアルは、Chrome OS プレーヤーでチャネルのコンテンツを再生する場合を示します。
 
 >[!IMPORTANT]
->**OSGi構成設定**
->空のリファラーを有効にして、デバイスがサーバーにデータを投稿できるようにする必要があります。例えば、空のリファラープロパティが無効になっている場合、デバイスはスクリーンショットを再投稿できません。現在、これらの機能の一部は、OSGi設定で`Apache Sling` Referrer Filter Allow Emptyが有効になっている場合にのみ使用できます。ダッシュボードには、セキュリティ設定によって、これらの機能の一部が動作しない可能性があるという警告が表示されることがあります。
->次の手順に従って、***Apache Sling Referrer Filter Allow Empty***&#x200B;を有効にします。
+>**OSGi構成設定デバイスからサーバーへのデータの投稿を許可するには、空のリファラーを有効にする必要があります。 例えば、空のリファラーのプロパティが無効になっていると、デバイスからスクリーンショットを投稿できません。 現在、これらの機能の一部は、OSGi設定で`Apache Sling` Referrer Filter Allow Emptyが有効になっている場合にのみ使用できます。 ダッシュボードには、セキュリティ設定がこれらの機能の一部の動作を妨げる可能性があることを示す警告が表示される場合があります。***Apache Sling Referrer Filter の「Allow Empty」設定***を有効にするには、次の手順に従います。
 
 
 ## 空のリファラー要求の許可 {#allow-empty-referrer-requests}
@@ -186,8 +179,7 @@ AEM Screens プロジェクトを作成したら、コンテンツを管理す�
    また、「**アクティベーションウィンドウ**」と「**繰り返しスケジュール**」もクリックできます。
 
    >[!NOTE]
-   >*繰り返しスケジュール*を使用すると、チャネルの繰り返しスケジュールを設定できます。1つのチャネルに対して複数の繰り返しスケジュールを設定できます。
-   >詳しくは、「[繰り返しスケジュール](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule)」を参照してください。
+   >*繰り返しスケジュール*&#x200B;を使用すると、チャネルの定期的なスケジュールを設定できます。 1 つのチャネルに対して、複数の繰り返しスケジュールを設定できます。   >詳しくは、「[繰り返しスケジュール](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule)」を参照してください。
 
 1. 環境を設定したら、「**保存**」をクリックします。
 
@@ -221,7 +213,7 @@ Chrome OS プレーヤーがオンになったら、次の手順に従って Chr
 
    ![画像](assets/kickstart/demo-register2.png)
 
-1. デバイスが登録コードを送信するのを待機し、同時に、Chrome デバイスで&#x200B;**登録コード**&#x200B;を確認します。
+1. デバイスが登録コードを送信するのを待機し、同時に、Chrome デバイスで&#x200B;**登録コード**を確認します。
    ![画像](assets/kickstart/demo-register3.png)
 
 1. 両方のコンピューターの&#x200B;**登録コード**&#x200B;が同じである場合は、AEM の「**検証**」をクリックします。
@@ -253,3 +245,4 @@ Chrome OS プレーヤーがオンになったら、次の手順に従って Chr
 下図では、AEM Screens チャネルのコンテンツを再生しています。
 
 ![画像](assets/kickstart/demo-video-screens.gif)
+

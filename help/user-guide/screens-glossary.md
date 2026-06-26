@@ -6,14 +6,10 @@ role: User
 level: Beginner
 exl-id: 5b5d5251-90bf-4ef0-8300-76093f725291
 TQID: https://experienceleague.adobe.com/7wZWJnsszMHUi8OvOnUHVrJIotg0CE395r0yPlu-6-A
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 488
 ht-degree: 90%
@@ -23,7 +19,7 @@ ht-degree: 90%
 # 用語集 {#glossary}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 **アプリケーションチャネル**：アプリケーションチャネルには、インタラクティブなコンテンツを表示する、開発者が作成したアプリケーションが表示されます。
 
@@ -48,3 +44,4 @@ ht-degree: 90%
 **シーケンスチャネル**：シーケンスチャネルとはユーザーが作成できるページで、スライドショーに 1 つずつ表示されるコンポーネントが含まれています。
 
 **ゾーン**：ゾーンとは、チャネルの主要なアドレス可能エンティティとして使用されるディスプレイセグメントのことです。 ディスプレイが複数の画面にまたがる場合、特に、画面に目立つ物理的なボーダーが表示される場合は、画面の寸法と一致するようゾーンを定義すると便利です。
+

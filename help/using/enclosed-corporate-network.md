@@ -3,25 +3,20 @@ title: 閉じた企業ネットワーク
 description: 閉じた企業ネットワーク
 exl-id: b8c52e72-86da-4089-ba02-0c643862419f
 TQID: https://experienceleague.adobe.com/3lU7N2840DVcH38SAQ-mthEwBcbUeQPl9Xea5Ms0L9k
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 660
-ht-degree: 78%
+source-wordcount: 751
+ht-degree: 91%
 
 ---
 
 # 閉じた企業ネットワーク（有線／ワイヤレス） {#enclosed-corporate-networks}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 閉じた企業ネットワークの設定は、中小企業、大企業および大規模法人に適用できます。 理論的には複雑になる場合があり、論理的なセットアップは次の図のようになります。
 
@@ -46,7 +41,7 @@ ht-degree: 78%
 1. URL 呼び出しが成功した場合は、AEM Screens のインストールを続行し、登録をおこなうことができます。 AEM Screens を開始します。
 
    >[!NOTE]
-   >**トラブルシューティングのヒント**
+   >**トラブルシューティングのヒント
    >AEM Screens が正しく接続されず、期待した内容が表示されない場合：
    >
    >1. インターネットルーターファイアウォールに `TCP/IP Port 80/443` に関する制限があるかどうかを確認します。
@@ -61,8 +56,7 @@ ht-degree: 78%
 
 ### ワイドエリアネットワーク {#wan-connection}
 
-インターネット接続の性能は、ネットワークへの到達性に加えて、AEM Screensコンテンツの更新をスムーズに行うのに十分な帯域幅を提供する必要があります。
-*十分な帯域幅*&#x200B;は、接続されているAEM Screensの数によって異なります。また、スマートフォン、タブレット、レジ、PC、ゲスト Wi-Fi ネットワークなど、ネットワーク内の他の消費者の利用状況によっても異なります。
+このインターネット接続は、ネットワーク到達性に加えて、AEM Screens コンテンツのアップデートをスムーズに操作するのに十分な帯域幅を提供する必要があります。*十分な帯域幅*&#x200B;かどうかは、接続されている AEM Screens の数によります。 また、スマートフォン、タブレット、レジ、コンピューター、ゲスト Wi-Fi ネットワークなど、ネットワーク内の他のユーザーの使用状況によって異なります。
 
 >[!NOTE]
 >
@@ -78,11 +72,9 @@ ht-degree: 78%
 
 ### その他の企業ネットワークの詳細 {#other-networks}
 
-企業ネットワークには、複数のデバイスが接続され、様々なサブネットワークに分離され、冗長または多重インターネット接続があり、多数の同時アクセスに十分なパフォーマンスを提供します。
-このスキーマは簡素化され、ほとんどの場合、クライアントで使用可能な環境に適合します。
+企業ネットワークには複数のデバイスが接続されています。また、何千もの同時アクセスに十分なパフォーマンスを提供するために、様々なサブネットワークに分割され、インターネット接続が冗長化または多重化されています。このスキーマは簡素化され、ほとんどの場合、お客様にご利用いただける環境に対応します。
 
-AEM ScreensをInternet Linkに接続するためにWi-Fi ソリューションが想定される場合は、最低でも`IEEE 802.11g`のような最新のWi-Fi標準を使用することをお勧めします。この標準では、最大54 Mbpsの接続をサポートしています。`802.11h-n`のような&#x200B;*新しい*標準は、より高品質です。Wi-Fi リピーターが必要な場合は、Adobeでは、Google Nest Mesh Wi-Fiなどのメッシュ Wi-Fi アクセス ポイント テクノロジをお勧めします。
-他のWi-Fi繰り返し技術は、ネットワーク全体の帯域幅が大幅に失われます。
+Wi-Fi ソリューションで AEM Screens をインターネットリンクに接続することを想定している場合、最低でも `IEEE 802.11g` などの最新の Wi-Fi 標準を使用することをお勧めします。 この標準では、最大 54 Mbit までの接続をサポートします。 `802.11h-n` のような&#x200B;*新しい*&#x200B;標準はどれも高品質です。 Wi-Fi リピーターが必要な場合、アドビでは Google Nest Mesh Wi-Fi などのメッシュ Wi-Fi アクセスポイントテクノロジーを使用することをお勧めします。その他の Wi-Fi リピーターテクノロジーでは、ネットワーク全体の帯域幅が大幅に失われます。
 
 ## メディアとアセットのダウンロード {#download}
 
@@ -98,3 +90,4 @@ AEM Screens は、デジタルサイネージのユーザーに大きなメリ�
 >この情報から、インターネットソースをリクエストおよびダウンロードしてネットワーク内の各デバイスの消費量を確認できます。 これらのリクエストがすべて合計されて、ダウンロード時間が延長されます。
 
 ![](/help/using/assets/enclosed-network-download.png)
+

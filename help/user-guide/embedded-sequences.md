@@ -11,32 +11,22 @@ role: Admin, Developer
 level: Intermediate
 exl-id: cdfaee19-15d9-4bcb-bc85-0b43c59d88d2
 TQID: https://experienceleague.adobe.com/NK6M9ShPUQdDQQvgx7kD9c4uvfKjy61wJ6jSH0gB17E
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
-  - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
-  - id: d8a4be83-7d41-47be-b4a6-f8f3d35caceb
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: ba4275ba-c29a-4197-90dc-5a633402ca3cid: d4878390-3838-4e80-8cb3-33bc1a01ea16id: d8a4be83-7d41-47be-b4a6-f8f3d35cacebid: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 811
-ht-degree: 93%
+source-wordcount: 825
+ht-degree: 94%
 
 ---
 
 # 埋め込みシーケンス {#embedded-sequences}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 チャネルの&#x200B;***埋め込みシーケンス***&#x200B;を使用すると、ユーザーは、親チャネルにコンポーネントを追加したり、異なるチャネルからのコンテンツを再利用して親チャネルに埋め込んだりできます。
 
@@ -56,8 +46,7 @@ ht-degree: 93%
 埋め込みシーケンスをチャネルに追加できます。 埋め込みシーケンスは、画像またはビデオなどのアセットを含んだ別のチャネルです。 埋め込みシーケンスを追加すると、ユーザーは、***チャネルパス***&#x200B;でチャネルにシーケンスを追加できます。
 
 >[!NOTE]
->***チャネルパス***は、チャネルへの明示的な参照を定義します。
->Channel Path *について詳しくは、「[Channel Assignment](channel-assignment.md) in Authoring Screens」を参照してください。*
+>***チャネルパス***&#x200B;は、チャネルへの明示的な参照を定義します。*チャネルパス*&#x200B;について詳しくは、Screens のオーサリングに関する節で[チャネル割り当て](channel-assignment.md)を参照してください。
 
 埋め込みシーケンスをチャネルに追加するには、次の手順に従います。
 
@@ -109,9 +98,9 @@ ht-degree: 93%
 1. 動的シーケンスを埋め込むチャネルをクリックします。 例：**`We.Retail`ストア内**／**チャネル**／**アイドルチャネル**
 
 1. アクションバーの「**編集**」をクリックします。
-1. エディターモードで、左側のバーのコンポーネントアイコンをクリックすると、動的埋め込みシーケンスを追加できます。 **動的**&#x200B;**埋め込みシーケンス**&#x200B;をエディターにドラッグ＆ドロップします。
+1. エディターモードで、左側のバーのコンポーネントアイコンをクリックすると、動的埋め込みシーケンスを追加できます。 **動的****埋め込みシーケンス**&#x200B;をエディターにドラッグ＆ドロップします。
 
-1. **動的**&#x200B;**埋め込みシーケンス**&#x200B;コンポーネントをダブルクリックすると、シーケンスチャネルにページを追加できます。
+1. **動的****埋め込みシーケンス**&#x200B;コンポーネントをダブルクリックすると、シーケンスチャネルにページを追加できます。
 
 1. 「**チャネル割り当ての役割**」を入力します。
 1. 「**メーター制再生戦略**」を「**通常**」に設定します。 これはデフォルトで「**通常**」に設定されています。 値を「**通常**」（すべてのアイテムを再生）に設定すると、親シーケンスの各サイクルで後続が完全に実行されます。 もう 1 つの可能な値は&#x200B;**1 つのアイテムを再生**&#x200B;です。 この値は、各実行で後続の 1 つのアイテムのみを表示します。 例えば、最初のループの最初の項目と 2 番目のループの 2 番目の項目です。
@@ -119,3 +108,4 @@ ht-degree: 93%
 1. 「**シーケンス**」タブで、シーケンスに埋め込まれたチャネルの「**デュレーション（ミリ秒）**」をクリックします。
 
 ![最新](assets/latest.gif)
+

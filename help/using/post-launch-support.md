@@ -3,27 +3,23 @@ title: 運用開始後のサポート
 description: AEM Screens の運用開始後のサポートについては、ベストプラクティスガイドを参照してください。
 exl-id: cd7442ed-52a4-43d2-adc7-f643f4f16581
 TQID: https://experienceleague.adobe.com/PrdfsEIOJySNyu7GvWpOptg-AkyP-HFkxrbnMbJKaho
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 396
-ht-degree: 80%
+source-wordcount: 436
+ht-degree: 88%
 
 ---
 
 # 起動後のサポート {#post-launch-support}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 運用開始後の初期段階のサポートを見逃さないようにしてください。
 
-ハードウェアベンダーから適切なサポートを受けられるようにすることは、ビジネス運営にとって非常に重要です。**オーディオ ビデオ インテグレーター**&#x200B;は、ビジネス関係者と緊密に連携し、様々な側面から必要な要件を特定する必要があります。
-ローンチ後のサポートでは、次の要件を検討してください。
+サイトがハードウェアベンダーから十分なサポートを受けられるようにすることは、ビジネス運営にとって非常に重要です。 **オーディオビデオインテグレーター**&#x200B;は、ビジネス関係者と緊密に連携し、必要な要件を様々な角度から特定する必要があります。運用開始後のサポートでは、以下の要件を検討してください。
 
 * リモートデバイス管理
 * サポートセンターの利用度
@@ -44,8 +40,7 @@ ht-degree: 80%
 
 運用開始後のサポートを定義する際に役立つ検討事項や質問のいくつかを以下に示します。
 
-1. 導入は、多くの関係者が収益化されたネットワークに結び付けられたAdvertising Networkですか？このような状況では、企業の通信ネットワークと比較して解決時間のフレームが短くなる場合があります。
- 
+1. デプロイメントとは、多くの関係者が収益化されたネットワークに結び付けられた広告ネットワークのことですか？ この状況の場合は、企業通信ネットワークに比べて、短い解決期間が求められます。
    >[!NOTE]
    >
    >企業通信ネットワークに比べて、短い解決期間が求められます。
@@ -69,3 +64,4 @@ ht-degree: 80%
 1. 毎日 24 時間年中無休の監視が必要な店舗はどれですか？
 
 1. ディスプレイは貴社のビジネスの一部になっていますか？ （例：車のコンフィギュレーターや販売アラート）
+

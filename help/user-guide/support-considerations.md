@@ -11,17 +11,11 @@ role: User, Developer
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
 TQID: https://experienceleague.adobe.com/ZSU00dlWZg6UJ7vYrmjbEQngzu7YC7lZ18XUigFp4aM
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 677
 ht-degree: 91%
@@ -31,7 +25,7 @@ ht-degree: 91%
 # 第 5 部：サポートに関する考慮事項 {#part-support-considerations}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 このページは 5 部構成のシリーズの最終部であり、ハードウェア、ソフトウェア、接続の問題に対処する方法をチームメンバーが学ぶうえで役に立つ内容になっています。 このフェーズでは、オンサイトサポートのコスト見積りとフレームワークを説明します。 また、SLA パラメーター、運用予算、NOC ハンドオフの管理方法についても説明します。
 
@@ -79,3 +73,4 @@ Day 2 のサポートに関する主要な考慮事項は次のとおりです�
 ## まとめ {#conclusion}
 
 この 5 部構成のシリーズでは、プロジェクトを成功させるうえで欠かせない重要な考慮事項を重点的に取り上げています。 実装の詳細について詳しくは、『AEM Screens ユーザーガイド』の他の節を参照してください。
+

@@ -3,22 +3,19 @@ title: アダプティブレンディションのアーキテクチャ概要と�
 description: AEM Screens のアダプティブレンディションのアーキテクチャ概要と CRXDE Lite での設定について説明します。
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
 TQID: https://experienceleague.adobe.com/6kL7RJWr-AJQsQdBqE-GI8lI-6QQXTNiRXP4maEdmzA
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 703
-ht-degree: 84%
+source-wordcount: 718
+ht-degree: 88%
 
 ---
 
 # アダプティブレンディション：アーキテクチャ概要と設定 {#adaptive-renditions}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 ## はじめに {#introduction}
 
@@ -53,8 +50,7 @@ AEM Screens 開発者は、すべてのコンテンツバリエーションを�
    >![画像](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >最新の機能パック 202109をインストールすると、CRXDE Liteの`/conf/screens/sling:configs/rendition-mapping`に&#x200B;**rendition-mapping** ノード構造が事前入力されています。最新の機能パックについて詳しくは、[機能パック 202109](/help/user-guide/release-notes-fp-202109.md)のリリースノートを参照してください。
-   >既存プロジェクトの場合は、Screens プロジェクトに **rendition-mapping** 設定が関連付けられていることを確認します。 詳しくは、[既存プロジェクトへのレンディションマッピングの追加](#rendition-mapping-existing)の節を参照してください。
+   >最新の機能パック 202109 をインストールした場合は、CRXDE Lite の `/conf/screens/sling:configs/rendition-mapping` に **rendition-mapping** ノード構造が事前に設定されます。 最新の機能パックについて詳しくは、[機能パック 202109 のリリースノート](/help/user-guide/release-notes-fp-202109.md)を参照してください。   >既存プロジェクトの場合は、Screens プロジェクトに **rendition-mapping** 設定が関連付けられていることを確認します。 詳しくは、[既存プロジェクトへのレンディションマッピングの追加](#rendition-mapping-existing)の節を参照してください。
 
 ### 既存プロジェクトへのレンディションマッピングプロパティの追加 {#rendition-mapping-existing}
 
@@ -104,3 +100,4 @@ AEM Screens 開発者は、すべてのコンテンツバリエーションを�
 ## 次の手順 {#next-steps}
 
 rendition-mapping プロパティおよびルールを追加したら、コンテンツ作成者はアセットを設定できます。 アダプティブレンディションを使用し、デバイスを大規模ネットワークに移行して、AEM Screens チャネルでこの機能を使用することもできます。 詳しくは、[AEM Screens でのアダプティブレンディションの使用](/help/user-guide/using-adaptive-renditions.md)を参照してください。
+

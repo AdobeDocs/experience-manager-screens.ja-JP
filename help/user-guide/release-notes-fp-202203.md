@@ -8,25 +8,30 @@ exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
 TQID: https://experienceleague.adobe.com/m0rJPL5kmeDseNjbTxl0hScACf7C7QQ9BaMrvzb55wI
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+    internal-label: Personalization
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Personalization
+source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
 workflow-type: tm+mt
-source-wordcount: 287
+source-wordcount: '287'
 ht-degree: 100%
-
 ---
-
 # 機能パック 202112 のリリースノート {#release-notes-for-feature-pack}
 
 >[!CAUTION]
+>
 >最新バージョンの Adobe Experience Manager（AEM）にアップグレードすることをお勧めします。 AEM Screens では、AEM 6.3 Screens プラットフォームのメンテナンスサポートを提供しています。
 
 ## 入手方法 {#availability}
@@ -47,7 +52,7 @@ AEM Screens 機能パック 202203 のリリース日は 2022年3月25日（PT�
 
 * ターゲティング／パーソナライゼーションが機能しませんでした。 このバグは修正されました。
 
-* FP10 以降、Screens のメール監視が機能しませんでした。 このバグは修正されました。
+* FP10 以降、Screens モニタリングメールが機能しませんでした。 このバグは修正されました。
 
 * 縦置きモードでスクリーンショットを撮ると、Windows プレーヤーがクラッシュしていました。 このバグは修正されました。
 
@@ -61,7 +66,7 @@ AEM Screens 機能パック 202203 のリリース日は 2022年3月25日（PT�
 
 ### リリースされている AEM Screens Player
 
-AEM Screens 6.5 機能パック 11 向けに、次の AEM Screens Player がリリースされています。
+AEM 6.5 機能パック 11 向けに、次の AEM Screens Players がリリースされています。
 
 * Chrome OS
 * Windows

@@ -8,35 +8,43 @@ exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
 TQID: https://experienceleague.adobe.com/3KiJEdVpZNlcvEo9PBzkyYJqIsQfBgXQY7-HlZZVxVE
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+    internal-label: Channels
   - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
+    internal-label: Channel assignment
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 08f666494c3dd0648c6379dabeb5d60bb16d950a
 workflow-type: tm+mt
-source-wordcount: 1285
-ht-degree: 88%
-
+source-wordcount: '1295'
+ht-degree: 87%
 ---
-
 # チャネル割り当て {#channel-assignment}
 
 >[!IMPORTANT]
+>
 >このセクションでは、AEM 6.5.5 Screens バージョンより前の機能パックのチャネルの割り当てとスケジュールについて説明します。
 
 ディスプレイの設定が完了したら、チャネルをディスプレイに割り当てて、コンテンツを表示します。
 
 このページでは、ディスプレイへのチャネル割り当てを示します。
 
-このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 >[!NOTE]
 >1 つのディスプレイに複数のチャネルを割り当てることができます。
@@ -59,7 +67,7 @@ ht-degree: 88%
 
    以下のセクションで、**チャネルの割り当て**&#x200B;ダイアログボックスのプロパティを設定できます。 チャネルプロパティについて詳しくは、[チャネルプロパティ](#channel-properties)の節を参照してください。
 
-## チャネル割り当てのチャネルプロパティからのチャネルプロパティ {#channel-properties}
+## チャネル割り当てからのチャネルプロパティの理解 {#channel-properties}
 
 ### チャネルを参照 {#ref-channel}
 
@@ -78,6 +86,7 @@ ht-degree: 88%
 優先度は、複数の割り当てが再生条件に一致する場合に、割り当ての順序付けを行うために使用します。 最も高い値のものが低い値よりも常に優先されます。 例えば、チャネル AとBが2つある場合です。 Aは1の優先度を持ち、Bは2の優先度を持ち、チャネル BはAよりも優先度が高いので表示されます。
 
 >[!NOTE]
+>
 >チャネルの優先度は、前述のように、**チャネル割り当て**&#x200B;ダイアログボックスで、数字で設定できます（1 が最小）。 また、割り当てられたチャネルは、降順の優先度に基づいて並べ替えられます。
 
 ### サポートされているイベント {#supported-events-channel}
@@ -131,13 +140,13 @@ DayPartingは、1日をタイムスロットに分割し、どのコンテンツ
 
 | **チャネル** | **ロール** | **優先度** | **スケジュール** |
 |---|---|---|---|
-| Menu_A | 朝食 |  | 6:00以降11:00以前 |
-| Menu_B | ランチ |  | 11:00以降15:00以前 |
-| Menu_C | ディナー |  | 15:00以降20:00以前 |
+| Menu_A | 朝食 |  | 6時以降11時前 |
+| Menu_B | ランチ |  | 11時以降15時前 |
+| Menu_C | ディナー |  | 15時以降20時前 |
 
 #### コンテンツを週の特定の日に再生 {#playing-content-on-a-particular-day-of-the-week}
 
-この例は、ライブイベントが毎週末午後8:00から午後10:00まで発生するカジノで達成されたdayPartingを示しており、午後10:00から午前1:00までディナーメニューにスペシャルメニューが用意されています。
+この例は、ライブイベントが毎週末午後8時から午後10時まで発生し、午後10時から午前1時までディナーメニューにスペシャルメニューが用意されているカジノで達成された日分割を示しています。
 
 <table>
  <tbody>
@@ -166,7 +175,7 @@ DayPartingは、1日をタイムスロットに分割し、どのコンテンツ
 
 この例では、商店で日分割を使用し、6 月から 8 月に夏物コレクションを表示し、9 月から 10 月末まで秋物コレクションを表示しています。
 
-ここで、次の時間帯区分を作成し、チャネルのコンテンツが 1 年の指定された月に再生されるようにします。
+ここで、月ごとに時間帯区分を作成し、チャネルのコンテンツが 1 年の指定された月に再生されるようにします。
 
 | **チャネル** | **ロール** | **優先度** | **スケジュール** |
 |---|---|---|---|
@@ -179,7 +188,7 @@ DayPartingは、1日をタイムスロットに分割し、どのコンテンツ
 
 #### 同じ優先度のチャネル用コンテンツの再生 {#playing-content-for-channels-with-same-priority}
 
-この例では、商店の日分割が示され、冬物コレクションを 12 月に同じスケジュールで表示します。 しかし、その週はチャネル B は優先度 2 に設定されており、チャネル A ではなくチャネル B がそのコンテンツを再生します。
+この例では、12 月の間、同じスケジュールで冬物コレクションを表示する店舗の時間帯区分を示します。 しかし、その週はチャネル B は優先度 2 に設定されており、チャネル A ではなくチャネル B がそのコンテンツを再生します。
 
 | **チャネル** | **ロール** | **優先度** | **スケジュール** |
 |---|---|---|---|

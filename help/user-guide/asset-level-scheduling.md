@@ -8,25 +8,31 @@ exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
 TQID: https://experienceleague.adobe.com/6ZaAh-q6ZXjHFhdPDqnJi4n08TXLSd8ZNggljGoIPzA
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Implementation
+source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
 workflow-type: tm+mt
-source-wordcount: 1536
-ht-degree: 84%
-
+source-wordcount: '1559'
+ht-degree: 83%
 ---
-
 # アセットレベルのアクティベーション {#asset-level-scheduling}
 
 >[!IMPORTANT]
@@ -40,12 +46,12 @@ ht-degree: 84%
 * アクティベーションウィンドウ
 * 単一イベントの再生
 * アセット内の繰り返しの処理
-   * 時間帯区分
-   * 週分割
-   * 月分割
-   * 分割の組み合わせ
+  * 時間帯区分
+  * 週分割
+  * 月分割
+  * 分割の組み合わせ
 * 複数アセットのアクティベーション
-* ユニバーサル開始時刻のグローバルオーバーライド
+* ユニバーサル開始時刻のグローバル上書き
 
 <!--
 REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
@@ -101,7 +107,7 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 
 必要に応じて、毎日、毎週または毎月、特定の間隔でアセットが繰り返されるようにスケジュールを設定することができます。
 
-金曜日の午後1:00時から午後10:00時までのみ画像を表示するとします。「**アクティベーション**」タブを使用して、アセットの目的の繰り返し間隔を設定できます。
+金曜日の午後1時から午後10時までの間のみ画像を表示するとします。「**アクティベーション**」タブを使用して、アセットの目的の繰り返し間隔を設定できます。
 
 ### 日分割 {#day-parting}
 
@@ -120,14 +126,14 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 
 | **式** | **解釈** |
 |---|---|
-| 午前8:00前。 | チャンネル内のアセットは、毎日午前8:00前に再生されます |
-| 午後2:00時以降。 | チャネル内のアセットは、毎日の午後2:00時以降に再生されます |
-| 12:15以降12:45以前 | チャネル内のアセットは、毎日12:15時間後に30分間再生されます |
-| before 12:15 also after 12:45 | チャネル内のアセットは、毎日午後12:15までに再生され、午後12:45以降も再生されます。 |
+| 午前8時前。 | チャンネル内のアセットは、毎日の午前8時前に再生されます |
+| 午後2時以降。 | チャンネル内のアセットは、毎日の午後2時以降に再生されます |
+| 12:15以降12:45以前 | チャネル内のアセットは、毎日12時15分から30分間再生されます |
+| 12時15分前12時45分まで | チャンネル内のアセットは、毎日午後12時15分までに再生され、午後12時45分にも再生されます。 |
 
 >[!NOTE]
 >
->*A.M./P.M.* （2:00 P.M.）の代わりに&#x200B;_軍時間_&#x200B;の表記法（14:00）を使用することもできます。
+>*A.M./P.M.* （午後2:00）の代わりに&#x200B;_軍時間_&#x200B;の表記（14:00）を使用することもできます。
 
 ### 週分割 {#week-parting}
 
@@ -147,7 +153,7 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 | **式** | **解釈** |
 |---|---|
 | `Mon,Wed,Fri` | アセットは、月曜、水曜、金曜日にチャネルで再生される |
-| `Mon-Thu` | アセットは、月曜日から木曜日までのチャネルで再生される |
+| `Mon-Thu` | アセットは、月曜日から木曜日までチャネルで再生される |
 
 >[!NOTE]
 >
@@ -175,7 +181,8 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 | `on February-July` | アセットは、2 月から 7 月末までチャネルで再生される |
 
 >[!NOTE]
->曜日や月を定義する場合は、省略形または通常の表記を使用できます（月／月曜日、1／1月など）。
+>
+>曜日や月を定義する場合は、省略形または通常の表記を使用できます（Mon/Monday および Jan/January など）。
 
 ### 分割の組み合わせ {#combined-parting}
 
@@ -183,8 +190,9 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 
 1. 開始日時と終了日時を入力した後、式または自然言語テキスト形式を使用して、繰り返しスケジュールを指定できます。
 
-   >[!NOTE]
-   >必要に応じて、**次の日から開始**&#x200B;フィールドと&#x200B;**次の日まで有効**&#x200B;フィールドをスキップするか、それらを含めてスケジュールフィールドに式を追加できます。
+>[!NOTE]
+>
+>&#x200B;>必要に応じて、**次の日から開始**&#x200B;フィールドと&#x200B;**次の日まで有効**&#x200B;フィールドをスキップするか、それらを含めてスケジュールフィールドに式を追加できます。
 
 1. 「**スケジュール**」に式を入力すると、特定の日時間隔でアセットが表示されます。
 
@@ -195,11 +203,12 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 | **式** | **解釈** |
 |---|---|
 | `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | アセットは、1月から 3月末の月曜日と水曜日、午前 6 時から午後 6 時の間、チャネルで再生されます |
-| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | チャンネル内のアセットは、1月1日の午後2時から再生を開始し、1月3日の午前3時1分まで1日中再生を続けます:00:00 |
-| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | チャネル内のアセットは、1月1日の午後2:00時にプレーヤーを開始し、1月2日の午前3:00まで再生を続け、1月2日の午後2:00に再び開始し、1月3日の午前3:00まで再生を続けます |
+| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | チャンネル内のアセットは、1月1日の午後2時を過ぎてから再生を開始し、1月3日の午前3時までずっと1日2回再生し続けます |
+| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | チャンネル内のアセットは、1月1日の午後2時を過ぎてからプレーヤーを開始し、1月2日の午前3時まで再生を続け、その後1月2日の午後2時に再び開始し、1月3日の午前3時まで再生を続けます |
 
 >[!NOTE]
->曜日や月を定義する場合は、省略形または通常の表記を使用できます（月／月曜日、1／1月など）。 また、*A.M./P.M.* （2:00 P.M.）の代わりに&#x200B;_軍時間_&#x200B;の表記法（14:00）を使用することもできます。
+>
+>曜日や月を定義する場合は、省略形または通常の表記を使用できます（Mon/Monday および Jan/January など）。 また、*A.M./P.M.* （2:00 P.M.）の代わりに&#x200B;_軍時間_&#x200B;表記（14:00）を使用することもできます。
 
 
 ## 複数アセットのアクティベーション {#multi-asset-scheduling}
@@ -243,11 +252,11 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
 
-## ユニバーサル開始時刻のグローバルオーバーライド {#global-override-scheduling}
+## ユニバーサル開始時刻のグローバル上書き {#global-override-scheduling}
 
 ***ユニバーサル開始時刻のグローバルオーバーライド***&#x200B;は、コンテンツ作成者が特定の時間に基づいて画像アセットまたはビデオアセットの再生を定義できる設定です。 個々のプレーヤーの時間／タイムゾーン設定は使用されません。
 
-通常は、指定のプレーヤーのローカル時間によって再生が決まります。 ただし、グローバルオーバーライドでは、特定のユニバーサル開始時刻を使用してアセットの再生を開始できます。
+通常は、指定のプレーヤーのローカル時間によって再生が決まります。 ただし、グローバル上書きでは、特定のユニバーサル開始時刻を使用してアセットの再生を開始できます。
 
 そのため、コンテンツ作成者は特定のアセットの再生を指定できます。 コンテンツを割り当てたプレーヤーのローカル時計に関係なく、特定の日時に再生が行われるように指定できます。
 
@@ -258,11 +267,8 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
    ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
 1. 「**編集**」をクリックします。
-1. チャネルエディターで、スケジュールを適用するアセットをクリックします。
+1. チャネルエディターで、そのスケジュールを適用するアセットをクリックします。
 
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 
 1. グローバルオーバーライドの場合は、アセットの「**タイムゾーンオーバーライド**」セクションでアクティベーション時刻を入力します。 この領域に何も入力しない場合、適用されるタイムゾーンはプレーヤーのタイムゾーンになります。
-
-
-

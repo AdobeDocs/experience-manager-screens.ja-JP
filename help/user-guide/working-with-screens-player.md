@@ -9,27 +9,33 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-TQID: https://experienceleague.adobe.com/IcNjhNopq8ep0ovZWrmJHBkcsj3h-Ws0xZ2qCu5aLQ0
+TQID: 'https://experienceleague.adobe.com/IcNjhNopq8ep0ovZWrmJHBkcsj3h-Ws0xZ2qCu5aLQ0'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Troubleshooting
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1170
+source-wordcount: '1170'
 ht-degree: 91%
-
 ---
-
 # AEM Screens Player の操作
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 AEM Screens Player でチャネルコンテンツなどの設定を管理できます。
 
@@ -109,7 +115,7 @@ AEM Screens Player の管理 UI から、チャネルとアプリケーション
 
 また、このオプションをデバイスダッシュボードから無効にすると、ユーザーは Screens Player からチャネル環境設定を制御できなくなります。
 
-Screens Player からチャネルの設定を切り替えて制御できます。
+Screens Player からチャネルの設定を切り替えたり制御したりできます。
 
 プレーヤーからチャネルスイッチャーを表示するには、左下隅を長押ししてチャネルスイッチャーを開き、チャネルやその他の機能を切り替えます。
 
@@ -135,15 +141,15 @@ Screens Player からチャネルの設定を切り替えて制御できます�
 
 ## AEM Screens Player のトラブルシューティング
 
-AEM Screens Player に関係する様々な問題をトラブルシューティングすることができます。
+AEM Screens Player に関係する様々な問題（ハードウェアおよびソフトウェア）をトラブルシューティングすることができます。
 
 | **問題** | **レコメンデーション** |
 |---|---|
 | プレーヤーのストレージがいっぱいです | 不要なファイルを削除してください |
 | プレーヤーのネットワーク接続が途切れました | Cat-5 または Cat-6 ケーブルを使用してください。 Wi-Fi の場合は、ルーターからプレーヤーデバイスまでの距離を短くしてください |
-| AEM Screens Player がクラッシュしました | AEM Screens Player が常時動作しているようにウォッチドッグアプリを使用することをお勧めします |
-| AEM Screens Player の設定がなくなりました | AEM サーバーへの接続を確認してください |
-| AEM Screens Player が再起動後に自動起動しません | OS のスタートフォルダーまたは初期化手順を確認してください |
+| AEM Screens Player のクラッシュ | AEM Screens Player が常時動作しているようにウォッチドッグアプリを使用することをお勧めします |
+| AEM Screens Player の設定がなくなりました | AEM サーバーへの接続の確認 |
+| AEM Screens Player が再起動後に自動起動しません | OS のスタートフォルダーまたは初期化手順の確認 |
 | AEM Screens Player のコンテンツ表示が間違っていたり古かったりします | ネットワーク接続を確認してください |
 
 ### AEM Screens Player のアップデート
@@ -165,7 +171,7 @@ AEM Screens Player には、次の 2 とおりの更新方法があります。
 
 * PC プレーヤーにもディスプレイパネルまたはプロジェクターにも、常に&#x200B;***商用***&#x200B;または&#x200B;***工業用***&#x200B;クラスのコンポーネントを調達します。
 
-* デジタルサイネージマーケットに商品を提供しているベンダーと常に連携します。
+* デジタルサイネージ市場に対応しているベンダーと常に連携します。
 * 常に、環境温度や相対湿度などの環境要因を考慮してください。
 * 電源要件と電力調整を常に確認します。
 * パフォーマンスのニーズとアプリケーションに必要な I/O ポートを慎重に確認します。

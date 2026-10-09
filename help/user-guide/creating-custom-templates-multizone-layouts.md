@@ -6,25 +6,30 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-TQID: https://experienceleague.adobe.com/f26UFATHoXD7n8eEH9Dp-1KpC843nb21Mg4nTbRAWSE
+TQID: 'https://experienceleague.adobe.com/f26UFATHoXD7n8eEH9Dp-1KpC843nb21Mg4nTbRAWSE'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7ddc0e74-2124-5f1a-82c8-6cf1b0764d99
+    internal-label: Developing Screens
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 939
-ht-degree: 89%
-
+source-wordcount: '943'
+ht-degree: 88%
 ---
-
 # マルチゾーンレイアウトでのカスタムテンプレートの作成 {#creating-custom-templates-multizone}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 ここでは、マルチゾーンレイアウトでのカスタムテンプレートの作成方法を説明します。
 
@@ -37,16 +42,16 @@ ht-degree: 89%
    カスタムレイアウトで異なるゾーンに対して固定ピクセルサイズを使用するか、パーセンテージを使用したカスタムレイアウトを作成するかを決定します。
 
    >[!NOTE]
-   >カスタムレイアウトのゾーンの設定にパーセンテージを設定すると、様々な画面サイズでテンプレートを再利用できるという利点があります。
+   >カスタムレイアウトのゾーンをパーセンテージで設定すると、様々な画面サイズでテンプレートを再利用できるという利点があります。
 
 1. **命名規則**：
 
-   命名規則は、AEM Screens プロジェクトで使用するカスタムマルチゾーンテンプレートの作成方法を理解するのに役立ちます。 ただし、まずは、作成するテンプレートの用語を理解する必要があります。
+   AEM Screens プロジェクトで使用するカスタムマルチゾーンテンプレートの作成方法を理解しておくと役立ちます。 ただし、まずは、作成するテンプレートの用語を理解する必要があります。
 
    | **レイアウト名** | **説明** |
    |---|---|
    | `Left20-LandscapeHD3Zone` | 次の 3 つのゾーンを作成できる 3 ゾーンの横長レイアウト：<br>* ゾーン 1、画面の左から縦横 20％<br>* ゾーン 2、右揃えで縦 20％、横 80％<br>* ゾーン 3、縦 80％、横 100％。 縦横比は16:9です |
-   | `Upper20-PortraitHD2Zone` | 画面の上から20%をカバーし、縦横比が16:9の2 ゾーンのポートレート テンプレート |
+   | `Upper20-PortraitHD2Zone` | 画面の上部から20%までをカバーし、縦横比が16:9の2 ゾーンのポートレートテンプレート |
    | `Right20-LandscapeSD3Zone` | 画面の20%を右からカバーし、縦横比が4:3の3 ゾーンテンプレート |
 
    >[!IMPORTANT]
@@ -170,11 +175,11 @@ ht-degree: 89%
 「data-uri」を使用して画像（`Base64` エンコード済み）を CSS ファイル（手順 13 で作成した *static.css*）に直接埋め込むように、CSS ルールを調整できます。
 
 この取り決めは次のように行われます。
-
+`.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
 
 または、次の手順に従うこともできます。
 
-1. 画像を何らかの形でチャネルのオフライン設定に含めます。
+1. 画像が何らかの形でチャネルのオフライン設定に含まれていることを確認します。
 1. 上記の CSS で、「data-uri」バリアントではなく、画像への直接リンクを使用します。
 
 

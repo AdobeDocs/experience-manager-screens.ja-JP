@@ -10,21 +10,26 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-TQID: https://experienceleague.adobe.com/XwcKgrrDLuCYSLfTk4VyliKQdTn5O2HH8CUvwCJr9Pc
+TQID: 'https://experienceleague.adobe.com/XwcKgrrDLuCYSLfTk4VyliKQdTn5O2HH8CUvwCJr9Pc'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 669
+source-wordcount: '669'
 ht-degree: 80%
-
 ---
-
 # ファイルをソースとする新しいプロジェクトインポーター {#new-project-importer-from-file}
 
 ここでは、CSV／XLS スプレッドシートから AEM Screens プロジェクトに一連のロケーションを一括で読み込む機能について説明します。
@@ -32,13 +37,13 @@ ht-degree: 80%
 ## はじめに {#introduction}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 AEM Screens プロジェクトを組織で初めて設定する場合は、すべてのロケーションも作成します。 プロジェクトに多数のロケーションが含まれる場合は、UI で何回も選択したり待機したりする退屈なタスクが多く発生します。
 
 この機能は、プロジェクトのセットアップに要する時間を短縮して、予算の問題を解決することを目的としています。
 
-この機能では、作成者が入力ファイルとしてスプレッドシートを提供でき、システムがバックエンドにロケーションツリーを自動的に作成できるので、以下のメリットがあります。
+この機能では、作成者が入力ファイルとしてスプレッドシートを提供し、システムがバックエンドでロケーションツリーを自動的に作成することで、以下のメリットがあります。
 
 * *UI を使用して手動で選択するよりも、はるかに優れたパフォーマンスを実現します*
 * *顧客は既存のロケーションを独自のシステムから書き出して、直接 AEM に簡単に読み込むことができます*
@@ -92,7 +97,7 @@ AEM Screens プロジェクトを組織で初めて設定する場合は、す�
 
 * **DemoProjectImport** というタイトルのプロジェクトを作成します。
 
-* 読み込む必要があるサンプル CSV または Excel ファイルを使用します。
+* 読み込み用のサンプル CSV または Excel ファイルを使用します。
 
 デモ用に次の Excel ファイルをダウンロードできます。
 
@@ -112,7 +117,7 @@ AEM Screens プロジェクトを組織で初めて設定する場合は、す�
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. サイドバーの **DemoProjectImporter**／**作成**／**ロケーションを読み込む**&#x200B;をクリックします。
+1. サイドバーの **DemoProjectImporter**／**作成**／**ロケーションを読み込む**をクリックします。
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 

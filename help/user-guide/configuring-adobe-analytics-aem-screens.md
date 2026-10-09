@@ -10,26 +10,32 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-TQID: https://experienceleague.adobe.com/A8C3NBrCnekpfulZNnmCljNpRptREJzl-QKcoMK89DQ
+TQID: 'https://experienceleague.adobe.com/A8C3NBrCnekpfulZNnmCljNpRptREJzl-QKcoMK89DQ'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 677
+source-wordcount: '677'
 ht-degree: 92%
-
 ---
-
 # AEM Screens と連携する Adobe Analytics の設定 {#configuring-adobe-analytics-with-aem-screens}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 <!--
 OBSOLETE NOTE>
@@ -47,7 +53,7 @@ OBSOLETE NOTE>
 
 ## AEM Screens と連携する Adobe Analytics でのシーケンス化 {#sequencing-in-adobe-analytics-with-aem-screens}
 
-***シーケンスプロセス***&#x200B;は、Adobe Analytics サービスをアクティブ化するデータストレージサービスで開始します。 チャネルコンテンツは、データテストキャプチャを含んだ Adobe Analytics イベントを Windows I/O に送信し、滞在イベントがトリガーされます。 これらのイベントはインデックス DB に保存され、さらにオブジェクトストアに格納されます。 管理者が設定したスケジュールに基づいて、データがオブジェクトストアから切り出され、さらにチャンクストアに転送されます。 接続時に、最大量のデータ送信が試みられます。
+***シーケンスプロセス***&#x200B;は、Adobe Analytics サービスをアクティブ化するデータストレージサービスで開始します。 チャネルコンテンツは、ペイロード（つまり、データテストキャプチャ）を含む Adobe Analytics イベントを Windows I/O に送信し、滞在イベントがトリガーされます。 これらのイベントはインデックス DB に保存され、さらにオブジェクトストアに格納されます。 管理者が設定したスケジュールに基づいて、データがオブジェクトストアから切り出され、さらにチャンクストアに転送されます。 接続時に、最大量のデータを送信しようとします。
 
 ### シーケンス図 {#sequencing-diagram}
 
@@ -329,7 +335,7 @@ OBSOLETE NOTE>
    <td>必須</td> 
    <td>文字列</td> 
    <td> </td> 
-   <td>アセット（レンディション以外）の URL</td> 
+   <td>アセットの URL（レンディションを除く）</td> 
   </tr>
   <tr>
    <td> </td> 

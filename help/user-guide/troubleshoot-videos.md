@@ -9,27 +9,38 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-TQID: https://experienceleague.adobe.com/4MMy4-ShZOJ1C09ayJpXRFAeaUZDDbzhNmIifacUPPk
+TQID: 'https://experienceleague.adobe.com/4MMy4-ShZOJ1C09ayJpXRFAeaUZDDbzhNmIifacUPPk'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: f367514d-25b6-5935-b3fe-9248ef8d72e2
+    internal-label: Interactive
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
+subfeature_v2:
+  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+    internal-label: Channels
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Troubleshooting
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 851
+source-wordcount: '851'
 ht-degree: 92%
-
 ---
-
 # ビデオ再生の設定とトラブルシューティング {#video-playback-configuration-and-troubleshooting}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 ビデオを DAM にアップロードしチャネルに追加すると、AEM Screens Player でビデオが再生されない問題が発生する場合があります。
 
@@ -70,7 +81,7 @@ FFMPEG がインストールされていること、およびビデオプロフ�
 
 1. テストビデオをアップロードし、「**OK**」をクリックしてトランスコードを開始します。
 
-   トランスコードされたビデオが失敗した場合は、FFMPEG 出力を展開して FFMPEG のコンソール出力でエラーを確認します。
+   トランスコードされたビデオが失敗した場合は、FFMPEG Output を展開して FFMPEG のコンソール出力でエラーを確認します。
 
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
@@ -93,13 +104,13 @@ FFMPEG がインストールされていること、およびビデオプロフ�
 1. ビデオをクリックし、**編集**&#x200B;ダイアログを開きます。 「**プロファイル**」タブを開きます。
 
    >[!NOTE]
-   >様々なプロファイルをクリックします（少なくとも「高画質 H.264」プロファイルは必ずあります）。
+   >様々なプロファイルをクリックします（少なくとも「高画質 H.264」プロファイルがあるはずです）。
 
 ### Web プレーヤーでのビデオの確認 {#checking-the-video-in-the-web-player}
 
-**Web プレーヤー**（`http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0`）を使用して、ブラウザー（Chrome および Safari）で再生を検証します。 Chrome は Android™ デバイスで使用されますが、Safari は OS X および iOS ブラウザーです。
+**Web プレーヤー**（`http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0`）を使用して、ブラウザー（Chrome および Safari）で再生を検証します。 Chrome は Android™ デバイスで使用され、Safari は OS X および iOS のブラウザーです。
 
-ビデオが Safari で実行されない場合、OS X と iOS Player でも実行されません。 この問題はエンコーディングの問題である可能性が高く、ビデオを再度エンコードする必要があります。
+ビデオが Safari で再生されない場合、OS X および iOS プレーヤーでも再生されません。 この問題はエンコーディングの問題である可能性が高く、ビデオを再度エンコードする必要があります。
 
 DAM ワークフローを使用して FullHD レンディションを作成するには、次の手順を実行します。
 
@@ -115,14 +126,14 @@ DAM ワークフローを使用して FullHD レンディションを作成す�
 
 #### 自動再生ポリシーフラグのトラブルシューティング {#troubleshooting-autoplay-policy-flag}
 
-AEM Screens プレーヤーでビデオを取得してもビデオが表示されない場合は、自動再生ポリシーフラグのトラブルシューティングを行います。
+AEM Screens プレーヤーがビデオを認識しても表示しない場合は、自動再生ポリシーフラグのトラブルシューティングを行います。
 
 Google の自動再生ポリシーフラグに関する問題をトラブルシューティングするには、以下の手順に従います。
 
 1. ***chrome://flags/#autoplay-policy*** に移動します。
 1. 「**Autoplay policy**」を「**Default**」から「**No user gesture is required**」に変更します。
 
-1. Web ブラウザーを再起動し、プレーヤーを更新します。
+1. Web ブラウザーの再起動とプレーヤーのアップデート
 
 >[!NOTE]
 >
@@ -146,7 +157,7 @@ Google の自動再生ポリシーフラグに関する問題をトラブルシ�
 * シーケンスの期間（すべての項目の期間の合計）を計算します。
 * 任意の時点で、シーケンスの _remaining_time = (current_time - anchor_time) % sequence_duration を求めることによって、現在再生されている項目および次の項目を計算します。
 
-絶対方法を設定するには、次の手順を実行します。
+絶対戦略を設定するには、次の手順を実行します。
 
 1. チャネルオーサーに移動し、次の図に示すようにシーケンスコンポーネントをクリックします。
 1. その設定ダイアログを開きます。
@@ -162,7 +173,7 @@ Google の自動再生ポリシーフラグに関する問題をトラブルシ�
 1. 各 OSX ボックスで、**日付と時刻**&#x200B;環境設定を開きます。
 1. 「**日付と時刻を自動的に設定**」をオンにします。
 1. 値0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.comをドロップダウンに貼り付けるか、*`sudo ntpdate -u -v 0.pool.ntp.org`*&#x200B;を実行します
-1. 2 台以上のプレーヤーを起動します。
+1. 2 台以上のプレーヤーの起動
 
-プレーヤーが新しく割り当てられたシーケンスを開始するまでに時間がかかることがあります。
+プレーヤーが新しい同期されたシーケンスを開始するまでに時間がかかることがあります。
 

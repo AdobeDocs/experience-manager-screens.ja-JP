@@ -5,29 +5,37 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-TQID: https://experienceleague.adobe.com/qKfWLBvyu49vxRvNfsV1oliOGVgxyEum5wmjbIdSEeI
+TQID: 'https://experienceleague.adobe.com/qKfWLBvyu49vxRvNfsV1oliOGVgxyEum5wmjbIdSEeI'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+    internal-label: Content structure
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Security
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: '709'
 ht-degree: 89%
-
 ---
-
 # AEM Screens での Dispatcher 設定{#dispatcher-configurations-for-aem-screens}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 Dispatcher は、Adobe Experience Manager のキャッシュ、ロードバランシングツールまたはその両方です。
 
@@ -39,14 +47,15 @@ Dispatcher は、Adobe Experience Manager のキャッシュ、ロードバラ�
 >
 >Dispatcher がない場合は、OSGi コンポーネントリストで登録サーブレットを無効にします。
 
-AEM Screens プロジェクトの Dispatcher を設定する前に、Dispatcher に関する事前の知識が必要です。詳しくは、[Dispatcher の設定](https://experienceleague.adobe.com/ja/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration)を参照してください。
+AEM Screens プロジェクトの Dispatcher を設定する前に、Dispatcher に関する事前の知識が必要です。
+詳しくは、[Dispatcher の設定](https://experienceleague.adobe.com/ja/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration)を参照してください。
 
 ## Manifest バージョン v2 用 Dispatcher の設定 {#configuring-dispatcher}
 
 >[!IMPORTANT]
 >次の Dispatcher 設定は、Manifest バージョン v2 にのみ適用されます。 Manifest バージョン v3 については、[Manifest バージョン v3 の Dispatcher 設定](#configuring-dispatcherv3)を参照してください。
 
-AEM Screens Player／デバイスは、パブリッシュインスタンスのリソースにアクセスする際にも、認証済みセッションを使用します。 複数のパブリッシュインスタンスがある場合、AEM Screens Player またはデバイスから送られるすべてのリクエストで認証済みセッションが有効になるよう、常に同じパブリッシュインスタンスにリクエストを送信する必要があります。
+AEM Screens Player／デバイスは、パブリッシュインスタンスのリソースにアクセスする際にも、認証済みセッションを使用します。 複数のパブリッシュインスタンスがある場合、AEM Screens プレーヤーまたはデバイスから送られるすべてのリクエストで認証済みセッションが有効になるよう、常に同じパブリッシュインスタンスにリクエストを送信する必要があります。
 
 以下の手順に従って、AEM Screens プロジェクトの Dispatcher を設定します。
 

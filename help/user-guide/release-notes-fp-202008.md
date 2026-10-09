@@ -5,21 +5,26 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
-TQID: https://experienceleague.adobe.com/a-iBBktdUduSoZVzBdOWRKlZS5GeGwLWe0u92g7fXmw
+TQID: 'https://experienceleague.adobe.com/a-iBBktdUduSoZVzBdOWRKlZS5GeGwLWe0u92g7fXmw'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 355
+source-wordcount: '355'
 ht-degree: 92%
-
 ---
-
 # 機能パック 202008 のリリースノート {#release-notes-for-feature-pack}
 
 >[!CAUTION]

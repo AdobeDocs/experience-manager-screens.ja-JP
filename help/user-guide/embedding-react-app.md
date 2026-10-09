@@ -10,29 +10,34 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-TQID: https://experienceleague.adobe.com/xFqHw12qllxCLTJv6MSzaZ8E2D3Rf-Xtt2bH26hB0tw
+TQID: 'https://experienceleague.adobe.com/xFqHw12qllxCLTJv6MSzaZ8E2D3Rf-Xtt2bH26hB0tw'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7ddc0e74-2124-5f1a-82c8-6cf1b0764d99
+    internal-label: Developing Screens
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 734
+source-wordcount: '734'
 ht-degree: 93%
-
 ---
-
 # AEM SPA エディターを使用した React アプリケーションの埋め込みと AEM Screens Analytics との統合 {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 React（または Angular）を使用して、インタラクティブ単一ページアプリケーションを埋め込むことができます。 これを行うには、AEM でビジネスプロフェッショナルが設定した AEM SPA エディターを使用します。 また、インタラクティブアプリケーションをオフライン Adobe Analytics と統合する方法についても説明します。
 
-## AEM SPA Editor の使用 {#using-the-aem-spa-editor}
+## AEM SPA エディターの使用 {#using-the-aem-spa-editor}
 
 AEM SPA Editor を使用するには、以下の手順に従います。
 
@@ -71,16 +76,16 @@ React アプリのコンテンツを編集するには、以下の手順に従�
 
 ### AEM Screens へのインタラクティブ React アプリの追加 {#adding-the-interactive-react-app-to-aem-screens}
 
-AEM Screens にインタラクティブ React アプリを追加するには、以下の手順に従います。
+AEM Screens にインタラクティブ REACT アプリを追加するには、以下の手順に従います。
 
 1. AEM Screens プロジェクトを作成します。 詳しくは、[プロジェクトの作成と管理](creating-a-screens-project.md)を参照してください。
 1. AEM Screens プロジェクトの **Channels** フォルダーで、（できれば）**アプリケーションチャネル**（または 1x1 テンプレートまたはマルチゾーンチャネル）を作成します。
 
    >[!NOTE]
-   >**シーケンスチャネル**&#x200B;には、エクスペリエンスのインタラクティブな性質と競合するスライドショーロジックがもともと備わっているため、この使用例では推奨されません。
+   >**シーケンスチャネル**には、エクスペリエンスのインタラクティブな性質と競合するスライドショーロジックがもともと備わっているため、この使用例では推奨されません。
    >詳しくは、[チャネルの作成と管理](managing-channels.md)を参照してください。
 
-1. シーケンスチャネルを編集し、埋め込みページコンポーネントをドラッグ＆ドロップします。
+1. 任意のシーケンスチャネルを編集し、埋め込みページコンポーネントをドラッグ＆ドロップします。
 
    詳しくは、[チャネルへのコンポーネントの追加](adding-components-to-a-channel.md)を参照してください。
 
@@ -146,5 +151,5 @@ AEM Screens を通じて SPA をオフライン機能付きの Adobe Analytics �
 
    >[!NOTE]
    >
-   >プレーヤーのファームウェアによって、送信するカスタム分析データにプレーヤーとそのランタイム環境に関する詳細が自動的に追加されます。 したがって、必要でない限り、低レベルの OS ／デバイスの詳細を取得する必要がある場合があります。 ビジネス分析データに焦点を当てます。
+   >プレーヤーのファームウェアによって、送信するカスタム分析データにプレーヤーとそのランタイム環境に関する詳細が自動的に追加されます。 したがって、必要な場合を除き、低レベルの OS ／デバイスの詳細を取得する必要はありません。 ビジネス分析データに焦点を当てます。
 

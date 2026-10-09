@@ -1,29 +1,35 @@
 ---
 title: 機能パック 202204 のリリースノート
-description: 2022年4月26日（PT）にリリースされた AEM Screens 機能パック 202204 について詳しく説明します。
+description: 2022年4月26日（PT）にリリースされた AEM Screens 機能パック 202204 について説明します。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 5fd41f3a-212d-4179-8e59-22c0a32a1e19
-TQID: https://experienceleague.adobe.com/5b76yP63aj9DmEQIZ8PS8v9psr14vlz-ey3HYXC41Gg
+TQID: 'https://experienceleague.adobe.com/5b76yP63aj9DmEQIZ8PS8v9psr14vlz-ey3HYXC41Gg'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+    internal-label: Personalization
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Personalization
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: '319'
 ht-degree: 100%
-
 ---
-
 # 機能パック 202204 のリリースノート {#release-notes-for-feature-pack}
 
 >[!CAUTION]
@@ -47,7 +53,7 @@ AEM Screens 機能パック 202204 のリリース日は 2022年4月26日です�
 
 * ターゲティング／パーソナライゼーションが機能しませんでした。 このバグは修正されました。
 
-* FP10 以降、Screens のメール監視が機能しませんでした。 このバグは修正されました。
+* FP10 以降、Screens モニタリングメールが機能しませんでした。 このバグは修正されました。
 
 * 縦置きモードでスクリーンショットを撮ると、Windows プレーヤーがクラッシュしていました。 このバグは修正されました。
 
@@ -61,7 +67,7 @@ AEM Screens 機能パック 202204 のリリース日は 2022年4月26日です�
 
 ### リリースされている AEM Screens Player
 
-AEM Screens 6.5 機能パック 11 向けに、次の AEM Screens Player がリリースされています。
+AEM 6.5 機能パック 11 向けに、次の AEM Screens Players がリリースされています。
 
 * Chrome OS
 * Windows

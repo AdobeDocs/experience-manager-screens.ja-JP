@@ -6,25 +6,30 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-TQID: https://experienceleague.adobe.com/7M6tMLxqCrYuwdLcMpep7YdQe4efLFjNGgGqVX1ewRE
+TQID: 'https://experienceleague.adobe.com/7M6tMLxqCrYuwdLcMpep7YdQe4efLFjNGgGqVX1ewRE'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7ddc0e74-2124-5f1a-82c8-6cf1b0764d99
+    internal-label: Developing Screens
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 630
+source-wordcount: '630'
 ht-degree: 89%
-
 ---
-
 # テキストオーバーレイのカスタムブランディングとスタイル設定 {#creating-custom-branding-styling}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 AEM Screens チャネルのアセットに適用されたテキストオーバーレイのカスタムブランディングとスタイル設定を適用する方法について説明します。
 
@@ -95,7 +100,7 @@ AEM Screens チャネルのアセットに適用されたテキストオーバ�
    >[!IMPORTANT]
    >オプションで、既存の Screens テンプレートをオーバーレイして、デフォルトで独自のデザインを挿入したり、完全に独自のテンプレートを作成したりできます。 詳しくは、以下の手順を参照してください。
 
-1. 既存の Screen テンプレートをオーバーレイして独自のデザインを挿入するには、次の手順に従います。
+1. 既存の Screens テンプレートをオーバーレイしてデフォルトで独自のデザインを挿入するには、次の手順に従います。
 
    1. `/apps/screens/core/templates/sequencechannel` の `/libs/screens/core/templates/sequencechannel` をオーバーレイします。
    1. `/apps/screens/core/templates/sequencechannel/jcr:content` の *`cq:designPath`* プロパティを変更して、新しいデザインを指すようにします。
@@ -137,7 +142,7 @@ AEM Screens チャネルのアセットに適用されたテキストオーバ�
 
 ![画像](/help/user-guide/assets/custom-brand/custom-brand10.png)
 
-1. テキストオーバーレイが画像に追加された、更新済みの変更をプレビューで確認します。
+1. テキストオーバーレイが画像に追加された更新後の状態を、プレビューで確認します。
 
    ![画像](/help/user-guide/assets/custom-brand/custom-brand11.png)
 

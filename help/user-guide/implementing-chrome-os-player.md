@@ -9,28 +9,35 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-TQID: https://experienceleague.adobe.com/3fsKNXC1TmtKmk8r3niVhITl18OKTlMV-9EeowuG8Fw
+TQID: 'https://experienceleague.adobe.com/3fsKNXC1TmtKmk8r3niVhITl18OKTlMV-9EeowuG8Fw'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Troubleshooting
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 936
+source-wordcount: '936'
 ht-degree: 92%
-
 ---
-
 # Chrome OS プレーヤーの実装 {#implementing-chrome-os-player}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 ここでは、Chrome 管理コンソールを使用した Chrome OS プレーヤーの実装方法を説明します。
 
@@ -104,7 +111,7 @@ Chrome プレーヤーに名前を設定するには、次の手順に従いま�
 >
 >これらの設定が有効になるには、デバイスが登録されてから数分後かかる場合があります。 各オプションは、時間が経過すると有効になります。
 
-### Chrome OS プレーヤーのリモート設定の設定 {#configuring-remote-configuration-of-chrome-os-players}
+### Chrome OS プレーヤーのリモート設定 {#configuring-remote-configuration-of-chrome-os-players}
 
 AEM Screens Player は、キオスク対応アプリケーションです。Chrome OS プレーヤーのリモートポリシー設定にも対応しています。
 
@@ -164,7 +171,7 @@ AEM Screens Player は、キオスク対応アプリケーションです。Chro
 
 >[!NOTE]
 >
->ポリシー設定は厳格に適用され、プレーヤーの管理 UI は手動で上書きされません。 特定のポリシーに対して手動のプレーヤー設定を許可するには、***ポリシー設定***&#x200B;でポリシーを指定しないでください。 例えば、再起動スケジュールの手動設定を許可する場合は、ポリシー設定で ***rebootSchedule*** キーを指定しないでください。
+>ポリシー設定は厳格に適用され、プレーヤーの管理 UI で手動で上書きすることはできません。 特定のポリシーに対して手動のプレーヤー設定を許可するには、***ポリシー設定***&#x200B;でポリシーを指定しないでください。 例えば、再起動スケジュールの手動設定を許可する場合は、ポリシー設定で ***rebootSchedule*** キーを指定しないでください。
 
 ### Screens リモート制御の使用 {#using-remote-control}
 

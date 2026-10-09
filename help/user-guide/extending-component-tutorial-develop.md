@@ -9,30 +9,37 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-TQID: https://experienceleague.adobe.com/9n3Ft3gu3r1fN0FutW-6E3oiX6L2R1kK7D3oyVrn1M4
+TQID: 'https://experienceleague.adobe.com/9n3Ft3gu3r1fN0FutW-6E3oiX6L2R1kK7D3oyVrn1M4'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: 7ddc0e74-2124-5f1a-82c8-6cf1b0764d99
+    internal-label: Developing Screens
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Accessibility
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1892
+source-wordcount: '1892'
 ht-degree: 94%
-
 ---
-
 # AEM Screens コンポーネントの拡張
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 以下のチュートリアルでは、標準搭載の AEM Screens コンポーネントを拡張する際の手順とベストプラクティスについて説明します。 画像コンポーネントが拡張されて、オーサリング可能なテキストオーバーレイが追加されます。
 
@@ -66,7 +73,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
    [ファイルの取得](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
-   &lbrack; ファイルを取得
+   [ ファイルを取得](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
    **（オプション）** Eclipse などの IDE を使用して作業する場合は、以下のソースパッケージをダウンロードします。 次の Maven コマンドを使用して、プロジェクトをローカルの AEM インスタンスにデプロイします。
 
    **`mvn -PautoInstallPackage clean install`**
@@ -88,7 +95,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
 ポスターコンポーネントは、標準の AEM Screens 画像コンポーネントを拡張します。 Sling の `sling:resourceSuperType` メカニズムを使用すると、画像コンポーネントのコア機能をコピーして貼り付けなくても継承できるようになります。 Sling のリクエスト処理の基本について詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)を参照してください。
 
-ポスターコンポーネントは、プレビュー／実稼動モードではフルスクリーンでレンダリングされます。 編集モードでは、シーケンスチャネルのオーサリングを容易に行えるように、コンポーネントをフルスクリーン以外でレンダリングすることが重要です。
+ポスターコンポーネントは、プレビュー／実稼動モードではフルスクリーンでレンダリングされます。 編集モードでは、シーケンスチャネルのオーサリングを容易にするために、コンポーネントを異なる方法でレンダリングすることが重要です。
 
 1. **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp`（または任意の IDE）で、`/apps/weretail-run/components/content` の下に `poster` という名前の `cq:Component` を作成します。
 
@@ -145,7 +152,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
    1. ダイアログのコピー元：`/libs/wcm/foundation/components/image/cq:dialog`
    1. ダイアログの貼り付け先のパス：`/apps/weretail-run/components/content/poster`
 
-   ![&#x200B; ダイアログを/libs/wcm/foundation/components/image/cq:dialogから/apps/weretail-run/components/content/poster](assets/2018-05-03_at_4_13pm.png)にコピーしました
+   ![ ダイアログを/libs/wcm/foundation/components/image/cq:dialogから/apps/weretail-run/components/content/poster](assets/2018-05-03_at_4_13pm.png)にコピーしました
 
    ダイアログを `/libs/wcm/foundation/components/image/cq:dialog` から `/apps/weretail-run/components/content/poster` にコピーしました
 
@@ -495,7 +502,7 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
    }
    ```
 
-   上記のスタイルでは、「タイトル」と「説明」がスクリーン上の絶対位置に表示されます。 タイトルは説明よりも大きく表示されます。 コンポーネントの BEM 表記により、cmp-poster クラス内のスタイルを注意深くスコープ設定するのが容易になります。
+   上記のスタイルでは、「タイトル」と「説明」がスクリーン上の絶対位置に表示されます。 タイトルは説明よりも大きく表示されます。 コンポーネントの BEM 表記により、cmp-poster クラス内にスタイルの範囲を注意深く限定しやすくなります。
 
 3 番目のクライアントライブラリカテゴリ `cq.screens.components.edit` は、コンポーネントに編集専用のスタイルを追加する場合に使用できます。
 
@@ -514,7 +521,7 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
    ![2018-05-07_at_3_23pm](assets/2018-05-07_at_3_23pm.png)
 
-1. ポスターコンポーネントのダイアログボックスを編集して、「画像」、「タイトル」、「説明」を追加します。 「テキストの位置」と「テキストの色」の選択フィールドを使用して、「タイトル」や「説明」が画像上で読みやすくなるようにします。
+1. ポスターコンポーネントのダイアログを編集して、「画像」、「タイトル」、「説明」を追加します。 「テキストの位置」と「テキストの色」の選択フィールドを使用して、「タイトル」や「説明」が画像上で読みやすくなるようにします。
 
    ![2018-05-07_at_3_25pm](assets/2018-05-07_at_3_25pm.png)
 
@@ -524,7 +531,7 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
 ## まとめ {#putting-it-all-together}
 
-以下のビデオでは、完成したコンポーネントと、それをシーケンスチャネルに追加する方法を示しています。 この後、チャネルはロケーションのディスプレイに追加され、最終的には Screens Player に割り当てられます。
+以下のビデオでは、完成したコンポーネントと、それをシーケンスチャネルに追加する方法を示しています。 この後、チャネルはロケーションのディスプレイに追加され、最終的には Screens player に割り当てられます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9)
 

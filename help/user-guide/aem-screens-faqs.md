@@ -5,34 +5,50 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-TQID: https://experienceleague.adobe.com/7M-3FuDthc-4z4OSHp49eL7QHWvt1acjKfA7C1BGWy0
+TQID: 'https://experienceleague.adobe.com/7M-3FuDthc-4z4OSHp49eL7QHWvt1acjKfA7C1BGWy0'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+    internal-label: Personalization
+  - id: facbaac7-c94d-465b-aee8-c0e11fad102c
+    internal-label: Core product features
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
+subfeature_v2:
+  - id: b0723018-81e0-4ba1-b4be-7cf61cc8c2ce
+    internal-label: Digital signage
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Personalization
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 2299
+source-wordcount: '2299'
 ht-degree: 81%
-
 ---
-
 # AEM Screens 関する FAQ {#aem-screens-faqs}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
-このトピックでは、AEM Screens プロジェクトに関する FAQ への回答を示します。
+このトピックでは、AEM Screens プロジェクトに関するよくある質問への回答を示します。
 
 ## 空白の画面の問題 {#blank-screen}
 
@@ -42,16 +58,16 @@ ht-degree: 81%
 ### &#x200B;1. 黒い画面または再生されないコンテンツに直面しているお客様に対する応急処置のトラブルシューティング手順を教えてください。 {#troubleshooting-blank-screen}
 
 * チャネルプレビューが動作しているかどうかを確認します。
-* ディスプレイプレビューが動作しているかどうかを確認します。
+* ディスプレイプレビューの動作確認
 * 同じディスプレイに、使用中のシステムのブラウザー拡張機能としてプレーヤーを登録してみて、これが動作しているかどうかを確認します。
 * システム上でプレーヤーを実行しながら、`http://localhost:24502` に移動します。 すべてのコンテンツが正しくダウンロードされているかどうかを確認します。
-* アセットに適切なレンディションが作成され、正しいレンディションが再生されていることを確認します。
+* アセットを確認し、適切なレンディションが作成され、正しいレンディションが再生されていることを確認します。
 * スケジュールされたコンテンツがあるかどうか、および時間が正しいかどうかを確認します。 プレーヤーで設定された時間が正しいかどうかを確認します。
-* Inspect プレーヤーコンソールはログを記録し、エラーがないか確認します。 右クリックし、コンソールログを確認します。 Windows Playerを使用している場合は、`CTRL + ALT +I`を押して開発コンソールを起動し、ログファイルを表示します。
+* プレーヤーのコンソールログを調べ、エラーがないか確認します。 右クリックして検証を選択し、コンソールログを確認します。 Windows Playerを使用している場合は、`CTRL + ALT +I`を押して開発コンソールを起動し、ログファイルを表示します。
 
 ### &#x200B;2. AEM Screensでデフォルトのチャンネルまたはスケジュールを作成してグレースクリーンの問題を解決する方法を教えてください。
 
-フィールドに空白またはグレーの画面が表示されないようにするには、デフォルトのグローバルチャネルまたはスケジュールを作成し、すべてのディスプレイに最も低い優先度 1 を割り当てます。 コンテンツの更新で問題が発生した場合は、プレーヤーがこのコンテンツを既にディスクにキャッシュしているのが理由です。 正常に再生され、グレーの画面は表示されません。
+フィールドに空白またはグレーの画面が表示されないようにするには、デフォルトのグローバルチャネルまたはスケジュールを作成し、すべてのディスプレイに最も低い優先度 1 を割り当てます。 プレーヤーがこのコンテンツを既にディスクにキャッシュしているために、コンテンツの更新で問題が発生した場合。 正常に再生され、グレーの画面は表示されません。
 
 チャネルやスケジュールなど、他のすべてのコンテンツの優先度は 1 より大きいので、他のコンテンツが優先され、グローバルチャネルまたはスケジュールのコンテンツ（優先度 1）はフォールバックオプションとしてのみ再生されます。
 
@@ -78,7 +94,7 @@ ht-degree: 81%
 1. ディスプレイに、参照先のチャネル名と一致する子ノードがあります
 1. ディスプレイに、参照先のチャネル名と一致する兄弟ノードがあります
 1. ディスプレイの親の場所に、参照先のチャネル名と一致する子ノードがあります
-1. ディスプレイの祖父母の場所に、参照先のチャネル名と一致する子ノードがあります
+1. ディスプレイの親の親の場所に、参照先のチャネル名と一致する子ノードがあります
 
 解決は、ロケーションフォルダーに到達するまで行われます。 到達した時点で一時的に停止します（例えば、チャネルフォルダー内のチャネルを参照することはできません。参照できるのは、ロケーションサブツリー内のチャネルだけです）。
 
@@ -111,7 +127,7 @@ ht-degree: 81%
 
 登録リクエストを拒否することはできません。 代わりに、`Adobe Experience Manager Web Console` で設定したタイムアウトの後に登録リクエストの有効期限が切れます。 デフォルトでは、この値は 1 日に設定され、メモリキャッシュに保存されます。
 
-## デバイスの監視とヘルスレポート {#device-monitoring-and-health-reports}
+## デバイスのモニタリングとヘルスレポート {#device-monitoring-and-health-reports}
 
 ### &#x200B;1. AEM Screens Playerに空の画面が表示される場合のトラブルシューティング方法を教えてください。
 
@@ -141,7 +157,7 @@ Android™ プレーヤーの実装方法について詳しくは、[**Android�
 
 ### &#x200B;5. Adobe/AMSでは、各デバイスを監視するために、どのようなサードパーティ製のリモートモニタリングおよびアラートツール（ソフトウェア）を推奨していますか？ {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
-必要な監視および警告機能にもよりますが、新機能である AEM Screens 通知サービスでは、デバイスがしばらくの間 ping に応答しなかった場合にユーザーに通知します。 サードパーティツールは、お使いのオペレーティングシステム（OS）とその機能、およびユーザー固有のニーズによって異なります。
+必要な監視および警告機能にもよりますが、新機能である AEM Screens 通知サービスでは、デバイスからしばらく ping がない場合にユーザーに通知します。 サードパーティツールは、お使いのオペレーティングシステム（OS）とその機能、および顧客固有のニーズによって異なります。
 
 デバイスアクティビティの監視について詳しくは、[**AEM Screens 通知サービス**](screens-notifications-service.md)&#x200B;を参照してください。
 
@@ -195,21 +211,21 @@ AEM Screens Player が `/content/screens/svc.json` および `/libs/granite/core
 
 ### &#x200B;6. プレーヤーAPIからディスプレイとデバイスの詳細を取得するにはどうすればよいですか？
 
-ディスプレイとデバイスの詳細は、次の場所で取得できます。
+ディスプレイとデバイスの詳細は、次の方法で取得できます。
 
 * **内部 JS API**
 * **ContextHub ストア**：`/libs/screens/clientlibs/contexthub` では、チャネル、デバイス、および表示情報を公開するための 3 つの ContextHub ストアが定義されています。
 
   次の手順に従って、ContentHub ストアの値を使用します。
 
-   * チャネルのプロパティを編集し、パーソナライゼーションタブの ContextHub パスを値に設定します（上述）
-   * チャネル JS では、次を使用できます。
+  * チャネルのプロパティを編集し、パーソナライゼーションタブの ContextHub パスを（前述の）値に設定します
+  * チャネル JS では、次を使用できます。
 
-     ```shell
-        ContextHub.getStore('screens-device');
-        ContextHub.getStore('screens-display');
-        ContextHub.getStore('screens-channels');
-     ```
+    ```shell
+       ContextHub.getStore('screens-device');
+       ContextHub.getStore('screens-display');
+       ContextHub.getStore('screens-channels');
+    ```
 
 ## トラブルシューティングに関する一般的なヒント {#general-troubleshooting-tips}
 
@@ -231,7 +247,8 @@ Livefyre を無効にしてログエラーを回避するには、次の手順�
 
 ### &#x200B;2. Oakのインデックス情報を追加するには？ {#add-oak-index-info}
 
-AEM Screens は、製品で使用されるクエリのインデックス定義を作成します。`error.log`に&#x200B;*クエリトラバーサル警告*&#x200B;がある場合は、クエリのカスタムインデックスを作成します。 詳しくは、[インデックスの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes)を参照してください。
+AEM Screens は、製品で使用されるクエリのインデックス定義を作成します。
+`error.log`に&#x200B;*クエリトラバーサル警告*&#x200B;がある場合は、クエリのカスタムインデックスを作成します。 詳しくは、[インデックスの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes)を参照してください。
 
 [Oak ドキュメント](https://jackrabbit.apache.org/oak/docs/query/lucene.html)の追加リソースも参照できます。
 
@@ -240,9 +257,11 @@ AEM Screens は、製品で使用されるクエリのインデックス定義�
 
 v3 マニフェストを有効にするには、次の手順を実行します。
 
-* Dispatcher を更新します。詳しくは、[マニフェストバージョン v3 に対応した Dispatcher の設定](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)を参照してください。
+* Dispatcher を更新します。
+詳しくは、[マニフェストバージョン v3 に対応した Dispatcher の設定](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)を参照してください。
 
-* カスタムコンポーネントを更新します。詳しくは、[カスタムハンドラーのテンプレート](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)を参照してください。
+* カスタムコンポーネントを更新します。
+詳しくは、[カスタムハンドラーのテンプレート](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)を参照してください。
 
 * `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` でコンテンツ同期を無効にします。
 

@@ -10,28 +10,44 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-TQID: https://experienceleague.adobe.com/mb21H-Ky-ySuMvkF75Vhm8Zxzc4zRB65RBVu8hUrFHA
+TQID: 'https://experienceleague.adobe.com/mb21H-Ky-ySuMvkF75Vhm8Zxzc4zRB65RBVu8hUrFHA'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: c5322876-5f25-5295-aae6-7dbbb1548c49
+    internal-label: Players
+  - id: facbaac7-c94d-465b-aee8-c0e11fad102c
+    internal-label: Core product features
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
+subfeature_v2:
+  - id: b0723018-81e0-4ba1-b4be-7cf61cc8c2ce
+    internal-label: Digital signage
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Security
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 827
+source-wordcount: '827'
 ht-degree: 87%
-
 ---
-
 # デバイスコントロールセンターのトラブルシューティング {#troubleshooting-device-control-center}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 デバイスダッシュボードを使用して、AEM Screens Player のアクティビティやデバイスのパフォーマンスの監視とトラブルシューティングを行うことができます。 このページでは、Screens Player や割り当てられているデバイスを監視し、確認されたパフォーマンスの問題をトラブルシューティングする方法について説明します。
 
@@ -63,7 +79,7 @@ ht-degree: 87%
 
 ### デバイスアクティビティの監視 {#monitor-device-activity}
 
-**アクティビティ**&#x200B;パネルには、AEM Screens Player の最後の ping がタイムスタンプと共に表示されます。 最後の ping は、デバイスがサーバーに最後にアクセスした時間と一致します。
+**アクティビティ**&#x200B;パネルには、AEM Screens Player の最後の ping がタイムスタンプと共に表示されます。 最後の ping は、デバイスが最後にサーバーに接続した時刻に対応します。
 
 ![chlimage_1](assets/chlimage_1.png)
 
@@ -153,23 +169,23 @@ Apache Sling Referrer Filter の Allow Empty 設定を有効にするには、�
 
 ### レコメンデーション {#recommendations}
 
-次の節では、ヘルスを把握したり、問題に対処したりするために、ネットワークリンク、サーバーおよびプレーヤーを監視することが推奨されています。
+次の節では、状態を把握したり、問題に対処したりするために、ネットワークリンク、サーバーおよびプレーヤーを監視することが推奨されています。
 
-AEM には、次を監視するビルトインの機能があります。
+AEM には、次をモニタリングするビルトインの機能があります。
 
 * 5 秒間隔の&#x200B;*ハートビート*&#x200B;は、AEM Screens Player が動作中であることを示します。
 * プレーヤーの&#x200B;*スクリーンショット*&#x200B;は、プレーヤーに何が表示されているかを示します。
 * *AEM Screens Player ファームウェア*&#x200B;バージョンはプレーヤーにインストールされます。
 * プレーヤー上に&#x200B;*空きストレージ領域*&#x200B;が存在すること。
 
-サードパーティ製ソフトウェアによるリモート監視の推奨事項は、次のとおりです。
+サードパーティ製ソフトウェアによるリモートモニタリングの推奨事項は、次のとおりです。
 
 * プレーヤーの CPU 使用率。
 * AEM Screens Player プロセスが実行中かどうかを確認します。
 * プレーヤーのリモート再起動。
 * リアルタイム通知。
 
-リモートログインで問題を診断して、プレーヤーを再起動を再起動できるように、プレーヤーのハードウェアと OS をデプロイすることをお勧めします。
+リモートログインで問題を診断して、プレーヤーを再起動できるように、プレーヤーのハードウェアと OS をデプロイすることをお勧めします。
 
 #### その他のリソース {#additional-resources}
 

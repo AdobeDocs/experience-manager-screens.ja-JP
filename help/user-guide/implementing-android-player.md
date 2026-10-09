@@ -10,30 +10,42 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-TQID: https://experienceleague.adobe.com/1vHr2YOQgczQlho8xJd9uV7k8Xh3qIu99C7IfRi6bzo
+TQID: 'https://experienceleague.adobe.com/1vHr2YOQgczQlho8xJd9uV7k8Xh3qIu99C7IfRi6bzo'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
+  - id: f18e6c98-d21a-4444-b84b-f327ce464de4
+    internal-label: Integrations
+subfeature_v2:
+  - id: d7b36a26-f22a-49eb-b5be-019feb42d381
+    internal-label: Android Player
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Troubleshooting
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1600
+source-wordcount: '1600'
 ht-degree: 89%
-
 ---
-
 # Android™ プレーヤーの実装 {#implementing-android-player}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 >[!CAUTION]
 >Android ベースのAEM Screens Playerは正式に廃止されました。 AEM Screensがサポートする別のオペレーティングシステムに移行することをお勧めします。
@@ -48,7 +60,7 @@ AEM Screens 用の Android™ プレーヤーを実装するには、同プレ�
 
 [**AEM 6.5 Player のダウンロード**](https://download.macromedia.com/screens/)ページにアクセスします。
 
-### AEM Screens 6.5.5 サービスパック環境の設定 {#fp-environment-setup}
+### AEM Screens 6.5.5 サービスパック用環境の設定 {#fp-environment-setup}
 
 >[!NOTE]
 >AEM Screens 6.5.5 サービスパックを使用している場合は、Android™ プレーヤー用の環境を設定します。
@@ -136,13 +148,14 @@ Android™ プレーヤーを一括で展開する場合、管理者 UI で手�
 
 次の手順に従って、Android™ プレーヤーで一括プロビジョニングを許可します。
 
-1. `player-config.default.json` という名前で設定 JSON ファイルを作成します。[JSON ポリシーの例](#example-json)と、様々な[ポリシー属性](#policy-attributes)の使い方を説明した表を参照してください。
+1. `player-config.default.json` という名前で設定 JSON ファイルを作成します。
+[JSON ポリシーの例](#example-json)と、様々な[ポリシー属性](#policy-attributes)の使い方を説明した表を参照してください。
 
 1. MDM、ADB、または Android™ Studio のファイルエクスプローラーを使用して、このポリシー JSON ファイルを Android™ デバイスの *sdcard* フォルダーにドロップします。
 
 1. ファイルをデプロイしたら、MDM を使用してプレーヤーアプリケーションをインストールします。
 
-1. プレーヤーアプリケーションが起動すると、この設定ファイルが読み取られ、該当する AEM サーバーを指し、そこで登録および制御されます。
+1. プレーヤーアプリケーションが起動すると、この設定ファイルが読み取られ、該当する AEM サーバーを指します。プレーヤーアプリケーションはそこで登録され、その後制御されます。
 
    >[!NOTE]
    >このファイルは、アプリケーションが初めて起動されたときは&#x200B;*読み取り専用*&#x200B;で、以降の設定には使用できません。 設定ファイルがドロップされる前にプレーヤーが起動した場合は、デバイス上のアプリケーションをアンインストールして再インストールするだけです。
@@ -211,7 +224,7 @@ Android™ プレーヤーの一括プロビジョニングを可能にするに
 1. お使いの Android™ デバイスが Google Play サービスをサポートしていることを確認します。
 1. AppConfig をサポートしているお気に入りの EMM ソリューションに、お使いの Android™ プレーヤーデバイスを登録します。
 1. EMM コンソールにログインし、Google Play から AEM Screens Player アプリケーションを入手します。
-1. 管理された設定または関連オプションをクリックします。
+1. 管理対象の設定または関連オプションをクリックします。
 1. これで、設定可能なプレーヤーオプション（サーバーや一括登録コードなど）のリストが表示されます。
 1. これらのパラメーターを設定して保存し、ポリシーをデバイスにデプロイします。
 

@@ -9,29 +9,35 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: ac01935a-c3ff-485a-b60e-227fb94c75b0
-TQID: https://experienceleague.adobe.com/qh3gh-3IzKyUA4fr79v7JAT5WAq2Q2eZTqTlOAC7yN0
+TQID: 'https://experienceleague.adobe.com/qh3gh-3IzKyUA4fr79v7JAT5WAq2Q2eZTqTlOAC7yN0'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: 7ddc0e74-2124-5f1a-82c8-6cf1b0764d99
+    internal-label: Developing Screens
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Content structure
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 255
+source-wordcount: '256'
 ht-degree: 78%
-
 ---
-
 # REST API{#rest-apis}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 AEM Screens には、[Siren](https://github.com/kevinswiber/siren) の仕様に準拠するシンプルな RESTful API が用意されています。 これにより、コンテンツ構造内を移動したり、環境内のデバイスにコマンドを送信したりできるようになります。
 
@@ -41,7 +47,7 @@ APIには、[*http://localhost:4502/api/screens.json*](http://localhost:4502/api
 
 API 呼び出しから返される JSON コードには、現在のリソースに関連するエンティティのリストが記述されています。 リストに含まれている自己リンクをたどると、各エンティティに REST リソースとして再びアクセスできます。
 
-例えば、重要なデモロケーションのディスプレイにアクセスするには、次を呼び出すことができます。
+例えば、デモ用フラッグシップロケーションのディスプレイにアクセスするには、次を呼び出すことができます。
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship.json HTTP/1.1
@@ -108,7 +114,7 @@ curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/
 }
 ```
 
-その後、単一のスクリーンディスプレイにアクセスするには、次の呼び出しをおこないます。
+その後、単一のスクリーンディスプレイにアクセスするには、次のように呼び出すことができます。
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
@@ -117,7 +123,7 @@ Host: http://localhost:4502
 
 ## リソースに対するアクションの実行 {#executing-actions-on-the-resource}
 
-API 呼び出しで返される JSON コードには、リソースに対して使用可能なアクションのリストを含めることができます。
+API 呼び出しで返される JSON コードには、リソースで使用可能なアクションのリストが含まれる場合があります。
 
 例えば、このディスプレイでは、割り当てられているすべてのデバイスへのコマンド送信を許可する *broadcast-command* アクションがリストされています。
 

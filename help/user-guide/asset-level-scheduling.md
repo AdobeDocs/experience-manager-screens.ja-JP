@@ -5,7 +5,7 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-TQID: https://experienceleague.adobe.com/6ZaAh-q6ZXjHFhdPDqnJi4n08TXLSd8ZNggljGoIPzA
+TQID: 'https://experienceleague.adobe.com/6ZaAh-q6ZXjHFhdPDqnJi4n08TXLSd8ZNggljGoIPzA'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
     internal-label: Experience Manager Screens
@@ -14,9 +14,13 @@ product_v2:
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
     internal-label: Authoring Screens
+  - id: facbaac7-c94d-465b-aee8-c0e11fad102c
+    internal-label: Core product features
 subfeature_v2:
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
     internal-label: Content
+  - id: dd61f770-f8ea-40b1-a514-7e4cb7480bc4
+    internal-label: Asset Level Activation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -28,7 +32,7 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
 source-wordcount: '1559'
 ht-degree: 83%
@@ -36,7 +40,7 @@ ht-degree: 83%
 # アセットレベルのアクティベーション {#asset-level-scheduling}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 このページでは、チャネルで使用されるアセットのアセットレベルのアクティベーションについて説明します。
 
@@ -192,7 +196,7 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 
 >[!NOTE]
 >
->&#x200B;>必要に応じて、**次の日から開始**&#x200B;フィールドと&#x200B;**次の日まで有効**&#x200B;フィールドをスキップするか、それらを含めてスケジュールフィールドに式を追加できます。
+>>必要に応じて、**次の日から開始**&#x200B;フィールドと&#x200B;**次の日まで有効**&#x200B;フィールドをスキップするか、それらを含めてスケジュールフィールドに式を追加できます。
 
 1. 「**スケジュール**」に式を入力すると、特定の日時間隔でアセットが表示されます。
 

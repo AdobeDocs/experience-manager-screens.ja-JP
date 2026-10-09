@@ -5,42 +5,57 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-TQID: https://experienceleague.adobe.com/ZrifVE5hQIzwTt75cQ-5Q-BNqpB0doqh2IMLuUaa82g
+TQID: 'https://experienceleague.adobe.com/ZrifVE5hQIzwTt75cQ-5Q-BNqpB0doqh2IMLuUaa82g'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: b844878e-e10f-4719-b9dc-dd9b362335de
+    internal-label: Configuration and administration
+  - id: facbaac7-c94d-465b-aee8-c0e11fad102c
+    internal-label: Core product features
+subfeature_v2:
+  - id: d60b52d2-425a-4695-8bae-976f27c4fef5
+    internal-label: Overview
+  - id: b0723018-81e0-4ba1-b4be-7cf61cc8c2ce
+    internal-label: Digital signage
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Security
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1343
+source-wordcount: '1343'
 ht-degree: 93%
-
 ---
-
 # キックスタートガイド {#kickstart-guide}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 AEM Screens のキックスタートで、AEM Screens プロジェクトの設定および実行方法について説明します。 デジタルサイネージエクスペリエンスの基本的な設定、アセットやビデオなどのコンテンツの各チャネルへの追加、さらにそのコンテンツの AEM Screens Player への公開に関する手順を説明します。
 
 >[!NOTE]
->プロジェクトの詳細に関する作業の前に、AEM Screens の最新の機能パックがインストールされていることを確認してください。 Adobe ID を使用して、最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html)からダウンロードできます。
+>プロジェクト詳細を確認する前に、AEM Screens の最新の機能パックがインストールされていることを確認してください。 Adobe ID を使用して、最新の機能パックを[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html)からダウンロードできます。
 
 ## 前提条件 {#prerequisites}
 
 次の手順に従って、AEM Screens のサンプルプロジェクトを作成し、さらにコンテンツを Screens Player に公開します。
 
 >[!NOTE]
->次のチュートリアルは、Chrome OS プレーヤーでチャネルのコンテンツを再生する場合を示します。
+>次のチュートリアルでは、Chrome OS プレーヤーでチャネルのコンテンツを再生する方法を紹介します。
 
 >[!IMPORTANT]
->**OSGi構成設定デバイスからサーバーへのデータの投稿を許可するには、空のリファラーを有効にする必要があります。 例えば、空のリファラーのプロパティが無効になっていると、デバイスからスクリーンショットを投稿できません。 現在、これらの機能の一部は、OSGi設定で`Apache Sling` Referrer Filter Allow Emptyが有効になっている場合にのみ使用できます。 ダッシュボードには、セキュリティ設定がこれらの機能の一部の動作を妨げる可能性があることを示す警告が表示される場合があります。***Apache Sling Referrer Filter の「Allow Empty」設定***を有効にするには、次の手順に従います。
+>**OSGi構成設定**
+>デバイスからサーバーへのデータの投稿を許可するには、空のリファラーを有効にする必要があります。 例えば、空のリファラーのプロパティが無効になっていると、デバイスからスクリーンショットを投稿できません。 現在、これらの機能の一部は、OSGi設定で`Apache Sling` Referrer Filter Allow Emptyが有効になっている場合にのみ使用できます。 ダッシュボードには、セキュリティ設定がこれらの機能の一部の動作を妨げる可能性があることを示す警告が表示される場合があります。
+>***Apache Sling Referrer Filter の「Allow Empty」設定***&#x200B;を有効にするには、次の手順に従います。
 
 
 ## 空のリファラー要求の許可 {#allow-empty-referrer-requests}
@@ -63,7 +78,7 @@ AEM Screens のキックスタートで、AEM Screens プロジェクトの設�
 
 ### AEM Screens プロジェクトの作成 {#creating-project}
 
-最初の手順は AEM Screens プロジェクトを作ることです。
+最初の手順は AEM Screens プロジェクトを作成することです。
 
 1. Adobe Experience Manager（AEM）インスタンスに移動し、「**Screens**」をクリックします。 または、`https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens` から直接アクセスすることもできます。
 
@@ -184,7 +199,8 @@ AEM Screens プロジェクトを作成したら、コンテンツを管理す�
    また、「**アクティベーションウィンドウ**」と「**繰り返しスケジュール**」もクリックできます。
 
    >[!NOTE]
-   >*繰り返しスケジュール*&#x200B;を使用すると、チャネルの定期的なスケジュールを設定できます。 1 つのチャネルに対して、複数の繰り返しスケジュールを設定できます。   >詳しくは、「[繰り返しスケジュール](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule)」を参照してください。
+   >*繰り返しスケジュール*を使用すると、チャネルの定期的なスケジュールを設定できます。 1 つのチャネルに対して、複数の繰り返しスケジュールを設定できます。
+   >詳しくは、「[繰り返しスケジュール](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule)」を参照してください。
 
 1. 環境を設定したら、「**保存**」をクリックします。
 
@@ -218,7 +234,7 @@ Chrome OS プレーヤーがオンになったら、次の手順に従って Chr
 
    ![画像](assets/kickstart/demo-register2.png)
 
-1. デバイスが登録コードを送信するのを待機し、同時に、Chrome デバイスで&#x200B;**登録コード**&#x200B;を確認します。
+1. デバイスが登録コードを送信するのを待機し、同時に、Chrome デバイスで&#x200B;**登録コード**を確認します。
    ![画像](assets/kickstart/demo-register3.png)
 
 1. 両方のコンピューターの&#x200B;**登録コード**&#x200B;が同じである場合は、AEM の「**検証**」をクリックします。
@@ -239,7 +255,7 @@ Chrome OS プレーヤーがオンになったら、次の手順に従って Chr
 
    ![画像](assets/kickstart/demo-register8.png)
 
-1. 「**完了**」をクリックして、登録プロセスを完了します。 登録済みのデバイスがディスプレイダッシュボードに表示されます。
+1. 「**完了**」をクリックして、登録プロセスを完了します。 登録済みのデバイスをディスプレイダッシュボードで表示できるようになりました。
 
    ![画像](assets/kickstart/demo-register9.png)
 
@@ -247,7 +263,7 @@ Chrome OS プレーヤーがオンになったら、次の手順に従って Chr
 
 チャネル内のすべてのアセットが Chrome OS プレーヤーで再生されるようになりました。
 
-下図では、AEM Screens チャネルのコンテンツを再生しています。
+これで、AEM Screens チャネルでコンテンツを再生できるようになりました。
 
 ![画像](assets/kickstart/demo-video-screens.gif)
 

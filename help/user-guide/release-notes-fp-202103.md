@@ -5,23 +5,29 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
-TQID: https://experienceleague.adobe.com/x7dgY8u-SdWo2JRK1W2uqRWtHy2wtXdAnIcS0gRoxiY
+TQID: 'https://experienceleague.adobe.com/x7dgY8u-SdWo2JRK1W2uqRWtHy2wtXdAnIcS0gRoxiY'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Implementation
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 407
+source-wordcount: '407'
 ht-degree: 100%
-
 ---
-
 # 機能パック 202103 のリリースノート {#release-notes-for-feature-pack}
 
 >[!CAUTION]
@@ -65,7 +71,7 @@ AEM Screens 機能パック 202103 のリリース日は 2021年3月5日です�
 
 * 割り当てたチャネルのスケジュールの「*繰り返し*」フィールドを変更すると UI が正常に動作しなくなる問題を修正しました。
 
-* クエリの例外が発生して「オフラインコンテンツを更新」が正常に機能しない問題を修正しました。
+* オフラインコンテンツの更新は、クエリ例外が原因で失敗していました。
 
 * インタラクティブなエクスペリエンスにおけるインタラクションで発生する、トランジション間のタイムラグを修正しました。
 

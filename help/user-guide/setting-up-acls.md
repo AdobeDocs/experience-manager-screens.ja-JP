@@ -9,27 +9,33 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-TQID: https://experienceleague.adobe.com/jqnuLmKXfDCSHbnVTwBRBZsCyXUVn7OghNa00-62WeM
+TQID: 'https://experienceleague.adobe.com/jqnuLmKXfDCSHbnVTwBRBZsCyXUVn7OghNa00-62WeM'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Security
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 550
+source-wordcount: '550'
 ht-degree: 78%
-
 ---
-
 # アクセス制御リスト（ACL）の設定 {#setting-up-acls}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 次の節では、アクセス制御リスト（ACL）を使用してプロジェクトを分離し、各ユーザーまたはチームが独自のプロジェクトを処理できるようにする方法について説明します。
 
@@ -84,7 +90,7 @@ AEM 管理者は、プロジェクトのチームメンバーが他のプロジ�
 | `/content/screens/<project>` | すべて | /content/screens の下にある他のすべてのプロジェクトへのアクセス権を削除します。 |
 | `/content/screens/svc` | 読み取り | 登録サービスへのアクセス権を付与します。 |
 | `/libs/screens` | 読み取り | DCC へのアクセス権を付与します。 |
-| `/var/contentsync/content/screens/` | すべて | プロジェクトのオフラインコンテンツを更新できます。 |
+| `/var/contentsync/content/screens/` | すべて | プロジェクトのオフラインコンテンツの更新に役立ちます。 |
 
 >[!NOTE]
 >
@@ -98,7 +104,7 @@ AEM 管理者は、プロジェクトのチームメンバーが他のプロジ�
 
 * Screens プロジェクト管理者
 * Screens プロジェクトオペレーター（プレーヤーの登録、場所およびデバイスの管理）
-* Screens プロジェクトユーザー（チャネル、スケジュールおよびチャネル割り当ての作業）
+* Screens プロジェクトユーザー（チャネル、スケジュールおよびチャネル割り当てを扱う）
 
 次の表に、AEM Screens プロジェクト用のグループの説明および権限を示します。
 

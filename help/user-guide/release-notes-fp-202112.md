@@ -5,21 +5,26 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-TQID: https://experienceleague.adobe.com/jtzPyVOZWrsZO436hL54W42VsLQa8QuU0-5sAEK8q78
+TQID: 'https://experienceleague.adobe.com/jtzPyVOZWrsZO436hL54W42VsLQa8QuU0-5sAEK8q78'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 340
+source-wordcount: '340'
 ht-degree: 100%
-
 ---
-
 # 機能パック 202112 のリリースノート {#release-notes-for-feature-pack}
 
 >[!CAUTION]
@@ -37,13 +42,13 @@ AEM Screens 機能パック 202112 のリリース日は 2022年1月12日（PT�
 
 ### 新機能 {#what-is-new}
 
-* Android™ アプリケーションのアップデートは、Android™ 11（API レベル 30）を対象とするようになりました。 現在、Android™ プレーヤーはターゲット API レベル 29 です。
+* Android™ アプリケーションのアップデートは、Android™ 11（API レベル 30）を対象とするようになりました。 現在、Android™ プレーヤーのターゲット API レベルは 29 です。
 
 * 以前のプレーヤー設定でディスプレイのプレビューが停止する
 
 * 一部の状況でディスプレイのプレビューがレンダリングされない
 
-* SmartSync の同時ダウンロードエラーを修正しました
+* SmartSync の同時ダウンロードエラーの修正
 
 * 開発者は、マニフェスト内の対応するアセットの下でレンディションエントリとしてのみリストされるアセットレンディションを表示します。 これにより、マニフェストの処理の拡張性、明確性および容易さを確保できます。
 
@@ -53,13 +58,13 @@ AEM Screens 機能パック 202112 のリリース日は 2022年1月12日（PT�
 
 * オンプレミスプレーヤーのログを収集し、ブラックスクリーンがないか分析します。
 
-* 分割画面チャネルでプレーヤーに空白画面が表示される問題を修正しました
+* 分割チャネルでプレーヤーに空白画面が表示される問題を修正しました
 
 * 公開 Maven にコアバンドルを追加し、カスタムハンドラーのドキュメントを修正しました。
 
-* プレーヤーはアップグレード後にファームウェアバージョンを更新していませんでした。 このバグは修正されました。
+* プレーヤーはアップグレード後にファームウェアバージョンを更新しませんでした。 このバグは修正されました。
 
-* 以前のプレーヤー設定でディスプレイのプレビューが停止します。
+* ディスプレイのプレビューが以前のプレーヤー設定のままになります。
 
 * 一部の状況でディスプレイのプレビューがレンダリングされません。
 
@@ -67,7 +72,7 @@ AEM Screens 機能パック 202112 のリリース日は 2022年1月12日（PT�
 
 ### リリースされている AEM Screens Player
 
-AEM Screens 6.5 機能パック 10 向けに、次の AEM Screens Player がリリースされています。
+AEM 6.5 機能パック 10 向けに、次の AEM Screens Players がリリースされています。
 
 * Chrome OS
 * Windows

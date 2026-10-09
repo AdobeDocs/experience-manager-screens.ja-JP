@@ -39,7 +39,7 @@ ht-degree: 94%
 # AEM Screens コンポーネントの拡張
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 以下のチュートリアルでは、標準搭載の AEM Screens コンポーネントを拡張する際の手順とベストプラクティスについて説明します。 画像コンポーネントが拡張されて、オーサリング可能なテキストオーバーレイが追加されます。
 
@@ -73,7 +73,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
    [ファイルの取得](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
-   [ ファイルを取得](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
+   [&#x200B; ファイルを取得](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
    **（オプション）** Eclipse などの IDE を使用して作業する場合は、以下のソースパッケージをダウンロードします。 次の Maven コマンドを使用して、プロジェクトをローカルの AEM インスタンスにデプロイします。
 
    **`mvn -PautoInstallPackage clean install`**
@@ -152,7 +152,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
    1. ダイアログのコピー元：`/libs/wcm/foundation/components/image/cq:dialog`
    1. ダイアログの貼り付け先のパス：`/apps/weretail-run/components/content/poster`
 
-   ![ ダイアログを/libs/wcm/foundation/components/image/cq:dialogから/apps/weretail-run/components/content/poster](assets/2018-05-03_at_4_13pm.png)にコピーしました
+   ![&#x200B; ダイアログを/libs/wcm/foundation/components/image/cq:dialogから/apps/weretail-run/components/content/poster](assets/2018-05-03_at_4_13pm.png)にコピーしました
 
    ダイアログを `/libs/wcm/foundation/components/image/cq:dialog` から `/apps/weretail-run/components/content/poster` にコピーしました
 

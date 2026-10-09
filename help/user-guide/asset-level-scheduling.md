@@ -40,7 +40,7 @@ ht-degree: 83%
 # アセットレベルのアクティベーション {#asset-level-scheduling}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 このページでは、チャネルで使用されるアセットのアセットレベルのアクティベーションについて説明します。
 
@@ -196,7 +196,7 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 
 >[!NOTE]
 >
->>必要に応じて、**次の日から開始**&#x200B;フィールドと&#x200B;**次の日まで有効**&#x200B;フィールドをスキップするか、それらを含めてスケジュールフィールドに式を追加できます。
+>&#x200B;>必要に応じて、**次の日から開始**&#x200B;フィールドと&#x200B;**次の日まで有効**&#x200B;フィールドをスキップするか、それらを含めてスケジュールフィールドに式を追加できます。
 
 1. 「**スケジュール**」に式を入力すると、特定の日時間隔でアセットが表示されます。
 

@@ -5,12 +5,15 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b26ed2de-2e47-4dd5-be1c-4c46971e9f6d
-TQID: https://experienceleague.adobe.com/1GxEp-2EEjxg0HTgYYiJRORxMqTFZA2cv9gNe-AXspE
+TQID: 'https://experienceleague.adobe.com/1GxEp-2EEjxg0HTgYYiJRORxMqTFZA2cv9gNe-AXspE'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
     internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
@@ -20,7 +23,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 88%

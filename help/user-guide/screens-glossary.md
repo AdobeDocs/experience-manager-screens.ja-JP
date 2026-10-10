@@ -5,21 +5,29 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 5b5d5251-90bf-4ef0-8300-76093f725291
-TQID: https://experienceleague.adobe.com/7wZWJnsszMHUi8OvOnUHVrJIotg0CE395r0yPlu-6-A
+TQID: 'https://experienceleague.adobe.com/7wZWJnsszMHUi8OvOnUHVrJIotg0CE395r0yPlu-6-A'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: b844878e-e10f-4719-b9dc-dd9b362335de
+    internal-label: Configuration and administration
+subfeature_v2:
+  - id: d60b52d2-425a-4695-8bae-976f27c4fef5
+    internal-label: Overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Beginner
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 488
+source-wordcount: '488'
 ht-degree: 90%
-
 ---
-
 # 用語集 {#glossary}
 
 >[!IMPORTANT]

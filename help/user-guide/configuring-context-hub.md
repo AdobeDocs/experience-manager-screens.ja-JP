@@ -10,36 +10,43 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-TQID: https://experienceleague.adobe.com/aLtguYZ6JwUbzmMP1S3UvOJ2b0RoFimlPvSE7AJ5Csg
+TQID: 'https://experienceleague.adobe.com/aLtguYZ6JwUbzmMP1S3UvOJ2b0RoFimlPvSE7AJ5Csg'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+    internal-label: Personalization
+  - id: 7ddc0e74-2124-5f1a-82c8-6cf1b0764d99
+    internal-label: Developing Screens
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Personalization
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1537
+source-wordcount: '1537'
 ht-degree: 95%
-
 ---
-
 # AEM Screens での ContextHub の設定 {#configuring-contexthub-in-aem-screens}
 
 >[!IMPORTANT]
 >このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
-この節では、データストアを使用したデータ主導型アセット変更の作成と管理について重点的に説明します。
+この節では、データストアを使用したデータドリブンのアセット変更の作成と管理について重点的に説明します。
 
 ## キーワード {#key-terms}
 
-AEM Screens プロジェクトの在庫主導型チャネルを作成および管理する方法の詳細に立ち入る前に、様々なシナリオのキーワードをいくつか説明します。
+AEM Screens プロジェクトの在庫主導型チャネルを作成および管理する方法の詳細に立ち入る前に、様々なシナリオに関する主要な用語をいくつか学びます。
 
 **ブランド** - プロジェクトの概要。
 
@@ -124,7 +131,7 @@ AEM Screens プロジェクト用に ContextHub の設定を開始する前に�
    >1. `cloudsettings1` を `cloudsettings` に名前変更して保存します。
    >1. `/conf/screens/settings/cloudsettings` が `sling:Folder` として `jcr:primaryType` を持っていることを確認します。
    >
-   >アップグレードの前後に、オーサーとパブリッシュで以上の手順を実行します。
+   >アップグレードの前または後に、オーサーとパブリッシュでこれらの手順を実行します。
 
    1. 「**タイトル**」に「**Google Sheets**」、「**ストア名**」に **`googlesheets`**、「**ストアの種類**」に「**c`ontexthub.generic-jsonp`**」と、それぞれ入力して、「**次へ**」をクリックします。
 
@@ -217,7 +224,7 @@ AEM Screens プロジェクト用に ContextHub の設定を開始する前に�
       >[!CAUTION]
       >
       >既知の問題：
-      >領域を追加するには、URL（例えば下記）からプライマリを削除します。
+      >領域を追加するには、URL（例えば下記）から primary を削除します。
       >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`
 
 1. **ブランドに領域を作成する**
@@ -230,7 +237,8 @@ AEM Screens プロジェクト用に ContextHub の設定を開始する前に�
 
    1. **ページを作成**&#x200B;ウィザードで「**領域**」をクリックし、「**次へ**」をクリックします。
 
-   1. 「**タイトル**」に「**ScreensValue**」と入力し、「**作成**」をクリックします。ブランドに領域が作成されます。
+   1. 「**タイトル**」に「**ScreensValue**」と入力し、「**作成**」をクリックします。
+      ブランドに領域が作成されます。
 
 ## 手順 5：アクティビティでのセグメントの作成 {#step-setting-up-audience-segmentation}
 

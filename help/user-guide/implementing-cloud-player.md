@@ -8,23 +8,29 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-TQID: https://experienceleague.adobe.com/cqLg9YgSbzZMZ9q0C1ZheiZ-e3cN38EI69hL-l7Tgeg
+TQID: 'https://experienceleague.adobe.com/cqLg9YgSbzZMZ9q0C1ZheiZ-e3cN38EI69hL-l7Tgeg'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Implementation
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 955
+source-wordcount: '955'
 ht-degree: 94%
-
 ---
-
 # Cloud Player の実装 {#implementing-cloud-player}
 
 >[!IMPORTANT]
@@ -51,7 +57,7 @@ Cloud Player のインストールは、プラットフォームによって異�
 
    ![画像](/help/user-guide/assets/cloud-player-install.png)
 
-1. 確認ダイアログボックスで、インストールアイコンとインストールボタンをクリックします。 Cloud Player は、スタンドアロンアプリケーションとしてデバイスにインストールされ、アイコンを使用して起動できます。
+1. 確認ダイアログで、インストールアイコンとインストールボタンをクリックします。 Cloud Player は、スタンドアロンアプリケーションとしてデバイスにインストールされ、アイコンを使用して起動できます。
 
 >[!NOTE]
 >
@@ -70,7 +76,7 @@ Cloud Player のインストールは、プラットフォームによって異�
 
 複数のデバイスで Cloud Player の一括プロビジョニングを行うには、次の手順に従います。
 
-1. キオスクモードでの URL を使用したブラウザーの実行をサポートする MDM ソリューションを選択します。
+1. URL を指定してブラウザーをキオスクモードで実行することをサポートする MDM ソリューションを選択します。
 1. すべてのデバイスに同じ設定を適用するには、次の手順に従います。
 
    1. `https://<config_server_host>/config.json` のように、アクセスできるようにサーバー上で config.json をホストします。
@@ -84,7 +90,7 @@ Chrome OS での一括プロビジョニングの詳細を説明します。 [Ch
 
 ## AEM インスタンスに必要な設定 {#bulk-provisioning-config-aem}
 
-AEM インスタンスのタイプに基づいて、次のガイドのいずれかをクリックし、AEM および Cloud Player との CORS を有効にします。
+AEM インスタンスのタイプに基づいて、次のガイドのいずれかをクリックし、AEM と Cloud Player 間の CORS を有効にします。
 
 * [AEM オンプレミス／AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
 
@@ -97,7 +103,7 @@ AEM インスタンスのタイプに基づいて、次のガイドのいずれ�
 >
 >1. Chrome OS ハードウェア上の Chrome アプリ：
 >
->   Google は、PWA アプリを優先して Chrome アプリの非推奨（廃止予定）を積極的に進めており、2025年1月までに移行を完了する予定です。 そのため、Chrome OS 上の AEM Screens Player アプリは、共有タイムラインに基づいて機能しなくなります。 アドビは、現在 Chrome Player を実稼動環境で使用しているユーザーに対して、Screens Cloud Player への移行を計画するように促します。
+>   Google は、PWA アプリを優先して Chrome アプリの非推奨（廃止予定）を積極的に進めており、2025年1月までに移行を完了する予定です。 そのため、Chrome OS 上の AEM Screens Player アプリは、共有タイムラインに基づいて機能しなくなります。 アドビは、現在 Chrome Player を本番環境で使用しているユーザーに対して、Screens Cloud Player への移行を計画するように促します。
 >
 >1. Mac、Windows および Linux® 上の Chrome 拡張機能プレーヤー：
 >
@@ -105,9 +111,9 @@ AEM インスタンスのタイプに基づいて、次のガイドのいずれ�
 
 ## 外部コンテンツ取得のオフラインサポート {#offline-support}
 
-様々な使用シナリオでは、チャネルは、本質的にオフラインサポートを提供できない外部ソース（天気予報ウィジェットやコマース統合単一ページアプリケーションなど）からのコンテンツの取得を必要とする場合があります。 これらの特定のユースケースでオフライン機能を有効にするために、Cloud Player ではカスタムヘッダーのサポートを提供します。
+様々な使用シナリオでは、チャネルは、本質的にオフラインサポートを提供できない外部ソース（天気予報ウィジェットや Commerce 統合単一ページアプリケーションなど）からのコンテンツの取得を必要とする場合があります。 これらの特定のユースケースでオフライン機能を有効にするために、Cloud Player ではカスタムヘッダーのサポートを提供します。
 
-Cloud Player では、ネットワークファーストのキャッシュ戦略を採用しています。つまり、ネットワークからコンテンツを取得し（その後、最新でキャッシュを更新し）、キャッシュされたコンテンツが使用可能な場合はフォールバックします。 このようなコンテンツ取得のオフラインサポートを実装するには、リクエストにカスタムヘッダーを含める必要があります。 その後、カスタムヘッダーを含むリクエストがプレーヤーにキャッシュされ、ネットワークファーストのキャッシュ戦略を維持しながらコンテンツへのオフラインアクセスが簡単になります。
+Cloud Player では、ネットワークファーストのキャッシュ戦略を採用しています。つまり、ネットワークからコンテンツを取得し（その後、最新でキャッシュを更新し）、キャッシュされたコンテンツが使用可能な場合はフォールバックします。 このようなコンテンツ取得のオフラインサポートを実装するには、リクエストにカスタムヘッダーを含める必要があります。 その後、カスタムヘッダーを含むリクエストがプレーヤーにキャッシュされ、ネットワークファーストのキャッシュ戦略を維持しながらコンテンツへのオフラインアクセスが可能になります。
 
 ```
 // Sample fetch request with the 'X-Cache-Strategy' header

@@ -5,21 +5,26 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
-TQID: https://experienceleague.adobe.com/lm2FhBZ2X-GzGoCRrsUuAKmC7vPfyaPXwYXSTxxOBJg
+TQID: 'https://experienceleague.adobe.com/lm2FhBZ2X-GzGoCRrsUuAKmC7vPfyaPXwYXSTxxOBJg'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: '410'
 ht-degree: 100%
-
 ---
-
 # 機能パック 202105 のリリースノート {#release-notes-for-feature-pack}
 
 >[!CAUTION]
@@ -47,14 +52,14 @@ AEM Screens 機能パック 202105 のリリース日は 2021 年 6 月 4 日（
 * **AEM Screens Player デバイスの命名**
 
   AEM Screens Player で、デバイス名を Adobe Experience Manager（AEM）に送信できるようになりました。
-デフォルトでは、一括登録を使用してデバイスを登録すると、システムで生成されたユーザー名が「タイトル」フィールドに入力されます。 あるいは、顧客がアセットタグやその他のわかりやすい名前を使用することもできます。この場合は、その名前が AEM に表示され、適切なコンテンツを割り当てやすくなります。
+  デフォルトでは、一括登録を使用してデバイスを登録すると、システムで生成されたユーザー名が「タイトル」フィールドに入力されます。 あるいは、顧客がアセットタグやその他のわかりやすい名前を使用することもできます。この場合は、その名前が AEM に表示され、適切なコンテンツを割り当てやすくなります。
 
   サポートされている各オペレーティングシステムでの名前の設定方法については、次のドキュメントを参照してください。
 
-   * [Android™](/help/user-guide/implementing-android-player.md#name-android)
-   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-   * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+  * [Android™](/help/user-guide/implementing-android-player.md#name-android)
+  * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+  * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
+  * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
 * **マニフェストの生成**
 
@@ -67,7 +72,7 @@ AEM Screens 機能パック 202105 のリリース日は 2021 年 6 月 4 日（
 
 ### リリースされている AEM Screens Player
 
-AEM Screens 6.5 機能パック 8 向けに、次の AEM Screens Player がリリースされています。
+AEM Screens 6.5 機能パック 8 向けに、次の AEM Screens Players がリリースされています。
 
 * Chrome OS
 * Windows

@@ -9,24 +9,31 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-TQID: https://experienceleague.adobe.com/SSClqDvdUKva7LqeEJG9niJSXbaSwe2VMO2XssQaXLw
+TQID: 'https://experienceleague.adobe.com/SSClqDvdUKva7LqeEJG9niJSXbaSwe2VMO2XssQaXLw'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7ddc0e74-2124-5f1a-82c8-6cf1b0764d99
+    internal-label: Developing Screens
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Content structure
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 2414
+source-wordcount: '2414'
 ht-degree: 97%
-
 ---
-
 # AEM Screens 用カスタムコンポーネントの開発 {#developing-a-custom-component-for-aem-screens}
 
 >[!IMPORTANT]
@@ -36,7 +43,7 @@ ht-degree: 97%
 
 ## 概要 {#overview}
 
-このチュートリアルは、AEM Screens を初めて使用する開発者を対象としています。 このチュートリアルでは、AEM Screens のシーケンスチャネル用に、シンプルな「Hello World」コンポーネントを構築します。 作成者は、表示されるテキストをダイアログボックスで更新できます。
+このチュートリアルは、AEM Screens を初めて使用する開発者を対象としています。 このチュートリアルでは、AEM Screens のシーケンスチャネル用に、シンプルな「Hello World」コンポーネントを構築します。 作成者は、表示されるテキストをダイアログで更新できます。
 
 ![overviewhellow](assets/overviewhellow.png)
 
@@ -60,7 +67,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
    [ファイルの取得](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
-   &lbrack; ファイルを取得
+   [&#x200B; ファイルを取得](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
    **（オプション）** Eclipse などの IDE を使用して作業する場合は、以下のソースパッケージをダウンロードします。 次の Maven コマンドを使用して、プロジェクトをローカルの AEM インスタンスにデプロイします。
 
    **`mvn -PautoInstallPackage clean install`**
@@ -88,7 +95,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
    ![CRXDE Lite での ui.apps コードの表現](assets/uipps-contents.png)
 
-   CRXDE Lite での ui.apps コードの表現
+   CRXDE Lite での ui.apps コードの表示
 
    **Hello World** コンポーネントは、プレースホルダーにすぎません。 チュートリアルの過程で機能が追加されて、コンポーネントに表示されるメッセージを作成者が更新できるようになります。
 
@@ -114,7 +121,7 @@ AEM Screens には、従来の WCM Sites コンポーネントには必ずしも
 
 * ほとんどの Screens コンポーネントは、ターゲットのデジタルサイネージデバイス上でフルスクリーンで動作する必要があります
 * スライドショーを生成するには、ほとんどの Screens コンポーネントをシーケンスチャネルに埋め込むことができる必要があります。
-* オーサリングでは、シーケンスチャネル内の個々のコンポーネントを編集できる必要があります。そのため、フルスクリーンでのレンダリングは問題になりません
+* オーサリングでは、シーケンスチャネル内の個々のコンポーネントを編集できる必要があります。そのため、それらをフルスクリーンでレンダリングすることは論外です
 
 1. **CRXDE Lite** `http://localhost:4502/crx/de/index.jsp`（または任意の IDE）で、`/apps/weretail-run/components/content/helloworld.` に移動します。
 
@@ -205,11 +212,11 @@ AEM Screens には、従来の WCM Sites コンポーネントには必ずしも
 
    上記は、Hello World コンポーネントの編集済みマークアップです。 ダイアログメッセージが既に入力されている場合、最初のブロックにはコンポーネントの編集済みバージョンが表示されます。
 
-   ダイアログボックスメッセージがまだ入力されていない場合は、2 番目のブロックがレンダリングされます。 その場合、`cq-placeholder` と `data-emptytext` は、「***Hello World***」というラベルをプレースホルダーとしてレンダリングします。 複数のロケールでのオーサリングをサポートするために、ラベルの文字列を i18n を使用して国際化することができます。
+   ダイアログメッセージがまだ入力されていない場合は、2 番目のブロックがレンダリングされます。 その場合、`cq-placeholder` と `data-emptytext` は、「***Hello World***」というラベルをプレースホルダーとしてレンダリングします。 複数のロケールでのオーサリングをサポートするために、ラベルの文字列を i18n を使用して国際化することができます。
 
 1. **Hello World コンポーネントに使用する Screens 画像ダイアログをコピーします。**
 
-   既存のダイアログボックスを出発点にして、それに変更を加えるのが最も簡単です。
+   既存のダイアログを出発点にして、それに変更を加えるのが最も簡単です。
 
    1. ダイアログボックスのコピー元：`/libs/screens/core/components/content/image/cq:dialog`
    1. ダイアログボックスの貼り付け先のパス：`/apps/weretail-run/components/content/helloworld`
@@ -469,7 +476,7 @@ Hello World コンポーネントは、シーケンスチャネルでの使用�
 
 カスタムコンポーネントでアセット（画像、ビデオ、フォント、アイコン）、特定のアセットレンディション、クライアントサイドのライブラリ（css と js）などの外部リソースを使用している場合、これらのリソースはオフライン設定に自動的に追加されません。 これは、デフォルトでは HTML マークアップのみがバンドルされているからです。
 
-プレーヤーにダウンロードされる正確なアセットをカスタマイズし最適化できるように、アドビでは拡張メカニズムを提供しています。 このメカニズムは、カスタムコンポーネントが、それ自身の依存関係を AEM Screens のオフラインキャッシュロジックに公開できるようにするためのものです。
+プレーヤーにダウンロードされる正確なアセットをカスタマイズし最適化できるように、アドビでは拡張機能のメカニズムを提供しています。 このメカニズムは、カスタムコンポーネントが、それ自身の依存関係を AEM Screens のオフラインキャッシュロジックに公開できるようにするためのものです。
 
 以下の節では、カスタムオフラインリソースハンドラーのテンプレートを示します。 また、その特定のプロジェクトに対する `pom.xml` の最小要件も紹介します。
 
@@ -588,11 +595,11 @@ public class MyCustomHandler extends AbstractResourceHandler {
 1. `foundation/components/parbase` を直接拡張する代わりに、`screens/core/components/content/page` または `screens/core/components/content/experiencefragment` のいずれかを拡張する必要があります
 2. 埋め込みコンテンツの参照に使用するプロパティの名前は、`pagePath` である必要があります。
 
-また、これら 2 つの Screens コアコンポーネントを使用すると、必要な依存関係（クライアントサイドライブラリ、フォントなど）の一部をバンドルできるという追加の利点も得られます。 この機能は、コンポーネントダイアログボックスのオフライン設定オプションで実行されます。 これにより、それを実現する場合に使用する必要があるカスタムオフラインハンドラーの責任が軽減されます。 場合によっては、そもそも使用する必要性そのものがなくなることさえあります。
+また、これら 2 つの Screens コアコンポーネントを使用すると、必要な依存関係（クライアントサイドライブラリ、フォントなど）の一部をバンドルできるという追加の利点も得られます。 この機能は、コンポーネントダイアログのオフライン設定オプションによって実現されます。 これにより、それを実現する場合に使用する必要があるカスタムオフラインハンドラーの責任が軽減されます。 場合によっては、そもそも使用する必要性そのものがなくなることさえあります。
 
 ## 完成したコード {#finished-code}
 
-チュートリアルで完成したコードは以下のとおりです。 **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** と **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** は、コンパイル済みの AEM パッケージです。 SRC-screens-wertail-run-0.0.1.zip は、Maven を使用してデプロイできる未コンパイルのソースコードです。
+チュートリアルで完成したコードは以下のとおりです。 **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** と **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** は、コンパイル済みの AEM パッケージです。 **SRC-screens-weretail-run-0.0.1.zip &#x200B;** は、Maven を使用してデプロイできる未コンパイルのソースコードです。
 
 [ファイルの取得](assets/screens-weretail-runuiapps-001-snapshot.zip)
 

@@ -1,6 +1,6 @@
 ---
 title: リモート制御の実装
-description: AEM Screens の Screens リモート制御機能について説明します。
+description: AEM Screens のリモート制御機能について説明します。
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,21 +9,26 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
-TQID: https://experienceleague.adobe.com/h0uMKe14q8sbQZON0H3KCUPbUjD1ex9vfpVsceR3bJw
+TQID: 'https://experienceleague.adobe.com/h0uMKe14q8sbQZON0H3KCUPbUjD1ex9vfpVsceR3bJw'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 398
+source-wordcount: '398'
 ht-degree: 80%
-
 ---
-
 # Screens リモート制御の使用 {#implementing-remote-control}
 
 >[!IMPORTANT]
@@ -33,14 +38,14 @@ ht-degree: 80%
 
 ## リモート制御キーの一般的な組み合わせ {#using-common-remote-control}
 
-すべてのプレーヤーで、次のキーの組み合わせを Screens リモート制御で使用できます。
+すべてのプレーヤーで、Screens Remote Control では次のキーの組み合わせを使用できます。
 
 1. 管理 UI の切り替え - Ctrl + 1
 1. チャネルスイッチャーの切り替え - Ctrl + 2
 1. キャッシュのクリア - Ctrl + Alt + 3
 1. プレーヤーのリロード - Ctrl + 4
 
-## リモート制御キーの Tizen 固有の組み合わせ {#using-tizen-remote-control}
+## Tizen 固有のリモート制御キーの組み合わせ {#using-tizen-remote-control}
 
 Tizen プレーヤーに限り、Samsung RMS で利用可能なハードウェアリモコンまたはソフトウェアリモコンのいずれかを使用して、次の機能にアクセスできます。
 
@@ -52,7 +57,7 @@ Tizen プレーヤーに限り、Samsung RMS で利用可能なハードウェ�
 ## その他の使用上のメモ {#using-additional-remote-control}
 
 1. 管理 UI が開いた状態で、上下の矢印キーを使用してタブを移動し、すべてのタブの情報を確認できます。
-1. チャネルスイッチャーを開いた状態で、上下の矢印キーを使用してチャネルを移動できます。 `Enter` キー（またはリモコンの矢印の中央にあるボタン）を押してチャネルを切り替えることもできます。
+1. チャネルスイッチャーを開いた状態で、上向き／下向き矢印キーを使用してチャネル間を移動できます。 `Enter` キー（またはリモコンの矢印の中央にあるボタン）を押してチャネルを切り替えることもできます。
 
 次の図は、Samsung リモートでのキーの使用状況を示しています。
 ![画像](assets/tizen/remote.png)

@@ -1,27 +1,35 @@
 ---
 title: Tizen プレーヤー
-description: Tizen プレーヤーのインストールと操作について説明します。
+description: Tizen プレーヤーのインストールと動作について説明します。
 feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-TQID: https://experienceleague.adobe.com/IpBm16TbDD5MoD6p3BU4vPcmatz5dCpkc-dStlr6hI8
+TQID: 'https://experienceleague.adobe.com/IpBm16TbDD5MoD6p3BU4vPcmatz5dCpkc-dStlr6hI8'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
+  - id: c5322876-5f25-5295-aae6-7dbbb1548c49
+    internal-label: Players
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Troubleshooting
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1274
+source-wordcount: '1274'
 ht-degree: 90%
-
 ---
-
 # Tizen プレーヤーの実装 {#tizen-player}
 
 >[!IMPORTANT]
@@ -75,7 +83,7 @@ Samsung デバイスの次の手順に従うと、デバイスに AEM Screens Pl
 1. 「**URL ランチャー設定**」に移動し、localhost サーバーの IP アドレスを入力して、「**完了**」をクリックします。
 
    >[!NOTE]
-   >Tizen プレーヤーが HTTP サーバーに接続できるようになります。
+   >Tizen プレーヤーは HTTP サーバーに接続できる必要があります。
 
 1. AEM Screens プレーヤーが Samsung デバイスに自動的にインストールされて起動します。
 
@@ -92,7 +100,7 @@ Samsung デバイスの次の手順に従うと、デバイスに AEM Screens Pl
 
 *SameSite=None* を使用する場合に、その属性に対応していないこれらのクライアントを適用対象外にするには、次の手順に従います。
 
-1. Adobe Experience Manager（AEM）Service Pack 6.5.7 にアップグレードします。
+1. Adobe Experience Manager（AEM）サービスパック 6.5.7 にアップグレードします。
 
 1. AEM を再起動した後、`/system/console/configMgr` に移動し、**Adobe Granite Token Authentication Handler** を探します。 **SameSite** の値を「**None**」に設定します。
 
@@ -110,7 +118,9 @@ Tizen プレーヤーをリモートでプロビジョニングすると、数�
 
 この機能を利用すると、Tizen プレーヤーをリモートで設定し、必要に応じてその設定を一元的に更新できます。 必要なのは、Tizen アプリケーション `(wgt and xml file)` をホストするための `HTTP` サーバーと、適切なパラメーターを記述した `config.json` を保存するためのテキストエディターだけです。
 
-Tizen デバイスに URL ランチャーアドレスが設定されていることを確認します。 ホームボタン／URL ランチャーの設定をクリックします。Tizen アプリケーションをホストする `HTTP` サーバー上で、`config.json` ファイルを `wgt` ファイルと同じ場所に置きます。 ファイル名は `config.json` にする必要があります。Tizen プレーヤーがインストールされ、プレーヤーの起動時（および再起動時）に `config.json` ファイル内の設定がチェックされ適用されます。
+Tizen デバイスに URL ランチャーアドレスが設定されていることを確認します。 ホームボタン／URL ランチャーの設定をクリックします。
+Tizen アプリケーションをホストする `HTTP` サーバー上で、`config.json` ファイルを `wgt` ファイルと同じ場所に置きます。 ファイル名は `config.json` にする必要があります。
+Tizen プレーヤーがインストールされ、プレーヤーの起動時（および再起動時）に `config.json` ファイル内の設定がチェックされ適用されます。
 
 ### JSON ポリシーの例 {#example-json}
 
@@ -129,7 +139,8 @@ Tizen デバイスに URL ランチャーアドレスが設定されているこ
 次の表に、ポリシーとその機能の概要を示します。
 
 >[!NOTE]
->プレーヤーの管理 UI ポリシー設定は厳密に適用され、手動で上書きされることはありません。 特定のポリシーに対して手動のプレーヤー設定を許可する場合は、ポリシー設定でポリシーを指定しないでください。例えば、再起動スケジュールの手動設定を許可する場合は、ポリシー設定で `rebootSchedule` キーを指定しないでください。 ポリシー設定は、プレーヤーが再読み込みされるたびに読み取られます。
+>プレーヤーの管理 UI ポリシー設定は厳密に適用され、手動で上書きされることはありません。 特定のポリシーに対して手動のプレーヤー設定を許可する場合は、ポリシー設定でポリシーを指定しないでください。
+>例えば、再起動スケジュールの手動設定を許可する場合は、ポリシー設定で `rebootSchedule` キーを指定しないでください。 ポリシー設定は、プレーヤーが再読み込みされるたびに読み取られます。
 
 | **ポリシー名** | **目的** |
 |---|---|

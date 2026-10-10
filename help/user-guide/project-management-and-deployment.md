@@ -1,6 +1,6 @@
 ---
-title: 第 4 部：プロジェクトの管理とデプロイメント
-description: AEM Screens に対するプロジェクトの管理とデプロイメントの準備（プロジェクトのプリプロダクション、プロジェクトの開始、プロジェクトの進行）について説明します。
+title: 第 4 部 プロジェクトの管理とデプロイメント
+description: AEM Screens のプロジェクト管理とデプロイメント準備（プロジェクトのプリプロダクション、プロジェクトの開始、プロジェクトの進行）について説明します。
 contentOwner: jsyal
 content-type: reference
 topic-tags: digital-signage-networks-basics
@@ -10,23 +10,32 @@ feature: Overview
 role: User, Developer
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-TQID: https://experienceleague.adobe.com/HFEJGJVn70peZ4VRDH39uZKXkKiktLDAMSJgjQN1h-E
+TQID: 'https://experienceleague.adobe.com/HFEJGJVn70peZ4VRDH39uZKXkKiktLDAMSJgjQN1h-E'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: b844878e-e10f-4719-b9dc-dd9b362335de
+    internal-label: Configuration and administration
+subfeature_v2:
+  - id: d60b52d2-425a-4695-8bae-976f27c4fef5
+    internal-label: Overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Beginner
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 721
+source-wordcount: '721'
 ht-degree: 89%
-
 ---
-
-# 第 4 部：プロジェクトの管理とデプロイメント {#part-project-management-and-deployment}
+# 第 4 部 プロジェクトの管理とデプロイメント {#part-project-management-and-deployment}
 
 >[!IMPORTANT]
 >このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
@@ -41,7 +50,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->長期的に成功を収めるには、デジタルサイネージの大規模なデプロイメントのプロジェクト管理に関する専門知識を持つ AV インテグレーターを特定することが重要です。 AV インテグレーターと AEM 実装担当者のプロジェクトプランを比較することをお勧めします。 これにより、計画を作成し、確定する際の整合性が確保されます。
+>長期的に成功を収めるには、デジタルサイネージの大規模なデプロイメントのプロジェクト管理に関する専門知識を持つ AV インテグレーターを特定することが重要です。 AV インテグレーターと AEM 実装担当者の間でプロジェクト計画を比較することをお勧めします。 これにより、計画を作成し、確定する際の整合性が確保されます。
 >
 >プロジェクトの「プリプロダクション」、開始、進行の各段階を総合的に管理するパートナーは、エンドクライアントが投資から最大の価値を実現できるようになるための支援を提供します。
 
@@ -84,11 +93,11 @@ ht-degree: 89%
 
 Day 1 イニシアチブの終わりには、NOC への引き渡しを完了することになります。 完了したプロジェクトに Day 2 のサービスおよびサポートが含まれている場合、プロジェクトマネージャーは、これらのチームの管理者を招いて、NOC への引き渡しに関する会議を開催します。
 
-この会議は主に、アカウント管理、ネットワークオペレーション、フィールドロジスティクス、コンテンツサービス、経理の分野の AV インテグレーター担当者で構成されます。 アドビ、AEM 実装担当者、およびエンドカスタマーのプロジェクト管理担当者が AV インテグレーターと協力して、スケジュール、サイクル、トールゲートを定義します。 一般的に、プロジェクトマネージャーがディスカッションを調整して、適切な関係先との連携と NOC への引き渡し会議に必要なドキュメントの作成を確実に行えるようにするのが最善の策です。 すべての関係先のセールスおよびアカウント管理リソースに加え、おそらく IT および AV エンジニアリングチームからも重要なサポートドキュメントが提供される可能性があります。 NOC からのヘルプデスクサポートを必要とする顧客のために、ドキュメントを NOC 管理者に提供して、ナレッジベースプラットフォームにアップロードしてもらう必要があります。
+この会議は主に、アカウント管理、ネットワークオペレーション、フィールドロジスティクス、コンテンツサービス、経理の AV インテグレーター担当者で構成されます。 アドビ、AEM 実装担当者、およびエンドカスタマーのプロジェクト管理担当者が AV インテグレーターと協力して、スケジュール、サイクル、トールゲートを定義します。 一般的に、プロジェクトマネージャーがディスカッションを調整して、適切な関係先との連携と NOC への引き渡し会議に必要なドキュメントの作成を確実に行えるようにするのが最善の策です。 すべての関係先のセールスおよびアカウント管理リソースに加え、おそらく IT および AV エンジニアリングチームからも重要なサポートドキュメントが提供される可能性があります。 NOC からのヘルプデスクサポートを必要とする顧客のために、ドキュメントを NOC 管理者に提供して、ナレッジベースプラットフォームにアップロードしてもらう必要があります。
 
-## 第 4 部：プロジェクトの管理とデプロイメントに関するビデオチュートリアル {#part-video-tutorial-on-project-management-and-deployment}
+## 第 4 部：プロジェクト管理とデプロイメントに関するビデオチュートリアル {#part-video-tutorial-on-project-management-and-deployment}
 
-プロジェクトの管理とデプロイメントの準備について説明し、プロジェクトの管理とデプロイメント準備に関してオーディオビデオインテグレーターが責任を負う重要な要素を定義します。
+プロジェクト管理とデプロイメントの準備について学び、プロジェクト管理とデプロイメントの準備に関連してオーディオビデオインテグレーターが責任を負う重要な要素を定義します。
 
 ### プロジェクトの管理とデプロイメント
 

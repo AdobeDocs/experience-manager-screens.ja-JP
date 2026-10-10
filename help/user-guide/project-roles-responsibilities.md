@@ -5,29 +5,42 @@ feature: Overview
 role: User, Developer
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
-TQID: https://experienceleague.adobe.com/ULR3Fb5MatuAz2nV4W8S8Nx0G035oB7YIachm4A3fBo
+TQID: 'https://experienceleague.adobe.com/ULR3Fb5MatuAz2nV4W8S8Nx0G035oB7YIachm4A3fBo'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
   - id: f18e6c98-d21a-4444-b84b-f327ce464de4
+    internal-label: Integrations
+  - id: b844878e-e10f-4719-b9dc-dd9b362335de
+    internal-label: Configuration and administration
+subfeature_v2:
+  - id: d60b52d2-425a-4695-8bae-976f27c4fef5
+    internal-label: Overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Customer experience
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 536
+source-wordcount: '536'
 ht-degree: 91%
-
 ---
-
 # 第 1 部：プロジェクト上の役割と責務 {#part-project-roles-and-responsibilities}
 
 >[!IMPORTANT]
@@ -37,7 +50,7 @@ ht-degree: 91%
 
 ## 概要 {#overview}
 
-以下のチュートリアルでは、アドビ、AEM 実装担当者、AV インテグレーターのプロジェクト上の役割と責務を大まかに説明します。 後続のエピソードを参照していくことで、AEM Screens のビジネス機会をうまく開発し、デプロイを長期的な成功を収めるように位置付ける方法の包括的な概要を把握できます。
+以下のチュートリアルでは、アドビ、AEM 実装担当者、AV インテグレーターのプロジェクト上の役割と責務を大まかに説明します。 後続のエピソードを参照していくことで、AEM Screens のビジネス機会をうまく開発し、デプロイメントを長期的な成功に向けて位置付ける方法の包括的な概要を把握できます。
 
 配信プロセスを通じて関与する主要なグループは次の 3 つです。
 
@@ -51,7 +64,7 @@ ht-degree: 91%
 
 ## デジタルサイネージプロジェクトに関与する役割の概要 {#summary-of-roles-involved-in-a-digital-signage-project}
 
-アドビ、AEM 実装担当者、AV インテグレーターと協力してアプリケーションのユースケースパラメーターを定義することで、ソフトウェア開発の範囲が広がります。 このプロセスにより、プロジェクト全体を通して特定されるパフォーマンスベンチマークと成功指標に基づく段階的アプローチが確立されます。
+アドビ、AEM 実装担当者、オーディオ／ビジュアル（AV）インテグレーターと協力してアプリケーションのユースケースパラメーターを定義することで、ソフトウェア開発の範囲が決まります。 このプロセスにより、プロジェクト全体を通して特定されるパフォーマンスベンチマークと成功指標に基づく段階的アプローチが確立されます。
 
 ### アドビ {#adobe}
 
@@ -63,7 +76,7 @@ ht-degree: 91%
 
 エンドカスタマー UX（ユーザーエクスペリエンス）パラメーターに対処するために必要なカスタム機能も、このプロセスを通じて特定および提供されます。
 
-AEM 実装担当者は、通常、段階的にカスタム機能を適所にデプロイします。 例えば、基本的なループビデオや静的なグラフィックコンテンツの再生のサポートを、最初に確立するなどが考えられます。 次のフェーズでは、動的テンプレートとメタデータタグを使用して、ローカライズされたコンテンツの再生をサポートします。 タッチスクリーン、センサー、動的トリガーなどを介したインタラクティブな要素のサポートを組み込んだ、その他のフェーズも含まれています。
+AEM 実装担当者は、通常、段階的にカスタム機能を各拠点にデプロイします。 例えば、基本的なループビデオや静的なグラフィックコンテンツの再生のサポートを、最初に確立するなどが考えられます。 次のフェーズでは、動的テンプレートとメタデータタグを使用して、ローカライズされたコンテンツの再生をサポートします。 タッチスクリーン、センサー、動的トリガーなどを介したインタラクティブな要素のサポートを組み込んだ、その他のフェーズも含まれています。
 
 #### オーディオビデオインテグレーター {#av-integrators}
 

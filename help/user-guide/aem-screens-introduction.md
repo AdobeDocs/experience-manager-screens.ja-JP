@@ -5,23 +5,36 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-TQID: https://experienceleague.adobe.com/bbQW2pnyxEfjm8d5SveI-CGuQN5RZCVmDt35iK3Ysxs
+TQID: 'https://experienceleague.adobe.com/bbQW2pnyxEfjm8d5SveI-CGuQN5RZCVmDt35iK3Ysxs'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: b844878e-e10f-4719-b9dc-dd9b362335de
+    internal-label: Configuration and administration
+  - id: facbaac7-c94d-465b-aee8-c0e11fad102c
+    internal-label: Core product features
+subfeature_v2:
+  - id: d60b52d2-425a-4695-8bae-976f27c4fef5
+    internal-label: Overview
+  - id: b0723018-81e0-4ba1-b4be-7cf61cc8c2ce
+    internal-label: Digital signage
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Implementation
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: '625'
 ht-degree: 92%
-
 ---
-
 # Adobe Experience Manager Screens とは{#what-is-aem-screens}
 
 >[!IMPORTANT]
@@ -35,9 +48,9 @@ Experience Manager as a Cloud Service で Experience Manager Screens プロジ�
 
 ## 概要 {#overview}
 
-**Experience Manager Screens**&#x200B;は、***Experience Manager Sites*** の強固な基盤の上に構築されています。 マーケターと IT 担当者は、ブランドの構築と需要の促進という店舗内および会場内の目標に影響を与えるエクスペリエンスを、複数のデジタル画面上で作成および管理できるようになります。 Experience Manager Screens と Sites を統合すると、既存のコンテンツを再利用し、一貫性のある顧客ソリューションを効果的に提供できます。 このワークフローは、費用対効果と有用性の非常に高い、専用デジタルエクスペリエンスを作成するために合理化されています。 さらに、ブランドの認知度に影響を与え、購入やエンゲージメントの増加につながる意思決定にも影響を及ぼすことができます。
+**Experience Manager Screens**&#x200B;は、***Experience Manager Sites*** の強固な基盤の上に構築されています。 マーケターと IT 担当者は、ブランドの構築と需要の促進という店舗内および会場内の目標に影響を与えるエクスペリエンスを、複数のデジタル画面上で作成および管理できるようになります。 Experience Manager Screens と Sites を統合すると、既存のコンテンツを再利用し、一貫性のある顧客ソリューションを効果的に提供できます。 このワークフローは、費用対効果と有用性の非常に高い、専用デジタルエクスペリエンスを作成するために合理化されています。 さらに、ブランドイメージに影響を与え、購入やエンゲージメントの増加につながる意思決定にも影響を及ぼすことができます。
 
-Experience Manager Screens は、専用のデジタルメニューボード、商品レコメンデーション、背景のライフスタイル画像を作成して、顧客とのやり取りを拡大できる強力な web ベースのソリューションです。 同じ Experience Manager プラットフォームから、店舗、ホテル、銀行、医療機関、教育機関などの物理的な場所に、統一された有用なブランドエクスペリエンスを提供するのに役立ちます。 Screens では、多数のユニークなアプリケーションを提供します。 例えば、インタラクティブなディスプレイ、ウェイファインディング、ブランディング、環境音の追加などを、それらがデプロイされるドメインに基づいて顧客や従業員に提供します。
+Experience Manager Screens は、専用のデジタルメニューボード、商品レコメンデーション、背景のライフスタイル画像を作成して、顧客とのやり取りを拡大できる強力な web ベースのソリューションです。 同じ Experience Manager プラットフォームから、店舗、ホテル、銀行、医療機関、教育機関などの物理的な場所に、統一された有用なブランドエクスペリエンスを提供するのに役立ちます。 Screens には、多数の独自の用途があります。 例えば、インタラクティブなディスプレイ、ウェイファインディング、ブランディング、環境音の追加などを、それらがデプロイされるドメインに基づいて顧客や従業員に提供します。
 
 Experience Manager Screens を使用したアプリケーションの作成と管理はシンプルかつ直感的です。 *アプリケーション*&#x200B;は、顧客や実装パートナーが Experience Manager Screens 向けに作成した web ページをホストします。 *場所*&#x200B;は、事前に定義された階層を管理し、*ディスプレイ*&#x200B;を含みます。 各ディスプレイには、関連付けられている様々なデバイスやスクリーンを表示するダッシュボードがあります。 Experience Manager Screens のコンテンツは&#x200B;*チャネル*&#x200B;で管理されます。 チャネル内に存在するコンテンツが Experience Manager Screens Player によってディスプレイにレンダリングされます。
 
@@ -74,7 +87,7 @@ Experience Manager Screens に関連する重要な用語を理解するには�
 
 * **Experience Manager Screens プロジェクトのベストプラクティスガイド**
 
-  Experience Manager Screens プロジェクトの実装時に一般的な問題を特定するように設計された、**[Experience Manager Screens プロジェクトのベストプラクティスガイド](/help/using/about-guide.md)**&#x200B;に従ってください。 この資料では主に、プロジェクトの役割と責任に焦点を当てています。 また、様々な役割についての RACI チャート、Experience Manager プラットフォームの設定、サポートと監視についても説明しています。
+  Experience Manager Screens プロジェクトの実装時に一般的な問題を特定するように設計された、**[Experience Manager Screens プロジェクトのベストプラクティスガイド](/help/using/about-guide.md)**&#x200B;に従ってください。 この資料では主に、プロジェクトの役割と責任に焦点を当てています。 また、様々な役割についての RACI チャート、Experience Manager プラットフォームの設定、サポートとモニタリングについても説明しています。
 
 <!-- 
 DEAD LINK * **New Adobe Customer Support Experience**

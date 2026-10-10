@@ -10,25 +10,33 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-TQID: https://experienceleague.adobe.com/4Qdx25kNW3IszlXshNPGYGMJNE9E2QQlndLjJICDrI4
+TQID: 'https://experienceleague.adobe.com/4Qdx25kNW3IszlXshNPGYGMJNE9E2QQlndLjJICDrI4'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Implementation
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 739
+source-wordcount: '739'
 ht-degree: 93%
-
 ---
-
 # Adobe Analytics と AEM Screens の統合 {#adobe-analytics-integration-with-aem-screens}
 
 >[!IMPORTANT]
@@ -36,7 +44,7 @@ ht-degree: 93%
 
 >[!CAUTION]
 >
->この AEM Screens 機能は、AEM 6.4.2 機能パック 2 の最小バージョンまたは AEM 6.3.3 機能パック 4 がインストールされている場合にのみ使用できます。 AEM Screens Cloud Service のお客様の場合、Screens Cloud でAdobe Analytics を有効にするには、アドビリレーションシップマネージャーにお問い合わせください。
+>この AEM Screens 機能は、AEM 6.4.2 機能パック 2 以降または AEM 6.3.3 機能パック 4 以降がインストールされている場合にのみ使用できます。 AEM Screens Cloud Service のお客様の場合、Screens Cloud でAdobe Analytics を有効にするには、アドビリレーションシップマネージャーにお問い合わせください。
 
 >[!NOTE]
 >
@@ -52,14 +60,14 @@ ht-degree: 93%
 
 ***AEM Screens*** で Adobe Analytics を使用することにより、特定の場所に表示されるコンテンツと他のデータソースとの関連性を探るのに役立つ、ユニークなクロスチャネル分析を実現できます。
 
-AEM Screens は、標準で Adobe Analytics と統合されており、再生検証機能を提供します。
+AEM Screens は、標準で Adobe Analytics と統合されており、再生証明を提供します。
 
 ここでは、AEM Screens プロジェクトと Adobe Analytics の連携に関係する以下の機能について説明します。
 
 * デバイス別の再生検証レポートが可能
 * アセット別の再生検証レポートが可能
 * すべてのプレーヤーイベントをキャプチャしタイムスタンプを設定できる
-* 再生がネットワークに接続されていない場合、すべてのプレーヤーイベントをローカルに保存できる
+* プレイがネットワークに接続されていない場合、すべてのプレーヤーイベントをローカルに保存できる
 * フィードバックループを作成して再生イベントを経時的に追跡できる
 * コンテンツ作成者が定義した成功条件に基づいてシステムがコンテンツやレイアウトを編集できる
 
@@ -106,7 +114,7 @@ Adobe Analytics を AEM Screens 用に設定するためのプロパティとそ
   </tr>
   <tr>
    <td><strong>Analytics URL</strong></td>
-   <td>プレーヤーから得られる分析データを投稿するための URL。 <br>
+   <td>プレーヤーから分析データを送信するための URL。 <br>
    開発／ステージング環境の場合</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>プロダクション環境の場合</em> - https://cc-api-data.adobe.io/ingest/<br /> <br /></td>
   </tr>
   <tr>

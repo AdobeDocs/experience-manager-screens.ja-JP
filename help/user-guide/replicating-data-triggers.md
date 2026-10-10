@@ -5,26 +5,35 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-TQID: https://experienceleague.adobe.com/T4JzIag-O6iz5ACtvG4mbsv-8pj0nHVKV08zwb2K9HE
+TQID: 'https://experienceleague.adobe.com/T4JzIag-O6iz5ACtvG4mbsv-8pj0nHVKV08zwb2K9HE'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+    internal-label: Personalization
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
+  - id: 60214ccf-ef04-5996-803b-33ea3ff710bf
+    internal-label: Data Trigger
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Personalization
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: '561'
 ht-degree: 91%
-
 ---
-
 # データトリガーの公開サーバーへのレプリケーション {#replicating-data-triggers}
 
 >[!IMPORTANT]
@@ -34,7 +43,7 @@ ContextHub と AEM ターゲティングエンジンを使用して、オーサ�
 
 このページでは、これらの設定を個別に公開するために必要な手動による手順を説明します。
 
-このプロセスでは基本的に、次の操作を手動で公開することになります。
+このプロセスでは基本的に、次の項目を手動で公開することになります。
 
 1. ContextHub ストアと UI モジュールの設定
 1. オーディエンスのパーソナライズ
@@ -94,7 +103,7 @@ ContextHub と AEM ターゲティングエンジンを使用して、オーサ�
 
 >[!IMPORTANT]
 >
->ContextHub 設定とオーディエンスは、アクティビティのレプリケーションと同時に、プロジェクトの設定中にレプリケーションされ、またレプリケーションはチャネル内でターゲティングが変更されるたびに必要になります。
+>ContextHub 設定とオーディエンスのレプリケーションはプロジェクトの設定時に行われます。一方、アクティビティのレプリケーションは、チャネル内でターゲティングが変更されるたびに必要になります。
 
 #### 結果 {#result}
 

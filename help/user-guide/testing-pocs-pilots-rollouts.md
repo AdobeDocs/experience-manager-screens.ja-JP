@@ -10,27 +10,38 @@ feature: Overview
 role: User, Developer
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-TQID: https://experienceleague.adobe.com/A4H90bjOjBOkU41MkPk6uLqo6Lbb377KAPaVi-0n1Vw
+TQID: 'https://experienceleague.adobe.com/A4H90bjOjBOkU41MkPk6uLqo6Lbb377KAPaVi-0n1Vw'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
   - id: f18e6c98-d21a-4444-b84b-f327ce464de4
+    internal-label: Integrations
+  - id: b844878e-e10f-4719-b9dc-dd9b362335de
+    internal-label: Configuration and administration
+subfeature_v2:
+  - id: d60b52d2-425a-4695-8bae-976f27c4fef5
+    internal-label: Overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Security
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: '593'
 ht-degree: 92%
-
 ---
-
 # 第 3 部：テスト、POC、パイロットとロールアウト {#part-testing-pocs-pilots-rollouts}
 
 >[!IMPORTANT]
@@ -52,7 +63,7 @@ ht-degree: 92%
 >
 >デジタルサイネージの大規模な導入の場合、一般的な販売サイクルは 9～18 か月に及ぶ可能性があります。 最終的なタイムラインに影響を与える要因は多数あります。 これらの要因には、エンドクライアントが成功を定量的に評価する方法と、新しいソリューションの導入時におけるビジネスパートナーのリスク回避傾向が含まれます。
 
-例えば、小売環境におけるデジタルサイネージプログラムの関係者には、次の情報が含まれます。
+例えば、小売環境におけるデジタルサイネージプログラムの関係者には、次のようなものが含まれます。
 
 * 店舗マーケティング
 * ストア環境またはビジュアルマーチャンダイジング
@@ -67,13 +78,13 @@ ht-degree: 92%
 
 ### 概念実証（POC） {#proof-of-concept-poc}
 
-POC の目的は、ソリューションの主要な機能に関する初期フィードバックを得ることです。 また、エンドクライアントと AV インテグレーターの両方が、改善点を特定し、労働要件とリソース要件に関する前提を準備する機会でもあります。 また、POC を使用すると、両者がソリューションのパフォーマンスを評価できます。これは通常、以下を通じて測定されます。
+POC の目的は、ソリューションの主要な機能に関する初期フィードバックを得ることです。 また、エンドクライアントと AV インテグレーターの両者にとって、改善点を特定し、労働要件とリソース要件に関する前提を準備する機会にもなります。 また、POC を使用すると、両者がソリューションのパフォーマンスを評価できます。これは通常、以下を通じて測定されます。
 
 ### 品質管理 {#quality-control}
 
-システムとソフトウェアの統合テストは、AV インテグレーターの IT エンジニアリングチームで開始されます。 IT エンジニアリングチームは、承認されたシステム設計を参考に、AV インテグレーターの施設の「ラボ環境」でハードウェアコンポーネントのインストールを設定、実装、管理します。 この方法により、品質管理を目的としたソリューション全体の詳細なレビューとテストが可能になります。
+システムとソフトウェアの統合テストは、AV インテグレーターの IT エンジニアリングチームで開始されます。 IT エンジニアリングチームは、承認されたシステム設計を参考に、AV インテグレーターの施設の「ラボ環境」でハードウェアコンポーネントのインストールを設定、実装し、監督します。 この方法により、品質管理を目的としたソリューション全体の詳細なレビューとテストが可能になります。
 
-QC（品質管理）テストが完了したら、Day 2 でのサポート期間中に、IT エンジニアリングチームはドキュメント、ワークフロー、トレーニング資料を参照用に作成します。 テストするシステムの側面は次のとおりです。
+QC（品質管理）テストが完了したら、IT エンジニアリングチームは、Day 2 でのサポート時に参照できるように、ドキュメント、ワークフロー、トレーニング資料を作成します。 テストするシステムの側面は次のとおりです。
 
 * AEM 実装担当者による統合
 * サードパーティのシステム統合

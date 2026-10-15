@@ -44,7 +44,7 @@ ht-degree: 91%
 # 第 1 部：プロジェクト上の役割と責務 {#part-project-roles-and-responsibilities}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 このページでは、5 部構成シリーズの第 1 部を紹介します。 このシリーズは、チームメンバーが、デジタルサイネージプロジェクトのセールスおよびプロジェクトのライフサイクルで必要な役割、責務、タイムラインをより深く理解できるように設計されています。
 
@@ -88,7 +88,7 @@ AEM 実装担当者は、通常、段階的にカスタム機能を各拠点に�
 
 ### 第 1 部：プロジェクト上の役割と責務
 
->[!VIDEO](https://video.tv.adobe.com/v/34077?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/28375)
 
 *アドビ、オーディオ／ビジュアルインテグレーター、AEM 実装担当者の役割と責務について学びます。*
 

@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens ヘルプ
 breadcrumb-title: AEM Screens ガイド
-user-guide-description: 動的でインタラクティブなデジタルエクスペリエンスおよびインタラクションの公開を可能にするデジタル署名ソリューションの使用方法について説明します。
+user-guide-description: 動的でインタラクティブなデジタルエクスペリエンスおよびインタラクションを公開できるデジタルサイネージソリューションの使用方法を学びます。
 feature-set: Experience Manager Screens
 feature: Content
 role: User
@@ -12,9 +12,7 @@ source-git-commit: f6d6f9295d60388b33c1a55752ce28c5b70f07ca
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 90%
-
 ---
-
 
 # AEM Screens ユーザーガイド {#user-guide}
 
@@ -25,10 +23,10 @@ ht-degree: 90%
   + [キーワード](screens-glossary.md)
   + [Screens の用語と概念](screens-concepts-feature-video-understand.md)
 + デジタルサイネージネットワークの基本 {#digital-signage-network}
-  + [第 1 部：プロジェクト上の役割と責務](project-roles-responsibilities.md)
+  + [パート 1：プロジェクトにおける役割と責務](project-roles-responsibilities.md)
   + [第 2 部：プロジェクト範囲を定義する際の検討事項](project-considerations.md)
   + [第 3 部：テスト、POC、パイロットとロールアウト](testing-pocs-pilots-rollouts.md)
-  + [第 4 部：プロジェクトの管理とデプロイメント](project-management-and-deployment.md)
+  + [パート 4：プロジェクト管理とデプロイメント](project-management-and-deployment.md)
   + [第 5 部：サポートに関する考慮事項](support-considerations.md)
 + 設定と管理 {#administering}
   + [Screens サーバーの設定](configuring-screens-introduction.md)
@@ -39,8 +37,8 @@ ht-degree: 90%
   + [ACL の設定](setting-up-acls.md)
   + [AEM Screens セキュリティチェックリスト](security-checklist.md)
   + [コンテンツ同期からスマート同期への移行](smartsync.md)
-  + [ファイルをソースとする新しいプロジェクトインポーター](project-importer.md)
-  + [データトリガーの公開サーバーへのレプリケーション](replicating-data-triggers.md)
+  + [ファイルからの新しいプロジェクトインポーター](project-importer.md)
+  + [データトリガーを公開サーバーにレプリケートする](replicating-data-triggers.md)
   + [Screens でのレプリケーションエージェントの設定](configure-screens-replication.md)
   + クライアント固有の考慮事項 {#installing-client}
     + [Chrome OS プレーヤー](implementing-chrome-os-player.md)
@@ -87,7 +85,7 @@ ht-degree: 90%
     + [データトリガーを使用したオーサリング](authoring-data-triggers.md)
     + [音声認識](voice-recognition.md)
     + [コンテンツ割り当てレポート](content-assignment-report.md)
-    + [ビデオのサムネールサポート](thumbnail-support.md)
+    + [ビデオのサムネイルサポート](thumbnail-support.md)
     + [AEM Screens でのアダプティブレンディションの使用](using-adaptive-renditions.md)
   + コンテンツ更新の管理 {#content-updates}
     + [オンデマンドのコンテンツ更新](on-demand-content.md)
@@ -101,7 +99,7 @@ ht-degree: 90%
     + [トランジションの適用](applying-transitions.md)
     + [マルチゾーンからシングルゾーンへの切り替え](multizone-to-singlezone.md)
     + [単一使用テイクオーバーチャネル](single-use-takeover-channel.md)
-    + [永続使用テイクオーバーチャネル](perpetual-takeover-channel.md)
+    + [テイクオーバーチャネルの永続的な使用](perpetual-takeover-channel.md)
 + 開発者およびAPIのリソース {#developing}
   + [REST API](rest-api.md)
   + [AEM Screens 用カスタムコンポーネントの開発](developing-custom-component-tutorial-develop.md)

@@ -5,23 +5,26 @@ exl-id: e3913be2-9028-4773-a034-e16924a71e04
 TQID: https://experienceleague.adobe.com/w0fVaYNPs2emLyL377rLTXLZRcXd05B56FtIn3Yjoqg
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 464
+source-wordcount: '464'
 ht-degree: 89%
-
 ---
-
 # デジタルサイネージプロジェクトの基本 {#basics-digital-signage}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 AEM Screens 実装のベストプラクティスに取りかかる前に、プロジェクトを、従来のソフトウェア開発ではなく、デジタルサイネージプロジェクトとして考えることが重要です。
 
@@ -43,58 +46,58 @@ AEM Screens 実装のベストプラクティスに取りかかる前に、プ�
    * 物理銅線の使用
    * 画面のサイズ
    * 画面の数
-      * 向き
-      * 縦横比
-      * 解像度環境設定
+     * 向き
+     * 縦横比
+     * 解像度環境設定
 
 1. **接続**
 
    接続では、次の質問に重点を置きます。
    * ネットワーク接続（セル または Wi-Fi）ですか、スタンドアロン接続ですか？
-      * USB コンテンツの更新を許可する必要がありますか？
-      * 使用状況のデータ収集を許可する必要がありますか？
+     * USB コンテンツの更新を許可する必要がありますか？
+     * 使用状況のデータ収集を許可する必要がありますか？
 
 1. **設置**
 
    「設置」には次のものが含まれます。
    * ディスプレイ：横置きまたは縦置き
-   * 画面はどのようにマウントされますか？
-      * 縦向きと横向き
-      * 完全ハウジング
-      * カバープレート
+   * 画面はどのように設置されていますか？
+     * 縦向きと横向き
+     * 完全ハウジング
+     * カバープレート
    * 器具支持具
-   * 要員：設備の設置とネットワークへの接続を担当します
-   * 電源と器具との距離
+   * 要員：設備の設置とネットワークへの接続の担当者
+   * 電源は器具からどのくらい離れていますか？
    * 物理パネルと実際のデバイスとの距離
 
 1. **コンテンツ**
 
    「コンテンツ」には次のものが含まれます。
    * シングルゾーンですか、マルチゾーンですか？
-      * 画面に同時に表示されるメディアアセットの数
-      * インタラクティブアプリケーションのページ数
-      * UI ループの定義
-      * データ駆動型コンテンツかどうか
+     * 画面に同時に表示されるメディアアセットの数
+     * インタラクティブアプリケーションのページ数
+     * UI ループの定義
+     * データ駆動型コンテンツかどうか
    * バージョン管理
 
 1. **インタラクティブ**
 
    「インタラクティブ」には次のものが含まれます。
    * 推奨タッチスクリーンタイプ（抵抗膜方式、静電容量式、マルチタッチ）
-      * ボタン押下
-      * ジェスチャ
+     * ボタン押下
+     * ジェスチャ
    * データトリガー（I／O）
-      * シリアルコマンドの送信／受信（接点の開閉、PLC など）
-      * 受信データが画面（RSS）に表示されるかコンテンツをトリガーする
-      * RFID／NFC／Bluetooth／iBeacon
-      * 外部サービス（天気予報、トラフィック）
+     * シリアルコマンドの送信／受信（接点の開閉、PLC など）
+     * 受信データの画面（RSS）への表示またはコンテンツのトリガー
+     * RFID／NFC／Bluetooth／iBeacon
+     * 外部サービス（天気予報、トラフィック）
 
 1. **環境**
 
    環境では次の点が重視されます。
    * ディスプレイの場所
-      * 屋内か屋外か
-      * 手が届かない位置にあるか直接露出しているか
+     * 屋内か屋外か
+     * 手が届かない位置にあるか直接露出しているか
    * 特別な温度要件があるか
    * 耐衝撃性であるか
    * 強い環境光があるか 強いコントラストがあるか
@@ -107,5 +110,5 @@ AEM Screens 実装のベストプラクティスに取りかかる前に、プ�
    * 出荷前にデバイスを設定（プログラミング）していますか？
    * 追跡目的で各シリアル番号をキャプチャする必要がありますか？
    * バックアップ電源の要件（無停止電源）はありますか？
-   * システムアップデートのデプロイ方法 デバイスをリモートで監視する方法 MDM ソリューションは必要か
+   * システムアップデートはどのようにデプロイされますか？ デバイスをリモートで監視する方法 MDM ソリューションは必要か
 

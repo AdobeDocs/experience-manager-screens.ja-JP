@@ -45,7 +45,7 @@ ht-degree: 92%
 # 第 3 部：テスト、POC、パイロットとロールアウト {#part-testing-pocs-pilots-rollouts}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 このページは 5 部構成シリーズの第 3 部で、ソリューションの開発を成功に導くうえで非常に重要な主要用語をロールアウト前にチームメンバーがより深く理解できる内容になっています。
 
@@ -101,7 +101,7 @@ QC（品質管理）テストが完了したら、IT エンジニアリングチ
 
 ### テスト、POC、パイロット、ロールアウト
 
->[!VIDEO](https://video.tv.adobe.com/v/34076?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/28405)
 
 *プロジェクトサイクル、ハードウェアテストに関係するアクション、概念実証、パイロット、ロールアウトなど、プロジェクト計画全体にかかわる重要な用語について説明します。*
 

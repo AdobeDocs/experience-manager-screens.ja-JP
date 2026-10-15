@@ -5,24 +5,28 @@ exl-id: a393ce2f-b774-4cd5-9001-c5cc24d445ae
 TQID: https://experienceleague.adobe.com/IM35QvUEU9ZfJAF5abHAIj4gNs88VE6PGz-TBT8ZAGI
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 776
+source-wordcount: '776'
 ht-degree: 93%
-
 ---
-
 # 直接インターネットネットワーク（有線／ワイヤレス） {#direct-internet-access}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 直接インターネットネットワークには、AEM Screens が接続する必要のある AEM クラウドサービスにアクセスするための、インターネットアクセスのエントリアクセスポイントが含まれています。
 
@@ -43,7 +47,7 @@ AEM Screens 通信用の標準ポートは次のとおりです。
 
 この設定で AEM Screen Player が正しく接続されていることを確認するには、次の手順に従います。
 
-1. 各 AEM Screens Player がルーターのネットワークに接続されていることを確認します。
+1. 各 AEM Screen プレーヤーがルーターのネットワークに接続されていることを確認します。
 1. システムブラウザーで URL を呼び出して、インターネット接続をテストします。
 
    >[!NOTE]
@@ -56,8 +60,8 @@ AEM Screens 通信用の標準ポートは次のとおりです。
 1. URL 呼び出しが成功した場合は、AEM Screens のインストールを続行し、登録をおこなうことができます。 AEM Screens を開始します。
 
    >[!NOTE]
-   >**トラブルシューティングのヒント
-   >AEM Screens が正しく接続されず、期待した内容が表示されない場合：
+   >**トラブルシューティングのヒント**
+   >AEM Screens が正しく接続されず、期待したコンテンツが表示されない場合は、
    >
    >1. インターネットルーターファイアウォールに `TCP/IP Port 80/443` に関する制限があるかどうかを確認します。
    >1. 必要なポートがすべて許可されていることを確認します。
@@ -74,17 +78,18 @@ AEM Screens 通信用の標準ポートは次のとおりです。
 
 このインターネット接続は、ネットワーク到達性に加えて、AEM Screens を動作させるのに十分な帯域幅を提供する性能を備えています。
 
-*十分*&#x200B;であるかどうかは、接続されている AEM Screens の数によって異なります。 また、スマートフォン、タブレット、レジ、コンピューター、ゲスト Wi-Fi ネットワークなど、ネットワーク内の他のユーザーの使用状況によって異なります。
+*十分*&#x200B;であるかどうかは、接続されている AEM Screens の数によって異なります。 また、スマートフォン、タブレット、レジ、コンピューター、ゲスト Wi-Fi ネットワークなど、ネットワーク内の他の消費者の使用状況によって異なります。
 
 >[!NOTE]
 >
->上記のデバイスは、インターネット接続への同時アクセスが可能で、ネットワークに接続するユーザーまたはコンピューターを増やすと帯域幅が直線的に減少します。
+>上記のデバイスは、インターネット接続への同時アクセスが可能で、ネットワークに接続するコンシューマーまたはコンピューターを増やすと帯域幅が直線的に減少します。
 
 ### ローカルエリアネットワーク {#lan-connection}
 
 ローカルエリアネットワーク（LAN）は、ネットワーク到達性に加えて、AEM Screens を動作させるのに十分な帯域幅を提供します。
 
-LAN ネットワークは通常、100 Mbps 以上のネットワークに相当するため、多くのデバイスを接続するのに十分な帯域幅が確保され、システムに対して優れたパフォーマンスを発揮します。Wi-Fi ソリューションで AEM Screens をインターネットリンクに接続することを想定している場合、最低でも `IEEE 802.11g` などの最新の Wi-Fi 標準を使用することをお勧めします。 この標準では、最大 54 Mbps までの接続をサポートします。 `802.11h-n` のような&#x200B;*新しい*&#x200B;標準はどれも高品質です。
+LAN ネットワークは通常、100 Mbps 以上のネットワークに相当するため、多くのデバイスを接続するのに十分な帯域幅が確保され、システムに対して優れたパフォーマンスを発揮します。
+Wi-Fi ソリューションで AEM Screens をインターネットリンクに接続することを想定している場合、最低でも `IEEE 802.11g` などの最新の Wi-Fi 標準を使用することをお勧めします。 この標準では、最大 54 Mbps までの接続をサポートします。 `802.11h-n` のような&#x200B;*新しい*&#x200B;標準はどれも高品質です。
 
 >[!NOTE]
 >
@@ -102,7 +107,7 @@ AEM Screens は、デジタルサイネージのユーザーに大きなメリ�
 
 >[!NOTE]
 >
->この情報から、インターネットソースをリクエストおよびダウンロードしてネットワーク内の各デバイスの消費量を確認できます。 これらのリクエストがすべて合計されて、ダウンロード時間が延長されます。
+>この情報により、インターネットソースにリクエストを送信してダウンロードすることで、ネットワーク内の各デバイスの消費量を確認できます。 これらのリクエストがすべて合計されて、ダウンロード時間が延長されます。
 
 ![](/help/assets/download-times-direct.png)
 

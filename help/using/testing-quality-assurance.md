@@ -5,27 +5,30 @@ exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
 TQID: https://experienceleague.adobe.com/So83gHv7n21zhdoCdWHVf0yswyQuSr1hLWmCA7uHSiE
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 392
+source-wordcount: '392'
 ht-degree: 86%
-
 ---
-
 # テストと品質保証 {#testing-quality}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 >[!NOTE]
 >このアクティビティの典型的な関係者は、オーディオビデオインテグレーターです。
 
-デジタルサイネージネットワークのデプロイメントが近づくと、すべてのハードウェアコンポーネント、すべてのソフトウェアコンポーネント、すべてのネットワークコンポーネントといったネットワークのすべての要素に対応するテストおよび QA 計画を作成します。この段階では、テストシステム全体を構築し、完全にテストする必要があります。
+デジタルサイネージネットワークのデプロイメントが近づくと、すべてのハードウェアコンポーネント、すべてのソフトウェアコンポーネント、すべてのネットワークコンポーネントといったネットワークのすべての要素に対応するテストおよび QA 計画を作成します。
+この段階では、テストシステム全体を構築し、完全にテストする必要があります。
 
 事前に定義した KPI をすべて特定し、KPI に照らして成果物を測定するチェックリストを作成してください。
 
@@ -60,14 +63,15 @@ ht-degree: 86%
 
 AEM Screens には、Screens Player アプリケーションエンドポイントを管理するためのデバイスコントロールセンターモジュールが含まれています。
 
-これは、Screens Player アプリケーションがインストールされていて、AEM のインスタンスに登録されているあらゆる&#x200B;*プレイヤー*&#x200B;ハードウェアデバイスを指します。このモジュールを使用すると、次のことができます。
+これは、Screens Player アプリケーションがインストールされていて、AEM のインスタンスに登録されているあらゆる&#x200B;*プレイヤー*ハードウェアデバイスを指します。
+このモジュールを使用すると、次のことができます。
 
 1. プレーヤーアプリケーションエラーログの監視
 1. リモートスクリーンショットの管理
 1. コンテンツダウンロードの管理
 1. アプリケーションの再起動に関する問題の管理
 
-***デバイスコントロールセンター***&#x200B;について詳しくは、**AEM Screens ユーザーガイド**&#x200B;の[デバイスコントロールセンターのトラブルシューティング](https://experienceleague.adobe.com/ja/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens)を参照してください。
+***デバイスコントロールセンター***&#x200B;について詳しくは、**AEM Screens ユーザーガイド**&#x200B;の[デバイスコントロールセンターのトラブルシューティング](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens)を参照してください。
 
 >[!CAUTION]
 >

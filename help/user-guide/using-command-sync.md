@@ -1,6 +1,6 @@
 ---
 title: コマンド同期の使用
-description: AEM Screens でコマンド同期を使用する方法について詳しく説明します。
+description: AEM Screens でコマンド同期を使用する方法について詳しくは、こちらを参照してください。
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
@@ -8,23 +8,28 @@ exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
 TQID: https://experienceleague.adobe.com/61R-NNkhkgGx2S0KOeteDn674PiOpX5k4YOVKBmQZIs
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 807
+source-wordcount: '807'
 ht-degree: 94%
-
 ---
-
 # コマンド同期 {#command-sync}
 
 >[!IMPORTANT]
@@ -71,7 +76,8 @@ ht-degree: 94%
 1. 次の図に示すように、**ロビー**&#x200B;というロケーションを作成し、**Locations** フォルダーに **LobbyDisplay** というタイトルのディスプレイを作成します。
    ![image1](assets/command-sync/command-sync3-1.png)
 
-1. チャネル **ChannelLobby** を **LobbyDisplay** に割り当てます。 これで、ディスプレイに割り当てられたチャネルを、ディスプレイダッシュボードで確認できます。   ![image1](assets/command-sync/command-sync4-1.png)
+1. チャネル **ChannelLobby** を **LobbyDisplay** に割り当てます。 これで、ディスプレイに割り当てられたチャネルを、ディスプレイダッシュボードで確認できます。
+   ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
    >
@@ -86,7 +92,8 @@ ht-degree: 94%
    >
    >デバイスの登録方法については、[デバイス登録](/help/user-guide/device-registration.md)を参照してください。
 
-1. デモ用に、この例では、Chrome デバイスと Windows プレーヤーを 2 つの異なるデバイスとして示します。 両方のデバイスが同じディスプレイを指しています。   ![image1](assets/command-sync6.png)
+1. デモ用に、この例では、Chrome デバイスと Windows プレーヤーを 2 つの異なるデバイスとして示します。 両方のデバイスが同じディスプレイを参照しています。
+   ![image1](assets/command-sync6.png)
 
 ### チャネル設定の更新
 
@@ -104,7 +111,9 @@ ht-degree: 94%
 
 ### プライマリの設定 {#setting-up-primary}
 
-1. **CommandSyncDemo**／**Locations**／**Lobby**／**LobbyDisplay** にあるディスプレイダッシュボードに移動します。 次に、アクションバーの「**ダッシュボード**」をクリックします。次に示すように、**デバイス**&#x200B;パネルに 2 つのデバイス（Chrome と Windows プレーヤー）が表示されます。   ![image1](assets/command-sync/command-sync10-1.png)
+1. **CommandSyncDemo**／**Locations**／**Lobby**／**LobbyDisplay** にあるディスプレイダッシュボードに移動します。 次に、アクションバーの「**ダッシュボード**」をクリックします。
+次に示すように、**デバイス**&#x200B;パネルに 2 つのデバイス（Chrome と Windows プレーヤー）が表示されます。
+   ![image1](assets/command-sync/command-sync10-1.png)
 
 1. **デバイス**&#x200B;パネルから、プライマリとして設定するデバイスをクリックします。 次の例は、Chrome デバイスをプライマリデバイスとして設定する方法を示しています。 「**プライマリデバイスとして設定**」をクリックします。
 
@@ -120,7 +129,8 @@ ht-degree: 94%
 
 ### プライマリとの同期 {#sync-up-primary}
 
-1. Chrome デバイスをプライマリとして設定したら、他のデバイス（この場合は Windows プレーヤー）をプライマリと同期します。**デバイス**&#x200B;パネルから別のデバイス（この場合は Windows プレーヤー）をクリックし、「**プライマリデバイスに同期**」をクリックします。
+1. Chrome デバイスをプライマリとして設定したら、他のデバイス（この場合は Windows プレーヤー）をプライマリと同期します。
+**デバイス**&#x200B;パネルから別のデバイス（この場合は Windows プレーヤー）をクリックし、「**プライマリデバイスに同期**」をクリックします。
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
@@ -128,7 +138,7 @@ ht-degree: 94%
 
    >[!NOTE]
    >
-   > **プライマリデバイスに同期**&#x200B;ダイアログボックスに、プライマリデバイスのリストが表示されます。 必要な項目を選択します。
+   > **プライマリデバイスに同期**&#x200B;ダイアログボックスに、プライマリデバイスのリストが表示されます。 優先するものを 1 つ選択します。
 
 1. デバイス（この例では Windows プレーヤー）がプライマリ（この例では Chrome プレーヤー）に同期されると、同期されたデバイスを&#x200B;**デバイス**&#x200B;パネルに表示できます。
 

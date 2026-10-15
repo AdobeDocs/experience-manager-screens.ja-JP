@@ -12,34 +12,40 @@ exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
 TQID: https://experienceleague.adobe.com/orHLShhCxLB8T9Dm8Vvihvy7GNGrmJQZt8toCPs5c3k
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: d8e42837-75d7-4e4e-accd-d0cdd8efe1f4
+    internal-label: Displays
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 710
+source-wordcount: '710'
 ht-degree: 86%
-
 ---
-
 # ディスプレイの作成と管理 {#creating-and-managing-displays}
 
 >[!IMPORTANT]
 >このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
-ディスプレイとは Screens の仮想グループのことで、隣り合って配置されます。 ディスプレイは、インストールに関して永続的です。 これは作成者が作業するオブジェクトコンテンツであり、物理的なディスプレイではなく常に論理的なディスプレイとして参照されます。
+ディスプレイとは、隣り合って配置された Screens の仮想グループのことです。 ディスプレイは、インストールに関して永続的です。 これは作成者が作業するオブジェクトコンテンツであり、物理的なディスプレイではなく常に論理的なディスプレイとして参照されます。
 
 ロケーションを作成したら、ロケーションのディスプレイを作成する必要があります。
 
-ここでは、Screens プロジェクトのディスプレイの作成と管理について説明します。
+このページでは、Screens のディスプレイの作成と管理について説明します。
 
 **前提条件**：
 
@@ -93,7 +99,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->デバイス設定がロケーションのディスプレイに設定されたら、次は、ディスプレイにチャネルを割り当てます。
+>デバイス設定がロケーションのディスプレイに割り当てられたら、次は、ディスプレイにチャネルを割り当てます。
 >
 >次の図に示すように、特定のデバイス設定にチャネルが割り当てられていない場合、デバイス設定が&#x200B;**デバイス**&#x200B;パネルに未割り当てとして表示されます。
 >

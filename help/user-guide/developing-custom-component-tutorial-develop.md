@@ -37,7 +37,7 @@ ht-degree: 97%
 # AEM Screens 用カスタムコンポーネントの開発 {#developing-a-custom-component-for-aem-screens}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 以下のチュートリアルでは、AEM Screens 用のカスタムコンポーネントを作成する手順について説明します。 AEM Screens では、他の AEM 製品の様々な既存のデザインパターンやテクノロジーを再利用しています。 このチュートリアルでは、AEM Screens 用に開発する際の相違点と特別な考慮事項について重点的に説明します。
 
@@ -67,7 +67,7 @@ Screens プロジェクトのソースコードは、通常、マルチモジュ
 
    [ファイルの取得](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
-   [ ファイルを取得](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
+   [&#x200B; ファイルを取得](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
    **（オプション）** Eclipse などの IDE を使用して作業する場合は、以下のソースパッケージをダウンロードします。 次の Maven コマンドを使用して、プロジェクトをローカルの AEM インスタンスにデプロイします。
 
    **`mvn -PautoInstallPackage clean install`**
@@ -599,7 +599,7 @@ public class MyCustomHandler extends AbstractResourceHandler {
 
 ## 完成したコード {#finished-code}
 
-チュートリアルで完成したコードは以下のとおりです。 **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** と **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** は、コンパイル済みの AEM パッケージです。 **SRC-screens-weretail-run-0.0.1.zip **は、Maven を使用してデプロイできる未コンパイルのソースコードです。
+チュートリアルで完成したコードは以下のとおりです。 **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** と **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** は、コンパイル済みの AEM パッケージです。 **SRC-screens-weretail-run-0.0.1.zip &#x200B;** は、Maven を使用してデプロイできる未コンパイルのソースコードです。
 
 [ファイルの取得](assets/screens-weretail-runuiapps-001-snapshot.zip)
 

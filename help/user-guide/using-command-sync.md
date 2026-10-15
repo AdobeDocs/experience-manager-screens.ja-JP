@@ -33,7 +33,7 @@ ht-degree: 94%
 # コマンド同期 {#command-sync}
 
 >[!IMPORTANT]
->このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
+>このコンテンツは、AEM オンプレミス/AMS （AEM 6.5LTSおよびAEM 6.5）に対して有効です。 AEM as a Cloud Service Screensの内容については、[AEM as a Cloud Service ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)を参照してください。
 
 以下では、コマンド同期の使用方法について説明します。 コマンド同期を使用すると、異なるプレーヤー間で再生を同期させることができます。 プレーヤーごとに異なるコンテンツを再生できますが、各アセットの再生時間は同じにする必要があります。
 
@@ -112,7 +112,7 @@ ht-degree: 94%
 ### プライマリの設定 {#setting-up-primary}
 
 1. **CommandSyncDemo**／**Locations**／**Lobby**／**LobbyDisplay** にあるディスプレイダッシュボードに移動します。 次に、アクションバーの「**ダッシュボード**」をクリックします。
-次に示すように、**デバイス**パネルに 2 つのデバイス（Chrome と Windows プレーヤー）が表示されます。
+次に示すように、**デバイス**&#x200B;パネルに 2 つのデバイス（Chrome と Windows プレーヤー）が表示されます。
    ![image1](assets/command-sync/command-sync10-1.png)
 
 1. **デバイス**&#x200B;パネルから、プライマリとして設定するデバイスをクリックします。 次の例は、Chrome デバイスをプライマリデバイスとして設定する方法を示しています。 「**プライマリデバイスとして設定**」をクリックします。

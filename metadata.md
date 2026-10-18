@@ -4,7 +4,9 @@ solution-title: AEM Screens
 solution: Experience Manager, Experience Manager Screens
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: "Experience Manager"
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: "Experience Manager Screens"
 usetq: true
 landing-page-name: experience-manager
 landing-page-breadcrumb-title: AEM
@@ -14,11 +16,9 @@ git-repo: https://github.com/AdobeDocs/experience-manager-screens.ja-JP
 recommendations: noDisplay
 source-git-commit: 890461ffd9b0963860573f02d9745073bcacd6dd
 workflow-type: tm+mt
-source-wordcount: 45
+source-wordcount: '39'
 ht-degree: 0%
-
 ---
-
 
 # 内部使用のためのメタデータ
 

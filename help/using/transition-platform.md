@@ -5,9 +5,12 @@ exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
 TQID: https://experienceleague.adobe.com/xefeUV4bgG-I7zVOGcAnNkcdx1Y-XQfmAr2bFT5nFN0
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 225

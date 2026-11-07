@@ -586,7 +586,7 @@ public class MyCustomHandler extends AbstractResourceHandler {
 
 以下のビデオでは、完成したコンポーネントと、それをシーケンスチャネルに追加する方法を示しています。 この後、チャネルはロケーションのディスプレイに追加され、最終的に Screens プレーヤーに割り当てられます。
 
->[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
+>[!VIDEO](https://video.tv.adobe.com/v/3507023?captions=jpn&quaity=9)
 
 ## 他のページやフラグメントを埋め込むカスタムコンポーネントに関するその他の考慮事項 {#additional-considerations}
 

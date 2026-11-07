@@ -533,7 +533,7 @@ AEM Screens コンポーネントは、編集モードとプレビュー／実�
 
 以下のビデオでは、完成したコンポーネントと、それをシーケンスチャネルに追加する方法を示しています。 この後、チャネルはロケーションのディスプレイに追加され、最終的には Screens player に割り当てられます。
 
->[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9)
+>[!VIDEO](https://video.tv.adobe.com/v/3507014?captions=jpn&quaity=9)
 
 ## 完成したコード {#finished-code}
 
